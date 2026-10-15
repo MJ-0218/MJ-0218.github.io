@@ -7,6 +7,10 @@ layout: default
     <h1 class="doc__title">{{ page.title | escape }}</h1>
     {%- if page.description %}<p class="doc__lede">{{ page.description }}</p>{% endif %}
     {%- if page.info_as_of %}<p class="stamp">정보 기준일 {{ page.info_as_of }}</p>{% endif %}
+    {%- if page.deadline %}
+    <p class="deadline" data-deadline="{{ page.deadline }}">신청 마감 {{ page.deadline }}</p>
+    <script>(function(){var e=document.querySelector('.deadline');var d=new Date(e.dataset.deadline+'T23:59:59+09:00');if(Date.now()>d){e.classList.add('is-closed');e.textContent='마감됨 · '+e.dataset.deadline+' — 이 글의 신청 정보는 지난 내용입니다';}})();</script>
+    {%- endif %}
   </header>
   {% include ad-slot.html slot="top" %}
   <div class="doc__body prose">

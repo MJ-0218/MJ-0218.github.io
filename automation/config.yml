@@ -1,20 +1,37 @@
-# 매일 자동 실행(Claude 세션)이 읽는 설정
+# 자동화 설정 — 트렌드 레이더(GitHub Actions)와 글쓰기 세션(Claude)이 함께 읽는다
 timezone: Asia/Seoul
 site_url: https://mj-0218.github.io      # 개인 도메인 연결 후 변경
 
-per_run:
-  broadcast: 1      # 방송 정보 글 (A) — 네이버/티스토리 붙여넣기용
-  evergreen: 1      # 계산기 연계 생활정보 글 (D) — 셈터 발행 + 붙여넣기용
+writer:
+  max_posts_per_run: 0      # 0 = 제한 없음. 기준을 통과한 후보는 전부 쓴다
+  min_score: 30             # 레이더 점수가 이 값 이상인 후보만 검토
+  style_min_score: 80       # style_check 점수 하한
+  review_passes: 2          # 초안 이후 재검수 횟수 (1: 문체, 2: 독자·사실)
 
-# 방송 정보 글 대상 프로그램 (방송사 공식 편성/다시보기 페이지로 교차 확인)
-programs:
-  - { name: "생생정보", channel: KBS2 }
-  - { name: "생방송 오늘저녁", channel: MBC }
-  - { name: "생방송 투데이", channel: SBS }
-  - { name: "6시 내고향", channel: KBS1 }
-  - { name: "생활의 달인", channel: SBS }
-  - { name: "백반기행", channel: TV조선 }
-
-review:
-  passes: 2         # 초안 이후 재검수 횟수 (1: 문체, 2: 독자·사실)
-  min_score: 80     # style_check 점수 하한
+radar:
+  # 레이더가 Google 뉴스에서 '최근 24시간 기사 수'를 세는 감시 키워드 (주기적 정부 발표·생활 수요)
+  watch_keywords:
+    - 청년 특별공급
+    - 청약 일정
+    - 무순위 청약
+    - 행복주택 모집
+    - 신혼희망타운
+    - 근로장려금
+    - 자녀장려금
+    - 청년월세 지원
+    - 청년도약계좌
+    - 에너지바우처
+    - 기초연금 인상
+    - 부모급여
+    - 민생지원금
+    - 연말정산 간소화
+    - 종합소득세 신고
+    - 최저임금 결정
+    - 사전투표소
+    - 재보궐선거
+    - 생생정보 맛집
+    - 생방송 투데이 맛집
+  korea_kr_feeds:
+    - https://www.korea.kr/rss/policy.xml
+    - https://www.korea.kr/rss/pressrelease.xml
+  # applyhome.endpoint 를 바꾸면 청약홈 API 주소를 덮어쓴다 (DATA_GO_KR_KEY 필요)

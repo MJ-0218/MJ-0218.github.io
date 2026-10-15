@@ -216,3 +216,7 @@ tr.is-current td { background: rgba(207, 58, 31, 0.08); font-weight: 700; }
 .colophon p { margin: 0 0 6px; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* 신청 마감 표시 */
+.deadline { display: inline-block; margin: 16px 0 0 8px; padding: 4px 10px; background: var(--ink); color: var(--paper); font: 700 13px/1.4 var(--mono); }
+.deadline.is-closed { display: block; margin: 16px 0 0; background: var(--seal); color: var(--seal-ink); }

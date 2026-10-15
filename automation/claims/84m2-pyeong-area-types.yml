@@ -1,0 +1,27 @@
+# 84m2-pyeong-area-types 사실 근거
+- claim: "1평의 ㎡ 환산"
+  value: "3.3㎡"
+  quote: "똑같은 한 평이라도 토지는 3.3㎡이지만 유리는 0.09㎡다"
+  source: https://www.mt.co.kr/index.php/article/2007062206164702138
+- claim: "비법정단위(평) 단속 시작 시점"
+  value: "2007년 7월"
+  quote: "7월부터"
+  value_note: "기사 제목·본문의 '7월부터'와 기사 날짜(2007-06-22)를 합친 값"
+  source: https://www.mt.co.kr/index.php/article/2007062206164702138
+- claim: "공동주택 공급면적의 세대별 표시는 주거전용면적"
+  value: "주거전용면적"
+  quote: "주거의 용도로만 쓰이는 면적"
+  value_note: "원문은 이 면적을 '주거전용면적'이라 정의함"
+  source: https://www.molit.go.kr/USR/law/m_46/pop.jsp?r_id=41207
+- claim: "예시 주택형"
+  value: "84㎡ 59㎡ 114㎡ 1평"
+  derived: "글에서 예로 든 전용면적과 단위 정의 (1평 = 400/121㎡)"
+- claim: "평 환산값"
+  value: "25.4평 17.8평 34.5평"
+  derived: "84÷3.3058=25.41, 59÷3.3058=17.85, 114÷3.3058=34.49"
+- claim: "통칭 평형 예시"
+  value: "34평 25평"
+  derived: "독자가 흔히 쓰는 통칭을 인용한 표현 (사실 주장 아님)"
+- claim: "전용률 계산 예시"
+  value: "112㎡ 115㎡ 75% 73%"
+  derived: "가정한 공급면적 112·115㎡로 계산: 84÷112=0.75, 84÷115=0.730"

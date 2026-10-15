@@ -1,0 +1,39 @@
+# 30분마다 실시간 검색 급상승어 + 정부 공식 발표를 모아 radar-data 브랜치에 저장
+name: trend-radar
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: trend-radar, cancel-in-progress: false }
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml
+      - name: 수집
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: python3 automation/scripts/trend_radar.py --out /tmp/radar/latest.json --history /tmp/radar/history
+      - name: radar-data 브랜치에 저장
+        run: |
+          git config user.name "semter-radar"
+          git config user.email "radar@users.noreply.github.com"
+          if git fetch origin radar-data 2>/dev/null; then
+            git worktree add /tmp/rd origin/radar-data && cd /tmp/rd && git checkout -B radar-data
+          else
+            git worktree add --orphan -b radar-data /tmp/rd && cd /tmp/rd
+          fi
+          mkdir -p trends/history
+          cp /tmp/radar/latest.json trends/latest.json
+          for f in /tmp/radar/history/*.jsonl; do cat "$f" >> "trends/history/$(basename "$f")"; done
+          # 기록은 14일만 보관
+          find trends/history -name '*.jsonl' -mtime +14 -delete || true
+          git add -A trends
+          git commit -q -m "radar $(TZ=Asia/Seoul date '+%F %H:%M')" || exit 0
+          git push -q origin radar-data
