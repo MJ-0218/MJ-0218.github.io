@@ -1,1 +1,27 @@
-hello
+---
+layout: default
+description: 평수, 퇴직금, 연차처럼 매번 검색하게 되는 생활 숫자를 바로 계산해 주는 도구와 출처를 확인한 생활 정보 글.
+---
+<section class="index-head">
+  <h1>검색하던 그 숫자,<br><em>여기서</em> 바로 셈합니다.</h1>
+  <p>평수, 퇴직금, 연차처럼 꼭 한 번은 검색하게 되는 숫자를 바로 계산해 주는 서식 모음입니다. 글은 출처를 확인한 것만 올립니다.</p>
+</section>
+<div class="ruler" aria-hidden="true"></div>
+
+<div class="section-label" id="tools"><h2>계산 서식</h2><span>{{ site.data.tools | size }} forms</span></div>
+<ul class="ledger">
+  {%- for t in site.data.tools %}
+  <li><a href="{{ t.url | relative_url }}"><span class="ledger__no">No.{{ t.num }}</span><span class="ledger__title">{{ t.title }}</span><span class="ledger__hint">{{ t.hint }}</span></a></li>
+  {%- endfor %}
+</ul>
+
+{% include ad-slot.html slot="inline" %}
+
+<div class="section-label" id="notes"><h2>정보 글</h2><span>latest</span></div>
+<ul class="ledger">
+  {%- for post in site.posts limit: 30 %}
+  <li><a href="{{ post.url | relative_url }}"><span class="ledger__no">{{ post.category | default: "정보" }}</span><span class="ledger__title">{{ post.title | escape }}</span><span class="ledger__hint">{{ post.description | truncate: 60 }}</span><span class="ledger__date">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
+  {%- else %}
+  <li class="ledger__empty">아직 글이 없습니다.</li>
+  {%- endfor %}
+</ul>

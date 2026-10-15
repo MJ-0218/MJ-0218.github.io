@@ -1,18 +1,17 @@
 ---
 layout: page
-title: About
+title: 소개
 permalink: /about/
+description: 셈터는 생활 속 숫자를 바로 계산해 주는 도구와 출처를 확인한 정보 글을 모아 둔 곳입니다.
 ---
+<div class="prose" markdown="1">
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+**셈터**는 "이거 몇 평이지?", "퇴직금 얼마 나오지?"처럼 한 번씩 꼭 검색하게 되는 숫자를 바로 계산해 주려고 만든 곳입니다.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- 계산기는 법령과 공공기관 자료를 기준으로 만들고, 기준이 바뀌면 고칩니다.
+- 정보 글은 두 곳 이상의 출처로 확인한 내용만 올리고, 글마다 출처와 정보 기준일을 적습니다.
+- 글 초안 작성에 AI 도구를 쓰고, 사람이 사실 확인과 편집을 마친 뒤 발행합니다.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+틀린 내용을 발견하면 [GitHub](https://github.com/MJ-0218/MJ-0218.github.io/issues)로 알려 주세요.
 
-
-[jekyll-organization]: https://github.com/jekyll
+</div>

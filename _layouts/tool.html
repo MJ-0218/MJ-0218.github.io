@@ -1,0 +1,23 @@
+---
+layout: default
+schema: calculator
+---
+{%- assign t = site.data.tools | where: "slug", page.slug | first -%}
+<article class="tool">
+  <header class="tool__head">
+    <p class="tool__no">서식 No.{{ t.num | default: "000" }}</p>
+    <h1 class="tool__title">{{ page.title | escape }}</h1>
+    <p class="tool__lede">{{ page.description }}</p>
+  </header>
+  {{ content }}
+  {% include ad-slot.html slot="bottom" %}
+  <nav class="related" aria-label="다른 계산기">
+    <h2>다른 계산기</h2>
+    <ul class="ledger">
+      {%- for o in site.data.tools %}{% if o.slug != page.slug %}
+      <li><a href="{{ o.url | relative_url }}"><span class="ledger__no">No.{{ o.num }}</span><span class="ledger__title">{{ o.title }}</span><span class="ledger__hint">{{ o.hint }}</span></a></li>
+      {%- endif %}{% endfor %}
+    </ul>
+  </nav>
+</article>
+<script src="{{ '/assets/js/tools.js' | relative_url }}"></script>

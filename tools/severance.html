@@ -1,0 +1,63 @@
+---
+title: 퇴직금 계산기
+slug: severance
+permalink: /tools/severance/
+description: 입사일, 마지막 근무일, 최근 3개월 급여만 넣으면 법정 퇴직금을 계산합니다. 상여금과 연차수당 반영까지.
+---
+<form class="form" data-tool="severance" onsubmit="return false">
+  <div class="form__caption"><span>법정 퇴직금 (세전)</span><span>근로자퇴직급여 보장법 §8</span></div>
+  <div class="row">
+    <label for="start">입사일</label>
+    <div class="row__field"><input id="start" type="date" required></div>
+  </div>
+  <div class="row">
+    <label for="last">마지막 근무일</label>
+    <div class="row__field"><input id="last" type="date" required><small>퇴직일은 마지막 근무일의 다음 날로 계산합니다.</small></div>
+  </div>
+  <div class="row">
+    <label for="monthly">월 급여 (세전)</label>
+    <div class="row__field"><input id="monthly" type="number" inputmode="numeric" min="0" step="10000" placeholder="3000000"><span class="unit">원</span><small>입력하면 아래 3개월 임금총액이 자동으로 ×3 채워집니다.</small></div>
+  </div>
+  <div class="row">
+    <label for="wage3">최근 3개월 임금총액</label>
+    <div class="row__field"><input id="wage3" type="number" inputmode="numeric" min="0" step="10000"><span class="unit">원</span><small>기본급 + 고정·변동 수당 포함. 달마다 다르면 직접 합계를 넣으세요.</small></div>
+  </div>
+  <div class="row">
+    <label for="bonus">연간 상여금</label>
+    <div class="row__field"><input id="bonus" type="number" inputmode="numeric" min="0" step="10000" value="0"><span class="unit">원</span><small>퇴직 전 1년간 받은 상여금 총액. 3/12만 반영됩니다.</small></div>
+  </div>
+  <div class="row">
+    <label for="leavepay">연차수당</label>
+    <div class="row__field"><input id="leavepay" type="number" inputmode="numeric" min="0" step="10000" value="0"><span class="unit">원</span><small>퇴직 전 이미 지급 사유가 확정된 연차수당. 3/12만 반영됩니다.</small></div>
+  </div>
+  <div class="result" aria-live="polite">
+    <p class="result__label">예상 퇴직금 (세전)</p>
+    <p class="result__value" id="out">—</p>
+    <p class="result__note" id="note"></p>
+  </div>
+  <p class="warn" id="warn" hidden></p>
+</form>
+
+<section class="explain prose">
+  <h2>계산식</h2>
+  <div class="callout">
+    <p><strong>퇴직금 = 1일 평균임금 × 30일 × (재직일수 ÷ 365)</strong></p>
+    <p style="margin:0">1일 평균임금 = (퇴직 전 3개월 임금총액 + 연간 상여금 × 3/12 + 연차수당 × 3/12) ÷ 그 3개월의 총일수</p>
+  </div>
+  <p>3개월의 총일수는 달력 그대로 셉니다. 그래서 같은 월급이라도 퇴직 시점에 따라 89일에서 92일 사이로 달라지고, 결과도 조금씩 바뀝니다.</p>
+
+  <h2>받을 수 있는 조건</h2>
+  <ul>
+    <li>같은 사업장에서 <strong>1년 이상</strong> 계속 일했을 것</li>
+    <li>4주 평균 <strong>1주 소정근로시간이 15시간 이상</strong>일 것</li>
+  </ul>
+  <p>정규직, 계약직, 아르바이트 같은 고용 형태와는 상관없습니다. 지급 기한은 원칙적으로 퇴직일로부터 14일 이내입니다.</p>
+
+  <h2>이 계산기가 다루지 않는 것</h2>
+  <ul>
+    <li>계산된 1일 평균임금이 1일 통상임금보다 적으면 통상임금을 기준으로 합니다. 이 계산기는 통상임금 비교를 하지 않습니다.</li>
+    <li>퇴직연금(DB·DC)에 가입한 회사라면 금액 산정 방식이 다를 수 있습니다.</li>
+    <li>결과는 세전 금액입니다. 퇴직소득세는 근속연수에 따라 따로 계산됩니다.</li>
+  </ul>
+  <p>정확한 금액은 고용노동부 상담센터(국번 없이 1350)나 노무사에게 확인하세요.</p>
+</section>

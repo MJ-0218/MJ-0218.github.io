@@ -1,0 +1,63 @@
+---
+title: 평수 계산기 (㎡ ↔ 평)
+slug: pyeong
+permalink: /tools/pyeong/
+description: 아파트 분양 공고의 ㎡를 평으로, 평을 ㎡로 바로 바꿔 줍니다. 전용면적과 공급면적이 왜 다른지도 같이 정리했습니다.
+---
+<form class="form" data-tool="pyeong" onsubmit="return false">
+  <div class="form__caption"><span>면적 환산</span><span>1평 = 3.3058㎡</span></div>
+  <div class="row">
+    <span class="row__label">입력 단위</span>
+    <div class="row__field">
+      <div class="seg" role="group" aria-label="입력 단위">
+        <button type="button" data-mode="m2" aria-pressed="true">㎡ → 평</button>
+        <button type="button" data-mode="py" aria-pressed="false">평 → ㎡</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <label for="area">면적</label>
+    <div class="row__field">
+      <input id="area" type="number" inputmode="decimal" min="0" step="any" value="84" autocomplete="off">
+      <span class="unit" id="area-unit">㎡</span>
+      <small>분양 공고에 적힌 숫자 그대로 넣으세요. 예: 59, 84, 114</small>
+    </div>
+  </div>
+  <div class="result" aria-live="polite">
+    <p class="result__label">결과</p>
+    <p class="result__value" id="out">—</p>
+    <p class="result__note" id="note"></p>
+  </div>
+</form>
+
+<section class="explain prose">
+  <h2>84㎡가 25평인데, 왜 다들 34평이라고 할까</h2>
+  <p>계산기에 84를 넣으면 약 25.4평이 나옵니다. 그런데 부동산에서는 같은 집을 "34평"이라고 부릅니다. 둘 다 맞는 숫자이고, 기준 면적만 다릅니다.</p>
+  <ul>
+    <li><strong>전용면적</strong>: 현관문 안쪽, 우리 가족만 쓰는 공간입니다. 분양 공고의 "84㎡"는 보통 이 숫자입니다.</li>
+    <li><strong>공급면적</strong>: 전용면적에 계단, 복도, 엘리베이터 같은 주거공용면적을 더한 값입니다. 흔히 말하는 "34평"은 이쪽 기준입니다.</li>
+    <li><strong>계약면적</strong>: 공급면적에 지하주차장, 관리사무소 같은 기타공용면적까지 더한 값입니다.</li>
+  </ul>
+  <p>그래서 같은 단지라도 공급면적을 전용면적으로 나눈 비율(전용률)이 단지마다 다릅니다. 공급면적을 알고 싶다면 분양 공고문이나 건축물대장의 면적표를 확인하는 게 가장 정확합니다.</p>
+
+  <h2>자주 찾는 면적 환산표 (전용면적 기준)</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>전용면적</th><th class="num">평 환산</th><th>흔히 부르는 이름</th></tr></thead>
+      <tbody>
+        <tr><td>39㎡</td><td class="num">11.80평</td><td>소형, 1~2인 가구</td></tr>
+        <tr><td>49㎡</td><td class="num">14.82평</td><td>소형</td></tr>
+        <tr><td>59㎡</td><td class="num">17.85평</td><td>"25평형"대</td></tr>
+        <tr><td>74㎡</td><td class="num">22.39평</td><td>"30평형"대 초반</td></tr>
+        <tr><td>84㎡</td><td class="num">25.41평</td><td>"34평형", 국민평형</td></tr>
+        <tr><td>101㎡</td><td class="num">30.55평</td><td>"40평형"대 초반</td></tr>
+        <tr><td>114㎡</td><td class="num">34.49평</td><td>"45평형"대</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="muted">"○○평형"은 단지별 공급면적에 따라 1~2평씩 달라질 수 있습니다.</p>
+
+  <h2>계산식</h2>
+  <p>1평은 사방 6자(약 1.818m)인 정사각형 넓이로, 400/121㎡ ≈ <code>3.3058㎡</code>입니다. ㎡를 평으로 바꿀 때는 3.3058로 나누고, 평을 ㎡로 바꿀 때는 곱합니다. 빠르게 어림할 때는 ㎡에 0.3025를 곱해도 됩니다.</p>
+  <p>참고로 2007년 7월부터 상거래와 광고에서는 법정계량단위인 ㎡를 써야 합니다. 그래서 분양 공고나 건축물대장 같은 공식 문서는 ㎡ 기준이고, 평은 법이 정한 요건을 갖춘 경우에만 ㎡ 옆에 함께 쓸 수 있습니다.</p>
+</section>

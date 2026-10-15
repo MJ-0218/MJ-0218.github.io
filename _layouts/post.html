@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="doc">
+  <header class="doc__head">
+    <p class="doc__kicker">{% if page.category %}{{ page.category }}{% else %}정보{% endif %} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time></p>
+    <h1 class="doc__title">{{ page.title | escape }}</h1>
+    {%- if page.description %}<p class="doc__lede">{{ page.description }}</p>{% endif %}
+    {%- if page.info_as_of %}<p class="stamp">정보 기준일 {{ page.info_as_of }}</p>{% endif %}
+  </header>
+  {% include ad-slot.html slot="top" %}
+  <div class="doc__body prose">
+    {{ content }}
+  </div>
+  {%- if page.sources %}
+  <section class="sources">
+    <h2>출처</h2>
+    <ol>
+      {%- for s in page.sources %}
+      <li><a href="{{ s.url }}" rel="nofollow noopener" target="_blank">{{ s.title }}</a></li>
+      {%- endfor %}
+    </ol>
+  </section>
+  {%- endif %}
+  {%- if page.related_tool %}
+  {%- assign t = site.data.tools | where: "slug", page.related_tool | first -%}
+  {%- if t %}
+  <a class="crosslink" href="{{ t.url | relative_url }}"><span class="crosslink__no">No.{{ t.num }}</span> 바로 계산해 보기 — {{ t.title }} →</a>
+  {%- endif %}
+  {%- endif %}
+  {% include ad-slot.html slot="bottom" %}
+</article>

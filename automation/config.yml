@@ -1,0 +1,20 @@
+# 매일 자동 실행(Claude 세션)이 읽는 설정
+timezone: Asia/Seoul
+site_url: https://mj-0218.github.io      # 개인 도메인 연결 후 변경
+
+per_run:
+  broadcast: 1      # 방송 정보 글 (A) — 네이버/티스토리 붙여넣기용
+  evergreen: 1      # 계산기 연계 생활정보 글 (D) — 셈터 발행 + 붙여넣기용
+
+# 방송 정보 글 대상 프로그램 (방송사 공식 편성/다시보기 페이지로 교차 확인)
+programs:
+  - { name: "생생정보", channel: KBS2 }
+  - { name: "생방송 오늘저녁", channel: MBC }
+  - { name: "생방송 투데이", channel: SBS }
+  - { name: "6시 내고향", channel: KBS1 }
+  - { name: "생활의 달인", channel: SBS }
+  - { name: "백반기행", channel: TV조선 }
+
+review:
+  passes: 2         # 초안 이후 재검수 횟수 (1: 문체, 2: 독자·사실)
+  min_score: 80     # style_check 점수 하한
