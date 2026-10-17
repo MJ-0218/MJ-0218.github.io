@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>발행 대기함</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f3eee2;--paper2:#ebe4d3;--ink:#16130f;--ink2:#4a443b;--muted:#7a7266;--seal:#cf3a1f;--sealink:#fff7ef;--field:#fffdf7;--ok:#2f6b3f;--grid:rgba(22,19,15,.055)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#13161b;--paper2:#1b1f26;--ink:#ede6d6;--ink2:#c4bcaa;--muted:#8d8676;--seal:#ff6a45;--sealink:#1a0d08;--field:#0e1014;--ok:#7fc48f;--grid:rgba(237,230,214,.045);color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#13161b;--paper2:#1b1f26;--ink:#ede6d6;--ink2:#c4bcaa;--muted:#8d8676;--seal:#ff6a45;--sealink:#1a0d08;--field:#0e1014;--ok:#7fc48f;--grid:rgba(237,230,214,.045);color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);background:var(--paper);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:24px 24px;font:16px/1.6 "IBM Plex Sans KR",sans-serif;word-break:keep-all;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{border-bottom:2px solid var(--ink);padding-block:20px 16px;max-width:980px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between}
+h1{margin:0;font:700 clamp(1.8rem,5vw,2.6rem)/1.1 "Gowun Batang",serif}
+h1 em{font-style:normal;color:var(--seal)}
+.meta{font:13px/1.4 "IBM Plex Mono",monospace;color:var(--muted)}
+.filters{max-width:980px;margin:14px auto 0;display:flex;gap:8px;flex-wrap:wrap}
+.filters button{font:600 13px "IBM Plex Sans KR";padding:6px 12px;border:2px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.filters button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+main{max-width:980px;margin:0 auto;padding-block:16px 80px}
+.card{background:var(--field);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);margin:22px 0;position:relative}
+.card.done{opacity:.55;box-shadow:none}
+.card.blocked{box-shadow:4px 4px 0 var(--seal)}
+.top{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:14px 16px;border-bottom:2px solid var(--ink)}
+.kick{font:600 12px/1.4 "IBM Plex Mono",monospace;color:var(--seal);letter-spacing:.04em}
+.title{font:700 1.2rem/1.35 "Gowun Batang",serif;margin:2px 0 0;text-wrap:balance}
+.top>div{min-width:0}
+.slot{grid-row:1/3;grid-column:2;text-align:right;font:600 13px/1.3 "IBM Plex Mono",monospace}
+.slot b{display:block;font-size:20px}
+.stamp{position:absolute;right:14px;top:-14px;padding:3px 8px;border:2px solid var(--ok);color:var(--ok);background:var(--field);font:700 12px "Gowun Batang",serif;transform:rotate(4deg)}
+.blocked .stamp{border-color:var(--seal);color:var(--seal)}
+.checks{padding:10px 16px;font-size:14px;border-bottom:1px solid var(--ink);background:var(--paper2)}
+.checks ul{margin:4px 0 0;padding-left:18px}
+.checks .bad{color:var(--seal);font-weight:600}
+.tabs{display:flex;border-bottom:1px solid var(--ink)}
+.tabs button{flex:1;font:700 14px "IBM Plex Sans KR";padding:10px;border:0;background:transparent;color:var(--ink);cursor:pointer;border-right:1px solid var(--ink)}
+.tabs button:last-child{border-right:0}
+.tabs button[aria-selected=true]{background:var(--ink);color:var(--paper)}
+.pane{padding:12px 16px 16px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;align-items:center}
+.actions button{font:700 14px "IBM Plex Sans KR";padding:9px 14px;border:0;background:var(--seal);color:#fff;cursor:pointer}
+.actions button.sec{background:transparent;color:var(--ink);border:2px solid var(--ink);padding:7px 12px}
+.actions label{margin-left:auto;font-weight:700;font-size:14px;display:flex;gap:6px;align-items:center;cursor:pointer}
+.actions input{width:18px;height:18px;accent-color:var(--seal)}
+.tags{font:13px/1.6 "IBM Plex Mono",monospace;color:var(--ink2);margin:0 0 10px}
+details summary{cursor:pointer;font:600 13px "IBM Plex Mono",monospace;color:var(--muted)}
+.preview{background:var(--field);color:var(--ink);padding:16px;margin-top:8px;max-height:420px;overflow:auto;border:1px solid var(--muted)}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 16px;font-weight:700;display:none}
+.empty{padding:40px 0;color:var(--muted)}
+</style></head><body>
+<header><h1>발행 <em>대기함</em></h1><p class="meta">1편 · 생성 2026-10-17 16:33 KST</p></header>
+<div class="filters" role="group" aria-label="보기">
+  <button data-f="todo" aria-pressed="true">발행 전</button><button data-f="all" aria-pressed="false">전체</button><button data-f="blocked" aria-pressed="false">검증 실패</button>
+</div>
+<main id="list"></main><div class="toast" id="toast"></div>
+<script>
+var DATA=[{"slug": "84m2-pyeong-area-types", "category": "부동산", "deadline": "", "trend": "", "slot": "10/17 17:00", "ok": true, "problems": [], "manual": [], "style": 100, "similarity": 0.15, "naver": {"title": "84㎡는 몇 평? 같은 집이 25평도 되고 34평도 되는 이유", "html": "<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">전용면적 84㎡는 약 <strong>25.4평<\/strong>입니다. 84를 3.3058로 나눈 값이죠. 그런데 중개사무소나 단지 이름에서는 같은 집을 \"34평\"이라고 부릅니다. 계산이 틀린 게 아니라, 재는 범위가 다릅니다.<\/p>\n<h2 style=\"font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;\">면적은 세 겹으로 잽니다<\/h2>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">아파트 한 세대의 넓이는 어디까지 포함하느냐에 따라 세 가지 숫자가 나옵니다.<\/p>\n<table style=\"border-collapse:collapse;width:100%;margin:16px 0;font-size:15px;\">\n<thead>\n<tr>\n<th style=\"border-bottom:2px solid #222;padding:8px;text-align:left;\">구분<\/th>\n<th style=\"border-bottom:2px solid #222;padding:8px;text-align:left;\">포함 범위<\/th>\n<th style=\"border-bottom:2px solid #222;padding:8px;text-align:left;\">84㎡ 세대 예시<\/th>\n<\/tr>\n<\/thead>\n<tbody>\n<tr>\n<td style=\"border-bottom:1px solid #999;padding:8px;\">전용면적<\/td>\n<td style=\"border-bottom:1px solid #999;padding:8px;\">현관문 안쪽, 우리 집만 쓰는 공간<\/td>\n<td style=\"border-bottom:1px solid #999;padding:8px;\">84㎡ ≈ 25.4평<\/td>\n<\/tr>\n<tr>\n<td style=\"border-bottom:1px solid #999;padding:8px;\">공급면적<\/td>\n<td style=\"border-bottom:1px solid #999;padding:8px;\">전용면적 + 계단·복도·현관 같은 지상층 공용부분<\/td>\n<td style=\"border-bottom:1px solid #999;padding:8px;\">단지마다 다름 (\"34평형\"이라는 이름은 이 면적에서 나옴)<\/td>\n<\/tr>\n<tr>\n<td style=\"border-bottom:1px solid #999;padding:8px;\">계약면적<\/td>\n<td style=\"border-bottom:1px solid #999;padding:8px;\">공급면적 + 지하주차장·관리사무소·노인정 등<\/td>\n<td style=\"border-bottom:1px solid #999;padding:8px;\">단지마다 차이가 큼<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">분양 공고에 크게 적힌 \"84㎡\"는 전용면적입니다. 공동주택의 공급면적을 세대별로 표시할 때는 주거전용면적으로 쓰도록 규칙이 정해져 있어서, 공고문 맨 앞에는 늘 전용면적이 옵니다. 반면 사람들이 오래 써 온 \"34평형\"은 공급면적을 평으로 바꾼 이름입니다.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">계단식인지 복도식인지, 엘리베이터와 계단을 몇 세대가 함께 쓰는지에 따라 주거공용면적이 달라집니다. 그래서 같은 84㎡라도 공급면적은 단지마다 다르고, 정확한 값은 그 단지 공고문에서만 확인할 수 있습니다.<\/p>\n<h2 style=\"font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;\">전용률로 실제 넓이를 가늠하기<\/h2>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">공급면적에서 전용면적이 차지하는 비율을 전용률이라고 합니다. 같은 \"34평형\"이라도 전용률이 높을수록 실제로 쓰는 공간이 넓습니다.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">계산은 간단합니다. 전용면적을 공급면적으로 나누면 됩니다. 가령 공급면적이 112㎡인 84㎡ 세대라면 84 ÷ 112 = 75%이고, 공급면적이 115㎡라면 약 73%입니다. 두 단지 모두 \"34평형\"으로 불려도, 실제로 쓰는 넓이의 비중은 이만큼 다를 수 있다는 뜻입니다.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">오피스텔을 볼 때는 더 조심해야 합니다. 분양가를 계약면적으로 나눈 단가가 광고에 쓰이는 경우가 있어서, 같은 평수라도 아파트와 바로 비교하면 실제 넓이를 크게 착각하기 쉽습니다. 비교는 언제나 전용면적끼리 하세요.<\/p>\n<h2 style=\"font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;\">분양 공고에서 확인할 곳<\/h2>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">공고문의 '공급 내역' 표를 보면 주택형마다 주거전용면적, 주거공용면적, 공급면적 소계, 기타공용면적, 계약면적이 칸별로 나와 있습니다. 실제 생활공간을 비교할 때는 주거전용면적 칸끼리, 관리비를 가늠할 때는 공급면적 칸을 봅니다. 관리비 같은 공용 비용은 대개 면적 비율로 나누기 때문에, 공급면적이 클수록 부담도 커집니다.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">이미 지어진 아파트라면 건축물대장 전유부를 떼어 보면 전용면적이 나옵니다. 정부24에서 무료로 열람할 수 있어요.<\/p>\n<h2 style=\"font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;\">평은 왜 공식 문서에서 사라졌을까<\/h2>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">2007년 7월부터 상거래와 광고에서는 ㎡ 같은 법정계량단위를 쓰도록 단속이 시작됐습니다. 같은 '1평'이라도 땅에서는 약 3.3㎡인데 유리 같은 판재에서는 훨씬 작은 넓이를 뜻해서 소비자가 헷갈린다는 게 이유였습니다. 지금도 비법정단위는 법이 정한 요건을 갖춰 ㎡와 함께 쓸 때만 표기할 수 있습니다.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">그래서 숫자를 비교할 때는 이렇게 정리해 두면 편합니다. 공고문과 서류는 ㎡로 읽고, 머릿속 감각은 평으로 바꿔서 잡으세요. 59㎡는 약 17.8평, 84㎡는 약 25.4평, 114㎡는 약 34.5평입니다. 모두 전용면적 기준이라는 점만 기억하면 \"25평이야, 34평이야?\" 하는 혼란은 사라집니다.<\/p><p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\"><b>바로 계산해 보기 →<\/b> <a href=\"https://mj-0218.github.io/tools/pyeong/\">mj-0218.github.io/tools/pyeong/<\/a><\/p><p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;margin-top:28px;\"><b>출처<\/b><\/p><ol><li style=\"font-size:16px;line-height:1.8;\"><a href=\"https://www.molit.go.kr/USR/law/m_46/pop.jsp?r_id=41207\">국토교통부 법령해석 — 공동주택 공급면적 표시 (주택공급에 관한 규칙 관련)<\/a><\/li><li style=\"font-size:16px;line-height:1.8;\"><a href=\"https://www.mt.co.kr/index.php/article/2007062206164702138\">머니투데이 — 7월부터 &#x27;평·돈·근&#x27; 못쓴다 (2007)<\/a><\/li><li style=\"font-size:16px;line-height:1.8;\"><a href=\"https://kats.go.kr/content.do?cmsid=75\">국가기술표준원 — 법정계량단위 안내<\/a><\/li><\/ol><p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;color:#777;font-size:14px;\">정보 기준일: 2026-10-15<\/p>", "tags": ["84제곱미터평수", "전용면적", "공급면적", "34평형", "평수계산", "전용률", "분양공고", "아파트면적"]}, "tistory": {"title": "전용 84㎡ 평수 환산: 25.4평과 34평형, 숫자가 둘인 까닭", "html": "<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">결론부터 말하면 전용 84㎡는 25.4평이에요. 그리고 \"34평형\"은 틀린 말이 아니라 다른 면적을 기준으로 붙인 이름입니다.<\/p>\n<h2 style=\"font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;\">숫자 하나로 계산해 보기<\/h2>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">㎡를 평으로 바꾸는 공식은 하나뿐이에요. 3.3058로 나누면 됩니다. 84 ÷ 3.3058을 하면 약 25.4가 나오죠. 같은 방법으로 59㎡는 약 17.8평, 114㎡는 약 34.5평입니다.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">머릿속으로 빨리 어림하고 싶다면 ㎡에 0.3을 곱해 보세요. 84 × 0.3 = 25.2이니 큰 차이가 없습니다.<\/p>\n<h2 style=\"font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;\">34평형은 어디서 나온 숫자인가<\/h2>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">분양 공고에 맨 먼저 나오는 숫자는 주거전용면적입니다. 규칙상 공동주택의 공급면적을 세대별로 표시할 때는 주거의 용도로만 쓰이는 면적을 쓰게 되어 있거든요.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">반면 오래전부터 써 온 \"○○평형\"은 공급면적을 평으로 바꾼 값입니다. 공급면적에는 우리 집 안쪽 공간에 더해 계단, 복도, 현관처럼 지상층에서 여러 세대가 같이 쓰는 부분이 들어갑니다. 그러니 같은 집을 두고 숫자가 두 개 생기는 거예요.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">여기에 지하주차장이나 관리사무소 같은 공간까지 더하면 계약면적이 됩니다. 분양 계약서에서 가장 큰 숫자가 보통 이 면적입니다.<\/p>\n<h2 style=\"font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;\">같은 34평형이어도 넓이가 다른 이유<\/h2>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">단지마다 공용 공간을 얼마나 두느냐가 달라서, 전용 84㎡짜리 집의 공급면적도 단지마다 다릅니다. 이 차이를 보여 주는 숫자가 전용률이에요.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">예를 들어 공급면적이 112㎡라면 전용률은 84 ÷ 112 = 75%이고, 115㎡라면 약 73%입니다. 이름은 똑같이 \"34평형\"이어도 공급면적 중 실제로 쓰는 공간의 비율이 이만큼 차이 날 수 있다는 뜻이죠.<\/p>\n<h2 style=\"font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;\">공고문에서는 이렇게 읽기<\/h2>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">입주자모집공고의 공급 내역 표에는 주택형별로 면적이 칸마다 나뉘어 있습니다. 집 안 넓이를 비교하려면 주거전용면적 칸만 보세요. 다른 칸끼리 비교하면 같은 숫자처럼 보여도 의미가 다릅니다.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">오피스텔은 특히 조심해야 합니다. 계약면적으로 나눈 분양 단가가 광고에 쓰이기도 해서, 평당 가격만 보고 아파트와 바로 비교하면 실제 넓이를 잘못 판단하기 쉽습니다.<\/p>\n<h2 style=\"font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;\">공식 서류에 평이 없는 이유<\/h2>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">2007년 7월부터 상거래와 광고에는 ㎡ 같은 법정계량단위를 쓰도록 단속이 시작됐어요. 같은 한 평이라도 땅에서 말하는 넓이와 유리 같은 판재에서 말하는 넓이가 달라 헷갈린다는 문제가 있었기 때문입니다. 지금도 평 같은 비법정단위는 법이 정한 요건을 갖춰 ㎡와 함께 적을 때만 쓸 수 있어요.<\/p>\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\">정리하면, 서류는 ㎡로 읽고 감은 평으로 잡되, 비교는 언제나 전용면적끼리 하는 게 안전합니다.<\/p><p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;\"><b>바로 계산해 보기 →<\/b> <a href=\"https://mj-0218.github.io/tools/pyeong/\">mj-0218.github.io/tools/pyeong/<\/a><\/p><p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;margin-top:28px;\"><b>출처<\/b><\/p><ol><li style=\"font-size:16px;line-height:1.8;\"><a href=\"https://www.molit.go.kr/USR/law/m_46/pop.jsp?r_id=41207\">국토교통부 법령해석 — 공동주택 공급면적 표시 (주택공급에 관한 규칙 관련)<\/a><\/li><li style=\"font-size:16px;line-height:1.8;\"><a href=\"https://www.mt.co.kr/index.php/article/2007062206164702138\">머니투데이 — 7월부터 &#x27;평·돈·근&#x27; 못쓴다 (2007)<\/a><\/li><li style=\"font-size:16px;line-height:1.8;\"><a href=\"https://kats.go.kr/content.do?cmsid=75\">국가기술표준원 — 법정계량단위 안내<\/a><\/li><\/ol><p style=\"font-size:16px;line-height:1.8;margin:0 0 14px;color:#777;font-size:14px;\">정보 기준일: 2026-10-15<\/p>", "tags": ["84㎡몇평", "평수환산", "전용면적공급면적차이", "국민평형", "전용률계산"]}}];
+function store(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+function toast(m){var t=document.getElementById('toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(function(){t.style.display='none'},1600)}
+function copyRich(h){var plain=h.replace(/<[^>]+>/g,' ');if(navigator.clipboard&&window.ClipboardItem){return navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([h],{type:'text/html'}),'text/plain':new Blob([plain],{type:'text/plain'})})]).then(function(){toast('본문 복사됨 — 에디터에 붙여넣기')},function(){fallback(h,true)})}fallback(h,true)}
+function copyText(s,m){if(navigator.clipboard){navigator.clipboard.writeText(s).then(function(){toast(m)},function(){fallback(s,false,m)})}else fallback(s,false,m)}
+function fallback(s,rich,m){var d=document.createElement('div');d.contentEditable=true;d.style.position='fixed';d.style.left='-9999px';if(rich)d.innerHTML=s;else d.textContent=s;document.body.appendChild(d);var r=document.createRange();r.selectNodeContents(d);var sel=getSelection();sel.removeAllRanges();sel.addRange(r);document.execCommand('copy');sel.removeAllRanges();d.remove();toast(m||'복사됨')}
+var filter='todo';
+function done(c){return store('pub:'+c.slug+':naver')==='1'&&(!c.tistory||store('pub:'+c.slug+':tistory')==='1')}
+function el(t,a,h){var e=document.createElement(t);for(var k in a)e.setAttribute(k,a[k]);if(h!=null)e.innerHTML=h;return e}
+function esc(s){return String(s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function render(){var L=document.getElementById('list');L.innerHTML='';var shown=0;
+DATA.forEach(function(c){var isDone=done(c);if(filter==='todo'&&(isDone||!c.ok))return;if(filter==='blocked'&&c.ok)return;shown++;
+ var card=el('article',{class:'card'+(isDone?' done':'')+(c.ok?'':' blocked')});
+ card.appendChild(el('span',{class:'stamp'},c.ok?(c.manual.length?'사람확인 '+c.manual.length:'검증통과'):'발행불가'));
+ var top=el('div',{class:'top'});
+ top.appendChild(el('div',{},'<div class="kick">'+esc(c.category)+(c.deadline?' · 마감 '+esc(c.deadline):'')+(c.trend?' · '+esc(c.trend):'')+'</div><p class="title">'+esc(c.naver.title)+'</p>'));
+ top.appendChild(el('div',{class:'slot'},'추천 발행<b>'+esc(c.slot)+'</b>'));card.appendChild(top);
+ var ck='문체 '+c.style+'점'+(c.similarity!=null?' · 두 버전 유사도 '+c.similarity:' · 티스토리판 없음');
+ if(c.problems.length)ck+='<ul>'+c.problems.map(function(p){return'<li class="bad">'+esc(p)+'</li>'}).join('')+'</ul>';
+ if(c.manual.length)ck+='<ul>'+c.manual.map(function(p){return'<li>원문 직접 확인: '+esc(p)+'</li>'}).join('')+'</ul>';
+ card.appendChild(el('div',{class:'checks'},ck));
+ var tabs=el('div',{class:'tabs',role:'tablist'}),pane=el('div',{class:'pane'});
+ ['naver','tistory'].forEach(function(p,i){var b=el('button',{role:'tab','aria-selected':i?'false':'true'},p==='naver'?'네이버 블로그':'티스토리 (다음·구글)');b.onclick=function(){tabs.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-selected',x===b)});show(p)};tabs.appendChild(b)});
+ function show(p){var v=c[p]||c.naver;pane.innerHTML='';var act=el('div',{class:'actions'});
+  var b1=el('button',{},'제목 복사');b1.onclick=function(){copyText(v.title,'제목 복사됨')};act.appendChild(b1);
+  var b2=el('button',{},p==='naver'?'본문 복사':'본문 복사 (기본모드)');b2.onclick=function(){copyRich(v.html)};act.appendChild(b2);
+  if(p==='tistory'){var b3=el('button',{class:'sec'},'HTML 복사 (HTML모드)');b3.onclick=function(){copyText(v.html,'HTML 복사됨')};act.appendChild(b3)}
+  if(v.tags&&v.tags.length){var b4=el('button',{class:'sec'},'태그 복사');b4.onclick=function(){copyText(v.tags.join(p==='naver'?' ':','),'태그 복사됨')};act.appendChild(b4)}
+  var lab=el('label',{});var cb=el('input',{type:'checkbox'});cb.checked=store('pub:'+c.slug+':'+p)==='1';cb.onchange=function(){store('pub:'+c.slug+':'+p,cb.checked?'1':'0');render()};lab.appendChild(cb);lab.appendChild(document.createTextNode('발행함'));act.appendChild(lab);
+  pane.appendChild(act);if(!c[p])pane.appendChild(el('p',{class:'tags'},'⚠ 티스토리 전용판이 없어 네이버판을 보여 줍니다. 그대로 올리면 유사문서가 될 수 있습니다.'));
+  if(v.tags&&v.tags.length)pane.appendChild(el('p',{class:'tags'},v.tags.map(function(t){return'#'+esc(t)}).join(' ')));
+  var d=el('details',{});d.appendChild(el('summary',{},'미리보기'));d.appendChild(el('div',{class:'preview'},'<h2 style="margin-top:0">'+esc(v.title)+'</h2>'+v.html));pane.appendChild(d)}
+ if(!c.ok){pane.appendChild(el('p',{class:'tags'},'검증을 통과하지 못한 글은 복사 버튼을 숨깁니다. 위 문제를 먼저 고치세요.'))}else show('naver');
+ card.appendChild(tabs);card.appendChild(pane);L.appendChild(card)});
+ if(!shown)L.appendChild(el('p',{class:'empty'},filter==='todo'?'지금 발행할 글이 없습니다.':'해당하는 글이 없습니다.'))}
+document.querySelectorAll('.filters button').forEach(function(b){b.onclick=function(){filter=b.dataset.f;document.querySelectorAll('.filters button').forEach(function(x){x.setAttribute('aria-pressed',x===b)});render()}});
+render();
+</script></body></html>

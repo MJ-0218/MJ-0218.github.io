@@ -4,7 +4,8 @@ description: "전용면적 84㎡는 약 25.4평입니다. 그런데 왜 '34평'�
 category: 부동산
 info_as_of: 2026-10-15
 related_tool: pyeong
-channel: [semter, naver]
+channel: [naver, tistory]
+tags: [84제곱미터 평수, 전용면적, 공급면적, 34평형, 평수 계산, 전용률, 분양공고, 아파트 면적]
 sources:
   - title: "국토교통부 법령해석 — 공동주택 공급면적 표시 (주택공급에 관한 규칙 관련)"
     url: https://www.molit.go.kr/USR/law/m_46/pop.jsp?r_id=41207

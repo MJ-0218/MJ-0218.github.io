@@ -2,6 +2,15 @@
 timezone: Asia/Seoul
 site_url: https://mj-0218.github.io      # 개인 도메인 연결 후 변경
 
+channels:
+  naver: primary       # 네이버 블로그 — 국내 검색 점유율 1위. _drafts/<slug>.md
+  tistory: secondary   # 티스토리 — 다음·구글 유입. automation/variants/<slug>.tistory.md (네이버판과 다른 문장으로)
+  semter: tools        # 셈터(Jekyll) — 계산기 허브. 글은 선택
+
+publish:
+  spacing_minutes: 90  # 발행 대기함이 추천하는 글 사이 간격 (한꺼번에 몰아 올리지 않기)
+  hours: [7, 23]       # 추천 발행 시간대 (KST)
+
 writer:
   max_posts_per_run: 0      # 0 = 제한 없음. 기준을 통과한 후보는 전부 쓴다
   min_score: 30             # 레이더 점수가 이 값 이상인 후보만 검토

@@ -116,7 +116,7 @@ def verify(draft, fetch=False, today=None):
     draft = Path(draft)
     fm_raw, body = split_front_matter(draft.read_text(encoding="utf-8"))
     fm = parse_fm(fm_raw)
-    slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", draft.stem)
+    slug = re.sub(r"\.(tistory|naver)$", "", re.sub(r"^\d{4}-\d{2}-\d{2}-", "", draft.stem))
     cpath = ROOT / "automation" / "claims" / f"{slug}.yml"
     fails, warns, manual, rows = [], [], [], []
 

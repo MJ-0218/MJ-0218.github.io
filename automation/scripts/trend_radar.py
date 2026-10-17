@@ -9,6 +9,7 @@ trends/latest.json 에 쌓이고, 글쓰기 세션은 그 파일을 읽어 주�
   korea_kr      : 대한민국 정책브리핑 정책뉴스·보도자료 RSS (정부 공식)
   google_news   : 감시 키워드별 Google 뉴스 RSS (최근 기사 수 = 화제성)
   applyhome     : 청약홈 분양정보 공공데이터 API (DATA_GO_KR_KEY 환경변수가 있을 때만)
+  calendar      : automation/calendar.yml — 매년·매달·매주 반복되는 검색 수요 (네트워크 불필요)
 
 사용: python3 automation/scripts/trend_radar.py --out trends/latest.json [--history trends/history]
 """
@@ -182,7 +183,14 @@ def src_applyhome(cfg, cats):
     return out
 
 
-SOURCES = {"google_trends": src_google_trends, "korea_kr": src_korea_kr, "google_news": src_google_news, "applyhome": src_applyhome}
+def src_calendar(cfg, cats):
+    """반복 수요 캘린더 (네트워크 불필요)"""
+    sys.path.insert(0, str(Path(__file__).parent))
+    from calendar_due import due
+    return due()
+
+
+SOURCES = {"calendar": src_calendar, "google_trends": src_google_trends, "korea_kr": src_korea_kr, "google_news": src_google_news, "applyhome": src_applyhome}
 
 
 def score(item, now):
@@ -254,7 +262,8 @@ def main():
         if k in seen:
             continue
         seen.add(k)
-        it["score"] = score(it, now)
+        if it["source"] != "calendar":  # 캘린더 후보는 자체 점수 사용
+            it["score"] = score(it, now)
         it["already_covered"] = any(it["keyword"].replace(" ", "") in t.replace(" ", "") for t in covered)
         ranked.append(it)
     ranked.sort(key=lambda x: x["score"], reverse=True)

@@ -1,0 +1,200 @@
+# 반복 수요 캘린더 — 매년·매달·매주 같은 시기에 검색이 몰리는 주제
+#
+# ⚠ months / day 값은 "보통 이 시기"라는 일정 감각일 뿐 사실이 아니다.
+#    글에 쓰는 날짜·금액은 매 주기 official 의 원문에서 다시 확인해 claims 로 남긴다.
+#
+# recurrence: yearly(기본) | monthly | weekly
+# phases[].months   : 검색이 몰리는 달 (yearly)
+# phases[].lead_days: 그 시기 시작 며칠 전부터 글을 준비할지
+# phases[].queries  : 사람들이 실제로 치는 검색어 — 제목·소제목에 반영
+# 같은 주기(cycle)에 이미 쓴 글이 있으면 건너뛴다. cycle = <id>-<phase>-<연도|연월|주차>
+
+- id: yearend-tax
+  name: 연말정산
+  category: 세금
+  official: [https://www.nts.go.kr, https://www.hometax.go.kr]
+  phases:
+    - { key: 미리보기, months: [10, 11], lead_days: 7, queries: ["연말정산 미리보기", "연말정산 미리보기 서비스 오픈", "13월의 월급 준비"] }
+    - { key: 간소화개통, months: [1], lead_days: 10, queries: ["연말정산 간소화 서비스 오픈일", "연말정산 간소화 자료 조회", "연말정산 기간"] }
+    - { key: 환급일, months: [2, 3], lead_days: 7, queries: ["연말정산 환급금 지급일", "연말정산 환급 언제", "연말정산 추가 납부"] }
+    - { key: 연말절세, months: [11, 12], lead_days: 10, queries: ["연금저축 IRP 연말 납입 세액공제", "연말정산 신용카드 소득공제 남은 기간"] }
+
+- id: vat
+  name: 부가가치세 확정신고
+  category: 세금
+  official: [https://www.nts.go.kr, https://www.hometax.go.kr]
+  phases:
+    - { key: 2기확정, months: [1], lead_days: 7, queries: ["부가세 신고기간", "부가세 확정신고 1월"] }
+    - { key: 1기확정, months: [7], lead_days: 7, queries: ["부가세 신고기간 7월", "부가세 확정신고 방법"] }
+
+- id: income-tax
+  name: 종합소득세 신고
+  category: 세금
+  official: [https://www.nts.go.kr, https://www.hometax.go.kr]
+  phases:
+    - { key: 신고, months: [5], lead_days: 14, queries: ["종합소득세 신고기간", "종소세 신고 방법", "프리랜서 종합소득세 환급"] }
+    - { key: 환급, months: [6, 7], lead_days: 7, queries: ["종합소득세 환급금 지급일", "종소세 환급 조회"] }
+
+- id: eitc
+  name: 근로·자녀장려금
+  category: 정부혜택
+  official: [https://www.nts.go.kr, https://www.hometax.go.kr]
+  phases:
+    - { key: 반기신청-3월, months: [3], lead_days: 10, queries: ["근로장려금 반기 신청", "근로장려금 3월 신청"] }
+    - { key: 정기신청, months: [5], lead_days: 14, queries: ["근로장려금 신청기간", "근로장려금 자격 조건", "자녀장려금 신청"] }
+    - { key: 반기지급-6월, months: [6], lead_days: 7, queries: ["근로장려금 반기 지급일"] }
+    - { key: 정기지급, months: [8, 9], lead_days: 10, queries: ["근로장려금 지급일", "근로장려금 심사 진행 조회", "자녀장려금 지급일"] }
+    - { key: 반기신청-9월, months: [9], lead_days: 10, queries: ["근로장려금 9월 반기 신청"] }
+    - { key: 기한후신청, months: [6, 7, 8, 9, 10, 11], lead_days: 0, queries: ["근로장려금 기한 후 신청", "근로장려금 놓쳤을 때"] }
+    - { key: 반기지급-12월, months: [12], lead_days: 7, queries: ["근로장려금 12월 지급일"] }
+
+- id: car-tax
+  name: 자동차세
+  category: 세금
+  official: [https://www.wetax.go.kr, https://www.mois.go.kr]
+  phases:
+    - { key: 연납신청, months: [1], lead_days: 10, queries: ["자동차세 연납 신청", "자동차세 연납 할인율", "자동차세 연납 기간"] }
+    - { key: 1기, months: [6], lead_days: 7, queries: ["자동차세 6월 납부", "자동차세 납부기간"] }
+    - { key: 2기, months: [12], lead_days: 7, queries: ["자동차세 12월 납부", "자동차세 조회"] }
+
+- id: property-tax
+  name: 재산세
+  category: 세금
+  official: [https://www.wetax.go.kr, https://www.mois.go.kr]
+  phases:
+    - { key: 7월분, months: [7], lead_days: 7, queries: ["재산세 납부기간 7월", "재산세 조회 위택스"] }
+    - { key: 9월분, months: [9], lead_days: 7, queries: ["재산세 9월 납부", "재산세 토지분"] }
+
+- id: comprehensive-property-tax
+  name: 종합부동산세
+  category: 세금
+  official: [https://www.nts.go.kr, https://www.hometax.go.kr]
+  phases:
+    - { key: 고지납부, months: [11, 12], lead_days: 7, queries: ["종부세 납부기간", "종부세 고지서", "종부세 분납"] }
+
+- id: health-insurance-settle
+  name: 건강보험료 연말정산
+  category: 노동·급여
+  official: [https://www.nhis.or.kr]
+  phases:
+    - { key: 4월정산, months: [4], lead_days: 7, queries: ["건강보험료 정산", "4월 건강보험료 폭탄", "건강보험 연말정산 환급"] }
+
+- id: minimum-wage
+  name: 최저임금
+  category: 노동·급여
+  official: [https://www.minimumwage.go.kr, https://www.moel.go.kr]
+  phases:
+    - { key: 결정, months: [7], lead_days: 7, queries: ["내년 최저임금", "최저임금 결정", "최저시급 월급 환산"] }
+    - { key: 시행, months: [12, 1], lead_days: 10, queries: ["최저임금 월급", "최저시급 주휴수당 포함 월급"] }
+
+- id: median-income
+  name: 기준중위소득
+  category: 정부혜택
+  official: [https://www.mohw.go.kr]
+  phases:
+    - { key: 발표, months: [7, 8], lead_days: 7, queries: ["내년 기준중위소득", "기준중위소득 표", "기준중위소득 150%"] }
+
+- id: welfare-changes
+  name: 내년부터 달라지는 것
+  category: 정부혜택
+  official: [https://www.korea.kr, https://www.moef.go.kr]
+  phases:
+    - { key: 총정리, months: [12, 1], lead_days: 10, queries: ["내년부터 달라지는 것", "새해 달라지는 제도", "이렇게 달라집니다"] }
+
+- id: holidays
+  name: 공휴일·연휴
+  category: 생활
+  official: [https://www.kasi.re.kr, https://www.mois.go.kr]
+  phases:
+    - { key: 내년공휴일, months: [11, 12], lead_days: 0, queries: ["내년 공휴일", "내년 달력 연휴", "대체공휴일"] }
+    - { key: 설연휴, months: [1, 2], lead_days: 21, queries: ["설 연휴 병원 약국", "설 고속도로 통행료 면제", "설 기차표 예매"] }
+    - { key: 추석연휴, months: [9, 10], lead_days: 21, queries: ["추석 연휴 병원 약국", "추석 고속도로 통행료 면제", "추석 기차표 예매"] }
+
+- id: suneung
+  name: 수능
+  category: 생활
+  official: [https://www.kice.re.kr, https://www.moe.go.kr]
+  phases:
+    - { key: 원서접수, months: [8, 9], lead_days: 7, queries: ["수능 원서접수 기간"] }
+    - { key: 시험, months: [11], lead_days: 30, queries: ["수능 날짜", "수능 시간표", "수능 준비물", "수능 날 출근 시간 조정"] }
+    - { key: 성적발표, months: [12], lead_days: 7, queries: ["수능 성적 발표일", "수능 등급컷"] }
+
+- id: national-scholarship
+  name: 국가장학금
+  category: 정부혜택
+  official: [https://www.kosaf.go.kr]
+  phases:
+    - { key: 1차신청, months: [11, 12], lead_days: 21, queries: ["국가장학금 1차 신청기간", "국가장학금 소득구간", "국가장학금 신청 방법"] }
+    - { key: 2차신청, months: [5, 6], lead_days: 14, queries: ["국가장학금 2차 신청기간"] }
+
+- id: culture-card
+  name: 문화누리카드
+  category: 정부혜택
+  official: [https://www.mnuri.kr]
+  phases:
+    - { key: 발급, months: [2, 3], lead_days: 14, queries: ["문화누리카드 신청", "문화누리카드 사용처", "문화누리카드 잔액 조회"] }
+
+- id: energy-voucher
+  name: 에너지바우처
+  category: 정부혜택
+  official: [https://www.energyv.or.kr, https://www.motie.go.kr]
+  phases:
+    - { key: 신청, months: [5, 6, 7], lead_days: 14, queries: ["에너지바우처 신청", "에너지바우처 대상", "에너지바우처 금액"] }
+    - { key: 동절기사용, months: [11, 12], lead_days: 7, queries: ["에너지바우처 사용 방법", "에너지바우처 잔액"] }
+
+- id: health-checkup
+  name: 국가건강검진 연말 마감
+  category: 생활
+  official: [https://www.nhis.or.kr]
+  phases:
+    - { key: 연말마감, months: [11, 12], lead_days: 0, queries: ["건강검진 대상자 조회", "건강검진 올해 안 받으면", "건강검진 연말 예약"] }
+
+- id: civil-service-exam
+  name: 공무원 시험 일정
+  category: 생활
+  official: [https://www.gosi.kr, https://www.mpm.go.kr]
+  phases:
+    - { key: 연간일정, months: [12, 1], lead_days: 14, queries: ["공무원 시험 일정", "9급 공무원 시험 날짜"] }
+
+- id: autumn-leaves
+  name: 단풍 절정 시기
+  category: 생활
+  official: [https://www.weather.go.kr, https://www.knps.or.kr]
+  phases:
+    - { key: 단풍, months: [10, 11], lead_days: 14, queries: ["단풍 절정 시기", "첫 단풍", "국립공원 단풍"] }
+
+- id: cherry-blossom
+  name: 벚꽃 개화 시기
+  category: 생활
+  official: [https://www.weather.go.kr]
+  phases:
+    - { key: 개화, months: [3, 4], lead_days: 21, queries: ["벚꽃 개화 시기", "벚꽃 개화 예상일", "지역별 벚꽃 축제 일정"] }
+
+# ── 매달 ─────────────────────────────────────────────
+- id: monthly-welfare-payday
+  name: 이달의 복지급여 지급일 (기초연금·아동수당·부모급여·국민연금)
+  category: 정부혜택
+  recurrence: monthly
+  day: 18              # 매달 이 날 전후로 글 준비
+  lead_days: 5
+  official: [https://www.mohw.go.kr, https://www.bokjiro.go.kr, https://www.nps.or.kr]
+  queries: ["기초연금 지급일", "아동수당 지급일", "부모급여 지급일", "국민연금 지급일"]
+
+- id: monthly-benefits-roundup
+  name: 이달 신청할 수 있는 정부 지원 모음
+  category: 정부혜택
+  recurrence: monthly
+  day: 1
+  lead_days: 4
+  official: [https://www.gov.kr, https://www.bokjiro.go.kr, https://www.korea.kr]
+  queries: ["이번 달 정부 지원금", "신청 가능한 지원금", "놓치면 안 되는 지원금"]
+
+# ── 매주 ─────────────────────────────────────────────
+- id: weekly-subscription
+  name: 이번 주 청약 일정
+  category: 청약
+  recurrence: weekly
+  weekday: 4           # 0=월 … 4=금 — 다음 주 일정을 금요일에 준비
+  lead_days: 1
+  official: [https://www.applyhome.co.kr, https://apply.lh.or.kr, https://www.i-sh.co.kr]
+  queries: ["이번주 청약 일정", "다음주 청약", "청약 접수 단지", "무순위 청약 일정"]
