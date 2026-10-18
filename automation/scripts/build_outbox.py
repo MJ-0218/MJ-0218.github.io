@@ -60,6 +60,7 @@ def render(md_path, site):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="exports/outbox.html")
+    ap.add_argument("--fetch", action="store_true", help="출처 원문을 실제로 내려받아 대조 (네트워크 필요)")
     ap.add_argument("--artifact", help="Claude 아티팩트용 사본 경로 (문서 골격 태그 제거)")
     a = ap.parse_args()
     cfg = yaml.safe_load((ROOT / "automation" / "config.yml").read_text(encoding="utf-8"))
@@ -76,12 +77,12 @@ def main():
         naver = render(md, site)
         var = ROOT / "automation" / "variants" / f"{slug}.tistory.md"
         tistory = render(var, site) if var.exists() else None
-        v = verify(md)
+        v = verify(md, fetch=a.fetch)
         s = style_check(md)
         sim = compare(md, var) if var.exists() else None
         problems = list(v["fail"]) + [f"문체: {f}" for f in s["fail"]]
         if var.exists():
-            problems += [f"티스토리판: {f}" for f in verify(var)["fail"]]
+            problems += [f"티스토리판: {f}" for f in verify(var, fetch=a.fetch)["fail"]]
             if sim and (sim[0] > 0.35 or len(sim[1]) > 2):
                 problems.append(f"두 버전이 너무 비슷함 (유사도 {sim[0]:.2f})")
         while not (hours[0] <= slot.hour < hours[1]):

@@ -6,7 +6,7 @@ description: 셈터 글 작성 루프. 반복 수요 캘린더(매년·매달·�
 # 셈터 글 작성 루프
 
 Claude 구독 세션에서 실행한다. 사용량은 넉넉히 써도 된다. 대신 **사실 검증이 최우선**이다. 확인이 안 되면 쓰지 않는다.
-네이버·티스토리 발행은 사람이 발행 대기함에서 복사해서 한다. 이 작업은 초안, 검증, 대기함, PR까지만 한다.
+네이버·티스토리 발행은 사람이 발행 대기함에서 복사해서 한다. 이 작업은 초안, 검증, 대기함 갱신, main 머지까지 한다.
 
 ## 0. 준비
 ```bash
@@ -57,9 +57,9 @@ python3 automation/scripts/similarity_check.py _drafts/<slug>.md automation/vari
 
 ## 6. 발행 대기함
 ```bash
-python3 automation/scripts/build_outbox.py --artifact /tmp/outbox-artifact.html   # → exports/outbox.html + 아티팩트용 사본
+python3 automation/scripts/build_outbox.py $( [ "$NET" = OK ] && echo --fetch ) --artifact /tmp/outbox-artifact.html   # → exports/outbox.html + 아티팩트용 사본
 ```
-Artifact 도구가 있으면 `/tmp/outbox-artifact.html`을 아티팩트로 발행한다. `automation/state/outbox_url.txt`에 URL이 있으면 그 URL을 갱신하고, 없으면 새로 만들어 URL을 그 파일에 저장한다. 아티팩트는 비공개라 사람이 휴대폰에서 열어 바로 복사할 수 있다.
+Artifact 도구가 있으면 `/tmp/outbox-artifact.html`을 아티팩트로 발행한다. `automation/state/outbox_url.txt`에 URL이 있으면 먼저 그 URL을 `action: "read"`로 읽은 뒤 같은 `url`로 publish 해서 갱신하고, 없으면 새로 만들어 URL을 그 파일에 저장한다. 아티팩트는 비공개라 사람이 휴대폰에서 열어 바로 복사할 수 있다.
 
 ## 7. 로그, 커밋, PR
 `automation/log/$NOW.md`: 검토한 후보 전체(쓴 것/건너뛴 것과 이유), 글마다 verify 표·style 점수·유사도.
@@ -68,12 +68,10 @@ git add _drafts automation exports && git commit -m "drafts: $NOW 초안 N편"
 git push -u origin drafts/$NOW
 ```
 쓴 글이 0편이고 skipped_cycles만 바뀌었으면 그것만 커밋해 푸시한다. 아무 변화가 없으면 푸시하지 않는다.
-GitHub 도구가 있으면 기본 브랜치로 PR을 연다. 본문: 글 목록, verify 결과, 사람 확인 항목, 발행 대기함 링크, 체크리스트
-
-- [ ] fact-check CI 통과 (출처 원문 자동 대조, 두 판 유사도)
-- [ ] 사람 확인 항목을 원문에서 직접 확인
-- [ ] 발행 대기함에서 네이버·티스토리에 붙여넣고 '발행함' 체크
-- [ ] PR 머지 (초안을 기록으로 남김)
+GitHub 도구로 기본 브랜치(main)에 PR을 열고, **바로 머지(squash)** 한다. 초안이 main에 쌓여야 다음 실행의 중복 검사와 발행 대기함이 이어진다. `_drafts/`와 `exports/`는 사이트에 공개되지 않는다.
+- 머지 전에 이번 실행의 verify(--fetch 가능하면)·style·유사도가 모두 통과했는지 다시 확인한다. FAIL이 남은 글은 커밋하지 않는다.
+- PR 본문: 글 목록, verify 결과, 사람 확인 항목, 발행 대기함 링크.
+- 머지 뒤 fact-check CI가 원문을 한 번 더 대조한다. 실패하면 다음 실행에서 그 글을 고치거나 `automation/state/skipped_cycles.txt`로 내린다.
 
 ## 하지 않는 것
 - 네이버·티스토리에 직접 로그인하거나 자동 발행하지 않는다(매크로·자동 게시는 계정 제재 위험).
