@@ -20,6 +20,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -166,13 +167,29 @@ def src_applyhome(cfg, cats):
     today = datetime.now(KST).date()
     q = {"page": 1, "perPage": 100, "serviceKey": key,
          "cond[RCRIT_PBLANC_DE::GTE]": (today - timedelta(days=14)).isoformat()}
-    rows = []
+    # Encoding 키(%2B 등 포함)를 넣어도 동작하도록 한 번 디코딩해 둔다
+    key = urllib.parse.unquote(key.strip())
+    q["serviceKey"] = key
+    rows, errors = [], []
     for ep, label in endpoints.items():
         try:
-            data = json.loads(fetch(base + ep + "?" + urllib.parse.urlencode(q)))
+            try:
+                data = json.loads(fetch(base + ep + "?" + urllib.parse.urlencode(q)))
+            except urllib.error.HTTPError as e:
+                if e.code != 401:
+                    raise
+                # 쿼리 인증이 거절되면 헤더 인증(Authorization: Infuser <키>)으로 한 번 더
+                q2 = {k: v for k, v in q.items() if k != "serviceKey"}
+                req = urllib.request.Request(base + ep + "?" + urllib.parse.urlencode(q2),
+                                             headers={"User-Agent": UA, "Authorization": f"Infuser {key}"})
+                with urllib.request.urlopen(req, timeout=20) as r:
+                    data = json.loads(r.read())
             rows += [(label, r) for r in data.get("data", [])]
         except Exception as e:
+            errors.append(f"{ep}: {e}")
             print(f"  applyhome {ep}: {e}", file=sys.stderr)
+    if errors and not rows:
+        raise RuntimeError("; ".join(errors) + " — 키 활성화 대기(발급 후 최대 1~2시간), Decoding 키 여부, '분양정보 조회 서비스' 활용신청 여부 확인")
     out = []
     for label, row in rows:
         name = row.get("HOUSE_NM") or row.get("houseNm") or ""
