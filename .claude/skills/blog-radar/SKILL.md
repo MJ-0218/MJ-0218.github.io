@@ -68,9 +68,12 @@ git add _drafts automation exports && git commit -m "drafts: $NOW 초안 N편"
 git push -u origin drafts/$NOW
 ```
 쓴 글이 0편이고 skipped_cycles만 바뀌었으면 그것만 커밋해 푸시한다. 아무 변화가 없으면 푸시하지 않는다.
-GitHub 도구로 기본 브랜치(main)에 PR을 열고, **바로 머지(squash)** 한다. 초안이 main에 쌓여야 다음 실행의 중복 검사와 발행 대기함이 이어진다. `_drafts/`와 `exports/`는 사이트에 공개되지 않는다.
-- 머지 전에 이번 실행의 verify(--fetch 가능하면)·style·유사도가 모두 통과했는지 다시 확인한다. FAIL이 남은 글은 커밋하지 않는다.
-- PR 본문: 글 목록, verify 결과, 사람 확인 항목, 발행 대기함 링크.
+이번 실행의 verify(--fetch 가능하면)·style·유사도가 모두 통과했는지 다시 확인한다. FAIL이 남은 글은 커밋하지 않는다. 그다음 **main 에 바로 합친다** — 초안이 main에 쌓여야 다음 실행의 중복 검사와 발행 대기함이 이어진다(`_drafts/`, `exports/`는 사이트에 공개되지 않음).
+```bash
+git fetch -q origin main && git rebase -q origin/main && git push -q origin HEAD:main
+```
+- GitHub 도구(mcp__github__*)가 있으면 위 대신 PR을 열고 squash 머지해도 된다. PR 본문: 글 목록, verify 결과, 사람 확인 항목, 발행 대기함 링크.
+- 푸시가 경합으로 거절되면 fetch·rebase 후 한 번만 다시 시도한다.
 - 머지 뒤 fact-check CI가 원문을 한 번 더 대조한다. 실패하면 다음 실행에서 그 글을 고치거나 `automation/state/skipped_cycles.txt`로 내린다.
 
 ## 하지 않는 것

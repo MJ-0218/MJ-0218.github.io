@@ -125,6 +125,10 @@ def check(path):
         stats["top_ending"] = f"{top} ({share:.0%})"
         if share > 0.45:
             warns.append(f"문장 끝 '{top}'이(가) {share:.0%} — 어미를 바꿔 리듬 주기")
+        formal = sum(1 for s in sents if re.search(r"(니다|니까)[.!?]?$", s.strip()))
+        stats["formal_ratio"] = f"{formal / len(sents):.0%}"
+        if formal / len(sents) > 0.35:
+            warns.append(f"'~습니다/~합니다' 문장 {formal / len(sents):.0%} — 부드러운 해요체로 바꾸기 (35% 이하 권장)")
         openers = [s.split()[0] for s in sents if s.split()]
         for i in range(len(openers) - 2):
             if openers[i] == openers[i + 1] == openers[i + 2]:
