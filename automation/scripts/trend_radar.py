@@ -160,18 +160,26 @@ def src_applyhome(cfg, cats):
         print("  applyhome: DATA_GO_KR_KEY 없음 — 건너뜀", file=sys.stderr)
         return []
     ah = cfg.get("applyhome", {})
-    endpoint = ah.get("endpoint", "https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail")
+    base = ah.get("base", "https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1/")
+    # APT 일반 분양 + 무순위·잔여세대(줍줍)
+    endpoints = ah.get("endpoints", {"getAPTLttotPblancDetail": "", "getRemndrLttotPblancDetail": "무순위 "})
     today = datetime.now(KST).date()
     q = {"page": 1, "perPage": 100, "serviceKey": key,
          "cond[RCRIT_PBLANC_DE::GTE]": (today - timedelta(days=14)).isoformat()}
-    data = json.loads(fetch(endpoint + "?" + urllib.parse.urlencode(q)))
+    rows = []
+    for ep, label in endpoints.items():
+        try:
+            data = json.loads(fetch(base + ep + "?" + urllib.parse.urlencode(q)))
+            rows += [(label, r) for r in data.get("data", [])]
+        except Exception as e:
+            print(f"  applyhome {ep}: {e}", file=sys.stderr)
     out = []
-    for row in data.get("data", []):
+    for label, row in rows:
         name = row.get("HOUSE_NM") or row.get("houseNm") or ""
         begin = row.get("RCEPT_BGNDE") or row.get("SUBSCRPT_RCEPT_BGNDE") or ""
         end = row.get("RCEPT_ENDDE") or row.get("SUBSCRPT_RCEPT_ENDDE") or ""
         out.append({
-            "source": "applyhome", "keyword": f"{name} 청약", "traffic": 0, "category": "청약", "official": True,
+            "source": "applyhome", "keyword": f"{name} {label}청약", "traffic": 0, "category": "청약", "official": True,
             "published": row.get("RCRIT_PBLANC_DE", ""), "receipt_begin": begin, "receipt_end": end,
             "region": row.get("SUBSCRPT_AREA_CODE_NM", ""), "address": row.get("HSSPLY_ADRES", ""),
             "households": row.get("TOT_SUPLY_HSHLDCO", ""),
