@@ -6,7 +6,7 @@ trends/latest.json 에 쌓이고, 글쓰기 세션은 그 파일을 읽어 주�
 
 수집원 (실패해도 다른 수집원은 계속 진행):
   google_trends : Google 트렌드 한국 실시간 인기 검색어 RSS (검색량 추정치 포함)
-  korea_kr      : 대한민국 정책브리핑 정책뉴스·보도자료 RSS (정부 공식)
+  korea_kr      : 정책브리핑 첫 화면 실시간 인기뉴스 (RSS 는 2026-07-01 중단)
   google_news   : 감시 키워드별 Google 뉴스 RSS (최근 기사 수 = 화제성)
   applyhome     : 청약홈 분양정보 공공데이터 API (DATA_GO_KR_KEY 환경변수가 있을 때만)
   calendar      : automation/calendar.yml — 매년·매달·매주 반복되는 검색 수요 (네트워크 불필요)
@@ -115,22 +115,20 @@ def src_google_trends(cfg, cats):
 
 
 def src_korea_kr(cfg, cats):
+    """정책브리핑 첫 화면의 '실시간 인기뉴스' (제목·링크만).
+    정책브리핑 RSS 는 2026-07-01 제공 중단(저작권 등 권리 보호) — 본문은 가져오지 않는다."""
+    page = fetch(cfg.get("korea_kr_home", "https://www.korea.kr/")).decode("utf-8", "ignore")
+    a, b = page.find("실시간 인기뉴스 S"), page.find("실시간 인기뉴스 E")
+    block = page[a:b] if a != -1 and b != -1 else page
     out = []
-    for feed in cfg.get("korea_kr_feeds", ["https://www.korea.kr/rss/policy.xml", "https://www.korea.kr/rss/pressrelease.xml"]):
-        try:
-            data = fetch(feed)
-        except Exception as e:
-            print(f"  korea.kr {feed}: {e}", file=sys.stderr)
-            continue
-        for it in items(data):
-            title = strip_tags(child_text(it, "title"))
-            desc = strip_tags(child_text(it, "description"))[:300]
-            out.append({
-                "source": "korea_kr", "keyword": title, "traffic": 0,
-                "published": (parse_date(child_text(it, "pubDate")) or datetime.now(KST)).isoformat(),
-                "category": classify(title + " " + desc, cats), "summary": desc,
-                "news": [{"title": title, "url": child_text(it, "link"), "source": "정책브리핑"}], "official": True,
-            })
+    for m in re.finditer(r'href="(https://www\.korea\.kr/news/[^"]+)".*?<span class="text">\s*(.*?)\s*</span>', block, flags=re.S):
+        url = re.sub(r"&pWise.*", "", m.group(1))
+        title = strip_tags(m.group(2))
+        out.append({
+            "source": "korea_kr", "keyword": title, "traffic": 0, "rank": len(out) + 1,
+            "published": datetime.now(KST).isoformat(), "category": classify(title, cats),
+            "news": [{"title": title, "url": url, "source": "정책브리핑 실시간 인기뉴스"}], "official": True,
+        })
     return out
 
 
@@ -200,6 +198,8 @@ def score(item, now):
     base += min(30, item.get("article_count_24h", 0) * 3)
     if item.get("official"):
         base += 25
+    if item["source"] == "korea_kr" and item.get("rank"):
+        base += max(0, 6 - item["rank"]) * 6  # 정책브리핑 실시간 인기 순위
     if item["source"] == "applyhome" and item.get("receipt_begin"):
         try:
             days = (datetime.fromisoformat(item["receipt_begin"]).date() - now.date()).days

@@ -13,7 +13,7 @@ publish:
 
 writer:
   max_posts_per_run: 0      # 0 = 제한 없음. 기준을 통과한 후보는 전부 쓴다
-  min_score: 30             # 레이더 점수가 이 값 이상인 후보만 검토
+  min_score: 35             # 레이더 점수가 이 값 이상인 후보만 검토
   style_min_score: 80       # style_check 점수 하한
   review_passes: 2          # 초안 이후 재검수 횟수 (1: 문체, 2: 독자·사실)
 
@@ -40,7 +40,5 @@ radar:
     - 재보궐선거
     - 생생정보 맛집
     - 생방송 투데이 맛집
-  korea_kr_feeds:
-    - https://www.korea.kr/rss/policy.xml
-    - https://www.korea.kr/rss/pressrelease.xml
+  korea_kr_home: https://www.korea.kr/   # 정책브리핑 RSS 는 2026-07-01 중단 → 첫 화면 실시간 인기뉴스 사용
   # applyhome.endpoint 를 바꾸면 청약홈 API 주소를 덮어쓴다 (DATA_GO_KR_KEY 필요)
