@@ -10,6 +10,7 @@
 사용: python3 automation/scripts/build_outbox.py [--out exports/outbox.html]
 """
 import argparse
+import base64
 import html
 import json
 import re
@@ -54,7 +55,20 @@ def render(md_path, site):
     if asof:
         h += f'<p style="{STYLE["p"]}color:#777;font-size:14px;">정보 기준일: {html.escape(asof)}</p>'
     tags = [re.sub(r"\s+", "", str(t)) for t in fm_list(fm, "tags")]  # 블로그 태그는 띄어쓰기 없이
-    return {"title": fm_value(fm, "title"), "html": h, "tags": tags, "fm": fm}
+    # 이미지: 복사용 본문은 사이트 절대주소, 대기함 미리보기·이미지 복사 버튼은 data URI (아티팩트는 외부 이미지를 못 불러옴)
+    images, preview = [], h
+    for m in re.finditer(r'<img([^>]*?)src="(/assets/[^"]+)"([^>]*)>', h):
+        local = ROOT / m.group(2).lstrip("/")
+        alt = (re.search(r'alt="([^"]*)"', m.group(0)) or [None, ""])[1]
+        if local.exists():
+            mime = "image/png" if local.suffix == ".png" else "image/jpeg"
+            data = f"data:{mime};base64," + base64.b64encode(local.read_bytes()).decode()
+            images.append({"alt": alt, "data": data})
+            preview = preview.replace(f'src="{m.group(2)}"', f'src="{data}"', 1)
+    h = re.sub(r'src="(/assets/[^"]+)"', lambda m: f'src="{site}{m.group(1)}"', h)
+    h = re.sub(r"<img ", '<img style="max-width:100%;height:auto;display:block;margin:16px auto;" ', h)
+    preview = re.sub(r"<img ", '<img style="max-width:100%;height:auto;display:block;margin:16px auto;" ', preview)
+    return {"title": fm_value(fm, "title"), "html": h, "preview": preview, "images": images, "tags": tags, "fm": fm}
 
 
 def main():
@@ -72,7 +86,14 @@ def main():
     now = datetime.now(KST)
     slot = (now + timedelta(hours=1)).replace(minute=0, second=0, microsecond=0)
     cards = []
+    keep_days = int(pub.get("outbox_days", 21))
     for md in sorted((ROOT / "_drafts").glob("*.md")):
+        asof = fm_value(split_front_matter(md.read_text(encoding="utf-8"))[0], "info_as_of")
+        try:
+            if asof and (now.date() - datetime.fromisoformat(asof).date()).days > keep_days:
+                continue  # 오래된 초안은 대기함에서 내림 (파일은 그대로)
+        except ValueError:
+            pass
         slug = md.stem
         naver = render(md, site)
         var = ROOT / "automation" / "variants" / f"{slug}.tistory.md"
@@ -93,8 +114,8 @@ def main():
             "trend": fm_value(fm, "trend") or fm_value(fm, "cycle"), "slot": slot.strftime("%m/%d %H:%M"),
             "ok": not problems, "problems": problems, "manual": v["manual"], "style": s["score"],
             "similarity": round(sim[0], 2) if sim else None,
-            "naver": {k: naver[k] for k in ("title", "html", "tags")},
-            "tistory": {k: tistory[k] for k in ("title", "html", "tags")} if tistory else None,
+            "naver": {k: naver[k] for k in ("title", "html", "preview", "images", "tags")},
+            "tistory": {k: tistory[k] for k in ("title", "html", "preview", "images", "tags")} if tistory else None,
         })
         slot += timedelta(minutes=spacing)
 
@@ -169,6 +190,9 @@ var DATA=__DATA__;
 function store(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
 function toast(m){var t=document.getElementById('toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(function(){t.style.display='none'},1600)}
 function copyRich(h){var plain=h.replace(/<[^>]+>/g,' ');if(navigator.clipboard&&window.ClipboardItem){return navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([h],{type:'text/html'}),'text/plain':new Blob([plain],{type:'text/plain'})})]).then(function(){toast('본문 복사됨 — 에디터에 붙여넣기')},function(){fallback(h,true)})}fallback(h,true)}
+function copyImage(dataUrl){try{var b=atob(dataUrl.split(',')[1]),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);var type=dataUrl.slice(5,dataUrl.indexOf(';'));var blob=new Blob([u],{type:type});
+ var go=function(bl){navigator.clipboard.write([new ClipboardItem({'image/png':bl})]).then(function(){toast('이미지 복사됨 — 에디터에 붙여넣기')},function(){toast('이미지 복사가 막혔어요 — 미리보기에서 길게 눌러 저장해 주세요')})};
+ if(type==='image/png')go(blob);else{var img=new Image();img.onload=function(){var c=document.createElement('canvas');c.width=img.naturalWidth;c.height=img.naturalHeight;c.getContext('2d').drawImage(img,0,0);c.toBlob(go,'image/png')};img.src=dataUrl}}catch(e){toast('이미지 복사가 막혔어요 — 미리보기에서 길게 눌러 저장해 주세요')}}
 function copyText(s,m){if(navigator.clipboard){navigator.clipboard.writeText(s).then(function(){toast(m)},function(){fallback(s,false,m)})}else fallback(s,false,m)}
 function fallback(s,rich,m){var d=document.createElement('div');d.contentEditable=true;d.style.position='fixed';d.style.left='-9999px';if(rich)d.innerHTML=s;else d.textContent=s;document.body.appendChild(d);var r=document.createRange();r.selectNodeContents(d);var sel=getSelection();sel.removeAllRanges();sel.addRange(r);document.execCommand('copy');sel.removeAllRanges();d.remove();toast(m||'복사됨')}
 var filter='todo';
@@ -192,11 +216,12 @@ DATA.forEach(function(c){var isDone=done(c);if(filter==='todo'&&(isDone||!c.ok))
   var b1=el('button',{},'제목 복사');b1.onclick=function(){copyText(v.title,'제목 복사됨')};act.appendChild(b1);
   var b2=el('button',{},p==='naver'?'본문 복사':'본문 복사 (기본모드)');b2.onclick=function(){copyRich(v.html)};act.appendChild(b2);
   if(p==='tistory'){var b3=el('button',{class:'sec'},'HTML 복사 (HTML모드)');b3.onclick=function(){copyText(v.html,'HTML 복사됨')};act.appendChild(b3)}
+  (v.images||[]).forEach(function(im,i){var bi=el('button',{class:'sec'},'이미지 '+(i+1)+' 복사');bi.onclick=function(){copyImage(im.data)};act.appendChild(bi)});
   if(v.tags&&v.tags.length){var b4=el('button',{class:'sec'},'태그 복사');b4.onclick=function(){copyText(v.tags.join(p==='naver'?' ':','),'태그 복사됨')};act.appendChild(b4)}
   var lab=el('label',{});var cb=el('input',{type:'checkbox'});cb.checked=store('pub:'+c.slug+':'+p)==='1';cb.onchange=function(){store('pub:'+c.slug+':'+p,cb.checked?'1':'0');render()};lab.appendChild(cb);lab.appendChild(document.createTextNode('발행함'));act.appendChild(lab);
   pane.appendChild(act);if(!c[p])pane.appendChild(el('p',{class:'tags'},'⚠ 티스토리 전용판이 없어 네이버판을 보여 줍니다. 그대로 올리면 유사문서가 될 수 있습니다.'));
   if(v.tags&&v.tags.length)pane.appendChild(el('p',{class:'tags'},v.tags.map(function(t){return'#'+esc(t)}).join(' ')));
-  var d=el('details',{});d.appendChild(el('summary',{},'미리보기'));d.appendChild(el('div',{class:'preview'},'<h2 style="margin-top:0">'+esc(v.title)+'</h2>'+v.html));pane.appendChild(d)}
+  var d=el('details',{});d.appendChild(el('summary',{},'미리보기'));d.appendChild(el('div',{class:'preview'},'<h2 style="margin-top:0">'+esc(v.title)+'</h2>'+(v.preview||v.html)));pane.appendChild(d)}
  if(!c.ok){pane.appendChild(el('p',{class:'tags'},'검증을 통과하지 못한 글은 복사 버튼을 숨깁니다. 위 문제를 먼저 고치세요.'))}else show('naver');
  card.appendChild(tabs);card.appendChild(pane);L.appendChild(card)});
  if(!shown)L.appendChild(el('p',{class:'empty'},filter==='todo'?'지금 발행할 글이 없습니다.':'해당하는 글이 없습니다.'))}

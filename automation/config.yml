@@ -10,6 +10,13 @@ channels:
 publish:
   spacing_minutes: 90  # 발행 대기함이 추천하는 글 사이 간격 (한꺼번에 몰아 올리지 않기)
   hours: [7, 23]       # 추천 발행 시간대 (KST)
+  outbox_days: 21      # 정보 기준일이 이보다 오래된 초안은 대기함에서 내림
+
+images:
+  per_post: [1, 4]          # 글 하나에 넣을 이미지 수 (최소, 최대)
+  openai_model: gpt-image-2 # OpenAI 이미지 모델 (OPENAI_API_KEY 필요). 오류가 나면 계정에서 쓸 수 있는 모델명으로 바꾸기
+  openai_size: 1536x1024
+  openai_quality: medium    # low / medium / high — 높을수록 비쌈
 
 writer:
   max_posts_per_run: 0      # 0 = 제한 없음. 기준을 통과한 후보는 전부 쓴다

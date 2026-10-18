@@ -176,7 +176,20 @@ def verify(draft, fetch=False, today=None):
         else:
             rows.append((label, c["value"], host, quote, "· 미확인(오프라인)"))
 
-    for t in fact_tokens(body):
+    # 카드 이미지 속 글자도 사실 주장 — 본문과 똑같이 claims 로 뒷받침돼야 한다
+    try:
+        import yaml
+        from make_cards import card_text
+        fm_full = yaml.safe_load(fm_raw) or {}
+        body_and_cards = body + "\n" + card_text(fm_full)
+        licensed = {str(i.get("src")) for i in (fm_full.get("images") or []) if i.get("license") and i.get("credit")}
+    except Exception:
+        body_and_cards, licensed = body, set()
+    # 직접 만든 카드(/assets/cards/) 말고 외부 이미지는 라이선스·출처가 front matter images 에 있어야 한다
+    for src in re.findall(r"!\[[^\]]*\]\(([^)\s]+)", body) + re.findall(r'<img[^>]+src="([^"]+)"', body):
+        if "/assets/cards/" not in src and src not in licensed:
+            fails.append(f"라이선스 확인 안 된 이미지: {src} — front matter images 에 license·credit 를 적거나 빼기")
+    for t in fact_tokens(body_and_cards):
         if norm(t) not in support:
             fails.append(f"출처 없는 사실 토큰: '{t}' — claims 에 추가하거나 본문에서 빼기")
 

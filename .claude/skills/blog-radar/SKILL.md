@@ -41,6 +41,17 @@ git show origin/radar-data:trends/latest.json > /tmp/radar.json 2>/dev/null || e
 - **티스토리판** `automation/variants/<slug>.tistory.md`: 같은 claims를 쓰되 제목, 도입, 소제목 구성, 문장을 새로 쓴다. 네이버판을 다듬어 고친 수준이면 안 된다.
 - **claims** `automation/claims/<slug>.yml`: 두 판의 모든 숫자·날짜·금액·나이·기간. 원문 인용 + 출처, 계산값은 derived.
 
+## 3-1. 이미지 (writing-guide 1-3)
+```bash
+pip install -q playwright 2>/dev/null
+python3 automation/scripts/make_cards.py _drafts/<slug>.md automation/variants/<slug>.tistory.md   # 정보 카드
+[ "$NET" = OK ] && python3 automation/scripts/evidence_shot.py <slug>                            # 공식 원문 형광펜 캡처 (capture: true 인 claim)
+# 필요할 때만: python3 automation/scripts/get_image.py photo <slug> "영문 검색어"   (PEXELS_API_KEY)
+#            python3 automation/scripts/get_image.py ai <slug> "장면 묘사"          (OPENAI_API_KEY)
+```
+캡처가 실패하면(열기 실패·인용문 못 찾음) 그 자리는 카드로 대신한다. 사진·AI 이미지는 출력된 YAML을 front matter `images:`에 붙인다.
+`git add`에 `assets/cards assets/photos`도 포함한다(사이트에 올라가야 복사한 본문 속 이미지가 보인다).
+
 ## 4. 재검수 1차 — 문체 (두 판 모두)
 `automation/prompts/review-1-voice.md`.
 
@@ -64,7 +75,7 @@ Artifact 도구가 있으면 `/tmp/outbox-artifact.html`을 아티팩트로 발�
 ## 7. 로그, 커밋, PR
 `automation/log/$NOW.md`: 검토한 후보 전체(쓴 것/건너뛴 것과 이유), 글마다 verify 표·style 점수·유사도.
 ```bash
-git add _drafts automation exports && git commit -m "drafts: $NOW 초안 N편"
+git add _drafts automation exports assets/cards assets/photos && git commit -m "drafts: $NOW 초안 N편"
 git push -u origin drafts/$NOW
 ```
 쓴 글이 0편이고 skipped_cycles만 바뀌었으면 그것만 커밋해 푸시한다. 아무 변화가 없으면 푸시하지 않는다.
