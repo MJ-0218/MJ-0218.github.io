@@ -46,11 +46,11 @@ JS_MARK = r"""
     if (i >= 0) {
       const r = document.createRange(); r.setStart(n, i); r.setEnd(n, i + quote.length);
       const m = document.createElement('mark');
-      m.style.cssText = 'background:linear-gradient(transparent 35%, #ffe14d 35%);color:inherit;padding:0 2px;';
+      m.style.cssText = 'background:linear-gradient(transparent 38%, rgba(124,200,255,.75) 38%);color:inherit;padding:0 2px;';
       r.surroundContents(m); hit = true; break;
     }
   }
-  if (!hit) best.style.cssText += ';background:#fff3a3 !important;outline:3px solid #ffd400;';
+  if (!hit) best.style.cssText += ';background:rgba(124,200,255,.3) !important;outline:3px solid #7cc8ff;';
   // 3) 캡처 영역: 너무 작으면 부모로 넓힘 (문맥이 보이도록)
   let box = best;
   while (box.parentElement && box.getBoundingClientRect().height < 120 && box.parentElement !== document.body) box = box.parentElement;

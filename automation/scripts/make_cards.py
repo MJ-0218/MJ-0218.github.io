@@ -75,29 +75,33 @@ def body_for(card):
 
 
 PAGE = """<!doctype html><html lang="ko"><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Mono:wght@600&family=IBM+Plex+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#f3eee2;--ink:#16130f;--ink2:#4a443b;--seal:#cf3a1f;--field:#fffdf7;--grid:rgba(22,19,15,.06)}
+/* 안내 표지판 — 흰 바탕, 먹색 글자, 하늘색은 면(面)으로만 */
+:root{--paper:#fff;--ink:#0b0b0c;--ink2:rgba(11,11,12,.66);--hair:rgba(11,11,12,.14);--sky:#7cc8ff}
 *{box-sizing:border-box;margin:0}
-body{width:540px;background:var(--paper);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:18px 18px;font-family:"IBM Plex Sans KR","WenQuanYi Zen Hei",sans-serif;color:var(--ink);word-break:keep-all}
-.card{margin:22px;background:var(--field);border:2px solid var(--ink);box-shadow:5px 5px 0 var(--ink);padding:26px 26px 22px;position:relative}
-.kicker{font:600 12px/1.4 "IBM Plex Mono",monospace;color:var(--seal);letter-spacing:.06em;margin-bottom:8px}
-h1{font:700 26px/1.3 "Gowun Batang",serif;letter-spacing:-.01em;margin-bottom:14px}
-.big{font:700 44px/1.1 "IBM Plex Sans KR",sans-serif;color:var(--seal);margin:4px 0 16px;letter-spacing:-.02em}
-.lines{list-style:none;padding:0;border-top:2px solid var(--ink)}
-.lines li{padding:10px 0;border-bottom:1px solid var(--ink);font-size:17px;line-height:1.5}
-table{width:100%;border-collapse:collapse;font-size:16px}
-th{text-align:left;font:600 12px "IBM Plex Mono",monospace;letter-spacing:.05em;color:var(--ink2);border-bottom:2px solid var(--ink);padding:8px 6px}
-td{padding:9px 6px;border-bottom:1px solid var(--ink)}
-td:not(:first-child){font-weight:700}
-.note{font-size:13px;color:var(--ink2);margin-top:10px}
-.steps{list-style:none;padding:0;display:grid;gap:10px}
-.steps li{display:flex;gap:12px;align-items:center;font-size:17px;line-height:1.45}
-.n{flex:none;width:30px;height:30px;display:grid;place-items:center;background:var(--ink);color:var(--paper);font:700 15px "IBM Plex Mono",monospace}
-.foot{display:flex;justify-content:space-between;align-items:center;margin:0 22px 18px;font:600 11px "IBM Plex Mono",monospace;color:var(--ink2)}
-.seal{display:inline-grid;place-items:center;width:26px;height:26px;background:var(--seal);color:#fff;font:700 14px "Gowun Batang",serif;transform:rotate(-4deg);margin-right:6px}
+body{width:540px;background:var(--paper);font-family:"IBM Plex Sans KR","WenQuanYi Zen Hei",sans-serif;color:var(--ink);word-break:keep-all}
+.card{padding:34px 34px 26px;border-top:10px solid var(--sky)}
+.kicker{display:flex;align-items:center;gap:8px;font:500 13px/1.4 "IBM Plex Sans KR",sans-serif;color:var(--ink2);letter-spacing:-.01em;margin-bottom:14px}
+.kicker::before{content:"";width:9px;height:9px;background:var(--ink)}
+h1{font:700 27px/1.3 "IBM Plex Sans KR",sans-serif;letter-spacing:-.035em;margin-bottom:18px}
+.big{display:inline-block;font:700 50px/1.05 "IBM Plex Sans KR",sans-serif;letter-spacing:-.045em;margin:2px 0 22px;padding:6px 12px 8px;background:var(--sky)}
+.lines{list-style:none;padding:0;border-top:1px solid var(--ink)}
+.lines li{padding:12px 0;border-bottom:1px solid var(--hair);font-size:16px;line-height:1.55}
+table{width:100%;border-collapse:collapse;font-size:15.5px}
+th{text-align:left;font:500 11px "IBM Plex Mono","IBM Plex Sans KR",monospace;letter-spacing:.08em;color:var(--ink2);border-bottom:1px solid var(--ink);padding:8px 8px 8px 0}
+td{padding:11px 8px 11px 0;border-bottom:1px solid var(--hair)}
+td:not(:first-child){font-weight:700;font-family:"IBM Plex Sans KR",sans-serif}
+tbody tr:first-child td{border-top:0}
+.note{font-size:12.5px;color:var(--ink2);margin-top:14px;padding-left:10px;border-left:3px solid var(--sky)}
+.steps{list-style:none;padding:0;border-top:1px solid var(--ink)}
+.steps li{display:flex;gap:14px;align-items:center;font-size:16.5px;line-height:1.45;padding:12px 0;border-bottom:1px solid var(--hair)}
+.n{flex:none;width:30px;height:30px;display:grid;place-items:center;background:var(--sky);color:var(--ink);font:600 14px "IBM Plex Mono","IBM Plex Sans KR",monospace}
+.foot{display:flex;justify-content:space-between;align-items:center;padding:0 34px 26px;font:500 12px "IBM Plex Sans KR",sans-serif;color:var(--ink2)}
+.mark{display:inline-flex;align-items:center;gap:7px;font:700 13px "IBM Plex Sans KR",sans-serif;color:var(--ink);letter-spacing:-.02em}
+.seal{display:inline-block;width:10px;height:10px;background:var(--sky)}
 </style></head><body><div class="card">__BODY__</div>
-<div class="foot"><span><span class="seal">셈</span>__SITE__</span><span>__ASOF__</span></div></body></html>"""
+<div class="foot"><span class="mark"><span class="seal"></span>__SITE__</span><span>__ASOF__</span></div></body></html>"""
 
 
 def render(files):
