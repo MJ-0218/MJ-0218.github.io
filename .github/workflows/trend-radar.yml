@@ -16,10 +16,18 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install pyyaml
+      - name: 직전 기록 가져오기 (급상승 비교용)
+        run: |
+          mkdir -p /tmp/prev
+          if git fetch -q origin radar-data 2>/dev/null; then
+            for f in $(git ls-tree --name-only origin/radar-data trends/history/ | tail -2); do
+              git show "origin/radar-data:$f" > "/tmp/prev/$(basename "$f")"
+            done
+          fi
       - name: 수집
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
-        run: python3 automation/scripts/trend_radar.py --out /tmp/radar/latest.json --history /tmp/radar/history
+        run: python3 automation/scripts/trend_radar.py --out /tmp/radar/latest.json --history /tmp/radar/history --prev /tmp/prev
       - name: radar-data 브랜치에 저장
         run: |
           git config user.name "semter-radar"

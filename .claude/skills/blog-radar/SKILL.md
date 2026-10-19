@@ -27,6 +27,8 @@ git show origin/radar-data:trends/latest.json > /tmp/radar.json 2>/dev/null || e
    - 쓰는 글의 front matter에 `cycle: <cycle 값>`을 반드시 넣는다(중복 방지).
    - 한 주제의 단계별 검색 의도(예: 신청기간 / 지급일 / 기한 후 신청)는 각각 별도 글로 쓴다.
 2. **실시간**(`/tmp/radar.json`의 candidates, `source != calendar`): `score ≥ config.writer.min_score`, `already_covered=false`, 공식 출처가 있는 생활 정보만. 사건·사고, 연예인 사생활, 의혹은 제외.
+   - **급상승 우선**: `spike` 값이 있는 후보(직전 3시간보다 최근 1시간 기사 수가 2배 이상, 급상승 검색어 새 진입, 정책브리핑 인기뉴스 새 진입)는 캘린더보다 먼저 검토한다. 사람들이 지금 막 찾기 시작한 주제라 빨리 쓸수록 유입이 크다. 단, 공식 원문으로 사실을 확인하지 못하면 쓰지 않고 로그에 "급상승·원문 미확보"로 남긴다.
+   - 급상승 검색어가 인물·사건이어도, 그와 연결된 **생활 정보**(신청 방법, 지급일, 일정, 계산법)가 공식 출처로 확인되면 그 정보 각도로 쓴다.
 3. 이미 같은 주제의 글이 `_drafts/`·`_posts/`·열린 drafts PR에 있으면 건너뛴다.
 
 개수 제한은 없다(config.writer.max_posts_per_run이 0이 아니면 그 수까지). 후보마다 쓸지 말지와 이유를 로그에 남긴다.
