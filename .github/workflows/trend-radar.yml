@@ -10,12 +10,12 @@ concurrency: { group: trend-radar, cancel-in-progress: false }
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install pyyaml
+      - run: pip install pyyaml googlenewsdecoder
       - name: 직전 기록 가져오기 (급상승 비교용)
         run: |
           mkdir -p /tmp/prev
@@ -27,7 +27,7 @@ jobs:
       - name: 수집
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
-        run: python3 automation/scripts/trend_radar.py --out /tmp/radar/latest.json --history /tmp/radar/history --prev /tmp/prev
+        run: python3 automation/scripts/trend_radar.py --out /tmp/radar/latest.json --history /tmp/radar/history --prev /tmp/prev --evidence /tmp/radar/evidence
       - name: radar-data 브랜치에 저장
         run: |
           git config user.name "semter-radar"
@@ -40,6 +40,18 @@ jobs:
           mkdir -p trends/history
           cp /tmp/radar/latest.json trends/latest.json
           for f in /tmp/radar/history/*.jsonl; do cat "$f" >> "trends/history/$(basename "$f")"; done
+          # 원문 수집본(작성 세션에서 막힌 사이트의 원문) — 3일 지난 것은 지운다
+          mkdir -p trends/evidence
+          cp /tmp/radar/evidence/*.json trends/evidence/ 2>/dev/null || true
+          python3 -c "
+          import json,pathlib,datetime as d
+          now=d.datetime.now(d.timezone(d.timedelta(hours=9)))
+          for p in pathlib.Path('trends/evidence').glob('*.json'):
+              try:
+                  t=d.datetime.fromisoformat(json.loads(p.read_text())['fetched_at'])
+                  if now-t>d.timedelta(days=3): p.unlink()
+              except Exception: p.unlink()
+          "
           # 기록은 14일만 보관
           find trends/history -name '*.jsonl' -mtime +14 -delete || true
           git add -A trends

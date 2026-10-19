@@ -57,5 +57,9 @@ radar:
     - 국가건강검진
     - 수능 시간표
     - 복지급여 지급일
+  # 방송 맛집 — 프로그램 이름으로 최근 3일 가게 정보 기사를 모은다 (tv_food)
+  tv_programs: [생생정보, 생방송 투데이, 생방송 오늘저녁, 6시 내고향, 생활의 달인, 백반기행, 동네 한 바퀴, 맛있는 녀석들, 토요일은 밥이 좋아, 줄서는 식당]
+  evidence_topics: 25      # 원문 수집본을 받아 둘 후보 수 (Actions)
+  evidence_per_topic: 4    # 후보 하나당 기사 수
   korea_kr_home: https://www.korea.kr/   # 정책브리핑 RSS 는 2026-07-01 중단 → 첫 화면 실시간 인기뉴스 사용
   # applyhome.endpoint 를 바꾸면 청약홈 API 주소를 덮어쓴다 (DATA_GO_KR_KEY 필요)

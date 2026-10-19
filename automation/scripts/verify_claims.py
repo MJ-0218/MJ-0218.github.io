@@ -44,6 +44,8 @@ KST = timezone(timedelta(hours=9))
 UA = "Mozilla/5.0 (compatible; semter-factcheck/1.0)"
 
 OFFICIAL_REQUIRED = {"정부혜택", "청약", "선거", "세금", "노동·급여"}
+# 방송 맛집·이슈 글은 공식 출처가 없는 경우가 많아, 서로 다른 매체 2곳 이상이 같은 사실을 적었는지로 본다
+CROSS_CHECK_REQUIRED = {"방송정보", "이슈"}
 OFFICIAL_DOMAINS = re.compile(
     r"(\.go\.kr|\.korea\.kr|^korea\.kr|applyhome\.co\.kr|lh\.or\.kr|i-sh\.co\.kr|gh\.or\.kr|nhuf\.molit\.go\.kr|"
     r"khug\.or\.kr|nps\.or\.kr|nhis\.or\.kr|kinfa\.or\.kr|kbs\.co\.kr|imbc\.com|sbs\.co\.kr|ebs\.co\.kr)$")
@@ -133,6 +135,24 @@ def verify(draft, fetch=False, today=None):
         except ValueError:
             fails.append(f"deadline 형식 오류: {dl}")
 
+    # 교차 확인: 방송 맛집·이슈 글은 공식 출처가 아닌 사실마다 다른 매체 1곳(source2/quote2)을 더 댄다
+    if category in CROSS_CHECK_REQUIRED:
+        extra = []
+        for c in claims:
+            if c.get("derived") or not c.get("source"):
+                continue
+            h1 = urlparse(c["source"]).hostname or ""
+            if OFFICIAL_DOMAINS.search(h1):
+                continue
+            if not (c.get("source2") and c.get("quote2")):
+                fails.append(f"{c.get('claim', '')}: '{category}' 글은 공식 출처가 아니면 다른 매체 source2/quote2 로 교차 확인 필요")
+            elif (urlparse(c["source2"]).hostname or "") == h1:
+                fails.append(f"{c.get('claim', '')}: source2 가 source 와 같은 매체 — 다른 매체여야 함")
+            else:
+                extra.append({"claim": f"{c.get('claim', '')} (교차)", "value": c["value"], "quote": c["quote2"],
+                              "source": c["source2"], "value_note": "교차 확인"})
+        claims = claims + extra
+
     support = ""
     for i, c in enumerate(claims, 1):
         label = f"#{i} {c.get('claim', '')}"
@@ -166,7 +186,17 @@ def verify(draft, fetch=False, today=None):
                     rows.append((label, c["value"], host, quote, "✓ 원문 일치" if ok else "△ 사람 확인"))
                     continue
             except Exception as e:
-                # 해외 서버 접속을 막는 국내 기관 사이트가 있어, 열기 실패는 통과가 아니라 '사람 확인 필수'로 넘긴다
+                # 작성 세션에서 막힌 사이트는 레이더(Actions)가 받아 둔 원문 수집본으로 대조한다
+                import evidence
+                rec = evidence.load(src)
+                if rec:
+                    ok = norm(quote) in norm(rec["text"])
+                    if not ok:
+                        fails.append(f"{label}: quote 가 원문 수집본({rec['fetched_at']})에 없음 — {src}")
+                    rows.append((label, c["value"], host, quote,
+                                 f"✓ 원문 일치 (수집본 {rec['fetched_at'][:16]})" if ok else "✗ 수집본 불일치"))
+                    continue
+                # 수집본도 없으면 통과가 아니라 '사람 확인 필수'로 넘긴다
                 manual.append(f"{label} — {src} (자동 열기 실패: {e})")
                 rows.append((label, c["value"], host, quote, "△ 열기 실패·사람 확인"))
                 continue

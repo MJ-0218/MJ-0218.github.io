@@ -40,9 +40,12 @@ DEFAULT_CATEGORIES = {
     "선거": ["선거", "투표", "사전투표", "투표소", "선관위", "후보", "재보궐"],
     "세금": ["연말정산", "종합소득세", "종부세", "재산세", "부가세", "자동차세", "홈택스", "세액공제"],
     "노동·급여": ["최저임금", "퇴직금", "실업급여", "연차", "육아휴직", "출산휴가", "4대보험"],
-    "방송정보": ["생생정보", "생방송 투데이", "생방송 오늘저녁", "생활의 달인", "6시 내고향", "백반기행"],
+    "방송정보": ["생생정보", "생방송 투데이", "생방송 오늘저녁", "생활의 달인", "6시 내고향", "백반기행", "맛집",
+               "동네 한 바퀴", "맛있는 녀석들", "토요일은 밥이 좋아", "줄서는 식당", "놀라운 토요일"],
 }
-CATEGORY_WEIGHT = {"정부혜택": 1.6, "청약": 1.5, "세금": 1.4, "노동·급여": 1.3, "선거": 1.3, "방송정보": 1.1, "기타": 0.6}
+CATEGORY_WEIGHT = {"정부혜택": 1.6, "청약": 1.5, "세금": 1.4, "노동·급여": 1.3, "선거": 1.3, "방송정보": 1.3, "기타": 0.6}
+DEFAULT_TV_PROGRAMS = ["생생정보", "생방송 투데이", "생방송 오늘저녁", "6시 내고향", "생활의 달인", "백반기행",
+                       "동네 한 바퀴", "맛있는 녀석들", "토요일은 밥이 좋아", "줄서는 식당"]
 
 
 def fetch(url, timeout=20):
@@ -160,6 +163,95 @@ def src_google_news(cfg, cats):
     return out
 
 
+def src_tv_food(cfg, cats):
+    """방송 맛집 — 방송사 프로그램별로 최근 3일 가게 정보 기사를 모은다. 방송 당일 저녁~다음 날 검색이 몰린다.
+    프로그램·날짜 하나가 후보 하나(그날 방송에 나온 가게들을 한 글로 정리)."""
+    out = []
+    for prog in cfg.get("tv_programs") or DEFAULT_TV_PROGRAMS:
+        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+            {"q": f"{prog} when:3d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"})
+        try:
+            its = list(items(fetch(url)))
+        except Exception as e:
+            print(f"  tv_food {prog}: {e}", file=sys.stderr)
+            continue
+        news = []
+        for i in its:
+            title = strip_tags(child_text(i, "title"))
+            if prog.replace(" ", "") not in title.replace(" ", ""):
+                continue  # 프로그램 이름이 제목에 없는 기사(광고성 페이지 등)는 버린다
+            if not any(w in title for w in ("맛집", "위치", "식당", "가게", "메뉴")):
+                continue  # 출연자 근황 같은 기사는 빼고 가게 정보 기사만
+            news.append({"title": title, "url": child_text(i, "link"), "source": child_text(i, "source"),
+                         "published": (parse_date(child_text(i, "pubDate")) or datetime.now(KST)).isoformat()})
+        if not news:
+            continue
+        day = max(n["published"] for n in news)[:10]
+        out.append({
+            "source": "tv_food", "keyword": f"{prog} 맛집 {day}", "program": prog, "traffic": 0,
+            "article_count_24h": len(news), "published": max(n["published"] for n in news),
+            "category": "방송정보", "news": news[:12], "official": False,
+        })
+    return out
+
+
+def resolve_gnews(url):
+    """Google 뉴스 RSS 링크를 실제 기사 주소로 바꾼다 (Actions 에서만 쓰임)."""
+    if "news.google.com" not in url:
+        return url
+    try:
+        from googlenewsdecoder import gnewsdecoder  # pip install googlenewsdecoder
+        r = gnewsdecoder(url, interval=1)
+        if r.get("status"):
+            return r["decoded_url"]
+    except Exception as e:
+        print(f"  gnews decode: {e}", file=sys.stderr)
+    return None
+
+
+def collect_evidence(ranked, out_dir, cfg):
+    """작성 세션에서 막힌 원문을 Actions 가 대신 받아 둔다: 방송 맛집·급상승 후보의 기사 + 요청 URL."""
+    import evidence as ev
+    saved, failed = 0, 0
+    targets = []
+    for c in ranked:
+        if c["source"] == "tv_food" or (c.get("spike") and c["source"] in ("google_trends", "google_news")) or \
+                (c["source"] == "google_news" and c.get("score", 0) >= 35):
+            targets.append(c)
+    for c in targets[: int(cfg.get("evidence_topics", 25))]:
+        c["evidence"] = []
+        for n in c.get("news", [])[: int(cfg.get("evidence_per_topic", 4))]:
+            real = resolve_gnews(n["url"])
+            if not real:
+                failed += 1
+                continue
+            try:
+                final, raw, ctype = ev.fetch(real)
+                rec = ev.save(out_dir, final, n["title"], ev.html_to_text(raw, ctype),
+                              {"requested_url": real, "topic": c["keyword"], "outlet": n.get("source", "")})
+                c["evidence"].append({"url": rec["url"], "title": n["title"], "outlet": n.get("source", "")})
+                saved += 1
+            except Exception as e:
+                failed += 1
+                print(f"  evidence {real}: {e}", file=sys.stderr)
+    req = ROOT / "automation" / "state" / "fetch_requests.txt"
+    if req.exists():
+        for line in req.read_text(encoding="utf-8").splitlines():
+            u = line.split("#")[0].strip()
+            if not u.startswith("http"):
+                continue
+            try:
+                final, raw, ctype = ev.fetch(u)
+                text = ev.html_to_text(raw, ctype) if "pdf" not in ctype else ""
+                ev.save(out_dir, u, line.split("#", 1)[1].strip() if "#" in line else u, text,
+                        {"requested_url": u, "final_url": final, "topic": "요청"})
+                saved += 1
+            except Exception as e:
+                failed += 1
+                print(f"  request {u}: {e}", file=sys.stderr)
+    return f"ok (저장 {saved}, 실패 {failed})"
+
+
 def src_applyhome(cfg, cats):
     """청약홈 분양정보 (공공데이터포털 '한국부동산원_청약홈 분양정보 조회 서비스').
     엔드포인트·필드명은 data.go.kr 활용가이드 기준으로 config 에서 바꿀 수 있게 둔다."""
@@ -220,7 +312,8 @@ def src_calendar(cfg, cats):
     return due()
 
 
-SOURCES = {"calendar": src_calendar, "google_trends": src_google_trends, "korea_kr": src_korea_kr, "google_news": src_google_news, "applyhome": src_applyhome}
+SOURCES = {"calendar": src_calendar, "google_trends": src_google_trends, "korea_kr": src_korea_kr,
+           "google_news": src_google_news, "tv_food": src_tv_food, "applyhome": src_applyhome}
 
 
 def score(item, now):
@@ -232,6 +325,8 @@ def score(item, now):
     base += item.get("spike_bonus", 0)
     if item.get("official"):
         base += 25
+    if item["source"] == "tv_food":
+        base += 20 + min(30, len({n.get("source") for n in item.get("news", [])}) * 6)  # 여러 매체가 다룰수록 검색도 많다
     if item["source"] == "korea_kr" and item.get("rank"):
         base += max(0, 6 - item["rank"]) * 6  # 정책브리핑 실시간 인기 순위
     if item["source"] == "applyhome" and item.get("receipt_begin"):
@@ -271,7 +366,7 @@ def load_prev(prev_dir, now, hours=3):
 
 def mark_spike(it, runs):
     """직전 실행들보다 갑자기 늘어난 주제에 spike 표시와 가산점을 단다."""
-    if not runs or it["source"] in ("calendar", "applyhome"):
+    if not runs or it["source"] in ("calendar", "applyhome", "tv_food"):
         return
     k = norm_kw(it["keyword"])
     past = [r[k] for r in runs if k in r]
@@ -322,6 +417,7 @@ def main():
     ap.add_argument("--history", default="")
     ap.add_argument("--prev", default="", help="직전 실행 기록(jsonl) 폴더 — 급상승 비교용")
     ap.add_argument("--only", default="", help="쉼표로 구분한 수집원만 실행")
+    ap.add_argument("--evidence", default="", help="원문 수집본 저장 폴더 (Actions 에서만)")
     a = ap.parse_args()
 
     cfg = load_cfg()
@@ -354,6 +450,9 @@ def main():
         ranked.append(it)
     ranked.sort(key=lambda x: x["score"], reverse=True)
 
+    if a.evidence:
+        status["evidence"] = collect_evidence(ranked, a.evidence, cfg)
+        print(f"[evidence] {status['evidence']}", file=sys.stderr)
     result = {"generated_at": now.isoformat(), "sources": status, "compared_runs": len(runs),
               "spikes": [c["keyword"] for c in ranked if c.get("spike")], "candidates": ranked}
     out = Path(a.out)

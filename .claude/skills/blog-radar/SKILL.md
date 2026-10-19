@@ -17,6 +17,7 @@ git checkout -B drafts/$NOW origin/HEAD 2>/dev/null || git checkout -B drafts/$N
 NET=$(python3 automation/scripts/fetch_source.py https://www.korea.kr/rss/policy.xml >/dev/null 2>&1 && echo OK || echo BLOCKED); echo "NET=$NET"
 python3 automation/scripts/calendar_due.py --json > /tmp/calendar.json
 git show origin/radar-data:trends/latest.json > /tmp/radar.json 2>/dev/null || echo '{"candidates":[]}' > /tmp/radar.json
+python3 automation/scripts/evidence.py pull   # Actions 가 받아 둔 원문 수집본(방송 맛집 기사, 막힌 공식 누리집) → /tmp/evidence
 ```
 `automation/config.yml`, `automation/prompts/writing-guide.md`를 먼저 읽는다.
 
@@ -29,6 +30,8 @@ git show origin/radar-data:trends/latest.json > /tmp/radar.json 2>/dev/null || e
 2. **실시간**(`/tmp/radar.json`의 candidates, `source != calendar`): `score ≥ config.writer.min_score`, `already_covered=false`, 공식 출처가 있는 생활 정보만. 사건·사고, 연예인 사생활, 의혹은 제외.
    - **급상승 우선**: `spike` 값이 있는 후보(직전 3시간보다 최근 1시간 기사 수가 2배 이상, 급상승 검색어 새 진입, 정책브리핑 인기뉴스 새 진입)는 캘린더보다 먼저 검토한다. 사람들이 지금 막 찾기 시작한 주제라 빨리 쓸수록 유입이 크다. 단, 공식 원문으로 사실을 확인하지 못하면 쓰지 않고 로그에 "급상승·원문 미확보"로 남긴다.
    - 급상승 검색어가 인물·사건이어도, 그와 연결된 **생활 정보**(신청 방법, 지급일, 일정, 계산법)가 공식 출처로 확인되면 그 정보 각도로 쓴다.
+   - **방송 맛집**(`source == tv_food`): 프로그램·방송일 하나가 후보 하나. `score ≥ 15`면 검토하고, 방송일이 3일 넘게 지났으면 건너뛴다. 쓰는 법은 writing-guide 1-4(가게마다 서로 다른 매체 2곳 교차 확인).
+   - **급상승 이슈**(`spike` 있는 google_trends·google_news·korea_kr): 정부 정보가 아니어도 writing-guide 1-5 기준을 통과하면 `category: 이슈`로 쓴다.
 3. 이미 같은 주제의 글이 `_drafts/`·`_posts/`·열린 drafts PR에 있으면 건너뛴다.
 
 개수 제한은 없다(config.writer.max_posts_per_run이 0이 아니면 그 수까지). 후보마다 쓸지 말지와 이유를 로그에 남긴다.
@@ -38,6 +41,7 @@ git show origin/radar-data:trends/latest.json > /tmp/radar.json 2>/dev/null || e
 
 ## 2. 조사 — 원문 인용 확보
 - `NET=OK`: `python3 automation/scripts/fetch_source.py <공식 URL> <찾을말>`로 원문 문장을 그대로 복사한다.
+- 작성 세션에서 안 열리는 사이트(언론사, 국토부·복지로 등): 레이더 후보의 `evidence` URL 을 `python3 automation/scripts/evidence.py show <URL> <찾을말>`로 읽는다. 필요한 공식 URL 이 수집본에 없으면 `automation/state/fetch_requests.txt`에 한 줄 추가해 main 에 올리고, 다음 실행에서 쓴다(이번 실행에서는 보류). verify_claims 는 열기 실패 시 이 수집본으로 대조한다.
 - `NET=BLOCKED`: WebSearch로 공식 페이지 URL과 내용을 찾고, claims에 `manual: "작성 세션에서 원문 접근 불가"`. CI가 원문을 다시 대조한다.
 - 날짜는 **연도까지** 확인한다. 작년 공고를 올해 것으로 쓰는 실수가 가장 흔하다.
 
