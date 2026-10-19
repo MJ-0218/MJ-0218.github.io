@@ -102,6 +102,11 @@ def main():
                 results.append({"claim": c.get("claim"), "skipped": "페이지에서 인용문을 찾지 못함"})
                 continue
             fr, box = found
+            # 공공누리 제2~4유형(상업적 이용금지·변경금지) 표시가 있는 페이지는 캡처하지 않는다
+            page_txt = pg.evaluate("document.body.innerText") or ""
+            if re.search(r"공공누리\s*제\s*[234]\s*유형|상업적\s*이용\s*금지|변경\s*금지", page_txt):
+                results.append({"claim": c.get("claim"), "skipped": "공공누리 제2~4유형(상업적 이용금지/변경금지) 페이지 — 캡처 대신 카드 사용"})
+                continue
             n += 1
             out = out_dir / f"{slug}-evidence-{n}.png"
             fr.locator('[data-semter-box="1"]').first.screenshot(path=str(out))
