@@ -203,7 +203,7 @@ def resolve_gnews(url, title=""):
     try:
         from googlenewsdecoder import gnewsdecoder  # pip install googlenewsdecoder
         r = gnewsdecoder(url, interval=1)
-        if r.get("status"):
+        if (r.get("status") or r.get("success")) and r.get("decoded_url"):  # 버전에 따라 키 이름이 다름
             return r["decoded_url"]
         print(f"  gnews decode 실패: {r.get('message', r)}"[:200], file=sys.stderr)
     except Exception as e:
