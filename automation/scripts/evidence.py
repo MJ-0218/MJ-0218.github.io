@@ -47,8 +47,12 @@ def html_to_text(raw, ctype=""):
 
 
 def fetch(url, timeout=25):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
+    # 쿠키를 주고받아야 리다이렉트가 끝나는 누리집(국토부 등)이 있어 쿠키 저장소를 쓴다
+    import http.cookiejar
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9",
+                                               "Accept": "text/html,application/xhtml+xml,*/*;q=0.8"})
+    with opener.open(req, timeout=timeout) as r:
         return r.geturl(), r.read(), r.headers.get("Content-Type", "")
 
 

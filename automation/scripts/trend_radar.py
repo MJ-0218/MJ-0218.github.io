@@ -195,8 +195,9 @@ def src_tv_food(cfg, cats):
     return out
 
 
-def resolve_gnews(url):
-    """Google 뉴스 RSS 링크를 실제 기사 주소로 바꾼다 (Actions 에서만 쓰임)."""
+def resolve_gnews(url, title=""):
+    """Google 뉴스 RSS 링크를 실제 기사 주소로 바꾼다 (Actions 에서만 쓰임).
+    1) googlenewsdecoder  2) 안 되면 같은 제목을 Bing 뉴스 RSS 에서 찾아 원래 주소를 쓴다."""
     if "news.google.com" not in url:
         return url
     try:
@@ -204,8 +205,22 @@ def resolve_gnews(url):
         r = gnewsdecoder(url, interval=1)
         if r.get("status"):
             return r["decoded_url"]
+        print(f"  gnews decode 실패: {r.get('message', r)}"[:200], file=sys.stderr)
     except Exception as e:
-        print(f"  gnews decode: {e}", file=sys.stderr)
+        print(f"  gnews decode: {e}"[:200], file=sys.stderr)
+    if title:
+        head = re.sub(r"\s+-\s+[^-]+$", "", title).strip()  # 끝의 ' - 매체명' 떼기
+        try:
+            q = urllib.parse.urlencode({"q": head, "format": "rss", "setlang": "ko"})
+            for it in items(fetch("https://www.bing.com/news/search?" + q)):
+                link = child_text(it, "link")
+                m = re.search(r"[?&]url=([^&]+)", link)
+                real = urllib.parse.unquote(m.group(1)) if m else link
+                t2 = strip_tags(child_text(it, "title"))
+                if real.startswith("http") and (head[:15] in t2 or t2[:15] in head):
+                    return real
+        except Exception as e:
+            print(f"  bing 대체 실패: {e}"[:200], file=sys.stderr)
     return None
 
 
@@ -221,7 +236,7 @@ def collect_evidence(ranked, out_dir, cfg):
     for c in targets[: int(cfg.get("evidence_topics", 25))]:
         c["evidence"] = []
         for n in c.get("news", [])[: int(cfg.get("evidence_per_topic", 4))]:
-            real = resolve_gnews(n["url"])
+            real = resolve_gnews(n["url"], n.get("title", ""))
             if not real:
                 failed += 1
                 continue
