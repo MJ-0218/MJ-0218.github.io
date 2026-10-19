@@ -19,8 +19,8 @@ BANNED = [
     "알아보겠습니다", "알아보도록", "알아볼까요", "살펴보겠습니다", "살펴보도록", "살펴볼까요",
     "결론적으로", "요약하자면", "정리하자면", "마무리하며", "마치며", "이상으로",
     "도움이 되셨", "도움이 되었으면", "도움이 되길", "유익한 정보", "유익한 시간",
-    "꿀팁", "총정리", "완벽 가이드", "완벽 정리", "A to Z", "놓치지 마세요",
-    "함께 알아", "궁금하셨죠", "궁금하시죠", "오늘은 ", "여러분", "에 대해 알아",
+    "총정리", "완벽 가이드", "완벽 정리", "A to Z",
+    "함께 알아", "에 대해 알아",
     "포스팅", "이번 글에서는", "이 글에서는",
 ]
 # 써도 되지만 몰아 쓰면 기계 같아지는 표현: (표현, 허용 횟수)
@@ -28,7 +28,11 @@ LIMITED = [
     ("다양한", 1), ("중요합니다", 1), ("중요한", 2), ("필수", 1), ("효과적", 1),
     ("할 수 있습니다", 4), ("수 있어요", 4), ("것이 좋습니다", 1), ("것이 좋아요", 1),
     ("또한", 2), ("특히", 3), ("뿐만 아니라", 1), ("한편", 1), ("즉,", 2),
+    # 블로그 말투에서 자연스럽지만 반복되면 티 나는 표현
+    ("꿀팁", 1), ("여러분", 1), ("오늘은 ", 1), ("놓치지 마세요", 1), ("궁금하셨죠", 1),
 ]
+# 블로그 말투 꾸밈 기준 (네이버판 / 티스토리판)
+EMOJI_RANGE = {"naver": (3, 15), "tistory": (0, 6)}
 # 실제로 겪지 않은 체험을 지어내는 문장. firsthand: true 가 아니면 FAIL.
 FAKE_EXPERIENCE = [
     "직접 가봤", "직접 가 봤", "직접 가보", "다녀왔", "다녀 왔", "방문해 보니", "방문해보니", "먹어봤", "먹어 봤",
@@ -72,7 +76,7 @@ def sentences(text):
     lines = [l for l in text.splitlines()
              if l.strip() and not l.lstrip().startswith(("#", "|", "-", "*", ">")) and not re.match(r"^\s*\d+\.", l)]
     joined = " ".join(lines).replace("**", "")
-    parts = re.split(r"(?<=[.!?])\s+|(?<=다\.)|(?<=요\.)", joined)
+    parts = re.split(r"(?<=[.!?~])\s+|(?<=[\U0001F300-\U0001FAFF\u2600-\u27BF])\s+|(?<=다\.)|(?<=요\.)", joined)
     return [p.strip() for p in parts if len(p.strip()) > 4]
 
 
@@ -103,9 +107,18 @@ def check(path):
             if w in flat:
                 fails.append(f"체험 표현 '{w}' — 실제 체험이 아니면 삭제 (실제 체험이면 front matter에 firsthand: true)")
 
+    # 블로그 말투: 이모지·느낌표·물결은 쓰되 과하지 않게
+    platform = "tistory" if ".tistory" in str(path) else "naver"
     emojis = EMOJI.findall(flat)
-    if emojis:
-        fails.append(f"이모지 {len(emojis)}개 — 정보글에서는 빼기")
+    lo, hi = EMOJI_RANGE[platform]
+    stats["emoji"] = len(emojis)
+    if len(emojis) < lo:
+        warns.append(f"이모지 {len(emojis)}개 — 블로그 말투로 소제목·문장 끝에 {lo}개 이상 권장")
+    if len(emojis) > hi:
+        fails.append(f"이모지 {len(emojis)}개 — {platform}판은 {hi}개 이하 (과하면 광고글처럼 보여요)")
+    tables = "\n".join(l for l in body.splitlines() if l.lstrip().startswith("|"))
+    if EMOJI.search(tables):
+        fails.append("표 안에는 이모지를 넣지 않기 (숫자·날짜가 흐려져요)")
 
     sents = sentences(flat)
     stats["sentences"] = len(sents)
@@ -129,6 +142,10 @@ def check(path):
         stats["formal_ratio"] = f"{formal / len(sents):.0%}"
         if formal / len(sents) > 0.35:
             warns.append(f"'~습니다/~합니다' 문장 {formal / len(sents):.0%} — 부드러운 해요체로 바꾸기 (35% 이하 권장)")
+        bang = sum(1 for s in sents if s.rstrip().endswith("!"))
+        stats["exclaim"] = f"{bang / len(sents):.0%}"
+        if bang / len(sents) > 0.3:
+            warns.append(f"느낌표 문장 {bang / len(sents):.0%} — 강조할 때만 (30% 이하)")
         openers = [s.split()[0] for s in sents if s.split()]
         for i in range(len(openers) - 2):
             if openers[i] == openers[i + 1] == openers[i + 2]:
