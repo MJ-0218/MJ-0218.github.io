@@ -99,3 +99,32 @@ git fetch -q origin main && git rebase -q origin/main && git push -q origin HEAD
 ## 하지 않는 것
 - 네이버·티스토리에 직접 로그인하거나 자동 발행하지 않는다(매크로·자동 게시는 계정 제재 위험).
 - 출처 없는 숫자, 확인 안 된 정보, 지어낸 체험, 방송 캡처, 후보·정당 평가를 쓰지 않는다.
+
+---
+
+# 해외(미국 · Google Blogger) — 같은 실행에서 이어서
+
+국내 글을 끝낸 뒤 같은 방식으로 미국 독자용 영어 글을 만든다. 번역이 아니라 미국 주제다. 규칙은 `automation/global/writing-guide-en.md`.
+
+## U0. 준비
+```bash
+git show origin/radar-data:trends/us/latest.json > /tmp/radar_us.json 2>/dev/null || echo '{"candidates":[]}' > /tmp/radar_us.json
+python3 automation/scripts/calendar_due.py --market us
+python3 automation/scripts/evidence.py list            # .gov 원문 수집본 (작성 세션에서는 .gov 가 막혀 있음)
+```
+
+## U1. 후보
+1. 캘린더(`calendar_due.py --market us`) → 2. 실시간(`/tmp/radar_us.json`, `spike` 우선) 순서. 기준은 국내와 같다(공식 출처·생활 정보·사건사고/사생활/정치 평가 제외).
+2. 필요한 공식 URL 이 수집본에 없으면 `automation/global/fetch_requests.txt`에 추가하고 main 에 올린 뒤, GitHub 도구가 있으면 `trend-radar.yml`을 workflow_dispatch 로 돌려 3~5분 뒤 `evidence.py pull`로 받는다. 없으면 다음 실행으로 미룬다.
+
+## U2. 쓰기·검증
+- 초안 `automation/global/drafts/us-<slug>.md` (front matter `lang: en`, `labels`, `permalink`), claims `automation/claims/us-<slug>.yml`.
+- 한 판만 쓴다(Blogger). 재검수 2회는 writing-guide-en 1·2절 기준으로.
+```bash
+export SEMTER_EVIDENCE_DIR=/tmp/evidence
+python3 automation/scripts/make_cards.py automation/global/drafts/us-<slug>.md
+python3 automation/scripts/verify_claims.py automation/global/drafts/us-<slug>.md --fetch   # 열기 실패 시 수집본으로 대조
+python3 automation/scripts/style_check.py automation/global/drafts/us-<slug>.md
+```
+- 대기함은 `build_outbox.py` 한 번으로 국내·해외 탭이 같이 갱신된다. 로그는 `automation/global/log/$NOW.md`.
+- 새 글 알림은 국내·해외를 합쳐 "대기함에 새 글 N편 (국내 a · 해외 b)".

@@ -43,12 +43,15 @@ ROOT = Path(__file__).resolve().parents[2]
 KST = timezone(timedelta(hours=9))
 UA = "Mozilla/5.0 (compatible; semter-factcheck/1.0)"
 
-OFFICIAL_REQUIRED = {"정부혜택", "청약", "선거", "세금", "노동·급여"}
+OFFICIAL_REQUIRED = {"정부혜택", "청약", "선거", "세금", "노동·급여",
+                     # 미국(Blogger) 글
+                     "Benefits", "Taxes", "Health Insurance", "Student Aid", "Housing", "Elections", "Recalls"}
 # 방송 맛집·이슈 글은 공식 출처가 없는 경우가 많아, 서로 다른 매체 2곳 이상이 같은 사실을 적었는지로 본다
-CROSS_CHECK_REQUIRED = {"방송정보", "이슈"}
+CROSS_CHECK_REQUIRED = {"방송정보", "이슈", "Trending"}
 OFFICIAL_DOMAINS = re.compile(
     r"(\.go\.kr|\.korea\.kr|^korea\.kr|applyhome\.co\.kr|lh\.or\.kr|i-sh\.co\.kr|gh\.or\.kr|nhuf\.molit\.go\.kr|"
-    r"khug\.or\.kr|nps\.or\.kr|nhis\.or\.kr|kinfa\.or\.kr|kbs\.co\.kr|imbc\.com|sbs\.co\.kr|ebs\.co\.kr)$")
+    r"khug\.or\.kr|nps\.or\.kr|nhis\.or\.kr|kinfa\.or\.kr|kbs\.co\.kr|imbc\.com|sbs\.co\.kr|ebs\.co\.kr|"
+    r"\.gov|\.mil)$")  # 미국 연방·주 정부
 
 # 사실 토큰: 단위가 붙은 숫자, 날짜, 금액, 비율
 TOKEN_RES = [
@@ -60,6 +63,16 @@ TOKEN_RES = [
     r"(?:만\s*)?\d[\d,]*(?:\.\d+)?\s*(?:세|살|명|세대|가구|호|개월|주|일|시간|시|분|㎡|평|배|회|건|곳|개)",
 ]
 TOKEN_RE = re.compile("|".join(f"(?:{r})" for r in TOKEN_RES))
+# 영어(미국) 글: 달러, 날짜, 연도, 비율, 기간
+_MON = r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+TOKEN_RES_EN = [
+    _MON + r"\.?\s+\d{1,2}(?:st|nd|rd|th)?(?:,?\s+\d{4})?",
+    r"\$\s?\d[\d,]*(?:\.\d+)?(?:\s?(?:million|billion|trillion|k)\b)?",
+    r"\d[\d,]*(?:\.\d+)?\s?(?:%|percent)",
+    r"\b\d[\d,]*(?:\.\d+)?\s?(?:days?|weeks?|months?|years?|hours?|minutes?|people|households|million|billion)\b",
+    r"\b(?:19|20)\d{2}\b",
+]
+TOKEN_RE_EN = re.compile("|".join(f"(?:{r})" for r in TOKEN_RES_EN), re.I)
 
 
 def norm(s):
@@ -68,11 +81,11 @@ def norm(s):
     return re.sub(r"[\s,·ㆍ\-–—~∼〜()\[\]\"'“”‘’.:;/]", "", s)
 
 
-def fact_tokens(body):
+def fact_tokens(body, lang="ko"):
     text = plain(body)
     text = re.sub(r"^#+.*$", "", text, flags=re.M)  # 소제목은 본문에서 다시 나온다고 보고 제외
     toks = []
-    for m in TOKEN_RE.finditer(text):
+    for m in (TOKEN_RE_EN if lang == "en" else TOKEN_RE).finditer(text):
         t = m.group(0).strip()
         if re.fullmatch(r"\d\s*(개|곳|회|건|가지)", t):  # '1곳', '3개' 같은 사소한 개수는 제외
             continue
@@ -222,7 +235,7 @@ def verify(draft, fetch=False, today=None):
     for src in re.findall(r"!\[[^\]]*\]\(([^)\s]+)", body) + re.findall(r'<img[^>]+src="([^"]+)"', body):
         if "/assets/cards/" not in src and src not in licensed:
             fails.append(f"라이선스 확인 안 된 이미지: {src} — front matter images 에 license·credit 를 적거나 빼기")
-    for t in fact_tokens(body_and_cards):
+    for t in fact_tokens(body_and_cards, fm.get("lang", "ko")):
         if norm(t) not in support:
             fails.append(f"출처 없는 사실 토큰: '{t}' — claims 에 추가하거나 본문에서 빼기")
 

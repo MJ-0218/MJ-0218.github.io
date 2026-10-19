@@ -10,7 +10,7 @@ concurrency: { group: trend-radar, cancel-in-progress: false }
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -18,16 +18,22 @@ jobs:
       - run: pip install pyyaml googlenewsdecoder
       - name: 직전 기록 가져오기 (급상승 비교용)
         run: |
-          mkdir -p /tmp/prev
+          mkdir -p /tmp/prev /tmp/prev_us
           if git fetch -q origin radar-data 2>/dev/null; then
             for f in $(git ls-tree --name-only origin/radar-data trends/history/ | tail -2); do
               git show "origin/radar-data:$f" > "/tmp/prev/$(basename "$f")"
+            done
+            for f in $(git ls-tree --name-only origin/radar-data trends/us/history/ 2>/dev/null | tail -2); do
+              git show "origin/radar-data:$f" > "/tmp/prev_us/$(basename "$f")"
             done
           fi
       - name: 수집
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
         run: python3 automation/scripts/trend_radar.py --out /tmp/radar/latest.json --history /tmp/radar/history --prev /tmp/prev --evidence /tmp/radar/evidence
+      - name: 수집 (미국 · Blogger)
+        continue-on-error: true
+        run: python3 automation/scripts/trend_radar.py --market us --out /tmp/radar/us/latest.json --history /tmp/radar/us/history --prev /tmp/prev_us --evidence /tmp/radar/evidence
       - name: radar-data 브랜치에 저장
         run: |
           git config user.name "semter-radar"
@@ -40,6 +46,11 @@ jobs:
           mkdir -p trends/history
           cp /tmp/radar/latest.json trends/latest.json
           for f in /tmp/radar/history/*.jsonl; do cat "$f" >> "trends/history/$(basename "$f")"; done
+          if [ -f /tmp/radar/us/latest.json ]; then
+            mkdir -p trends/us/history
+            cp /tmp/radar/us/latest.json trends/us/latest.json
+            for f in /tmp/radar/us/history/*.jsonl; do cat "$f" >> "trends/us/history/$(basename "$f")"; done
+          fi
           # 원문 수집본(작성 세션에서 막힌 사이트의 원문) — 3일 지난 것은 지운다
           mkdir -p trends/evidence
           cp /tmp/radar/evidence/*.json trends/evidence/ 2>/dev/null || true
@@ -53,7 +64,7 @@ jobs:
               except Exception: p.unlink()
           "
           # 기록은 14일만 보관
-          find trends/history -name '*.jsonl' -mtime +14 -delete || true
+          find trends/history trends/us/history -name '*.jsonl' -mtime +14 -delete 2>/dev/null || true
           git add -A trends
           git commit -q -m "radar $(TZ=Asia/Seoul date '+%F %H:%M')" || exit 0
           git push -q origin radar-data

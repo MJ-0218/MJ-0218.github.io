@@ -1,0 +1,101 @@
+# US recurring-demand calendar — topics Americans search for at the same time every year/month.
+# ⚠ months / day are only "usually around this time". Dates and amounts in a post must be re-checked
+#    against the official source for THIS cycle and recorded in claims.
+# Same format as automation/calendar.yml. Cycle ids start with "us-" so they never collide with Korean posts.
+
+- id: us-medicare-oe
+  name: Medicare Open Enrollment
+  category: Health Insurance
+  official: [https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan, https://www.cms.gov/newsroom]
+  phases:
+    - { key: open, months: [10, 11, 12], lead_days: 14, queries: ["medicare open enrollment 2026 dates", "when is medicare open enrollment", "can I change medicare plan"] }
+
+- id: us-aca-oe
+  name: ACA Marketplace Open Enrollment
+  category: Health Insurance
+  official: [https://www.healthcare.gov/quick-guide/dates-and-deadlines/, https://www.cms.gov/newsroom]
+  phases:
+    - { key: open, months: [11, 12, 1], lead_days: 14, queries: ["obamacare open enrollment 2027", "healthcare.gov deadline", "marketplace open enrollment dates"] }
+
+- id: us-ss-cola
+  name: Social Security COLA
+  category: Benefits
+  official: [https://www.ssa.gov/cola/, https://www.ssa.gov/news/]
+  phases:
+    - { key: announce, months: [10], lead_days: 10, queries: ["social security cola 2027", "how much is the cola increase", "when is cola announced"] }
+    - { key: paid, months: [12, 1], lead_days: 7, queries: ["when does the cola increase start", "january social security payment amount"] }
+
+- id: us-ss-payments
+  name: Social Security payment schedule
+  category: Benefits
+  lang: en
+  recurrence: monthly
+  day: 1
+  lead_days: 6
+  official: [https://www.ssa.gov/pubs/EN-05-10031-2026.pdf, https://www.ssa.gov/benefits/retirement/planner/payments.html]
+  queries: ["social security payment schedule", "when will I get my social security check", "ssi payment date"]
+
+- id: us-tax-season
+  name: Tax filing season
+  category: Taxes
+  official: [https://www.irs.gov/newsroom, https://www.irs.gov/filing]
+  phases:
+    - { key: open, months: [1], lead_days: 14, queries: ["when does tax season start", "irs accepting returns date", "where is my refund"] }
+    - { key: deadline, months: [4], lead_days: 14, queries: ["tax deadline", "how to file an extension", "irs free file"] }
+    - { key: extension, months: [10], lead_days: 10, queries: ["october 15 tax extension deadline", "extended tax return due date"] }
+
+- id: us-estimated-tax
+  name: Quarterly estimated tax deadline
+  category: Taxes
+  official: [https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes]
+  phases:
+    - { key: q4, months: [1], lead_days: 10, queries: ["estimated tax payment due january", "1040-es due date"] }
+    - { key: q1, months: [4], lead_days: 10, queries: ["q1 estimated tax due date"] }
+    - { key: q2, months: [6], lead_days: 10, queries: ["june estimated tax deadline"] }
+    - { key: q3, months: [9], lead_days: 10, queries: ["september estimated tax payment"] }
+
+- id: us-fafsa
+  name: FAFSA
+  category: Student Aid
+  official: [https://studentaid.gov/announcements-events/fafsa-launch, https://studentaid.gov/h/apply-for-aid/fafsa]
+  phases:
+    - { key: launch, months: [10, 11], lead_days: 10, queries: ["fafsa 2027-28 open date", "when does fafsa open", "fafsa deadline"] }
+    - { key: deadline, months: [6], lead_days: 14, queries: ["fafsa federal deadline", "state fafsa deadlines"] }
+
+- id: us-election
+  name: Election Day
+  category: Elections
+  official: [https://vote.gov/, https://www.eac.gov/voters]
+  phases:
+    - { key: general, months: [10, 11], lead_days: 21, queries: ["when is election day 2026", "how to find my polling place", "early voting near me", "voter registration deadline"] }
+
+- id: us-dst
+  name: Daylight saving time
+  category: Holidays
+  official: [https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst]
+  phases:
+    - { key: fall-back, months: [11], lead_days: 14, queries: ["when does daylight saving time end 2026", "fall back clocks", "do we gain an hour"] }
+    - { key: spring-forward, months: [3], lead_days: 14, queries: ["when does daylight saving time start", "spring forward 2027"] }
+
+- id: us-federal-holidays
+  name: Federal holiday — what's open and closed
+  category: Holidays
+  official: [https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/]
+  phases:
+    - { key: veterans-day, months: [11], lead_days: 10, queries: ["is veterans day a federal holiday", "is the post office open on veterans day", "are banks open veterans day"] }
+    - { key: thanksgiving, months: [11], lead_days: 14, queries: ["what's open on thanksgiving", "post office thanksgiving"] }
+    - { key: christmas-newyear, months: [12], lead_days: 14, queries: ["is the post office open christmas eve", "federal holiday christmas eve"] }
+
+- id: us-liheap
+  name: LIHEAP heating assistance
+  category: Benefits
+  official: [https://www.acf.hhs.gov/ocs/programs/liheap]
+  phases:
+    - { key: winter, months: [10, 11, 12], lead_days: 10, queries: ["how to apply for liheap", "heating bill assistance", "liheap income limits"] }
+
+- id: us-rmd
+  name: Required minimum distribution deadline
+  category: Taxes
+  official: [https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-required-minimum-distributions-rmds]
+  phases:
+    - { key: yearend, months: [11, 12], lead_days: 14, queries: ["rmd deadline december 31", "required minimum distribution age"] }

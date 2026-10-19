@@ -63,3 +63,48 @@ radar:
   evidence_per_topic: 4    # 후보 하나당 기사 수
   korea_kr_home: https://www.korea.kr/   # 정책브리핑 RSS 는 2026-07-01 중단 → 첫 화면 실시간 인기뉴스 사용
   # applyhome.endpoint 를 바꾸면 청약홈 API 주소를 덮어쓴다 (DATA_GO_KR_KEY 필요)
+
+# ── 미국 (Google Blogger) ─────────────────────────────────────────────
+# 같은 방식(캘린더 + 실시간 레이더 + 원문 대조)으로 미국 독자용 영어 글을 만든다. 번역이 아니라 미국 주제.
+radar_us:
+  geo: US
+  news_locale: { hl: en-US, gl: US, ceid: "US:en" }
+  sources: [calendar, google_trends, google_news]
+  fetch_calendar_official: true               # .gov 는 작성 세션에서 막혀 있어 Actions 가 미리 받아 둔다
+  fetch_requests: automation/global/fetch_requests.txt
+  evidence_topics: 20
+  evidence_per_topic: 4
+  watch_keywords:
+    - social security payment
+    - social security COLA
+    - SSI payment
+    - SNAP benefits
+    - IRS refund
+    - tax deadline
+    - medicare open enrollment
+    - ACA open enrollment
+    - FAFSA
+    - student loan
+    - minimum wage increase
+    - daylight saving time
+    - election day
+    - early voting
+    - REAL ID
+    - product recall
+    - car recall
+    - LIHEAP
+    - federal holiday
+    - stimulus check
+  categories:
+    Benefits: [social security, ssi, snap, food stamps, cola, stimulus, liheap, wic, benefit, payment schedule, unemployment]
+    Taxes: [irs, tax, refund, w-2, 1099, deduction, credit, filing]
+    Health Insurance: [medicare, medicaid, aca, obamacare, marketplace, open enrollment, health insurance]
+    Student Aid: [fafsa, pell, student loan, student aid]
+    Elections: [election, vote, voting, ballot, polling]
+    Recalls: [recall, nhtsa, cpsc, fda]
+    Holidays: [holiday, daylight saving, thanksgiving, veterans day, christmas]
+    Housing: [rent, mortgage, hud, housing]
+us_publish:
+  timezone_offset: -5                          # 미국 동부(ET) — 서머타임 무시한 대략값
+  hours: [6, 22]                               # ET 기준 추천 발행 시간대
+  spacing_minutes: 120

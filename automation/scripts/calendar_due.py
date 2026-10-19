@@ -20,7 +20,7 @@ KST = timezone(timedelta(hours=9))
 def covered_cycles():
     """_drafts, _posts, variants 의 front matter cycle 값 = 이미 쓴 주기"""
     out = set()
-    for d in ("_drafts", "_posts", "automation/variants"):
+    for d in ("_drafts", "_posts", "automation/variants", "automation/global/drafts"):
         for p in (ROOT / d).glob("*.md"):
             m = re.search(r"^cycle:\s*(\S+)", p.read_text(encoding="utf-8"), flags=re.M)
             if m:
@@ -67,7 +67,8 @@ def monthly_due(entry, today):
     for base in (today.replace(day=1), (today.replace(day=1) + timedelta(days=32)).replace(day=1)):
         target = base.replace(day=min(day, cal.monthrange(base.year, base.month)[1]))
         if target - timedelta(days=lead) <= today <= target + timedelta(days=3):
-            yield {"cycle": f"{entry['id']}-{base:%Y-%m}", "phase": f"{base.month}월", "queries": entry.get("queries", []),
+            phase = f"{base:%B %Y}" if entry.get("lang") == "en" else f"{base.month}월"
+            yield {"cycle": f"{entry['id']}-{base:%Y-%m}", "phase": phase, "queries": entry.get("queries", []),
                    "window": f"{target:%Y-%m-%d} 전후", "days_to_start": (target - today).days, "in_window": today >= target}
 
 
@@ -86,9 +87,14 @@ def weekly_due(entry, today):
            "days_to_start": (monday - today).days, "in_window": True}
 
 
-def due(today=None):
+CALENDARS = {"kr": ROOT / "automation" / "calendar.yml", "us": ROOT / "automation" / "global" / "calendar_us.yml"}
+
+
+def due(today=None, market="kr"):
+    if market == "us":  # 미국 글은 미국 동부 시간 기준 날짜로 본다
+        today = today or datetime.now(timezone(timedelta(hours=-5))).date()
     today = today or datetime.now(KST).date()
-    entries = yaml.safe_load((ROOT / "automation" / "calendar.yml").read_text(encoding="utf-8"))
+    entries = yaml.safe_load(CALENDARS[market].read_text(encoding="utf-8"))
     done = covered_cycles()
     out = []
     for e in entries:
@@ -112,9 +118,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--market", default="kr", choices=["kr", "us"])
     a = ap.parse_args()
     today = date.fromisoformat(a.date) if a.date else None
-    items = due(today)
+    items = due(today, a.market)
     if a.json:
         print(json.dumps(items, ensure_ascii=False, indent=1))
         return

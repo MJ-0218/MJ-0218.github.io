@@ -81,10 +81,93 @@ def sentences(text):
     return [p.strip() for p in parts if len(p.strip()) > 4]
 
 
+# ── 영어(미국, Blogger) 글 ──────────────────────────────────────────
+# 영어 AI 초안 티가 가장 많이 나는 표현. 나오면 FAIL.
+BANNED_EN = [
+    "delve", "in today's fast-paced", "in today's world", "it's important to note", "it is important to note",
+    "navigating the", "navigate the complexities", "comprehensive guide", "ultimate guide", "in conclusion",
+    "unlock the", "game-changer", "game changer", "a testament to", "tapestry", "embark on", "realm of",
+    "look no further", "whether you're a", "buckle up", "dive into", "let's dive", "elevate your",
+    "seamlessly", "furthermore,", "moreover,", "in the ever-evolving", "ever-changing landscape",
+    "i hope this helps", "stay tuned",
+]
+LIMITED_EN = [("crucial", 1), ("essential", 2), ("additionally", 1), ("however,", 3), ("key ", 3),
+              ("various", 1), ("ensure", 2), ("overall", 1)]
+FAKE_EXPERIENCE_EN = ["i tried", "when i visited", "i went to", "i tested", "in my experience", "i personally"]
+
+
+def check_en(path, fm, body):
+    flat = plain(body)
+    low = flat.lower()
+    fails, warns, stats = [], [], {}
+    for k in REQUIRED_FM:
+        if not fm.get(k):
+            fails.append(f"front matter `{k}` is empty")
+    if len(set(fm["_sources"])) < 2:
+        fails.append(f"sources: {len(set(fm['_sources']))} — need 2+ distinct sources")
+    desc = fm.get("description", "")
+    if desc and len(desc) > 150:
+        warns.append(f"description {len(desc)} chars — Blogger search description shows ~150")
+    for w in BANNED_EN:
+        n = low.count(w)
+        if n:
+            fails.append(f"AI cliché '{w}' x{n}")
+    for w, cap in LIMITED_EN:
+        n = low.count(w)
+        if n > cap:
+            warns.append(f"'{w.strip()}' x{n} (max {cap})")
+    if fm.get("firsthand", "").lower() != "true":
+        for w in FAKE_EXPERIENCE_EN:
+            if w in low:
+                fails.append(f"first-hand claim '{w}' — remove unless real (firsthand: true)")
+    emojis = EMOJI.findall(flat)
+    stats["emoji"] = len(emojis)
+    if len(emojis) > 3:
+        fails.append(f"{len(emojis)} emoji — US readers expect few (max 3)")
+    parts = [s.strip() for s in re.split(r"(?<=[.!?])\s+", " ".join(
+        l for l in flat.splitlines() if l.strip() and not l.lstrip().startswith(("#", "|", "-", "*", ">")))) if len(s.split()) > 2]
+    stats["sentences"] = len(parts)
+    if len(parts) >= 8:
+        lens = [len(s.split()) for s in parts]
+        mean = statistics.mean(lens)
+        cv = statistics.pstdev(lens) / mean if mean else 0
+        stats["words_per_sentence"] = round(mean, 1)
+        stats["sentence_len_cv"] = round(cv, 2)
+        if cv < 0.38:
+            warns.append(f"sentence lengths too uniform (cv {cv:.2f}) — mix short and long")
+        if mean > 24:
+            warns.append(f"avg {mean:.0f} words/sentence — too long")
+        contractions = len(re.findall(r"\b\w+'(s|re|ve|ll|t|d)\b", flat, flags=re.I))
+        stats["contractions"] = contractions
+        if contractions < 3:
+            warns.append("almost no contractions — reads stiff (use you're, it's, don't)")
+        bang = sum(1 for s in parts if s.endswith("!"))
+        if bang / len(parts) > 0.15:
+            warns.append(f"exclamation sentences {bang / len(parts):.0%} — keep under 15%")
+        openers = [s.split()[0].lower() for s in parts]
+        for i in range(len(openers) - 2):
+            if openers[i] == openers[i + 1] == openers[i + 2]:
+                warns.append(f"three sentences in a row start with '{openers[i]}'")
+                break
+    h2 = re.findall(r"^##\s+(.+)$", body, flags=re.M)
+    if len(h2) > 8:
+        warns.append(f"{len(h2)} H2 headings — too fragmented")
+    if EMOJI.search("\n".join(l for l in body.splitlines() if l.lstrip().startswith(("#", "|")))):
+        fails.append("no emoji in headings or tables")
+    words = len(flat.split())
+    stats["words"] = words
+    if words < 450:
+        warns.append(f"{words} words — thin (450+ recommended)")
+    score = max(0, 100 - 25 * len(fails) - 6 * len(warns))
+    return {"file": str(path), "score": score, "fail": fails, "warn": warns, "stats": stats}
+
+
 def check(path):
     text = Path(path).read_text(encoding="utf-8")
     fm_raw, body = split_front_matter(text)
     fm = parse_fm(fm_raw)
+    if fm.get("lang") == "en":
+        return check_en(path, fm, body)
     flat = plain(body)
     fails, warns, stats = [], [], {}
 

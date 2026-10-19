@@ -43,7 +43,10 @@ DEFAULT_CATEGORIES = {
     "방송정보": ["생생정보", "생방송 투데이", "생방송 오늘저녁", "생활의 달인", "6시 내고향", "백반기행", "맛집",
                "동네 한 바퀴", "맛있는 녀석들", "토요일은 밥이 좋아", "줄서는 식당", "놀라운 토요일"],
 }
-CATEGORY_WEIGHT = {"정부혜택": 1.6, "청약": 1.5, "세금": 1.4, "노동·급여": 1.3, "선거": 1.3, "방송정보": 1.3, "기타": 0.6}
+CATEGORY_WEIGHT = {"정부혜택": 1.6, "청약": 1.5, "세금": 1.4, "노동·급여": 1.3, "선거": 1.3, "방송정보": 1.3, "기타": 0.6,
+                   # 미국(Blogger)
+                   "Benefits": 1.6, "Taxes": 1.5, "Health Insurance": 1.5, "Student Aid": 1.4, "Elections": 1.3,
+                   "Housing": 1.3, "Recalls": 1.3, "Holidays": 1.1, "Trending": 0.9}
 DEFAULT_TV_PROGRAMS = ["생생정보", "생방송 투데이", "생방송 오늘저녁", "6시 내고향", "생활의 달인", "백반기행",
                        "동네 한 바퀴", "맛있는 녀석들", "토요일은 밥이 좋아", "줄서는 식당"]
 
@@ -66,7 +69,9 @@ def parse_date(s):
 
 
 def classify(text, categories):
-    hits = {c: sum(1 for k in kws if k.lower() in text.lower()) for c, kws in categories.items()}
+    if not categories:
+        return "기타"
+    hits = {c: sum(1 for k in kws if str(k).lower() in text.lower()) for c, kws in categories.items()}
     best = max(hits, key=hits.get)
     return best if hits[best] else "기타"
 
@@ -103,7 +108,7 @@ def children(el, local):
 
 def src_google_trends(cfg, cats):
     out = []
-    for it in items(fetch("https://trends.google.com/trending/rss?geo=KR")):
+    for it in items(fetch(f"https://trends.google.com/trending/rss?geo={cfg.get('geo', 'KR')}")):
         title = child_text(it, "title")
         news = []
         for n in children(it, "news_item"):
@@ -139,7 +144,8 @@ def src_korea_kr(cfg, cats):
 def src_google_news(cfg, cats):
     out = []
     for kw in cfg.get("watch_keywords", []):
-        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": f"{kw} when:1d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"})
+        loc = cfg.get("news_locale", {"hl": "ko", "gl": "KR", "ceid": "KR:ko"})
+        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": f"{kw} when:1d", **loc})
         try:
             its = list(items(fetch(url)))
         except Exception as e:
@@ -151,7 +157,7 @@ def src_google_news(cfg, cats):
         # 최근 1시간 기사 수 — 직전 실행들과 비교해 '갑자기 늘었는지' 보는 데 쓴다
         n1h = 0
         try:
-            u1 = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": f"{kw} when:1h", "hl": "ko", "gl": "KR", "ceid": "KR:ko"})
+            u1 = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": f"{kw} when:1h", **loc})
             n1h = len(list(items(fetch(u1))))
         except Exception as e:
             print(f"  google_news 1h {kw}: {e}", file=sys.stderr)
@@ -256,7 +262,19 @@ def collect_evidence(ranked, out_dir, cfg):
             except Exception as e:
                 failed += 1
                 print(f"  evidence {real}: {e}", file=sys.stderr)
-    req = ROOT / "automation" / "state" / "fetch_requests.txt"
+    # 캘린더 주제의 공식 누리집도 미리 받아 둔다 (미국 .gov 는 작성 세션에서 막혀 있음)
+    if cfg.get("fetch_calendar_official"):
+        for c in ranked:
+            for u in c.get("official_sources", []) if c["source"] == "calendar" else []:
+                try:
+                    final, raw, ctype = ev.fetch(u)
+                    ev.save(out_dir, u, c["keyword"], ev.html_to_text(raw, ctype),
+                            {"requested_url": u, "final_url": final, "topic": c["keyword"]})
+                    saved += 1
+                except Exception as e:
+                    failed += 1
+                    print(f"  official {u}: {e}"[:200], file=sys.stderr)
+    req = ROOT / cfg.get("fetch_requests", "automation/state/fetch_requests.txt")
     if req.exists():
         for line in req.read_text(encoding="utf-8").splitlines():
             u = line.split("#")[0].strip()
@@ -331,7 +349,7 @@ def src_calendar(cfg, cats):
     """반복 수요 캘린더 (네트워크 불필요)"""
     sys.path.insert(0, str(Path(__file__).parent))
     from calendar_due import due
-    return due()
+    return due(market=cfg.get("market", "kr"))
 
 
 SOURCES = {"calendar": src_calendar, "google_trends": src_google_trends, "korea_kr": src_korea_kr,
@@ -416,7 +434,7 @@ def mark_spike(it, runs):
 
 def covered_titles():
     titles = []
-    for d in ("_posts", "_drafts"):
+    for d in ("_posts", "_drafts", "automation/global/drafts"):
         for p in (ROOT / d).glob("*.md"):
             m = re.search(r"^title:\s*(.+)$", p.read_text(encoding="utf-8"), flags=re.M)
             if m:
@@ -424,11 +442,11 @@ def covered_titles():
     return titles
 
 
-def load_cfg():
+def load_cfg(market="kr"):
     p = ROOT / "automation" / "config.yml"
     try:
         import yaml  # PyYAML (Actions 에서 설치)
-        return (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("radar", {})
+        return (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("radar" if market == "kr" else "radar_us", {})
     except Exception:
         return {}
 
@@ -440,13 +458,17 @@ def main():
     ap.add_argument("--prev", default="", help="직전 실행 기록(jsonl) 폴더 — 급상승 비교용")
     ap.add_argument("--only", default="", help="쉼표로 구분한 수집원만 실행")
     ap.add_argument("--evidence", default="", help="원문 수집본 저장 폴더 (Actions 에서만)")
+    ap.add_argument("--market", default="kr", choices=["kr", "us"], help="kr: 네이버·티스토리 / us: 미국 Blogger")
     a = ap.parse_args()
 
-    cfg = load_cfg()
-    cats = cfg.get("categories") or DEFAULT_CATEGORIES
+    cfg = load_cfg(a.market)
+    cfg["market"] = a.market
+    cats = cfg.get("categories") or (DEFAULT_CATEGORIES if a.market == "kr" else {})
     now = datetime.now(KST)
     collected, status = [], {}
     for name, fn in SOURCES.items():
+        if cfg.get("sources") and name not in cfg["sources"]:
+            continue
         if a.only and name not in a.only.split(","):
             continue
         try:
