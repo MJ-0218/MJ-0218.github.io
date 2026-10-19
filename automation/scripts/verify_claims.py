@@ -202,8 +202,19 @@ def verify(draft, fetch=False, today=None):
                     rows.append((label, c["value"], host, quote, "✓ 원문 일치" if ok else "△ 사람 확인"))
                     continue
             except Exception as e:
-                # 작성 세션에서 막힌 사이트는 레이더(Actions)가 받아 둔 원문 수집본으로 대조한다
                 import evidence
+                # 봇 차단(403)이면 브라우저로 한 번 더 열어 본다 (ssa.gov 처럼 브라우저로는 열리는 곳)
+                if "403" in str(e):
+                    try:
+                        txt = evidence.browser_text(src)
+                        ok = norm(quote) in norm(txt)
+                        if not ok:
+                            fails.append(f"{label}: quote 가 출처 원문에 없음 — {src}")
+                        rows.append((label, c["value"], host, quote, "✓ 원문 일치 (브라우저)" if ok else "✗ 원문 불일치"))
+                        continue
+                    except Exception:
+                        pass
+                # 작성 세션에서 막힌 사이트는 레이더(Actions)가 받아 둔 원문 수집본으로 대조한다
                 rec = evidence.load(src)
                 if rec:
                     ok = norm(quote) in norm(rec["text"])

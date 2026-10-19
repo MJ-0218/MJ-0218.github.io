@@ -22,8 +22,14 @@ def main():
         text = re.sub(r"[ \t\r\f\v]+", " ", page_text(url))
         text = re.sub(r"\n\s*\n+", "\n", text)
     except Exception as e:
-        print(f"원문 열기 실패: {e}", file=sys.stderr)
-        sys.exit(2)
+        try:  # 봇 차단(403) 누리집은 브라우저로 한 번 더
+            import evidence
+            text = evidence.browser_text(url) if "403" in str(e) else None
+        except Exception:
+            text = None
+        if not text:
+            print(f"원문 열기 실패: {e}", file=sys.stderr)
+            sys.exit(2)
     if not words:
         print(text[:3000])
         return

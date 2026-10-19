@@ -56,6 +56,24 @@ def fetch(url, timeout=25):
         return r.geturl(), r.read(), r.headers.get("Content-Type", "")
 
 
+def browser_text(url, timeout=30000):
+    """봇 차단(403)으로 일반 요청은 막히지만 브라우저로는 열리는 누리집(ssa.gov 등)용. Playwright 가 있을 때만."""
+    import glob
+    from playwright.sync_api import sync_playwright
+    exe = os.environ.get("CHROMIUM_PATH") or next(iter(sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome"))), None)
+    with sync_playwright() as p:
+        b = p.chromium.launch(executable_path=exe) if exe else p.chromium.launch()
+        try:
+            pg = b.new_page(locale="en-US")
+            r = pg.goto(url, timeout=timeout, wait_until="domcontentloaded")
+            if r is None or r.status >= 400:
+                raise RuntimeError(f"HTTP {r.status if r else '?'}")
+            pg.wait_for_timeout(1500)
+            return pg.inner_text("body")
+        finally:
+            b.close()
+
+
 def save(out_dir, url, title, text, extra=None):
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
