@@ -36,6 +36,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "cards"
 SITE_NAME = "셈터"
+SITE_NAME_EN = "Semter"  # 미국 Blogger 카드 꼬리표
 
 
 def front_matter(p):
@@ -114,9 +115,11 @@ def render(files):
         pg = b.new_page(viewport={"width": 540, "height": 400}, device_scale_factor=2)
         for f in files:
             fm, slug = front_matter(f), slug_of(f)
-            asof = f'정보 기준일 {fm["info_as_of"]}' if fm.get("info_as_of") else ""
+            en = fm.get("lang") == "en"
+            asof = (f'Last checked {fm["info_as_of"]}' if en else f'정보 기준일 {fm["info_as_of"]}') if fm.get("info_as_of") else ""
+            site = SITE_NAME_EN if en else SITE_NAME
             for cid, card in (fm.get("cards") or {}).items():
-                page = PAGE.replace("__BODY__", body_for(card)).replace("__SITE__", SITE_NAME).replace("__ASOF__", e(asof))
+                page = PAGE.replace("__BODY__", body_for(card)).replace("__SITE__", site).replace("__ASOF__", e(asof))
                 pg.set_content(page, wait_until="networkidle")
                 pg.evaluate("document.fonts.ready")
                 out = OUT / f"{slug}-{cid}.png"
