@@ -33,7 +33,7 @@ LIMITED = [
     ("답니다", 4), ("ㅎㅎ", 2), ("좋은 하루", 1), ("시구", 2),
 ]
 # 블로그 말투 꾸밈 기준 (네이버판 / 티스토리판)
-EMOJI_RANGE = {"naver": (3, 15), "tistory": (0, 6)}
+EMOJI_RANGE = {"naver": (2, 12), "tistory": (0, 6)}
 # 실제로 겪지 않은 체험을 지어내는 문장. firsthand: true 가 아니면 FAIL.
 FAKE_EXPERIENCE = [
     "직접 가봤", "직접 가 봤", "직접 가보", "다녀왔", "다녀 왔", "방문해 보니", "방문해보니", "먹어봤", "먹어 봤",
@@ -114,12 +114,15 @@ def check(path):
     lo, hi = EMOJI_RANGE[platform]
     stats["emoji"] = len(emojis)
     if len(emojis) < lo:
-        warns.append(f"이모지 {len(emojis)}개 — 블로그 말투로 소제목·문장 끝에 {lo}개 이상 권장")
+        warns.append(f"이모지 {len(emojis)}개 — 블로그 말투로 문장 끝에 {lo}개 이상 권장")
     if len(emojis) > hi:
         fails.append(f"이모지 {len(emojis)}개 — {platform}판은 {hi}개 이하 (과하면 광고글처럼 보여요)")
     tables = "\n".join(l for l in body.splitlines() if l.lstrip().startswith("|"))
     if EMOJI.search(tables):
         fails.append("표 안에는 이모지를 넣지 않기 (숫자·날짜가 흐려져요)")
+    heads = "\n".join(l for l in body.splitlines() if l.lstrip().startswith("#"))
+    if EMOJI.search(heads):
+        fails.append("소제목에는 이모지를 넣지 않기 — 문장 끝에만")
 
     sents = sentences(flat)
     stats["sentences"] = len(sents)
