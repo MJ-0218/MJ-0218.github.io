@@ -66,7 +66,7 @@ TOKEN_RE = re.compile("|".join(f"(?:{r})" for r in TOKEN_RES))
 # 영어(미국) 글: 달러, 날짜, 연도, 비율, 기간
 _MON = r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
 TOKEN_RES_EN = [
-    _MON + r"\.?\s+\d{1,2}(?:st|nd|rd|th)?(?:,?\s+\d{4})?",
+    _MON + r"\.?\s+\d{1,2}(?!\d)(?:st|nd|rd|th)?(?:,?\s+\d{4})?",
     r"\$\s?\d[\d,]*(?:\.\d+)?(?:\s?(?:million|billion|trillion|k)\b)?",
     r"\d[\d,]*(?:\.\d+)?\s?(?:%|percent)",
     r"\b\d[\d,]*(?:\.\d+)?\s?(?:days?|weeks?|months?|years?|hours?|minutes?|people|households|million|billion)\b",

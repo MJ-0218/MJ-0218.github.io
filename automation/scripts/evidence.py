@@ -18,6 +18,7 @@ import os
 import re
 import subprocess
 import sys
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -65,6 +66,8 @@ def browser_text(url, timeout=30000):
         b = p.chromium.launch(executable_path=exe) if exe else p.chromium.launch()
         try:
             pg = b.new_page(locale="en-US")
+            if urllib.parse.urlparse(url).path.lower().endswith(".pdf"):
+                return _browser_pdf(pg, url, timeout)
             r = pg.goto(url, timeout=timeout, wait_until="domcontentloaded")
             if r is None or r.status >= 400:
                 raise RuntimeError(f"HTTP {r.status if r else '?'}")
@@ -72,6 +75,23 @@ def browser_text(url, timeout=30000):
             return pg.inner_text("body")
         finally:
             b.close()
+
+
+def _browser_pdf(pg, url, timeout):
+    """PDF 는 누리집 첫 화면을 연 뒤 같은 출처에서 fetch 로 받아 pdftotext 로 읽는다 (ssa.gov 지급일 달력 등)."""
+    import base64
+    import tempfile
+    u = urllib.parse.urlparse(url)
+    pg.goto(f"{u.scheme}://{u.netloc}/", timeout=timeout, wait_until="domcontentloaded")
+    status, b64 = pg.evaluate("""async (p) => { const r = await fetch(p); const a = new Uint8Array(await r.arrayBuffer());
+        let s = ''; for (let i = 0; i < a.length; i += 8192) s += String.fromCharCode(...a.subarray(i, i + 8192));
+        return [r.status, btoa(s)]; }""", u.path)
+    if status >= 400:
+        raise RuntimeError(f"HTTP {status}")
+    with tempfile.NamedTemporaryFile(suffix=".pdf") as f:
+        f.write(base64.b64decode(b64))
+        f.flush()
+        return subprocess.run(["pdftotext", "-layout", f.name, "-"], capture_output=True, text=True, check=True).stdout
 
 
 def save(out_dir, url, title, text, extra=None):
