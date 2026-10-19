@@ -235,14 +235,21 @@ def collect_evidence(ranked, out_dir, cfg):
             targets.append(c)
     for c in targets[: int(cfg.get("evidence_topics", 25))]:
         c["evidence"] = []
-        for n in c.get("news", [])[: int(cfg.get("evidence_per_topic", 4))]:
+        want = int(cfg.get("evidence_per_topic", 4))
+        for n in c.get("news", [])[: want * 2]:
+            if len(c["evidence"]) >= want:
+                break
             real = resolve_gnews(n["url"], n.get("title", ""))
-            if not real:
+            if not real or "msn.com" in real:  # MSN 재게재 페이지는 본문이 스크립트로만 그려져 쓸 수 없다
                 failed += 1
                 continue
             try:
                 final, raw, ctype = ev.fetch(real)
-                rec = ev.save(out_dir, final, n["title"], ev.html_to_text(raw, ctype),
+                text = ev.html_to_text(raw, ctype)
+                if len(text) < 800:  # 본문이 비어 있는 페이지(스크립트 렌더링)는 버린다
+                    failed += 1
+                    continue
+                rec = ev.save(out_dir, final, n["title"], text,
                               {"requested_url": real, "topic": c["keyword"], "outlet": n.get("source", "")})
                 c["evidence"].append({"url": rec["url"], "title": n["title"], "outlet": n.get("source", "")})
                 saved += 1

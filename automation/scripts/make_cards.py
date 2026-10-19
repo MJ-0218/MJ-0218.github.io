@@ -136,7 +136,7 @@ def card_text(fm):
         out += [str(x) for x in card.get("lines", []) + card.get("steps", [])]
         for r in card.get("rows", []):
             out.append(" ".join(str(c) for c in r))
-    return "\n".join(out)
+    return " ·\n".join(out)  # 줄 사이 구분점: 앞 줄 끝 숫자와 다음 줄 첫 글자가 한 토큰("3190 세")으로 붙지 않게
 
 
 if __name__ == "__main__":
