@@ -136,10 +136,13 @@ def verify(draft, fetch=False, today=None):
             fails.append(f"deadline 형식 오류: {dl}")
 
     # 교차 확인: 방송 맛집·이슈 글은 공식 출처가 아닌 사실마다 다른 매체 1곳(source2/quote2)을 더 댄다
-    if category in CROSS_CHECK_REQUIRED:
+    # secondary_ok: 공식 원문을 열 수 없어 언론 보도로 대신한 claim 도 같은 교차 확인을 받는다
+    if category in CROSS_CHECK_REQUIRED or any(c.get("secondary_ok") for c in claims):
         extra = []
         for c in claims:
             if c.get("derived") or not c.get("source"):
+                continue
+            if category not in CROSS_CHECK_REQUIRED and not c.get("secondary_ok"):
                 continue
             h1 = urlparse(c["source"]).hostname or ""
             if OFFICIAL_DOMAINS.search(h1):
@@ -150,7 +153,7 @@ def verify(draft, fetch=False, today=None):
                 fails.append(f"{c.get('claim', '')}: source2 가 source 와 같은 매체 — 다른 매체여야 함")
             else:
                 extra.append({"claim": f"{c.get('claim', '')} (교차)", "value": c["value"], "quote": c["quote2"],
-                              "source": c["source2"], "value_note": "교차 확인"})
+                              "source": c["source2"], "value_note": "교차 확인", "secondary_ok": c.get("secondary_ok")})
         claims = claims + extra
 
     support = ""
