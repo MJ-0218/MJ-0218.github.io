@@ -31,6 +31,9 @@ git show origin/radar-data:trends/latest.json > /tmp/radar.json 2>/dev/null || e
 
 개수 제한은 없다(config.writer.max_posts_per_run이 0이 아니면 그 수까지). 후보마다 쓸지 말지와 이유를 로그에 남긴다.
 
+## 1-1. 주간 청약 일정 (weekly-subscription)
+`python3 automation/scripts/applyhome_week.py <그 주 월요일> --radar /tmp/radar.json --out /tmp/week.json` 이 단지별 일정·세대수와 청약홈 공고 원문 인용 claims 를 만들어 준다. 본문 날짜는 claims 의 "M월 D일" 표기 그대로 쓴다. 상대 시점 표현("오늘", "내일")은 쓰지 않는다.
+
 ## 2. 조사 — 원문 인용 확보
 - `NET=OK`: `python3 automation/scripts/fetch_source.py <공식 URL> <찾을말>`로 원문 문장을 그대로 복사한다.
 - `NET=BLOCKED`: WebSearch로 공식 페이지 URL과 내용을 찾고, claims에 `manual: "작성 세션에서 원문 접근 불가"`. CI가 원문을 다시 대조한다.

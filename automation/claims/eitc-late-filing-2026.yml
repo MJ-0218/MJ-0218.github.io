@@ -1,0 +1,59 @@
+- claim: 기한 후 신청 기간
+  value: 2026년 6월 2일 ~ 12월 1일, 12월 1일, 2026년 12월 1일
+  quote: 기한 후 신청 기간은 ’26.6.2.~12.1.입니다.
+  value_note: 원문 ’26.6.2.~12.1. 표기를 풀어 씀
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977
+  capture: true
+- claim: 정기신청 기간과 산정 대상
+  value: 2025년 연간 소득, 2026년 5월 1일 ~ 6월 1일
+  quote: ’25년 연간 소득 ’26.5.1.~6.1.
+  value_note: 원문 표기를 풀어 씀
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977
+- claim: 기한 후 신청 감액
+  value: 95%
+  quote: 기한 후 신청한 경우 해당 장려금의 95% 지급
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7784
+- claim: 기한 후 신청분 지급 시기
+  value: 4개월
+  quote: (기한 후 신청분) 신청일로부터 4개월 이내 지급
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7784
+- claim: ARS 번호와 이용 시간
+  value: 1544-9944, 6:00~24:00, 6시~24시
+  quote: 서비스이용시간：6:00~24:00 1 ARS 전화신청(1544-9944)
+  value_note: 6:00~24:00 을 6시~24시로도 씀
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977
+- claim: 신청대리 시간과 상담센터
+  value: 평일 9시~18시, 1566-3636
+  quote: 신청대리：평일 9시~18시(토 · 일 · 공휴일 제외) 안내대상자가 동의하면 신청기간 운영되는 장려금 상담센터(1566-3636)
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977
+  value_note: 원문 문구를 띄어쓰기만 바꿔 옮김
+- claim: 재산 감액
+  value: 1.7억원 이상 2.4억원 미만, 50%
+  quote: 재산합계액이 1.7억원 이상 2.4억원 미만인 경우 해당 장려금의 50% 지급
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7784
+  value_note: 원문 문구를 띄어쓰기만 바꿔 옮김
+- claim: 체납 충당
+  value: 30%
+  quote: 체납액이 있는 경우 환급금액 30%를 한도로 체납액에 충당
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7784
+- claim: 감액 예시
+  value: 100만 원 → 95만 원, 5만 원, 200만 원 → 190만 원, 10만 원
+  derived: 100만×0.95=95만(차이 5만), 200만×0.95=190만(차이 10만)
+- claim: 입금 한도 예시
+  value: 10월 → 이듬해 2월, 11월 → 이듬해 3월, 12월 1일 → 이듬해 4월 1일
+  derived: 신청일 + 4개월
+- claim: 신청 방법 홈택스
+  value: 홈택스(모바일, PC)
+  quote: 2 홈택스(모바일, PC) 신청 국세청 홈택스( www.hometax.go.kr )에 접속하여 신청
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977
+- claim: 원문 캡처일
+  value: '2026-10-19'
+  derived: evidence_shot.py 실행일
+- claim: 안내문 미수령자 직접입력신청
+  value: 직접입력신청
+  quote: 신청안내문을 받지 않은 경우 로그인 → 장려금 · 연말정산 · 전자기부금 → 근로장려금 정기/반기 신청 → 직접입력신청에서도 신청가능
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977
+- claim: 자동신청 제도
+  value: 2년
+  quote: 자동신청에 사전 동의하면 다음 2년간 신청안내대상이 될 경우 장려금이 자동으로 신청
+  source: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977
