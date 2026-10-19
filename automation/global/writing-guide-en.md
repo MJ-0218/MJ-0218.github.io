@@ -33,6 +33,9 @@ Same method as the Korean pipeline (recurring calendar + live radar + quote-leve
 - No photos from news sites, no screenshots of TV, no stock photos without a license entry.
 - Federal government works are generally public domain (17 U.S.C. §105), but still don't hotlink their images; make a card instead.
 
+## 3-1. Places
+- For any restaurant, venue or office, add a Google Maps search link made with `python3 automation/scripts/map_link.py "<name> <city, state>"`, written as `[📍 Open in Google Maps](url)`. No map screenshots.
+
 ## 4. File format
 `automation/global/drafts/<slug>.md` — slug starts with `us-`.
 

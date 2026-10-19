@@ -31,7 +31,7 @@ STYLE = {
     "table": "border-collapse:collapse;width:100%;margin:16px 0;font-size:15px;",
     "th": "border-bottom:2px solid #222;padding:8px;text-align:left;",
     "td": "border-bottom:1px solid #999;padding:8px;",
-    "blockquote": "border-left:4px solid #cf3a1f;margin:16px 0;padding:4px 0 4px 14px;color:#444;",
+    "blockquote": "border-left:4px solid #7cc8ff;margin:16px 0;padding:4px 0 4px 14px;color:#444;",
 }
 
 
@@ -53,9 +53,17 @@ def fm_sources(fm):
     return out
 
 
+MAP_BUTTON = ("display:inline-block;padding:10px 16px;background:#7cc8ff;color:#0b0b0c;font-weight:700;"
+              "text-decoration:none;border-radius:0;")
+MAP_HOSTS = r"(?:map\.naver\.com|map\.kakao\.com|www\.google\.com/maps)"
+
+
 def inline_styles(body_html):
     for tag, css in STYLE.items():
         body_html = re.sub(rf"<{tag}(\s[^>]*)?>", lambda m: f'<{tag}{m.group(1) or ""} style="{css}">', body_html)
+    # 지도 링크는 눌러 보기 쉽게 하늘색 버튼으로 (새 창)
+    body_html = re.sub(rf'<a href="(https://{MAP_HOSTS}[^"]*)">',
+                       lambda m: f'<a href="{m.group(1)}" target="_blank" rel="noopener" style="{MAP_BUTTON}">', body_html)
     return body_html
 
 
