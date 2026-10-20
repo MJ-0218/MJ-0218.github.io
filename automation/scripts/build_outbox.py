@@ -252,7 +252,14 @@ var region=store('region')==='us'?'us':'kr',filter='todo';
 var PLAT={kr:[['naver','네이버 블로그'],['tistory','티스토리 (다음·구글)']],us:[['blogger','Google Blogger']]};
 var HOWTO={kr:'네이버는 [본문 복사] 후 에디터에 붙여넣기, 티스토리는 기본모드 붙여넣기 또는 HTML모드에 [HTML 복사]. 이미지는 버튼으로 하나씩 복사해 넣어 주세요.',
  us:'Blogger 새 글 → 연필 아이콘을 [HTML 보기]로 바꾸고 [HTML 복사] 붙여넣기 (또는 작성 보기에 [본문 복사]). 오른쪽 설정에서 라벨·검색 설명·맞춤 퍼머링크를 버튼으로 복사해 넣으면 돼요. 이미지는 Blogger에 직접 올려 주세요.'};
-function done(c){return PLAT[region].every(function(p){return !c[p[0]]&&p[0]!=='naver'||store('pub:'+c.slug+':'+p[0])==='1'})}
+// 발행 상태: 아티팩트 db(published/<slug>)에 저장 — 새로고침·재발행·다른 기기에서도 유지. db 를 못 쓰는 보기에서는 브라우저 저장소로만.
+var PUB={},DB=null;
+function isPub(slug,p){var d=PUB[slug];if(d&&Object.prototype.hasOwnProperty.call(d,p))return !!d[p];return store('pub:'+slug+':'+p)==='1'}
+var writing={};
+function setPub(slug,p,v){store('pub:'+slug+':'+p,v?'1':'0');var d=Object.assign({},PUB[slug]||{});d[p]=v;d.updated=new Date().toISOString();PUB[slug]=d;render();
+ if(!DB){toast('이 보기에선 이 기기에만 저장돼요');return}
+ var run=function(){writing[slug]=(writing[slug]||Promise.resolve()).then(function(){return DB.collection('published').doc(slug).set(PUB[slug])}).then(function(){toast(v?'발행함으로 저장됐어요':'발행 전으로 되돌렸어요')},function(e){toast('저장 실패 — 다시 눌러 주세요'+(e&&e.code?' ('+e.code+')':''))})};run()}
+function done(c){return PLAT[region].every(function(p){return !c[p[0]]&&p[0]!=='naver'||isPub(c.slug,p[0])})}
 function el(t,a,h){var e=document.createElement(t);for(var k in a)e.setAttribute(k,a[k]);if(h!=null)e.innerHTML=h;return e}
 function esc(s){return String(s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function render(){var L=document.getElementById('list');L.innerHTML='';var shown=0;document.getElementById('howto').textContent=HOWTO[region];
@@ -278,7 +285,7 @@ DATA.forEach(function(c){var isDone=done(c);if(filter==='todo'&&(isDone||!c.ok))
   if(p==='blogger'&&v.permalink){var bp=el('button',{class:'sec'},'퍼머링크');bp.onclick=function(){copyText(v.permalink,'맞춤 퍼머링크 복사됨')};act.appendChild(bp)}
   (v.images||[]).forEach(function(im,i){var bi=el('button',{class:'sec'},'이미지 '+(i+1));bi.onclick=function(){copyImage(im.data)};act.appendChild(bi)});
   if(v.tags&&v.tags.length){var b4=el('button',{class:'sec'},p==='blogger'?'라벨':'태그');b4.onclick=function(){copyText(v.tags.join(p==='naver'?' ':','),(p==='blogger'?'라벨':'태그')+' 복사됨')};act.appendChild(b4)}
-  var lab=el('label',{});var cb=el('input',{type:'checkbox'});cb.checked=store('pub:'+c.slug+':'+p)==='1';cb.onchange=function(){store('pub:'+c.slug+':'+p,cb.checked?'1':'0');render()};lab.appendChild(cb);lab.appendChild(document.createTextNode('발행함'));act.appendChild(lab);
+  var lab=el('label',{});var cb=el('input',{type:'checkbox'});cb.checked=isPub(c.slug,p);cb.onchange=function(){setPub(c.slug,p,cb.checked)};lab.appendChild(cb);lab.appendChild(document.createTextNode('발행함'));act.appendChild(lab);
   pane.appendChild(act);if(!c[p])pane.appendChild(el('p',{class:'tags'},'⚠ 티스토리 전용판이 없어 네이버판을 보여 줍니다. 그대로 올리면 유사문서가 될 수 있습니다.'));
   if(v.tags&&v.tags.length)pane.appendChild(el('p',{class:'tags'},v.tags.map(function(t){return(p==='blogger'?'':'#')+esc(t)}).join(p==='blogger'?' · ':' ')));
   if(p==='blogger'&&v.description)pane.appendChild(el('p',{class:'tags'},'검색 설명: '+esc(v.description)+(v.permalink?'<br>퍼머링크: '+esc(v.permalink):'')));
@@ -289,6 +296,8 @@ DATA.forEach(function(c){var isDone=done(c);if(filter==='todo'&&(isDone||!c.ok))
 document.querySelectorAll('.region button').forEach(function(b){b.setAttribute('aria-selected',b.dataset.r===region);b.onclick=function(){region=b.dataset.r;store('region',region);document.querySelectorAll('.region button').forEach(function(x){x.setAttribute('aria-selected',x===b)});render()}});
 document.querySelectorAll('.filters button').forEach(function(b){b.onclick=function(){filter=b.dataset.f;document.querySelectorAll('.filters button').forEach(function(x){x.setAttribute('aria-pressed',x===b)});render()}});
 render();
+if(window.claude&&window.claude.use){window.claude.use('db').then(function(db){if(!db)return;DB=db;
+ db.collection('published').onSnapshot(function(qs){qs.docs.forEach(function(d){if(d.exists)PUB[d.id]=d.data()||{}});render()},function(){DB=null})},function(){})}
 </script></body></html>"""
 
 if __name__ == "__main__":
