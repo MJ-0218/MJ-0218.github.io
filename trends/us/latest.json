@@ -1,32 +1,123 @@
 {
- "generated_at": "2026-10-20T12:43:33.537758+09:00",
+ "generated_at": "2026-10-20T13:10:03.821733+09:00",
  "sources": {
   "calendar": "ok (6)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 73, 실패 22)"
+  "evidence": "ok (저장 68, 실패 22)"
  },
  "compared_runs": 5,
  "spikes": [
   "social security COLA",
-  "car recall",
-  "vikings standings",
-  "ann li",
-  "alcs mvp",
+  "student loans",
+  "chiefs standings",
   "xavier atkins",
-  "keke palmer",
-  "nfl rankings",
-  "world series odds",
-  "magda linette",
-  "upton stout",
-  "commanders roster"
+  "chris pratt",
+  "cade cunningham",
+  "ketel marte trade rumors diamondbacks",
+  "emerson jones"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "Tax filing season extension",
+   "category": "Taxes",
+   "official_sources": [
+    "https://www.irs.gov/newsroom",
+    "https://www.irs.gov/filing"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-20T13:10:03.830136+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-tax-season-extension-2026",
+   "phase": "extension",
+   "queries": [
+    "october 15 tax extension deadline",
+    "extended tax return due date"
+   ],
+   "window": "2026-10 ~ 2026-10 (보통)",
+   "days_to_start": -18,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "FAFSA launch",
+   "category": "Student Aid",
+   "official_sources": [
+    "https://studentaid.gov/announcements-events/fafsa-launch",
+    "https://studentaid.gov/h/apply-for-aid/fafsa"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-20T13:10:03.830166+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-fafsa-launch-2026",
+   "phase": "launch",
+   "queries": [
+    "fafsa 2027-28 open date",
+    "when does fafsa open",
+    "fafsa deadline"
+   ],
+   "window": "2026-10 ~ 2026-11 (보통)",
+   "days_to_start": -18,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Election Day general",
+   "category": "Elections",
+   "official_sources": [
+    "https://vote.gov/",
+    "https://www.eac.gov/voters"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-20T13:10:03.830180+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-election-general-2026",
+   "phase": "general",
+   "queries": [
+    "when is election day 2026",
+    "how to find my polling place",
+    "early voting near me",
+    "voter registration deadline"
+   ],
+   "window": "2026-10 ~ 2026-11 (보통)",
+   "days_to_start": -18,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "LIHEAP heating assistance winter",
+   "category": "Benefits",
+   "official_sources": [
+    "https://www.acf.hhs.gov/ocs/programs/liheap"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-20T13:10:03.830219+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-liheap-winter-2026",
+   "phase": "winter",
+   "queries": [
+    "how to apply for liheap",
+    "heating bill assistance",
+    "liheap income limits"
+   ],
+   "window": "2026-10 ~ 2026-12 (보통)",
+   "days_to_start": -18,
+   "in_window": true
+  },
   {
    "source": "google_news",
    "keyword": "social security COLA",
    "traffic": 0,
-   "article_count_24h": 41,
+   "article_count_24h": 42,
    "article_count_1h": 10,
    "published": "2026-10-19T20:00:00+09:00",
    "category": "Benefits",
@@ -58,9 +149,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 3.2→10건 (2.6배)",
-   "spike_bonus": 26.2,
-   "score": 85.3,
+   "spike": "최근 1시간 기사 3.6→10건 (2.4배)",
+   "spike_bonus": 23.9,
+   "score": 82.8,
    "already_covered": false,
    "evidence": [
     {
@@ -86,155 +177,63 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Tax filing season extension",
-   "category": "Taxes",
-   "official_sources": [
-    "https://www.irs.gov/newsroom",
-    "https://www.irs.gov/filing"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-20T12:43:33.555450+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-tax-season-extension-2026",
-   "phase": "extension",
-   "queries": [
-    "october 15 tax extension deadline",
-    "extended tax return due date"
-   ],
-   "window": "2026-10 ~ 2026-10 (보통)",
-   "days_to_start": -18,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "FAFSA launch",
-   "category": "Student Aid",
-   "official_sources": [
-    "https://studentaid.gov/announcements-events/fafsa-launch",
-    "https://studentaid.gov/h/apply-for-aid/fafsa"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-20T12:43:33.555513+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-fafsa-launch-2026",
-   "phase": "launch",
-   "queries": [
-    "fafsa 2027-28 open date",
-    "when does fafsa open",
-    "fafsa deadline"
-   ],
-   "window": "2026-10 ~ 2026-11 (보통)",
-   "days_to_start": -18,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Election Day general",
-   "category": "Elections",
-   "official_sources": [
-    "https://vote.gov/",
-    "https://www.eac.gov/voters"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-20T12:43:33.555543+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-election-general-2026",
-   "phase": "general",
-   "queries": [
-    "when is election day 2026",
-    "how to find my polling place",
-    "early voting near me",
-    "voter registration deadline"
-   ],
-   "window": "2026-10 ~ 2026-11 (보통)",
-   "days_to_start": -18,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "LIHEAP heating assistance winter",
-   "category": "Benefits",
-   "official_sources": [
-    "https://www.acf.hhs.gov/ocs/programs/liheap"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-20T12:43:33.555650+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-liheap-winter-2026",
-   "phase": "winter",
-   "queries": [
-    "how to apply for liheap",
-    "heating bill assistance",
-    "liheap income limits"
-   ],
-   "window": "2026-10 ~ 2026-12 (보통)",
-   "days_to_start": -18,
-   "in_window": true
-  },
-  {
    "source": "google_news",
-   "keyword": "car recall",
+   "keyword": "tax deadline",
    "traffic": 0,
-   "article_count_24h": 36,
+   "article_count_24h": 60,
    "article_count_1h": 3,
-   "published": "2026-10-20T04:26:08+09:00",
+   "published": "2026-10-20T09:40:00+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "More than 114K Britax car seats recalled over handle defect - ABC7 Bay Area",
-     "url": "https://news.google.com/rss/articles/CBMijxNBVV95cUxNWWRrWldjeF85dmctQnNQMlNvWnNPTDNBaFYwQnBmTGJyVmhQbEZ0eGhrMG93ZUVyck1PS242OU1SNGE3VjJrbkU4a0QtWndKY3J6cVNwOW50QkFabHZUOC1qa2R6Y3p0V3pZRXNzNjNhOURxZjdpU1JlRlVEUTcwVUxsZkhMRkQwQThhSHphb0dwQURvODBDV1dEeW1EbFJ2NWVxUnNhNU4yZ2NPV3ZpVmtlR2xkU3lpdUNxNU96OGJsOHNXaEpHWDFZN095djJOQ21uY2F6bnBLbFhmR0FMRnU1c015WU91TDNDcllkdEp6WFNEYVhxMHpRSEU2aGF4ZUVZeHl5aS1IbUk0eWJ2a0YwNURiYno2c0ljTDVPYTQ1MzJWajMwRkVpODJqRzloTUhjNFBQd3pmYjhOdmtYVnFnTXlJbHdlbXpnUE9JRmJRcThjNlg1MFdTUmpJQnZvR1JfN3FBbUozODludEwyWmsxdnIzdUU2U3VhU1BLOEJ2QlJhNXduMXVRaERyU3J5QXZMcmgtYnZHSnlScjBsVHFwNFdPTlZjUHVXOVhXSU90bjdLSVprUXZTV3RxSjVQNURCRnkwdW9nSnhsU2hRR3Z5VGN5bUhZc3ZRUnJmSC1ONTR0ZVdRZURmcEZJQndQQkRHaFB1V0kyX1d3anRYbGVRZVhEMHJVaW9IQTBONFBNcXB0RHlxR3BVbWZNbnZMYjZ4OVdMVVVjaXBTNE44cTN5eGVESzE3MVVudjdaX1B6Qm1jUndudnFDdjh0cWU2UTctWTQ4ajk2U01OWGo1WVVvNU5xU3RSb0psMzJMYkRnWXJiQktybXY3SGlBcHktdWpiN2FBeE1hbXlCYldyUU5LekdEUVJ2VlVDejFoTHZzdzAzYWNNNVJLUkNMUnJPSU5nSDM1RGlmdFEwdGx3Z2pReGpfb29mcFh6TzRINnFReGwzazNiYS00ZEt4NXRfLS1zTFM5cW5jMlZ5MWpqeDdFZU1kM1AwbzFwNWZ6aVlub0VJUnN1SWg2aUZCT1dXXzVtS3dFcXFScEo0REZkV0c3S2c3TzJSWld2TVM0ZEVVT2R1dEZXRTZad216cDItMHlhSG1uYUczUndOMkFoTkdPbDk4VHRUeVNTa2ZhT0ZrWDItX05hdVZuRmVIczFqZTZTVmJlLUNzSUgtTjQwbUdnazRJWlQwNzVYeUdDeVZoOThCcEtSampJeVVjNEgtd2NZaTI4R3czd24zaU9QajVaWXNaQmdvRVdzRkttNERzNEQwZWxLaHhCa3pWdkNGRkl2ZDdNUTFWcWV5NW95RTg0T2puTVpNc1pRRi1sVjNMREpQc2N3UmdaZmNpSHVfSUU1UnNYVTRzblNkWENHRjdPY0pVSUdHQnRVa2Y5Q0x1TEVkd1BSY04wUkNib2FiRDNvN3NfNzRwejNBX3RlVGZUaURPR2hGaVVRY3AtRW1YSldKUmVSODZ3YnpTRlR6YUpZZjcwcEpyWDhlTi1zZEFidHByUm5MWWlVcWFXY2t3V0pnV1hDTDdyNk9McUlvN3lYcXdyYUo2TDFmZjh5Q0lrWXh6elUtNUw2VlZPS3dyTmkxbU56czMxWVJnVGtEM1RmYVZfRllhdU9Jc3JGOWxIajhBZFJwWWxqRFpia2M5V3ZXekxvVlh0ZjFPMEh1THJOMFpGa3FXSDFNcjNmaDRpSUZ5eXhGQzFUUXJBS2plMXliQThqN3VJZmZzeE15NHdSNTNQWVJibTVJdlN1VWNYc1h3a05PeW5uaWdFcE5qNFV2YUN6QXJfWHZsRDltWXF0TVM2c3J4bmNvSEctNVlWZ2x4S25MWWl1MndPOVhIT3ViREpkNVFJT0trOFE5eWc1ZEU0VFFqVWtvUDNGVnJQY29QVFNPSVU4RVhoSWgxUFVYQ0w2RU4tZDBkb3FEaS05N2xYWlg0VFJJME1RODhBX2FvSHlYQWJRQTlKQ05WNVgtcVY1eU1VN2ZYX0FqeWpWOXFjLXpWbTJUS0xNb0VENmFGeXFLemRiU1A4aXc3UUJsa2xkemF5U3NBcnhvZjQtXzI0YlhmNWdGX1U0UUtfd29HakZlMUFIR3kzUHA2UGZ4NE0zWUp2VjY0VC1LRUhQbGoyX3hsMHhjM0Z1bGFXN29YRE04WURqT0tKXzRvanliaGI5blpKNjg0RmVRZW9YVmQxOGtGWDVUdkRFVkExc2ZOVmFDb0dRaVZ2czZsVHMyV3EzU3dZS043T1RGUzlJS3hlV0wzWnRtSmcyN2M2dW5fekdabTRxWGVCSzZTT3g1M21xaW8xb3M0RFJMU1BzRlN3TWJ1eG9pdkFzVGZrS1h1RzZlWmdoa2pzNjk1LVNkRllSTUZXR3VtMURib0RRUGNhSURRcWM3Y2k4RXZmd29KMnhZNHU1Mm9oUTBxb2tBWjg5a05WS0hkYnZzTlJXTnFHYW1mbzJLMlBzQTQ2bDJEWENJZE1YRFFHWDVPbUhoNlU4M2J2Z2YxN0Y0eHJNakpEVVNPVWhKbE1LR1RaVTkxREZ3TFJkTGJUZWxQdFNZMHltWVUtai1LV1pFV3h6R0NQakhFZ1NxLUJmcDNGMmwwREo1SGZ5LUNTYzVJa3VqRjdueU1SUlFva1ZZWVZteEFFX1dMYVZzb2JTNTdkZzgtV0hxb1plVUlmTzU4dC1RYkdnczJCSXdUbnVyQ25EQ3NnNy1GclhJNHZkanE3YlpKR2Z5Mk12N0RVWXJrbGloLWJzTjFmR0c0YUM2eTZscmhORkhLVXBDbmpxcHN6WWNsRFRxbjR4VEU1OHZBTVNVczgzazY5cHRQeTIydDl3aVhWTDN3N2N6Sm83Zk5MNUcyLTZHbVh3SlMtODU3SzhMeUJxcVplUmF4cEhwREVHLVVYNjZObVdXT2dBeGhBbXFxamkwYVlic1BoZVBycnR2c05HRll4RUh3S285UUtQVWtSSnlraFJFVEpuUjNFd1M2MjVydGVWbXlreHB6QjB3QlVRdWhtQ0RhSHNYWlhsSHF3YlF1YkFGTHhjYllvbk91akFZLUZSc0RZXzlMdkxhc0pGM1IxV0p6OWF6SUVnQWlfWFJIanJPUzNUYlVacUNaYVpOVkQwLWhvdVBTZ2lLSjRXek5JVjZNbmwzaXp4TlN5RkFETGxEUklLZGRlNTlTZ294c3dMOWxEMUtrVDJnaHFmUFlSNVRLWWMzNm1HRWtGS2VkUkdkbjBFZVZtS091XzVjQ3lxaUR2VQ?oc=5",
-     "source": "ABC7 Bay Area"
+     "title": "Madison County cities, schools receive partial property-tax payments ahead of governor’s deadline - KCCI",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeGF4Rm1BOFBSNWUwTWtESGNmX0FBeVY0RDdLcW1ZOHBEcUhvZWU0SklSSlhYTEhzZXl2aFgtdF9RQ3NfUjBQanFrWlpLcjY2R1FNVzlKRFRXZEJhMlA4Z0lkUk8zRHliX2xSOTZLU3JJOURzMVdOT2V5TDl1YWhZRHQxVng0aVk4dFJtN2VSTm8zM1VqRlR2aUlqc09QeDd2QmtXX0NBdS1BUkdiLTNCcFVIeHNCMS0yYmFLTUlnZkJOVkJWN2Y5SHpGY040UQ?oc=5",
+     "source": "KCCI"
     },
     {
-     "title": "What Does Ford Motor (F) Recall Of 3,700 Pickups In Australia Signal? - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa1doRWNtOFhhXzdhRHBocnFJWWRXYmlWLUh6bzBuclRrRWJ2bk42dWtWSHhHek5tOVA2emhEWVgzdjZlZ3JQRk9fbUlnczR2SjVnN0FfU1NtN2Q2SVFVY3NqQWlibGJ2aURNdkxIYm96dnVobUZzSEJuX1QyUmVYZ19uSmhrNC02SW1HWU1IOFVaZlE?oc=5",
-     "source": "Yahoo Finance"
+     "title": "Caldwell Sheriff Announces New Look, Key Deadline Reminders for Property Tax Bills - WPKY",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONEQ5bGdhNXlxQjZqd3hQZUhDOG5kd2I3VnpjQzBKWm9ZMFBDZkZxUHlQRWhBenRLYU1YeDJMZ1lhNGp6QVVjUTVLbjRYcVB0WklwbkVVbWNIY1M4MUZYcTBfQlEzRXdDZ2ZhVEI4b1VraU1URkkyTTFHVVdIU2JQMTREX0FnMGNIVm5yM0IxTjNiSXlxdXFhZmR3X1BELU5NZG9QZy1PVDd0VFNLRUpXV3YyMVpPY1hLYldJNGNzN1VWQVQ0SS1CRjZn?oc=5",
+     "source": "WPKY"
     },
     {
-     "title": "Volvo Recalls EX30 Due To Head Restraint - Road Ethos",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oWjJBUzRPd1g2Q3pxa0JzRnA3ZkhKWHRsUXRWbC0tNFVvTU9wQUdVb1J2Z2stalVLWlhibmozU0dDY1ZfaFVFQWxpZG0wUXhiWDdRU0xBSjh0Ykt1dmdROEt3ejZ2QVdDMnBLXzlWVEsyamNFMHc?oc=5",
-     "source": "Road Ethos"
+     "title": "EU Public Country-by-Country Reporting Goes Live: First Tax Filing Deadlines, First Frictions - Freshfields",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNEc1RHFjRHMwaTFldlg3TlQ4S19IZHJZcUVhdE94UDhlYVdMUE9oNnZRcWl3SUJOZ29tcVhDdHdwNWFpNjR2dl91UGh2N0QtQng0UERKSzJvVFpEZ1g0TWdOYmdfV1llQm9UZHM5blJQWjBQUlRGYU9oclNxUldjUncyX0p3TFplYUs3WkVUdWNudV9sUmdhaElSTWM5cWNmSkhwWHhsbHNKWHBISlRnUDZQUzU0UVV3Zy1ZY3JkUFUzZzB0bEJEdkk0bnNmZEVHcWhzWjJJVVduWDBaeVBWSXRFYy1Jdkd4RDZHU2tn?oc=5",
+     "source": "Freshfields"
     },
     {
-     "title": "Ram Recalls Heavy-Duty Trucks Over Stability Control Issue - Kelley Blue Book",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN3FVQ1ZMZG00T2ZhYU5MWXZMRkc0WXF0SkVwLVFlNnBmLU45NmpGa0hOc0s1WF9Ndzd3Um9hM0RnS2xVbjVrU3g3akZ3RXc4Yjk2R1E3Q2Y0Sy1xbVh2Z1pkWjlWaTBBYXQtVVNuRHlldjRxUGhhUVRkaFNzOFplVnpGcDBOcUtnUTg1bnFYTWxKdw?oc=5",
-     "source": "Kelley Blue Book"
+     "title": "The IRS penalty that grows every month for those who missed the October 15 tax deadline: how to stop it - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczROMGhIQWU2emtYeFZMWjdQb1B2TXpOSkpyVUQxSXVqc0VpeW1qT0Q0QngyaXphUFRZcFZqSHk4Uk1jdEJvdU5ZUWtwLXBZODB3MXlWMExOQTFkemtLUG9jWHQ0ZVZPOThTbkJfV0FrS3pxSFZ4N0czM1lpVFdJWVNlR3JXc2k1azJ4ZkNyV0ZVZHhXTnpNV2xkcGVlVTBQTTlibWxKUDJYMFZVZXBBMWgtSm5kRmg3T0xLSG81ODBLQmRoR212SWRsc04yWXFqTTFmNWVB?oc=5",
+     "source": "El Cronista"
     },
     {
-     "title": "Hyundai Recalls 94,000 Genesis Models Over Power Seat Fire Risk - Motor1.com",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WUnNrZFh5RXNqRjNTU1ZRZlI2UEFJZF9zbG9OSGlIREZvaGYxSnNQZjczUE9uSTdDSU9vNUlGUkk1RG9KeHRoamRCbllPaHVWXzVEUFRPMTRIVDd5aWZfZnJXRDNrbGNaZTFCSGYwZmRuRzYyRVdCQQ?oc=5",
-     "source": "Motor1.com"
+     "title": "How to check your ANCHOR benefit status 2026; Deadline help available - Asbury Park Press",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdEp3U255TnJDTmdQTzFWZU9WZXpJQ1J3QXRpWXVDMTM3d093S1V3VlpKNWM5SjFrSjVSejhIMnZJS3V3ZzZjTWpwVUxvOUJ4SGpMc1NCUHJuYi1XUFcyQlNEMW1FRFZuNFZscFJHci1YZUM1b1YxMTBZV2JpdW5lSTBOam12VXYxcTdwY0ZiTzc0RG90WGZ0TnQ3dE1JWGJwNVFOVFVVdHJDbXgxVGdEZE90bTdxSG5nU3g0?oc=5",
+     "source": "Asbury Park Press"
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 1.0→3건 (2.0배)",
-   "spike_bonus": 20.0,
-   "score": 65.1,
+   "score": 63.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://abc7news.com/story/britax-recalls-more-114k-car-seats-handle-defect/19752360/?userab=kfsn_content_recs-582*variant_a_control_kfsn-2512,kabc_content_recs-577*variant_a_control-2480,wls_content_recs-584*variant_a_control_wls-2516,wtvd_content_recs-585*variant_a_control_wtvd-2518,ktrk_content_recs-587*variant_a_control_ktrk-2522,wpvi_content_recs-586*variant_b_trending_wpvi-2521,otv_web_content_rec-539*variant_c_trending-2268,otv_web_topic-580*variant_b_topic_redesign-2509,follow_abcnews_otv_on_google-654*variant_a_control-3493,otv_search_page_design_unification-546*variant_b_search_redesign-2300,vertical_video_web-519*control-2163,abcn_popular_reads_exp_followup-648*variant_c_autotagswpopularity-3458,otv_mobile_web_content_recs-639*variant_b_mobile_content_recs_enabled-3431,kgo_content_recs-583*variant_a_control_kgo-2514,otvlink_abcnnav-576*variant_c_localnews-3316&userab=kfsn_content_recs-582*variant_b_trending_kfsn-2513,kabc_content_recs-577*variant_a_control-2480,wls_content_recs-584*variant_b_trending_wls-2517,wtvd_content_recs-585*variant_a_control_wtvd-2518,ktrk_content_recs-587*variant_b_trending_ktrk-2523,wpvi_content_recs-586*variant_b_trending_wpvi-2521,abcn_article_nfy_v2-691*control-3727,otv_web_content_rec-539*variant_c_trending-2268,otv_web_topic-580*variant_b_topic_redesign-2509,follow_abcnews_otv_on_google-654*variant_a_control-3493,otv_search_page_design_unification-546*variant_b_search_redesign-2300,otv_web_live-581*variant_b_live_redesign-2511,follow_otv_on_google-683*variant_b_share_drop_down-3661,abcn_popular_reads_exp_followup-648*variant_a_control-3455,otv_mobile_web_content_recs-639*variant_a_control-3429,kgo_content_recs-583*variant_b_trending_kgo-2515,abcn_verts_midterms-671*variant_b_verts_midterms_enabled-3588,otvlink_abcnnav-576*variant_b_local-2479",
-     "title": "More than 114K Britax car seats recalled over handle defect - ABC7 Bay Area",
-     "outlet": "ABC7 Bay Area"
+     "url": "https://www.kcci.com/article/madison-county-cities-schools-receive-partial-property-tax-payments-ahead-of-governors-deadline/74185707",
+     "title": "Madison County cities, schools receive partial property-tax payments ahead of governor’s deadline - KCCI",
+     "outlet": "KCCI"
     },
     {
-     "url": "https://finance.yahoo.com/markets/stocks/articles/does-ford-motor-f-recall-221809502.html",
-     "title": "What Does Ford Motor (F) Recall Of 3,700 Pickups In Australia Signal? - Yahoo Finance",
-     "outlet": "Yahoo Finance"
+     "url": "https://www.wpkyonline.com/2026/10/19/caldwell-sheriff-announces-new-look-key-deadline-reminders-for-property-tax-bills/news-edge/",
+     "title": "Caldwell Sheriff Announces New Look, Key Deadline Reminders for Property Tax Bills - WPKY",
+     "outlet": "WPKY"
     },
     {
-     "url": "https://www.motor1.com/news/812414/hyundai-genesis-recall-over-power/",
-     "title": "Hyundai Recalls 94,000 Genesis Models Over Power Seat Fire Risk - Motor1.com",
-     "outlet": "Motor1.com"
+     "url": "https://www.freshfields.com/en/our-thinking/blogs/risk-and-compliance/eu-public-country-by-country-reporting-goes-live-first-tax-filing-deadlines-fir-102o5sz",
+     "title": "EU Public Country-by-Country Reporting Goes Live: First Tax Filing Deadlines, First Frictions - Freshfields",
+     "outlet": "Freshfields"
+    },
+    {
+     "url": "https://www.cronista.com/en/finance/the-irs-penalty-that-grows-every-month-for-those-who-missed-the-october-15-tax-deadline-how-to-stop-it/",
+     "title": "The IRS penalty that grows every month for those who missed the October 15 tax deadline: how to stop it - El Cronista",
+     "outlet": "El Cronista"
     }
    ]
   },
@@ -247,7 +246,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-20T12:43:33.555619+09:00",
+   "published": "2026-10-20T13:10:03.830205+09:00",
    "score": 62,
    "already_covered": false,
    "cycle": "us-federal-holidays-thanksgiving-2026",
@@ -269,7 +268,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-20T12:43:33.555671+09:00",
+   "published": "2026-10-20T13:10:03.830228+09:00",
    "score": 62,
    "already_covered": false,
    "cycle": "us-rmd-yearend-2026",
@@ -284,71 +283,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "tax deadline",
-   "traffic": 0,
-   "article_count_24h": 59,
-   "article_count_1h": 2,
-   "published": "2026-10-20T09:40:00+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Madison County cities, schools receive partial property-tax payments ahead of governor’s deadline - KCCI",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeGF4Rm1BOFBSNWUwTWtESGNmX0FBeVY0RDdLcW1ZOHBEcUhvZWU0SklSSlhYTEhzZXl2aFgtdF9RQ3NfUjBQanFrWlpLcjY2R1FNVzlKRFRXZEJhMlA4Z0lkUk8zRHliX2xSOTZLU3JJOURzMVdOT2V5TDl1YWhZRHQxVng0aVk4dFJtN2VSTm8zM1VqRlR2aUlqc09QeDd2QmtXX0NBdS1BUkdiLTNCcFVIeHNCMS0yYmFLTUlnZkJOVkJWN2Y5SHpGY040UQ?oc=5",
-     "source": "KCCI"
-    },
-    {
-     "title": "EU Public Country-by-Country Reporting Goes Live: First Tax Filing Deadlines, First Frictions - Freshfields",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNEc1RHFjRHMwaTFldlg3TlQ4S19IZHJZcUVhdE94UDhlYVdMUE9oNnZRcWl3SUJOZ29tcVhDdHdwNWFpNjR2dl91UGh2N0QtQng0UERKSzJvVFpEZ1g0TWdOYmdfV1llQm9UZHM5blJQWjBQUlRGYU9oclNxUldjUncyX0p3TFplYUs3WkVUdWNudV9sUmdhaElSTWM5cWNmSkhwWHhsbHNKWHBISlRnUDZQUzU0UVV3Zy1ZY3JkUFUzZzB0bEJEdkk0bnNmZEVHcWhzWjJJVVduWDBaeVBWSXRFYy1Jdkd4RDZHU2tn?oc=5",
-     "source": "Freshfields"
-    },
-    {
-     "title": "Caldwell Sheriff Announces New Look, Key Deadline Reminders for Property Tax Bills - WPKY",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONEQ5bGdhNXlxQjZqd3hQZUhDOG5kd2I3VnpjQzBKWm9ZMFBDZkZxUHlQRWhBenRLYU1YeDJMZ1lhNGp6QVVjUTVLbjRYcVB0WklwbkVVbWNIY1M4MUZYcTBfQlEzRXdDZ2ZhVEI4b1VraU1URkkyTTFHVVdIU2JQMTREX0FnMGNIVm5yM0IxTjNiSXlxdXFhZmR3X1BELU5NZG9QZy1PVDd0VFNLRUpXV3YyMVpPY1hLYldJNGNzN1VWQVQ0SS1CRjZn?oc=5",
-     "source": "WPKY"
-    },
-    {
-     "title": "The IRS penalty that grows every month for those who missed the October 15 tax deadline: how to stop it - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczROMGhIQWU2emtYeFZMWjdQb1B2TXpOSkpyVUQxSXVqc0VpeW1qT0Q0QngyaXphUFRZcFZqSHk4Uk1jdEJvdU5ZUWtwLXBZODB3MXlWMExOQTFkemtLUG9jWHQ0ZVZPOThTbkJfV0FrS3pxSFZ4N0czM1lpVFdJWVNlR3JXc2k1azJ4ZkNyV0ZVZHhXTnpNV2xkcGVlVTBQTTlibWxKUDJYMFZVZXBBMWgtSm5kRmg3T0xLSG81ODBLQmRoR212SWRsc04yWXFqTTFmNWVB?oc=5",
-     "source": "El Cronista"
-    },
-    {
-     "title": "How to check your ANCHOR benefit status 2026; Deadline help available - Asbury Park Press",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdEp3U255TnJDTmdQTzFWZU9WZXpJQ1J3QXRpWXVDMTM3d093S1V3VlpKNWM5SjFrSjVSejhIMnZJS3V3ZzZjTWpwVUxvOUJ4SGpMc1NCUHJuYi1XUFcyQlNEMW1FRFZuNFZscFJHci1YZUM1b1YxMTBZV2JpdW5lSTBOam12VXYxcTdwY0ZiTzc0RG90WGZ0TnQ3dE1JWGJwNVFOVFVVdHJDbXgxVGdEZE90bTdxSG5nU3g0?oc=5",
-     "source": "Asbury Park Press"
-    }
-   ],
-   "official": false,
-   "score": 57.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.kcci.com/article/madison-county-cities-schools-receive-partial-property-tax-payments-ahead-of-governors-deadline/74185707",
-     "title": "Madison County cities, schools receive partial property-tax payments ahead of governor’s deadline - KCCI",
-     "outlet": "KCCI"
-    },
-    {
-     "url": "https://www.freshfields.com/en/our-thinking/blogs/risk-and-compliance/eu-public-country-by-country-reporting-goes-live-first-tax-filing-deadlines-fir-102o5sz",
-     "title": "EU Public Country-by-Country Reporting Goes Live: First Tax Filing Deadlines, First Frictions - Freshfields",
-     "outlet": "Freshfields"
-    },
-    {
-     "url": "https://www.wpkyonline.com/2026/10/19/caldwell-sheriff-announces-new-look-key-deadline-reminders-for-property-tax-bills/news-edge/",
-     "title": "Caldwell Sheriff Announces New Look, Key Deadline Reminders for Property Tax Bills - WPKY",
-     "outlet": "WPKY"
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/the-irs-penalty-that-grows-every-month-for-those-who-missed-the-october-15-tax-deadline-how-to-stop-it/",
-     "title": "The IRS penalty that grows every month for those who missed the October 15 tax deadline: how to stop it - El Cronista",
-     "outlet": "El Cronista"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 47,
-   "article_count_1h": 10,
+   "article_count_24h": 48,
+   "article_count_1h": 8,
    "published": "2026-10-20T05:21:00+09:00",
    "category": "Benefits",
    "news": [
@@ -408,7 +346,7 @@
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
-   "article_count_24h": 46,
+   "article_count_24h": 47,
    "article_count_1h": 10,
    "published": "2026-10-19T21:50:17+09:00",
    "category": "Benefits",
@@ -467,127 +405,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "SNAP benefits",
-   "traffic": 0,
-   "article_count_24h": 56,
-   "article_count_1h": 4,
-   "published": "2026-10-20T04:34:45+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "‘It’s shameful’: New Mexico veterans increasingly turn to food banks after SNAP rollbacks - Source New Mexico",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWnlfQ043ZTRzVk5ucnBnV3NiaDJoT1pHdVlXSlpLVk0yZGlCQzNnVENaNmtwX3NrOUk2V1hmdC11VHhFY0lJd2NObl80XzRLRWRXRmpUOHdkd2o3V3pnczBlNTd3T1kwR0htNXVLQmRTXzFITFRBY3ZZMy1aeTRaT3NEa2ZOM2gwS3RPU2NnXzRQVTRpR3JwaTY1VGYtdGxSNnctWUtSWjRxT1lsQ0pXTnN3bjBDQmtRVkE?oc=5",
-     "source": "Source New Mexico"
-    },
-    {
-     "title": "Dorchester mom relies on community as rising costs make feeding family a challenge - NBC Boston",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZWNnOUs3Um9tZlJfWmVJdkowcjBwam9rWGdkQWhfLURhTjFqQUNkcWN2cDNxYnBRV1FmeUFHTEhILVNfcTZQUE9ZX25hMzA3Ync5cTR3Ym1mZ3lUb2NkOExWMHc2Q3lRaXNXMGp6QjdmM1NRRWQ2VG92dFNsb2RiSU85b3UyaUhxU0lCbUxuQV9NZXFUUWg3OThrTkx6d9IBpgFBVV95cUxOSDhFQzE0eW5WeVo3TTRYX294QUhSZ1VTMWRKRFFpcERhNFU0QldNVmlKWGtyRVVCbzQ2RlF0VnhubVczaVZEMTJhYjJJNUNsX2M1dGFkQWQxVEJDWkQyWVNTbUNUbWJNUmtwUG1ROGJyV0cxSlBGYlNaS2RhVEJ4UEFIUVFwTUlWVW1JRWtweFpvNTVCWjh4NUxOY3BBeHh2TUh3Z1R3?oc=5",
-     "source": "NBC Boston"
-    },
-    {
-     "title": "Mamdani launches new team to help NYers keep SNAP, Medicaid benefits - Gothamist",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQWRncVlLMzBMVlM5UGZDWWNoMWRNUTNMVGpuRHRhZTUtQl9XRE5GYjVQWlo4UFo0Nm5sOU1WZi1FUkZMUlM2QXdTX25zYTc4OHd0TkRjRmZ2bHVFQ1VsckhjU1U5LW1saXY1SGh1amx2RjVEb3VxbHBmemhRYURCM1QtbU1RSDZjVGtzWlpzSWM5Zy0xN043LVRB?oc=5",
-     "source": "Gothamist"
-    },
-    {
-     "title": "Wisconsin family possibly sent Minnesota food assistance card - 5 EYEWITNESS NEWS",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTVN2bWZ6VnZ4NlBuU09rdGxBOC1SNXVicFhOV2s3VTVkNUt6TDFOVUJMN3FOVmRlbEFnZDNNUzZsa2Z3VFpteFpMeURoTmhhTE1DWW03MzJibFZPUkxjZlI1TGVCTE9zQnJzRHoxakx0eTBROFlGRHdjSGpRRFZreWszLTR4NUk3OWNrN0l4QnVVOTY0TWp4cmdTWGVkd2tZZVlxNHo4eVE?oc=5",
-     "source": "5 EYEWITNESS NEWS"
-    },
-    {
-     "title": "Lehigh County benefits transfer coordinator charged with stealing benefits cards - lehighvalleylive",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3NicGlTX2NBUF9LVlVsaG5XeC1xbzlrd0kzVWVXTlNBOWVtWlBTYnJaQWVYb2YtTWRfWU50a3FiOE40dVVFaVlvYWNBVHluU3BGVFBzVjRyeGw1QXJGLWRXVktyS2pDbXJWdUJ2T2R1dG1uVVFiZVctc0xKMHVyNjVVQmQwQlV0LUVXVDFSYXpqYzVzTVd4RXoyX1I2b3BXakJLRnhPV1ozS1Zobl85eWxBblZxeUpudUdiZ1hkb0pfajVpcHZQWlhTal_SAeABQVVfeXFMTWR0VzN5NmlmNjY1QmNXeTVTU0ZMNlFoalQ4RVZnTHVsTWVSNnpDUlljWHVESTgtTmkxNHJGdzVUTGxVdkt0dGh6ZnBXMUp0bW9HVzhCdmhWRVZWWmFDaGpZejFRSTZPVXR1Q3hEa3ZJclY1Um9ZQnhTQlRVMnU4RG0xcVA4MTVQc2lyTGI3c0NvcG1ET0VQOVN4Zk1WREpyUnBEN3VNR3NzY0pTWTI4UkJ3TVNZNVlJM1VYQ1hiUVRuNDhOV2hoTnVOcXpUNnVBQzFyZnZZOEdraGpiQ1c2Nk0?oc=5",
-     "source": "lehighvalleylive"
-    }
-   ],
-   "official": false,
-   "score": 51.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sourcenm.com/2026/10/19/its-shameful-new-mexico-veterans-increasingly-turn-to-food-banks-after-snap-rollbacks/",
-     "title": "‘It’s shameful’: New Mexico veterans increasingly turn to food banks after SNAP rollbacks - Source New Mexico",
-     "outlet": "Source New Mexico"
-    },
-    {
-     "url": "https://gothamist.com/news/mamdani-launches-new-team-to-help-nyers-keep-snap-medicaid-benefits",
-     "title": "Mamdani launches new team to help NYers keep SNAP, Medicaid benefits - Gothamist",
-     "outlet": "Gothamist"
-    },
-    {
-     "url": "https://kstp.com/tracking-your-tax-dollars/wisconsin-family-possibly-sent-minnesota-food-assistance-card/",
-     "title": "Wisconsin family possibly sent Minnesota food assistance card - 5 EYEWITNESS NEWS",
-     "outlet": "5 EYEWITNESS NEWS"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "minimum wage increase",
-   "traffic": 0,
-   "article_count_24h": 43,
-   "article_count_1h": 4,
-   "published": "2026-10-20T03:13:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Does Louisiana have its own state minimum wage? No, here's why - Shreveport Times",
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPd1l3NVJNSTMwaUlNU2ptbzBjMXNiQkhrS0pBNHQ3MTg2TTVuVG94YmhYb01zemgwaXZUYnk2N2h1dkt3aTJwSWZLemlaekhKQnRNNWpWaWEyWVJ4V2J1ZkFFVmp2eUMtd3RUZFFRYUlBTUdjSVcwTk8zekIwb3VpVl9mZXhKYi0tQTFSd1M5OXlYc1FwaExIMlE2NTRjbEtsalN3UDhKTXhNelhteWgySGdDWFk4czhkdUh2RTU3QlNLdkVnX29hN3NXdk9sS0gwdTQ5SWhDekRGaWl0LXlmb1l3Yk5rV014UktDQXJWNkRGbHQ3Q1NBSQ?oc=5",
-     "source": "Shreveport Times"
-    },
-    {
-     "title": "Czech Republic approves minimum wage increase for 2027 - DLA Piper GENIE",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRVFid0pWNFhXTVEteFNVRjhneXdWSEVjSHMwc1d5aUdaaXJCbXphX0hQQnQwSEJvWlJrOXdtTWJXT3N1bVZoZnJCX0xyV3Uzejh1ZzRCUU5pTG5CNlVaVnFHQnp1d3dUVlhvaVpFS1MxSmZUZm1RQ0VVRXhGdFE4NV9vTjJOTGE1S0Q2WWpIbVFIRk1DLXcxTzlIam5xMS1OMmp4ZHBlblV4dWlNOGxKMExFakVRaFo0TVY5MHFpSFpkQ3YxNl9uLTlyeXljclRxR2FmZlJFWk0xNkU?oc=5",
-     "source": "DLA Piper GENIE"
-    },
-    {
-     "title": "California Minimum Wage Rises to $17.40 an Hour in 2027 - HRMorning",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SUk5HdUQ0SXZUbmIwVTZrbnFnWjR2OWlKM1hMY2VRX0VfTWdvLTZNbnVRYk9zWFYyUjc4UUNETzY0enpLTUMtbGJOLUFsYTdCT3N5MWpBSm9fOTgxSkVSX0xSNFhpS0JnbVNUcEhnRQ?oc=5",
-     "source": "HRMorning"
-    },
-    {
-     "title": "Labor-nonprofits coalition accuses employers of trying to paralyze Minimum Wage Review Commission - San Juan Daily Star",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVDc4ZGR1M2ljZmpfM2lYQkpRUXZjSUQ5aXRtanBPU0lNUHVLdTNhMW1UWmRZd0RJZXh2dlFuZV85aUY3Vm1uQ1czQVJDRkozTUs4U3g3d3B5OHQzRUs4S0xJM2FjcEF1cGZyUXJwOE8tWmhvTWVNZmVXMnhzNjJMUl9OOGlWeXJUeXB5NTR2c3Y1cEZvbFdDMzcyc2lwY2IyYURrdGhPLTZRc0kzVEVXSUw4d3FVWkFlcjZKLU9UY1JSN1pzaFZaVWhvcVMxSEg1?oc=5",
-     "source": "San Juan Daily Star"
-    },
-    {
-     "title": "California Announces Increased Compensation Rates for Computer Professional Exemption in 2027 - Morgan Lewis",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNT29XMXRRb0RGbWF4ZkphdV9XQUs2c3ZsQnZ5dUFyMEpsTm9HN0FsdmJvWlFpZXdYTDJJTWhLdHBYLWdjU0ZLN0NQZ1pUSlZZelhYWlQ4ZkREcmdVbGlQc0d0NXkySTR2b3dRQUVmeng2cEp2Mmk5c2RKbnh4dExOWldFLXNveDUxVWRfTWNfdWN0LWlsdl9ySGFGVi1fY214eGJSc0JxZmdNZjYzOWRQRUNGUno4X1ZldXdDZFpDczJkNWNFVERaS3lld2J1SlU?oc=5",
-     "source": "Morgan Lewis"
-    }
-   ],
-   "official": false,
-   "score": 51.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/czech-republic-approves-minimum-wage-increase-for-2027",
-     "title": "Czech Republic approves minimum wage increase for 2027 - DLA Piper GENIE",
-     "outlet": "DLA Piper GENIE"
-    },
-    {
-     "url": "https://www.hrmorning.com/news/california-minimum-wage-update/",
-     "title": "California Minimum Wage Rises to $17.40 an Hour in 2027 - HRMorning",
-     "outlet": "HRMorning"
-    },
-    {
-     "url": "https://www.sanjuandailystar.com/post/labor-nonprofits-coalition-accuses-employers-of-trying-to-paralyze-minimum-wage-review-commission",
-     "title": "Labor-nonprofits coalition accuses employers of trying to paralyze Minimum Wage Review Commission - San Juan Daily Star",
-     "outlet": "San Juan Daily Star"
-    },
-    {
-     "url": "https://www.morganlewis.com/pubs/2026/10/california-announces-increased-compensation-rates-for-computer-professional-exemption-in-2027",
-     "title": "California Announces Increased Compensation Rates for Computer Professional Exemption in 2027 - Morgan Lewis",
-     "outlet": "Morgan Lewis"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 24,
+   "article_count_1h": 23,
    "published": "2026-10-20T05:11:02+09:00",
    "category": "Elections",
    "news": [
@@ -607,14 +428,14 @@
      "source": "Arkansas Advocate"
     },
     {
+     "title": "Newport News voters weigh in on candidates ahead of Election Day - 13newsnow.com",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSThwd1FEUjl4Z09MMm5idVhCZnRUcldGZmhVZnRFTHBqOG5oai1GeXBjLXhGdjVBRGlXVGVSZl9PQndfdzMyd28xZjFyaTBJc3RfTXNvZXdmajROMDVWamxxM2lIM1dQeEFuRkhDczJORjU5SC1hZnBrVENPbWxCUEFpSUtCVy1ZMXNFZWpmbUNOOVV4M0dKMGNIQ3NnUGhKa201WVFHRzV2ZEU3UmJBYnUyejM0czItSG1nN0JwOUpBUTdxU1NvNFY1YzZMeGJYbHF3TTEzZy1tZk5OUTNsY29zeTBEam1KNUFvV1NCNnhtRmd5a3Q4RDFXZ0NnMjQ?oc=5",
+     "source": "13newsnow.com"
+    },
+    {
      "title": "Need Election Assistance for the 2026 General Election? Voter Service and Polling Centers open Oct. 19. - Douglas County (.gov)",
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbDlibWtUTTB5c2x1eEpNam5fOWF6cUpBbFNJSExPLTc2M1ZMenZUb0MxX2FxM1Vxc1ZiTnFveEF3YjFtVnR0S185TXh6TlRzNHdSRVYtMWliekFFRDAzSmQyMVNmd3BVaXZ2YkQ2SXVBUnkzcUZ1TTJsckhxZUpwdUc5dHFmZDJwdzA1di0zTkpENGJEcEZzTXpPWUIxSktzTXJJRFpZUzZRVmtlaGJZWVdNeXdDVUIzWWQwM3RCTlhMZ0c1RUE?oc=5",
      "source": "Douglas County (.gov)"
-    },
-    {
-     "title": "Election 2026: Lynne Walz promises to expedite medical marijuana on ‘day one’ - WOWT",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZmFyMjc3ajZvZkdEcEgtdm9WSGE1UmQyOGVvNDdYaFVfNGNfZzhTWVdaX2w5MHUxQXNYMVJyWTRBQUNSSGtidlhSRHlxekZkX0Rxc0JNY2dJZFdhV082dUlXMl93MmRPTVRNQVdkWHlyN2Y5OEhyNHpqMFhqTnFBbHF3RUJwemh1ZUlGLTNzY25BdThxdEtVcExTQkZ0LVJSeTJZ0gG3AUFVX3lxTFBqWmlDV2JvWnZTZXFnR3hQS1BVT1k0X05nMEg3c0NuNjNNc3BWQ19VWUpkMTJ3aGxFWjc2eWt6NWdZYnVmQWVpdS1wYWhMekhRRTJmY2tIVzRDbmJ2TnQ0MjNmMThxTnY1dXR2OWlfZkhSeUZJeEUzTXhldTdkaGNLT01qaXBKYkppX3VTUG1XVkFqMDc3ZllYeXRPTkRyQ3NJSTUwLWxIQVpncWlzU2QxSVJFRHBQcw?oc=5",
-     "source": "WOWT"
     }
    ],
    "official": false,
@@ -648,7 +469,7 @@
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 26,
+   "article_count_1h": 33,
    "published": "2026-10-20T05:11:02+09:00",
    "category": "Elections",
    "news": [
@@ -673,9 +494,9 @@
      "source": "WDSU"
     },
     {
-     "title": "North Texas counties report first day of early voting numbers - WFAA",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdUtpemxYazhkNUJRQ2luU21ZRkdDdl9uMnRxLVhzVVEzaXFhYVd4dnVmVVdrTGNmdVBSYy1BbXpBUWxkMFA4QjZFeHgyUmQ4X3NGanhvUk9GYTRtVER6endLbUZib1d0Q0thbmMta3ZIVklnSHVmdlA4bDJXdmxJQUdMOEhqMktjZkQwMUNVZTV0THlTbkRSakdBX0M5QS1hS0psaFRDUDNSSnp1MXdFbVhaeUpZMVpIbVpKLXppZWpTclh4WjEyQXBxdEpmS0tHRmdFbTJhaVlpVTVvdnhqNGxqU0dEOTQ?oc=5",
-     "source": "WFAA"
+     "title": "Georgia voters set early turnout record - FOX 5 Atlanta",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM1ZsY2IwcDhNc3dCcktRR1NmVW1WYTJ3WS1uRzllRTllNFhvSWZadlRsOUw1YkhyeFZTX0Q0RC1Hd0tZeF9vd3llV21LdVhyTk9IS1FQdUZsM29venRsS3lsekdfdXRpTzZEbmlwaWo5VWVXQ3luLTJETkpmekxDR0NMX09kVVFva1BGQ3JtcG4ydHUzdHlNYnRvbmZ6d9IBowFBVV95cUxOZGM5NTd0bVduX3ZZdktSWHdPM0liUXVqbW50R2VUbTVfc0ptVjA2S0dFbDRVVWl3bklFTW10TGYyRk9lU05SRlRyZ0pJOXhvUllIQ0N1UGN5THdOTGJpVEJVdkZ0QmZQSW5tNkx5bU9reGpnYVAxSmJrdnYxb1NuYkdpTEFSZWtBd1BYd01CNzkzZ2JDRDBoOWlVR29ZMDZVZVU0?oc=5",
+     "source": "FOX 5 Atlanta"
     }
    ],
    "official": false,
@@ -709,7 +530,7 @@
    "keyword": "product recall",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 5,
+   "article_count_1h": 7,
    "published": "2026-10-19T22:50:22+09:00",
    "category": "Recalls",
    "news": [
@@ -764,7 +585,7 @@
    "source": "google_news",
    "keyword": "REAL ID",
    "traffic": 0,
-   "article_count_24h": 42,
+   "article_count_24h": 39,
    "article_count_1h": 1,
    "published": "2026-10-20T09:59:00+09:00",
    "category": "Elections",
@@ -823,10 +644,214 @@
   },
   {
    "source": "google_news",
+   "keyword": "SNAP benefits",
+   "traffic": 0,
+   "article_count_24h": 56,
+   "article_count_1h": 2,
+   "published": "2026-10-20T04:34:45+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "‘It’s shameful’: New Mexico veterans increasingly turn to food banks after SNAP rollbacks - Source New Mexico",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWnlfQ043ZTRzVk5ucnBnV3NiaDJoT1pHdVlXSlpLVk0yZGlCQzNnVENaNmtwX3NrOUk2V1hmdC11VHhFY0lJd2NObl80XzRLRWRXRmpUOHdkd2o3V3pnczBlNTd3T1kwR0htNXVLQmRTXzFITFRBY3ZZMy1aeTRaT3NEa2ZOM2gwS3RPU2NnXzRQVTRpR3JwaTY1VGYtdGxSNnctWUtSWjRxT1lsQ0pXTnN3bjBDQmtRVkE?oc=5",
+     "source": "Source New Mexico"
+    },
+    {
+     "title": "Dorchester mom relies on community as rising costs make feeding family a challenge - NBC Boston",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZWNnOUs3Um9tZlJfWmVJdkowcjBwam9rWGdkQWhfLURhTjFqQUNkcWN2cDNxYnBRV1FmeUFHTEhILVNfcTZQUE9ZX25hMzA3Ync5cTR3Ym1mZ3lUb2NkOExWMHc2Q3lRaXNXMGp6QjdmM1NRRWQ2VG92dFNsb2RiSU85b3UyaUhxU0lCbUxuQV9NZXFUUWg3OThrTkx6d9IBpgFBVV95cUxOSDhFQzE0eW5WeVo3TTRYX294QUhSZ1VTMWRKRFFpcERhNFU0QldNVmlKWGtyRVVCbzQ2RlF0VnhubVczaVZEMTJhYjJJNUNsX2M1dGFkQWQxVEJDWkQyWVNTbUNUbWJNUmtwUG1ROGJyV0cxSlBGYlNaS2RhVEJ4UEFIUVFwTUlWVW1JRWtweFpvNTVCWjh4NUxOY3BBeHh2TUh3Z1R3?oc=5",
+     "source": "NBC Boston"
+    },
+    {
+     "title": "Mamdani launches new team to help NYers keep SNAP, Medicaid benefits - Gothamist",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQWRncVlLMzBMVlM5UGZDWWNoMWRNUTNMVGpuRHRhZTUtQl9XRE5GYjVQWlo4UFo0Nm5sOU1WZi1FUkZMUlM2QXdTX25zYTc4OHd0TkRjRmZ2bHVFQ1VsckhjU1U5LW1saXY1SGh1amx2RjVEb3VxbHBmemhRYURCM1QtbU1RSDZjVGtzWlpzSWM5Zy0xN043LVRB?oc=5",
+     "source": "Gothamist"
+    },
+    {
+     "title": "Wisconsin family possibly sent Minnesota food assistance card - 5 EYEWITNESS NEWS",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTVN2bWZ6VnZ4NlBuU09rdGxBOC1SNXVicFhOV2s3VTVkNUt6TDFOVUJMN3FOVmRlbEFnZDNNUzZsa2Z3VFpteFpMeURoTmhhTE1DWW03MzJibFZPUkxjZlI1TGVCTE9zQnJzRHoxakx0eTBROFlGRHdjSGpRRFZreWszLTR4NUk3OWNrN0l4QnVVOTY0TWp4cmdTWGVkd2tZZVlxNHo4eVE?oc=5",
+     "source": "5 EYEWITNESS NEWS"
+    },
+    {
+     "title": "Lehigh County benefits transfer coordinator charged with stealing benefits cards - lehighvalleylive",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3NicGlTX2NBUF9LVlVsaG5XeC1xbzlrd0kzVWVXTlNBOWVtWlBTYnJaQWVYb2YtTWRfWU50a3FiOE40dVVFaVlvYWNBVHluU3BGVFBzVjRyeGw1QXJGLWRXVktyS2pDbXJWdUJ2T2R1dG1uVVFiZVctc0xKMHVyNjVVQmQwQlV0LUVXVDFSYXpqYzVzTVd4RXoyX1I2b3BXakJLRnhPV1ozS1Zobl85eWxBblZxeUpudUdiZ1hkb0pfajVpcHZQWlhTal_SAeABQVVfeXFMTWR0VzN5NmlmNjY1QmNXeTVTU0ZMNlFoalQ4RVZnTHVsTWVSNnpDUlljWHVESTgtTmkxNHJGdzVUTGxVdkt0dGh6ZnBXMUp0bW9HVzhCdmhWRVZWWmFDaGpZejFRSTZPVXR1Q3hEa3ZJclY1Um9ZQnhTQlRVMnU4RG0xcVA4MTVQc2lyTGI3c0NvcG1ET0VQOVN4Zk1WREpyUnBEN3VNR3NzY0pTWTI4UkJ3TVNZNVlJM1VYQ1hiUVRuNDhOV2hoTnVOcXpUNnVBQzFyZnZZOEdraGpiQ1c2Nk0?oc=5",
+     "source": "lehighvalleylive"
+    }
+   ],
+   "official": false,
+   "score": 42.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://sourcenm.com/2026/10/19/its-shameful-new-mexico-veterans-increasingly-turn-to-food-banks-after-snap-rollbacks/",
+     "title": "‘It’s shameful’: New Mexico veterans increasingly turn to food banks after SNAP rollbacks - Source New Mexico",
+     "outlet": "Source New Mexico"
+    },
+    {
+     "url": "https://www.nbcboston.com/news/local/boston-food-costs-snap-dorchester-affording-america/4033617/",
+     "title": "Dorchester mom relies on community as rising costs make feeding family a challenge - NBC Boston",
+     "outlet": "NBC Boston"
+    },
+    {
+     "url": "https://gothamist.com/news/mamdani-launches-new-team-to-help-nyers-keep-snap-medicaid-benefits",
+     "title": "Mamdani launches new team to help NYers keep SNAP, Medicaid benefits - Gothamist",
+     "outlet": "Gothamist"
+    },
+    {
+     "url": "https://kstp.com/tracking-your-tax-dollars/wisconsin-family-possibly-sent-minnesota-food-assistance-card/",
+     "title": "Wisconsin family possibly sent Minnesota food assistance card - 5 EYEWITNESS NEWS",
+     "outlet": "5 EYEWITNESS NEWS"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "student loans",
+   "traffic": 2000,
+   "published": "2026-10-20T12:50:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Trump Aides Are Getting Ready to Penalize Defaulting Student Loan Borrowers",
+     "url": "https://www.washingtonsun.com/economy/trump-aides-plan-penalize-defaulting-student-loan-borrowers",
+     "source": "www.washingtonsun.com"
+    },
+    {
+     "title": "Education Department Is About To Seize Student Loan Borrowers’ Wages And Benefits",
+     "url": "https://www.forbes.com/sites/adamminsky/2026/10/19/education-department-is-about-to-seize-student-loan-borrowers-wages-and-benefits/",
+     "source": "Forbes"
+    },
+    {
+     "title": "Trump Plans to Target Americans Behind on Student Loans",
+     "url": "https://www.rollingstone.com/politics/politics-news/trump-plans-penalize-americans-defaulting-student-loans-1235644979/",
+     "source": "Rolling Stone"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 40.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.washingtonsun.com/economy/trump-aides-plan-penalize-defaulting-student-loan-borrowers",
+     "title": "Trump Aides Are Getting Ready to Penalize Defaulting Student Loan Borrowers",
+     "outlet": "www.washingtonsun.com"
+    },
+    {
+     "url": "https://www.rollingstone.com/politics/politics-news/trump-plans-penalize-americans-defaulting-student-loans-1235644979/",
+     "title": "Trump Plans to Target Americans Behind on Student Loans",
+     "outlet": "Rolling Stone"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "chiefs standings",
+   "traffic": 10000,
+   "published": "2026-10-20T12:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "NFL Week 6: Big takeaways, questions and fantasy spin from Sunday's games",
+     "url": "https://www.espn.com/nfl/story/_/id/50181469/week-6-sunday-games-takeaways-questions-2026",
+     "source": "ESPN"
+    },
+    {
+     "title": "NFL Week 6 INSTANT Reactions LIVE: Rams DISASTER, Caleb Williams' Dominant Return",
+     "url": "https://sports.yahoo.com/nfl/article/nfl-week-6-instant-reactions-rams-complete-collapse-caleb-williams-dominant-return-061141382.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "NFL Week 6 Sunday takeaways: Giants have a new QB1, Bills keep rolling and Shane Steichen is on the hot seat",
+     "url": "https://www.foxnews.com/outkick-sports/nfl-week-6-sunday-takeaways-giants-new-qb1-bills-keep-rolling-shane-steichen-hot-seat",
+     "source": "Fox News"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://sports.yahoo.com/nfl/article/nfl-week-6-instant-reactions-rams-complete-collapse-caleb-williams-dominant-return-061141382.html",
+     "title": "NFL Week 6 INSTANT Reactions LIVE: Rams DISASTER, Caleb Williams' Dominant Return",
+     "outlet": "Yahoo Sports"
+    },
+    {
+     "url": "https://www.foxnews.com/outkick-sports/nfl-week-6-sunday-takeaways-giants-new-qb1-bills-keep-rolling-shane-steichen-hot-seat",
+     "title": "NFL Week 6 Sunday takeaways: Giants have a new QB1, Bills keep rolling and Shane Steichen is on the hot seat",
+     "outlet": "Fox News"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "minimum wage increase",
+   "traffic": 0,
+   "article_count_24h": 43,
+   "article_count_1h": 1,
+   "published": "2026-10-20T03:13:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Does Louisiana have its own state minimum wage? No, here's why - Shreveport Times",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPd1l3NVJNSTMwaUlNU2ptbzBjMXNiQkhrS0pBNHQ3MTg2TTVuVG94YmhYb01zemgwaXZUYnk2N2h1dkt3aTJwSWZLemlaekhKQnRNNWpWaWEyWVJ4V2J1ZkFFVmp2eUMtd3RUZFFRYUlBTUdjSVcwTk8zekIwb3VpVl9mZXhKYi0tQTFSd1M5OXlYc1FwaExIMlE2NTRjbEtsalN3UDhKTXhNelhteWgySGdDWFk4czhkdUh2RTU3QlNLdkVnX29hN3NXdk9sS0gwdTQ5SWhDekRGaWl0LXlmb1l3Yk5rV014UktDQXJWNkRGbHQ3Q1NBSQ?oc=5",
+     "source": "Shreveport Times"
+    },
+    {
+     "title": "Czech Republic approves minimum wage increase for 2027 - DLA Piper GENIE",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRVFid0pWNFhXTVEteFNVRjhneXdWSEVjSHMwc1d5aUdaaXJCbXphX0hQQnQwSEJvWlJrOXdtTWJXT3N1bVZoZnJCX0xyV3Uzejh1ZzRCUU5pTG5CNlVaVnFHQnp1d3dUVlhvaVpFS1MxSmZUZm1RQ0VVRXhGdFE4NV9vTjJOTGE1S0Q2WWpIbVFIRk1DLXcxTzlIam5xMS1OMmp4ZHBlblV4dWlNOGxKMExFakVRaFo0TVY5MHFpSFpkQ3YxNl9uLTlyeXljclRxR2FmZlJFWk0xNkU?oc=5",
+     "source": "DLA Piper GENIE"
+    },
+    {
+     "title": "California Minimum Wage Rises to $17.40 an Hour in 2027 - HRMorning",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SUk5HdUQ0SXZUbmIwVTZrbnFnWjR2OWlKM1hMY2VRX0VfTWdvLTZNbnVRYk9zWFYyUjc4UUNETzY0enpLTUMtbGJOLUFsYTdCT3N5MWpBSm9fOTgxSkVSX0xSNFhpS0JnbVNUcEhnRQ?oc=5",
+     "source": "HRMorning"
+    },
+    {
+     "title": "Labor-nonprofits coalition accuses employers of trying to paralyze Minimum Wage Review Commission - San Juan Daily Star",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVDc4ZGR1M2ljZmpfM2lYQkpRUXZjSUQ5aXRtanBPU0lNUHVLdTNhMW1UWmRZd0RJZXh2dlFuZV85aUY3Vm1uQ1czQVJDRkozTUs4U3g3d3B5OHQzRUs4S0xJM2FjcEF1cGZyUXJwOE8tWmhvTWVNZmVXMnhzNjJMUl9OOGlWeXJUeXB5NTR2c3Y1cEZvbFdDMzcyc2lwY2IyYURrdGhPLTZRc0kzVEVXSUw4d3FVWkFlcjZKLU9UY1JSN1pzaFZaVWhvcVMxSEg1?oc=5",
+     "source": "San Juan Daily Star"
+    },
+    {
+     "title": "California Announces Increased Compensation Rates for Computer Professional Exemption in 2027 - Morgan Lewis",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNT29XMXRRb0RGbWF4ZkphdV9XQUs2c3ZsQnZ5dUFyMEpsTm9HN0FsdmJvWlFpZXdYTDJJTWhLdHBYLWdjU0ZLN0NQZ1pUSlZZelhYWlQ4ZkREcmdVbGlQc0d0NXkySTR2b3dRQUVmeng2cEp2Mmk5c2RKbnh4dExOWldFLXNveDUxVWRfTWNfdWN0LWlsdl9ySGFGVi1fY214eGJSc0JxZmdNZjYzOWRQRUNGUno4X1ZldXdDZFpDczJkNWNFVERaS3lld2J1SlU?oc=5",
+     "source": "Morgan Lewis"
+    }
+   ],
+   "official": false,
+   "score": 38.1,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/czech-republic-approves-minimum-wage-increase-for-2027",
+     "title": "Czech Republic approves minimum wage increase for 2027 - DLA Piper GENIE",
+     "outlet": "DLA Piper GENIE"
+    },
+    {
+     "url": "https://www.hrmorning.com/news/california-minimum-wage-update/",
+     "title": "California Minimum Wage Rises to $17.40 an Hour in 2027 - HRMorning",
+     "outlet": "HRMorning"
+    },
+    {
+     "url": "https://www.sanjuandailystar.com/post/labor-nonprofits-coalition-accuses-employers-of-trying-to-paralyze-minimum-wage-review-commission",
+     "title": "Labor-nonprofits coalition accuses employers of trying to paralyze Minimum Wage Review Commission - San Juan Daily Star",
+     "outlet": "San Juan Daily Star"
+    },
+    {
+     "url": "https://www.morganlewis.com/pubs/2026/10/california-announces-increased-compensation-rates-for-computer-professional-exemption-in-2027",
+     "title": "California Announces Increased Compensation Rates for Computer Professional Exemption in 2027 - Morgan Lewis",
+     "outlet": "Morgan Lewis"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "IRS refund",
    "traffic": 0,
-   "article_count_24h": 60,
-   "article_count_1h": 2,
+   "article_count_24h": 62,
+   "article_count_1h": 1,
    "published": "2026-10-20T00:02:08+09:00",
    "category": "Taxes",
    "news": [
@@ -857,7 +882,7 @@
     }
    ],
    "official": false,
-   "score": 39.9,
+   "score": 35.7,
    "already_covered": false,
    "evidence": [
     {
@@ -879,6 +904,62 @@
      "url": "https://www.theaccountant-online.com/news/us-irs-begins-automatic-adoption-tax-credit-refunds/",
      "title": "US IRS begins automatic adoption tax credit refunds - The Accountant Online",
      "outlet": "The Accountant Online"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "car recall",
+   "traffic": 0,
+   "article_count_24h": 36,
+   "article_count_1h": 1,
+   "published": "2026-10-20T04:26:08+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "More than 114K Britax car seats recalled over handle defect - ABC7 Bay Area",
+     "url": "https://news.google.com/rss/articles/CBMijxNBVV95cUxNWWRrWldjeF85dmctQnNQMlNvWnNPTDNBaFYwQnBmTGJyVmhQbEZ0eGhrMG93ZUVyck1PS242OU1SNGE3VjJrbkU4a0QtWndKY3J6cVNwOW50QkFabHZUOC1qa2R6Y3p0V3pZRXNzNjNhOURxZjdpU1JlRlVEUTcwVUxsZkhMRkQwQThhSHphb0dwQURvODBDV1dEeW1EbFJ2NWVxUnNhNU4yZ2NPV3ZpVmtlR2xkU3lpdUNxNU96OGJsOHNXaEpHWDFZN095djJOQ21uY2F6bnBLbFhmR0FMRnU1c015WU91TDNDcllkdEp6WFNEYVhxMHpRSEU2aGF4ZUVZeHl5aS1IbUk0eWJ2a0YwNURiYno2c0ljTDVPYTQ1MzJWajMwRkVpODJqRzloTUhjNFBQd3pmYjhOdmtYVnFnTXlJbHdlbXpnUE9JRmJRcThjNlg1MFdTUmpJQnZvR1JfN3FBbUozODludEwyWmsxdnIzdUU2U3VhU1BLOEJ2QlJhNXduMXVRaERyU3J5QXZMcmgtYnZHSnlScjBsVHFwNFdPTlZjUHVXOVhXSU90bjdLSVprUXZTV3RxSjVQNURCRnkwdW9nSnhsU2hRR3Z5VGN5bUhZc3ZRUnJmSC1ONTR0ZVdRZURmcEZJQndQQkRHaFB1V0kyX1d3anRYbGVRZVhEMHJVaW9IQTBONFBNcXB0RHlxR3BVbWZNbnZMYjZ4OVdMVVVjaXBTNE44cTN5eGVESzE3MVVudjdaX1B6Qm1jUndudnFDdjh0cWU2UTctWTQ4ajk2U01OWGo1WVVvNU5xU3RSb0psMzJMYkRnWXJiQktybXY3SGlBcHktdWpiN2FBeE1hbXlCYldyUU5LekdEUVJ2VlVDejFoTHZzdzAzYWNNNVJLUkNMUnJPSU5nSDM1RGlmdFEwdGx3Z2pReGpfb29mcFh6TzRINnFReGwzazNiYS00ZEt4NXRfLS1zTFM5cW5jMlZ5MWpqeDdFZU1kM1AwbzFwNWZ6aVlub0VJUnN1SWg2aUZCT1dXXzVtS3dFcXFScEo0REZkV0c3S2c3TzJSWld2TVM0ZEVVT2R1dEZXRTZad216cDItMHlhSG1uYUczUndOMkFoTkdPbDk4VHRUeVNTa2ZhT0ZrWDItX05hdVZuRmVIczFqZTZTVmJlLUNzSUgtTjQwbUdnazRJWlQwNzVYeUdDeVZoOThCcEtSampJeVVjNEgtd2NZaTI4R3czd24zaU9QajVaWXNaQmdvRVdzRkttNERzNEQwZWxLaHhCa3pWdkNGRkl2ZDdNUTFWcWV5NW95RTg0T2puTVpNc1pRRi1sVjNMREpQc2N3UmdaZmNpSHVfSUU1UnNYVTRzblNkWENHRjdPY0pVSUdHQnRVa2Y5Q0x1TEVkd1BSY04wUkNib2FiRDNvN3NfNzRwejNBX3RlVGZUaURPR2hGaVVRY3AtRW1YSldKUmVSODZ3YnpTRlR6YUpZZjcwcEpyWDhlTi1zZEFidHByUm5MWWlVcWFXY2t3V0pnV1hDTDdyNk9McUlvN3lYcXdyYUo2TDFmZjh5Q0lrWXh6elUtNUw2VlZPS3dyTmkxbU56czMxWVJnVGtEM1RmYVZfRllhdU9Jc3JGOWxIajhBZFJwWWxqRFpia2M5V3ZXekxvVlh0ZjFPMEh1THJOMFpGa3FXSDFNcjNmaDRpSUZ5eXhGQzFUUXJBS2plMXliQThqN3VJZmZzeE15NHdSNTNQWVJibTVJdlN1VWNYc1h3a05PeW5uaWdFcE5qNFV2YUN6QXJfWHZsRDltWXF0TVM2c3J4bmNvSEctNVlWZ2x4S25MWWl1MndPOVhIT3ViREpkNVFJT0trOFE5eWc1ZEU0VFFqVWtvUDNGVnJQY29QVFNPSVU4RVhoSWgxUFVYQ0w2RU4tZDBkb3FEaS05N2xYWlg0VFJJME1RODhBX2FvSHlYQWJRQTlKQ05WNVgtcVY1eU1VN2ZYX0FqeWpWOXFjLXpWbTJUS0xNb0VENmFGeXFLemRiU1A4aXc3UUJsa2xkemF5U3NBcnhvZjQtXzI0YlhmNWdGX1U0UUtfd29HakZlMUFIR3kzUHA2UGZ4NE0zWUp2VjY0VC1LRUhQbGoyX3hsMHhjM0Z1bGFXN29YRE04WURqT0tKXzRvanliaGI5blpKNjg0RmVRZW9YVmQxOGtGWDVUdkRFVkExc2ZOVmFDb0dRaVZ2czZsVHMyV3EzU3dZS043T1RGUzlJS3hlV0wzWnRtSmcyN2M2dW5fekdabTRxWGVCSzZTT3g1M21xaW8xb3M0RFJMU1BzRlN3TWJ1eG9pdkFzVGZrS1h1RzZlWmdoa2pzNjk1LVNkRllSTUZXR3VtMURib0RRUGNhSURRcWM3Y2k4RXZmd29KMnhZNHU1Mm9oUTBxb2tBWjg5a05WS0hkYnZzTlJXTnFHYW1mbzJLMlBzQTQ2bDJEWENJZE1YRFFHWDVPbUhoNlU4M2J2Z2YxN0Y0eHJNakpEVVNPVWhKbE1LR1RaVTkxREZ3TFJkTGJUZWxQdFNZMHltWVUtai1LV1pFV3h6R0NQakhFZ1NxLUJmcDNGMmwwREo1SGZ5LUNTYzVJa3VqRjdueU1SUlFva1ZZWVZteEFFX1dMYVZzb2JTNTdkZzgtV0hxb1plVUlmTzU4dC1RYkdnczJCSXdUbnVyQ25EQ3NnNy1GclhJNHZkanE3YlpKR2Z5Mk12N0RVWXJrbGloLWJzTjFmR0c0YUM2eTZscmhORkhLVXBDbmpxcHN6WWNsRFRxbjR4VEU1OHZBTVNVczgzazY5cHRQeTIydDl3aVhWTDN3N2N6Sm83Zk5MNUcyLTZHbVh3SlMtODU3SzhMeUJxcVplUmF4cEhwREVHLVVYNjZObVdXT2dBeGhBbXFxamkwYVlic1BoZVBycnR2c05HRll4RUh3S285UUtQVWtSSnlraFJFVEpuUjNFd1M2MjVydGVWbXlreHB6QjB3QlVRdWhtQ0RhSHNYWlhsSHF3YlF1YkFGTHhjYllvbk91akFZLUZSc0RZXzlMdkxhc0pGM1IxV0p6OWF6SUVnQWlfWFJIanJPUzNUYlVacUNaYVpOVkQwLWhvdVBTZ2lLSjRXek5JVjZNbmwzaXp4TlN5RkFETGxEUklLZGRlNTlTZ294c3dMOWxEMUtrVDJnaHFmUFlSNVRLWWMzNm1HRWtGS2VkUkdkbjBFZVZtS091XzVjQ3lxaUR2VQ?oc=5",
+     "source": "ABC7 Bay Area"
+    },
+    {
+     "title": "What Does Ford Motor (F) Recall Of 3,700 Pickups In Australia Signal? - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa1doRWNtOFhhXzdhRHBocnFJWWRXYmlWLUh6bzBuclRrRWJ2bk42dWtWSHhHek5tOVA2emhEWVgzdjZlZ3JQRk9fbUlnczR2SjVnN0FfU1NtN2Q2SVFVY3NqQWlibGJ2aURNdkxIYm96dnVobUZzSEJuX1QyUmVYZ19uSmhrNC02SW1HWU1IOFVaZlE?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "Volvo Recalls EX30 Due To Head Restraint - Road Ethos",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oWjJBUzRPd1g2Q3pxa0JzRnA3ZkhKWHRsUXRWbC0tNFVvTU9wQUdVb1J2Z2stalVLWlhibmozU0dDY1ZfaFVFQWxpZG0wUXhiWDdRU0xBSjh0Ykt1dmdROEt3ejZ2QVdDMnBLXzlWVEsyamNFMHc?oc=5",
+     "source": "Road Ethos"
+    },
+    {
+     "title": "Ram Recalls Heavy-Duty Trucks Over Stability Control Issue - Kelley Blue Book",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN3FVQ1ZMZG00T2ZhYU5MWXZMRkc0WXF0SkVwLVFlNnBmLU45NmpGa0hOc0s1WF9Ndzd3Um9hM0RnS2xVbjVrU3g3akZ3RXc4Yjk2R1E3Q2Y0Sy1xbVh2Z1pkWjlWaTBBYXQtVVNuRHlldjRxUGhhUVRkaFNzOFplVnpGcDBOcUtnUTg1bnFYTWxKdw?oc=5",
+     "source": "Kelley Blue Book"
+    },
+    {
+     "title": "Hyundai Recalls 94,000 Genesis Models Over Power Seat Fire Risk - Motor1.com",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WUnNrZFh5RXNqRjNTU1ZRZlI2UEFJZF9zbG9OSGlIREZvaGYxSnNQZjczUE9uSTdDSU9vNUlGUkk1RG9KeHRoamRCbllPaHVWXzVEUFRPMTRIVDd5aWZfZnJXRDNrbGNaZTFCSGYwZmRuRzYyRVdCQQ?oc=5",
+     "source": "Motor1.com"
+    }
+   ],
+   "official": false,
+   "score": 35.7,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://abc7news.com/story/britax-recalls-more-114k-car-seats-handle-defect/19752360/?userab=kfsn_content_recs-582*variant_a_control_kfsn-2512,kabc_content_recs-577*variant_a_control-2480,wls_content_recs-584*variant_a_control_wls-2516,wtvd_content_recs-585*variant_a_control_wtvd-2518,ktrk_content_recs-587*variant_a_control_ktrk-2522,wpvi_content_recs-586*variant_b_trending_wpvi-2521,otv_web_content_rec-539*variant_c_trending-2268,otv_web_topic-580*variant_b_topic_redesign-2509,follow_abcnews_otv_on_google-654*variant_a_control-3493,otv_search_page_design_unification-546*variant_b_search_redesign-2300,vertical_video_web-519*control-2163,abcn_popular_reads_exp_followup-648*variant_c_autotagswpopularity-3458,otv_mobile_web_content_recs-639*variant_b_mobile_content_recs_enabled-3431,kgo_content_recs-583*variant_a_control_kgo-2514,otvlink_abcnnav-576*variant_c_localnews-3316&userab=kfsn_content_recs-582*variant_b_trending_kfsn-2513,kabc_content_recs-577*variant_a_control-2480,wls_content_recs-584*variant_b_trending_wls-2517,wtvd_content_recs-585*variant_a_control_wtvd-2518,ktrk_content_recs-587*variant_b_trending_ktrk-2523,wpvi_content_recs-586*variant_b_trending_wpvi-2521,abcn_article_nfy_v2-691*control-3727,otv_web_content_rec-539*variant_c_trending-2268,otv_web_topic-580*variant_b_topic_redesign-2509,follow_abcnews_otv_on_google-654*variant_a_control-3493,otv_search_page_design_unification-546*variant_b_search_redesign-2300,otv_web_live-581*variant_b_live_redesign-2511,follow_otv_on_google-683*variant_b_share_drop_down-3661,abcn_popular_reads_exp_followup-648*variant_a_control-3455,otv_mobile_web_content_recs-639*variant_a_control-3429,kgo_content_recs-583*variant_b_trending_kgo-2515,abcn_verts_midterms-671*variant_b_verts_midterms_enabled-3588,otvlink_abcnnav-576*variant_b_local-2479",
+     "title": "More than 114K Britax car seats recalled over handle defect - ABC7 Bay Area",
+     "outlet": "ABC7 Bay Area"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/does-ford-motor-f-recall-221809502.html",
+     "title": "What Does Ford Motor (F) Recall Of 3,700 Pickups In Australia Signal? - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "url": "https://www.motor1.com/news/812414/hyundai-genesis-recall-over-power/",
+     "title": "Hyundai Recalls 94,000 Genesis Models Over Power Seat Fire Risk - Motor1.com",
+     "outlet": "Motor1.com"
     }
    ]
   },
@@ -923,45 +1004,6 @@
   },
   {
    "source": "google_news",
-   "keyword": "FAFSA",
-   "traffic": 0,
-   "article_count_24h": 19,
-   "article_count_1h": 1,
-   "published": "2026-10-20T06:23:18+09:00",
-   "category": "Student Aid",
-   "news": [
-    {
-     "title": "Apply early, secure more aid: Wayne State encourages students to complete 2027-28 FAFSA - Today@Wayne",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSkZCaEZhcDNpcHZMNmJKQk5WY3piSTlLTHFZc0E2bXlPMTZZV25EZ3dnaktRTVNjeWltb3pIZExDM2ptcDF4S2k2alU4S3lfWkN5aDlTd3ByczRfX2IxMXpZTmNsMUdCOFEwZXNlZlUzUWFyMW9ncDVJVFp6U0c4WDc5YmNWbmR6YTY5Uzg0TmJWU2FBbzZPYVZXTVJRS0E2NkRSS3VtOXlBQmN5Wm5leFI0djgtd0Q1ZFUwTUlHVXBGZE9hX0dEVmxiQQ?oc=5",
-     "source": "Today@Wayne"
-    },
-    {
-     "title": "Western Wyoming College encourages students to file the 2027-2028 FAFSA - WyomingNews.com",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQQUVaNlpWUk50UTFiaUVZWm9wVk8yaHN2aTh4c05za1dSbkk1MHlDRGROWWw4LTE2UWtJNEpqNnFsdXl5emE5bm82QkNHQzRzMzJiMGMzcEJxMDlkS0JILWROVnJFNnJYd2ZMSFBVTmhCSXFwU2NoMFBQUDdlc0t1SFlMT1FSN3VzVFo1UGJVX1E3TmozSUc1SmVfdHhUZzVCdHowSkRqSlVtOUhFNml0OG00Q0ZyT2JjZlpFUzhGcTJsNmRBSjB6U0MwbGhDNHNPT3BRcVRRZTBnaDV6SjNYQ0Q0N2JCZW1ESS1VYzZqbkFScUE?oc=5",
-     "source": "WyomingNews.com"
-    },
-    {
-     "title": "Explainer: What Columbia students need to know about the 2027-28 FAFSA - The Columbia Chronicle",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUpUQjZaZmNsVWstVzYxWHdPRXJpMUw4RzF0VU9UMG44NHFXb0FyLXRXMkZWRnVyQU9mblJ5QXZGZHpwSFJ4VHM5TElkLU5mX0lRWWRzWlR6Rzc5NHR3emp2ZDU4S0RTWGZvM0V3cHRQNlNfUFZfY1ZJRUplMGVMQ180dV9GbnVZc2Vrcm0yS0E3aDdEbUt5YXIwVmM5REJiTF9PVDRYWmdBclk?oc=5",
-     "source": "The Columbia Chronicle"
-    },
-    {
-     "title": "NCAN’s FAFSA Tracker’s 10th Year Launches as US Pushes to Extend FAFSA Record - NCAN",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLTNZYmVaM1lJVUM4WXMxdWc5Ni1mOXJFbVF3WDFHMlRXSGpQSHhaVWF2ZGNvY1Z4SFlKWWRFSGx4OVpwNFRob1FTM3l4dXNJTHVadjNoNFdKWlFQMmxfYTl2dTN2MWE2V21DSjRhVC1sZmxjaGtMUU5JNU1XZzk1MXNLTVdqVEFQVzcxOGs3M0VMcGVlLWFoUDItZVB6UDJXQVJKUElhVWlsdjh2akdfX2N2VTdST1Q4SWN3QzFyQ0hfbXRw?oc=5",
-     "source": "NCAN"
-    },
-    {
-     "title": "Students urged to fill out FAFSA applications - News/Talk/Sports 94.9 WSJM",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR2M3Vk5NMmJGTmZCem0wdDRacXY2VTd5cjJlUFo1SVlONEMtQ0dKSGxmMnJDNWdOSkoxZ01qVlVzRHRJeDNQLWZjaWVVN3NtME93V2lBb3VOSjVsdHZGV3ZrbEh2Rmt0dWVILUNZQ0pHcl8xQkpNOGw1RjFMcUNnZlEzZm4?oc=5",
-     "source": "News/Talk/Sports 94.9 WSJM"
-    }
-   ],
-   "official": false,
-   "score": 33.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
    "article_count_24h": 45,
@@ -976,7 +1018,7 @@
     },
     {
      "title": "Medicare open enrollment period begins; what’s changing next year - WHO13.com",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWVFmelRkbk9FTTZwcEdkckhobU1vbExvMk4tdDBzX2tIcEtBX1Q1TC1yUzBaTWZ1b0Fxb05MNkhGU3EwZEhCeUdhN0J2dUZDbkpIVnB0UzRndW9iNUQ5OU1KU3J4ck1qVVp4bW1HOXJCYjBRLTNfRTJYYTVPVnJfbXMwa2Q4SUJxV3djZUFlOEhXb3JPYjlPeEVPR1VRUQ?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQWQ2R1RFOFU3ZzZGN1ZWTE53X2pYTmpoeUNMUTFhYTdHSEhtRVlxNl8wZnpkVFlrall6VF9EU1pqcFNDWFY3cVZkNFh4eEktNlZuTEliS3lZX2dnYlE1WTVHZGltQVBNTVAxeUR3c1RGU0plZGlUa3NzelFFN0NrRndDTnV5czNSM1JUTE1qdC0xLTZDdW90QU9OQ1FTRTRseHfSAacBQVVfeXFMUGwtSktKSkV5aC1xQ2FsT0E5Ui01RDZGQW9KYkU5c0oyUnB6dHZQQmRXdnlUQWV4dVNObTVNVTI5STIzTjh4OTB2UjZtU1RRc2dPYWxrd0had1owLU9tRjhhaDFvaUdMeEpybU5vN0RKWENhejRmOUNsckFxSDlYX3VaaE5ka3BfanFMSmd0NVNsdUJJZl9ENVBQNlMyM2lJZmZaTXpwajA?oc=5",
      "source": "WHO13.com"
     },
     {
@@ -990,9 +1032,9 @@
      "source": "WDEF"
     },
     {
-     "title": "Medicare open enrollment period begins; what’s changing next year - AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0FPLUwxcFp3MXU4TjNIckIyWEJGNVpwVDAtcXB2aDdjM0lQcDJKSWh2V1NseXBZRHFBMW1IZVp2cFpjRDF2YlZndTdSYlAzNXlkTTdNTG0tcm9qOEprWlJOb0pDcDdVUDhXTENDZlJpZW9NdDNiRVRrbjRLMkZuc2Q2UXZjWm42M3c?oc=5",
-     "source": "AOL.com"
+     "title": "HERE @ HOME: Medicare Open Enrollment special - WDBJ7",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaE9UQ19zQnpxUWpkNzNmdDRMdTBkYW12S2tNT0RSbktmbHNvalpKLXI3ajdrQkgxd1czZy1nSV94azF6UUNENGZhMzFYajJNRlRTcFU5SlJRZG11blJHUW91dF9JQ3R3b2VLZGlJZUxtNmdWdDJaekRjc214QVFCYmFB0gGWAUFVX3lxTE1YT3hpLXh5RUJsLTV5UDdmZWhuOGFPUHZmQXJ6Zjg3eDNmUnZwaF9PTlJ4cUhPZzQyOEt4VHRFOW9LRXRadWpOZVVLM1QtSk5PT0tOR3huVUVGSGpReFlmQ0N2c3R6Tkp4T2g1TGMtZTNMeFBScFRFTEFGdFlicWd0a1hnTEUweENPc3R2bnVGclN6S3A3dw?oc=5",
+     "source": "WDBJ7"
     }
    ],
    "official": false,
@@ -1040,6 +1082,84 @@
   },
   {
    "source": "google_news",
+   "keyword": "FAFSA",
+   "traffic": 0,
+   "article_count_24h": 19,
+   "article_count_1h": 0,
+   "published": "2026-10-20T06:23:18+09:00",
+   "category": "Student Aid",
+   "news": [
+    {
+     "title": "Apply early, secure more aid: Wayne State encourages students to complete 2027-28 FAFSA - Today@Wayne",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSkZCaEZhcDNpcHZMNmJKQk5WY3piSTlLTHFZc0E2bXlPMTZZV25EZ3dnaktRTVNjeWltb3pIZExDM2ptcDF4S2k2alU4S3lfWkN5aDlTd3ByczRfX2IxMXpZTmNsMUdCOFEwZXNlZlUzUWFyMW9ncDVJVFp6U0c4WDc5YmNWbmR6YTY5Uzg0TmJWU2FBbzZPYVZXTVJRS0E2NkRSS3VtOXlBQmN5Wm5leFI0djgtd0Q1ZFUwTUlHVXBGZE9hX0dEVmxiQQ?oc=5",
+     "source": "Today@Wayne"
+    },
+    {
+     "title": "Western Wyoming College encourages students to file the 2027-2028 FAFSA - WyomingNews.com",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQQUVaNlpWUk50UTFiaUVZWm9wVk8yaHN2aTh4c05za1dSbkk1MHlDRGROWWw4LTE2UWtJNEpqNnFsdXl5emE5bm82QkNHQzRzMzJiMGMzcEJxMDlkS0JILWROVnJFNnJYd2ZMSFBVTmhCSXFwU2NoMFBQUDdlc0t1SFlMT1FSN3VzVFo1UGJVX1E3TmozSUc1SmVfdHhUZzVCdHowSkRqSlVtOUhFNml0OG00Q0ZyT2JjZlpFUzhGcTJsNmRBSjB6U0MwbGhDNHNPT3BRcVRRZTBnaDV6SjNYQ0Q0N2JCZW1ESS1VYzZqbkFScUE?oc=5",
+     "source": "WyomingNews.com"
+    },
+    {
+     "title": "NCAN’s FAFSA Tracker’s 10th Year Launches as US Pushes to Extend FAFSA Record - NCAN",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLTNZYmVaM1lJVUM4WXMxdWc5Ni1mOXJFbVF3WDFHMlRXSGpQSHhaVWF2ZGNvY1Z4SFlKWWRFSGx4OVpwNFRob1FTM3l4dXNJTHVadjNoNFdKWlFQMmxfYTl2dTN2MWE2V21DSjRhVC1sZmxjaGtMUU5JNU1XZzk1MXNLTVdqVEFQVzcxOGs3M0VMcGVlLWFoUDItZVB6UDJXQVJKUElhVWlsdjh2akdfX2N2VTdST1Q4SWN3QzFyQ0hfbXRw?oc=5",
+     "source": "NCAN"
+    },
+    {
+     "title": "Explainer: What Columbia students need to know about the 2027-28 FAFSA - The Columbia Chronicle",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUpUQjZaZmNsVWstVzYxWHdPRXJpMUw4RzF0VU9UMG44NHFXb0FyLXRXMkZWRnVyQU9mblJ5QXZGZHpwSFJ4VHM5TElkLU5mX0lRWWRzWlR6Rzc5NHR3emp2ZDU4S0RTWGZvM0V3cHRQNlNfUFZfY1ZJRUplMGVMQ180dV9GbnVZc2Vrcm0yS0E3aDdEbUt5YXIwVmM5REJiTF9PVDRYWmdBclk?oc=5",
+     "source": "The Columbia Chronicle"
+    },
+    {
+     "title": "Students urged to fill out FAFSA applications - News/Talk/Sports 94.9 WSJM",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR2M3Vk5NMmJGTmZCem0wdDRacXY2VTd5cjJlUFo1SVlONEMtQ0dKSGxmMnJDNWdOSkoxZ01qVlVzRHRJeDNQLWZjaWVVN3NtME93V2lBb3VOSjVsdHZGV3ZrbEh2Rmt0dWVILUNZQ0pHcl8xQkpNOGw1RjFMcUNnZlEzZm4?oc=5",
+     "source": "News/Talk/Sports 94.9 WSJM"
+    }
+   ],
+   "official": false,
+   "score": 29.4,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "daylight saving time",
+   "traffic": 0,
+   "article_count_24h": 39,
+   "article_count_1h": 2,
+   "published": "2026-10-20T04:17:00+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Will California turn their clocks back this year? Here's what to know - The Desert Sun",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORTlacWtscWdVRV9HUGFQak9nY3JMQlZ0SGo3SFpMSDZEYlBKTVQ2RmJ1NEhXWl8tQ0JLRmh5V1dMVU5aa0ozSlNzdFlXS00tZnJiNTl3ekVZV0NxY1RNMWRlVDM2aFBjRkRzd2xkNDZuamdIUlBCR0M0RjJkVUREbVFiMEVMdUVBZEIyNVhPbVRKS1dUdld1MC0zWWdrdUloOHFGZzVjamNTNW01ZURDNGh3UVIyMmZPNkt3ZjZzbzBZbnJIZjF0ZDRtczdzRGdCNmF0RUZQcDR5RUpRSXJv?oc=5",
+     "source": "The Desert Sun"
+    },
+    {
+     "title": "Daylight saving time ends in 2 weeks; will Senate ever make it permanent? - Bergen Record",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ0pWNVlQVEt5Y0pUM1BkR2pJT3g0c1NjbGhsS1lLLXBMNFhIc3NBb1hldERQSmNXYzZEU2Q5MDhNNUVCVFhSRTBBenliaG9MSHZsSDdlNGxRNlBDV3RFeXRTTXRTaXdtandSdmVMMmJnZ0FYaGlwakpPSWdCaF9mWUotT2xpODAwRS1nb3pxQllmcW5jcExVV0xPY05zR05fSWpGaUUwVVVKQThlNlZrRWJEMkxfVVJ3?oc=5",
+     "source": "Bergen Record"
+    },
+    {
+     "title": "Experts: Hidden Costs of Daylight Saving Time | Newswise - Newswise",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdU9wcXBOZ3NZRWRCd3pLblRVUUxsWUxpbENqUEw5WGJXWm1YTUFobHR6RndmeVFaN3gwWUdTQktjai1IUTg0RWw5VktaNkwtTEMyd2ZtZHpWXzZoVzdDNHc4UG9wRmFsZUFSZmFZTGlxVGRZM0dGZkdSWnNFZXB2MERfYXHSAYQBQVVfeXFMTnVPcHFwTmdzWUVkQnd6S25UVVFMbFlMaWxDalBMOVhiV1ptWE1BaGx0ekZ3ZnlRWjd4MFlHU0JLY2otSFE4NEVsOVZLWjZMLUxDMndmbWR6Vl82aFc3QzR3OFBvcEZhbGVBUmZhWUxpcVRkWTNHRmZHUlpzRWVwdjBEX2Fx?oc=5",
+     "source": "Newswise"
+    },
+    {
+     "title": "MAP: Did your state try to stop changing the clocks this year? - The Hill",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV3IyRkRQZkthZ1RrVE5VbEhyYkZzb0w5dDBCNW5DRDl4Q0lRRmloS3g1bF9LMXlpaWJXdFppSXpiNDlMV051b3NHOElEcjFyb3JySUdXWlJ3NW1HeW1ZUWlRWnFYSzNOcFZCZDF1VmtmWnBuZEE2QXQtN3k5dF9UN2RKQ0JFWEgtTjA2RkVBa1R1MkxHMk5EVW9VZUZQaUNtcXJzck1qZ3JsMDlzaGMw0gG0AUFVX3lxTE1VenAyYWkzQ1loUE01QmZaUTF0ZXUwd2ZmcWRZeFEzYk9tdnZ2VmJrUXRXc3d3VTYxdW5XM3pmaHpjS3VzQ2dvckRVWDVZMmtycXk0alpfbkJtNXI3azBFZ0FEOExmNERKQ19uejlZRjlHU296QjZiaEFpTWhHRENRWUhNaUlfcnZObThOOUdLV19vSEt0Rk4yVG91VzBkbnVGWXRkNzR0dEtPTkRfT2FSYWczdw?oc=5",
+     "source": "The Hill"
+    },
+    {
+     "title": "Fall Back, Daylight Saving Time Ends Sunday November 1, 2026 - WataugaOnline.com",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGFTY0plY1JUMjlLMEdWRHNvLWpCcnlJYjF1TTJFS0ZoaE1Tc3pjXzlFdk9ETWRYaGIwYVY0Yk50MVp2cjU0MFZOY1hxRmtMbUJNSTFiUHN6YVhYVDJ6eG40cElMQ2xoYVFLUjc5enBVRU0wcG9kRVowbk93TWNZSkJpVkhDLXk3TmJQMTh3?oc=5",
+     "source": "WataugaOnline.com"
+    }
+   ],
+   "official": false,
+   "score": 29.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "stimulus check",
    "traffic": 0,
    "article_count_24h": 8,
@@ -1079,48 +1199,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "daylight saving time",
-   "traffic": 0,
-   "article_count_24h": 39,
-   "article_count_1h": 1,
-   "published": "2026-10-20T04:17:00+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "Will California turn their clocks back this year? Here's what to know - The Desert Sun",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORTlacWtscWdVRV9HUGFQak9nY3JMQlZ0SGo3SFpMSDZEYlBKTVQ2RmJ1NEhXWl8tQ0JLRmh5V1dMVU5aa0ozSlNzdFlXS00tZnJiNTl3ekVZV0NxY1RNMWRlVDM2aFBjRkRzd2xkNDZuamdIUlBCR0M0RjJkVUREbVFiMEVMdUVBZEIyNVhPbVRKS1dUdld1MC0zWWdrdUloOHFGZzVjamNTNW01ZURDNGh3UVIyMmZPNkt3ZjZzbzBZbnJIZjF0ZDRtczdzRGdCNmF0RUZQcDR5RUpRSXJv?oc=5",
-     "source": "The Desert Sun"
-    },
-    {
-     "title": "Daylight saving time ends in 2 weeks; will Senate ever make it permanent? - Bergen Record",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ0pWNVlQVEt5Y0pUM1BkR2pJT3g0c1NjbGhsS1lLLXBMNFhIc3NBb1hldERQSmNXYzZEU2Q5MDhNNUVCVFhSRTBBenliaG9MSHZsSDdlNGxRNlBDV3RFeXRTTXRTaXdtandSdmVMMmJnZ0FYaGlwakpPSWdCaF9mWUotT2xpODAwRS1nb3pxQllmcW5jcExVV0xPY05zR05fSWpGaUUwVVVKQThlNlZrRWJEMkxfVVJ3?oc=5",
-     "source": "Bergen Record"
-    },
-    {
-     "title": "Experts: Hidden Costs of Daylight Saving Time | Newswise - Newswise",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdU9wcXBOZ3NZRWRCd3pLblRVUUxsWUxpbENqUEw5WGJXWm1YTUFobHR6RndmeVFaN3gwWUdTQktjai1IUTg0RWw5VktaNkwtTEMyd2ZtZHpWXzZoVzdDNHc4UG9wRmFsZUFSZmFZTGlxVGRZM0dGZkdSWnNFZXB2MERfYXHSAYQBQVVfeXFMTnVPcHFwTmdzWUVkQnd6S25UVVFMbFlMaWxDalBMOVhiV1ptWE1BaGx0ekZ3ZnlRWjd4MFlHU0JLY2otSFE4NEVsOVZLWjZMLUxDMndmbWR6Vl82aFc3QzR3OFBvcEZhbGVBUmZhWUxpcVRkWTNHRmZHUlpzRWVwdjBEX2Fx?oc=5",
-     "source": "Newswise"
-    },
-    {
-     "title": "MAP: Did your state try to stop changing the clocks this year? - The Hill",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV3IyRkRQZkthZ1RrVE5VbEhyYkZzb0w5dDBCNW5DRDl4Q0lRRmloS3g1bF9LMXlpaWJXdFppSXpiNDlMV051b3NHOElEcjFyb3JySUdXWlJ3NW1HeW1ZUWlRWnFYSzNOcFZCZDF1VmtmWnBuZEE2QXQtN3k5dF9UN2RKQ0JFWEgtTjA2RkVBa1R1MkxHMk5EVW9VZUZQaUNtcXJzck1qZ3JsMDlzaGMw0gG0AUFVX3lxTE1VenAyYWkzQ1loUE01QmZaUTF0ZXUwd2ZmcWRZeFEzYk9tdnZ2VmJrUXRXc3d3VTYxdW5XM3pmaHpjS3VzQ2dvckRVWDVZMmtycXk0alpfbkJtNXI3azBFZ0FEOExmNERKQ19uejlZRjlHU296QjZiaEFpTWhHRENRWUhNaUlfcnZObThOOUdLV19vSEt0Rk4yVG91VzBkbnVGWXRkNzR0dEtPTkRfT2FSYWczdw?oc=5",
-     "source": "The Hill"
-    },
-    {
-     "title": "Fall Back, Daylight Saving Time Ends Sunday November 1, 2026 - WataugaOnline.com",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGFTY0plY1JUMjlLMEdWRHNvLWpCcnlJYjF1TTJFS0ZoaE1Tc3pjXzlFdk9ETWRYaGIwYVY0Yk50MVp2cjU0MFZOY1hxRmtMbUJNSTFiUHN6YVhYVDJ6eG40cElMQ2xoYVFLUjc5enBVRU0wcG9kRVowbk93TWNZSkJpVkhDLXk3TmJQMTh3?oc=5",
-     "source": "WataugaOnline.com"
-    }
-   ],
-   "official": false,
-   "score": 26.2,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "federal holiday",
    "traffic": 0,
-   "article_count_24h": 9,
+   "article_count_24h": 10,
    "article_count_1h": 1,
    "published": "2026-10-20T05:01:00+09:00",
    "category": "Holidays",
@@ -1152,14 +1233,14 @@
     }
    ],
    "official": false,
-   "score": 23.9,
+   "score": 26.2,
    "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "ACA open enrollment",
    "traffic": 0,
-   "article_count_24h": 5,
+   "article_count_24h": 6,
    "article_count_1h": 0,
    "published": "2026-10-19T22:05:00+09:00",
    "category": "Health Insurance",
@@ -1191,7 +1272,7 @@
     }
    ],
    "official": false,
-   "score": 15.7,
+   "score": 18.9,
    "already_covered": false
   },
   {
@@ -1199,7 +1280,7 @@
    "keyword": "vikings standings",
    "traffic": 2000,
    "published": "2026-10-20T12:30:00+09:00",
-   "category": "기타",
+   "category": "Benefits",
    "news": [
     {
      "title": "Vikings will be active ahead of the NFL trade deadline. What moves are realistic?",
@@ -1207,36 +1288,207 @@
      "source": "NFL.com"
     },
     {
-     "title": "Minnesota Vikings Receive Surprise Trade Rumor Before NFL Trade Deadline",
-     "url": "https://sports.yahoo.com/articles/minnesota-vikings-receive-surprise-trade-020138016.html",
-     "source": "Yahoo Sports"
-    },
-    {
      "title": "Lewis: Vikings could target RB in trade",
      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-19/lewis-vikings-could-target-rb-in-trade",
      "source": "NBC Sports"
+    },
+    {
+     "title": "Vikings poised to be aggressive at trade deadline as Colts face potential fire sale",
+     "url": "https://bringmethesports.com/vikings-poised-to-be-aggressive-at-trade-deadline-as-colts-face-potential-fire-sale",
+     "source": "Bring Me the Sports"
+    }
+   ],
+   "official": false,
+   "score": 16.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "xavier atkins",
+   "traffic": 1000,
+   "published": "2026-10-20T12:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Auburn LB Xavier Atkins' status still unsettled entering LSU game",
+     "url": "https://247sports.com/college/auburn/article/auburn-tigers-football-xavier-atkins-suspension-291518584/",
+     "source": "247Sports"
+    },
+    {
+     "title": "Auburn All-American linebacker Xavier Atkins dismissed from the program",
+     "url": "https://www.al.com/auburnfootball/2026/10/auburn-all-american-linebacker-xavier-atkins-dismissed-from-the-program.html",
+     "source": "AL.com"
+    },
+    {
+     "title": "Auburn HC Alex Golesh has no update on star linebacker who was suspended for Georgia game",
+     "url": "https://sports.yahoo.com/articles/auburn-hc-alex-golesh-no-013010646.html",
+     "source": "Yahoo Sports"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 500→1,000",
+   "spike_bonus": 20,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://sports.yahoo.com/articles/auburn-hc-alex-golesh-no-013010646.html",
+     "title": "Auburn HC Alex Golesh has no update on star linebacker who was suspended for Georgia game",
+     "outlet": "Yahoo Sports"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "chris pratt",
+   "traffic": 500,
+   "published": "2026-10-20T12:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Pope Leo XIV, Chris Pratt come together for new documentary about the tomb of St. Peter",
+     "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-chris-pratt-come-together-for-new-documentary-about-the-tomb-of-st-peter",
+     "source": "EWTN News"
+    },
+    {
+     "title": "'Pétros ení': New film on St Peter’s tomb features Pope Leo",
+     "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/petros-eni-new-film-on-st-peter-with-an-appearance-by-pope.html",
+     "source": "Vatican News"
+    },
+    {
+     "title": "Chris Pratt, Pope Leo Explore St. Peter's Tomb in Vatican Doc Trailer",
+     "url": "https://variety.com/2026/film/global/chris-pratt-pope-leo-st-peters-tomb-vatican-doc-trailer-1236913844/",
+     "source": "Variety"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 15.0,
+   "score": 10.5,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.nfl.com/news/vikings-will-be-active-ahead-of-the-nfl-trade-deadline-what-moves-are-realistic",
-     "title": "Vikings will be active ahead of the NFL trade deadline. What moves are realistic?",
-     "outlet": "NFL.com"
+     "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-chris-pratt-come-together-for-new-documentary-about-the-tomb-of-st-peter",
+     "title": "Pope Leo XIV, Chris Pratt come together for new documentary about the tomb of St. Peter",
+     "outlet": "EWTN News"
     },
     {
-     "url": "https://sports.yahoo.com/articles/minnesota-vikings-receive-surprise-trade-020138016.html",
-     "title": "Minnesota Vikings Receive Surprise Trade Rumor Before NFL Trade Deadline",
+     "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/petros-eni-new-film-on-st-peter-with-an-appearance-by-pope.html",
+     "title": "'Pétros ení': New film on St Peter’s tomb features Pope Leo",
+     "outlet": "Vatican News"
+    },
+    {
+     "url": "https://variety.com/2026/film/global/chris-pratt-pope-leo-st-peters-tomb-vatican-doc-trailer-1236913844/",
+     "title": "Chris Pratt, Pope Leo Explore St. Peter's Tomb in Vatican Doc Trailer",
+     "outlet": "Variety"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "cade cunningham",
+   "traffic": 200,
+   "published": "2026-10-20T12:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Detroit Pistons Star Cade Cunningham Makes Rare Comment About 7-Year-Old Daughter Riley",
+     "url": "https://sports.yahoo.com/articles/detroit-pistons-star-cade-cunningham-204520956.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Are the Detroit Pistons being overlooked? ‘The only thing that matters to us is what we do’",
+     "url": "https://www.nytimes.com/athletic/7688060/2026/10/19/pistons-overlooked-nba-season-opener/",
+     "source": "The New York Times"
+    },
+    {
+     "title": "Pistons' Cade Cunningham reflects on the team's turnaround and the next chapter in Detroit",
+     "url": "https://www.wxyz.com/sports/pistons-cade-cunningham-reflects-on-the-teams-turnaround-and-the-next-chapter-in-detroit",
+     "source": "WXYZ 7 News Detroit"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://sports.yahoo.com/articles/detroit-pistons-star-cade-cunningham-204520956.html",
+     "title": "Detroit Pistons Star Cade Cunningham Makes Rare Comment About 7-Year-Old Daughter Riley",
      "outlet": "Yahoo Sports"
     },
     {
-     "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-19/lewis-vikings-could-target-rb-in-trade",
-     "title": "Lewis: Vikings could target RB in trade",
-     "outlet": "NBC Sports"
+     "url": "https://www.wxyz.com/sports/pistons-cade-cunningham-reflects-on-the-teams-turnaround-and-the-next-chapter-in-detroit",
+     "title": "Pistons' Cade Cunningham reflects on the team's turnaround and the next chapter in Detroit",
+     "outlet": "WXYZ 7 News Detroit"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "ketel marte trade rumors diamondbacks",
+   "traffic": 200,
+   "published": "2026-10-20T12:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Trade Candidate: Ketel Marte",
+     "url": "https://www.mlbtraderumors.com/2026/10/trade-candidate-ketel-marte.html",
+     "source": "MLB Trade Rumors"
+    },
+    {
+     "title": "Phillies' Former Top Trade Target is No Longer a Viable Option",
+     "url": "https://sports.yahoo.com/articles/phillies-former-top-trade-target-110043579.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Video - Phillies' Former Top Trade Target is No Longer a Viable Option",
+     "url": "https://roundtable.io/sports/mlb/phillies/video/phillies-former-top-trade-target-is-no-longer-a-viable-option",
+     "source": "roundtable.io"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.mlbtraderumors.com/2026/10/trade-candidate-ketel-marte.html",
+     "title": "Trade Candidate: Ketel Marte",
+     "outlet": "MLB Trade Rumors"
+    },
+    {
+     "url": "https://sports.yahoo.com/articles/phillies-former-top-trade-target-110043579.html",
+     "title": "Phillies' Former Top Trade Target is No Longer a Viable Option",
+     "outlet": "Yahoo Sports"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "emerson jones",
+   "traffic": 200,
+   "published": "2026-10-20T12:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Ann Li vs Emerson Jones Prediction & Picks - Japan Women's Open",
+     "url": "https://www.sportytrader.com/us/picks/ann-li-emerson-jones-380471/",
+     "source": "SportyTrader"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.sportytrader.com/us/picks/ann-li-emerson-jones-380471/",
+     "title": "Ann Li vs Emerson Jones Prediction & Picks - Japan Women's Open",
+     "outlet": "SportyTrader"
     }
    ]
   },
@@ -1264,150 +1516,8 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.the-independent.com/tv/sport/alexander-bublik-shanghai-masters-brandon-nakashima-angry-video-b3065713.html",
-     "title": "Tennis star Alexander Bublik destroys racket before smashing drinks container in latest on-court outburst",
-     "outlet": "The Independent"
-    },
-    {
-     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/mariano-navone-vs-juan-manuel-cerundolo-set-2-winner-oct-20-2026/",
-     "title": "October 20, 2026: Mariano Navone vs Juan Manuel Cerundolo: Set 2 Winner Tennis Prediction Market",
-     "outlet": "Robinhood"
-    },
-    {
-     "url": "https://sports.yahoo.com/articles/andy-roddick-unfiltered-frances-tiafoe-200423404.html",
-     "title": "Andy Roddick’s Unfiltered Take on Frances Tiafoe and Alexander Bublik’s Angry Meltdowns",
-     "outlet": "Yahoo Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "alcs mvp",
-   "traffic": 1000,
-   "published": "2026-10-20T12:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Who is this year's Mr. October? Tracking the playoff MVP for 2026",
-     "url": "https://www.espn.com/mlb/story/_/id/50110772/2026-mlb-playoffs-mvp-tracker-wpa-leaderboard-win-probability-added-mr-october",
-     "source": "ESPN"
-    },
-    {
-     "title": "Baseball in October: Crowds, cool temps and Tom Hamilton make it all perfect",
-     "url": "https://chroniclet.com/news/477201/baseball-in-october-crowds-cool-temps-and-tom-hamilton-make-it-all-perfect/",
-     "source": "Chronicle Telegram"
-    },
-    {
-     "title": "Jackson Chourio Favored to Win World Series MVP for Brewers",
-     "url": "https://sports.yahoo.com/articles/jackson-chourio-favored-win-world-010809298.html",
-     "source": "Yahoo Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://chroniclet.com/news/477201/baseball-in-october-crowds-cool-temps-and-tom-hamilton-make-it-all-perfect/",
-     "title": "Baseball in October: Crowds, cool temps and Tom Hamilton make it all perfect",
-     "outlet": "Chronicle Telegram"
-    },
-    {
-     "url": "https://sports.yahoo.com/articles/jackson-chourio-favored-win-world-010809298.html",
-     "title": "Jackson Chourio Favored to Win World Series MVP for Brewers",
-     "outlet": "Yahoo Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "xavier atkins",
-   "traffic": 500,
-   "published": "2026-10-20T12:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Auburn LB Xavier Atkins' status still unsettled entering LSU game",
-     "url": "https://247sports.com/college/auburn/article/auburn-tigers-football-xavier-atkins-suspension-291518584/",
-     "source": "247Sports"
-    },
-    {
-     "title": "Will Xavier Atkins play against LSU? Here’s what Alex Golesh said",
-     "url": "https://www.al.com/auburnfootball/2026/10/will-xavier-atkins-play-against-lsu-heres-what-alex-golesh-said.html",
-     "source": "AL.com"
-    },
-    {
-     "title": "Auburn HC Alex Golesh has no update on star linebacker who was suspended for Georgia game",
-     "url": "https://sports.yahoo.com/articles/auburn-hc-alex-golesh-no-013010646.html",
-     "source": "Yahoo Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://247sports.com/college/auburn/article/auburn-tigers-football-xavier-atkins-suspension-291518584/",
-     "title": "Auburn LB Xavier Atkins' status still unsettled entering LSU game",
-     "outlet": "247Sports"
-    },
-    {
-     "url": "https://sports.yahoo.com/articles/auburn-hc-alex-golesh-no-013010646.html",
-     "title": "Auburn HC Alex Golesh has no update on star linebacker who was suspended for Georgia game",
-     "outlet": "Yahoo Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "keke palmer",
-   "traffic": 500,
-   "published": "2026-10-20T12:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Keke Palmer On Mystery Man Teasing His Bedroom Skills: 'I'd Like to See It'",
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/keke-palmer-mystery-man-teasing-214601252.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "Keke Palmer On Mystery Man Teasing His Bedroom Skills: 'I'd Like to See It'",
-     "url": "https://www.complex.com/pop-culture/a/jaelaniturnerwilliams/keke-palmer-mystery-man-bedroom-skills",
-     "source": "Complex"
-    },
-    {
-     "title": "Keke Palmer 101: The Multihyphenate's Guide to a Creative Career",
-     "url": "https://www.backstage.com/magazine/article/keke-palmer-ucla-interview-photos-80677/",
-     "source": "Backstage"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/keke-palmer-mystery-man-teasing-214601252.html",
-     "title": "Keke Palmer On Mystery Man Teasing His Bedroom Skills: 'I'd Like to See It'",
-     "outlet": "Yahoo"
-    },
-    {
-     "url": "https://www.complex.com/pop-culture/a/jaelaniturnerwilliams/keke-palmer-mystery-man-bedroom-skills",
-     "title": "Keke Palmer On Mystery Man Teasing His Bedroom Skills: 'I'd Like to See It'",
-     "outlet": "Complex"
-    }
-   ]
+   "score": 3.0,
+   "already_covered": false
   },
   {
    "source": "google_trends",
@@ -1433,166 +1543,7 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nfl.com/news/nfl-power-rankings-week-6-2026-nfl-season",
-     "title": "NFL Power Rankings, Week 6: Vikings, Patriots enter top 10; Eagles, Saints in free fall",
-     "outlet": "NFL.com"
-    },
-    {
-     "url": "https://www.foxsports.com/stories/nfl/monday-morning-nfl-top-10-rankings-packers-patriots-make-big-moves",
-     "title": "Monday Morning NFL Top 10 Rankings: Fantastic QB Play Elevates Bears, Packers, Patriots",
-     "outlet": "FOX Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "world series odds",
-   "traffic": 200,
-   "published": "2026-10-20T12:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Two MLB scouts weigh in on the Brewers as they head into the World Series",
-     "url": "https://www.jsonline.com/story/sports/mlb/brewers/2026/10/19/two-mlb-scouts-assess-the-brewers-as-they-head-into-the-world-series/92321726007/",
-     "source": "Milwaukee Journal Sentinel"
-    },
-    {
-     "title": "Who should Brewers want to face in the World Series?",
-     "url": "https://www.mlb.com/news/brewers-to-face-rays-or-guardians-in-2026-world-series",
-     "source": "MLB.com"
-    },
-    {
-     "title": "Looking Ahead to Potential 2026 World Series Matchups",
-     "url": "https://metsmerizedonline.com/looking-ahead-to-potential-2026-world-series-matchups/",
-     "source": "Metsmerized"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.mlb.com/news/brewers-to-face-rays-or-guardians-in-2026-world-series",
-     "title": "Who should Brewers want to face in the World Series?",
-     "outlet": "MLB.com"
-    },
-    {
-     "url": "https://metsmerizedonline.com/looking-ahead-to-potential-2026-world-series-matchups/",
-     "title": "Looking Ahead to Potential 2026 World Series Matchups",
-     "outlet": "Metsmerized"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "magda linette",
-   "traffic": 200,
-   "published": "2026-10-20T12:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Magda Linette i Katarzyna Kawa zagrają we wtorek. Oto godziny meczów",
-     "url": "https://sportowefakty.wp.pl/tenis/1280051/magda-linette-i-katarzyna-kawa-zagraja-we-wtorek-oto-godziny-meczow",
-     "source": "SportoweFakty"
-    },
-    {
-     "title": "Tenis: Turniej WTA w Osace - mecz 1. rundy gry pojedynczej: Claire Liu - Magda Linette",
-     "url": "https://www.teleman.pl/tv/Tenis-Turniej-WTA-w-Osace-2688801",
-     "source": "Teleman"
-    },
-    {
-     "title": "Zheng na czele listy zgłoszeń turnieju WTA w Osace 2026",
-     "url": "https://www.tenis.net.pl/zheng-na-czele-listy-zgloszen-turnieju-wta-w-osace-2026/",
-     "source": "Tenis NET"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sportowefakty.wp.pl/tenis/1280051/magda-linette-i-katarzyna-kawa-zagraja-we-wtorek-oto-godziny-meczow",
-     "title": "Magda Linette i Katarzyna Kawa zagrają we wtorek. Oto godziny meczów",
-     "outlet": "SportoweFakty"
-    },
-    {
-     "url": "https://www.teleman.pl/tv/Tenis-Turniej-WTA-w-Osace-2688801",
-     "title": "Tenis: Turniej WTA w Osace - mecz 1. rundy gry pojedynczej: Claire Liu - Magda Linette",
-     "outlet": "Teleman"
-    },
-    {
-     "url": "https://www.tenis.net.pl/zheng-na-czele-listy-zgloszen-turnieju-wta-w-osace-2026/",
-     "title": "Zheng na czele listy zgłoszeń turnieju WTA w Osace 2026",
-     "outlet": "Tenis NET"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "upton stout",
-   "traffic": 200,
-   "published": "2026-10-20T12:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "49ers' Upton Stout: Ready for MNF",
-     "url": "https://www.cbssports.com/fantasy/football/news/49ers-upton-stout-ready-for-mnf/",
-     "source": "CBS Sports"
-    },
-    {
-     "title": "Upton Stout Injury: Questionable for MNF",
-     "url": "https://www.rotowire.com/football/headlines/upton-stout-injury-questionable-for-mnf-642954",
-     "source": "RotoWire"
-    },
-    {
-     "title": "49ers' Upton Stout: Questionable for MNF",
-     "url": "https://www.cbssports.com/fantasy/football/news/49ers-upton-stout-questionable-for-mnf/",
-     "source": "CBS Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "commanders roster",
-   "traffic": 200,
-   "published": "2026-10-20T12:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Commanders activate Amos, Magee, McNichols; place Croskey-Merritt, Jean-Baptiste to IR list",
-     "url": "https://www.commanders.com/news/commanders-activate-amos-magee-mcnichols-croskey-merritt-jean-baptiste",
-     "source": "Washington Commanders"
-    },
-    {
-     "title": "Commanders' Trey Amos: Returning to action Monday",
-     "url": "https://www.cbssports.com/fantasy/football/news/commanders-trey-amos-returning-to-action-monday/",
-     "source": "CBS Sports"
-    },
-    {
-     "title": "Commanders make several roster moves ahead of Monday night game vs 49ers",
-     "url": "https://sports.yahoo.com/articles/commanders-several-roster-moves-ahead-210222334.html",
-     "source": "Yahoo Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
+   "score": 0.6,
    "already_covered": false
   }
  ]
