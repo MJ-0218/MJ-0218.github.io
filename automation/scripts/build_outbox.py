@@ -22,7 +22,7 @@ import markdown
 import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
-from export_paste import STYLE, fm_sources, fm_value, inline_styles  # noqa: E402
+from export_paste import STYLE, fm_sources, fm_value, inline_styles, readable_paragraphs  # noqa: E402
 from similarity_check import compare  # noqa: E402
 from style_check import check as style_check, split_front_matter  # noqa: E402
 from verify_claims import verify  # noqa: E402
@@ -43,6 +43,8 @@ def render(md_path, site):
     fm, body = split_front_matter(md_path.read_text(encoding="utf-8"))
     body = re.sub(r"\{%.*?%\}|\{\{.*?\}\}", "", body, flags=re.S)
     body = re.sub(r'<div class="callout"[^>]*>', '<div style="border:2px solid #222;padding:14px 16px;margin:16px 0;">', body)
+    if fm_value(fm, "lang") != "en":
+        body = readable_paragraphs(body)  # 문장마다 줄바꿈, 2문장씩 문단
     h = inline_styles(markdown.markdown(body, extensions=["tables", "sane_lists", "md_in_html"]))
     tool = fm_value(fm, "related_tool")
     if tool:

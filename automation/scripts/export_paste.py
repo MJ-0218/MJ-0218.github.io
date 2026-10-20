@@ -26,7 +26,7 @@ from style_check import split_front_matter  # noqa: E402
 STYLE = {
     "h2": "font-size:20px;font-weight:700;margin:32px 0 12px;padding-top:12px;border-top:1px solid #222;",
     "h3": "font-size:17px;font-weight:700;margin:24px 0 8px;",
-    "p": "font-size:16px;line-height:1.8;margin:0 0 14px;",
+    "p": "font-size:16px;line-height:1.9;margin:0 0 22px;",
     "li": "font-size:16px;line-height:1.8;",
     "table": "border-collapse:collapse;width:100%;margin:16px 0;font-size:15px;",
     "th": "border-bottom:2px solid #222;padding:8px;text-align:left;",
@@ -58,6 +58,31 @@ MAP_BUTTON = ("display:inline-block;padding:10px 16px;background:#7cc8ff;color:#
 MAP_HOSTS = r"(?:map\.naver\.com|map\.kakao\.com|www\.google\.com/maps)"
 
 
+# 문장 끝: 한글 뒤 . ! ? ~ (이모지가 붙을 수 있음), 이모지로 끝남, ㅎㅎ·ㅋㅋ
+_EMOJI = "\U0001F300-\U0001FAFF☀-➿️"
+_SENT_END = re.compile(rf"(?<=[가-힣\)][.!?~])\s+(?![{_EMOJI}])|(?<=[가-힣\)][.!?~][{_EMOJI}])\s+|(?<=[가-힣][{_EMOJI}])\s+"
+                       rf"|(?<=[.!?~][{_EMOJI}][{_EMOJI}])\s+|(?<=[ㅎㅋ]{{2}})\s+(?![{_EMOJI}])")
+_NOT_PARA = re.compile(r"^\s*(#|\||[-*+] |\d+\. |>|<|!\[|\[📍|```)")
+
+
+def readable_paragraphs(body_md, per_para=2):
+    """국내 글 가독성: 평문 문단을 문장마다 줄바꿈하고, 2문장씩 문단을 나눈다 (표·목록·제목·이미지·지도 버튼은 그대로)."""
+    out = []
+    for block in re.split(r"\n\s*\n", body_md.strip()):
+        if _NOT_PARA.match(block) or "\n" in block.strip():
+            out.append(block)
+            continue
+        sents = [s for s in _SENT_END.split(block.strip()) if s]
+        if len(sents) <= 1:
+            out.append(block)
+            continue
+        groups = [sents[i:i + per_para] for i in range(0, len(sents), per_para)]
+        if len(groups) > 1 and len(groups[-1]) == 1 and len(groups[-2]) == per_para and len(sents) == 3:
+            groups = [sents]  # 3문장은 한 문단에 줄바꿈만
+        out.extend("  \n".join(g) for g in groups)
+    return "\n\n".join(out) + "\n"
+
+
 def inline_styles(body_html):
     for tag, css in STYLE.items():
         body_html = re.sub(rf"<{tag}(\s[^>]*)?>", lambda m: f'<{tag}{m.group(1) or ""} style="{css}">', body_html)
@@ -83,6 +108,8 @@ def main():
 
     body = re.sub(r"\{%.*?%\}|\{\{.*?\}\}", "", body, flags=re.S)
     body = re.sub(r'<div class="callout"[^>]*>', '<div style="border:2px solid #222;padding:14px 16px;margin:16px 0;">', body)
+    if fm_value(fm, "lang") != "en":
+        body = readable_paragraphs(body)
     body_html = markdown.markdown(body, extensions=["tables", "sane_lists", "md_in_html"])
     body_html = inline_styles(body_html)
 
