@@ -1,9 +1,8 @@
-# 우리 쇼피 스토어 상품 목록 받기 (수동 실행 + 매일 1번) → automation/blogs/shop/products/<key>.yml
+# 우리 쇼피 스토어 상품 목록 받기 (수동 실행) → automation/blogs/shop/products/<key>.yml
+# 2026-10-21 첫 실행: 쇼피가 Actions 의 자동 요청을 403 으로 막음 → 셀러센터 엑셀을 --from-xlsx 로 넣는 것이 기본
 name: shopee-products
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "17 21 * * *"
 permissions: { contents: write }
 concurrency: { group: shopee-products, cancel-in-progress: false }
 jobs:

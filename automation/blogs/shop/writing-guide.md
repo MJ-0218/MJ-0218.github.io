@@ -12,7 +12,7 @@ Seven blogs, one brand, one per country:
 | th | Humid Hours TH | ภาษาไทย | our Shopee TH store + Lazada |
 | tw | Humid Hours TW | 繁體中文 (Taiwan usage) | our Shopee TW store |
 
-`CLAUDE.md` overrides this file. Store URLs are in `automation/blogs/shop/products/stores.yml` (tw, th, sg, vn, my active; ph and mx on hold; id none), product lists in `products/<key>.yml` (fetched daily by `shopee-products.yml`), affiliate IDs in `config.yml affiliates:`.
+`CLAUDE.md` overrides this file. Store URLs are in `automation/blogs/shop/products/stores.yml` (tw, th, sg, vn, my active; ph and mx on hold; id none), product lists in `products/<key>.yml` (imported from Seller Centre exports with `shopee_products.py --from-xlsx`), affiliate IDs in `config.yml affiliates:`.
 Every post goes through `automation/blogs/review.md` (two review passes + `blog_audit.py`). **Do not put any store or affiliate link that isn't in those files.**
 
 ## 0. Concept — why this blog exists

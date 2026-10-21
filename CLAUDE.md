@@ -26,7 +26,7 @@
 - **쇼피 국가별 Blogger**(Humid Hours PH·SG·MY·VN·ID·TH·TW, 나라마다 따로): 블로그당 하루 3~4편. 뷰티·생활 정보·K-컬처·추천·세일을 자연스럽게 섞고, **우리 스토어 상품 글은 블로그당 하루 1편 이하**(스토어만 계속 소개하지 않기 — 사용자 요청). 자사몰 느낌이 아닌 독립 큐레이션 매체로 운영하되, 스토어 상품·제휴 링크라는 관계는 추천 바로 앞에 짧게 밝힌다(FTC·싱가포르 ASAS·아마존 약관). 써 보지 않은 제품 후기·효능 주장 금지(사양·성분·선택 기준으로). 제휴 링크는 rel="sponsored". 가이드 `automation/blogs/shop/writing-guide.md`.
 - 인도·쇼피 글 말투는 국내처럼 부드럽고 친근하게, 나라별 인기 블로거 말투로(`automation/blogs/review.md` 표).
 - **모든 인도·쇼피 글은 재검토 2회(말투 / 독자·사실·정책) + `blog_audit.py`** 를 통과해야 커밋되고, Actions 도 발행 전에 같은 검사를 다시 한다(링크 허용 목록·효능 표현·미확정 표시·유사 글·하루 편수·스토어 비율).
-- 우리 쇼피 스토어: 대만·태국·싱가포르·베트남·말레이시아(`automation/blogs/shop/products/stores.yml`), 필리핀·멕시코 보류, 인도네시아 없음. 상품 목록은 `shopee-products.yml` 이 매일 받는다.
+- 우리 쇼피 스토어: 대만·태국·싱가포르·베트남·말레이시아(`automation/blogs/shop/products/stores.yml`), 필리핀·멕시코 보류, 인도네시아 없음. 상품 목록은 셀러센터 엑셀을 `shopee_products.py --from-xlsx <키> <파일>` 로 넣는다(쇼피가 자동 수집을 403 으로 막음).
 - 블로그 목록·나라 시간대·하루 편수는 `automation/config.yml blogs:`, 블로그 ID 는 GitHub Secrets `BLOGGER_BLOG_ID_IN/PH/SG/MY/VN/ID/TH/TW`(OAuth 3개는 공용). 모두 Actions 가 자동 예약 발행.
 - 국내는 네이버판·티스토리판을 서로 다른 문장·구성으로 쓴다(유사도 0.35 이하).
 - 방송 맛집·급상승 이슈·리콜처럼 그때그때 올려야 하는 글은 예약 말고 **즉시 발행**(대기함 맨 위, `publish: now`).

@@ -164,7 +164,7 @@ for m in in ph sg my vn id th tw; do git show origin/radar-data:trends/$m/latest
 
 ## B2. 쇼피 국가별 (Humid Hours PH·SG·MY·VN·ID·TH·TW) — `automation/blogs/shop/writing-guide.md`
 - 블로그마다 하루 3~4편. 뷰티 노하우 · 생활 정보 · K-컬처 · 추천(Picks) · 세일(Deals)을 섞는다. 같은 종류 연달아 금지.
-- **우리 스토어 상품 글은 블로그당 하루 1편 이하**, 추천 목록에서도 절반 이하. 스토어 주소는 `products/stores.yml`(대만·태국·싱가포르·베트남·말레이시아 / 필리핀·멕시코 보류 / 인도네시아 없음), 상품은 `products/<key>.yml`(매일 Actions 가 받음) 에 있는 것만. 상품 목록이 비어 있으면 스토어 글은 쓰지 않는다. 제휴 링크는 `config.yml affiliates` 가 채워진 것만.
+- **우리 스토어 상품 글은 블로그당 하루 1편 이하**, 추천 목록에서도 절반 이하. 스토어 주소는 `products/stores.yml`(대만·태국·싱가포르·베트남·말레이시아 / 필리핀·멕시코 보류 / 인도네시아 없음), 상품은 `products/<key>.yml`(셀러센터 엑셀에서 가져옴) 에 있는 것만. 상품 목록이 비어 있으면 스토어 글은 쓰지 않는다. 제휴 링크는 `config.yml affiliates` 가 채워진 것만.
 - 쇼핑·제휴 링크가 있으면 추천 바로 앞에 관계 공개 한 줄(가이드 2절 문구). 써 보지 않은 제품 후기·효능 주장 금지.
 - 언어: PH·SG·MY 영어, VN 베트남어, ID 인도네시아어, TH 태국어, TW 번체 중국어. 나라끼리 번역·복사 금지, 영어 블로그끼리 `similarity_check.py` 0.35 이하.
 - 초안 `automation/blogs/<key>/drafts/<key>-<slug>.md` (front matter `lang`, `blog: <key>`), claims `automation/claims/<key>-<slug>.yml`.
