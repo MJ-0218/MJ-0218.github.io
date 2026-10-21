@@ -17,6 +17,7 @@ import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import markdown
 import yaml
@@ -43,7 +44,8 @@ def render(md_path, site):
     fm, body = split_front_matter(md_path.read_text(encoding="utf-8"))
     body = re.sub(r"\{%.*?%\}|\{\{.*?\}\}", "", body, flags=re.S)
     body = re.sub(r'<div class="callout"[^>]*>', '<div style="border:2px solid #222;padding:14px 16px;margin:16px 0;">', body)
-    if fm_value(fm, "lang") != "en":
+    lang = fm_value(fm, "lang") or "ko"
+    if lang == "ko":
         body = readable_paragraphs(body)  # 문장마다 줄바꿈, 2문장씩 문단
     h = inline_styles(markdown.markdown(body, extensions=["tables", "sane_lists", "md_in_html"]))
     tool = fm_value(fm, "related_tool")
@@ -56,7 +58,7 @@ def render(md_path, site):
     asof = fm_value(fm, "info_as_of")
     if asof:
         h += f'<p style="{STYLE["p"]}color:#777;font-size:14px;">정보 기준일: {html.escape(asof)}</p>'
-    en = fm_value(fm, "lang") == "en"
+    en = lang != "ko"  # 영어·베트남어·태국어 … — Blogger 글 (라벨, 영문 꼬리말)
     if asof and en:
         h = h.replace(f"정보 기준일: {html.escape(asof)}", f"Last checked: {html.escape(asof)}")
     if src and en:
@@ -75,6 +77,9 @@ def render(md_path, site):
             preview = preview.replace(f'src="{m.group(2)}"', f'src="#img{len(images)}"', 1)
             images.append({"alt": alt, "data": data})
     h = re.sub(r'src="(/assets/[^"]+)"', lambda m: f'src="{site}{m.group(1)}"', h)
+    # 쇼핑·제휴 링크는 rel="sponsored" (구글 링크 표시 지침), 새 창
+    h = re.sub(r'<a href="(https?://(?:[\w-]+\.)*(?:shopee\.[\w.]+|shp\.ee|amazon\.[\w.]+|amzn\.to|lazada\.[\w.]+|invol\.co)[^"]*)"',
+               r'<a href="\1" rel="sponsored nofollow noopener" target="_blank"', h)
     h = re.sub(r"<img ", '<img style="max-width:100%;height:auto;display:block;margin:16px auto;" ', h)
     preview = re.sub(r"<img ", '<img style="max-width:100%;height:auto;display:block;margin:16px auto;" ', preview)
     return {"title": fm_value(fm, "title"), "html": h, "preview": preview, "images": images, "tags": tags, "fm": fm,
@@ -156,7 +161,6 @@ def main():
     # ── 해외(미국 · Google Blogger) ── 영어 글 한 판, 추천 발행 시각은 미국 동부 시간
     us_cards = []
     upub = cfg.get("us_publish", {})
-    from zoneinfo import ZoneInfo
     et = ZoneInfo("America/New_York")  # 서머타임 반영 (Blogger 예약 시각과 같은 기준)
     uh = upub.get("hours", [6, 22])
     uslot = (datetime.now(et) + timedelta(hours=1)).replace(minute=0, second=0, microsecond=0)
@@ -198,13 +202,49 @@ def main():
         if not urgent and not bs:
             uslot += timedelta(minutes=int(upub.get("spacing_minutes", 120)))
 
+    # ── 인도·쇼피 국가별 Blogger — 전부 자동 예약 발행이라 복사용 본문 없이 상태만 (대기함 16MB 한도)
+    from blogger_publish import blogs_config
+    names = json.loads((ROOT / "automation" / "state" / "blogs.json").read_text(encoding="utf-8")) \
+        if (ROOT / "automation" / "state" / "blogs.json").exists() else {}
+    extra = {"in": [], "shop": []}
+    for key, bc in blogs_config(cfg).items():
+        if key == "us":
+            continue
+        bst_p = ROOT / bc["state"]
+        bst = json.loads(bst_p.read_text(encoding="utf-8")) if bst_p.exists() else {}
+        btz = ZoneInfo(bc.get("tz", "UTC"))
+        for md in sorted((ROOT / bc["drafts"]).glob("*.md")):
+            fm, _ = split_front_matter(md.read_text(encoding="utf-8"))
+            asof = fm_value(fm, "info_as_of")
+            try:
+                if asof and (now.date() - datetime.fromisoformat(asof).date()).days > 7:
+                    continue  # 자동 발행 블로그는 최근 7일만 보여 준다
+            except ValueError:
+                pass
+            v, s_ = verify(md, fetch=a.fetch), style_check(md)
+            problems = list(v["fail"]) + [f"style: {f}" for f in s_["fail"]]
+            bs = bst.get(md.stem)
+            if bs and bs.get("publish_at"):
+                pa = datetime.fromisoformat(bs["publish_at"])
+                slot_txt, slot2 = pa.astimezone(btz).strftime("%m/%d %H:%M"), pa.astimezone(KST).strftime("%m/%d %H:%M KST")
+            else:
+                slot_txt, slot2 = ("발행 불가" if problems else "다음 실행"), ""
+            extra["shop" if bc.get("kind") == "shop" else "in"].append({
+                "slug": md.stem, "compact": True, "blog": (names.get(key) or {}).get("name") or bc.get("label", key),
+                "blog_label": bc.get("label", key), "category": fm_value(fm, "category"), "deadline": fm_value(fm, "deadline"),
+                "trend": fm_value(fm, "trend"), "urgent": is_urgent(fm, ""), "todo": [], "slot": slot_txt, "slot2": slot2,
+                "auto": bool(bs and bs.get("status") not in (None, "", "DRAFT")), "auto_url": (bs or {}).get("url", ""),
+                "ok": not problems, "problems": problems, "manual": v["manual"], "style": s_["score"], "similarity": None,
+                "blogger": {"title": fm_value(fm, "title"), "tags": fm_list(fm, "labels")},
+            })
+
     # 즉시 발행 글을 맨 위로 (나머지는 추천 시각 순서 그대로)
     cards.sort(key=lambda c: not c["urgent"])
     us_cards.sort(key=lambda c: not c["urgent"])
-    data = {"kr": cards, "us": us_cards}
+    data = {"kr": cards, "us": us_cards, "in": extra["in"], "shop": extra["shop"]}
     page = TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")) \
                    .replace("__GENERATED__", now.strftime("%Y-%m-%d %H:%M")) \
-                   .replace("__COUNT__", f"국내 {len(cards)} · 해외 {len(us_cards)}")
+                   .replace("__COUNT__", f"국내 {len(cards)} · 미국 {len(us_cards)} · 인도 {len(extra['in'])} · 쇼피 {len(extra['shop'])}")
     out = ROOT / a.out
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page, encoding="utf-8")
@@ -276,7 +316,7 @@ details summary{cursor:pointer;font:500 12px "IBM Plex Mono","IBM Plex Sans KR",
 </style></head><body><div class="wrap">
 <header><h1>발행 대기함</h1><p class="meta">__COUNT__ · 생성 __GENERATED__ KST</p></header>
 <div class="region" role="tablist" aria-label="지역">
-  <button data-r="kr" aria-selected="true">국내<small>네이버 · 티스토리</small></button><button data-r="us" aria-selected="false">해외<small>Google Blogger · US</small></button>
+  <button data-r="kr" aria-selected="true">국내<small>네이버 · 티스토리</small></button><button data-r="us" aria-selected="false">미국<small>Blogger · 자동</small></button><button data-r="in" aria-selected="false">인도<small>Blogger · 자동</small></button><button data-r="shop" aria-selected="false">쇼피<small>국가별 · 자동</small></button>
 </div>
 <p class="howto" id="howto"></p>
 <div class="filters" role="group" aria-label="보기">
@@ -293,13 +333,15 @@ function copyImage(dataUrl){try{var b=atob(dataUrl.split(',')[1]),u=new Uint8Arr
  if(type==='image/png')go(blob);else{var img=new Image();img.onload=function(){var c=document.createElement('canvas');c.width=img.naturalWidth;c.height=img.naturalHeight;c.getContext('2d').drawImage(img,0,0);c.toBlob(go,'image/png')};img.src=dataUrl}}catch(e){toast('이미지 복사가 막혔어요 — 미리보기에서 길게 눌러 저장해 주세요')}}
 function copyText(s,m){if(navigator.clipboard){navigator.clipboard.writeText(s).then(function(){toast(m)},function(){fallback(s,false,m)})}else fallback(s,false,m)}
 function fallback(s,rich,m){var d=document.createElement('div');d.contentEditable=true;d.style.position='fixed';d.style.left='-9999px';if(rich)d.innerHTML=s;else d.textContent=s;document.body.appendChild(d);var r=document.createRange();r.selectNodeContents(d);var sel=getSelection();sel.removeAllRanges();sel.addRange(r);document.execCommand('copy');sel.removeAllRanges();d.remove();toast(m||'복사됨')}
-var region=store('region')==='us'?'us':'kr',filter='todo';
-var PLAT={kr:[['naver','네이버 블로그'],['tistory','티스토리 (다음·구글)']],us:[['blogger','Google Blogger']]};
+var region=['us','in','shop'].indexOf(store('region'))>=0?store('region'):'kr',filter='todo';
+var PLAT={kr:[['naver','네이버 블로그'],['tistory','티스토리 (다음·구글)']],us:[['blogger','Google Blogger']],in:[['blogger','Google Blogger']],shop:[['blogger','Google Blogger']]};
 var HOWTO={kr:'네이버는 [본문 복사] 후 에디터에 붙여넣기, 티스토리는 기본모드 붙여넣기 또는 HTML모드에 [HTML 복사]. 이미지는 버튼으로 하나씩 복사해 넣어 주세요.',
- us:'Blogger 새 글 → 연필 아이콘을 [HTML 보기]로 바꾸고 [HTML 복사] 붙여넣기 (또는 작성 보기에 [본문 복사]). 오른쪽 설정에서 라벨·검색 설명·맞춤 퍼머링크를 버튼으로 복사해 넣으면 돼요. 이미지는 Blogger에 직접 올려 주세요.'};
+ us:'Blogger 새 글 → 연필 아이콘을 [HTML 보기]로 바꾸고 [HTML 복사] 붙여넣기 (또는 작성 보기에 [본문 복사]). 오른쪽 설정에서 라벨·검색 설명·맞춤 퍼머링크를 버튼으로 복사해 넣으면 돼요. 이미지는 Blogger에 직접 올려 주세요.',
+ in:'인도 블로그는 검증을 통과한 글을 Actions 가 인도 시간 7~23시에 하루 5편까지 자동 예약해요. 여기서는 상태만 확인하면 돼요.',
+ shop:'쇼피 국가별 블로그는 나라마다 하루 4편까지 그 나라 시간으로 자동 예약해요. 여기서는 상태만 확인하면 돼요.'};
 // 발행 상태: 아티팩트 db(published/<slug>)에 저장 — 새로고침·재발행·다른 기기에서도 유지. db 를 못 쓰는 보기에서는 브라우저 저장소로만.
 var PUB={},DB=null;
-var AUTO={};(ALL.us||[]).forEach(function(c){if(c.auto)AUTO[c.slug]=1});
+var AUTO={};['us','in','shop'].forEach(function(r){(ALL[r]||[]).forEach(function(c){if(c.auto)AUTO[c.slug]=1})});
 function isPub(slug,p){if(p==='blogger'&&AUTO[slug])return true;var d=PUB[slug];if(d&&Object.prototype.hasOwnProperty.call(d,p))return !!d[p];return store('pub:'+slug+':'+p)==='1'}
 var writing={};
 function setPub(slug,p,v){store('pub:'+slug+':'+p,v?'1':'0');var d=Object.assign({},PUB[slug]||{});d[p]=v;d.updated=new Date().toISOString();PUB[slug]=d;render();
@@ -312,6 +354,12 @@ function render(){var L=document.getElementById('list');L.innerHTML='';var shown
 var DATA=ALL[region]||[];var first=PLAT[region][0][0];
 DATA.forEach(function(c){var isDone=done(c);if(filter==='todo'&&(isDone||!c.ok))return;if(filter==='blocked'&&c.ok)return;shown++;
  var card=el('article',{class:'card'+(isDone?' done':'')+(c.ok?'':' blocked')});
+ if(c.compact){var kb=c.ok?'<span class="badge">'+(c.auto?'예약됨':'검증통과')+'</span>':'<span class="badge warn">발행불가</span>';
+  var tp=el('div',{class:'top'});tp.appendChild(el('div',{},'<div class="kick">'+kb+'<span>'+esc(c.blog)+(c.blog!==c.blog_label?' · '+esc(c.blog_label):'')+' · '+esc(c.category)+(c.trend?' · '+esc(c.trend):'')+'</span></div><p class="title">'+esc(c.blogger.title)+'</p>'));
+  tp.appendChild(el('div',{class:'slot'},(c.auto?'Blogger 예약':'상태')+'<b>'+esc(c.slot)+'</b>'+esc(c.slot2||'')));card.appendChild(tp);
+  var ck2='문체 '+c.style+'점'+(c.auto_url?' · <a href="'+esc(c.auto_url)+'" target="_blank" rel="noopener">글 주소</a>':'');
+  if(c.problems.length)ck2+='<ul>'+c.problems.map(function(p){return'<li class="bad">'+esc(p)+'</li>'}).join('')+'</ul>';
+  card.appendChild(el('div',{class:'checks'},ck2));L.appendChild(card);return}
  var badge=c.ok?(c.manual.length?'<span class="badge warn">사람확인 '+c.manual.length+'</span>':'<span class="badge">검증통과</span>'):'<span class="badge warn">발행불가</span>';
  var top=el('div',{class:'top'});
  top.appendChild(el('div',{},'<div class="kick">'+badge+'<span>'+esc(c.category)+(c.deadline?' · 마감 '+esc(c.deadline):'')+(c.trend?' · '+esc(c.trend):'')+'</span></div><p class="title">'+esc(c[first].title)+'</p>'));

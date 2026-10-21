@@ -162,12 +162,76 @@ def check_en(path, fm, body):
     return {"file": str(path), "score": score, "fail": fails, "warn": warns, "stats": stats}
 
 
+# 쇼핑·제휴 링크가 있는 글은 '내 스토어 상품·제휴 링크'라는 관계를 본문에 밝혀야 한다 (FTC·싱가포르 ASAS·아마존 약관)
+COMMERCE_LINK = re.compile(r"\]\(https?://(?:[\w-]+\.)*(?:shopee\.[\w.]+|shp\.ee|amazon\.[\w.]+|amzn\.to|lazada\.[\w.]+|s\.lazada\.[\w.]+|invol\.co)[/)]", re.I)
+DISCLOSURE = {
+    "en": ["shop we run", "our shop", "earn a commission", "earns us a commission", "affiliate link", "paid link"],
+    "vi": ["hoa hồng", "cửa hàng của chúng tôi", "liên kết tiếp thị"],
+    "id": ["komisi", "toko kami", "tautan afiliasi"],
+    "th": ["ค่าคอมมิชชัน", "ร้านของเรา", "ลิงก์แอฟฟิลิเอต"],
+    "zh-Hant": ["佣金", "我們經營", "聯盟連結", "分潤"],
+}
+FAKE_EXPERIENCE_INTL = {
+    "vi": ["tôi đã dùng thử", "mình đã dùng", "mình dùng thử", "tôi đã thử"],
+    "id": ["saya sudah mencoba", "aku sudah coba", "saya coba pakai"],
+    "th": ["ลองใช้แล้ว", "ฉันได้ลอง", "เราลองใช้"],
+    "zh-Hant": ["我試用了", "親自試用", "我用了之後"],
+}
+
+
+def disclosure_fail(lang, body):
+    if not COMMERCE_LINK.search(body):
+        return []
+    low = plain(body).lower()
+    if any(w.lower() in low for w in DISCLOSURE.get(lang, DISCLOSURE["en"])):
+        return []
+    return ["shop/affiliate links without a disclosure line (e.g. 'Some picks are from a shop we run, and some links earn us a commission.')"]
+
+
+def check_intl(path, fm, body):
+    """베트남어·인도네시아어·태국어·번체 중국어 글 — 공통 품질선만 기계로 본다 (문장 말투는 리뷰에서)."""
+    lang = fm.get("lang", "")
+    flat = plain(body)
+    fails, warns, stats = [], [], {}
+    for k in REQUIRED_FM:
+        if not fm.get(k):
+            fails.append(f"front matter `{k}` is empty")
+    if len(set(fm["_sources"])) < 2:
+        fails.append(f"sources: {len(set(fm['_sources']))} — need 2+ distinct sources")
+    if fm.get("firsthand", "").lower() != "true":
+        for w in FAKE_EXPERIENCE_INTL.get(lang, []):
+            if w in flat.lower():
+                fails.append(f"first-hand claim '{w}' — remove unless real")
+    fails += disclosure_fail(lang, body)
+    emojis = EMOJI.findall(flat)
+    stats["emoji"] = len(emojis)
+    if len(emojis) > 4:
+        fails.append(f"{len(emojis)} emoji (max 4)")
+    if EMOJI.search("\n".join(l for l in body.splitlines() if l.lstrip().startswith(("#", "|")))):
+        fails.append("no emoji in headings or tables")
+    size = len(re.sub(r"\s", "", flat)) if lang in ("th", "zh-Hant", "zh") else len(flat.split())
+    stats["size"] = size
+    if size < (900 if lang in ("th", "zh-Hant", "zh") else 400):
+        warns.append(f"length {size} — thin")
+    h2 = re.findall(r"^##\s+(.+)$", body, flags=re.M)
+    if not 3 <= len(h2) <= 8:
+        warns.append(f"{len(h2)} H2 headings (3–8)")
+    score = max(0, 100 - 25 * len(fails) - 6 * len(warns))
+    return {"file": str(path), "score": score, "fail": fails, "warn": warns, "stats": stats}
+
+
 def check(path):
     text = Path(path).read_text(encoding="utf-8")
     fm_raw, body = split_front_matter(text)
     fm = parse_fm(fm_raw)
     if fm.get("lang") == "en":
-        return check_en(path, fm, body)
+        r = check_en(path, fm, body)
+        extra = disclosure_fail("en", body)
+        r["fail"] += extra
+        r["score"] = max(0, r["score"] - 25 * len(extra))
+        return r
+    if fm.get("lang") and fm.get("lang") != "ko":
+        return check_intl(path, fm, body)
     flat = plain(body)
     fails, warns, stats = [], [], {}
 

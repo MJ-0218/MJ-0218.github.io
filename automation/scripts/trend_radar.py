@@ -500,7 +500,8 @@ def mark_spike(it, runs):
 
 def covered_titles():
     titles = []
-    for d in ("_posts", "_drafts", "automation/global/drafts"):
+    dirs = ["_posts", "_drafts", "automation/global/drafts"] + [str(p.relative_to(ROOT)) for p in (ROOT / "automation" / "blogs").glob("*/drafts")]
+    for d in dirs:
         for p in (ROOT / d).glob("*.md"):
             m = re.search(r"^title:\s*(.+)$", p.read_text(encoding="utf-8"), flags=re.M)
             if m:
@@ -512,7 +513,7 @@ def load_cfg(market="kr"):
     p = ROOT / "automation" / "config.yml"
     try:
         import yaml  # PyYAML (Actions 에서 설치)
-        return (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("radar" if market == "kr" else "radar_us", {})
+        return (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("radar" if market == "kr" else f"radar_{market}", {})
     except Exception:
         return {}
 
@@ -524,7 +525,7 @@ def main():
     ap.add_argument("--prev", default="", help="직전 실행 기록(jsonl) 폴더 — 급상승 비교용")
     ap.add_argument("--only", default="", help="쉼표로 구분한 수집원만 실행")
     ap.add_argument("--evidence", default="", help="원문 수집본 저장 폴더 (Actions 에서만)")
-    ap.add_argument("--market", default="kr", choices=["kr", "us"], help="kr: 네이버·티스토리 / us: 미국 Blogger")
+    ap.add_argument("--market", default="kr", help="kr: 네이버·티스토리 / us·in: 미국·인도 Blogger / ph·sg·my·vn·id·th·tw: 쇼피 국가별 Blogger")
     a = ap.parse_args()
 
     cfg = load_cfg(a.market)

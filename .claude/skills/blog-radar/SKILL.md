@@ -133,3 +133,47 @@ python3 automation/scripts/style_check.py automation/global/drafts/us-<slug>.md
   2. `git show origin/main:automation/state/blogger_scheduled.json` 을 읽고, db 에 blogger 체크가 없는 slug 는 `ArtifactData update published/<slug> {blogger: true, blogger_auto: <publish_at>}` (없으면 set)
   3. 대기함은 예약된 글을 "예약됨 MM/DD HH:MM ET · Blogger 자동"으로 보여 주고 발행함으로 친다
 - 새 글 알림은 국내·해외를 합쳐 "대기함에 새 글 N편 (국내 a · 해외 b)".
+
+---
+
+# 인도 · 쇼피 국가별 Blogger — 같은 실행에서 이어서 (2026-10-21~)
+
+블로그 목록·시간대·하루 편수는 `automation/config.yml` 의 `blogs:`. 이름·주소는 `automation/state/blogs.json`(Actions 가 기록).
+발행은 전부 `blogger-publish.yml` 이 자동 예약한다(나라 시간 기준, 하루 편수 상한). 작성 세션은 초안·claims·카드·검증까지만.
+
+## B0. 오늘 몇 편 남았나
+```bash
+python3 - <<'PY'
+import yaml,re,pathlib,datetime as d,zoneinfo
+cfg=yaml.safe_load(open('automation/config.yml'))
+for k,b in cfg['blogs'].items():
+    if k=='us' or not b.get('per_day'): continue
+    today=d.datetime.now(zoneinfo.ZoneInfo(b['tz'])).date().isoformat()
+    n=sum(1 for p in pathlib.Path(b['drafts']).glob('*.md') if re.search(rf'^info_as_of:\s*{today}',p.read_text(),re.M))
+    print(k, b['label'], f'{n}/{b["per_day"]}')
+PY
+for m in in ph sg my vn id th tw; do git show origin/radar-data:trends/$m/latest.json > /tmp/radar_$m.json 2>/dev/null || echo '{"candidates":[]}' > /tmp/radar_$m.json; done
+```
+남은 편수만큼만 쓴다. 한 실행에서 블로그마다 1~2편씩 나눠 쓰면 하루에 고르게 채워진다(매시간 실행).
+
+## B1. 인도 (THE TREND DESK_IN) — `automation/blogs/in/writing-guide.md`
+- 하루 4~5편. 이슈·생활 정보(애드센스형): 급상승(`/tmp/radar_in.json` spike) → 캘린더(`calendar_due.py --market in`) 순.
+- 초안 `automation/blogs/in/drafts/in-<slug>.md` (front matter `lang: en`, `blog: in`), claims `automation/claims/in-<slug>.yml`.
+- 정부 제도·세금·은행·시험·날씨는 공식 출처(.gov.in·.nic.in·rbi.org.in·npci.org.in·nta.ac.in) 필수. 트렌딩은 매체 2곳.
+
+## B2. 쇼피 국가별 (Humid Hours PH·SG·MY·VN·ID·TH·TW) — `automation/blogs/shop/writing-guide.md`
+- 블로그마다 하루 3~4편. 뷰티 노하우 · 생활 정보 · K-컬처 · 추천(Picks) · 세일(Deals)을 섞는다. 같은 종류 연달아 금지.
+- **우리 스토어 상품 글은 블로그당 하루 1편 이하**, 추천 목록에서도 절반 이하. 상품·링크는 `automation/blogs/shop/products/<key>.yml` 에 있는 것만(없으면 스토어 글은 쓰지 않는다). 제휴 링크는 `config.yml affiliates` 가 채워진 것만.
+- 쇼핑·제휴 링크가 있으면 추천 바로 앞에 관계 공개 한 줄(가이드 2절 문구). 써 보지 않은 제품 후기·효능 주장 금지.
+- 언어: PH·SG·MY 영어, VN 베트남어, ID 인도네시아어, TH 태국어, TW 번체 중국어. 나라끼리 번역·복사 금지, 영어 블로그끼리 `similarity_check.py` 0.35 이하.
+- 초안 `automation/blogs/<key>/drafts/<key>-<slug>.md` (front matter `lang`, `blog: <key>`), claims `automation/claims/<key>-<slug>.yml`.
+- 레이더: `/tmp/radar_<key>.json` (그 나라 구글 급상승·뉴스). K-컬처는 매체 2곳 교차, 날씨·건강은 그 나라 공식 기관.
+
+## B3. 카드·검증·커밋
+```bash
+python3 automation/scripts/make_cards.py automation/blogs/<key>/drafts/<key>-<slug>.md
+python3 automation/scripts/verify_claims.py automation/blogs/<key>/drafts/<key>-<slug>.md --fetch
+python3 automation/scripts/style_check.py automation/blogs/<key>/drafts/<key>-<slug>.md
+```
+FAIL 이 남은 글은 커밋하지 않는다. 대기함은 `build_outbox.py` 한 번으로 [인도]·[쇼피] 탭까지 갱신(상태만 표시).
+새 글 알림: "대기함에 새 글 N편 (국내 a · 해외 b · 인도 c · 쇼피 d)".

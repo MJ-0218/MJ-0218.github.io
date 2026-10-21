@@ -136,3 +136,95 @@ blogs:
 blogger_run:
   max_new_per_run: 8      # 한 번 실행에서 새로 만드는 글 수 (429 방지). 남은 글은 다음 시간에
   pause_seconds: 20       # 글 사이 쉬는 시간
+
+# ── 인도 · 쇼피 국가별 레이더 (trend-radar.yml 이 30분마다 함께 돈다 → radar-data trends/<market>/) ─────
+radar_in:
+  geo: IN
+  news_locale: { hl: en-IN, gl: IN, ceid: "IN:en" }
+  sources: [calendar, google_trends, google_news]
+  evidence_topics: 15
+  evidence_per_topic: 4
+  watch_keywords: [PM Kisan installment, ITR filing deadline, income tax refund status, GST rate change, UPI new rule,
+                   RBI repo rate, bank holiday, CBSE date sheet, UPSC result, SSC exam date, admit card released,
+                   8th pay commission, DA hike, EPFO, Aadhaar update, PAN Aadhaar link, Ayushman Bharat card,
+                   LPG cylinder price, petrol diesel price, IMD cyclone alert, school holiday, festival date]
+  categories:
+    Government Schemes: [scheme, yojana, pm kisan, ayushman, ration, pension, epfo, subsidy, lpg, aadhaar, pan card, da hike, pay commission]
+    Taxes: [income tax, itr, gst, tds, refund, tax slab]
+    Banking: [rbi, upi, bank holiday, repo rate, loan, emi, npci, sbi]
+    Exams: [cbse, upsc, ssc, neet, jee, admit card, result, exam date, date sheet, board exam]
+    Holidays: [holiday, diwali, holi, eid, festival, puja, chhath, christmas]
+    Weather: [imd, cyclone, rain alert, heatwave, monsoon]
+radar_ph:
+  geo: PH
+  news_locale: { hl: en-PH, gl: PH, ceid: "PH:en" }
+  sources: [google_trends, google_news]
+  evidence_topics: 8
+  watch_keywords: [K-drama, K-pop concert Manila, Korean skincare, sunscreen, Shopee sale, rainy season, typhoon signal, dengue]
+  categories: &shopcats_en
+    K-Culture: [k-drama, kdrama, k-pop, kpop, korean, seoul, netflix korean, idol, concert]
+    Beauty: [skincare, sunscreen, serum, toner, acne, makeup, cosmetic, hair care, fragrance]
+    Living: [rain, typhoon, humidity, mold, aircon, laundry, electricity, dengue, heat index, flood]
+    Deals: [shopee, lazada, 11.11, 12.12, payday sale, sale, voucher]
+radar_sg:
+  geo: SG
+  news_locale: { hl: en-SG, gl: SG, ceid: "SG:en" }
+  sources: [google_trends, google_news]
+  evidence_topics: 8
+  watch_keywords: [K-drama, K-pop concert Singapore, Korean skincare, sunscreen, Shopee sale, haze PSI, NEA heat, dengue]
+  categories: *shopcats_en
+radar_my:
+  geo: MY
+  news_locale: { hl: en-MY, gl: MY, ceid: "MY:en" }
+  sources: [google_trends, google_news]
+  evidence_topics: 8
+  watch_keywords: [K-drama, K-pop concert Kuala Lumpur, Korean skincare, sunscreen, Shopee sale, monsoon MetMalaysia, haze, flood]
+  categories: *shopcats_en
+radar_vn:
+  geo: VN
+  news_locale: { hl: vi, gl: VN, ceid: "VN:vi" }
+  sources: [google_trends, google_news]
+  evidence_topics: 8
+  watch_keywords: [phim Hàn Quốc, K-pop, mỹ phẩm Hàn Quốc, kem chống nắng, Shopee sale, mùa mưa, nồm ẩm, bão]
+  categories:
+    K-Culture: [hàn quốc, phim hàn, k-pop, kpop, idol, seoul]
+    Beauty: [mỹ phẩm, kem chống nắng, dưỡng da, skincare, serum, mụn, trang điểm]
+    Living: [mưa, bão, nồm, độ ẩm, nấm mốc, điều hòa, giặt, ngập]
+    Deals: [shopee, lazada, 11.11, 12.12, sale, voucher, khuyến mãi]
+radar_id:
+  geo: ID
+  news_locale: { hl: id, gl: ID, ceid: "ID:id" }
+  sources: [google_trends, google_news]
+  evidence_topics: 8
+  watch_keywords: [drama Korea, K-pop, skincare Korea, sunscreen, Shopee promo, musim hujan, BMKG cuaca, banjir]
+  categories:
+    K-Culture: [korea, drakor, drama korea, k-pop, kpop, idol, seoul]
+    Beauty: [skincare, sunscreen, serum, jerawat, makeup, kosmetik, bpom]
+    Living: [hujan, banjir, cuaca, bmkg, lembap, jamur, listrik, mudik]
+    Deals: [shopee, lazada, tokopedia, 11.11, 12.12, promo, harbolnas, voucher]
+radar_th:
+  geo: TH
+  news_locale: { hl: th, gl: TH, ceid: "TH:th" }
+  sources: [google_trends, google_news]
+  evidence_topics: 8
+  watch_keywords: [ซีรีส์เกาหลี, เคป็อป, สกินแคร์เกาหลี, กันแดด, Shopee ลดราคา, ฤดูฝน, พายุ, PM2.5]
+  categories:
+    K-Culture: [เกาหลี, ซีรีส์เกาหลี, เคป็อป, kpop, k-pop, ไอดอล]
+    Beauty: [สกินแคร์, กันแดด, เซรั่ม, สิว, เครื่องสำอาง, แต่งหน้า]
+    Living: [ฝน, พายุ, น้ำท่วม, ความชื้น, เชื้อรา, แอร์, pm2.5, ฝุ่น]
+    Deals: [shopee, lazada, 11.11, 12.12, ลดราคา, โค้ดส่วนลด]
+radar_tw:
+  geo: TW
+  news_locale: { hl: zh-TW, gl: TW, ceid: "TW:zh-Hant" }
+  sources: [google_trends, google_news]
+  evidence_topics: 8
+  watch_keywords: [韓劇, K-pop, 韓系保養, 防曬, 蝦皮 雙11, 梅雨, 颱風, 除濕]
+  categories:
+    K-Culture: [韓國, 韓劇, 韓團, k-pop, kpop, 偶像, 首爾]
+    Beauty: [保養, 防曬, 精華, 痘痘, 化妝, 美妝]
+    Living: [颱風, 梅雨, 除濕, 潮濕, 發霉, 冷氣, 豪雨]
+    Deals: [蝦皮, momo, 雙11, 雙12, 折扣, 優惠]
+# 제휴 ID (비밀 아님 — 링크에 그대로 보임). 받으면 채운다. 비어 있으면 제휴 링크를 쓰지 않는다
+affiliates:
+  amazon_sg_tag: ""        # Amazon.sg Associates tracking ID (예: humidhours-22)
+  lazada: {}               # 나라별 Lazada 제휴(Involve Asia 등) 링크 접두사

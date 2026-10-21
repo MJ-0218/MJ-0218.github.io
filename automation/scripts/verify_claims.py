@@ -45,13 +45,16 @@ UA = "Mozilla/5.0 (compatible; semter-factcheck/1.0)"
 
 OFFICIAL_REQUIRED = {"정부혜택", "청약", "선거", "세금", "노동·급여",
                      # 미국(Blogger) 글
-                     "Benefits", "Taxes", "Health Insurance", "Student Aid", "Housing", "Elections", "Recalls"}
+                     "Benefits", "Taxes", "Health Insurance", "Student Aid", "Housing", "Elections", "Recalls",
+                     # 인도(Blogger) 글 — 정부 제도·시험 일정은 공식 누리집(.gov.in·.nic.in) 필수
+                     "Government Schemes", "Exams", "Banking", "Weather"}
 # 방송 맛집·이슈 글은 공식 출처가 없는 경우가 많아, 서로 다른 매체 2곳 이상이 같은 사실을 적었는지로 본다
-CROSS_CHECK_REQUIRED = {"방송정보", "이슈", "Trending"}
+CROSS_CHECK_REQUIRED = {"방송정보", "이슈", "Trending", "K-Culture"}
 OFFICIAL_DOMAINS = re.compile(
     r"(\.go\.kr|\.korea\.kr|^korea\.kr|applyhome\.co\.kr|lh\.or\.kr|i-sh\.co\.kr|gh\.or\.kr|nhuf\.molit\.go\.kr|"
     r"khug\.or\.kr|nps\.or\.kr|nhis\.or\.kr|kinfa\.or\.kr|kbs\.co\.kr|imbc\.com|sbs\.co\.kr|ebs\.co\.kr|"
-    r"\.gov|\.mil)$")  # 미국 연방·주 정부
+    r"\.gov|\.mil|"  # 미국 연방·주 정부
+    r"\.gov\.in|\.nic\.in|rbi\.org\.in|npci\.org\.in|nta\.ac\.in|iocl\.com|\.gov\.sg|\.gov\.ph|\.gov\.my|\.gov\.vn|\.go\.id|\.go\.th|\.gov\.tw)$")  # 인도·동남아·대만 정부
 
 # 사실 토큰: 단위가 붙은 숫자, 날짜, 금액, 비율
 TOKEN_RES = [
@@ -68,11 +71,18 @@ _MON = r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug
 TOKEN_RES_EN = [
     _MON + r"\.?\s+\d{1,2}(?!\d)(?:st|nd|rd|th)?(?:,?\s+\d{4})?",
     r"\$\s?\d[\d,]*(?:\.\d+)?(?:\s?(?:million|billion|trillion|k)\b)?",
+    # 인도 루피(lakh·crore 포함), 필리핀 페소, 링깃, 싱가포르 달러
+    r"(?:₹|\bRs\.?|\bINR|₱|\bPHP|\bRM|\bS\$|\bSGD)\s?\d[\d,]*(?:\.\d+)?(?:\s?(?:lakh|crore|million|billion|k)\b)?",
+    r"\b\d[\d,]*(?:\.\d+)?\s?(?:lakh|crore)\b",
     r"\d[\d,]*(?:\.\d+)?\s?(?:%|percent)",
     r"\b\d[\d,]*(?:\.\d+)?\s?(?:days?|weeks?|months?|years?|hours?|minutes?|people|households|million|billion)\b",
     r"\b(?:19|20)\d{2}\b",
 ]
 TOKEN_RE_EN = re.compile("|".join(f"(?:{r})" for r in TOKEN_RES_EN), re.I)
+# 그 밖의 언어(베트남어·인도네시아어·태국어·번체 중국어): 통화·비율이 붙은 숫자와 두 자리 이상 숫자는 전부 사실 토큰으로 본다
+TOKEN_RE_ANY = re.compile(
+    r"(?:₫|đ|Rp\.?|฿|NT\$|\$|₱|RM|S\$)\s?\d[\d.,]*|\d[\d.,]*\s?(?:%|₫|đồng|VND|bath|บาท|元|萬|万|triệu|juta|ribu|nghìn)?(?<=\S)"
+    , re.I)
 
 
 def norm(s):
@@ -85,8 +95,11 @@ def fact_tokens(body, lang="ko"):
     text = plain(body)
     text = re.sub(r"^#+.*$", "", text, flags=re.M)  # 소제목은 본문에서 다시 나온다고 보고 제외
     toks = []
-    for m in (TOKEN_RE_EN if lang == "en" else TOKEN_RE).finditer(text):
+    rx = TOKEN_RE_EN if lang == "en" else (TOKEN_RE if lang in ("ko", "", None) else TOKEN_RE_ANY)
+    for m in rx.finditer(text):
         t = m.group(0).strip()
+        if rx is TOKEN_RE_ANY and re.fullmatch(r"\d", t):  # 한 자리 숫자(단계·개수)는 제외
+            continue
         if re.fullmatch(r"\d\s*(개|곳|회|건|가지)", t):  # '1곳', '3개' 같은 사소한 개수는 제외
             continue
         toks.append(t)

@@ -1,0 +1,112 @@
+# India recurring-demand calendar — topics Indians search for at the same time every year/month.
+# ⚠ months / day are only "usually around this time". Every date, amount and rule in a post must be
+#    re-checked against the official source for THIS cycle and recorded in claims.
+# Cycle ids start with "in-" so they never collide with other blogs.
+
+- id: in-pm-kisan
+  name: PM-KISAN installment
+  category: Government Schemes
+  official: [https://pmkisan.gov.in/, https://pib.gov.in/]
+  phases:
+    - { key: apr-jul, months: [4, 5, 6, 7], lead_days: 10, queries: ["pm kisan next installment date", "pm kisan status check", "pm kisan ekyc"] }
+    - { key: aug-nov, months: [8, 9, 10, 11], lead_days: 10, queries: ["pm kisan 21st installment date", "pm kisan beneficiary list"] }
+    - { key: dec-mar, months: [12, 1, 2, 3], lead_days: 10, queries: ["pm kisan installment date", "pm kisan status"] }
+
+- id: in-itr
+  name: Income tax return (ITR) filing
+  category: Taxes
+  official: [https://www.incometax.gov.in/iec/foportal/, https://www.incometaxindia.gov.in/]
+  phases:
+    - { key: filing, months: [6, 7, 8, 9], lead_days: 14, queries: ["itr filing last date", "how to file itr online", "which itr form"] }
+    - { key: refund, months: [8, 9, 10, 11], lead_days: 0, queries: ["income tax refund status", "itr refund delay"] }
+
+- id: in-advance-tax
+  name: Advance tax due dates
+  category: Taxes
+  official: [https://www.incometaxindia.gov.in/]
+  phases:
+    - { key: q1, months: [6], lead_days: 10, queries: ["advance tax due date june"] }
+    - { key: q2, months: [9], lead_days: 10, queries: ["advance tax due date september"] }
+    - { key: q3, months: [12], lead_days: 10, queries: ["advance tax due date december"] }
+    - { key: q4, months: [3], lead_days: 10, queries: ["advance tax due date march"] }
+
+- id: in-bank-holidays
+  name: Bank holidays this month
+  category: Banking
+  recurrence: monthly
+  day: 1
+  lead_days: 5
+  official: [https://www.rbi.org.in/Scripts/HolidayMatrixDisplay.aspx]
+  queries: ["bank holidays this month", "is bank open tomorrow", "rbi holiday list"]
+
+- id: in-lpg-price
+  name: LPG cylinder price on the 1st
+  category: Government Schemes
+  recurrence: monthly
+  day: 1
+  lead_days: 1
+  official: [https://iocl.com/indane-cooking-gas-overview]
+  queries: ["lpg cylinder price today", "lpg price 1st", "commercial cylinder price"]
+
+- id: in-da-hike
+  name: Dearness allowance (DA) hike for central employees
+  category: Government Schemes
+  official: [https://pib.gov.in/, https://doe.gov.in/]
+  phases:
+    - { key: jan, months: [3, 4], lead_days: 14, queries: ["da hike news", "da hike january"] }
+    - { key: jul, months: [9, 10, 11], lead_days: 14, queries: ["da hike july", "da hike latest news"] }
+
+- id: in-union-budget
+  name: Union Budget
+  category: Taxes
+  official: [https://www.indiabudget.gov.in/, https://pib.gov.in/]
+  phases:
+    - { key: budget, months: [1, 2], lead_days: 14, queries: ["budget date", "new tax slab budget", "budget highlights"] }
+
+- id: in-cbse-board
+  name: CBSE board exams
+  category: Exams
+  official: [https://www.cbse.gov.in/]
+  phases:
+    - { key: datesheet, months: [10, 11, 12, 1], lead_days: 7, queries: ["cbse date sheet class 10", "cbse date sheet class 12", "cbse board exam date"] }
+    - { key: admit-card, months: [1, 2], lead_days: 7, queries: ["cbse admit card"] }
+    - { key: result, months: [5], lead_days: 7, queries: ["cbse result date", "cbse result class 10"] }
+
+- id: in-jee-main
+  name: JEE Main
+  category: Exams
+  official: [https://jeemain.nta.nic.in/, https://nta.ac.in/]
+  phases:
+    - { key: session1, months: [10, 11, 12, 1], lead_days: 7, queries: ["jee main registration", "jee main exam date", "jee main admit card"] }
+    - { key: session2, months: [2, 3, 4], lead_days: 7, queries: ["jee main session 2 date", "jee main result"] }
+
+- id: in-neet-ug
+  name: NEET UG
+  category: Exams
+  official: [https://neet.nta.nic.in/, https://nta.ac.in/]
+  phases:
+    - { key: registration, months: [2, 3], lead_days: 7, queries: ["neet registration date", "neet application form"] }
+    - { key: exam, months: [4, 5], lead_days: 7, queries: ["neet exam date", "neet admit card"] }
+    - { key: result, months: [6], lead_days: 7, queries: ["neet result date", "neet cut off"] }
+
+- id: in-upsc-cse
+  name: UPSC Civil Services
+  category: Exams
+  official: [https://upsc.gov.in/]
+  phases:
+    - { key: notification, months: [1, 2], lead_days: 7, queries: ["upsc notification", "upsc cse application"] }
+    - { key: prelims, months: [5, 6], lead_days: 7, queries: ["upsc prelims date", "upsc admit card"] }
+
+- id: in-monsoon
+  name: Southwest monsoon onset
+  category: Weather
+  official: [https://mausam.imd.gov.in/, https://internal.imd.gov.in/]
+  phases:
+    - { key: onset, months: [5, 6], lead_days: 10, queries: ["monsoon onset kerala", "monsoon 2026 forecast", "imd monsoon update"] }
+
+- id: in-diwali
+  name: Diwali and festival holidays
+  category: Holidays
+  official: [https://dopt.gov.in/, https://www.rbi.org.in/Scripts/HolidayMatrixDisplay.aspx]
+  phases:
+    - { key: diwali, months: [10, 11], lead_days: 21, queries: ["diwali date", "diwali bank holiday", "lakshmi puja muhurat"] }

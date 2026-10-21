@@ -20,7 +20,9 @@ KST = timezone(timedelta(hours=9))
 def covered_cycles():
     """_drafts, _posts, variants 의 front matter cycle 값 = 이미 쓴 주기"""
     out = set()
-    for d in ("_drafts", "_posts", "automation/variants", "automation/global/drafts"):
+    dirs = ["_drafts", "_posts", "automation/variants", "automation/global/drafts"] + \
+        [str(p.relative_to(ROOT)) for p in (ROOT / "automation" / "blogs").glob("*/drafts")]
+    for d in dirs:
         for p in (ROOT / d).glob("*.md"):
             m = re.search(r"^cycle:\s*(\S+)", p.read_text(encoding="utf-8"), flags=re.M)
             if m:
@@ -87,12 +89,14 @@ def weekly_due(entry, today):
            "days_to_start": (monday - today).days, "in_window": True}
 
 
-CALENDARS = {"kr": ROOT / "automation" / "calendar.yml", "us": ROOT / "automation" / "global" / "calendar_us.yml"}
+CALENDARS = {"kr": ROOT / "automation" / "calendar.yml", "us": ROOT / "automation" / "global" / "calendar_us.yml",
+             "in": ROOT / "automation" / "blogs" / "in" / "calendar.yml"}
+MARKET_UTC = {"us": -5, "in": 5.5}  # 그 나라 날짜 기준으로 본다
 
 
 def due(today=None, market="kr"):
-    if market == "us":  # 미국 글은 미국 동부 시간 기준 날짜로 본다
-        today = today or datetime.now(timezone(timedelta(hours=-5))).date()
+    if market in MARKET_UTC:  # 미국·인도 글은 그 나라 시간 기준 날짜로 본다
+        today = today or datetime.now(timezone(timedelta(hours=MARKET_UTC[market]))).date()
     today = today or datetime.now(KST).date()
     entries = yaml.safe_load(CALENDARS[market].read_text(encoding="utf-8"))
     done = covered_cycles()
@@ -118,7 +122,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date")
     ap.add_argument("--json", action="store_true")
-    ap.add_argument("--market", default="kr", choices=["kr", "us"])
+    ap.add_argument("--market", default="kr", choices=list(CALENDARS))
     a = ap.parse_args()
     today = date.fromisoformat(a.date) if a.date else None
     items = due(today, a.market)

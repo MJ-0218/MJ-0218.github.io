@@ -36,7 +36,17 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "cards"
 SITE_NAME = "셈터"
-SITE_NAME_EN = "Semter"  # 미국 Blogger 카드 꼬리표
+SITE_NAME_EN = "Semter"  # Blogger 이름을 못 찾을 때의 꼬리표
+BLOGS_INFO = ROOT / "automation" / "state" / "blogs.json"  # Actions 가 적어 둔 블로그 이름 (us, in, ph …)
+
+
+def blog_name(path):
+    """초안 위치로 어느 Blogger 블로그 글인지 보고 그 블로그 이름을 카드 꼬리표로 쓴다."""
+    import json
+    names = json.loads(BLOGS_INFO.read_text(encoding="utf-8")) if BLOGS_INFO.exists() else {}
+    parts = Path(path).resolve().relative_to(ROOT).parts
+    key = parts[2] if parts[:2] == ("automation", "blogs") else ("us" if parts[:2] == ("automation", "global") else None)
+    return (names.get(key) or {}).get("name") or (SITE_NAME_EN if key else None)
 
 
 def front_matter(p):
@@ -76,7 +86,7 @@ def body_for(card):
 
 
 PAGE = """<!doctype html><html lang="ko"><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;700&family=IBM+Plex+Sans+Thai:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 /* 안내 표지판 — 흰 바탕, 먹색 글자, 하늘색은 면(面)으로만 */
 :root{--paper:#fff;--ink:#0b0b0c;--ink2:rgba(11,11,12,.66);--hair:rgba(11,11,12,.14);--sky:#7cc8ff}
@@ -115,11 +125,15 @@ def render(files):
         pg = b.new_page(viewport={"width": 540, "height": 400}, device_scale_factor=2)
         for f in files:
             fm, slug = front_matter(f), slug_of(f)
-            en = fm.get("lang") == "en"
+            lang = fm.get("lang") or "ko"
+            en = lang != "ko"
             asof = (f'Last checked {fm["info_as_of"]}' if en else f'정보 기준일 {fm["info_as_of"]}') if fm.get("info_as_of") else ""
-            site = SITE_NAME_EN if en else SITE_NAME
+            site = (blog_name(f) or SITE_NAME_EN) if en else SITE_NAME
+            base = PAGE.replace('lang="ko"', f'lang="{lang}"')
+            if en:  # 라틴(베트남어 성조 포함)은 IBM Plex Sans, 태국어·번체는 같은 계열 글꼴로
+                base = base.replace('"IBM Plex Sans KR"', '"IBM Plex Sans","IBM Plex Sans Thai","Noto Sans TC","IBM Plex Sans KR"')
             for cid, card in (fm.get("cards") or {}).items():
-                page = PAGE.replace("__BODY__", body_for(card)).replace("__SITE__", site).replace("__ASOF__", e(asof))
+                page = base.replace("__BODY__", body_for(card)).replace("__SITE__", e(site)).replace("__ASOF__", e(asof))
                 pg.set_content(page, wait_until="networkidle")
                 pg.evaluate("document.fonts.ready")
                 out = OUT / f"{slug}-{cid}.png"

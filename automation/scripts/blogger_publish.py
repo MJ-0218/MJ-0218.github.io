@@ -153,7 +153,6 @@ def run_blog(key, bc, cfg, now, budget, dry_all, published):
     drafts = sorted((ROOT / bc["drafts"]).glob("*.md"))
     if not drafts:
         return 0, False
-    print(f"\n── {key} ({bc.get('label', '')}) {'[블로그 ID 시크릿 없음 — 계획만]' if not blog else ''}")
 
     counts = {}
     for v in scheduled.values():
@@ -183,6 +182,7 @@ def run_blog(key, bc, cfg, now, budget, dry_all, published):
     todo.sort(key=lambda x: not x[3])  # 즉시 발행 글 먼저
     if not todo:
         return 0, False
+    print(f"\n── {key} ({bc.get('label', '')}) {len(todo)}편 {'[블로그 ID 시크릿 없음 — 계획만]' if not blog else ''}")
 
     token = None if dry else access_token()
     # 블로그에 이미 같은 제목 글(초안·예약·발행)이 있으면 새로 만들지 않는다 — 기록이 늦게 반영돼도 중복 방지
