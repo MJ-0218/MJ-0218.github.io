@@ -57,7 +57,7 @@ class ApiError(Exception):
     pass
 
 
-def call(token, method, path, params=None, body=None):
+def call(token, method, path, params=None, body=None, retry=True):
     """429·5xx 는 30초·90초·180초 쉬고 다시 시도한다. 실패하면 Google 이 돌려준 오류 내용을 그대로 보여 준다."""
     url = f"{API}{path}" + (("?" + urllib.parse.urlencode(params)) if params else "")
     data = json.dumps(body).encode() if body is not None else (b"" if method == "POST" else None)  # GET·DELETE 는 본문 없음
@@ -70,11 +70,25 @@ def call(token, method, path, params=None, body=None):
         except urllib.error.HTTPError as e:
             detail = e.read().decode("utf-8", "replace")[:1500]
             print(f"  ! {method} {path} → HTTP {e.code}: {detail}")
-            if e.code in (429, 500, 502, 503) and wait:
+            if e.code in (429, 500, 502, 503) and wait and retry:
                 print(f"  … {wait}초 뒤 다시 시도")
                 time.sleep(wait)
                 continue
             raise ApiError(f"HTTP {e.code}: {detail}") from None
+
+
+def list_titles(token, blog):
+    out, page = {}, None
+    while True:
+        q = [("status", "draft"), ("status", "scheduled"), ("status", "live"), ("fetchBodies", "false"), ("maxResults", "50")]
+        if page:
+            q.append(("pageToken", page))
+        res = call(token, "GET", f"/blogs/{blog}/posts?" + urllib.parse.urlencode(q))
+        for it in res.get("items", []):
+            out.setdefault(it.get("title", "").strip(), it)
+        page = res.get("nextPageToken")
+        if not page:
+            return out
 
 
 def next_slot(after, hours, spacing):
@@ -130,20 +144,8 @@ def main():
 
     token = None if dry else access_token()
     blog = os.environ.get("BLOGGER_BLOG_ID", "")
-    existing = {}
-    if not dry and todo:
-        # 블로그에 이미 같은 제목 글(초안·예약·발행)이 있으면 새로 만들지 않는다 — 기록이 늦게 반영돼도 중복 방지
-        page = None
-        while True:
-            q = [("status", "draft"), ("status", "scheduled"), ("status", "live"), ("fetchBodies", "false"), ("maxResults", "50")]
-            if page:
-                q.append(("pageToken", page))
-            res = call(token, "GET", f"/blogs/{blog}/posts?" + urllib.parse.urlencode(q))
-            for it in res.get("items", []):
-                existing.setdefault(it.get("title", "").strip(), it)
-            page = res.get("nextPageToken")
-            if not page:
-                break
+    # 블로그에 이미 같은 제목 글(초안·예약·발행)이 있으면 새로 만들지 않는다 — 기록이 늦게 반영돼도 중복 방지
+    existing = list_titles(token, blog) if (not dry and todo) else {}
     changed, failed, done = False, False, 0
     for md, slug, fm, urgent in todo:
         r = render(md, site)
@@ -167,9 +169,18 @@ def main():
         try:
             post_id = (scheduled.get(slug) or {}).get("post_id")
             if not post_id:
-                post = call(token, "POST", f"/blogs/{blog}/posts", {"isDraft": "true"},
-                            {"kind": "blogger#post", "title": r["title"], "content": r["html"], "labels": r["tags"]})
+                # 글 만들기는 다시 보내지 않는다: 429 가 와도 실제로는 만들어졌을 수 있어서, 블로그를 다시 조회해 확인한다
+                try:
+                    post = call(token, "POST", f"/blogs/{blog}/posts", {"isDraft": "true"},
+                                {"kind": "blogger#post", "title": r["title"], "content": r["html"], "labels": r["tags"]}, retry=False)
+                except ApiError:
+                    time.sleep(60)
+                    post = list_titles(token, blog).get(r["title"].strip())
+                    if not post:
+                        raise
+                    print("  = 오류 응답이었지만 글은 만들어져 있음 — 그 글로 이어서 예약")
                 post_id = post["id"]
+                existing[r["title"].strip()] = post
                 # 초안까지 만든 것을 먼저 남겨 두어 다음 실행에서 중복 초안을 만들지 않는다
                 scheduled[slug] = {"post_id": post_id, "status": "DRAFT", "scheduled_at": now.isoformat(timespec="minutes")}
                 changed = True
