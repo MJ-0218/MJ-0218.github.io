@@ -160,6 +160,7 @@ radar_in:
 radar_ph:
   geo: PH
   fetch_requests: automation/blogs/ph/fetch_requests.txt
+  evidence_min_score: 10   # 뷰티·생활 키워드는 기사 수가 적어도 원문을 받아 둔다
   news_locale: { hl: en-PH, gl: PH, ceid: "PH:en" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -172,6 +173,7 @@ radar_ph:
 radar_sg:
   geo: SG
   fetch_requests: automation/blogs/sg/fetch_requests.txt
+  evidence_min_score: 10   # 뷰티·생활 키워드는 기사 수가 적어도 원문을 받아 둔다
   news_locale: { hl: en-SG, gl: SG, ceid: "SG:en" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -180,6 +182,7 @@ radar_sg:
 radar_my:
   geo: MY
   fetch_requests: automation/blogs/my/fetch_requests.txt
+  evidence_min_score: 10   # 뷰티·생활 키워드는 기사 수가 적어도 원문을 받아 둔다
   news_locale: { hl: en-MY, gl: MY, ceid: "MY:en" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -188,6 +191,7 @@ radar_my:
 radar_vn:
   geo: VN
   fetch_requests: automation/blogs/vn/fetch_requests.txt
+  evidence_min_score: 10   # 뷰티·생활 키워드는 기사 수가 적어도 원문을 받아 둔다
   news_locale: { hl: vi, gl: VN, ceid: "VN:vi" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -200,6 +204,7 @@ radar_vn:
 radar_id:
   geo: ID
   fetch_requests: automation/blogs/id/fetch_requests.txt
+  evidence_min_score: 10   # 뷰티·생활 키워드는 기사 수가 적어도 원문을 받아 둔다
   news_locale: { hl: id, gl: ID, ceid: "ID:id" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -212,6 +217,7 @@ radar_id:
 radar_th:
   geo: TH
   fetch_requests: automation/blogs/th/fetch_requests.txt
+  evidence_min_score: 10   # 뷰티·생활 키워드는 기사 수가 적어도 원문을 받아 둔다
   news_locale: { hl: th, gl: TH, ceid: "TH:th" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -224,6 +230,7 @@ radar_th:
 radar_tw:
   geo: TW
   fetch_requests: automation/blogs/tw/fetch_requests.txt
+  evidence_min_score: 10   # 뷰티·생활 키워드는 기사 수가 적어도 원문을 받아 둔다
   news_locale: { hl: zh-TW, gl: TW, ceid: "TW:zh-Hant" }
   sources: [google_trends, google_news]
   evidence_topics: 8

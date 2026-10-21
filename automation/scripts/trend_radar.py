@@ -285,7 +285,7 @@ def collect_evidence(ranked, out_dir, cfg):
     targets = []
     for c in ranked:
         if c["source"] == "tv_food" or (c.get("spike") and c["source"] in ("google_trends", "google_news")) or \
-                (c["source"] == "google_news" and c.get("score", 0) >= 35):
+                (c["source"] == "google_news" and c.get("score", 0) >= cfg.get("evidence_min_score", 35)):
             targets.append(c)
     for c in targets[: int(cfg.get("evidence_topics", 25))]:
         c["evidence"] = []
