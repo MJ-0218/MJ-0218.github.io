@@ -1,0 +1,34 @@
+# Blogger 중복 글 정리 (수동 실행). apply=true 일 때만 실제 삭제.
+name: blogger-dedupe
+on:
+  workflow_dispatch:
+    inputs:
+      apply: { description: "true 면 실제 삭제", required: false, default: "false" }
+concurrency: { group: blogger-publish, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  dedupe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q pyyaml markdown
+      - name: 중복 정리
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+        run: python3 automation/scripts/blogger_dedupe.py ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "semter-blogger"
+          git config user.email "blogger@users.noreply.github.com"
+          if [ -n "$(git status --porcelain automation/state/blogger_scheduled.json)" ]; then
+            git add automation/state/blogger_scheduled.json && git commit -m "blogger: 중복 정리 기록"
+            for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+          fi

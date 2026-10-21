@@ -60,7 +60,7 @@ class ApiError(Exception):
 def call(token, method, path, params=None, body=None):
     """429·5xx 는 30초·90초·180초 쉬고 다시 시도한다. 실패하면 Google 이 돌려준 오류 내용을 그대로 보여 준다."""
     url = f"{API}{path}" + (("?" + urllib.parse.urlencode(params)) if params else "")
-    data = json.dumps(body).encode() if body is not None else (b"" if method == "POST" else None)
+    data = json.dumps(body).encode() if body is not None else (b"" if method == "POST" else None)  # GET·DELETE 는 본문 없음
     for wait in (30, 90, 180, None):
         req = urllib.request.Request(url, data=data, method=method,
                                      headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
