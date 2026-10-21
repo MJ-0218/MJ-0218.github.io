@@ -80,6 +80,25 @@ def render(md_path, site):
             "description": fm_value(fm, "description"), "permalink": fm_value(fm, "permalink")}
 
 
+URGENT_CATS = {"방송정보", "이슈", "Recalls"}
+
+
+def is_urgent(fm, md_text):
+    """그때그때 올려야 하는 글(방송 맛집·급상승 이슈·리콜, front matter publish: now) — 예약 말고 즉시 발행."""
+    return fm_value(fm, "publish") == "now" or fm_value(fm, "category") in URGENT_CATS
+
+
+def place_todos(md_text):
+    """본문 지도 링크의 가게 → 에디터 [장소] 첨부 안내 (장소 카드에 지도·대표사진·리뷰가 함께 나온다)."""
+    from urllib.parse import unquote
+    names = []
+    for q in re.findall(r"map\.naver\.com/p/search/([^)\s]+)", md_text):
+        n = unquote(q)
+        if n not in names:
+            names.append(n)
+    return [f"네이버 에디터 [장소] 버튼 → '{n}' 검색해 첨부 (티스토리는 [지도])" for n in names]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="exports/outbox.html")
@@ -115,18 +134,23 @@ def main():
             problems += [f"티스토리판: {f}" for f in verify(var, fetch=a.fetch)["fail"]]
             if sim and (sim[0] > 0.35 or len(sim[1]) > 2):
                 problems.append(f"두 버전이 너무 비슷함 (유사도 {sim[0]:.2f})")
-        while not (hours[0] <= slot.hour < hours[1]):
-            slot = (slot + timedelta(hours=1)).replace(minute=0)
         fm = naver["fm"]
+        text = md.read_text(encoding="utf-8")
+        urgent = is_urgent(fm, text)
+        if not urgent:
+            while not (hours[0] <= slot.hour < hours[1]):
+                slot = (slot + timedelta(hours=1)).replace(minute=0)
         cards.append({
             "slug": slug, "category": fm_value(fm, "category"), "deadline": fm_value(fm, "deadline"),
-            "trend": fm_value(fm, "trend") or fm_value(fm, "cycle"), "slot": slot.strftime("%m/%d %H:%M"),
+            "trend": fm_value(fm, "trend") or fm_value(fm, "cycle"), "urgent": urgent,
+            "slot": "지금 바로" if urgent else slot.strftime("%m/%d %H:%M"), "todo": place_todos(text),
             "ok": not problems, "problems": problems, "manual": v["manual"], "style": s["score"],
             "similarity": round(sim[0], 2) if sim else None,
             "naver": {k: naver[k] for k in ("title", "html", "preview", "images", "tags")},
             "tistory": {k: tistory[k] for k in ("title", "html", "preview", "images", "tags")} if tistory else None,
         })
-        slot += timedelta(minutes=spacing)
+        if not urgent:
+            slot += timedelta(minutes=spacing)
 
     # ── 해외(미국 · Google Blogger) ── 영어 글 한 판, 추천 발행 시각은 미국 동부 시간
     us_cards = []
@@ -145,18 +169,26 @@ def main():
         v = verify(md, fetch=a.fetch)
         s = style_check(md)
         problems = list(v["fail"]) + [f"style: {f}" for f in s["fail"]]
-        while not (uh[0] <= uslot.hour < uh[1]):
-            uslot = (uslot + timedelta(hours=1)).replace(minute=0)
         fm = r["fm"]
+        text = md.read_text(encoding="utf-8")
+        urgent = is_urgent(fm, text)
+        if not urgent:
+            while not (uh[0] <= uslot.hour < uh[1]):
+                uslot = (uslot + timedelta(hours=1)).replace(minute=0)
         us_cards.append({
             "slug": md.stem, "category": fm_value(fm, "category"), "deadline": fm_value(fm, "deadline"),
-            "trend": fm_value(fm, "trend") or fm_value(fm, "cycle"),
-            "slot": uslot.strftime("%m/%d %H:%M") + " ET", "slot2": uslot.astimezone(KST).strftime("%m/%d %H:%M KST"),
+            "trend": fm_value(fm, "trend") or fm_value(fm, "cycle"), "urgent": urgent, "todo": [],
+            "slot": "지금 바로" if urgent else uslot.strftime("%m/%d %H:%M") + " ET",
+            "slot2": "" if urgent else uslot.astimezone(KST).strftime("%m/%d %H:%M KST"),
             "ok": not problems, "problems": problems, "manual": v["manual"], "style": s["score"], "similarity": None,
             "blogger": {k: r[k] for k in ("title", "html", "preview", "images", "tags", "description", "permalink")},
         })
-        uslot += timedelta(minutes=int(upub.get("spacing_minutes", 120)))
+        if not urgent:
+            uslot += timedelta(minutes=int(upub.get("spacing_minutes", 120)))
 
+    # 즉시 발행 글을 맨 위로 (나머지는 추천 시각 순서 그대로)
+    cards.sort(key=lambda c: not c["urgent"])
+    us_cards.sort(key=lambda c: not c["urgent"])
     data = {"kr": cards, "us": us_cards}
     page = TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")) \
                    .replace("__GENERATED__", now.strftime("%Y-%m-%d %H:%M")) \
@@ -209,6 +241,7 @@ main{padding:8px 0 80px}
 .title{font:700 1.15rem/1.4 "IBM Plex Sans KR",sans-serif;letter-spacing:-.02em;margin:6px 0 0;text-wrap:balance}
 .slot{text-align:right;font:500 12px/1.3 "IBM Plex Mono",monospace;color:var(--ink2)}
 .slot b{display:block;font-size:18px;color:var(--ink)}
+.slot.now{color:var(--ink)}.slot.now b{background:#7cc8ff;color:#0b0b0c;padding:2px 8px;margin-top:2px}
 .checks{margin:12px 0 0;padding:10px 12px;font-size:13px;background:var(--sky-soft)}
 .checks ul{margin:4px 0 0;padding-left:18px}
 .checks .bad{font-weight:700}
@@ -269,10 +302,11 @@ DATA.forEach(function(c){var isDone=done(c);if(filter==='todo'&&(isDone||!c.ok))
  var badge=c.ok?(c.manual.length?'<span class="badge warn">사람확인 '+c.manual.length+'</span>':'<span class="badge">검증통과</span>'):'<span class="badge warn">발행불가</span>';
  var top=el('div',{class:'top'});
  top.appendChild(el('div',{},'<div class="kick">'+badge+'<span>'+esc(c.category)+(c.deadline?' · 마감 '+esc(c.deadline):'')+(c.trend?' · '+esc(c.trend):'')+'</span></div><p class="title">'+esc(c[first].title)+'</p>'));
- top.appendChild(el('div',{class:'slot'},'추천 발행<b>'+esc(c.slot)+'</b>'+(c.slot2?esc(c.slot2):'')));card.appendChild(top);
+ top.appendChild(el('div',{class:'slot'+(c.urgent?' now':'')},(c.urgent?'즉시 발행':'추천 발행')+'<b>'+esc(c.slot)+'</b>'+(c.slot2?esc(c.slot2):'')));card.appendChild(top);
  var ck='문체 '+c.style+'점'+(region==='kr'?(c.similarity!=null?' · 두 버전 유사도 '+c.similarity:' · 티스토리판 없음'):'');
  if(c.problems.length)ck+='<ul>'+c.problems.map(function(p){return'<li class="bad">'+esc(p)+'</li>'}).join('')+'</ul>';
  if(c.manual.length)ck+='<ul>'+c.manual.map(function(p){return'<li>원문 직접 확인: '+esc(p)+'</li>'}).join('')+'</ul>';
+ if(c.todo&&c.todo.length)ck+='<ul>'+c.todo.map(function(p){return'<li>📍 '+esc(p)+'</li>'}).join('')+'</ul>';
  card.appendChild(el('div',{class:'checks'},ck));
  var tabs=el('div',{class:'tabs',role:'tablist'}),pane=el('div',{class:'pane'});
  PLAT[region].forEach(function(pp,i){var b=el('button',{role:'tab','aria-selected':i?'false':'true'},pp[1]);b.onclick=function(){tabs.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-selected',x===b)});show(pp[0])};tabs.appendChild(b)});

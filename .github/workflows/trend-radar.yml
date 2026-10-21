@@ -30,6 +30,8 @@ jobs:
       - name: 수집
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}          # 선택: 네이버 검색 API(블로그). 없으면 검색 화면에서 찾는다
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python3 automation/scripts/trend_radar.py --out /tmp/radar/latest.json --history /tmp/radar/history --prev /tmp/prev --evidence /tmp/radar/evidence
       - name: 수집 (미국 · Blogger)
         continue-on-error: true

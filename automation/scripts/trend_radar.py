@@ -230,6 +230,54 @@ def resolve_gnews(url, title=""):
     return None
 
 
+BLOG_POST = re.compile(r"(?:m\.)?blog\.naver\.com/([A-Za-z0-9_-]+)/(\d{9,})")
+
+
+def naver_blog_links(query, n=5):
+    """네이버 블로그 검색 → 글 주소 목록. NAVER_CLIENT_ID/SECRET(검색 API, GitHub secrets)이 있으면 API, 없으면 검색 화면."""
+    import evidence as ev
+    cid, sec = os.environ.get("NAVER_CLIENT_ID"), os.environ.get("NAVER_CLIENT_SECRET")
+    if cid and sec:
+        req = urllib.request.Request("https://openapi.naver.com/v1/search/blog.json?" + urllib.parse.urlencode(
+            {"query": query, "display": 20, "sort": "sim"}), headers={"X-Naver-Client-Id": cid, "X-Naver-Client-Secret": sec})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            raw = json.loads(r.read().decode("utf-8"))
+        hits = [(it.get("link", ""), strip_tags(it.get("title", ""))) for it in raw.get("items", [])]
+    else:
+        _, raw, ctype = ev.fetch("https://search.naver.com/search.naver?" + urllib.parse.urlencode(
+            {"ssc": "tab.blog.all", "query": query}))
+        txt = raw.decode("utf-8", errors="ignore")
+        hits = [(m.group(0), "") for m in BLOG_POST.finditer(txt)]
+    out, seen = [], set()
+    for link, title in hits:
+        m = BLOG_POST.search(link)
+        if not m or m.group(0) in seen:
+            continue  # 네이버 블로그 글만 (모바일 화면이 본문을 서버에서 그려 준다)
+        seen.add(m.group(0))
+        out.append((f"https://m.blog.naver.com/{m.group(1)}/{m.group(2)}", title))
+        if len(out) >= n:
+            break
+    return out
+
+
+def collect_blogs(query, out_dir, topic, n=5):
+    """블로그 글 원문을 수집본으로 저장 (kind=blog). 가게 이름·위치를 찾는 단서로만 쓰고, 사진은 받지 않는다."""
+    import evidence as ev
+    saved = 0
+    for url, title in naver_blog_links(query, n):
+        try:
+            final, raw, ctype = ev.fetch(url)
+            text = ev.html_to_text(raw, ctype)
+            if len(text) < 500:
+                continue
+            ev.save(out_dir, url, title or text[:60], text,
+                    {"requested_url": url, "topic": topic, "outlet": "네이버 블로그", "kind": "blog", "query": query})
+            saved += 1
+        except Exception as e:
+            print(f"  blog {url}: {e}"[:200], file=sys.stderr)
+    return saved
+
+
 def collect_evidence(ranked, out_dir, cfg):
     """작성 세션에서 막힌 원문을 Actions 가 대신 받아 둔다: 방송 맛집·급상승 후보의 기사 + 요청 URL."""
     import evidence as ev
@@ -262,6 +310,17 @@ def collect_evidence(ranked, out_dir, cfg):
             except Exception as e:
                 failed += 1
                 print(f"  evidence {real}: {e}", file=sys.stderr)
+    # 방송 맛집은 블로그 후기도 받아 둔다 (기사에 가게 이름이 없을 때 이름·위치를 찾는 단서)
+    for c in targets:
+        if c["source"] != "tv_food":
+            continue
+        day = c.get("published", "")[:10]
+        q = f"{c.get('program', '')} {int(day[5:7])}월 {int(day[8:10])}일 맛집" if len(day) == 10 else c["keyword"]
+        try:
+            saved += collect_blogs(q, out_dir, c["keyword"], int(cfg.get("blog_per_topic", 6)))
+        except Exception as e:
+            failed += 1
+            print(f"  blog search {q}: {e}"[:200], file=sys.stderr)
     # 캘린더 주제의 공식 누리집도 미리 받아 둔다 (미국 .gov 는 작성 세션에서 막혀 있음)
     if cfg.get("fetch_calendar_official"):
         for c in ranked:
@@ -278,6 +337,13 @@ def collect_evidence(ranked, out_dir, cfg):
     if req.exists():
         for line in req.read_text(encoding="utf-8").splitlines():
             u = line.split("#")[0].strip()
+            if u.startswith("blog:"):  # 'blog: 증평 짜글이 생방송투데이' → 네이버 블로그 검색 상위 글 수집
+                try:
+                    saved += collect_blogs(u[5:].strip(), out_dir, "블로그 요청: " + u[5:].strip())
+                except Exception as e:
+                    failed += 1
+                    print(f"  blog request {u}: {e}"[:200], file=sys.stderr)
+                continue
             if not u.startswith("http"):
                 continue
             try:

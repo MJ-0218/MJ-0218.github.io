@@ -30,7 +30,8 @@ python3 automation/scripts/evidence.py pull   # Actions 가 받아 둔 원문 �
 2. **실시간**(`/tmp/radar.json`의 candidates, `source != calendar`): `score ≥ config.writer.min_score`, `already_covered=false`, 공식 출처가 있는 생활 정보만. 사건·사고, 연예인 사생활, 의혹은 제외.
    - **급상승 우선**: `spike` 값이 있는 후보(직전 3시간보다 최근 1시간 기사 수가 2배 이상, 급상승 검색어 새 진입, 정책브리핑 인기뉴스 새 진입)는 캘린더보다 먼저 검토한다. 사람들이 지금 막 찾기 시작한 주제라 빨리 쓸수록 유입이 크다. 단, 공식 원문으로 사실을 확인하지 못하면 쓰지 않고 로그에 "급상승·원문 미확보"로 남긴다.
    - 급상승 검색어가 인물·사건이어도, 그와 연결된 **생활 정보**(신청 방법, 지급일, 일정, 계산법)가 공식 출처로 확인되면 그 정보 각도로 쓴다.
-   - **방송 맛집**(`source == tv_food`): 프로그램·방송일 하나가 후보 하나. `score ≥ 15`면 검토하고, 방송일이 3일 넘게 지났으면 건너뛴다. 쓰는 법은 writing-guide 1-4(가게마다 서로 다른 매체 2곳 교차 확인).
+   - **방송 맛집**(`source == tv_food`): 프로그램·방송일 하나가 후보 하나. `score ≥ 15`면 검토하고, 방송일이 3일 넘게 지났으면 건너뛴다. 쓰는 법은 writing-guide 1-4(가게마다 서로 다른 매체 2곳 교차 확인, 블로그 수집본 `evidence.py list blog.naver` 포함, 위치 못 찾은 가게는 장소 없이). 방송 당일에 올라가야 하니 가장 먼저 쓴다.
+   - 급상승(spike)으로 쓴 글은 front matter 에 `publish: now` → 대기함에서 즉시 발행으로 뜬다.
    - **급상승 이슈**(`spike` 있는 google_trends·google_news·korea_kr): 정부 정보가 아니어도 writing-guide 1-5 기준을 통과하면 `category: 이슈`로 쓴다.
 3. 이미 같은 주제의 글이 `_drafts/`·`_posts/`·열린 drafts PR에 있으면 건너뛴다.
 
