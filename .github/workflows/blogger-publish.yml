@@ -15,9 +15,12 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }   # 예약 기록(blogger_scheduled.json)이 들어간 최신 main 기준 — 중복 발행 방지
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -q pyyaml markdown
+      - name: 최신 예약 기록 받기
+        run: git pull -q --ff-only origin main
       - name: 예약 발행
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}

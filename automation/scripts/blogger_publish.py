@@ -130,6 +130,20 @@ def main():
 
     token = None if dry else access_token()
     blog = os.environ.get("BLOGGER_BLOG_ID", "")
+    existing = {}
+    if not dry and todo:
+        # 블로그에 이미 같은 제목 글(초안·예약·발행)이 있으면 새로 만들지 않는다 — 기록이 늦게 반영돼도 중복 방지
+        page = None
+        while True:
+            q = [("status", "draft"), ("status", "scheduled"), ("status", "live"), ("fetchBodies", "false"), ("maxResults", "50")]
+            if page:
+                q.append(("pageToken", page))
+            res = call(token, "GET", f"/blogs/{blog}/posts?" + urllib.parse.urlencode(q))
+            for it in res.get("items", []):
+                existing.setdefault(it.get("title", "").strip(), it)
+            page = res.get("nextPageToken")
+            if not page:
+                break
     changed, failed, done = False, False, 0
     for md, slug, fm, urgent in todo:
         r = render(md, site)
@@ -141,6 +155,14 @@ def main():
         label = "즉시" if when is None else when.strftime("%m/%d %H:%M ET")
         print(f"{'[계획] ' if dry else ''}{slug} → {label}  «{r['title']}»")
         if dry:
+            continue
+        same = existing.get(r["title"].strip())
+        if same and not (scheduled.get(slug) or {}).get("post_id"):
+            print(f"  = 이미 블로그에 같은 제목 글이 있음 ({same.get('status')}) — 새로 만들지 않고 기록만 맞춤")
+            scheduled[slug] = {"post_id": same["id"], "url": same.get("url", ""), "status": same.get("status", ""),
+                               "publish_at": same.get("published") or now.isoformat(timespec="minutes"),
+                               "scheduled_at": now.isoformat(timespec="minutes"), "adopted": True}
+            changed = True
             continue
         try:
             post_id = (scheduled.get(slug) or {}).get("post_id")
