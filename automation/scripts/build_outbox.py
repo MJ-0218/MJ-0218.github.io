@@ -156,9 +156,13 @@ def main():
     # ── 해외(미국 · Google Blogger) ── 영어 글 한 판, 추천 발행 시각은 미국 동부 시간
     us_cards = []
     upub = cfg.get("us_publish", {})
-    et = timezone(timedelta(hours=int(upub.get("timezone_offset", -5))))
+    from zoneinfo import ZoneInfo
+    et = ZoneInfo("America/New_York")  # 서머타임 반영 (Blogger 예약 시각과 같은 기준)
     uh = upub.get("hours", [6, 22])
     uslot = (datetime.now(et) + timedelta(hours=1)).replace(minute=0, second=0, microsecond=0)
+    # Blogger 자동 예약 발행 기록 (blogger-publish.yml) — 예약된 글은 그 시각을 보여 주고 '발행함'으로 친다
+    sched_p = ROOT / "automation" / "state" / "blogger_scheduled.json"
+    sched = json.loads(sched_p.read_text(encoding="utf-8")) if sched_p.exists() else {}
     for md in sorted((ROOT / "automation" / "global" / "drafts").glob("*.md")):
         asof = fm_value(split_front_matter(md.read_text(encoding="utf-8"))[0], "info_as_of")
         try:
@@ -173,18 +177,25 @@ def main():
         fm = r["fm"]
         text = md.read_text(encoding="utf-8")
         urgent = is_urgent(fm, text)
-        if not urgent:
+        bs = sched.get(md.stem)
+        if not urgent and not bs:
             while not (uh[0] <= uslot.hour < uh[1]):
                 uslot = (uslot + timedelta(hours=1)).replace(minute=0)
+        if bs:
+            pa = datetime.fromisoformat(bs["publish_at"])
+            slot_txt = pa.astimezone(et).strftime("%m/%d %H:%M") + " ET"
+            slot2_txt = pa.astimezone(KST).strftime("%m/%d %H:%M KST") + " · Blogger 자동"
+        else:
+            slot_txt = "지금 바로" if urgent else uslot.strftime("%m/%d %H:%M") + " ET"
+            slot2_txt = "" if urgent else uslot.astimezone(KST).strftime("%m/%d %H:%M KST")
         us_cards.append({
             "slug": md.stem, "category": fm_value(fm, "category"), "deadline": fm_value(fm, "deadline"),
             "trend": fm_value(fm, "trend") or fm_value(fm, "cycle"), "urgent": urgent, "todo": [],
-            "slot": "지금 바로" if urgent else uslot.strftime("%m/%d %H:%M") + " ET",
-            "slot2": "" if urgent else uslot.astimezone(KST).strftime("%m/%d %H:%M KST"),
+            "slot": slot_txt, "slot2": slot2_txt, "auto": bool(bs), "auto_url": (bs or {}).get("url", ""),
             "ok": not problems, "problems": problems, "manual": v["manual"], "style": s["score"], "similarity": None,
             "blogger": {k: r[k] for k in ("title", "html", "preview", "images", "tags", "description", "permalink")},
         })
-        if not urgent:
+        if not urgent and not bs:
             uslot += timedelta(minutes=int(upub.get("spacing_minutes", 120)))
 
     # 즉시 발행 글을 맨 위로 (나머지는 추천 시각 순서 그대로)
@@ -288,7 +299,8 @@ var HOWTO={kr:'네이버는 [본문 복사] 후 에디터에 붙여넣기, 티�
  us:'Blogger 새 글 → 연필 아이콘을 [HTML 보기]로 바꾸고 [HTML 복사] 붙여넣기 (또는 작성 보기에 [본문 복사]). 오른쪽 설정에서 라벨·검색 설명·맞춤 퍼머링크를 버튼으로 복사해 넣으면 돼요. 이미지는 Blogger에 직접 올려 주세요.'};
 // 발행 상태: 아티팩트 db(published/<slug>)에 저장 — 새로고침·재발행·다른 기기에서도 유지. db 를 못 쓰는 보기에서는 브라우저 저장소로만.
 var PUB={},DB=null;
-function isPub(slug,p){var d=PUB[slug];if(d&&Object.prototype.hasOwnProperty.call(d,p))return !!d[p];return store('pub:'+slug+':'+p)==='1'}
+var AUTO={};(ALL.us||[]).forEach(function(c){if(c.auto)AUTO[c.slug]=1});
+function isPub(slug,p){if(p==='blogger'&&AUTO[slug])return true;var d=PUB[slug];if(d&&Object.prototype.hasOwnProperty.call(d,p))return !!d[p];return store('pub:'+slug+':'+p)==='1'}
 var writing={};
 function setPub(slug,p,v){store('pub:'+slug+':'+p,v?'1':'0');var d=Object.assign({},PUB[slug]||{});d[p]=v;d.updated=new Date().toISOString();PUB[slug]=d;render();
  if(!DB){toast('이 보기에선 이 기기에만 저장돼요');return}
@@ -303,7 +315,7 @@ DATA.forEach(function(c){var isDone=done(c);if(filter==='todo'&&(isDone||!c.ok))
  var badge=c.ok?(c.manual.length?'<span class="badge warn">사람확인 '+c.manual.length+'</span>':'<span class="badge">검증통과</span>'):'<span class="badge warn">발행불가</span>';
  var top=el('div',{class:'top'});
  top.appendChild(el('div',{},'<div class="kick">'+badge+'<span>'+esc(c.category)+(c.deadline?' · 마감 '+esc(c.deadline):'')+(c.trend?' · '+esc(c.trend):'')+'</span></div><p class="title">'+esc(c[first].title)+'</p>'));
- top.appendChild(el('div',{class:'slot'+(c.urgent?' now':'')},(c.urgent?'즉시 발행':'추천 발행')+'<b>'+esc(c.slot)+'</b>'+(c.slot2?esc(c.slot2):'')));card.appendChild(top);
+ top.appendChild(el('div',{class:'slot'+(c.urgent?' now':'')},(c.urgent?'즉시 발행':(c.auto?'Blogger 예약':'추천 발행'))+'<b>'+esc(c.slot)+'</b>'+(c.slot2?esc(c.slot2):'')));card.appendChild(top);
  var ck='문체 '+c.style+'점'+(region==='kr'?(c.similarity!=null?' · 두 버전 유사도 '+c.similarity:' · 티스토리판 없음'):'');
  if(c.problems.length)ck+='<ul>'+c.problems.map(function(p){return'<li class="bad">'+esc(p)+'</li>'}).join('')+'</ul>';
  if(c.manual.length)ck+='<ul>'+c.manual.map(function(p){return'<li>원문 직접 확인: '+esc(p)+'</li>'}).join('')+'</ul>';

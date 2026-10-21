@@ -105,6 +105,6 @@ radar_us:
     Holidays: [holiday, daylight saving, thanksgiving, veterans day, christmas]
     Housing: [rent, mortgage, hud, housing]
 us_publish:
-  timezone_offset: -5                          # 미국 동부(ET) — 서머타임 무시한 대략값
+  timezone_offset: -5                          # (참고용) 실제 계산은 America/New_York 시간대로 서머타임 반영
   hours: [6, 22]                               # ET 기준 추천 발행 시간대
   spacing_minutes: 120

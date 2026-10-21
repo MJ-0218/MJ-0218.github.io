@@ -5,7 +5,8 @@
 새 요청을 받으면 여기에 한 줄 추가하고, 관련 가이드에도 반영한다.
 
 ## 1. 절대 하지 않는 것
-- 네이버·티스토리·Blogger 에 로그인하거나 자동 발행하지 않는다. 사람이 발행 대기함에서 복사해 직접 올린다.
+- 네이버·티스토리에는 로그인하거나 자동 발행하지 않는다(공식 API 없음 — 네이버 2020.5 종료, 티스토리 2024.2 종료, 매크로는 제재 위험). 사람이 발행 대기함에서 복사해 직접 올린다.
+- **Blogger(해외)는 공식 Blogger API 로 자동 예약 발행한다**(사용자 승인 2026-10-21): GitHub Actions `blogger-publish.yml` 이 검증 통과 글을 추천 시각(ET 6~22시, 120분 간격, 즉시 발행 글은 바로)에 예약하고 `automation/state/blogger_scheduled.json` 에 남긴다. 사람이 이미 올린 글(`automation/state/published.json`)은 건너뛴다. 비밀값은 GitHub Secrets 에만(채팅 금지).
 - 토큰·API 키·비밀번호를 채팅에 붙여 달라고 하지 않는다.
 - 지어낸 경험("직접 가 봤는데", "받아 봤는데")을 쓰지 않는다.
 - 방송 화면 캡처, 라이선스 없는 이미지, 공공누리 제2~4유형 자료의 캡처·문장 전재를 쓰지 않는다(사실만 새 문장으로).
@@ -42,6 +43,7 @@
 
 ## 6. 발행 대기함
 - 아티팩트 주소: `automation/state/outbox_url.txt`. 같은 주소로 재발행하고, 국내·해외 탭이 함께 갱신된다.
+- 매 실행: ① db `published` 전체를 `automation/state/published.json` 으로 내려 받아 커밋(Actions 가 중복 발행 안 하게) ② `blogger_scheduled.json` 에 있는데 db 에 blogger 체크가 없는 글은 db `published/<slug>` 에 `blogger: true` 로 체크.
 - 발행 체크(발행함)는 아티팩트 db(`published/<slug>` 문서)에 저장한다 — 새로고침·재발행 후에도 유지돼야 한다. 재발행할 때 `capabilities`를 빼면 기존 선언(db)이 유지된다.
 
 ## 7. 작업 방식

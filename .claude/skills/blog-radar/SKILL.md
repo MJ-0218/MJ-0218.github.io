@@ -128,4 +128,8 @@ python3 automation/scripts/verify_claims.py automation/global/drafts/us-<slug>.m
 python3 automation/scripts/style_check.py automation/global/drafts/us-<slug>.md
 ```
 - 대기함은 `build_outbox.py` 한 번으로 국내·해외 탭이 같이 갱신된다. 로그는 `automation/global/log/$NOW.md`.
+- **Blogger 자동 예약 발행** (`.github/workflows/blogger-publish.yml`, main 에 해외 초안이 올라가면·매시 40분 실행): 작성 세션은 직접 발행하지 않는다. 대신 매 실행에서
+  1. `ArtifactData list published` → `automation/state/published.json` 에 `{slug: {naver,tistory,blogger}}` 로 저장·커밋 (사람이 직접 올린 글을 Actions 가 건너뛰게)
+  2. `git show origin/main:automation/state/blogger_scheduled.json` 을 읽고, db 에 blogger 체크가 없는 slug 는 `ArtifactData update published/<slug> {blogger: true, blogger_auto: <publish_at>}` (없으면 set)
+  3. 대기함은 예약된 글을 "예약됨 MM/DD HH:MM ET · Blogger 자동"으로 보여 주고 발행함으로 친다
 - 새 글 알림은 국내·해외를 합쳐 "대기함에 새 글 N편 (국내 a · 해외 b)".
