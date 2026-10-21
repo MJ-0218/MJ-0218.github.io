@@ -86,7 +86,7 @@ def body_for(card):
 
 
 PAGE = """<!doctype html><html lang="ko"><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;700&family=IBM+Plex+Sans+Thai:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;700&family=IBM+Plex+Sans+Thai:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 /* 안내 표지판 — 흰 바탕, 먹색 글자, 하늘색은 면(面)으로만 */
 :root{--paper:#fff;--ink:#0b0b0c;--ink2:rgba(11,11,12,.66);--hair:rgba(11,11,12,.14);--sky:#7cc8ff}
@@ -127,11 +127,12 @@ def render(files):
             fm, slug = front_matter(f), slug_of(f)
             lang = fm.get("lang") or "ko"
             en = lang != "ko"
-            asof = (f'Last checked {fm["info_as_of"]}' if en else f'정보 기준일 {fm["info_as_of"]}') if fm.get("info_as_of") else ""
+            asof_label = {"ko": "정보 기준일", "hi": "जानकारी की तारीख", "vi": "Cập nhật", "id": "Diperbarui", "th": "อัปเดต", "zh-Hant": "資料日期"}.get(lang, "Last checked")
+            asof = f'{asof_label} {fm["info_as_of"]}' if fm.get("info_as_of") else ""
             site = (blog_name(f) or SITE_NAME_EN) if en else SITE_NAME
             base = PAGE.replace('lang="ko"', f'lang="{lang}"')
             if en:  # 라틴(베트남어 성조 포함)은 IBM Plex Sans, 태국어·번체는 같은 계열 글꼴로
-                base = base.replace('"IBM Plex Sans KR"', '"IBM Plex Sans","IBM Plex Sans Thai","Noto Sans TC","IBM Plex Sans KR"')
+                base = base.replace('"IBM Plex Sans KR"', '"IBM Plex Sans","IBM Plex Sans Thai","Noto Sans TC","Noto Sans Devanagari","IBM Plex Sans KR"')
             for cid, card in (fm.get("cards") or {}).items():
                 page = base.replace("__BODY__", body_for(card)).replace("__SITE__", e(site)).replace("__ASOF__", e(asof))
                 pg.set_content(page, wait_until="networkidle")

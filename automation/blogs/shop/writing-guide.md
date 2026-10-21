@@ -4,15 +4,16 @@ Seven blogs, one brand, one per country:
 
 | key | blog | language | links |
 |---|---|---|---|
-| ph | Humid Hours PH | English (Philippine usage) | our Shopee PH store + Lazada (when the affiliate ID is set) |
+| ph | Humid Hours PH | English (Philippine usage) | (our PH store: on hold — no products yet) + Lazada when set |
 | sg | Humid Hours SG | English (British spelling) | our Shopee SG store + Amazon.sg (when the Associates ID is set) |
 | my | Humid Hours MY | English (British spelling) | our Shopee MY store + Lazada |
 | vn | Humid Hours VN | Tiếng Việt | our Shopee VN store + Lazada |
-| id | Humid Hours ID | Bahasa Indonesia | our Shopee ID store + Lazada |
+| id | Humid Hours ID | Bahasa Indonesia | (no store of ours) Lazada when set — no store posts |
 | th | Humid Hours TH | ภาษาไทย | our Shopee TH store + Lazada |
 | tw | Humid Hours TW | 繁體中文 (Taiwan usage) | our Shopee TW store |
 
-`CLAUDE.md` overrides this file. Store links and affiliate IDs are in `automation/blogs/shop/products/<key>.yml` and `config.yml affiliates:`. **Do not put any store or affiliate link that isn't in those files.**
+`CLAUDE.md` overrides this file. Store URLs are in `automation/blogs/shop/products/stores.yml` (tw, th, sg, vn, my active; ph and mx on hold; id none), product lists in `products/<key>.yml` (fetched daily by `shopee-products.yml`), affiliate IDs in `config.yml affiliates:`.
+Every post goes through `automation/blogs/review.md` (two review passes + `blog_audit.py`). **Do not put any store or affiliate link that isn't in those files.**
 
 ## 0. Concept — why this blog exists
 Humid Hours is a beauty and everyday-living notebook for people who live in hot, humid weather. It's an independent curation blog, not a store page.
@@ -49,8 +50,9 @@ The angle that makes it ours: **climate + Korea**. We know Korean beauty and cul
 - Weather, haze and health facts need official sources (PAGASA, NEA/MSS, MetMalaysia, NCHMF, BMKG, TMD, CWA; health ministries).
 - K-Culture: two different outlets per fact (`source2`/`quote2`).
 
-## 4. Voice
+## 4. Voice — soft and friendly, like the Korean posts, in each country's popular-blogger style
 - A friendly, knowledgeable friend in that country. Light, practical, a little witty about the weather. Not a salesperson.
+- Per-country voice table (greetings, sentence endings, local words to use or avoid) is in `automation/blogs/review.md` 1차. Follow it.
 - Answer first. Short paragraphs (1–3 sentences). Lists and small tables are welcome.
 - Use the local language naturally. Vietnamese, Indonesian, Thai and Taiwanese-Mandarin posts must read like native blog posts, not translations. Prefer common words over formal ones, and use local units and currency (₫, Rp, ฿, NT$, ₱, S$, RM).
 - Emoji: at most 3, never in headings or tables.

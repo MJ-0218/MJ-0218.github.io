@@ -59,10 +59,15 @@ def render(md_path, site):
     if asof:
         h += f'<p style="{STYLE["p"]}color:#777;font-size:14px;">정보 기준일: {html.escape(asof)}</p>'
     en = lang != "ko"  # 영어·베트남어·태국어 … — Blogger 글 (라벨, 영문 꼬리말)
-    if asof and en:
-        h = h.replace(f"정보 기준일: {html.escape(asof)}", f"Last checked: {html.escape(asof)}")
-    if src and en:
-        h = h.replace("<b>출처</b>", "<b>Sources</b>")
+    # 글 끝 꼬리말: 언어별 (출처, 정보 기준일)
+    FOOT = {"en": ("Sources", "Last checked"), "hi": ("स्रोत", "जानकारी की तारीख"), "vi": ("Nguồn", "Cập nhật"),
+            "id": ("Sumber", "Diperbarui"), "th": ("แหล่งที่มา", "อัปเดต"), "zh-Hant": ("資料來源", "資料日期")}
+    if en:
+        src_l, asof_l = FOOT.get(lang, FOOT["en"])
+        if asof:
+            h = h.replace(f"정보 기준일: {html.escape(asof)}", f"{asof_l}: {html.escape(asof)}")
+        if src:
+            h = h.replace("<b>출처</b>", f"<b>{src_l}</b>")
     # 블로그 태그는 띄어쓰기 없이 (Blogger 라벨은 띄어쓰기 허용)
     tags = [str(t).strip() for t in fm_list(fm, "labels")] if en else [re.sub(r"\s+", "", str(t)) for t in fm_list(fm, "tags")]
     # 이미지: 복사용 본문은 사이트 절대주소, 대기함 미리보기·이미지 복사 버튼은 data URI (아티팩트는 외부 이미지를 못 불러옴)

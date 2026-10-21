@@ -117,7 +117,7 @@ us_publish:
 blogs:
   us: { secret: BLOGGER_BLOG_ID,    kind: news, lang: en, tz: America/New_York,  hours: [6, 22], spacing_minutes: 120, per_day: 0,
         drafts: automation/global/drafts, state: automation/state/blogger_scheduled.json, label: "미국" }
-  in: { secret: BLOGGER_BLOG_ID_IN, kind: news, lang: en, tz: Asia/Kolkata,      hours: [7, 23], spacing_minutes: 180, per_day: 5,
+  in: { secret: BLOGGER_BLOG_ID_IN, kind: news, lang: en, langs: { en: 5, hi: 3 }, tz: Asia/Kolkata, hours: [7, 23], spacing_minutes: 120, per_day: 8,
         drafts: automation/blogs/in/drafts, state: automation/state/blogger_scheduled_in.json, label: "인도" }
   ph: { secret: BLOGGER_BLOG_ID_PH, kind: shop, lang: en, tz: Asia/Manila,       hours: [8, 23], spacing_minutes: 210, per_day: 4,
         drafts: automation/blogs/ph/drafts, state: automation/state/blogger_scheduled_ph.json, label: "필리핀" }

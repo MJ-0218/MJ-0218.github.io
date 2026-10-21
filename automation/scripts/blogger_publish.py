@@ -178,6 +178,13 @@ def run_blog(key, bc, cfg, now, budget, dry_all, published):
         if v["fail"] or s["fail"]:
             print(f"건너뜀 {slug}: 검증 실패 {v['fail'][:2]} {s['fail'][:2]}")
             continue
+        if key != "us":  # 인도·쇼피 블로그는 재검토(링크 허용 목록·효능 표현·미확정 표시·유사 글)도 통과해야 한다
+            from blog_audit import post_issues
+            same_lang = [p for p in drafts if p != md and fm_value(split_front_matter(p.read_text(encoding="utf-8"))[0], "lang") == fm_value(fm, "lang")]
+            issues, _ = post_issues(md, key, bc, cfg, same_lang[-30:])
+            if issues:
+                print(f"건너뜀 {slug}: 재검토 문제 {issues[:2]}")
+                continue
         todo.append((md, slug, fm, is_urgent(fm, text)))
     todo.sort(key=lambda x: not x[3])  # 즉시 발행 글 먼저
     if not todo:

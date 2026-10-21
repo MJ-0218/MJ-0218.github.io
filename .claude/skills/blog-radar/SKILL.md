@@ -157,19 +157,24 @@ for m in in ph sg my vn id th tw; do git show origin/radar-data:trends/$m/latest
 남은 편수만큼만 쓴다. 한 실행에서 블로그마다 1~2편씩 나눠 쓰면 하루에 고르게 채워진다(매시간 실행).
 
 ## B1. 인도 (THE TREND DESK_IN) — `automation/blogs/in/writing-guide.md`
-- 하루 4~5편. 이슈·생활 정보(애드센스형): 급상승(`/tmp/radar_in.json` spike) → 캘린더(`calendar_due.py --market in`) 순.
+- 하루 영어 4~5편 + 힌디어 2~3편(`langs`). 힌디어는 `lang: hi`, slug `in-hi-…`, 같은 날 영어 글 번역 금지(힌디 검색 수요 주제로 새로).
+- 이슈·생활 정보(애드센스형): 급상승(`/tmp/radar_in.json` spike) → 캘린더(`calendar_due.py --market in`) 순.
 - 초안 `automation/blogs/in/drafts/in-<slug>.md` (front matter `lang: en`, `blog: in`), claims `automation/claims/in-<slug>.yml`.
 - 정부 제도·세금·은행·시험·날씨는 공식 출처(.gov.in·.nic.in·rbi.org.in·npci.org.in·nta.ac.in) 필수. 트렌딩은 매체 2곳.
 
 ## B2. 쇼피 국가별 (Humid Hours PH·SG·MY·VN·ID·TH·TW) — `automation/blogs/shop/writing-guide.md`
 - 블로그마다 하루 3~4편. 뷰티 노하우 · 생활 정보 · K-컬처 · 추천(Picks) · 세일(Deals)을 섞는다. 같은 종류 연달아 금지.
-- **우리 스토어 상품 글은 블로그당 하루 1편 이하**, 추천 목록에서도 절반 이하. 상품·링크는 `automation/blogs/shop/products/<key>.yml` 에 있는 것만(없으면 스토어 글은 쓰지 않는다). 제휴 링크는 `config.yml affiliates` 가 채워진 것만.
+- **우리 스토어 상품 글은 블로그당 하루 1편 이하**, 추천 목록에서도 절반 이하. 스토어 주소는 `products/stores.yml`(대만·태국·싱가포르·베트남·말레이시아 / 필리핀·멕시코 보류 / 인도네시아 없음), 상품은 `products/<key>.yml`(매일 Actions 가 받음) 에 있는 것만. 상품 목록이 비어 있으면 스토어 글은 쓰지 않는다. 제휴 링크는 `config.yml affiliates` 가 채워진 것만.
 - 쇼핑·제휴 링크가 있으면 추천 바로 앞에 관계 공개 한 줄(가이드 2절 문구). 써 보지 않은 제품 후기·효능 주장 금지.
 - 언어: PH·SG·MY 영어, VN 베트남어, ID 인도네시아어, TH 태국어, TW 번체 중국어. 나라끼리 번역·복사 금지, 영어 블로그끼리 `similarity_check.py` 0.35 이하.
 - 초안 `automation/blogs/<key>/drafts/<key>-<slug>.md` (front matter `lang`, `blog: <key>`), claims `automation/claims/<key>-<slug>.yml`.
 - 레이더: `/tmp/radar_<key>.json` (그 나라 구글 급상승·뉴스). K-컬처는 매체 2곳 교차, 날씨·건강은 그 나라 공식 기관.
 
-## B3. 카드·검증·커밋
+## B3. 재검토 (모든 글) — `automation/blogs/review.md`
+1차 말투(나라별 인기 블로거 말투 표), 2차 독자·사실·정책(효능 주장·관계 공개·링크 허용 목록·스토어 비율·애드센스 정책) → `blog_audit.py <글>`.
+실행 끝에 인자 없이 `python3 automation/scripts/blog_audit.py` 로 최근 14일 글 전체 재검토. Actions 발행 단계도 같은 검사를 통과한 글만 예약한다.
+
+## B4. 카드·검증·커밋
 ```bash
 python3 automation/scripts/make_cards.py automation/blogs/<key>/drafts/<key>-<slug>.md
 python3 automation/scripts/verify_claims.py automation/blogs/<key>/drafts/<key>-<slug>.md --fetch

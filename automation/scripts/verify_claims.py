@@ -81,7 +81,7 @@ TOKEN_RES_EN = [
 TOKEN_RE_EN = re.compile("|".join(f"(?:{r})" for r in TOKEN_RES_EN), re.I)
 # 그 밖의 언어(베트남어·인도네시아어·태국어·번체 중국어): 통화·비율이 붙은 숫자와 두 자리 이상 숫자는 전부 사실 토큰으로 본다
 TOKEN_RE_ANY = re.compile(
-    r"(?:₫|đ|Rp\.?|฿|NT\$|\$|₱|RM|S\$)\s?\d[\d.,]*|\d[\d.,]*\s?(?:%|₫|đồng|VND|bath|บาท|元|萬|万|triệu|juta|ribu|nghìn)?(?<=\S)"
+    r"(?:₫|đ|Rp\.?|฿|NT\$|\$|₱|RM|S\$|₹|रु\.?)\s?\d[\d.,]*|\d[\d.,]*\s?(?:%|₫|đồng|VND|bath|บาท|元|萬|万|triệu|juta|ribu|nghìn|लाख|करोड़|रुपये)?(?<=\S)"
     , re.I)
 
 

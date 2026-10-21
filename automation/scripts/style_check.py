@@ -176,6 +176,7 @@ FAKE_EXPERIENCE_INTL = {
     "id": ["saya sudah mencoba", "aku sudah coba", "saya coba pakai"],
     "th": ["ลองใช้แล้ว", "ฉันได้ลอง", "เราลองใช้"],
     "zh-Hant": ["我試用了", "親自試用", "我用了之後"],
+    "hi": ["मैंने खुद", "मैंने इस्तेमाल किया", "मैंने ट्राई किया"],
 }
 
 

@@ -5,8 +5,16 @@ The method is the same as the US blog (calendar + live radar + quote-level fact 
 `CLAUDE.md` overrides this file.
 
 ## 0. How many and when
-- **4–5 posts a day** (config `blogs.in.per_day: 5`). Count today's drafts in `automation/blogs/in/drafts/` by `info_as_of` (IST date) before writing. Stop at 5.
-- Actions schedules them automatically: IST 07:00–23:00, about 3 hours apart. Breaking topics (`publish: now`) go out right away.
+- **English 4–5 + Hindi 2–3 posts a day** (config `blogs.in.langs: {en: 5, hi: 3}`, `per_day: 8`). Count today's drafts in `automation/blogs/in/drafts/` by `info_as_of` (IST date) and `lang` before writing.
+- Actions schedules them automatically: IST 07:00–23:00, about 2 hours apart. Breaking topics (`publish: now`) go out right away.
+- Every post goes through `automation/blogs/review.md` (two review passes + `blog_audit.py`).
+
+## 0-1. Hindi posts (हिंदी)
+- Same blog, `lang: hi`, slug `in-hi-<slug>`, label `हिंदी` plus topic labels in Hindi.
+- Hindi readers search different things: PM-KISAN, राशन कार्ड, आयुष्मान कार्ड, LPG दाम, बैंक छुट्टी, बोर्ड परीक्षा, मौसम अलर्ट. Pick topics with Hindi search demand. Don't just translate the English post of the same day. Write it fresh for Hindi readers (own title, order, examples).
+- Voice: like popular Hindi info blogs. Open with "नमस्ते दोस्तों," then the answer. आप (respectful), everyday spoken Hindi, short sentences. Keep official English terms (PM-KISAN, e-KYC, ITR, UPI) and explain them once in Hindi.
+- Numbers: Western digits with ₹ and लाख/करोड़ ("₹2,000", "9.7 करोड़ किसान"). Dates like "19 नवंबर 2026".
+- Sign-off: "उम्मीद है यह जानकारी आपके काम आएगी। अपना ख्याल रखें!" style, one line. No "इस लेख में हम जानेंगे" filler.
 
 ## 1. What to write (priority order)
 1. **Spikes**: `trends/in/latest.json` candidates with `spike` (Google Trends IN, Google News IN). Only when the topic has a practical "what do I need to know/do" angle: a date, an amount, a rule, a deadline or a how-to.
@@ -23,8 +31,8 @@ Cricket and entertainment spikes are OK only as schedule/ticket/where-to-watch f
 - Amounts in ₹ with Indian grouping (₹1,50,000 or ₹1.5 lakh). The fact checker reads ₹/Rs/INR, lakh and crore.
 - If a scheme amount or date is "expected", "likely" or "reported", say so in the title and the first paragraph ("expected, not yet notified"). Never present a rumour as official.
 
-## 3. Voice
-- Indian English for Indian readers: clear, warm, practical. Spell the way Indian outlets do (colour, programme; "lakh/crore").
+## 3. Voice — soft and friendly, like the Korean posts
+- Indian English for Indian readers: warm, gentle, practical — like a helpful friend, the way popular Indian info bloggers write. A light "Hello friends!" opening is fine. Spell the way Indian outlets do (colour, programme; "lakh/crore").
 - Answer first. The first two sentences give the date, amount or step the reader searched for.
 - Short paragraphs (1–3 sentences). Mix short and long sentences. Contractions are fine.
 - Explain official terms once in plain words (e.g. "e-KYC — the online identity check").
