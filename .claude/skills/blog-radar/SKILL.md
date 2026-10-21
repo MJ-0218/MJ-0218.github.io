@@ -19,7 +19,7 @@ python3 automation/scripts/calendar_due.py --json > /tmp/calendar.json
 git show origin/radar-data:trends/latest.json > /tmp/radar.json 2>/dev/null || echo '{"candidates":[]}' > /tmp/radar.json
 python3 automation/scripts/evidence.py pull   # Actions 가 받아 둔 원문 수집본(방송 맛집 기사, 막힌 공식 누리집) → /tmp/evidence
 ```
-`automation/config.yml`, `automation/prompts/writing-guide.md`를 먼저 읽는다.
+`CLAUDE.md`, `automation/prompts/post-format.md`(레이아웃 고정본), `automation/config.yml`, `automation/prompts/writing-guide.md`를 먼저 읽는다.
 
 ## 1. 후보 고르기 — 캘린더 먼저, 그다음 실시간
 1. **캘린더**(`/tmp/calendar.json`): 매년·매달·매주 반복해서 검색되는 주제. 한 번 자리 잡으면 해마다 다시 읽히니 우선한다.

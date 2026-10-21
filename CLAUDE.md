@@ -1,7 +1,7 @@
 # 셈터 — 사용자 요청 사항 (항상 지킬 것)
 
 이 파일은 사용자가 대화에서 직접 요청한 규칙을 한곳에 모은 것이다. 모든 세션(매시간 예약 실행 포함)이 먼저 읽는다.
-세부 방법은 `.claude/skills/blog-radar/SKILL.md`, `automation/prompts/writing-guide.md`(국내), `automation/global/writing-guide-en.md`(해외)에 있고, 이 파일과 부딪히면 이 파일이 우선한다.
+**글 레이아웃·형식의 고정본은 `automation/prompts/post-format.md`** — 매 실행마다 이 파일대로 써서 글 모양을 일관되게 유지한다. 세부 방법은 `.claude/skills/blog-radar/SKILL.md`, `automation/prompts/writing-guide.md`(국내), `automation/global/writing-guide-en.md`(해외)에 있고, 이 파일과 부딪히면 이 파일이 우선한다.
 새 요청을 받으면 여기에 한 줄 추가하고, 관련 가이드에도 반영한다.
 
 ## 1. 절대 하지 않는 것
