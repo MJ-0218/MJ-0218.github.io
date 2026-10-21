@@ -38,7 +38,7 @@ MEDICAL = {
     "zh-Hant": [r"治療(?:痘痘|青春痘|黑斑)", r"根治", r"永久美白", r"保證美白"],
     "hi": [r"इलाज", r"पूरी तरह ठीक"],
 }
-TENTATIVE = re.compile(r"\b(expected|likely|reportedly|tentative|proposed)\b|संभावित|उम्मीद", re.I)
+TENTATIVE = re.compile(r"\b(expected|likely|reportedly|tentative|proposed)\b|संभावित|अनुमानित", re.I)
 
 
 def load(p):
