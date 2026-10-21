@@ -19,7 +19,9 @@ import json
 import os
 import sys
 import urllib.parse
+import urllib.error
 import urllib.request
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -51,13 +53,28 @@ def access_token():
         return json.loads(r.read())["access_token"]
 
 
+class ApiError(Exception):
+    pass
+
+
 def call(token, method, path, params=None, body=None):
+    """429·5xx 는 30초·90초·180초 쉬고 다시 시도한다. 실패하면 Google 이 돌려준 오류 내용을 그대로 보여 준다."""
     url = f"{API}{path}" + (("?" + urllib.parse.urlencode(params)) if params else "")
     data = json.dumps(body).encode() if body is not None else (b"" if method == "POST" else None)
-    req = urllib.request.Request(url, data=data, method=method,
-                                 headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read() or b"{}")
+    for wait in (30, 90, 180, None):
+        req = urllib.request.Request(url, data=data, method=method,
+                                     headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.loads(r.read() or b"{}")
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode("utf-8", "replace")[:1500]
+            print(f"  ! {method} {path} → HTTP {e.code}: {detail}")
+            if e.code in (429, 500, 502, 503) and wait:
+                print(f"  … {wait}초 뒤 다시 시도")
+                time.sleep(wait)
+                continue
+            raise ApiError(f"HTTP {e.code}: {detail}") from None
 
 
 def next_slot(after, hours, spacing):
@@ -93,8 +110,10 @@ def main():
     todo = []
     for md in sorted((ROOT / "automation" / "global" / "drafts").glob("*.md")):
         slug = md.stem
-        if slug in scheduled or (published.get(slug) or {}).get("blogger"):
+        if (published.get(slug) or {}).get("blogger"):
             continue
+        if slug in scheduled and scheduled[slug].get("status") != "DRAFT":
+            continue  # DRAFT = 초안만 만들고 예약 단계에서 멈춘 글 → 같은 초안으로 다시 예약
         text = md.read_text(encoding="utf-8")
         fm, _ = split_front_matter(text)
         asof = fm_value(fm, "info_as_of")
@@ -111,7 +130,7 @@ def main():
 
     token = None if dry else access_token()
     blog = os.environ.get("BLOGGER_BLOG_ID", "")
-    changed = False
+    changed, failed, done = False, False, 0
     for md, slug, fm, urgent in todo:
         r = render(md, site)
         if urgent:
@@ -123,18 +142,33 @@ def main():
         print(f"{'[계획] ' if dry else ''}{slug} → {label}  «{r['title']}»")
         if dry:
             continue
-        post = call(token, "POST", f"/blogs/{blog}/posts", {"isDraft": "true"},
-                    {"kind": "blogger#post", "title": r["title"], "content": r["html"], "labels": r["tags"]})
-        params = {"publishDate": when.isoformat()} if when else None
-        pub = call(token, "POST", f"/blogs/{blog}/posts/{post['id']}/publish", params)
-        scheduled[slug] = {"post_id": post["id"], "url": pub.get("url", ""), "status": pub.get("status", ""),
+        try:
+            post_id = (scheduled.get(slug) or {}).get("post_id")
+            if not post_id:
+                post = call(token, "POST", f"/blogs/{blog}/posts", {"isDraft": "true"},
+                            {"kind": "blogger#post", "title": r["title"], "content": r["html"], "labels": r["tags"]})
+                post_id = post["id"]
+                # 초안까지 만든 것을 먼저 남겨 두어 다음 실행에서 중복 초안을 만들지 않는다
+                scheduled[slug] = {"post_id": post_id, "status": "DRAFT", "scheduled_at": now.isoformat(timespec="minutes")}
+                changed = True
+            params = {"publishDate": when.isoformat()} if when else None
+            pub = call(token, "POST", f"/blogs/{blog}/posts/{post_id}/publish", params)
+        except ApiError as e:
+            print(f"중단 {slug}: {e} — 남은 글은 다음 실행(매시 40분)에서 이어서 한다")
+            failed = True
+            break
+        scheduled[slug] = {"post_id": post_id, "url": pub.get("url", ""), "status": pub.get("status", ""),
                            "publish_at": (when or now).astimezone(timezone.utc).isoformat(timespec="minutes"),
                            "scheduled_at": now.isoformat(timespec="minutes")}
         changed = True
+        done += 1
+        time.sleep(5)  # 요청 사이 간격
     if changed:
         SCHEDULED.parent.mkdir(parents=True, exist_ok=True)
         SCHEDULED.write_text(json.dumps(scheduled, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"예약 {0 if dry else len(todo)}편 · 대상 {len(todo)}편")
+    print(f"예약 {done}편 · 대상 {len(todo)}편")
+    if failed:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

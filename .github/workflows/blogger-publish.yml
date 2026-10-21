@@ -26,6 +26,7 @@ jobs:
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
         run: python3 automation/scripts/blogger_publish.py
       - name: 예약 기록 저장
+        if: always()
         run: |
           git config user.name "semter-blogger"
           git config user.email "blogger@users.noreply.github.com"
