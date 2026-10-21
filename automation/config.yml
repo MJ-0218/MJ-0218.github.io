@@ -108,3 +108,31 @@ us_publish:
   timezone_offset: -5                          # (참고용) 실제 계산은 America/New_York 시간대로 서머타임 반영
   hours: [6, 22]                               # ET 기준 추천 발행 시간대
   spacing_minutes: 120
+
+# ── Blogger 블로그 목록 (blogger-publish.yml 이 차례로 돈다) ───────────────────
+# secret: 블로그 ID 가 들어 있는 GitHub Secret 이름 (OAuth 3개는 모든 블로그가 같이 씀 — 같은 구글 계정)
+# per_day: 그 나라 날짜 기준 하루 최대 발행 편수 (0 = 제한 없음). 작성 세션도 이 수만큼만 쓴다
+# hours/spacing_minutes: 그 나라 시간 기준 추천 발행 시간대와 간격
+# kind: news(이슈·생활 정보, 애드센스형) | shop(뷰티·생활 큐레이션 + 쇼피·제휴 링크)
+blogs:
+  us: { secret: BLOGGER_BLOG_ID,    kind: news, lang: en, tz: America/New_York,  hours: [6, 22], spacing_minutes: 120, per_day: 0,
+        drafts: automation/global/drafts, state: automation/state/blogger_scheduled.json, label: "미국" }
+  in: { secret: BLOGGER_BLOG_ID_IN, kind: news, lang: en, tz: Asia/Kolkata,      hours: [7, 23], spacing_minutes: 180, per_day: 5,
+        drafts: automation/blogs/in/drafts, state: automation/state/blogger_scheduled_in.json, label: "인도" }
+  ph: { secret: BLOGGER_BLOG_ID_PH, kind: shop, lang: en, tz: Asia/Manila,       hours: [8, 23], spacing_minutes: 210, per_day: 4,
+        drafts: automation/blogs/ph/drafts, state: automation/state/blogger_scheduled_ph.json, label: "필리핀" }
+  sg: { secret: BLOGGER_BLOG_ID_SG, kind: shop, lang: en, tz: Asia/Singapore,    hours: [8, 23], spacing_minutes: 210, per_day: 4,
+        drafts: automation/blogs/sg/drafts, state: automation/state/blogger_scheduled_sg.json, label: "싱가포르" }
+  my: { secret: BLOGGER_BLOG_ID_MY, kind: shop, lang: en, tz: Asia/Kuala_Lumpur, hours: [8, 23], spacing_minutes: 210, per_day: 4,
+        drafts: automation/blogs/my/drafts, state: automation/state/blogger_scheduled_my.json, label: "말레이시아" }
+  vn: { secret: BLOGGER_BLOG_ID_VN, kind: shop, lang: vi, tz: Asia/Ho_Chi_Minh,  hours: [8, 23], spacing_minutes: 210, per_day: 4,
+        drafts: automation/blogs/vn/drafts, state: automation/state/blogger_scheduled_vn.json, label: "베트남" }
+  id: { secret: BLOGGER_BLOG_ID_ID, kind: shop, lang: id, tz: Asia/Jakarta,      hours: [8, 23], spacing_minutes: 210, per_day: 4,
+        drafts: automation/blogs/id/drafts, state: automation/state/blogger_scheduled_id.json, label: "인도네시아" }
+  th: { secret: BLOGGER_BLOG_ID_TH, kind: shop, lang: th, tz: Asia/Bangkok,      hours: [8, 23], spacing_minutes: 210, per_day: 4,
+        drafts: automation/blogs/th/drafts, state: automation/state/blogger_scheduled_th.json, label: "태국" }
+  tw: { secret: BLOGGER_BLOG_ID_TW, kind: shop, lang: zh-Hant, tz: Asia/Taipei,  hours: [8, 23], spacing_minutes: 210, per_day: 4,
+        drafts: automation/blogs/tw/drafts, state: automation/state/blogger_scheduled_tw.json, label: "대만" }
+blogger_run:
+  max_new_per_run: 8      # 한 번 실행에서 새로 만드는 글 수 (429 방지). 남은 글은 다음 시간에
+  pause_seconds: 20       # 글 사이 쉬는 시간

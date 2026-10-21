@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Blogger 중복 글 정리 — 자동 예약으로 같은 제목 글이 여러 개 생겼을 때 하나만 남기고 지운다.
 
-- 대상: automation/state/blogger_scheduled.json 에 있는 글(자동 발행한 글)의 제목만. 사람이 직접 올린 글은 건드리지 않는다.
+- 대상: 블로그별 예약 기록(config.yml blogs.<키>.state)에 있는 글(자동 발행한 글)의 제목만. 사람이 직접 올린 글은 건드리지 않는다.
 - 남기는 글: 기록에 있는 post_id. 기록 글이 블로그에 없으면 가장 먼저 만든 글.
 - 기본은 확인만(--apply 를 줘야 실제로 삭제).
-  python3 automation/scripts/blogger_dedupe.py [--apply]
+  python3 automation/scripts/blogger_dedupe.py [--blog us] [--apply]
 """
 import argparse
 import json
@@ -14,7 +14,8 @@ import urllib.parse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from blogger_publish import SCHEDULED, access_token, call, render, ROOT  # noqa: E402
+import yaml
+from blogger_publish import access_token, blogs_config, call, render, ROOT  # noqa: E402
 
 
 def all_posts(token, blog):
@@ -33,13 +34,16 @@ def all_posts(token, blog):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--blog", default="us")
     a = ap.parse_args()
-    blog = os.environ["BLOGGER_BLOG_ID"]
+    bc = blogs_config(yaml.safe_load((ROOT / "automation" / "config.yml").read_text(encoding="utf-8")))[a.blog]
+    blog = os.environ[bc["secret"]]
+    SCHEDULED = ROOT / bc["state"]
     token = access_token()
-    scheduled = json.loads(SCHEDULED.read_text(encoding="utf-8"))
+    scheduled = json.loads(SCHEDULED.read_text(encoding="utf-8")) if SCHEDULED.exists() else {}
     titles = {}
     for slug, rec in scheduled.items():
-        md = ROOT / "automation" / "global" / "drafts" / f"{slug}.md"
+        md = ROOT / bc["drafts"] / f"{slug}.md"
         if md.exists():
             titles[render(md, "").get("title", "").strip()] = (slug, rec.get("post_id"))
     posts = all_posts(token, blog)

@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       apply: { description: "true 면 실제 삭제", required: false, default: "false" }
+      blog: { description: "블로그 키 (us, in, ph, sg, my, vn, id, th, tw)", required: false, default: "us" }
 concurrency: { group: blogger-publish, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
@@ -22,13 +23,21 @@ jobs:
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
-        run: python3 automation/scripts/blogger_dedupe.py ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
+          BLOGGER_BLOG_ID_IN: ${{ secrets.BLOGGER_BLOG_ID_IN }}
+          BLOGGER_BLOG_ID_PH: ${{ secrets.BLOGGER_BLOG_ID_PH }}
+          BLOGGER_BLOG_ID_SG: ${{ secrets.BLOGGER_BLOG_ID_SG }}
+          BLOGGER_BLOG_ID_MY: ${{ secrets.BLOGGER_BLOG_ID_MY }}
+          BLOGGER_BLOG_ID_VN: ${{ secrets.BLOGGER_BLOG_ID_VN }}
+          BLOGGER_BLOG_ID_ID: ${{ secrets.BLOGGER_BLOG_ID_ID }}
+          BLOGGER_BLOG_ID_TH: ${{ secrets.BLOGGER_BLOG_ID_TH }}
+          BLOGGER_BLOG_ID_TW: ${{ secrets.BLOGGER_BLOG_ID_TW }}
+        run: python3 automation/scripts/blogger_dedupe.py --blog ${{ github.event.inputs.blog || 'us' }} ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
       - name: 기록 저장
         if: always()
         run: |
           git config user.name "semter-blogger"
           git config user.email "blogger@users.noreply.github.com"
-          if [ -n "$(git status --porcelain automation/state/blogger_scheduled.json)" ]; then
-            git add automation/state/blogger_scheduled.json && git commit -m "blogger: 중복 정리 기록"
+          if [ -n "$(git status --porcelain automation/state/)" ]; then
+            git add automation/state/ && git commit -m "blogger: 중복 정리 기록"
             for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
           fi
