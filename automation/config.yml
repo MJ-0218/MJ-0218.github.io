@@ -140,6 +140,8 @@ blogger_run:
 # ── 인도 · 쇼피 국가별 레이더 (trend-radar.yml 이 30분마다 함께 돈다 → radar-data trends/<market>/) ─────
 radar_in:
   geo: IN
+  fetch_calendar_official: true                       # 작성 세션에서 인도 사이트가 막혀 있어 Actions 가 미리 받아 둔다
+  fetch_requests: automation/blogs/in/fetch_requests.txt
   news_locale: { hl: en-IN, gl: IN, ceid: "IN:en" }
   sources: [calendar, google_trends, google_news]
   evidence_topics: 15
@@ -157,6 +159,7 @@ radar_in:
     Weather: [imd, cyclone, rain alert, heatwave, monsoon]
 radar_ph:
   geo: PH
+  fetch_requests: automation/blogs/ph/fetch_requests.txt
   news_locale: { hl: en-PH, gl: PH, ceid: "PH:en" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -168,6 +171,7 @@ radar_ph:
     Deals: [shopee, lazada, 11.11, 12.12, payday sale, sale, voucher]
 radar_sg:
   geo: SG
+  fetch_requests: automation/blogs/sg/fetch_requests.txt
   news_locale: { hl: en-SG, gl: SG, ceid: "SG:en" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -175,6 +179,7 @@ radar_sg:
   categories: *shopcats_en
 radar_my:
   geo: MY
+  fetch_requests: automation/blogs/my/fetch_requests.txt
   news_locale: { hl: en-MY, gl: MY, ceid: "MY:en" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -182,6 +187,7 @@ radar_my:
   categories: *shopcats_en
 radar_vn:
   geo: VN
+  fetch_requests: automation/blogs/vn/fetch_requests.txt
   news_locale: { hl: vi, gl: VN, ceid: "VN:vi" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -193,6 +199,7 @@ radar_vn:
     Deals: [shopee, lazada, 11.11, 12.12, sale, voucher, khuyến mãi]
 radar_id:
   geo: ID
+  fetch_requests: automation/blogs/id/fetch_requests.txt
   news_locale: { hl: id, gl: ID, ceid: "ID:id" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -204,6 +211,7 @@ radar_id:
     Deals: [shopee, lazada, tokopedia, 11.11, 12.12, promo, harbolnas, voucher]
 radar_th:
   geo: TH
+  fetch_requests: automation/blogs/th/fetch_requests.txt
   news_locale: { hl: th, gl: TH, ceid: "TH:th" }
   sources: [google_trends, google_news]
   evidence_topics: 8
@@ -215,6 +223,7 @@ radar_th:
     Deals: [shopee, lazada, 11.11, 12.12, ลดราคา, โค้ดส่วนลด]
 radar_tw:
   geo: TW
+  fetch_requests: automation/blogs/tw/fetch_requests.txt
   news_locale: { hl: zh-TW, gl: TW, ceid: "TW:zh-Hant" }
   sources: [google_trends, google_news]
   evidence_topics: 8
