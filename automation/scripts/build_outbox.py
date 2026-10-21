@@ -71,8 +71,9 @@ def render(md_path, site):
         if local.exists():
             mime = "image/png" if local.suffix == ".png" else "image/jpeg"
             data = f"data:{mime};base64," + base64.b64encode(local.read_bytes()).decode()
+            # 미리보기는 같은 data URI 를 다시 넣지 않고 번호로 가리킨다 (아티팩트 16MB 한도 — 브라우저에서 채움)
+            preview = preview.replace(f'src="{m.group(2)}"', f'src="#img{len(images)}"', 1)
             images.append({"alt": alt, "data": data})
-            preview = preview.replace(f'src="{m.group(2)}"', f'src="{data}"', 1)
     h = re.sub(r'src="(/assets/[^"]+)"', lambda m: f'src="{site}{m.group(1)}"', h)
     h = re.sub(r"<img ", '<img style="max-width:100%;height:auto;display:block;margin:16px auto;" ', h)
     preview = re.sub(r"<img ", '<img style="max-width:100%;height:auto;display:block;margin:16px auto;" ', preview)
@@ -323,7 +324,7 @@ DATA.forEach(function(c){var isDone=done(c);if(filter==='todo'&&(isDone||!c.ok))
   pane.appendChild(act);if(!c[p])pane.appendChild(el('p',{class:'tags'},'⚠ 티스토리 전용판이 없어 네이버판을 보여 줍니다. 그대로 올리면 유사문서가 될 수 있습니다.'));
   if(v.tags&&v.tags.length)pane.appendChild(el('p',{class:'tags'},v.tags.map(function(t){return(p==='blogger'?'':'#')+esc(t)}).join(p==='blogger'?' · ':' ')));
   if(p==='blogger'&&v.description)pane.appendChild(el('p',{class:'tags'},'검색 설명: '+esc(v.description)+(v.permalink?'<br>퍼머링크: '+esc(v.permalink):'')));
-  var d=el('details',{});d.appendChild(el('summary',{},'미리보기'));d.appendChild(el('div',{class:'preview'},'<h2 style="margin-top:0">'+esc(v.title)+'</h2>'+(v.preview||v.html)));pane.appendChild(d)}
+  var d=el('details',{});d.appendChild(el('summary',{},'미리보기'));d.appendChild(el('div',{class:'preview'},'<h2 style="margin-top:0">'+esc(v.title)+'</h2>'+(v.preview||v.html).replace(/src="#img(\d+)"/g,function(_,i){return 'src="'+((v.images||[])[+i]||{}).data+'"'})));pane.appendChild(d)}
  if(!c.ok){pane.appendChild(el('p',{class:'tags'},'검증을 통과하지 못한 글은 복사 버튼을 숨깁니다. 위 문제를 먼저 고치세요.'))}else show(first);
  card.appendChild(tabs);card.appendChild(pane);L.appendChild(card)});
  if(!shown)L.appendChild(el('p',{class:'empty'},filter==='todo'?'지금 발행할 글이 없습니다.':'해당하는 글이 없습니다.'))}
