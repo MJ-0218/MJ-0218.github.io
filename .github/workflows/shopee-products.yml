@@ -1,0 +1,28 @@
+# 우리 쇼피 스토어 상품 목록 받기 (수동 실행 + 매일 1번) → automation/blogs/shop/products/<key>.yml
+name: shopee-products
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 21 * * *"
+permissions: { contents: write }
+concurrency: { group: shopee-products, cancel-in-progress: false }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q pyyaml
+      - name: 상품 목록 받기
+        continue-on-error: true
+        run: python3 automation/scripts/shopee_products.py
+      - name: 저장
+        run: |
+          git config user.name "semter-shop"
+          git config user.email "shop@users.noreply.github.com"
+          if [ -n "$(git status --porcelain automation/blogs/shop/products/)" ]; then
+            git add automation/blogs/shop/products/ && git commit -qm "shop: 스토어 상품 목록 갱신"
+            for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+          fi
