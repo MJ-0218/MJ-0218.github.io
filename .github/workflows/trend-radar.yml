@@ -26,12 +26,6 @@ jobs:
             for f in $(git ls-tree --name-only origin/radar-data trends/us/history/ 2>/dev/null | tail -2); do
               git show "origin/radar-data:$f" > "/tmp/prev_us/$(basename "$f")"
             done
-            for m in in ph sg my vn id th tw; do
-              mkdir -p /tmp/prev_$m
-              for f in $(git ls-tree --name-only origin/radar-data trends/$m/history/ 2>/dev/null | tail -2); do
-                git show "origin/radar-data:$f" > "/tmp/prev_$m/$(basename "$f")"
-              done
-            done
           fi
       - name: 수집
         env:
@@ -42,13 +36,6 @@ jobs:
       - name: 수집 (미국 · Blogger)
         continue-on-error: true
         run: python3 automation/scripts/trend_radar.py --market us --out /tmp/radar/us/latest.json --history /tmp/radar/us/history --prev /tmp/prev_us --evidence /tmp/radar/evidence
-      - name: 수집 (인도 · 쇼피 국가별 Blogger)
-        continue-on-error: true
-        run: |
-          for m in in ph sg my vn id th tw; do
-            mkdir -p /tmp/prev_$m
-            python3 automation/scripts/trend_radar.py --market $m --out /tmp/radar/$m/latest.json --history /tmp/radar/$m/history --prev /tmp/prev_$m --evidence /tmp/radar/evidence || echo "$m 수집 실패"
-          done
       - name: radar-data 브랜치에 저장
         run: |
           git config user.name "semter-radar"
@@ -66,13 +53,6 @@ jobs:
             cp /tmp/radar/us/latest.json trends/us/latest.json
             for f in /tmp/radar/us/history/*.jsonl; do cat "$f" >> "trends/us/history/$(basename "$f")"; done
           fi
-          for m in in ph sg my vn id th tw; do
-            if [ -f /tmp/radar/$m/latest.json ]; then
-              mkdir -p trends/$m/history
-              cp /tmp/radar/$m/latest.json trends/$m/latest.json
-              for f in /tmp/radar/$m/history/*.jsonl; do cat "$f" >> "trends/$m/history/$(basename "$f")"; done
-            fi
-          done
           # 원문 수집본(작성 세션에서 막힌 사이트의 원문) — 3일 지난 것은 지운다
           mkdir -p trends/evidence
           cp /tmp/radar/evidence/*.json trends/evidence/ 2>/dev/null || true
@@ -86,7 +66,7 @@ jobs:
               except Exception: p.unlink()
           "
           # 기록은 14일만 보관
-          find trends/history trends/*/history -name '*.jsonl' -mtime +14 -delete 2>/dev/null || true
+          find trends/history trends/us/history -name '*.jsonl' -mtime +14 -delete 2>/dev/null || true
           git add -A trends
           git commit -q -m "radar $(TZ=Asia/Seoul date '+%F %H:%M')" || exit 0
           git push -q origin radar-data

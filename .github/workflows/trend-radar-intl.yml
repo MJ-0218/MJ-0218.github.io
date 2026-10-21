@@ -1,0 +1,56 @@
+# 인도·쇼피 국가별 Blogger 레이더 — 나라별 구글 급상승 검색어·뉴스·캘린더를 매시간 모아 radar-data 의 trends/<market>/ 에 저장
+# (국내·미국 레이더(trend-radar.yml)와 따로 돌려 서로 시간 제한에 영향을 주지 않게)
+name: trend-radar-intl
+on:
+  schedule:
+    - cron: "20 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: trend-radar-intl, cancel-in-progress: false }
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml googlenewsdecoder
+      - name: 직전 기록 가져오기 (급상승 비교용)
+        run: |
+          for m in in ph sg my vn id th tw; do mkdir -p /tmp/prev_$m; done
+          if git fetch -q origin radar-data 2>/dev/null; then
+            for m in in ph sg my vn id th tw; do
+              for f in $(git ls-tree --name-only origin/radar-data trends/$m/history/ 2>/dev/null | tail -2); do
+                git show "origin/radar-data:$f" > "/tmp/prev_$m/$(basename "$f")"
+              done
+            done
+          fi
+      - name: 수집
+        run: |
+          for m in in ph sg my vn id th tw; do
+            timeout 600 python3 automation/scripts/trend_radar.py --market $m --out /tmp/radar/$m/latest.json --history /tmp/radar/$m/history --prev /tmp/prev_$m --evidence /tmp/radar/evidence || echo "$m 수집 실패"
+          done
+      - name: radar-data 브랜치에 저장
+        run: |
+          git config user.name "semter-radar"
+          git config user.email "radar@users.noreply.github.com"
+          for i in 1 2 3 4; do
+            rm -rf /tmp/rd; git worktree prune
+            git fetch -q origin radar-data && git worktree add -q /tmp/rd origin/radar-data && cd /tmp/rd && git checkout -q -B radar-data
+            for m in in ph sg my vn id th tw; do
+              if [ -f /tmp/radar/$m/latest.json ]; then
+                mkdir -p trends/$m/history
+                cp /tmp/radar/$m/latest.json trends/$m/latest.json
+                for f in /tmp/radar/$m/history/*.jsonl; do cat "$f" >> "trends/$m/history/$(basename "$f")"; done
+                find trends/$m/history -name '*.jsonl' -mtime +14 -delete 2>/dev/null || true
+              fi
+            done
+            mkdir -p trends/evidence && cp /tmp/radar/evidence/*.json trends/evidence/ 2>/dev/null || true
+            git add -A trends
+            git commit -q -m "radar intl $(TZ=Asia/Seoul date '+%F %H:%M')" || exit 0
+            git push -q origin radar-data && exit 0
+            cd "$GITHUB_WORKSPACE"; sleep 10
+          done
+          exit 1
