@@ -38,6 +38,7 @@ MEDICAL = {
     "zh-Hant": [r"治療(?:痘痘|青春痘|黑斑)", r"根治", r"永久美白", r"保證美白"],
     "hi": [r"इलाज", r"पूरी तरह ठीक"],
 }
+POLICY_CATS = {"Government Schemes", "Taxes", "Banking", "Exams", "Deals", "Trending", "Holidays"}
 TENTATIVE = re.compile(r"\b(expected|likely|reportedly|tentative|proposed)\b|संभावित|अनुमानित", re.I)
 
 
@@ -90,7 +91,8 @@ def post_issues(md, key, bc, cfg, siblings):
     for rx in MEDICAL.get(lang, []):
         if re.search(rx, flat, re.I):
             issues.append(f"효능·의약 표현: /{rx}/ — 라벨·상세페이지에 있는 표현으로 바꾸기")
-    if TENTATIVE.search(flat):
+    # 미확정 표시는 정책·돈·일정 글에만 (날씨 예보·보건 용어의 'likely/expected'는 제외)
+    if fm.get("category", "") in POLICY_CATS and TENTATIVE.search(flat):
         head = (fm.get("title", "") + " " + flat[:400])
         if not TENTATIVE.search(head):
             issues.append("본문에 'expected/likely' 같은 미확정 정보가 있는데 제목·첫 문단에서 밝히지 않음")
