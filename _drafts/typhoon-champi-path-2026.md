@@ -23,6 +23,12 @@ sources:
     url: https://imnews.imbc.com/news/2026/society/article/6859272_36918.html
   - title: "JIBS제주방송 — 초강력 태풍 참피, 주말 제주 강타?.. 대만 기상청 예보 주목 (2026.10.20)"
     url: "https://www.jibs.co.kr/news/articles/articlesDetail/66741?feed=na"
+image_requests:
+  - id: track
+    source: jtwc
+    storm: CHAMPI
+    alt: "태풍 참피 예상 경로도 (미 합동태풍경보센터)"
+    note: "JTWC 예상 경로 · 예보는 계속 바뀌어요"
 ---
 주말에 제주 여행 계획 있으신 분들, 태풍 소식 때문에 걱정되시죠? 제30호 태풍 '참피' 예상 경로를 지금까지 나온 예보로 정리해 봤어요~
 
@@ -47,6 +53,8 @@ sources:
 여기서 헷갈리는 부분! 미국 합동태풍경보센터(JTWC)는 대만에 닿기 전에 북쪽으로 꺾어 한반도와 일본 사이로 향할 수 있다고 봤어요.
 
 나라별 기상당국의 예측 경로도 서로 달라요. 그만큼 아직 확정된 길이 없다는 뜻이에요 😥
+
+<!-- img:track -->
 
 그러니 뉴스 제목 하나만 보고 일정을 정하기보다는, 최신 기상청 발표를 기준으로 판단하시는 게 안전해요.
 

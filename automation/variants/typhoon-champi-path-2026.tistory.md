@@ -23,6 +23,12 @@ sources:
     url: https://imnews.imbc.com/news/2026/society/article/6859272_36918.html
   - title: "JIBS제주방송 — 초강력 태풍 참피, 주말 제주 강타?.. (2026.10.20)"
     url: "https://www.jibs.co.kr/news/articles/articlesDetail/66741?feed=na"
+image_requests:
+  - id: track
+    source: jtwc
+    storm: CHAMPI
+    alt: "태풍 참피 예상 경로도 (미 합동태풍경보센터)"
+    note: "JTWC 예상 경로 · 예보는 계속 바뀌어요"
 ---
 태풍 참피 뉴스 보다 보면 어디는 제주로 온다, 어디는 중국으로 간다 해서 헷갈리셨죠? 그래서 기관별로 뭐라고 했는지 나란히 놓고 봤어요~ 이 글은 10월 21일 예보 기준이에요 🙂
 
@@ -35,6 +41,8 @@ sources:
 가장 가까울 때 거리는 서귀포 남쪽 약 280~320㎞로 예상돼요.
 
 ## JTWC: 더 일찍 북쪽으로
+
+<!-- img:track -->
 
 미국 합동태풍경보센터(JTWC)는 대만에 닿기 전에 북쪽으로 꺾어 한반도와 일본 사이로 갈 수 있다고 봤어요.
 

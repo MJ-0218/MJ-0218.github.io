@@ -251,7 +251,8 @@ def verify(draft, fetch=False, today=None):
         import yaml
         from make_cards import card_text
         fm_full = yaml.safe_load(fm_raw) or {}
-        body_and_cards = body + "\n" + card_text(fm_full)
+        # 이미지 캡션(받은 시각·라이선스 버전)은 사실 토큰이 아님
+        body_and_cards = re.sub(r"<figcaption.*?</figcaption>", "", body, flags=re.S) + "\n" + card_text(fm_full)
         licensed = {str(i.get("src")) for i in (fm_full.get("images") or []) if i.get("license") and i.get("credit")}
     except Exception:
         body_and_cards, licensed = body, set()

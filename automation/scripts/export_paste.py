@@ -41,8 +41,13 @@ def fm_value(fm, key):
 
 
 def fm_sources(fm):
-    out, title = [], None
+    out, title, in_src = [], None, False
     for line in fm.splitlines():
+        if re.match(r"^\S", line):  # sources: 블록 안만 (image_requests·images 의 url 은 출처가 아님)
+            in_src = line.startswith("sources:")
+            continue
+        if not in_src:
+            continue
         t = re.search(r"title:\s*(.+)$", line)
         u = re.search(r"url:\s*(\S+)", line)
         if line.strip().startswith("- title:") and t:

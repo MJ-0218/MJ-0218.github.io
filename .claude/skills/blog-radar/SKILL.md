@@ -62,6 +62,23 @@ python3 automation/scripts/make_cards.py _drafts/<slug>.md automation/variants/<
 캡처가 실패하면(열기 실패·인용문 못 찾음) 그 자리는 카드로 대신한다. 사진·AI 이미지는 출력된 YAML을 front matter `images:`에 붙인다.
 `git add`에 `assets/cards assets/photos`도 포함한다(사이트에 올라가야 복사한 본문 속 이미지가 보인다).
 
+**사진·경로도 (키 없이, 모든 블로그 공통)** — 작성 세션은 인터넷이 막혀 있으니 원고에 요청만 적는다. `fetch-images` Actions(원고 푸시 시 + 매시 :33)가 받아 `assets/photos/` 에 넣고 표시 자리에 이미지·출처 캡션을 채운다(이미 올린 Blogger 글은 :40 에 자동 갱신).
+```yaml
+image_requests:
+  - id: track            # 본문의 <!-- img:track --> 자리 (없으면 글 끝)
+    source: jtwc         # jtwc(태풍 이름으로 공식 경로도) | url(공공기관 원본만) | wikimedia | openverse
+    storm: CHAMPI
+    alt: "태풍 참피 예상 경로도 (미 합동태풍경보센터)"
+    note: "JTWC 예상 경로 · 예보는 계속 바뀌어요"   # 선택, 캡션 앞에 붙음
+  - id: fish
+    source: wikimedia
+    query: "Konosirus punctatus"   # 영문·학명 검색어가 잘 맞는다
+    alt: "전어"
+```
+- 받는 것: 퍼블릭 도메인·CC0·CC BY·CC BY-SA (NC·ND 제외). `url` 은 `image_fetch.py` OFFICIAL(JTWC·NOAA·NASA·CDC·대만 기상서) 도메인만 — 새 기관은 라이선스를 확인하고 추가.
+- 고르는 기준: 이해를 돕는 사진·지도만(생선·꽃·모기·경로도·지형). 사람 얼굴·상표·로고·특정 가게 사진은 요청하지 않는다. 방송 맛집 글에 일반 음식 사진을 쓰면 `note: "참고 이미지"`.
+- 글당 1~2장. 받은 뒤 다음 실행에서 `assets/photos/<slug>-<id>.*` 를 열어 보고 글과 안 맞으면 빼거나 검색어를 바꾼다.
+
 ## 4. 재검수 1차 — 문체 (두 판 모두)
 `automation/prompts/review-1-voice.md`.
 

@@ -24,6 +24,11 @@ sources:
     url: https://hindutone.com/festivals/diwali-2026-significance-history-5-day-celebration-festival/
   - title: "StaffNews — List of Holidays 2026 (DoPT)"
     url: https://www.staffnews.in/2025/07/list-of-holidays-2026-closed-holidays.html
+image_requests:
+  - id: diya
+    source: wikimedia
+    query: "Diwali diya rangoli"
+    alt: "दिवाली के दीये"
 ---
 
 नमस्ते दोस्तों!
@@ -59,6 +64,8 @@ sources:
 कई राज्यों में दिवाली की लंबी छुट्टी भी होती है, इसलिए स्कूल का नोटिस या राज्य की सूची ज़रूर देख लें।
 
 ## घर की सफाई और सजावट, आराम से
+
+<!-- img:diya -->
 दिवाली से पहले घर की सफाई सबसे बड़ा काम होता है।
 एक ही दिन में सब करने की बजाय कमरे बांट लें और रोज़ थोड़ा-थोड़ा करें।
 

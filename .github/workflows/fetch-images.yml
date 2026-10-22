@@ -1,0 +1,34 @@
+# 글 이미지 받기 — 원고 front matter 의 image_requests 를 위키미디어 공용·Openverse·공공기관 원본(라이선스 확인된 곳만)에서 받아 넣는다.
+# 키가 필요 없다. 받은 이미지는 assets/photos/ 에 줄여 저장하고, 본문 <!-- img:ID --> 자리에 이미지·출처 캡션을 넣는다.
+# (GITHUB_TOKEN 으로 올린 커밋은 다른 워크플로를 깨우지 않으므로, 이미 올린 Blogger 글은 :40 blogger-publish 가 내용 갱신으로 반영)
+name: fetch-images
+on:
+  push:
+    branches: [main]
+    paths: ["_drafts/**", "automation/variants/**", "automation/global/drafts/**", "automation/blogs/*/drafts/**"]
+  schedule:
+    - cron: "33 * * * *"
+  workflow_dispatch:
+concurrency: { group: fetch-images, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q pyyaml pillow
+      - name: 이미지 받기
+        run: python3 automation/scripts/image_fetch.py
+      - name: 저장
+        run: |
+          git config user.name "semter-images"
+          git config user.email "images@users.noreply.github.com"
+          if [ -n "$(git status --porcelain assets/photos _drafts automation/variants automation/global/drafts automation/blogs)" ]; then
+            git add assets/photos _drafts automation/variants automation/global/drafts automation/blogs
+            git commit -q -m "images: 글 이미지 받기 (라이선스·출처 캡션 포함)"
+            for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+          fi
