@@ -16,11 +16,6 @@ cards:
     title: "Schools closed today in"
     big: "4 districts"
     lines: ["Tirunelveli · Thoothukudi", "Kanniyakumari · Tenkasi", "Chennai: no closure order for 22 Oct so far"]
-image_requests:
-  - id: rain
-    source: wikimedia
-    query: "Chennai rain street monsoon"
-    alt: "Rain on a street in Chennai"
 sources:
   - title: "The Times of India — Tamil Nadu school holiday today: Schools closed in several districts (22 Oct 2026)"
     url: https://timesofindia.indiatimes.com/education/news/tamil-nadu-school-holiday-today-schools-closed-in-several-districts-amid-heavy-rainfall-check-details-here/articleshow/135105471.cms
@@ -28,6 +23,11 @@ sources:
     url: https://www.hindustantimes.com/india-news/tamil-nadu-rains-today-school-holiday-in-chennai-weather-rain-temperature-imd-alert-101792633115022.html
   - title: "The Economic Times — Chennai flash flood risk: what IMD's latest warning means (22 Oct 2026)"
     url: https://economictimes.indiatimes.com/news/new-updates/chennai-flash-flood-risk-more-school-holidays-waterlogging-and-heavy-rain-what-imds-latest-warning-means-for-tamil-nadu-till-october-26/articleshow/135104185.cms?from=mdr
+images:
+  - src: /assets/photos/in-tamil-nadu-school-holiday-oct-22-2026-rain.jpg
+    license: "CC BY 2.0"
+    credit: "McKay Savage from London, UK"
+    source_url: https://commons.wikimedia.org/wiki/File:India_-_Chennai_-_Monsoon_-_01_(3058208937).jpg
 ---
 
 Hello friends! Heavy rain has shut schools in parts of Tamil Nadu again today.
@@ -55,7 +55,10 @@ For 22 October, no closure order has been issued for these districts so far.
 Chennai got a lot of rain in this spell.
 MGR Nagar recorded 15 cm, the highest in the city.
 
-<!-- img:rain -->
+
+<figure style="margin:20px 0;"><img src="/assets/photos/in-tamil-nadu-school-holiday-oct-22-2026-rain.jpg" alt="Rain on a street in Chennai" loading="lazy">
+<figcaption style="font-size:13px;color:#777;text-align:center;">Photo: McKay Savage from London, UK · CC BY 2.0</figcaption></figure>
+
 
 ## The rain isn't over yet
 
