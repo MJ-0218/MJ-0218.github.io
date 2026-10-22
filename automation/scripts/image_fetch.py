@@ -134,7 +134,7 @@ def save_image(raw, dest_base):
     OUT.mkdir(parents=True, exist_ok=True)
     path = dest_base.with_suffix(".png" if keep_png else ".jpg")
     if keep_png:
-        im.save(path, "PNG", optimize=True)
+        im.quantize(256, method=Image.Quantize.FASTOCTREE).save(path, "PNG", optimize=True)  # 256색 (색 보존 잘 되는 방식, 용량 약 1/5)
     else:
         im.save(path, "JPEG", quality=82, optimize=True, progressive=True)
     return path
