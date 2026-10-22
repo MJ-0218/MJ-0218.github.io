@@ -6,7 +6,7 @@
 
   python3 automation/scripts/shopee_products.py            # stores 에 있는 나라 전부
   python3 automation/scripts/shopee_products.py --only sg
-  python3 automation/scripts/shopee_products.py --from-xlsx sg 내려받은파일.xlsx [--shopid 123456]
+  python3 automation/scripts/shopee_products.py --from-xlsx sg 기본정보.xlsx [판매정보.xlsx 카테고리2.xlsx …] [--shopid 123456]
     셀러센터 일괄 수정 엑셀(상품 ID·상품명·설명·가격 열)을 읽는다. shopid 는 상품 공유 링크
     (https://shopee.sg/product/<shopid>/<itemid>)에서 알 수 있다 — stores.yml 에 shopid 로 적어 두면 생략 가능.
 """
@@ -82,33 +82,49 @@ COLS = {  # 셀러센터 엑셀 열 이름(언어별) → 필드
 }
 
 
-def from_xlsx(key, path, shopid):
+def csv_rows(path):
+    import csv
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        return [[(c or "").strip() for c in r] for r in csv.reader(f)]
+
+
+def from_xlsx(key, paths, shopid):
+    """파일 여러 개(카테고리별로 나눠 받은 경우)·시트 여러 개를 모두 읽어 상품 ID 기준으로 합친다."""
     import openpyxl
     stores = yaml.safe_load((OUT / "stores.yml").read_text(encoding="utf-8"))
     st = stores.get(key) or {}
     shopid = shopid or st.get("shopid")
     base = "/".join(st["url"].split("/")[:3])
-    ws = openpyxl.load_workbook(path, read_only=True, data_only=True).worksheets[0]
-    rows = [[("" if c is None else str(c)).strip() for c in r] for r in ws.iter_rows(values_only=True)]
-    hdr_i, idx = None, {}
-    for i, r in enumerate(rows[:10]):  # 머리글 줄 찾기
-        low = [c.lower() for c in r]
-        found = {f: next((j for j, c in enumerate(low) if any(n == c or n in c for n in names)), None) for f, names in COLS.items()}
-        if found["id"] is not None and found["name"] is not None:
-            hdr_i, idx = i, found
-            break
-    if hdr_i is None:
+    items, used = {}, []
+    for path in paths:
+        sheets = ([csv_rows(path)] if str(path).lower().endswith(".csv") else
+                  [[[("" if c is None else str(c)).strip() for c in r] for r in ws.iter_rows(values_only=True)]
+                   for ws in openpyxl.load_workbook(path, read_only=True, data_only=True).worksheets])
+        for rows in sheets:
+            hdr_i, idx = None, {}
+            for i, r in enumerate(rows[:10]):  # 머리글 줄 찾기
+                low = [c.lower() for c in r]
+                found = {f: next((j for j, c in enumerate(low) if any(n == c or n in c for n in names)), None) for f, names in COLS.items()}
+                if found["id"] is not None and found["name"] is not None:
+                    hdr_i, idx = i, found
+                    break
+            if hdr_i is None:
+                continue
+            used.append(Path(path).name)
+            for r in rows[hdr_i + 1:]:
+                iid = r[idx["id"]] if idx["id"] < len(r) else ""
+                if not iid.isdigit():
+                    continue
+                get_ = lambda f: r[idx[f]] if idx.get(f) is not None and idx[f] < len(r) else ""
+                it = items.setdefault(iid, {"id": iid, "name": "", "url": f"{base}/product/{shopid}/{iid}" if shopid else st["url"],
+                                            "price": "", "description": "", "category": "", "specs": []})
+                for f in ("name", "price", "description"):  # 기본 정보·판매 정보 파일을 합칠 때 빈 칸만 채운다
+                    if not it[f] and get_(f):
+                        it[f] = get_(f)[:3000]
+    if not items:
         sys.exit("상품 ID·상품명 열을 찾지 못했어요 — 셀러센터 '일괄 수정 > 기본 정보' 파일인지 확인")
-    items = {}
-    for r in rows[hdr_i + 1:]:
-        iid = r[idx["id"]] if idx["id"] < len(r) else ""
-        if not iid.isdigit() or iid in items:
-            continue
-        get_ = lambda f: r[idx[f]] if idx.get(f) is not None and idx[f] < len(r) else ""
-        items[iid] = {"id": iid, "name": get_("name"), "url": f"{base}/product/{shopid}/{iid}" if shopid else st["url"],
-                      "price": get_("price"), "description": get_("description")[:3000], "category": "", "specs": []}
     data = {"store": {"name": st.get("name", st["url"].rstrip("/").split("/")[-1]), "url": st["url"], "shopid": shopid},
-            "products": list(items.values()), "source": f"셀러센터 엑셀 {Path(path).name}"}
+            "products": list(items.values()), "source": "셀러센터 엑셀 " + ", ".join(sorted(set(used)))}
     out = OUT / f"{key}.yml"
     out.write_text(yaml.safe_dump(data, allow_unicode=True, sort_keys=False, width=1000), encoding="utf-8")
     print(f"{key}: 상품 {len(items)}개 → {out.relative_to(ROOT)}" + ("" if shopid else " (shopid 없음 — 링크는 스토어 첫 화면)"))
@@ -117,11 +133,13 @@ def from_xlsx(key, path, shopid):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only")
-    ap.add_argument("--from-xlsx", nargs=2, metavar=("KEY", "FILE"))
+    ap.add_argument("--from-xlsx", nargs="+", metavar=("KEY", "FILE"), help="KEY 파일1 [파일2 …] — 카테고리별·기본/판매 정보 파일을 여러 개 넣어도 합친다")
     ap.add_argument("--shopid")
     a = ap.parse_args()
     if a.from_xlsx:
-        return from_xlsx(a.from_xlsx[0], a.from_xlsx[1], a.shopid)
+        if len(a.from_xlsx) < 2:
+            ap.error("--from-xlsx KEY 파일 [파일 …]")
+        return from_xlsx(a.from_xlsx[0], a.from_xlsx[1:], a.shopid)
     stores = yaml.safe_load((OUT / "stores.yml").read_text(encoding="utf-8"))
     failed = False
     for key, s in stores.items():

@@ -27,7 +27,7 @@
 - **해외(미국·인도·쇼피) 글도 가독성 규칙은 국내와 같다**: 문장마다 줄바꿈, 2문장마다 문단(사용자 요청 2026-10-22). `build_outbox.readable_intl` 이 Blogger 본문을 자동 정리하고(소제목·목록·표는 그대로), 원고가 바뀌면 Actions 가 이미 올린 Blogger 글도 같은 내용으로 고친다(`blogger_publish.sync_updates`).
 - 인도·쇼피 글 말투는 국내처럼 부드럽고 친근하게, 나라별 인기 블로거 말투로(`automation/blogs/review.md` 표).
 - **모든 인도·쇼피 글은 재검토 2회(말투 / 독자·사실·정책) + `blog_audit.py`** 를 통과해야 커밋되고, Actions 도 발행 전에 같은 검사를 다시 한다(링크 허용 목록·효능 표현·미확정 표시·유사 글·하루 편수·스토어 비율).
-- 우리 쇼피 스토어: 대만·태국·싱가포르·베트남·말레이시아(`automation/blogs/shop/products/stores.yml`), 필리핀·멕시코 보류, 인도네시아 없음. 상품 목록은 셀러센터 엑셀을 `shopee_products.py --from-xlsx <키> <파일>` 로 넣는다(쇼피가 자동 수집을 403 으로 막음).
+- 우리 쇼피 스토어: 대만·태국·싱가포르·베트남·말레이시아(`automation/blogs/shop/products/stores.yml`), 필리핀·멕시코 보류, 인도네시아 없음. 상품 목록은 셀러센터 일괄 수정(Mass Update) 엑셀(기본 정보 필수·판매 정보 선택, 카테고리별로 나눠 받아도 됨)을 `shopee_products.py --from-xlsx <키> <파일…>` 로 넣는다(쇼피가 자동 수집을 403 으로 막음).
 - 블로그 목록·나라 시간대·하루 편수는 `automation/config.yml blogs:`, 블로그 ID 는 GitHub Secrets `BLOGGER_BLOG_ID_IN/PH/SG/MY/VN/ID/TH/TW`(OAuth 3개는 공용). 모두 Actions 가 자동 예약 발행.
 - 국내는 네이버판·티스토리판을 서로 다른 문장·구성으로 쓴다(유사도 0.35 이하).
 - 방송 맛집·급상승 이슈·리콜처럼 그때그때 올려야 하는 글은 예약 말고 **즉시 발행**(대기함 맨 위, `publish: now`).
