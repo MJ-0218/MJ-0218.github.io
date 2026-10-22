@@ -31,11 +31,11 @@ sources:
     url: https://hindutone.com/festivals/diwali-2026-significance-history-5-day-celebration-festival/
   - title: "StaffNews — List of Holidays 2026: closed holidays in central government offices (DoPT)"
     url: https://www.staffnews.in/2025/07/list-of-holidays-2026-closed-holidays.html
-image_requests:
-  - id: diya
-    source: wikimedia
-    query: "Diwali diya oil lamps"
-    alt: "Lit diyas for Diwali"
+images:
+  - src: /assets/photos/in-diwali-2026-date-diya.jpg
+    license: "CC BY-SA 4.0"
+    credit: "Ara Basu"
+    source_url: https://commons.wikimedia.org/wiki/File:Diya_Lamp.jpg
 ---
 
 Hello friends! Diwali 2026 falls on **Sunday, 8 November**.
@@ -56,7 +56,10 @@ Five days, one big celebration. Here's how the week lines up this year.
 
 ## Why we celebrate Diwali
 
-<!-- img:diya -->
+
+<figure style="margin:20px 0;"><img src="/assets/photos/in-diwali-2026-date-diya.jpg" alt="Lit diyas for Diwali" loading="lazy">
+<figcaption style="font-size:13px;color:#777;text-align:center;">Photo: Ara Basu · CC BY-SA 4.0</figcaption></figure>
+
 Diwali marks the win of good over evil and light over darkness.
 For many Hindu families, it's the day Lord Rama returned to Ayodhya after his exile and his victory over Ravana.
 

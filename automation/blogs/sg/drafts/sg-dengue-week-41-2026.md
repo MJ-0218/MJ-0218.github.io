@@ -27,11 +27,11 @@ sources:
     url: https://www.nea.gov.sg/dengue-zika/dengue/dengue-cases
   - title: "NEA — Dengue Clusters (alert levels)"
     url: https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters
-image_requests:
-  - id: mosquito
-    source: wikimedia
-    query: "Aedes aegypti CDC"
-    alt: "Aedes aegypti mosquito, the main dengue carrier"
+images:
+  - src: /assets/photos/sg-dengue-week-41-2026-mosquito.jpg
+    license: "Public domain"
+    credit: "James Gathany"
+    source_url: https://commons.wikimedia.org/wiki/File:Aedes_aegypti_CDC-Gathany.jpg
 ---
 
 Hi everyone! Quick weather-and-wellbeing check for this week.
@@ -51,7 +51,10 @@ Cluster lists change often, so look up NEA's cluster page before you go by an ol
 
 ## Why it still matters in late October
 
-<!-- img:mosquito -->
+
+<figure style="margin:20px 0;"><img src="/assets/photos/sg-dengue-week-41-2026-mosquito.jpg" alt="Aedes aegypti mosquito, the main dengue carrier" loading="lazy">
+<figcaption style="font-size:13px;color:#777;text-align:center;">Photo: James Gathany · Public domain</figcaption></figure>
+
 Singapore's traditional peak dengue season runs from May to October.
 NEA also points out that our tropical climate and dense living let mosquitoes thrive all year round.
 

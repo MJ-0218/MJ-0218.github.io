@@ -21,12 +21,11 @@ sources:
     url: https://www.cw.com.tw/article/5143370
   - title: "壹蘋新聞網 — 薔琵路徑變了「更靠近台灣」！陸警時間提前至今午（2026.10.22）"
     url: https://news.nextapple.com/life/20261022/32B66A092420A573FEA87B2E9B0B977E
-image_requests:
-  - id: track
-    source: jtwc
-    storm: CHAMPI
-    alt: "颱風薔琵預測路徑圖（美國聯合颱風警報中心）"
-    note: "JTWC 預測路徑・實際以氣象署最新發布為準"
+images:
+  - src: /assets/photos/tw-typhoon-champi-prep-2026-track.png
+    license: "Public domain (U.S. Navy JTWC)"
+    credit: "Joint Typhoon Warning Center (U.S. Navy), 2026-10-22 03:32 UTC"
+    source_url: https://www.metoc.navy.mil/jtwc/products/wp2926.gif
 ---
 
 大家好～
@@ -37,7 +36,10 @@ image_requests:
 
 ## 現在警報到哪一步了？
 
-<!-- img:track -->
+
+<figure style="margin:20px 0;"><img src="/assets/photos/tw-typhoon-champi-prep-2026-track.png" alt="颱風薔琵預測路徑圖（美國聯合颱風警報中心）" loading="lazy">
+<figcaption style="font-size:13px;color:#777;text-align:center;">JTWC 預測路徑・實際以氣象署最新發布為準 · 圖片: Joint Typhoon Warning Center (U.S. Navy), 2026-10-22 03:32 UTC · Public domain (U.S. Navy JTWC)</figcaption></figure>
+
 中央氣象署已在 21 日晚間 11 時 30 分發布**海上颱風警報**。
 陸上颱風警報最快在 22 日中午前後發布。
 
