@@ -47,6 +47,8 @@ def render(md_path, site):
     lang = fm_value(fm, "lang") or "ko"
     if lang == "ko":
         body = readable_paragraphs(body)  # 문장마다 줄바꿈, 2문장씩 문단
+    else:
+        body = readable_intl(body, lang)
     h = inline_styles(markdown.markdown(body, extensions=["tables", "sane_lists", "md_in_html"]))
     tool = fm_value(fm, "related_tool")
     if tool:
@@ -89,6 +91,53 @@ def render(md_path, site):
     preview = re.sub(r"<img ", '<img style="max-width:100%;height:auto;display:block;margin:16px auto;" ', preview)
     return {"title": fm_value(fm, "title"), "html": h, "preview": preview, "images": images, "tags": tags, "fm": fm,
             "description": fm_value(fm, "description"), "permalink": fm_value(fm, "permalink")}
+
+
+# 해외(Blogger) 글 가독성: 국내 readable_paragraphs 처럼 문장마다 줄바꿈, 2문장마다 문단
+_ABBRS = ["Jan", "Feb", "Mar", "Apr", "Aug", "Sept", "Sep", "Oct", "Nov", "Dec", "No", "St", "Mr", "Mrs", "Ms", "Dr",
+          "vs", "U.S", "e.g", "i.e", "Rs", "Jr", "Sr", "Inc", "Co", "Ltd", "approx"]
+_ABBR = "".join(rf"(?<!\b{re.escape(x)}\.)" for x in _ABBRS)
+_SENT = {
+    "default": re.compile(r"(?<=[.!?।])" + _ABBR + r"\s+(?=[*\"“‘(\[]*[A-ZÀ-ỸА-Я0-9\u0900-\u097F])"),
+    "zh-Hant": re.compile(r"(?<=[。！？])\s*"),
+    "th": None,  # 태국어는 마침표가 없어 원고의 줄바꿈만 따른다
+}
+_STRUCT = re.compile(r"^\s*(#|[-*+]\s|\||!\[|>|<|\d+[.)]\s|```)")
+
+
+def readable_intl(body, lang):
+    """문단(빈 줄로 나뉜 일반 문장 줄)만 문장 단위로 나눠 2문장씩 다시 묶는다. 소제목·목록·표·이미지는 그대로."""
+    rx = _SENT.get(lang, _SENT["default"])
+    out, para, struct = [], [], []
+
+    def flush_para():
+        sents = []
+        for line in para:
+            sents += [x.strip() for x in rx.split(line) if x.strip()] if rx else [line.strip()]
+        for i in range(0, len(sents), 2):
+            out.append("  \n".join(sents[i:i + 2]))  # 마크다운 줄 끝 공백 두 칸 = <br>
+        para.clear()
+
+    def flush_struct():
+        if struct:
+            out.append("\n".join(struct))
+            struct.clear()
+
+    for line in body.split("\n"):
+        if not line.strip():
+            flush_para(), flush_struct()
+        elif _STRUCT.match(line) or (struct and line.startswith(("  ", "\t"))):
+            flush_para()
+            if struct and line.lstrip().startswith("#"):
+                flush_struct()
+            struct.append(line)
+            if line.lstrip().startswith("#"):
+                flush_struct()
+        else:
+            flush_struct()
+            para.append(line)
+    flush_para(), flush_struct()
+    return "\n\n".join(out) + "\n"
 
 
 URGENT_CATS = {"방송정보", "이슈", "Recalls"}

@@ -136,6 +136,7 @@ blogs:
 blogger_run:
   max_new_per_run: 8      # 한 번 실행에서 새로 만드는 글 수 (429 방지). 남은 글은 다음 시간에
   pause_seconds: 20       # 글 사이 쉬는 시간
+  max_updates_per_run: 12 # 이미 올린 글의 원고가 바뀌었을 때 Blogger 글을 고치는 최대 편수
 
 # ── 인도 · 쇼피 국가별 레이더 (trend-radar.yml 이 30분마다 함께 돈다 → radar-data trends/<market>/) ─────
 radar_in:

@@ -24,6 +24,7 @@
 - 해외: 미국 기준 Google Blogger 영어 글(번역 아님, 미국 주제). 발행 대기함의 [해외] 탭.
 - **인도 Blogger**(THE TREND DESK_IN): 하루 영어 4~5편 + **힌디어 2~3편**(같은 블로그, 번역 말고 힌디 수요 주제로), 국내·미국처럼 이슈·생활 정보 위주(수익은 애드센스). 가이드 `automation/blogs/in/writing-guide.md`.
 - **쇼피 국가별 Blogger**(Humid Hours PH·SG·MY·VN·ID·TH·TW, 나라마다 따로): 블로그당 하루 3~4편. 뷰티·생활 정보·K-컬처·추천·세일을 자연스럽게 섞고, **우리 스토어 상품 글은 블로그당 하루 1편 이하**(스토어만 계속 소개하지 않기 — 사용자 요청). 자사몰 느낌이 아닌 독립 큐레이션 매체로 운영하되, 스토어 상품·제휴 링크라는 관계는 추천 바로 앞에 짧게 밝힌다(FTC·싱가포르 ASAS·아마존 약관). 써 보지 않은 제품 후기·효능 주장 금지(사양·성분·선택 기준으로). 제휴 링크는 rel="sponsored". 가이드 `automation/blogs/shop/writing-guide.md`.
+- **해외(미국·인도·쇼피) 글도 가독성 규칙은 국내와 같다**: 문장마다 줄바꿈, 2문장마다 문단(사용자 요청 2026-10-22). `build_outbox.readable_intl` 이 Blogger 본문을 자동 정리하고(소제목·목록·표는 그대로), 원고가 바뀌면 Actions 가 이미 올린 Blogger 글도 같은 내용으로 고친다(`blogger_publish.sync_updates`).
 - 인도·쇼피 글 말투는 국내처럼 부드럽고 친근하게, 나라별 인기 블로거 말투로(`automation/blogs/review.md` 표).
 - **모든 인도·쇼피 글은 재검토 2회(말투 / 독자·사실·정책) + `blog_audit.py`** 를 통과해야 커밋되고, Actions 도 발행 전에 같은 검사를 다시 한다(링크 허용 목록·효능 표현·미확정 표시·유사 글·하루 편수·스토어 비율).
 - 우리 쇼피 스토어: 대만·태국·싱가포르·베트남·말레이시아(`automation/blogs/shop/products/stores.yml`), 필리핀·멕시코 보류, 인도네시아 없음. 상품 목록은 셀러센터 엑셀을 `shopee_products.py --from-xlsx <키> <파일>` 로 넣는다(쇼피가 자동 수집을 403 으로 막음).

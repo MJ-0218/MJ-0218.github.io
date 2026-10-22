@@ -139,6 +139,53 @@ def save_blog_info(blogs):
     BLOGS_INFO.write_text(json.dumps(names, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def content_hash(r):
+    import hashlib
+    return hashlib.sha1((r["title"] + "\n" + r["html"] + "\n" + ",".join(r["tags"])).encode("utf-8")).hexdigest()[:16]
+
+
+def sync_updates(key, bc, cfg, dry_all, limit):
+    """이미 예약·발행한 글의 원고(본문 형식·오탈자 수정 등)가 바뀌었으면 Blogger 글도 같은 내용으로 고친다.
+    글 단위로 내용 해시를 기록해 두고, 다르면 posts.patch(제목·본문·라벨만). 사람이 직접 올린 글은 건드리지 않는다."""
+    blog = os.environ.get(bc["secret"], "")
+    state_p = ROOT / bc["state"]
+    scheduled = load_json(state_p)
+    site = cfg.get("site_url", "").rstrip("/")
+    pending = []
+    for slug, rec in scheduled.items():
+        md = ROOT / bc["drafts"] / f"{slug}.md"
+        if not md.exists() or not rec.get("post_id") or rec.get("status") in ("DRAFT", None, ""):
+            continue
+        r = render(md, site)
+        h = content_hash(r)
+        if rec.get("hash") != h:
+            pending.append((slug, rec, r, h))
+    if not pending:
+        return 0
+    print(f"\n── {key} 내용 갱신 대상 {len(pending)}편 {'[계획]' if dry_all or not blog else ''}")
+    if dry_all or not blog:
+        for slug, *_ in pending:
+            print(f"  [계획] 갱신 {slug}")
+        return 0
+    token = access_token()
+    done = 0
+    for slug, rec, r, h in pending[:limit]:
+        try:
+            call(token, "PATCH", f"/blogs/{blog}/posts/{rec['post_id']}", None,
+                 {"title": r["title"], "content": r["html"], "labels": r["tags"]})
+        except ApiError as e:
+            print(f"  ! 갱신 실패 {slug}: {e}")
+            break
+        rec["hash"] = h
+        rec["updated_at"] = datetime.now(timezone.utc).isoformat(timespec="minutes")
+        print(f"  ✓ 갱신 {slug}")
+        done += 1
+        time.sleep(int(cfg.get("blogger_run", {}).get("pause_seconds", 20)))
+    if done:
+        state_p.write_text(json.dumps(scheduled, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return done
+
+
 def run_blog(key, bc, cfg, now, budget, dry_all, published):
     """블로그 하나: 검증 통과 + 아직 안 올린 글을 예약한다. 새로 만든 글 수를 돌려준다."""
     blog = os.environ.get(bc["secret"], "")
@@ -247,7 +294,7 @@ def run_blog(key, bc, cfg, now, budget, dry_all, published):
             break
         scheduled[slug] = {"post_id": post_id, "url": pub.get("url", ""), "status": pub.get("status", ""),
                            "publish_at": (when or now).astimezone(timezone.utc).isoformat(timespec="minutes"),
-                           "scheduled_at": now.isoformat(timespec="minutes")}
+                           "scheduled_at": now.isoformat(timespec="minutes"), "hash": content_hash(r)}
         changed = True
         time.sleep(int(cfg.get("blogger_run", {}).get("pause_seconds", 20)))  # 요청 사이 간격
     if changed:
@@ -281,6 +328,17 @@ def main():
         if budget <= 0:
             print("이번 실행 한도에 닿음 — 나머지 블로그는 다음 실행에서")
             break
+    # 이미 올린 글의 원고가 바뀐 경우(형식 개선·수정) Blogger 글에도 반영
+    upd = int(cfg.get("blogger_run", {}).get("max_updates_per_run", 12))
+    for key, bc in blogs_config(cfg).items():
+        if a.blog and key != a.blog:
+            continue
+        if upd <= 0:
+            break
+        try:
+            upd -= sync_updates(key, bc, cfg, dry, upd)
+        except ApiError as e:
+            print(f"{key}: 갱신 중단 — {e}")
     if failed_any:
         sys.exit(1)
 
