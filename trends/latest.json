@@ -1,23 +1,71 @@
 {
- "generated_at": "2026-10-24T00:05:33.549095+09:00",
+ "generated_at": "2026-10-24T00:39:22.904236+09:00",
  "sources": {
   "calendar": "ok (7)",
   "google_trends": "ok (10)",
-  "korea_kr": "ok (6)",
+  "korea_kr": "ok (5)",
   "google_news": "ok (29)",
   "tv_food": "ok (5)",
-  "applyhome": "ok (0)",
-  "evidence": "ok (저장 100, 실패 11)"
+  "applyhome": "ok (16)",
+  "evidence": "ok (저장 101, 실패 3)"
  },
  "compared_runs": 6,
  "spikes": [
-  "탄소중립 영향 선제 지원…'정의로운전환 특별지구' 지정 기준 마련",
-  "al-faisaly vs al-nassr",
-  "영구 결번",
-  "닥터x",
-  "明天的天氣"
+  "커피",
+  "윤미라",
+  "손석구",
+  "이현중"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "단풍 절정 시기 단풍",
+   "category": "생활",
+   "official_sources": [
+    "https://www.weather.go.kr",
+    "https://www.knps.or.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-24T00:39:22.961365+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "autumn-leaves-단풍-2026",
+   "phase": "단풍",
+   "queries": [
+    "단풍 절정 시기",
+    "첫 단풍",
+    "국립공원 단풍"
+   ],
+   "window": "2026-10 ~ 2026-11 (보통)",
+   "days_to_start": -23,
+   "in_window": true
+  },
+  {
+   "source": "korea_kr",
+   "keyword": "부총리, 영등포 행복주택 방문…\"주거안정에 가용자원 집중 투입\"",
+   "traffic": 0,
+   "rank": 2,
+   "published": "2026-10-24T00:39:27.395720+09:00",
+   "category": "청약",
+   "news": [
+    {
+     "title": "부총리, 영등포 행복주택 방문…\"주거안정에 가용자원 집중 투입\"",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974224",
+     "source": "정책브리핑 실시간 인기뉴스"
+    }
+   ],
+   "official": true,
+   "score": 73.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974224",
+     "title": "부총리, 영등포 행복주택 방문…\"주거안정에 가용자원 집중 투입\"",
+     "outlet": "정책브리핑 실시간 인기뉴스"
+    }
+   ]
+  },
   {
    "source": "tv_food",
    "keyword": "생생정보 맛집 2026-10-23",
@@ -58,6 +106,12 @@
      "published": "2026-10-23T18:31:54+09:00"
     },
     {
+     "title": "'생생정보' 시래기장어탕·장어돼지구이 맛집 - BNT뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDanJtQm1SeWR0VG52LXFkYmxZek1LLTBhWlY4dXEtSTJNajhub1ZEeDNzcTZGV1FzcFVBVFcwU0IyS084NDNqQWJGY0c4dXlzSk50cDE2ZGlWcnBha240S0NEUnA?oc=5",
+     "source": "BNT뉴스",
+     "published": "2026-10-21T18:15:02+09:00"
+    },
+    {
      "title": "'2TV 저녁 생생정보' 오늘 맛집, 닭보쌈 포항 '수탉'·생갈비 김치찌개 고양 '황토골'·순댓국 남양주시 '마석아바이순대' - 중부일보",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53MXl6WERHT3Nna3I4MU9ydU9IYnEtREEyRnN3R3pIQ0VDRTZZaGJRWlJsT3ZLNmhMMHRYVC01Qk0ydWk2NVhxM0V2X1ZZY2g1d19kamthMnJONS1UT1M0UzIyQ1dxeC1mcTFWSw?oc=5",
      "source": "중부일보",
@@ -76,12 +130,6 @@
      "published": "2026-10-22T18:36:04+09:00"
     },
     {
-     "title": "'생생정보' 시래기장어탕·장어돼지구이 맛집 - BNT뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDanJtQm1SeWR0VG52LXFkYmxZek1LLTBhWlY4dXEtSTJNajhub1ZEeDNzcTZGV1FzcFVBVFcwU0IyS084NDNqQWJGY0c4dXlzSk50cDE2ZGlWcnBha240S0NEUnA?oc=5",
-     "source": "BNT뉴스",
-     "published": "2026-10-21T18:15:02+09:00"
-    },
-    {
      "title": "'2TV 생생정보' 오늘방송맛집- 결정적 한 수, 장어탕 & 장어 돼지 구이 맛집 '청○○○' - 이투데이",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fS2IwV2hnRzNUamtJYkJTeVZpeGxhMVpSRGpoQ0ZqdHZDbm13WEF3a0FVTWNYbTNmZVVFcmdmQklneU03NjBtWFVxVWI3S0l1WVFsUw?oc=5",
      "source": "이투데이",
@@ -94,14 +142,14 @@
      "published": "2026-10-21T18:21:00+09:00"
     },
     {
-     "title": "'생생정보' 랍스터 보일링·전어 맛집 - BNT뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pb1JJaV9YaVNKTG0wTEFXVk9CQ3pGSFRraHhOLTYtRFRueXhyS2tlUmRQLW9KeHhkY3RqSUdMRmU5OHZhUkhVbXpqU2ZvSHgzclNDek4xMHZqNW1tblJfUDFHTGg?oc=5",
-     "source": "BNT뉴스",
-     "published": "2026-10-22T18:19:20+09:00"
+     "title": "'2TV 생생정보' 오늘방송맛집- 코미디언 한민관 단골! 보일링 랍스터 맛집 '피○○○' - 이투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NdEVoOGdlU0N6WE9hTUVRUUpULVlQRTJtR2NoMEVDN1Y3SmFOWHJScnZJMUctV09hUHBJdHk4SlJsaHBKMWdZVTAtRXJSc0hxTkxnNVI3WEF4eTBoQkVsREpETm1qcmFkRjNJYw?oc=5",
+     "source": "이투데이",
+     "published": "2026-10-22T17:18:00+09:00"
     }
    ],
    "official": false,
-   "score": 104.0,
+   "score": 72.8,
    "already_covered": false,
    "evidence": [
     {
@@ -136,16 +184,16 @@
    "category": "방송정보",
    "news": [
     {
-     "title": "‘생방송투데이’ 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설악면 솥뚜껑닭매운탕 맛집 위치는? - TopStarNews",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GSURqOWN3RTRFZGt3Vmg1X0xzOWFTNU9Gd3p3UGhpZDYyZi1HMFBoRE5KcWFZMFk4N1ByVlVGeEloUmFCTDY1Vm5LbUJDcS1qNnRmRXZOTFhPbUY2REZYZ3lILXgxY2ptR1hZZ2dFVnhxQQ?oc=5",
-     "source": "TopStarNews",
-     "published": "2026-10-23T18:13:45+09:00"
-    },
-    {
      "title": "'생방송투데이' 솥뚜껑닭매운탕 VS 대왕해물전골 맛집 - BNT뉴스",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tckhwSk4weWUwMjZ6UHphLWt5dkxBQ2tuSTYxeFpKUVZZc3VKX1JGY29qSU0zSG1aVlVkNUpZUURPTmprazJYR2RrTWZVdG1MMDNLS25saUdHRXkwSG1haUQ4aFc?oc=5",
      "source": "BNT뉴스",
      "published": "2026-10-23T18:05:02+09:00"
+    },
+    {
+     "title": "‘생방송투데이’ 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설악면 솥뚜껑닭매운탕 맛집 위치는? - TopStarNews",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GSURqOWN3RTRFZGt3Vmg1X0xzOWFTNU9Gd3p3UGhpZDYyZi1HMFBoRE5KcWFZMFk4N1ByVlVGeEloUmFCTDY1Vm5LbUJDcS1qNnRmRXZOTFhPbUY2REZYZ3lILXgxY2ptR1hZZ2dFVnhxQQ?oc=5",
+     "source": "TopStarNews",
+     "published": "2026-10-23T18:13:45+09:00"
     },
     {
      "title": "솥뚜껑닭매운탕부터 대왕해물전골까지…23일 '생방송 투데이' 맛불 작전 맛집 - 위키트리",
@@ -203,18 +251,18 @@
     }
    ],
    "official": false,
-   "score": 104.0,
+   "score": 72.8,
    "already_covered": false,
    "evidence": [
-    {
-     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16256155",
-     "title": "‘생방송투데이’ 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설악면 솥뚜껑닭매운탕 맛집 위치는? - TopStarNews",
-     "outlet": "TopStarNews"
-    },
     {
      "url": "https://www.bntnews.co.kr/article/view/bnt202610230272",
      "title": "'생방송투데이' 솥뚜껑닭매운탕 VS 대왕해물전골 맛집 - BNT뉴스",
      "outlet": "BNT뉴스"
+    },
+    {
+     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16256155",
+     "title": "‘생방송투데이’ 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설악면 솥뚜껑닭매운탕 맛집 위치는? - TopStarNews",
+     "outlet": "TopStarNews"
     },
     {
      "url": "https://www.wikitree.co.kr/articles/1168646",
@@ -229,53 +277,515 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "단풍 절정 시기 단풍",
-   "category": "생활",
-   "official_sources": [
-    "https://www.weather.go.kr",
-    "https://www.knps.or.kr"
-   ],
-   "official": true,
+   "source": "applyhome",
+   "keyword": "트리븐센텀 2단지 청약",
    "traffic": 0,
-   "published": "2026-10-24T00:05:33.600290+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "autumn-leaves-단풍-2026",
-   "phase": "단풍",
-   "queries": [
-    "단풍 절정 시기",
-    "첫 단풍",
-    "국립공원 단풍"
-   ],
-   "window": "2026-10 ~ 2026-11 (보통)",
-   "days_to_start": -23,
-   "in_window": true
-  },
-  {
-   "source": "korea_kr",
-   "keyword": "부총리, 영등포 행복주택 방문…\"주거안정에 가용자원 집중 투입\"",
-   "traffic": 0,
-   "rank": 1,
-   "published": "2026-10-24T00:05:37.819326+09:00",
    "category": "청약",
+   "official": true,
+   "published": "2026-10-16",
+   "receipt_begin": "2026-10-26",
+   "receipt_end": "2026-10-28",
+   "region": "부산",
+   "address": "부산광역시 해운대구 반여동 610-5번지 일원",
+   "households": 792,
    "news": [
     {
-     "title": "부총리, 영등포 행복주택 방문…\"주거안정에 가용자원 집중 투입\"",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974224",
-     "source": "정책브리핑 실시간 인기뉴스"
+     "title": "트리븐센텀 2단지 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000514&pblancNo=2026000514",
+     "source": "청약홈"
     }
    ],
+   "raw": {
+    "BSNS_MBY_NM": "주식회사 하나자산신탁",
+    "CNSTRCT_ENTRPS_NM": "두산에너빌리티(주)",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-17",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-19",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://www.trivn-doosan-centum.com/",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000514",
+    "HOUSE_NM": "트리븐센텀 2단지",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "부산광역시 해운대구 반여동 610-5번지 일원",
+    "HSSPLY_ZIP": "48044",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "N",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "16445344",
+    "MVN_PREARNGE_YM": "203102",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "아시아경제",
+    "PARCPRC_ULS_AT": "N",
+    "PBLANC_NO": "2026000514",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000514&pblancNo=2026000514",
+    "PRZWNER_PRESNATN_DE": "2026-11-05",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-10-26",
+    "RCEPT_ENDDE": "2026-10-28",
+    "RCRIT_PBLANC_DE": "2026-10-16",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-10-26",
+    "SPSPLY_RCEPT_ENDDE": "2026-10-26",
+    "SUBSCRPT_AREA_CODE": "600",
+    "SUBSCRPT_AREA_CODE_NM": "부산",
+    "TOT_SUPLY_HSHLDCO": 792
+   },
+   "score": 68.2,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "트리븐센텀 1단지 청약",
+   "traffic": 0,
+   "category": "청약",
    "official": true,
-   "score": 82.5,
-   "already_covered": false,
-   "evidence": [
+   "published": "2026-10-16",
+   "receipt_begin": "2026-10-26",
+   "receipt_end": "2026-10-28",
+   "region": "부산",
+   "address": "부산광역시 해운대구 반여동 1167-3번지 일원",
+   "households": 852,
+   "news": [
     {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974224",
-     "title": "부총리, 영등포 행복주택 방문…\"주거안정에 가용자원 집중 투입\"",
-     "outlet": "정책브리핑 실시간 인기뉴스"
+     "title": "트리븐센텀 1단지 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000513&pblancNo=2026000513",
+     "source": "청약홈"
     }
-   ]
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "주식회사 하나자산신탁",
+    "CNSTRCT_ENTRPS_NM": "두산에너빌리티(주)",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-17",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-19",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://www.trivn-doosan-centum.com/",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000513",
+    "HOUSE_NM": "트리븐센텀 1단지",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "부산광역시 해운대구 반여동 1167-3번지 일원",
+    "HSSPLY_ZIP": "48045",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "N",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "16445344",
+    "MVN_PREARNGE_YM": "203102",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "부산일보 ",
+    "PARCPRC_ULS_AT": "N",
+    "PBLANC_NO": "2026000513",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000513&pblancNo=2026000513",
+    "PRZWNER_PRESNATN_DE": "2026-11-04",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-10-26",
+    "RCEPT_ENDDE": "2026-10-28",
+    "RCRIT_PBLANC_DE": "2026-10-16",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-10-26",
+    "SPSPLY_RCEPT_ENDDE": "2026-10-26",
+    "SUBSCRPT_AREA_CODE": "600",
+    "SUBSCRPT_AREA_CODE_NM": "부산",
+    "TOT_SUPLY_HSHLDCO": 852
+   },
+   "score": 68.2,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "아크메르 동탄 99 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-16",
+   "receipt_begin": "2026-10-26",
+   "receipt_end": "2026-10-28",
+   "region": "경기",
+   "address": "경기도 화성특례시 동탄구 반송동 99번지[동탄(1) M1-2-2블록]",
+   "households": 996,
+   "news": [
+    {
+     "title": "아크메르 동탄 99 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000509&pblancNo=2026000509",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "케이비부동산신탁(주)",
+    "CNSTRCT_ENTRPS_NM": "(주)포스코이앤씨",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-16",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-18",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_GG_ENDDE": "2026-10-27",
+    "GNRL_RNK1_ETC_GG_RCPTDE": "2026-10-27",
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_GG_ENDDE": "2026-10-28",
+    "GNRL_RNK2_ETC_GG_RCPTDE": "2026-10-28",
+    "HMPG_ADRES": "https://아크메르동탄.kr",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000509",
+    "HOUSE_NM": "아크메르 동탄 99",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "경기도 화성특례시 동탄구 반송동 99번지[동탄(1) M1-2-2블록]",
+    "HSSPLY_ZIP": "18445",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "Y",
+    "MDAT_TRGET_AREA_SECD": "Y",
+    "MDHS_TELNO": "15228111",
+    "MVN_PREARNGE_YM": "203201",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "아시아투데이",
+    "PARCPRC_ULS_AT": "N",
+    "PBLANC_NO": "2026000509",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000509&pblancNo=2026000509",
+    "PRZWNER_PRESNATN_DE": "2026-11-04",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-10-26",
+    "RCEPT_ENDDE": "2026-10-28",
+    "RCRIT_PBLANC_DE": "2026-10-16",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "Y",
+    "SPSPLY_RCEPT_BGNDE": "2026-10-26",
+    "SPSPLY_RCEPT_ENDDE": "2026-10-26",
+    "SUBSCRPT_AREA_CODE": "410",
+    "SUBSCRPT_AREA_CODE_NM": "경기",
+    "TOT_SUPLY_HSHLDCO": 996
+   },
+   "score": 68.2,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "아크메르 동탄 95 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-16",
+   "receipt_begin": "2026-10-26",
+   "receipt_end": "2026-10-28",
+   "region": "경기",
+   "address": "경기도 화성특례시 동탄구 반송동 95번지[동탄(1) M1-1-2블록]",
+   "households": 812,
+   "news": [
+    {
+     "title": "아크메르 동탄 95 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "케이비부동산신탁(주)",
+    "CNSTRCT_ENTRPS_NM": "(주)포스코이앤씨",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-16",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-18",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_GG_ENDDE": "2026-10-27",
+    "GNRL_RNK1_ETC_GG_RCPTDE": "2026-10-27",
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_GG_ENDDE": "2026-10-28",
+    "GNRL_RNK2_ETC_GG_RCPTDE": "2026-10-28",
+    "HMPG_ADRES": "https://아크메르동탄.kr",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000508",
+    "HOUSE_NM": "아크메르 동탄 95",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "경기도 화성특례시 동탄구 반송동 95번지[동탄(1) M1-1-2블록]",
+    "HSSPLY_ZIP": "18445",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "Y",
+    "MDAT_TRGET_AREA_SECD": "Y",
+    "MDHS_TELNO": "15228111",
+    "MVN_PREARNGE_YM": "203201",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "아시아투데이",
+    "PARCPRC_ULS_AT": "N",
+    "PBLANC_NO": "2026000508",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
+    "PRZWNER_PRESNATN_DE": "2026-11-03",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-10-26",
+    "RCEPT_ENDDE": "2026-10-28",
+    "RCRIT_PBLANC_DE": "2026-10-16",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "Y",
+    "SPSPLY_RCEPT_BGNDE": "2026-10-26",
+    "SPSPLY_RCEPT_ENDDE": "2026-10-26",
+    "SUBSCRPT_AREA_CODE": "410",
+    "SUBSCRPT_AREA_CODE_NM": "경기",
+    "TOT_SUPLY_HSHLDCO": 812
+   },
+   "score": 68.2,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "광안센텀 비스타동원(조합원 취소분) 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-16",
+   "receipt_begin": "2026-10-26",
+   "receipt_end": "2026-10-27",
+   "region": "부산",
+   "address": "부산광역시 수영구 광안동 971",
+   "households": 39,
+   "news": [
+    {
+     "title": "광안센텀 비스타동원(조합원 취소분) 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000507&pblancNo=2026000507",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "광안지역주택조합",
+    "CNSTRCT_ENTRPS_NM": "(주)동원개발",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-16",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-18",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-10-26",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-10-26",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-10-26",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-10-26",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-10-27",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-10-27",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://www.광안센텀비스타동원.com",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000507",
+    "HOUSE_NM": "광안센텀 비스타동원(조합원 취소분)",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "부산광역시 수영구 광안동 971",
+    "HSSPLY_ZIP": "48240",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "N",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "0517413300",
+    "MVN_PREARNGE_YM": "202709",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": null,
+    "PARCPRC_ULS_AT": "N",
+    "PBLANC_NO": "2026000507",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000507&pblancNo=2026000507",
+    "PRZWNER_PRESNATN_DE": "2026-11-02",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-10-26",
+    "RCEPT_ENDDE": "2026-10-27",
+    "RCRIT_PBLANC_DE": "2026-10-16",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": null,
+    "SPSPLY_RCEPT_ENDDE": null,
+    "SUBSCRPT_AREA_CODE": "600",
+    "SUBSCRPT_AREA_CODE_NM": "부산",
+    "TOT_SUPLY_HSHLDCO": 39
+   },
+   "score": 68.2,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "연산 센텀 월드메르디앙 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-16",
+   "receipt_begin": "2026-10-26",
+   "receipt_end": "2026-10-28",
+   "region": "부산",
+   "address": "부산광역시 연제구 연산동 418-8(외1필지)",
+   "households": 144,
+   "news": [
+    {
+     "title": "연산 센텀 월드메르디앙 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000495&pblancNo=2026000495",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "연산동태광맨션가로주택정비사업조합",
+    "CNSTRCT_ENTRPS_NM": "주식회사 명린종합건설",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-16",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-18",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-10-27",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-10-27",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-10-28",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://www.연산센텀월드메르디앙.com",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000495",
+    "HOUSE_NM": "연산 센텀 월드메르디앙",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "부산광역시 연제구 연산동 418-8(외1필지)",
+    "HSSPLY_ZIP": "47558",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "N",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "0517580900",
+    "MVN_PREARNGE_YM": "202904",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "국제신문",
+    "PARCPRC_ULS_AT": "N",
+    "PBLANC_NO": "2026000495",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000495&pblancNo=2026000495",
+    "PRZWNER_PRESNATN_DE": "2026-11-04",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-10-26",
+    "RCEPT_ENDDE": "2026-10-28",
+    "RCRIT_PBLANC_DE": "2026-10-16",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-10-26",
+    "SPSPLY_RCEPT_ENDDE": "2026-10-26",
+    "SUBSCRPT_AREA_CODE": "600",
+    "SUBSCRPT_AREA_CODE_NM": "부산",
+    "TOT_SUPLY_HSHLDCO": 144
+   },
+   "score": 68.2,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "신분평 에피트 더웨이시티 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-15",
+   "receipt_begin": "2026-10-27",
+   "receipt_end": "2026-10-29",
+   "region": "충북",
+   "address": "충청북도 청주시 서원구 장성동 135번지 일원(장성지구 A2블럭)",
+   "households": 992,
+   "news": [
+    {
+     "title": "신분평 에피트 더웨이시티 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000455&pblancNo=2026000455",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "유한회사 에이치엠서빈",
+    "CNSTRCT_ENTRPS_NM": "에이치엘디앤아이한라 주식회사, 에이치엘에코텍 주식회사",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-16",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-18",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-10-28",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-10-28",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-10-28",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-10-29",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-10-29",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-10-29",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-10-29",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://brand.hldni.com/thewaycity/",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000455",
+    "HOUSE_NM": "신분평 에피트 더웨이시티",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "충청북도 청주시 서원구 장성동 135번지 일원(장성지구 A2블럭)",
+    "HSSPLY_ZIP": "28804",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "N",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "15336700",
+    "MVN_PREARNGE_YM": "202909",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "헤럴드경제신문",
+    "PARCPRC_ULS_AT": "N",
+    "PBLANC_NO": "2026000455",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000455&pblancNo=2026000455",
+    "PRZWNER_PRESNATN_DE": "2026-11-04",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-10-27",
+    "RCEPT_ENDDE": "2026-10-29",
+    "RCRIT_PBLANC_DE": "2026-10-15",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-10-27",
+    "SPSPLY_RCEPT_ENDDE": "2026-10-27",
+    "SUBSCRPT_AREA_CODE": "360",
+    "SUBSCRPT_AREA_CODE_NM": "충북",
+    "TOT_SUPLY_HSHLDCO": 992
+   },
+   "score": 68.2,
+   "already_covered": false
   },
   {
    "source": "calendar",
@@ -287,7 +797,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T00:05:33.599948+09:00",
+   "published": "2026-10-24T00:39:22.961002+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "yearend-tax-연말절세-2026",
@@ -309,7 +819,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T00:05:33.600221+09:00",
+   "published": "2026-10-24T00:39:22.961274+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "national-scholarship-1차신청-2026",
@@ -334,7 +844,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T00:05:33.600334+09:00",
+   "published": "2026-10-24T00:39:22.961411+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "kimjang-김장-2026",
@@ -360,7 +870,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T00:05:33.600353+09:00",
+   "published": "2026-10-24T00:39:22.961430+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "suneung-traffic-당일-2026",
@@ -385,7 +895,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T00:05:33.600381+09:00",
+   "published": "2026-10-24T00:39:22.961456+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "hometown-donation-yearend-연말-2026",
@@ -410,7 +920,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T00:05:33.600407+09:00",
+   "published": "2026-10-24T00:39:22.961482+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "drivers-license-renewal-연말-2026",
@@ -554,14 +1064,14 @@
      "source": "제주교통복지신문"
     },
     {
-     "title": "해외 출생서류 정정 지연에 부모급여 소급 심의 필요 - 비건뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PdTJsLVFWcFdTS3pUcUpZNTI1ZnphaF9WekZPc2hkamUwNC1xZnQ2UVJfVkg0RlVKSEd3QXJJZ1ktOWk0QW91cllmQkZBSXZiSmNTUERWOE9vTTNmclRuMVhYbmExdw?oc=5",
-     "source": "비건뉴스"
-    },
-    {
      "title": "우유팩·멸균팩, 일반 종이와 따로 배출해요! - 영상 | 멀티미디어 - 대한민국 정책브리핑",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc2RaRmU1Zm5Hcko3eUFwRThtbHNpZmY3U2hROC1kSUlvNVkzbGhTTEZvOEJNQ2ItdVRFa2VBeDhMOUkzWElYLWVqYUJBQWhveTJxdjE1RkVhX0ZycFFIRkY5NDJxU3ZwVXhza01ySzRlQ3kyc3FwWkFnY1BuRUgxZGNZX0lpcG00R1E?oc=5",
      "source": "대한민국 정책브리핑"
+    },
+    {
+     "title": "해외 출생서류 정정 지연에 부모급여 소급 심의 필요 - 비건뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PdTJsLVFWcFdTS3pUcUpZNTI1ZnphaF9WekZPc2hkamUwNC1xZnQ2UVJfVkg0RlVKSEd3QXJJZ1ktOWk0QW91cllmQkZBSXZiSmNTUERWOE9vTTNmclRuMVhYbmExdw?oc=5",
+     "source": "비건뉴스"
     },
     {
      "title": "복지급여 심사에 필요한 가족관계정보 연계 막혀… 취약계층 서류 부담 여전 - 베이비뉴스",
@@ -584,14 +1094,14 @@
      "outlet": "제주교통복지신문"
     },
     {
-     "url": "https://www.vegannews.co.kr/news/article.html?no=395831",
-     "title": "해외 출생서류 정정 지연에 부모급여 소급 심의 필요 - 비건뉴스",
-     "outlet": "비건뉴스"
-    },
-    {
      "url": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148974214&pWise=sub&pWiseSub=C1",
      "title": "우유팩·멸균팩, 일반 종이와 따로 배출해요! - 영상 | 멀티미디어 - 대한민국 정책브리핑",
      "outlet": "대한민국 정책브리핑"
+    },
+    {
+     "url": "https://www.vegannews.co.kr/news/article.html?no=395831",
+     "title": "해외 출생서류 정정 지연에 부모급여 소급 심의 필요 - 비건뉴스",
+     "outlet": "비건뉴스"
     },
     {
      "url": "https://www.ibabynews.com/news/articleView.html?idxno=156009",
@@ -604,7 +1114,7 @@
    "source": "google_news",
    "keyword": "민생지원금",
    "traffic": 0,
-   "article_count_24h": 22,
+   "article_count_24h": 20,
    "article_count_1h": 0,
    "published": "2026-10-23T22:03:03+09:00",
    "category": "정부혜택",
@@ -665,7 +1175,7 @@
    "source": "google_news",
    "keyword": "고향사랑기부제",
    "traffic": 0,
-   "article_count_24h": 54,
+   "article_count_24h": 53,
    "article_count_1h": 1,
    "published": "2026-10-23T21:52:31+09:00",
    "category": "세금",
@@ -706,6 +1216,11 @@
      "outlet": "고향사랑기부제 위기브"
     },
     {
+     "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202610231557454184C049&s_code=C049&page=1&SchYear=&SchMonth=",
+     "title": "‘안 하면 손해’…고향사랑기부제로 완성하는 경기도 가을 여행 - 경기도뉴스포털",
+     "outlet": "경기도뉴스포털"
+    },
+    {
      "url": "https://www.nongmin.com/article/20261023500371",
      "title": "NH농협 경남 의령군지부 “의령군에 기부하세요!” 고향사랑기부제 홍보 - 농민신문",
      "outlet": "농민신문"
@@ -714,101 +1229,665 @@
      "url": "https://www.jasm.co.kr/news/view/322753/%EC%9D%B8%EC%B2%9C%EC%8B%9C-%EA%B2%80%EB%8B%A8%EA%B5%AC-%EA%B3%A0%ED%96%A5%EC%82%AC%EB%9E%91%EA%B8%B0%EB%B6%80%EC%A0%9C-%EC%8B%9C%ED%96%89-2026",
      "title": "인천시 검단구, ‘고향사랑기부제’ 시행 - 중앙신문",
      "outlet": "중앙신문"
-    },
-    {
-     "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=648077",
-     "title": "김재현 디엠지그룹 의장, 함안군 고향사랑기부 동참 - 경남일보",
-     "outlet": "경남일보"
     }
    ]
   },
   {
-   "source": "google_news",
-   "keyword": "청약 일정",
+   "source": "applyhome",
+   "keyword": "시흥하중지구 A1블록 신혼희망타운(공공분양) 추가입주자모집공고 청약",
    "traffic": 0,
-   "article_count_24h": 39,
-   "article_count_1h": 1,
-   "published": "2026-10-23T14:44:16+09:00",
    "category": "청약",
+   "official": true,
+   "published": "2026-10-23",
+   "receipt_begin": "2026-11-02",
+   "receipt_end": "2026-11-03",
+   "region": "경기",
+   "address": "경기도 시흥시 하중동 일원 시흥하중 공공주택지구 내 A1블록",
+   "households": 175,
    "news": [
     {
-     "title": "LH, 시흥거모지구 공공분양 300가구 공급…청약 일정은 - 이데일리",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkI3dlZ6Y2hIX2FIeEFMOXNuZ1RHMS0tZ2g0SU5fTVBhb01sd1RyaDFfMjR0eXBTWHc5S3NEVnRpYmNHQ19kblp4RllvQmlVNmhIYm4tYnE1cnp3aVRpaERhdWZTTjU5TmFhNVpFcnFMaWw0eFRtS1dzcS1aVzVicQ?oc=5",
-     "source": "이데일리"
-    },
-    {
-     "title": "文정부표 왕숙신도시 본 청약 표류에 李정부 ‘공급 속도전’ 도매금 불신 - 네이버 프리미엄콘텐츠",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3F1VEhfb2VzVVh5VjZmbzkySUpYNFUwS1BxQ19nbjRfX21TVDMtQWtiOGd1amtjWUV3UGtWdDdTNWxvTExENklZWTQtMEtsYU9WekZxdjJhN0FNdDBLTEpDX1RFX201Z2pFRENMV0ZCeHZaRzZJS1RWMU1HSmVPRmZWUQ?oc=5",
-     "source": "네이버 프리미엄콘텐츠"
-    },
-    {
-     "title": "청라 아크원 푸르지오 청약 (’26. 11/2~4) - 홈두부",
-     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9wcDduRWFHTHpBbDFRdTJrTkNNbXNHNlhyUDZVM0V1N2d5ZkM4NmVPaTY3cnBWZ20tQ3h0ZWl5Q2g?oc=5",
-     "source": "홈두부"
-    },
-    {
-     "title": "[공모주 마감] 래블업 청약 2일차까지 마무리됐다…균등·비례 경쟁률 성적표 살펴보니 - CBC뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kWE5Sc29hYkVQVGlfSDQtM2gwTGlBazFpVlRzd3R5X2JzR1JiX3BVSVdLS3BRVlZ4MmNHR2kyaTFFMk9HNk5NUFpjckc2ME1oNmhtQmZHOEQwejBwcHZhemJVS2I4TUFS?oc=5",
-     "source": "CBC뉴스"
-    },
-    {
-     "title": "‘화성 향남 롯데캐슬 시그니처’, 23일 견본주택 개관…유주택자도 1순위 청약 - 서울경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TaURjT05maGZVYTdGbEtoM0ZmSnJxUG91SDBXZ2R0dnZ0TG9zdjg5S0RJNTBid2R1aURXaUxyQ3dkak5XTHYzU29hT0pQczdrS1EtVUFVZ01SZWZtUFhUUG9OVTU?oc=5",
-     "source": "서울경제TV"
+     "title": "시흥하중지구 A1블록 신혼희망타운(공공분양) 추가입주자모집공고 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820012&pblancNo=2026820012",
+     "source": "청약홈"
     }
    ],
-   "official": false,
-   "score": 35.7,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://www.edaily.co.kr/News/Read?newsId=04247606645615872&mediaCodeNo=257",
-     "title": "LH, 시흥거모지구 공공분양 300가구 공급…청약 일정은 - 이데일리",
-     "outlet": "이데일리"
-    },
-    {
-     "url": "https://contents.premium.naver.com/ledesk/agelimit/contents/261023125544941lr",
-     "title": "文정부표 왕숙신도시 본 청약 표류에 李정부 ‘공급 속도전’ 도매금 불신 - 네이버 프리미엄콘텐츠",
-     "outlet": "네이버 프리미엄콘텐츠"
-    },
-    {
-     "url": "https://www.cbci.co.kr/news/articleView.html?idxno=618641",
-     "title": "[공모주 마감] 래블업 청약 2일차까지 마무리됐다…균등·비례 경쟁률 성적표 살펴보니 - CBC뉴스",
-     "outlet": "CBC뉴스"
-    },
-    {
-     "url": "https://www.sentv.co.kr/article/view/sentv202610230108",
-     "title": "‘화성 향남 롯데캐슬 시그니처’, 23일 견본주택 개관…유주택자도 1순위 청약 - 서울경제TV",
-     "outlet": "서울경제TV"
-    }
-   ]
+   "raw": {
+    "BSNS_MBY_NM": "한국토지주택공사 경기남부지역본부",
+    "CNSTRCT_ENTRPS_NM": "이수건설 주식회사, 주식회사 오렌지이앤씨",
+    "CNTRCT_CNCLS_BGNDE": "2027-02-16",
+    "CNTRCT_CNCLS_ENDDE": "2027-02-18",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-11-02",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-11-02",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-11-02",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-11-02",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-11-03",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-11-03",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://apply.lh.or.kr/",
+    "HOUSE_DTL_SECD": "03",
+    "HOUSE_DTL_SECD_NM": "국민",
+    "HOUSE_MANAGE_NO": "2026820012",
+    "HOUSE_NM": "시흥하중지구 A1블록 신혼희망타운(공공분양) 추가입주자모집공고",
+    "HOUSE_SECD": "10",
+    "HOUSE_SECD_NM": "신혼희망타운",
+    "HSSPLY_ADRES": "경기도 시흥시 하중동 일원 시흥하중 공공주택지구 내 A1블록",
+    "HSSPLY_ZIP": "14976",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "N",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "03180777970",
+    "MVN_PREARNGE_YM": "202903",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": null,
+    "PARCPRC_ULS_AT": "Y",
+    "PBLANC_NO": "2026820012",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820012&pblancNo=2026820012",
+    "PRZWNER_PRESNATN_DE": "2026-11-12",
+    "PUBLIC_HOUSE_EARTH_AT": "Y",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "Y",
+    "RCEPT_BGNDE": "2026-11-02",
+    "RCEPT_ENDDE": "2026-11-03",
+    "RCRIT_PBLANC_DE": "2026-10-23",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": null,
+    "SPSPLY_RCEPT_ENDDE": null,
+    "SUBSCRPT_AREA_CODE": "410",
+    "SUBSCRPT_AREA_CODE_NM": "경기",
+    "TOT_SUPLY_HSHLDCO": 175
+   },
+   "score": 42.0,
+   "already_covered": false
   },
   {
-   "source": "korea_kr",
-   "keyword": "탄소중립 영향 선제 지원…'정의로운전환 특별지구' 지정 기준 마련",
+   "source": "applyhome",
+   "keyword": "계양신도시 카이브 유보라(AC4BL) 청약",
    "traffic": 0,
-   "rank": 2,
-   "published": "2026-10-24T00:05:37.819403+09:00",
-   "category": "기타",
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-23",
+   "receipt_begin": "2026-11-02",
+   "receipt_end": "2026-11-04",
+   "region": "인천",
+   "address": "인천광역시 계양구 동양동 420-3번지 일원 (인천계양 테크노밸리 공공주택지구 AC4블록)",
+   "households": 496,
    "news": [
     {
-     "title": "탄소중립 영향 선제 지원…'정의로운전환 특별지구' 지정 기준 마련",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974219",
-     "source": "정책브리핑 실시간 인기뉴스"
+     "title": "계양신도시 카이브 유보라(AC4BL) 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000532&pblancNo=2026000532",
+     "source": "청약홈"
     }
    ],
+   "raw": {
+    "BSNS_MBY_NM": "(주)반도건설",
+    "CNSTRCT_ENTRPS_NM": "(주)반도건설",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-23",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-25",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://www.gy-bando.com",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000532",
+    "HOUSE_NM": "계양신도시 카이브 유보라(AC4BL)",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "인천광역시 계양구 동양동 420-3번지 일원 (인천계양 테크노밸리 공공주택지구 AC4블록)",
+    "HSSPLY_ZIP": "21013",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "Y",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "18000320",
+    "MVN_PREARNGE_YM": "202908",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "Y",
+    "NSPRC_NM": "헤럴드경제신문",
+    "PARCPRC_ULS_AT": "Y",
+    "PBLANC_NO": "2026000532",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000532&pblancNo=2026000532",
+    "PRZWNER_PRESNATN_DE": "2026-11-11",
+    "PUBLIC_HOUSE_EARTH_AT": "Y",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-11-02",
+    "RCEPT_ENDDE": "2026-11-04",
+    "RCRIT_PBLANC_DE": "2026-10-23",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-11-02",
+    "SPSPLY_RCEPT_ENDDE": "2026-11-02",
+    "SUBSCRPT_AREA_CODE": "400",
+    "SUBSCRPT_AREA_CODE_NM": "인천",
+    "TOT_SUPLY_HSHLDCO": 496
+   },
+   "score": 42.0,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "시흥거모지구 S-1블록 공공분양(본청약) 청약",
+   "traffic": 0,
+   "category": "청약",
    "official": true,
-   "spike": "정책브리핑 실시간 인기뉴스에 새로 진입",
-   "spike_bonus": 10,
-   "score": 35.4,
-   "already_covered": false,
-   "evidence": [
+   "published": "2026-10-23",
+   "receipt_begin": "2026-11-02",
+   "receipt_end": "2026-11-17",
+   "region": "경기",
+   "address": "경기도 시흥시 거모동, 군자동 일원 시흥거모 공공주택지구 내 S-1블록",
+   "households": 300,
+   "news": [
     {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974219",
-     "title": "탄소중립 영향 선제 지원…'정의로운전환 특별지구' 지정 기준 마련",
-     "outlet": "정책브리핑 실시간 인기뉴스"
+     "title": "시흥거모지구 S-1블록 공공분양(본청약) 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000531&pblancNo=2026000531",
+     "source": "청약홈"
     }
-   ]
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "한국토지주택공사 경기남부지역본부",
+    "CNSTRCT_ENTRPS_NM": "씨에이이앤씨주식회사",
+    "CNTRCT_CNCLS_BGNDE": "2027-02-01",
+    "CNTRCT_CNCLS_ENDDE": "2027-02-03",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-11-16",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-11-02",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-11-16",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-11-02",
+    "GNRL_RNK1_ETC_GG_ENDDE": "2026-11-16",
+    "GNRL_RNK1_ETC_GG_RCPTDE": "2026-11-02",
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-11-17",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-11-17",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-11-17",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-11-17",
+    "GNRL_RNK2_ETC_GG_ENDDE": "2026-11-17",
+    "GNRL_RNK2_ETC_GG_RCPTDE": "2026-11-17",
+    "HMPG_ADRES": "https://apply.lh.or.kr/",
+    "HOUSE_DTL_SECD": "03",
+    "HOUSE_DTL_SECD_NM": "국민",
+    "HOUSE_MANAGE_NO": "2026000531",
+    "HOUSE_NM": "시흥거모지구 S-1블록 공공분양(본청약)",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "경기도 시흥시 거모동, 군자동 일원 시흥거모 공공주택지구 내 S-1블록",
+    "HSSPLY_ZIP": "15069",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "Y",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "16001004",
+    "MVN_PREARNGE_YM": "202906",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "중부일보 ",
+    "PARCPRC_ULS_AT": "Y",
+    "PBLANC_NO": "2026000531",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000531&pblancNo=2026000531",
+    "PRZWNER_PRESNATN_DE": "2026-11-26",
+    "PUBLIC_HOUSE_EARTH_AT": "Y",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "Y",
+    "RCEPT_BGNDE": "2026-11-02",
+    "RCEPT_ENDDE": "2026-11-17",
+    "RCRIT_PBLANC_DE": "2026-10-23",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": null,
+    "SPSPLY_RCEPT_ENDDE": null,
+    "SUBSCRPT_AREA_CODE": "410",
+    "SUBSCRPT_AREA_CODE_NM": "경기",
+    "TOT_SUPLY_HSHLDCO": 300
+   },
+   "score": 42.0,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "계양신도시 카이브 유보라(AC3BL) 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-23",
+   "receipt_begin": "2026-11-02",
+   "receipt_end": "2026-11-04",
+   "region": "인천",
+   "address": "인천광역시 계양구 동양동 458-3번지 일원 (인천계양 테크노밸리 공공주택지구 AC3블록)",
+   "households": 614,
+   "news": [
+    {
+     "title": "계양신도시 카이브 유보라(AC3BL) 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000530&pblancNo=2026000530",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "(주)반도건설",
+    "CNSTRCT_ENTRPS_NM": "(주)반도건설",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-23",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-25",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://www.gy-bando.com",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000530",
+    "HOUSE_NM": "계양신도시 카이브 유보라(AC3BL)",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "인천광역시 계양구 동양동 458-3번지 일원 (인천계양 테크노밸리 공공주택지구 AC3블록)",
+    "HSSPLY_ZIP": "21013",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "Y",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "18000320",
+    "MVN_PREARNGE_YM": "202908",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "Y",
+    "NSPRC_NM": "헤럴드경제신문",
+    "PARCPRC_ULS_AT": "Y",
+    "PBLANC_NO": "2026000530",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000530&pblancNo=2026000530",
+    "PRZWNER_PRESNATN_DE": "2026-11-10",
+    "PUBLIC_HOUSE_EARTH_AT": "Y",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-11-02",
+    "RCEPT_ENDDE": "2026-11-04",
+    "RCRIT_PBLANC_DE": "2026-10-23",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-11-02",
+    "SPSPLY_RCEPT_ENDDE": "2026-11-02",
+    "SUBSCRPT_AREA_CODE": "400",
+    "SUBSCRPT_AREA_CODE_NM": "인천",
+    "TOT_SUPLY_HSHLDCO": 614
+   },
+   "score": 42.0,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "GTX운정중앙역 시티프라디움 4단지(후속사업) 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-23",
+   "receipt_begin": "2026-11-02",
+   "receipt_end": "2026-11-04",
+   "region": "경기",
+   "address": "경기도 파주시 파주운정3지구 주상복합 4블록(경기도 파주시 동패동 400-7번지 일원)",
+   "households": 358,
+   "news": [
+    {
+     "title": "GTX운정중앙역 시티프라디움 4단지(후속사업) 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000518&pblancNo=2026000518",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "(주)넥스트건설",
+    "CNSTRCT_ENTRPS_NM": "주식회사 시티건설, 주식회사 시티, 주식회사 시티종합건설",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-25",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-29",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_GG_ENDDE": "2026-11-03",
+    "GNRL_RNK1_ETC_GG_RCPTDE": "2026-11-03",
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_GG_ENDDE": "2026-11-04",
+    "GNRL_RNK2_ETC_GG_RCPTDE": "2026-11-04",
+    "HMPG_ADRES": "https://www.gtx운정중앙역시티프라디움.com",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000518",
+    "HOUSE_NM": "GTX운정중앙역 시티프라디움 4단지(후속사업)",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "경기도 파주시 파주운정3지구 주상복합 4블록(경기도 파주시 동패동 400-7번지 일원)",
+    "HSSPLY_ZIP": "10890",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "Y",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "18996995",
+    "MVN_PREARNGE_YM": "203007",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "아시아경제",
+    "PARCPRC_ULS_AT": "Y",
+    "PBLANC_NO": "2026000518",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000518&pblancNo=2026000518",
+    "PRZWNER_PRESNATN_DE": "2026-11-11",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-11-02",
+    "RCEPT_ENDDE": "2026-11-04",
+    "RCRIT_PBLANC_DE": "2026-10-23",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-11-02",
+    "SPSPLY_RCEPT_ENDDE": "2026-11-02",
+    "SUBSCRPT_AREA_CODE": "410",
+    "SUBSCRPT_AREA_CODE_NM": "경기",
+    "TOT_SUPLY_HSHLDCO": 358
+   },
+   "score": 42.0,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "GTX운정중앙역 시티프라디움 3단지(후속사업) 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-23",
+   "receipt_begin": "2026-11-02",
+   "receipt_end": "2026-11-04",
+   "region": "경기",
+   "address": "경기도 파주시 파주운정3지구 주상복합 3블록(경기도 파주시 동패동 1673번지 일원)",
+   "households": 337,
+   "news": [
+    {
+     "title": "GTX운정중앙역 시티프라디움 3단지(후속사업) 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000517&pblancNo=2026000517",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "(주)넥스트건설",
+    "CNSTRCT_ENTRPS_NM": "주식회사 시티건설, 주식회사 시티, 주식회사 시티종합건설",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-25",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-29",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_GG_ENDDE": "2026-11-03",
+    "GNRL_RNK1_ETC_GG_RCPTDE": "2026-11-03",
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_GG_ENDDE": "2026-11-04",
+    "GNRL_RNK2_ETC_GG_RCPTDE": "2026-11-04",
+    "HMPG_ADRES": "https://www.gtx운정중앙역시티프라디움.com",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000517",
+    "HOUSE_NM": "GTX운정중앙역 시티프라디움 3단지(후속사업)",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "경기도 파주시 파주운정3지구 주상복합 3블록(경기도 파주시 동패동 1673번지 일원)",
+    "HSSPLY_ZIP": "10890",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "Y",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "18996995",
+    "MVN_PREARNGE_YM": "203007",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "아시아경제",
+    "PARCPRC_ULS_AT": "Y",
+    "PBLANC_NO": "2026000517",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000517&pblancNo=2026000517",
+    "PRZWNER_PRESNATN_DE": "2026-11-10",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-11-02",
+    "RCEPT_ENDDE": "2026-11-04",
+    "RCRIT_PBLANC_DE": "2026-10-23",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-11-02",
+    "SPSPLY_RCEPT_ENDDE": "2026-11-02",
+    "SUBSCRPT_AREA_CODE": "410",
+    "SUBSCRPT_AREA_CODE_NM": "경기",
+    "TOT_SUPLY_HSHLDCO": 337
+   },
+   "score": 42.0,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "청라 아크원 푸르지오 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-22",
+   "receipt_begin": "2026-11-02",
+   "receipt_end": "2026-11-04",
+   "region": "인천",
+   "address": "인천광역시 서해구 청라동 86-1번지 (청라국제업무단지 M5BL)",
+   "households": 868,
+   "news": [
+    {
+     "title": "청라 아크원 푸르지오 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000496&pblancNo=2026000496",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "(주)청라스마트시티",
+    "CNSTRCT_ENTRPS_NM": "(주)대우건설",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-22",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-24",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://www.arkone-prugio.com",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000496",
+    "HOUSE_NM": "청라 아크원 푸르지오",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "인천광역시 서해구 청라동 86-1번지 (청라국제업무단지 M5BL)",
+    "HSSPLY_ZIP": "22754",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "Y",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "15516881",
+    "MVN_PREARNGE_YM": "203108",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "아시아경제",
+    "PARCPRC_ULS_AT": "Y",
+    "PBLANC_NO": "2026000496",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000496&pblancNo=2026000496",
+    "PRZWNER_PRESNATN_DE": "2026-11-10",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-11-02",
+    "RCEPT_ENDDE": "2026-11-04",
+    "RCRIT_PBLANC_DE": "2026-10-22",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-11-02",
+    "SPSPLY_RCEPT_ENDDE": "2026-11-02",
+    "SUBSCRPT_AREA_CODE": "400",
+    "SUBSCRPT_AREA_CODE_NM": "인천",
+    "TOT_SUPLY_HSHLDCO": 868
+   },
+   "score": 42.0,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "화성 향남 롯데캐슬 시그니처 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-21",
+   "receipt_begin": "2026-11-02",
+   "receipt_end": "2026-11-04",
+   "region": "경기",
+   "address": "경기도 화성시 만세구 향남읍 상신리 산 13-13 일원",
+   "households": 1542,
+   "news": [
+    {
+     "title": "화성 향남 롯데캐슬 시그니처 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000502&pblancNo=2026000502",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "신영부동산신탁 주식회사",
+    "CNSTRCT_ENTRPS_NM": "롯데건설(주)",
+    "CNTRCT_CNCLS_BGNDE": "2026-11-23",
+    "CNTRCT_CNCLS_ENDDE": "2026-11-25",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-11-03",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-11-03",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-11-04",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-11-04",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://www.hwaseong-lottecastlesignature.com",
+    "HOUSE_DTL_SECD": "01",
+    "HOUSE_DTL_SECD_NM": "민영",
+    "HOUSE_MANAGE_NO": "2026000502",
+    "HOUSE_NM": "화성 향남 롯데캐슬 시그니처",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "경기도 화성시 만세구 향남읍 상신리 산 13-13 일원",
+    "HSSPLY_ZIP": "18622",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "N",
+    "MDAT_TRGET_AREA_SECD": "N",
+    "MDHS_TELNO": "15511542",
+    "MVN_PREARNGE_YM": "202912",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "문화일보",
+    "PARCPRC_ULS_AT": "N",
+    "PBLANC_NO": "2026000502",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000502&pblancNo=2026000502",
+    "PRZWNER_PRESNATN_DE": "2026-11-10",
+    "PUBLIC_HOUSE_EARTH_AT": "N",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "N",
+    "RCEPT_BGNDE": "2026-11-02",
+    "RCEPT_ENDDE": "2026-11-04",
+    "RCRIT_PBLANC_DE": "2026-10-21",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "N",
+    "SPSPLY_RCEPT_BGNDE": "2026-11-02",
+    "SPSPLY_RCEPT_ENDDE": "2026-11-02",
+    "SUBSCRPT_AREA_CODE": "410",
+    "SUBSCRPT_AREA_CODE_NM": "경기",
+    "TOT_SUPLY_HSHLDCO": 1542
+   },
+   "score": 42.0,
+   "already_covered": false
+  },
+  {
+   "source": "applyhome",
+   "keyword": "고덕강일지구 3단지 토지임대부(본청약) 청약",
+   "traffic": 0,
+   "category": "청약",
+   "official": true,
+   "published": "2026-10-16",
+   "receipt_begin": "2026-11-02",
+   "receipt_end": "2026-11-06",
+   "region": "서울",
+   "address": "서울특별시 강동구 강일동 174 일원(고덕강일공공주택지구 3단지)",
+   "households": 1305,
+   "news": [
+    {
+     "title": "고덕강일지구 3단지 토지임대부(본청약) 입주자모집공고",
+     "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
+     "source": "청약홈"
+    }
+   ],
+   "raw": {
+    "BSNS_MBY_NM": "서울주택도시개발공사",
+    "CNSTRCT_ENTRPS_NM": "에이치에스화성(주), (주)서해종합건설, 홍문종합건설(주)",
+    "CNTRCT_CNCLS_BGNDE": "2027-03-22",
+    "CNTRCT_CNCLS_ENDDE": "2027-04-02",
+    "GNRL_RNK1_CRSPAREA_ENDDE": "2026-11-04",
+    "GNRL_RNK1_CRSPAREA_RCPTDE": "2026-11-02",
+    "GNRL_RNK1_ETC_AREA_ENDDE": "2026-11-05",
+    "GNRL_RNK1_ETC_AREA_RCPTDE": "2026-11-05",
+    "GNRL_RNK1_ETC_GG_ENDDE": null,
+    "GNRL_RNK1_ETC_GG_RCPTDE": null,
+    "GNRL_RNK2_CRSPAREA_ENDDE": "2026-11-06",
+    "GNRL_RNK2_CRSPAREA_RCPTDE": "2026-11-06",
+    "GNRL_RNK2_ETC_AREA_ENDDE": "2026-11-06",
+    "GNRL_RNK2_ETC_AREA_RCPTDE": "2026-11-06",
+    "GNRL_RNK2_ETC_GG_ENDDE": null,
+    "GNRL_RNK2_ETC_GG_RCPTDE": null,
+    "HMPG_ADRES": "https://www.i-sh.co.kr/main/index.do",
+    "HOUSE_DTL_SECD": "03",
+    "HOUSE_DTL_SECD_NM": "국민",
+    "HOUSE_MANAGE_NO": "2026000373",
+    "HOUSE_NM": "고덕강일지구 3단지 토지임대부(본청약)",
+    "HOUSE_SECD": "01",
+    "HOUSE_SECD_NM": "APT",
+    "HSSPLY_ADRES": "서울특별시 강동구 강일동 174 일원(고덕강일공공주택지구 3단지)",
+    "HSSPLY_ZIP": "05208",
+    "IMPRMN_BSNS_AT": "N",
+    "LRSCL_BLDLND_AT": "Y",
+    "MDAT_TRGET_AREA_SECD": "Y",
+    "MDHS_TELNO": "16003456",
+    "MVN_PREARNGE_YM": "202705",
+    "NPLN_PRVOPR_PUBLIC_HOUSE_AT": "N",
+    "NSPRC_NM": "조선일보 , 서울신문",
+    "PARCPRC_ULS_AT": "Y",
+    "PBLANC_NO": "2026000373",
+    "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
+    "PRZWNER_PRESNATN_DE": "2026-11-26",
+    "PUBLIC_HOUSE_EARTH_AT": "Y",
+    "PUBLIC_HOUSE_SPCLW_APPLC_AT": "Y",
+    "RCEPT_BGNDE": "2026-11-02",
+    "RCEPT_ENDDE": "2026-11-06",
+    "RCRIT_PBLANC_DE": "2026-10-16",
+    "RENT_SECD": "0",
+    "RENT_SECD_NM": "분양주택",
+    "SPECLT_RDN_EARTH_AT": "Y",
+    "SPSPLY_RCEPT_BGNDE": null,
+    "SPSPLY_RCEPT_ENDDE": null,
+    "SUBSCRPT_AREA_CODE": "100",
+    "SUBSCRPT_AREA_CODE_NM": "서울",
+    "TOT_SUPLY_HSHLDCO": 1305
+   },
+   "score": 42.0,
+   "already_covered": false
   },
   {
    "source": "google_news",
@@ -825,14 +1904,14 @@
      "source": "1코노미뉴스"
     },
     {
-     "title": "[2026 국정감사] 홍지선 장기 민간임대 활성화…청년·신혼부부 주거지원 확대 - 아주경제",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDWkdNeVU5WmZuYXdSUWdWdkNCU1Azd1lwdFFVWVU4M0xpeUpla3oxbjlFSjFrMGVmUDdHdHVCVHFlQ2t2ZHNSOGlQeGgzUkVrV3Zqb0VpZ3HSAVhBVV95cUxQQ1pHTXlVOVpmbmF3UlFnVnZDQlNQM3dZcHRRVVlVODNMaXlKZWt6MW45RUoxazBlZlA3R3R1QlRxZUNrdmRzUjhpUHhoM1JFa1d2am9FaWdx?oc=5",
-     "source": "아주경제"
-    },
-    {
      "title": "[윤나래의 세대읽기] 가족돌봄청년, 독립을 미루는 이유 - 이투데이",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iRW8tSGNjU2ZYWVJOY3dUT05lSW96bzNJR3VSMUsxV3FkRTRxVTdUcXhvMDFQS3ExeVl0cEFXQm5CaVlOaU94VVgzRE5qWS15VUtId0pTYnYxdw?oc=5",
      "source": "이투데이"
+    },
+    {
+     "title": "[2026 국정감사] 홍지선 장기 민간임대 활성화…청년·신혼부부 주거지원 확대 - 아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDWkdNeVU5WmZuYXdSUWdWdkNCU1Azd1lwdFFVWVU4M0xpeUpla3oxbjlFSjFrMGVmUDdHdHVCVHFlQ2t2ZHNSOGlQeGgzUkVrV3Zqb0VpZ3HSAVhBVV95cUxQQ1pHTXlVOVpmbmF3UlFnVnZDQlNQM3dZcHRRVVlVODNMaXlKZWt6MW45RUoxazBlZlA3R3R1QlRxZUNrdmRzUjhpUHhoM1JFa1d2am9FaWdx?oc=5",
+     "source": "아주경제"
     },
     {
      "title": "‘월세 시대’가 1인 가구·전세 사기 때문? 현 정부 출범 1년 만에 비율 7%p 급등 - 조선일보",
@@ -847,6 +1926,70 @@
    ],
    "official": false,
    "score": 33.6,
+   "already_covered": true
+  },
+  {
+   "source": "korea_kr",
+   "keyword": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다",
+   "traffic": 0,
+   "rank": 1,
+   "published": "2026-10-24T00:39:27.395642+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974194",
+     "source": "정책브리핑 실시간 인기뉴스"
+    }
+   ],
+   "official": true,
+   "score": 33.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974194",
+     "title": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다",
+     "outlet": "정책브리핑 실시간 인기뉴스"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "청약 일정",
+   "traffic": 0,
+   "article_count_24h": 40,
+   "article_count_1h": 0,
+   "published": "2026-10-23T14:44:16+09:00",
+   "category": "청약",
+   "news": [
+    {
+     "title": "LH, 시흥거모지구 공공분양 300가구 공급…청약 일정은 - 이데일리",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkI3dlZ6Y2hIX2FIeEFMOXNuZ1RHMS0tZ2g0SU5fTVBhb01sd1RyaDFfMjR0eXBTWHc5S3NEVnRpYmNHQ19kblp4RllvQmlVNmhIYm4tYnE1cnp3aVRpaERhdWZTTjU5TmFhNVpFcnFMaWw0eFRtS1dzcS1aVzVicQ?oc=5",
+     "source": "이데일리"
+    },
+    {
+     "title": "文정부표 왕숙신도시 본 청약 표류에 李정부 ‘공급 속도전’ 도매금 불신 - 네이버 프리미엄콘텐츠",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3F1VEhfb2VzVVh5VjZmbzkySUpYNFUwS1BxQ19nbjRfX21TVDMtQWtiOGd1amtjWUV3UGtWdDdTNWxvTExENklZWTQtMEtsYU9WekZxdjJhN0FNdDBLTEpDX1RFX201Z2pFRENMV0ZCeHZaRzZJS1RWMU1HSmVPRmZWUQ?oc=5",
+     "source": "네이버 프리미엄콘텐츠"
+    },
+    {
+     "title": "[먼저보기] 디에이치 반포124 청약 (’26. 12/7 예정) - 홈두부",
+     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBGOXE0UG1QQWRhSXJuUXBhQW1yM3ppRTIyVXVsQmhSOHVTcUY1OFloRHFmaS1SSzdYRVA0NlJjUFA?oc=5",
+     "source": "홈두부"
+    },
+    {
+     "title": "[공모주 마감] 래블업 청약 2일차까지 마무리됐다…균등·비례 경쟁률 성적표 살펴보니 - CBC뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kWE5Sc29hYkVQVGlfSDQtM2gwTGlBazFpVlRzd3R5X2JzR1JiX3BVSVdLS3BRVlZ4MmNHR2kyaTFFMk9HNk5NUFpjckc2ME1oNmhtQmZHOEQwejBwcHZhemJVS2I4TUFS?oc=5",
+     "source": "CBC뉴스"
+    },
+    {
+     "title": "‘화성 향남 롯데캐슬 시그니처’, 23일 견본주택 개관…유주택자도 1순위 청약 - 서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TaURjT05maGZVYTdGbEtoM0ZmSnJxUG91SDBXZ2R0dnZ0TG9zdjg5S0RJNTBid2R1aURXaUxyQ3dkak5XTHYzU29hT0pQczdrS1EtVUFVZ01SZWZtUFhUUG9OVTU?oc=5",
+     "source": "서울경제TV"
+    }
+   ],
+   "official": false,
+   "score": 31.5,
    "already_covered": true
   },
   {
@@ -890,54 +2033,93 @@
   },
   {
    "source": "google_news",
-   "keyword": "생방송 투데이 맛집",
+   "keyword": "최저임금 결정",
    "traffic": 0,
-   "article_count_24h": 7,
+   "article_count_24h": 8,
    "article_count_1h": 0,
-   "published": "2026-10-23T18:13:45+09:00",
-   "category": "방송정보",
+   "published": "2026-10-23T22:53:10+09:00",
+   "category": "노동·급여",
    "news": [
     {
-     "title": "‘생방송투데이’ 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설악면 솥뚜껑닭매운탕 맛집 위치는? - TopStarNews",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GSURqOWN3RTRFZGt3Vmg1X0xzOWFTNU9Gd3p3UGhpZDYyZi1HMFBoRE5KcWFZMFk4N1ByVlVGeEloUmFCTDY1Vm5LbUJDcS1qNnRmRXZOTFhPbUY2REZYZ3lILXgxY2ptR1hZZ2dFVnhxQQ?oc=5",
-     "source": "TopStarNews"
+     "title": "\"최저임금만으론 버겁다\"…원주 노동계, 생활임금조례 제정 촉구 - 강원신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlUC1yYUc3aHlMQlUxTVlZODdpWVcxVEJYcWZva0ZsdE5xZHFaSHg3dGdjV0FfMWRZNng2RFhLWHN1Y1o4Sm8tWjBsbzgxRmE4cDZqT25SV3FEaUhLVlRKRTdOWm9IdGhE?oc=5",
+     "source": "강원신문"
     },
     {
-     "title": "'생방송투데이' 솥뚜껑닭매운탕 VS 대왕해물전골 맛집 - BNT뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tckhwSk4weWUwMjZ6UHphLWt5dkxBQ2tuSTYxeFpKUVZZc3VKX1JGY29qSU0zSG1aVlVkNUpZUURPTmprazJYR2RrTWZVdG1MMDNLS25saUdHRXkwSG1haUQ4aFc?oc=5",
-     "source": "BNT뉴스"
+     "title": "구로구 생활임금 1만2757원으로…내년 최저임금보다 2057원 높다 - 뉴스21 통신",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQa3RkT0tDS0VRTzVSUDJLZVAyTjI3Z0haOE85QkNNVnJORWg3d0xfVm9DTEh0QkRXVW1qRTB5VHpsMGRBQ1p2Q29PSTNzQmJJMERyM0pn?oc=5",
+     "source": "뉴스21 통신"
     },
     {
-     "title": "솥뚜껑닭매운탕부터 대왕해물전골까지…23일 '생방송 투데이' 맛불 작전 맛집 - 위키트리",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wczZOZTRsVHdzd3pnQjdHcTM2YkhGSmp2RHlMcFZKbDFoR3hYQnhGN1RGNkRmc1YyTk5nYzQ0SmhTbm52MEgxQ28zWTlmUURRYWZ6aHRB?oc=5",
-     "source": "위키트리"
+     "title": "원주 생활임금조례 제정 촉구…“청년 떠나는 도시 바꿔야” - 강원도민일보",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pMGF5RzJiSk94QXRQbFh1R2ZTam9qOWZMTXVCcC1pRWUyRy1hc0pJTm00eGl4S083cTd3LTdaaVMtSUh4YjJtLXd1TXZJUVRwQlN1WU9STVRsVW1TenZWRlRMdllIQ0lz?oc=5",
+     "source": "강원도민일보"
     },
     {
-     "title": "‘생방송투데이-인생분식’ 구미 원평동 즉석떡볶이 맛집 위치는? “사랑 담다” - TopStarNews",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iSVNabjdtcjFYU1ptNEItX1E5alpHX1h0WmphZ2hDa3BpYzdZQ0NDb0JvN0RWZTFPOUgzckpNZFJHQUI0UnEySzZTb3BueWhLaWJqUDZIT0N1c2xWTmJvUWtCamt2LWVSQXJIN2ZhdHcyQQ?oc=5",
-     "source": "TopStarNews"
+     "title": "울산 동구의회 의정비 9.35% 인상 확정…주민회 \"반대\" - 뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VU3VwRkJxS1FFR3FNajZuMGV3WnFac2k2dnVrbUEwMGhpUTdMNndRRkNRaXpsWWdYdHZyaEIwNEVRcGdFUmFRaERuLU5sd2JNZFh3cFFod2tnR0JEYjhua2NoSkxmdXp6TFV3YW4wV2FTMW50Q25BMdIBeEFVX3lxTE9VU3VwRkJxS1FFR3FNajZuMGV3WnFac2k2dnVrbUEwMGhpUTdMNndRRkNRaXpsWWdYdHZyaEIwNEVRcGdFUmFRaERuLU5sd2JNZFh3cFFod2tnR0JEYjhua2NoSkxmdXp6TFV3YW4wV2FTMW50Q25BMQ?oc=5",
+     "source": "뉴시스"
     },
     {
-     "title": "[다시보기] 생방송 투데이 4113회 - m.programs.sbs.co.kr",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbzY4VzBGTVBNMnJTZkNrZFJWUW9ZRWFCQ1J1REd2TGwxMzlac1B4c3E0aUp4TWVLTXFMRFNzYUpZQ0g2a0RBc3Joc0s1d2NFWjREUFFFcUxwYWFnVkowYThZZDVBc3dDM2lDZEhhTi0tbGdGdG1YZkJGazBnc3h4THNMR2lsY0o5YVVpcC1mWlZycVZL?oc=5",
-     "source": "m.programs.sbs.co.kr"
+     "title": "지옥엔 천장과 바닥이 없다 [박권일의 다이내믹 도넛] - 한겨레",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xMnVxMzFWYjgzc3JFTmluOU1ueEozWU1ScWZ6dTZKanY5N203akNjaG03eUJqdmxYWjBvNTFENWs0aF92aHdvVXpWQ29jUVIwd3IwaDBCUDVYYXNqQk9BNE95QkcxZw?oc=5",
+     "source": "한겨레"
     }
    ],
    "official": false,
-   "score": 27.3,
+   "score": 31.2,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "종합소득세 신고",
+   "traffic": 0,
+   "article_count_24h": 8,
+   "article_count_1h": 1,
+   "published": "2026-10-23T08:47:00+09:00",
+   "category": "세금",
+   "news": [
+    {
+     "title": "'무소득자' 취급받는 배달라이더, 은행 대출길 열리나 - 한경매거진",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MekRvU2ZDSnF6OVYzU0d4NlZzS19OZUU3UHdXN25kNnhXNnV0MW9SRjc0b2NnRlNadFVnbC1yLWEyVC13eUwyVTY4bGJFa19JZVFqdlRfenNad05GOUVrQkFVaVVZT1ZmMU5PTQ?oc=5",
+     "source": "한경매거진"
+    },
+    {
+     "title": "연 1억원 벌어도 대출 문턱 막힌 라이더…‘플랫폼 소득확인’으로 길 열리나 - 더퍼블릭",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxdGgyRUUxWkZZTmpFamI3Q2FvRE1wdW11ZDZNRE8wVDBHYXo1WEZKSGxaeXRiZmIxUjF5aGVrSmhMOUNMblRDSmpTNzU2UlBhV3JhU3QtTC01MUpOZ3Z0akVob3ZuZmFHdnJDYS0wNNIBb0FVX3lxTFAxdGgyRUUxWkZZTmpFamI3Q2FvRE1wdW11ZDZNRE8wVDBHYXo1WEZKSGxaeXRiZmIxUjF5aGVrSmhMOUNMblRDSmpTNzU2UlBhV3JhU3QtTC01MUpOZ3Z0akVob3ZuZmFHdnJDYS0wNA?oc=5",
+     "source": "더퍼블릭"
+    },
+    {
+     "title": "배달라이더 소득증빙, 금융지원 방안 검토...대출 문턱 낮아지나 - 내외뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9heUZjbHAtUzVXd0o4b3N0U011TVBuTnFWMFFPUzVUZUMxek1rdm1ncWNoVG9QT01QcXpkb19tQWRDa0ZEMDlpVXJkLVU5b1FncVhjT3ZBSjlNejZWZTM5NHItb1pYMGg1dkZGR25XS0zSAXBBVV95cUxPYXlGY2xwLVM1V3dKOG9zdFNNdU1Qbk5xVjBRT1M1VGVDMXpNa3ZtZ3FjaFRvUE9NUHF6ZG9fbUFkQ2tGRDA5aVVyZC1VOW9RZ3FYY092QUo5TXo2VmUzOTRyLW9aWDBoNXZGRkduV0tM?oc=5",
+     "source": "내외뉴스통신"
+    },
+    {
+     "title": "“돈 벌어도 무소득자 취급”…안도걸 의원, 배달라이더 금융지원 모델 제안 - 뉴스라운드",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2VlE5c1B2UlM1SXo5NG1ldTFtc21ucERiV1FhTHNxSnQyM2NYYjY1UHRPdmlGM1A5OGN5M2ZWb1ZCRFo5a05WMVdja2toRDZLbW9uc0xNRVlnYUcxQy01dlE1ODNYM0hjREoxONIBcEFVX3lxTE4xN0hNSk5oTVNjUnEyaThJYlVkUjNiNkdlc1dhUmJxVk9zSTREblVNX25TaVM4Ni1oaDRMYkZaMGZvU05zN19hWlU4UzMwb2cxYlNfWk5pOVNVRHJQbEF4Wl9XNWZ4MWJsUnhMYVVEajI?oc=5",
+     "source": "뉴스라운드"
+    },
+    {
+     "title": "방송국 없어도 뜰 수 있다…세상 움직이는 유튜브 AI - 중앙일보",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sd1NrSDlaMlNPZ08wdElxcnhLaURBVDN0alJDeTVxUG5NaHpJVWkzY2J6c0ZVZDRpcDYxdG1vWjcyaFZnQjNQaFBIcEs5cUlyVm9pSlpB?oc=5",
+     "source": "중앙일보"
+    }
+   ],
+   "official": false,
+   "score": 27.4,
    "already_covered": false
   },
   {
    "source": "korea_kr",
-   "keyword": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다",
+   "keyword": "이 대통령, \"모든 위협으로부터 국민 일상 지키는 데 국정 역량 집중\"",
    "traffic": 0,
    "rank": 3,
-   "published": "2026-10-24T00:05:37.819454+09:00",
+   "published": "2026-10-24T00:39:27.395770+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974194",
+     "title": "이 대통령, \"모든 위협으로부터 국민 일상 지키는 데 국정 역량 집중\"",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973945",
      "source": "정책브리핑 실시간 인기뉴스"
     }
    ],
@@ -946,8 +2128,8 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974194",
-     "title": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973945",
+     "title": "이 대통령, \"모든 위협으로부터 국민 일상 지키는 데 국정 역량 집중\"",
      "outlet": "정책브리핑 실시간 인기뉴스"
     }
    ]
@@ -993,15 +2175,15 @@
   },
   {
    "source": "korea_kr",
-   "keyword": "국방부, 북에 '군사당국회담' 제안…\"군사분계선 위치 확인 협의\"",
+   "keyword": "금융위, 여신전문금융사의 부동산·건설업 관련 대출한도 규제 강화",
    "traffic": 0,
    "rank": 4,
-   "published": "2026-10-24T00:05:37.819503+09:00",
+   "published": "2026-10-24T00:39:27.395819+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "국방부, 북에 '군사당국회담' 제안…\"군사분계선 위치 확인 협의\"",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974228",
+     "title": "금융위, 여신전문금융사의 부동산·건설업 관련 대출한도 규제 강화",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974200",
      "source": "정책브리핑 실시간 인기뉴스"
     }
    ],
@@ -1010,8 +2192,8 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974228",
-     "title": "국방부, 북에 '군사당국회담' 제안…\"군사분계선 위치 확인 협의\"",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974200",
+     "title": "금융위, 여신전문금융사의 부동산·건설업 관련 대출한도 규제 강화",
      "outlet": "정책브리핑 실시간 인기뉴스"
     }
    ]
@@ -1057,48 +2239,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "종합소득세 신고",
-   "traffic": 0,
-   "article_count_24h": 7,
-   "article_count_1h": 0,
-   "published": "2026-10-23T08:47:00+09:00",
-   "category": "세금",
-   "news": [
-    {
-     "title": "'무소득자' 취급받는 배달라이더, 은행 대출길 열리나 - 한경매거진",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MekRvU2ZDSnF6OVYzU0d4NlZzS19OZUU3UHdXN25kNnhXNnV0MW9SRjc0b2NnRlNadFVnbC1yLWEyVC13eUwyVTY4bGJFa19JZVFqdlRfenNad05GOUVrQkFVaVVZT1ZmMU5PTQ?oc=5",
-     "source": "한경매거진"
-    },
-    {
-     "title": "연 1억원 벌어도 대출 문턱 막힌 라이더…‘플랫폼 소득확인’으로 길 열리나 - 더퍼블릭",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxdGgyRUUxWkZZTmpFamI3Q2FvRE1wdW11ZDZNRE8wVDBHYXo1WEZKSGxaeXRiZmIxUjF5aGVrSmhMOUNMblRDSmpTNzU2UlBhV3JhU3QtTC01MUpOZ3Z0akVob3ZuZmFHdnJDYS0wNNIBb0FVX3lxTFAxdGgyRUUxWkZZTmpFamI3Q2FvRE1wdW11ZDZNRE8wVDBHYXo1WEZKSGxaeXRiZmIxUjF5aGVrSmhMOUNMblRDSmpTNzU2UlBhV3JhU3QtTC01MUpOZ3Z0akVob3ZuZmFHdnJDYS0wNA?oc=5",
-     "source": "더퍼블릭"
-    },
-    {
-     "title": "“돈 벌어도 무소득자 취급”…안도걸 의원, 배달라이더 금융지원 모델 제안 - 뉴스라운드",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2VlE5c1B2UlM1SXo5NG1ldTFtc21ucERiV1FhTHNxSnQyM2NYYjY1UHRPdmlGM1A5OGN5M2ZWb1ZCRFo5a05WMVdja2toRDZLbW9uc0xNRVlnYUcxQy01dlE1ODNYM0hjREoxONIBcEFVX3lxTE4xN0hNSk5oTVNjUnEyaThJYlVkUjNiNkdlc1dhUmJxVk9zSTREblVNX25TaVM4Ni1oaDRMYkZaMGZvU05zN19hWlU4UzMwb2cxYlNfWk5pOVNVRHJQbEF4Wl9XNWZ4MWJsUnhMYVVEajI?oc=5",
-     "source": "뉴스라운드"
-    },
-    {
-     "title": "배달라이더 소득증빙, 금융지원 방안 검토...대출 문턱 낮아지나 - 내외뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9heUZjbHAtUzVXd0o4b3N0U011TVBuTnFWMFFPUzVUZUMxek1rdm1ncWNoVG9QT01QcXpkb19tQWRDa0ZEMDlpVXJkLVU5b1FncVhjT3ZBSjlNejZWZTM5NHItb1pYMGg1dkZGR25XS0zSAXBBVV95cUxPYXlGY2xwLVM1V3dKOG9zdFNNdU1Qbk5xVjBRT1M1VGVDMXpNa3ZtZ3FjaFRvUE9NUHF6ZG9fbUFkQ2tGRDA5aVVyZC1VOW9RZ3FYY092QUo5TXo2VmUzOTRyLW9aWDBoNXZGRkduV0tM?oc=5",
-     "source": "내외뉴스통신"
-    },
-    {
-     "title": "연말정산 꿀팁 총정리 세금 폭탄 피하고 13월의 월급 받는 법 : 재테크 - 재경일보",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4zUGZFdHl6T1hKWEZydklFTlptZHpvVFBLWlJuQmoyUEgwNFVKY000TDVjaGxjcEE3S2YybExIT3J4TVA4aFpDS0JMOA?oc=5",
-     "source": "재경일보"
-    }
-   ],
-   "official": false,
-   "score": 20.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "실업급여",
    "traffic": 0,
-   "article_count_24h": 7,
+   "article_count_24h": 8,
    "article_count_1h": 0,
    "published": "2026-10-23T14:05:33+09:00",
    "category": "노동·급여",
@@ -1124,14 +2267,92 @@
      "source": "경상일보"
     },
     {
-     "title": "서울시복지재단 '장기요양 인력배치 지원 AI' 첫 공개 - 복지뉴스",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JY09FNU4xX0R0b1Vzcy1GUy1icDY4V2hNLVN3aktrbEZNZjhfdjFvcDhjUmxXUDJ5VXJvcVVDcTBoUTB6dmc2bk5sdXNwNkhrNkRQdEFNdjU4Y2FrREVRNFJzaWNsYnJFUTJR?oc=5",
-     "source": "복지뉴스"
+     "title": "[심층기획 : 고용24 사용설명서⑥ AI전략팀 개발자] AI 추천 일자리에 취업하지 못한다면?…'두 번째 경로'를 탐구하라 - 뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lX213akNOaU5WY0Y0RlkzdkQ1cTVMS2JRTk5qOTlUa0pLTEh0RWdoUmRNWlh3dF9kVWRneUgyLU82SDdLeTlMTXpReE5Sc3hreTFPQmMzdVpaekFYcmc?oc=5",
+     "source": "뉴스투데이"
+    }
+   ],
+   "official": false,
+   "score": 21.8,
+   "already_covered": true
+  },
+  {
+   "source": "google_news",
+   "keyword": "사전투표소",
+   "traffic": 0,
+   "article_count_24h": 7,
+   "article_count_1h": 0,
+   "published": "2026-10-23T14:57:42+09:00",
+   "category": "선거",
+   "news": [
+    {
+     "title": "미국 중간선거, AI·빅테크가 양당의 공격 표적으로 - 초이스경제",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhRmNxNXB6d3ZIeURKaGxUTE4xWUhuSnIxblMtOFNnSTF3UVRVdmFLRlZFdGxpd3pMcGZXQXoxbkg0d2V5cDVzNXAwd3BMVW95MndLZ2wteE0xT0FSeHg4MlJYZWUtWFgwMmVxX2hDWUxSekHSAXNBVV95cUxQYUZjcTVwend2SHlESmhsVExOMVlIbkpyMW5TLThTZ0kxd1FUVXZhS0ZWRXRsaXd6THBmV0F6MW5INHdleXA1czVwMHdwTFVveTJ3S2dsLXhNMU9BUnh4ODJSWGVlLVhYMDJlcV9oQ1lMUnpB?oc=5",
+     "source": "초이스경제"
+    },
+    {
+     "title": "美민주 지지층 사전투표 폭증…\"'트럼프 통제 시도'에 우편투표 못 믿어\" - 뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzakp0V3FjaDBER193UkxRMllkUFdIODNUbGlDOGdndHBjQzgxeEJuMUFmNjQxSnF3b1ZQVHFNdFdlZmNoZVFlRWxYN0h0V1RrbVMxWFhEaXF4ancyME0za0tVakVwR0RBU3U5eUMzRDVyYVBDNFBRY9IBeEFVX3lxTFAzakp0V3FjaDBER193UkxRMllkUFdIODNUbGlDOGdndHBjQzgxeEJuMUFmNjQxSnF3b1ZQVHFNdFdlZmNoZVFlRWxYN0h0V1RrbVMxWFhEaXF4ancyME0za0tVakVwR0RBU3U5eUMzRDVyYVBDNFBRYw?oc=5",
+     "source": "뉴시스"
+    },
+    {
+     "title": "\"선거개입 우려\"…美중간선거앞 정부-민주당 '맞불감시·소송전' - 연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tWXd4MzFoSFJMS1RhWnVKaTl0Snh0a1JKdU5tdEo3TlRiVFhscHVINkd6eGhjZ1B0RVFjOExqUV9jZlpndjV6enVmUDRIZHdfdGI3ZGZackxRUnZQSmRGMNIBYEFVX3lxTE8tWXd4MzFoSFJMS1RhWnVKaTl0Snh0a1JKdU5tdEo3TlRiVFhscHVINkd6eGhjZ1B0RVFjOExqUV9jZlpndjV6enVmUDRIZHdfdGI3ZGZackxRUnZQSmRGMA?oc=5",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "`문재인 뇌물 수사 정상적이었나` 묻자…검찰총장 대행 `뼈를 발라내는 수사` - 매일신문",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Nbk5oOFF1a0N0aHBtZnM3MEhiLW9wUHVaZkk2TzU0bG04aHlqWkhaZU1ncDFMd05MYlRzamNhc3NWTkhMbTNIb21RTkVCajhWQ0xiRHdBVkJJcFJabTQtOGtB?oc=5",
+     "source": "매일신문"
+    },
+    {
+     "title": "“중간선거 꼭 투표하세요” 한인유권자지원팀 주말 선거안내·통역 - 미주중앙일보",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzX0VybHBGaGlTeTlzUHNRZDJjYlBfX2cyUmgwSkV6dUVhMXN4SWFXeHU3UXhDV1AxTHJoVHdJXzhzXzN3MlBiQklUZWwtUXBJLXJkejZfczRoT0FIa05zTVF3?oc=5",
+     "source": "미주중앙일보"
     }
    ],
    "official": false,
    "score": 19.1,
-   "already_covered": true
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "생방송 투데이 맛집",
+   "traffic": 0,
+   "article_count_24h": 7,
+   "article_count_1h": 0,
+   "published": "2026-10-23T18:05:02+09:00",
+   "category": "방송정보",
+   "news": [
+    {
+     "title": "'생방송투데이' 솥뚜껑닭매운탕 VS 대왕해물전골 맛집 - BNT뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tckhwSk4weWUwMjZ6UHphLWt5dkxBQ2tuSTYxeFpKUVZZc3VKX1JGY29qSU0zSG1aVlVkNUpZUURPTmprazJYR2RrTWZVdG1MMDNLS25saUdHRXkwSG1haUQ4aFc?oc=5",
+     "source": "BNT뉴스"
+    },
+    {
+     "title": "‘생방송투데이’ 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설악면 솥뚜껑닭매운탕 맛집 위치는? - TopStarNews",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GSURqOWN3RTRFZGt3Vmg1X0xzOWFTNU9Gd3p3UGhpZDYyZi1HMFBoRE5KcWFZMFk4N1ByVlVGeEloUmFCTDY1Vm5LbUJDcS1qNnRmRXZOTFhPbUY2REZYZ3lILXgxY2ptR1hZZ2dFVnhxQQ?oc=5",
+     "source": "TopStarNews"
+    },
+    {
+     "title": "솥뚜껑닭매운탕부터 대왕해물전골까지…23일 '생방송 투데이' 맛불 작전 맛집 - 위키트리",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wczZOZTRsVHdzd3pnQjdHcTM2YkhGSmp2RHlMcFZKbDFoR3hYQnhGN1RGNkRmc1YyTk5nYzQ0SmhTbm52MEgxQ28zWTlmUURRYWZ6aHRB?oc=5",
+     "source": "위키트리"
+    },
+    {
+     "title": "‘생방송투데이-인생분식’ 구미 원평동 즉석떡볶이 맛집 위치는? “사랑 담다” - TopStarNews",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iSVNabjdtcjFYU1ptNEItX1E5alpHX1h0WmphZ2hDa3BpYzdZQ0NDb0JvN0RWZTFPOUgzckpNZFJHQUI0UnEySzZTb3BueWhLaWJqUDZIT0N1c2xWTmJvUWtCamt2LWVSQXJIN2ZhdHcyQQ?oc=5",
+     "source": "TopStarNews"
+    },
+    {
+     "title": "[다시보기] 생방송 투데이 4113회 - m.programs.sbs.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbzY4VzBGTVBNMnJTZkNrZFJWUW9ZRWFCQ1J1REd2TGwxMzlac1B4c3E0aUp4TWVLTXFMRFNzYUpZQ0g2a0RBc3Joc0s1d2NFWjREUFFFcUxwYWFnVkowYThZZDVBc3dDM2lDZEhhTi0tbGdGdG1YZkJGazBnc3h4THNMR2lsY0o5YVVpcC1mWlZycVZL?oc=5",
+     "source": "m.programs.sbs.co.kr"
+    }
+   ],
+   "official": false,
+   "score": 19.1,
+   "already_covered": false
   },
   {
    "source": "google_news",
@@ -1148,8 +2369,8 @@
      "source": "서울경제"
     },
     {
-     "title": "비올메디컬, 실펌엑스 스위스 의료기기 등록…유럽 시장 확대 속도 - 메가경제",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XcVozN1VIQlJrOHhPSlhLZzJZTi16RFBrWmN0MFB4TmVmWlA0WEVYSTRqeURWamM2R3RpRFNleTJxSzBqRWFCTzBwbVZjdzhXU3IxQ3ZmcDlPa0RHQUh4eFNxYnBNRWpLZzVwdzd5cGc2bGEx0gFyQVVfeXFMUDk0LU1iTFM4c2J1a0lscl9ZSFNQSk15bWFEbDgya2ZtSURUR3lEQUd1eXR1elJ6NnBqbTJubHhySzQ2WUU0bl96LUNNWkNPOWJIX1hLb2tQRVgzdzRwZjZrdTlSYkk0UzNUZGY2eFZ2QXdB?oc=5",
+     "title": "쿠팡, 로켓프레시서 햅쌀·햇과일 등 600여개 상품 할인 - 메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GSkdYVWhBWGZCc2FtMVJQejdIWVlveEJ1djdzYTRlalZraE5ObXhiOHNnOGh2RjZQbUlTY3NOSVM0M08yTTl4dmRRRWFyZTRjcWVxb3V4YkJmLWRIN3JXNUtmcEtmVmVxdGRYNDVNelM5R1Nl0gFyQVVfeXFMUGhmNVpkREROZ29mZmp6S3VJUDVvcGdTRzVnSkJlMk5RWHJTWDd2N0RGT2JTOVRNV2YyNm12UWhqZ1ItcFNmRFh2cm5OVm92SDlRTE1kLXFsa1RHVlBIRXl1eXV1aG1zei10UzRpb2VHZVJB?oc=5",
      "source": "메가경제"
     },
     {
@@ -1174,15 +2395,15 @@
   },
   {
    "source": "korea_kr",
-   "keyword": "이 대통령, \"모든 위협으로부터 국민 일상 지키는 데 국정 역량 집중\"",
+   "keyword": "탄소중립 영향 선제 지원…'정의로운전환 특별지구' 지정 기준 마련",
    "traffic": 0,
    "rank": 5,
-   "published": "2026-10-24T00:05:37.819549+09:00",
+   "published": "2026-10-24T00:39:27.395864+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "이 대통령, \"모든 위협으로부터 국민 일상 지키는 데 국정 역량 집중\"",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973945",
+     "title": "탄소중립 영향 선제 지원…'정의로운전환 특별지구' 지정 기준 마련",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974219",
      "source": "정책브리핑 실시간 인기뉴스"
     }
    ],
@@ -1191,8 +2412,8 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973945",
-     "title": "이 대통령, \"모든 위협으로부터 국민 일상 지키는 데 국정 역량 집중\"",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974219",
+     "title": "탄소중립 영향 선제 지원…'정의로운전환 특별지구' 지정 기준 마련",
      "outlet": "정책브리핑 실시간 인기뉴스"
     }
    ]
@@ -1201,7 +2422,7 @@
    "source": "google_news",
    "keyword": "국가건강검진",
    "traffic": 0,
-   "article_count_24h": 22,
+   "article_count_24h": 43,
    "article_count_1h": 0,
    "published": "2026-10-23T18:51:41+09:00",
    "category": "기타",
@@ -1277,84 +2498,6 @@
   },
   {
    "source": "google_news",
-   "keyword": "최저임금 결정",
-   "traffic": 0,
-   "article_count_24h": 6,
-   "article_count_1h": 0,
-   "published": "2026-10-23T10:50:46+09:00",
-   "category": "노동·급여",
-   "news": [
-    {
-     "title": "구로구 생활임금 1만2757원으로…내년 최저임금보다 2057원 높다 - 뉴스21 통신",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQa3RkT0tDS0VRTzVSUDJLZVAyTjI3Z0haOE85QkNNVnJORWg3d0xfVm9DTEh0QkRXVW1qRTB5VHpsMGRBQ1p2Q29PSTNzQmJJMERyM0pn?oc=5",
-     "source": "뉴스21 통신"
-    },
-    {
-     "title": "원주 생활임금조례 제정 촉구…“청년 떠나는 도시 바꿔야” - 강원도민일보",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pMGF5RzJiSk94QXRQbFh1R2ZTam9qOWZMTXVCcC1pRWUyRy1hc0pJTm00eGl4S083cTd3LTdaaVMtSUh4YjJtLXd1TXZJUVRwQlN1WU9STVRsVW1TenZWRlRMdllIQ0lz?oc=5",
-     "source": "강원도민일보"
-    },
-    {
-     "title": "울산 동구의회 의정비 9.35% 인상 확정…주민회 \"반대\" - 뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VU3VwRkJxS1FFR3FNajZuMGV3WnFac2k2dnVrbUEwMGhpUTdMNndRRkNRaXpsWWdYdHZyaEIwNEVRcGdFUmFRaERuLU5sd2JNZFh3cFFod2tnR0JEYjhua2NoSkxmdXp6TFV3YW4wV2FTMW50Q25BMdIBeEFVX3lxTE9VU3VwRkJxS1FFR3FNajZuMGV3WnFac2k2dnVrbUEwMGhpUTdMNndRRkNRaXpsWWdYdHZyaEIwNEVRcGdFUmFRaERuLU5sd2JNZFh3cFFod2tnR0JEYjhua2NoSkxmdXp6TFV3YW4wV2FTMW50Q25BMQ?oc=5",
-     "source": "뉴시스"
-    },
-    {
-     "title": "\"최저임금만으론 버겁다\"…원주 노동계, 생활임금조례 제정 촉구 - 강원신문",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlUC1yYUc3aHlMQlUxTVlZODdpWVcxVEJYcWZva0ZsdE5xZHFaSHg3dGdjV0FfMWRZNng2RFhLWHN1Y1o4Sm8tWjBsbzgxRmE4cDZqT25SV3FEaUhLVlRKRTdOWm9IdGhE?oc=5",
-     "source": "강원신문"
-    },
-    {
-     "title": "지옥엔 천장과 바닥이 없다 [박권일의 다이내믹 도넛] - 한겨레",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xMnVxMzFWYjgzc3JFTmluOU1ueEozWU1ScWZ6dTZKanY5N203akNjaG03eUJqdmxYWjBvNTFENWs0aF92aHdvVXpWQ29jUVIwd3IwaDBCUDVYYXNqQk9BNE95QkcxZw?oc=5",
-     "source": "한겨레"
-    }
-   ],
-   "official": false,
-   "score": 16.4,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "사전투표소",
-   "traffic": 0,
-   "article_count_24h": 6,
-   "article_count_1h": 0,
-   "published": "2026-10-23T11:18:51+09:00",
-   "category": "선거",
-   "news": [
-    {
-     "title": "美민주 지지층 사전투표 폭증…\"'트럼프 통제 시도'에 우편투표 못 믿어\" - 뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzakp0V3FjaDBER193UkxRMllkUFdIODNUbGlDOGdndHBjQzgxeEJuMUFmNjQxSnF3b1ZQVHFNdFdlZmNoZVFlRWxYN0h0V1RrbVMxWFhEaXF4ancyME0za0tVakVwR0RBU3U5eUMzRDVyYVBDNFBRY9IBeEFVX3lxTFAzakp0V3FjaDBER193UkxRMllkUFdIODNUbGlDOGdndHBjQzgxeEJuMUFmNjQxSnF3b1ZQVHFNdFdlZmNoZVFlRWxYN0h0V1RrbVMxWFhEaXF4ancyME0za0tVakVwR0RBU3U5eUMzRDVyYVBDNFBRYw?oc=5",
-     "source": "뉴시스"
-    },
-    {
-     "title": "\"선거개입 우려\"…美중간선거앞 정부-민주당 '맞불감시·소송전' - 연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tWXd4MzFoSFJMS1RhWnVKaTl0Snh0a1JKdU5tdEo3TlRiVFhscHVINkd6eGhjZ1B0RVFjOExqUV9jZlpndjV6enVmUDRIZHdfdGI3ZGZackxRUnZQSmRGMNIBYEFVX3lxTE8tWXd4MzFoSFJMS1RhWnVKaTl0Snh0a1JKdU5tdEo3TlRiVFhscHVINkd6eGhjZ1B0RVFjOExqUV9jZlpndjV6enVmUDRIZHdfdGI3ZGZackxRUnZQSmRGMA?oc=5",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "`문재인 뇌물 수사 정상적이었나` 묻자…검찰총장 대행 `뼈를 발라내는 수사` - 매일신문",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Nbk5oOFF1a0N0aHBtZnM3MEhiLW9wUHVaZkk2TzU0bG04aHlqWkhaZU1ncDFMd05MYlRzamNhc3NWTkhMbTNIb21RTkVCajhWQ0xiRHdBVkJJcFJabTQtOGtB?oc=5",
-     "source": "매일신문"
-    },
-    {
-     "title": "“중간선거 꼭 투표하세요” 한인유권자지원팀 주말 선거안내·통역 - 미주중앙일보",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzX0VybHBGaGlTeTlzUHNRZDJjYlBfX2cyUmgwSkV6dUVhMXN4SWFXeHU3UXhDV1AxTHJoVHdJXzhzXzN3MlBiQklUZWwtUXBJLXJkejZfczRoT0FIa05zTVF3?oc=5",
-     "source": "미주중앙일보"
-    },
-    {
-     "title": "벼랑 끝 내몰린 백악관 -> 참패 공포에 떠밀려 터져 나온 현금 살포극 > 붉은 성채 텍사스의 균열 => 부시 가문의 이반과 트럼프의 패권적 위기 = 청년 세대의 거센 분노 >> 침묵을 깨고 백악관을 향해 내딛는 발걸음 | - 데일리머니",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MR19mVk82UlRkeGYwa0VnMHRYR0lrTHFsSWJtUWsxem85S1JJRUN1cE5jQ0w2TDFkbHVhQU0zS3VIazRFTDdteDY3STNBWWkxQmlJSUtWT0F1WWRnN3VkcTNYUWVlMDhTaUlMNDlFNWdtdFpnV1E?oc=5",
-     "source": "데일리머니"
-    }
-   ],
-   "official": false,
-   "score": 16.4,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "무순위 청약",
    "traffic": 0,
    "article_count_24h": 5,
@@ -1421,97 +2564,88 @@
   },
   {
    "source": "google_trends",
-   "keyword": "al-faisaly vs al-nassr",
-   "traffic": 1000,
-   "published": "2026-10-23T22:10:00+09:00",
+   "keyword": "커피",
+   "traffic": 2000,
+   "published": "2026-10-23T23:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Rays vs. Brewers (Oct 23, 2026) Live Score",
-     "url": "https://www.espn.com/mlb/game/_/gameId/401908042/rays-brewers",
-     "source": "ESPN"
+     "title": "서울우유 '강릉커피', 누적 판매 4300만개 돌파",
+     "url": "https://biz.sbs.co.kr/article/20000341779",
+     "source": "SBS Biz"
     },
     {
-     "title": "Al Faisaly vs. Al Nassr (23 Oct, 2026) Team Stats",
-     "url": "https://www.espn.in/football/team-stats/_/gameId/401900444/league/ksa.1",
-     "source": "ESPN India"
+     "title": "서울우유, 고품질 원유 앞세운 ‘강릉커피’로 RTD 커피 시장 공략",
+     "url": "https://www.lawissue.co.kr/view.php?ud=20261023212404365204ead0791_12",
+     "source": "로이슈"
     },
     {
-     "title": "John Murtough, former Manchester United director of football,...",
-     "url": "https://www.espn.com/contributor/mark-ogden/a57802498e6e2",
-     "source": "ESPN"
+     "title": "서울우유, ‘강릉커피’ 누적 판매 4300만개…'프리미엄 RTD 공략'",
+     "url": "https://www.hankooki.com/news/articleView.html?idxno=346641",
+     "source": "한국아이닷컴"
     }
    ],
    "official": false,
-   "spike": "검색량 500→1,000",
-   "spike_bonus": 20,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "korea_kr",
-   "keyword": "첫 '한식의 날' 기념식…\"한식의 새로운 미래 선언\"",
-   "traffic": 0,
-   "rank": 6,
-   "published": "2026-10-24T00:05:37.819596+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "첫 '한식의 날' 기념식…\"한식의 새로운 미래 선언\"",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974204",
-     "source": "정책브리핑 실시간 인기뉴스"
-    }
-   ],
-   "official": true,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
    "score": 15.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974204",
-     "title": "첫 '한식의 날' 기념식…\"한식의 새로운 미래 선언\"",
-     "outlet": "정책브리핑 실시간 인기뉴스"
+     "url": "https://www.lawissue.co.kr/view.php?ud=20261023212404365204ead0791_12",
+     "title": "서울우유, 고품질 원유 앞세운 ‘강릉커피’로 RTD 커피 시장 공략",
+     "outlet": "로이슈"
+    },
+    {
+     "url": "https://www.hankooki.com/news/articleView.html?idxno=346641",
+     "title": "서울우유, ‘강릉커피’ 누적 판매 4300만개…'프리미엄 RTD 공략'",
+     "outlet": "한국아이닷컴"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "영구 결번",
-   "traffic": 200,
+   "keyword": "윤미라",
+   "traffic": 500,
    "published": "2026-10-23T22:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "LG 최종전 '영구결번 트리오' 시구였나…노송이 밝힌 뒷얘기 \"너무 자주 마운드에 오르는 것이 송구스러워\"",
-     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014938",
-     "source": "SPOTV NEWS"
+     "title": "75세 윤미라 ‘서방은 없어도 옷방은 3개’…화려한 싱글 라이프",
+     "url": "https://www.donga.com/news/Entertainment/article/all/20261023/134895305/1",
+     "source": "동아일보"
     },
     {
-     "title": "[도청도설] if, 손아섭",
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20261023.22018006715",
-     "source": "국제신문"
+     "title": "‘75세 모태 싱글’ 윤미라, ‘미우새’ 등판…결혼 직전 포기한 사연은?",
+     "url": "https://www.viva100.com/article/20261023500164",
+     "source": "브릿지경제"
     },
     {
-     "title": "'이제 서른' 모두가 탐낸 홈런왕 재능 아직 안 터졌다…충격의 방출 통보, \"한 번 더 해보겠습니다\" [인터뷰]",
-     "url": "https://www.chosun.com/sports/baseball/2026/10/22/G5RTIODFGA3TIZRWMUZWGNZUMM/",
-     "source": "조선일보"
+     "title": "윤미라, 75세 '모태 싱글' 라이프 공개…아침부터 호텔회원권으로 즐기는 조식 - 조선비즈",
+     "url": "https://biz.chosun.com/entertainment/tv/2026/10/23/HFSDSMJQMI2TKMLCHBSTMZJRGA/",
+     "source": "Chosunbiz"
     }
    ],
    "official": false,
-   "spike": "검색량 100→200",
+   "spike": "검색량 200→500",
    "spike_bonus": 20,
-   "score": 12.6,
+   "score": 13.5,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014938",
-     "title": "LG 최종전 '영구결번 트리오' 시구였나…노송이 밝힌 뒷얘기 \"너무 자주 마운드에 오르는 것이 송구스러워\"",
-     "outlet": "SPOTV NEWS"
+     "url": "https://www.donga.com/news/Entertainment/article/all/20261023/134895305/1",
+     "title": "75세 윤미라 ‘서방은 없어도 옷방은 3개’…화려한 싱글 라이프",
+     "outlet": "동아일보"
     },
     {
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20261023.22018006715",
-     "title": "[도청도설] if, 손아섭",
-     "outlet": "국제신문"
+     "url": "https://www.viva100.com/article/20261023500164",
+     "title": "‘75세 모태 싱글’ 윤미라, ‘미우새’ 등판…결혼 직전 포기한 사연은?",
+     "outlet": "브릿지경제"
+    },
+    {
+     "url": "https://biz.chosun.com/entertainment/tv/2026/10/23/HFSDSMJQMI2TKMLCHBSTMZJRGA/",
+     "title": "윤미라, 75세 '모태 싱글' 라이프 공개…아침부터 호텔회원권으로 즐기는 조식 - 조선비즈",
+     "outlet": "Chosunbiz"
     }
    ]
   },
@@ -1519,7 +2653,7 @@
    "source": "google_news",
    "keyword": "국가장학금",
    "traffic": 0,
-   "article_count_24h": 14,
+   "article_count_24h": 13,
    "article_count_1h": 0,
    "published": "2026-10-23T12:58:51+09:00",
    "category": "기타",
@@ -1558,7 +2692,7 @@
    "source": "google_news",
    "keyword": "청년내일저축계좌",
    "traffic": 0,
-   "article_count_24h": 12,
+   "article_count_24h": 14,
    "article_count_1h": 0,
    "published": "2026-10-23T15:48:00+09:00",
    "category": "기타",
@@ -1579,8 +2713,8 @@
      "source": "SBS Biz"
     },
     {
-     "title": "[숏폼] '무소득자 차별' 폐지…국민연금, 주부·청년 667만명 편입 - SBS Biz",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UOC1kRGJSQ19qdVd2ckI2RUVvM3ZsdXdlcEVOdUxFaldzYno0SzRmWDNQY1diTGp4dFdvNzZiVUMwTFZ5QnNuNTNqMU9oVjlnT3ZBRkZCcEjSAVhBVV95cUxOVDgtZERiUkNfanVXdnJCNkVFbzN2bHV3ZXBFTnVMRWpXc2J6NEs0ZlgzUGNXYkxqeHRXbzc2YlVDMExWeUJzbjUzajFPaFY5Z092QUZGQnBI?oc=5",
+     "title": "[숏폼] 젠슨 황 2029년 메모리 공급과잉 없다 中산 사용도 시사 - SBS Biz",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tVDVzTDBLVldjQUZYbUJBUUJqVEJFNEZwem1Nd0cwZ3VKMTFKcTI3QVRqSXlPSW41ZmRiMkRKWERCQzZUemtVUWVkTU44aVlXTmRPRzhrNk7SAVhBVV95cUxObVQ1c0wwS1ZXY0FGWG1CQVFCalRCRTRGcHptTXdHMGd1SjExSnEyN0FUakl5T0luNWZkYjJESlhEQkM2VHprVVFlZE1OOGlZV05kT0c4azZO?oc=5",
      "source": "SBS Biz"
     },
     {
@@ -1634,42 +2768,47 @@
   },
   {
    "source": "google_trends",
-   "keyword": "닥터x",
-   "traffic": 1000,
-   "published": "2026-10-23T22:40:00+09:00",
+   "keyword": "손석구",
+   "traffic": 500,
+   "published": "2026-10-23T23:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "[다시보기] 닥터X : 하얀 마피아의 시대 5회",
-     "url": "https://programs.sbs.co.kr/drama/doctorx/vod/88585/22000638646",
-     "source": "programs.sbs.co.kr"
+     "title": "‘이라크 파병’ 손석구 “배우 그만두려고 했다”",
+     "url": "https://www.donga.com/news/Entertainment/article/all/20261023/134895026/1",
+     "source": "동아일보"
     },
     {
-     "title": "'닥터X' 환자 장기에 이니셜 새긴 장승조…김지원 응징은?",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=03063526645615544&mediaCodeNo=257",
-     "source": "이데일리"
+     "title": "이서진 맞아? '게이 이상형 1위' 손석구 넥타이 매주며 다정..\"둘이 사귀는거 같아\"(비서진)",
+     "url": "https://www.koreadaily.com/article/20261021193446431",
+     "source": "미주중앙일보"
     },
     {
-     "title": "환자 간에 이니셜을?…드라마 속 '장기 낙서', 실제라면 어떤 처벌 받나 - 머니투데이",
-     "url": "https://www.mt.co.kr/society/2026/10/23/2026102306401360718",
-     "source": "머니투데이"
+     "title": "\"부모님 몰래 이라크 파병 지원\"…'비서진' 손석구, 파란만장 인생사 최초 고백",
+     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008811606",
+     "source": "SBS 뉴스"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 12.0,
+   "score": 10.5,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.edaily.co.kr/News/Read?newsId=03063526645615544&mediaCodeNo=257",
-     "title": "'닥터X' 환자 장기에 이니셜 새긴 장승조…김지원 응징은?",
-     "outlet": "이데일리"
+     "url": "https://www.donga.com/news/Entertainment/article/all/20261023/134895026/1",
+     "title": "‘이라크 파병’ 손석구 “배우 그만두려고 했다”",
+     "outlet": "동아일보"
     },
     {
-     "url": "https://www.mt.co.kr/society/2026/10/23/2026102306401360718",
-     "title": "환자 간에 이니셜을?…드라마 속 '장기 낙서', 실제라면 어떤 처벌 받나 - 머니투데이",
-     "outlet": "머니투데이"
+     "url": "https://www.koreadaily.com/article/20261021193446431",
+     "title": "이서진 맞아? '게이 이상형 1위' 손석구 넥타이 매주며 다정..\"둘이 사귀는거 같아\"(비서진)",
+     "outlet": "미주중앙일보"
+    },
+    {
+     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008811606",
+     "title": "\"부모님 몰래 이라크 파병 지원\"…'비서진' 손석구, 파란만장 인생사 최초 고백",
+     "outlet": "SBS 뉴스"
     }
    ]
   },
@@ -1762,25 +2901,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "明天的天氣",
+   "keyword": "이현중",
    "traffic": 100,
-   "published": "2026-10-23T22:50:00+09:00",
+   "published": "2026-10-23T23:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "災防假出大太陽 屏東縣傳統市場現採買人潮",
-     "url": "https://www.hakkatv.org.tw/news-detail/1792751450675681",
-     "source": "客家電視台"
+     "title": "[포토] 이현중 '전국 유람 직관' - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/10/23/2026102318532470307",
+     "source": "머니투데이"
     },
     {
-     "title": "高雄停班課消息一出！騎士等紅燈報喜 網笑：太E",
-     "url": "https://news.pchome.com.tw/living/m00361/20261023/index-79275150763201361009.html",
-     "source": "PChome Online 新聞"
+     "title": "[농구장을 찾은 스타] NBA 도전 이현중, WNBA LA 스팍스 박지현 ′KT-DB전 관람′",
+     "url": "http://www.jumpball.co.kr/news/newsview.php?ncode=1065617671547679",
+     "source": "점프볼"
     },
     {
-     "title": "屏東放颱風假卻出太陽！網喊補薪掀論戰 另一派反嗆：不然想怎樣？",
-     "url": "https://turnnewsapp.com/livenews/life/20261023001634-260405",
-     "source": "翻爆"
+     "title": "[포토] 최혜린 '코트가 뜨겁다'",
+     "url": "https://www.starnewskorea.com/sports/2026/10/18/2026101817364729872",
+     "source": "스타뉴스"
     }
    ],
    "official": false,
@@ -1790,14 +2929,19 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://news.pchome.com.tw/living/m00361/20261023/index-79275150763201361009.html",
-     "title": "高雄停班課消息一出！騎士等紅燈報喜 網笑：太E",
-     "outlet": "PChome Online 新聞"
+     "url": "https://www.mt.co.kr/sports/2026/10/23/2026102318532470307",
+     "title": "[포토] 이현중 '전국 유람 직관' - 머니투데이",
+     "outlet": "머니투데이"
     },
     {
-     "url": "https://turnnewsapp.com/livenews/life/20261023001634-260405",
-     "title": "屏東放颱風假卻出太陽！網喊補薪掀論戰 另一派反嗆：不然想怎樣？",
-     "outlet": "翻爆"
+     "url": "http://www.jumpball.co.kr/news/newsview.php?ncode=1065617671547679",
+     "title": "[농구장을 찾은 스타] NBA 도전 이현중, WNBA LA 스팍스 박지현 ′KT-DB전 관람′",
+     "outlet": "점프볼"
+    },
+    {
+     "url": "https://www.starnewskorea.com/sports/2026/10/18/2026101817364729872",
+     "title": "[포토] 최혜린 '코트가 뜨겁다'",
+     "outlet": "스타뉴스"
     }
    ]
   },
@@ -1862,33 +3006,6 @@
    ],
    "official": false,
    "score": 6.7,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "스타벅스",
-   "traffic": 2000,
-   "published": "2026-10-23T21:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "커피 안 사고 스타벅스에 앉아있기 된다, 안 된다?…중국서 결국 [이런뉴스]",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8692583",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "\"이제 주문해야 앉을 수 있어요\"…中 스타벅스, 무료 좌석 이용 제한 - 머니투데이",
-     "url": "https://www.mt.co.kr/world/2026/10/22/2026102213203638000",
-     "source": "머니투데이"
-    },
-    {
-     "title": "“음료 안 사면 자리에 못 앉는다”…중국 스타벅스 ‘구매 후 착석’ 시행",
-     "url": "https://www.dt.co.kr/article/12090826",
-     "source": "www.dt.co.kr"
-    }
-   ],
-   "official": false,
-   "score": 6.0,
    "already_covered": false
   },
   {
@@ -1959,6 +3076,60 @@
    "already_covered": false
   },
   {
+   "source": "google_trends",
+   "keyword": "닥터x",
+   "traffic": 1000,
+   "published": "2026-10-23T22:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "[다시보기] 닥터X : 하얀 마피아의 시대 5회",
+     "url": "https://programs.sbs.co.kr/drama/doctorx/vod/88585/22000638646",
+     "source": "programs.sbs.co.kr"
+    },
+    {
+     "title": "베일 벗는 닥터X의 기원…김지원, 충격의 과거사 풀린다",
+     "url": "https://sports.donga.com/ent/article/all/20261023/134897184/1",
+     "source": "스포츠동아"
+    },
+    {
+     "title": "'닥터X' 환자 장기에 이니셜 새긴 장승조…김지원 응징은?",
+     "url": "https://www.edaily.co.kr/News/Read?newsId=03063526645615544&mediaCodeNo=257",
+     "source": "이데일리"
+    }
+   ],
+   "official": false,
+   "score": 3.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "al-faisaly vs al-nassr",
+   "traffic": 1000,
+   "published": "2026-10-23T22:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Al Faisaly vs Al Nassr: Saudi Pro League stats & head-to-head",
+     "url": "https://www.bbc.com/sport/football/live/c65ynpxe8488t",
+     "source": "BBC"
+    },
+    {
+     "title": "Video: Abdullah Al-Hamdan rewards Postecoglou against Al-Faisaly",
+     "url": "https://www.goal.com/en/news/video-abdullah-al-hamdan-rewards-postecoglou-against-al-faisaly/blt93cdf380fa216635",
+     "source": "Goal.com"
+    },
+    {
+     "title": "Is Cristiano Ronaldo starting for Al Nassr vs Al Faisaly in Saudi Pro League?",
+     "url": "https://sportstar.thehindu.com/football/is-cristiano-ronaldo-starting-for-al-nassr-vs-al-faisaly-saudi-pro-league/article71616204.ece",
+     "source": "Sportstar"
+    }
+   ],
+   "official": false,
+   "score": 3.0,
+   "already_covered": false
+  },
+  {
    "source": "google_news",
    "keyword": "자동차세 연납",
    "traffic": 0,
@@ -1979,25 +3150,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "윤미라",
+   "keyword": "영구 결번",
    "traffic": 200,
    "published": "2026-10-23T22:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "75세 윤미라 ‘서방은 없어도 옷방은 3개’…화려한 싱글 라이프",
-     "url": "https://www.donga.com/news/Entertainment/article/all/20261023/134895305/1",
-     "source": "동아일보"
+     "title": "LG 최종전 '영구결번 트리오' 시구였나…노송이 밝힌 뒷얘기 \"너무 자주 마운드에 오르는 것이 송구스러워\"",
+     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014938",
+     "source": "SPOTV NEWS"
     },
     {
-     "title": "‘75세 모태 싱글’ 윤미라, ‘미우새’ 등판…결혼 직전 포기한 사연은?",
-     "url": "https://www.viva100.com/article/20261023500164",
-     "source": "브릿지경제"
+     "title": "[도청도설] if, 손아섭",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20261023.22018006715",
+     "source": "국제신문"
     },
     {
-     "title": "윤미라, 75세 '모태 싱글' 라이프 공개…아침부터 호텔회원권으로 즐기는 조식 - 조선비즈",
-     "url": "https://biz.chosun.com/entertainment/tv/2026/10/23/HFSDSMJQMI2TKMLCHBSTMZJRGA/",
-     "source": "Chosunbiz"
+     "title": "'이제 서른' 모두가 탐낸 홈런왕 재능 아직 안 터졌다…충격의 방출 통보, \"한 번 더 해보겠습니다\" [인터뷰]",
+     "url": "https://www.chosun.com/sports/baseball/2026/10/22/G5RTIODFGA3TIZRWMUZWGNZUMM/",
+     "source": "조선일보"
     }
    ],
    "official": false,
@@ -2039,19 +3210,19 @@
    "category": "기타",
    "news": [
     {
-     "title": "아이브 리즈 母, 전현무와 동갑 1977년생…거침없는 딸 자랑",
-     "url": "https://sports.donga.com/ent/article/all/20261023/134896089/1",
-     "source": "스포츠동아"
-    },
-    {
-     "title": "‘77년생’ 전현무, 아이브 리즈 母와 동갑 사실에 ‘머쓱’ (전현무계획4)",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/522288",
-     "source": "iMBC 연예"
+     "title": "'77년생 미혼' 전현무, 아이브 리즈 어머니와 동갑",
+     "url": "https://www.newsis.com/view/NISX20261023_0003839344",
+     "source": "뉴시스"
     },
     {
      "title": "아이브 리즈 母, 역대급 예능 엄마의 등장 “딸 미모는 친가, 끼는 나한테” (전현무계획4)",
      "url": "https://sports.khan.co.kr/article/202610231019003",
      "source": "스포츠경향"
+    },
+    {
+     "title": "‘초통령’ 아이브 리즈 “콘서트서 ‘애기들!’ 외치면 함성 진짜 커” (전현무계획4)",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/522287",
+     "source": "iMBC 연예"
     }
    ],
    "official": false,
@@ -2060,52 +3231,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "슈퍼맨이 돌아왔다",
-   "traffic": 200,
-   "published": "2026-10-23T21:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "박세영, 놀이공원 평생 공짜 이용권…“공주 선발대회 대상 탔다”",
-     "url": "https://www.donga.com/news/Entertainment/article/all/20261022/134889294/1",
-     "source": "동아일보"
-    },
-    {
-     "title": "‘슈돌’ 박세영, 놀이공원 평생 공짜인 이유…“공주 선발대회 대상 탔다”",
-     "url": "https://www.sedaily.com/article/20104997",
-     "source": "서울경제"
-    },
-    {
-     "title": "박세영, 장기연애→결혼 쉽지 않은데..“♥곽정욱 멱살 잡고 끌고 가” (‘슈돌’) - 조선비즈",
-     "url": "https://biz.chosun.com/entertainment/enter_general/2026/10/22/MIZDMNJXMY2DAOJWMM2TOZLFGU/",
-     "source": "Chosunbiz"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "황영웅",
+   "keyword": "明天的天氣",
    "traffic": 100,
-   "published": "2026-10-23T21:50:00+09:00",
+   "published": "2026-10-23T22:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "황영웅, ‘애가타’ 어쿠스틱 라이브에 팬들 뭉클…“목소리 자체가 악기”",
-     "url": "https://www.cbci.co.kr/news/articleView.html?idxno=618724",
-     "source": "CBC뉴스"
+     "title": "颱風薔琵暴風圈籠罩全台 在宜蘭東方海面向西偏折打轉 估24日清晨再向北移｜不斷更新",
+     "url": "https://tw.news.yahoo.com/live/%E9%A2%B1%E9%A2%A8%E8%96%94%E7%90%B5%E6%9A%B4%E9%A2%A8%E5%9C%88%E7%B1%A0%E7%BD%A9%E5%85%A8%E5%8F%B0-%E5%9C%A8%E5%AE%9C%E8%98%AD%E6%9D%B1%E6%96%B9%E6%B5%B7%E9%9D%A2%E5%90%91%E8%A5%BF%E5%81%8F%E6%8A%98%E6%89%93%E8%BD%89-%E4%BC%B024%E6%97%A5%E6%B8%85%E6%99%A8%E5%86%8D%E5%90%91%E5%8C%97%E7%A7%BB%EF%BD%9C%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0-132105365.html",
+     "source": "Yahoo新聞"
     },
     {
-     "title": "\"임영웅 0.3% 꼴찌\"…49% 황영웅, 한류 트로트 인기상 1위 독주 '갸우뚱'",
-     "url": "https://www.news1.kr/entertain/celebrity-topic/6329580",
-     "source": "뉴스1"
+     "title": "北市10/24續放颱風假！網友灌爆蔣萬安臉書：我們做你的靠山，不怕什麼流 | 蕭宥宸 | 新聞",
+     "url": "https://www.storm.mg/article/11175481",
+     "source": "風傳媒"
     },
     {
-     "title": "‘한류연예대상’ 전유진, 막판 뒤집기",
-     "url": "https://sports.khan.co.kr/article/202610231145003",
-     "source": "스포츠경향"
+     "title": "他們在風雨中搶修！薔琵「擾亂2天」桃園累積逾2萬戶停電　復電率達87％",
+     "url": "https://www.setn.com/news/1927479",
+     "source": "三立新聞"
     }
    ],
    "official": false,
