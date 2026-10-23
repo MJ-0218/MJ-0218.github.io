@@ -14,7 +14,7 @@ pip install -q markdown pyyaml
 NOW=$(TZ=Asia/Seoul date +%Y%m%d-%H%M)
 git fetch -q origin
 git checkout -B drafts/$NOW origin/HEAD 2>/dev/null || git checkout -B drafts/$NOW
-NET=$(python3 automation/scripts/fetch_source.py https://www.korea.kr/rss/policy.xml >/dev/null 2>&1 && echo OK || echo BLOCKED); echo "NET=$NET"
+NET=$(python3 automation/scripts/fetch_source.py https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun >/dev/null 2>&1 && echo OK || echo BLOCKED); echo "NET=$NET"
 python3 automation/scripts/calendar_due.py --json > /tmp/calendar.json
 git show origin/radar-data:trends/latest.json > /tmp/radar.json 2>/dev/null || echo '{"candidates":[]}' > /tmp/radar.json
 python3 automation/scripts/evidence.py pull   # Actions 가 받아 둔 원문 수집본(방송 맛집 기사, 막힌 공식 누리집) → /tmp/evidence
