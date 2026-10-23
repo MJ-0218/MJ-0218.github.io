@@ -51,7 +51,7 @@ def too_few_sources(srcs):
     sys.path.insert(0, str(Path(__file__).parent))
     from verify_claims import OFFICIAL_DOMAINS
     uniq = set(srcs)
-    gov = [u for u in uniq if re.search(r"(\.go\.kr|korea\.kr|\.gov|\.gov\.[a-z]{2}|\.go\.[a-z]{2}|\.nic\.in)$",
+    gov = [u for u in uniq if re.search(r"(\.go\.kr|korea\.kr|\.gov|\.gov\.[a-z]{2}|\.go\.[a-z]{2}|\.nic\.in|rbi\.org\.in|nta\.ac\.in|npci\.org\.in)$",
                                         urlparse(u).hostname or "") and OFFICIAL_DOMAINS.search(urlparse(u).hostname or "")]
     return len(uniq) < 2 and not gov
 
