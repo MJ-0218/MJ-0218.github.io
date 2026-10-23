@@ -1,19 +1,21 @@
 {
- "generated_at": "2026-10-23T13:45:15.646987+09:00",
+ "generated_at": "2026-10-23T14:10:01.284421+09:00",
  "sources": {
   "calendar": "ok (6)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 65, 실패 35)"
+  "evidence": "ok (저장 68, 실패 34)"
  },
  "compared_runs": 7,
  "spikes": [
-  "derozan",
-  "josh cribbs",
-  "lilli tagger",
-  "joe manganiello",
-  "malika andrews",
-  "hurricanes hockey"
+  "blake griffin",
+  "kris jenner",
+  "ashlyn krueger",
+  "talia gibson",
+  "金正恩",
+  "村上龍",
+  "taika waititi",
+  "steve nash"
  ],
  "candidates": [
   {
@@ -26,7 +28,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-23T13:45:15.659108+09:00",
+   "published": "2026-10-23T14:10:01.306098+09:00",
    "score": 85,
    "already_covered": false,
    "cycle": "us-tax-season-extension-2026",
@@ -36,7 +38,7 @@
     "extended tax return due date"
    ],
    "window": "2026-10 ~ 2026-10 (보통)",
-   "days_to_start": -21,
+   "days_to_start": -22,
    "in_window": true
   },
   {
@@ -49,7 +51,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-23T13:45:15.659145+09:00",
+   "published": "2026-10-23T14:10:01.306152+09:00",
    "score": 85,
    "already_covered": false,
    "cycle": "us-fafsa-launch-2026",
@@ -60,7 +62,7 @@
     "fafsa deadline"
    ],
    "window": "2026-10 ~ 2026-11 (보통)",
-   "days_to_start": -21,
+   "days_to_start": -22,
    "in_window": true
   },
   {
@@ -72,7 +74,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-23T13:45:15.659207+09:00",
+   "published": "2026-10-23T14:10:01.306286+09:00",
    "score": 85,
    "already_covered": false,
    "cycle": "us-liheap-winter-2026",
@@ -83,15 +85,15 @@
     "liheap income limits"
    ],
    "window": "2026-10 ~ 2026-12 (보통)",
-   "days_to_start": -21,
+   "days_to_start": -22,
    "in_window": true
   },
   {
    "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 7,
+   "article_count_24h": 46,
+   "article_count_1h": 8,
    "published": "2026-10-23T09:07:12+09:00",
    "category": "Benefits",
    "news": [
@@ -138,11 +140,312 @@
    ]
   },
   {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-23T14:10:01.306240+09:00",
+   "score": 66,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 9,
+   "in_window": false
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-23T14:10:01.306260+09:00",
+   "score": 66,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 9,
+   "in_window": false
+  },
+  {
+   "source": "calendar",
+   "keyword": "Required minimum distribution deadline yearend",
+   "category": "Taxes",
+   "official_sources": [
+    "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-required-minimum-distributions-rmds"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-23T14:10:01.306305+09:00",
+   "score": 66,
+   "already_covered": false,
+   "cycle": "us-rmd-yearend-2026",
+   "phase": "yearend",
+   "queries": [
+    "rmd deadline december 31",
+    "required minimum distribution age"
+   ],
+   "window": "2026-11 ~ 2026-12 (보통)",
+   "days_to_start": 9,
+   "in_window": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "election day",
+   "traffic": 0,
+   "article_count_24h": 100,
+   "article_count_1h": 21,
+   "published": "2026-10-23T10:09:19+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Thousands of Alaskans are voting before Election Day. Some ballots won’t be counted until after it. - Alaska Beacon",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSHdDelN3dlZ2UTlNMG90N045NHFabUdiSF9ka2NvX2ZvV3F0WXF1dnV1WkVpcElRQnRMT0duMmVLRXlNY3lEX0Y4RjdqQmhPOU9IMFdPLWgyenhIM1VDT2hpY2VwazlmN3h6SVE5eFRuX1pUMldIVks1eUxwZjNhVFZfcE9VTjZ4azB3SXV0MDV2ZGY0U1YxYUlqcnl4b2JIRjJpNVNaYVhRZmwwRF9KZXZ4dG8zUTZFdkViSDg2dENpTHNOa1lJQXFPX2J0QQ?oc=5",
+     "source": "Alaska Beacon"
+    },
+    {
+     "title": "How to return your early ballot in Pima County - Pima County, AZ (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1NEoxVHB6YmlJcVhKQ3AzeUF0RHh0OUxSSXJrZ3cxSlVkcEI3VE5fQ28zVUJxVFBhWFZUenVJZ2NKOGlQUWRrdDBSSXYtTDhpU29rSUcydE94WFRxVUlpRU1OWlZ2MlF3VUtCV3R0NlRYZ2R1MVE?oc=5",
+     "source": "Pima County, AZ (.gov)"
+    },
+    {
+     "title": "DOJ sending election observers to Indianapolis, Lake County - Indiana Capital Chronicle",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZlphSEpiSkI3VUxZYTRxRUwyZjdxRnVTakpETE1tMm1MSFNYaS1UMm9PZlVoMjY0VnV1UUlVM3pvNzN2M2F1eFB5QlRzVXBnYVRjUDVSaWlQT2s0MnpMV0dqbEwwZ2F4RzFveEhld3BJXzRZOXo2Nmd6aHZTOWZpX05hQnhnZllNVFNfMHhaSDRkVHNZZkJoYXNFb3lTdzR5ZmtqTnJtYVFCQQ?oc=5",
+     "source": "Indiana Capital Chronicle"
+    },
+    {
+     "title": "Election Day Is November 3: Cottonwood Heights City Hall to Serve as Vote Center - Cottonwood Heights City (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1IZlVkLXJYblh4dXhNTmY0Z3FIWGNEdl9zVDdDRndObUc2Y01Gdl9uNGRuQ292eDlwZkQ2eUt4MnVqUkJNb1RuQ2xFNmc4Z3F0YlRmOUtvTkRHeVNidzh2R3hEa0ZNOTVfN044QUdCV196MkJ4ZG5pTXh3OUtBUQ?oc=5",
+     "source": "Cottonwood Heights City (.gov)"
+    },
+    {
+     "title": "Arizona Latino voters express concerns ahead of Election Day - Cronkite News",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV0tzMnd1QnBwN2p5MkV3MnRyQXhiSVlHQXN3cEMzM2laVzRwaV9PMmswUXc2NlBzeTluSlpfVjRYdE85OTc2V0lmV19ndnlPWVBKYUNrN1I1TjRGeXk1UlcxU0F2a25jOW9oSU1qVVJmT0hSRHdiQjhKc00wT2xYRXFyVmVOV2J2STBPak5zSQ?oc=5",
+     "source": "Cronkite News"
+    }
+   ],
+   "official": false,
+   "score": 65.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://alaskabeacon.com/2026/10/22/thousands-of-alaskans-are-voting-before-election-day-some-ballots-wont-be-counted-until-after-it/",
+     "title": "Thousands of Alaskans are voting before Election Day. Some ballots won’t be counted until after it. - Alaska Beacon",
+     "outlet": "Alaska Beacon"
+    },
+    {
+     "url": "https://www.pima.gov/how-to-return-your-early-ballot-in-pima-county",
+     "title": "How to return your early ballot in Pima County - Pima County, AZ (.gov)",
+     "outlet": "Pima County, AZ (.gov)"
+    },
+    {
+     "url": "https://indianacapitalchronicle.com/2026/10/22/doj-sending-election-observers-to-indianapolis-lake-county/",
+     "title": "DOJ sending election observers to Indianapolis, Lake County - Indiana Capital Chronicle",
+     "outlet": "Indiana Capital Chronicle"
+    },
+    {
+     "url": "https://cronkitenews.azpbs.org/2026/10/22/arizona-latino-voters-election-day-concerns/",
+     "title": "Arizona Latino voters express concerns ahead of Election Day - Cronkite News",
+     "outlet": "Cronkite News"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "early voting",
+   "traffic": 0,
+   "article_count_24h": 100,
+   "article_count_1h": 13,
+   "published": "2026-10-23T10:09:19+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Thousands of Alaskans are voting before Election Day. Some ballots won’t be counted until after it. - Alaska Beacon",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSHdDelN3dlZ2UTlNMG90N045NHFabUdiSF9ka2NvX2ZvV3F0WXF1dnV1WkVpcElRQnRMT0duMmVLRXlNY3lEX0Y4RjdqQmhPOU9IMFdPLWgyenhIM1VDT2hpY2VwazlmN3h6SVE5eFRuX1pUMldIVks1eUxwZjNhVFZfcE9VTjZ4azB3SXV0MDV2ZGY0U1YxYUlqcnl4b2JIRjJpNVNaYVhRZmwwRF9KZXZ4dG8zUTZFdkViSDg2dENpTHNOa1lJQXFPX2J0QQ?oc=5",
+     "source": "Alaska Beacon"
+    },
+    {
+     "title": "‘Almost our Super Bowl’: Baltimore County sees steady early voting turnout on day one - WBAL-TV",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdXlKeXM4eW54aWREUTU4WEVRQXBSa1lHT2VwSHdaZUdEYnNkQ3UtZnotTVdtUGNYTkR1UzA5dUFPUnU4UnpqbVBLS1kzYXNJX2hJbmdQdVg2bGd6MjJHSTllR01nWUVmcnJkOS1FRzBrbW9RQmh2UThNQnB5c2pNUWoyMnBGSlVGdEs0X2h3?oc=5",
+     "source": "WBAL-TV"
+    },
+    {
+     "title": "In-person absentee voting surges amid declines in ballots arriving by mail - WPR",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQk52R20zN1VIUVNKbV9EdFRqSkJZY29LR0paMGN0OUNibC1EQUIwTkJQZWpZdjR5bTZMX1I5dDFYUXAtdGo4U2FMR0RMalJ1aWFVakdEUDBYZUQtWjVZM2JUSThHZzdvVnVRWTJpYzZJMXR6VTBjdncweHIzb19pRHU5V243UjhsazdUZFRTdFhkUWhkSWNWVmZUdS1GcENl?oc=5",
+     "source": "WPR"
+    },
+    {
+     "title": "Early voting is surging in Georgia suburbs. Rural counties tell another story. - The Atlanta Journal-Constitution",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbFpoNV9YSjZLTW0yalN6VmpfNmpERGVRYWFvUWtNcGtQUmtHS0hPOEw4T2wtME5rQkdhVU1DSE81NVdFLVZyUW1GMnQtenJRcHlpNXRsRzlVME5SS1NmVUc5MzRfNXpZUnJfaUZ1YWxfTTBmWU9VblU3YlNSLVlFX3RzeHI?oc=5",
+     "source": "The Atlanta Journal-Constitution"
+    },
+    {
+     "title": "Freshman Sire Early Voting Dies at Age 7 Due to Colic - BloodHorse",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQamdqS3cwZ1JIT1ZCYmh0OTF3THZ2ZUpGY1g5TFpGd3d1dVV1ajN0c2dWck1sNVVxMEVqN3dTVEx3YTIyWHJQOWZJakdzUXhuLWZMb2V2dDZUSmFXYllBbm1pSzNGT1hXUFFkSV9jYXZzQW5EQXROXzgxZ0FjdFgyWVhYeGE5R3N2dF83WEdWUF9XVzROaFZzZTBCX2RQR3lkOTZ5aXdpaS12U0RaZlE?oc=5",
+     "source": "BloodHorse"
+    }
+   ],
+   "official": false,
+   "score": 65.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://alaskabeacon.com/2026/10/22/thousands-of-alaskans-are-voting-before-election-day-some-ballots-wont-be-counted-until-after-it/",
+     "title": "Thousands of Alaskans are voting before Election Day. Some ballots won’t be counted until after it. - Alaska Beacon",
+     "outlet": "Alaska Beacon"
+    },
+    {
+     "url": "https://www.wbaltv.com/article/baltimore-county-early-voting-day-one-turnout/74223267",
+     "title": "‘Almost our Super Bowl’: Baltimore County sees steady early voting turnout on day one - WBAL-TV",
+     "outlet": "WBAL-TV"
+    },
+    {
+     "url": "https://www.wpr.org/news/in-person-absentee-voting-surges-amid-declines-in-ballots-arriving-by-mail",
+     "title": "In-person absentee voting surges amid declines in ballots arriving by mail - WPR",
+     "outlet": "WPR"
+    },
+    {
+     "url": "https://www.ajc.com/politics/2026/10/early-voting-metro-atlanta-rural-georgia/",
+     "title": "Early voting is surging in Georgia suburbs. Rural counties tell another story. - The Atlanta Journal-Constitution",
+     "outlet": "The Atlanta Journal-Constitution"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "student loan",
+   "traffic": 0,
+   "article_count_24h": 64,
+   "article_count_1h": 2,
+   "published": "2026-10-23T13:15:24+09:00",
+   "category": "Student Aid",
+   "news": [
+    {
+     "title": "Texas Higher Education Coordinating Board launches new student loan management system - The Daily Texan",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkVXLWhYVzhKNWt3ZDh4S2NzS1F5Q25QREEtWkhiWjhJYkRhc2szb2tmOWljZzFEYmlzd3duVHBIY2Y5TDhsNmdhRmFGdEVMLXJKc0tLcldqWXE5TEdUa2dmR0hwUlNaSUNtQmZ6NXcxTU14ajdVWXJJckxlUEhEU0t1R0NGQ0hHRTVQWk9yLXNwNTFrRzVjem5lTmJUdW8zYlVSUEE1emxpMXl6dzNxd29mSmRhS1ZXZmlDNGVfaFA?oc=5",
+     "source": "The Daily Texan"
+    },
+    {
+     "title": "Public Service Loan Forgiveness overhaul dropped by Trump administration. Here's what to know. - CBS News",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSi12cGtHYTBqd2lZdERYRTdfcFVDVjIycnJ6eVN2WTVHakp6eGszWjFLYU10cm1manRHTGhsb2VWSnRibXNKSkdDcUtDTGZ0UHZlRmc0RUJRUGVfZ0lfeVVfdzN3OHJQR25wTjh2Zmh5VWIzTVJ6MkVPckVhc3NQU21RcG9mQUlBVlE?oc=5",
+     "source": "CBS News"
+    },
+    {
+     "title": "Education Department’s New Plan For Student Loans May Be A Trap - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTkY1SnkwaXFGTGZQYmVqNGREeFl3TnNvWE81VVNfSm9MYUhQek1PcFJxOV9xSzRQVjBmcmtuMzFIdjhhLXJRMTRJYzFvN3FaTDFCVDJsdUdIckFycE81YkY4Q0xjS2dGNnM3ZGk4eGFCZWQySlJTNXdRVU1iSktjSThCN1hteVVoTXoyZkZVc1Z3OUQ1R21vc1pYcXRkOGQwdHZDZEtFVV9NcExqNG01QXphX1M?oc=5",
+     "source": "Forbes"
+    },
+    {
+     "title": "Trump admin. drops legal fight to overhaul student loan forgiveness program - JC Post",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LMlU1NV9YT3NidWdhRGZGei1sekI4UHBpbk1hcXN5Y1dpVk5SekdZQnVpbUpJTFF0YjJOM3FrVVB0M0c1U3IzT2YxQmhQaEZMMk1DVS1ZVHhwdGpjUkNuM3AyNjZvLUg1aHlHSVFn?oc=5",
+     "source": "JC Post"
+    },
+    {
+     "title": "New Student Loan Forgiveness Rule Scrapped After the Education Department Backs Down in Legal Fight - Investopedia",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ2YxcFlkTW5SMjZvN0U3VFNOSkJZbVJkTFZtVWRhRFpNWWJOOXh1amNMbjhOa1BmaW5jazlKUl9WUUtOQy11UVlGM0lKWFdNZ1hUNEN0UFM1aVJpNkNodlNIUVNJXzFfb3ZacVBnRUlvcm56aC14aGhsQTFIQlpzMnAxMzNGTmRUTjRuT3VWV0laX3pxQnRLbTE1LWc2NGs0Q1J6aWdZNzJBRDlZUkdtdEk5THdBMDQ1RG91SlZYUkUwVUQ1aW10UEVlalE?oc=5",
+     "source": "Investopedia"
+    }
+   ],
+   "official": false,
+   "score": 53.2,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://thedailytexan.com/2026/10/22/texas-higher-education-coordinating-board-launches-new-student-loan-management-system/",
+     "title": "Texas Higher Education Coordinating Board launches new student loan management system - The Daily Texan",
+     "outlet": "The Daily Texan"
+    },
+    {
+     "url": "https://www.cbsnews.com/news/trump-drops-public-service-loan-forgiveness-overhaul/",
+     "title": "Public Service Loan Forgiveness overhaul dropped by Trump administration. Here's what to know. - CBS News",
+     "outlet": "CBS News"
+    },
+    {
+     "url": "https://jcpost.com/posts/db1bdfa7-9476-49e2-9df4-0e49a4e1fa2f",
+     "title": "Trump admin. drops legal fight to overhaul student loan forgiveness program - JC Post",
+     "outlet": "JC Post"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "IRS refund",
+   "traffic": 0,
+   "article_count_24h": 50,
+   "article_count_1h": 5,
+   "published": "2026-10-23T03:16:00+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "50,000 Americans getting automatic $5,000 refunds from IRS: Here’s who qualifies - Cleveland.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa0hzN3c3LVpncUtPcnNCQ3FhaXRHTGczUjU3Rzdmem4teFdwNE5XSVNqWEM2UEVLbkI4U3p4YnJoNXNfcGZRMUNpUUs2eEpUblo3MVdGS2tUWEgtNDF2bnR2UnpRSWJQT201aGRBM1ZnM29TVHNGakM3Z01uaHV2NFRkcXR3eWpRRmtPZW9KNHZQR2tSdFk3OXRNdUtPR2NBbTFKT2NvTDFlU2NqazlLMFVROXRjd09XZlZv0gHPAUFVX3lxTFBfeUpUVk1FQVNtQ2RBbnlSSjNxSU1nSDFONWtNMnhwMnd5RjJYazZFY1RNci1iT0Q4QVh0VnhybTFRYWRQZHdIZF96bFJEOEZLelpvZ1FzOXhFWDYyTldBbG9OWjc1MkZSSnNMclBHbVllLVE0Y3l0TURYdFZEV0U2RG9aLWhOREI2N2gweTNGdUFqV3o5cnFTck5iaHgtRUw0djM4RHgtbnlpWGIwZHJNY1ZnNWhUZVNKYmtBUWxWSjZEdVg3RnVIV3l4aldOYw?oc=5",
+     "source": "Cleveland.com"
+    },
+    {
+     "title": "Your tax refund was stolen. Now you could spend two years waiting for the IRS to fix it! - New Pittsburgh Courier",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMWJCV1dfTzlFZS1HblNCdGpKZ01lcXdPUGVtX1ppVnRPS29nRzduU3BZaTdQdDdLX1ozaXloSHN5QlVUMVV3SXBHS2EyN3owUjBLMzNucWJESmg1U0Q3ZzhpMFFnWEZoeDYzQVQtbDJPQVg1alByMXIycjVXUk9RMW5FRW5fdnRBbVEzLTNMZFgzeV9YTU9MelJpRlk1MHdxRW5HeDZYaGNuSWNuMHZPdndYbHFCaFlfUzB6azlsN3lBX2FkZ0MweDFGNA?oc=5",
+     "source": "New Pittsburgh Courier"
+    },
+    {
+     "title": "Las Vegas tax preparer sentenced in refund fraud scheme - FOX5 Vegas",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU2twYmtvdHFta1VHbjB1eS03VHl0Y2JSeXB0WGhUZXB3cmg1MU1qM3Rmc09qdm9nMFdDZGpWb3RhY0JYbHNkUFV2aWc1aE5VRWc2anpJb1ItSWMxS0FUSVM5eFpFMjBNZkJMWFBJNTNnRFNDaXFRbnJNOXhOczZfQnNkRy1wQ2J3SWd1Q2VqTVlXU1hx?oc=5",
+     "source": "FOX5 Vegas"
+    },
+    {
+     "title": "Vegas Man Gets 38 Months For $5M Tax Refund Fraud Scheme - Law360",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9idkg5cGpsUkdaOW95WmtMYi1Vb3Baa0ZFaUY0Ylg1bXlCY2E2d1VZR3NvUkh6a3hfV3NXb0VKMmRhYlVRbzFxX3lZUHVzUnV5X2NmaUhB0gFWQVVfeXFMT2J2SDlwamxSR1o5b3laa0xiLVVvcFprRkVpRjRiWDVteUJjYTZ3VVlHc29SSHpreF9Xc1dvRUoyZGFiVVFvMXFfeVlQdXNSdXlfY2ZpSEE?oc=5",
+     "source": "Law360"
+    },
+    {
+     "title": "The IRS Is Mailing Refunds to Families Who Never Asked for Them. Here’s Who Qualifies (adoption credit carryforward refunds) - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclFaamUtZy1VaHhBZzdOM2pxWjR6YXVwR2lzMERCM3BxUHBzYUh3S0k1NEtmZzNwc1EyQkxGcDdCWWNtdTZwZFprY0oxSUpoVTBIRG5QWEpiajdlSDJ1SFRIdS1JNGJsTDJhdzdZLUE2d3NhS043X24za1BZTHo2cXg1ZlVBOWxhWnRPUGt6ZkhxdjZIZWxDdG8yVkpUQnIt?oc=5",
+     "source": "Yahoo Finance"
+    }
+   ],
+   "official": false,
+   "score": 52.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.fox5vegas.com/2026/10/22/las-vegas-tax-preparer-sentenced-refund-fraud-scheme/",
+     "title": "Las Vegas tax preparer sentenced in refund fraud scheme - FOX5 Vegas",
+     "outlet": "FOX5 Vegas"
+    },
+    {
+     "url": "https://www.law360.com/amp/articles/2541439",
+     "title": "Vegas Man Gets 38 Months For $5M Tax Refund Fraud Scheme - Law360",
+     "outlet": "Law360"
+    },
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/irs-mailing-refunds-families-never-090020164.html",
+     "title": "The IRS Is Mailing Refunds to Families Who Never Asked for Them. Here’s Who Qualifies (adoption credit carryforward refunds) - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 80,
-   "article_count_1h": 4,
+   "article_count_24h": 82,
+   "article_count_1h": 0,
    "published": "2026-10-23T11:50:34+09:00",
    "category": "Benefits",
    "news": [
@@ -173,7 +476,7 @@
     }
    ],
    "official": false,
-   "score": 73.6,
+   "score": 48.0,
    "already_covered": false,
    "evidence": [
     {
@@ -190,348 +493,47 @@
   },
   {
    "source": "google_news",
-   "keyword": "student loan",
+   "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 62,
-   "article_count_1h": 8,
-   "published": "2026-10-23T13:15:24+09:00",
-   "category": "Student Aid",
-   "news": [
-    {
-     "title": "Texas Higher Education Coordinating Board launches new student loan management system - The Daily Texan",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkVXLWhYVzhKNWt3ZDh4S2NzS1F5Q25QREEtWkhiWjhJYkRhc2szb2tmOWljZzFEYmlzd3duVHBIY2Y5TDhsNmdhRmFGdEVMLXJKc0tLcldqWXE5TEdUa2dmR0hwUlNaSUNtQmZ6NXcxTU14ajdVWXJJckxlUEhEU0t1R0NGQ0hHRTVQWk9yLXNwNTFrRzVjem5lTmJUdW8zYlVSUEE1emxpMXl6dzNxd29mSmRhS1ZXZmlDNGVfaFA?oc=5",
-     "source": "The Daily Texan"
-    },
-    {
-     "title": "Public Service Loan Forgiveness overhaul dropped by Trump administration. Here's what to know. - CBS News",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSi12cGtHYTBqd2lZdERYRTdfcFVDVjIycnJ6eVN2WTVHakp6eGszWjFLYU10cm1manRHTGhsb2VWSnRibXNKSkdDcUtDTGZ0UHZlRmc0RUJRUGVfZ0lfeVVfdzN3OHJQR25wTjh2Zmh5VWIzTVJ6MkVPckVhc3NQU21RcG9mQUlBVlE?oc=5",
-     "source": "CBS News"
-    },
-    {
-     "title": "Education Department’s New Plan For Student Loans May Be A Trap - Forbes",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTkY1SnkwaXFGTGZQYmVqNGREeFl3TnNvWE81VVNfSm9MYUhQek1PcFJxOV9xSzRQVjBmcmtuMzFIdjhhLXJRMTRJYzFvN3FaTDFCVDJsdUdIckFycE81YkY4Q0xjS2dGNnM3ZGk4eGFCZWQySlJTNXdRVU1iSktjSThCN1hteVVoTXoyZkZVc1Z3OUQ1R21vc1pYcXRkOGQwdHZDZEtFVV9NcExqNG01QXphX1M?oc=5",
-     "source": "Forbes"
-    },
-    {
-     "title": "New Student Loan Forgiveness Rule Scrapped After the Education Department Backs Down in Legal Fight - Investopedia",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ2YxcFlkTW5SMjZvN0U3VFNOSkJZbVJkTFZtVWRhRFpNWWJOOXh1amNMbjhOa1BmaW5jazlKUl9WUUtOQy11UVlGM0lKWFdNZ1hUNEN0UFM1aVJpNkNodlNIUVNJXzFfb3ZacVBnRUlvcm56aC14aGhsQTFIQlpzMnAxMzNGTmRUTjRuT3VWV0laX3pxQnRLbTE1LWc2NGs0Q1J6aWdZNzJBRDlZUkdtdEk5THdBMDQ1RG91SlZYUkUwVUQ1aW10UEVlalE?oc=5",
-     "source": "Investopedia"
-    },
-    {
-     "title": "Trump administration drops legal fight to overhaul student loan forgiveness program - Yahoo",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVzByN1dwQ0JCQ2RfNE1rQTFvdld6ZjJWZWhJTG90Z2RpWFJreTlvS2drTWV6S3BCNDhSWHktYmU3c09lMmdtMFVsU2I5clEzeEtzTXBMNnFiM3NhODloblYxUXRYbmJ3TTc3TGhVeUw2MzR2VkI3aEV3Y29CcGlKb29oYk5zSV9rSHJUX1FsYURYWHM5RkhlUzR6dTB6bS1JaTh0WnVmYkpsUThaUzlrTGZsZjAxWGI5VUdGMFRTVUVFRlNBUGR2ZG1OOWNwb0tDN3M2RDhCX0pnUQ?oc=5",
-     "source": "Yahoo"
-    }
-   ],
-   "official": false,
-   "score": 70.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cbsnews.com/news/trump-drops-public-service-loan-forgiveness-overhaul/",
-     "title": "Public Service Loan Forgiveness overhaul dropped by Trump administration. Here's what to know. - CBS News",
-     "outlet": "CBS News"
-    },
-    {
-     "url": "https://www.yahoo.com/news/politics/article/trump-administration-drops-legal-fight-to-overhaul-student-loan-forgiveness-program-123256387.html",
-     "title": "Trump administration drops legal fight to overhaul student loan forgiveness program - Yahoo",
-     "outlet": "Yahoo"
-    }
-   ]
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-23T13:45:15.659181+09:00",
-   "score": 65,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 10,
-   "in_window": false
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-23T13:45:15.659192+09:00",
-   "score": 65,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 10,
-   "in_window": false
-  },
-  {
-   "source": "calendar",
-   "keyword": "Required minimum distribution deadline yearend",
-   "category": "Taxes",
-   "official_sources": [
-    "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-required-minimum-distributions-rmds"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-23T13:45:15.659217+09:00",
-   "score": 65,
-   "already_covered": false,
-   "cycle": "us-rmd-yearend-2026",
-   "phase": "yearend",
-   "queries": [
-    "rmd deadline december 31",
-    "required minimum distribution age"
-   ],
-   "window": "2026-11 ~ 2026-12 (보통)",
-   "days_to_start": 10,
-   "in_window": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "election day",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 12,
-   "published": "2026-10-23T10:09:19+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Thousands of Alaskans are voting before Election Day. Some ballots won’t be counted until after it. - Alaska Beacon",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSHdDelN3dlZ2UTlNMG90N045NHFabUdiSF9ka2NvX2ZvV3F0WXF1dnV1WkVpcElRQnRMT0duMmVLRXlNY3lEX0Y4RjdqQmhPOU9IMFdPLWgyenhIM1VDT2hpY2VwazlmN3h6SVE5eFRuX1pUMldIVks1eUxwZjNhVFZfcE9VTjZ4azB3SXV0MDV2ZGY0U1YxYUlqcnl4b2JIRjJpNVNaYVhRZmwwRF9KZXZ4dG8zUTZFdkViSDg2dENpTHNOa1lJQXFPX2J0QQ?oc=5",
-     "source": "Alaska Beacon"
-    },
-    {
-     "title": "DOJ sending election observers to Indianapolis, Lake County - Indiana Capital Chronicle",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZlphSEpiSkI3VUxZYTRxRUwyZjdxRnVTakpETE1tMm1MSFNYaS1UMm9PZlVoMjY0VnV1UUlVM3pvNzN2M2F1eFB5QlRzVXBnYVRjUDVSaWlQT2s0MnpMV0dqbEwwZ2F4RzFveEhld3BJXzRZOXo2Nmd6aHZTOWZpX05hQnhnZllNVFNfMHhaSDRkVHNZZkJoYXNFb3lTdzR5ZmtqTnJtYVFCQQ?oc=5",
-     "source": "Indiana Capital Chronicle"
-    },
-    {
-     "title": "Election Day Is November 3: Cottonwood Heights City Hall to Serve as Vote Center - Cottonwood Heights City (.gov)",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1IZlVkLXJYblh4dXhNTmY0Z3FIWGNEdl9zVDdDRndObUc2Y01Gdl9uNGRuQ292eDlwZkQ2eUt4MnVqUkJNb1RuQ2xFNmc4Z3F0YlRmOUtvTkRHeVNidzh2R3hEa0ZNOTVfN044QUdCV196MkJ4ZG5pTXh3OUtBUQ?oc=5",
-     "source": "Cottonwood Heights City (.gov)"
-    },
-    {
-     "title": "Arizona Latino voters express concerns ahead of Election Day - Cronkite News",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV0tzMnd1QnBwN2p5MkV3MnRyQXhiSVlHQXN3cEMzM2laVzRwaV9PMmswUXc2NlBzeTluSlpfVjRYdE85OTc2V0lmV19ndnlPWVBKYUNrN1I1TjRGeXk1UlcxU0F2a25jOW9oSU1qVVJmT0hSRHdiQjhKc00wT2xYRXFyVmVOV2J2STBPak5zSQ?oc=5",
-     "source": "Cronkite News"
-    },
-    {
-     "title": "Early voting surges in Quad Cities ahead of Election Day - KWQC",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeGNUeThxdzM5VTl4dFEwaTd2SGhBMmxiZjBKN1oyU0MtNno3bjlOV2JFQzF5OUp5WEZqLTJqaEtlb1hpRnZrUGpZMUIxNnNueVQ3OUtFX3owNEowWHpSTDYxNEtkNzdValdrdXR1dnVPSmU2YTVOaGdVV3FRaWZsMGRhaXhFbkFJU2Rn0gGfAUFVX3lxTFBDWi04b2xtMlpPUi01OWpqNU9URzBHcjlDWXU5S0JvWmZGd0RmaVN5YVZXc0gzN0ZpUlBSeDJFZTdJbktfalVleWJ4c1NmdlBZZUhSRVI0cExBWEF0ZXBhQnhkRGwzdDQtcURERC1Ma1hzeWZQaVVZWXZ5cmZFNm9pUnZfNmNUMFhiaUNmRDl2OUgwdVMzSTZxY1E4Q3c1Yw?oc=5",
-     "source": "KWQC"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://alaskabeacon.com/2026/10/22/thousands-of-alaskans-are-voting-before-election-day-some-ballots-wont-be-counted-until-after-it/",
-     "title": "Thousands of Alaskans are voting before Election Day. Some ballots won’t be counted until after it. - Alaska Beacon",
-     "outlet": "Alaska Beacon"
-    },
-    {
-     "url": "https://indianacapitalchronicle.com/2026/10/22/doj-sending-election-observers-to-indianapolis-lake-county/",
-     "title": "DOJ sending election observers to Indianapolis, Lake County - Indiana Capital Chronicle",
-     "outlet": "Indiana Capital Chronicle"
-    },
-    {
-     "url": "https://cronkitenews.azpbs.org/2026/10/22/arizona-latino-voters-election-day-concerns/",
-     "title": "Arizona Latino voters express concerns ahead of Election Day - Cronkite News",
-     "outlet": "Cronkite News"
-    },
-    {
-     "url": "https://www.kwqc.com/2026/10/23/early-voting-surges-quad-cities-ahead-election-day/",
-     "title": "Early voting surges in Quad Cities ahead of Election Day - KWQC",
-     "outlet": "KWQC"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "early voting",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 14,
-   "published": "2026-10-23T10:09:19+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Thousands of Alaskans are voting before Election Day. Some ballots won’t be counted until after it. - Alaska Beacon",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSHdDelN3dlZ2UTlNMG90N045NHFabUdiSF9ka2NvX2ZvV3F0WXF1dnV1WkVpcElRQnRMT0duMmVLRXlNY3lEX0Y4RjdqQmhPOU9IMFdPLWgyenhIM1VDT2hpY2VwazlmN3h6SVE5eFRuX1pUMldIVks1eUxwZjNhVFZfcE9VTjZ4azB3SXV0MDV2ZGY0U1YxYUlqcnl4b2JIRjJpNVNaYVhRZmwwRF9KZXZ4dG8zUTZFdkViSDg2dENpTHNOa1lJQXFPX2J0QQ?oc=5",
-     "source": "Alaska Beacon"
-    },
-    {
-     "title": "In-person absentee voting surges amid declines in ballots arriving by mail - WPR",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQk52R20zN1VIUVNKbV9EdFRqSkJZY29LR0paMGN0OUNibC1EQUIwTkJQZWpZdjR5bTZMX1I5dDFYUXAtdGo4U2FMR0RMalJ1aWFVakdEUDBYZUQtWjVZM2JUSThHZzdvVnVRWTJpYzZJMXR6VTBjdncweHIzb19pRHU5V243UjhsazdUZFRTdFhkUWhkSWNWVmZUdS1GcENl?oc=5",
-     "source": "WPR"
-    },
-    {
-     "title": "Early voting is surging in Georgia suburbs. Rural counties tell another story. - The Atlanta Journal-Constitution",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbFpoNV9YSjZLTW0yalN6VmpfNmpERGVRYWFvUWtNcGtQUmtHS0hPOEw4T2wtME5rQkdhVU1DSE81NVdFLVZyUW1GMnQtenJRcHlpNXRsRzlVME5SS1NmVUc5MzRfNXpZUnJfaUZ1YWxfTTBmWU9VblU3YlNSLVlFX3RzeHI?oc=5",
-     "source": "The Atlanta Journal-Constitution"
-    },
-    {
-     "title": "Freshman Sire Early Voting Dies at Age 7 Due to Colic - BloodHorse",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQamdqS3cwZ1JIT1ZCYmh0OTF3THZ2ZUpGY1g5TFpGd3d1dVV1ajN0c2dWck1sNVVxMEVqN3dTVEx3YTIyWHJQOWZJakdzUXhuLWZMb2V2dDZUSmFXYllBbm1pSzNGT1hXUFFkSV9jYXZzQW5EQXROXzgxZ0FjdFgyWVhYeGE5R3N2dF83WEdWUF9XVzROaFZzZTBCX2RQR3lkOTZ5aXdpaS12U0RaZlE?oc=5",
-     "source": "BloodHorse"
-    },
-    {
-     "title": "‘Almost our Super Bowl’: Baltimore County sees steady early voting turnout on day one - WBAL-TV",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdXlKeXM4eW54aWREUTU4WEVRQXBSa1lHT2VwSHdaZUdEYnNkQ3UtZnotTVdtUGNYTkR1UzA5dUFPUnU4UnpqbVBLS1kzYXNJX2hJbmdQdVg2bGd6MjJHSTllR01nWUVmcnJkOS1FRzBrbW9RQmh2UThNQnB5c2pNUWoyMnBGSlVGdEs0X2h3?oc=5",
-     "source": "WBAL-TV"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://alaskabeacon.com/2026/10/22/thousands-of-alaskans-are-voting-before-election-day-some-ballots-wont-be-counted-until-after-it/",
-     "title": "Thousands of Alaskans are voting before Election Day. Some ballots won’t be counted until after it. - Alaska Beacon",
-     "outlet": "Alaska Beacon"
-    },
-    {
-     "url": "https://www.wpr.org/news/in-person-absentee-voting-surges-amid-declines-in-ballots-arriving-by-mail",
-     "title": "In-person absentee voting surges amid declines in ballots arriving by mail - WPR",
-     "outlet": "WPR"
-    },
-    {
-     "url": "https://www.ajc.com/politics/2026/10/early-voting-metro-atlanta-rural-georgia/",
-     "title": "Early voting is surging in Georgia suburbs. Rural counties tell another story. - The Atlanta Journal-Constitution",
-     "outlet": "The Atlanta Journal-Constitution"
-    },
-    {
-     "url": "https://www.bloodhorse.com/horse-racing/articles/295397/freshman-sire-early-voting-dies-at-age-7-due-to-colic",
-     "title": "Freshman Sire Early Voting Dies at Age 7 Due to Colic - BloodHorse",
-     "outlet": "BloodHorse"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "IRS refund",
-   "traffic": 0,
-   "article_count_24h": 49,
+   "article_count_24h": 39,
    "article_count_1h": 5,
-   "published": "2026-10-23T03:16:00+09:00",
-   "category": "Taxes",
+   "published": "2026-10-22T21:00:00+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "50,000 Americans getting automatic $5,000 refunds from IRS: Here’s who qualifies - Cleveland.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa0hzN3c3LVpncUtPcnNCQ3FhaXRHTGczUjU3Rzdmem4teFdwNE5XSVNqWEM2UEVLbkI4U3p4YnJoNXNfcGZRMUNpUUs2eEpUblo3MVdGS2tUWEgtNDF2bnR2UnpRSWJQT201aGRBM1ZnM29TVHNGakM3Z01uaHV2NFRkcXR3eWpRRmtPZW9KNHZQR2tSdFk3OXRNdUtPR2NBbTFKT2NvTDFlU2NqazlLMFVROXRjd09XZlZv0gHPAUFVX3lxTFBfeUpUVk1FQVNtQ2RBbnlSSjNxSU1nSDFONWtNMnhwMnd5RjJYazZFY1RNci1iT0Q4QVh0VnhybTFRYWRQZHdIZF96bFJEOEZLelpvZ1FzOXhFWDYyTldBbG9OWjc1MkZSSnNMclBHbVllLVE0Y3l0TURYdFZEV0U2RG9aLWhOREI2N2gweTNGdUFqV3o5cnFTck5iaHgtRUw0djM4RHgtbnlpWGIwZHJNY1ZnNWhUZVNKYmtBUWxWSjZEdVg3RnVIV3l4aldOYw?oc=5",
-     "source": "Cleveland.com"
+     "title": "Six in Ten New Yorkers Back a $30 Minimum Wage - Cornell ILR School",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOby12T1U1eF8wRzFncVliOG5lY3RwQWpVZkVOMGZYZmJ4LXlZaWdQbHNCSktydFpqVHpERTlYREtGcFdGVVNsQ3VxSXRTRTRITENxek1rZC1UbFk2THlQcFVNUWkyOWpRTEJlZ0xHTFhMTkVMT0tSZjlkQUNDMGdTS0JTc0FPVTBzUXN4Qk9HWW8?oc=5",
+     "source": "Cornell ILR School"
     },
     {
-     "title": "Your tax refund was stolen. Now you could spend two years waiting for the IRS to fix it! - New Pittsburgh Courier",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMWJCV1dfTzlFZS1HblNCdGpKZ01lcXdPUGVtX1ppVnRPS29nRzduU3BZaTdQdDdLX1ozaXloSHN5QlVUMVV3SXBHS2EyN3owUjBLMzNucWJESmg1U0Q3ZzhpMFFnWEZoeDYzQVQtbDJPQVg1alByMXIycjVXUk9RMW5FRW5fdnRBbVEzLTNMZFgzeV9YTU9MelJpRlk1MHdxRW5HeDZYaGNuSWNuMHZPdndYbHFCaFlfUzB6azlsN3lBX2FkZ0MweDFGNA?oc=5",
-     "source": "New Pittsburgh Courier"
+     "title": "Rapid UK pay growth raises pressure on John Healey over minimum wage - Financial Times",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUmNQYUZpeGZObDhuZDZfSFd1dnhVMmVZLVhyVGx3QU5OS1dJNkNQUzJlbThtYWhXVUw0XzBhYXhDQVd5eThxbnJGUEpwUkNvdEVDTzZRZW1obFp0SXVPb0h2ZF9sOG1SZDBiVzZuVG9IMDZ5MVFLeUJjMk9jbWg4Y3ZRbmI?oc=5",
+     "source": "Financial Times"
     },
     {
-     "title": "Las Vegas tax preparer sentenced in refund fraud scheme - FOX5 Vegas",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU2twYmtvdHFta1VHbjB1eS03VHl0Y2JSeXB0WGhUZXB3cmg1MU1qM3Rmc09qdm9nMFdDZGpWb3RhY0JYbHNkUFV2aWc1aE5VRWc2anpJb1ItSWMxS0FUSVM5eFpFMjBNZkJMWFBJNTNnRFNDaXFRbnJNOXhOczZfQnNkRy1wQ2J3SWd1Q2VqTVlXU1hx?oc=5",
-     "source": "FOX5 Vegas"
+     "title": "Oakland's $30 Minimum Wage Initiative Qualifies for Future Ballot - East Bay Insiders Newsletter",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGXzdPR0VTeG1tZjJQN3E0OEh0OWlRM2hOOUNkWllPd25vcW1WWmkyZkJhRjY5ZGRxN3BYZkpmMVRHWmV3Z0VhYklvZE9NUWNmRlo4MGdNMHlFbEJfM1RERFZjcS0xT0ptZEtPeTFUdHFvYU5ldDU1dmZQMnZJMUU?oc=5",
+     "source": "East Bay Insiders Newsletter"
     },
     {
-     "title": "Vegas Man Gets 38 Months For $5M Tax Refund Fraud Scheme - Law360",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMFZQWU1zbWhzcV80c2tFZ0xOUFl6azM5R2hNaXlqRUhPcGFRbXdGakFkb2FQQ1dsdFMtUGtsVU9jYnA1SFk1dGZLZmlkZ3BMcEd0Q2wyM2lOc3lZMWxWc2FlVFllaHU5Yjh3UjhXMkRCOWxyZ1NWTV9ZcnAwcmVKSWlXMEpUUVZ5M1lMajRfZjRJVXhqU3hkdHpBeU0wbi1IWFZ1ZHFmcmE2T3VvZlHSAWhBVV95cUxNa2NEZjRsa3p3aWFSaUYyai0xS05xLXZHSVhtWGNrYnJYWFhyU1hZZUMzaWZqUEp3NzRCNWpLWmNieXNoTExRdkpxbGQzV0ZoNHhLY0V0Z0w5VWtHZFh6aVMxeEhHRzZIQQ?oc=5",
-     "source": "Law360"
+     "title": "How Will Salaries and Wages Change in Greece in 2027? - tovima.com",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcGRMUlpRaTYwWUMzYkhFdjRSMjJ4RjRlRWVsLXlPVEY5dUEwYmVROFlleW41Sk00eU5yRXZVVkpxbWZhQ2plaXRzaXJvaUJGQjhnTzlhWjZ4QjVlX0ZhNDY3YlJjR3pRdGREMnZPT19jZ3NBaHM1WVhRMEowWnRnM0JBOUxvaFJhUVJNZg?oc=5",
+     "source": "tovima.com"
     },
     {
-     "title": "The IRS Is Mailing Refunds to Families Who Never Asked for Them. Here’s Who Qualifies (adoption credit carryforward refunds) - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclFaamUtZy1VaHhBZzdOM2pxWjR6YXVwR2lzMERCM3BxUHBzYUh3S0k1NEtmZzNwc1EyQkxGcDdCWWNtdTZwZFprY0oxSUpoVTBIRG5QWEpiajdlSDJ1SFRIdS1JNGJsTDJhdzdZLUE2d3NhS043X24za1BZTHo2cXg1ZlVBOWxhWnRPUGt6ZkhxdjZIZWxDdG8yVkpUQnIt?oc=5",
-     "source": "Yahoo Finance"
+     "title": "Japan's largest labor union to seek around 6% pay hike next spring - Japan Today",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3hXSEJ6UHlDcHFhcFl6WUgwU3ZudmI3aTQyaUdkMG4yY1BsWk13cjhSY1A5Sm1uazItcGxEeFBpTGdORHQ5enhsNDQ4M2hxalF2aUVaWHJZV2tvTU5PUzNSb255MVBXeUlGRHBGMnlUcE51c2lpRzl6SUx0aEl6c1k1YXR5cEdlN2lYbzNkZVRIOU5hUXR6WG5UTlVvN0pOelFLTkRNRVFxXzNhTmZaUllSc3FTc1E?oc=5",
+     "source": "Japan Today"
     }
    ],
    "official": false,
-   "score": 52.5,
+   "score": 45.5,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.fox5vegas.com/2026/10/22/las-vegas-tax-preparer-sentenced-refund-fraud-scheme/",
-     "title": "Las Vegas tax preparer sentenced in refund fraud scheme - FOX5 Vegas",
-     "outlet": "FOX5 Vegas"
-    },
-    {
-     "url": "https://www.law360.com/tax-authority/articles/2541439/vegas-man-gets-38-months-for-5m-tax-refund-fraud-scheme",
-     "title": "Vegas Man Gets 38 Months For $5M Tax Refund Fraud Scheme - Law360",
-     "outlet": "Law360"
-    },
-    {
-     "url": "https://finance.yahoo.com/economy/policy/articles/irs-mailing-refunds-families-never-090020164.html",
-     "title": "The IRS Is Mailing Refunds to Families Who Never Asked for Them. Here’s Who Qualifies (adoption credit carryforward refunds) - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "daylight saving time",
-   "traffic": 0,
-   "article_count_24h": 73,
-   "article_count_1h": 3,
-   "published": "2026-10-22T20:00:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Daylight savings ends on earliest possible date this year: That means more time for Halloween - AL.com",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa2ZqbzM5MFpla1BkU1BDNlJvenhNNTZSemVBV3pKTGRkcDhFanZucXl2Q1ZPQk4xZUIzWTQ1TFNGeFhZc0VkbENXRE1PNDNFY1FrQnBTeS1jdVE0bG9fMktRMXZzbEdoNVJuYWVEUHVacTFyZUVNQW1XZDlFNk1Zc0FsR2xWcFhZR3JzSl9NNGNGSFJkd09aREJpTUZ5VHFOVzhXdGpvZDRkTHNDYjk0ajNUMExGVTJFcVIyOE5IN2NkY29Cczk2RNIB3AFBVV95cUxPTE4ycXlURFQxSmkzVHVQd0JuOTVJdkE2eWZUeXBFN0pCRzNjT1NUQ0FodkNYQS1uNTRtSjZUemFPY01NYWl3T3cyX0ZzLTA3aHJDMVczY0x6dHBWWHlab04td0FMMlFFb1hqVTRzeG8zYlA3QVRkYVBfNGg0djZtVUVyU1o3Tzh0YzNYdnNoaklFRkdZVlZkLWNyRFFVOWFLT1RzbUhQQzl5RzNBWFliQWFhaDR2cGJlTml6WWpub25CZGhMNlAwYkxEdXdtMWtIWDFSRzlGcmpoc0xj?oc=5",
-     "source": "AL.com"
-    },
-    {
-     "title": "Daylight saving time ends soon in Florida. List of fall back dates till 2036 - The Palm Beach Post",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUHZwN1FScVN4ZDI5WDdJXzBRRGVhb2VWNjBjRmNtZHRkZVdaT0xMbUhPRGlnWlBMTHU5VDhqaG1WUjN4N1Q1MUFWQUhKZHR3WHdjR2xKVUxqSmhtQWViWHQ4Z1ZyaThXUlRfbFdiYUxNNjVRWlEwcjVIWkdsYTQ3UlI4bkQ3QU5iRmh2ZzlNSy1NeEhSQTNaYkZUSFFPNkJoQUVaQnFJYXFSUEh3?oc=5",
-     "source": "The Palm Beach Post"
-    },
-    {
-     "title": "You’ll get an extra hour of sleep (or partying) on Halloween night as daylight saving time ends - KTRE",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMlpEOTRzT3JMVzJOS2p5cV9qSXBNY1Z0NzRCWkdkX3o0UHlfX2tkeGJlaC1odjhGSEhwcnFudkZZZHBULWx1MFMwVmtZQ3NKR2d1bFhsUjB0SVBHYnExeTJrWVk3MzJKMG0ySGRTa01PRmdaNnFnNFFQbXFRM3ZjaVNMX09pMTN6WVdIcENzSzRqM2dLVVFWQV9jeVdCTUstcHZOXzl6Zk9GZlBKTHFqbmtrRmdBcnc?oc=5",
-     "source": "KTRE"
-    },
-    {
-     "title": "Daylight saving time ends Nov. 1, changing sunrise and sunset times in East Tennessee - WVLT",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU28teXllTV9KRTBoaVZ6Mk1SS3ZrbGVqMW1hRkoyUDFKV255N1I5QmVlREUwZTZCZ0V5Zm80MldoMHJ3T2w2MEdVR3VYV1VhemRoZE10dWhaX09XU3JZQkZVM19NNk40Tmx6WU1LYzVBQ1poeXFObEZacWVSQ3d0ckdxLVF4bDJxb3FSa1lPd001MmduVGhWOVNMWmdiaU9zQmtFc2JHU2xPQk5r?oc=5",
-     "source": "WVLT"
-    },
-    {
-     "title": "What Should We Actually Do With Daylight Saving Time? - Gizmodo",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZUtGZk9ZdWNSNnlYQ2lWQTZUUERBeXE3bS0xUlktQ1NLY3dvVnE0VWR4QzlUVUsyS01LM0lDblk1V1lQLURwTFdSR0VBcnRpaVg5dTRtekR6REpIQl9wUzByV29CeG5SMHYtQnQ5clQxZFBSWThha0d3d0pBUXkwVUtvdkZNYmFvb1Fj?oc=5",
-     "source": "Gizmodo"
-    }
-   ],
-   "official": false,
-   "score": 47.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.ktre.com/2026/10/22/youll-get-an-extra-hour-sleep-or-partying-halloween-night-daylight-saving-time-ends/",
-     "title": "You’ll get an extra hour of sleep (or partying) on Halloween night as daylight saving time ends - KTRE",
-     "outlet": "KTRE"
-    },
-    {
-     "url": "https://www.wvlt.tv/2026/10/22/daylight-saving-time-ends-nov-1-changing-sunrise-sunset-times-east-tennessee/",
-     "title": "Daylight saving time ends Nov. 1, changing sunrise and sunset times in East Tennessee - WVLT",
-     "outlet": "WVLT"
+     "url": "https://www.tovima.com/finance/how-will-salaries-and-wages-change-in-greece-in-2027/",
+     "title": "How Will Salaries and Wages Change in Greece in 2027? - tovima.com",
+     "outlet": "tovima.com"
     }
    ]
   },
@@ -539,7 +541,7 @@
    "source": "google_news",
    "keyword": "social security COLA",
    "traffic": 0,
-   "article_count_24h": 47,
+   "article_count_24h": 48,
    "article_count_1h": 2,
    "published": "2026-10-23T00:44:00+09:00",
    "category": "Benefits",
@@ -593,83 +595,88 @@
   },
   {
    "source": "google_news",
-   "keyword": "minimum wage increase",
+   "keyword": "daylight saving time",
    "traffic": 0,
-   "article_count_24h": 41,
-   "article_count_1h": 4,
-   "published": "2026-10-22T21:00:00+09:00",
-   "category": "Elections",
+   "article_count_24h": 71,
+   "article_count_1h": 2,
+   "published": "2026-10-22T20:00:00+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "Six in Ten New Yorkers Back a $30 Minimum Wage - Cornell ILR School",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOby12T1U1eF8wRzFncVliOG5lY3RwQWpVZkVOMGZYZmJ4LXlZaWdQbHNCSktydFpqVHpERTlYREtGcFdGVVNsQ3VxSXRTRTRITENxek1rZC1UbFk2THlQcFVNUWkyOWpRTEJlZ0xHTFhMTkVMT0tSZjlkQUNDMGdTS0JTc0FPVTBzUXN4Qk9HWW8?oc=5",
-     "source": "Cornell ILR School"
+     "title": "Daylight savings ends on earliest possible date this year: That means more time for Halloween - AL.com",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa2ZqbzM5MFpla1BkU1BDNlJvenhNNTZSemVBV3pKTGRkcDhFanZucXl2Q1ZPQk4xZUIzWTQ1TFNGeFhZc0VkbENXRE1PNDNFY1FrQnBTeS1jdVE0bG9fMktRMXZzbEdoNVJuYWVEUHVacTFyZUVNQW1XZDlFNk1Zc0FsR2xWcFhZR3JzSl9NNGNGSFJkd09aREJpTUZ5VHFOVzhXdGpvZDRkTHNDYjk0ajNUMExGVTJFcVIyOE5IN2NkY29Cczk2RNIB3AFBVV95cUxPTE4ycXlURFQxSmkzVHVQd0JuOTVJdkE2eWZUeXBFN0pCRzNjT1NUQ0FodkNYQS1uNTRtSjZUemFPY01NYWl3T3cyX0ZzLTA3aHJDMVczY0x6dHBWWHlab04td0FMMlFFb1hqVTRzeG8zYlA3QVRkYVBfNGg0djZtVUVyU1o3Tzh0YzNYdnNoaklFRkdZVlZkLWNyRFFVOWFLT1RzbUhQQzl5RzNBWFliQWFhaDR2cGJlTml6WWpub25CZGhMNlAwYkxEdXdtMWtIWDFSRzlGcmpoc0xj?oc=5",
+     "source": "AL.com"
     },
     {
-     "title": "Rapid UK pay growth raises pressure on John Healey over minimum wage - Financial Times",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUmNQYUZpeGZObDhuZDZfSFd1dnhVMmVZLVhyVGx3QU5OS1dJNkNQUzJlbThtYWhXVUw0XzBhYXhDQVd5eThxbnJGUEpwUkNvdEVDTzZRZW1obFp0SXVPb0h2ZF9sOG1SZDBiVzZuVG9IMDZ5MVFLeUJjMk9jbWg4Y3ZRbmI?oc=5",
-     "source": "Financial Times"
+     "title": "Daylight saving time ends soon in Florida. List of fall back dates till 2036 - The Palm Beach Post",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUHZwN1FScVN4ZDI5WDdJXzBRRGVhb2VWNjBjRmNtZHRkZVdaT0xMbUhPRGlnWlBMTHU5VDhqaG1WUjN4N1Q1MUFWQUhKZHR3WHdjR2xKVUxqSmhtQWViWHQ4Z1ZyaThXUlRfbFdiYUxNNjVRWlEwcjVIWkdsYTQ3UlI4bkQ3QU5iRmh2ZzlNSy1NeEhSQTNaYkZUSFFPNkJoQUVaQnFJYXFSUEh3?oc=5",
+     "source": "The Palm Beach Post"
     },
     {
-     "title": "Oakland's $30 Minimum Wage Initiative Qualifies for Future Ballot - East Bay Insiders Newsletter",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGXzdPR0VTeG1tZjJQN3E0OEh0OWlRM2hOOUNkWllPd25vcW1WWmkyZkJhRjY5ZGRxN3BYZkpmMVRHWmV3Z0VhYklvZE9NUWNmRlo4MGdNMHlFbEJfM1RERFZjcS0xT0ptZEtPeTFUdHFvYU5ldDU1dmZQMnZJMUU?oc=5",
-     "source": "East Bay Insiders Newsletter"
+     "title": "You’ll get an extra hour of sleep (or partying) on Halloween night as daylight saving time ends - KTRE",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMlpEOTRzT3JMVzJOS2p5cV9qSXBNY1Z0NzRCWkdkX3o0UHlfX2tkeGJlaC1odjhGSEhwcnFudkZZZHBULWx1MFMwVmtZQ3NKR2d1bFhsUjB0SVBHYnExeTJrWVk3MzJKMG0ySGRTa01PRmdaNnFnNFFQbXFRM3ZjaVNMX09pMTN6WVdIcENzSzRqM2dLVVFWQV9jeVdCTUstcHZOXzl6Zk9GZlBKTHFqbmtrRmdBcnc?oc=5",
+     "source": "KTRE"
     },
     {
-     "title": "How Will Salaries and Wages Change in Greece in 2027? - tovima.com",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcGRMUlpRaTYwWUMzYkhFdjRSMjJ4RjRlRWVsLXlPVEY5dUEwYmVROFlleW41Sk00eU5yRXZVVkpxbWZhQ2plaXRzaXJvaUJGQjhnTzlhWjZ4QjVlX0ZhNDY3YlJjR3pRdGREMnZPT19jZ3NBaHM1WVhRMEowWnRnM0JBOUxvaFJhUVJNZg?oc=5",
-     "source": "tovima.com"
+     "title": "What Should We Actually Do With Daylight Saving Time? - Gizmodo",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZUtGZk9ZdWNSNnlYQ2lWQTZUUERBeXE3bS0xUlktQ1NLY3dvVnE0VWR4QzlUVUsyS01LM0lDblk1V1lQLURwTFdSR0VBcnRpaVg5dTRtekR6REpIQl9wUzByV29CeG5SMHYtQnQ5clQxZFBSWThha0d3d0pBUXkwVUtvdkZNYmFvb1Fj?oc=5",
+     "source": "Gizmodo"
     },
     {
-     "title": "Japan's largest labor union to seek around 6% pay hike next spring - Japan Today",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3hXSEJ6UHlDcHFhcFl6WUgwU3ZudmI3aTQyaUdkMG4yY1BsWk13cjhSY1A5Sm1uazItcGxEeFBpTGdORHQ5enhsNDQ4M2hxalF2aUVaWHJZV2tvTU5PUzNSb255MVBXeUlGRHBGMnlUcE51c2lpRzl6SUx0aEl6c1k1YXR5cEdlN2lYbzNkZVRIOU5hUXR6WG5UTlVvN0pOelFLTkRNRVFxXzNhTmZaUllSc3FTc1E?oc=5",
-     "source": "Japan Today"
+     "title": "Daylight saving time ends Nov. 1, changing sunrise and sunset times in East Tennessee - WVLT",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU28teXllTV9KRTBoaVZ6Mk1SS3ZrbGVqMW1hRkoyUDFKV255N1I5QmVlREUwZTZCZ0V5Zm80MldoMHJ3T2w2MEdVR3VYV1VhemRoZE10dWhaX09XU3JZQkZVM19NNk40Tmx6WU1LYzVBQ1poeXFObEZacWVSQ3d0ckdxLVF4bDJxb3FSa1lPd001MmduVGhWOVNMWmdiaU9zQmtFc2JHU2xPQk5r?oc=5",
+     "source": "WVLT"
     }
    ],
    "official": false,
-   "score": 41.9,
+   "score": 42.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.tovima.com/finance/how-will-salaries-and-wages-change-in-greece-in-2027/",
-     "title": "How Will Salaries and Wages Change in Greece in 2027? - tovima.com",
-     "outlet": "tovima.com"
+     "url": "https://www.ktre.com/2026/10/22/youll-get-an-extra-hour-sleep-or-partying-halloween-night-daylight-saving-time-ends/",
+     "title": "You’ll get an extra hour of sleep (or partying) on Halloween night as daylight saving time ends - KTRE",
+     "outlet": "KTRE"
+    },
+    {
+     "url": "https://www.wvlt.tv/2026/10/22/daylight-saving-time-ends-nov-1-changing-sunrise-sunset-times-east-tennessee/",
+     "title": "Daylight saving time ends Nov. 1, changing sunrise and sunset times in East Tennessee - WVLT",
+     "outlet": "WVLT"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "medicare open enrollment",
+   "keyword": "tax deadline",
    "traffic": 0,
-   "article_count_24h": 44,
+   "article_count_24h": 23,
    "article_count_1h": 2,
-   "published": "2026-10-23T07:22:00+09:00",
-   "category": "Health Insurance",
+   "published": "2026-10-22T20:27:39+09:00",
+   "category": "Taxes",
    "news": [
     {
-     "title": "Senior Health Insurance Program navigators available to help during Medicare open enrollment - KFVS12",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUHZtcHhuSFMzRGpVX3FjRFJlNEdHY3YzWjdOZGhLY3FGMGtxcW4zdXNNZTc3OUh0M1lNRjFIOGdEVWV2RUh2VjBzMUgzSVdjaG96OWppRk5MSjZ5MzEtSHNrdTNybXdxakkwLXpnajBTUkRocV9penRmRTlScXpZcE1hOElyck02d2pfQ2RxX25PN3owb0RWSktJOGJnVThpWldlb25rZ2Z6TjBZMUdPbG5NQkFkb1UwQmVad3hLYjBKUdIB1gFBVV95cUxOU0p0eWc0d05EUFFjdEFFVzBlVnhvX0loYzF4My12U2xQaVA4Zi1oX09uQUdpa1JNYWl3bmJubmw4ZVFjcGw2SDFqWDVqYXNtOXNlWkczblpkSnprWnUxR2gtaE9ZRnBYUDlEM1JkMzZlWGt5MC1NTXNPUmdWalRFVXhsRGc0SGRKZEJEUTJxQ2RuR3c0ZmlWZEtYOF82WVZOb0l0bmpIYzQ5MFhubGxqQlhQRTZDaTM5UVE1bnRNaVpTTFg1S0xrUVhWRUk1cUFic0tNdU1B?oc=5",
-     "source": "KFVS12"
+     "title": "South Korea’s crypto bill enters final talks ahead of 2027 tax deadline - Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RdVU1ajUyd19ETUxxVEY0ZGJLeHlaTUlGTDJ2MWNGb1dLWWU5d1BsYm9OcU4yUGtMSVN0MFNKY1VBTTQzeVQwY3VhWkpreUE1dTUwbTgxLU91Y08wR0V0WHBPN19IWHdOMUxQWFBzNnlJSE5PdDVlOVlPSk0?oc=5",
+     "source": "Crypto News"
     },
     {
-     "title": "Cancelled plans, caps on enrollees and a dearth of info on some premiums: It’s Medicare open enrollment time - The Maine Monitor",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wQzlXamR2dFpsaHVnWDdfM3NZazJTWWZTcHdoQ2dwcjFvemNBZUE0Z0tsSnhYTEk4cTF1RE5aQmVid05iaTRIa0lPdDB3R2VaT2FoYzJtVHVJOVRpMjNRM1ItVlBPSkk0VGc?oc=5",
-     "source": "The Maine Monitor"
+     "title": "Missed the Oct. 15 Tax Extension Deadline? What Waiting Another 60 Days Can Cost - Money Talks News",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenp1eGdYVi1QbFVPbGRnaVFxNnpIWWhvWUgzTjdienV5LU9tdkZ0RlRSejBCYk5EcFZ0aTQyVFl1Vks4NmdoSUp2dGNHbU5INFk1dXhvQzE3cTF2MTJaa3NzcGxxbFpxSnU5MkNjNFFMQ1NScDlGVWgxU0RiTnE0OWdMSldhTEtueExPYTJ2VTBoNVVTVDhRM0J6REpaZEtYdkp2M2FNaw?oc=5",
+     "source": "Money Talks News"
     },
     {
-     "title": "ACA Marketplace Numbers Plunging as Open Enrollment Period Nears - Medicare Rights Center",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaGFYLWRPUnMtVUJJMkwxcUlXX1NJWnBhSjZ3bTZjUW00X0I0YWlGLTNnZEtzUG5FcnZHOXRBRFA4eHVDY0VnM0hOVUNoVVUzWm1vRlhrc1VCWjNDX2VqQngydFBCXzcwbU93RUF4VUpQOGlvcjRUWXdFdmZZdVZ3SUtWYWJieDRWZVRUeTctaUgxSUZ4MXdRaW8zbE1OTzY4Y1FqdE9nbktvNE1uZTdkSkJKa3NXaTJiSmtXN2VB?oc=5",
-     "source": "Medicare Rights Center"
+     "title": "Canmore tightens vacancy tax rules for 2027 after nearly $1M revenue shortfall - Rocky Mountain Outlook",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdzFrSUhsblVjSWNtQ1p3dXBiQjc4SW5BOFQ4UmRNUUp1dF91ejdUREhxdnZnQktrT3BPTXZKVXZVTkd1X3ZQOTZfQXJ3eFcwT3J1TkFUcVktdlZMLXJJWmNNS2tlWEhxek95T0hXSEZ3RUtSX2MwTy1ueEpKWkV6T3N0eTMwNGpMdHVFcVIxZXBoTjc5Q1NwWll4cTRwcUhSZ1I0VXhielBtQVhndDYzUUxqTm0xc19jWF9sLQ?oc=5",
+     "source": "Rocky Mountain Outlook"
     },
     {
-     "title": "Medicare open enrollment: How LIFE Senior Services can help seniors choose the right plan - News On 6",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONHFybWVmYmtYNFg0cFhBVmU5WmhMQmtOVWdkeUJacHZOWDBzSy1fMTN2cnJqZzNSX05BN3JiN0dOYUtTWUdLS1dHb1U1c3NTU2xvSUVxeWNLSHVaZEZZVFdXb2RKeGhFTzFKeGFDaXk2amZUUVBuLXNGX3lNUDA5a1FJMEhobFRVME93d2c1UEM?oc=5",
-     "source": "News On 6"
+     "title": "What Three Tax Deadlines Reveal About Planning a Solvent Company Exit - The Accountant Online",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdUsteXV5eEYtZUlSTHRqMjlqVnR5NDJFMjF0TnFPV1hhWTZkMFFBc3M0VHY0SGF6S1ktay1pdUpaVFNpY2wwZXRoWEMwOHk3a0lQamZQWDJYYTk1dFEzTXUtM192QXNHNS1GNmlWS1RtWlZLSmRxamVQbGZ4TjNXQVVFam92bXdfbEljdnNENl9vcEdsdjN5NFoyWEp0RjBnWHZVNVg0SEFwbzUwajd1RmZPcWJjVUZw?oc=5",
+     "source": "The Accountant Online"
     },
     {
-     "title": "3 key steps during Medicare’s open enrollment period - Las Vegas Review-Journal",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVlZSOTdWOUxEdFlReU9qNFBvM0xEbmg1YTZuVHpWU2tyWU14d0lPRHRldlh6Z0hVNk9vZ09zeXRQTUJPQldjZUt3OHh1LWVQdDk4TFNkNjFLVGpKazRIYnhTY002N2lGODdpVWM5UVAxNTZ0SjBHcnlkM21jRnJLb2RKU2F6T1R2MjFqcURYdWt0WXJXdHJBQkNNWndKMHZI?oc=5",
-     "source": "Las Vegas Review-Journal"
+     "title": "SARS tax deadline: What happens if you miss Friday’s cut-off? - The Witness | Your compass in the community",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObWIxWHRGQi0weG14T01fdmpNVzZHV3JXcWhxSjRQcVMxY0h3Y04zSmoxcE5wdVc1TjBzeWNjT3lOc0tyNzlHdl91djluS2lKb3NMV1YxMHoxSmVrcHFvY0FlMlNPOEI1dW9JdDVEYXhObERhd3FvMU5LOWFBZG5jM1l0Y1B6YjJLQlJjcFdwLU85aFRsNWhFLV9NS1ZEdw?oc=5",
+     "source": "The Witness | Your compass in the community"
     }
    ],
    "official": false,
@@ -677,24 +684,24 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.kfvs12.com/2026/10/22/senior-health-insurance-program-navigators-available-help-during-medicare-open-enrollment/",
-     "title": "Senior Health Insurance Program navigators available to help during Medicare open enrollment - KFVS12",
-     "outlet": "KFVS12"
+     "url": "https://crypto.news/south-korea-digital-asset-basic-act-crypto-tax-2027/",
+     "title": "South Korea’s crypto bill enters final talks ahead of 2027 tax deadline - Crypto News",
+     "outlet": "Crypto News"
     },
     {
-     "url": "https://themainemonitor.org/medicare-enrollment-woes-2026/",
-     "title": "Cancelled plans, caps on enrollees and a dearth of info on some premiums: It’s Medicare open enrollment time - The Maine Monitor",
-     "outlet": "The Maine Monitor"
+     "url": "https://www.moneytalksnews.com/missed-the-oct-tax-extension-deadline-what-waiting-another-days-can-cost/",
+     "title": "Missed the Oct. 15 Tax Extension Deadline? What Waiting Another 60 Days Can Cost - Money Talks News",
+     "outlet": "Money Talks News"
     },
     {
-     "url": "https://www.medicarerights.org/medicare-watch/2026/10/22/aca-marketplace-numbers-plunging-as-open-enrollment-period-nears",
-     "title": "ACA Marketplace Numbers Plunging as Open Enrollment Period Nears - Medicare Rights Center",
-     "outlet": "Medicare Rights Center"
+     "url": "https://www.rmoutlook.com/canmore/canmore-tightens-vacancy-tax-rules-for-2027-after-nearly-1m-revenue-shortfall-12918167",
+     "title": "Canmore tightens vacancy tax rules for 2027 after nearly $1M revenue shortfall - Rocky Mountain Outlook",
+     "outlet": "Rocky Mountain Outlook"
     },
     {
-     "url": "https://www.newson6.com/health/medicare-open-enrollment-2026-free-help-oklahoma-seniors",
-     "title": "Medicare open enrollment: How LIFE Senior Services can help seniors choose the right plan - News On 6",
-     "outlet": "News On 6"
+     "url": "https://www.theaccountant-online.com/comment/what-three-tax-deadlines-reveal-about-planning-a-solvent-company-exit-2/",
+     "title": "What Three Tax Deadlines Reveal About Planning a Solvent Company Exit - The Accountant Online",
+     "outlet": "The Accountant Online"
     }
    ]
   },
@@ -753,7 +760,7 @@
    "source": "google_news",
    "keyword": "SSI payment",
    "traffic": 0,
-   "article_count_24h": 58,
+   "article_count_24h": 62,
    "article_count_1h": 1,
    "published": "2026-10-23T05:37:32+09:00",
    "category": "Benefits",
@@ -812,70 +819,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "tax deadline",
-   "traffic": 0,
-   "article_count_24h": 53,
-   "article_count_1h": 1,
-   "published": "2026-10-23T07:00:19+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Retirees Who No Longer Get a Paycheck Often Forget This Tax Bill Until It’s Too Late - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTGNDSHF6VlNQbGkwamdXWFNWeUttN25EMWN0WFF6NzRKS21rVGR1MzUtektwOWNLVWFhUzZwTUxNcHdGOU5tUk9WcVVoWHI0clNzUURTblUxOWVNMTIxZ29sSWZ6LTllS3U3LUoxNFpGdzlyTW1xMHdoV1hUV0FzZTlnSlF3M3N4WktwTDJPNGJtR0xVUF9fT015VGV5TU83RHhIMA?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "New Jersey Treasury Encourages Residents to Apply for Property Tax Relief Programs - Insider NJ",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNREFKUmd3RmYySGpDa05KaTZsWGZKcGc4NFc0SFZ3TVZJQUhqb3l6YzlmMWFFVF9UN2JJeko3UlJKaUowYjMwYkRVdEV1a1JZZWdGT2ZiRzJGdVVSUHlJd2VUU05fVGVyM3FHSTJ5dkZTby01SWFSSEhESFV4dmZyVWZmZEZZV0xXS0FXR1p4LXllMjJXWW1FU3VrdEF5MUJsQm55RU8wN0locVRVOG82MjJIZ3VmcjN2bFhZcnpwUG0?oc=5",
-     "source": "Insider NJ"
-    },
-    {
-     "title": "Wash. Dept. Partly Waives Tax Penalties For Burglarized Store - Law360",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQm1YLWE1akV2SmVraWVoZTlCMUxfbjhISGxLcl9aQ3U5UW1JZXFpemtnRkJrdGVJSzlaS21aUzlqTk5NcTY2dm9pSXVTSFNTQ3NOejlrUTZpWjF4T1VsT1B1UlZYY0JpRFNfSFUyNWlkanR6S0o0RVVwT2M3NEY4Njg1LVRpbWNFaUtPU3JQWXJGcjdiTWExNzJNMmV2cGQx0gFoQVVfeXFMTjRNaWRnZTM3TzI5WW5jZTU1d2w1aWtiQmJTWUpWVUthS2NieDNuOUFGUmtzbkVoVk5BdUE4bk54a0R6LXNOei0wSUhiSGZZWmhjYmplc1IzMTFyaXV1dGNmcWZVMkx4UjI?oc=5",
-     "source": "Law360"
-    },
-    {
-     "title": "South Korea’s crypto bill enters final talks ahead of 2027 tax deadline - Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RdVU1ajUyd19ETUxxVEY0ZGJLeHlaTUlGTDJ2MWNGb1dLWWU5d1BsYm9OcU4yUGtMSVN0MFNKY1VBTTQzeVQwY3VhWkpreUE1dTUwbTgxLU91Y08wR0V0WHBPN19IWHdOMUxQWFBzNnlJSE5PdDVlOVlPSk0?oc=5",
-     "source": "Crypto News"
-    },
-    {
-     "title": "Missed the Oct. 15 Tax Extension Deadline? What Waiting Another 60 Days Can Cost - Money Talks News",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenp1eGdYVi1QbFVPbGRnaVFxNnpIWWhvWUgzTjdienV5LU9tdkZ0RlRSejBCYk5EcFZ0aTQyVFl1Vks4NmdoSUp2dGNHbU5INFk1dXhvQzE3cTF2MTJaa3NzcGxxbFpxSnU5MkNjNFFMQ1NScDlGVWgxU0RiTnE0OWdMSldhTEtueExPYTJ2VTBoNVVTVDhRM0J6REpaZEtYdkp2M2FNaw?oc=5",
-     "source": "Money Talks News"
-    }
-   ],
-   "official": false,
-   "score": 35.7,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://finance.yahoo.com/markets/currencies/articles/retirees-no-longer-paycheck-often-220019317.html",
-     "title": "Retirees Who No Longer Get a Paycheck Often Forget This Tax Bill Until It’s Too Late - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://www.insidernj.com/press-release/new-jersey-treasury-encourages-residents-to-apply-for-property-tax-relief-programs/",
-     "title": "New Jersey Treasury Encourages Residents to Apply for Property Tax Relief Programs - Insider NJ",
-     "outlet": "Insider NJ"
-    },
-    {
-     "url": "https://www.law360.com/tax-authority/articles/2541471",
-     "title": "Wash. Dept. Partly Waives Tax Penalties For Burglarized Store - Law360",
-     "outlet": "Law360"
-    },
-    {
-     "url": "https://crypto.news/south-korea-digital-asset-basic-act-crypto-tax-2027/",
-     "title": "South Korea’s crypto bill enters final talks ahead of 2027 tax deadline - Crypto News",
-     "outlet": "Crypto News"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "federal holiday",
    "traffic": 0,
-   "article_count_24h": 54,
+   "article_count_24h": 56,
    "article_count_1h": 0,
    "published": "2026-10-23T11:27:33+09:00",
    "category": "Holidays",
@@ -908,6 +854,45 @@
    ],
    "official": false,
    "score": 33.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "medicare open enrollment",
+   "traffic": 0,
+   "article_count_24h": 59,
+   "article_count_1h": 0,
+   "published": "2026-10-23T07:22:00+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "Senior Health Insurance Program navigators available to help during Medicare open enrollment - KFVS12",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUHZtcHhuSFMzRGpVX3FjRFJlNEdHY3YzWjdOZGhLY3FGMGtxcW4zdXNNZTc3OUh0M1lNRjFIOGdEVWV2RUh2VjBzMUgzSVdjaG96OWppRk5MSjZ5MzEtSHNrdTNybXdxakkwLXpnajBTUkRocV9penRmRTlScXpZcE1hOElyck02d2pfQ2RxX25PN3owb0RWSktJOGJnVThpWldlb25rZ2Z6TjBZMUdPbG5NQkFkb1UwQmVad3hLYjBKUdIB1gFBVV95cUxOU0p0eWc0d05EUFFjdEFFVzBlVnhvX0loYzF4My12U2xQaVA4Zi1oX09uQUdpa1JNYWl3bmJubmw4ZVFjcGw2SDFqWDVqYXNtOXNlWkczblpkSnprWnUxR2gtaE9ZRnBYUDlEM1JkMzZlWGt5MC1NTXNPUmdWalRFVXhsRGc0SGRKZEJEUTJxQ2RuR3c0ZmlWZEtYOF82WVZOb0l0bmpIYzQ5MFhubGxqQlhQRTZDaTM5UVE1bnRNaVpTTFg1S0xrUVhWRUk1cUFic0tNdU1B?oc=5",
+     "source": "KFVS12"
+    },
+    {
+     "title": "Cancelled plans, caps on enrollees and a dearth of info on some premiums: It’s Medicare open enrollment time - The Maine Monitor",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wQzlXamR2dFpsaHVnWDdfM3NZazJTWWZTcHdoQ2dwcjFvemNBZUE0Z0tsSnhYTEk4cTF1RE5aQmVid05iaTRIa0lPdDB3R2VaT2FoYzJtVHVJOVRpMjNRM1ItVlBPSkk0VGc?oc=5",
+     "source": "The Maine Monitor"
+    },
+    {
+     "title": "It's Medicare open enrollment season - Sandusky Register",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbHZiT2pEdnlkdHlQak9jU0ZYejdKMThJZGRzUWdDdU9rTWtKbjh5Y05OaVNlTjAwV2gtX2tfdXhHM0hNYWZ0dWEwYnVJYUpXRWdEcGMxa09vN3E4eFFqOEJlaHN0YXNCZ1RnWkxXc2xFLVI0TzU4NVNud2Z4TUM0UGRfaWo?oc=5",
+     "source": "Sandusky Register"
+    },
+    {
+     "title": "ACA Marketplace Numbers Plunging as Open Enrollment Period Nears - Medicare Rights Center",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaGFYLWRPUnMtVUJJMkwxcUlXX1NJWnBhSjZ3bTZjUW00X0I0YWlGLTNnZEtzUG5FcnZHOXRBRFA4eHVDY0VnM0hOVUNoVVUzWm1vRlhrc1VCWjNDX2VqQngydFBCXzcwbU93RUF4VUpQOGlvcjRUWXdFdmZZdVZ3SUtWYWJieDRWZVRUeTctaUgxSUZ4MXdRaW8zbE1OTzY4Y1FqdE9nbktvNE1uZTdkSkJKa3NXaTJiSmtXN2VB?oc=5",
+     "source": "Medicare Rights Center"
+    },
+    {
+     "title": "3 key steps during Medicare’s open enrollment period - Las Vegas Review-Journal",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVlZSOTdWOUxEdFlReU9qNFBvM0xEbmg1YTZuVHpWU2tyWU14d0lPRHRldlh6Z0hVNk9vZ09zeXRQTUJPQldjZUt3OHh1LWVQdDk4TFNkNjFLVGpKazRIYnhTY002N2lGODdpVWM5UVAxNTZ0SjBHcnlkM21jRnJLb2RKU2F6T1R2MjFqcURYdWt0WXJXdHJBQkNNWndKMHZI?oc=5",
+     "source": "Las Vegas Review-Journal"
+    }
+   ],
+   "official": false,
+   "score": 31.5,
    "already_covered": false
   },
   {
@@ -951,6 +936,45 @@
   },
   {
    "source": "google_news",
+   "keyword": "car recall",
+   "traffic": 0,
+   "article_count_24h": 30,
+   "article_count_1h": 1,
+   "published": "2026-10-23T04:18:48+09:00",
+   "category": "Recalls",
+   "news": [
+    {
+     "title": "Recall Alert: Porsche, Subaru Issue Do-Not-Drive Warnings - Kelley Blue Book",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdkNDSDhkWU54MUtlXzJjRldXaTYxNHZSX1hqa25EYkZHV1NoWW91bHBxeXQtNWhueDFjaHZteGZTQmJPNTFCMF9jdUlqUTJlZkxXb19MaUdCUU5CMm5Gc3pQVFVyU0t3akRHdmhkRlNOV1hpUzAzb2E4Mmc3ajV3dXFqai1ubE9QWFFYTUtB?oc=5",
+     "source": "Kelley Blue Book"
+    },
+    {
+     "title": "Toyota recalls over 105,000 vehicles. See the affected model - USA Today",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWHN3NU44UzVnSlk5akozSFpfangwQ0pQQ09xN21OejExaTYzYk9zUDdBZkRLZEZMS3R6Qk80eE5TNXdpdzVJV1pONFUwVU1IY2xfTXRSOUdoR2FzM21jNkhIMHFBelJSRWNqdHROQmlYR3RuSUVVXzRjdHBnZWFLbmNvRzdnMXNOelB6dk5VcHlRMDkyOUVkel93NllZckl3UV9IWU1EY09SYXZsUlIyTQ?oc=5",
+     "source": "USA Today"
+    },
+    {
+     "title": "Toyota is recalling more than 105,000 vehicles. Which models are affected - WLWT",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYjF0aDMwNUMzZ1JPY1Rzczhid3BxWnZBWnJiZGx4a2pLNG9iWENCUnUwWWtZT2RxNVUzMUZlVlhsc0sxQ3NtWUZFSzJLS1BzeGI3dUtYMm5NMHlrSUplVERqYnF2YndvOG41QjBuUks2Z3llbEpvYXp0cE43T01aZVR3aVlUbDZJYlJZbw?oc=5",
+     "source": "WLWT"
+    },
+    {
+     "title": "Hyundai Recalls 94,000 Genesis Models Over Power Seat Fire Risk - Motor1.com",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WUnNrZFh5RXNqRjNTU1ZRZlI2UEFJZF9zbG9OSGlIREZvaGYxSnNQZjczUE9uSTdDSU9vNUlGUkk1RG9KeHRoamRCbllPaHVWXzVEUFRPMTRIVDd5aWZfZnJXRDNrbGNaZTFCSGYwZmRuRzYyRVdCQQ?oc=5",
+     "source": "Motor1.com"
+    },
+    {
+     "title": "Porsche Recalls 2024 911 GT3, GT3 RS, Turbo, Turbo S, 718 Cayman GT4 RS and Spyder RS Over Wheels - Road & Track",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdExRU3pLWHdjNHRMVlVGMF90LU83aUFYd1FNNS1mRTZLb2ZQdW9vWXgwTGUtelhHMDVOSVBQX0ptb2xraFUzb2ZLdElzTHM3WTk3dXp5eTR2STJ0UldybVhWYzd6dFEyQ295dFB2cGFuaVdSTXVwUmVYUEo2ZUNvbmJIUFFtcjd4MldCOEQ0S3k3ZFloTXY5cUNwMDZpY0NxbXdock9pSEJYdjFJV1lwNzJFaGxYOE8xaDg3UQ?oc=5",
+     "source": "Road & Track"
+    }
+   ],
+   "official": false,
+   "score": 30.9,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "FAFSA",
    "traffic": 0,
    "article_count_24h": 10,
@@ -974,14 +998,14 @@
      "source": "KGUN 9"
     },
     {
-     "title": "💨 Drift happens - Empower",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kMTRSSmlHWWRhSGNJOWNhMkl4dFpFbWhGWFJGVVFlVlZEUGUxQWJ2NnV2R0hTUm9LU3QwOFhEVFpJV0Z3elBJdWZieVZXQnRZb1VQRm1PR1lwQlpqWnlvRm4xSVM0bS1rOGVEb2dMZw?oc=5",
-     "source": "Empower"
-    },
-    {
      "title": "Drake Expands Full-Tuition Bulldog Promise Program to Transfer Students - Drake University Newsroom",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOXlWNkpQN1laQ2VjMl9HbFpmZkpQRzlFS0V6d1c4X0g4bC12UEVxd2I5UlAyOWRxMzAxNl8zQnZUTVRQZENrVVB6Rk9RMzFlUHc5VnhZNmxJalY0V183NmhkanFNT2R5RW9FM3RrVURPd2VxMFd1RS1GOUpQWEpoZjJSNlpnMkZrRS1RM1NLZmZFXzROV1hpM25TZWVIU1NHRmYtNDl2SnFvZw?oc=5",
      "source": "Drake University Newsroom"
+    },
+    {
+     "title": "💨 Drift happens - Empower",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kMTRSSmlHWWRhSGNJOWNhMkl4dFpFbWhGWFJGVVFlVlZEUGUxQWJ2NnV2R0hTUm9LU3QwOFhEVFpJV0Z3elBJdWZieVZXQnRZb1VQRm1PR1lwQlpqWnlvRm4xSVM0bS1rOGVEb2dMZw?oc=5",
+     "source": "Empower"
     }
    ],
    "official": false,
@@ -1008,58 +1032,19 @@
      "source": "Democracy Docket"
     },
     {
-     "title": "Want Caribbean sun without a passport? Try these 4 islands for a winter getaway - Yahoo Creators",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSDhsbl9Hd1UtQ1p2MEcwVU1PUjZrSEdvdjk1NmZiWFcyTmkwczdjRXktLUZaQXo2cGFWR1dyNGdlbzhfc3BFZkVvUXJLb0dUV3dMT2FuVWRac3ZLa1V1NnFpNElIRFRBZS1HdXptLUIxbndtb3VTLU5MWUlIYkhnVVhsSkU4RXBXc25rOVRxZHdnSm1TQU4yem54NHRoOU00M05zQUJfYThJSnFZbXJZRTZVamJDY1pUelhMZmM2RUx6SmtaTDJRWVFaTkhUS2FYbGc?oc=5",
-     "source": "Yahoo Creators"
-    },
-    {
      "title": "José Mourinho complains Real Madrid have 24 hours less rest than Barcelona ahead of El Clásico - ESPN",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZmNCeW1DRXpLdkpOUHN0ZXNINGQ3dGRubnZtZFlmeEM5Q0lFQU4zSVBJaUw0RzhlemR0VENBZ0NCQkZFTXctZmNHMnkydkExMWROVFhpcDFJQ3hKTV9XNmJBU2ZReV9ZaFR3Q0pvYnVlT0lSbThkdkl2X2hKak12bmRDM0lEbDFiSlJGZWV1UHU3MThOQ0ExSVZ1TnpMMDJTbkl4MkUtMA?oc=5",
      "source": "ESPN"
     },
     {
-     "title": "Should Real Madrid frustrate Barcelona with fouls in El Clásico? - ESPN India",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSDl6R2NxeFY3dUZWUWtKaTRITHhtZUJ1a2RlU3lZUjJBZy1hT09xMzlLbktGX0tHQWszeDUzQk9VTDhlVlFONFVUVk5QbTNRVnE3M1d2SnB6S0Zyb1o5aHFuYnNQck1MY1dvaXNOYm9YNzlXTmUyZWhsSEMzVy13N2FZR1ZPbm1NTElIQW5mUVIwWDFQZ0ItTHJNbVNQNERxZHc?oc=5",
-     "source": "ESPN India"
-    }
-   ],
-   "official": false,
-   "score": 27.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "car recall",
-   "traffic": 0,
-   "article_count_24h": 30,
-   "article_count_1h": 0,
-   "published": "2026-10-23T04:18:48+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "Recall Alert: Porsche, Subaru Issue Do-Not-Drive Warnings - Kelley Blue Book",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdkNDSDhkWU54MUtlXzJjRldXaTYxNHZSX1hqa25EYkZHV1NoWW91bHBxeXQtNWhueDFjaHZteGZTQmJPNTFCMF9jdUlqUTJlZkxXb19MaUdCUU5CMm5Gc3pQVFVyU0t3akRHdmhkRlNOV1hpUzAzb2E4Mmc3ajV3dXFqai1ubE9QWFFYTUtB?oc=5",
-     "source": "Kelley Blue Book"
+     "title": "Ilhan Omar is not the Minnesota congresswoman’s 'real name': sources - Fox News",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeFgwMUQtazBmeEZLNG9KSmZ2MkpheUZSazZYS05oTks0cHJUaXlBTTVsM3Y5NnNIU19kaWlzamx0WkNLNkUwNHpqQ3o4QWxTblJ2TlhYMXpldWRWay1Cc0VxZWxWdU9wOVJueHJacnlLS2VPVWZGb3V4aFU2d1pwZDNMSW5SWFVVd1FnS1o2eHRpRmfSAZgBQVVfeXFMUEpLdE1XS1dRZXFKR3JtT3hLOTE2cmVETl9jbGs0cmY0akMzbmFpQ1ZPYWUwQlFtVldDY090YUgzTkR1aUJOM0V5V2g2UUVmTjdKQWVsb0JDeEFUT0RNMVVvTHd3eUc4VGJrTWtRdTE1SmVaMng4V3BKVFdPWEVleEhzMjFoQ0ZOX084eFBUd1U1TkNTRnpUcko?oc=5",
+     "source": "Fox News"
     },
     {
-     "title": "Toyota recalls over 105,000 vehicles. See the affected model - USA Today",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWHN3NU44UzVnSlk5akozSFpfangwQ0pQQ09xN21OejExaTYzYk9zUDdBZkRLZEZMS3R6Qk80eE5TNXdpdzVJV1pONFUwVU1IY2xfTXRSOUdoR2FzM21jNkhIMHFBelJSRWNqdHROQmlYR3RuSUVVXzRjdHBnZWFLbmNvRzdnMXNOelB6dk5VcHlRMDkyOUVkel93NllZckl3UV9IWU1EY09SYXZsUlIyTQ?oc=5",
-     "source": "USA Today"
-    },
-    {
-     "title": "Toyota is recalling more than 105,000 vehicles. Which models are affected - WLWT",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYjF0aDMwNUMzZ1JPY1Rzczhid3BxWnZBWnJiZGx4a2pLNG9iWENCUnUwWWtZT2RxNVUzMUZlVlhsc0sxQ3NtWUZFSzJLS1BzeGI3dUtYMm5NMHlrSUplVERqYnF2YndvOG41QjBuUks2Z3llbEpvYXp0cE43T01aZVR3aVlUbDZJYlJZbw?oc=5",
-     "source": "WLWT"
-    },
-    {
-     "title": "Porsche Recalls 2024 911 GT3, GT3 RS, Turbo, Turbo S, 718 Cayman GT4 RS and Spyder RS Over Wheels - Road & Track",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdExRU3pLWHdjNHRMVlVGMF90LU83aUFYd1FNNS1mRTZLb2ZQdW9vWXgwTGUtelhHMDVOSVBQX0ptb2xraFUzb2ZLdElzTHM3WTk3dXp5eTR2STJ0UldybVhWYzd6dFEyQ295dFB2cGFuaVdSTXVwUmVYUEo2ZUNvbmJIUFFtcjd4MldCOEQ0S3k3ZFloTXY5cUNwMDZpY0NxbXdock9pSEJYdjFJV1lwNzJFaGxYOE8xaDg3UQ?oc=5",
-     "source": "Road & Track"
-    },
-    {
-     "title": "Yet Another Ford Recall, This Time Truck Speedometers Could Be Lying - Yahoo Autos",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU21Cbl96a2laUlpiSDV4UlU4UzFPZkZNR2NLemozVW45ZzNmenAxdi1zeWFzWDhCZXJ5VWpLSEUwdGZaV3BvLV9BcWdUQmxrVVRXMW5GTEVMNFUySXlYS3ZROEJPOGExNk1xUE5Jdm42aFUyZk5ZQWNzSEJmVUx5SmNLOTlZWDV5MlpBelhENFM2VXhnb3FjMDczaw?oc=5",
-     "source": "Yahoo Autos"
+     "title": "NordPass launches Identity Masking and ID Monitoring - Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRk1rYVYxTG82QXVVbThUOVJyOG9BYm0zTmhIaGo1XzhnX010YUdxRXdZazk0Qk1yLVhaWWprMkFLVjlMOUVnU2hnYWhlZHdENnpSY0RYZWJ6VXlsc01odm5DRGdPMUtBS0Y1bm9PLXBhWlV4TFBEV2pPSk5PcVhyejBBRDVES1l5aWlHUVhEYw?oc=5",
+     "source": "Yahoo Finance UK"
     }
    ],
    "official": false,
@@ -1068,25 +1053,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "derozan",
+   "keyword": "blake griffin",
    "traffic": 200,
-   "published": "2026-10-23T13:00:00+09:00",
+   "published": "2026-10-23T13:50:00+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "DeRozan first experienced basketball as an artifact on …",
-     "url": "https://sports.yahoo.com/articles/derozan-first-experienced-basketball-artifact-013657091.html",
-     "source": "Yahoo Sports"
+     "title": "Blake Griffin and Francesca Aiello Speak Out About Their ‘Magical’ Wedding in Italy for the First Time",
+     "url": "https://people.com/blake-griffin-and-francesca-aiello-open-up-about-their-wedding-for-the-first-time-12188571",
+     "source": "People.com"
     },
     {
-     "title": "DeRozan first experienced basketball as an artifact on …",
-     "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/10/22/derozan-first-experienced-basketball-as-an-artifact-on/92389699007/",
-     "source": "HoopsHype"
+     "title": "Blake Griffin Marries Frankies Bikinis Founder Francesca Aiello Nearly 1 Year After Getting Engaged",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/blake-griffin-marries-frankies-bikinis-214743094.html",
+     "source": "Yahoo"
     },
     {
-     "title": "For Nuggets, DeMar DeRozan’s wisdom and humor are as vital as the buckets",
-     "url": "https://www.denverpost.com/2026/10/22/demar-derozan-denver-nuggets/",
-     "source": "The Denver Post"
+     "title": "One of Kendall Jenner’s Famous Exes Just Got Married",
+     "url": "https://popculture.com/celebrity/news/one-of-kendall-jenners-famous-exes-just-got-married/",
+     "source": "PopCulture.com"
     }
    ],
    "official": false,
@@ -1096,19 +1081,60 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://sports.yahoo.com/articles/derozan-first-experienced-basketball-artifact-013657091.html",
-     "title": "DeRozan first experienced basketball as an artifact on …",
-     "outlet": "Yahoo Sports"
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/blake-griffin-marries-frankies-bikinis-214743094.html",
+     "title": "Blake Griffin Marries Frankies Bikinis Founder Francesca Aiello Nearly 1 Year After Getting Engaged",
+     "outlet": "Yahoo"
     },
     {
-     "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/10/22/derozan-first-experienced-basketball-as-an-artifact-on/92389699007/",
-     "title": "DeRozan first experienced basketball as an artifact on …",
-     "outlet": "HoopsHype"
+     "url": "https://popculture.com/celebrity/news/one-of-kendall-jenners-famous-exes-just-got-married/",
+     "title": "One of Kendall Jenner’s Famous Exes Just Got Married",
+     "outlet": "PopCulture.com"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "kris jenner",
+   "traffic": 200,
+   "published": "2026-10-23T13:40:00+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Kris Jenner Is the Matriarch of the Ferragamo Family in the Brand’s Holiday Campaign",
+     "url": "https://www.wmagazine.com/fashion/best-holiday-2026-campaigns",
+     "source": "W Magazine"
     },
     {
-     "url": "https://www.denverpost.com/2026/10/22/demar-derozan-denver-nuggets/",
-     "title": "For Nuggets, DeMar DeRozan’s wisdom and humor are as vital as the buckets",
-     "outlet": "The Denver Post"
+     "title": "How Ferragamo's 'The Joy of Loving' campaign celebrates love",
+     "url": "https://www.fortuneindia.com/business-news/how-ferragamos-the-joy-of-loving-campaign-celebrates-love/165517",
+     "source": "Fortune India"
+    },
+    {
+     "title": "Ferragamo Drops its Holiday 2026 Campaign",
+     "url": "https://pausemag.co.uk/2026/10/ferragamo-drops-its-holiday-campaign/",
+     "source": "PAUSE Online"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 17.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.wmagazine.com/fashion/best-holiday-2026-campaigns",
+     "title": "Kris Jenner Is the Matriarch of the Ferragamo Family in the Brand’s Holiday Campaign",
+     "outlet": "W Magazine"
+    },
+    {
+     "url": "https://www.fortuneindia.com/business-news/how-ferragamos-the-joy-of-loving-campaign-celebrates-love/165517",
+     "title": "How Ferragamo's 'The Joy of Loving' campaign celebrates love",
+     "outlet": "Fortune India"
+    },
+    {
+     "url": "https://pausemag.co.uk/2026/10/ferragamo-drops-its-holiday-campaign/",
+     "title": "Ferragamo Drops its Holiday 2026 Campaign",
+     "outlet": "PAUSE Online"
     }
    ]
   },
@@ -1153,107 +1179,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "josh cribbs",
-   "traffic": 2000,
-   "published": "2026-10-23T12:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "“So Sorry”: Bernie Kosar and More Send Condolences as Browns Legend Shares Tragic Personal News",
-     "url": "https://sports.yahoo.com/articles/sorry-bernie-kosar-more-send-104500814.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Cleveland Browns Legend Josh Cribbs Receives Condolences After Sharing Heartbreaking News",
-     "url": "https://sports.ndtv.com/us/nfl/cleveland-browns-legend-josh-cribbs-receives-condolences-after-sharing-heartbreaking-news-12221451",
-     "source": "NDTV Sports"
-    },
-    {
-     "title": "Josh Cribbs posts tribute as Bernie Kosar sends condolences",
-     "url": "https://twaslnews1.twaslnews.com/6447334/",
-     "source": "شبكة تواصل الإخبارية"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/sorry-bernie-kosar-more-send-104500814.html",
-     "title": "“So Sorry”: Bernie Kosar and More Send Condolences as Browns Legend Shares Tragic Personal News",
-     "outlet": "Yahoo Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "lilli tagger",
-   "traffic": 500,
-   "published": "2026-10-23T12:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Li vs. Tagger Prediction at the Kinoshita Group Japan Open – Thursday, October 22",
-     "url": "https://www.bleachernation.com/picks/2026/10/22/li-vs-tagger-prediction-at-the-kinoshita-group-japan-open-thursday-october-22/",
-     "source": "Bleacher Nation"
-    },
-    {
-     "title": "WTA Osaka Quarterfinal Predictions Including Ann Li vs Lilli Tagger",
-     "url": "https://lastwordonsports.com/tennis/2026/10/22/wta-osaka-quarterfinal-predictions-li-tagger/",
-     "source": "Last Word On Sports"
-    },
-    {
-     "title": "Ann Li vs Lilli Tagger Prediction & Picks - Japan Women's Open",
-     "url": "https://www.sportytrader.com/us/picks/ann-li-lilli-tagger-381602/",
-     "source": "SportyTrader"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 200→500",
-   "spike_bonus": 20,
-   "score": 13.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.bleachernation.com/picks/2026/10/22/li-vs-tagger-prediction-at-the-kinoshita-group-japan-open-thursday-october-22/",
-     "title": "Li vs. Tagger Prediction at the Kinoshita Group Japan Open – Thursday, October 22",
-     "outlet": "Bleacher Nation"
-    },
-    {
-     "url": "https://lastwordonsports.com/tennis/2026/10/22/wta-osaka-quarterfinal-predictions-li-tagger/",
-     "title": "WTA Osaka Quarterfinal Predictions Including Ann Li vs Lilli Tagger",
-     "outlet": "Last Word On Sports"
-    },
-    {
-     "url": "https://www.sportytrader.com/us/picks/ann-li-lilli-tagger-381602/",
-     "title": "Ann Li vs Lilli Tagger Prediction & Picks - Japan Women's Open",
-     "outlet": "SportyTrader"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "joe manganiello",
+   "keyword": "ashlyn krueger",
    "traffic": 1000,
-   "published": "2026-10-23T13:10:00+09:00",
+   "published": "2026-10-23T13:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "How Joe Manganiello, 49, Rebuilt His Strength After 30kg Illness Weight Loss – 5 Lessons You Can Use",
-     "url": "https://www.menshealth.com/uk/building-muscle/a74203257/joe-manganiello-strength-after-illness/",
-     "source": "Men's Health"
+     "title": "October 23, 2026: Luca Van Assche vs Lorenzo Musetti: Set 1 Winner Prediction Market",
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/luca-van-assche-vs-lorenzo-musetti-set-1-winner-oct-23-2026/",
+     "source": "Robinhood"
     },
     {
-     "title": "Joe Manganiello Shares Revealing Body Images of His Gigantic Leg Tattoo, Shares Significance of the Dragon",
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/joe-manganiello-shares-revealing-body-204543125.html",
-     "source": "Yahoo"
+     "title": "October 22, 2026: Raphael Collignon vs Jiri Lehecka: Set 2 Winner Tennis Prediction Market",
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/raphael-collignon-vs-jiri-lehecka-set-2-winner-oct-22-2026/",
+     "source": "Robinhood"
     },
     {
-     "title": "Joe Manganiello Reveals He Got 3-Foot Dragon Tattoo to Cover Surgery Scars After Battling Illness",
-     "url": "https://people.com/joe-manganiello-reveals-got-3-foot-dragon-tattoo-cover-surgery-scars-after-battling-illness-12183319",
-     "source": "People.com"
+     "title": "October 22, 2026: Flavio Cobolli vs Stan Wawrinka: Set 1 Winner Tennis Prediction Market",
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/flavio-cobolli-vs-stan-wawrinka-set-1-winner-oct-22-2026/",
+     "source": "Robinhood"
     }
    ],
    "official": false,
@@ -1263,38 +1207,222 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.menshealth.com/uk/building-muscle/a74203257/joe-manganiello-strength-after-illness/",
-     "title": "How Joe Manganiello, 49, Rebuilt His Strength After 30kg Illness Weight Loss – 5 Lessons You Can Use",
-     "outlet": "Men's Health"
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/luca-van-assche-vs-lorenzo-musetti-set-1-winner-oct-23-2026/",
+     "title": "October 23, 2026: Luca Van Assche vs Lorenzo Musetti: Set 1 Winner Prediction Market",
+     "outlet": "Robinhood"
     },
     {
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/joe-manganiello-shares-revealing-body-204543125.html",
-     "title": "Joe Manganiello Shares Revealing Body Images of His Gigantic Leg Tattoo, Shares Significance of the Dragon",
-     "outlet": "Yahoo"
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/raphael-collignon-vs-jiri-lehecka-set-2-winner-oct-22-2026/",
+     "title": "October 22, 2026: Raphael Collignon vs Jiri Lehecka: Set 2 Winner Tennis Prediction Market",
+     "outlet": "Robinhood"
+    },
+    {
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/flavio-cobolli-vs-stan-wawrinka-set-1-winner-oct-22-2026/",
+     "title": "October 22, 2026: Flavio Cobolli vs Stan Wawrinka: Set 1 Winner Tennis Prediction Market",
+     "outlet": "Robinhood"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "malika andrews",
+   "keyword": "talia gibson",
+   "traffic": 200,
+   "published": "2026-10-23T13:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "My Tennis Life: Talia Gibson",
+     "url": "https://www.tennis.com.au/fan-zone/news/2026/10/21/talia-gibson-my-tennis-life",
+     "source": "Tennis Australia"
+    },
+    {
+     "title": "Talia Gibson vs Ashlyn Krueger Prediction & Picks - Japan Women's Open",
+     "url": "https://www.sportytrader.com/us/picks/talia-gibson-ashlyn-krueger-381616/",
+     "source": "SportyTrader"
+    },
+    {
+     "title": "Sports News, Transfers, Scores | Watch Live Sport",
+     "url": "https://www.skysports.com/tennis/watch/8537794048355253112/kinoshita-group-japan-open-2026",
+     "source": "Sky Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.sportytrader.com/us/picks/talia-gibson-ashlyn-krueger-381616/",
+     "title": "Talia Gibson vs Ashlyn Krueger Prediction & Picks - Japan Women's Open",
+     "outlet": "SportyTrader"
+    },
+    {
+     "url": "https://www.skysports.com/tennis/watch/8537794048355253112/kinoshita-group-japan-open-2026",
+     "title": "Sports News, Transfers, Scores | Watch Live Sport",
+     "outlet": "Sky Sports"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "金正恩",
+   "traffic": 200,
+   "published": "2026-10-23T13:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "金正恩安危：为何他的死亡传言总是卷土重来？",
+     "url": "https://www.bbc.com/zhongwen/articles/cm4g1zr53y80o/simp",
+     "source": "BBC"
+    },
+    {
+     "title": "消息满天飞 金正恩频被传死讯 外媒揭3大原因",
+     "url": "https://www.wenxuecity.com/news/2026/10/22/126812762.html",
+     "source": "文学城"
+    },
+    {
+     "title": "「金正恩死訊」瘋傳之際 朝鮮連兩天大面積斷網",
+     "url": "https://www.ntdtv.com/gb/2026/10/22/a104144348.html",
+     "source": "新唐人電視台"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/zhongwen/articles/cm4g1zr53y80o/simp",
+     "title": "金正恩安危：为何他的死亡传言总是卷土重来？",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://www.wenxuecity.com/news/2026/10/22/126812762.html",
+     "title": "消息满天飞 金正恩频被传死讯 外媒揭3大原因",
+     "outlet": "文学城"
+    },
+    {
+     "url": "https://www.ntdtv.com/gb/2026/10/22/a104144348.html",
+     "title": "「金正恩死訊」瘋傳之際 朝鮮連兩天大面積斷網",
+     "outlet": "新唐人電視台"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "村上龍",
+   "traffic": 200,
+   "published": "2026-10-23T13:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "作家・村上龍さん死去、74歳 著作に『限りなく透明に近いブルー』『13歳のハローワーク』など 『カンブリア宮殿』でMC（オリコン）",
+     "url": "https://news.yahoo.co.jp/articles/d18ec10d1d78e7a0c7f19d95625faff4d79be95b",
+     "source": "Yahoo!ニュース"
+    },
+    {
+     "title": "オリコンニュース",
+     "url": "https://www.nack5.co.jp/oricon/2488346/",
+     "source": "FM NACK5 79.5MHz（エフエムナックファイブ）"
+    },
+    {
+     "title": "作家・村上龍さん死去 2026年の著名作家の訃報 東野圭吾さん、林明子さんが鬼籍に",
+     "url": "https://www.oricon.co.jp/news/2488349/",
+     "source": "オリコンニュース"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://news.yahoo.co.jp/articles/d18ec10d1d78e7a0c7f19d95625faff4d79be95b",
+     "title": "作家・村上龍さん死去、74歳 著作に『限りなく透明に近いブルー』『13歳のハローワーク』など 『カンブリア宮殿』でMC（オリコン）",
+     "outlet": "Yahoo!ニュース"
+    },
+    {
+     "url": "https://www.nack5.co.jp/oricon/2488346/",
+     "title": "オリコンニュース",
+     "outlet": "FM NACK5 79.5MHz（エフエムナックファイブ）"
+    },
+    {
+     "url": "https://www.oricon.co.jp/news/2488349/",
+     "title": "作家・村上龍さん死去 2026年の著名作家の訃報 東野圭吾さん、林明子さんが鬼籍に",
+     "outlet": "オリコンニュース"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "taika waititi",
+   "traffic": 200,
+   "published": "2026-10-23T13:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "'Klara and the Sun' review: Jenna Ortega fans, respectfully look away",
+     "url": "https://mashable.com/entertainment/klara-and-the-sun-review",
+     "source": "Mashable"
+    },
+    {
+     "title": "‘I’d consider replacing one of my children’: Taika Waititi on robot kids, his cheese-o-meter and Klara and the Sun",
+     "url": "https://www.theguardian.com/film/2026/oct/22/taika-waititi-kazuo-ishiguro-robot-friend-klara-and-the-sun",
+     "source": "The Guardian"
+    },
+    {
+     "title": "Review: Jenna Ortega plays a sad robot in the shamelessly programmatic 'Klara and the Sun'",
+     "url": "https://www.latimes.com/entertainment-arts/movies/story/2026-10-22/klara-sun-review-jenna-ortega-amy-adams-mia-tharia-taika-waititi",
+     "source": "Los Angeles Times"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://mashable.com/entertainment/klara-and-the-sun-review",
+     "title": "'Klara and the Sun' review: Jenna Ortega fans, respectfully look away",
+     "outlet": "Mashable"
+    },
+    {
+     "url": "https://www.theguardian.com/film/2026/oct/22/taika-waititi-kazuo-ishiguro-robot-friend-klara-and-the-sun",
+     "title": "‘I’d consider replacing one of my children’: Taika Waititi on robot kids, his cheese-o-meter and Klara and the Sun",
+     "outlet": "The Guardian"
+    },
+    {
+     "url": "https://www.latimes.com/entertainment-arts/movies/story/2026-10-22/klara-sun-review-jenna-ortega-amy-adams-mia-tharia-taika-waititi",
+     "title": "Review: Jenna Ortega plays a sad robot in the shamelessly programmatic 'Klara and the Sun'",
+     "outlet": "Los Angeles Times"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "steve nash",
    "traffic": 200,
    "published": "2026-10-23T13:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Luka Dončić’s interview with ESPN’s Malika Andrews goes viral after Lakers win",
-     "url": "https://nypost.com/2026/10/22/sports/luka-doncics-chemistry-with-espns-malika-andrews-turns-heads/",
-     "source": "New York Post"
-    },
-    {
-     "title": "Malika Andrews makes playful Luka Dončić post after viral Lakers interview",
-     "url": "https://sports.yahoo.com/articles/malika-andrews-makes-playful-luka-220936697.html",
+     "title": "\"Hopefully he can have a nice career as a backup point guard\" - Steve Nash's father had modest NBA hopes",
+     "url": "https://sports.yahoo.com/articles/hopefully-nice-career-backup-point-110100723.html",
      "source": "Yahoo Sports"
     },
     {
-     "title": "Luka Doncic freezes up during postgame interview with Malika Andrews and fans wonder about a romance",
-     "url": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/10/22/luka-doncic-freezes-up-during-postgame-interview-with-malika-andrews-and-fans-wonder-about-romance.html",
-     "source": "MARCA"
+     "title": "Steve Nash visits ASU football to ‘break up the monotony’ of Kenny Dillingham’s voice",
+     "url": "https://arizonasports.com/ncaa/arizona-state/asu-football/steve-nash-break-monotony",
+     "source": "Arizona Sports 98.7"
+    },
+    {
+     "title": "Wednesday report: Steve Nash reinforces 'trusts the process' mentality as ASU seeks turnaround",
+     "url": "https://247sports.com/college/arizona-state/article/asu-football-kennny-dillingham-qb-quarterback-cutter-boley-mikey-keene-brian-ward-kansas-state-mountain-america-stadium-291593437/",
+     "source": "247Sports"
     }
    ],
    "official": false,
@@ -1304,65 +1432,14 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://nypost.com/2026/10/22/sports/luka-doncics-chemistry-with-espns-malika-andrews-turns-heads/",
-     "title": "Luka Dončić’s interview with ESPN’s Malika Andrews goes viral after Lakers win",
-     "outlet": "New York Post"
-    },
-    {
-     "url": "https://sports.yahoo.com/articles/malika-andrews-makes-playful-luka-220936697.html",
-     "title": "Malika Andrews makes playful Luka Dončić post after viral Lakers interview",
+     "url": "https://sports.yahoo.com/articles/hopefully-nice-career-backup-point-110100723.html",
+     "title": "\"Hopefully he can have a nice career as a backup point guard\" - Steve Nash's father had modest NBA hopes",
      "outlet": "Yahoo Sports"
     },
     {
-     "url": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/10/22/luka-doncic-freezes-up-during-postgame-interview-with-malika-andrews-and-fans-wonder-about-romance.html",
-     "title": "Luka Doncic freezes up during postgame interview with Malika Andrews and fans wonder about a romance",
-     "outlet": "MARCA"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "hurricanes hockey",
-   "traffic": 200,
-   "published": "2026-10-23T12:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "NHL Status Report: Jarvis makes season debut for Hurricanes",
-     "url": "https://www.nhl.com/news/nhl-status-report-news-and-notes-october-22-2026",
-     "source": "NHL.com"
-    },
-    {
-     "title": "Seth Jarvis Activated - Hurricanes @ Oilers: Preview and Game Thread",
-     "url": "https://www.canescountry.com/2010-11-carolina-hurricanes-open-game-threads/54513/seth-jarvis-activated-hurricanes-oilers-preview-and-game-thread",
-     "source": "Canes Country"
-    },
-    {
-     "title": "Seth Jarvis Returns To The Lineup Tonight Against Edmonton Oilers",
-     "url": "https://sports.yahoo.com/videos/seth-jarvis-returns-lineup-tonight-010219226.html",
-     "source": "Yahoo Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nhl.com/news/nhl-status-report-news-and-notes-october-22-2026",
-     "title": "NHL Status Report: Jarvis makes season debut for Hurricanes",
-     "outlet": "NHL.com"
-    },
-    {
-     "url": "https://www.canescountry.com/2010-11-carolina-hurricanes-open-game-threads/54513/seth-jarvis-activated-hurricanes-oilers-preview-and-game-thread",
-     "title": "Seth Jarvis Activated - Hurricanes @ Oilers: Preview and Game Thread",
-     "outlet": "Canes Country"
-    },
-    {
-     "url": "https://sports.yahoo.com/videos/seth-jarvis-returns-lineup-tonight-010219226.html",
-     "title": "Seth Jarvis Returns To The Lineup Tonight Against Edmonton Oilers",
-     "outlet": "Yahoo Sports"
+     "url": "https://arizonasports.com/ncaa/arizona-state/asu-football/steve-nash-break-monotony",
+     "title": "Steve Nash visits ASU football to ‘break up the monotony’ of Kenny Dillingham’s voice",
+     "outlet": "Arizona Sports 98.7"
     }
    ]
   },
@@ -1392,79 +1469,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "how old is north west",
-   "traffic": 2000,
-   "published": "2026-10-23T12:50:00+09:00",
+   "keyword": "joe manganiello",
+   "traffic": 1000,
+   "published": "2026-10-23T13:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "North West is unrecognizable in reality TV star costume using prosthetic chin",
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/north-west-unrecognizable-reality-tv-131519729.html",
+     "title": "How Joe Manganiello, 49, Rebuilt His Strength After 30kg Illness Weight Loss – 5 Lessons You Can Use",
+     "url": "https://www.menshealth.com/uk/building-muscle/a74203257/joe-manganiello-strength-after-illness/",
+     "source": "Men's Health"
+    },
+    {
+     "title": "Joe Manganiello Shares Revealing Body Images of His Gigantic Leg Tattoo, Shares Significance of the Dragon",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/joe-manganiello-shares-revealing-body-204543125.html",
      "source": "Yahoo"
     },
     {
-     "title": "Kim Kardashian’s Best Halloween Costumes Over the Years: From Pamela Anderson to Daughter North",
-     "url": "https://swimsuit.si.com/swimnews/kim-kardashian-best-halloween-costumes-over-the-years",
-     "source": "Sports Illustrated"
-    },
-    {
-     "title": "Kim Kardashian Channels Daughter North, 13, for Her 2026 Halloween Costume",
-     "url": "https://people.com/kim-kardashian-halloween-costume-north-west-2026-11838717",
+     "title": "Joe Manganiello Reveals He Got 3-Foot Dragon Tattoo to Cover Surgery Scars After Battling Illness",
+     "url": "https://people.com/joe-manganiello-reveals-got-3-foot-dragon-tattoo-cover-surgery-scars-after-battling-illness-12183319",
      "source": "People.com"
-    }
-   ],
-   "official": false,
-   "score": 6.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "ann li",
-   "traffic": 500,
-   "published": "2026-10-23T12:50:00+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Li defeats Sonmez for first time in four meetings to make Osaka quarters",
-     "url": "https://www.wtatennis.com/videos/4597111/li-defeats-sonmez-for-first-time-in-four-meetings-to-make-osaka-quarters",
-     "source": "WTA Tennis"
-    },
-    {
-     "title": "Li Leads American QF Charge in Osaka",
-     "url": "https://tennisnow.com/li-leads-american-qf-charge-in-osaka/",
-     "source": "Tennis Now"
-    },
-    {
-     "title": "WTA roundup: Top seed Ann Li reaches Osaka quarterfinals",
-     "url": "https://www.taylorvilledailynews.com/wta-roundup-top-seed-ann-li-reaches-osaka-quarterfinals/",
-     "source": "Taylorville Daily News"
-    }
-   ],
-   "official": false,
-   "score": 3.8,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "nfc north standings",
-   "traffic": 1000,
-   "published": "2026-10-23T12:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "NFL Power Rankings: How all 32 teams stack up for Week 7, plus offensive issues",
-     "url": "https://www.espn.com/nfl/story/_/id/50218886/nfl-power-rankings-week-7-teams-biggest-issue-offense",
-     "source": "ESPN"
-    },
-    {
-     "title": "NFL Power Rankings, Week 7: Rams, Seahawks plummet; Texans, Saints, Cardinals biggest risers",
-     "url": "https://www.nfl.com/news/nfl-power-rankings-week-7-2026-nfl-season",
-     "source": "NFL.com"
-    },
-    {
-     "title": "NFL Projection Model clashes with Week 7 power rankings: 49ers at No. 7?",
-     "url": "https://www.nytimes.com/athletic/7707963/2026/10/21/nfl-week-7-power-rankings-49ers-projections/",
-     "source": "The New York Times"
     }
    ],
    "official": false,
@@ -1473,24 +1496,29 @@
   },
   {
    "source": "google_trends",
-   "keyword": "final destination",
-   "traffic": 500,
-   "published": "2026-10-23T12:40:00+09:00",
+   "keyword": "malika andrews",
+   "traffic": 200,
+   "published": "2026-10-23T13:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Grandmother sets record with fiery stunt in Final Destination",
-     "url": "https://www.newsband.in/article_detail/grandmother-sets-record-with-fiery-stunt-in-final-destination",
-     "source": "Newsband"
+     "title": "Luka Dončić’s interview with ESPN’s Malika Andrews goes viral after Lakers win",
+     "url": "https://nypost.com/2026/10/22/sports/luka-doncics-chemistry-with-espns-malika-andrews-turns-heads/",
+     "source": "New York Post"
     },
     {
-     "title": "Final Destination Bloodlines (2025) Movie Ending Explained: Do Stefani and Charlie Escape Death?",
-     "url": "https://www.highonfilms.com/final-destination-bloodlines-2025-movie-ending-explained/",
-     "source": "High On Films"
+     "title": "Malika Andrews makes playful Luka Dončić post after viral Lakers interview",
+     "url": "https://sports.yahoo.com/articles/malika-andrews-makes-playful-luka-220936697.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Luka Doncic freezes up during postgame interview with Malika Andrews and fans wonder about a romance",
+     "url": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/10/22/luka-doncic-freezes-up-during-postgame-interview-with-malika-andrews-and-fans-wonder-about-romance.html",
+     "source": "MARCA"
     }
    ],
    "official": false,
-   "score": 1.5,
+   "score": 0.6,
    "already_covered": false
   }
  ]
