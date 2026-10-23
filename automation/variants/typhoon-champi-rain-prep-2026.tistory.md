@@ -14,15 +14,14 @@ cards:
     head: ["분야", "내용"]
     rows: [["강풍", "간판·비닐하우스·공사장 가설물 점검"], ["해안", "어선·양식시설 결박·고정"], ["침수", "빗물받이 낙엽·퇴적물 제거"], ["통제", "제주·남해안 방파제·갯바위 등"]]
     note: "비는 23일부터 26일까지 · 기상청 최신 예보 확인"
-image_requests:
-  - id: track
-    source: jtwc
-    storm: CHAMPI
-    alt: "태풍 참피 예상 경로도 (미 합동태풍경보센터)"
-    note: "JTWC 예상 경로 · 예보는 계속 바뀌어요"
 sources:
   - title: "정책브리핑(행정안전부) — 행안부, 태풍 '참피'·호우 대비 강풍 취약시설 사전 점검 지시 (2026.10.23)"
     url: https://www.korea.kr/news/policyNewsView.do?newsId=148974197
+images:
+  - src: /assets/photos/typhoon-champi-rain-prep-2026-track.png
+    license: "Public domain (U.S. Navy JTWC)"
+    credit: "Joint Typhoon Warning Center (U.S. Navy), 2026-10-23 07:15 UTC"
+    source_url: https://www.metoc.navy.mil/jtwc/products/wp2926.gif
 ---
 주말에 비 소식이 길게 잡혀 있더라고요!
 태풍 참피 영향까지 겹쳐서 정부도 대비에 들어갔대요.
@@ -34,7 +33,10 @@ sources:
 행정안전부는 23일부터 오는 26일까지 이어지는 호우에 대비한다고 밝혔어요.
 태풍 진로와 비의 양은 바뀔 수 있어서, 기상청 예보를 수시로 보는 게 좋아요.
 
-<!-- img:track -->
+
+<figure style="margin:20px 0;"><img src="/assets/photos/typhoon-champi-rain-prep-2026-track.png" alt="태풍 참피 예상 경로도 (미 합동태풍경보센터)" loading="lazy">
+<figcaption style="font-size:13px;color:#777;text-align:center;">JTWC 예상 경로 · 예보는 계속 바뀌어요 · 사진: Joint Typhoon Warning Center (U.S. Navy), 2026-10-23 07:15 UTC · Public domain (U.S. Navy JTWC)</figcaption></figure>
+
 
 ## Q2. 정부는 뭘 점검한대요?
 크게 네 가지예요.
