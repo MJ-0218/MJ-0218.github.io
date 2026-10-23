@@ -1,212 +1,33 @@
 {
- "generated_at": "2026-10-23T10:03:10.023492+09:00",
+ "generated_at": "2026-10-23T10:41:25.126264+09:00",
  "sources": {
   "calendar": "ok (5)",
   "google_trends": "ok (10)",
   "google_news": "ok (22)",
-  "evidence": "ok (저장 48, 실패 25)"
+  "evidence": "ok (저장 52, 실패 16)"
  },
  "compared_runs": 2,
  "spikes": [
-  "CBSE date sheet",
-  "admit card released",
-  "school leave today",
-  "lech poznań vs sunderland a.f.c. standings",
-  "today news",
-  "antimatter",
-  "e",
+  "income tax refund status",
+  "வானிலை",
+  "school holiday",
+  "ಹವಾಮಾನ",
   "காரைக்கால்",
   "weather bengaluru",
-  "micron share price",
-  "renuka singh",
-  "cboe volatility index"
+  "मोटोरोला",
+  "news today",
+  "flamengo vs estudiantes",
+  "live news",
+  "accuweather",
+  "మిల్లు"
  ],
  "candidates": [
-  {
-   "source": "calendar",
-   "keyword": "PM-KISAN installment aug-nov",
-   "category": "Government Schemes",
-   "official_sources": [
-    "https://pmkisan.gov.in/",
-    "https://pib.gov.in/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-23T10:03:10.040215+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "in-pm-kisan-aug-nov-2026",
-   "phase": "aug-nov",
-   "queries": [
-    "pm kisan 21st installment date",
-    "pm kisan beneficiary list"
-   ],
-   "window": "2026-08 ~ 2026-11 (보통)",
-   "days_to_start": -83,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Income tax return (ITR) filing refund",
-   "category": "Taxes",
-   "official_sources": [
-    "https://www.incometax.gov.in/iec/foportal/",
-    "https://www.incometaxindia.gov.in/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-23T10:03:10.040254+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "in-itr-refund-2026",
-   "phase": "refund",
-   "queries": [
-    "income tax refund status",
-    "itr refund delay"
-   ],
-   "window": "2026-08 ~ 2026-11 (보통)",
-   "days_to_start": -83,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Dearness allowance (DA) hike for central employees jul",
-   "category": "Government Schemes",
-   "official_sources": [
-    "https://pib.gov.in/",
-    "https://doe.gov.in/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-23T10:03:10.040312+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "in-da-hike-jul-2026",
-   "phase": "jul",
-   "queries": [
-    "da hike july",
-    "da hike latest news"
-   ],
-   "window": "2026-09 ~ 2026-11 (보통)",
-   "days_to_start": -52,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "CBSE board exams datesheet",
-   "category": "Exams",
-   "official_sources": [
-    "https://www.cbse.gov.in/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-23T10:03:10.040333+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "in-cbse-board-datesheet-2026",
-   "phase": "datesheet",
-   "queries": [
-    "cbse date sheet class 10",
-    "cbse date sheet class 12",
-    "cbse board exam date"
-   ],
-   "window": "2026-10 ~ 2027-01 (보통)",
-   "days_to_start": -22,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "JEE Main session1",
-   "category": "Exams",
-   "official_sources": [
-    "https://jeemain.nta.nic.in/",
-    "https://nta.ac.in/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-23T10:03:10.040355+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "in-jee-main-session1-2026",
-   "phase": "session1",
-   "queries": [
-    "jee main registration",
-    "jee main exam date",
-    "jee main admit card"
-   ],
-   "window": "2026-10 ~ 2027-01 (보통)",
-   "days_to_start": -22,
-   "in_window": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "CBSE date sheet",
-   "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 3,
-   "published": "2026-10-23T10:01:46+09:00",
-   "category": "Exams",
-   "news": [
-    {
-     "title": "CBSE Date Sheet 2027 Live: Class 10, 12 exam dates soon on cbse.gov.in; private candidate form, LOC submission - Careers360",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdF9VN3dZSENUN2RERGRja2Nub0xxUk83N2pqOXA2Mm5lZjBsSWpXenNtdzJfSmIxMGd3bDJZOVpOOUotRjh3Vzl3dXE3Vy0ycWgtNnJOejA3R0R6NnNJci1MRXlZckhxdFRpSy1RdHkwUnA3cHNKdmhnZjhKWGlOdDVYRGF4NVhlM2w2ODM4amNkUFltZzNrREdwcWxkV0w2cVRmWVZyd1VURFN4Uy1iNnM2ejVmX0ozRkdNSklMYU0tcnJrUFZyQ3hJT0ppQl9laWlfOVVta0tVakZHWXBMNzlGYkfSAeoBQVVfeXFMTjd6UTVmQXI3bHBNYzVyMXNrcUN6YjczTzNMMnU0TEljWV9iWGRSTEhIRExkZ0h4SEM3elJpd0ZYbmJUUldvM1RORkVwc2M4cmFaUUJ1Y0l1eVZob1BaVmJKdldkTi0tNG5HZFRLLVR1ZkVHRFVDc083V3pYcjBHR2pDaDdJR2xtUzJMUkJyMWREYklYN2g2Vk40MXNNZTdaUWxraHNtTTNnY3ZfUmdfSzVYbGExSFpCN1IzaTRsOUZpREo0T3FrNGg5R2tyNVp4SVI3M0Z0VU9mLXhiRlBWU3hzT0oyUUFnUHhB?oc=5",
-     "source": "Careers360"
-    },
-    {
-     "title": "CBSE Date Sheet 2027: Check Class 10th, 12th last years’ exam schedule - The Indian Express",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGIyb3lLSWozeXMweWlYMjFTZThmSlE1S0JxcXFMSDh2VHBiVjA2TDFCSU4zMjRBNFB2eGRDRXZRUFd1Ry1YeWE5UXE1LU1IbVVuemNZN0xINGlOWkxybkhlVUF2ZTVTVVB6TVpxc2l2X1J4QjFQUVB4OHlvY3BQMFJONFdnOFB0bnROWFJ0bnlyNWNJbnkzZmJHSTUtT3BVWE43TGxHdno4RHI0WFFUbHA1UXVJN3NXTmxlQtIBwwFBVV95cUxON2dwYUkyR2twQ3Fmck9KaUFNWlVNX2hsV2haMFlfRGtQQmlrckpaTTlIc3dmQU5uN3Qza2xGUnhUOGJxeEZPd2Zmenl1c3gxNm85VFlMc3IxRThVdjVCd3k3a255U3FPbFZXOHZObl9KOVliWEtvV28wX1V5OGNwNVNlQW5Hdy1GY1pUeXdYM0lCcVhMUVlDZmVRRE8xdUF6bzdZRVZjQ2d1OW1zSUU3dUM0MXlvdVBOSVJCVS03V202eEU?oc=5",
-     "source": "The Indian Express"
-    },
-    {
-     "title": "CBSE 10th, 12th Date Sheet 2027 Release Information - The CSR Journal",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc3B1ckx1WkM2UDVyeXB4ZDhTMzBxY1pvb3BhTUpWSXoydDYxQnVkMzdJU3hRSTdCc2N2WEswRDRTYkZOU2lUTW44Y0xUNFRBNTdLZ2NBRHBWUlpUZ3BpNmhSUjNkOTdzaFVNd29KUmYtV0NzWDRNSExlbHV0TUJPOQ?oc=5",
-     "source": "The CSR Journal"
-    },
-    {
-     "title": "CBSE Class 10 Date Sheet 2027 To be Released Soon, Check Dates - PW",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNUGpxZkEtOWFsTVJqLUVYQ3RvQURHazJRQ20tZjB3OWktRkcxVkpKSUVJRDlGRk9aN3ExSXpJSV9LS2VIenR5bVM3Q19aNjVSaXdhNHdvcmdxeHAxcExhb0ZQcTduZzJ2MXRHOHZYQWRJbG5ZM1E?oc=5",
-     "source": "PW"
-    },
-    {
-     "title": "CBSE Date Sheet 2027 Class 10: LOC window closes, latest updates students and parents should know - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPVGI0ZUlJbjBDYmNLUnNiZWNGQ1ZVZWF4ZUtPZFJweU5rd1FiQjBTdVlvSE1Kb1NVRTREeGlCbjZacThzY0pQdkczRFpGaWtHNFY1aUVuRDZON2t4S3RjUTdoeV9LYnh2aUE3VEM4RENsTHFaZkJXTEw2XzZJY3NvWWJ5S0tGMWZjdlBvWk9nSTJ3UmJsQngxVEtpNEdfYTh6NUdxNFFOOGFBeWEzZEFDMFc4dDE4d2pPc19Jbk8za09naFAwWXR3dy1SblRRNU5sakZRQ0toY3JiSGNRUTBNSUd4c3VMeTZvd2N6MGo2WjdHbGN4MjhWUEpn0gH_AUFVX3lxTE1nUEJqU0RtSTI2YjJxUnlXMjZaMTI5VmMtNTFhWjUtWVBoZ0pqbXQyZFFSV3dWWUIwbDFVZXNFZmVzV1JKQ1N6bURlZnJoc2Vrc0F3d2NieDEwekM4VjBOQ3lDZlFxYXA5YkJMd3pGdWtlNFZqbVk5N2ZINHg1V1FQdFh4YXU1QzZVUF9sX2dtdldNOVVfSnRReUxxcVlVdlNOSGlwOGRsbGYya3FHUkVRTGNXeDFEcmdVeDF5VkdLVFdmWTlaUFRjY29JdzgtbnozM2oyTXlzeV84dEJSX0JSQ0VUSVkyWWkyMFVBU0k4TnFKMEprMjFjY21pcmg4UQ?oc=5",
-     "source": "The Economic Times"
-    }
-   ],
-   "official": false,
-   "spike": "최근 1시간 기사 0.0→3건 (4.0배)",
-   "spike_bonus": 40,
-   "score": 49.2,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://news.careers360.com/cbse-date-sheet-2027-live-news-class-10th-12th-board-exam-tentative-schedule-timetable-subject-wise-pdf-link-today-updates",
-     "title": "CBSE Date Sheet 2027 Live: Class 10, 12 exam dates soon on cbse.gov.in; private candidate form, LOC submission - Careers360",
-     "outlet": "Careers360"
-    },
-    {
-     "url": "https://thecsrjournal.in/cbse-10th-12th-date-sheet-2027-release-information",
-     "title": "CBSE 10th, 12th Date Sheet 2027 Release Information - The CSR Journal",
-     "outlet": "The CSR Journal"
-    },
-    {
-     "url": "https://www.pw.live/school-prep/exams/cbse-class-10-date-sheet-2027",
-     "title": "CBSE Class 10 Date Sheet 2027 To be Released Soon, Check Dates - PW",
-     "outlet": "PW"
-    },
-    {
-     "url": "https://economictimes.indiatimes.com/news/new-updates/cbse-date-sheet-2027-class-10-loc-window-closes-latest-updates-students-and-parents-should-know/articleshow/135105604.cms?from=mdr",
-     "title": "CBSE Date Sheet 2027 Class 10: LOC window closes, latest updates students and parents should know - The Economic Times",
-     "outlet": "The Economic Times"
-    }
-   ]
-  },
   {
    "source": "google_news",
    "keyword": "income tax refund status",
    "traffic": 0,
-   "article_count_24h": 56,
-   "article_count_1h": 0,
+   "article_count_24h": 53,
+   "article_count_1h": 3,
    "published": "2026-10-23T06:45:00+09:00",
    "category": "Taxes",
    "news": [
@@ -237,7 +58,9 @@
     }
    ],
    "official": false,
-   "score": 45.0,
+   "spike": "최근 1시간 기사 0.0→3건 (4.0배)",
+   "spike_bonus": 40,
+   "score": 123.0,
    "already_covered": false,
    "evidence": [
     {
@@ -254,6 +77,287 @@
      "url": "https://www.currentfederaltaxdevelopments.com/blog/2026/10/22/the-ira-compliance-resolution-system-a-technical-analysis-of-revenue-procedure-2026-33-and-the-new-voluntary-correction-framework-for-iras",
      "title": "The IRA Compliance Resolution System: A Technical Analysis of Revenue Procedure 2026-33 and the New Voluntary Correction Framework for IRAs - Current Federal Tax Developments",
      "outlet": "Current Federal Tax Developments"
+    }
+   ]
+  },
+  {
+   "source": "calendar",
+   "keyword": "PM-KISAN installment aug-nov",
+   "category": "Government Schemes",
+   "official_sources": [
+    "https://pmkisan.gov.in/",
+    "https://pib.gov.in/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-23T10:41:25.149532+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-pm-kisan-aug-nov-2026",
+   "phase": "aug-nov",
+   "queries": [
+    "pm kisan 21st installment date",
+    "pm kisan beneficiary list"
+   ],
+   "window": "2026-08 ~ 2026-11 (보통)",
+   "days_to_start": -83,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Income tax return (ITR) filing refund",
+   "category": "Taxes",
+   "official_sources": [
+    "https://www.incometax.gov.in/iec/foportal/",
+    "https://www.incometaxindia.gov.in/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-23T10:41:25.149584+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-itr-refund-2026",
+   "phase": "refund",
+   "queries": [
+    "income tax refund status",
+    "itr refund delay"
+   ],
+   "window": "2026-08 ~ 2026-11 (보통)",
+   "days_to_start": -83,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Dearness allowance (DA) hike for central employees jul",
+   "category": "Government Schemes",
+   "official_sources": [
+    "https://pib.gov.in/",
+    "https://doe.gov.in/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-23T10:41:25.149672+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-da-hike-jul-2026",
+   "phase": "jul",
+   "queries": [
+    "da hike july",
+    "da hike latest news"
+   ],
+   "window": "2026-09 ~ 2026-11 (보통)",
+   "days_to_start": -52,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "CBSE board exams datesheet",
+   "category": "Exams",
+   "official_sources": [
+    "https://www.cbse.gov.in/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-23T10:41:25.149702+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-cbse-board-datesheet-2026",
+   "phase": "datesheet",
+   "queries": [
+    "cbse date sheet class 10",
+    "cbse date sheet class 12",
+    "cbse board exam date"
+   ],
+   "window": "2026-10 ~ 2027-01 (보통)",
+   "days_to_start": -22,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "JEE Main session1",
+   "category": "Exams",
+   "official_sources": [
+    "https://jeemain.nta.nic.in/",
+    "https://nta.ac.in/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-23T10:41:25.149734+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-jee-main-session1-2026",
+   "phase": "session1",
+   "queries": [
+    "jee main registration",
+    "jee main exam date",
+    "jee main admit card"
+   ],
+   "window": "2026-10 ~ 2027-01 (보통)",
+   "days_to_start": -22,
+   "in_window": true
+  },
+  {
+   "source": "google_trends",
+   "keyword": "வானிலை",
+   "traffic": 20000,
+   "published": "2026-10-23T10:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "காணொளி: தமிழ்நாட்டில் 22ஆம் தேதி எந்தெந்த மாவட்டங்களுக்கு கனமழை?",
+     "url": "https://www.bbc.com/tamil/articles/cqdr8zx5z32no",
+     "source": "BBC"
+    },
+    {
+     "title": "Breaking | Storm | TN Rains | புதிய புயலின் பெயர் இதுதான் | நாளையே வருகிறதா?",
+     "url": "https://www.thanthitv.com/news/breaking/breaking-storm-tn-rains-here-is-the-name-of-the-new-storm-is-it-arriving-as-early-as-tomorrow",
+     "source": "Thanthi TV"
+    },
+    {
+     "title": "வானிலை: இரவு 7 மணி வரை சென்னை, 17 மாவட்டங்களில் மழைக்கு வாய்ப்பு! (அக். 22)",
+     "url": "https://www.dinamani.com/tamilnadu/2026/Oct/22/chance-of-rain-in-18-districts-including-chennai-for-the-next-3-hour",
+     "source": "DinaMani"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 69.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/tamil/articles/cqdr8zx5z32no",
+     "title": "காணொளி: தமிழ்நாட்டில் 22ஆம் தேதி எந்தெந்த மாவட்டங்களுக்கு கனமழை?",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://www.thanthitv.com/news/breaking/breaking-storm-tn-rains-here-is-the-name-of-the-new-storm-is-it-arriving-as-early-as-tomorrow",
+     "title": "Breaking | Storm | TN Rains | புதிய புயலின் பெயர் இதுதான் | நாளையே வருகிறதா?",
+     "outlet": "Thanthi TV"
+    },
+    {
+     "url": "https://www.dinamani.com/tamilnadu/2026/Oct/22/chance-of-rain-in-18-districts-including-chennai-for-the-next-3-hour",
+     "title": "வானிலை: இரவு 7 மணி வரை சென்னை, 17 மாவட்டங்களில் மழைக்கு வாய்ப்பு! (அக். 22)",
+     "outlet": "DinaMani"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "school holiday",
+   "traffic": 0,
+   "article_count_24h": 63,
+   "article_count_1h": 12,
+   "published": "2026-10-22T21:17:38+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "School holiday today, October 23, 2026: Check state-wise updates for Maharashtra, Tamil Nadu, UP, Delhi an - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPWUtPczhCRUJJdU4yZ05aYm9VcDFhcVB4enBEVU5PeWwxME5nZ0p2U21sMUo3X283c2NFam5YMkJadXl2SllZWlhKam1qcmdMTGZpUWNRYU5DUzloenRQSnpxMTZTUTVJNXNUR1lvNnA0dzVfaHFYTnRCV1pJQmFOOUNtZ2F5djlwQnY3NWMyQl81V2ZmVFQ3Mld3c3dORXg5QlZudkJZU1ZRMkVIMF94Q2VueTlLam9RSXNDcm02NEtkTTZMTklBNTJNT1c5aUxsa25OeHlCTFhZcUpyZmlhc1l1MkpreHFyc0R6bDVoZktfZ1c1YUV6NUIwSGViYkVWRkJVa3ctSzdjMlAybTY1NG9hSDdpUXVWa04zQmZMSdIBpAJBVV95cUxNSTdmUElKY0Zac2lUNUJCdlFyRVBQRlg4ejM2Y1laQkxzekxmTU5DOUtnTk8weW1MYTBfZkxNM183Xy1wTWwwemRnZ1ljMEY4R2ZlYW5CNnJLd0gtZG1SNEhRWkN6R1FNMGlXWjYyUGJyX2hhS21FLUNwOVFfMUVvbkpjSWItMGlTMGFSdTlWazZXamFLYVFFZGp4OVJsZl9DeHE0d2tvVk1HZmVCblhVZE5FVmZZUWNqYzM0dzlWT2Z6aFlEN2hYTXFhLWxId2U3ZWI4YTVpU1pVOGdDZGdhZWlOM3UwRDZXRk1RSnFnR3hWT28zUk5qVHczdjgyVUNibm5MNXZJclZSZmFnOHduMzd5cHdzaC1OdkphNHpXX2J1aEJU?oc=5",
+     "source": "The Economic Times"
+    },
+    {
+     "title": "School Holiday Tomorrow, october 23, 2026? Check state-wise holiday updates - Education Times",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLXBZU3hHUVplSmJTbGNxTnE4eEVldUNkS1VuU1h0dE5ZX0VLYXpKZUpJWVhDVzJCWVRxU2ZIdzNKcGNWWjVvTmxjdzBaZ0VXSlpPQldub1l3OHRsRHdIc0FzelhCSXVxeXVaSllQUjVwSFJJRzBNTTFURTVFZld4SnZkMHppbXFwSEttZVQ3TlcxTHNEelVsMFAydzRyZWxET1U4bXozbHU2M3h2UmVaS0hnbWd4T2Y5ZU11a3UxT01jYUM1UnNpQzNGeFVWTDA?oc=5",
+     "source": "Education Times"
+    },
+    {
+     "title": "#RainHoliday Holiday Declared for Schools on 22.10.2026 #1ShotNews | #Rain | #TNRains | #NEM2026 | #NortheastMonsoon | #Tamilnadu | #TamilnaduNews - Instagram",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8telk0OHk2TXZ3T21MaU5ubEx2QlByOHFqLXNKTERQVC15Z05TSi12ZVdFd3BCYVJQa3phZ21Ec0VRblllX0ROWVJ4VGEycEszZHc?oc=5",
+     "source": "Instagram"
+    },
+    {
+     "title": "Tamil Nadu School Holiday: Schools To Remain Closed Today In This District Amid Heavy Rainfall - NDTV Profit",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeDVkVUk2eklrNkpJWGR3NE1DY2pMMEZYNTVzNVVUeTlpUmFhdXpkY3hCSUVlV0NoTkwtQ0w0REthTlJSNm9CUFRJRXdPZHhZeDF1YjRRREItLWhydklNS25BaENPaFp3dEVWbnp0SzY3WHJjUnpUdDBRSXEwWFNDQ08xdHZ1eDBIQ1FYQXlEZmpzU1RKTXdaQW5idnh4U3BDTE1OdGFpVWV2OFF3OGNBc1BHOUxBZUQ3ZGUyTWdyUklKc054UmtvWXdlWjZTYzlU0gHYAUFVX3lxTFAwOERFZlllenE4TDhnSXZWTHRrLV9yeUJlMktPN0hpcWtqSHk2Z0MxbC05ZkVYTmZxLUJ0QXJCZG1nOWtMeHlQMkdHU1NwbkxILUhxMGVrREszVXV0REtMSGFpZ2JuS3R4TEFiWDZpTTNJYlRMUXdVOFd0c3BxbE1HeTZNN2kyal9EdVZHX3VNdzd0NWktQU1Ld1dLamV6MVBwWDFxWnJpQjhxc0hkS01oWjVzUjhfVU5nN3hXNlZwMHdTN3RFMjc1QWRxREt1Z3NxRkFQOGJTdg?oc=5",
+     "source": "NDTV Profit"
+    },
+    {
+     "title": "Tamil Nadu school holiday today: Schools closed in several districts amid heavy rainfall; check details h - The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNWXN6cGpPQ1JZNzJWUE5WNEVObVZveGZHZWhSTFNDMTdPdUVEZlV3NzY1VGpFSmZIT2JNbmFDbmZkZ21mRTlaN2JjZHQ2bDZic0pYdGVycXFoZFZ3bUZKbm5Ia18xcmw4cjdkcEFPUzU5Z2p0ZVprSW8wYk5wRFA2cF9YYU1hY2VzTDVsLVVXUVhsV0R3SEY4b0JXTDNHMTNpMUZDNmZfdWpjeXd4Z0JpcGFIUkd4OGhLUFEtbHFUMy1qYkxBbl9SWE9SdzU4X0ZkV3RwbTZYbk5kNXBwQmxSdm1xZTlGaWlaSDdSSmloYmJwc2JIaVpncFp0YlNBdmJFZmdRVzRlTXh5SnJVeGlGV9IBlgJBVV95cUxQZ1hVbXR5Wl9BanB6Ul9WWnhENWl5V1IzRk1OYWtPOWhGLTVYdEkwQnZOREhWT0J4dmpFYUYwSHg0dEdQNGRpdGszQm01WmRrZ2FhNXdOZ1NtWkotU3Jya3Z6X0ZhZ1NSOEJUZmtCakY0amVaVGZOd2tjLXU2UjEyOWd4U0tXWFNKc3N1cHFJbnFXLTlkRXI1NHlMeThTek41emZBYWo2RHNOMDdRSDVzdjV1QkIzZHBiVWo4UW8tTEs0TlBLVzNqb3N1Z0hPeFZEb0RjelhLUHFab3haaXZ6WDU0SjZsYU9KV2hmM0dOY3YyYjVXOHJweWNoOFVCckZYYXluS25zcHRiamQzWVN2eC11MVhZUQ?oc=5",
+     "source": "The Times of India"
+    }
+   ],
+   "official": false,
+   "spike": "최근 1시간 기사 4.5→12건 (2.4배)",
+   "spike_bonus": 23.6,
+   "score": 56.7,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://economictimes.indiatimes.com/news/new-updates/school-holiday-tomorrow-today-october-23-2026-check-state-wise-updates-for-maharashtra-tamil-nadu-up-delhi-and-other-states/articleshow/135118340.cms?from=mdr",
+     "title": "School holiday today, October 23, 2026: Check state-wise updates for Maharashtra, Tamil Nadu, UP, Delhi an - The Economic Times",
+     "outlet": "The Economic Times"
+    },
+    {
+     "url": "https://www.educationtimes.com/news/school-holiday-tomorrow-october-23-2026-check-state-wise-holiday-updates/articleshow/135117715.cms",
+     "title": "School Holiday Tomorrow, october 23, 2026? Check state-wise holiday updates - Education Times",
+     "outlet": "Education Times"
+    },
+    {
+     "url": "https://timesofindia.indiatimes.com/education/news/tamil-nadu-school-holiday-today-schools-closed-in-several-districts-amid-heavy-rainfall-check-details-here/articleshow/135105471.cms",
+     "title": "Tamil Nadu school holiday today: Schools closed in several districts amid heavy rainfall; check details h - The Times of India",
+     "outlet": "The Times of India"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "petrol diesel price",
+   "traffic": 0,
+   "article_count_24h": 83,
+   "article_count_1h": 9,
+   "published": "2026-10-22T19:08:01+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Petrol, Diesel Now Cheaper In India Than Dubai? What Numbers Show - NDTV",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS21LaHVYX3RnOXBSOXE4YjRzMjhEbjktRm5CMlB1amdEa2xOM2ZpVGhmUWVCSFZpdzYtQnNWaHVYYURPS3M4aTJxVVBSY2h4SjA4cjBFaE1RNzhFalFMcjAwMWZ2UlNVN1M0WHBsRXFWQUtNYXBvSmlSRUt2TkVpUHpnVnpwdTQ4U25VMzlKNk5TYTU5Y3Fxa0FmSDhlOXFTNEJVc2czb9IBrwFBVV95cUxPc3RCYy1OYjZ6VlhXZ3A1SmUtcU15RGFMTFRsRGtfQ2ZseTFnT1BncktJOThjOE9iTUlZTWN4ajVWNWxxYnZCM3g1N0JtUXc1QzRDdDF5WEp4SUdnQVZqVlA4VkJZWWRMUnF0cTRucS11R2FYUnZSUHI1Vnp3UHV5YWVLeHJqdlVlNjBob2RYQU9GYmg4cEN1UXRSY1Jva2VkdnZoNGFHc2x5cVJlSi1F?oc=5",
+     "source": "NDTV"
+    },
+    {
+     "title": "Petrol, diesel cheaper in India than Dubai? Check city-wise prices and why the gap exists | Explained - Moneycontrol.com",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNjJoUUQ1ZU9wbUdudjFzREM5aVduYVY1NGI1Nmw4WlcwUTJyNzRRSVBkVGFheERyU3R5TEZUenBIMmg2U3p3bDh0WmYxeW5TQ3dneTRacEY3d0Zqcnp0S2lITlZiMWJYb2RyVXBpZHlSN0JmVV9wNi1KaTlISThVSWM3b2NZVnRNLWxHdkYxenNHd2hKc21veFZLRm4zYmprZDB2a2xCNTFSZTM1ZjFsTV9nczlNZC00ekJ4bFpvcEVZQ1lqSHM0MkM0V3hOUm9PREtreGpXenBranRlczdMQUVpRXd1SUs4eVBnSVJUMNIB7wFBVV95cUxQNjJoUUQ1ZU9wbUdudjFzREM5aVduYVY1NGI1Nmw4WlcwUTJyNzRRSVBkVGFheERyU3R5TEZUenBIMmg2U3p3bDh0WmYxeW5TQ3dneTRacEY3d0Zqcnp0S2lITlZiMWJYb2RyVXBpZHlSN0JmVV9wNi1KaTlISThVSWM3b2NZVnRNLWxHdkYxenNHd2hKc21veFZLRm4zYmprZDB2a2xCNTFSZTM1ZjFsTV9nczlNZC00ekJ4bFpvcEVZQ1lqSHM0MkM0V3hOUm9PREtreGpXenBranRlczdMQUVpRXd1SUs4eVBnSVJUMA?oc=5",
+     "source": "Moneycontrol.com"
+    },
+    {
+     "title": "Mahindra XUV 7XO Prices Hiked by Up to ₹20,000 in October 2026 – Check Revised Variant-Wise Prices - Auto Punditz",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSWZ5QVRxbmRVaHgxSGd2bnNKcy0wME1UanZkUzNsOG02U1VVN1Rzd1VCYUUyM0Y1akhzQ3lXWmFRYTF2amlMZzQxbkV2SERzRi14TEs0U3FnbHI5T3BncURhQW9YQnk0dmxEN2NoMkdsVl9BMXA1Ul85RzlHZjNja2dNVlAteXFKUkNFWU01aDk5dEU0SENMTw?oc=5",
+     "source": "Auto Punditz"
+    },
+    {
+     "title": "The diesel squeeze: Rising fuel costs put the global potato supply chain under pressure - Potato News Today",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGUtVW5IRnFmV1R6SkgwMk5RcFhLQ245c0NiaDlQSjFQQVNZTzRhVmtWeW1NS1BaeWhQWllqSWhTVnljRzlmcnN2OE9zR24tekN1Z1pTQjRBdEVhMnI3TDFYYm83cjhHbFJNSVBUVm1WbzV6MVVJTkRyWDJESm41emo4RVlrM3dPTW02dFZDMG9OdF9pRnBIQkVzSm1NMExVblZ6OHQ5c3BNQzhMWlBuRHlwVkJBLXpDa2NKZzh5aThicW1yVGlUX0hn?oc=5",
+     "source": "Potato News Today"
+    },
+    {
+     "title": "Govt raises diesel price by Rs1.64, cuts petrol by Rs1.60 per litre - Business Recorder",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0YWt2VkJvQ28yU2tLN2hxY2QwdGtuTUZlUGZkTXdBcW9VTmxxOXRuZ2ZoVnVoSlJac1hhSFM4U1hLeW5taVRCb213YmZnOTVu0gFWQVVfeXFMUEVFYmxkeEVGdFNOMVptUUhYSTlvSlJEYk9KU0x3d0xKeHZ1NXYxZG1rNk9wSG5vNmFqc3dSSE9PTVpENW9fQ2RNb09BcFozcmlnUHFjU3c?oc=5",
+     "source": "Business Recorder"
+    }
+   ],
+   "official": false,
+   "score": 52.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.moneycontrol.com/world/petrol-diesel-cheaper-in-india-than-dubai-check-city-wise-prices-and-why-the-gap-exists-explained-article-14057757.html/amp",
+     "title": "Petrol, diesel cheaper in India than Dubai? Check city-wise prices and why the gap exists | Explained - Moneycontrol.com",
+     "outlet": "Moneycontrol.com"
+    },
+    {
+     "url": "https://www.autopunditz.com/post/mahindra-xuv-7xo-price-hike-october-2026-variant-wise-prices",
+     "title": "Mahindra XUV 7XO Prices Hiked by Up to ₹20,000 in October 2026 – Check Revised Variant-Wise Prices - Auto Punditz",
+     "outlet": "Auto Punditz"
+    },
+    {
+     "url": "https://www.potatonewstoday.com/2026/10/22/the-diesel-squeeze-rising-fuel-costs-put-the-global-potato-supply-chain-under-pressure/",
+     "title": "The diesel squeeze: Rising fuel costs put the global potato supply chain under pressure - Potato News Today",
+     "outlet": "Potato News Today"
+    },
+    {
+     "url": "https://www.brecorder.com/news/40445476",
+     "title": "Govt raises diesel price by Rs1.64, cuts petrol by Rs1.60 per litre - Business Recorder",
+     "outlet": "Business Recorder"
     }
    ]
   },
@@ -320,154 +424,6 @@
   },
   {
    "source": "google_news",
-   "keyword": "school holiday",
-   "traffic": 0,
-   "article_count_24h": 64,
-   "article_count_1h": 6,
-   "published": "2026-10-22T21:17:38+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "School holiday today, October 23, 2026: Check state-wise updates for Maharashtra, Tamil Nadu, UP, Delhi an - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPWUtPczhCRUJJdU4yZ05aYm9VcDFhcVB4enBEVU5PeWwxME5nZ0p2U21sMUo3X283c2NFam5YMkJadXl2SllZWlhKam1qcmdMTGZpUWNRYU5DUzloenRQSnpxMTZTUTVJNXNUR1lvNnA0dzVfaHFYTnRCV1pJQmFOOUNtZ2F5djlwQnY3NWMyQl81V2ZmVFQ3Mld3c3dORXg5QlZudkJZU1ZRMkVIMF94Q2VueTlLam9RSXNDcm02NEtkTTZMTklBNTJNT1c5aUxsa25OeHlCTFhZcUpyZmlhc1l1MkpreHFyc0R6bDVoZktfZ1c1YUV6NUIwSGViYkVWRkJVa3ctSzdjMlAybTY1NG9hSDdpUXVWa04zQmZMSdIBpAJBVV95cUxNSTdmUElKY0Zac2lUNUJCdlFyRVBQRlg4ejM2Y1laQkxzekxmTU5DOUtnTk8weW1MYTBfZkxNM183Xy1wTWwwemRnZ1ljMEY4R2ZlYW5CNnJLd0gtZG1SNEhRWkN6R1FNMGlXWjYyUGJyX2hhS21FLUNwOVFfMUVvbkpjSWItMGlTMGFSdTlWazZXamFLYVFFZGp4OVJsZl9DeHE0d2tvVk1HZmVCblhVZE5FVmZZUWNqYzM0dzlWT2Z6aFlEN2hYTXFhLWxId2U3ZWI4YTVpU1pVOGdDZGdhZWlOM3UwRDZXRk1RSnFnR3hWT28zUk5qVHczdjgyVUNibm5MNXZJclZSZmFnOHduMzd5cHdzaC1OdkphNHpXX2J1aEJU?oc=5",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "School Holiday Tomorrow, october 23, 2026? Check state-wise holiday updates - Education Times",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLXBZU3hHUVplSmJTbGNxTnE4eEVldUNkS1VuU1h0dE5ZX0VLYXpKZUpJWVhDVzJCWVRxU2ZIdzNKcGNWWjVvTmxjdzBaZ0VXSlpPQldub1l3OHRsRHdIc0FzelhCSXVxeXVaSllQUjVwSFJJRzBNTTFURTVFZld4SnZkMHppbXFwSEttZVQ3TlcxTHNEelVsMFAydzRyZWxET1U4bXozbHU2M3h2UmVaS0hnbWd4T2Y5ZU11a3UxT01jYUM1UnNpQzNGeFVWTDA?oc=5",
-     "source": "Education Times"
-    },
-    {
-     "title": "#RainHoliday Holiday Declared for Schools on 22.10.2026 #1ShotNews | #Rain | #TNRains | #NEM2026 | #NortheastMonsoon | #Tamilnadu | #TamilnaduNews - Instagram",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8telk0OHk2TXZ3T21MaU5ubEx2QlByOHFqLXNKTERQVC15Z05TSi12ZVdFd3BCYVJQa3phZ21Ec0VRblllX0ROWVJ4VGEycEszZHc?oc=5",
-     "source": "Instagram"
-    },
-    {
-     "title": "Tamil Nadu school holiday today: Schools closed in several districts amid heavy rainfall; check details h - The Times of India",
-     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNWXN6cGpPQ1JZNzJWUE5WNEVObVZveGZHZWhSTFNDMTdPdUVEZlV3NzY1VGpFSmZIT2JNbmFDbmZkZ21mRTlaN2JjZHQ2bDZic0pYdGVycXFoZFZ3bUZKbm5Ia18xcmw4cjdkcEFPUzU5Z2p0ZVprSW8wYk5wRFA2cF9YYU1hY2VzTDVsLVVXUVhsV0R3SEY4b0JXTDNHMTNpMUZDNmZfdWpjeXd4Z0JpcGFIUkd4OGhLUFEtbHFUMy1qYkxBbl9SWE9SdzU4X0ZkV3RwbTZYbk5kNXBwQmxSdm1xZTlGaWlaSDdSSmloYmJwc2JIaVpncFp0YlNBdmJFZmdRVzRlTXh5SnJVeGlGV9IBlgJBVV95cUxQZ1hVbXR5Wl9BanB6Ul9WWnhENWl5V1IzRk1OYWtPOWhGLTVYdEkwQnZOREhWT0J4dmpFYUYwSHg0dEdQNGRpdGszQm01WmRrZ2FhNXdOZ1NtWkotU3Jya3Z6X0ZhZ1NSOEJUZmtCakY0amVaVGZOd2tjLXU2UjEyOWd4U0tXWFNKc3N1cHFJbnFXLTlkRXI1NHlMeThTek41emZBYWo2RHNOMDdRSDVzdjV1QkIzZHBiVWo4UW8tTEs0TlBLVzNqb3N1Z0hPeFZEb0RjelhLUHFab3haaXZ6WDU0SjZsYU9KV2hmM0dOY3YyYjVXOHJweWNoOFVCckZYYXluS25zcHRiamQzWVN2eC11MVhZUQ?oc=5",
-     "source": "The Times of India"
-    },
-    {
-     "title": "Ghaziabad Noida School Holiday on October 23 for MLC Polls - Urban Acres",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTHhaLXFBM21WeWpsbGFzSjF6T05PNzFBNXFyVHZLa1FtbGlfSlRkeXR2WVJYQkFLR3dScHN5YklRNl9VYzhsZ3dlRm1MNk9WUWtTRDBjWThCWGw3RWgzRkJpLTlZbFZVbDhkMFNXTmt0Yi1mU2c3ZjhZdEhjd29NenJWb3QyY3FS?oc=5",
-     "source": "Urban Acres"
-    }
-   ],
-   "official": false,
-   "score": 38.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://economictimes.indiatimes.com/news/new-updates/school-holiday-tomorrow-today-october-23-2026-check-state-wise-updates-for-maharashtra-tamil-nadu-up-delhi-and-other-states/articleshow/135118340.cms?from=mdr",
-     "title": "School holiday today, October 23, 2026: Check state-wise updates for Maharashtra, Tamil Nadu, UP, Delhi an - The Economic Times",
-     "outlet": "The Economic Times"
-    },
-    {
-     "url": "https://www.educationtimes.com/news/school-holiday-tomorrow-october-23-2026-check-state-wise-holiday-updates/articleshow/135117715.cms",
-     "title": "School Holiday Tomorrow, october 23, 2026? Check state-wise holiday updates - Education Times",
-     "outlet": "Education Times"
-    },
-    {
-     "url": "https://timesofindia.indiatimes.com/education/news/tamil-nadu-school-holiday-today-schools-closed-in-several-districts-amid-heavy-rainfall-check-details-here/articleshow/135105471.cms",
-     "title": "Tamil Nadu school holiday today: Schools closed in several districts amid heavy rainfall; check details h - The Times of India",
-     "outlet": "The Times of India"
-    },
-    {
-     "url": "https://urbanacres.in/ghaziabad-noida-schools-shut-on-october-23-for-mlc-polling/",
-     "title": "Ghaziabad Noida School Holiday on October 23 for MLC Polls - Urban Acres",
-     "outlet": "Urban Acres"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "admit card released",
-   "traffic": 0,
-   "article_count_24h": 58,
-   "article_count_1h": 3,
-   "published": "2026-10-22T20:00:00+09:00",
-   "category": "Exams",
-   "news": [
-    {
-     "title": "PSSSB Group D admit card 2026 released for 2,098 posts; written exam on October 25: Check direct link to - The Times of India",
-     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPZG03aklqMnNvSFZjY3ptWnU3eEdFSE9UME1URnduZVltT2xmcWN4akszSTBwTDZWOUpXbC1va3ZpX2xuR0xidkFMQk9MX1pEQk0zOFhiSzQzWndTNnJreVhHTHNxcVQ2Zmp6MFhoOE0zUllaWF91NXU3QU1qYm9ydDZBdUE2RkVjQ2g1Z3FtUjhJNzVPdDZlZEVsdEhoZHdPc2VxTWRqbkNvM0U5U1lkMmhlVzItcUpialFjZm1RTU0ySF9qZWtCVzl1OTV4VW9DZ01JVkk4TjBTS3c1cW9oT0pMV0dLLUFGRDFfWVBobmpnSmZFcDl4N3NnT1RJZ0RiZHczZXgxbU5NdW9iWll2bnlZbW5ocFViNTJYNk92SlhCMF9EMHFZc2VxVVU2UdIBswJBVV95cUxOVXR0eU95anVwbV9MRXBrTjZMeWZmUDk0ZGZxbXhraVV4dVczc056N3Axa0FBZkc0VGFUUVppUW82dnoxYURWb3dpR3I3eVl3QnFGaF9aYmJuV2ZhYVdrVUQ2ZUZwaFdUYnVPeC0tUEMtYVZDcFdJcE0yYXpWQTgySjVWUUM2bXBsQUkweVgzZVhfMkJrdk9XTXF5SkVNNGJBMUtQbFA1cjNWSkJ4Z2lpSlV1LXZJNHR2Nk16aHgyM1E4QXZZUnVvQUxTazZQZVY1S1I2c3pFbTV1Y3o1a3pjX3M3cmFlUThKTDZBUUNJaWhiS2Y2TTVFbld1Skp3Y0lKeC1uelRKdVBsaUphRWhPZkFueUpLZ2QzM0Jobk5oYmk3cERtMHlBUFRkZWswSGZsUTlR?oc=5",
-     "source": "The Times of India"
-    },
-    {
-     "title": "Bihar STET Admit Card 2026 Out, Download Direct @bsebstet.org - Adda247",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTTnRiODBwSlpLbTEyNVdSd092dk1EZkpjR1M3Uzl3dkVSS1NtYkxxNXQ1bmdPNV84SUZFcWlsQkNyVmwxRXAwTFlrYjZ4NGdiVFBMeW4teFc4MEU3UzVoOS1tSXVxWWxqSWl6ZzZjSFJOQzRCSm9RaQ?oc=5",
-     "source": "Adda247"
-    },
-    {
-     "title": "IBPS SO Mains Admit Card 2026 Released at ibps.in; Exam on November 1 - Telegraph India",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONW9SdUQ1OXBDSlVHZFl3SnQwY0pUTmlWUjJuSDNVS0I0VEdXeENvc21DXzk3Yk43cGRLMHhsV1pHenRMamxxelBhdkZPMGJ1dGxxUlpzNFRnekZRN0JKbnQxaDlxZWN6WnptYzlWYTRpUnNyLWQwcVJiT00wOW1wVDhXRDkwel9EZVVDc0ZhcDJJRlVmVU1MTUxlN3h1WUJ1ZElkOFFVOFVNaW5tM3ZTaUhmTFVFYjRSSjZCN0gzRG1Pc3fSAcgBQVVfeXFMTnFqYmVuRTRmUlVhd3ZTZUp4dHgyZUE5OFN6SlhQa0Q4ZE1TV05oU2RLS29iN2hqSThaZWs1UWpCalRmV251Y3M2ZmJFcmk2ZnZQTjVSLW9fcUt4dUlQcmNRdm95T2ZUalFzREotS2hoZWdMRV9tcWZzLUI4UGRiTnZId0dBeVNmQVZMckh2U3F4Rjg4cTVBMUNZSEN4Qlh3Z1JYZm0yUm1Qd0tQbzl0RjR5SFdURVZDWEpyclhDYjFNYkx5SU14a18?oc=5",
-     "source": "Telegraph India"
-    },
-    {
-     "title": "TNPSC Group 2 Hall Ticket 2026 Released: Download Admit Card - Sakshi Education",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTlM0Vkt0Ri02OFBCeU84SWNoRkFGLUUwSXZzRUs4QWdQSmFrMXV1V0FNN3JjRzBWaUpFa3JvNEM5NEl1MS1vQWJWaTk4djhoWk5tcWVTVHZ5NzZxT0hHdEVnOFFjZ2lSTGM4QW93SUU0R2I2SnBwNnZmd0FqWnRyZ1NZTW04a01Oa0tUSGpvWUIycDcwa1RuUjNnTFU5Q3BTR3lTUWNGVng1eGxpMHVWbER4Nzk5LUJRdjRNb3g1SHRJZw?oc=5",
-     "source": "Sakshi Education"
-    },
-    {
-     "title": "Bihar STET 2026: Exam Date Changed, Revised Admit Card On October 24 - NDTV",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR2d2OU9GSU1pX3c3YzNGYkVrRk14cWFXYlBQSkQxN2ViTlRRRkNRVXdnZzNnWDFYQ2lTQlRmcFJrTjVlYmZDcjhRbUFUb09HRW52aDNZX21kVEd5SktPYldVYXFZTkpkLU5YcWs4a3JFZ05LbFNiZElhczRFd0FRa2xSZlp2U1ZPZHdnNVprRHU0Rkd1RGJpYmdTS1BBcjk5R0piUFhubGhoQQ?oc=5",
-     "source": "NDTV"
-    }
-   ],
-   "official": false,
-   "spike": "최근 1시간 기사 0.0→3건 (4.0배)",
-   "spike_bonus": 40,
-   "score": 34.4,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://timesofindia.indiatimes.com/education/news/psssb-group-d-admit-card-2026-released-for-2098-posts-written-exam-on-october-25-check-direct-link-to-download-hall-tickets-here/articleshow/135116830.cms",
-     "title": "PSSSB Group D admit card 2026 released for 2,098 posts; written exam on October 25: Check direct link to - The Times of India",
-     "outlet": "The Times of India"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "ITR filing deadline",
-   "traffic": 0,
-   "article_count_24h": 10,
-   "article_count_1h": 0,
-   "published": "2026-10-22T16:20:40+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Tax audit deadline ends: What should taxpayers do now? - Moneycontrol.com",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbUJhdWJSdXZ3N09iZm1CN0xHWTBkb3dfLVdrVGh4cG9sRFl0bHNvWnRITE1uN0pRMXpBT2x2ZExzS2VGU01CSEZKaG4tOWZTSHhQY2EwSzRQRHQwWlhyQk44Z2l4THdjZHF6UGZPTzZQTExTZm0yUVlvRktOR2hOdWFXMDBoWGVTdzlEQVUyV2tSaXVndDNybTNBeENSZGR0azZOSnZDeGpRV3prVHNkcjlpOVZxSGhsWXltblRCRVNvdm5GMTlrSkFR0gHKAUFVX3lxTFBtQmF1YlJ1dnc3T2JmbUI3TEdZMGRvd18tV2tUaHhwb2xEWXRsc29adEhMTW43SlExekFPbHZkTHNLZUZTTUJIRkpobi05ZlNIeFBjYTBLNFBEdDBaWHJCTjhnaXhMd2NkcXpQZk9PNlBMTFNmbTJRWW9GS05HaE51YVcwMGhYZVN3OURBVTJXa1JpdWd0M3JtM0F4Q1JkZHRrNk5KdkN4alFXemtUc2RyOWk5VnFIaGxZeW1uVEJFU292bkYxOWtKQVE?oc=5",
-     "source": "Moneycontrol.com"
-    },
-    {
-     "title": "Tax audit deadline ends: What happens if you missed October 21 filing date - CNBC TV18",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONjBnTmxmUXVHMk5Dakd2Z0lGY0ZXZEM1YXVEWkFSSDEtTHRuanVZOTdvSkhpMHhXMWhGdWtmU0lRNmRQbGdKSFVwWExWSFltdjNZZnJvbElRbGFISjRqcDZfb2dSME1jWmszRlpmcnJQMS1GdnJWSEZTdUZGc0N0ZlNPN2JTZXdWOXY3WnF6eTFBUXBWNzNreUFKcmt5M0JIZE80b0JONjFNdWgySmowN05yc1RRUXdLTEVuLXA1eUtnTknSAcgBQVVfeXFMTUlXUmFvT0NEYVNNVEtVTUFkcTVqZ1NTMjZJVEhTYnI1Z1VUZ3FpWVRWZk5CVUdfNVd3RDJlR2FXYXRfZ1M2SmhUSG40V2phLXMwVEYxdlpJT1dNZE9pa3gxZjhJZVN2Vkc2N0tSWXlGZS1vT0ROSTNRVTdhRTVQV2p6dWVCM3hmUjN3Y2dFUTVSSmFTRy1RMjF4VTIyb1QycjRuMnc2aWxKTzBUM1RpYmIwVmVfazB1XzkxVk9SLVg2LWNxT25Fb1E?oc=5",
-     "source": "CNBC TV18"
-    },
-    {
-     "title": "NRI Tax: Singapore-based Indian pays ₹1.70 lakh by mistake, wins refund after ITAT upholds DTAA claim - Business Today",
-     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaDBGcHZzRjBhOWR4TVpxaDk4b0MzMnJCeTJFazVYS3NDNmRqaFhlU0wzdm5FaU5WTEVMcFNYNEJYeEV5Sy1GaGhST18xcm5zNERqT19wdEJaVWU5Z1BJSlZPS0NRZFRYNTRxb1BQd1ZuNE1jQkxtYjc3Y0E0RXBiNHF1c2cxZkUwTnYxV1k3Mmx3RUZyNHUySjA0OUx5R0NKUkF0N21VUXJlVUJ2THFsN0E3Q3pKTERaRWRzTzF1d1VNRm5iQ1pQbVpNbG9scmVJaGg3RnhtVU9IQlpHd1V3YkI5dzM1bzRRNGlaTVEtaFJQMXF2WEtjNF9FY0hlT1XSAYQCQVVfeXFMTjBLQ3c2WWdXMUhqUUVLY3lNd2xPQjllWk0ybGZfclhGRTNCcmliNTFRVUJJMTQ3eWZsSWJpV25jMVRaM09jLWxrNnhWbHp4OU1qUm1ndXlfc29fSmtpVXFBY1Y3azIycjBVb1QxclBadFVXR2cwUUxpWVN5UnVTUGI3cFo2VGZaaGVNRlF5ako4OHJnRUVaQnJNeDVpTUUxS0s5a2owdW1BYkc0UjQyUjU0bVRQY1JXV2h2cHI4V2ZadVFITUE3Z3QzZjhucDQta2E1ZnFfZUk5SEZ3Z25ESThPSUpOT1gydzZSNXhPNDNYSkpaNDlFOFV0OGZibXNndXlNTTg?oc=5",
-     "source": "Business Today"
-    },
-    {
-     "title": "AIMIM president Owaisi seeks Centre's help for Indian pilgrims stranded in Makkah, Madina to return home - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWmc3WXdLOWRmRWdoZ05BRHc2Tkhfak1GdkU0RWs3MHZnWUNtM3lxZmcyaEc0dllzYUZ2SjF0c0phRFNlVXpTbjVxenJBNV9oa1R6cGV1dDFlaUZLVnlWWjN3QUNXT1NiTlRrYUlsMUtHSUUwN3hTWEFIaHdxLTBNWjVBcTJ0Ri10VVcxVzNvNk9yb25fRmVqNDBBeDBONm83Vm5QZHJBV2FQOFhlcFpyaVJ0Qno0OW1qZ0Y1b182V3N6MTFGTmlhQV9TaUtRSnRHYWwzMGFFRk9WQVlwelN4ZkR2Rk9lT2hPOXdJMjlsMjRBbGJhZWF5UnFHSFRmdzhjNkNSd0hCRdIBgAJBVV95cUxNQkViZGFmZlVBaTVtSWRQQnoxRkJ1dFZhRVV4aFNzb0Q2SzYySUxJTUIyWEFRcGVuYU1mdnZwTXdkLVNvOEYwdzlHcEF6eFlTWWpvMEZOMVRmaFNPcl9MM3BNZlNVbEdiaEhHOU1iNm41cmtJZTVtclQ5eHh1ZFdqR3RpZlllbjZXMjFrd1hyWU5ueUdfTHpyTzZTU19Ba2RqemJyYUdWNkRSMDFEdDZRbDljYWU2NnRITnhJZ0c4OC1JaG9UU2gyM3lBeHN1Ujh2TEJ0QnRvUEUtRmJ5T21NSi1RVzJpV1dfNnFPQUtuY3o5bFpwREpOMWxIamMtVjNh?oc=5",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "Rs 4.29 crore commodity trading turnover, no books of accounts, Rs 3.42 lakh income declared in ITR; Inco - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNRDRqLUVrUWJwTG5wbUdxUFNVZEdNV0NKZzRsVzBWYzNSTGo3WVNCa1VRYlRGTk91YTFiX2kwaUI2d2pjVWZJY3l1ZkJQcTVmSEtER1NncGlYNGw3OGNJMVZKejNETzdweFVieVAtQUFDelNFMlFtc1VRSlByNFloZHBVaXNjelRrVzhReV80c0hVTkFsTWR2Mk9JcFJsRmw1X1d1Vmh5UlNrTk9tQlVCbE9EVkI2c0hWSUk5VXhjanRYdjhkcW9hdk9pMkFQWDYxN2FhZlV5TmlHSVhpcEpvMkdpaVFmeF9jMnNXUzBsX0hZUTllSzF2cnBucDExUThrallBbEVIakNmZ0U2ZE0yY2ZBU3MtN2hjR24xWmhIUVQ1Y21kX29jdklYTG4tNHpfbFBWNlJFYXdkSWl2VWY2YmN3OGpsY1Q3Q3dqTVN2cWxTbWduVHfSAdsCQVVfeXFMT3JiMFZqQWVtZlN2MTBySkFBSVpicHNQN3B3djE1Mk9ianFobDlublFVTVo2ajA1WTk0azhmMWUyM2xOTDRIOTdPNEVMbWVPRXdpNF9sMG53MHBsUDNXZlJmanpmUDhDZ29YeENNeUVtRFNVZ3ZCWl9SVG41LTczaGhyMkxITmdlOGd1WUozR1FsR1pFTElmN2lEUTgwMkNzSENFNm5zcWdnWXlIRkpGZUJzX0ZzbjRPMnNXQ19qeWVaRHEzc2xiRGl5UVVOU1pjTFlWbmNRX3R3STVjYlJ5MFM0QU9PR2p4Z2t6OVdvRzFrSFJwNzdhTTEwUTI2RjRFaC14ekVXRVVTNmsyY2RsMnlvZkVQVm1CSnZZZ2VaaVhfWjhITTNZV3o3bnVLdXRKQmlRMDM1ZF8xU2Z5UXpmTUhfS3FCTTM5UDRaOG96cUNqZklvT0RTSzFaMzA?oc=5",
-     "source": "The Economic Times"
-    }
-   ],
-   "official": false,
-   "score": 31.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "festival date",
    "traffic": 0,
    "article_count_24h": 47,
@@ -507,50 +463,169 @@
   },
   {
    "source": "google_news",
-   "keyword": "bank holiday",
+   "keyword": "ITR filing deadline",
    "traffic": 0,
-   "article_count_24h": 58,
-   "article_count_1h": 5,
-   "published": "2026-10-22T21:25:20+09:00",
-   "category": "Banking",
+   "article_count_24h": 9,
+   "article_count_1h": 0,
+   "published": "2026-10-22T16:20:40+09:00",
+   "category": "Taxes",
    "news": [
     {
-     "title": "Tamil Nadu government releases list of public holidays for 2027 - The Hindu",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWXBSa2ZQWFNVcUl0NEEwMjJKajJmQkp3bkVtNDBCVVNqZDJhZGV5ZGxyLWltTlNJWTRNTXFnckgwa1kwQUI4VEFwbWxEdDFQTDJrVDJyUzhvSTFvX1ZxWjNYeE4xU2QzaVdOMHh1cmFwSWpjbV9IQnpIN09XTERES3lyNDVOQXZDUjQySVYwSzJDakxwR0hWRldJNXdzUXpXTy1TNkpqYVdNUkMwYjlQQzBmQXRBQUlSY20wOHAtUUhDRmVNTmNrN1lFdVdDUdIB1AFBVV95cUxPSWwzMlo5UTBrNm5TM296cGd3WmFNUGs1Zml6eDRTVmRmU1l1VTNUTXB3WElwYWdlNjY3ZGhwa3Y0WmpQMnlwMTFqSlZGOEl3MWQ3WFVkaS1mUDZ1NW5QQ0ZJWnBmMVFwRzFKd2cxekNuRlFOM2pfZ2xWeHBPaTlXcWUxb3VpSFhpZzJxM0lhYk1rdDQzYllySkdFdVBTdUlEMzE3TC15UHRlUFd1Ul91TW05LVZvbmpkNnNlSW1SZWhhU1phWkFjczlEZWpIYlNDbWl1OQ?oc=5",
-     "source": "The Hindu"
+     "title": "Tax audit deadline ends: What should taxpayers do now? - Moneycontrol.com",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbUJhdWJSdXZ3N09iZm1CN0xHWTBkb3dfLVdrVGh4cG9sRFl0bHNvWnRITE1uN0pRMXpBT2x2ZExzS2VGU01CSEZKaG4tOWZTSHhQY2EwSzRQRHQwWlhyQk44Z2l4THdjZHF6UGZPTzZQTExTZm0yUVlvRktOR2hOdWFXMDBoWGVTdzlEQVUyV2tSaXVndDNybTNBeENSZGR0azZOSnZDeGpRV3prVHNkcjlpOVZxSGhsWXltblRCRVNvdm5GMTlrSkFR0gHKAUFVX3lxTFBtQmF1YlJ1dnc3T2JmbUI3TEdZMGRvd18tV2tUaHhwb2xEWXRsc29adEhMTW43SlExekFPbHZkTHNLZUZTTUJIRkpobi05ZlNIeFBjYTBLNFBEdDBaWHJCTjhnaXhMd2NkcXpQZk9PNlBMTFNmbTJRWW9GS05HaE51YVcwMGhYZVN3OURBVTJXa1JpdWd0M3JtM0F4Q1JkZHRrNk5KdkN4alFXemtUc2RyOWk5VnFIaGxZeW1uVEJFU292bkYxOWtKQVE?oc=5",
+     "source": "Moneycontrol.com"
     },
     {
-     "title": "Ireland October Bank Holiday water safety message - RNLI",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUkpicFRha1A2N0pDNEcwZGU1U2VWaDFMaGY4QjBaRVRpUG0zYzhsamZlZGM4a2o1dU5iaUV3N3RGcWQxMW5JdWVjRGNUX1RXbjdHOVhrcEZ3aUtoYUszOWctcFUzWGxMMjg4Ukx6QV9URlpBS1JaNWFrT2RvUzN3UDdhWnVkTFNXelFvc0RQMTlHWU5MSC1FcVRZaW53Zw?oc=5",
-     "source": "RNLI"
+     "title": "Tax audit deadline ends: What happens if you missed October 21 filing date - CNBC TV18",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONjBnTmxmUXVHMk5Dakd2Z0lGY0ZXZEM1YXVEWkFSSDEtTHRuanVZOTdvSkhpMHhXMWhGdWtmU0lRNmRQbGdKSFVwWExWSFltdjNZZnJvbElRbGFISjRqcDZfb2dSME1jWmszRlpmcnJQMS1GdnJWSEZTdUZGc0N0ZlNPN2JTZXdWOXY3WnF6eTFBUXBWNzNreUFKcmt5M0JIZE80b0JONjFNdWgySmowN05yc1RRUXdLTEVuLXA1eUtnTknSAcgBQVVfeXFMTUlXUmFvT0NEYVNNVEtVTUFkcTVqZ1NTMjZJVEhTYnI1Z1VUZ3FpWVRWZk5CVUdfNVd3RDJlR2FXYXRfZ1M2SmhUSG40V2phLXMwVEYxdlpJT1dNZE9pa3gxZjhJZVN2Vkc2N0tSWXlGZS1vT0ROSTNRVTdhRTVQV2p6dWVCM3hmUjN3Y2dFUTVSSmFTRy1RMjF4VTIyb1QycjRuMnc2aWxKTzBUM1RpYmIwVmVfazB1XzkxVk9SLVg2LWNxT25Fb1E?oc=5",
+     "source": "CNBC TV18"
     },
     {
-     "title": "Bank Holiday Today On Sept 5 For Milad-un-Nabi & Onam 2025? Check the RBI List of Bank Holidays In September - Goodreturns",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTmNvaF9TWnRWWWg2MFpGYlZJZ3JieTlOSm9QOUhSRTh2ZDRhWEFKaTVUaVo3c1U5QXVCYVh6X01yb1RWakoxOW5kamZicUdKNWhNUGV0MFBwdTE0Y0o4ZldpN3VQMTBvMUNSWFhIUHVLWl8zUWlnS0t0NnNZVTRDNWpEV0JVOW1VVmdVb0F0X0dsTTNsOE1wNEV0ci11eTVPeXd3bjRiSzFmUmsxMXY3MzFsY3pnWmtCRXRYeFNySjJZQUsyc2xJZkhxR043eDhrZmtWVG41UjQ?oc=5",
-     "source": "Goodreturns"
+     "title": "NRI Tax: Singapore-based Indian pays ₹1.70 lakh by mistake, wins refund after ITAT upholds DTAA claim - Business Today",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaDBGcHZzRjBhOWR4TVpxaDk4b0MzMnJCeTJFazVYS3NDNmRqaFhlU0wzdm5FaU5WTEVMcFNYNEJYeEV5Sy1GaGhST18xcm5zNERqT19wdEJaVWU5Z1BJSlZPS0NRZFRYNTRxb1BQd1ZuNE1jQkxtYjc3Y0E0RXBiNHF1c2cxZkUwTnYxV1k3Mmx3RUZyNHUySjA0OUx5R0NKUkF0N21VUXJlVUJ2THFsN0E3Q3pKTERaRWRzTzF1d1VNRm5iQ1pQbVpNbG9scmVJaGg3RnhtVU9IQlpHd1V3YkI5dzM1bzRRNGlaTVEtaFJQMXF2WEtjNF9FY0hlT1XSAYQCQVVfeXFMTjBLQ3c2WWdXMUhqUUVLY3lNd2xPQjllWk0ybGZfclhGRTNCcmliNTFRVUJJMTQ3eWZsSWJpV25jMVRaM09jLWxrNnhWbHp4OU1qUm1ndXlfc29fSmtpVXFBY1Y3azIycjBVb1QxclBadFVXR2cwUUxpWVN5UnVTUGI3cFo2VGZaaGVNRlF5ako4OHJnRUVaQnJNeDVpTUUxS0s5a2owdW1BYkc0UjQyUjU0bVRQY1JXV2h2cHI4V2ZadVFITUE3Z3QzZjhucDQta2E1ZnFfZUk5SEZ3Z25ESThPSUpOT1gydzZSNXhPNDNYSkpaNDlFOFV0OGZibXNndXlNTTg?oc=5",
+     "source": "Business Today"
     },
     {
-     "title": "Major disruption to train and bus services this weekend - here’s what’s affected - The Journal",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNalNZcjF5eHFWYVcxenBxbWJUS0IybHlaRlZRQ05qMVIwaWI2YkhOVlhMUlkwZXhUajV4SV9sdUxjbGViUElMWGxrcFg4TUoxMjR6Zl9LR0RnWGYyUmtJYnB5YnVwQzJlMXRRMlUzWUlxb29zdXl0MElkbVhRNVB6SjRRVmYtTDNxdE1KS1JlNHdGTHJ0SlVyWA?oc=5",
-     "source": "The Journal"
+     "title": "Rs 4.29 crore commodity trading turnover, no books of accounts, Rs 3.42 lakh income declared in ITR; Inco - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNRDRqLUVrUWJwTG5wbUdxUFNVZEdNV0NKZzRsVzBWYzNSTGo3WVNCa1VRYlRGTk91YTFiX2kwaUI2d2pjVWZJY3l1ZkJQcTVmSEtER1NncGlYNGw3OGNJMVZKejNETzdweFVieVAtQUFDelNFMlFtc1VRSlByNFloZHBVaXNjelRrVzhReV80c0hVTkFsTWR2Mk9JcFJsRmw1X1d1Vmh5UlNrTk9tQlVCbE9EVkI2c0hWSUk5VXhjanRYdjhkcW9hdk9pMkFQWDYxN2FhZlV5TmlHSVhpcEpvMkdpaVFmeF9jMnNXUzBsX0hZUTllSzF2cnBucDExUThrallBbEVIakNmZ0U2ZE0yY2ZBU3MtN2hjR24xWmhIUVQ1Y21kX29jdklYTG4tNHpfbFBWNlJFYXdkSWl2VWY2YmN3OGpsY1Q3Q3dqTVN2cWxTbWduVHfSAdsCQVVfeXFMT3JiMFZqQWVtZlN2MTBySkFBSVpicHNQN3B3djE1Mk9ianFobDlublFVTVo2ajA1WTk0azhmMWUyM2xOTDRIOTdPNEVMbWVPRXdpNF9sMG53MHBsUDNXZlJmanpmUDhDZ29YeENNeUVtRFNVZ3ZCWl9SVG41LTczaGhyMkxITmdlOGd1WUozR1FsR1pFTElmN2lEUTgwMkNzSENFNm5zcWdnWXlIRkpGZUJzX0ZzbjRPMnNXQ19qeWVaRHEzc2xiRGl5UVVOU1pjTFlWbmNRX3R3STVjYlJ5MFM0QU9PR2p4Z2t6OVdvRzFrSFJwNzdhTTEwUTI2RjRFaC14ekVXRVVTNmsyY2RsMnlvZkVQVm1CSnZZZ2VaaVhfWjhITTNZV3o3bnVLdXRKQmlRMDM1ZF8xU2Z5UXpmTUhfS3FCTTM5UDRaOG96cUNqZklvT0RTSzFaMzA?oc=5",
+     "source": "The Economic Times"
     },
     {
-     "title": "Bank holiday travel disruption ahead with Dublin Marathon road closures and rail line works - The Irish Times",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdnY1c04xc2dDR1dFLXRiS2ExbFVUdHV2bUpVaS1YaEtqenVVelRZNzhlY29Wa251VjRFZU5vVmxrR2JSSGRCZjZoZzVOVktOZVFodzRDTnY1ejlUcEo0enhWLThBYnlnSHRaYWJXSHg4cG45SEkzUkszM1gtX3liSUV2RGtuQkRGbEJsOXZ6em9JUUdCXzhad1RvdzBiZkYzakdzV3Z4R3lUX2dUNWtmeTdzTmNzVHFnRlVBYnJ6Rzl0Qm51SUR5eGE3cjNOaURIOWFSdzRVQ05RTk9NZkE?oc=5",
-     "source": "The Irish Times"
+     "title": "AIMIM president Owaisi seeks Centre's help for Indian pilgrims stranded in Makkah, Madina to return home - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWmc3WXdLOWRmRWdoZ05BRHc2Tkhfak1GdkU0RWs3MHZnWUNtM3lxZmcyaEc0dllzYUZ2SjF0c0phRFNlVXpTbjVxenJBNV9oa1R6cGV1dDFlaUZLVnlWWjN3QUNXT1NiTlRrYUlsMUtHSUUwN3hTWEFIaHdxLTBNWjVBcTJ0Ri10VVcxVzNvNk9yb25fRmVqNDBBeDBONm83Vm5QZHJBV2FQOFhlcFpyaVJ0Qno0OW1qZ0Y1b182V3N6MTFGTmlhQV9TaUtRSnRHYWwzMGFFRk9WQVlwelN4ZkR2Rk9lT2hPOXdJMjlsMjRBbGJhZWF5UnFHSFRmdzhjNkNSd0hCRdIBgAJBVV95cUxNQkViZGFmZlVBaTVtSWRQQnoxRkJ1dFZhRVV4aFNzb0Q2SzYySUxJTUIyWEFRcGVuYU1mdnZwTXdkLVNvOEYwdzlHcEF6eFlTWWpvMEZOMVRmaFNPcl9MM3BNZlNVbEdiaEhHOU1iNm41cmtJZTVtclQ5eHh1ZFdqR3RpZlllbjZXMjFrd1hyWU5ueUdfTHpyTzZTU19Ba2RqemJyYUdWNkRSMDFEdDZRbDljYWU2NnRITnhJZ0c4OC1JaG9UU2gyM3lBeHN1Ujh2TEJ0QnRvUEUtRmJ5T21NSi1RVzJpV1dfNnFPQUtuY3o5bFpwREpOMWxIamMtVjNh?oc=5",
+     "source": "The Economic Times"
     }
    ],
    "official": false,
-   "score": 21.0,
+   "score": 28.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "CBSE date sheet",
+   "traffic": 0,
+   "article_count_24h": 40,
+   "article_count_1h": 3,
+   "published": "2026-10-23T10:40:01+09:00",
+   "category": "Exams",
+   "news": [
+    {
+     "title": "CBSE Date Sheet 2027 Live: Class 10, 12 exam dates soon on cbse.gov.in; private candidate form, LOC submission - Careers360",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdF9VN3dZSENUN2RERGRja2Nub0xxUk83N2pqOXA2Mm5lZjBsSWpXenNtdzJfSmIxMGd3bDJZOVpOOUotRjh3Vzl3dXE3Vy0ycWgtNnJOejA3R0R6NnNJci1MRXlZckhxdFRpSy1RdHkwUnA3cHNKdmhnZjhKWGlOdDVYRGF4NVhlM2w2ODM4amNkUFltZzNrREdwcWxkV0w2cVRmWVZyd1VURFN4Uy1iNnM2ejVmX0ozRkdNSklMYU0tcnJrUFZyQ3hJT0ppQl9laWlfOVVta0tVakZHWXBMNzlGYkfSAeoBQVVfeXFMTjd6UTVmQXI3bHBNYzVyMXNrcUN6YjczTzNMMnU0TEljWV9iWGRSTEhIRExkZ0h4SEM3elJpd0ZYbmJUUldvM1RORkVwc2M4cmFaUUJ1Y0l1eVZob1BaVmJKdldkTi0tNG5HZFRLLVR1ZkVHRFVDc083V3pYcjBHR2pDaDdJR2xtUzJMUkJyMWREYklYN2g2Vk40MXNNZTdaUWxraHNtTTNnY3ZfUmdfSzVYbGExSFpCN1IzaTRsOUZpREo0T3FrNGg5R2tyNVp4SVI3M0Z0VU9mLXhiRlBWU3hzT0oyUUFnUHhB?oc=5",
+     "source": "Careers360"
+    },
+    {
+     "title": "CBSE Date Sheet 2027: Check Class 10th, 12th last years’ exam schedule - The Indian Express",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGIyb3lLSWozeXMweWlYMjFTZThmSlE1S0JxcXFMSDh2VHBiVjA2TDFCSU4zMjRBNFB2eGRDRXZRUFd1Ry1YeWE5UXE1LU1IbVVuemNZN0xINGlOWkxybkhlVUF2ZTVTVVB6TVpxc2l2X1J4QjFQUVB4OHlvY3BQMFJONFdnOFB0bnROWFJ0bnlyNWNJbnkzZmJHSTUtT3BVWE43TGxHdno4RHI0WFFUbHA1UXVJN3NXTmxlQtIBwwFBVV95cUxON2dwYUkyR2twQ3Fmck9KaUFNWlVNX2hsV2haMFlfRGtQQmlrckpaTTlIc3dmQU5uN3Qza2xGUnhUOGJxeEZPd2Zmenl1c3gxNm85VFlMc3IxRThVdjVCd3k3a255U3FPbFZXOHZObl9KOVliWEtvV28wX1V5OGNwNVNlQW5Hdy1GY1pUeXdYM0lCcVhMUVlDZmVRRE8xdUF6bzdZRVZjQ2d1OW1zSUU3dUM0MXlvdVBOSVJCVS03V202eEU?oc=5",
+     "source": "The Indian Express"
+    },
+    {
+     "title": "CBSE 10th, 12th Date Sheet 2027 Release Information - The CSR Journal",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc3B1ckx1WkM2UDVyeXB4ZDhTMzBxY1pvb3BhTUpWSXoydDYxQnVkMzdJU3hRSTdCc2N2WEswRDRTYkZOU2lUTW44Y0xUNFRBNTdLZ2NBRHBWUlpUZ3BpNmhSUjNkOTdzaFVNd29KUmYtV0NzWDRNSExlbHV0TUJPOQ?oc=5",
+     "source": "The CSR Journal"
+    },
+    {
+     "title": "CBSE Class 10 Date Sheet 2027 To be Released Soon, Check Dates - PW",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNUGpxZkEtOWFsTVJqLUVYQ3RvQURHazJRQ20tZjB3OWktRkcxVkpKSUVJRDlGRk9aN3ExSXpJSV9LS2VIenR5bVM3Q19aNjVSaXdhNHdvcmdxeHAxcExhb0ZQcTduZzJ2MXRHOHZYQWRJbG5ZM1E?oc=5",
+     "source": "PW"
+    },
+    {
+     "title": "CBSE Date Sheet 2027 Class 10: LOC window closes, latest updates students and parents should know - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPVGI0ZUlJbjBDYmNLUnNiZWNGQ1ZVZWF4ZUtPZFJweU5rd1FiQjBTdVlvSE1Kb1NVRTREeGlCbjZacThzY0pQdkczRFpGaWtHNFY1aUVuRDZON2t4S3RjUTdoeV9LYnh2aUE3VEM4RENsTHFaZkJXTEw2XzZJY3NvWWJ5S0tGMWZjdlBvWk9nSTJ3UmJsQngxVEtpNEdfYTh6NUdxNFFOOGFBeWEzZEFDMFc4dDE4d2pPc19Jbk8za09naFAwWXR3dy1SblRRNU5sakZRQ0toY3JiSGNRUTBNSUd4c3VMeTZvd2N6MGo2WjdHbGN4MjhWUEpn0gH_AUFVX3lxTE1nUEJqU0RtSTI2YjJxUnlXMjZaMTI5VmMtNTFhWjUtWVBoZ0pqbXQyZFFSV3dWWUIwbDFVZXNFZmVzV1JKQ1N6bURlZnJoc2Vrc0F3d2NieDEwekM4VjBOQ3lDZlFxYXA5YkJMd3pGdWtlNFZqbVk5N2ZINHg1V1FQdFh4YXU1QzZVUF9sX2dtdldNOVVfSnRReUxxcVlVdlNOSGlwOGRsbGYya3FHUkVRTGNXeDFEcmdVeDF5VkdLVFdmWTlaUFRjY29JdzgtbnozM2oyTXlzeV84dEJSX0JSQ0VUSVkyWWkyMFVBU0k4TnFKMEprMjFjY21pcmg4UQ?oc=5",
+     "source": "The Economic Times"
+    }
+   ],
+   "official": false,
+   "score": 25.2,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "ಹವಾಮಾನ",
+   "traffic": 5000,
+   "published": "2026-10-23T10:20:00+09:00",
+   "category": "Weather",
+   "news": [
+    {
+     "title": "ಮುಂದಿನ 3 ಗಂಟೆ ರಾಜ್ಯದ ಈ 13 ಜಿಲ್ಲೆಗಳಲ್ಲಿ ಮಳೆ ಸಾಧ್ಯತೆ: ನಿಮ್ಮ ಜಿಲ್ಲೆ ಇದೆಯೇ ನೋಡಿ?",
+     "url": "https://kannada.asianetnews.com/karnataka-districts/karnataka-rain-alert-13-districts-likely-to-receive-rain-in-the-next-3-hours-gvd/articleshow-uftnr9n",
+     "source": "Asianet News Kannada"
+    },
+    {
+     "title": "Rain Alert: ಮುಂದಿನ ಮೂರು ಗಂಟೆ ಭರ್ಜರಿ ಮಳೆ! ಈ ಜಿಲ್ಲೆಗಳಲ್ಲಿ ಮಳೆರಾಯನ ಅಬ್ಬರ ಫಿಕ್ಸ್!",
+     "url": "https://kannada.news18.com/news/state/rain-alert-in-thirteen-districts-of-the-state-for-next-three-hours-ssr-ws-bcl-2512539.html",
+     "source": "News18 Kannada"
+    },
+    {
+     "title": "ಬೆಂಗಳೂರಿನಲ್ಲಿ ಬೆಳಗ್ಗೆಯಿಂದಲೇ ಮಳೆ ಶುರು; ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಹಲವೆಡೆ ಮಳೆ ಮುನ್ಸೂಚನೆ",
+     "url": "https://kannadanews.today/karnataka-news/karnataka-weather-drizzle-in-bengaluru-rain-alert-for-several-districts/",
+     "source": "Kannada News Today"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://kannada.asianetnews.com/karnataka-districts/karnataka-rain-alert-13-districts-likely-to-receive-rain-in-the-next-3-hours-gvd/articleshow-uftnr9n",
+     "title": "ಮುಂದಿನ 3 ಗಂಟೆ ರಾಜ್ಯದ ಈ 13 ಜಿಲ್ಲೆಗಳಲ್ಲಿ ಮಳೆ ಸಾಧ್ಯತೆ: ನಿಮ್ಮ ಜಿಲ್ಲೆ ಇದೆಯೇ ನೋಡಿ?",
+     "outlet": "Asianet News Kannada"
+    },
+    {
+     "url": "https://kannadanews.today/karnataka-news/karnataka-weather-drizzle-in-bengaluru-rain-alert-for-several-districts/",
+     "title": "ಬೆಂಗಳೂರಿನಲ್ಲಿ ಬೆಳಗ್ಗೆಯಿಂದಲೇ ಮಳೆ ಶುರು; ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಹಲವೆಡೆ ಮಳೆ ಮುನ್ಸೂಚನೆ",
+     "outlet": "Kannada News Today"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "RBI repo rate",
+   "traffic": 0,
+   "article_count_24h": 30,
+   "article_count_1h": 1,
+   "published": "2026-10-23T08:54:40+09:00",
+   "category": "Banking",
+   "news": [
+    {
+     "title": "RBI Repo Rate Hike Puts India’s Housing Recovery Under Pressure - Urban Acres",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRFg1QmMyOHV6TzVINjJlSldualFfbGtYYmdKT1U3S1B4V3pTRV9DZS1YRlhEcUFFQU8xclMxYVRFZ0Q3Sy1NYnFVX1BaVXA3MWRrWFo2MlF3bFF0ZjF5SWFiVU1QTjJIZ3hxdTJ2TWN2VFpKMlVTVjFQR3NDcHdhRUhTUjRpd2RXWXEwaktB?oc=5",
+     "source": "Urban Acres"
+    },
+    {
+     "title": "RBI Rate Hike and Home Loan EMI: 5 Steps to Manage the Cost - Value Research",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTXlTX25KemRVNHVfeUV5MW9Xa1Q1VUJVcVJLOFhfQUdaMWxMNzg5eGZzX3cxbXVibHFybFVtQV9OeTNVVGtLLVYyZEVrMno2cnBiUEtubFJRSXFwdHBPcUMxY1BMdkcySDhudUtmcFFBOWhERGVqbXppQzNkWTFiZlMyX01qajJ2S2Z4ZWV2SXU?oc=5",
+     "source": "Value Research"
+    },
+    {
+     "title": "Emkay Sees 50 Bps RBI Rate Hikes By February 2027 Amid Inflation Risks - BW Businessworld",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUjMybVk5b3BQRHZnb29lM2ZUOEhRaTB1WF9kdkJ3dEJ3SEtIeHpPNlVHck94eFVFVzlDaHk4NUFDRTNrSUpDOG01YXdzNEQ5ZHc4Z3FOa0trODU1aTU3eklDU3lsOXJ2VTdkeExrOUZPSjBHSGVWSUE0WDA0SnN6OU5zVTliT3V0WVY1cVRqMld5TFA5SktHQ1NzcjVUV24zWE05aG5vRXVhRkxPUzBHNU9VQjg?oc=5",
+     "source": "BW Businessworld"
+    },
+    {
+     "title": "RBI MPC minutes: Economists maintain back-to-back repo rate hike stance - bfsi.economictimes.indiatimes.com",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN3NOTmJkdGpGbWdmMjdJOThFMDlFT3pQWXJJcXNpdUU5bnBndVhnU2N6YXVDTDlCY2dlSXZmWmt1ZGFtaGNYY0NBdTVBMU1MVm9Sd3JhYkZVcld3c1RoN3pwQWozb3dnVWJCbm1RZFpwSVpvajFlTERlcjhSbm56ZjI0WGVNRENISy1WZVFYWFYtTTdoWXJjZ0R0YVlGSG85WVBCTlhsdmsyUVVuOG44RGVrUi11ODB2c2poQlhHczZjTUhEU2FXNzJaWmFyLU1L0gHWAUFVX3lxTE1TSFpjU0drYlVlbVRNckRCYm1XN2pPWW5falpIMUNzV0RpUEMtT2UtWFhqemFhbGhwRmRCblpESkxwRGhWTVdTV3c3TjBtMUlFMnJ6VDd3QUhJaDhqcE43YW53ZUR2NUlNdWFlNkNQUk1Zc3JpVmhWblY1SXphaUpaenFDcmxuUk5uS3AwMmFfNmdFQWdOa2pkOER6NnhOYzNlV005MTVNeDRrdm1iTUlqYnkyNmZleGU0SEJuUEJnd3pYQ0ptYVR2VVBscGZSNURBZDlrUHc?oc=5",
+     "source": "bfsi.economictimes.indiatimes.com"
+    },
+    {
+     "title": "RBI Signals Further Rate Hikes As Inflation Nears 6 Per Cent Ceiling - Swarajyamag",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVjdpX3pPby1FTGtKbjFnSjE0RE1PbEpORUNuT1pIdGwwc25pSXU2NTBPSUVVck9rVV9CZ2tzUldrVVd1b0FIWUlZd2RkTnpVQnVLTy1vN0xlWkVUbVpqTnNEdlRlbFdPdks1dkprNkJEdzlxekdJMlI3cnlLSndJNG1Ud2JWVU0xYWEzSzJBbW5BcHdVYWJpVDBmdERwckZubW9xUHF30gG2AUFVX3lxTE1VR3Rwcmx2NzZ1dGNWTjdtM0k2bWUwQTJFZkZxTEMza1VnQVhYc1lEYmpRU2ZqMXA2dTVrWDdhSG9EakJ6ZTg1OVBYemVpU3dxdkVheXVBLWN3OGg5OV9nNVBsNHlwVmkxWU93LTdjSkExOEJjbklPbGd3NndvZFNVODhsWjBpWGI0UlNqWDhrY3Q2WGlqUEhVeGluRzhwbm1rNXJWOE15X1dBUlNROXlLYUpXTjlB?oc=5",
+     "source": "Swarajyamag"
+    }
+   ],
+   "official": false,
+   "score": 20.4,
    "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "SSC exam date",
    "traffic": 0,
-   "article_count_24h": 32,
+   "article_count_24h": 33,
    "article_count_1h": 1,
-   "published": "2026-10-23T10:01:48+09:00",
+   "published": "2026-10-23T10:09:13+09:00",
    "category": "Exams",
    "news": [
     {
@@ -585,48 +660,48 @@
   },
   {
    "source": "google_news",
-   "keyword": "RBI repo rate",
+   "keyword": "bank holiday",
    "traffic": 0,
-   "article_count_24h": 27,
-   "article_count_1h": 0,
-   "published": "2026-10-23T08:54:40+09:00",
-   "category": "Banking",
+   "article_count_24h": 56,
+   "article_count_1h": 4,
+   "published": "2026-10-22T21:25:20+09:00",
+   "category": "Government Schemes",
    "news": [
     {
-     "title": "RBI Repo Rate Hike Puts India’s Housing Recovery Under Pressure - Urban Acres",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRFg1QmMyOHV6TzVINjJlSldualFfbGtYYmdKT1U3S1B4V3pTRV9DZS1YRlhEcUFFQU8xclMxYVRFZ0Q3Sy1NYnFVX1BaVXA3MWRrWFo2MlF3bFF0ZjF5SWFiVU1QTjJIZ3hxdTJ2TWN2VFpKMlVTVjFQR3NDcHdhRUhTUjRpd2RXWXEwaktB?oc=5",
-     "source": "Urban Acres"
+     "title": "Tamil Nadu government releases list of public holidays for 2027 - The Hindu",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWXBSa2ZQWFNVcUl0NEEwMjJKajJmQkp3bkVtNDBCVVNqZDJhZGV5ZGxyLWltTlNJWTRNTXFnckgwa1kwQUI4VEFwbWxEdDFQTDJrVDJyUzhvSTFvX1ZxWjNYeE4xU2QzaVdOMHh1cmFwSWpjbV9IQnpIN09XTERES3lyNDVOQXZDUjQySVYwSzJDakxwR0hWRldJNXdzUXpXTy1TNkpqYVdNUkMwYjlQQzBmQXRBQUlSY20wOHAtUUhDRmVNTmNrN1lFdVdDUdIB1AFBVV95cUxPSWwzMlo5UTBrNm5TM296cGd3WmFNUGs1Zml6eDRTVmRmU1l1VTNUTXB3WElwYWdlNjY3ZGhwa3Y0WmpQMnlwMTFqSlZGOEl3MWQ3WFVkaS1mUDZ1NW5QQ0ZJWnBmMVFwRzFKd2cxekNuRlFOM2pfZ2xWeHBPaTlXcWUxb3VpSFhpZzJxM0lhYk1rdDQzYllySkdFdVBTdUlEMzE3TC15UHRlUFd1Ul91TW05LVZvbmpkNnNlSW1SZWhhU1phWkFjczlEZWpIYlNDbWl1OQ?oc=5",
+     "source": "The Hindu"
     },
     {
-     "title": "RBI Rate Hike and Home Loan EMI: 5 Steps to Manage the Cost - Value Research",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTXlTX25KemRVNHVfeUV5MW9Xa1Q1VUJVcVJLOFhfQUdaMWxMNzg5eGZzX3cxbXVibHFybFVtQV9OeTNVVGtLLVYyZEVrMno2cnBiUEtubFJRSXFwdHBPcUMxY1BMdkcySDhudUtmcFFBOWhERGVqbXppQzNkWTFiZlMyX01qajJ2S2Z4ZWV2SXU?oc=5",
-     "source": "Value Research"
+     "title": "Ireland October Bank Holiday water safety message - RNLI",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUkpicFRha1A2N0pDNEcwZGU1U2VWaDFMaGY4QjBaRVRpUG0zYzhsamZlZGM4a2o1dU5iaUV3N3RGcWQxMW5JdWVjRGNUX1RXbjdHOVhrcEZ3aUtoYUszOWctcFUzWGxMMjg4Ukx6QV9URlpBS1JaNWFrT2RvUzN3UDdhWnVkTFNXelFvc0RQMTlHWU5MSC1FcVRZaW53Zw?oc=5",
+     "source": "RNLI"
     },
     {
-     "title": "Emkay Sees 50 Bps RBI Rate Hikes By February 2027 Amid Inflation Risks - BW Businessworld",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUjMybVk5b3BQRHZnb29lM2ZUOEhRaTB1WF9kdkJ3dEJ3SEtIeHpPNlVHck94eFVFVzlDaHk4NUFDRTNrSUpDOG01YXdzNEQ5ZHc4Z3FOa0trODU1aTU3eklDU3lsOXJ2VTdkeExrOUZPSjBHSGVWSUE0WDA0SnN6OU5zVTliT3V0WVY1cVRqMld5TFA5SktHQ1NzcjVUV24zWE05aG5vRXVhRkxPUzBHNU9VQjg?oc=5",
-     "source": "BW Businessworld"
+     "title": "EPFO Vishwas 2026 scheme: How penalty on employer for late PF contributions can be cut from 37% a year to - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNbDk4UktZM3lvc3ZoWFE4cmhNdU9WcVZlX3o1dVNkM0JCZGIwNS1YemtXYzNzRzcteEFDVjlIbHlnVl9rVTZwbVhwblJITVExdzhUdDdWNWlpN2MyMGtwd1JQZGlKX3hsd3k3VFNZdm9zX0RDZDNYdGxzQzhXSDdra0NiSEtab3dBeUI1dUFwVEpmOTdPM0JsOFcxQ0UwN1FfZHlxNUxrUngyczRmVC1WNFdtcndWWnZZQ0pZMVVqZjhqWlo0NDJRTGxMbE40YzFFVHBwckU3bXZsUm12NjFqLW9vWldGamN1QW9FbmNjbnE4VjdrUTROT09kSVdrY2xpdGlDd1g4SjFieXPSAZACQVVfeXFMTkhkdEVTVm9aTUp2LTFjVVJNbEZEVGxMWVF3WlBJMUVOVzFFWENQUDgwN0FCNkJ3NVNIcTMtRE1PbjBCdmZKZTR3cU5taTdpWEEzbnVKNlFzWGRBaGdtd1FYZmFxcTVtT2dhLWJLYVcwRUl1RHF6TFBweEc2bXFwVklsUjlwXzBKSWZRVmpqejFzamJicTFQYm45T3pTZ1FsZG5GS3BhVGI0cFAzVXFtM3VzQzRWR0ZJWF95R0lDTnlKcXllWks0ZVlsY3k4Zjczb2hYelVDanNyTklCcUY5ODNRUnhYQzU3c1UxTzFCVEJ2VlJKdU9BaVVhTC0wSkdqRVJlN09mZy1xR1BQQXFlaU0?oc=5",
+     "source": "The Economic Times"
     },
     {
-     "title": "RBI MPC minutes: Economists maintain back-to-back repo rate hike stance - bfsi.economictimes.indiatimes.com",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN3NOTmJkdGpGbWdmMjdJOThFMDlFT3pQWXJJcXNpdUU5bnBndVhnU2N6YXVDTDlCY2dlSXZmWmt1ZGFtaGNYY0NBdTVBMU1MVm9Sd3JhYkZVcld3c1RoN3pwQWozb3dnVWJCbm1RZFpwSVpvajFlTERlcjhSbm56ZjI0WGVNRENISy1WZVFYWFYtTTdoWXJjZ0R0YVlGSG85WVBCTlhsdmsyUVVuOG44RGVrUi11ODB2c2poQlhHczZjTUhEU2FXNzJaWmFyLU1L0gHWAUFVX3lxTE1TSFpjU0drYlVlbVRNckRCYm1XN2pPWW5falpIMUNzV0RpUEMtT2UtWFhqemFhbGhwRmRCblpESkxwRGhWTVdTV3c3TjBtMUlFMnJ6VDd3QUhJaDhqcE43YW53ZUR2NUlNdWFlNkNQUk1Zc3JpVmhWblY1SXphaUpaenFDcmxuUk5uS3AwMmFfNmdFQWdOa2pkOER6NnhOYzNlV005MTVNeDRrdm1iTUlqYnkyNmZleGU0SEJuUEJnd3pYQ0ptYVR2VVBscGZSNURBZDlrUHc?oc=5",
-     "source": "bfsi.economictimes.indiatimes.com"
+     "title": "Bank Holiday Today On Sept 5 For Milad-un-Nabi & Onam 2025? Check the RBI List of Bank Holidays In September - Goodreturns",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTmNvaF9TWnRWWWg2MFpGYlZJZ3JieTlOSm9QOUhSRTh2ZDRhWEFKaTVUaVo3c1U5QXVCYVh6X01yb1RWakoxOW5kamZicUdKNWhNUGV0MFBwdTE0Y0o4ZldpN3VQMTBvMUNSWFhIUHVLWl8zUWlnS0t0NnNZVTRDNWpEV0JVOW1VVmdVb0F0X0dsTTNsOE1wNEV0ci11eTVPeXd3bjRiSzFmUmsxMXY3MzFsY3pnWmtCRXRYeFNySjJZQUsyc2xJZkhxR043eDhrZmtWVG41UjQ?oc=5",
+     "source": "Goodreturns"
     },
     {
-     "title": "RBI Signals Further Rate Hikes As Inflation Nears 6 Per Cent Ceiling - Swarajyamag",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVjdpX3pPby1FTGtKbjFnSjE0RE1PbEpORUNuT1pIdGwwc25pSXU2NTBPSUVVck9rVV9CZ2tzUldrVVd1b0FIWUlZd2RkTnpVQnVLTy1vN0xlWkVUbVpqTnNEdlRlbFdPdks1dkprNkJEdzlxekdJMlI3cnlLSndJNG1Ud2JWVU0xYWEzSzJBbW5BcHdVYWJpVDBmdERwckZubW9xUHF30gG2AUFVX3lxTE1VR3Rwcmx2NzZ1dGNWTjdtM0k2bWUwQTJFZkZxTEMza1VnQVhYc1lEYmpRU2ZqMXA2dTVrWDdhSG9EakJ6ZTg1OVBYemVpU3dxdkVheXVBLWN3OGg5OV9nNVBsNHlwVmkxWU93LTdjSkExOEJjbklPbGd3NndvZFNVODhsWjBpWGI0UlNqWDhrY3Q2WGlqUEhVeGluRzhwbm1rNXJWOE15X1dBUlNROXlLYUpXTjlB?oc=5",
-     "source": "Swarajyamag"
+     "title": "Tamil Nadu announces 2027 public holidays; 7 long-weekend opportunities on the calendar - DT Next",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPczJ2NkUyRlpXYUtRRGFqMnloSWM2WDFtYlpFblhCU0tWR3o4NHYwdGozR1lwWTFTLTZ1RHdZZlFrZkFNZ2hoWHVMNjhpSWhDWWhaakhqWXFvT1gydDZJQ0RjcVpfaDVHQ1ROX281SktDZkYyVXlQWkNXQjkxRFVyc0x0TWhwN2tOZGN1aVJPcWtmSlpua1NUcjQtNnd2ZTBBVm5Rc0xBVnVVNGw2c04yZEdoVnpqYWhCeUJMSnMySnXSAc4BQVVfeXFMTl9yOS1FQmw5ai1NVjl5b281UDdTSVhXQ1Z1dU1WNk9DVnBval9XTnZVS2dBMmNwMDRwamZacHFndEJ4ZXUzSU83dTBWNndTc1RpWElwWnhOWmpEdkxMN2JPNTFTQTNscmR2RXRwbUh0OTZMcWE5ZkpOMEZVd3k2SmJUalZYMkEwUGdFMGdTRUNobFd3SVdlRXlHdTc4MzlGQVNFVUMyV0lMbnNmdHBIZ2R3MWVxU1RKYTBsMDNzbVdsVURaWDlIUXV5T1RZU3c?oc=5",
+     "source": "DT Next"
     }
    ],
    "official": false,
-   "score": 18.0,
+   "score": 19.3,
    "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "UPSC result",
    "traffic": 0,
-   "article_count_24h": 23,
+   "article_count_24h": 25,
    "article_count_1h": 0,
    "published": "2026-10-23T07:21:50+09:00",
    "category": "Exams",
@@ -637,9 +712,9 @@
      "source": "Adda247"
     },
     {
-     "title": "Diamondiyne, Structure, Latest News - Vajiram & Ravi",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55Q0RBalZCRXRFYXpYZVJNNGR5Zkl3bUw1d2s3QVNINUVqQWpkdjBxWmJKNU52dEpHbmNQVVdZMm1Yb2lRMDlUUnI4QlNuX1FGbjFCai1sUjVrNW1wNC0wckp2cDZhUQ?oc=5",
-     "source": "Vajiram & Ravi"
+     "title": "HPSC ADA final result 2026 out at hpsc.gov.in: Check result link, marks and selection details - The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQM1BEWllEZHVfNk5XNkRZVlY1RFp2LXE3MDBoRlV6SlJEZkxSRUxmbDE1bGlpRThYekUxZDFTRlNkZDVkeU4xQ0RsLUhDS2FJWXE0MzJVYmV2Rzd6bFBKVVM5ZExublZ1WHpDeVotWHNYS1VVem9JNzBVaTNWXzkwVWxLT1JJZGtZbkoxLWVVaC12b3V1dlFhTTl2dG1iQUVWWmdQS0toZVYxUkd1NVgwbnBVdmVOU1ZHWVNIemJuTVY2X08xTXJxdzhZcEJaQ21PVElsNWxZR25GSHpSZEZUazVXWHgyMjY5MlZPUWJyOHo5aDZ1c1NZZ1BRMmjSAYICQVVfeXFMT2ljYzA0dlhmNFZockFJazZkN0tueE1PSk9UeGt3UnJKSGVPUENOSXV3cWNSS1pQUzBEVENaNUlCQ1pJSmI3Q3ZITTIzaGloWkZpMHliSmVMX3dwemIwODVhX0VFRF9zd0ZiSUdzSjQtSjlOd3RyLW5EM0plWGVGa0MzcXVMem4tMTVxZ2JGMzRSUUtuaC0zUTNJM3lTT1pBS3NfM1JweG92bEtXRXRzUHlOU2lnNWYxWGxJRUpQTW5kWmJrS3ZQTWZ1S0RJZlFZMm9GdzJzc2tIbVNwbDJyRGNURjEtSG5BOVQxRDhyRm1LOWdfZTVmQllyZzBfTHc0Qk5n?oc=5",
+     "source": "The Times of India"
     },
     {
      "title": "4 UPSC failures later, Maharashtra farmer's son with AIR 812 shares why Plan B matters - India Today",
@@ -647,14 +722,14 @@
      "source": "India Today"
     },
     {
-     "title": "India–Poland Relations 2026: Strategic Partnership Explained - StudyIQ",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5RFNGTFZGWHAzbkxrbWVwY01nX1RkaUV1S3YxaTJHLURDenRIYUo4STNEOXFfd1llcTRKakt3d0VnOUZxRjI3UEpNakE4aDBaRTg2N0ozNG1PSlJ1VUFYeTZJYjl1X0VqbjhWcmdR?oc=5",
-     "source": "StudyIQ"
+     "title": "World Polio Day 2026, Theme, Significance, India’s Polio-Free Status - Vajiram & Ravi",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JSi0xbTEtT09RaXNIYVF4MG95OWlfV0tySThySC1KcFFTdVY3TUM4MFI1U2RSdVFZeURLWWxaNFg1Ym1LbkRPcUIwTmdUT1JvLU9IN1RZRWNoS09hdkFHWHhZZ25KcC1fNEZva3BzZ0UzQQ?oc=5",
+     "source": "Vajiram & Ravi"
     },
     {
-     "title": "ICAI CA Intermediate September 2026 Result Declared; Check Steps, Passing Criteria - Telegraph India",
-     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVEFEdDVtWW5qSjZMcW5iWXhCSFQ4LTJCMUxKenJJLTAyOUQzQnRtX0ltQVlrbnM2cmZ1enoxZ0tpZzQ0UUNDUWJOQTZFb01tb2tNMVNDSFRPaG8xTXo0MGNaVlFxNkRuM3dqYXhiRUNtc2MyeXRfSEdlcXBOM1ZYR3lwUUdsbl8xdzNSSjFERTd1VEI2LUFhRVJKUzA2RnV6Mkd2aWdTdVVRR0VBQ0NnX1c5NHVKS1A5dUMwZ1pEWTRUOG1yR0hQN3lYbGs3dEI5RDg5SkRxaEVJbE9EUXpZRnNMeGVIRU5zYlI5U2VBQUw1UUE1UlMwUVM5eUozUU3SAYQCQVVfeXFMUExBZlMta2VDeFE0U1dTbXp1ZktnLThFQjFhWS1NVjNKR01xcE1PVTFyRWZ2OThZNnVKSjBpc250blpVWG9OTUJQZ19nWHEzem4yZmczaTNta196VzJ4NWxPSmhEV1RXYUFQU2hkODFmTzBLUUxYUjhMcFo1X2U1b0RSYzlLTU1BZGtKUlcwWlladGtyUnRuNHpDRzh0eDRhbElfYkpqUC1zQVdQSlo0SXY2b0owVEt1ejFSUmEtRGhzOU1OVGhCcDluS21Fa1pqWHhPNkZqS21XbmlybXZsYjdFeE5YaEVBb1lJRTIyTktzWFN2T0V0d0hUd3dEQjVrenFGRy0?oc=5",
-     "source": "Telegraph India"
+     "title": "Supreme Court on Children’s Right to Internet Access 2026 - StudyIQ",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjBERHVxaVlsZXVjZG9OM2cwRUpQSkxZajNtdWI3d0h1ZFg2UWpBX19lcFZRNzAyckMtTkgzQmNEQUxQanNRU3BQRV84b1NHaXo1SFo1T3JRU2h6ZXNkbmsyeHU1TjRTLW9kemNyWE5KZGJWSXRkOW1IdHA2ZVU1Qk5MeXdWUUx2NDFWenFoSDh1VEI1T0Vj?oc=5",
+     "source": "StudyIQ"
     }
    ],
    "official": false,
@@ -663,37 +738,37 @@
   },
   {
    "source": "google_news",
-   "keyword": "petrol diesel price",
+   "keyword": "admit card released",
    "traffic": 0,
-   "article_count_24h": 86,
+   "article_count_24h": 58,
    "article_count_1h": 3,
-   "published": "2026-10-22T19:08:01+09:00",
-   "category": "Banking",
+   "published": "2026-10-22T20:00:00+09:00",
+   "category": "Exams",
    "news": [
     {
-     "title": "Petrol, Diesel Now Cheaper In India Than Dubai? What Numbers Show - NDTV",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS21LaHVYX3RnOXBSOXE4YjRzMjhEbjktRm5CMlB1amdEa2xOM2ZpVGhmUWVCSFZpdzYtQnNWaHVYYURPS3M4aTJxVVBSY2h4SjA4cjBFaE1RNzhFalFMcjAwMWZ2UlNVN1M0WHBsRXFWQUtNYXBvSmlSRUt2TkVpUHpnVnpwdTQ4U25VMzlKNk5TYTU5Y3Fxa0FmSDhlOXFTNEJVc2czb9IBrwFBVV95cUxPc3RCYy1OYjZ6VlhXZ3A1SmUtcU15RGFMTFRsRGtfQ2ZseTFnT1BncktJOThjOE9iTUlZTWN4ajVWNWxxYnZCM3g1N0JtUXc1QzRDdDF5WEp4SUdnQVZqVlA4VkJZWWRMUnF0cTRucS11R2FYUnZSUHI1Vnp3UHV5YWVLeHJqdlVlNjBob2RYQU9GYmg4cEN1UXRSY1Jva2VkdnZoNGFHc2x5cVJlSi1F?oc=5",
+     "title": "PSSSB Group D admit card 2026 released for 2,098 posts; written exam on October 25: Check direct link to - The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPZG03aklqMnNvSFZjY3ptWnU3eEdFSE9UME1URnduZVltT2xmcWN4akszSTBwTDZWOUpXbC1va3ZpX2xuR0xidkFMQk9MX1pEQk0zOFhiSzQzWndTNnJreVhHTHNxcVQ2Zmp6MFhoOE0zUllaWF91NXU3QU1qYm9ydDZBdUE2RkVjQ2g1Z3FtUjhJNzVPdDZlZEVsdEhoZHdPc2VxTWRqbkNvM0U5U1lkMmhlVzItcUpialFjZm1RTU0ySF9qZWtCVzl1OTV4VW9DZ01JVkk4TjBTS3c1cW9oT0pMV0dLLUFGRDFfWVBobmpnSmZFcDl4N3NnT1RJZ0RiZHczZXgxbU5NdW9iWll2bnlZbW5ocFViNTJYNk92SlhCMF9EMHFZc2VxVVU2UdIBswJBVV95cUxOVXR0eU95anVwbV9MRXBrTjZMeWZmUDk0ZGZxbXhraVV4dVczc056N3Axa0FBZkc0VGFUUVppUW82dnoxYURWb3dpR3I3eVl3QnFGaF9aYmJuV2ZhYVdrVUQ2ZUZwaFdUYnVPeC0tUEMtYVZDcFdJcE0yYXpWQTgySjVWUUM2bXBsQUkweVgzZVhfMkJrdk9XTXF5SkVNNGJBMUtQbFA1cjNWSkJ4Z2lpSlV1LXZJNHR2Nk16aHgyM1E4QXZZUnVvQUxTazZQZVY1S1I2c3pFbTV1Y3o1a3pjX3M3cmFlUThKTDZBUUNJaWhiS2Y2TTVFbld1Skp3Y0lKeC1uelRKdVBsaUphRWhPZkFueUpLZ2QzM0Jobk5oYmk3cERtMHlBUFRkZWswSGZsUTlR?oc=5",
+     "source": "The Times of India"
+    },
+    {
+     "title": "Bihar STET Admit Card 2026 Out, Download Direct @bsebstet.org - Adda247",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTTnRiODBwSlpLbTEyNVdSd092dk1EZkpjR1M3Uzl3dkVSS1NtYkxxNXQ1bmdPNV84SUZFcWlsQkNyVmwxRXAwTFlrYjZ4NGdiVFBMeW4teFc4MEU3UzVoOS1tSXVxWWxqSWl6ZzZjSFJOQzRCSm9RaQ?oc=5",
+     "source": "Adda247"
+    },
+    {
+     "title": "IBPS SO Mains Admit Card 2026 Released at ibps.in; Exam on November 1 - Telegraph India",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONW9SdUQ1OXBDSlVHZFl3SnQwY0pUTmlWUjJuSDNVS0I0VEdXeENvc21DXzk3Yk43cGRLMHhsV1pHenRMamxxelBhdkZPMGJ1dGxxUlpzNFRnekZRN0JKbnQxaDlxZWN6WnptYzlWYTRpUnNyLWQwcVJiT00wOW1wVDhXRDkwel9EZVVDc0ZhcDJJRlVmVU1MTUxlN3h1WUJ1ZElkOFFVOFVNaW5tM3ZTaUhmTFVFYjRSSjZCN0gzRG1Pc3fSAcgBQVVfeXFMTnFqYmVuRTRmUlVhd3ZTZUp4dHgyZUE5OFN6SlhQa0Q4ZE1TV05oU2RLS29iN2hqSThaZWs1UWpCalRmV251Y3M2ZmJFcmk2ZnZQTjVSLW9fcUt4dUlQcmNRdm95T2ZUalFzREotS2hoZWdMRV9tcWZzLUI4UGRiTnZId0dBeVNmQVZMckh2U3F4Rjg4cTVBMUNZSEN4Qlh3Z1JYZm0yUm1Qd0tQbzl0RjR5SFdURVZDWEpyclhDYjFNYkx5SU14a18?oc=5",
+     "source": "Telegraph India"
+    },
+    {
+     "title": "TNPSC Group 2 Hall Ticket 2026 Released: Download Admit Card - Sakshi Education",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTlM0Vkt0Ri02OFBCeU84SWNoRkFGLUUwSXZzRUs4QWdQSmFrMXV1V0FNN3JjRzBWaUpFa3JvNEM5NEl1MS1vQWJWaTk4djhoWk5tcWVTVHZ5NzZxT0hHdEVnOFFjZ2lSTGM4QW93SUU0R2I2SnBwNnZmd0FqWnRyZ1NZTW04a01Oa0tUSGpvWUIycDcwa1RuUjNnTFU5Q3BTR3lTUWNGVng1eGxpMHVWbER4Nzk5LUJRdjRNb3g1SHRJZw?oc=5",
+     "source": "Sakshi Education"
+    },
+    {
+     "title": "Bihar STET 2026: Exam Date Changed, Revised Admit Card On October 24 - NDTV",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR2d2OU9GSU1pX3c3YzNGYkVrRk14cWFXYlBQSkQxN2ViTlRRRkNRVXdnZzNnWDFYQ2lTQlRmcFJrTjVlYmZDcjhRbUFUb09HRW52aDNZX21kVEd5SktPYldVYXFZTkpkLU5YcWs4a3JFZ05LbFNiZElhczRFd0FRa2xSZlp2U1ZPZHdnNVprRHU0Rkd1RGJpYmdTS1BBcjk5R0piUFhubGhoQQ?oc=5",
      "source": "NDTV"
-    },
-    {
-     "title": "Petrol, diesel cheaper in India than Dubai? Check city-wise prices and why the gap exists | Explained - Moneycontrol.com",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNjJoUUQ1ZU9wbUdudjFzREM5aVduYVY1NGI1Nmw4WlcwUTJyNzRRSVBkVGFheERyU3R5TEZUenBIMmg2U3p3bDh0WmYxeW5TQ3dneTRacEY3d0Zqcnp0S2lITlZiMWJYb2RyVXBpZHlSN0JmVV9wNi1KaTlISThVSWM3b2NZVnRNLWxHdkYxenNHd2hKc21veFZLRm4zYmprZDB2a2xCNTFSZTM1ZjFsTV9nczlNZC00ekJ4bFpvcEVZQ1lqSHM0MkM0V3hOUm9PREtreGpXenBranRlczdMQUVpRXd1SUs4eVBnSVJUMNIB7wFBVV95cUxQNjJoUUQ1ZU9wbUdudjFzREM5aVduYVY1NGI1Nmw4WlcwUTJyNzRRSVBkVGFheERyU3R5TEZUenBIMmg2U3p3bDh0WmYxeW5TQ3dneTRacEY3d0Zqcnp0S2lITlZiMWJYb2RyVXBpZHlSN0JmVV9wNi1KaTlISThVSWM3b2NZVnRNLWxHdkYxenNHd2hKc21veFZLRm4zYmprZDB2a2xCNTFSZTM1ZjFsTV9nczlNZC00ekJ4bFpvcEVZQ1lqSHM0MkM0V3hOUm9PREtreGpXenBranRlczdMQUVpRXd1SUs4eVBnSVJUMA?oc=5",
-     "source": "Moneycontrol.com"
-    },
-    {
-     "title": "Mahindra XUV 7XO Prices Hiked by Up to ₹20,000 in October 2026 – Check Revised Variant-Wise Prices - Auto Punditz",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSWZ5QVRxbmRVaHgxSGd2bnNKcy0wME1UanZkUzNsOG02U1VVN1Rzd1VCYUUyM0Y1akhzQ3lXWmFRYTF2amlMZzQxbkV2SERzRi14TEs0U3FnbHI5T3BncURhQW9YQnk0dmxEN2NoMkdsVl9BMXA1Ul85RzlHZjNja2dNVlAteXFKUkNFWU01aDk5dEU0SENMTw?oc=5",
-     "source": "Auto Punditz"
-    },
-    {
-     "title": "Fuel prices today: Check petrol, diesel and CNG rates on 22 October in different cities across India - Livemint",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNak1teXdEamVDZ2VTdjVwM3dfdU1XN0NqZDNFaGhLaGx4R0xhWFFWa3FtbUYxS3VfZms4U3EzZDVISE1qdml4MVlJMGExbGs0YlNvUjVLdTVfVWNoM1J3eGJZVmM3T19UTnYwVFNNYnJtR29kUGxnMnNtR0FzSl9wUmtUUlVkdUtLZXZWd1hFWThRRWpZVEpoSU45Ny1VQ2k2VDY4bFZuMUdBUXhLMGY5aTk4dzZJVkpIclNtVGxVTjhPZkNkcEF6dEZZY2dwRTByN3JMNHdCUDZfNUtDakhzZ0E3SdIB6AFBVV95cUxObWZBZW5wYWkwN3F4dmlTbGhMbjMxZHpqX1BHdHJNRW9OUnFub1pVN2ZHcTRnMEtrdmwyTDVkeENVd0tjLVIzc19mMFhLcUk0VFhVTVhtSGVOazlHbjRwekJzQzFYakx4Z204UTN5c0h0Mm54X3AwcXVWWlB5MWs2Y24tQTVKM0JlenlkRUtqejZhRWpaQk5haTN2Ym5OdlRvSUJUUzViWm9Zb2U0STFuVHdjUWpRcUpOMjBPZGlzRW5tY1FKdWdFMkhCYkRKNlpFYlpnVG5zRV9xUmI3SllBTG5iaHNnLXJO?oc=5",
-     "source": "Livemint"
-    },
-    {
-     "title": "The diesel squeeze: Rising fuel costs put the global potato supply chain under pressure - Potato News Today",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGUtVW5IRnFmV1R6SkgwMk5RcFhLQ245c0NiaDlQSjFQQVNZTzRhVmtWeW1NS1BaeWhQWllqSWhTVnljRzlmcnN2OE9zR24tekN1Z1pTQjRBdEVhMnI3TDFYYm83cjhHbFJNSVBUVm1WbzV6MVVJTkRyWDJESm41emo4RVlrM3dPTW02dFZDMG9OdF9pRnBIQkVzSm1NMExVblZ6OHQ5c3BNQzhMWlBuRHlwVkJBLXpDa2NKZzh5aThicW1yVGlUX0hn?oc=5",
-     "source": "Potato News Today"
     }
    ],
    "official": false,
@@ -702,124 +777,88 @@
   },
   {
    "source": "google_trends",
-   "keyword": "school leave today",
-   "traffic": 100,
-   "published": "2026-10-23T09:20:00+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "School holiday today, October 23, 2026: Check state-wise updates for Maharashtra, Tamil Nadu, UP, Delhi an",
-     "url": "https://m.economictimes.com/news/new-updates/school-holiday-tomorrow-today-october-23-2026-check-state-wise-updates-for-maharashtra-tamil-nadu-up-delhi-and-other-states/articleshow/135118340.cms",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "Diwali break in Maharashtra schools from November 2-15: Visit to these 5 offbeat destinations nearby",
-     "url": "https://www.moneycontrol.com/lifestyle/diwali-break-in-maharashtra-schools-from-november-2-15-visit-to-these-5-offbeat-destinations-nearby-article-14057627.html",
-     "source": "Moneycontrol.com"
-    },
-    {
-     "title": "Diwali Vacation 2026: Maharashtra Schools To Remain Closed For 13 Days; Check Full Holiday Schedule",
-     "url": "https://www.ndtvprofit.com/india/diwali-vacation-2026-maharashtra-schools-to-remain-closed-for-13-days-check-full-holiday-schedule-12215599",
-     "source": "NDTV Profit"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 17.1,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://economictimes.indiatimes.com/news/new-updates/school-holiday-tomorrow-today-october-23-2026-check-state-wise-updates-for-maharashtra-tamil-nadu-up-delhi-and-other-states/articleshow/135118340.cms?from=mdr",
-     "title": "School holiday today, October 23, 2026: Check state-wise updates for Maharashtra, Tamil Nadu, UP, Delhi an",
-     "outlet": "The Economic Times"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "lech poznań vs sunderland a.f.c. standings",
-   "traffic": 2000,
-   "published": "2026-10-23T09:40:00+09:00",
+   "keyword": "காரைக்கால்",
+   "traffic": 200,
+   "published": "2026-10-23T09:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Lech Poznan 1-1 Sunderland: Wasteful Black Cats held to draw",
-     "url": "https://www.bbc.com/sport/football/live/cqz0vym1pk55t",
+     "title": "காரைக்கால் கிரைம் செய்திகள்",
+     "url": "https://www.dinamalar.com/news/puducherry/karaikal-crime-news/4356158",
+     "source": "Dinamalar"
+    },
+    {
+     "title": "மது அருந்திய வாலிபர் கைது",
+     "url": "https://www.dinamalar.com/news/puducherry/alcoholic-youth-arrested/4351636",
+     "source": "Dinamalar"
+    },
+    {
+     "title": "காணொளி: தமிழ்நாட்டில் 22ஆம் தேதி எந்தெந்த மாவட்டங்களுக்கு கனமழை?",
+     "url": "https://www.bbc.com/tamil/articles/cqdr8zx5z32no",
      "source": "BBC"
-    },
-    {
-     "title": "Lech Poznan 1-1 Sunderland: Timur Tutierov's first Black Cats goal not enough as dominant visitors punished in Poland",
-     "url": "https://www.skysports.com/football/news/13600931/lech-poznan-1-1-sunderland-timur-tutierovs-first-black-cats-goal-not-enough-as-dominant-visitors-punished-in-poland",
-     "source": "Sky Sports"
-    },
-    {
-     "title": "Lech Poznan 1-1 Sunderland (Oct 22, 2026) Game Analysis",
-     "url": "https://www.espn.com/soccer/report/_/gameId/401915546",
-     "source": "ESPN"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
+   "spike": "검색량 100→200",
+   "spike_bonus": 20,
+   "score": 12.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.bbc.com/sport/football/live/cqz0vym1pk55t",
-     "title": "Lech Poznan 1-1 Sunderland: Wasteful Black Cats held to draw",
-     "outlet": "BBC"
+     "url": "https://www.dinamalar.com/news/puducherry/karaikal-crime-news/4356158",
+     "title": "காரைக்கால் கிரைம் செய்திகள்",
+     "outlet": "Dinamalar"
     },
     {
-     "url": "https://www.skysports.com/football/news/13600931/lech-poznan-1-1-sunderland-timur-tutierovs-first-black-cats-goal-not-enough-as-dominant-visitors-punished-in-poland",
-     "title": "Lech Poznan 1-1 Sunderland: Timur Tutierov's first Black Cats goal not enough as dominant visitors punished in Poland",
-     "outlet": "Sky Sports"
+     "url": "https://www.dinamalar.com/news/puducherry/alcoholic-youth-arrested/4351636",
+     "title": "மது அருந்திய வாலிபர் கைது",
+     "outlet": "Dinamalar"
+    },
+    {
+     "url": "https://www.bbc.com/tamil/articles/cqdr8zx5z32no",
+     "title": "காணொளி: தமிழ்நாட்டில் 22ஆம் தேதி எந்தெந்த மாவட்டங்களுக்கு கனமழை?",
+     "outlet": "BBC"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "today news",
-   "traffic": 2000,
-   "published": "2026-10-23T09:20:00+09:00",
+   "keyword": "weather bengaluru",
+   "traffic": 200,
+   "published": "2026-10-23T09:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Nothing Wrong With Seeking Regime Change In Democracy: Neha Bora Tells Delhi High Court",
-     "url": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-neha-bora-notice-peace-bond-regime-change-democracy-555633",
-     "source": "Live Law"
+     "title": "Cricbuzz Live: Match abandoned due to rain | Series drawn 2-2",
+     "url": "https://www.cricbuzz.com/cricket-videos/214107/cricbuzz-live-match-abandoned-due-to-rain-series-drawn-2-2",
+     "source": "Cricbuzz"
     },
     {
-     "title": "‘No permission needed to hoist national flag’: Neha Bora tells Delhi HC, challenges police notice",
-     "url": "https://timesofindia.indiatimes.com/india/no-permission-needed-to-hoist-national-flag-neha-bora-tells-delhi-hc-challenges-police-notice/articleshow/135116928.cms",
-     "source": "The Times of India"
+     "title": "Sammy proud of Windies progress post India T20I series",
+     "url": "https://www.icc-cricket.com/news/sammy-proud-of-windies-progress-post-india-t20i-series",
+     "source": "ICC"
     },
     {
-     "title": "Delhi High Court hears plea by Neha Bora challenging bond notice: LIVE UPDATES",
-     "url": "https://www.barandbench.com/news/delhi-high-court-hears-plea-by-neha-bora-challenging-bond-notice-live-updates",
-     "source": "Bar and Bench"
+     "title": "India vs West Indies 2026 - 5th T20I",
+     "url": "https://www.bcci.tv/photos/india-vs-west-indies-2026-5th-t20i",
+     "source": "BCCI"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
+   "spike": "검색량 100→200",
+   "spike_bonus": 20,
+   "score": 12.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-neha-bora-notice-peace-bond-regime-change-democracy-555633",
-     "title": "Nothing Wrong With Seeking Regime Change In Democracy: Neha Bora Tells Delhi High Court",
-     "outlet": "Live Law"
+     "url": "https://www.cricbuzz.com/cricket-videos/214107/cricbuzz-live-match-abandoned-due-to-rain-series-drawn-2-2",
+     "title": "Cricbuzz Live: Match abandoned due to rain | Series drawn 2-2",
+     "outlet": "Cricbuzz"
     },
     {
-     "url": "https://timesofindia.indiatimes.com/india/no-permission-needed-to-hoist-national-flag-neha-bora-tells-delhi-hc-challenges-police-notice/articleshow/135116928.cms",
-     "title": "‘No permission needed to hoist national flag’: Neha Bora tells Delhi HC, challenges police notice",
-     "outlet": "The Times of India"
-    },
-    {
-     "url": "https://www.barandbench.com/news/delhi-high-court-hears-plea-by-neha-bora-challenging-bond-notice-live-updates",
-     "title": "Delhi High Court hears plea by Neha Bora challenging bond notice: LIVE UPDATES",
-     "outlet": "Bar and Bench"
+     "url": "https://www.icc-cricket.com/news/sammy-proud-of-windies-progress-post-india-t20i-series",
+     "title": "Sammy proud of Windies progress post India T20I series",
+     "outlet": "ICC"
     }
    ]
   },
@@ -827,7 +866,7 @@
    "source": "google_news",
    "keyword": "8th pay commission",
    "traffic": 0,
-   "article_count_24h": 42,
+   "article_count_24h": 41,
    "article_count_1h": 0,
    "published": "2026-10-22T20:43:16+09:00",
    "category": "Government Schemes",
@@ -955,14 +994,9 @@
      "source": "Live Law"
     },
     {
-     "title": "Aadhaar authentication introduced on TDR portal - The Hindu",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORi04Z21UeEM5UjNsY1FhcG0ya2dod05CN0ttVThDRnBGeHZMN2F6cThrc2RPbVlUQTYzZFhUYnlpOWUxc3J2QXlPdmdBQnhNeTZYQV9zY1pGQlY2ZVdhTWd4U1YxbVVwMmNsakctaG9yaU11WFhIVk5ZV3VTVE1peVVqM0tvVDl3czZsTVR1eVBpSlR1WjhINEJnM1NCRmhGeFNlc1ZKaXdwMHJXNkRndEtlNkN0eWlVcFh6b1VR0gG-AUFVX3lxTE5GLThnbVR4QzlSM2xjUWFwbTJrZ2h3TkI3S21VOENGcEZ4dkw3YXpxOGtzZE9tWVRBNjNkWFRieWk5ZTFzcnZBeU92Z0FCeE15NlhBX3NjWkZCVjZlV2FNZ3hTVjFtVXAyY2xqRy1ob3JpTXVYWEhWTllXdVNUTWl5VWozS29UOXdzNmxNVHV5UGlKVHVaOEg0QmczU0JGaEZ4U2VzVkppd3Awclc2RGd0S2U2Q3R5aVVwWHpvVVE?oc=5",
-     "source": "The Hindu"
-    },
-    {
-     "title": "SBI weighs data leak impact, alerts cyber cover provider - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMGtFTVBoYTkwWEFlRElHVnRfNHFkeXByYllIOUhfRWZKMnNsRkdhNVFBdl9NUnpGdGhiVzNhQ3dkME9hNWdMUzJRaGdWRmJJdllDeUJFUmEzSHpwcERBMzMxMW5BdGJ4WDN1SlFwZkwzNDRjU0l5NHdvdUl2dGZkRWZMVENZR3AtQ3E1WndYZkRrX2tRTENjaHlyYzFKbHU0RFNLM1FwYUFndzl5LUdwQmdsb0VMZmRESU9ZZEF5dHhxcDFwcEdsUjZoWk5sTUZBSzFqWtIB3wFBVV95cUxPd2w4MUpENmhyakxhWjBQa3R1R29VV0IyTkRTWm9EdEs0eVQwS2s4XzF4RFBkMmRQNUIxVDU0RjNqZHlCSG5CTG9fR3lxMTdmZl9BVU9xY3R3WE9JRkRfR25KV2I2VlQwQ1hsZE9BcF9LUzFEV1pfWEZ5blNwTDB4Q3BCd0ZzS2VCSWJyd3lhTWNtZldHSDl0OWR1SDRyZ2owa0oyRUo5OUJMV0R1S0VicFd3YVFpNmc5U09CWUIwMXZ5Y2c3c21lQUxqM0NQN1lDa0d5U1dhQXNkd1FsU2ZB?oc=5",
-     "source": "The Economic Times"
+     "title": "Ker HC on Aadhaar database access in criminal investigation | SCC Times - SCC Online",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYXZHdFdGV1dOMV9OOW1mbDV3YUhIRHRNRmFncVFfYTRKVHFyQ1RDYVNPbk5ndnlncEJXX2V4YlJaNjZXUmR4Wlk4RTh0UlBJTlZudTZnU2h3UFZYWjBHMmFOZUtfSFF0X2NtZTI4QjVIYTFUdEM2ZmlTd284by1ma1N5OGZ5WFVwNWdiT2U5LV80STY1RXlPUWN5S0c3SHk1X1Y1TlFicTZ5RTRyVlhPX1plVGJhaWJtR1RZYW9aLTMxUlctSFdMNGtPMC15ek1DLUdMXw?oc=5",
+     "source": "SCC Online"
     },
     {
      "title": "Driving licence test to require minimum 75% marks: Limit raised from 60%; name and address changes on card ... - Bhaskar English",
@@ -973,6 +1007,11 @@
      "title": "How to download e-Aadhaar online: From OTP authentication to PDF password | India News - Hindustan Times",
      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMlVudUYwQUtEc1N0UjhkY3BOWUNKZ25SQjUxZGthTDRVWklCRjVrWEVkV3ljekMtUTdabVBJMnF3MzhBbjhsSHhFRmw4VXVsdEpHcGtweXg1d1NFcFlJbnhnVzZXLWYxV3d5Rm96ZHo4bGhXWkdibWtua2c3d1pWXzJTa0ZaTlhhQldyUUdlZW42bUp2M014YU9JOEdGdEROM25tVVB1V3ZMdUN6cFpDZGljTEhSZ0JUZmw0OVNueDZpaUdYb2EwR2VoMEhTak5mc1VOd29SUTFITEV0S0g1ZG9odndDYXZRRVUzemF3V0t6VFp60gH0AUFVX3lxTE4yVW51RjBBS0RzU3RSOGRjcE5ZQ0pnblJCNTFka2FMNFVaSUJGNWtYRWRXeWN6Qy1RN1ptUEkycXczOEFuOGxIeEVGbDhVdWx0Skdwa3B5eDV3U0VwWUlueGdXNlctZjFXd3lGb3pkejhsaFdaR2Jta25rZzd3WlZfMlNrRlpOWGFCV3JRR2VlbjZtSnYzTXhhT0k4R0Z0RE4zbm1VUHVXdkx1Q3pwWkNkaWNMSFJnQlRmbDQ5U254NmlpR1hvYTBHZWgwSFNqTmZzVU53b1JRMUhMRXRLSDVkb2h2d0NhdlFFVTN6YXdXS3pUWno?oc=5",
      "source": "Hindustan Times"
+    },
+    {
+     "title": "Aadhaar authentication introduced on TDR portal - The Hindu",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORi04Z21UeEM5UjNsY1FhcG0ya2dod05CN0ttVThDRnBGeHZMN2F6cThrc2RPbVlUQTYzZFhUYnlpOWUxc3J2QXlPdmdBQnhNeTZYQV9zY1pGQlY2ZVdhTWd4U1YxbVVwMmNsakctaG9yaU11WFhIVk5ZV3VTVE1peVVqM0tvVDl3czZsTVR1eVBpSlR1WjhINEJnM1NCRmhGeFNlc1ZKaXdwMHJXNkRndEtlNkN0eWlVcFh6b1VR0gG-AUFVX3lxTE5GLThnbVR4QzlSM2xjUWFwbTJrZ2h3TkI3S21VOENGcEZ4dkw3YXpxOGtzZE9tWVRBNjNkWFRieWk5ZTFzcnZBeU92Z0FCeE15NlhBX3NjWkZCVjZlV2FNZ3hTVjFtVXAyY2xqRy1ob3JpTXVYWEhWTllXdVNUTWl5VWozS29UOXdzNmxNVHV5UGlKVHVaOEg0QmczU0JGaEZ4U2VzVkppd3Awclc2RGd0S2U2Q3R5aVVwWHpvVVE?oc=5",
+     "source": "The Hindu"
     }
    ],
    "official": false,
@@ -983,7 +1022,7 @@
    "source": "google_news",
    "keyword": "LPG cylinder price",
    "traffic": 0,
-   "article_count_24h": 22,
+   "article_count_24h": 40,
    "article_count_1h": 0,
    "published": "2026-10-22T19:35:36+09:00",
    "category": "Government Schemes",
@@ -999,6 +1038,11 @@
      "source": "New Age BD"
     },
     {
+     "title": "HPCL Q2 Results: Profit slips 6% YoY to Rs 3,625 crore, revenue jumps 26% - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUTlCVTVqSnhYa05BYkYtTjJvU3BFNGl4ZGVxWXR1RFlIRGFVVFk4YXBEckJNcEZ0ZVRoZ3N1S0t2WVYyNHNLb0k3R0FQR3kwT2FiS2M2SUNPZ0hoMThrX0k4ckdUdUo4M0tWaFBtbXFXVUtNc19sVGlhT0ctRHQ0TlNIRjUtZTROR0FNTFhWZ1NIbDQ4em9MZVc3eklqRGFFWktWWF9saTZ4b2h0YnA5bUZVVk1fMGQxMTI3MFJETG1sd3Bkd0pEczRXbnVNaHd2UFhTRXpHbWRVWUdBbTVJ0gHkAUFVX3lxTE5aRlFuUDlJcF9sRUlfYmx0Zm9rbG9FTTVGWDNYTldtR20tcVJWM25EN3NOSklwRjdJSlgtWGtCN3IxMjZiVm5PS21pa0M5N0F3aElYZ0gxYkN1SnpvRWd6c2FsSVUwNzdvbjB5UzUzcVFJNFVHWFJOX2d5WEVvcWdEN3oxZVNETXlBdWlLQ083RG96Y2pVbVBKVFpvcmFfcVZOTWVPRGFIaFAyQWlySy1sTnhlQVBtbEtUbFNHRHZ3bGVEXzU0RVFVejJHVEpDWGtEcS1weDNwZUxjd3JMLVFCVGNnWA?oc=5",
+     "source": "The Economic Times"
+    },
+    {
      "title": "Gas prices in Europe rise to nearly €90 per MWh — OilPrice - UA.NEWS",
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUkl5cjVBNEVYemJ6dllKMkZ4cUp5UUNJZXFER3h0eHYteS1wa0FySDBSMG5ZNllMdXRBU1BSN0JrUlFmMHZGQUk1Yl81dnJ2MF84cVhELVdPM2JISlA0UnNnckZOcjhXb0d3a3h0M2lxaGlXaVEwQzZvVzFqTFVKWWlILUNULWRxQmQ1V0FOaHMxRFpERnhCWHVfMnB3dw?oc=5",
      "source": "UA.NEWS"
@@ -1007,11 +1051,6 @@
      "title": "LPG prices hit Rs580/kg amid gas shortages - The Express Tribune",
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSjc3N0JYZkFHSzhHYVNFb2ZWY0xEcHViMUxIWnNURjE5eWhYRngwbGQ5TGhJa0RkdjBrLUZLcjBnaXc2RjhyeVdKRmNjT1RmWnRJYjJRMmt2cTY1OVV6TjdsNXZCbFNCSzNjZi0wRkhGTU42cklPNDU4MFkxQmxuN0lzdnjSAYwBQVVfeXFMT1Z2MWZ0ZExCSGhhSDE2bS1BV01XWlZHdXBhbl94amFIYmNDVURjNFVRekpOU2pYdnJJTmppYmNTUHMxOWIxY0k5bF9lREZORGozQWFYb19WS05BbktQRmVGdXpGa1lWWHNQbFo2Rm5odTdreW44YzdCaWx1VnhDYUNyeWs4NENTTW9rSVE?oc=5",
      "source": "The Express Tribune"
-    },
-    {
-     "title": "Another LPG price hike looms in November - Daily Tribune",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JUDNWNVA3dHJnU3d4aEZuZXlKWTdGdzNsZlVyNFlqSE1TWTZBaVZJT1FIcWZPOE5KSjdDTkJGc1M0QzNuSzF0YjgxYWU4X21uVFFVYjJDVHU5eVZ1Nkxqc2hPZTlLUXcwaDdzbkZ6WUlUd092TkV1Z0p5Z1dfekE?oc=5",
-     "source": "Daily Tribune"
     }
    ],
    "official": false,
@@ -1020,48 +1059,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "IMD cyclone alert",
-   "traffic": 0,
-   "article_count_24h": 9,
-   "article_count_1h": 0,
-   "published": "2026-10-22T23:54:14+09:00",
-   "category": "Weather",
-   "news": [
-    {
-     "title": "🔴କାଲି ଲଘୁଚାପ | Low Pressure & Potential Cyclone Alert: IMD Weather Update and Track Prediction - Kanak News Odisha",
-     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVW1PeW44Z0otc0dCUkxiS2FPcXViNlY0TUduNXlYQjE2SXl3NVpiTFkyZkpQWDZyb1U4SURDYXNmc1ItZ3NlNXdDUUdtN2RrQURuNWdoSjN3cFVQQWZCYk0yc0U3VTVENXR5RE12Tnl5cmhHN2RwSk9MbExLWGplOWpyTjVOVlZFSkdrbjBNMWNVR1Y4WGM3X1NjemVmeHE0YlplWXpkVnBoQ3gwUDA5VEZOSEtHSUNIYWhORHJ0RlZNZ2tVVG5rNkhJaUdOR2VVdDlaT01hU2UzUFB1SFJZZkkzVzdPSWNPTWlCcHVuVjhCeXVHNklvRzEwRzB0Qy14Z0pNcHpud0JwZUprMHlV0gGPAkFVX3lxTE9VbU95bjhnSi1zR0JSTGJLYU9xdWI2VjRNR241eVhCMTZJeXc1WmJMWTJmSlBYNnJvVThJRENhc2ZzUi1nc2U1d0NRR203ZGtBRG41Z2hKM3dwVVBBZkJiTTJzRTdVNUQ1dHlETXZOeXlyaEc3ZHBKT0xsTEtYamU5anJONU5WVkVKR2tuME0xY1VHVjhYYzdfU2N6ZWZ4cTRiWmVZemRWcGhDeDBQMDlURk5IS0dJQ0hhaE5EcnRGVk1na1VUbms2SElpR05HZVV0OVpPTWFTZTNQUHVIUllmSTNXN09JY09NaUJwdW5WOEJ5dUc2SW9HMTBHMHRDLXhnSk1wem53QnBlSmsweVU?oc=5",
-     "source": "Kanak News Odisha"
-    },
-    {
-     "title": "🔴୨୯ରେ ବାତ୍ୟା ! Cyclone Threat Looms on October 29: IMD Weather Alert, Low Pressure & Path Forecast - Kanak News Odisha",
-     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNc3lRNHNDTEZabHotVHF5eGwzWk5CZFNJZ3hvck1aQ2JDbzVmQVRzSkxZWHhlQ1k0SFV0bnJZUTlydmpLOGUxdFd4T1FnNDVNZHhURG1qMFhjc3Y4aUZFdWdhUFZMTUdtcDhWc2xjZUJuZkNSRURvVm5ueU45M2VUdFpDa3pwcWFfaUt6U3N4LXREQnVSNHVyVnktRW9NNDhSUmtOZ0p6MUNZQk9GeTBvR2lIV0x2SXRKbnBSSHk1YzRCMUJwbjdTNkttSGRrT0FGcGR1MWNoYlNsSkNKUFV4a2RpN2tIUm1YVUdCQlNEVFV4cXlPLVhsSFJNR3Vsd2t3ODNrSm1OYnB5ZGVjZVgtaVN6SdIBkwJBVV95cUxNc3lRNHNDTEZabHotVHF5eGwzWk5CZFNJZ3hvck1aQ2JDbzVmQVRzSkxZWHhlQ1k0SFV0bnJZUTlydmpLOGUxdFd4T1FnNDVNZHhURG1qMFhjc3Y4aUZFdWdhUFZMTUdtcDhWc2xjZUJuZkNSRURvVm5ueU45M2VUdFpDa3pwcWFfaUt6U3N4LXREQnVSNHVyVnktRW9NNDhSUmtOZ0p6MUNZQk9GeTBvR2lIV0x2SXRKbnBSSHk1YzRCMUJwbjdTNkttSGRrT0FGcGR1MWNoYlNsSkNKUFV4a2RpN2tIUm1YVUdCQlNEVFV4cXlPLVhsSFJNR3Vsd2t3ODNrSm1OYnB5ZGVjZVgtaVN6SQ?oc=5",
-     "source": "Kanak News Odisha"
-    },
-    {
-     "title": "Delhi Weather Today: Massive Dust Storm Hits NCR; Monsoon Delayed by 15 Days; When Will Rain Arrive in Delhi? - Goodreturns",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdlNkeWI4UmlkSDhGb21WT0F6Z3ZrVFNrR21nd1J5UmtZWkN5clpLbHZ5cXdMVlB1X05xQmR4S2ZzNndsTXFhbFhjVy00MjUyZjJsbnVhbm94UW5KUzlYRl9Ucno3QjhIaGo1TE5kMkNfVjhodkthTzItZXZzTmszV3BRTWhQZm5GSjVxSldSUF9QM0I5Y2RfdmNoVThkYndDR1VQLTBqXzVXd1JZVXpIbTVETVRwNXRRTG5uRzMwSGF5V012V29rUk9hMmsyUlFMejZyWlprUzQ?oc=5",
-     "source": "Goodreturns"
-    },
-    {
-     "title": "Bay of Bengal Weather Update | Cyclone Possibility Remains Uncertain - Kanak News Odisha",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZjdlX1NVMlZMQU44bXVXd2EyZ3QxV0xoY2NDQUFpd1VWNUZiWU9JcHFPeUszVXZHTU95NzV5NVBmMkM3ZmRBdTBzS2dQZmVfV3lDc21hd1c1cnQ4Tkxvem5qZGc4LXdNVzF1dkhBWTBnQmVWRVJIanBuRGtrZW90NzZsZ0prV295TU9xR1huWjZaQWwwc1ZlX2VqaDNmaWpmeHF2d1B4ZTIxWGpYVFllS0JR0gG3AUFVX3lxTE5nbW5SMEFTa19iZDRZT3FHWW1MankzY0JQc0tDeXV4UngwNFV3SlA5aTVHU29ibERZRzZxRkxDZWpXd2p4dlAtanJ1QnV1M1hyeEdtMmF5UU5iODRaSHRFc3M1ZkNDMzN6VHk2ZWszZWIxQ3FHWkI5Y3JDbGszbnFZTVpPU05NdElRU1JIcTU1QXlqT3NGU19SQThGTWJNbGRvMjhXbFdLbG5pM0ltWmtRVnczMXQ2QQ?oc=5",
-     "source": "Kanak News Odisha"
-    },
-    {
-     "title": "Weather Alert Bay of Bengal Low-Pressure May Intensify, IMD Issues Alert - Argus English",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQlotTWxmRjNycXNxY1d6blpJeWkycWNtS1AtN25sZEprTi1EOGx0X1lhVkNKVEV6R3YybEluRUNseEc5aW5fUldsV01fVU0tV2VNa1hYV0duVnlodW9Ha1AyclRlV0pxVjVxcnp1SV9NU3Ayd2dkMXJ1a3NSMG5PUFVkREFTSXdCTTFxY2lFc2dBQQ?oc=5",
-     "source": "Argus English"
-    }
-   ],
-   "official": false,
-   "score": 11.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "UPI new rule",
    "traffic": 0,
-   "article_count_24h": 8,
+   "article_count_24h": 9,
    "article_count_1h": 0,
    "published": "2026-10-23T03:32:29+09:00",
    "category": "Government Schemes",
@@ -1082,14 +1082,53 @@
      "source": "CAclubindia"
     },
     {
-     "title": "Weekly jobless claims fall near 60-year low in U.S. - upi",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTEY0STdHM0tJM1JEdEpMYUJZbDVrOGRVUW8zQWkwZE5wYjV2OE9GNWZZSkFnTEROSFpSbXEtS1VxY0NPOHlvR1Z3M2FJT1NmTHhNOEhqa2sxYTJnQ3ZRQzdmMzVnZk5PdDUtUl9ZMF9xYW83S013NGI5TWxUZHo4X1BUd1VPSlNhUlQ5b2pyVXFjLUlTMGdKQUl2LXhQOGRacUHSAacBQVVfeXFMUDh6M0dqWktWUVVsX0hsMzZ3d0Z5RElMdGxRbVdjTzV1VU85UlNCRkVnNlNDeFhsOUdWTnFSQzZTeEpIVG8wSzFES2FpSTIzNFNRd3d6RHYzY1JSdUgxYk1RZnp4N1Z0MlhTZ0lpOGdxcGdxVW85M0VqLUl6Si0tYzZSRDhXRkpFVmphNUdpSXRwemJ5LVotV0hNOUc3VUZ4QWdPLURraGM?oc=5",
+     "title": "South Korea formalizes procedures for trade restrictions - upi",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaWVocjZCRjZtSzlqdnBqT3QxeXc1YWJQNGIwc05uQ1hraVJkdzBraTFnU3JNcjRKMzgxaDBmc3dGNTdrRTVpM1F1RmFpeFowbERGX3Y5Z3Y3T1NSdXFBX0V2LU01X1ptNTNKQ29vQUxtZmZibEVyUFRTTkhhdmczelcyVElzWmppRkFQNEs3dmF3US1VdjZ0VVYwRkRwbW0weUZQUzdianNPRDlOM1hOUlBKT3nSAboBQVVfeXFMTVlvbmJVQlk1akdydU92VzZIQW5FalRibGQ3SFNEVjIwWGI0QkctS01YUHRWVExZZkUyZWYwN0RYNXhFZzAxMFk4RFZoLU9CUWlrRFEzc0lXekhZOEVDXzNLNVBQeFNkdTEzdV9LNURjNjdUcFZuM05uV3FfVDY2X2ZTYm1ZM0dxeTFMT19Kd0xRMGMxMm00d20telpEVWl1dlBGdUQzSkhkR0F6Z0ZOTUNpSG1TUWZwSDdB?oc=5",
      "source": "upi"
     },
     {
-     "title": "Meta, Zuckerberg cut deal to shield him from wealth tax - upi",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaHhmRGlvMEtvM1I0VG1YM3BQYXB1WG00Um1tTFByRkJRd05qbHNneFVmLUNZNmFxRXYwV0EwSmxkdmxXRWIxd2NqaEJYQWRTbnRidmU5YUF3RUhuMDZDb282U1dRZlVUTXhmS0dVMTBiSFBKcXV1RnVWSlRvaXc2eHR5d2VmMlIxd0J3eUJQMmFHTXVNdmfSAZsBQVVfeXFMUDNwUWJfZE5Kb2tnMlFXZXFHM0w2S0RYTDNqTkg5ckVURHJOYVVheGlodmYtWFNBZGZYQ19iWjZ3VmI0RzNBSEFOOUZPd3V5OGRwcHpndnJTbTl6MzF5amU1NzltNUxkMUc3b2R0QmN4OW96N3IwMTNncVZ3RDE3OHlaYmE2UmRRaUJ2a0piTGx2SmdWdkVoX2Iyalk?oc=5",
+     "title": "Weekly jobless claims fall near 60-year low in U.S. - upi",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTEY0STdHM0tJM1JEdEpMYUJZbDVrOGRVUW8zQWkwZE5wYjV2OE9GNWZZSkFnTEROSFpSbXEtS1VxY0NPOHlvR1Z3M2FJT1NmTHhNOEhqa2sxYTJnQ3ZRQzdmMzVnZk5PdDUtUl9ZMF9xYW83S013NGI5TWxUZHo4X1BUd1VPSlNhUlQ5b2pyVXFjLUlTMGdKQUl2LXhQOGRacUHSAacBQVVfeXFMUDh6M0dqWktWUVVsX0hsMzZ3d0Z5RElMdGxRbVdjTzV1VU85UlNCRkVnNlNDeFhsOUdWTnFSQzZTeEpIVG8wSzFES2FpSTIzNFNRd3d6RHYzY1JSdUgxYk1RZnp4N1Z0MlhTZ0lpOGdxcGdxVW85M0VqLUl6Si0tYzZSRDhXRkpFVmphNUdpSXRwemJ5LVotV0hNOUc3VUZ4QWdPLURraGM?oc=5",
      "source": "upi"
+    }
+   ],
+   "official": false,
+   "score": 11.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "IMD cyclone alert",
+   "traffic": 0,
+   "article_count_24h": 8,
+   "article_count_1h": 0,
+   "published": "2026-10-22T23:54:14+09:00",
+   "category": "Weather",
+   "news": [
+    {
+     "title": "🔴କାଲି ଲଘୁଚାପ | Low Pressure & Potential Cyclone Alert: IMD Weather Update and Track Prediction - Kanak News Odisha",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVW1PeW44Z0otc0dCUkxiS2FPcXViNlY0TUduNXlYQjE2SXl3NVpiTFkyZkpQWDZyb1U4SURDYXNmc1ItZ3NlNXdDUUdtN2RrQURuNWdoSjN3cFVQQWZCYk0yc0U3VTVENXR5RE12Tnl5cmhHN2RwSk9MbExLWGplOWpyTjVOVlZFSkdrbjBNMWNVR1Y4WGM3X1NjemVmeHE0YlplWXpkVnBoQ3gwUDA5VEZOSEtHSUNIYWhORHJ0RlZNZ2tVVG5rNkhJaUdOR2VVdDlaT01hU2UzUFB1SFJZZkkzVzdPSWNPTWlCcHVuVjhCeXVHNklvRzEwRzB0Qy14Z0pNcHpud0JwZUprMHlV0gGPAkFVX3lxTE9VbU95bjhnSi1zR0JSTGJLYU9xdWI2VjRNR241eVhCMTZJeXc1WmJMWTJmSlBYNnJvVThJRENhc2ZzUi1nc2U1d0NRR203ZGtBRG41Z2hKM3dwVVBBZkJiTTJzRTdVNUQ1dHlETXZOeXlyaEc3ZHBKT0xsTEtYamU5anJONU5WVkVKR2tuME0xY1VHVjhYYzdfU2N6ZWZ4cTRiWmVZemRWcGhDeDBQMDlURk5IS0dJQ0hhaE5EcnRGVk1na1VUbms2SElpR05HZVV0OVpPTWFTZTNQUHVIUllmSTNXN09JY09NaUJwdW5WOEJ5dUc2SW9HMTBHMHRDLXhnSk1wem53QnBlSmsweVU?oc=5",
+     "source": "Kanak News Odisha"
+    },
+    {
+     "title": "🔴୨୯ରେ ବାତ୍ୟା ! Cyclone Threat Looms on October 29: IMD Weather Alert, Low Pressure & Path Forecast - Kanak News Odisha",
+     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNc3lRNHNDTEZabHotVHF5eGwzWk5CZFNJZ3hvck1aQ2JDbzVmQVRzSkxZWHhlQ1k0SFV0bnJZUTlydmpLOGUxdFd4T1FnNDVNZHhURG1qMFhjc3Y4aUZFdWdhUFZMTUdtcDhWc2xjZUJuZkNSRURvVm5ueU45M2VUdFpDa3pwcWFfaUt6U3N4LXREQnVSNHVyVnktRW9NNDhSUmtOZ0p6MUNZQk9GeTBvR2lIV0x2SXRKbnBSSHk1YzRCMUJwbjdTNkttSGRrT0FGcGR1MWNoYlNsSkNKUFV4a2RpN2tIUm1YVUdCQlNEVFV4cXlPLVhsSFJNR3Vsd2t3ODNrSm1OYnB5ZGVjZVgtaVN6SdIBkwJBVV95cUxNc3lRNHNDTEZabHotVHF5eGwzWk5CZFNJZ3hvck1aQ2JDbzVmQVRzSkxZWHhlQ1k0SFV0bnJZUTlydmpLOGUxdFd4T1FnNDVNZHhURG1qMFhjc3Y4aUZFdWdhUFZMTUdtcDhWc2xjZUJuZkNSRURvVm5ueU45M2VUdFpDa3pwcWFfaUt6U3N4LXREQnVSNHVyVnktRW9NNDhSUmtOZ0p6MUNZQk9GeTBvR2lIV0x2SXRKbnBSSHk1YzRCMUJwbjdTNkttSGRrT0FGcGR1MWNoYlNsSkNKUFV4a2RpN2tIUm1YVUdCQlNEVFV4cXlPLVhsSFJNR3Vsd2t3ODNrSm1OYnB5ZGVjZVgtaVN6SQ?oc=5",
+     "source": "Kanak News Odisha"
+    },
+    {
+     "title": "Bay of Bengal Weather Update | Cyclone Possibility Remains Uncertain - Kanak News Odisha",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZjdlX1NVMlZMQU44bXVXd2EyZ3QxV0xoY2NDQUFpd1VWNUZiWU9JcHFPeUszVXZHTU95NzV5NVBmMkM3ZmRBdTBzS2dQZmVfV3lDc21hd1c1cnQ4Tkxvem5qZGc4LXdNVzF1dkhBWTBnQmVWRVJIanBuRGtrZW90NzZsZ0prV295TU9xR1huWjZaQWwwc1ZlX2VqaDNmaWpmeHF2d1B4ZTIxWGpYVFllS0JR0gG3AUFVX3lxTE5nbW5SMEFTa19iZDRZT3FHWW1MankzY0JQc0tDeXV4UngwNFV3SlA5aTVHU29ibERZRzZxRkxDZWpXd2p4dlAtanJ1QnV1M1hyeEdtMmF5UU5iODRaSHRFc3M1ZkNDMzN6VHk2ZWszZWIxQ3FHWkI5Y3JDbGszbnFZTVpPU05NdElRU1JIcTU1QXlqT3NGU19SQThGTWJNbGRvMjhXbFdLbG5pM0ltWmtRVnczMXQ2QQ?oc=5",
+     "source": "Kanak News Odisha"
+    },
+    {
+     "title": "Weather Alert Bay of Bengal Low-Pressure May Intensify, IMD Issues Alert - Argus English",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQlotTWxmRjNycXNxY1d6blpJeWkycWNtS1AtN25sZEprTi1EOGx0X1lhVkNKVEV6R3YybEluRUNseEc5aW5fUldsV01fVU0tV2VNa1hYV0duVnlodW9Ha1AyclRlV0pxVjVxcnp1SV9NU3Ayd2dkMXJ1a3NSMG5PUFVkREFTSXdCTTFxY2lFc2dBQQ?oc=5",
+     "source": "Argus English"
+    },
+    {
+     "title": "Bay Bengal Low Raises Cyclone Fears In AP - Sakshi Post",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWkRaekk5MGtlamZMUjAwRjUyRDBlYlh5MmJNVXdpM0Y1WGViTy1CNjdiX0xoRHRyTGo0WTJ2MjVIZGYwaFdrdk1RaDdDSTh0bV9rcUQ4cFVuUHZpS2drNURtYXNsMTdCNE9fMTRROUVEZmdMNzlkZ3pTSlA0ZkF5dVhUaXplMkZ3WUwzM1hiWmpIem1NNllVONIBmAFBVV95cUxNWkRaekk5MGtlamZMUjAwRjUyRDBlYlh5MmJNVXdpM0Y1WGViTy1CNjdiX0xoRHRyTGo0WTJ2MjVIZGYwaFdrdk1RaDdDSTh0bV9rcUQ4cFVuUHZpS2drNURtYXNsMTdCNE9fMTRROUVEZmdMNzlkZ3pTSlA0ZkF5dVhUaXplMkZ3WUwzM1hiWmpIem1NNllVOA?oc=5",
+     "source": "Sakshi Post"
     }
    ],
    "official": false,
@@ -1098,25 +1137,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "antimatter",
+   "keyword": "मोटोरोला",
    "traffic": 200,
-   "published": "2026-10-23T09:30:00+09:00",
+   "published": "2026-10-23T10:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Physicists trap a single antimatter particle for a month",
-     "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
-     "source": "Scientific American"
+     "title": "₹15 हजार से कम में LAVA का ये 5G फोन, सेल में मची लूट!",
+     "url": "https://www.aajtak.in/visualstories/technology/lava-bold-n4-pro-5g-amazon-great-indian-festival-sale-deal-prym-286861-22-10-2026",
+     "source": "AajTak"
     },
     {
-     "title": "A Quantum Cyclotron for Antimatter",
-     "url": "https://physics.aps.org/articles/v19/132",
-     "source": "American Physical Society"
+     "title": "7,000mAh की बैटरी वाला Realme 5G फोन... खरीदें 16,249 रुपये में, 144Hz डिस्प्ले भी",
+     "url": "https://www.jagran.com/technology/tech-news-realme-p4-lite-5g-available-with-offers-on-flipkart-check-details-40412216.html",
+     "source": "Jagran"
     },
     {
-     "title": "Physicists trap and tame single particle of antimatter for months",
-     "url": "https://phys.org/news/2026-10-physicists-particle-antimatter-months.html",
-     "source": "Phys.org"
+     "title": "मौका! ₹5500 तक सस्ते हुए Motorola के 50MP कैमरा और 7000mAh तक की बैटरी वाले धांसू फोन, सबसे सस्ता ₹16,499 का",
+     "url": "https://www.livehindustan.com/photos/gadgets/big-discount-on-5-best-50mp-camera-motorola-smartphones-get-up-to-5500-rupees-off-in-flipkart-big-shopping-utsav-sale-201792655969034.html",
+     "source": "Hindustan"
     }
    ],
    "official": false,
@@ -1126,207 +1165,176 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
-     "title": "Physicists trap a single antimatter particle for a month",
-     "outlet": "Scientific American"
+     "url": "https://www.aajtak.in/visualstories/technology/lava-bold-n4-pro-5g-amazon-great-indian-festival-sale-deal-prym-286861-22-10-2026",
+     "title": "₹15 हजार से कम में LAVA का ये 5G फोन, सेल में मची लूट!",
+     "outlet": "AajTak"
     },
     {
-     "url": "https://physics.aps.org/articles/v19/132",
-     "title": "A Quantum Cyclotron for Antimatter",
-     "outlet": "American Physical Society"
+     "url": "https://www.jagran.com/technology/tech-news-realme-p4-lite-5g-available-with-offers-on-flipkart-check-details-40412216.html",
+     "title": "7,000mAh की बैटरी वाला Realme 5G फोन... खरीदें 16,249 रुपये में, 144Hz डिस्प्ले भी",
+     "outlet": "Jagran"
+    },
+    {
+     "url": "https://www.livehindustan.com/photos/gadgets/big-discount-on-5-best-50mp-camera-motorola-smartphones-get-up-to-5500-rupees-off-in-flipkart-big-shopping-utsav-sale-201792655969034.html",
+     "title": "मौका! ₹5500 तक सस्ते हुए Motorola के 50MP कैमरा और 7000mAh तक की बैटरी वाले धांसू फोन, सबसे सस्ता ₹16,499 का",
+     "outlet": "Hindustan"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "e",
+   "keyword": "news today",
    "traffic": 200,
-   "published": "2026-10-23T09:30:00+09:00",
+   "published": "2026-10-23T10:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Several California parents charged following their children's accidents on e-motos",
-     "url": "https://abcnews.com/US/california-parents-charged-childrens-accidents-motos/story?id=137473876",
-     "source": "ABC News - Breaking News, Latest News and Videos"
+     "title": "Saudi Arabia executes 2 Bangladeshis over ‘indecent acts’ in a Mecca mosque",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3371424/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-holy-city-mecca",
+     "source": "South China Morning Post"
     },
     {
-     "title": "More parents facing criminal charges for their children's electric motorcycle accidents",
-     "url": "https://www.cbsnews.com/news/parents-children-electric-motorcycle-crashes-criminal-charges/",
-     "source": "CBS News"
+     "title": "No, Photo Doesn’t Show Bangladeshi Nationals Who Were Executed in Saudi Arabia",
+     "url": "https://www.thequint.com/news/webqoof/old-unrelated-photo-falsely-linked-to-saudi-arabia-executing-bangladeshi-man-woman-fact-check",
+     "source": "The Quint"
     },
     {
-     "title": "Stunning twist as parents charged in son’s deadly e-bike crash",
-     "url": "https://www.yahoo.com/news/us/articles/stunning-twist-parents-charged-son-020026484.html",
-     "source": "Yahoo"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://abcnews.com/US/california-parents-charged-childrens-accidents-motos/story?id=137473876",
-     "title": "Several California parents charged following their children's accidents on e-motos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "url": "https://www.cbsnews.com/news/parents-children-electric-motorcycle-crashes-criminal-charges/",
-     "title": "More parents facing criminal charges for their children's electric motorcycle accidents",
-     "outlet": "CBS News"
-    },
-    {
-     "url": "https://www.yahoo.com/news/us/articles/stunning-twist-parents-charged-son-020026484.html",
-     "title": "Stunning twist as parents charged in son’s deadly e-bike crash",
-     "outlet": "Yahoo"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "காரைக்கால்",
-   "traffic": 100,
-   "published": "2026-10-23T09:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "எஸ்.பி.,யை பிடிக்க முடியாமல் காரைக்கால் போலீசார் திணறல்",
-     "url": "https://www.dinamalar.com/news/puducherry/karaikal-police-scramble-to-nab-sp/4355632",
-     "source": "Dinamalar"
-    },
-    {
-     "title": "நள்ளிரவு வீடியோ கால் மூலம் பாலியல் தொல்லை? காரைக்கால் முன்னாள் எஸ்.பி. மீது",
-     "url": "https://tamil.abplive.com/news/tamil-nadu/karaikal-former-sp-subramanian-woman-police-harassment-case-277699",
-     "source": "ABP Nadu"
-    },
-    {
-     "title": "காணொளி: தமிழ்நாட்டில் 22ஆம் தேதி எந்தெந்த மாவட்டங்களுக்கு கனமழை?",
-     "url": "https://www.bbc.com/tamil/articles/cqdr8zx5z32no",
+     "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
+     "url": "https://www.bbc.com/news/articles/cmde83w13p00o",
      "source": "BBC"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 9.3,
+   "score": 9.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.dinamalar.com/news/puducherry/karaikal-police-scramble-to-nab-sp/4355632",
-     "title": "எஸ்.பி.,யை பிடிக்க முடியாமல் காரைக்கால் போலீசார் திணறல்",
-     "outlet": "Dinamalar"
+     "url": "https://www.scmp.com/news/world/middle-east/article/3371424/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-holy-city-mecca",
+     "title": "Saudi Arabia executes 2 Bangladeshis over ‘indecent acts’ in a Mecca mosque",
+     "outlet": "South China Morning Post"
     },
     {
-     "url": "https://tamil.abplive.com/news/tamil-nadu/karaikal-former-sp-subramanian-woman-police-harassment-case-277699",
-     "title": "நள்ளிரவு வீடியோ கால் மூலம் பாலியல் தொல்லை? காரைக்கால் முன்னாள் எஸ்.பி. மீது",
-     "outlet": "ABP Nadu"
+     "url": "https://www.thequint.com/news/webqoof/old-unrelated-photo-falsely-linked-to-saudi-arabia-executing-bangladeshi-man-woman-fact-check",
+     "title": "No, Photo Doesn’t Show Bangladeshi Nationals Who Were Executed in Saudi Arabia",
+     "outlet": "The Quint"
     },
     {
-     "url": "https://www.bbc.com/tamil/articles/cqdr8zx5z32no",
-     "title": "காணொளி: தமிழ்நாட்டில் 22ஆம் தேதி எந்தெந்த மாவட்டங்களுக்கு கனமழை?",
+     "url": "https://www.bbc.com/news/articles/cmde83w13p00o",
+     "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
      "outlet": "BBC"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "weather bengaluru",
-   "traffic": 100,
-   "published": "2026-10-23T09:50:00+09:00",
+   "keyword": "flamengo vs estudiantes",
+   "traffic": 200,
+   "published": "2026-10-23T10:00:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "IND vs WI 2026, 5th T20I: Match Highlights",
-     "url": "https://www.bcci.tv/videos/s-ind-vs-wi-2026-5th-t20i-match-highlights-w4ok5a",
-     "source": "BCCI"
+     "title": "Jardim sopesa ajustar el medio: vuelve Jorginho a Flamengo ante Estudiantes",
+     "url": "https://onefootball.com/es/noticias/jardim-sopesa-ajustar-el-medio-vuelve-jorginho-a-flamengo-ante-estudiantes-43651147",
+     "source": "OneFootball"
     },
     {
-     "title": "Cricbuzz Live: Match abandoned due to rain | Series drawn 2-2",
-     "url": "https://www.cricbuzz.com/cricket-videos/214107/cricbuzz-live-match-abandoned-due-to-rain-series-drawn-2-2",
-     "source": "Cricbuzz"
+     "title": "Video Delirio Pincharrata: Así recibieron los hinchas al plantel de Estudiantes en Río de Janeiro",
+     "url": "https://www.clarin.com/videos/delirio-pincharrata-recibieron-hinchas-plantel-estudiantes-rio-janeiro_3_ZndYDFbzvX.html",
+     "source": "Clarin.com"
     },
     {
-     "title": "Sammy proud of Windies progress post India T20I series",
-     "url": "https://www.icc-cricket.com/news/sammy-proud-of-windies-progress-post-india-t20i-series",
-     "source": "ICC"
+     "title": "Alineaciones de Flamengo y Estudiantes por la Copa Libertadores: formaciones confirmadas",
+     "url": "https://bolavip.com/cl/copa-libertadores/alineaciones-de-flamengo-y-estudiantes-por-la-copa-libertadores-formaciones-probables",
+     "source": "Bolavip Chile"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 9.3,
+   "score": 9.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.cricbuzz.com/cricket-videos/214107/cricbuzz-live-match-abandoned-due-to-rain-series-drawn-2-2",
-     "title": "Cricbuzz Live: Match abandoned due to rain | Series drawn 2-2",
-     "outlet": "Cricbuzz"
+     "url": "https://onefootball.com/es/noticias/jardim-sopesa-ajustar-el-medio-vuelve-jorginho-a-flamengo-ante-estudiantes-43651147",
+     "title": "Jardim sopesa ajustar el medio: vuelve Jorginho a Flamengo ante Estudiantes",
+     "outlet": "OneFootball"
     },
     {
-     "url": "https://www.icc-cricket.com/news/sammy-proud-of-windies-progress-post-india-t20i-series",
-     "title": "Sammy proud of Windies progress post India T20I series",
-     "outlet": "ICC"
+     "url": "https://www.clarin.com/videos/delirio-pincharrata-recibieron-hinchas-plantel-estudiantes-rio-janeiro_3_ZndYDFbzvX.html",
+     "title": "Video Delirio Pincharrata: Así recibieron los hinchas al plantel de Estudiantes en Río de Janeiro",
+     "outlet": "Clarin.com"
+    },
+    {
+     "url": "https://bolavip.com/cl/copa-libertadores/alineaciones-de-flamengo-y-estudiantes-por-la-copa-libertadores-formaciones-probables",
+     "title": "Alineaciones de Flamengo y Estudiantes por la Copa Libertadores: formaciones confirmadas",
+     "outlet": "Bolavip Chile"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "micron share price",
-   "traffic": 100,
-   "published": "2026-10-23T09:40:00+09:00",
-   "category": "기타",
+   "keyword": "live news",
+   "traffic": 200,
+   "published": "2026-10-23T10:00:00+09:00",
+   "category": "Exams",
    "news": [
     {
-     "title": "Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more'",
-     "url": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html",
-     "source": "CNBC"
+     "title": "Maharashtra Live News 22th October 2026 : महाराष्ट्रातील ताज्या घडामोडींचे लाईव्ह अपडेट्स",
+     "url": "https://maharashtratimes.com/maharashtra/mumbai-news/maharashtra-live-news-22th-october-2026-mumbai-heat-wave-weather-update-vidhan-parishad-nivdnuk-sbi-bank-customer-accounts-cyber-attack-tiger-shroff-car-firing-case-lawrence-bishnoi/liveblog/135106058.cms",
+     "source": "Maharashtra Times"
     },
     {
-     "title": "Micron Stock Falls but Stock Price Could Triple Says Analyst",
-     "url": "https://www.barrons.com/articles/micron-stock-price-triple-analyst-5e50d2a5",
-     "source": "Barron's"
+     "title": "Video | सकाळी 7 च्या हेडलाईन्स | NDTV Marathi Headlines| Manoj Jarange | Eknath Shinde| Tiger Shroff Firing",
+     "url": "https://marathi.ndtv.com/videos/ndtv-marathi-headlines-at-7-am-manoj-jarange-eknath-shinde-and-tiger-shroff-firing-updates-1178358",
+     "source": "NDTV Marathi"
     },
     {
-     "title": "NVIDIA CEO Jensen Huang says HBM demand will keep climbing",
-     "url": "https://www.newsbytesapp.com/news/business/nvidia-ceo-jensen-huang-says-hbm-demand-will-keep-climbing/tldr",
-     "source": "NewsBytes"
+     "title": "Abhijeet Dipke On Tiger Shroff : ‘..तेव्हा असचं घडतं’, टायगर श्रॉफवरच्या हल्ल्यानंतर...",
+     "url": "https://www.tv9marathi.com/entertainment/abhijeet-dipke-speaks-out-on-the-incident-of-bollywood-actor-tiger-shroff-1783777.html",
+     "source": "TV9 Marathi"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 9.3,
+   "score": 9.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html",
-     "title": "Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more'",
-     "outlet": "CNBC"
+     "url": "https://maharashtratimes.com/maharashtra/mumbai-news/maharashtra-live-news-22th-october-2026-mumbai-heat-wave-weather-update-vidhan-parishad-nivdnuk-sbi-bank-customer-accounts-cyber-attack-tiger-shroff-car-firing-case-lawrence-bishnoi/liveblog/135106058.cms",
+     "title": "Maharashtra Live News 22th October 2026 : महाराष्ट्रातील ताज्या घडामोडींचे लाईव्ह अपडेट्स",
+     "outlet": "Maharashtra Times"
+    },
+    {
+     "url": "https://www.tv9marathi.com/entertainment/abhijeet-dipke-speaks-out-on-the-incident-of-bollywood-actor-tiger-shroff-1783777.html",
+     "title": "Abhijeet Dipke On Tiger Shroff : ‘..तेव्हा असचं घडतं’, टायगर श्रॉफवरच्या हल्ल्यानंतर...",
+     "outlet": "TV9 Marathi"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "renuka singh",
+   "keyword": "accuweather",
    "traffic": 100,
-   "published": "2026-10-23T09:40:00+09:00",
+   "published": "2026-10-23T10:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "India begin new Championship cycle in Vadodara",
-     "url": "https://www.cricinfo.com/series/zimbabwe-women-in-india-2026-27-1535648/india-women-vs-zimbabwe-women-1st-odi-1535655/match-preview",
-     "source": "Cricinfo"
+     "title": "Early weather outlook for Halloween 2026",
+     "url": "https://weather.com/2026/10/21/forecast/national/video/early-look-halloween-outlook-temperatures-rain",
+     "source": "The Weather Channel"
     },
     {
-     "title": "Jintimani Kalita replaces Renuka Thakur for Zimbabwe ODIs",
-     "url": "https://www.cricbuzz.com/cricket-news/140610/jintimani-kalita-replaces-renuka-thakur-for-zimbabwe-odis-cricbuzzcom",
-     "source": "Cricbuzz"
+     "title": "Halloween Forecast: Early look at what we can expect across Southeast Georgia, Lowcountry",
+     "url": "https://www.wjcl.com/article/savannah-georgia-halloween-forecast/74219779",
+     "source": "WJCL"
     },
     {
-     "title": "India pacer to miss Women's Championship series against Zimbabwe",
-     "url": "https://www.icc-cricket.com/news/india-pacer-to-miss-women-s-championship-series-against-zimbabwe",
-     "source": "ICC"
+     "title": "Warm Weekend in the 80s, Rain Returns for Halloween | October 22, 2026",
+     "url": "https://www.kltv.com/video/2026/10/22/warm-weekend-80s-rain-returns-halloween-october-22-2026/",
+     "source": "KLTV.com"
     }
    ],
    "official": false,
@@ -1336,38 +1344,43 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.cricbuzz.com/cricket-news/140610/jintimani-kalita-replaces-renuka-thakur-for-zimbabwe-odis-cricbuzzcom",
-     "title": "Jintimani Kalita replaces Renuka Thakur for Zimbabwe ODIs",
-     "outlet": "Cricbuzz"
+     "url": "https://weather.com/2026/10/21/forecast/national/video/early-look-halloween-outlook-temperatures-rain",
+     "title": "Early weather outlook for Halloween 2026",
+     "outlet": "The Weather Channel"
     },
     {
-     "url": "https://www.icc-cricket.com/news/india-pacer-to-miss-women-s-championship-series-against-zimbabwe",
-     "title": "India pacer to miss Women's Championship series against Zimbabwe",
-     "outlet": "ICC"
+     "url": "https://www.wjcl.com/article/savannah-georgia-halloween-forecast/74219779",
+     "title": "Halloween Forecast: Early look at what we can expect across Southeast Georgia, Lowcountry",
+     "outlet": "WJCL"
+    },
+    {
+     "url": "https://www.kltv.com/video/2026/10/22/warm-weekend-80s-rain-returns-halloween-october-22-2026/",
+     "title": "Warm Weekend in the 80s, Rain Returns for Halloween | October 22, 2026",
+     "outlet": "KLTV.com"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "cboe volatility index",
+   "keyword": "మిల్లు",
    "traffic": 100,
-   "published": "2026-10-23T09:40:00+09:00",
+   "published": "2026-10-23T10:00:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "S&P 500: The VIX May Be Approaching a Turning Point",
-     "url": "https://in.investing.com/analysis/sp-500-the-vix-may-be-approaching-a-turning-point-200640636",
-     "source": "Investing.com India"
+     "title": "రైస్ మిల్లు యజమాని మాయాజాలం.. రూ.7.85 కోట్ల ధాన్యం మాయం!",
+     "url": "https://www.ntnews.com/mahabubnagar/rice-mill-owners-trickery-paddy-worth-rs-7-85-crore-goes-missing-in-maganuru-2542223",
+     "source": "Namasthe Telangana"
     },
     {
-     "title": "Wall Street's fear gauge is ripping. Traders see it going even higher",
-     "url": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
-     "source": "CNBC"
+     "title": "బొక్కేశారు.. కక్కించేదెవరు?",
+     "url": "https://www.eenadu.net/telugu-news/districts/mahbubnagar-news/532/126191946",
+     "source": "Eenadu"
     },
     {
-     "title": "Buy the Madman!",
-     "url": "https://www.macrobusiness.com.au/2026/10/buy-the-madman/",
-     "source": "MacroBusiness"
+     "title": "ఒప్పందం మేరకే అక్రమం",
+     "url": "https://www.eenadu.net/telugu-news/districts/mahbubnagar-news/532/126191904",
+     "source": "Eenadu"
     }
    ],
    "official": false,
@@ -1377,14 +1390,19 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
-     "title": "Wall Street's fear gauge is ripping. Traders see it going even higher",
-     "outlet": "CNBC"
+     "url": "https://www.ntnews.com/mahabubnagar/rice-mill-owners-trickery-paddy-worth-rs-7-85-crore-goes-missing-in-maganuru-2542223",
+     "title": "రైస్ మిల్లు యజమాని మాయాజాలం.. రూ.7.85 కోట్ల ధాన్యం మాయం!",
+     "outlet": "Namasthe Telangana"
     },
     {
-     "url": "https://www.macrobusiness.com.au/2026/10/buy-the-madman/",
-     "title": "Buy the Madman!",
-     "outlet": "MacroBusiness"
+     "url": "https://www.eenadu.net/telugu-news/districts/mahbubnagar-news/532/126191946",
+     "title": "బొక్కేశారు.. కక్కించేదెవరు?",
+     "outlet": "Eenadu"
+    },
+    {
+     "url": "https://www.eenadu.net/telugu-news/districts/mahbubnagar-news/532/126191904",
+     "title": "ఒప్పందం మేరకే అక్రమం",
+     "outlet": "Eenadu"
     }
    ]
   },
@@ -1393,7 +1411,7 @@
    "keyword": "Ayushman Bharat card",
    "traffic": 0,
    "article_count_24h": 3,
-   "article_count_1h": 1,
+   "article_count_1h": 0,
    "published": "2026-10-23T09:20:00+09:00",
    "category": "Government Schemes",
    "news": [
@@ -1414,7 +1432,7 @@
     }
    ],
    "official": false,
-   "score": 7.8,
+   "score": 5.4,
    "already_covered": false
   },
   {
