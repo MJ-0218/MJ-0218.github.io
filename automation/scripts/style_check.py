@@ -43,6 +43,18 @@ EMOJI = re.compile("[\U0001F300-\U0001FAFF\U00002600-\U000027BF\U0001F000-\U0001
 REQUIRED_FM = ["title", "description", "category", "info_as_of"]
 
 
+
+def too_few_sources(srcs):
+    """출처 2곳 이상 필요. 단, 정부 공식 누리집(정책브리핑·.go.kr·.gov 등)이 있으면 그 한 곳으로 충분하다
+    (사실 검증 규칙: 공식 출처가 없을 때만 매체 2곳 교차 — 사용자 승인 2026-10-23)."""
+    from urllib.parse import urlparse
+    sys.path.insert(0, str(Path(__file__).parent))
+    from verify_claims import OFFICIAL_DOMAINS
+    uniq = set(srcs)
+    gov = [u for u in uniq if re.search(r"(\.go\.kr|korea\.kr|\.gov|\.gov\.[a-z]{2}|\.go\.[a-z]{2}|\.nic\.in)$",
+                                        urlparse(u).hostname or "") and OFFICIAL_DOMAINS.search(urlparse(u).hostname or "")]
+    return len(uniq) < 2 and not gov
+
 def split_front_matter(text):
     if text.startswith("---"):
         parts = text.split("---", 2)
@@ -103,8 +115,8 @@ def check_en(path, fm, body):
     for k in REQUIRED_FM:
         if not fm.get(k):
             fails.append(f"front matter `{k}` is empty")
-    if len(set(fm["_sources"])) < 2:
-        fails.append(f"sources: {len(set(fm['_sources']))} — need 2+ distinct sources")
+    if too_few_sources(fm["_sources"]):
+        fails.append(f"sources: {len(set(fm['_sources']))} — need 2+ distinct sources (or one official .gov source)")
     desc = fm.get("description", "")
     if desc and len(desc) > 150:
         warns.append(f"description {len(desc)} chars — Blogger search description shows ~150")
@@ -197,8 +209,8 @@ def check_intl(path, fm, body):
     for k in REQUIRED_FM:
         if not fm.get(k):
             fails.append(f"front matter `{k}` is empty")
-    if len(set(fm["_sources"])) < 2:
-        fails.append(f"sources: {len(set(fm['_sources']))} — need 2+ distinct sources")
+    if too_few_sources(fm["_sources"]):
+        fails.append(f"sources: {len(set(fm['_sources']))} — need 2+ distinct sources (or one official .gov source)")
     if fm.get("firsthand", "").lower() != "true":
         for w in FAKE_EXPERIENCE_INTL.get(lang, []):
             if w in flat.lower():
@@ -240,8 +252,8 @@ def check(path):
         if not fm.get(k):
             fails.append(f"front matter `{k}` 가 비어 있음")
     srcs = fm["_sources"]
-    if len(set(srcs)) < 2:
-        fails.append(f"출처(sources)가 {len(set(srcs))}개 — 서로 다른 출처 2개 이상 필요")
+    if too_few_sources(srcs):
+        fails.append(f"출처(sources)가 {len(set(srcs))}개 — 서로 다른 출처 2개 이상 또는 정부 공식 출처 1개 필요")
 
     for w in BANNED:
         n = flat.count(w)

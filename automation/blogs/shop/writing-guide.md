@@ -20,16 +20,27 @@ Humid Hours is a beauty and everyday-living notebook for people who live in hot,
 Every post answers a real question people in that country search: sunscreen that survives sweat, oily skin in the rainy season, mould in wardrobes, drying laundry in monsoon weeks, what K-drama everyone is watching, how a Korean product category works.
 The angle that makes it ours: **climate + Korea**. We know Korean beauty and culture, and we write for the tropics.
 
-## 1. Daily mix (per blog)
+## 1. Daily mix (per blog) — evergreen tips first, news only as a hook (user decision 2026-10-23)
+These blogs earn from shopping (our store + affiliate), not ads. Readers who come for news don't buy, and news posts die in 1–3 days.
+So write **problem-solving tips for hot, humid life** that keep getting search traffic and where a product fits naturally.
+
 - **3–4 posts a day** (config `per_day: 4`). Count today's drafts in that blog's folder by `info_as_of` (local date). Stop at 4.
-- Mix across the day. Never two of the same type in a row:
-  - **Beauty know-how** (Beauty): ingredients, routines, "how to choose" guides for humid weather. Product-agnostic or several brands.
-  - **Living info** (Living): rain, haze, heat, mould, laundry, aircon, electricity, local seasonal events. Official sources (weather agency, health ministry, energy regulator).
-  - **K-Culture** (K-Culture): K-drama/K-pop releases, concerts in that country, Korean food or travel trends that are spiking there. Two outlets per fact.
-  - **Picks** (Picks): curated product lists for one need ("5 sunscreens for oily skin under ₱500"). **Our store's products may appear here**, alongside other brands on Shopee/Lazada/Amazon.
-  - **Deals** (Deals): mega-sale calendars (9.9, 10.10, 11.11, 12.12, payday sales) with verified dates, plus what to look for.
-- **Our store's products: at most 1 post per day per blog**, and never more than half the items in a Picks list. The rest of the day is non-store content. Readers should feel they found a helpful blog, not an ad.
+- Daily mix (never two of the same type in a row):
+
+| Type (category) | Per day | What | Product slot |
+|---|---|---|---|
+| **Beauty tips** (Beauty) | 1 | Oily skin in humidity, sunscreen reapplication, sweat-proof makeup order, hair frizz in rainy season, K-beauty routine basics, how to read an ingredient label | Natural — 1–3 "what to look for" examples |
+| **Life hacks** (Living) | 1 | Mould prevention, drying laundry indoors, dehumidifying a room, mosquito-proofing a home, aircon cleaning, keeping shoes/bags dry | Natural — tools/products as examples |
+| **How to choose** (Picks) | 1 | Spec checklist for one need: "How to choose a sunscreen for oily skin: SPF, PA, texture" → a short list | **Our store's products go here** (≤1 store post/day/blog, ≤ half the items) + other brands |
+| **Seasonal hook** (Living/Beauty) | only when a radar spike fits | Haze → skin & mask care after going out; dengue → mosquito-proof home; typhoon → keeping home dry after rain; mega-sale (11.11, 12.12) → what to buy for humid season | Related checklist |
+
+- **Skip pure news** that has no product angle (fuel prices, pensions, app bans, school closures). That kind of topic belongs to the India/US blogs, not here.
+- K-Culture stays as an occasional extra (concerts in that country, K-drama filming spots), two outlets per fact, at most 1 a day.
+- Facts for evergreen tips: use label/listing specs, official health/weather guidance (dermatology or health ministry pages for skin/UV, weather agency for humidity/rain), or two reputable outlets. No efficacy claims ("cures acne", "whitens").
+- Write as a **buying guide, not a review**: we have not used the products, so compare specs, ingredients and price ranges, explain who it suits, and link more than one seller where possible.
+- **Our store's products: at most 1 post per day per blog**, and never more than half the items in a list. Readers should feel they found a helpful blog, not an ad.
 - Each country's posts are written for that country (local prices, weather, holidays, sale dates, spelling). Don't copy or translate a post between blogs. Two English blogs (PH/SG/MY) may cover the same topic only with different structure and local facts. Run `similarity_check.py` against the other blog's post: ≤ 0.35.
+- **Affiliate**: other brands earn only once the Shopee Affiliate Program ID for that country is in `config.yml affiliates`. Until then, link them plainly (no tracking) or skip them — never fake an affiliate link.
 
 ## 2. Honesty rules (legal and Google)
 - **Disclosure next to the recommendations** whenever a post has a store or affiliate link: one short italic line right before the first product, in the post's language:

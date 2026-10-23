@@ -125,7 +125,7 @@ def src_google_trends(cfg, cats):
 
 def src_korea_kr(cfg, cats):
     """정책브리핑 첫 화면의 '실시간 인기뉴스' (제목·링크만).
-    정책브리핑 RSS 는 2026-07-01 제공 중단(저작권 등 권리 보호) — 본문은 가져오지 않는다."""
+    정책브리핑 RSS 는 2026-07-01 제공 중단(저작권 등 권리 보호). 본문은 사실 확인용 수집본으로만 받는다(collect_evidence) — 글에는 사실만 새 문장으로."""
     page = fetch(cfg.get("korea_kr_home", "https://www.korea.kr/")).decode("utf-8", "ignore")
     a, b = page.find("실시간 인기뉴스 S"), page.find("실시간 인기뉴스 E")
     block = page[a:b] if a != -1 and b != -1 else page
@@ -284,7 +284,7 @@ def collect_evidence(ranked, out_dir, cfg):
     saved, failed = 0, 0
     targets = []
     for c in ranked:
-        if c["source"] == "tv_food" or (c.get("spike") and c["source"] in ("google_trends", "google_news")) or \
+        if c["source"] in ("tv_food", "korea_kr") or (c.get("spike") and c["source"] in ("google_trends", "google_news")) or \
                 (c["source"] == "google_news" and c.get("score", 0) >= cfg.get("evidence_min_score", 35)):
             targets.append(c)
     for c in targets[: int(cfg.get("evidence_topics", 25))]:

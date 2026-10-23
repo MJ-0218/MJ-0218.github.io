@@ -26,7 +26,7 @@ Same method as the Korean pipeline (recurring calendar + live radar + quote-leve
 - `labels`: 3–6 Blogger labels (spaces allowed).
 - 3–6 H2 headings. Mix forms (statement / question / "How to …"). One "Key dates" or "At a glance" table when there are 3+ dates or amounts.
 - 450–1,100 words. Depth over length.
-- Sources section is added automatically from `sources` (2+ distinct).
+- Sources section is added automatically from `sources` (2+ distinct, or one official .gov source).
 
 ## 3. Images
 - Info cards only (`cards:` in front matter, rendered by `make_cards.py`), English text, every number on a card backed by claims.

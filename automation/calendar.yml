@@ -170,6 +170,104 @@
   phases:
     - { key: 개화, months: [3, 4], lead_days: 21, queries: ["벚꽃 개화 시기", "벚꽃 개화 예상일", "지역별 벚꽃 축제 일정"] }
 
+- id: flu-vaccine
+  name: 독감 예방접종 무료 대상·기간
+  category: 정부혜택
+  official: [https://www.kdca.go.kr, https://nip.kdca.go.kr]
+  phases:
+    - { key: 무료접종, months: [9, 10, 11, 12], lead_days: 14, queries: ["독감 예방접종 무료 대상", "독감 무료접종 기간", "독감 예방접종 병원 찾기", "65세 독감 무료접종"] }
+
+- id: kimjang
+  name: 김장철 (김장 시기·김장 비용)
+  category: 생활
+  official: [https://www.kamis.or.kr, https://www.weather.go.kr, https://www.mafra.go.kr]
+  phases:
+    - { key: 김장, months: [11], lead_days: 14, queries: ["김장 적기", "김장 비용", "배추값", "김장철 배추 가격"] }
+
+- id: suneung-traffic
+  name: 수능 당일 교통·출근 시간
+  category: 생활
+  official: [https://www.moe.go.kr, https://www.kice.re.kr, https://www.korea.kr]
+  phases:
+    - { key: 당일, months: [11], lead_days: 10, queries: ["수능날 출근시간", "수능 듣기평가 비행기", "수능 당일 교통 통제", "수능 지하철 증편"] }
+
+- id: jeongsi
+  name: 대입 정시 원서접수
+  category: 생활
+  official: [https://www.adiga.kr, https://www.kcue.or.kr]
+  phases:
+    - { key: 원서접수, months: [12, 1], lead_days: 14, queries: ["정시 원서접수 기간", "정시 원서 접수 방법", "정시 합격자 발표일"] }
+
+- id: hometown-donation-yearend
+  name: 고향사랑기부제 연말 세액공제
+  category: 세금
+  official: [https://ilovegohyang.go.kr, https://www.mois.go.kr]
+  phases:
+    - { key: 연말, months: [11, 12], lead_days: 14, queries: ["고향사랑기부제 세액공제", "고향사랑기부제 답례품", "고향사랑기부 연말정산", "고향사랑기부 한도"] }
+
+- id: health-premium-november
+  name: 11월 건강보험료 변동 (지역가입자 소득 반영)
+  category: 정부혜택
+  official: [https://www.nhis.or.kr, https://www.mohw.go.kr]
+  phases:
+    - { key: 11월고지, months: [11], lead_days: 7, queries: ["11월 건강보험료 인상", "건강보험료 오른 이유", "지역가입자 건강보험료 조정 신청"] }
+
+- id: drivers-license-renewal
+  name: 운전면허 갱신·적성검사 연말 마감
+  category: 생활
+  official: [https://www.safedriving.or.kr, https://www.koroad.or.kr]
+  phases:
+    - { key: 연말, months: [11, 12], lead_days: 14, queries: ["운전면허 갱신 기간", "운전면허 적성검사 과태료", "운전면허 갱신 온라인"] }
+
+- id: fine-dust-season
+  name: 미세먼지 계절관리제
+  category: 생활
+  official: [https://www.me.go.kr, https://www.airkorea.or.kr]
+  phases:
+    - { key: 시행, months: [12], lead_days: 14, queries: ["미세먼지 계절관리제", "5등급 차량 운행제한", "계절관리제 기간"] }
+
+- id: winter-cold-wave
+  name: 한파 대비 (수도 동파·한파 쉼터)
+  category: 생활
+  official: [https://www.mois.go.kr, https://www.safekorea.go.kr, https://www.weather.go.kr]
+  phases:
+    - { key: 겨울, months: [12, 1], lead_days: 7, queries: ["수도 동파 예방", "한파 대비 행동요령", "한파 쉼터 위치"] }
+
+- id: sunrise-new-year
+  name: 해넘이·해돋이 시각
+  category: 생활
+  official: [https://astro.kasi.re.kr, https://www.kasi.re.kr]
+  phases:
+    - { key: 새해, months: [12], lead_days: 14, queries: ["새해 일출 시간", "해돋이 명소 일출 시각", "올해 마지막 일몰 시간"] }
+
+- id: dongji
+  name: 동지
+  category: 생활
+  official: [https://www.kasi.re.kr, https://www.nfm.go.kr]
+  phases:
+    - { key: 동지, months: [12], lead_days: 10, queries: ["동지 날짜", "동지 팥죽 먹는 이유", "애동지"] }
+
+- id: national-pension-next-year
+  name: 내년 국민연금·기초연금 금액
+  category: 정부혜택
+  official: [https://www.mohw.go.kr, https://www.nps.or.kr, https://basicpension.mohw.go.kr]
+  phases:
+    - { key: 내년, months: [12, 1], lead_days: 14, queries: ["내년 기초연금 금액", "국민연금 인상률", "기초연금 선정기준액"] }
+
+- id: year-end-card-points
+  name: 연말 숨은 돈 찾기 (카드 포인트·휴면예금·미환급금)
+  category: 생활
+  official: [https://www.fss.or.kr, https://www.payinfo.or.kr, https://www.hometax.go.kr]
+  phases:
+    - { key: 연말, months: [12], lead_days: 14, queries: ["카드 포인트 현금화", "휴면예금 조회", "숨은 돈 찾기", "미환급금 조회"] }
+
+- id: christmas-yearend-transport
+  name: 연말·새해 대중교통 연장 운행
+  category: 생활
+  official: [https://news.seoul.go.kr, https://www.korail.com]
+  phases:
+    - { key: 연말, months: [12], lead_days: 10, queries: ["12월 31일 지하철 연장 운행", "제야의 종 교통 통제", "새해 첫날 지하철 운행"] }
+
 # ── 매달 ─────────────────────────────────────────────
 - id: monthly-welfare-payday
   name: 이달의 복지급여 지급일 (기초연금·아동수당·부모급여·국민연금)
