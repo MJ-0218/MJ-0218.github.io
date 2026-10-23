@@ -14,15 +14,14 @@ cards:
     title: "국립공원 야경 관광"
     big: "11월 14일까지"
     lines: ["매주 금·토 시범 운영", "경주·북한산(도봉)·팔공산(서부) 3곳", "회당 20명 이내 · knps.or.kr 예약"]
-image_requests:
-  - id: bridge
-    source: wikimedia
-    query: "Woljeonggyo night"
-    alt: "경주 월정교 야경"
-    note: "참고 이미지"
 sources:
   - title: "정책브리핑(기후에너지환경부) — 경주·북한산·팔공산 국립공원 '야경 관광' 첫 선…한 달간 운영 (2026.10.23)"
     url: https://www.korea.kr/news/policyNewsView.do?newsId=148974201
+images:
+  - src: /assets/photos/national-park-night-tour-2026-bridge.jpg
+    license: "CC BY-SA 4.0"
+    credit: "Basile Morin"
+    source_url: https://commons.wikimedia.org/wiki/File:Illuminated_Woljeonggyo_Bridge_at_blue_hour_in_Gyeongju_South_Korea.jpg
 ---
 가을밤 산책 좋아하시는 분들 주목이에요~!
 국립공원에서 **야경 관광**을 처음으로 운영한대요.
@@ -44,7 +43,10 @@ sources:
 - **북한산국립공원(도봉)**: 무수골에서 쌍둥이 전망대까지 **1km**예요. 서울 도심 야경과 밤 숲의 소리를 함께 느낄 수 있어요.
 - **팔공산국립공원(서부)**: 선본사에서 갓바위 관봉까지 **1km**예요. 대구 야경을 보고 관봉에서 소원도 빌 수 있대요.
 
-<!-- img:bridge -->
+
+<figure style="margin:20px 0;"><img src="/assets/photos/national-park-night-tour-2026-bridge.jpg" alt="경주 월정교 야경" loading="lazy">
+<figcaption style="font-size:13px;color:#777;text-align:center;">참고 이미지 · 사진: Basile Morin · CC BY-SA 4.0</figcaption></figure>
+
 
 ## 안전은 어떻게 챙기나요?
 자연환경해설사 **2명**이 한 조로 함께 걸어요.
