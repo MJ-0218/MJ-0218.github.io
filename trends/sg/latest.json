@@ -1,51 +1,65 @@
 {
- "generated_at": "2026-10-25T04:28:46.294552+09:00",
+ "generated_at": "2026-10-25T05:32:16.373213+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (7)",
-  "evidence": "ok (저장 25, 실패 11)"
+  "evidence": "ok (저장 26, 실패 10)"
  },
- "compared_runs": 3,
+ "compared_runs": 2,
  "spikes": [
-  "K-drama",
   "chelsea vs spurs",
-  "joao pedro",
-  "valencia vs villarreal"
+  "scarlett johansson",
+  "ufc 333",
+  "tap water"
  ],
  "candidates": [
   {
    "source": "google_trends",
-   "keyword": "aston villa vs man city standings",
+   "keyword": "chelsea vs spurs",
    "traffic": 10000,
-   "published": "2026-10-24T22:40:00+09:00",
+   "published": "2026-10-25T00:40:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Aston Villa 2-1 Man City: Gianluigi Donnarumma and Marc Guehi under spotlight",
-     "url": "https://www.bbc.com/sport/football/articles/c6kg7z700k7jo",
-     "source": "BBC"
-    },
-    {
-     "title": "Man City lose 100% Premier League record with defeat at Aston Villa",
-     "url": "https://www.espn.com/soccer/story/_/id/50265416/man-city-lose-100-premier-league-record-defeat-aston-villa",
+     "title": "Chelsea 0-2 Spurs (Oct 24, 2026) Game Analysis",
+     "url": "https://www.espn.com/soccer/report/_/gameId/401878767",
      "source": "ESPN"
     },
     {
-     "title": "City boss Maresca rues costly errors as Villa inflict first league defeat",
-     "url": "https://www.channelnewsasia.com/sport/city-boss-maresca-rues-costly-errors-villa-inflict-first-league-defeat-6489066",
-     "source": "CNA"
+     "title": "Penders error & Palmer sees red - player ratings for Chelsea v Spurs",
+     "url": "https://www.bbc.com/sport/football/articles/cqwy7x6e672eo",
+     "source": "BBC"
+    },
+    {
+     "title": "Chelsea 0-2 Tottenham: Premier League – as it happened",
+     "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
+     "source": "The Guardian"
     }
    ],
    "official": false,
-   "score": 30.0,
-   "already_covered": false
+   "spike": "검색량 5,000→10,000",
+   "spike_bonus": 20,
+   "score": 42.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/sport/football/articles/cqwy7x6e672eo",
+     "title": "Penders error & Palmer sees red - player ratings for Chelsea v Spurs",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
+     "title": "Chelsea 0-2 Tottenham: Premier League – as it happened",
+     "outlet": "The Guardian"
+    }
+   ]
   },
   {
    "source": "google_news",
    "keyword": "dengue",
    "traffic": 0,
-   "article_count_24h": 73,
-   "article_count_1h": 5,
+   "article_count_24h": 76,
+   "article_count_1h": 4,
    "published": "2026-10-25T03:51:01+09:00",
    "category": "Living",
    "news": [
@@ -53,6 +67,11 @@
      "title": "Why are more women dying of dengue despite fewer infections? - The Daily Star",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTM0N09INjF5Z3VvRjRObHczU0J1R3c2OTY5V2VNT1NYelA4ZDBXMXhNQ1ozNHBRRW1LV1lvU0I2YUN4QmtVeXBvUDZubEwyRnNNNnJuOHpSZDctbTg5eEh1c0xVYUVnOGN1ajh0RXNlY2IxT1dmZFNraXREeTl4allCYVlmRzRBQVJOcTZ4Nl9oMHU1UnlxZmJXYy1POUd6bm8wTGNNM1ZsdUIyVWdVT3J0dGt1Q2lSME1pc004MA?oc=5",
      "source": "The Daily Star"
+    },
+    {
+     "title": "Beyond case management: Why dengue prevention needs stronger vector-management systems - BioSpectrum India",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMkJCNUJCdUctYWZ2X0gzR0k4eGxYbFByazVFbFBWY1RnelhtRE4ySUMzLUlQSDRJLU9yWkstSFBvVXdfOEY1d01IeFpFd0EyOEZQMm9ldEZqZm93SE5DdFQzLXRnLUlkVEFZZlA0TDR4cThHa2k4bTk1QWpfYWdwMnpVRVA5enRCUVF1X0U2MzNFRDVsV3M3TlNBQzBVRDlHclZDMjVKdXBxbFdxY2E3SWZFdmhJb3I4azRMWFlpMGhSQUYtdUFzQ0RNX2xtYnp1djV0ag?oc=5",
+     "source": "BioSpectrum India"
     },
     {
      "title": "14 more die of dengue, measles - New Age BD",
@@ -68,15 +87,10 @@
      "title": "Rizvi calls for collective efforts from all to check dengue - Bangladesh Sangbad Sangstha (BSS)",
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvU0RJNWs2d0pzTHhoWnVXWUdTNTBiTEFJMVpycVh0Z2RMSTNPblZ6UEZTeGozOF8tcHJsYUR6aEd1Ni03VUhJUDNCM0twM0p4R2xJ?oc=5",
      "source": "Bangladesh Sangbad Sangstha (BSS)"
-    },
-    {
-     "title": "Four-year-old boy from Tiruppur district dies of dengue - The Hindu",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUjJSM3BfZHM5MDMxQWNETmdxVThOaWxEWmtILUpkR2YzcVZRQXQ3eE1qV2o0cmtIeUVucm5Xem9DX1pWdktabnJjaWM2UEN5Mlc5M1VfdU5OVUtpLU1HVHlwZjYwYlFpTzBwYnd0WVJ2Z0FkLU9VSmY4b3JhSGg2Y1FfdmFSZXJzanlpb1BUOFpQZUVNOExaZEszUUhULXFhWUQxcGJ5aEpZXy03ZW9XQWdTZGZtbmJNVFIyQ0xCaXjSAccBQVVfeXFMTW8xY01IU3ZNNjFnWUV2N0Z1MmRYWFBCb09uUkVvWUpmR0hCZTBrZktvYjVwMHppRktFSmhSZWNGcWlUV3ppN2VRSkVSbXhvaTBTUWV5T2txVC1hYXBCN3Z2WDNBaXAyMzdwWGxTY3hfdFlqWWxEQzJoS0hnRWRaZVowOEFaRVk1by1uTnFaZUk4bTNVRjFzdmhQa0RKUVh0a3FFSEZkazROWWVNclo2UnRhU2Q3bncwTDVIMmVBVXdFLUQ1eE1HMA?oc=5",
-     "source": "The Hindu"
     }
    ],
    "official": false,
-   "score": 30.0,
+   "score": 27.6,
    "already_covered": false,
    "evidence": [
     {
@@ -85,9 +99,172 @@
      "outlet": "The Daily Star"
     },
     {
-     "url": "https://www.thehindu.com/news/cities/Coimbatore/four-year-old-boy-from-tiruppur-district-dies-of-dengue/article71620130.ece",
-     "title": "Four-year-old boy from Tiruppur district dies of dengue - The Hindu",
-     "outlet": "The Hindu"
+     "url": "https://www.biospectrumindia.com/views/17/28714/beyond-case-management-why-dengue-prevention-needs-stronger-vector-management-systems.html",
+     "title": "Beyond case management: Why dengue prevention needs stronger vector-management systems - BioSpectrum India",
+     "outlet": "BioSpectrum India"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "Korean skincare",
+   "traffic": 0,
+   "article_count_24h": 9,
+   "article_count_1h": 0,
+   "published": "2026-10-25T00:45:00+09:00",
+   "category": "K-Culture",
+   "news": [
+    {
+     "title": "Beyond Beauty, Beyond Borders: Misti Herbal Remedies Expands Ayurveda-Inspired Clean Beauty Worldwide - EIN News",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3BmM05saVV5TmZmRktmWFJIckI3eW9RUC1jMWV6VktKRnNhN0JTUXVWZFBQSlNPM0Y1cjI5enpXQVNtLVJXZzFOOU90QnlJbVRRZUtxejdadnpHaC13OFA3NEF1TjFGdW1fWjhpRkNTQ0FzTFdfZk5qbjVOUWFRSS1fSzlJT2pwZHd4by1ZaTV1MkNBaGN1YS05bU02NExaM2dRYXNQVzlqNVZzOWtIRWtIel9TWmY3M1BjT281blVHcURLZWJEakNqSy1kNkExUHk1Wk9vS00?oc=5",
+     "source": "EIN News"
+    },
+    {
+     "title": "REJURAN® COSMETICS Expands U.S. Retail Presence Through Costco's First-Ever Beauty Table Program - ACROFAN USA",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4taFlHSkd6b0VfQ2lNMnBaRWVUbHVDRl82eGNpU3NkcGtFMmFKX1pUNnp0a1NIVzNJQkFTeXZoUjI1YUw4dGpxYkVaaUxCLVNpU1o4LW1YRHhtM1F3?oc=5",
+     "source": "ACROFAN USA"
+    },
+    {
+     "title": "I put myself on a night flight after work on Friday. When you arrive at Incheon International Airpor.. - 매일경제",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XVVdZaWVqX1NGMjRvUWhTV0NESlI0eTk4SHdaR010WVlfTGlqQm1TSTQ4OC16TEstamZnNlg0dFZTMXY0aTc5WkkwOGNGMTJYU2c?oc=5",
+     "source": "매일경제"
+    },
+    {
+     "title": "Boots No7 shoppers race to buy £60 K-beauty inspired skincare box for just £29 - Manchester Evening News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObzNsd1hVNjd2YmdrMVlxajFlbWt6Z09NY0xBQzB3ZlFGcXVPeGZHMXc5UWdRcEd5c1VqRlVFcXplTW1OanpQWmpjMVdHRkZlS0NSTUJ6SUc4dGwzSjBHTVg3QjRyTlNULWxndlV1aUVaX1pkUzZQdWVQb3Bxa1h1VDVvSTNhY25BQWFxeHBlb2pQWU5TXzFleEFzbnF5T3fSAZ8BQVVfeXFMTm8zbHdYVTY3dmJnazFZcWoxZW1remdPTWNMQUMwd2ZRRnF1T3hmRzF3OVFnUXBHeXNVakZVRXF6ZU1tTmp6UFpqYzFXR0ZGZUtDUk1CeklHOHRsM0owR01YN0I0ck5TVC1sZ3ZVdWlFWl9aZFM2UHVlUG9wcWtYdVQ1b0kzYWNuQUFhcXhwZW9qUFlOU18xZXhBc25xeU93?oc=5",
+     "source": "Manchester Evening News"
+    },
+    {
+     "title": "K-Beauty Takes 7 of Top 10 Most-Clicked Beauty Items on Amazon - Seoul Economic Daily",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ0dqMTZPQTV5amtqaGw5UUFHT2tkVERQWW5DZDdYWENhSmNNd2szMU8yYmFjWWFkcS1sWEtMbUFnalRmaEgxSHRzekVGdEFXWURMcl9oaVdBVUdrai1TWHBta1VpalloTEFzMEo0Q1dnQ05wdDVPNk15THMtTV8zdndwRnAxYk81MkQzWGJiS1JkdktfaW9OUF9xZjIwZw?oc=5",
+     "source": "Seoul Economic Daily"
+    }
+   ],
+   "official": false,
+   "score": 16.2,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.mk.co.kr/en/culture/12184731",
+     "title": "I put myself on a night flight after work on Friday. When you arrive at Incheon International Airpor.. - 매일경제",
+     "outlet": "매일경제"
+    },
+    {
+     "url": "https://www.manchestereveningnews.co.uk/news/fashion-news/boots-no7-shoppers-race-buy-34801782.amp",
+     "title": "Boots No7 shoppers race to buy £60 K-beauty inspired skincare box for just £29 - Manchester Evening News",
+     "outlet": "Manchester Evening News"
+    },
+    {
+     "url": "https://en.sedaily.com/finance/2026/10/24/k-beauty-takes-7-of-top-10-most-clicked-beauty-items-on",
+     "title": "K-Beauty Takes 7 of Top 10 Most-Clicked Beauty Items on Amazon - Seoul Economic Daily",
+     "outlet": "Seoul Economic Daily"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "haze PSI",
+   "traffic": 0,
+   "article_count_24h": 9,
+   "article_count_1h": 1,
+   "published": "2026-10-24T18:20:30+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Haze Situation Update (24 October 2026) - NEA.gov.sg",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUDd0UGFMeG8yWnBmTno4alBSWXV2dVJmOXQ1Tlo0Vllrem9SWThZMXc3OEZsRFJKWTdsX1Y5MHlPdmtRbG1GOGctaFVlekRzQUZTU3hkb3BoT1ZCeVNzOHFRTnRZeDJpZFJnM2lNVjJPMnRGUF9FTTBfazNGR0ppZVFGLXdYMUY2TXN1SkEtUXpqQQ?oc=5",
+     "source": "NEA.gov.sg"
+    },
+    {
+     "title": "Haze in Singapore: Air quality back in the unhealthy range - The Straits Times",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMzExQlZrYUZBQk01Wm5vNTBwYWhCUkdhZGVTWnIwUWRkRUtSOVdtY2Jxd19CcjRVVE1RaUpQOHlyYXJHNkRIcjlHT0lZRFhqWmtDT3EtOXpYSmhzdmVqRWp5ZEMxczJMZnlieWhjb3BqeVZkajFJRHp1ODZKUFYxbmRtRDAwWXMtNmlJSURyRG5YbWQ4cmFKcS03U1E?oc=5",
+     "source": "The Straits Times"
+    },
+    {
+     "title": "Haze worsens overnight as air quality turns unhealthy across Singapore - CNA",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83UkFkLTJzVVN5QW4yc0g3V184LUEwR1N2OUlhb0RfMnVUb3BJTmEtS2ZteUpUSkJzOUJiR3llUHR0ZllTX1pNTHhXRkRTc3dpaVNRcVd1TUpDUHNHMTlQMjFaLU84aUw3WnU0azVUYklRZGs3YmVqdm1B?oc=5",
+     "source": "CNA"
+    },
+    {
+     "title": "Hazy start to the weekend as PSI reaches unhealthy levels in Singapore; thundery showers expected later - AsiaOne.com",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrTXhiRVlvRi1kcnpoRWdic3RUcTBFdTlGNFZCaVk4VzRtblNzRnM1Z1RHbnFUSWZzT2NpNUFvd2JrWWFCejVzV2dmVTlISUZHT3BqNVJhb2FxdGZQVS1YZjM4YXJfYjRDSTIwZkNmNm0?oc=5",
+     "source": "AsiaOne.com"
+    },
+    {
+     "title": "Haze drives air quality down across Singapore - Latest news from Azerbaijan",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zekhZVjFOSk96UUpyaFMxMS05dmtIVmpPREZRcDQzdGhBYVoyZ09BRnctWERURG9MdkswbXlXX3phTjN0NnBZcEtIS2YyOUY1TmtLa1hiUzVBaWFZQmhjS1M1d1dkWXhtdE1oa0lNc0lYYVRm?oc=5",
+     "source": "Latest news from Azerbaijan"
+    }
+   ],
+   "official": false,
+   "score": 13.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.nea.gov.sg/media/news/advisories/index/haze-situation-update-24-october-2026",
+     "title": "Haze Situation Update (24 October 2026) - NEA.gov.sg",
+     "outlet": "NEA.gov.sg"
+    },
+    {
+     "url": "https://www.straitstimes.com/singapore/haze-in-singapore-air-quality-back-in-the-unhealthy-range",
+     "title": "Haze in Singapore: Air quality back in the unhealthy range - The Straits Times",
+     "outlet": "The Straits Times"
+    },
+    {
+     "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-oct-24-6488141",
+     "title": "Haze worsens overnight as air quality turns unhealthy across Singapore - CNA",
+     "outlet": "CNA"
+    },
+    {
+     "url": "https://www.asiaone.com/singapore/psi-singapore-haze-24-october",
+     "title": "Hazy start to the weekend as PSI reaches unhealthy levels in Singapore; thundery showers expected later - AsiaOne.com",
+     "outlet": "AsiaOne.com"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "scarlett johansson",
+   "traffic": 200,
+   "published": "2026-10-25T02:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Scarlett Johansson's (Very) R-Rated 108-Minute Sci-Fi Thriller Is Being Cut From Netflix",
+     "url": "https://movieweb.com/under-the-skin-scarlett-johansson-stream-netflix-october-2026/",
+     "source": "MovieWeb"
+    },
+    {
+     "title": "Ellen Burstyn on Going for the EGOT With Her Favorite Poems and Being Over ‘The Exorcist’: ‘It’s Enough Already’",
+     "url": "https://variety.com/2026/film/awards/ellen-burstyn-egot-grammys-exorcist-awards-1236921700/",
+     "source": "Variety"
+    },
+    {
+     "title": "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\"",
+     "url": "https://www.yahoo.com/entertainment/movies/articles/original-exorcist-star-doesnt-think-103754971.html",
+     "source": "Yahoo"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 100→200",
+   "spike_bonus": 20,
+   "score": 12.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://movieweb.com/under-the-skin-scarlett-johansson-stream-netflix-october-2026/",
+     "title": "Scarlett Johansson's (Very) R-Rated 108-Minute Sci-Fi Thriller Is Being Cut From Netflix",
+     "outlet": "MovieWeb"
+    },
+    {
+     "url": "https://variety.com/2026/film/awards/ellen-burstyn-egot-grammys-exorcist-awards-1236921700/",
+     "title": "Ellen Burstyn on Going for the EGOT With Her Favorite Poems and Being Over ‘The Exorcist’: ‘It’s Enough Already’",
+     "outlet": "Variety"
+    },
+    {
+     "url": "https://www.yahoo.com/entertainment/movies/articles/original-exorcist-star-doesnt-think-103754971.html",
+     "title": "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\"",
+     "outlet": "Yahoo"
     }
    ]
   },
@@ -95,8 +272,8 @@
    "source": "google_news",
    "keyword": "K-drama",
    "traffic": 0,
-   "article_count_24h": 60,
-   "article_count_1h": 3,
+   "article_count_24h": 58,
+   "article_count_1h": 0,
    "published": "2026-10-24T20:15:05+09:00",
    "category": "K-Culture",
    "news": [
@@ -127,9 +304,7 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 0.7→3건 (2.4배)",
-   "spike_bonus": 24.0,
-   "score": 27.7,
+   "score": 12.6,
    "already_covered": false,
    "evidence": [
     {
@@ -150,107 +325,10 @@
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "chelsea vs spurs",
-   "traffic": 5000,
-   "published": "2026-10-25T00:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Premier League LIVE: Reaction as Tottenham win at Chelsea in the Premier League.",
-     "url": "https://www.bbc.com/sport/football/live/cm4gvy14w7q4t",
-     "source": "BBC"
-    },
-    {
-     "title": "Chelsea 0-2 Spurs (Oct 24, 2026) Game Analysis",
-     "url": "https://www.espn.com/soccer/report/_/gameId/401878767",
-     "source": "ESPN"
-    },
-    {
-     "title": "Chelsea vs Tottenham Hotspur: The tactics board - Spurs dominance and discipline exploit the blues at the bridge",
-     "url": "https://www.goal.com/en-sg/news/chelsea-tottenham-spurs-tactical-win-premier-league/blt2930d538bf72dc28",
-     "source": "Goal.com"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 2,000→5,000",
-   "spike_bonus": 20,
-   "score": 27.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.bbc.com/sport/football/live/cm4gvy14w7q4t",
-     "title": "Premier League LIVE: Reaction as Tottenham win at Chelsea in the Premier League.",
-     "outlet": "BBC"
-    },
-    {
-     "url": "https://www.goal.com/en-sg/news/chelsea-tottenham-spurs-tactical-win-premier-league/blt2930d538bf72dc28",
-     "title": "Chelsea vs Tottenham Hotspur: The tactics board - Spurs dominance and discipline exploit the blues at the bridge",
-     "outlet": "Goal.com"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "Korean skincare",
-   "traffic": 0,
-   "article_count_24h": 11,
-   "article_count_1h": 0,
-   "published": "2026-10-25T00:45:00+09:00",
-   "category": "Beauty",
-   "news": [
-    {
-     "title": "Beyond Beauty, Beyond Borders: Misti Herbal Remedies Expands Ayurveda-Inspired Clean Beauty Worldwide - EIN News",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3BmM05saVV5TmZmRktmWFJIckI3eW9RUC1jMWV6VktKRnNhN0JTUXVWZFBQSlNPM0Y1cjI5enpXQVNtLVJXZzFOOU90QnlJbVRRZUtxejdadnpHaC13OFA3NEF1TjFGdW1fWjhpRkNTQ0FzTFdfZk5qbjVOUWFRSS1fSzlJT2pwZHd4by1ZaTV1MkNBaGN1YS05bU02NExaM2dRYXNQVzlqNVZzOWtIRWtIel9TWmY3M1BjT281blVHcURLZWJEakNqSy1kNkExUHk1Wk9vS00?oc=5",
-     "source": "EIN News"
-    },
-    {
-     "title": "REJURAN® COSMETICS Expands U.S. Retail Presence Through Costco's First-Ever Beauty Table Program - ACROFAN USA",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4taFlHSkd6b0VfQ2lNMnBaRWVUbHVDRl82eGNpU3NkcGtFMmFKX1pUNnp0a1NIVzNJQkFTeXZoUjI1YUw4dGpxYkVaaUxCLVNpU1o4LW1YRHhtM1F3?oc=5",
-     "source": "ACROFAN USA"
-    },
-    {
-     "title": "I put myself on a night flight after work on Friday. When you arrive at Incheon International Airpor.. - 매일경제",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XVVdZaWVqX1NGMjRvUWhTV0NESlI0eTk4SHdaR010WVlfTGlqQm1TSTQ4OC16TEstamZnNlg0dFZTMXY0aTc5WkkwOGNGMTJYU2c?oc=5",
-     "source": "매일경제"
-    },
-    {
-     "title": "[Weekend Money] \"'Here' Is Where the Future of K-Beauty Lies... Which Stocks Should Investors Watch?\" - 아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nV1dqbFp0bVFHQzljYWg0NFc3NTc3Z2xPY3R5QWljcTdTLUc1cEJ4NWNpcTVaVUhYbEY1WmNtUGRYMFkxbTRORGplTi1kblcwRkpDUnQ0NEk0VW9FMGJUWnEzcHE?oc=5",
-     "source": "아시아경제"
-    },
-    {
-     "title": "Boots No7 shoppers race to buy £60 K-beauty inspired skincare box for just £29 - Manchester Evening News",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObzNsd1hVNjd2YmdrMVlxajFlbWt6Z09NY0xBQzB3ZlFGcXVPeGZHMXc5UWdRcEd5c1VqRlVFcXplTW1OanpQWmpjMVdHRkZlS0NSTUJ6SUc4dGwzSjBHTVg3QjRyTlNULWxndlV1aUVaX1pkUzZQdWVQb3Bxa1h1VDVvSTNhY25BQWFxeHBlb2pQWU5TXzFleEFzbnF5T3fSAZ8BQVVfeXFMTm8zbHdYVTY3dmJnazFZcWoxZW1remdPTWNMQUMwd2ZRRnF1T3hmRzF3OVFnUXBHeXNVakZVRXF6ZU1tTmp6UFpqYzFXR0ZGZUtDUk1CeklHOHRsM0owR01YN0I0ck5TVC1sZ3ZVdWlFWl9aZFM2UHVlUG9wcWtYdVQ1b0kzYWNuQUFhcXhwZW9qUFlOU18xZXhBc25xeU93?oc=5",
-     "source": "Manchester Evening News"
-    }
-   ],
-   "official": false,
-   "score": 18.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.mk.co.kr/en/culture/12184731",
-     "title": "I put myself on a night flight after work on Friday. When you arrive at Incheon International Airpor.. - 매일경제",
-     "outlet": "매일경제"
-    },
-    {
-     "url": "https://www.asiae.co.kr/en/article/2026102215424532647",
-     "title": "[Weekend Money] \"'Here' Is Where the Future of K-Beauty Lies... Which Stocks Should Investors Watch?\" - 아시아경제",
-     "outlet": "아시아경제"
-    },
-    {
-     "url": "https://www.manchestereveningnews.co.uk/news/fashion-news/boots-no7-shoppers-race-buy-34801782.amp",
-     "title": "Boots No7 shoppers race to buy £60 K-beauty inspired skincare box for just £29 - Manchester Evening News",
-     "outlet": "Manchester Evening News"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "sunscreen",
    "traffic": 0,
-   "article_count_24h": 18,
+   "article_count_24h": 17,
    "article_count_1h": 0,
    "published": "2026-10-24T21:20:45+09:00",
    "category": "Beauty",
@@ -259,11 +337,6 @@
      "title": "Eastman launches biodegradable micropowder to boost skincare performance & sunscreen SPF - Indian Chemical News",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMFdveTRmOVVXcGlJY2Q0VUZTeW9seG1WSHQ0VzJteVUxSjFhUEtrSENHUGF4X3h4M2lkZmEtekczZkdBTGttYjVYbHpwTUJBSTExV0M3clc4c01OZEJEZ3ZSVTdJM2s1RUdfT0loVUpGN0ctSnJPdDhtUVV1akl6bGhCbC11MTc4VWxQSnhRbVY0bmhudjRiSTNwR2xsenlHQndnM1pQM0VCVEx4RWF6QlB5Y3h0UXFiNi05VzlEMXg1a1dUdERnVTNQYWt6R29XREHSAdgBQVVfeXFMTjlmV1hDMXZSdzRKY1dJa0dNZC1md040b1VLRl81dXU3eTMtZWoxdHkxYndMdW0tYUg2T2xmOEVlV3NCR3NtcmdFbXdJRzdJRUNoUWcydHRsRklaRnZTSmVjWWNyR3dqWC1vcUxzeUlPUTZtamxDTHl5MVhPNER3ODNwLWx4OHdWY2VCb2NOXzZHZzA4bzBiVzBzeE5XMk54Z3lyTFZVYUJWMnJyNU9jLXljeF9Xclphc2lBNjNsejVmaVE1RHUxVENJZjFMVk8zOFI2bWp6a3hZ?oc=5",
      "source": "Indian Chemical News"
-    },
-    {
-     "title": "The 5 Best Mineral Sunscreens (2026): Expert Approved - Fortune",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Eckp5QW1BVlVRNUE4ZEt5Qm9hcnFBTDRoN08ySHZzTzhvZzljM2RmM0E2bllPN2M4Q2xIZXR2SlJYQ3Jhck5wVTUzeldtV1VaTWpvRkVGTk5xdjZMNXJBMkpR?oc=5",
-     "source": "Fortune"
     },
     {
      "title": "Has Your Sunscreen Stopped Working? Signs It’s Time To Buy A New One - MiNDFOOD",
@@ -279,6 +352,11 @@
      "title": "anushka mishra (@leo1104): \"Yaar woh sunscreen sach mai lagana hota hai kya \" - Substack",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uaG55Q2F3SktWSUdZc3B1ZVllRlp5aHAxbnJmVTcyeS1QSDY0WVlwOTZ1bk5COFRtdjVfQ2lhTjZCeXZjd1BCY0JueTROZ2hrREw4VGwwbGE5UQ?oc=5",
      "source": "Substack"
+    },
+    {
+     "title": "Hamptons City Beach: Cracking oceans views let down by mixed lunch by the sea - The West Australian",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNXdVVVlSLThPTUR3ZkFDMEhFdktaS3hiY0Q3OHhNMmhhRFVSUk13cVNXa2NUUWtWSWFrNUl0TTNIWVZhRGY3SmRQUlptb2FvMTVMVHBmYjliN0pNZGNzS05ONmpidFRJaTlSRTNnYllGZ1dnM0FqeHNVYi0xUlkyY1Z2aFhKRVpVTEFhUmdJeEZtbWdOX1c0UjFOUEYyZU9EM3ZLeG93OG1UMTdfdXc3TWJUZlM4WW9SY01ORVBUY2xPSzhP?oc=5",
+     "source": "The West Australian"
     }
    ],
    "official": false,
@@ -291,99 +369,38 @@
      "outlet": "Indian Chemical News"
     },
     {
-     "url": "https://fortune.com/article/best-mineral-sunscreens/",
-     "title": "The 5 Best Mineral Sunscreens (2026): Expert Approved - Fortune",
-     "outlet": "Fortune"
-    },
-    {
      "url": "https://www.mindfood.com/article/has-your-sunscreen-stopped-working-signs-its-time-to-buy-a-new-one/",
      "title": "Has Your Sunscreen Stopped Working? Signs It’s Time To Buy A New One - MiNDFOOD",
      "outlet": "MiNDFOOD"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "haze PSI",
-   "traffic": 0,
-   "article_count_24h": 9,
-   "article_count_1h": 0,
-   "published": "2026-10-24T18:20:30+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Haze Situation Update (24 October 2026) - NEA.gov.sg",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUDd0UGFMeG8yWnBmTno4alBSWXV2dVJmOXQ1Tlo0Vllrem9SWThZMXc3OEZsRFJKWTdsX1Y5MHlPdmtRbG1GOGctaFVlekRzQUZTU3hkb3BoT1ZCeVNzOHFRTnRZeDJpZFJnM2lNVjJPMnRGUF9FTTBfazNGR0ppZVFGLXdYMUY2TXN1SkEtUXpqQQ?oc=5",
-     "source": "NEA.gov.sg"
     },
     {
-     "title": "Haze in Singapore: Air quality back in the unhealthy range - The Straits Times",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMzExQlZrYUZBQk01Wm5vNTBwYWhCUkdhZGVTWnIwUWRkRUtSOVdtY2Jxd19CcjRVVE1RaUpQOHlyYXJHNkRIcjlHT0lZRFhqWmtDT3EtOXpYSmhzdmVqRWp5ZEMxczJMZnlieWhjb3BqeVZkajFJRHp1ODZKUFYxbmRtRDAwWXMtNmlJSURyRG5YbWQ4cmFKcS03U1E?oc=5",
-     "source": "The Straits Times"
-    },
-    {
-     "title": "Haze worsens overnight as air quality turns unhealthy across Singapore - CNA",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83UkFkLTJzVVN5QW4yc0g3V184LUEwR1N2OUlhb0RfMnVUb3BJTmEtS2ZteUpUSkJzOUJiR3llUHR0ZllTX1pNTHhXRkRTc3dpaVNRcVd1TUpDUHNHMTlQMjFaLU84aUw3WnU0azVUYklRZGs3YmVqdm1B?oc=5",
-     "source": "CNA"
-    },
-    {
-     "title": "Hazy start to the weekend as PSI reaches unhealthy levels in Singapore; thundery showers expected later - AsiaOne.com",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrTXhiRVlvRi1kcnpoRWdic3RUcTBFdTlGNFZCaVk4VzRtblNzRnM1Z1RHbnFUSWZzT2NpNUFvd2JrWWFCejVzV2dmVTlISUZHT3BqNVJhb2FxdGZQVS1YZjM4YXJfYjRDSTIwZkNmNm0?oc=5",
-     "source": "AsiaOne.com"
-    },
-    {
-     "title": "24-hour N95 haze mask vending machines to be rolled out for eligible S'poreans if PSI reading crosses 200 - Mothership",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92OE9FSThmMVdNdFR6R0JnY0kzcVpwYzdiRzVTbkZ0dDVkY3lRaXNGUWJ3X3lVdGR5dDJJSGtyYnFwaHBlM2h2NUc5OFcyMFJkQnhuV2NpeVpXZF9TWHo1czdwcGh1SFJNT2pGR2NjXzVsRUVaN2xSeA?oc=5",
-     "source": "Mothership"
-    }
-   ],
-   "official": false,
-   "score": 11.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nea.gov.sg/media/news/advisories/index/haze-situation-update-24-october-2026",
-     "title": "Haze Situation Update (24 October 2026) - NEA.gov.sg",
-     "outlet": "NEA.gov.sg"
-    },
-    {
-     "url": "https://www.straitstimes.com/singapore/haze-in-singapore-air-quality-back-in-the-unhealthy-range",
-     "title": "Haze in Singapore: Air quality back in the unhealthy range - The Straits Times",
-     "outlet": "The Straits Times"
-    },
-    {
-     "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-oct-24-6488141",
-     "title": "Haze worsens overnight as air quality turns unhealthy across Singapore - CNA",
-     "outlet": "CNA"
-    },
-    {
-     "url": "https://www.asiaone.com/singapore/psi-singapore-haze-24-october",
-     "title": "Hazy start to the weekend as PSI reaches unhealthy levels in Singapore; thundery showers expected later - AsiaOne.com",
-     "outlet": "AsiaOne.com"
+     "url": "https://thewest.com.au/lifestyle/food/hamptons-city-beach-cracking-oceans-views-let-down-by-mixed-lunch-by-the-sea--c-23037377",
+     "title": "Hamptons City Beach: Cracking oceans views let down by mixed lunch by the sea - The West Australian",
+     "outlet": "The West Australian"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "joao pedro",
+   "keyword": "ufc 333",
    "traffic": 200,
-   "published": "2026-10-25T01:30:00+09:00",
+   "published": "2026-10-25T01:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Premier League predictions & Jones Knows' best bets: Tottenham vs Chelsea, Brighton vs Liverpool, Man Utd vs Bournemouth and much more!",
-     "url": "https://www.skysports.com/football/news/13602410/premier-league-predictions-and-jones-knows-best-bets-tottenham-vs-chelsea-brighton-vs-liverpool-man-utd-vs-bournemouth-and-much-more",
-     "source": "Sky Sports"
+     "title": "UFC 333: Merab Dvalishvili gains 19lb in five hours before world title fight",
+     "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/cry4x7k0nkk4o",
+     "source": "BBC"
     },
     {
-     "title": "Tottenham's Maddison a doubt for Chelsea clash, says De Zerbi",
-     "url": "https://www.channelnewsasia.com/sport/tottenhams-maddison-doubt-chelsea-clash-says-de-zerbi-6487081",
-     "source": "CNA"
+     "title": "LIVE! Yan Vs. Merab 3 Streaming Updates, Fight Recap",
+     "url": "https://sports.yahoo.com/articles/live-yan-vs-merab-3-193252724.html",
+     "source": "Yahoo Sports"
     },
     {
-     "title": "Alonso explains Joao Pedro absence plus Penders and Quenda selections against Tottenham",
-     "url": "https://www.chelseafc.com/en/news/article/alonso-explains-joao-pedro-absence-and-penders-and-quenda-selections",
-     "source": "Chelsea Football Club"
+     "title": "UFC 333 live blog: Petr Yan vs. Merab Dvalishvili 3",
+     "url": "https://www.mmafighting.com/ufc/517268/ufc-333-live-blog-petr-yan-vs-merab-dvalishvili-3",
+     "source": "MMA Fighting"
     }
    ],
    "official": false,
@@ -393,68 +410,56 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.skysports.com/football/news/13602410/premier-league-predictions-and-jones-knows-best-bets-tottenham-vs-chelsea-brighton-vs-liverpool-man-utd-vs-bournemouth-and-much-more",
-     "title": "Premier League predictions & Jones Knows' best bets: Tottenham vs Chelsea, Brighton vs Liverpool, Man Utd vs Bournemouth and much more!",
-     "outlet": "Sky Sports"
+     "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/cry4x7k0nkk4o",
+     "title": "UFC 333: Merab Dvalishvili gains 19lb in five hours before world title fight",
+     "outlet": "BBC"
     },
     {
-     "url": "https://www.channelnewsasia.com/sport/tottenhams-maddison-doubt-chelsea-clash-says-de-zerbi-6487081",
-     "title": "Tottenham's Maddison a doubt for Chelsea clash, says De Zerbi",
-     "outlet": "CNA"
+     "url": "https://sports.yahoo.com/articles/live-yan-vs-merab-3-193252724.html",
+     "title": "LIVE! Yan Vs. Merab 3 Streaming Updates, Fight Recap",
+     "outlet": "Yahoo Sports"
     },
     {
-     "url": "https://www.chelseafc.com/en/news/article/alonso-explains-joao-pedro-absence-and-penders-and-quenda-selections?ssoc=1",
-     "title": "Alonso explains Joao Pedro absence plus Penders and Quenda selections against Tottenham",
-     "outlet": "Chelsea Football Club"
+     "url": "https://www.mmafighting.com/ufc/517268/ufc-333-live-blog-petr-yan-vs-merab-dvalishvili-3",
+     "title": "UFC 333 live blog: Petr Yan vs. Merab Dvalishvili 3",
+     "outlet": "MMA Fighting"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "valencia vs villarreal",
-   "traffic": 100,
-   "published": "2026-10-25T03:20:00+09:00",
-   "category": "기타",
+   "keyword": "tap water",
+   "traffic": 500,
+   "published": "2026-10-24T23:10:00+09:00",
+   "category": "Living",
    "news": [
     {
-     "title": "Tears and shock: horrific injury for Valencia star",
-     "url": "https://www.goal.com/en/news/tears-and-shock-horrific-injury-to-valencia-star/bltb40c3a11214561c2",
-     "source": "Goal.com"
+     "title": "Singapore's tap water safe to drink despite haze, says Grace Fu",
+     "url": "https://www.channelnewsasia.com/singapore/tap-water-safe-drink-haze-6488996",
+     "source": "CNA"
     },
     {
-     "title": "Otorbi suffers hamstring blow after 11 minutes at Mestalla",
-     "url": "https://onefootball.com/en/news/otorbi-suffers-hamstring-blow-after-11-minutes-at-mestalla-43665836",
-     "source": "OneFootball"
+     "title": "Singapore’s tap water still safe to drink: Grace Fu",
+     "url": "https://www.straitstimes.com/singapore/singapores-tap-water-still-safe-to-drink-grace-fu",
+     "source": "The Straits Times"
     },
     {
-     "title": "Valencia 1-2 Villarreal: Freeman leads late win",
-     "url": "https://www.sofascore.com/news/valencia-1-2-villarreal-freeman-leads-late-win",
-     "source": "Sofascore"
+     "title": "Grace Fu says tap water still safe to drink, after blackish rainwater collected in pails amid haze",
+     "url": "https://mothership.sg/2026/10/tap-water-safe-drink-haze/",
+     "source": "Mothership"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.goal.com/en/news/tears-and-shock-horrific-injury-to-valencia-star/bltb40c3a11214561c2",
-     "title": "Tears and shock: horrific injury for Valencia star",
-     "outlet": "Goal.com"
-    },
-    {
-     "url": "https://onefootball.com/en/news/otorbi-suffers-hamstring-blow-after-11-minutes-at-mestalla-43665836",
-     "title": "Otorbi suffers hamstring blow after 11 minutes at Mestalla",
-     "outlet": "OneFootball"
-    }
-   ]
+   "spike": "검색량 200→500",
+   "spike_bonus": 20,
+   "score": 9.4,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "K-pop concert Singapore",
    "traffic": 0,
-   "article_count_24h": 5,
+   "article_count_24h": 4,
    "article_count_1h": 0,
    "published": "2026-10-24T22:13:00+09:00",
    "category": "K-Culture",
@@ -475,18 +480,13 @@
      "source": "VnExpress International"
     },
     {
-     "title": "Ticketbay Targets Global K-pop Fans With Safer Resale Access - TicketNews",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWjA1cU5ZN1FwQVFLOWdVM3RzaFNLYXZlR3JXaGZIcURmM0lXUU8xSUhnRGtLYTZJMThRMWRLTU5ULTJybDUtV2lvcG1QdWNvdzlYR0hzYTkwYWRyd1B4QUFVcmRDbG9SSUJEYy1kc3pkam03dWZWeE1YcWc5cFdMbTFfVHltc1REaE5CX1hNUWx2NHQyb0E?oc=5",
-     "source": "TicketNews"
-    },
-    {
      "title": "FLARE U Announces First-Ever Fan Concert Tour, ‘WHERE U’RE,’ Beginning in Seoul This December - OtakuKart",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUtnMlVVNkxZUGRqWXNEMGU0VmI2OHQ2alVmSHZ6eV9mTnFRUkxhbUtTbnlCRVZycm93TlVWRUM2VFU2X1pIZkx4R0VKSWxuUU41ajFOM1Y1TWE0TVZvM3p2aDFOb0s4TUhweS04eXpoekNOVG5nWDRFTXJjVGpwSF9CbXByRndka3pydkdWQTdoZWVuZEM3b3czakZ5SU9jcDBzOWdiS1Z6Z2lTRkw1Tg?oc=5",
      "source": "OtakuKart"
     }
    ],
    "official": false,
-   "score": 6.3,
+   "score": 5.0,
    "already_covered": false
   },
   {
@@ -497,19 +497,19 @@
    "category": "기타",
    "news": [
     {
-     "title": "UFC 333 live results, analysis for Volkanovski vs. Evloev, Yan vs. Dvalishvili",
-     "url": "https://www.espn.com/mma/story/_/id/50220522/ufc-333-results-volkanovski-evloev",
-     "source": "ESPN"
+     "title": "Carlos Prates reacts to Islam Makhachev's reported UFC 336 withdrawal with iconic Nate Diaz moment",
+     "url": "https://bloodyelbow.com/2026/10/24/carlos-prates-reacts-to-islam-makhachevs-reported-ufc-336-withdrawal-with-iconic-nate-diaz-moment/",
+     "source": "Bloody Elbow"
     },
     {
-     "title": "LIVE! UFC 333 Results: Volkanovski vs. Evloev",
-     "url": "https://www.mmafighting.com/ufc/517228/ufc-333-results-volkanovski-vs-evloev",
-     "source": "MMA Fighting"
+     "title": "Islam Makhachev Reveals Roadmap to Next Possible Opponent After Pulling Out of UFC 336",
+     "url": "https://www.essentiallysports.com/ufc-mma-news-islam-makhachev-reveals-roadmap-to-next-possible-opponent-after-pulling-out-of-ufc-336/",
+     "source": "EssentiallySports"
     },
     {
-     "title": "UFC 333: Alexander Volkanovski nears featherweight immortality as record beckons",
-     "url": "https://www.bbc.com/sport/mixed-martial-arts/articles/cq5ynjgkn68vo",
-     "source": "BBC"
+     "title": "UFC 336 to feature two championship fights in Toronto, interim welterweight title added",
+     "url": "https://www.postwrestling.com/2026/10/24/ufc-336-to-feature-two-championship-fights-in-toronto-interim-welterweight-title-added/",
+     "source": "POST Wrestling"
     }
    ],
    "official": false,
@@ -548,19 +548,19 @@
    "category": "기타",
    "news": [
     {
-     "title": "Serie A: Napoli e Roma pareggiano 3-3",
-     "url": "https://www.corrierealpi.it/italia/serie-a-napoli-e-roma-pareggiano-3-3-h1cuefh9",
-     "source": "Corriere delle Alpi"
+     "title": "Roma, le ultime in vista del Napoli: Cristante dietro a Malen",
+     "url": "https://www.gazzetta.it/calcio/fantanews/24-10-2026/roma-le-ultime-in-vista-del-napoli-cristante-dietro-a-malen.shtml",
+     "source": "La Gazzetta dello Sport"
     },
     {
-     "title": "Allegri spiega le scelte a centrocampo",
-     "url": "https://tvmtv.it/allegri-spiega-le-scelte-a-centrocampo/",
-     "source": "tvmtv.it"
+     "title": "Gasperini: \"Siamo in un gran momento, Soulé straordinario. Per come si era messa, va bene così\"",
+     "url": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/10/24-152128003/gasperini_siamo_in_un_gran_momento_soul_straordinario_per_come_si_era_messa_va_bene_cos",
+     "source": "Corriere dello Sport"
     },
     {
-     "title": "[ＤＩＲＥＴＴＡ@TV!!] Napoli-Roma in diretta Ｓｔｒｅａｍｉｎｇ sul canale TV 25 ottobre 2026",
-     "url": "https://www.fctokyo.co.jp/en/panorama/back_sb.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii8vc2Fnb3JtaWEwMDQ3LmdpdGh1Yi5pby9qb3JpbmEveG9iLnhtbCIvPjwva3JwYW5vPg==&id=video-napoli-roma-viv-directo-tv-ukkk0-0-0-0-0-0-91-3oeqonm",
-     "source": "FC東京オフィシャルホームページ"
+     "title": "Gasperini in conferenza: “Il Napoli ha fatto una grande impressione”",
+     "url": "https://www.goldelnapoli.it/gasperini-in-conferenza-il-napoli-ha-fatto-una-grande-impressione/",
+     "source": "Gol del Napoli"
     }
    ],
    "official": false,
@@ -591,30 +591,30 @@
     }
    ],
    "official": false,
-   "score": 1.5,
+   "score": 1.0,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "tap water",
+   "keyword": "joao pedro",
    "traffic": 200,
-   "published": "2026-10-24T23:10:00+09:00",
-   "category": "Living",
+   "published": "2026-10-25T01:30:00+09:00",
+   "category": "기타",
    "news": [
     {
-     "title": "Singapore's tap water safe to drink despite haze, says Grace Fu",
-     "url": "https://www.channelnewsasia.com/singapore/tap-water-safe-drink-haze-6488996",
+     "title": "Premier League predictions & Jones Knows' best bets: Tottenham vs Chelsea, Brighton vs Liverpool, Man Utd vs Bournemouth and much more!",
+     "url": "https://www.skysports.com/football/news/13602410/premier-league-predictions-and-jones-knows-best-bets-tottenham-vs-chelsea-brighton-vs-liverpool-man-utd-vs-bournemouth-and-much-more",
+     "source": "Sky Sports"
+    },
+    {
+     "title": "Confirmed Chelsea line up vs Tottenham | News | Official Site",
+     "url": "https://www.chelseafc.com/en/news/article/confirmed-chelsea-line-up-vs-tottenham-oct-26",
+     "source": "Chelsea Football Club"
+    },
+    {
+     "title": "Tottenham's Maddison a doubt for Chelsea clash, says De Zerbi",
+     "url": "https://www.channelnewsasia.com/sport/tottenhams-maddison-doubt-chelsea-clash-says-de-zerbi-6487081",
      "source": "CNA"
-    },
-    {
-     "title": "Singapore’s tap water still safe to drink: Grace Fu",
-     "url": "https://www.straitstimes.com/singapore/singapores-tap-water-still-safe-to-drink-grace-fu",
-     "source": "The Straits Times"
-    },
-    {
-     "title": "Grace Fu says tap water still safe to drink, after blackish rainwater collected in pails amid haze",
-     "url": "https://mothership.sg/2026/10/tap-water-safe-drink-haze/",
-     "source": "Mothership"
     }
    ],
    "official": false,
@@ -623,25 +623,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "scarlett johansson",
+   "keyword": "valencia vs villarreal",
    "traffic": 100,
-   "published": "2026-10-25T02:30:00+09:00",
+   "published": "2026-10-25T03:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Scarlett Johansson's (Very) R-Rated 108-Minute Sci-Fi Thriller Is Being Cut From Netflix",
-     "url": "https://movieweb.com/under-the-skin-scarlett-johansson-stream-netflix-october-2026/",
-     "source": "MovieWeb"
+     "title": "Tears and shock: horrific injury for Valencia star",
+     "url": "https://www.goal.com/en/news/tears-and-shock-horrific-injury-to-valencia-star/bltb40c3a11214561c2",
+     "source": "Goal.com"
     },
     {
-     "title": "Ellen Burstyn on Going for the EGOT With Her Favorite Poems and Being Over ‘The Exorcist’: ‘It’s Enough Already’",
-     "url": "https://variety.com/2026/film/awards/ellen-burstyn-egot-grammys-exorcist-awards-1236921700/",
-     "source": "Variety"
+     "title": "Otorbi suffers hamstring blow after 11 minutes at Mestalla",
+     "url": "https://onefootball.com/en/news/otorbi-suffers-hamstring-blow-after-11-minutes-at-mestalla-43665836",
+     "source": "OneFootball"
     },
     {
-     "title": "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\"",
-     "url": "https://www.yahoo.com/entertainment/movies/articles/original-exorcist-star-doesnt-think-103754971.html",
-     "source": "Yahoo"
+     "title": "Valencia vs Villarreal: Spanish La Liga stats & head-to-head",
+     "url": "https://www.bbc.com/sport/football/live/cmn8w3vgjnz2t",
+     "source": "BBC"
     }
    ],
    "official": false,
@@ -661,14 +661,14 @@
      "source": "TEAMtalk"
     },
     {
-     "title": "What the stats say about Eze's struggles",
-     "url": "https://www.aol.com/articles/stats-ezes-struggles-150357000.html",
-     "source": "AOL.com"
+     "title": "Alan Pardew makes worrying prediction for struggling £67m Arsenal star",
+     "url": "https://metro.co.uk/2026/10/19/alan-pardew-makes-worrying-prediction-struggling-67m-arsenal-star-29720155/",
+     "source": "Metro.co.uk"
     },
     {
-     "title": "Mikel Arteta on cheering up 'grumpy' Eberechi Eze",
-     "url": "https://www.bbc.co.uk/sport/football/videos/c65ynq3g0dgro",
-     "source": "BBC"
+     "title": "Arsenal news: Mikel Arteta told issue with star and major update on £55m transfer target",
+     "url": "https://www.dailystar.co.uk/sport/football/arsenal-transfer-news-maxi-araujo-37792278",
+     "source": "Daily Star"
     }
    ],
    "official": false,
