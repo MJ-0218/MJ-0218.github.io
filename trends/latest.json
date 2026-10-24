@@ -1,19 +1,20 @@
 {
- "generated_at": "2026-10-24T11:07:32.725894+09:00",
+ "generated_at": "2026-10-24T11:41:01.840995+09:00",
  "sources": {
   "calendar": "ok (7)",
   "google_trends": "ok (10)",
-  "korea_kr": "ok (6)",
+  "korea_kr": "error: <urlopen error timed out>",
   "google_news": "ok (27)",
   "tv_food": "ok (5)",
   "applyhome": "ok (31)",
-  "evidence": "ok (저장 91, 실패 7)"
+  "evidence": "ok (저장 85, 실패 22)"
  },
- "compared_runs": 5,
+ "compared_runs": 4,
  "spikes": [
-  "핼러윈 앞두고 10일간 '특별대책기간'…전국 28곳 인파 집중 관리",
   "김수미",
-  "연합인포맥스"
+  "매일경제신문",
+  "미사일",
+  "삼성 갤럭시 s26"
  ],
  "candidates": [
   {
@@ -26,7 +27,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T11:07:32.752315+09:00",
+   "published": "2026-10-24T11:41:01.893779+09:00",
    "score": 85,
    "already_covered": false,
    "cycle": "autumn-leaves-단풍-2026",
@@ -1077,7 +1078,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T11:07:32.752117+09:00",
+   "published": "2026-10-24T11:41:01.893416+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "yearend-tax-연말절세-2026",
@@ -1099,7 +1100,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T11:07:32.752278+09:00",
+   "published": "2026-10-24T11:41:01.893708+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "national-scholarship-1차신청-2026",
@@ -1124,7 +1125,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T11:07:32.752338+09:00",
+   "published": "2026-10-24T11:41:01.893827+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "kimjang-김장-2026",
@@ -1150,7 +1151,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T11:07:32.752348+09:00",
+   "published": "2026-10-24T11:41:01.893848+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "suneung-traffic-당일-2026",
@@ -1175,7 +1176,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T11:07:32.752362+09:00",
+   "published": "2026-10-24T11:41:01.893877+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "hometown-donation-yearend-연말-2026",
@@ -1200,7 +1201,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-24T11:07:32.752376+09:00",
+   "published": "2026-10-24T11:41:01.893905+09:00",
    "score": 67,
    "already_covered": false,
    "cycle": "drivers-license-renewal-연말-2026",
@@ -1213,6 +1214,94 @@
    "window": "2026-11 ~ 2026-12 (보통)",
    "days_to_start": 8,
    "in_window": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "서울 날씨",
+   "traffic": 100000,
+   "published": "2026-10-24T10:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "태풍 '참피' 북상에 남부 비…제주 최대 250㎜[오늘날씨]",
+     "url": "https://www.newsis.com/view/NISX20261023_0003839277",
+     "source": "뉴시스"
+    },
+    {
+     "title": "태풍 ’참피’ 북상…오늘 제주·남부 강한 비바람",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261024101609VUo",
+     "source": "연합뉴스TV"
+    },
+    {
+     "title": "제주 산간 최대 250mm 폭우…비 그치면 기온 '뚝'",
+     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008812733",
+     "source": "SBS 뉴스"
+    }
+   ],
+   "official": false,
+   "score": 60.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "청년월세 지원",
+   "traffic": 0,
+   "article_count_24h": 13,
+   "article_count_1h": 1,
+   "published": "2026-10-24T11:13:00+09:00",
+   "category": "정부혜택",
+   "news": [
+    {
+     "title": "한국부동산원 서울 월세 166만원 시대, 마르크스의 계산법으로는 흙수저 청년이 이길 수 없는 이유 - 네이버 프리미엄콘텐츠",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTnp6SzdoQmpHMXItc3hpREZKYjhtenhvaGdXS2RWdkVreDljVFcxZDR0Z2RTOGhJNXozOVNsLUtfLUtUb09sV0V6MVVDTHlwT2xfdFlZWW9tTjRrTlpDbW0yM1MtR29PbXgtYlFrMDJoMnlnOFRndTNVOS04ejdoM0tlQjBYNFYwX2RfWA?oc=5",
+     "source": "네이버 프리미엄콘텐츠"
+    },
+    {
+     "title": "내가 이걸 여태껏 몰랐다니…!! - 대한민국 정책브리핑",
+     "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOdS1wYVFoVzZoNGFwMUZwSFJSOFpuWDZxSWU5cFZFYjVFWUZtYXV3LWlEbFV0dWsyNmhQSWlaRnpCV3pOQzg4anVCVWNSQlJndXdDRTMwNnBHdnhXamFnZTMzbmJXOEtmNnVLTDFVZk1fLU1XYkE0RlI0ai11UXVodHA3ZjYwNVFZRWNqbDRfUkNkSzVUckJySnJBRnJKejRncHIzdjVaazk2X1N0WXI3VzJhZEdsdXk3LUI0ZmU3dDExR3lyXzkzaGgzUmtKcnlVdkpzTmtGdlluMnVnRWswcVM3ZGh3X2RkVVd6SE43VXA3ZlNLaVRGTWxRM2hvWF94bkphNV9hRXhzS1hJaUJqSW1lZzNwM3JuYVhoUG9hdE5tYjhra1kzR0p6c0pjbF8yQV9iUlBONlJDbk9pYjlqM3NR?oc=5",
+     "source": "대한민국 정책브리핑"
+    },
+    {
+     "title": "전세의 월세화, 1인 가구 증가 탓일까…청년 주거 수요 엇박자 주의해야 - 1코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15bU5TYXY1WDJ3LXZJMWc3S0R4Wm5kekgtczhOUkhEYW9ybFBrb2k3T3J5NmlFVjZRb0tnRUlDRDZ3bGlkeS01NmV5S3Q5QUQ0cDVlWklxRjAyVHNsWWtxeHRPS3ZyWUEtRlY5RTVualY?oc=5",
+     "source": "1코노미뉴스"
+    },
+    {
+     "title": "[윤나래의 세대읽기] 가족돌봄청년, 독립을 미루는 이유 - 이투데이",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iRW8tSGNjU2ZYWVJOY3dUT05lSW96bzNJR3VSMUsxV3FkRTRxVTdUcXhvMDFQS3ExeVl0cEFXQm5CaVlOaU94VVgzRE5qWS15VUtId0pTYnYxdw?oc=5",
+     "source": "이투데이"
+    },
+    {
+     "title": "[2026 국정감사] 홍지선 장기 민간임대 활성화…청년·신혼부부 주거지원 확대 - 아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDWkdNeVU5WmZuYXdSUWdWdkNCU1Azd1lwdFFVWVU4M0xpeUpla3oxbjlFSjFrMGVmUDdHdHVCVHFlQ2t2ZHNSOGlQeGgzUkVrV3Zqb0VpZ3HSAVhBVV95cUxQQ1pHTXlVOVpmbmF3UlFnVnZDQlNQM3dZcHRRVVlVODNMaXlKZWt6MW45RUoxazBlZlA3R3R1QlRxZUNrdmRzUjhpUHhoM1JFa1d2am9FaWdx?oc=5",
+     "source": "아주경제"
+    }
+   ],
+   "official": false,
+   "score": 54.4,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://contents.premium.naver.com/joosikstudy/coinschool/contents/261024111311279ob",
+     "title": "한국부동산원 서울 월세 166만원 시대, 마르크스의 계산법으로는 흙수저 청년이 이길 수 없는 이유 - 네이버 프리미엄콘텐츠",
+     "outlet": "네이버 프리미엄콘텐츠"
+    },
+    {
+     "url": "https://www.1conomynews.co.kr/news/articleView.html?idxno=50938",
+     "title": "전세의 월세화, 1인 가구 증가 탓일까…청년 주거 수요 엇박자 주의해야 - 1코노미뉴스",
+     "outlet": "1코노미뉴스"
+    },
+    {
+     "url": "https://bravo.etoday.co.kr/view/atc_view/20294",
+     "title": "[윤나래의 세대읽기] 가족돌봄청년, 독립을 미루는 이유 - 이투데이",
+     "outlet": "이투데이"
+    },
+    {
+     "url": "https://www.ajunews.com/view/20261023150120370",
+     "title": "[2026 국정감사] 홍지선 장기 민간임대 활성화…청년·신혼부부 주거지원 확대 - 아주경제",
+     "outlet": "아주경제"
+    }
+   ]
   },
   {
    "source": "google_news",
@@ -1244,9 +1333,9 @@
      "source": "홈두부"
     },
     {
-     "title": "文정부표 왕숙신도시 본 청약 표류에 李정부 ‘공급 속도전’ 도매금 불신 - 네이버 프리미엄콘텐츠",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3F1VEhfb2VzVVh5VjZmbzkySUpYNFUwS1BxQ19nbjRfX21TVDMtQWtiOGd1amtjWUV3UGtWdDdTNWxvTExENklZWTQtMEtsYU9WekZxdjJhN0FNdDBLTEpDX1RFX201Z2pFRENMV0ZCeHZaRzZJS1RWMU1HSmVPRmZWUQ?oc=5",
-     "source": "네이버 프리미엄콘텐츠"
+     "title": "[10월 다섯째주 분양동향] 전국 5,555가구 청약…수도권·부산 등 대단지 위주 공급 - SR타임스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jMnVLU0V4VGgwTzE4YlViaU5iRHhZVUVlLW1JTVV1ci1rZWZodkJ1VjlUaHpNdmh5VkREbjBJS25kNzdlVE51MmstOEhqMy02akVDR2VlbDZPcnVWWkVHNGJ6d0E2UUVk0gFrQVVfeXFMUDVFRVI5d3lmNFFBUGh4c2pjYWVLekJWd3hFXzdBSjZkclhiaHlncEJ4SUI2UlBEdXl2SlR0dTJvR2hDOGp1UU9xQUhIYkRRU1VkYlNjMWNiYkY0MVdvUENEaVhZMkRaZkdEWFU?oc=5",
+     "source": "SR타임스"
     }
    ],
    "official": false,
@@ -1269,9 +1358,9 @@
      "outlet": "뉴스핌"
     },
     {
-     "url": "https://contents.premium.naver.com/ledesk/agelimit/contents/261023125544941lr",
-     "title": "文정부표 왕숙신도시 본 청약 표류에 李정부 ‘공급 속도전’ 도매금 불신 - 네이버 프리미엄콘텐츠",
-     "outlet": "네이버 프리미엄콘텐츠"
+     "url": "https://www.srtimes.kr/news/articleView.html?idxno=215743",
+     "title": "[10월 다섯째주 분양동향] 전국 5,555가구 청약…수도권·부산 등 대단지 위주 공급 - SR타임스",
+     "outlet": "SR타임스"
     }
    ]
   },
@@ -2059,69 +2148,103 @@
    "already_covered": false
   },
   {
-   "source": "korea_kr",
-   "keyword": "핼러윈 앞두고 10일간 '특별대책기간'…전국 28곳 인파 집중 관리",
+   "source": "google_news",
+   "keyword": "신혼희망타운",
    "traffic": 0,
-   "rank": 1,
-   "published": "2026-10-24T11:07:36.954858+09:00",
-   "category": "기타",
+   "article_count_24h": 8,
+   "article_count_1h": 0,
+   "published": "2026-10-24T07:00:00+09:00",
+   "category": "청약",
    "news": [
     {
-     "title": "핼러윈 앞두고 10일간 '특별대책기간'…전국 28곳 인파 집중 관리",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973954",
-     "source": "정책브리핑 실시간 인기뉴스"
+     "title": "대통령 찾은 계양신도시 가보니 \"서울 15분 거리\"...첫 민간분양도 출격[집 나와라 뚝딱!] - 파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GZHo4RkpGTW5xVXdITFU0UTZpMGZXZXpDZkRlZkpxOXV2RzAxM2FGak9hZC1URTBhRzVCTDVtNV9ZdmoxY2dSWlpISmVsVmJyMWw3Nmtnd3lCQQ?oc=5",
+     "source": "파이낸셜뉴스"
+    },
+    {
+     "title": "LH, 시흥거모 S-1블록 300가구 공급…전용 84㎡ 5.7억 - 뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBINHJxZTRBdVd3RWtpaEtzelMzMllqSHhydTJzU3VPWVJETnVNbkM4bGJMRnoyV3JYX1RXczV6ZElOYzFlTWNQdGtIYXpQTVItWXZEYkZDemgtMkZ5?oc=5",
+     "source": "뉴스핌"
+    },
+    {
+     "title": "게스트하우스·계절창고·키즈센터까지…‘부천대장 하우스토리 디센트’ 공공분양 판 흔든다 - 뉴스로드",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4zRG0yU19hc2pVN2dHZldaV1EwVXBPZmhJYURMV0NwYzV5WjVvT1RORFFJUjFSVnYzdndseWstMEhJeWRDb0J0aGloSmZ2b0dpbkNrTDZ6WUFVYXJtT2dsSlRrOGJzLVpZdmJqWi1nNNIBb0FVX3lxTE4zRG0yU19hc2pVN2dHZldaV1EwVXBPZmhJYURMV0NwYzV5WjVvT1RORFFJUjFSVnYzdndseWstMEhJeWRDb0J0aGloSmZ2b0dpbkNrTDZ6WUFVYXJtT2dsSlRrOGJzLVpZdmJqWi1nNA?oc=5",
+     "source": "뉴스로드"
+    },
+    {
+     "title": "비올메디컬, 실펌엑스 스위스 의료기기 등록…유럽 시장 확대 속도 - 메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XcVozN1VIQlJrOHhPSlhLZzJZTi16RFBrWmN0MFB4TmVmWlA0WEVYSTRqeURWamM2R3RpRFNleTJxSzBqRWFCTzBwbVZjdzhXU3IxQ3ZmcDlPa0RHQUh4eFNxYnBNRWpLZzVwdzd5cGc2bGEx0gFyQVVfeXFMUDk0LU1iTFM4c2J1a0lscl9ZSFNQSk15bWFEbDgya2ZtSURUR3lEQUd1eXR1elJ6NnBqbTJubHhySzQ2WUU0bl96LUNNWkNPOWJIX1hLb2tQRVgzdzRwZjZrdTlSYkk0UzNUZGY2eFZ2QXdB?oc=5",
+     "source": "메가경제"
+    },
+    {
+     "title": "시흥거모 300가구 첫 일반 공공분양 - 파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NREpvYWpXRDFJTlczcjl1UWF2M0RqME51eFlYWWpNQ0dGbGkyOVhmY2NJRWFBNGlLLXFwSFFYNzAwR3NKdExyR1VsdW1hWVJidm1JZmt6bUtYUQ?oc=5",
+     "source": "파이낸셜뉴스"
     }
    ],
-   "official": true,
-   "spike": "정책브리핑 실시간 인기뉴스에 새로 진입",
-   "spike_bonus": 10,
-   "score": 39.0,
+   "official": false,
+   "score": 36.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973954",
-     "title": "핼러윈 앞두고 10일간 '특별대책기간'…전국 28곳 인파 집중 관리",
-     "outlet": "정책브리핑 실시간 인기뉴스"
+     "url": "https://www.fnnews.com/news/202610232023405161",
+     "title": "대통령 찾은 계양신도시 가보니 \"서울 15분 거리\"...첫 민간분양도 출격[집 나와라 뚝딱!] - 파이낸셜뉴스",
+     "outlet": "파이낸셜뉴스"
+    },
+    {
+     "url": "https://www.newspim.com/news/view/20261023000994",
+     "title": "LH, 시흥거모 S-1블록 300가구 공급…전용 84㎡ 5.7억 - 뉴스핌",
+     "outlet": "뉴스핌"
+    },
+    {
+     "url": "http://www.newsroad.co.kr/news/articleViewAmp.html?idxno=66314",
+     "title": "게스트하우스·계절창고·키즈센터까지…‘부천대장 하우스토리 디센트’ 공공분양 판 흔든다 - 뉴스로드",
+     "outlet": "뉴스로드"
+    },
+    {
+     "url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065597658386452",
+     "title": "비올메디컬, 실펌엑스 스위스 의료기기 등록…유럽 시장 확대 속도 - 메가경제",
+     "outlet": "메가경제"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "청년월세 지원",
+   "keyword": "실업급여",
    "traffic": 0,
-   "article_count_24h": 10,
-   "article_count_1h": 0,
-   "published": "2026-10-23T13:41:47+09:00",
-   "category": "정부혜택",
+   "article_count_24h": 6,
+   "article_count_1h": 2,
+   "published": "2026-10-24T11:11:36+09:00",
+   "category": "노동·급여",
    "news": [
     {
-     "title": "전세의 월세화, 1인 가구 증가 탓일까…청년 주거 수요 엇박자 주의해야 - 1코노미뉴스",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15bU5TYXY1WDJ3LXZJMWc3S0R4Wm5kekgtczhOUkhEYW9ybFBrb2k3T3J5NmlFVjZRb0tnRUlDRDZ3bGlkeS01NmV5S3Q5QUQ0cDVlWklxRjAyVHNsWWtxeHRPS3ZyWUEtRlY5RTVualY?oc=5",
-     "source": "1코노미뉴스"
+     "title": "\"빨리 취업하고 오래 근속하면 보상 주자\"…자발적 퇴사 '실업급여' 직격한 청원 - 아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LUFB5dGcyejAtS2JyOVp5RUV1cmM3WkptTjJmUmVObEFBSlNrZmg5TDVBRXZ6VnRVSUJrS3psWXJXVHNRQWVfZG9fRk9CdU9XUktXLWlGRjlSRTVXU0czYw?oc=5",
+     "source": "아시아경제"
     },
     {
-     "title": "[윤나래의 세대읽기] 가족돌봄청년, 독립을 미루는 이유 - 이투데이",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iRW8tSGNjU2ZYWVJOY3dUT05lSW96bzNJR3VSMUsxV3FkRTRxVTdUcXhvMDFQS3ExeVl0cEFXQm5CaVlOaU94VVgzRE5qWS15VUtId0pTYnYxdw?oc=5",
-     "source": "이투데이"
+     "title": "\"놀면 말고 빨리 취업하면 주죠\"…'실업급여' 때린 사이다 청원 [곽용희의 일자리노트] - 한국경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tN0ZrTDRMLXhVVExRQzA3X0RsekJxTnNmbV9xZGpHWFBpcDZTb2txamozWU00aHJ2REZrNlJwVzFoZ2N3Q0xvMEp2djlqcElsMmI1RHdkektaZw?oc=5",
+     "source": "한국경제"
     },
     {
-     "title": "[2026 국정감사] 홍지선 장기 민간임대 활성화…청년·신혼부부 주거지원 확대 - 아주경제",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDWkdNeVU5WmZuYXdSUWdWdkNCU1Azd1lwdFFVWVU4M0xpeUpla3oxbjlFSjFrMGVmUDdHdHVCVHFlQ2t2ZHNSOGlQeGgzUkVrV3Zqb0VpZ3HSAVhBVV95cUxQQ1pHTXlVOVpmbmF3UlFnVnZDQlNQM3dZcHRRVVlVODNMaXlKZWt6MW45RUoxazBlZlA3R3R1QlRxZUNrdmRzUjhpUHhoM1JFa1d2am9FaWdx?oc=5",
-     "source": "아주경제"
+     "title": "사회보험에 가입된 모든 시민은 2027년부터 시행될 이 중요한 공지사항을 숙지해야 합니다. - Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTU44bTh2Ukp1WTdWMzJ0M0pGYUFLZ3Zhb09SUFRFT2hjbjNBNUM3ODJXdnJsSksxTFMxSzNvbU1GWFhzamFoV3FXdXM2bjA4YU1teEd6TkxDeVN2U3JuUjhWdkpLUnE1Q0tnLVk1SEtaSElDOUU5Q1FHQVYzbzVkZUJrX3gzbVZmOF9fM1VHUU10Ny0xX0hDRmRLZ1NRa1FxMkUyaEpxa0xQVEQyQ29COGNaSUdTUjFoQVpmbXBqcWJMZ28xNHc?oc=5",
+     "source": "Vietnam.vn"
     },
     {
-     "title": "단순히 쉬운 단어를 쓰는 게 아니었다, ‘쉬운신문’ 제작기 - 미디어오늘",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZXzdfUGREUDdKVHVlbm53TlJsRU1Iak8tc0lwam5nalhhakM4ZXVsWHJQMWQyRk9DdWVvTFJBQ0pSTWVnUC1rU05ZQkZJc0VER210OVpkWWxQTHNzQll4V3RDLXZpWk1wSlpoZDV6eFo?oc=5",
-     "source": "미디어오늘"
+     "title": "\"레전드도 실업급여 받는다\"…`야생마` LG 이상훈이 전한 가슴 뭉클한 `인생 공부` - 마이데일리",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PYWVCUWpZTHZubVlULWNkdGlVZjNYeFh1bks2NkdXTHFaNFg4TVlJelFBdHc5SjhmTTRsREFUOWIzV25hREtUVXkzeTdMa2ljR1BwOTZlZ2tmdGR6UTNlZw?oc=5",
+     "source": "마이데일리"
     },
     {
-     "title": "노원 청년 기본 조례 통과... '5년 마다 실태조사ㆍ주거비 지원' - 한강타임즈",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHSGNMSWVuX3ZxbGdDYURPM09oMlEtUG9pT3Fha0VGc2g4bWJsM2s1M2RGTlFNMmFaQ2Z1SzEzN0ctVUY2cU11QXF6RlNLMGhwNVZoNXJfRnU3blBFZFN3dnIyREgtcC1MU3pj?oc=5",
-     "source": "한강타임즈"
+     "title": "오이사공, 인사정보·실무계산 등 '인사팀 서비스' 무료 오픈 - 머니투데이 - 머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MaUpPN3dWS2JLQWFKMXJ2TEdNWGFNU1RTTmpoaHRPSldzSGtmd2pUU2lkUnJHU0hnVjN2MExJZXBJV09CNTZaQ0pKbi1Da1Jra180RlpfWjFnYlhSLTIzNm16anNMQm16RHJoY9IBckFVX3lxTE5WTm12QnlWNmJOZjBzLXNONTcwUlBNSkZ6VVRnZWx2MXk0WHdUdEV4c1BXTkUzRm9FQ1dyaDEwdFJERTRMeV94NnUxLUZFVEp4M1hqS0VabmNTbzhkMnVfZlZTTXpDZkdQX1lSQ19ETnZsdw?oc=5",
+     "source": "머니투데이"
     }
    ],
    "official": false,
-   "score": 33.6,
+   "score": 33.8,
    "already_covered": true
   },
   {
@@ -2144,11 +2267,6 @@
      "source": "연합뉴스"
     },
     {
-     "title": "당진 시민 17만4000명 ‘30만원씩’ 지역화폐, 조례안 통과 - 서울신문",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNdWxFM2hfMEE5dUxYblNPWjNGcUlPQTFlT09MZkwtOVNmMzNlbTMwOHVzY3daay1BWkt4aGs0S3F5ZjkyZk5HRmNFSktkcU9XS1ZIRTh3TQ?oc=5",
-     "source": "서울신문"
-    },
-    {
      "title": "다문화가정 30명 대상으로 의령군가족센터, 하동·순천 문화체험 여행 - 의령신문",
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43dXlUczlVaWp5RVNfSWF6NTd0XzNnLUhlSGFhQ1RaYWIwRFByTU9ob1Y0dktSc24xWVVmTFlOdTQzVVgxZGt4eWdXQ1dxWDdkSHQ4?oc=5",
      "source": "의령신문"
@@ -2157,6 +2275,11 @@
      "title": "김용판 달서구청장 “중앙정부 정책에 지방은 빚 부담” - 매일경제",
      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5uVVdyS2IxNVRHbzN1cVdEZDNlYk12NWVtb0VGbjY5Y3NlUkhtMFBmTXYzM1FCcktGSGdxUm44UlFUTy1RRkE?oc=5",
      "source": "매일경제"
+    },
+    {
+     "title": "의병청년회, 홀몸 어르신 집수리 봉사 (용덕면) - 의령신문",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Qc0ljT3pNVVhrX25VaDU4ZzZrZS0tSGdBc21tUWpEVFJOU2Y0dlZsOVJTeE5vWG11bDJkRGxwUEpCaXRycjRxekZZM1FoQ0dwdEw0?oc=5",
+     "source": "의령신문"
     }
    ],
    "official": false,
@@ -2203,62 +2326,10 @@
    "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "레이스 대 브루어스",
-   "traffic": 10000,
-   "published": "2026-10-24T08:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "57년 기다린 브루어스냐, 28년 기다린 레이스냐… 월드시리즈 첫 우승 놓고 결투",
-     "url": "https://www.chosun.com/sports/world-baseball/2026/10/24/LNOPEZH7SVD3HPWC47ZAZXSK3Y/",
-     "source": "조선일보"
-    },
-    {
-     "title": "MLB 탬파베이, 월드시리즈 1차전 선발로 베테랑 마르티네스 투입",
-     "url": "https://www.yna.co.kr/view/AKR20261023042700007",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "'170㎞ 언터처블' 미저라우스키 드디어 WS 데뷔, 밀워키 57년 한풀이 앞장설까 [MLB WS 프리뷰] - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/10/23/2026102313245311992",
-     "source": "머니투데이"
-    }
-   ],
-   "official": false,
-   "score": 30.0,
-   "already_covered": false
-  },
-  {
-   "source": "korea_kr",
-   "keyword": "첫 '한식의 날' 기념식…\"한식의 새로운 미래 선언\"",
-   "traffic": 0,
-   "rank": 2,
-   "published": "2026-10-24T11:07:36.954916+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "첫 '한식의 날' 기념식…\"한식의 새로운 미래 선언\"",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974204",
-     "source": "정책브리핑 실시간 인기뉴스"
-    }
-   ],
-   "official": true,
-   "score": 29.4,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974204",
-     "title": "첫 '한식의 날' 기념식…\"한식의 새로운 미래 선언\"",
-     "outlet": "정책브리핑 실시간 인기뉴스"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "고향사랑기부제",
    "traffic": 0,
-   "article_count_24h": 42,
+   "article_count_24h": 39,
    "article_count_1h": 0,
    "published": "2026-10-24T03:44:46+09:00",
    "category": "세금",
@@ -2314,7 +2385,7 @@
     },
     {
      "title": "오세훈 '2심 무죄' 소식에...김민석, 진짜 속마음은? [Y녹취록] - YTN",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1IeWlEb3gtdmxLcGU2VXBJRzBfeWdHREFNQ3I5MVZXQzhpUU1QcnZON0JDTDhHMHlFd21lcmhSeU5oV3VoRG1oMjF5QlFmVlpMWkFGbTF3cWFIZGY1TDRBZm93RQ?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LeWlpU2FyTVprX2JWM0xjUXQzUDR5VVV4eDNhZTdNeEhXcVR5UmQxVHlxV1hxQVZDQ0hVVXZPUGE0aFhyRmFQOUtPeXdpU3ZsMlk2VGl1MVJvLUpoNzNTU2FXY2NQRzIwemFjR3VwOThTRFNUOEE?oc=5",
      "source": "YTN"
     },
     {
@@ -2323,53 +2394,14 @@
      "source": "위키트리"
     },
     {
-     "title": "서영교, 법원에 \"오세훈 징역형 선고하라\"...김민석도 \"서울시장 선거 준비\" - 펜앤마이크",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2MWRISlg0QVY2RWl5Qlp5UHBDaFd3c2R6SV9DZldCUTdSN2FwZlVRa3ZBYjRYSXR3QzF1d0JWaW1nMnQ3THpPT0hrWUFjUVVtM0JWcGdKWmVzcDIyMW5OYk1va2hvZDlldUxINkpLY9IBb0FVX3lxTFA2MWRISlg0QVY2RWl5Qlp5UHBDaFd3c2R6SV9DZldCUTdSN2FwZlVRa3ZBYjRYSXR3QzF1d0JWaW1nMnQ3THpPT0hrWUFjUVVtM0JWcGdKWmVzcDIyMW5OYk1va2hvZDlldUxINkpLYw?oc=5",
-     "source": "펜앤마이크"
+     "title": "[국회 현장] 오세훈 선고 앞두고 긴장 속 서영교 규탄 나선 국힘 - 공공뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1Q2VVSTYxSmtRZHVoNGVpYlkxOHFVTkpJcXdWbzYtcVREaERONlhNd05FVGN5emZTaGM5TVZ0WEtmUlBhLXE1LXM2cThHTEpxU09hdnZObDNYWkRxZEFtOEk5V0NmNWZYbXfSAW5BVV95cUxPWElLcW5ROWZXb3pyaHU4UTlaZWZaTy1TMFB5dG9zMEJiNmNuc2hrZEtUM2tnSmd3bXRxeEZ1RFBBVTJDeDBHb1V3dGxkWXdSM2RsZnlkTTlMLVgxSmg3SjR2dmE4TUpObm1NbXZ5QQ?oc=5",
+     "source": "공공뉴스"
     }
    ],
    "official": false,
    "score": 27.3,
    "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "실업급여",
-   "traffic": 0,
-   "article_count_24h": 7,
-   "article_count_1h": 0,
-   "published": "2026-10-24T07:00:05+09:00",
-   "category": "노동·급여",
-   "news": [
-    {
-     "title": "\"놀면 말고 빨리 취업하면 주죠\"…'실업급여' 때린 사이다 청원 [곽용희의 일자리노트] - 한국경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tN0ZrTDRMLXhVVExRQzA3X0RsekJxTnNmbV9xZGpHWFBpcDZTb2txamozWU00aHJ2REZrNlJwVzFoZ2N3Q0xvMEp2djlqcElsMmI1RHdkektaZw?oc=5",
-     "source": "한국경제"
-    },
-    {
-     "title": "\"레전드도 실업급여 받는다\"…`야생마` LG 이상훈이 전한 가슴 뭉클한 `인생 공부` - 마이데일리",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PYWVCUWpZTHZubVlULWNkdGlVZjNYeFh1bks2NkdXTHFaNFg4TVlJelFBdHc5SjhmTTRsREFUOWIzV25hREtUVXkzeTdMa2ljR1BwOTZlZ2tmdGR6UTNlZw?oc=5",
-     "source": "마이데일리"
-    },
-    {
-     "title": "오이사공, 인사정보·실무계산 등 '인사팀 서비스' 무료 오픈 - 머니투데이 - 머니투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MaUpPN3dWS2JLQWFKMXJ2TEdNWGFNU1RTTmpoaHRPSldzSGtmd2pUU2lkUnJHU0hnVjN2MExJZXBJV09CNTZaQ0pKbi1Da1Jra180RlpfWjFnYlhSLTIzNm16anNMQm16RHJoY9IBckFVX3lxTE5WTm12QnlWNmJOZjBzLXNONTcwUlBNSkZ6VVRnZWx2MXk0WHdUdEV4c1BXTkUzRm9FQ1dyaDEwdFJERTRMeV94NnUxLUZFVEp4M1hqS0VabmNTbzhkMnVfZlZTTXpDZkdQX1lSQ19ETnZsdw?oc=5",
-     "source": "머니투데이"
-    },
-    {
-     "title": "지금 사표 던지면 진짜 큰일 나는 이유, 숫자로 끝까지 따져봤습니다 - 네이버 프리미엄콘텐츠",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdGVVMXpWdFc1a0xlck43bGRzODk4X3Q3OFJscEFpUy1iUGVHcDhNUU8zR0IxVm1BVmRuSFE0c3BweXduSzdXRmp6eE5zUHJiMTVnYklTb3BCODR5dWEzdEpGTUlzZFplbDA3YUs2VjhPRWQwYUpsaUFRVE82M2p6MWJmSFgtUGpoTnlUZg?oc=5",
-     "source": "네이버 프리미엄콘텐츠"
-    },
-    {
-     "title": "[AI MEMO] AI 도입 기업 고용 증가세 둔화, 신규 채용에서 먼저 변화 - The Economy Korea",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyWGFDSnliRnVQT2luOHFuUm54X3lIa29JdkF4RXVWRVhsRkltc3VpZW9PUl9zRlFlNVc4MHBtY1J0NU5HT2RsREhTaU15Z3hiV29COXRROWhtWXpGQ1E?oc=5",
-     "source": "The Economy Korea"
-    }
-   ],
-   "official": false,
-   "score": 27.3,
-   "already_covered": true
   },
   {
    "source": "applyhome",
@@ -2822,70 +2854,6 @@
    "already_covered": false
   },
   {
-   "source": "korea_kr",
-   "keyword": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다",
-   "traffic": 0,
-   "rank": 3,
-   "published": "2026-10-24T11:07:36.954940+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974194",
-     "source": "정책브리핑 실시간 인기뉴스"
-    }
-   ],
-   "official": true,
-   "score": 25.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974194",
-     "title": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다",
-     "outlet": "정책브리핑 실시간 인기뉴스"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "사전투표소",
-   "traffic": 0,
-   "article_count_24h": 5,
-   "article_count_1h": 1,
-   "published": "2026-10-24T08:06:00+09:00",
-   "category": "선거",
-   "news": [
-    {
-     "title": "\"트럼프 반대하려 투표\"...미국 중간선거 10일 앞 텃밭도 접전 - YTN",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsU1RzMTJ3UklDUFBCODdNU2ZTNS1Ta20tX1ItWWdHRGsyTmVYeFhmby1nRGY4VVlNd1Q2RkxDM28zeUhvU0dING9ERlVJeTV0RzlWalVfUkpFZmx4cDZoQWpBYWhFWVZxODJfU01BX3hMMnJkeVE?oc=5",
-     "source": "YTN"
-    },
-    {
-     "title": "미국 중간선거, AI·빅테크가 양당의 공격 표적으로 - 초이스경제",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhRmNxNXB6d3ZIeURKaGxUTE4xWUhuSnIxblMtOFNnSTF3UVRVdmFLRlZFdGxpd3pMcGZXQXoxbkg0d2V5cDVzNXAwd3BMVW95MndLZ2wteE0xT0FSeHg4MlJYZWUtWFgwMmVxX2hDWUxSekHSAXNBVV95cUxQYUZjcTVwend2SHlESmhsVExOMVlIbkpyMW5TLThTZ0kxd1FUVXZhS0ZWRXRsaXd6THBmV0F6MW5INHdleXA1czVwMHdwTFVveTJ3S2dsLXhNMU9BUnh4ODJSWGVlLVhYMDJlcV9oQ1lMUnpB?oc=5",
-     "source": "초이스경제"
-    },
-    {
-     "title": "\"트럼프 반대하려 투표\"...미국 중간선거 10일 앞 공화당 '텃밭'도 접전 - YTN",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FS3Zyb3dMdXFIeE0yaGJUcjZmYWZ0TTlhVnV2X0lSU0FqUFcxZERsRnFCQ3JQZGRsOGt3R1MzWFBQSXdVY0JsSzNNUURwcjc5c25Qa3hYeVVZTEE2dHc?oc=5",
-     "source": "YTN"
-    },
-    {
-     "title": "美민주 지지층 사전투표 폭증…\"'트럼프 통제 시도'에 우편투표 못 믿어\" - 뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzakp0V3FjaDBER193UkxRMllkUFdIODNUbGlDOGdndHBjQzgxeEJuMUFmNjQxSnF3b1ZQVHFNdFdlZmNoZVFlRWxYN0h0V1RrbVMxWFhEaXF4ancyME0za0tVakVwR0RBU3U5eUMzRDVyYVBDNFBRY9IBeEFVX3lxTFAzakp0V3FjaDBER193UkxRMllkUFdIODNUbGlDOGdndHBjQzgxeEJuMUFmNjQxSnF3b1ZQVHFNdFdlZmNoZVFlRWxYN0h0V1RrbVMxWFhEaXF4ancyME0za0tVakVwR0RBU3U5eUMzRDVyYVBDNFBRYw?oc=5",
-     "source": "뉴시스"
-    },
-    {
-     "title": "벼랑 끝 내몰린 백악관 -> 참패 공포에 떠밀려 터져 나온 현금 살포극 > 붉은 성채 텍사스의 균열 => 부시 가문의 이반과 트럼프의 패권적 위기 = 청년 세대의 거센 분노 >> 침묵을 깨고 백악관을 향해 내딛는 발걸음 | - 데일리머니",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MR19mVk82UlRkeGYwa0VnMHRYR0lrTHFsSWJtUWsxem85S1JJRUN1cE5jQ0w2TDFkbHVhQU0zS3VIazRFTDdteDY3STNBWWkxQmlJSUtWT0F1WWRnN3VkcTNYUWVlMDhTaUlMNDlFNWdtdFpnV1E?oc=5",
-     "source": "데일리머니"
-    }
-   ],
-   "official": false,
-   "score": 24.7,
-   "already_covered": false
-  },
-  {
    "source": "google_news",
    "keyword": "최저임금 결정",
    "traffic": 0,
@@ -2922,70 +2890,6 @@
    ],
    "official": false,
    "score": 23.5,
-   "already_covered": false
-  },
-  {
-   "source": "korea_kr",
-   "keyword": "이 대통령, \"모든 위협으로부터 국민 일상 지키는 데 국정 역량 집중\"",
-   "traffic": 0,
-   "rank": 4,
-   "published": "2026-10-24T11:07:36.954965+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "이 대통령, \"모든 위협으로부터 국민 일상 지키는 데 국정 역량 집중\"",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973945",
-     "source": "정책브리핑 실시간 인기뉴스"
-    }
-   ],
-   "official": true,
-   "score": 22.2,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973945",
-     "title": "이 대통령, \"모든 위협으로부터 국민 일상 지키는 데 국정 역량 집중\"",
-     "outlet": "정책브리핑 실시간 인기뉴스"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "신혼희망타운",
-   "traffic": 0,
-   "article_count_24h": 7,
-   "article_count_1h": 0,
-   "published": "2026-10-23T14:30:40+09:00",
-   "category": "청약",
-   "news": [
-    {
-     "title": "시흥거모 300가구 첫 일반 공공분양 - 파이낸셜뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NREpvYWpXRDFJTlczcjl1UWF2M0RqME51eFlYWWpNQ0dGbGkyOVhmY2NJRWFBNGlLLXFwSFFYNzAwR3NKdExyR1VsdW1hWVJidm1JZmt6bUtYUQ?oc=5",
-     "source": "파이낸셜뉴스"
-    },
-    {
-     "title": "게스트하우스·계절창고·키즈센터까지…‘부천대장 하우스토리 디센트’ 공공분양 판 흔든다 - 뉴스로드",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4zRG0yU19hc2pVN2dHZldaV1EwVXBPZmhJYURMV0NwYzV5WjVvT1RORFFJUjFSVnYzdndseWstMEhJeWRDb0J0aGloSmZ2b0dpbkNrTDZ6WUFVYXJtT2dsSlRrOGJzLVpZdmJqWi1nNNIBb0FVX3lxTE4zRG0yU19hc2pVN2dHZldaV1EwVXBPZmhJYURMV0NwYzV5WjVvT1RORFFJUjFSVnYzdndseWstMEhJeWRDb0J0aGloSmZ2b0dpbkNrTDZ6WUFVYXJtT2dsSlRrOGJzLVpZdmJqWi1nNA?oc=5",
-     "source": "뉴스로드"
-    },
-    {
-     "title": "비올메디컬, 실펌엑스 스위스 의료기기 등록…유럽 시장 확대 속도 - 메가경제",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XcVozN1VIQlJrOHhPSlhLZzJZTi16RFBrWmN0MFB4TmVmWlA0WEVYSTRqeURWamM2R3RpRFNleTJxSzBqRWFCTzBwbVZjdzhXU3IxQ3ZmcDlPa0RHQUh4eFNxYnBNRWpLZzVwdzd5cGc2bGEx0gFyQVVfeXFMUDk0LU1iTFM4c2J1a0lscl9ZSFNQSk15bWFEbDgya2ZtSURUR3lEQUd1eXR1elJ6NnBqbTJubHhySzQ2WUU0bl96LUNNWkNPOWJIX1hLb2tQRVgzdzRwZjZrdTlSYkk0UzNUZGY2eFZ2QXdB?oc=5",
-     "source": "메가경제"
-    },
-    {
-     "title": "대통령 찾은 계양신도시 가보니 \"서울 15분 거리\"...첫 민간분양도 출격[집 나와라 뚝딱!] - 파이낸셜뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GZHo4RkpGTW5xVXdITFU0UTZpMGZXZXpDZkRlZkpxOXV2RzAxM2FGak9hZC1URTBhRzVCTDVtNV9ZdmoxY2dSWlpISmVsVmJyMWw3Nmtnd3lCQQ?oc=5",
-     "source": "파이낸셜뉴스"
-    },
-    {
-     "title": "쿠팡, 로켓프레시서 햅쌀·햇과일 등 600여개 상품 할인 - 메가경제",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GSkdYVWhBWGZCc2FtMVJQejdIWVlveEJ1djdzYTRlalZraE5ObXhiOHNnOGh2RjZQbUlTY3NOSVM0M08yTTl4dmRRRWFyZTRjcWVxb3V4YkJmLWRIN3JXNUtmcEtmVmVxdGRYNDVNelM5R1Nl0gFyQVVfeXFMUGhmNVpkREROZ29mZmp6S3VJUDVvcGdTRzVnSkJlMk5RWHJTWDd2N0RGT2JTOVRNV2YyNm12UWhqZ1ItcFNmRFh2cm5OVm92SDlRTE1kLXFsa1RHVlBIRXl1eXV1aG1zei10UzRpb2VHZVJB?oc=5",
-     "source": "메가경제"
-    }
-   ],
-   "official": false,
-   "score": 22.0,
    "already_covered": false
   },
   {
@@ -3184,29 +3088,130 @@
    "already_covered": false
   },
   {
-   "source": "korea_kr",
-   "keyword": "경주·북한산·팔공산 국립공원 '야경 관광' 첫 선…한 달간 운영",
-   "traffic": 0,
-   "rank": 5,
-   "published": "2026-10-24T11:07:36.954988+09:00",
+   "source": "google_trends",
+   "keyword": "김수미",
+   "traffic": 2000,
+   "published": "2026-10-24T09:30:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "경주·북한산·팔공산 국립공원 '야경 관광' 첫 선…한 달간 운영",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974201",
-     "source": "정책브리핑 실시간 인기뉴스"
+     "title": "“인생 한 번뿐이야” 故 김수미가 세상에 남긴 마지막 독설",
+     "url": "https://www.segye.com/newsView/20261023508517",
+     "source": "세계일보"
+    },
+    {
+     "title": "故김수미 발인에 통곡한 '며느리' 서효림..2주기 앞두고 \"싱숭생숭하네요\"",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/10/23/GE2DCZRVG4ZGGNJRG5SWIZJVMM/",
+     "source": "조선일보"
+    },
+    {
+     "title": "서효림, 2주기 故 김수미에 대한 그리움 “김치 출시, 마음이 싱숭생숭”",
+     "url": "https://sports.khan.co.kr/article/202610231805013",
+     "source": "스포츠경향"
     }
    ],
-   "official": true,
-   "score": 18.6,
+   "official": false,
+   "spike": "검색량 1,000→2,000",
+   "spike_bonus": 20,
+   "score": 18.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974201",
-     "title": "경주·북한산·팔공산 국립공원 '야경 관광' 첫 선…한 달간 운영",
-     "outlet": "정책브리핑 실시간 인기뉴스"
+     "url": "https://www.segye.com/newsView/20261023508517",
+     "title": "“인생 한 번뿐이야” 故 김수미가 세상에 남긴 마지막 독설",
+     "outlet": "세계일보"
+    },
+    {
+     "url": "https://sports.khan.co.kr/article/202610231805013",
+     "title": "서효림, 2주기 故 김수미에 대한 그리움 “김치 출시, 마음이 싱숭생숭”",
+     "outlet": "스포츠경향"
     }
    ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "매일경제신문",
+   "traffic": 2000,
+   "published": "2026-10-24T09:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "[매경춘추] 네 번째 엑스",
+     "url": "https://www.mk.co.kr/news/contributors/12184317",
+     "source": "매일경제"
+    },
+    {
+     "title": "“제값 받고 못팔바에야 자식에게”…서울 다소유자들, 매매 대신 증여 급증",
+     "url": "https://www.mk.co.kr/news/realestate/12184075",
+     "source": "매일경제"
+    },
+    {
+     "title": "서울 집합건물 상속인 7989명⋯1년 새 8.7% 증가",
+     "url": "https://www.etoday.co.kr/news/view/2639238",
+     "source": "이투데이"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 1,000→2,000",
+   "spike_bonus": 20,
+   "score": 18.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.mk.co.kr/news/contributors/12184317",
+     "title": "[매경춘추] 네 번째 엑스",
+     "outlet": "매일경제"
+    },
+    {
+     "url": "https://www.mk.co.kr/news/realestate/12184075",
+     "title": "“제값 받고 못팔바에야 자식에게”…서울 다소유자들, 매매 대신 증여 급증",
+     "outlet": "매일경제"
+    },
+    {
+     "url": "https://www.etoday.co.kr/news/view/2639238",
+     "title": "서울 집합건물 상속인 7989명⋯1년 새 8.7% 증가",
+     "outlet": "이투데이"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "국가건강검진",
+   "traffic": 0,
+   "article_count_24h": 40,
+   "article_count_1h": 2,
+   "published": "2026-10-23T18:51:41+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "국가검진까지 검체검사 위·수탁 개편?…醫 \"명백한 제도 개악\" - 청년의사",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83NzBhbG1XODVfeGxyQ0J1ZGRoOGhocFpFTGRTLWtsM0NBVmFCTlB5VERpX19TckpWNXhvV20tOTNORm9DM2FQT3JjSWNrTXNjdnJ6cG1UTlBzTmxlalBCY0FQMTVBSmZKd2lfQW9JU0NKNVHSAXNBVV95cUxPNzcwYWxtVzg1X3hsckNCdWRkaDhoaHBaRUxkUy1rbDNDQVZhQk5QeVREaV9fU3JKVjV4b1dtLTkzTkZvQzNhUE9yY0lja01zY3ZyenBtVE5Qc05sZWpQQmNBUDE1QUpmSndpX0FvSVNDSjVR?oc=5",
+     "source": "청년의사"
+    },
+    {
+     "title": "국가건강검진까지 확대되는 검체검사 위·수탁 개편…의료계 “일차의료 붕괴 초래할 것” - 경기메디뉴스",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pLWZZT0lxc0R5Z3dLZG81ck4zZWFPMnhtekRrNUlrZXZQWGppaTcxUWhpYUt6WEN4WlZ1ZG0wUFZtREhERXUtclFpQ2I2SEhxRVFRelJXZVNvdTdONk9BejJ1WWFJRzV0c3Vj?oc=5",
+     "source": "경기메디뉴스"
+    },
+    {
+     "title": "내과의사회·건강검진학회, “국가검진까지 검체검사 위·수탁 개편 확대? 다 죽으란 소리냐” - 의사신문",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11UTA3eDNzb1VQUDFzVXZYdHBNZlJaQlpwR2gyS1J1bTRuZUxVWGwyTWZRRG5pQTZVS0o5Sk45YTc5MTVxSkFoNV90NzNyaS1lSWU1VW9sSmttUlZfejJzOHh1WV9CbjVNa1hRdFpOOA?oc=5",
+     "source": "의사신문"
+    },
+    {
+     "title": "[김연수의 식탁이야기(105)] 폐기능검사 국가검진 도입했지만, 정작 호흡기 전문의는 부족 - 뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ha0x1dVlJWnY3M2NzR0VNVTZWQUtQeS1fSC14M1FwQlV0M2g5RllRLTV1dkRhdEw4dDRaYXh5SW5kc1FmUm1kZEhENTdRbXBTcW1zNXVNV3Vjb1dwbnc?oc=5",
+     "source": "뉴스투데이"
+    },
+    {
+     "title": "건강검진 검체검사 개편 추진에 개원가 ‘격한 분노’ - 병원신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KVUM0Z09pTlpCZVdZc0RQa0tjckd5RkZjYmRmZXhlaGRrUVQ4Y0VMbVk3ZDJHdFE0MGVwOENlQTNGLUwwa0lFVFF6U00ydDVFRmJPWS0tRDduOElEM1J5RzJ0Nmh3U3pI?oc=5",
+     "source": "병원신문"
+    }
+   ],
+   "official": false,
+   "score": 16.0,
+   "already_covered": false
   },
   {
    "source": "tv_food",
@@ -3237,67 +3242,42 @@
   },
   {
    "source": "google_trends",
-   "keyword": "김수미",
-   "traffic": 1000,
-   "published": "2026-10-24T09:30:00+09:00",
+   "keyword": "미사일",
+   "traffic": 2000,
+   "published": "2026-10-24T10:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "“인생 한 번뿐이야” 故 김수미가 세상에 남긴 마지막 독설",
-     "url": "https://www.segye.com/newsView/20261023508517",
-     "source": "세계일보"
+     "title": "사우디, 미사일 생산시설 확장…중국 기술 가능성",
+     "url": "https://www.yna.co.kr/view/AKR20261023182900009",
+     "source": "연합뉴스"
     },
     {
-     "title": "故김수미 발인에 통곡한 '며느리' 서효림..2주기 앞두고 \"싱숭생숭하네요\"",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/10/23/GE2DCZRVG4ZGGNJRG5SWIZJVMM/",
-     "source": "조선일보"
+     "title": "“위성사진에 딱 걸렸다”…사우디가 중국 손잡고 몰래 만든 ‘비밀 미사일’",
+     "url": "https://www.mk.co.kr/news/world/12184595",
+     "source": "매일경제"
     },
     {
-     "title": "서효림, 2주기 故 김수미에 대한 그리움 “김치 출시, 마음이 싱숭생숭”",
-     "url": "https://sports.khan.co.kr/article/202610231805013",
-     "source": "스포츠경향"
+     "title": "중국 기술로 후티에 반격…사우디, 미사일 생산시설 확장",
+     "url": "https://biz.sbs.co.kr/article/20000341905?division=NAVER",
+     "source": "SBS Biz"
     }
    ],
    "official": false,
-   "spike": "검색량 500→1,000",
-   "spike_bonus": 20,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
    "score": 15.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.segye.com/newsView/20261023508517",
-     "title": "“인생 한 번뿐이야” 故 김수미가 세상에 남긴 마지막 독설",
-     "outlet": "세계일보"
+     "url": "https://www.yna.co.kr/view/AKR20261023182900009",
+     "title": "사우디, 미사일 생산시설 확장…중국 기술 가능성",
+     "outlet": "연합뉴스"
     },
     {
-     "url": "https://sports.khan.co.kr/article/202610231805013",
-     "title": "서효림, 2주기 故 김수미에 대한 그리움 “김치 출시, 마음이 싱숭생숭”",
-     "outlet": "스포츠경향"
-    }
-   ]
-  },
-  {
-   "source": "korea_kr",
-   "keyword": "이 대통령 \"관계성·무차별 범죄, 사후 대응서 사전 예방으로 대전환\"",
-   "traffic": 0,
-   "rank": 6,
-   "published": "2026-10-24T11:07:36.955010+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "이 대통령 \"관계성·무차별 범죄, 사후 대응서 사전 예방으로 대전환\"",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974027",
-     "source": "정책브리핑 실시간 인기뉴스"
-    }
-   ],
-   "official": true,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974027",
-     "title": "이 대통령 \"관계성·무차별 범죄, 사후 대응서 사전 예방으로 대전환\"",
-     "outlet": "정책브리핑 실시간 인기뉴스"
+     "url": "https://www.mk.co.kr/news/world/12184595",
+     "title": "“위성사진에 딱 걸렸다”…사우디가 중국 손잡고 몰래 만든 ‘비밀 미사일’",
+     "outlet": "매일경제"
     }
    ]
   },
@@ -3331,82 +3311,45 @@
    "already_covered": true
   },
   {
-   "source": "google_news",
-   "keyword": "문화누리카드",
-   "traffic": 0,
-   "article_count_24h": 11,
-   "article_count_1h": 1,
-   "published": "2026-10-23T13:36:18+09:00",
+   "source": "google_trends",
+   "keyword": "삼성 갤럭시 s26",
+   "traffic": 500,
+   "published": "2026-10-24T09:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "공주시 의당면, ‘찾아가는 문화누리 꾸러미 문화장터’ 개최 - 충청메시지",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtdEx4bkZiSEc1UGhhekFaMXJVLUNPck9aTVhfTk5HSzlZSlpPM09TZENqenFibjcxcEVBY1owbUFlUGJCSjJ4ekVFSHh2ajgyOV9rWUExanl2cUNNRnVkRXlvODZySWE3R0NZ?oc=5",
-     "source": "충청메시지"
+     "title": "삼성 '갤럭시 M47·A26·A17' One UI 9 업데이트 배포…안드로이드 17 적용",
+     "url": "https://kbench.com/?q=node/282738",
+     "source": "케이벤치"
     },
     {
-     "title": "공주시 의당면, ‘찾아가는 문화누리 꾸러미 문화장터’ 개최 - 아시아뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0YWpFLWhiUGRiV0JsNThWdGhHRi1jWHl5WURUcHJvYUxieUYyaVQ1WTlZRzNNdVJBZFZXbVN1dG02ZWh6R2VrY2k2Y1dVUkM0d3d0M21JWXNpREJvNlJlZjdmM0F2NzAxb2FyRDlxQWFwRFRf?oc=5",
-     "source": "아시아뉴스통신"
+     "title": "갤럭시 A56, 원 UI 8.5엔 없던 아이폰 에어드롭이 원 UI 9에서 열렸다",
+     "url": "https://www.wikitree.co.kr/articles/1168181",
+     "source": "위키트리"
     },
     {
-     "title": "인천시, 10월 28~29일 농특산물 직거래장터 운영 - 미디어생활",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4T3o1WXgzcTFKZFJIVjZld3MyTzVHd1did0s5ZVI1Ulp1eW4wUXhJendrOWFZOVFWME8wQjVDbk5VYWpHRE9DWDh5d3B3UHpzT0ozeW5RdUJ5NTQtNHpJWWJjY05EWUF5UDNjOUZ4SQ?oc=5",
-     "source": "미디어생활"
-    },
-    {
-     "title": "“한우·인삼 최대 30% 싸게”…인천시청에 ‘농특산물 장터’ 열린다 - 농민신문",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWcG9EdGZYOGl3MnBQU3hKNTZjYWRKUzczNnFEandsLXNwYmtPelFMVmVTOHNGdjJVVWo2TldhZ0tVZmpIaUVHcy1WODBVU3ctOUZpSGxhUFU0UQ?oc=5",
-     "source": "농민신문"
-    },
-    {
-     "title": "인천시,‘2026 농특산물 인천장터’개장, 지역 농가와 시민을 잇는다 - 인천교육일보",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YLU10UmZHcWlHdnlYam5COVBlY1I1dFY2OVJaemFldDdocXdPekFaQUNILUF2QmF1eFJfQTFfb3dTbnl6MnFiLVItLWttd2dfU2VkNElvN3hUbDVTUXdwYWVOOTJZXzFp?oc=5",
-     "source": "인천교육일보"
+     "title": "삼성전자, 갤럭시 S28에 '갤럭시 OS' 탑재 관측…소프트웨어 혁신 나서나",
+     "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904177",
+     "source": "이코노미트리뷴"
     }
    ],
    "official": false,
-   "score": 14.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "국가건강검진",
-   "traffic": 0,
-   "article_count_24h": 41,
-   "article_count_1h": 1,
-   "published": "2026-10-23T18:51:41+09:00",
-   "category": "기타",
-   "news": [
+   "spike": "검색량 200→500",
+   "spike_bonus": 20,
+   "score": 13.5,
+   "already_covered": false,
+   "evidence": [
     {
-     "title": "국가검진까지 검체검사 위·수탁 개편?…醫 \"명백한 제도 개악\" - 청년의사",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83NzBhbG1XODVfeGxyQ0J1ZGRoOGhocFpFTGRTLWtsM0NBVmFCTlB5VERpX19TckpWNXhvV20tOTNORm9DM2FQT3JjSWNrTXNjdnJ6cG1UTlBzTmxlalBCY0FQMTVBSmZKd2lfQW9JU0NKNVHSAXNBVV95cUxPNzcwYWxtVzg1X3hsckNCdWRkaDhoaHBaRUxkUy1rbDNDQVZhQk5QeVREaV9fU3JKVjV4b1dtLTkzTkZvQzNhUE9yY0lja01zY3ZyenBtVE5Qc05sZWpQQmNBUDE1QUpmSndpX0FvSVNDSjVR?oc=5",
-     "source": "청년의사"
+     "url": "https://www.wikitree.co.kr/articles/1168181",
+     "title": "갤럭시 A56, 원 UI 8.5엔 없던 아이폰 에어드롭이 원 UI 9에서 열렸다",
+     "outlet": "위키트리"
     },
     {
-     "title": "국가건강검진까지 확대되는 검체검사 위·수탁 개편…의료계 “일차의료 붕괴 초래할 것” - 경기메디뉴스",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pLWZZT0lxc0R5Z3dLZG81ck4zZWFPMnhtekRrNUlrZXZQWGppaTcxUWhpYUt6WEN4WlZ1ZG0wUFZtREhERXUtclFpQ2I2SEhxRVFRelJXZVNvdTdONk9BejJ1WWFJRzV0c3Vj?oc=5",
-     "source": "경기메디뉴스"
-    },
-    {
-     "title": "내과의사회·건강검진학회, “국가검진까지 검체검사 위·수탁 개편 확대? 다 죽으란 소리냐” - 의사신문",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11UTA3eDNzb1VQUDFzVXZYdHBNZlJaQlpwR2gyS1J1bTRuZUxVWGwyTWZRRG5pQTZVS0o5Sk45YTc5MTVxSkFoNV90NzNyaS1lSWU1VW9sSmttUlZfejJzOHh1WV9CbjVNa1hRdFpOOA?oc=5",
-     "source": "의사신문"
-    },
-    {
-     "title": "[김연수의 식탁이야기(105)] 폐기능검사 국가검진 도입했지만, 정작 호흡기 전문의는 부족 - 뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ha0x1dVlJWnY3M2NzR0VNVTZWQUtQeS1fSC14M1FwQlV0M2g5RllRLTV1dkRhdEw4dDRaYXh5SW5kc1FmUm1kZEhENTdRbXBTcW1zNXVNV3Vjb1dwbnc?oc=5",
-     "source": "뉴스투데이"
-    },
-    {
-     "title": "건강검진 검체검사 개편 추진에 개원가 ‘격한 분노’ - 병원신문",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KVUM0Z09pTlpCZVdZc0RQa0tjckd5RkZjYmRmZXhlaGRrUVQ4Y0VMbVk3ZDJHdFE0MGVwOENlQTNGLUwwa0lFVFF6U00ydDVFRmJPWS0tRDduOElEM1J5RzJ0Nmh3U3pI?oc=5",
-     "source": "병원신문"
+     "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904177",
+     "title": "삼성전자, 갤럭시 S28에 '갤럭시 OS' 탑재 관측…소프트웨어 혁신 나서나",
+     "outlet": "이코노미트리뷴"
     }
-   ],
-   "official": false,
-   "score": 14.3,
-   "already_covered": false
+   ]
   },
   {
    "source": "google_news",
@@ -3428,14 +3371,14 @@
      "source": "뉴스티앤티"
     },
     {
-     "title": "강화군, 지역 대학생 등록금 최대 100만원 지원…26일부터 신청 - 경기일보",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KSkI4MWoyWlE5WkF3Y2otcGdNNkhTVzdnanYtR01IdkVzc0JjcmZYbUJSVXlEUGNUOEpBc1FzaXlPbmE5aUNva1dPNTU2eExLNGpDYVpvdWwycUE?oc=5",
-     "source": "경기일보"
-    },
-    {
      "title": "사천교육지원청, 제35대 김영옥 교육장 취임 - www.jinju.news",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56WExhdUp1Y3JaaXJYdTI1Vy01aXh5VkJ3azBnZkN5U09KWjhlNDNadmJFRkRNZlU4RVlxVFFVMmx0NDk0cW41Y0lvaGFDRFdoSGp0MFFELXZCTXd3NjhSVWlKMW5TODB0eWtFeE5WaVo2YWRDRWNB?oc=5",
      "source": "www.jinju.news"
+    },
+    {
+     "title": "강화군, 지역 대학생 등록금 최대 100만원 지원…26일부터 신청 - 경기일보",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KSkI4MWoyWlE5WkF3Y2otcGdNNkhTVzdnanYtR01IdkVzc0JjcmZYbUJSVXlEUGNUOEpBc1FzaXlPbmE5aUNva1dPNTU2eExLNGpDYVpvdWwycUE?oc=5",
+     "source": "경기일보"
     },
     {
      "title": "강화군, 2026년도 하반기 대학생 등록금 지원 신청 안내 - 경인매일",
@@ -3448,50 +3391,43 @@
    "already_covered": true
   },
   {
-   "source": "google_trends",
-   "keyword": "연합인포맥스",
-   "traffic": 500,
-   "published": "2026-10-24T09:50:00+09:00",
+   "source": "google_news",
+   "keyword": "문화누리카드",
+   "traffic": 0,
+   "article_count_24h": 9,
+   "article_count_1h": 0,
+   "published": "2026-10-23T13:36:18+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "금감원, '해외주식 현금성 마케팅' 원천 금지 추진",
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440870",
-     "source": "연합인포맥스"
+     "title": "공주시 의당면, ‘찾아가는 문화누리 꾸러미 문화장터’ 개최 - 충청메시지",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtdEx4bkZiSEc1UGhhekFaMXJVLUNPck9aTVhfTk5HSzlZSlpPM09TZENqenFibjcxcEVBY1owbUFlUGJCSjJ4ekVFSHh2ajgyOV9rWUExanl2cUNNRnVkRXlvODZySWE3R0NZ?oc=5",
+     "source": "충청메시지"
     },
     {
-     "title": "'AI 투자 우려' 메타, 주가 급락·CDS 급등…美 10년물 금리 5% 하회",
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440713",
-     "source": "연합인포맥스"
+     "title": "인천시, 10월 28~29일 농특산물 직거래장터 운영 - 미디어생활",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4T3o1WXgzcTFKZFJIVjZld3MyTzVHd1did0s5ZVI1Ulp1eW4wUXhJendrOWFZOVFWME8wQjVDbk5VYWpHRE9DWDh5d3B3UHpzT0ozeW5RdUJ5NTQtNHpJWWJjY05EWUF5UDNjOUZ4SQ?oc=5",
+     "source": "미디어생활"
     },
     {
-     "title": "공짜로 '뮤즈' 뿌리던 메타…1100조 베팅 역풍에 주가 '털썩'",
-     "url": "https://www.hankyung.com/article/2026102318441",
-     "source": "한국경제"
+     "title": "“한우·인삼 최대 30% 싸게”…인천시청에 ‘농특산물 장터’ 열린다 - 농민신문",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWcG9EdGZYOGl3MnBQU3hKNTZjYWRKUzczNnFEandsLXNwYmtPelFMVmVTOHNGdjJVVWo2TldhZ0tVZmpIaUVHcy1WODBVU3ctOUZpSGxhUFU0UQ?oc=5",
+     "source": "농민신문"
+    },
+    {
+     "title": "인천시,‘2026 농특산물 인천장터’개장, 지역 농가와 시민을 잇는다 - 인천교육일보",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YLU10UmZHcWlHdnlYam5COVBlY1I1dFY2OVJaemFldDdocXdPekFaQUNILUF2QmF1eFJfQTFfb3dTbnl6MnFiLVItLWttd2dfU2VkNElvN3hUbDVTUXdwYWVOOTJZXzFp?oc=5",
+     "source": "인천교육일보"
+    },
+    {
+     "title": "인천시, 시청 앞 농특산물 장터 운영…최대 30% 할인 - 매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1KZHlFTlBGTzNQelpsUjFzQ1hwSUNKeGItbXk3MEFqLU43OXpIekIxSFJ0NUNpNWRYZVczWFZRVmt0WTYwUExVaDhXRXBwdldiMVJQV0VOMUV2Y0xzOXBTZWc0aDE?oc=5",
+     "source": "매일일보"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440870",
-     "title": "금감원, '해외주식 현금성 마케팅' 원천 금지 추진",
-     "outlet": "연합인포맥스"
-    },
-    {
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440713",
-     "title": "'AI 투자 우려' 메타, 주가 급락·CDS 급등…美 10년물 금리 5% 하회",
-     "outlet": "연합인포맥스"
-    },
-    {
-     "url": "https://www.hankyung.com/article/2026102318441",
-     "title": "공짜로 '뮤즈' 뿌리던 메타…1100조 베팅 역풍에 주가 '털썩'",
-     "outlet": "한국경제"
-    }
-   ]
+   "score": 11.3,
+   "already_covered": false
   },
   {
    "source": "google_news",
@@ -3515,6 +3451,30 @@
    ],
    "official": false,
    "score": 9.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "사전투표소",
+   "traffic": 0,
+   "article_count_24h": 2,
+   "article_count_1h": 0,
+   "published": "2026-10-24T10:10:00+09:00",
+   "category": "선거",
+   "news": [
+    {
+     "title": "\"트럼프 반대하려 투표\"...미국 중간선거 10일 앞 공화당 '텃밭'도 접전 - YTN",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FS3Zyb3dMdXFIeE0yaGJUcjZmYWZ0TTlhVnV2X0lSU0FqUFcxZERsRnFCQ3JQZGRsOGt3R1MzWFBQSXdVY0JsSzNNUURwcjc5c25Qa3hYeVVZTEE2dHc?oc=5",
+     "source": "YTN"
+    },
+    {
+     "title": "\"트럼프 반대하려 투표\"...미국 중간선거 10일 앞 텃밭도 접전 - YTN",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsU1RzMTJ3UklDUFBCODdNU2ZTNS1Ta20tX1ItWWdHRGsyTmVYeFhmby1nRGY4VVlNd1Q2RkxDM28zeUhvU0dING9ERlVJeTV0RzlWalVfUkpFZmx4cDZoQWpBYWhFWVZxODJfU01BX3hMMnJkeVE?oc=5",
+     "source": "YTN"
+    }
+   ],
+   "official": false,
+   "score": 7.8,
    "already_covered": false
   },
   {
@@ -3615,35 +3575,6 @@
   },
   {
    "source": "google_news",
-   "keyword": "수능 시간표",
-   "traffic": 0,
-   "article_count_24h": 3,
-   "article_count_1h": 0,
-   "published": "2026-10-24T10:01:10+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "정석철 부국장 , 수능 D-26, 불확실성을 확신으로 바꾸는 '마지막 1%의 완성' - 경기매일",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBycUJsV0hTell3UklzWl9JeWh4ZG1JemMtVTFNbV9ISlRjSE1uY1EyWXVBOER6R3BXRmg5YUNlLVg2LWVIX0d3REFNSnZQc181LXpsQnh4Z2s4S2RaNnBpUnJIQmROUUU?oc=5",
-     "source": "경기매일"
-    },
-    {
-     "title": "[단독] [2027고입잣대] 지방 명문 넘어 수도권 일반고도 '기숙사 체제'.. 한민 '최대규모' 양서 화성 가온 경화여 톱5 - 베리타스알파",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3OFAweHVRRE5MWi0yb0xLcVlIN2paOGRvTjJTWnNPa2pZUUNRbXlNWmJiRnc2US1IckZVbEZ6NFloOVZVVE1mcDBkTFZYZ2RmZGJzaVY3TUpFS3dHeXc2U1NVNmdWMC04amlqUg?oc=5",
-     "source": "베리타스알파"
-    },
-    {
-     "title": "네이버, 교육 검색 개편...대학·학과부터 수능 등급컷까지 확인 - 디지틀조선TV",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBQNWdKaDczWFhOd3EweEdwQjUtdWJ0TFNqLWpJOENCSFdmMXlGd2VKOUl0V1k3MWNiZHpmcnh6bUlPdEVQNkM5cUlLd2dIR1BXSVlaRU8zdng1Yk5UNjI4bU1ZZGZRUEd6Wk1sVHZjV1NFVkRMMGxWdk93VlE?oc=5",
-     "source": "디지틀조선TV"
-    }
-   ],
-   "official": false,
-   "score": 5.4,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "청년내일저축계좌",
    "traffic": 0,
    "article_count_24h": 3,
@@ -3673,6 +3604,30 @@
   },
   {
    "source": "google_news",
+   "keyword": "수능 시간표",
+   "traffic": 0,
+   "article_count_24h": 2,
+   "article_count_1h": 0,
+   "published": "2026-10-24T10:01:10+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "정석철 부국장 , 수능 D-26, 불확실성을 확신으로 바꾸는 '마지막 1%의 완성' - 경기매일",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBycUJsV0hTell3UklzWl9JeWh4ZG1JemMtVTFNbV9ISlRjSE1uY1EyWXVBOER6R3BXRmg5YUNlLVg2LWVIX0d3REFNSnZQc181LXpsQnh4Z2s4S2RaNnBpUnJIQmROUUU?oc=5",
+     "source": "경기매일"
+    },
+    {
+     "title": "[단독] [2027고입잣대] 지방 명문 넘어 수도권 일반고도 '기숙사 체제'.. 한민 '최대규모' 양서 화성 가온 경화여 톱5 - 베리타스알파",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3OFAweHVRRE5MWi0yb0xLcVlIN2paOGRvTjJTWnNPa2pZUUNRbXlNWmJiRnc2US1IckZVbEZ6NFloOVZVVE1mcDBkTFZYZ2RmZGJzaVY3TUpFS3dHeXc2U1NVNmdWMC04amlqUg?oc=5",
+     "source": "베리타스알파"
+    }
+   ],
+   "official": false,
+   "score": 3.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "복지급여 지급일",
    "traffic": 0,
    "article_count_24h": 1,
@@ -3692,29 +3647,29 @@
   },
   {
    "source": "google_trends",
-   "keyword": "매일경제신문",
-   "traffic": 1000,
-   "published": "2026-10-24T09:00:00+09:00",
+   "keyword": "연합인포맥스",
+   "traffic": 500,
+   "published": "2026-10-24T09:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "[매경춘추] 네 번째 엑스",
-     "url": "https://www.mk.co.kr/news/contributors/12184317",
-     "source": "매일경제"
+     "title": "금감원, '해외주식 현금성 마케팅' 원천 금지 추진",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440870",
+     "source": "연합인포맥스"
     },
     {
-     "title": "“제값 받고 못팔바에야 자식에게”…서울 다소유자들, 매매 대신 증여 급증",
-     "url": "https://www.mk.co.kr/news/realestate/12184075",
-     "source": "매일경제"
+     "title": "'AI 투자 우려' 메타, 주가 급락·CDS 급등…美 10년물 금리 5% 하회",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440713",
+     "source": "연합인포맥스"
     },
     {
-     "title": "서울 집합건물 상속인 7989명⋯1년 새 8.7% 증가",
-     "url": "https://www.etoday.co.kr/news/view/2639238",
-     "source": "이투데이"
+     "title": "공짜로 '뮤즈' 뿌리던 메타…1100조 베팅 역풍에 주가 '털썩'",
+     "url": "https://www.hankyung.com/article/2026102318441",
+     "source": "한국경제"
     }
    ],
    "official": false,
-   "score": 3.0,
+   "score": 1.5,
    "already_covered": false
   },
   {
@@ -3746,60 +3701,6 @@
   },
   {
    "source": "google_trends",
-   "keyword": "삼성 갤럭시 s26",
-   "traffic": 200,
-   "published": "2026-10-24T09:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "삼성 '갤럭시 M47·A26·A17' One UI 9 업데이트 배포…안드로이드 17 적용",
-     "url": "https://kbench.com/?q=node/282738",
-     "source": "케이벤치"
-    },
-    {
-     "title": "갤럭시 A56, 원 UI 8.5엔 없던 아이폰 에어드롭이 원 UI 9에서 열렸다",
-     "url": "https://www.wikitree.co.kr/articles/1168181",
-     "source": "위키트리"
-    },
-    {
-     "title": "삼성전자, 갤럭시 S28에 '갤럭시 OS' 탑재 관측…소프트웨어 혁신 나서나",
-     "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904177",
-     "source": "이코노미트리뷴"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "김장",
-   "traffic": 200,
-   "published": "2026-10-24T08:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "“김치통은 누가 챙기지?” 가족 김장은 재료·용기 담당부터",
-     "url": "https://www.vegannews.co.kr/news/article.html?no=396276",
-     "source": "비건뉴스"
-    },
-    {
-     "title": "김치통 가득 채우면 발효 중 국물 넘칠 수 있어",
-     "url": "https://www.vegannews.co.kr/news/article.html?no=395984",
-     "source": "비건뉴스"
-    },
-    {
-     "title": "“한 번 꺼낼 양부터”…김장김치 용기 나누는 기준",
-     "url": "https://www.vegannews.co.kr/news/article.html?no=396228",
-     "source": "비건뉴스"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
    "keyword": "lcs",
    "traffic": 100,
    "published": "2026-10-24T09:30:00+09:00",
@@ -3827,6 +3728,28 @@
   },
   {
    "source": "google_trends",
+   "keyword": "lcp",
+   "traffic": 100,
+   "published": "2026-10-24T09:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "TSW Eddie: \"Vietnamese teams are not just trying to win the LCP anymore\"",
+     "url": "https://www.sheepesports.com/en/articles/tsw-eddie-vietnamese-teams-are-not-just-trying-to-win-the-lcp-anymore/en",
+     "source": "Sheep Esports"
+    },
+    {
+     "title": "Lcp: Team Secret Whales vs. LYON closes day one of the 2026 Worlds Swiss Stage",
+     "url": "https://twaslnews1.twaslnews.com/6491664/",
+     "source": "شبكة تواصل الإخبارية"
+    }
+   ],
+   "official": false,
+   "score": 0.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
    "keyword": "김밥축제",
    "traffic": 100,
    "published": "2026-10-24T09:10:00+09:00",
@@ -3843,31 +3766,9 @@
      "source": "에너지경제신문"
     },
     {
-     "title": "[온라인 라운지]교통안전공단, 김천김밥축제에서 교통안전 캠페인",
-     "url": "https://www.donga.com/news/Society/article/all/20261023/134898128/1",
-     "source": "동아일보"
-    }
-   ],
-   "official": false,
-   "score": 0.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "lcp",
-   "traffic": 100,
-   "published": "2026-10-24T09:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "TSW Eddie: \"Vietnamese teams are not just trying to win the LCP anymore\"",
-     "url": "https://www.sheepesports.com/en/articles/tsw-eddie-vietnamese-teams-are-not-just-trying-to-win-the-lcp-anymore/en",
-     "source": "Sheep Esports"
-    },
-    {
-     "title": "Lcp: Team Secret Whales vs. LYON closes day one of the 2026 Worlds Swiss Stage",
-     "url": "https://twaslnews1.twaslnews.com/6491664/",
-     "source": "شبكة تواصل الإخبارية"
+     "title": "“김밥 주문·픽업도 디지털 지도로 한 번에”…카카오맵, 김천김밥축제 전용 지도 제공",
+     "url": "https://www.munhwa.com/article/11625718",
+     "source": "문화일보"
     }
    ],
    "official": false,
