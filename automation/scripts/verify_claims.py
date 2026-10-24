@@ -120,7 +120,7 @@ def page_text(url, cache={}):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9"})
     with urllib.request.urlopen(req, timeout=30) as r:
         raw, ctype = r.read(), r.headers.get("Content-Type", "")
-    if "pdf" in ctype or url.lower().endswith(".pdf"):
+    if "pdf" in ctype or url.lower().endswith(".pdf") or raw[:5] == b"%PDF-":  # korea.kr 첨부(download.do)는 확장자 없음
         with tempfile.NamedTemporaryFile(suffix=".pdf") as f:
             f.write(raw)
             f.flush()
