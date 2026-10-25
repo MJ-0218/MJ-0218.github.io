@@ -1,0 +1,22 @@
+# 원본 클립 권리 장부. 여기 없거나 권리가 확인 안 된 클립은 렌더링하지 않는다.
+#
+# license 값
+#   own        : 직접 찍은 영상
+#   permission : 원작자에게 사용 허락을 받음 (proof 에 DM 캡처 경로·메일 날짜 등)
+#   licensed   : ViralHog·Newsflare·Storyblocks 등에서 라이선스 구매 (proof 에 주문번호)
+#   cc-by      : CC BY 영상 (credit 필수)
+#
+# url 이 있으면 GitHub Actions 가 yt-dlp 로 받아 inbox/ 에 넣는다(license 가 own 이 아닌 경우 proof 필수).
+# file 이 있으면 inbox/ 안의 그 파일을 쓴다.
+clips:
+  # - id: brush-cleaning-01
+  #   file: brush.mp4
+  #   license: own
+  #   note: "3년 쓴 빗 청소. 마지막에 새 빗으로 교체"
+  #
+  # - id: grace-japan-pads
+  #   url: https://www.youtube.com/shorts/XXXXXXXX
+  #   license: permission
+  #   proof: "2026-10-24 인스타 DM으로 허락, shorts/proofs/grace.png"
+  #   credit: "@itsgracechin"
+  #   note: "일본 생리용품 4종 소개"

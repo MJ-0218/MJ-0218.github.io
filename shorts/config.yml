@@ -1,0 +1,53 @@
+# 쇼츠 자동화 설정. 값만 바꾸면 되고 코드는 건드리지 않아도 된다.
+channel:
+  name: "내 채널 이름"
+  language: ko
+  # 업로드 시각(한국 시간). 경쟁 채널: 숏싹숏싹 08:00·17:00, 신기+템 19:00~21:00 (vidIQ 업로드 기록 기준).
+  slots_kst: ["07:30", "09:00", "11:30", "13:00", "17:00", "19:00", "20:30", "22:00"]
+  daily_count: 8          # 하루 편수 (7~10 권장)
+  category_id: "24"       # 24 = 엔터테인먼트, 26 = 노하우/스타일
+  made_for_kids: false
+
+claude:
+  model: claude-opus-5-5
+  effort: medium
+  max_frames: 24          # 장면 분석에 보낼 프레임 수 (많을수록 정확, 비용↑)
+
+tts:
+  provider: elevenlabs    # elevenlabs | google | edge(미리보기용) | silent(테스트용)
+  speed: 1.12             # 경쟁 채널은 빠르고 높은 톤의 여성 음성
+  elevenlabs:
+    voice_id: ""          # ElevenLabs 보이스 ID (GitHub Secret ELEVENLABS_VOICE_ID 로도 가능)
+    model_id: eleven_multilingual_v2
+    stability: 0.4
+    similarity_boost: 0.8
+    style: 0.35
+  google:
+    voice: ko-KR-Chirp3-HD-Aoede
+  edge:
+    voice: ko-KR-SunHiNeural
+
+video:
+  min_sec: 10
+  max_sec: 45             # 숏싹숏싹 평균 30~36초, 신기+템 10~20초
+  original_audio: 0.22    # 원본 소리 볼륨(나레이션 아래로 깔기)
+  bgm_volume: 0.10
+  sfx_volume: 0.55
+
+style:
+  banner_height: 300
+  banner_color: "000000"
+  line1_color: "FFFFFF"
+  line2_color: "FFE14D"   # 둘째 줄 강조색
+  accent_bar: "FF3B30"    # 배너 밑 얇은 강조선 (빈 값이면 없음)
+  font: "Black Han Sans"
+  sub_font: "Pretendard Black"
+  narr_size: 74
+  aside_size: 66
+  banner_size: 88
+
+upload:
+  # YouTube Data API 업로드. 감사(audit) 안 받은 API 프로젝트는 '비공개'로만 올라간다(Google 공식 문서).
+  enabled: true
+  privacy_until_publish: private
+  contains_synthetic_media: false   # 실존 인물·실제 사건처럼 보이는 합성물이면 true
