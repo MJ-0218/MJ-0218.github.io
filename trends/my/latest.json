@@ -1,30 +1,70 @@
 {
- "generated_at": "2026-10-25T23:32:09.118884+09:00",
+ "generated_at": "2026-10-26T00:31:40.086453+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (8)",
-  "evidence": "ok (저장 26, 실패 10)"
+  "evidence": "ok (저장 24, 실패 10)"
  },
- "compared_runs": 2,
+ "compared_runs": 3,
  "spikes": [
-  "曼联 - 伯恩茅斯",
-  "hull vs brentford",
-  "liverpool f.c. lwn brighton & hove albion fc",
-  "inter milan vs acf fiorentina standings",
-  "利物浦 - 布莱顿",
-  "palace vs newcastle",
-  "monaco vs losc",
-  "malaysia air pollutant index october 25",
-  "atalanta vs frosinone",
-  "inspector general of the royal malaysia police"
+  "epl",
+  "epl table",
+  "mu",
+  "premier league standings",
+  "jerebu",
+  "liga perdana inggeris",
+  "liga inggris",
+  "crystal palace f.c. lwn newcastle united f.c.",
+  "曼联"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "epl",
+   "traffic": 10000,
+   "published": "2026-10-25T23:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Bruno Fernandes left out by Man United after Michael Carrick criticism",
+     "url": "https://www.espn.com/soccer/story/_/id/50276044/bruno-fernandes-left-man-united-bournemouth",
+     "source": "ESPN"
+    },
+    {
+     "title": "Man Utd captain Bruno Fernandes dropped to bench by manager Michael Carrick",
+     "url": "https://www.bbc.com/sport/football/articles/cmrlye5w3p79o",
+     "source": "BBC"
+    },
+    {
+     "title": "Premier League: Man Utd trail Bournemouth, Isak doubles Liverpool lead & Hull ahead",
+     "url": "https://www.bbc.co.uk/sport/football/live/c5dj4kvpd4j9t",
+     "source": "BBC"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/sport/football/articles/cmrlye5w3p79o",
+     "title": "Man Utd captain Bruno Fernandes dropped to bench by manager Michael Carrick",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/football/live/c5dj4kvpd4j9t",
+     "title": "Premier League: Man Utd trail Bournemouth, Isak doubles Liverpool lead & Hull ahead",
+     "outlet": "BBC"
+    }
+   ]
+  },
   {
    "source": "google_news",
    "keyword": "flood",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 24,
+   "article_count_1h": 18,
    "published": "2026-10-25T19:44:34+09:00",
    "category": "Living",
    "news": [
@@ -81,175 +121,43 @@
    ]
   },
   {
-   "source": "google_news",
-   "keyword": "haze",
-   "traffic": 0,
-   "article_count_24h": 70,
-   "article_count_1h": 2,
-   "published": "2026-10-25T21:56:00+09:00",
+   "source": "google_trends",
+   "keyword": "epl table",
+   "traffic": 5000,
+   "published": "2026-10-25T23:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Haze: Clearer skies over Kuala Lumpur spark relief, excitement - The Star",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWTh3cUZKVlIzd3I5Wlp5ZW1MRkEwTXdzMUtxRE9TMUhIUDN5T1ZoTDlORjZiclQ4bjR6aXhmNjJYbkNPY2l0ZjY0b2VvQnJ5c2R4OGV0bUtmLUxod0hncDFXTjY2TDVYMUMxQnNFakdkdzRJWDBWVHhfbV9jTUpVb05kTklDbi1IWWU4LWFGTnlNMV9qR2JtTDlEODhlWXNLTHZ4c2tPVW9jaVpIS2lN?oc=5",
+     "title": "Every word from Arteta's post-Everton press conference",
+     "url": "https://www.arsenal.com/news/every-word-from-artetas-post-everton-press-conference-a35Bj5F4a2lz",
+     "source": "Arsenal.com"
+    },
+    {
+     "title": "Arsenal unlocked key to set-piece dominance - Mikel Arteta",
+     "url": "https://www.espn.com/soccer/story/_/id/50276310/arsenal-ezri-konsa-key-setpiece-mikel-arteta",
+     "source": "ESPN"
+    },
+    {
+     "title": "Football: Soccer-Arsenal join Man City at summit after Villa end leaders' perfect start",
+     "url": "https://www.thestar.com.my/sport/football/2026/10/24/soccer-jackson-double-ends-man-city039s-perfect-run-as-villa-win-2-1",
      "source": "The Star"
-    },
-    {
-     "title": "Haze anger fuels calls in Malaysia to boycott products and pursue polluters - The Straits Times",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT2NocDQ2OVQ5M1ZYbEhVT1d1aEZkdlRlWEVyY1RCTjh6bHJWSEx0UmRKSG5CNHp5Nk9ydjlDZjdjcnZuRWFjdnJlLWRxU2RUSl9FOGNfZGw3d0xWTW1Uc2NodUJ6c090WUpKZ1cyOF9vX0dQMmR0aFBleXVBT3d5MkFxYUx0T1VMNDZLcGptUWw0RFNvMkNUckVXakllaldoTXc1ZjNma0ZINDhBcWk1UGxSYzFGTnRuVGxBSkE0X2pCQzFqTFNqdg?oc=5",
-     "source": "The Straits Times"
-    },
-    {
-     "title": "Even as skies begin to clear, eateries say the haze has already hurt business - Malay Mail",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ2NpWF9jRHVKam91M1doeWRQMU4zcGtUOXd3cmdGNkU3RmdXZy1WdlpXQm5FMVdCMVlhemQ5TTlQVGthekpubng5UHBSTmJvaVhuSTlLUFFQSXJRMENRWjloNy1USk5GbEJUaWZzbU4td0NhTjRrZGlLeGs2MHhrVFNtYkNhRm9vTE9KazhZTDlqaTBCT3ZTMER1SEkwZ20tYVgwMXRvSHFpRk15SEd6UFFSVTVMSnNocWJhZDFxSkI2OEpiRXNrUHJ3RXI3cDjSAdQBQVVfeXFMTUI4TmptOGZBc2lXdHBKTTBrb3VaYUUtMkpwVmtsTEFVRUFCcHdSeVBGTVpRb0YyR1hJMlVvbmlvREhBWTFyNjY4cUNsWWNJdXIzVzlVZGFrV1F1T2hoajlNcVV3QXpWWXd0SVdWR3BMa0VXQ082ZFRLS1VDOE56Mk1uRVYwVmE3NGtxSXRmX1hnNmxDQktOV0JrUm5XWVNjMFM2Z3I1UlltZVlqQ2gzN3Y4M2Z4YldXS0JLRDU2THBIYW9jVkxOMVlvclkyRGZteC1pblk?oc=5",
-     "source": "Malay Mail"
-    },
-    {
-     "title": "Singapore Air Quality Remains Mixed As Haze Affects Three Regions - BusinessToday Malaysia",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZl9Zd3lvbmlOWmZuRW82cThmaTF6ZjJORGhmSWlJd3RtRTJKSm9tUzUyWnRId0VhSzFEODJ4d0RZdUR5WlFDTGVVZXhhWDk3ekt2cm41WEJKNGpwMzdfTi1USExOSzNxSkN1akE2UEctZFFFSV9DQWVuZGIwVlBUQzBXbExMeG1EUDNVd0hBYlhtdWJOM3o0Sy0xNkd0LXFpbDI3bUd0VFB6UHItSGxr?oc=5",
-     "source": "BusinessToday Malaysia"
-    },
-    {
-     "title": "Haze: 27 schools in Tebedu to close tomorrow - The Malaysian Reserve",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc1lFZzluakY1b1RQb0JMcFFSakI1WW9IS29qUDlzb0ZhVU10NDlBOG1lSnN5Q1JkU1pyTjJERjFHaGxSTUpfOURuZ1QyalNFRGhRZ0RCaWJjY0xaQ01aSXdTZkhvb2RfVkRmSmZmRWpqcU43WUxSd25kTFNuNC0zRTZLc2xyM1p2N2FMQkdKTkU?oc=5",
-     "source": "The Malaysian Reserve"
     }
    ],
    "official": false,
-   "score": 22.8,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.thestar.com.my/news/nation/2026/10/25/haze-clearer-skies-over-kuala-lumpur-spark-relief-excitement",
-     "title": "Haze: Clearer skies over Kuala Lumpur spark relief, excitement - The Star",
+     "url": "https://www.arsenal.com/news/every-word-from-artetas-post-everton-press-conference-a35Bj5F4a2lz",
+     "title": "Every word from Arteta's post-Everton press conference",
+     "outlet": "Arsenal.com"
+    },
+    {
+     "url": "https://www.thestar.com.my/sport/football/2026/10/24/soccer-jackson-double-ends-man-city039s-perfect-run-as-villa-win-2-1",
+     "title": "Football: Soccer-Arsenal join Man City at summit after Villa end leaders' perfect start",
      "outlet": "The Star"
-    },
-    {
-     "url": "https://www.straitstimes.com/asia/se-asia/malaysians-want-to-ditch-indonesian-goods-but-will-this-make-polluters-pay-for-the-haze",
-     "title": "Haze anger fuels calls in Malaysia to boycott products and pursue polluters - The Straits Times",
-     "outlet": "The Straits Times"
-    },
-    {
-     "url": "https://www.malaymail.com/news/malaysia/2026/10/25/even-as-skies-begin-to-clear-eateries-say-the-haze-has-already-hurt-business/240202",
-     "title": "Even as skies begin to clear, eateries say the haze has already hurt business - Malay Mail",
-     "outlet": "Malay Mail"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "sunscreen",
-   "traffic": 0,
-   "article_count_24h": 18,
-   "article_count_1h": 1,
-   "published": "2026-10-25T19:38:30+09:00",
-   "category": "Beauty",
-   "news": [
-    {
-     "title": "Behind the ears, cuticles and beyond: Don’t forget these areas when applying sunscreen - News24",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONVM1aHdWNFpFZVZReEUxS29NSXViUFZnazNneEp1cEJmRVlBZjRrMnN4STFjREZBTDNSelpEZlhJSjI2LXZZUE5hQzBLcW9uWnV1MzlNU2NCMXJ5bEZZNDFUVTJkNTB3NXJNNXBhcTFMWmxTMnVydGZUOW82c3dITzdNdThDSUVMMnJnT2tzeVhEQU5SZGJ5TGRNb3BHdlFwVkN6aGNVZ0JmdkJveURYemZuaTNSTnA3WXV3ZzlEeUVoYjR5NUs5amV6eUlXOHZSUFVqcVh1ZE5VWDBzX05fWk8tT3Y5YTh4clBSZ3RUc0djeUU?oc=5",
-     "source": "News24"
-    },
-    {
-     "title": "Post-summer pigmentation? These are the mistakes you are making - The Jerusalem Post",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQW5LbW1hZTZITHlRUFNwa0g1SXYzcWpkMU9oMmhfY2tGNjhYZ3VDbUp6Y2pyY3VjN192LXNWc3B0R0pfZ1EwNDg1ZURaY0plWHVVSzVrQld0eGE5Wi1FRXRQTjUwUnRvekIzV0FRZmV2YkdyMjlHU21VRWJpRWRxb1VLMnhYUS1fcGRXd1hBMl8zU2ZuWXNDWg?oc=5",
-     "source": "The Jerusalem Post"
-    },
-    {
-     "title": "I’m a guy turning 42. This is how I just revamped my skin care routine - CNN",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM0M2NFB1SEJUSFFKM3gyTmlUYTE0MUY0SEV1a0Rqc0JqekdpVmxoQ3N0OXFlcmFYUHpLYmpzWFVodmJYRXFWNUxqdmVRUjZDS2RoYXF4T2hJQnNGVUJNWjlxLUExN1dhblY1SzBRTTNva0FuLThmcUdTX1ZWY0Q0ejNPOGRTUQ?oc=5",
-     "source": "CNN"
-    },
-    {
-     "title": "Destination Melbourne: An F1 fan’s guide - Formula 1",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlExMnVlWUt5SE4yUXJVbzJGVlFlVW0tR2Y1UlRLOHVNVy1sTDBqbjlYMDRkeldHb3NlZzVVQ3VUSG8xZS1nTy1yaXpaYTNNZXk3MVktOWh2b1Z0X0R2cUpoR2VnNGQ5dm1yTXZ0Z2c2UlB2TUtrRjVlYjhBMEpHMXl4eHFfeTJuTnZxVWtxXzUzZk90NW9wSGl4TGJHY2oyZVBBZmlqMA?oc=5",
-     "source": "Formula 1"
-    },
-    {
-     "title": "Is more making things worse? Skincare shouldn’t be about piling on layers—reclaim your skin’s clarity with 3 core steps - Popbee",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSVJ2Mm5KTjBQZGdzMVR0RU85cTVYWmVnWDNEb2ZxWUZuejR2VFhWc0FxOHV3RENmd0gtTzdHYWtoLXNzelVaTGhwS1BWTUdJZkJRX2FDOFBEeFo0NjFQS0VvSWJQaktkNVZxcWdPdGJ0V0VtTm4xTE1rZU01a0hrZndn?oc=5",
-     "source": "Popbee"
-    }
-   ],
-   "official": false,
-   "score": 20.4,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.news24.com/life/lifestyle-trends/beauty-and-fashion/behind-the-ears-cuticles-and-beyond-dont-forget-these-areas-when-applying-sunscreen-20261023-1096",
-     "title": "Behind the ears, cuticles and beyond: Don’t forget these areas when applying sunscreen - News24",
-     "outlet": "News24"
-    },
-    {
-     "url": "https://www.jpost.com/health-and-wellness/health-and-wellness-around-the-world/article-911361",
-     "title": "Post-summer pigmentation? These are the mistakes you are making - The Jerusalem Post",
-     "outlet": "The Jerusalem Post"
-    },
-    {
-     "url": "https://www.formula1.com/en/latest/article/destination-melbourne-an-f1-fans-guide.5MTFf3qcw2odvyajYEy9xw",
-     "title": "Destination Melbourne: An F1 fan’s guide - Formula 1",
-     "outlet": "Formula 1"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "Korean skincare",
-   "traffic": 0,
-   "article_count_24h": 9,
-   "article_count_1h": 1,
-   "published": "2026-10-25T23:26:26+09:00",
-   "category": "K-Culture",
-   "news": [
-    {
-     "title": "Anua's KPop Demon Hunters beauty house in Seoul - ContentGrip",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Wa0l6bkdLOXZuTzlYOWhWY2c4dEhRaW9OTGdtUzczZTR2S2IwVDVmWVdrMnh6ZXdZSHBkMTFOV19xS2xudzFzYndXVWFqc1pfSnhWUXZwSlk2YjBIeTBobF9pZzg?oc=5",
-     "source": "ContentGrip"
-    },
-    {
-     "title": "K-Beauty Ingredients Worth Knowing for Dark Spots - The Hype Magazine",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMGdhdW9vUUwtUUwyblFKQWUtR0MxVW5adzdQaG55YjN6TDVFaHo2N09jX2NTekt0M2RsR2c0UWZHSHBIMDM0d1JDaUtVLW55SzlmRm9UWHVRdmFsVVVYWVdzd3hTZHN6OWtOd2VGWEk5RDliejBBVl9TUnRxN2dYWDdPcmxkNlFtT193OTdfSHNNSWhEUS1DMw?oc=5",
-     "source": "The Hype Magazine"
-    },
-    {
-     "title": "I put myself on a night flight after work on Friday. When you arrive at Incheon International Airpor.. - 매일경제",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50UFpNU3U2ZmxScFBoNWhWalBrRnpVUDhpZE5TNldkMVl1RGJtWF9UbjZkaVBJOHE1TlNVWm85NEVoSmtXblAyYy1PeHdmMVN5Qmc?oc=5",
-     "source": "매일경제"
-    },
-    {
-     "title": "Beyond Beauty, Beyond Borders: Misti Herbal Remedies Expands Ayurveda-Inspired Clean Beauty Worldwide - EIN Presswire",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMWJzSXFSSG44NTc1a3lOTlNjNERuZlJLTmJqQW1qeFBOd3BsVDY1S2prMmJlOWFjNGJyZ1VRMDc3X3pUV005bEhmZDFGbVVBOWFlQTcyMU1aVFl1NkpWcUZaR0RWMHRvZUVsMTl3S0d2S2h2QTIwRWtseHo3X2dZOVB1V0R0TTJrZEFJSlYzLUxQQUlKcXh6UXNVVU1BRXV1ZnBrbjlxaWNCY1hZR1hMbFcwQVpyVTRmV3BwX3NkZHdWM3NiN015WnZQYmg2ZDdwcGtVM0hhZExDaVN1Y25Z?oc=5",
-     "source": "EIN Presswire"
-    },
-    {
-     "title": "As salaries run out in 20 days, people turn to borrowing - The Business Standard",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY19PbW5uLVU4ZFg4UnY2eFpkX3hFbHl3dndjWHVMRVpPdWgwN3ozYkVKLTdyem5FQnp0TzI0TE5FS0JpbjJ0SGRZM0xvRV9vZ0YxemxWbnhGMzMtNVpXRUlKME14YTJrbkdrbWExUkViMUhIb2V3TGMyME13TTExUGVHcHVmd05JdFkxMTl4eGgyN0g5d0VZUjliTEc?oc=5",
-     "source": "The Business Standard"
-    }
-   ],
-   "official": false,
-   "score": 18.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.contentgrip.com/anua-hunters-beauty-house/",
-     "title": "Anua's KPop Demon Hunters beauty house in Seoul - ContentGrip",
-     "outlet": "ContentGrip"
-    },
-    {
-     "url": "https://www.thehypemagazine.com/2026/10/25/k-beauty-ingredients-worth-knowing-for-dark-spots/",
-     "title": "K-Beauty Ingredients Worth Knowing for Dark Spots - The Hype Magazine",
-     "outlet": "The Hype Magazine"
-    },
-    {
-     "url": "https://www.mk.co.kr/en/culture/12185096",
-     "title": "I put myself on a night flight after work on Friday. When you arrive at Incheon International Airpor.. - 매일경제",
-     "outlet": "매일경제"
-    },
-    {
-     "url": "https://www.einpresswire.com/article/951719199/beyond-beauty-beyond-borders-misti-herbal-remedies-expands-ayurveda-inspired-clean-beauty-worldwide",
-     "title": "Beyond Beauty, Beyond Borders: Misti Herbal Remedies Expands Ayurveda-Inspired Clean Beauty Worldwide - EIN Presswire",
-     "outlet": "EIN Presswire"
     }
    ]
   },
@@ -257,8 +165,8 @@
    "source": "google_news",
    "keyword": "K-drama",
    "traffic": 0,
-   "article_count_24h": 66,
-   "article_count_1h": 2,
+   "article_count_24h": 68,
+   "article_count_1h": 5,
    "published": "2026-10-25T16:08:02+09:00",
    "category": "K-Culture",
    "news": [
@@ -289,7 +197,7 @@
     }
    ],
    "official": false,
-   "score": 16.0,
+   "score": 21.0,
    "already_covered": false,
    "evidence": [
     {
@@ -310,299 +218,341 @@
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "曼联 - 伯恩茅斯",
-   "traffic": 1000,
-   "published": "2026-10-25T22:10:00+09:00",
-   "category": "기타",
+   "source": "google_news",
+   "keyword": "Korean skincare",
+   "traffic": 0,
+   "article_count_24h": 10,
+   "article_count_1h": 1,
+   "published": "2026-10-25T23:26:26+09:00",
+   "category": "K-Culture",
    "news": [
     {
-     "title": "伯恩茅斯欧联大胜士气如虹 红魔深陷内讧恐啃不下樱桃 - 体育 - 足球 - 英超",
-     "url": "https://www.sinchew.com.my/news/20261024/sports/7989206",
-     "source": "Sin Chew Daily"
+     "title": "Anua's KPop Demon Hunters beauty house in Seoul - ContentGrip",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Wa0l6bkdLOXZuTzlYOWhWY2c4dEhRaW9OTGdtUzczZTR2S2IwVDVmWVdrMnh6ZXdZSHBkMTFOV19xS2xudzFzYndXVWFqc1pfSnhWUXZwSlk2YjBIeTBobF9pZzg?oc=5",
+     "source": "ContentGrip"
     },
     {
-     "title": "曼联两后卫复出战伯恩茅斯助阵卡里克！7人仍伤缺，B费恐继续首发",
-     "url": "https://m.sohu.com/a/1092368896_518672?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
-     "source": "搜狐网"
+     "title": "K-Beauty Ingredients Worth Knowing for Dark Spots - The Hype Magazine",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMGdhdW9vUUwtUUwyblFKQWUtR0MxVW5adzdQaG55YjN6TDVFaHo2N09jX2NTekt0M2RsR2c0UWZHSHBIMDM0d1JDaUtVLW55SzlmRm9UWHVRdmFsVVVYWVdzd3hTZHN6OWtOd2VGWEk5RDliejBBVl9TUnRxN2dYWDdPcmxkNlFtT193OTdfSHNNSWhEUS1DMw?oc=5",
+     "source": "The Hype Magazine"
     },
     {
-     "title": "【全天看好】超级大丰收10胜9！22点英超看曼联",
-     "url": "https://www.nowscore.com/news/1254101.htm?fromPage=0",
-     "source": "捷报比分网"
+     "title": "I put myself on a night flight after work on Friday. When you arrive at Incheon International Airpor.. - 매일경제",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50UFpNU3U2ZmxScFBoNWhWalBrRnpVUDhpZE5TNldkMVl1RGJtWF9UbjZkaVBJOHE1TlNVWm85NEVoSmtXblAyYy1PeHdmMVN5Qmc?oc=5",
+     "source": "매일경제"
+    },
+    {
+     "title": "Beyond Beauty, Beyond Borders: Misti Herbal Remedies Expands Ayurveda-Inspired Clean Beauty Worldwide - EIN Presswire",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMWJzSXFSSG44NTc1a3lOTlNjNERuZlJLTmJqQW1qeFBOd3BsVDY1S2prMmJlOWFjNGJyZ1VRMDc3X3pUV005bEhmZDFGbVVBOWFlQTcyMU1aVFl1NkpWcUZaR0RWMHRvZUVsMTl3S0d2S2h2QTIwRWtseHo3X2dZOVB1V0R0TTJrZEFJSlYzLUxQQUlKcXh6UXNVVU1BRXV1ZnBrbjlxaWNCY1hZR1hMbFcwQVpyVTRmV3BwX3NkZHdWM3NiN015WnZQYmg2ZDdwcGtVM0hhZExDaVN1Y25Z?oc=5",
+     "source": "EIN Presswire"
+    },
+    {
+     "title": "Shoppers Say This $18 Firming Moisturizer Softens Wrinkles and Makes Them Look “10 Years Younger” - InStyle",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zeG9xRVRwekh3eS1DeEZWUm92SzNjcHJOSW9hY0xqdGNCV01CX2JZbzRXcGxqbmdtSDRLR2p3UEkyZ2wxNXhXLXV0MTUzSVhyZndDbDhaXzFFYXZpV2dtVWJTX2J5Y1YySW1oVEk4d3doNGY2SzZtckduTQ?oc=5",
+     "source": "InStyle"
     }
    ],
    "official": false,
-   "spike": "검색량 200→1,000",
-   "spike_bonus": 20,
-   "score": 15.0,
+   "score": 20.4,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://m.sohu.com/a/1092368896_518672?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
-     "title": "曼联两后卫复出战伯恩茅斯助阵卡里克！7人仍伤缺，B费恐继续首发",
-     "outlet": "搜狐网"
+     "url": "https://www.contentgrip.com/anua-hunters-beauty-house/",
+     "title": "Anua's KPop Demon Hunters beauty house in Seoul - ContentGrip",
+     "outlet": "ContentGrip"
     },
     {
-     "url": "https://www.nowscore.com/news/1254101.htm?fromPage=0",
-     "title": "【全天看好】超级大丰收10胜9！22点英超看曼联",
-     "outlet": "捷报比分网"
+     "url": "https://www.thehypemagazine.com/2026/10/25/k-beauty-ingredients-worth-knowing-for-dark-spots/",
+     "title": "K-Beauty Ingredients Worth Knowing for Dark Spots - The Hype Magazine",
+     "outlet": "The Hype Magazine"
+    },
+    {
+     "url": "https://www.mk.co.kr/en/culture/12185096",
+     "title": "I put myself on a night flight after work on Friday. When you arrive at Incheon International Airpor.. - 매일경제",
+     "outlet": "매일경제"
+    },
+    {
+     "url": "https://www.einpresswire.com/article/951719199/beyond-beauty-beyond-borders-misti-herbal-remedies-expands-ayurveda-inspired-clean-beauty-worldwide",
+     "title": "Beyond Beauty, Beyond Borders: Misti Herbal Remedies Expands Ayurveda-Inspired Clean Beauty Worldwide - EIN Presswire",
+     "outlet": "EIN Presswire"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "sunscreen",
+   "traffic": 0,
+   "article_count_24h": 19,
+   "article_count_1h": 0,
+   "published": "2026-10-25T19:38:30+09:00",
+   "category": "Beauty",
+   "news": [
+    {
+     "title": "Behind the ears, cuticles and beyond: Don’t forget these areas when applying sunscreen - News24",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONVM1aHdWNFpFZVZReEUxS29NSXViUFZnazNneEp1cEJmRVlBZjRrMnN4STFjREZBTDNSelpEZlhJSjI2LXZZUE5hQzBLcW9uWnV1MzlNU2NCMXJ5bEZZNDFUVTJkNTB3NXJNNXBhcTFMWmxTMnVydGZUOW82c3dITzdNdThDSUVMMnJnT2tzeVhEQU5SZGJ5TGRNb3BHdlFwVkN6aGNVZ0JmdkJveURYemZuaTNSTnA3WXV3ZzlEeUVoYjR5NUs5amV6eUlXOHZSUFVqcVh1ZE5VWDBzX05fWk8tT3Y5YTh4clBSZ3RUc0djeUU?oc=5",
+     "source": "News24"
+    },
+    {
+     "title": "Post-summer pigmentation? These are the mistakes you are making - The Jerusalem Post",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQW5LbW1hZTZITHlRUFNwa0g1SXYzcWpkMU9oMmhfY2tGNjhYZ3VDbUp6Y2pyY3VjN192LXNWc3B0R0pfZ1EwNDg1ZURaY0plWHVVSzVrQld0eGE5Wi1FRXRQTjUwUnRvekIzV0FRZmV2YkdyMjlHU21VRWJpRWRxb1VLMnhYUS1fcGRXd1hBMl8zU2ZuWXNDWg?oc=5",
+     "source": "The Jerusalem Post"
+    },
+    {
+     "title": "I’m a guy turning 42. This is how I just revamped my skin care routine - CNN",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM0M2NFB1SEJUSFFKM3gyTmlUYTE0MUY0SEV1a0Rqc0JqekdpVmxoQ3N0OXFlcmFYUHpLYmpzWFVodmJYRXFWNUxqdmVRUjZDS2RoYXF4T2hJQnNGVUJNWjlxLUExN1dhblY1SzBRTTNva0FuLThmcUdTX1ZWY0Q0ejNPOGRTUQ?oc=5",
+     "source": "CNN"
+    },
+    {
+     "title": "Dust off the sunscreen: Perth’s five-day sun streak - PerthNow",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZVE0alF4T1Jac1BLeTlJbWRTM0dCb3JCS1VDUnJGa3Fqb3BmcVVRQmxpbVQzNU04R0g0UVIzcnhwcGluQWVya0U5bDlfT0oxbnRvdVhlZXU2dHBTekI5dVFhMXZNYmpmendWV21VTF9aXzNrUnQ1emtwWUlDWGZJV09JSDRtZnFvU3pIOUpVN0U0dVNNc3pHb28wRU5hSzZuRFhORTBDdzN2THRiRm1XWW9ONS1iNjNCcWpvemEtSDBGY0VpMDU4QXI0Vm13MlgtNmhGVHdWdUdNV2N3?oc=5",
+     "source": "PerthNow"
+    },
+    {
+     "title": "Destination Melbourne: An F1 fan’s guide - Formula 1",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlExMnVlWUt5SE4yUXJVbzJGVlFlVW0tR2Y1UlRLOHVNVy1sTDBqbjlYMDRkeldHb3NlZzVVQ3VUSG8xZS1nTy1yaXpaYTNNZXk3MVktOWh2b1Z0X0R2cUpoR2VnNGQ5dm1yTXZ0Z2c2UlB2TUtrRjVlYjhBMEpHMXl4eHFfeTJuTnZxVWtxXzUzZk90NW9wSGl4TGJHY2oyZVBBZmlqMA?oc=5",
+     "source": "Formula 1"
+    }
+   ],
+   "official": false,
+   "score": 18.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.news24.com/life/lifestyle-trends/beauty-and-fashion/behind-the-ears-cuticles-and-beyond-dont-forget-these-areas-when-applying-sunscreen-20261023-1096",
+     "title": "Behind the ears, cuticles and beyond: Don’t forget these areas when applying sunscreen - News24",
+     "outlet": "News24"
+    },
+    {
+     "url": "https://www.jpost.com/health-and-wellness/health-and-wellness-around-the-world/article-911361",
+     "title": "Post-summer pigmentation? These are the mistakes you are making - The Jerusalem Post",
+     "outlet": "The Jerusalem Post"
+    },
+    {
+     "url": "https://www.perthnow.com.au/wa/weather/perth-weather-three-day-run-of-27c-a-sign-of-things-to-come-with-perth-set-to-enjoy-sunny-week-c-23068928",
+     "title": "Dust off the sunscreen: Perth’s five-day sun streak - PerthNow",
+     "outlet": "PerthNow"
+    },
+    {
+     "url": "https://www.formula1.com/en/latest/article/destination-melbourne-an-f1-fans-guide.5MTFf3qcw2odvyajYEy9xw",
+     "title": "Destination Melbourne: An F1 fan’s guide - Formula 1",
+     "outlet": "Formula 1"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "hull vs brentford",
-   "traffic": 500,
-   "published": "2026-10-25T22:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Hull City vs Brentford: Premier League preview, team news, stats & head-to-head",
-     "url": "https://www.bbc.com/sport/football/live/cxly4950egynt",
-     "source": "BBC"
-    },
-    {
-     "title": "Opposition manager makes big Hull City claim as Tigers look for Premier League response",
-     "url": "https://uk.sports.yahoo.com/news/opposition-manager-makes-big-hull-154500248.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "Liverpool vs Brighton betting offers today: £50 in free Bet Builders for our 13/10 over 3.5 goals tip",
-     "url": "https://www.squawka.com/en/betting-offers/liverpool-vs-brighton-betting-offers-today-25-10-2026/",
-     "source": "Squawka"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 200→500",
-   "spike_bonus": 20,
-   "score": 13.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.bbc.com/sport/football/live/cxly4950egynt",
-     "title": "Hull City vs Brentford: Premier League preview, team news, stats & head-to-head",
-     "outlet": "BBC"
-    },
-    {
-     "url": "https://uk.sports.yahoo.com/news/opposition-manager-makes-big-hull-154500248.html",
-     "title": "Opposition manager makes big Hull City claim as Tigers look for Premier League response",
-     "outlet": "Yahoo"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "liverpool f.c. lwn brighton & hove albion fc",
+   "keyword": "mu",
    "traffic": 1000,
-   "published": "2026-10-25T22:30:00+09:00",
+   "published": "2026-10-25T23:40:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Team news: Confirmed Liverpool line-up v Brighton & Hove Albion",
-     "url": "https://www.liverpoolfc.com/news/team-news-confirmed-liverpool-line-up-v-brighton-and-hove-albion",
-     "source": "Liverpool FC"
+     "title": "Micron Just Revealed a New Business Strategy. That Change Makes It a Screaming Buy.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-just-revealed-business-strategy-145100676.html",
+     "source": "Yahoo Finance"
     },
     {
-     "title": "Liverpool must go ‘full gas’ despite injury issues, says Iraola",
-     "url": "https://www.freemalaysiatoday.com/category/sports/2026/10/23/liverpool-must-go-full-gas-despite-injury-issues-says-iraola",
-     "source": "Free Malaysia Today"
+     "title": "Sell Micron: Don't Wait For Memory Boom To End (NASDAQ:MU)",
+     "url": "https://seekingalpha.com/article/4957304-sell-micron-dont-wait-for-memory-boom-to-end",
+     "source": "Seeking Alpha"
     },
     {
-     "title": "Has Liverpool vs Brighton been postponed due to Storm Boelo?",
-     "url": "https://www.standard.co.uk/sport/football/has-liverpool-fc-vs-brighton-been-postponed-storm-boelo-b1302249.html",
-     "source": "London Evening Standard"
+     "title": "Micron Stock Leads Chip Rebound. Dip Buyers Must Buckle Up as AI Chaos Swirls.",
+     "url": "https://www.barrons.com/articles/micron-stock-price-chip-rebound-dip-buyers-0d707a5c",
+     "source": "Barron's"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
    "score": 12.0,
-   "already_covered": false,
+   "already_covered": true,
    "evidence": [
     {
-     "url": "https://www.liverpoolfc.com/news/team-news-confirmed-liverpool-line-up-v-brighton-and-hove-albion",
-     "title": "Team news: Confirmed Liverpool line-up v Brighton & Hove Albion",
-     "outlet": "Liverpool FC"
-    },
-    {
-     "url": "https://www.freemalaysiatoday.com/category/sports/2026/10/23/liverpool-must-go-full-gas-despite-injury-issues-says-iraola",
-     "title": "Liverpool must go ‘full gas’ despite injury issues, says Iraola",
-     "outlet": "Free Malaysia Today"
-    },
-    {
-     "url": "https://www.standard.co.uk/sport/football/has-liverpool-fc-vs-brighton-been-postponed-storm-boelo-b1302249.html",
-     "title": "Has Liverpool vs Brighton been postponed due to Storm Boelo?",
-     "outlet": "London Evening Standard"
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-just-revealed-business-strategy-145100676.html",
+     "title": "Micron Just Revealed a New Business Strategy. That Change Makes It a Screaming Buy.",
+     "outlet": "Yahoo Finance"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "inter milan vs acf fiorentina standings",
+   "keyword": "premier league standings",
    "traffic": 500,
-   "published": "2026-10-25T22:40:00+09:00",
+   "published": "2026-10-26T00:00:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Inter Milan vs Fiorentina: Italian Serie A stats & head-to-head",
-     "url": "https://www.bbc.com/sport/football/live/cqrmye9drvk3t",
+     "title": "Can we read much into Arsenal and Man City topping table? Will weather impact Premier League?",
+     "url": "https://www.nytimes.com/athletic/7720561/2026/10/25/premier-league-forum-arsenal-man-city-table/",
+     "source": "The New York Times"
+    },
+    {
+     "title": "Supercomputer Predicts Premier League Table As Man City Suffer First Loss",
+     "url": "https://www.inkl.com/news/supercomputer-predicts-premier-league-table-as-man-city-suffer-first-loss",
+     "source": "inkl"
+    },
+    {
+     "title": "Chelsea vs Tottenham Hotspur: Premier League preview, team news, stats & head-to-head",
+     "url": "https://www.bbc.co.uk/sport/football/live/cwj0l7zr4pd9t?page=4",
      "source": "BBC"
-    },
-    {
-     "title": "New dad's Inter chance! Provedel handed dream Nerazzurri debut after birth of child",
-     "url": "https://www.goal.com/en-my/news/cristian-chivu-inter-fiorentina-ivan-provedel-henrikh-mkhitaryan-quotes/blt4273d2712aab2060",
-     "source": "Goal.com"
-    },
-    {
-     "title": "Follow all the action around Europe with our Football Tracker!",
-     "url": "https://www.flashscore.com/news/football-tracker-live-scores-updates-results-october-24-25-2026/j7Gn4uln/",
-     "source": "Flashscore.com"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
    "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.inkl.com/news/supercomputer-predicts-premier-league-table-as-man-city-suffer-first-loss",
+     "title": "Supercomputer Predicts Premier League Table As Man City Suffer First Loss",
+     "outlet": "inkl"
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/football/live/cwj0l7zr4pd9t?page=4",
+     "title": "Chelsea vs Tottenham Hotspur: Premier League preview, team news, stats & head-to-head",
+     "outlet": "BBC"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "jerebu",
+   "traffic": 200,
+   "published": "2026-10-26T00:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "FAM sedia bersemuka dengan penyokong",
+     "url": "https://www.bharian.com.my/ringkasanberita/1685057",
+     "source": "Berita Harian"
+    },
+    {
+     "title": "Empat bahagian di Sarawak catat IPU tidak sihat",
+     "url": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/empat-bahagian-di-sarawak-catat-ipu-tidak-sihat/",
+     "source": "Portal Berita RTM"
+    },
+    {
+     "title": "Jerebu: 27 sekolah di Tebedu ditutup sementara esok – JPN Sarawak | Sinar Harian",
+     "url": "https://www.sinarharian.com.my/article/801900/edisi/sabah-sarawak/jerebu-27-sekolah-di-tebedu-ditutup-sementara-esok-ndash-jpn-sarawak",
+     "source": "Sinar Harian"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "利物浦 - 布莱顿",
-   "traffic": 500,
-   "published": "2026-10-25T22:40:00+09:00",
+   "keyword": "liga perdana inggeris",
+   "traffic": 200,
+   "published": "2026-10-26T00:00:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "英超｜海鸥来势汹汹 红军严阵以待",
-     "url": "https://www.chinapress.com.my/20261025/%E8%8B%B1%E8%B6%85%EF%BD%9C%E6%B5%B7%E9%B8%A5%E6%9D%A5%E5%8A%BF%E6%B1%B9%E6%B1%B9%E3%80%80%E7%BA%A2%E5%86%9B%E4%B8%A5%E9%98%B5%E4%BB%A5%E5%BE%85/",
-     "source": "China Press"
+     "title": "Aston Villa akhiri rekod sempurna Man City",
+     "url": "https://berita.rtm.gov.my/arena/senarai-berita-arena/senarai-artikel/aston-villa-akhiri-rekod-sempurna-man-city/",
+     "source": "Portal Berita RTM"
     },
     {
-     "title": "布赖顿势头正猛 红军主场迎考验 - 体育 - 足球 - 英超",
-     "url": "https://www.sinchew.com.my/news/20261024/sports/7989185",
-     "source": "Sin Chew Daily"
+     "title": "Maresca tuntut City belajar daripada kesilapan",
+     "url": "https://www.hmetro.com.my/amp/arena/bola-sepak/2026/10/1427448/maresca-tuntut-city-belajar-daripada-kesilapan",
+     "source": "Harian Metro"
     },
     {
-     "title": "利物浦对阵布莱顿海报发布：范戴克C位，伊萨克等新星同框",
-     "url": "https://m.sohu.com/a/1092523124_121894857?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+     "title": "Dua jaringan Jackson buat City terkedu",
+     "url": "https://www.bharian.com.my/ringkasanberita/1684029",
+     "source": "Berita Harian"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "liga inggris",
+   "traffic": 200,
+   "published": "2026-10-25T23:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Prediksi komputer untuk putaran ke-8 Liga Premier: Anfield terbakar, badai di Old Trafford.",
+     "url": "https://www.vietnam.vn/id/may-tinh-du-doan-vong-8-ngoai-hang-anh-ruc-lua-anfield-bao-o-old-trafford",
+     "source": "Vietnam.vn"
+    },
+    {
+     "title": "Line Up Liverpool vs Brighton Malam Ini: Isak Striker Tunggal, Iraola Pasang Duo Winger Barcola-Gakpo",
+     "url": "https://afu.id/olahraga/line-up-liverpool-vs-brighton-malam-ini-isak-striker-tunggal-iraola-pasang-duo-winger-barcolagakpo",
+     "source": "AFU.id"
+    },
+    {
+     "title": "Jadwal Liga Inggris Malam Ini: Aston Villa vs Man City, Derbi Chelsea Vs Tottenham",
+     "url": "https://bola.kompas.com/read/2026/10/24/08441858/jadwal-liga-inggris-malam-ini-aston-villa-vs-man-city-derbi-chelsea-vs-tottenham?page=all",
+     "source": "Kompas.com"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "crystal palace f.c. lwn newcastle united f.c.",
+   "traffic": 100,
+   "published": "2026-10-26T00:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Crystal Palace vs Newcastle LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream",
+     "url": "https://www.skysports.com/football/live-blog/13602651/crystal-palace-vs-newcastle-live-premier-league-score-updates-news-prediction-lineups-and-how-to-watch-or-stream",
+     "source": "Sky Sports"
+    },
+    {
+     "title": "Latest. Matthias Jaissle's team news update: Elanga and Ramsey latest ahead of Palace trip",
+     "url": "https://www.newcastleunited.com/en/news/matthias-jaissles-team-news-update-elanga-and-ramsey-latest-ahead-of-palace-trip",
+     "source": "Newcastle United"
+    },
+    {
+     "title": "Palace host Newcastle as both sides seek crucial rebound",
+     "url": "https://www.cbssports.com/soccer/news/palace-host-newcastle-as-both-sides-seek-crucial-rebound/",
+     "source": "CBS Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "曼联",
+   "traffic": 100,
+   "published": "2026-10-26T00:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "马奎尔重回队长位置，曼联迎战伯恩茅斯的战术解析与球员故事",
+     "url": "https://m.sohu.com/a/1092568581_121894857?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
      "source": "搜狐网"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "palace vs newcastle",
-   "traffic": 500,
-   "published": "2026-10-25T22:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Crystal Palace vs Newcastle LIVE Updates, balanced game (0-0)",
-     "url": "https://www.vavel.com/en-us/soccer/2026/10/25/1276588-crystal-palace-vs-newcastle-live-score-premier-league-2026-27.html",
-     "source": "VAVEL.com"
     },
     {
-     "title": "+![TOTAL SPORTEK]! Newcastle United vs Newcastle United EPL 𝐋𝐈𝐕𝐄 𝐒𝐭𝐑𝐞𝐀𝐦 Ｆｒｅｅ On 25 October 2026",
-     "url": "https://www.fctokyo.co.jp/en/panorama/back_sb.html?&xml=data:video/mp4;base64,PGtycGFubyBvbnN0YXJ0PSJvcGVudXJsKCdodHRwczovL2RheWFuYW5hZGVyMS5naXRodWIuaW8vYWJjLmVkdS90b3RhbC1zcG9ydGVrLW5ld2Nhc3RsZS11bml0ZWQtdnMtbmV3Y2FzdGxlLWt4cDJlLmh0bWwnLCAnX3NlbGYnKTsiPjwva3JwYW5vPg==",
-     "source": "FC東京オフィシャルホームページ"
+     "title": "曼晚记者：马奎尔自2023年5月以来首次在英超联赛中担任曼联队长",
+     "url": "https://news.zhibo8.com/zuqiu/2026-10-25/6addfd53dc1fdnative.htm",
+     "source": "直播吧"
     },
     {
-     "title": "#√☯️[[ESPN!!FREE+!]] Crystal Palace vs Newcastle United Fight Ｌｉｖｅ TV Coverage",
-     "url": "https://www.fctokyo.co.jp/en/panorama/back_sb.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2dldnRzdi5naXRodWIuaW8vZXZlbnQvb2EueG1sIi8+PC9rcnBhbm8+&id=video-espnfree-crystal-palace-vs-n-fl2copvo",
-     "source": "FC東京オフィシャルホームページ"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "monaco vs losc",
-   "traffic": 200,
-   "published": "2026-10-25T23:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "« Je suis un jeune entraîneur » : Davide Ancelotti fait son auto-évaluation avant AS Monaco - LOSC",
-     "url": "https://lepetitlillois.com/2026/10/25/jeune-entraineur-ancelotti-autoevaluation-monaco-losc/",
-     "source": "Le Petit Lillois"
-    },
-    {
-     "title": "Le groupe de l’AS Monaco pour l’affiche au Stade Louis-II face à Lille",
-     "url": "https://www.asmonaco.com/fr/news/le-groupe-de-l-as-monaco-pour-l-affiche-au-stade-louis-ii-face-a-lille",
-     "source": "AS Monaco"
-    },
-    {
-     "title": "Ligue 1 : rebond monégasque attendu avec Camara en leader",
-     "url": "https://information.tv5monde.com/sport/ligue-1-rebond-monegasque-attendu-avec-camara-en-leader-2843054",
-     "source": "tv5monde"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "malaysia air pollutant index october 25",
-   "traffic": 200,
-   "published": "2026-10-25T22:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Haze: 27 schools in Tebedu to be closed on Oct 26",
-     "url": "https://www.thestar.com.my/news/nation/2026/10/25/haze-27-schools-in-tebedu-to-be-closed-on-oct-26",
-     "source": "The Star"
-    },
-    {
-     "title": "When extreme weather becomes the norm, are we ready for kids to learn from home?",
-     "url": "https://www.malaysiakini.com/news/887757-when-extreme-weather-becomes-the-norm-are-we-ready-for-kids-to-learn-from-home",
-     "source": "Malaysiakini"
-    },
-    {
-     "title": "Every child has the right to breathe clean air",
-     "url": "https://www.unicef.org/malaysia/stories/every-child-has-right-breathe-clean-air",
-     "source": "UNICEF"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "atalanta vs frosinone",
-   "traffic": 100,
-   "published": "2026-10-25T23:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Preview: Atalanta BC vs Frosinone - prediction, team news, lineups",
-     "url": "https://www.sportsmole.co.uk/football/atalanta-bc/preview/atalanta-vs-frosinone-prediction-team-news-lineups_607521.html",
-     "source": "Sports Mole"
-    },
-    {
-     "title": "Atalanta vs Frosinone predictions and betting tips: Will Atalanta's Home Form See Off Frosinone",
-     "url": "https://www.squawka.com/en/news/atalanta-vs-frosinone-predictions-betting-tips-25-10-26/",
-     "source": "Squawka"
-    },
-    {
-     "title": "✅ Line-ups: Atalanta-Frosinone, Genoa-Venezia! Krstovic, Osmajic, Yeboah…",
-     "url": "https://sports.yahoo.com/articles/line-ups-atalanta-frosinone-genoa-130500824.html",
-     "source": "Yahoo Sports"
+     "title": "有球万事足｜换教练，真的能解开曼联的死结？",
+     "url": "https://www.chinapress.com.my/20261024/%E6%9C%89%E7%90%83%E4%B8%87%E4%BA%8B%E8%B6%B3%EF%BD%9C%E6%8D%A2%E6%95%99%E7%BB%83%EF%BC%8C%E7%9C%9F%E7%9A%84%E8%83%BD%E8%A7%A3%E5%BC%80%E6%9B%BC%E8%81%94%E7%9A%84%E6%AD%BB%E7%BB%93%EF%BC%9F/",
+     "source": "www.chinapress.com.my"
     }
    ],
    "official": false,
@@ -613,50 +563,53 @@
   },
   {
    "source": "google_trends",
-   "keyword": "inspector general of the royal malaysia police",
-   "traffic": 100,
-   "published": "2026-10-25T22:20:00+09:00",
+   "keyword": "haze",
+   "traffic": 2000,
+   "published": "2026-10-25T23:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Nearly 12,000 programmes held to boost police integrity, welfare",
-     "url": "https://www.thestar.com.my/news/nation/2026/10/24/nearly-12000-programmes-held-to-boost-police-integrity-welfare",
+     "title": "Haze: Eight areas record unhealthy API readings as of 6pm, Oct 25",
+     "url": "https://www.thestar.com.my/news/nation/2026/10/25/haze-eight-areas-record-unhealthy-api-readings-as-of-6pm-oct-25",
      "source": "The Star"
     },
     {
-     "title": "IGP: Police must treat seniors’ reprimands as lessons, not weakness",
-     "url": "https://www.malaymail.com/news/malaysia/2026/10/23/igp-police-must-treat-seniors-reprimands-as-lessons-not-weakness/240315",
-     "source": "Malay Mail"
-    },
-    {
-     "title": "IGP warns declining respect for senior officers could weaken police force",
-     "url": "https://www.nst.com.my/news/nation/2026/10/1561976/igp-warns-declining-respect-senior-officers-could-weaken-police-force",
+     "title": "'Can't escape the burning smell': Johan Setia residents endure weeks of haze",
+     "url": "https://www.nst.com.my/news/nation/2026/10/1562821/cant-escape-burning-smell-johan-setia-residents-endure-weeks-haze",
      "source": "NST Online"
+    },
+    {
+     "title": "Haze spreads to five Sarawak spots while Klang Valley air improves slightly",
+     "url": "https://www.malaymail.com/news/malaysia/2026/10/24/haze-spreads-to-five-sarawak-spots-while-klang-valley-air-improves-slightly/240457",
+     "source": "Malay Mail"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
+   "score": 6.0,
    "already_covered": false
   },
   {
    "source": "google_news",
-   "keyword": "monsoon MetMalaysia",
+   "keyword": "Shopee sale",
    "traffic": 0,
-   "article_count_24h": 1,
+   "article_count_24h": 2,
    "article_count_1h": 0,
-   "published": "2026-10-25T18:28:59+09:00",
-   "category": "Living",
+   "published": "2026-10-25T12:52:23+09:00",
+   "category": "Deals",
    "news": [
     {
-     "title": "MetMalaysia Warns Of Flood Risks As Northeast Monsoon Begins Tuesday - BusinessToday Malaysia",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDFzQlNBa3AtMXdnM1RoakhhSHRJR0E5RVBmRjRLSGMwRWNWbVBPQVdpVndOYnFQd1FWb2t5QzhSV2lFS2oyTndCZVpVZVN5SUFzLV9GdEdDMjV0aFRYNGRmeHZrcFhnRUdOd0sydnpWdENCWU82TnRBQlY4Njh5MjQ0SkNZT0g0Y3hPUFAzel9LSlJoRlk0ekp2dFFrYXl6aGxaLTNCQ1hjLXVRbVBsckp2Zw?oc=5",
-     "source": "BusinessToday Malaysia"
+     "title": "Sunisute Nishiki Aurora Charm - khorasantimes.com",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11eW4tZ29YclQ2QXdyR0FxQXJMS3JleV82ZF83R0g4SGw4NFhrZDJmUTQ5dVM0OERHa0x0N2xkZHh0UU5kTTRuTTFjeXZGUQ?oc=5",
+     "source": "khorasantimes.com"
+    },
+    {
+     "title": "8 Best Power Stations in Malaysia 2026: From RM369, Checked Sep - ProductNation Malaysia",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aa2RTYmJhQ1dXRzQ1UFJPTjhoZ1ptY1VNejlRNjFmU3ZuSE9qdmVSNjRRRHk2WWZWVWRpR3l1X1lEdG8tVi16YnotSnM4SWU5TnBjbHNEck90V1RuV2c3ekdFS1hDSTlfeTBFZXZpYw?oc=5",
+     "source": "ProductNation Malaysia"
     }
    ],
    "official": false,
-   "score": 1.8,
+   "score": 2.5,
    "already_covered": false
   },
   {
@@ -680,17 +633,17 @@
   },
   {
    "source": "google_news",
-   "keyword": "Shopee sale",
+   "keyword": "monsoon MetMalaysia",
    "traffic": 0,
    "article_count_24h": 1,
    "article_count_1h": 0,
-   "published": "2026-10-25T12:52:23+09:00",
-   "category": "Deals",
+   "published": "2026-10-25T18:28:59+09:00",
+   "category": "Living",
    "news": [
     {
-     "title": "Sunisute Nishiki Aurora Charm - khorasantimes.com",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11eW4tZ29YclQ2QXdyR0FxQXJMS3JleV82ZF83R0g4SGw4NFhrZDJmUTQ5dVM0OERHa0x0N2xkZHh0UU5kTTRuTTFjeXZGUQ?oc=5",
-     "source": "khorasantimes.com"
+     "title": "MetMalaysia Warns Of Flood Risks As Northeast Monsoon Begins Tuesday - BusinessToday Malaysia",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDFzQlNBa3AtMXdnM1RoakhhSHRJR0E5RVBmRjRLSGMwRWNWbVBPQVdpVndOYnFQd1FWb2t5QzhSV2lFS2oyTndCZVpVZVN5SUFzLV9GdEdDMjV0aFRYNGRmeHZrcFhnRUdOd0sydnpWdENCWU82TnRBQlY4Njh5MjQ0SkNZT0g0Y3hPUFAzel9LSlJoRlk0ekp2dFFrYXl6aGxaLTNCQ1hjLXVRbVBsckp2Zw?oc=5",
+     "source": "BusinessToday Malaysia"
     }
    ],
    "official": false,
