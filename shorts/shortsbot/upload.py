@@ -49,7 +49,7 @@ def upload(path, meta, publish_at, cfg):
         "snippet": {
             "title": meta["title"][:100],
             "description": meta["description"],
-            "tags": [h.lstrip("#") for h in meta["hashtags"]],
+            "tags": meta.get("tags") or [h.lstrip("#") for h in meta["hashtags"]],
             "categoryId": cfg["channel"]["category_id"],
             "defaultLanguage": "ko", "defaultAudioLanguage": "ko",
         },

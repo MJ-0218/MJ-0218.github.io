@@ -51,12 +51,14 @@ class ShortScript(BaseModel):
     title: str
     description: str
     hashtags: List[str]
+    tags: List[str]
     pinned_comment: str
 
 
 SYSTEM = """너는 한국 유튜브 쇼츠 편집 작가다. 시청 지속률과 반복 재생을 끌어올리는 짧은 나레이션 대본을 쓴다.
 프레임마다 [t=초] 표시가 붙어 있다. 화면에서 실제로 보이는 사건에만 근거해서 쓰고, 보이지 않는 사실(가격·효능·국적·이름)은 지어내지 않는다.
 메모(note)가 있으면 사실 정보로 써도 된다.
+hashtags 는 설명란 끝에 붙일 3~5개(#포함), tags 는 YouTube 태그 칸에 넣을 검색어 6~12개(# 없이, 한국어 위주, 영어 1~2개)다.
 모든 시각(start, end, at)은 원본 클립 기준 초 단위다. trim_start~trim_end 는 쓸 구간이고, 그 밖의 시각은 쓰지 않는다.
 
 아래 스타일 가이드를 따른다.
@@ -136,6 +138,7 @@ def clean(s: ShortScript, duration, vcfg):
     for z in s.zooms:
         z.scale = min(1.3, max(1.03, z.scale))
     s.hashtags = [h if h.startswith("#") else "#" + h for h in s.hashtags][:6]
+    s.tags = [t.lstrip("#").strip() for t in s.tags if t.strip()][:12]
     if "#shorts" not in [h.lower() for h in s.hashtags]:
         s.hashtags.append("#shorts")
     return s

@@ -1,7 +1,7 @@
 """원본 클립 자동 탐색 (YouTube Data API).
 
 - cc     : 크리에이티브 커먼즈(CC BY)로 공개된 짧은 인기 영상 → sources.yml 에 바로 등록(출처 표기 자동)
-- 허락용 : 일반 라이선스 인기 영상 → state/candidates.md 에 허락 요청 문구와 함께 목록만 만든다.
+- 허락용 : 일반 라이선스 인기 영상 → state/candidates.json 에 후보로만 쌓는다(쇼츠 대기판에서 사람이 허가).
            원작자가 허락하면 sources.yml 에 license: permission + proof 로 옮기면 된다.
 """
 import datetime as dt
@@ -113,21 +113,69 @@ def scout(cfg, need):
     if added:
         append_sources(added)
     if candidates:
-        write_candidates(candidates)
+        write_candidates(candidates, cfg)
     print(f"탐색: CC BY {len(added)}편 등록, 허락 요청 후보 {len(candidates)}편")
     return len(added)
 
 
-def write_candidates(cands):
+def _thumb(video_id):
+    """작은 썸네일을 state/thumbs 에 저장(대기판에 그대로 박아 넣는다). 실패해도 넘어간다."""
+    d = STATE / "thumbs"
+    d.mkdir(parents=True, exist_ok=True)
+    p = d / f"{video_id}.jpg"
+    if not p.exists():
+        try:
+            with urllib.request.urlopen(f"https://i.ytimg.com/vi/{video_id}/mqdefault.jpg", timeout=15) as r:
+                p.write_bytes(r.read())
+        except Exception:
+            return ""
+    return p.name
+
+
+def rate(cands, cfg):
+    """소재 가이드 기준으로 1~5점과 한 줄 이유를 붙인다(Claude 한 번 호출). 키가 없으면 조회수 순."""
+    if not env("ANTHROPIC_API_KEY") or not cands:
+        return
+    from typing import List
+    import anthropic
+    from pydantic import BaseModel
+
+    class Score(BaseModel):
+        video_id: str
+        score: int
+        reason: str
+
+    class Scores(BaseModel):
+        items: List[Score]
+
+    guide = (ROOT / "prompts" / "style.md").read_text(encoding="utf-8").split("## 길이와 리듬")[0]
+    rows = "\n".join(f"{c['video_id']} | {c['title']} | {c['seconds']}초 | 조회 {c['views']:,}" for c in cands)
+    resp = anthropic.Anthropic().messages.parse(
+        model=cfg["claude"]["model"], max_tokens=8000, output_config={"effort": "low"},
+        system="한국 쇼츠 채널 소재 담당이다. 아래 가이드로 후보마다 1~5점과 12자 안팎의 이유를 매긴다.\n" + guide,
+        messages=[{"role": "user", "content": rows}], output_format=Scores)
+    got = {x.video_id: x for x in (resp.parsed_output.items if resp.parsed_output else [])}
+    for c in cands:
+        if c["video_id"] in got:
+            c["score"] = max(1, min(5, got[c["video_id"]].score))
+            c["reason"] = got[c["video_id"]].reason
+
+
+def write_candidates(cands, cfg=None):
+    """허락 대기 후보를 state/candidates.json 에 쌓는다(대기판이 읽는다)."""
     STATE.mkdir(parents=True, exist_ok=True)
-    path = STATE / "candidates.md"
-    old = path.read_text(encoding="utf-8") if path.exists() else "# 허락 요청 후보\n\n원작자가 허락하면 sources.yml 에 `license: permission`, `proof`(허락 날짜·캡처 경로), `credit` 로 옮긴다.\n"
-    rows = []
-    for c in sorted(cands, key=lambda c: -c["views"])[:30]:
-        rows.append(
-            f"\n## {c['title']}\n- {c['url']} · {c['channel']} · 조회 {c['views']:,} · {c['seconds']}초\n"
-            f"- 채널: https://www.youtube.com/channel/{c['channel_id']}\n"
-            f"- 요청 문구:\n  > Hi {c['channel']}! I run a Korean Shorts channel and loved this video. "
-            f"May I re-edit it with Korean narration and subtitles? I'll credit you in the video and description "
-            f"and link your channel. Thank you!\n")
-    path.write_text(old + f"\n---\n### {dt.date.today().isoformat()}\n" + "".join(rows), encoding="utf-8")
+    path = STATE / "candidates.json"
+    old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    have = {c["video_id"] for c in old}
+    new = [c for c in sorted(cands, key=lambda c: -c["views"])[:30] if c["video_id"] not in have]
+    try:
+        rate(new, cfg or {"claude": {"model": "claude-opus-5-5"}})
+    except Exception as e:
+        print(f"  소재 점수 실패(계속): {e}")
+    today = dt.date.today().isoformat()
+    for c in new:
+        c["found"] = today
+        c["thumb"] = _thumb(c["video_id"])
+    keep_after = (dt.date.today() - dt.timedelta(days=21)).isoformat()
+    merged = [c for c in old if c.get("found", today) >= keep_after] + new
+    path.write_text(json.dumps(merged, ensure_ascii=False, indent=1), encoding="utf-8")

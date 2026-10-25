@@ -47,7 +47,7 @@ style:
   banner_size: 88
 
 scout:
-  # 원본 클립 자동 탐색. CC BY 영상만 자동 등록, 일반 영상은 허락 요청 후보 목록(state/candidates.md)만 만든다.
+  # 원본 클립 자동 탐색. CC BY 영상만 자동 등록, 일반 영상은 허가 대기 후보(state/candidates.json → 쇼츠 대기판)만 만든다.
   queries:
     - satisfying cleaning
     - weird beauty product
@@ -68,6 +68,6 @@ scout:
 
 upload:
   # YouTube Data API 업로드. 감사(audit) 안 받은 API 프로젝트는 '비공개'로만 올라간다(Google 공식 문서).
-  enabled: true
+  enabled: false   # 지금은 대기판에서 복사해 직접 업로드. API 감사 통과 후 true 로 바꾸면 자동 예약
   privacy_until_publish: private
   contains_synthetic_media: false   # 실존 인물·실제 사건처럼 보이는 합성물이면 true

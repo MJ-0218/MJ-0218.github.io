@@ -3,6 +3,9 @@ name: shorts-daily
 on:
   schedule:
     - cron: "7 20 * * *"   # 05:07 KST
+  push:
+    branches: [main]
+    paths: ["shorts/sources.yml"]   # 대기판에서 허가한 영상이 들어오면 바로 제작(하루 편수 상한 안에서)
   workflow_dispatch:
     inputs:
       limit: { description: "만들 편수(비우면 config 의 daily_count)", required: false }
@@ -38,6 +41,10 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
         run: python3 shorts/run.py daily ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
+      - name: 완성본을 릴리스에 올리기 (휴대폰에서 바로 받기용, 14일 보관)
+        if: always()
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: python3 shorts/run.py release
       - name: 완성본 보관 (14일)
         if: always()
         uses: actions/upload-artifact@v4
@@ -51,7 +58,7 @@ jobs:
         run: |
           git config user.name "semter-shorts"
           git config user.email "shorts@users.noreply.github.com"
-          if [ -n "$(git status --porcelain shorts/state/ shorts/sources.yml)" ]; then
+          if [ -n "$(git status --porcelain --untracked-files=all shorts/state/ shorts/sources.yml)" ]; then
             git add shorts/state/ shorts/sources.yml
             git commit -m "shorts: 제작·예약 기록"
             for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done

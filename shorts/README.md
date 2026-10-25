@@ -14,7 +14,7 @@ inbox/*.mp4 ─────────────┴→ rights 검사 → brai
 
 ## 원본 클립은 어디서 오나
 - **자동(CC BY)**: `scout` 가 config 의 검색어로 최근 1년 인기 쇼츠 중 YouTube 가 'Creative Commons'로 표시한 영상을 찾아 `sources.yml` 에 등록한다. 출처(채널명·링크)는 설명란에 자동 표기. 모음·재업로드로 보이는 제목은 거른다.
-- **허락 받기(반자동)**: 일반 라이선스 인기 영상은 `state/candidates.md` 에 요청 문구와 함께 쌓인다. 허락 답장을 받으면 `license: permission` + `proof` 로 옮긴다.
+- **허락 받기(반자동)**: 일반 라이선스 인기 영상은 `state/candidates.json` 에 소재 점수와 함께 쌓이고, **쇼츠 대기판**(아티팩트, 주소는 `state/board_url.txt`)의 [허가 대기] 탭에 뜬다. 허락 받은 곳을 적고 [허가]를 누르면 다음 제작 때 영상이 된다.
 - **직접 찍은 영상**: `inbox/` 에 넣고 `license: own` 으로 등록.
 
 ## 처음 한 번 준비

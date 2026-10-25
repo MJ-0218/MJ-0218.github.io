@@ -6,17 +6,20 @@
   python shorts/run.py make [--limit N]  # 클립 → 대본 → 음성 → 완성본 (out/)
   python shorts/run.py upload            # 완성본을 다음 업로드 시각에 예약
   python shorts/run.py daily             # scout + fetch + make(daily_count) + upload
+  python shorts/run.py sync <db.json>    # 대기판에서 누른 허가·거절·업로드함 반영
+  python shorts/run.py release           # 완성본을 GitHub 릴리스에 올려 휴대폰에서 바로 받게
 """
 import argparse
 import datetime as dt
 import json
+import subprocess
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from shortsbot import brain, rights, variety  # noqa: E402
-from shortsbot.common import INBOX, OUT, load_config, load_history, load_sources, probe, run, save_history  # noqa: E402
+from shortsbot.common import INBOX, OUT, STATE, load_config, load_history, load_sources, probe, run, save_history  # noqa: E402
 from shortsbot.render import render  # noqa: E402
 
 
@@ -69,6 +72,10 @@ def cmd_make(cfg, limit, only=None):
                 continue
             out = day / f"{cid}.mp4"
             length = render(path, meta, script, cfg, out, credit=entry.get("credit", ""))
+            posters = STATE / "posters"
+            posters.mkdir(parents=True, exist_ok=True)
+            run(["ffmpeg", "-v", "error", "-ss", "1.5", "-i", str(out), "-frames:v", "1", "-vf", "scale=216:-2",
+                 "-q:v", "5", "-y", str(posters / f"{cid}.jpg")])
             desc = script.description.strip()
             if entry.get("credit"):
                 how = {"cc-by": "CC BY", "permission": "원작자 허락", "licensed": "라이선스 구매"}.get(entry["license"], "")
@@ -76,7 +83,7 @@ def cmd_make(cfg, limit, only=None):
             desc += "\n\n" + " ".join(script.hashtags)
             item = {
                 "id": cid, "url": entry.get("url", ""), "file": str(out.relative_to(OUT.parent)), "length": round(length, 1),
-                "title": script.title, "description": desc, "hashtags": script.hashtags,
+                "title": script.title, "description": desc, "hashtags": script.hashtags, "tags": script.tags,
                 "hook_type": script.hook_type, "first_line": script.lines[0].text,
                 "narration": " ".join(l.text for l in script.lines),
                 "pinned_comment": script.pinned_comment,
@@ -116,6 +123,69 @@ def cmd_upload(cfg):
                 break
 
 
+def made_today(history):
+    today = dt.date.today().isoformat()
+    return sum(1 for v in history["videos"] if v.get("rendered_at", "").startswith(today))
+
+
+def cmd_sync(db_path):
+    """대기판 db 내용(JSON: {approve:{vid:{note,at}}, reject:{vid:{}}, uploaded:{id:{at}}})을 반영."""
+    from shortsbot.scout import append_sources
+    db = json.loads(Path(db_path).read_text(encoding="utf-8"))
+    cpath = STATE / "candidates.json"
+    cands = json.loads(cpath.read_text(encoding="utf-8")) if cpath.exists() else []
+    known = {e.get("url") for e in load_sources()}
+    add, keep = [], []
+    for c in cands:
+        a = (db.get("approve") or {}).get(c["video_id"])
+        if a and c["url"] not in known:
+            add.append({
+                "id": f"yt-{c['video_id']}", "url": c["url"], "license": "permission",
+                "proof": f"대기판에서 사용자가 허가 확인 {a.get('at', '')}: {a.get('note', '')}".strip(),
+                "credit": c["channel"], "note": f"원제: {c['title']} / {c.get('desc', '')[:150]}".replace("\n", " "),
+            })
+        elif not a and c["video_id"] not in (db.get("reject") or {}):
+            keep.append(c)
+    if add:
+        append_sources(add)
+    cpath.write_text(json.dumps(keep, ensure_ascii=False, indent=1), encoding="utf-8")
+    history = load_history()
+    marked = 0
+    for v in history["videos"]:
+        u = (db.get("uploaded") or {}).get(v["id"])
+        if u and not v.get("uploaded_manual"):
+            v["uploaded_manual"] = u.get("at") or True
+            marked += 1
+    save_history(history)
+    print(f"동기화: 허가 {len(add)}편 → sources.yml, 후보 {len(keep)}편 남음, 업로드함 {marked}편")
+
+
+def cmd_release():
+    """out/ 의 새 완성본을 날짜별 GitHub 릴리스에 올리고 받기 주소를 기록. 14일 지난 릴리스는 지운다."""
+    import os
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if not repo:
+        print("GITHUB_REPOSITORY 가 없어 릴리스를 건너뜀(Actions 에서만 동작)")
+        return
+    history = load_history()
+    todo = [v for v in history["videos"] if not v.get("download_url") and (OUT.parent / v["file"]).exists()]
+    for v in todo:
+        tag = "shorts-" + v["rendered_at"][:10]
+        f = OUT.parent / v["file"]
+        exists = subprocess.run(["gh", "release", "view", tag], capture_output=True).returncode == 0
+        if not exists:
+            run(["gh", "release", "create", tag, "--title", tag, "--notes", "쇼츠 완성본 (14일 뒤 자동 삭제)", "--latest=false"])
+        run(["gh", "release", "upload", tag, str(f), "--clobber"])
+        v["download_url"] = f"https://github.com/{repo}/releases/download/{tag}/{f.name}"
+    save_history(history)
+    cutoff = (dt.date.today() - dt.timedelta(days=14)).isoformat()
+    tags = run(["gh", "release", "list", "--limit", "100", "--json", "tagName", "-q", ".[].tagName"]).split()
+    for t in tags:
+        if t.startswith("shorts-") and t[7:] < cutoff:
+            subprocess.run(["gh", "release", "delete", t, "--cleanup-tag", "-y"], capture_output=True)
+    print(f"릴리스: {len(todo)}편 올림")
+
+
 def cmd_demo(cfg):
     """API 키 없이 렌더링 경로 전체를 시험한다."""
     from shortsbot.brain import Aside, Line, ShortScript, Sfx, Zoom
@@ -134,7 +204,7 @@ def cmd_demo(cfg):
                 Aside(start=10.0, end=11.6, text="(새거지롱~~)", color="green")],
         sfx=[Sfx(at=2.0, kind="pop"), Sfx(at=6.0, kind="whoosh"), Sfx(at=9.0, kind="sad"), Sfx(at=10.0, kind="tada")],
         zooms=[Zoom(start=2.0, end=3.2, scale=1.18)],
-        title="징그러울 정도로 더러운 빗 청소 ㅋㅋㅋ", description="테스트", hashtags=["#shorts"], pinned_comment="")
+        title="징그러울 정도로 더러운 빗 청소 ㅋㅋㅋ", description="테스트", hashtags=["#shorts"], tags=["빗 청소"], pinned_comment="")
     out = OUT / "demo.mp4"
     length = render(clip, probe(clip), script, cfg, out, credit="@demo")
     print(f"데모 완성: {out} ({length:.1f}초)")
@@ -142,7 +212,8 @@ def cmd_demo(cfg):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily"])
+    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily", "sync", "release"])
+    ap.add_argument("path", nargs="?")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--id")
     a = ap.parse_args()
@@ -158,10 +229,18 @@ def main():
         cmd_make(cfg, a.limit or cfg["channel"]["daily_count"], a.id)
     elif a.cmd == "upload":
         cmd_upload(cfg)
+    elif a.cmd == "sync":
+        cmd_sync(a.path)
+    elif a.cmd == "release":
+        cmd_release()
     else:
         from shortsbot.scout import scout
-        count = a.limit or cfg["channel"]["daily_count"]
-        done = {v["id"] for v in load_history()["videos"]}
+        history = load_history()
+        count = max(0, (a.limit or cfg["channel"]["daily_count"]) - made_today(history))
+        if not count:
+            print("오늘 편수를 이미 채움")
+            return
+        done = {v["id"] for v in history["videos"]}
         waiting = sum(1 for e in load_sources() if e.get("id") not in done and not rights.check(e))
         if waiting < count:
             try:
@@ -169,7 +248,7 @@ def main():
             except Exception as ex:
                 print(f"탐색 실패(계속 진행): {ex}")
         cmd_fetch(cfg)
-        cmd_make(cfg, a.limit or cfg["channel"]["daily_count"])
+        cmd_make(cfg, count)
         cmd_upload(cfg)
 
 
