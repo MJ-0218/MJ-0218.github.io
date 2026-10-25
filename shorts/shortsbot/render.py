@@ -35,6 +35,22 @@ def shifted(script, t0):
     return s
 
 
+def mark_pixels(marks, meta, landscape):
+    """프레임 기준 0~1 위치 → 1080x1920 화면 픽셀."""
+    w, h = max(1, meta["width"]), max(1, meta["height"])
+    out = []
+    for m in marks:
+        if landscape:
+            fh = h * 1080 / w
+            x, y = m.x * 1080, (1920 - fh) / 2 + 80 + m.y * fh
+        else:
+            sc = max(1080 / w, 1920 / h)
+            x = m.x * w * sc - (w * sc - 1080) / 2
+            y = m.y * h * sc - (h * sc - 1920) / 2
+        out.append((m.start, m.end, int(min(1040, max(40, x))), int(min(1880, max(360, y))), m.kind))
+    return out
+
+
 def pick_bgm():
     files = sorted((ASSETS / "bgm").glob("*.mp3")) + sorted((ASSETS / "bgm").glob("*.m4a"))
     return random.choice(files) if files else None
@@ -42,6 +58,7 @@ def pick_bgm():
 
 def render(clip, meta, script, cfg, out_path, credit=""):
     vcfg, st = cfg["video"], cfg["style"]
+    tcfg = cfg["templates"][script.template]
     t0, t1 = script.trim_start, script.trim_end
     clip_len = t1 - t0
     with tempfile.TemporaryDirectory() as td:
@@ -52,18 +69,24 @@ def render(clip, meta, script, cfg, out_path, credit=""):
         freeze = max(0.0, end - clip_len)
 
         s = shifted(script, t0)
+        for d in s.dialogue:
+            d.start, d.end = d.start - t0, d.end - t0
+        for m in s.marks:
+            m.start, m.end = m.start - t0, m.end - t0
+        landscape = meta["width"] / max(1, meta["height"]) > 0.7
         # 자막은 다음 줄이 나올 때까지(최대 1.5초 더) 남겨 화면이 비지 않게 한다
         timeline = []
         for i, ((a, b, _), l) in enumerate(zip(placed, script.lines)):
             nxt = placed[i + 1][0] if i + 1 < len(placed) else end
             timeline.append((a, min(nxt, b + 1.5), l.text))
         ass = td / "subs.ass"
-        ass.write_text(subs.build(s, timeline, end, st, credit), encoding="utf-8")
+        colors = {"line1_color": tcfg["line1_color"], "line2_color": tcfg["line2_color"]}
+        ass.write_text(subs.build(s, timeline, end, st, credit, colors, mark_pixels(s.marks, meta, landscape)),
+                       encoding="utf-8")
 
         inputs = ["-ss", f"{t0:.2f}", "-t", f"{clip_len:.2f}", "-i", str(clip)]
         n = 1
         vf = []
-        landscape = meta["width"] / max(1, meta["height"]) > 0.7
         if landscape:  # 가로·정사각 영상: 흐린 배경 위에 원본
             vf.append("[0:v]split[bg][fg];"
                       "[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:2[bgb];"
@@ -86,7 +109,11 @@ def render(clip, meta, script, cfg, out_path, credit=""):
 
         mix = []
         if meta["has_audio"]:
-            mix.append(f"[0:a]volume={vcfg['original_audio']},apad[orig]")
+            # 나레이션이 나오는 동안만 원본 소리를 낮춘다(틀 B 는 평소 원본 소리가 주인공)
+            base = tcfg["original_audio"]
+            duck = min(base, 0.22)
+            during = "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b, _ in placed) or "0"
+            mix.append(f"[0:a]volume='if({during},{duck},{base})':eval=frame,apad[orig]")
             labels = ["[orig]"]
         else:
             labels = []

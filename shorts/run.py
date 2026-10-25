@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from shortsbot import brain, rights, variety  # noqa: E402
+from shortsbot import brain, rights, stt, variety  # noqa: E402
 from shortsbot.common import INBOX, OUT, STATE, load_config, load_history, load_sources, probe, run, save_history  # noqa: E402
 from shortsbot.render import render  # noqa: E402
 
@@ -60,9 +60,10 @@ def cmd_make(cfg, limit, only=None):
         cid = entry["id"]
         try:
             meta = probe(path)
+            transcript = stt.transcribe(path, cfg) if meta["has_audio"] else []
             feedback, script = "", None
             for attempt in range(3):
-                script = brain.write_script(path, meta, entry, cfg, history, feedback)
+                script = brain.write_script(path, meta, entry, cfg, history, feedback, transcript)
                 feedback = variety.check(script, history)
                 if not feedback:
                     break
@@ -186,16 +187,16 @@ def cmd_release():
     print(f"릴리스: {len(todo)}편 올림")
 
 
-def cmd_demo(cfg):
+def cmd_demo(cfg, template="story"):
     """API 키 없이 렌더링 경로 전체를 시험한다."""
-    from shortsbot.brain import Aside, Line, ShortScript, Sfx, Zoom
+    from shortsbot.brain import Aside, Dialogue, Line, Mark, ShortScript, Sfx, Zoom
     cfg["tts"]["provider"] = "silent"
     clip = OUT / "demo_src.mp4"
     OUT.mkdir(parents=True, exist_ok=True)
     run(["ffmpeg", "-v", "error", "-f", "lavfi", "-i", "testsrc2=size=1080x1920:rate=30:duration=14",
          "-f", "lavfi", "-i", "sine=frequency=220:duration=14", "-shortest", "-pix_fmt", "yuv420p", "-y", str(clip)])
     script = ShortScript(
-        scene_summary="테스트 패턴", hook_type="결과형", trim_start=0.5, trim_end=13.5,
+        scene_summary="테스트 패턴", template=template, hook_type="결과형", trim_start=0.5, trim_end=13.5,
         banner_line1="징그러울 정도로", banner_line2="더러운 빗청소ㄷㄷ",
         lines=[Line(start=0.6, text="유튜버가"), Line(start=1.6, text="빗을 보여 주자"),
                Line(start=3.4, text="댓글이 난리가 났는데요"), Line(start=6.0, text="그러자 바로 청소를 시작했는데"),
@@ -204,8 +205,13 @@ def cmd_demo(cfg):
                 Aside(start=10.0, end=11.6, text="(새거지롱~~)", color="green")],
         sfx=[Sfx(at=2.0, kind="pop"), Sfx(at=6.0, kind="whoosh"), Sfx(at=9.0, kind="sad"), Sfx(at=10.0, kind="tada")],
         zooms=[Zoom(start=2.0, end=3.2, scale=1.18)],
+        dialogue=[Dialogue(start=7.0, end=8.6, text="이거 청소가 되긴 할까요?", color="green")],
+        marks=[Mark(start=0.6, end=2.2, x=0.5, y=0.45, kind="circle"), Mark(start=9.2, end=10.6, x=0.3, y=0.6, kind="arrow")],
+        ending_caption="여러분은 빗 몇 년째 쓰세요?",
         title="징그러울 정도로 더러운 빗 청소 ㅋㅋㅋ", description="테스트", hashtags=["#shorts"], tags=["빗 청소"], pinned_comment="")
-    out = OUT / "demo.mp4"
+    if template == "clip":
+        script.lines = script.lines[:1]
+    out = OUT / f"demo_{template}.mp4"
     length = render(clip, probe(clip), script, cfg, out, credit="@demo")
     print(f"데모 완성: {out} ({length:.1f}초)")
 
@@ -219,7 +225,7 @@ def main():
     a = ap.parse_args()
     cfg = load_config()
     if a.cmd == "demo":
-        cmd_demo(cfg)
+        cmd_demo(cfg, a.path or "story")
     elif a.cmd == "scout":
         from shortsbot.scout import scout
         scout(cfg, a.limit or cfg["channel"]["daily_count"])

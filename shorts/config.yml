@@ -27,9 +27,27 @@ tts:
   edge:
     voice: ko-KR-SunHiNeural
 
+stt:
+  model_id: scribe_v1     # ElevenLabs 받아쓰기(원본 대사 → 따옴표 자막·번역)
+
+# 인기작 50편 분석(research/top50-notes.md)으로 나눈 두 틀. Claude 가 클립을 보고 고른다.
+templates:
+  story:                  # 숏싹숏싹형: 해외 클립 + 처음부터 끝까지 나레이션, 보상은 끝부분
+    min_sec: 35
+    max_sec: 56
+    line1_color: "FFFFFF"
+    line2_color: "FFE14D"
+    original_audio: 0.22
+  clip:                   # 신기+템형: 원테이크 클립 + 첫 줄만 나레이션, 원본 소리·대사 자막이 주인공
+    min_sec: 9
+    max_sec: 30
+    line1_color: "FFFFFF"
+    line2_color: "B6FF3B" # 형광연두 (25편 중 18편)
+    original_audio: 0.95
+
 video:
-  min_sec: 10
-  max_sec: 45             # 숏싹숏싹 평균 30~36초, 신기+템 10~20초
+  min_sec: 9
+  max_sec: 56
   original_audio: 0.22    # 원본 소리 볼륨(나레이션 아래로 깔기)
   bgm_volume: 0.10
   sfx_volume: 0.55
@@ -39,7 +57,7 @@ style:
   banner_color: "000000"
   line1_color: "FFFFFF"
   line2_color: "FFE14D"   # 둘째 줄 강조색
-  accent_bar: "FF3B30"    # 배너 밑 얇은 강조선 (빈 값이면 없음)
+  accent_bar: ""          # 배너 밑 얇은 강조선 (두 채널 모두 없음 → 끔)
   font: "Black Han Sans"
   sub_font: "Pretendard Black"
   narr_size: 74

@@ -35,6 +35,9 @@ python shorts/run.py daily           # 하루치 제작 + 예약
 ```
 Actions `shorts-daily` 가 매일 05:07(KST)에 `daily` 를 돌린다. 완성본은 실행 화면의 Artifacts 에 14일 보관.
 
+## 분석 근거
+- `research/top50-notes.md` — 두 채널 인기 쇼츠 50편 장면 분석(2026-10-25, vidIQ). 대본 기준 `prompts/style.md` 의 틀 A(이야기형)·틀 B(클립형)가 여기서 나왔다.
+
 ## 손볼 곳
 - 말투·제목 패턴: `prompts/style.md`
 - 편수·시각·색·글꼴·볼륨: `config.yml`
