@@ -12,11 +12,17 @@ inbox/*.mp4 ─────────────┴→ rights 검사 → brai
   → upload(YouTube API, config 의 시각에 예약) → state/history.json
 ```
 
+## 원본 클립은 어디서 오나
+- **자동(CC BY)**: `scout` 가 config 의 검색어로 최근 1년 인기 쇼츠 중 YouTube 가 'Creative Commons'로 표시한 영상을 찾아 `sources.yml` 에 등록한다. 출처(채널명·링크)는 설명란에 자동 표기. 모음·재업로드로 보이는 제목은 거른다.
+- **허락 받기(반자동)**: 일반 라이선스 인기 영상은 `state/candidates.md` 에 요청 문구와 함께 쌓인다. 허락 답장을 받으면 `license: permission` + `proof` 로 옮긴다.
+- **직접 찍은 영상**: `inbox/` 에 넣고 `license: own` 으로 등록.
+
 ## 처음 한 번 준비
-1. **원본 클립**: `inbox/` 에 넣고 `sources.yml` 에 한 줄씩 등록. 직접 찍은 영상(`own`)이 아니면 허락·구매 증빙(`proof`) 없이는 렌더링하지 않는다.
+1. **원본 클립**: 위 세 가지. 권리 증빙(`proof`)이 없는 남의 영상은 렌더링하지 않는다.
 2. **GitHub Secrets** (저장소 Settings → Secrets and variables → Actions, 채팅에 붙이지 말 것)
    - `ANTHROPIC_API_KEY` — 대본
-   - `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` — 음성 (또는 `GOOGLE_TTS_API_KEY` 후 config 의 provider 를 google 로)
+   - `YT_API_KEY` — 클립 탐색(업로드용 OAuth 3개가 있으면 없어도 됨)
+   - `ELEVENLABS_API_KEY` — 음성(기본 보이스 Hana Lee. 보이스 라이브러리에서 내 보이스로 '추가'해 둘 것) (또는 `GOOGLE_TTS_API_KEY` 후 config 의 provider 를 google 로)
    - `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` — 업로드 (`python shorts/get_token.py <id> <secret>` 로 발급)
 3. **API 감사(audit)**: 2020-07-28 이후 만든 API 프로젝트는 감사를 통과하기 전까지 업로드가 '비공개'로 잠긴다(Google `videos.insert` 문서). 감사 전에는 `upload.enabled: false` 로 두고 out/ 의 영상을 YouTube Studio 에서 예약하면 된다.
 4. **배경음악**(선택): YouTube 오디오 보관함에서 받은 mp3 를 `assets/bgm/` 에. 효과음은 코드가 직접 합성한다.

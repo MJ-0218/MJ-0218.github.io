@@ -36,6 +36,7 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
         run: python3 shorts/run.py daily ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
       - name: 완성본 보관 (14일)
         if: always()
@@ -50,8 +51,8 @@ jobs:
         run: |
           git config user.name "semter-shorts"
           git config user.email "shorts@users.noreply.github.com"
-          if [ -n "$(git status --porcelain shorts/state/)" ]; then
-            git add shorts/state/
+          if [ -n "$(git status --porcelain shorts/state/ shorts/sources.yml)" ]; then
+            git add shorts/state/ shorts/sources.yml
             git commit -m "shorts: 제작·예약 기록"
             for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
           fi

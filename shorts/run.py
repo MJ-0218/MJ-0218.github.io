@@ -1,10 +1,11 @@
 """쇼츠 자동화 실행기.
 
   python shorts/run.py demo              # 키 없이 렌더링만 시험 (가짜 클립·무음 나레이션)
+  python shorts/run.py scout             # CC BY 인기 쇼츠 자동 탐색·등록 + 허락 요청 후보 목록
   python shorts/run.py fetch             # sources.yml 의 url(허락·구매 증빙 있는 것만) → inbox/
   python shorts/run.py make [--limit N]  # 클립 → 대본 → 음성 → 완성본 (out/)
   python shorts/run.py upload            # 완성본을 다음 업로드 시각에 예약
-  python shorts/run.py daily             # fetch + make(daily_count) + upload
+  python shorts/run.py daily             # scout + fetch + make(daily_count) + upload
 """
 import argparse
 import datetime as dt
@@ -32,8 +33,11 @@ def cmd_fetch(cfg):
         if dest.exists():
             continue
         print(f"받는 중 {e['id']} ← {e['url']}")
-        run(["yt-dlp", "-q", "-f", "bv*[height<=1920]+ba/b", "--merge-output-format", "mp4",
-             "-o", str(dest), e["url"]])
+        try:
+            run(["yt-dlp", "-q", "-f", "bv*[height<=1920]+ba/b", "--merge-output-format", "mp4",
+                 "-o", str(dest), e["url"]])
+        except RuntimeError as ex:  # 서버 IP 차단 등 — 내 PC 에서 fetch 하면 된다
+            print(f"  받기 실패 {e['id']}: {str(ex)[-200:]}")
 
 
 def cmd_make(cfg, limit, only=None):
@@ -67,10 +71,11 @@ def cmd_make(cfg, limit, only=None):
             length = render(path, meta, script, cfg, out, credit=entry.get("credit", ""))
             desc = script.description.strip()
             if entry.get("credit"):
-                desc += f"\n\n원본 영상: {entry['credit']} (허락 받고 사용)"
+                how = {"cc-by": "CC BY", "permission": "원작자 허락", "licensed": "라이선스 구매"}.get(entry["license"], "")
+                desc += f"\n\n원본: {entry['credit']} {entry.get('url', '')} ({how})".replace("  ", " ")
             desc += "\n\n" + " ".join(script.hashtags)
             item = {
-                "id": cid, "file": str(out.relative_to(OUT.parent)), "length": round(length, 1),
+                "id": cid, "url": entry.get("url", ""), "file": str(out.relative_to(OUT.parent)), "length": round(length, 1),
                 "title": script.title, "description": desc, "hashtags": script.hashtags,
                 "hook_type": script.hook_type, "first_line": script.lines[0].text,
                 "narration": " ".join(l.text for l in script.lines),
@@ -137,13 +142,16 @@ def cmd_demo(cfg):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["demo", "fetch", "make", "upload", "daily"])
+    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily"])
     ap.add_argument("--limit", type=int)
     ap.add_argument("--id")
     a = ap.parse_args()
     cfg = load_config()
     if a.cmd == "demo":
         cmd_demo(cfg)
+    elif a.cmd == "scout":
+        from shortsbot.scout import scout
+        scout(cfg, a.limit or cfg["channel"]["daily_count"])
     elif a.cmd == "fetch":
         cmd_fetch(cfg)
     elif a.cmd == "make":
@@ -151,6 +159,15 @@ def main():
     elif a.cmd == "upload":
         cmd_upload(cfg)
     else:
+        from shortsbot.scout import scout
+        count = a.limit or cfg["channel"]["daily_count"]
+        done = {v["id"] for v in load_history()["videos"]}
+        waiting = sum(1 for e in load_sources() if e.get("id") not in done and not rights.check(e))
+        if waiting < count:
+            try:
+                scout(cfg, count - waiting)
+            except Exception as ex:
+                print(f"탐색 실패(계속 진행): {ex}")
         cmd_fetch(cfg)
         cmd_make(cfg, a.limit or cfg["channel"]["daily_count"])
         cmd_upload(cfg)

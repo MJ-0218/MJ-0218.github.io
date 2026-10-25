@@ -17,7 +17,7 @@ tts:
   provider: elevenlabs    # elevenlabs | google | edge(미리보기용) | silent(테스트용)
   speed: 1.12             # 경쟁 채널은 빠르고 높은 톤의 여성 음성
   elevenlabs:
-    voice_id: ""          # ElevenLabs 보이스 ID (GitHub Secret ELEVENLABS_VOICE_ID 로도 가능)
+    voice_id: QPFsEL6IBxlT15xfiD6C   # Hana Lee - Natural & Cheerful (높고 빠른 여성 톤, 보이스 라이브러리). Secret ELEVENLABS_VOICE_ID 가 있으면 그게 우선
     model_id: eleven_multilingual_v2
     stability: 0.4
     similarity_boost: 0.8
@@ -45,6 +45,26 @@ style:
   narr_size: 74
   aside_size: 66
   banner_size: 88
+
+scout:
+  # 원본 클립 자동 탐색. CC BY 영상만 자동 등록, 일반 영상은 허락 요청 후보 목록(state/candidates.md)만 만든다.
+  queries:
+    - satisfying cleaning
+    - weird beauty product
+    - makeup transformation
+    - life hack
+    - Japanese convenience store gadget
+    - restoration
+    - funny pet
+    - 신기한 물건
+    - 꿀팁
+    - 메이크업 변신
+  min_sec: 8
+  max_sec: 90
+  min_views: 50000
+  max_age_days: 365
+  permission_candidates: true
+  permission_queries: 4   # 일반 영상 검색에 쓸 검색어 수(검색 1번 = 할당량 100)
 
 upload:
   # YouTube Data API 업로드. 감사(audit) 안 받은 API 프로젝트는 '비공개'로만 올라간다(Google 공식 문서).
