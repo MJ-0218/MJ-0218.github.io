@@ -24,6 +24,40 @@ from shortsbot.common import INBOX, OUT, STATE, load_config, load_history, load_
 from shortsbot.render import render  # noqa: E402
 
 
+PLATFORM = {"instagram": "인스타그램", "tiktok": "틱톡", "youtube": "유튜브"}
+HOW = {"cc-by": "CC BY 라이선스에 따라 출처를 밝히고 사용했습니다.",
+       "permission": "원작자의 허락을 받고 사용했습니다.",
+       "licensed": "라이선스를 구매해 사용했습니다."}
+
+
+def platform_of(entry):
+    if entry.get("platform"):
+        return entry["platform"]
+    url = entry.get("url", "")
+    return next((k for k in PLATFORM if k in url or (k == "youtube" and "youtu" in url)), "")
+
+
+def credit_label(entry):
+    """영상 화면 아래쪽에 계속 띄우는 출처 한 줄."""
+    if not entry.get("credit"):
+        return ""
+    pl = PLATFORM.get(platform_of(entry), "")
+    return f"{entry['credit']} ({pl})" if pl else entry["credit"]
+
+
+def credit_block(entry):
+    """설명란 맨 아래 출처 묶음 — 원작자 계정, 계정 링크, 원본 링크, 사용 근거."""
+    if not entry.get("credit") or entry.get("license") == "own":
+        return ""
+    rows = ["", "", "──────────", "[출처]", f"원작자: {entry['credit']}" + (f" ({PLATFORM[platform_of(entry)]})" if platform_of(entry) else "")]
+    if entry.get("credit_url"):
+        rows.append(f"원작자 계정: {entry['credit_url']}")
+    if entry.get("url"):
+        rows.append(f"원본 영상: {entry['url']}")
+    rows.append(HOW.get(entry.get("license"), ""))
+    return "\n".join(r for r in rows if r is not None)
+
+
 def cmd_fetch(cfg):
     INBOX.mkdir(parents=True, exist_ok=True)
     for e in load_sources():
@@ -73,16 +107,12 @@ def cmd_make(cfg, limit, only=None):
                 print(f"실패 {cid}: 다양성 검사 통과 못 함 — {feedback}")
                 continue
             out = day / f"{cid}.mp4"
-            length = render(path, meta, script, cfg, out, credit=entry.get("credit", ""))
+            length = render(path, meta, script, cfg, out, credit=credit_label(entry))
             posters = STATE / "posters"
             posters.mkdir(parents=True, exist_ok=True)
             run(["ffmpeg", "-v", "error", "-ss", "1.5", "-i", str(out), "-frames:v", "1", "-vf", "scale=216:-2",
                  "-q:v", "5", "-y", str(posters / f"{cid}.jpg")])
-            desc = script.description.strip()
-            if entry.get("credit"):
-                how = {"cc-by": "CC BY", "permission": "원작자 허락", "licensed": "라이선스 구매"}.get(entry["license"], "")
-                desc += f"\n\n원본: {entry['credit']} {entry.get('url', '')} ({how})".replace("  ", " ")
-            desc += "\n\n" + " ".join(script.hashtags)
+            desc = script.description.strip() + "\n\n" + " ".join(script.hashtags) + credit_block(entry)
             item = {
                 "id": cid, "url": entry.get("url", ""), "file": str(out.relative_to(OUT.parent)), "length": round(length, 1),
                 "title": script.title, "description": desc, "hashtags": script.hashtags, "tags": script.tags,
@@ -144,7 +174,9 @@ def cmd_sync(db_path):
             add.append({
                 "id": (c['video_id'] if c.get('platform') else f"yt-{c['video_id']}"), "url": c["url"], "license": "permission",
                 "proof": f"대기판에서 사용자가 허가 확인 {a.get('at', '')}: {a.get('note', '')}".strip(),
-                "credit": c["channel"], "note": f"원제: {c['title']} / {c.get('desc', '')[:150]}".replace("\n", " "),
+                "credit": c["channel"], "platform": c.get("platform", "youtube"),
+                "credit_url": c.get("channel_url") or (f"https://www.youtube.com/channel/{c['channel_id']}" if c.get("channel_id") else ""),
+                "note": f"원제: {c['title']} / {c.get('desc', '')[:150]}".replace("\n", " "),
             })
         elif not a and c["video_id"] not in (db.get("reject") or {}):
             keep.append(c)

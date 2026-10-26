@@ -47,7 +47,7 @@ Style: Narr,{st['sub_font']},{st['narr_size']},{white},{white},{black},&H6400000
 Style: Aside,{st['sub_font']},{st['aside_size']},{white},{white},{black},{black},-1,0,0,0,100,100,0,0,1,6,0,5,80,80,0,1
 Style: Dlg,{st['sub_font']},{st['aside_size']},{white},{white},{black},{black},-1,0,0,0,100,100,0,0,1,6,0,5,70,70,0,1
 Style: Mark,Arial,20,{ass_color("FF2D2D")},{white},{ass_color("FF2D2D")},{black},0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
-Style: Credit,{st['sub_font']},34,{white},{white},{black},{black},0,0,0,0,100,100,0,0,1,2,0,3,40,40,60,1
+Style: Credit,{st['sub_font']},34,{white},{white},{black},{black},0,0,0,0,100,100,0,0,1,3,0,3,40,40,330,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -77,5 +77,5 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         y = ass_color("FFE14D")
         ev.append(f"Dialogue: 5,{ts(max(0, end - 1.6))},{ts(end)},Aside,,0,0,0,,{{\\c{y}\\pos(540,960)\\fad(120,0)}}{esc(ending)}")
     if credit:
-        ev.append(f"Dialogue: 2,{ts(0)},{ts(end)},Credit,,0,0,0,,출처 {esc(credit)}")
+        ev.append(f"Dialogue: 2,{ts(0)},{ts(end)},Credit,,0,0,0,,{{\\alpha&H20&}}영상 출처 {esc(credit)}")
     return head + "\n".join(ev) + "\n"

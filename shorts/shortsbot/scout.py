@@ -100,7 +100,8 @@ def scout(cfg, need):
             added.append({
                 "id": f"cc-{c['video_id']}", "url": c["url"], "license": "cc-by",
                 "proof": f"YouTube API status.license=creativeCommon ({today} 확인)",
-                "credit": c["channel"], "note": f"원제: {c['title']} / {c['desc'][:150]}".replace("\n", " "),
+                "credit": c["channel"], "platform": "youtube",
+                "credit_url": f"https://www.youtube.com/channel/{c['channel_id']}", "note": f"원제: {c['title']} / {c['desc'][:150]}".replace("\n", " "),
             })
             if len(added) >= need:
                 break
