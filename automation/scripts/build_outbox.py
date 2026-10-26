@@ -175,6 +175,9 @@ def main():
     slot = (now + timedelta(hours=1)).replace(minute=0, second=0, microsecond=0)
     cards = []
     keep_days = int(pub.get("outbox_days", 21))
+    # 이미 네이버·티스토리 둘 다 발행한 글은 이미지 미리보기(data URI)를 빼서 대기함 16MB 한도를 지킨다
+    pub_p = ROOT / "automation" / "state" / "published.json"
+    done = json.loads(pub_p.read_text(encoding="utf-8")) if pub_p.exists() else {}
     for md in sorted((ROOT / "_drafts").glob("*.md")):
         asof = fm_value(split_front_matter(md.read_text(encoding="utf-8"))[0], "info_as_of")
         try:
@@ -200,6 +203,11 @@ def main():
         if not urgent:
             while not (hours[0] <= slot.hour < hours[1]):
                 slot = (slot + timedelta(hours=1)).replace(minute=0)
+        if done.get(slug, {}).get("naver") and done.get(slug, {}).get("tistory"):
+            for r in (naver, tistory):
+                if r:
+                    r["images"] = []
+                    r["preview"] = re.sub(r'<img[^>]*src="#img\d+"[^>]*>', "", r["preview"])
         cards.append({
             "slug": slug, "category": fm_value(fm, "category"), "deadline": fm_value(fm, "deadline"),
             "trend": fm_value(fm, "trend") or fm_value(fm, "cycle"), "urgent": urgent,
@@ -236,6 +244,9 @@ def main():
         text = md.read_text(encoding="utf-8")
         urgent = is_urgent(fm, text)
         bs = sched.get(md.stem)
+        if bs or done.get(md.stem, {}).get("blogger"):
+            r["images"] = []  # Blogger 에 이미 올라간 글은 이미지 복사가 필요 없다
+            r["preview"] = re.sub(r'<img[^>]*src="#img\d+"[^>]*>', "", r["preview"])
         if not urgent and not bs:
             while not (uh[0] <= uslot.hour < uh[1]):
                 uslot = (uslot + timedelta(hours=1)).replace(minute=0)
