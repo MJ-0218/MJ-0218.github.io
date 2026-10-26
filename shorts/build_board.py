@@ -113,6 +113,7 @@ h2{font:600 16px/1.35 var(--body);margin:0 0 4px;text-wrap:balance}
 .actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
 a.dl{font:600 13px var(--body);color:var(--sky)}
 .score{font:500 12px var(--mono);color:var(--ink)}
+.plat{font:600 11px var(--body);padding:1px 6px;border:1px solid var(--sky);color:var(--sky)}
 .score i{font-style:normal;color:var(--line)}
 .why{color:var(--sub);font-size:13px}
 input[type=text]{flex:1 1 200px;min-width:0;border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:7px 9px;font:14px var(--body)}
@@ -147,7 +148,7 @@ function h(t,a,c){var e=document.createElement(t);for(var k in(a||{}))e.setAttri
 function toast(m){var t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){t.classList.remove('on')},1600)}
 function copy(txt,label,el){var done=function(){toast(label+' 복사됨')};
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){sel(el)})}else sel(el)}
-function sel(el){var r=document.createRange();el.style.whiteSpace='normal';r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);toast('선택됨 — 길게 눌러 복사')}
+function sel(el){el.hidden=false;var r=document.createRange();el.style.whiteSpace='normal';r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);toast('선택됨 — 길게 눌러 복사')}
 function uploaded(i){return i.done||!!ST.uploaded[i.id]}
 function save(col,id,val){
   if(!DB){toast('저장 안 됨 — 로그인한 화면에서 눌러 주세요');return Promise.reject()}
@@ -179,16 +180,22 @@ function upRow(i){
   a.appendChild(u);b.appendChild(a);r.appendChild(b);return r}
 
 function okRow(c){
-  var r=h('div',{class:'row',style:'--thumbw:150px'});
-  r.appendChild(c.thumb?h('img',{class:'thumb',src:c.thumb,alt:''}):h('div',{class:'thumb'}));
+  var r=h('div',{class:'row',style:c.thumb?'--thumbw:150px':'grid-template-columns:1fr'});
+  if(c.thumb)r.appendChild(h('img',{class:'thumb',src:c.thumb,alt:''}));
   var b=h('div');b.appendChild(h('h2',null,c.title));
   var tc=h('div',{class:'tc'});
+  var pl={instagram:'인스타',tiktok:'틱톡'}[c.platform]||'유튜브';
+  tc.appendChild(h('span',{class:'plat'},pl));
   tc.appendChild(h('span',null,c.channel));tc.appendChild(h('span',null,'조회 '+Number(c.views).toLocaleString('ko-KR')));
-  tc.appendChild(h('span',null,c.seconds+'초'));
+  if(c.multiple)tc.appendChild(h('span',null,'평소의 '+c.multiple+'배'));
+  if(c.seconds)tc.appendChild(h('span',null,c.seconds+'초'));
   if(c.score){var s=h('span',{class:'score',title:'소재 점수 '+c.score+'/5'});s.textContent='●'.repeat(c.score);var o=h('i',null,'●'.repeat(5-c.score));s.appendChild(o);tc.appendChild(s)}
   b.appendChild(tc);if(c.reason)b.appendChild(h('div',{class:'why'},c.reason));
   var a=h('div',{class:'actions'});
   a.appendChild(h('a',{class:'dl',href:c.url,target:'_blank',rel:'noopener'},'원본 보기 ↗'));
+  if(c.channel_url)a.appendChild(h('a',{class:'dl',href:c.channel_url,target:'_blank',rel:'noopener'},'계정 열기 ↗'));
+  if(c.dm){var dmv=h('span',{class:'v',hidden:''},c.dm);var dmb=h('button',{class:'btn',type:'button'},'요청 문구 복사');
+    dmb.onclick=function(){copy(c.dm,'요청 문구',dmv)};a.appendChild(dmb);a.appendChild(dmv)}
   var ap=ST.approve[c.video_id],rj=ST.reject[c.video_id];
   if(ap){a.appendChild(h('span',{class:'chip ok'},'허가됨 · 다음 제작 때 영상으로'));var un=h('button',{class:'btn no',type:'button'},'취소');
     un.onclick=function(){delete ST.approve[c.video_id];render();save('approve',c.video_id,null)};a.appendChild(un)}
@@ -211,7 +218,7 @@ function render(){
   document.querySelectorAll('#tabs button').forEach(function(b){b.setAttribute('aria-selected',b.dataset.t===tab)});
   var L=$('#list');L.textContent='';
   var hint={up:'복사 버튼으로 YouTube Studio에 붙여 넣고, 올렸으면 업로드함으로 표시하세요. 추천 시각은 경쟁 채널 업로드 시간대 기준이에요.',
-    ok:'원작자에게 사용 허락을 받은 영상만 허가하세요. 적은 내용은 권리 장부(sources.yml)에 남고, 허가한 영상은 다음 제작 때 만들어져요. 점수는 소재 가이드 기준이에요.',
+    ok:'계정 열기 → 요청 문구 복사 → DM 보내기. 허락 답장을 받은 영상만 허락 받은 곳·날짜를 적고 허가하세요. 적은 내용은 권리 장부(sources.yml)에 남고, 허가한 영상은 다음 제작 때 만들어져요. 점수는 인기작 50편 분석 기준이에요.',
     done:'업로드함으로 표시한 영상이에요.'}[tab];
   $('#hint').textContent=hint;
   var rows=tab==='up'?up.map(upRow):tab==='ok'?ok.map(okRow):done.map(upRow);

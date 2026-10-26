@@ -6,6 +6,7 @@
   python shorts/run.py make [--limit N]  # 클립 → 대본 → 음성 → 완성본 (out/)
   python shorts/run.py upload            # 완성본을 다음 업로드 시각에 예약
   python shorts/run.py daily             # scout + fetch + make(daily_count) + upload
+  python shorts/run.py social-import <f> # 인스타·틱톡 급상승 클립(vidIQ, 세션이 JSON 으로 옮김) → 허가 대기 후보
   python shorts/run.py sync <db.json>    # 대기판에서 누른 허가·거절·업로드함 반영
   python shorts/run.py release           # 완성본을 GitHub 릴리스에 올려 휴대폰에서 바로 받게
 """
@@ -141,7 +142,7 @@ def cmd_sync(db_path):
         a = (db.get("approve") or {}).get(c["video_id"])
         if a and c["url"] not in known:
             add.append({
-                "id": f"yt-{c['video_id']}", "url": c["url"], "license": "permission",
+                "id": (c['video_id'] if c.get('platform') else f"yt-{c['video_id']}"), "url": c["url"], "license": "permission",
                 "proof": f"대기판에서 사용자가 허가 확인 {a.get('at', '')}: {a.get('note', '')}".strip(),
                 "credit": c["channel"], "note": f"원제: {c['title']} / {c.get('desc', '')[:150]}".replace("\n", " "),
             })
@@ -218,7 +219,7 @@ def cmd_demo(cfg, template="story"):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily", "sync", "release"])
+    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily", "sync", "release", "social-import"])
     ap.add_argument("path", nargs="?")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--id")
@@ -239,6 +240,9 @@ def main():
         cmd_sync(a.path)
     elif a.cmd == "release":
         cmd_release()
+    elif a.cmd == "social-import":
+        from shortsbot.social import import_items
+        import_items(json.loads(Path(a.path).read_text(encoding="utf-8")))
     else:
         from shortsbot.scout import scout
         history = load_history()

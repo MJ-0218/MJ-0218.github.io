@@ -84,6 +84,19 @@ scout:
   permission_candidates: true
   permission_queries: 4   # 일반 영상 검색에 쓸 검색어 수(검색 1번 = 할당량 100)
 
+social:
+  # 인스타·틱톡 급상승 클립 탐색(vidIQ, 검색 1번 = 5크레딧). 매시간 세션이 하루 한 번 돈다.
+  # 신기+템 인기작 원본은 국내 인스타·틱톡 클립(학교 14 · 가족 5 · 알바·직장 2), 숏싹숏싹은 해외 패션·뷰티 꿀팁.
+  daily_queries:
+    - {q: "한국 고등학교 교실 학생들 웃긴 상황 선생님 반응", lang: ko, max_sec: 40, min_views: 300000}
+    - {q: "가족 일상 아빠 엄마 아이 웃긴 반응 실제 상황", lang: ko, max_sec: 40, min_views: 300000}
+    - {q: "알바생 손님 직장인 회사 웃긴 실제 상황 공감", lang: ko, max_sec: 40, min_views: 300000}
+    - {q: "fashion hacks women clothing tips before after transformation", lang: en, max_sec: 60, min_views: 1000000}
+    - {q: "beauty hack makeup trick problem solution", lang: en, max_sec: 60, min_views: 1000000}
+    - {q: "food rating trying Korean food reaction", lang: en, max_sec: 60, min_views: 1000000}
+  days_back: 60
+  per_platform: 10
+
 upload:
   # YouTube Data API 업로드. 감사(audit) 안 받은 API 프로젝트는 '비공개'로만 올라간다(Google 공식 문서).
   enabled: false   # 지금은 대기판에서 복사해 직접 업로드. API 감사 통과 후 true 로 바꾸면 자동 예약
