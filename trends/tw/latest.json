@@ -1,34 +1,61 @@
 {
- "generated_at": "2026-10-27T12:47:51.870292+09:00",
+ "generated_at": "2026-10-27T13:46:53.775168+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (7)",
-  "evidence": "ok (저장 24, 실패 4)"
+  "evidence": "ok (저장 21, 실패 6)"
  },
  "compared_runs": 3,
  "spikes": [
-  "中選會",
-  "nuggets vs warriors",
-  "雅克塞爾·倫德伯格",
-  "布蘭登·伍德拉夫",
-  "腦",
-  "德文·布克",
-  "台南市長候選人"
+  "東北 季風",
+  "勇士",
+  "軍公教",
+  "yaxel lendeborg",
+  "電動汽車",
+  "游淑貞",
+  "柳淑芳",
+  "德瑪爾·德羅展",
+  "選舉日",
+  "黄仁勋"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "東北 季風",
+   "traffic": 20000,
+   "published": "2026-10-27T12:50:00+09:00",
+   "category": "기타",
+   "news": [],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 69.0,
+   "already_covered": false,
+   "evidence": []
+  },
   {
    "source": "google_news",
    "keyword": "颱風",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 18,
-   "published": "2026-10-27T10:48:34+09:00",
+   "article_count_1h": 13,
+   "published": "2026-10-27T11:40:22+09:00",
    "category": "Living",
    "news": [
+    {
+     "title": "煙花颱風將轉強颱！「3波東北季風」接力殺到 雨彈最猛區域曝光 - Yahoo新聞",
+     "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxPeG12UnNXcDZEYVVETUlRQm02R1czT183QmlGTS1saS1RbGZoem1vclp1bmFVdXJ6NlRFMnhUQnRpVzBFb1lGZVk5RWhZTUQwWF9BR3BiblE4S1o0b2k1QTJLOU1zLXpsTUZJM2p0YS1rVGRQOURaMUtJSHRvLU5sV1hjRjRLRHFSRGJOZWM0R05WaEVWUW5WenNKT2xnRDgwMWxuLUpPVW4wUXVnUDFaRDhlaDEzMVJkb2xvM1pxeS1QcEpDVE1vd2diNFpxVlpjM3d0OXJvSV9feWdzQXlZTWlOQWUwX2lJaEx0NTktaF9fN28zUXd1LWtJNU5kdW5JLUptNFZqeXB0T1BLcUhjdjN6YUpidUtMMFRycGNabnhMZ0g1eFg3dzQtclRodmhzS0N0MjhDcUFxWnVSb004UDdWTlpuTW9Ua2lpd2QzVWZKdWZQNUx0UjhqVFk3b0YyQ1p5RVMxaFgxUUJHdlE3aGxjWjZJNVh2SWtrWHRtNlgySGZD?oc=5",
+     "source": "Yahoo新聞"
+    },
     {
      "title": "煙花將成為連續第5個強颱 專家：今年不僅颱風多產 強度也都很強 - UDN",
      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1HODJ0Mm5SRWhLSlhHZVlXQmIzN1hNSzhGbmFyZVVmMjRaX3UzX3hURmZMVXh3MVgySXd2RGM1Q0RlMlpob09vT0dpVXFKczV30gFWQVVfeXFMTTFJZ2Vtb1RFY0twYmNvU0dUa0hGWWMwakZFc3pQRmczU1ZCN2dTdVBiMHctclBVUXNXZGRNRVVuQWtIbjZTSWViamhkdXYyeGFQY3RYWGc?oc=5",
      "source": "UDN"
+    },
+    {
+     "title": "薔琵颱風遠離「東北季風接手」！今起2冷空氣接力報到北東轉雨| 生活 - Newtalk新聞",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00bXNyblYxS2NOZ0luMEVfcFctUjdrdEhya05RSUJvZzVCZzBUc1N4ZEtXWnVlajlYekJKbkZDbUpVcmswYjdrRzlEVzN3allqV2pSUUtwS09tZ0U?oc=5",
+     "source": "Newtalk新聞"
     },
     {
      "title": "薔琵颱風威脅未除仍不容小覷！高虹安市長主持第二次工作會議 要求防災應變不鬆懈 - 中央社 CNA",
@@ -36,19 +63,9 @@
      "source": "中央社 CNA"
     },
     {
-     "title": "「煙花」颱風眼現形！今恐升強颱 颱風論壇曝路徑 - 自由時報",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PSWluUTNfcFFGTktscWpfV1hlQlU0NUJIUnpRR3d5a2JmRG5nN20ybFNEUWUyLS12ZWpVOHNCdV9zUEhORWVNbzl6S3ZXVndlU3R4b0Jnc09rTS1Hc1ZqLWJZS0_SAWpBVV95cUxOTHNXdTlsNjNpTTlMNkpYX0trdVBpMDRLUGNpQzBSVGUtbU5kd1pWUEZ1Tm1iY0prWHlRTV9xTEZ0V1FTMU1pY09PcG1sNnJ4RlIwbkEwdVNOSTUtREthYk1DdGg3V0hTcG5n?oc=5",
-     "source": "自由時報"
-    },
-    {
-     "title": "天氣／煙花今升強颱！最新路徑「大迴轉」 颱風眼逐漸顯現 - TVBS新聞網",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xT3BtdTRmRVRmWU5QeGxaZGlmc0U4R0FQWlNwS29qemNRMlZPN240UzJRcDVuQ2pvV2RIdVhwbm9LUjhfRTA5Y3MyTUI4Zw?oc=5",
-     "source": "TVBS新聞網"
-    },
-    {
-     "title": "煙花颱風將轉強颱！「3波東北季風」接力殺到 雨彈最猛區域曝光 - Yahoo新聞",
-     "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxPeG12UnNXcDZEYVVETUlRQm02R1czT183QmlGTS1saS1RbGZoem1vclp1bmFVdXJ6NlRFMnhUQnRpVzBFb1lGZVk5RWhZTUQwWF9BR3BiblE4S1o0b2k1QTJLOU1zLXpsTUZJM2p0YS1rVGRQOURaMUtJSHRvLU5sV1hjRjRLRHFSRGJOZWM0R05WaEVWUW5WenNKT2xnRDgwMWxuLUpPVW4wUXVnUDFaRDhlaDEzMVJkb2xvM1pxeS1QcEpDVE1vd2diNFpxVlpjM3d0OXJvSV9feWdzQXlZTWlOQWUwX2lJaEx0NTktaF9fN28zUXd1LWtJNU5kdW5JLUptNFZqeXB0T1BLcUhjdjN6YUpidUtMMFRycGNabnhMZ0g1eFg3dzQtclRodmhzS0N0MjhDcUFxWnVSb004UDdWTlpuTW9Ua2lpd2QzVWZKdWZQNUx0UjhqVFk3b0YyQ1p5RVMxaFgxUUJHdlE3aGxjWjZJNVh2SWtrWHRtNlgySGZD?oc=5",
-     "source": "Yahoo新聞"
+     "title": "專家曝本周天氣變化　煙花颱風大迴轉真相解密 - 三立新聞",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9CbVRDS0VNdFpyTXBnaWMxelM0RWdXaHg3NDFZc2JtWFp6cUJTMzNNcjhpOVM1aFotZ1l0M2o3TDRUekJfdTBKM9IBTEFVX3lxTE5MMXB3cjVGejV5U2pGWU1QdVVIUTB0OWcydDRSSUoxbkptdzEwWl9XZXNiTllZT1A1Z1RPQ01teXUwSFB0d0VaVE80dDM?oc=5",
+     "source": "三立新聞"
     }
    ],
    "official": false,
@@ -56,85 +73,24 @@
    "already_covered": true,
    "evidence": [
     {
+     "url": "https://tw.news.yahoo.com/%E7%85%99%E8%8A%B1%E9%A2%B1%E9%A2%A8%E5%B0%87%E8%BD%89%E5%BC%B7%E9%A2%B1-3%E6%B3%A2%E6%9D%B1%E5%8C%97%E5%AD%A3%E9%A2%A8-%E6%8E%A5%E5%8A%9B%E6%AE%BA%E5%88%B0-%E9%9B%A8%E5%BD%88%E6%9C%80%E7%8C%9B%E5%8D%80%E5%9F%9F%E6%9B%9D%E5%85%89-023600908.html",
+     "title": "煙花颱風將轉強颱！「3波東北季風」接力殺到 雨彈最猛區域曝光 - Yahoo新聞",
+     "outlet": "Yahoo新聞"
+    },
+    {
      "url": "https://udn.com/news/story/7266/9838910",
      "title": "煙花將成為連續第5個強颱 專家：今年不僅颱風多產 強度也都很強 - UDN",
      "outlet": "UDN"
     },
     {
+     "url": "https://newtalk.tw/news/view/2026-10-27/1067621",
+     "title": "薔琵颱風遠離「東北季風接手」！今起2冷空氣接力報到北東轉雨| 生活 - Newtalk新聞",
+     "outlet": "Newtalk新聞"
+    },
+    {
      "url": "https://www.cna.com.tw/postwrite/chi/447931",
      "title": "薔琵颱風威脅未除仍不容小覷！高虹安市長主持第二次工作會議 要求防災應變不鬆懈 - 中央社 CNA",
      "outlet": "中央社 CNA"
-    },
-    {
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5619686",
-     "title": "「煙花」颱風眼現形！今恐升強颱 颱風論壇曝路徑 - 自由時報",
-     "outlet": "自由時報"
-    },
-    {
-     "url": "https://news.tvbs.com.tw/life/4041725",
-     "title": "天氣／煙花今升強颱！最新路徑「大迴轉」 颱風眼逐漸顯現 - TVBS新聞網",
-     "outlet": "TVBS新聞網"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "韓劇",
-   "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 2,
-   "published": "2026-10-26T19:19:55+09:00",
-   "category": "K-Culture",
-   "news": [
-    {
-     "title": "【10月韓劇推薦】12部海量新劇：Netflix《Doctor X》金智媛回歸、金裕貞《百日謊言》、Disney+柳演錫《謊言》 - Yahoo新聞",
-     "url": "https://news.google.com/rss/articles/CBMi1wVBVV95cUxOUXdaMHpJN0tmUWVFenZfRlhBTzQ4bndLQ01PYXRuaHVEeDNCT1M2SjhFWkJCSDd6TU1rVEFYV2NNbWdTdFRhMHQ1TE4yWWFYTFhuTlNPalY0NGxKOU91YjhYbk9ycVdHUnR4amNTWklhaG82clVLVFBuTklaMS1KSEo5WHlndlhySVdSWjNTMkhGa0w1NjJUazFnMldGcW0tV2hTU2FWY3EzQVBNRzdHaEM1U3dJZWhhUGJUbXFndkxmcnR0OXFyeEVpSHRZb3lONE1IY3VLczYwa3gxQTZhRGJmSl9lUEthOFhVVTZDZ1JxTTVWR2NNNUFtSTVXR3Jvd2diMWkwbzk0RGltOTFQNUI0S3NpNjl3NHRnb2xYVDZNcWZVSGo4M2I3dWpfakFmcXc5N05lelJjYTU3Yy1XTnFwZFlsTlBmMzB3c0lweGlEUF90d190cVB4N3cyYzg3Y3pjTnprWjNodXJZYjUtdXRBNjZIVGlrR0tIdXpCZGtqUzl5M0VDMEN2TV84X09vQ1NlRmNGTmZPUDdjSjA4WGlPaVI3WkJWWVhibUh2UDRHNDFRU256ZVgyMENuNFJCeDRIbzdQNWJFSVk4b2g0LTR4YjQwbTlWQlQwYUY3dEhQaFFIN1Qxd3MyMWd3MHAzZHhTVUoyLWhxWS1KRHVnOGJkVlZyR2R5elI3X2RkYnRMYXZFTUFqaHY2cE5sVDR1a0xwR0FtTTZ0TXRIak1aWWZ4dTh3R1JoR2pLTnN0LVpoRzZJMmV2WGVVTWhSb0Fld0xoc2oyV09hcHRsNWFWN0F6MEdvcGlQeXNmRjBRSjh1clRSUWlXNENsa3dUVnBsNmdjV1JfUUM4RnZEaTFXb2stWTRLT014RG9pY2RlZTNfazhVdVJtanJwQTl1LUkyQ3BPT2N6SXB5elAzNlB3bU5MY3pXTHFLakt4a2hYdk5CQ3h5UDBJ?oc=5",
-     "source": "Yahoo新聞"
-    },
-    {
-     "title": "2026愛情韓劇IMDb評分TOP10！《百日謊言》第二，IU《21世紀大君夫人》 第七，冠軍是它 - BEAUTY美人圈",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5QUmctMEtfRUZDcTdPd1FCYUp4eGxwVDZwdTgtbU13QzA1WXlWZEUxQlVDZ3l2UVhYbVVISTFiQVJmWEFHM3B0WmdYT2jSAVJBVV95cUxNd3cwYnUxajlmN1N1YnJJNjZxcW9BSmg1OEFvbEJRRnBoSThhTVRqNEJlaE5wcFplYWIxX1NTcFIxdUFUUFZRbFNCSmx1cVZMcVRR?oc=5",
-     "source": "BEAUTY美人圈"
-    },
-    {
-     "title": "STORYTACO × SHOWBOX聯手製作 《救命！我被困在狗血韓劇裡了！》Steam商店頁面正式公開 李侑菲等豪華陣容吸睛 - Paradaily",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdXRFR1NxYXlqZnV2MGRtRDJLMUxTUGlZY2p5SnB3WGp4Z1Q1VUNoUFp2c1pyQW05RkNFdDJQTVlFTkJSeHBPM2JlUVhmbmJncmlMUE53U2gwVzJLb2pXTDZoV3JIMGVDal95dkZLczc2RHN0VDBXcnN0azF0TURRUjVBNkg?oc=5",
-     "source": "Paradaily"
-    },
-    {
-     "title": "《救命！我被困在狗血韓劇裡了！》Steam 商店頁上線！李侑菲領銜演出，12 月推出 Demo - 三嘻行動哇 Yipee!",
-     "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQcGdzU0lSWmo2ak0yYmVxbm56ZkQ4alhiT2JjWVE5Z2FGV2ZCNWVDQlJuX2M2c08tN0tSZGlxSUxFVmtaazM5dnl5dld0cU5VMDhZTmpmcUFrXzhZNV9ETVE5WFZxWXBJSURCZDUxMm1MWHVvYVhiUlFaaW5qNDNOMUoydklhUWdJNEZydGhQWVpfanlvaXVxQUg0YWFtMmtjdkZsc0gwcFl6aGFRVEdZd3BxOEN0a2VNTHdRMWMwMEdfTUhhQ29COFRQQ3NjNEhjZ09ycWNJY2JHdjY3S21GNG4xNW5JSlk2R2dLaVF0dUFkSmVxbHJ6YnhmMHE0NU9wNXJUanptZkVOTW53bDliR1RNZXZ2QXVMUE5laHVDMnNIc0U5VzZIeHlDQnhmLWlua2ZoMG4xTjBtSHVYYkRZNXRrVlRxdw?oc=5",
-     "source": "三嘻行動哇 Yipee!"
-    },
-    {
-     "title": "絕境反殺！9部「底層女黑化逆襲」陸韓劇推薦，《蘭香如故》怒甩夫巴掌、《安娜》逆襲上流圈 - Bella.tw儂儂",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMDdpQ2FDNEw0b0tYWWtSVDliQVVLUzlrWWFudmNkYWNaSVQyR1lNQkx4LXFDR2tuR0d3X1A2SjFjc19hTmMzaWlmTThhWjNXbHZuMUlOdDdUNFpoY2pxQy1rd1ZoQmNsSGlpb0ZvMUpUdmZ1bVZ0MXVzNVFwdTZSTTBTT1h3elRIdC1tNlp1ejY5Zw?oc=5",
-     "source": "Bella.tw儂儂"
-    }
-   ],
-   "official": false,
-   "score": 16.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://tw.news.yahoo.com/%E3%80%9010%E6%9C%88%E9%9F%93%E5%8A%87%E6%8E%A8%E8%96%A6%E3%80%9112%E9%83%A8%E6%B5%B7%E9%87%8F%E6%96%B0%E5%8A%87%EF%BC%9A%E6%9F%B3%E6%BC%94%E9%8C%AB%E4%BA%8C%E6%90%AD%E5%BE%90%E7%8E%84%E6%8C%AF%E3%80%8A%E8%AC%8A%E8%A8%80%E3%80%8B%E3%80%81%E9%87%91%E6%99%BA%E5%AA%9B%E3%80%8Adoctor-x%E3%80%8B%E5%9B%9E%E6%AD%B8%E3%80%81%E3%80%8A%E6%88%91%E7%9A%84%E6%9C%89%E7%BD%AA%E4%B9%8B%E4%BA%BA%E3%80%8B%E4%BB%BB%E6%99%82%E5%AE%8Cx%E8%96%9B%E4%BB%81%E9%9B%85%E3%80%8C%E5%81%BDbl%E6%88%80%E3%80%8D-023100324.html",
-     "title": "【10月韓劇推薦】12部海量新劇：Netflix《Doctor X》金智媛回歸、金裕貞《百日謊言》、Disney+柳演錫《謊言》 - Yahoo新聞",
-     "outlet": "Yahoo新聞"
-    },
-    {
-     "url": "https://www.beauty321.com/post/73525",
-     "title": "2026愛情韓劇IMDb評分TOP10！《百日謊言》第二，IU《21世紀大君夫人》 第七，冠軍是它 - BEAUTY美人圈",
-     "outlet": "BEAUTY美人圈"
-    },
-    {
-     "url": "https://news.para-daily.com/2026/10/27/storytaco-showboxwhat-the-k-drama-1027/",
-     "title": "STORYTACO × SHOWBOX聯手製作 《救命！我被困在狗血韓劇裡了！》Steam商店頁面正式公開 李侑菲等豪華陣容吸睛 - Paradaily",
-     "outlet": "Paradaily"
-    },
-    {
-     "url": "https://3c.yipee.cc/357351/%E3%80%8A%E6%95%91%E5%91%BD%EF%BC%81%E6%88%91%E8%A2%AB%E5%9B%B0%E5%9C%A8%E7%8B%97%E8%A1%80%E9%9F%93%E5%8A%87%E8%A3%A1%E4%BA%86%EF%BC%81%E3%80%8Bsteam-%E5%95%86%E5%BA%97%E9%A0%81%E4%B8%8A%E7%B7%9A/",
-     "title": "《救命！我被困在狗血韓劇裡了！》Steam 商店頁上線！李侑菲領銜演出，12 月推出 Demo - 三嘻行動哇 Yipee!",
-     "outlet": "三嘻行動哇 Yipee!"
     }
    ]
   },
@@ -143,7 +99,7 @@
    "keyword": "K-pop",
    "traffic": 0,
    "article_count_24h": 34,
-   "article_count_1h": 2,
+   "article_count_1h": 6,
    "published": "2026-10-26T19:52:00+09:00",
    "category": "K-Culture",
    "news": [
@@ -158,6 +114,11 @@
      "source": "Yahoo新聞"
     },
     {
+     "title": "韓流盛事MMA 2026無時差連2天登場！aespa、IVE、NCT引爆舞台CATCHPLAY TV獨家正版直播 - TVBS新聞網",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5SQk9wVFJtZlVhWVQ3bEpHZlNhQlExalRHaVI0azJ5b2NjSTJRd2s4SE9XNFltS1RseFVuTXBQWEdCUTVNcHZWeFZWclpDUFNDNHFOaUkydTdTZS1zcnMtTzdRbw?oc=5",
+     "source": "TVBS新聞網"
+    },
+    {
      "title": "Sony 公鏈 Soneium 宣布發幣，K-pop 演唱會收益將代幣化 - 鏈新聞 ABMedia",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Fb3Q3Z3JQejlBTHl3YzZoWXpQaTM0VWJoU0NTOU5rZDd1S0hSZW5JMXFUcmNuR2lNQTJsd2M4YkRKVGZUbG8xQmEyclJpZ3lXZGhSTGFVbjF5dw?oc=5",
      "source": "鏈新聞 ABMedia"
@@ -166,15 +127,10 @@
      "title": "曾被視為「K-pop墳場」：BIGBANG河內演唱會8萬張票10分鐘搶光 - 商傳媒 - SUN MEDIA",
      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPLTNETEFVUWxpVERvb1dRZWNyWGkyRG03akJjR3FkT2RYZGRycDNuX0FMVEdldGpYNFhiRTdvZ3FOZ3FhWWFmMG45MjFFV0NDZXp3VW9RMUVhN05LTXQyTXlPMXpVLWRrT2RsX1BKV2ZBbDhQTzY0Y3hqZ09RYXpBcjZDQ3RDdWJSYXJEWUQxZThqdE5wbWNCNV9FUTc0Z096ckM0SzdoOEVkRy05ODlQZURnSU9ZZ2k1ZnF5RFNoM0swenppeVM3eVBCekpuQ3BkdHVpYnFNR3B5aHJiS0FuV2h6dE1ILXYzdWVXQktzR2JMWDVRZjZtTy11Sm9GM253RnlSX2d4ZE81dUY5aWQ0bG9NZ3Y3OEZkNWRRd1RRUkdMMnF3eUlqUmVnVlcwd1hnVkp0cFFRSEhGR2g4V2JBSTBpdDZlTGZob1Y1Qkh6RVRmR3pWZlh5eWRtRXpwTG9waXF0M2dHdw?oc=5",
      "source": "商傳媒 - SUN MEDIA"
-    },
-    {
-     "title": "宋江驚喜出演 ILLIT 新歌 MV！化身神祕人物掀最後反轉，粉絲瘋狂：逮捕那個帥到爆炸的傢伙!! - KSD 韓星網",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBCa3c4MEJLQmFBWHJJSjVzWmQ0VzFydzItTUR6SEI2cVhhbHN6VG9ZSE9yLWFJVGFGMEJySXFqR2c3Sm5KN2pmMzM5b0FyQko5ekw1OVZhRlfSAVdBVV95cUxPM3JsZkRVNXVJZ2VXVE1CQ3U4UUZhMFAwQkxFZFBKM0VPTDlaOVpBRExvUjlkSHotbV84emtWV3d0OXJScnQ1RW9McU1TczVYTC1IQjN0ZG8?oc=5",
-     "source": "KSD 韓星網"
     }
    ],
    "official": false,
-   "score": 16.0,
+   "score": 21.0,
    "already_covered": false,
    "evidence": [
     {
@@ -188,134 +144,205 @@
      "outlet": "Yahoo新聞"
     },
     {
+     "url": "https://news.tvbs.com.tw/entertainment/jk-pop/4041885",
+     "title": "韓流盛事MMA 2026無時差連2天登場！aespa、IVE、NCT引爆舞台CATCHPLAY TV獨家正版直播 - TVBS新聞網",
+     "outlet": "TVBS新聞網"
+    },
+    {
      "url": "https://sunmedia.tw/news/finance/1792968164-%E6%9B%BE%E8%A2%AB%E8%A6%96%E7%82%BA%E3%80%8CK-pop%E5%A2%B3%E5%A0%B4%E3%80%8D%EF%BC%9ABIGBANG%E6%B2%B3%E5%85%A7%E6%BC%94%E5%94%B1%E6%9C%838%E8%90%AC%E5%BC%B5%E7%A5%A810%E5%88%86%E9%90%98%E6%90%B6%E5%85%89",
      "title": "曾被視為「K-pop墳場」：BIGBANG河內演唱會8萬張票10分鐘搶光 - 商傳媒 - SUN MEDIA",
      "outlet": "商傳媒 - SUN MEDIA"
-    },
-    {
-     "url": "https://www.koreastardaily.com/tc/news/164423",
-     "title": "宋江驚喜出演 ILLIT 新歌 MV！化身神祕人物掀最後反轉，粉絲瘋狂：逮捕那個帥到爆炸的傢伙!! - KSD 韓星網",
-     "outlet": "KSD 韓星網"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "中選會",
-   "traffic": 200,
-   "published": "2026-10-27T11:30:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "검색량 100→200",
-   "spike_bonus": 20,
-   "score": 12.6,
-   "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "google_trends",
-   "keyword": "nuggets vs warriors",
-   "traffic": 200,
-   "published": "2026-10-27T11:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Final Injury Report for Warriors-Nuggets: Will Stephen Curry, Cameron Johnson Play?",
-     "url": "https://sports.yahoo.com/articles/final-injury-report-warriors-nuggets-220000318.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "[NBA Network]hERE'S*!] Nuggets vs Warriors 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍｓ Football ＯＮ Ｔｖ Ｃｈａｎｎｅｌ",
-     "url": "https://www.nychealthandhospitals.org/gouverneur-virtual-tour/index.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL3dhdGNoLW9ubGluZS5saXZlL3ZpZGVvL3p6enMueG1sIi8+PC9rcnBhbm8+&id=nbalivetvse020",
-     "source": "NYC Health + Hospitals"
-    },
-    {
-     "title": "Game Thread: Denver Nuggets vs Golden State Warriors. October 26th, 2026.",
-     "url": "https://www.denverstiffs.com/game-thread-denver-nuggets-vs-golden-state-warriors-october-26th-2026/",
-     "source": "Denver Stiffs"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 100→200",
-   "spike_bonus": 20,
-   "score": 12.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/final-injury-report-warriors-nuggets-220000318.html",
-     "title": "Final Injury Report for Warriors-Nuggets: Will Stephen Curry, Cameron Johnson Play?",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://www.nychealthandhospitals.org/7f7c01e221604f25/?ssa=28893403-097c-4376-9225-839604c85ec8&ssb=34163264924&ssc=https%3A%2F%2Fwww.nychealthandhospitals.org%2Fgouverneur-virtual-tour%2Findex.html%3F%26xml%3Ddata%3Avideo%2Fmp4%3Bbase64%2CPGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL3dhdGNoLW9ubGluZS5saXZlL3ZpZGVvL3p6enMueG1sIi8%2BPC9rcnBhbm8%2B%26id%3Dnbalivetvse020&ssi=a58c62cb-c6hb-4afb-8608-15f2273d8c4c&ssk=botmanager_support@radware.com&ssm=92129556972533420103513980922041&ssn=2584870cbc191c610f3c964c74f9371892685282135f-54ce-461e-82d981&sso=32e43a37-56899dc1bb5d6e4c348413b058602b50105a0e0f59b0aabb&ssp=82130515791793088285179300647479013&ssq=07693047290382239772272903743721044435505&ssr=NTIuMTkwLjEzOC4zOQ==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/124%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA1MjgyMTM1Zi01NGNlLTQ2MWUtOGEzNy01Njg5OWRjMWJiNWQxLTE3OTMwNzI5MDM1NTYwLTAwNWNkZDFmMjBlZmQ5Y2I2YjYxMCIsImNkb20iOiJodHRwczovL3d3dy5ueWNoZWFsdGhhbmRob3NwaXRhbHMub3JnIiwicmQiOiJueWNoZWFsdGhhbmRob3NwaXRhbHMub3JnIiwidXpteCI6IjdmYzAwMDM0NjkzMGQyLWFkODctNGU2Ny1hZjNhLTlkNmIxYWEyNDJmYjEtMTc5MzA3MjkwMzU1NjAtMDBiNTY1NGY5OTYxZWQ3MDAwZTEwIn0=",
-     "title": "[NBA Network]hERE'S*!] Nuggets vs Warriors 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍｓ Football ＯＮ Ｔｖ Ｃｈａｎｎｅｌ",
-     "outlet": "NYC Health + Hospitals"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "蝦皮 雙11",
+   "keyword": "韓劇",
    "traffic": 0,
-   "article_count_24h": 3,
+   "article_count_24h": 26,
    "article_count_1h": 3,
-   "published": "2026-10-27T12:43:00+09:00",
-   "category": "Deals",
+   "published": "2026-10-26T19:19:55+09:00",
+   "category": "K-Culture",
    "news": [
     {
-     "title": "2026雙11電商優惠懶人包》蝦皮momo折扣碼、必買商品與搶券整理 - TVBS新聞網",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ocmp5MlJTUHFCT2RUSTJOeFJiZzZZODZqeTd5R1hDSXNNM2tfMW5UTzdTY0ZDY0JLNzVGaTcwaGZFbHg5WG1jMTNiV1BIUQ?oc=5",
-     "source": "TVBS新聞網"
+     "title": "【10月韓劇推薦】12部海量新劇：Netflix《Doctor X》金智媛回歸、金裕貞《百日謊言》、Disney+柳演錫《謊言》 - Yahoo新聞",
+     "url": "https://news.google.com/rss/articles/CBMi1wVBVV95cUxOUXdaMHpJN0tmUWVFenZfRlhBTzQ4bndLQ01PYXRuaHVEeDNCT1M2SjhFWkJCSDd6TU1rVEFYV2NNbWdTdFRhMHQ1TE4yWWFYTFhuTlNPalY0NGxKOU91YjhYbk9ycVdHUnR4amNTWklhaG82clVLVFBuTklaMS1KSEo5WHlndlhySVdSWjNTMkhGa0w1NjJUazFnMldGcW0tV2hTU2FWY3EzQVBNRzdHaEM1U3dJZWhhUGJUbXFndkxmcnR0OXFyeEVpSHRZb3lONE1IY3VLczYwa3gxQTZhRGJmSl9lUEthOFhVVTZDZ1JxTTVWR2NNNUFtSTVXR3Jvd2diMWkwbzk0RGltOTFQNUI0S3NpNjl3NHRnb2xYVDZNcWZVSGo4M2I3dWpfakFmcXc5N05lelJjYTU3Yy1XTnFwZFlsTlBmMzB3c0lweGlEUF90d190cVB4N3cyYzg3Y3pjTnprWjNodXJZYjUtdXRBNjZIVGlrR0tIdXpCZGtqUzl5M0VDMEN2TV84X09vQ1NlRmNGTmZPUDdjSjA4WGlPaVI3WkJWWVhibUh2UDRHNDFRU256ZVgyMENuNFJCeDRIbzdQNWJFSVk4b2g0LTR4YjQwbTlWQlQwYUY3dEhQaFFIN1Qxd3MyMWd3MHAzZHhTVUoyLWhxWS1KRHVnOGJkVlZyR2R5elI3X2RkYnRMYXZFTUFqaHY2cE5sVDR1a0xwR0FtTTZ0TXRIak1aWWZ4dTh3R1JoR2pLTnN0LVpoRzZJMmV2WGVVTWhSb0Fld0xoc2oyV09hcHRsNWFWN0F6MEdvcGlQeXNmRjBRSjh1clRSUWlXNENsa3dUVnBsNmdjV1JfUUM4RnZEaTFXb2stWTRLT014RG9pY2RlZTNfazhVdVJtanJwQTl1LUkyQ3BPT2N6SXB5elAzNlB3bU5MY3pXTHFLakt4a2hYdk5CQ3h5UDBJ?oc=5",
+     "source": "Yahoo新聞"
     },
     {
-     "title": "蝦皮購物攜手長榮航空 打造雙11熱銷購物季 - UDN",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGMVVNSGlDMHdhYmRVXzZQcnRyYmJxUmp1bnFveV8yTzlGX2FrYnRpQjJnN3BkMGV0dTZuT2RLdjF5UHI2RW5sYVRmQURKSjZZ0gFWQVVfeXFMTzFzd01IaVptUXhqdTl0MUxvQ2N2bzNHVURaZTdITHItd2VxTEFoWXh3Qk9UTmIzTWROZ3diOThaNGJ1d2hNR0VtNHZwXzRjaWxzV1lBaHc?oc=5",
-     "source": "UDN"
+     "title": "鄭容和回歸韓劇！《不著邊際的你》睽違9年再演浪漫喜劇，搭檔洪承希上演歡喜冤家，5大亮點一次看 - ELLE",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOEdLbEMyM1VpanlWbFdkaUQ3QXlLcXRiTF9YZm9jRUdtZ3VtZXAwa0ZTWm56VVVWblYxZnZvRXoxQmk2bFBiNktVWjdESFRCVEVtUHEwRWkwNHp5VERaYVE3WkRad1Vrb2dIaEU3QzJqMnkwaHNpekFDbmZxdVNGWXcyeFNLNVl1VkNNMXRsRllaUQ?oc=5",
+     "source": "ELLE"
     },
     {
-     "title": "蝦皮購物攜手長榮航空 打造雙11熱銷購物季 - 聚財網",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Ga3FpcW9IajAwZjVUQnBCU1h1YnhNblhfQWpyU3Q2MUtPZ3V5VXRSY2hQUFNmN1AtRkJuUUlaTi1IbVJtdmNVRzh5aHk?oc=5",
-     "source": "聚財網"
+     "title": "2026愛情韓劇IMDb評分TOP10！《百日謊言》第二，IU《21世紀大君夫人》 第七，冠軍是它 - BEAUTY美人圈",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5QUmctMEtfRUZDcTdPd1FCYUp4eGxwVDZwdTgtbU13QzA1WXlWZEUxQlVDZ3l2UVhYbVVISTFiQVJmWEFHM3B0WmdYT2jSAVJBVV95cUxNd3cwYnUxajlmN1N1YnJJNjZxcW9BSmg1OEFvbEJRRnBoSThhTVRqNEJlaE5wcFplYWIxX1NTcFIxdUFUUFZRbFNCSmx1cVZMcVRR?oc=5",
+     "source": "BEAUTY美人圈"
+    },
+    {
+     "title": "STORYTACO × SHOWBOX聯手製作 《救命！我被困在狗血韓劇裡了！》Steam商店頁面正式公開 李侑菲等豪華陣容吸睛 - Paradaily",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdXRFR1NxYXlqZnV2MGRtRDJLMUxTUGlZY2p5SnB3WGp4Z1Q1VUNoUFp2c1pyQW05RkNFdDJQTVlFTkJSeHBPM2JlUVhmbmJncmlMUE53U2gwVzJLb2pXTDZoV3JIMGVDal95dkZLczc2RHN0VDBXcnN0azF0TURRUjVBNkg?oc=5",
+     "source": "Paradaily"
+    },
+    {
+     "title": "安孝燮韓劇《最後一桌》10大看點！黑白廚師電視劇版 - 造咖",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TbVlwUzhIM0RqNi1wbEQtbGxocWZlR0hUaHhmdTM2TUJyMjNwMnhhZ2FtMk9HTWpQeXpTbjZhT2ZSVVhsUnV0THRIcE1xeEZQeWJFRmhNTXA?oc=5",
+     "source": "造咖"
     }
    ],
    "official": false,
-   "score": 12.6,
+   "score": 17.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://news.tvbs.com.tw/life/4041849",
-     "title": "2026雙11電商優惠懶人包》蝦皮momo折扣碼、必買商品與搶券整理 - TVBS新聞網",
-     "outlet": "TVBS新聞網"
+     "url": "https://tw.news.yahoo.com/%E3%80%9010%E6%9C%88%E9%9F%93%E5%8A%87%E6%8E%A8%E8%96%A6%E3%80%9112%E9%83%A8%E6%B5%B7%E9%87%8F%E6%96%B0%E5%8A%87%EF%BC%9A%E6%9F%B3%E6%BC%94%E9%8C%AB%E4%BA%8C%E6%90%AD%E5%BE%90%E7%8E%84%E6%8C%AF%E3%80%8A%E8%AC%8A%E8%A8%80%E3%80%8B%E3%80%81%E9%87%91%E6%99%BA%E5%AA%9B%E3%80%8Adoctor-x%E3%80%8B%E5%9B%9E%E6%AD%B8%E3%80%81%E3%80%8A%E6%88%91%E7%9A%84%E6%9C%89%E7%BD%AA%E4%B9%8B%E4%BA%BA%E3%80%8B%E4%BB%BB%E6%99%82%E5%AE%8Cx%E8%96%9B%E4%BB%81%E9%9B%85%E3%80%8C%E5%81%BDbl%E6%88%80%E3%80%8D-023100324.html",
+     "title": "【10月韓劇推薦】12部海量新劇：Netflix《Doctor X》金智媛回歸、金裕貞《百日謊言》、Disney+柳演錫《謊言》 - Yahoo新聞",
+     "outlet": "Yahoo新聞"
     },
     {
-     "url": "https://udn.com/news/story/7241/9839224",
-     "title": "蝦皮購物攜手長榮航空 打造雙11熱銷購物季 - UDN",
-     "outlet": "UDN"
+     "url": "https://www.elle.com/tw/entertainment/drama/g74187596/oh-my-guard-2026-drama-highlights/",
+     "title": "鄭容和回歸韓劇！《不著邊際的你》睽違9年再演浪漫喜劇，搭檔洪承希上演歡喜冤家，5大亮點一次看 - ELLE",
+     "outlet": "ELLE"
     },
     {
-     "url": "https://news.wearn.com/c2132859.html",
-     "title": "蝦皮購物攜手長榮航空 打造雙11熱銷購物季 - 聚財網",
-     "outlet": "聚財網"
+     "url": "https://www.beauty321.com/post/73525",
+     "title": "2026愛情韓劇IMDb評分TOP10！《百日謊言》第二，IU《21世紀大君夫人》 第七，冠軍是它 - BEAUTY美人圈",
+     "outlet": "BEAUTY美人圈"
+    },
+    {
+     "url": "https://news.para-daily.com/2026/10/27/storytaco-showboxwhat-the-k-drama-1027/",
+     "title": "STORYTACO × SHOWBOX聯手製作 《救命！我被困在狗血韓劇裡了！》Steam商店頁面正式公開 李侑菲等豪華陣容吸睛 - Paradaily",
+     "outlet": "Paradaily"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "防曬",
+   "traffic": 0,
+   "article_count_24h": 6,
+   "article_count_1h": 0,
+   "published": "2026-10-27T12:29:07+09:00",
+   "category": "Beauty",
+   "news": [
+    {
+     "title": "威爾克醫療保健更新KINESYS防曬噴霧產品資訊與成分規範 - GeneOnline",
+     "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPZFpQSkZScE9DQzdmRDV6aE9BM2N6R2todTR3UFZ6bC1wdnJ6Wm1fYXU5aHN6Ukhpa2tKdEZKRUhkY2hIemVfUUVfb2Q4Q0RHVjZUUnRBU3ZoVERBUDJ4Y05lb3hyY3NEWG9nelFzUTgxazFXb0F5aGx2OTYzcVVCaEVOVmUtSm95YUdsd2hpNWhTbXBkUnlrS0d5bkZRazdyRWFQeHBqdVAyUERZYzdHQzl1WGVSTUYybGtkai1yNmF3UXFhbFJYOTFlSTVrVUZZRElMd3VrRkRyV2NDUENQSVcya1VaZTdSVjliMTE1STgzMWpYdl9zQ1BWV3Ruc1UwQzB0Y1hudUZ0b3lkc2JqbFBRWWRseGZLYkRFWFp4Z1F6SFZpTEsyaGFjaVBxRlRTUWRIeU9KQ21PV1FnakRXOTFlQQ?oc=5",
+     "source": "GeneOnline"
+    },
+    {
+     "title": "澳洲擬收緊防曬產品監管 CHOICE 籲公開 SPF 測試結果 - SBS",
+     "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQRG1yWUdha0VKOHBhdk94UnBucVl2UWNQUENPNUZMVVQ0UzJROXd3ekUyYmllVkJyUVp0Z3ExZ3BkNElXSF9QcWFHNGpXYXluTkZNMXRFSGVOTlBDTnBHWTh3M2pSaHRCd3VOblRKczMwZ0h1LTZ3ZjV6ZnhvemNrb0k5MFJzcGFYSUthVExaSXJ3YlRUNUNRemcyNjZ0MnVfNWJjNUZsb09yVk1QMDhZN1dEM19VMmZOOVEzaFN3eHhfSjdackpuUTdYRjRKZFdkUHNxS2tRZTZOR3B0Vkx0cWxuZTlHYlk2d04wdmZub2RNZGw2ZW1xaW91ZWhvLTVaMEd2Nw?oc=5",
+     "source": "SBS"
+    },
+    {
+     "title": "Wilc Healthcare防曬噴霧更新產品資訊確保消費者使用安全 - GeneOnline",
+     "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOU1hKelo1Z3lOcUJEaDZJNDBRNElzaTZEZTJYYVJTczAyM2NNZXBWNVVoQzNVX1had3VhOWUyd2RvWWZwZE9iY3MtTk9LdjZvc2hLOThwdFJ3OW14UmF2NFNoSUR4eTRyMzdVUHU2a0xvS3E4M2g1Z2ZBcW5ZS1BwdE5oTHlPN2ExYlZNQ2F0WVJQRW5ScTUtb0dlLXVwd3lOVHhJNUtBb1ROelpaOThXMnRKM2EwbEc2S0FqeUdibm94TmJiTmxqN3huUG91dUxxZHlydFY3dTh0dVhkSGlfYWR5X2NkeVJQUG9yeGdfY2k3MUprc2FuZ3JEYS0xS1l1YTk5UnZvV25Fb3dKS252QzdVTGpzT1R3NHlDRUdlYkltb1VUanpSelotWVdPWjJlNEJ1aS1n?oc=5",
+     "source": "GeneOnline"
+    },
+    {
+     "title": "豆花妹蔡黃汝38 歲身高158 金鐘獎黑色禮服仙氣爆棚！減法保養、勤擦防曬⋯6 招凍齡保養技巧曝光！ - JUKSY 街星",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4VkUtNnFXOVBmbFhsQldFNmVaa09qZnZ3V0VMSUM4aDdwRGVya0RmaHByM2RXZzE4c2ZFRWtYOG5yVnNfdFV2WVJncmQ?oc=5",
+     "source": "JUKSY 街星"
+    },
+    {
+     "title": "林志玲驚喜現身中山區！51歲真實狀態被捕捉，網友狂讚「美到不科學」慢老秘訣曝光！ - 女人我最大",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GVjVidUhpeUN4d0VBeE85UlpaRWpQalI5TURNUzljQWtUNU1OQlVTdkh4LV9CYlRtY3VfZlVCZ1QtY09OUnpzYnZ5YU5vS1U?oc=5",
+     "source": "女人我最大"
+    }
+   ],
+   "official": false,
+   "score": 10.8,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://www.sbs.com.au/language/chinese/zh-hant/podcast-episode/australia-proposes-tougher-sunscreen-rules-as-choice-calls-for-public-disclosure-of-spf-test-results/hdjntiran",
+     "title": "澳洲擬收緊防曬產品監管 CHOICE 籲公開 SPF 測試結果 - SBS",
+     "outlet": "SBS"
+    },
+    {
+     "url": "https://woman.tvbs.com.tw/beauty/68105",
+     "title": "林志玲驚喜現身中山區！51歲真實狀態被捕捉，網友狂讚「美到不科學」慢老秘訣曝光！ - 女人我最大",
+     "outlet": "女人我最大"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "雅克塞爾·倫德伯格",
-   "traffic": 200,
-   "published": "2026-10-27T12:30:00+09:00",
+   "keyword": "勇士",
+   "traffic": 500,
+   "published": "2026-10-27T12:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Yaxel Lendeborg’s girlfriend Tacarra makes telling 3-word comment about Warriors future",
-     "url": "https://sports.yahoo.com/articles/yaxel-lendeborg-girlfriend-tacarra-makes-022700185.html",
-     "source": "Yahoo Sports"
+     "title": "勇士窮得只剩下柯瑞 雖窮則變、變則通但有重生希望嗎？",
+     "url": "https://udn.com/news/story/122629/9838005",
+     "source": "UDN"
     },
     {
-     "title": "Steve Kerr Has Big Plans for Yaxel Lendeborg Moving Forward",
-     "url": "https://sports.yahoo.com/articles/steve-kerr-big-plans-yaxel-012538304.html",
-     "source": "Yahoo Sports"
+     "title": "Curry也沒遇過！勇士開季3連敗 菜鳥砍分仍被說重話",
+     "url": "https://tw.sports.yahoo.com/news/curry%E4%B9%9F%E6%B2%92%E9%81%87%E9%81%8E-%E5%8B%87%E5%A3%AB%E9%96%8B%E5%AD%A33%E9%80%A3%E6%95%97-%E8%8F%9C%E9%B3%A5%E7%A0%8D%E5%88%86%E4%BB%8D%E8%A2%AB%E8%AA%AA%E9%87%8D%E8%A9%B1-060300164.html",
+     "source": "Yahoo運動"
+    },
+    {
+     "title": "NBA》昨遭逆轉寫不名譽紀錄！勇士柯瑞等7大主力都缺陣恐吞3連敗",
+     "url": "https://sports.ltn.com.tw/news/breakingnews/5617871",
+     "source": "自由體育"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://udn.com/news/story/122629/9838005",
+     "title": "勇士窮得只剩下柯瑞 雖窮則變、變則通但有重生希望嗎？",
+     "outlet": "UDN"
+    },
+    {
+     "url": "https://tw.sports.yahoo.com/news/curry%E4%B9%9F%E6%B2%92%E9%81%87%E9%81%8E-%E5%8B%87%E5%A3%AB%E9%96%8B%E5%AD%A33%E9%80%A3%E6%95%97-%E8%8F%9C%E9%B3%A5%E7%A0%8D%E5%88%86%E4%BB%8D%E8%A2%AB%E8%AA%AA%E9%87%8D%E8%A9%B1-060300164.html",
+     "title": "Curry也沒遇過！勇士開季3連敗 菜鳥砍分仍被說重話",
+     "outlet": "Yahoo運動"
+    },
+    {
+     "url": "https://sports.ltn.com.tw/news/breakingnews/5617871",
+     "title": "NBA》昨遭逆轉寫不名譽紀錄！勇士柯瑞等7大主力都缺陣恐吞3連敗",
+     "outlet": "自由體育"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "軍公教",
+   "traffic": 200,
+   "published": "2026-10-27T13:30:00+09:00",
+   "category": "기타",
+   "news": [],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": []
+  },
+  {
+   "source": "google_trends",
+   "keyword": "yaxel lendeborg",
+   "traffic": 200,
+   "published": "2026-10-27T13:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Kerr Calls Out Yaxel Lendeborg with Brutally Honest Quote on 'Very Poor' Awareness in New Video",
+     "url": "https://bleacherreport.com/articles/25520051-kerr-calls-out-yaxel-lendeborg-brutally-honest-quote-very-poor-awareness-new-video",
+     "source": "Bleacher Report"
+    },
+    {
+     "title": "Yaxel Lendeborg's odds of winning the 2026-27 NBA …",
+     "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/10/24/yaxel-lendeborgs-odds-of-winning-the-2026-27-nba/92414644007/",
+     "source": "HoopsHype"
     },
     {
      "title": "Yaxel Lendeborg opens up on the transition to NBA amid Warriors struggles",
@@ -330,14 +357,9 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://sports.yahoo.com/articles/yaxel-lendeborg-girlfriend-tacarra-makes-022700185.html",
-     "title": "Yaxel Lendeborg’s girlfriend Tacarra makes telling 3-word comment about Warriors future",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://sports.yahoo.com/articles/steve-kerr-big-plans-yaxel-012538304.html",
-     "title": "Steve Kerr Has Big Plans for Yaxel Lendeborg Moving Forward",
-     "outlet": "Yahoo Sports"
+     "url": "https://bleacherreport.com/articles/25520051-kerr-calls-out-yaxel-lendeborg-brutally-honest-quote-very-poor-awareness-new-video",
+     "title": "Kerr Calls Out Yaxel Lendeborg with Brutally Honest Quote on 'Very Poor' Awareness in New Video",
+     "outlet": "Bleacher Report"
     },
     {
      "url": "https://basketnews.com/news-258114-yaxel-lendeborg-opens-up-on-the-transition-to-nba-amid-warriors-struggles.html",
@@ -348,66 +370,38 @@
   },
   {
    "source": "google_trends",
-   "keyword": "布蘭登·伍德拉夫",
+   "keyword": "電動汽車",
    "traffic": 200,
-   "published": "2026-10-27T12:30:00+09:00",
+   "published": "2026-10-27T13:10:00+09:00",
    "category": "기타",
-   "news": [
-    {
-     "title": "Brewers vs. Rays - Live Score - October 26, 2026",
-     "url": "https://www.foxsports.com/mlb/world-series-game-3-milwaukee-brewers-vs-tampa-bay-rays-oct-26-2026-game-boxscore-97238",
-     "source": "FOX Sports"
-    },
-    {
-     "title": "Brewers add pitcher Brandon Woodruff to World Series roster",
-     "url": "https://www.espn.com/mlb/story/_/id/50258616/brewers-add-pitcher-brandon-woodruff-world-series-roster",
-     "source": "ESPN"
-    },
-    {
-     "title": "Brandon Woodruff makes postseason debut in ninth",
-     "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-10-26/brandon-woodruff-makes-postseason-debut-in-ninth",
-     "source": "NBC Sports"
-    }
-   ],
+   "news": [],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
    "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.foxsports.com/mlb/world-series-game-3-milwaukee-brewers-vs-tampa-bay-rays-oct-26-2026-game-boxscore-97238",
-     "title": "Brewers vs. Rays - Live Score - October 26, 2026",
-     "outlet": "FOX Sports"
-    },
-    {
-     "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-10-26/brandon-woodruff-makes-postseason-debut-in-ninth",
-     "title": "Brandon Woodruff makes postseason debut in ninth",
-     "outlet": "NBC Sports"
-    }
-   ]
+   "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "腦",
+   "keyword": "游淑貞",
    "traffic": 200,
-   "published": "2026-10-27T12:00:00+09:00",
+   "published": "2026-10-27T12:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "頂尖醫學期刊揭祕：失智者大腦塑膠多10倍！每天1杯咖啡竟會傷腦？",
-     "url": "https://tw.news.yahoo.com/%E9%A0%82%E5%B0%96%E9%86%AB%E5%AD%B8%E6%9C%9F%E5%88%8A%E6%8F%AD%E7%A5%95-%E5%A4%B1%E6%99%BA%E8%80%85%E5%A4%A7%E8%85%A6%E5%A1%91%E8%86%A0%E5%A4%9A10%E5%80%8D-%E6%AF%8F%E5%A4%A91%E6%9D%AF%E5%92%96%E5%95%A1%E7%AB%9F%E6%9C%83%E5%82%B7%E8%85%A6-000000235.html",
-     "source": "Yahoo新聞"
+     "title": "縣長號次抽籤後車隊掃街 張峻：翻轉花蓮、魏嘉賢：一定大步向前",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5619940",
+     "source": "自由時報"
     },
     {
-     "title": "微塑膠誘發溶血？最新研究：塑膠微粒恐來自食物包裝，自救３原則一次看",
-     "url": "https://esg.gvm.com.tw/article/128140",
-     "source": "ESG遠見"
+     "title": "花蓮縣長號次抽籤出爐！ 張峻2號、游淑貞3號",
+     "url": "https://newtalk.tw/news/view/2026-10-27/1067587",
+     "source": "Newtalk新聞"
     },
     {
-     "title": "當爸大腦也變了　醫曝研究揭「父親腦」結構變化",
-     "url": "https://health.ettoday.net/news/3261019",
-     "source": "ETtoday健康雲"
+     "title": "花蓮不需要黨派之爭內耗 張峻： 好的政策應延續",
+     "url": "https://cnews.com.tw/250261027a02/",
+     "source": "匯流新聞網"
     }
    ],
    "official": false,
@@ -417,26 +411,60 @@
    "already_covered": false
   },
   {
+   "source": "google_news",
+   "keyword": "蝦皮 雙11",
+   "traffic": 0,
+   "article_count_24h": 4,
+   "article_count_1h": 1,
+   "published": "2026-10-27T12:43:00+09:00",
+   "category": "Deals",
+   "news": [
+    {
+     "title": "2026雙11電商優惠懶人包》蝦皮momo折扣碼、必買商品與搶券整理 - TVBS新聞網",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ocmp5MlJTUHFCT2RUSTJOeFJiZzZZODZqeTd5R1hDSXNNM2tfMW5UTzdTY0ZDY0JLNzVGaTcwaGZFbHg5WG1jMTNiV1BIUQ?oc=5",
+     "source": "TVBS新聞網"
+    },
+    {
+     "title": "雙11熱戰！蝦皮攜長榮航空送總價破2百萬元機票 這群人不用消費就能抽 - Yahoo新聞",
+     "url": "https://news.google.com/rss/articles/CBMitgNBVV95cUxPTDdjenBucDg1dnR4U0FBazJIRUl6bG9ORUNVYUpZR1h4dzBpZFJwOE5ZQjk5YVlwNW1SelZpWDdTaFVSaldfY1pzbjRtaGtZcDhKcVM4QTBTMVVKZTFEcUpwUjJkbjd5SkNOaUNpVjMyYUgwbnYwZEZTY0dwN0FZVUlVTFVfX18zX2FmMVRjOUowVDZiVjJhTFJZOE9kaF9RLTJKdTRvVklBMklpRlA2YTVPUTRKTmxQMjJDUjBkdHY3X1poRlp3eDE4ZW84VDdpZmRXczF5SU9icEdNbl9pMmVGbTQ0R3ZxdVEzb0luRXlObWVUb1lpVlljZEpFMUZ1b3NORmoxNFpfa0g5Z3lHUVBQVFBuWGxscHN6cldaemdLSHVLa2Q4NC1LOElYc0xobF84SG9MdTVGV1ZQcDVWWUFrVDlQU1JUTE5yY1ZmdGJQYnZreEhBYm1hcnVCMmJwbjhRZHZyU3lTMnJkZjBJM09DaUZWZ1RoMUhRNm5LTG4zdzVYX1FlUjB4TGtzYXVfeHc0eEU3WnYxdjY3RGdfcmpIRFdpazh2Qk9jenAzd2M0Q3pldnc?oc=5",
+     "source": "Yahoo新聞"
+    },
+    {
+     "title": "蝦皮購物攜手長榮航空 打造雙11熱銷購物季 - UDN",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xc3dNSGlabVF4anU5dDFMb0Njdm8zR1VEWmU3SExyLXdlcUxBaFl4d0JPVE5iM01kTmd3Yjk4WjRidXdoTUdFbTR2cF80Y2lsc1dZQWh30gFWQVVfeXFMTzFzd01IaVptUXhqdTl0MUxvQ2N2bzNHVURaZTdITHItd2VxTEFoWXh3Qk9UTmIzTWROZ3diOThaNGJ1d2hNR0VtNHZwXzRjaWxzV1lBaHc?oc=5",
+     "source": "UDN"
+    },
+    {
+     "title": "蝦皮購物攜手長榮航空 打造雙11熱銷購物季 - 聚財網",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Ga3FpcW9IajAwZjVUQnBCU1h1YnhNblhfQWpyU3Q2MUtPZ3V5VXRSY2hQUFNmN1AtRkJuUUlaTi1IbVJtdmNVRzh5aHk?oc=5",
+     "source": "聚財網"
+    }
+   ],
+   "official": false,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
    "source": "google_trends",
-   "keyword": "德文·布克",
+   "keyword": "柳淑芳",
    "traffic": 100,
-   "published": "2026-10-27T12:10:00+09:00",
+   "published": "2026-10-27T13:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "太阳神！德文-布克当选今日JRs评选最佳球员",
-     "url": "https://bbs.hupu.com/643279457.html",
-     "source": "虎扑体育网"
+     "title": "影／又脫了！柳淑芳8度參選 脫衣曝「刻在心裡的名字」",
+     "url": "https://udn.com/vote2026/story/124652/9839460",
+     "source": "UDN"
     },
     {
-     "title": "布克:每天训练都和替补对位 他们彼此知根知底",
-     "url": "https://lq.7m.com.cn/news/20261026/282922.shtml",
-     "source": "7M体育"
+     "title": "快訊／又脫了！高雄議員候選人「內衣外露綁布條」　員警急遮",
+     "url": "https://www.ettoday.net/news/20261027/3261429.htm",
+     "source": "ETtoday新聞雲"
     },
     {
-     "title": "地狱赛程来袭！六连败提前锁定？勇士本赛季彻底没救了？",
-     "url": "https://m.sohu.com/a/1092867440_120985647?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
-     "source": "搜狐网"
+     "title": "說好不脫又脫了！高雄「舉牌姊」抽籤突脫衣 8警急包圍",
+     "url": "https://www.chinatimes.com/realtimenews/20261027002275-260407",
+     "source": "中時新聞網"
     }
    ],
    "official": false,
@@ -447,9 +475,38 @@
   },
   {
    "source": "google_trends",
-   "keyword": "台南市長候選人",
+   "keyword": "德瑪爾·德羅展",
    "traffic": 100,
-   "published": "2026-10-27T12:00:00+09:00",
+   "published": "2026-10-27T13:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "DeMar DeRozan: You ever just sit in a dark room and …",
+     "url": "https://sports.yahoo.com/articles/demar-derozan-ever-just-sit-193956243.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Nikola Jokic Nuggets teammate drops cryptic post that has fans worried",
+     "url": "https://basketnews.com/news-258140-nikola-jokic-nuggets-teammate-drops-cryptic-post-that-has-fans-worried.html",
+     "source": "BasketNews.com"
+    },
+    {
+     "title": "Raptors Legend DeMar DeRozan Raises Concern With Cryptic Post While Playing for Nuggets",
+     "url": "https://heavy.com/sports/nba/toronto-raptors/raptors-legend-demar-derozan-concern-cryptic-post-playing-nuggets/",
+     "source": "Heavy.com"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "選舉日",
+   "traffic": 100,
+   "published": "2026-10-27T13:00:00+09:00",
    "category": "기타",
    "news": [],
    "official": false,
@@ -459,44 +516,39 @@
    "already_covered": false
   },
   {
-   "source": "google_news",
-   "keyword": "防曬",
-   "traffic": 0,
-   "article_count_24h": 4,
-   "article_count_1h": 0,
-   "published": "2026-10-27T10:51:23+09:00",
-   "category": "Beauty",
+   "source": "google_trends",
+   "keyword": "黄仁勋",
+   "traffic": 100,
+   "published": "2026-10-27T12:50:00+09:00",
+   "category": "기타",
    "news": [
     {
-     "title": "澳洲擬收緊防曬產品監管 CHOICE 籲公開 SPF 測試結果 - SBS",
-     "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQRG1yWUdha0VKOHBhdk94UnBucVl2UWNQUENPNUZMVVQ0UzJROXd3ekUyYmllVkJyUVp0Z3ExZ3BkNElXSF9QcWFHNGpXYXluTkZNMXRFSGVOTlBDTnBHWTh3M2pSaHRCd3VOblRKczMwZ0h1LTZ3ZjV6ZnhvemNrb0k5MFJzcGFYSUthVExaSXJ3YlRUNUNRemcyNjZ0MnVfNWJjNUZsb09yVk1QMDhZN1dEM19VMmZOOVEzaFN3eHhfSjdackpuUTdYRjRKZFdkUHNxS2tRZTZOR3B0Vkx0cWxuZTlHYlk2d04wdmZub2RNZGw2ZW1xaW91ZWhvLTVaMEd2Nw?oc=5",
-     "source": "SBS"
+     "title": "国泰海通：英伟达(NVDA.US)升级Isaac平台机器人研发从模型训练走向全流程部署提供者智通财经",
+     "url": "https://cn.investing.com/news/stock-market-news/article-3628487",
+     "source": "英为财情 Investing.com"
     },
     {
-     "title": "豆花妹蔡黃汝38 歲身高158 金鐘獎黑色禮服仙氣爆棚！減法保養、勤擦防曬⋯6 招凍齡保養技巧曝光！ - JUKSY 街星",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4VkUtNnFXOVBmbFhsQldFNmVaa09qZnZ3V0VMSUM4aDdwRGVya0RmaHByM2RXZzE4c2ZFRWtYOG5yVnNfdFV2WVJncmQ?oc=5",
-     "source": "JUKSY 街星"
+     "title": "黄仁勋柏林GTC阐述物理AI方向并宣布Isaac扩容",
+     "url": "https://m.sohu.com/a/1093184172_128075?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+     "source": "搜狐网"
     },
     {
-     "title": "埃及學家破解古埃及歷史AI垃圾影片！濃黑的眼線其實是用來防曬？負擔家計沒有快樂的童年？不可能有清晰的鏡子？｜科普長知識 - GQ Taiwan",
-     "url": "https://news.google.com/rss/articles/CBMi4wVBVV95cUxQMng3WmhwdXZhdTNjdERhZE9zcnNBbHp2TDZUdTJIbC1IV2lza21nT1dvdGhVSlBzT29vNE9zUHV3aHZVYW5zMEJ2RVRTbWUzUzN2Q2hsblI1Vk9HZUR2OWFBQ0NLcTVreEhNdVNDVEQzMkl2bjUxLVBya0ExTkN6NFBFRHhpd21IRG5EM2RpTF9wYzB6Q0VBdmc1Wm45dDlSQWRNS3R4cTBDWmxNV1ZpdUZLR0o4NlBLdmp4OWtYRVFiNndWZUVSOEczMUVqM1didEpvX2Z3dEc0ZEtWem93Z0RqbWlNcDVLZmpzYjA0MXVYRWhmdTBZWG5nMUZndVB1UWFDdl91b1hHUXZ3cnEyb05SUUJQb25LRkdxdklla1JuMEc0eGgtTGpzT0JiRzJFOVFOYlo3akpvZTB4UEFvLXRiOFhSOUh1eHBzaDk3TkwxNzVXS2JrMEFkeXQ2REd3eDNldEhTekdJSjBFeGFhNWh4UXdDUDJjYVZfQzhaZU95cHl4SnBQZWpXeE1IMThvcFRUSl83YnlXSi1ycWcwNGYzejBReVVxdTU0UENYM1dUZERoNDdxd3dMb3lIZkx3RTZqeVoxVHdWTjRORERSOEVnN0YwY2ZMQ3VYZ09aTVhWN1hGZFNGMHdZOVN0THRkUGVaNXJmR29TbkRScmN2TEw3Nmt4cWVrSEZTTlNFRTNXOTVBNWR2c016c0d0RkdsUm9JNTVHdDAxSVhVUHZ2YU9ES2xfVWtfaVRxX1lXdWpzaWtkcVVsMXlmZWw3d21tTE1lQ01IYmFrYXFRWkVLV2VhNUZfM1A1Z0plcTd4N3M4Z1JITF9RRjdCWGR4dDJPNV8tUkMzZmVmZm5XalZXWTRRTGs2d19tWmNUeUJiZnFhdWhrNnR2bk82UzdZTFVZWnV1WUZ0VmJHWmlYRnlkYWtGVWpRQVI4eGZPeXZlUThqQWRUVDRGSVFLbUtSYVQ3YzNZ?oc=5",
-     "source": "GQ Taiwan"
-    },
-    {
-     "title": "癌症治療皮膚副作用，要放棄嗎？皮膚科醫師：健康人也要遵循的養膚三原則 - Vogue Taiwan",
-     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPS1dxbFpBQ1lrZnc5T3p0M3JTZkdCSlVieGp2NEVhY2h2NTFNb0ZzUXpnT1RlWjdBbnJCTkN3UmtFSnFYU1B0b2ROZ294NzZUc0VydGozcG1YVDJiNUVldmZIYlE1SEtHMGFRaFFwbV9xLVpoUHlhZV9pc3BPSC0weXVRMWtrVHpTLXJUNW5OSnkyRzlQZ3dGUGxYZlFncDJfUmJsbEJBZ1ZXekVZZkY4aEotWGFBdjRZQW9wdHVXTENKRkozTEVUUFZZQjBaMjBmV3lpOERySi11MEotQlpDNWVGclE5Y054WE83MHFoeFRsajVtaFpqczRUc1RBOFpWMUszRmVRYVJkRTZJMGVqejJETDJkTG1PTGdlclVnLV96SHc?oc=5",
-     "source": "Vogue Taiwan"
+     "title": "NVIDIA 详细介绍了 Microduck 仿真训练的人工智能代理工作流程",
+     "url": "https://blockchain.news/news/nvidia-ai-agents-microduck-walk-simulation-zh",
+     "source": "blockchain.news"
     }
    ],
    "official": false,
-   "score": 7.2,
-   "already_covered": true
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "韓系保養",
    "traffic": 0,
-   "article_count_24h": 2,
+   "article_count_24h": 3,
    "article_count_1h": 0,
    "published": "2026-10-27T10:20:00+09:00",
    "category": "K-Culture",
@@ -510,10 +562,15 @@
      "title": "女團MEOVV皮膚為何總在發光？ 御用彩妝師揭立體上鏡祕訣 - 自由娛樂",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PMTJ6Z0tPSW9tSWNoLWt5alE0WU83ZC1BSjRoNHl3VW9FZ1FDRzFTQ1pOU0tjZjlpenpnS2tCWWRNdG51RW84V2dyNHprN2NNNjdLMnlPQTNCZHlpRFI3SlVn?oc=5",
      "source": "自由娛樂"
+    },
+    {
+     "title": "萬寧官網限定「11·11 Easy Pick! 買嘢 Chill Easy!」 3星期獨家優惠接力登場（附詳情） - dotdotnews",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE01STNFaWtsa0tPQVVwaE5xZ0FnTVpQakNHXzNIXzY2NWpnZ2JXdVEydmY0bFd5c3llMThHQmtoSjVPNndfdF9iRUFtS3p1MlUzV1NuWktPVUVTNDhDSGRJSDFRUF93NkgydmJPUFVZMXZWM0NwZFdz?oc=5",
+     "source": "dotdotnews"
     }
    ],
    "official": false,
-   "score": 3.6,
+   "score": 5.4,
    "already_covered": false
   },
   {
@@ -539,87 +596,6 @@
    "official": false,
    "score": 2.5,
    "already_covered": true
-  },
-  {
-   "source": "google_trends",
-   "keyword": "兆豐",
-   "traffic": 200,
-   "published": "2026-10-27T11:20:00+09:00",
-   "category": "Deals",
-   "news": [
-    {
-     "title": "爸媽看過來！TISA祭減稅大紅包 替未成年子女開戶節稅又享高利",
-     "url": "https://tw.stock.yahoo.com/news/%E7%88%B8%E5%AA%BD%E7%9C%8B%E9%81%8E%E4%BE%86-tisa%E7%A5%AD%E6%B8%9B%E7%A8%85%E5%A4%A7%E7%B4%85%E5%8C%85-%E6%9B%BF%E6%9C%AA%E6%88%90%E5%B9%B4%E5%AD%90%E5%A5%B3%E9%96%8B%E6%88%B6%E7%AF%80%E7%A8%85%E5%8F%88%E4%BA%AB%E9%AB%98%E5%88%A9-035600582.html",
-     "source": "Yahoo股市"
-    },
-    {
-     "title": "TISA 租稅優惠鼓勵退休準備 兆豐證董座：自主理財是退休保障重要一環",
-     "url": "https://money.udn.com/money/story/5607/9838768",
-     "source": "經濟日報"
-    },
-    {
-     "title": "政院拍板TISA租稅優惠2.0！專戶可扣除2.4萬 滿60歲或持滿30年再免稅",
-     "url": "https://news.cnyes.com/news/id/6635775",
-     "source": "鉅亨網"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "heat vs mavericks",
-   "traffic": 100,
-   "published": "2026-10-27T11:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Cooper Flagg upgraded to probable for Mavericks' game vs. Heat after sitting out Saturday with sprained left shoulder",
-     "url": "https://sports.yahoo.com/nba/article/cooper-flagg-upgraded-to-probable-for-mavericks-game-vs-heat-after-sitting-out-saturday-with-sprained-left-shoulder-204317217.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Mavericks lose Flagg to injury, and ruin Haliburton's home return with 121-105 win over Pacers",
-     "url": "https://apnews.com/article/indiana-pacers-dallas-mavericks-score-84ae76018c2cde7f855e07247f458cb5",
-     "source": "AP News"
-    },
-    {
-     "title": "NBA Notes: Mavericks, Cooper Flagg, Kings, Nique Clifford, Sixers",
-     "url": "https://hoopswire.com/nba-notes-mavericks-cooper-flagg-kings-nique-clifford-sixers/",
-     "source": "Hoops Wire"
-    }
-   ],
-   "official": false,
-   "score": 0.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "thunder vs suns",
-   "traffic": 100,
-   "published": "2026-10-27T11:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Alex Caruso exits Thunder win over Suns early with sprained right ankle as OKC's injury woes continue",
-     "url": "https://sports.yahoo.com/nba/article/alex-caruso-exits-thunder-win-over-suns-early-with-sprained-right-ankle-as-okcs-injury-woes-continue-024237139.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Alex Caruso Injury: Won't return vs. Phoenix",
-     "url": "https://www.rotowire.com/basketball/headlines/alex-caruso-injury-wont-return-vs-phoenix-536237",
-     "source": "RotoWire"
-    },
-    {
-     "title": "Thunder's Alex Caruso: Exits to locker room",
-     "url": "https://www.cbssports.com/fantasy/basketball/news/thunders-alex-caruso-exits-to-locker-room/",
-     "source": "CBS Sports"
-    }
-   ],
-   "official": false,
-   "score": 0.3,
-   "already_covered": false
   }
  ]
 }
