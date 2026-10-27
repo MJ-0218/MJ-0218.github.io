@@ -1,90 +1,265 @@
 {
- "generated_at": "2026-10-27T16:40:25.395810+09:00",
+ "generated_at": "2026-10-27T17:40:32.875171+09:00",
  "sources": {
   "calendar": "ok (6)",
   "google_trends": "ok (10)",
   "google_news": "ok (22)",
-  "evidence": "ok (저장 56, 실패 17)"
+  "evidence": "ok (저장 53, 실패 18)"
  },
  "compared_runs": 2,
  "spikes": [
-  "GST rate change",
-  "income tax refund status",
-  "DA hike",
+  "pakistan vs sri lanka",
+  "nitish kumar reddy",
+  "glenn phillips",
+  "8th pay commission",
   "RBI repo rate",
-  "finn allen",
-  "LPG cylinder price",
-  "daryl mitchell",
-  "sony liv",
-  "star sports",
-  "cricbuzz live",
-  "జార్ఖండ్ క్రికెట్ జట్టు",
-  "sony tv",
-  "नामीबिया क्रिकेट टीम बनाम आयरलैण्ड क्रिकेट टीम के मैच का स्कोरकार्ड",
-  "নিউজিল্যান্ড বনাম ভারত",
-  "അര്ബുദം"
+  "पाकिस्तान बनाम श्रीलंका",
+  "दक्षिण अफ़्रीका क्रिकेट टीम बनाम ऑस्ट्रेलिया राष्ट्रीय क्रिकेट टीम के मैच का स्कोरकार्ड",
+  "cooper connolly",
+  "gerald coetzee",
+  "റേഷന് കാര്ഡ്",
+  "sri lanka national cricket team",
+  "beatrice keul"
  ],
  "candidates": [
   {
-   "source": "google_news",
-   "keyword": "GST rate change",
+   "source": "calendar",
+   "keyword": "PM-KISAN installment aug-nov",
+   "category": "Government Schemes",
+   "official_sources": [
+    "https://pmkisan.gov.in/",
+    "https://pib.gov.in/"
+   ],
+   "official": true,
    "traffic": 0,
-   "article_count_24h": 8,
-   "article_count_1h": 3,
-   "published": "2026-10-27T15:57:39+09:00",
+   "published": "2026-10-27T17:40:32.893539+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-pm-kisan-aug-nov-2026",
+   "phase": "aug-nov",
+   "queries": [
+    "pm kisan 21st installment date",
+    "pm kisan beneficiary list"
+   ],
+   "window": "2026-08 ~ 2026-11 (보통)",
+   "days_to_start": -87,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Income tax return (ITR) filing refund",
+   "category": "Taxes",
+   "official_sources": [
+    "https://www.incometax.gov.in/iec/foportal/",
+    "https://www.incometaxindia.gov.in/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-27T17:40:32.893585+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-itr-refund-2026",
+   "phase": "refund",
+   "queries": [
+    "income tax refund status",
+    "itr refund delay"
+   ],
+   "window": "2026-08 ~ 2026-11 (보통)",
+   "days_to_start": -87,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Dearness allowance (DA) hike for central employees jul",
+   "category": "Government Schemes",
+   "official_sources": [
+    "https://pib.gov.in/",
+    "https://doe.gov.in/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-27T17:40:32.893652+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-da-hike-jul-2026",
+   "phase": "jul",
+   "queries": [
+    "da hike july",
+    "da hike latest news"
+   ],
+   "window": "2026-09 ~ 2026-11 (보통)",
+   "days_to_start": -56,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "CBSE board exams datesheet",
+   "category": "Exams",
+   "official_sources": [
+    "https://www.cbse.gov.in/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-27T17:40:32.893671+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-cbse-board-datesheet-2026",
+   "phase": "datesheet",
+   "queries": [
+    "cbse date sheet class 10",
+    "cbse date sheet class 12",
+    "cbse board exam date"
+   ],
+   "window": "2026-10 ~ 2027-01 (보통)",
+   "days_to_start": -26,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "JEE Main session1",
+   "category": "Exams",
+   "official_sources": [
+    "https://jeemain.nta.nic.in/",
+    "https://nta.ac.in/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-27T17:40:32.893692+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "in-jee-main-session1-2026",
+   "phase": "session1",
+   "queries": [
+    "jee main registration",
+    "jee main exam date",
+    "jee main admit card"
+   ],
+   "window": "2026-10 ~ 2027-01 (보통)",
+   "days_to_start": -26,
+   "in_window": true
+  },
+  {
+   "source": "google_news",
+   "keyword": "petrol diesel price",
+   "traffic": 0,
+   "article_count_24h": 25,
+   "article_count_1h": 12,
+   "published": "2026-10-27T12:47:26+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "Major GST Reforms Effective from November 1, 2026: Government Notifies Simplified Post-Sale Discount Rules, Credit Note Provisions, 90% Provisional Refunds for Inverted Duty Structure and Relief for Small Exporters - A2Z Taxcorp LLP",
-     "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPRG1wX0JSV3dnQ2E4TUlOVFlzcS1Hb25sUlJlY1pVVUlqSU9kb3haS2t2azAxSVFHb1lCRk9UanducndzLV9nZWZ4Nk9QOERlbk9ZUVYwdjZHb3ZzaUNTRzZXMWRwREpJNnlmQ01CN1I5cTRFU29CQWdJSEd4aWVBN1hRMjJNMHQwcWwwOGIxbVl3NGNSMzRVZFFNWk9tYklVbnNYZWlTeGJ0MWhBaUQ5MkU5azBGTFVBQzFfYllDVElrZ0FhSnpZSWR5cGJrUkZsTWcxTUdIOHJEd3RlYVR4dXd2Q1puaGlneVRFeTJGM0hIT25QaF91TWZkVEFGZlo3bmM0ZGk5a0tKNjctQzVQR09ZbTRBSmEwSklPZzdlQ3ZpSnRFajBoSEx6Z3FGQ3JEWGR1TkZFdmxOSk4wZlB6Nnd3?oc=5",
-     "source": "A2Z Taxcorp LLP"
+     "title": "Petrol, Diesel Prices Steady; Brent Near $115 Amid Tensions - HDFC Sky",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMld2OXpKR3pGeFJLZ3BJbG1kT3ozX2JsYVZqT3IwMWxxaFNrZW9XZ00wYWNxM2R4c2FJVEY3aE1rMzhyQkpmRUhSWXFIcFhycXFKRGFuRzVJSFI0MnRjN0xNd0pOSkJfRmFoSldyQUIxTVhmeFNQMG9jREpKa2ZTTUY0LWdVN24yYlZCVC1Cc1BOOXlocWtiOW9waXQ4WU9GY2FjVVdRVDZsaFBqS3BES0FPMm4xM191SS1DY0tfR0hFZw?oc=5",
+     "source": "HDFC Sky"
     },
     {
-     "title": "Microsoft offers buyouts to 60,000 employees across India, US, UK, and Canada - Babushahi.com",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVGpnemlRT2t6Ujg3c2dlVnZxYlFXaDRsZHZuVDJzcElMRFJISlJ2VDFWSUR2c01aUmNsb2RxMHh1aDlTSGNUcFpkc3hDU2Q2YnFtUTZUazNRSXFVVThBNkRjSDBRMG9IcXhvTDNQcE83OEg1WUlreUU0MkdSbkRTQmZfZDBrWXBjVG9pd04yR1BKdUhTY2VtZGtvQnNNTi1RZmFsNDhSSngwTGF0d3lIMXU3bmhkNnZFVS1ZQktVZHBxTHlUdThPZVlkTllQdl8y?oc=5",
-     "source": "Babushahi.com"
+     "title": "Brent crude hovers around $115; Check today’s city-wise petrol, diesel and CNG rates - Moneycontrol.com",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRVd3T0tyMTdWYXNQX3pGU3BZdUt0MXV3OEFrWTBPeFdGMHlaNWtPR3RFemN3OVZTeDhGTGV5ejFMeVZWdDVvMkMxa0g2M09BX2VucGQtdG1UZzV3dlUtTFFjODl5Z2NVdjBoWlRaV1dodGQ2SWpYUm01WThXLUxaTmJRdGFQRl96akw5c2MtenVzZjlIaE9vaDA4TDhpSVZiUzNiN3ZSQThrSWZwOEpOVHh0UVVRRUxIYU9MMk9xWlNnYjdRbWdaZWo5elJ2bFViYUNWM0930gHWAUFVX3lxTFBFV3dPS3IxN1Zhc1BfekZTcFl1S3QxdXc4QWtZME94V0YweVo1a09HdEV6Y3c5VlN4OEZMZXl6MUx5VlZ0NW8yQzFrSDYzT0FfZW5wZC10bVRnNXd2VS1MUWM4OXlnY1V2MGhaVFpXV2h0ZDZJalhSbTVZOFctTFpOYlF0YVBGX3pqTDlzYy16dXNmOUhoT29oMDhMOGlJVmJTM2I3dlJBOGtJZnA4Sk5UeHRRVVFFTEhhT0wyT3FaU2diN1FtZ1plajl6UnZsVWJhQ1YzT3c?oc=5",
+     "source": "Moneycontrol.com"
     },
     {
-     "title": "Trident’s Diwali Sale Begins at Barnala, Attractive Discounts on Festive Shopping Across a Wide Range of Products - Babushahi.com",
-     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxORjhvQ20zWjFnN09WZW9TUnc0aF9VZGVOMGg0YzdkRHhOVHAwZlBoVkVjVy01bjdvLTYzeEcwbzJBX0czU3JlZGhvTVlsT0QyTmhnQnMzOXlQdmlzY3pEVXU5cmxlVjQxZ3NBamlRQkNBbElaUHBzaVVPOGlJcEc5UmlmRjlLUEM1aUpybE95a0Jscjd5YVlpdnZ6cE9qRVlRVWhLaFVINUhQZkpGWlZQTTJ5c25FZW5nWGpTbVpyRXF0bi1iYnZBV2o3azY3QUJSU0ZjdWtJRVFYYUV4VkQ4d2IyN3lyQUlXSVQ0LXRUeUp4TWd2a2tfUW14SmdKc3BEbGhiSk9oZzF6YVk?oc=5",
-     "source": "Babushahi.com"
+     "title": "Petrol and diesel prices today, October 27: Check fuel rates in different cities across India - Livemint",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZzZmaEIxOWdBNmFMWElaWG16VVJORGF1NlYzNXEtSGJXVm1sWnY4MGI3d0dYdEhCZl9Cbnk1RERwY3F2bjI4UVNnQ3RsdG9nV05iekpRTnlhVzBfQnRsZE13Wl9ZenRKMjR1VkNMWTlROUlYd2dlcWlHOGtDN2VuSXRkWjhEcjNCODdwTFQyRzJoLXRwdGVWbEVSWUxpOERXLVZfdl9pYU1FMTBYX2VubmpmLUVZNXJfckNKRjZ5UjA3ekhOSTFScjVfeHRRSFhvcFNua0JMWi1QWlo5djZHb9IB5gFBVV95cUxPd1kwVnRtbklMZktvc1Bqb0VkNEhNUFlaYklSamJ5T0JOZWI5N2VpNTZYTXR4dC1ucDlST2hxWmNmaXFTZEVRUFVCRUU3N2NpLTBlRTA2M3FLckwyN1BZbERyZm53MURjMnZlX0hQZ0s4cEdaUHJ2RzVpa1dmQXhKZ01sWXUwaUtWV2F0eS1hZUt4NUZDSUdzbTFwYWQ1cGo3NDJwRVR0MFFDcnJydy1peEE0UXlNMEdSamQtTDFZTDlEajVyd1E0cWZWMFhEZElORTVMcmMxZW1td3VxLVRMN1hUNGRKdw?oc=5",
+     "source": "Livemint"
     },
     {
-     "title": "Proposal to raise GST just one more road to ruin - The Australian",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdkIxNmJ0cHE4aXlXSUctaFNDWTFnU2tsck95d2xxRDhLMzdvWnFMT0lMTkhfQ2pEWW5mWE9JZVpleXBjOWhUVXViWDViNVVQajdMc1BPUjRsY2ZkWTdWM042YkZYSkZCRlVDNkl0S3g0cWNkRG1Tdno3VHRMb01sWW9CRHJYcVRFc1BBSmV2Rmd4dWJSZGMwQVUtZDg2SExWV1NKZ3ZTc0ZWTEl1M3k0a0VTQmZocWJvLTJSRUpIaW9hYVBBZFJzY3c1Zm16MElpOHc?oc=5",
-     "source": "The Australian"
+     "title": "Check out petrol and diesel prices in Chennai on October 27, 2026 - DT Next",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTjM0a1A3YnlLLVhhcTNOUW5KWEJyZmtYZFVEYUFCeVNyOXdHRVI3NC1vYmZ4dS0wYWFIa25YbWpLUTJCZ25SSWoxQVFfZ280a3kyYVMwQW1kMXd0Z2F0aUxRcnVnaDVzem5qSTQzLVRxNVpwRnhDbjVTM2xGYXNZdEZaWGNIZFFGZ09qTFV2VW5HaFRoS09BS21mVWNZeXRlZU04OWNfNUxaclB60gG6AUFVX3lxTFBrXy1EOUMwU2VEeW9ic1FTQkUwbDhlLVBTX2hmNGtyQUZuVC1TRXNtZWloMEdjZGE4ZWtSVGVrTTJnQ2FkR3J1c1NDbm1PSWItaUlBejR3OHRqM240RDl4RHJIS29zY254YVVydzJhNkJjZTFjUkxJTE15UnJyd2JpbGhoeTF1Ymg4OUczREJTcDN5WXg5clktZHJGTHJsSUlHSVcyYlRpN2dPbFhfV05PWFFxamJEQ29vZw?oc=5",
+     "source": "DT Next"
     },
     {
-     "title": "UPI rules changing from Oct 15: Will scanning QR codes cost you extra money? What changes, what stays free - Bhaskar English",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRkRoRDVzWVlfYmljTjJlSXpsbHlxZjhGQ2tRc0FVdXVmRFpIdHFPTVpwdzVLOUo2MUxVTVcza3kxRVdQOFFwUWtGV04xb1RmbGpJMHl0Wkc2TS1uS09SbTF6aGpYWUlZcTFZUFotdnNJZUJBaERuZlZCemQ1R0NlQm1QaVFpcGg3SkxMWk5UQjQwR2stVWsyb0dHcVdweUFKWmJHaW5TdkctVTVPbHRJd0JJcUI3ZUxKRHp2ZnlxdHdZVHPSAcgBQVVfeXFMTnZtS0dkdWloaWJ3M2h3dWJNYTRMX2JOU252RDVtdGgtWDkwUDVTQTRYUUxDbnFFa2d1b2JQa0FzYjRHeVlxX1Nsb3lwb0Q0VlBqQXZ6UHk4R182dDBwT2dXeDdiWjlOb2hZZUZBa29TNHA3cGNVU2VYQVFxWHh2Xzg4Tk5OcUpvNV9FeGJVbmVrUmc2LU1PYTZhSDFMRWd0cFlDMUh1SXN1WV91b2w1ZEZUd1Z5ZEIxbm9zNHoxR1ZCbF9QbkFqY04?oc=5",
-     "source": "Bhaskar English"
+     "title": "Pakistan burdens public again as govt hikes petrol price by Rs 1.54, diesel by Rs 2.16 per litre - ANI News",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOODBwVkFieUl3WXJRR2ZJU2ZVNFJyOVlQdjEySko4WHBmSWhZVmZjRURScU5nS3pYbjVDa2wyalc1cEUtM3ViNTQ2Vi0ydzhFcVM1V0hyallWa3FaYm9namxmTGx5SGNZN3lhNzk1MVV3VDVlZkxIckNadTg4SF9lTF9PQ0hiQktBYjRUMmdmLUwtT2x5WEhhMzBfRkNvQnFRcGRQai1zOXNsX2FHR2dRRnJiVEpyemlQbUZsZjJTcXZGbS1MSVMwSHVmbk1Jc1dkcF93dFNWTnNXbkhObWNr?oc=5",
+     "source": "ANI News"
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 0.0→3건 (4.0배)",
-   "spike_bonus": 40,
-   "score": 114.0,
+   "score": 75.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://a2ztaxcorp.net/major-gst-reforms-effective-from-november-1-2026-government-notifies-simplified-post-sale-discount-rules-credit-note-provisions-90-provisional-refunds-for-inverted-duty-structure-and-relief-for-sm/",
-     "title": "Major GST Reforms Effective from November 1, 2026: Government Notifies Simplified Post-Sale Discount Rules, Credit Note Provisions, 90% Provisional Refunds for Inverted Duty Structure and Relief for Small Exporters - A2Z Taxcorp LLP",
-     "outlet": "A2Z Taxcorp LLP"
+     "url": "https://hdfcsky.com/news/petrol-diesel-prices-today-october-27-2026-check-rates-in-delhi-mumbai-kolkata-chennai-other-cities",
+     "title": "Petrol, Diesel Prices Steady; Brent Near $115 Amid Tensions - HDFC Sky",
+     "outlet": "HDFC Sky"
     },
     {
-     "url": "https://www.babushahi.com/business.php?id=228873&headline=Microsoft-offers-buyouts-to-60,000-employees-across-India,-US,-UK,-and-Canada",
-     "title": "Microsoft offers buyouts to 60,000 employees across India, US, UK, and Canada - Babushahi.com",
-     "outlet": "Babushahi.com"
+     "url": "https://www.moneycontrol.com/news/india/brent-crude-hovers-around-115-check-today-s-city-wise-petrol-diesel-and-cng-rates-14060946.html/amp",
+     "title": "Brent crude hovers around $115; Check today’s city-wise petrol, diesel and CNG rates - Moneycontrol.com",
+     "outlet": "Moneycontrol.com"
     },
     {
-     "url": "https://www.babushahi.com/business.php?id=228860&headline=Trident%E2%80%99s-Diwali-Sale-Begins-at-Barnala,-Attractive-Discounts-on-Festive-Shopping-Across-a-Wide-Range-of-Products",
-     "title": "Trident’s Diwali Sale Begins at Barnala, Attractive Discounts on Festive Shopping Across a Wide Range of Products - Babushahi.com",
-     "outlet": "Babushahi.com"
+     "url": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-october-27-check-fuel-rates-in-different-cities-across-india-11793063827695.html",
+     "title": "Petrol and diesel prices today, October 27: Check fuel rates in different cities across India - Livemint",
+     "outlet": "Livemint"
     },
     {
-     "url": "https://www.bhaskarenglish.in/national/news/upi-payment-rules-change-october-2026-merchant-discount-rate-india-139046628.html",
-     "title": "UPI rules changing from Oct 15: Will scanning QR codes cost you extra money? What changes, what stays free - Bhaskar English",
-     "outlet": "Bhaskar English"
+     "url": "https://www.dtnext.in/news/chennai/clone-of-check-out-petrol-and-diesel-prices-in-chennai-on-october-27-2026",
+     "title": "Check out petrol and diesel prices in Chennai on October 27, 2026 - DT Next",
+     "outlet": "DT Next"
+    }
+   ]
+  },
+  {
+   "source": "calendar",
+   "keyword": "Bank holidays this month 11월",
+   "category": "Banking",
+   "official_sources": [
+    "https://www.rbi.org.in/Scripts/HolidayMatrixDisplay.aspx"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-27T17:40:32.893629+09:00",
+   "score": 70,
+   "already_covered": false,
+   "cycle": "in-bank-holidays-2026-11",
+   "phase": "11월",
+   "queries": [
+    "bank holidays this month",
+    "is bank open tomorrow",
+    "rbi holiday list"
+   ],
+   "window": "2026-11-01 전후",
+   "days_to_start": 5,
+   "in_window": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "pakistan vs sri lanka",
+   "traffic": 50000,
+   "published": "2026-10-27T17:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Win-from-anywhere Pakistan face 430-conquerors Sri Lanka at high-scoring Lahore",
+     "url": "https://www.cricinfo.com/series/pakistan-odi-tri-series-2026-27-1550706/pakistan-vs-sri-lanka-5th-match-1550717/match-preview",
+     "source": "Cricinfo"
+    },
+    {
+     "title": "Pakistan vs Sri Lanka LIVE: ODI tri-series, Rawalpindi - cricket score, radio commentary & updates",
+     "url": "https://www.bbc.com/sport/cricket/live/cx4g19ln55nrt",
+     "source": "BBC"
+    },
+    {
+     "title": "Pakistan vs. Sri Lanka free live stream: How to watch Pakistan ODI tri-series clash in India",
+     "url": "https://sports.yahoo.com/articles/pakistan-vs-sri-lanka-free-200001789.html",
+     "source": "Yahoo Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 69.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/sport/cricket/live/cx4g19ln55nrt",
+     "title": "Pakistan vs Sri Lanka LIVE: ODI tri-series, Rawalpindi - cricket score, radio commentary & updates",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://sports.yahoo.com/articles/pakistan-vs-sri-lanka-free-200001789.html",
+     "title": "Pakistan vs. Sri Lanka free live stream: How to watch Pakistan ODI tri-series clash in India",
+     "outlet": "Yahoo Sports"
     }
    ]
   },
@@ -92,7 +267,7 @@
    "source": "google_news",
    "keyword": "income tax refund status",
    "traffic": 0,
-   "article_count_24h": 23,
+   "article_count_24h": 24,
    "article_count_1h": 3,
    "published": "2026-10-27T15:17:03+09:00",
    "category": "Taxes",
@@ -118,15 +293,13 @@
      "source": "The Economic Times"
     },
     {
-     "title": "Council forced to refund landlords over tax status - Landlord Today",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMFc5U0t6dHpBZWtnbVJBMEZhOU5ZY1hOdjhfOG1mbl9UbXhLMi0yalJ2UzBwSmkxWDAyLW40N0N0bnJuSm9mbEVPaEJEM2dnZ0pJQVNsczkwN2FOUzdJSjVId2E0WEdTQ2xjVEl3WUFPNXVuS054X0V0clhSOVBhajlqWHk5LXBKTmk1dkg4bDV3b2ZGQWhtWGpYQmN3Nzd1dWVBeDZBdXE?oc=5",
-     "source": "Landlord Today"
+     "title": "50,000 Americans are receiving $5,000 payments, IRS says: Do you qualify? - AL.com",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVE5ObXBFenoxMXpQVUUxYTNkZjNkN2N6N3RyZmE4MFJZWHAweHdBcGZMaVozVzY5dTFSLTZnRkxRNUxEeG0yc3B4YzZJalR5T0JmN0Q5NVZoTEUwZ1JMRWpfX2JkT0hPZVVLVzBmR3QycFRvMzczVFJiNU5tZ1Vhczl5YjFPX3RVSGhyY3E4ajVjWEN3b011Q1BVa2dWdW42Szd2T2g4MNIBuwFBVV95cUxPYjI5RnRwemlLd0hNNWp5cElDZHdackxVbkRlUEZhWng5a2lVcXB4a3F5OWJIbHM4YmtqaXZZOUdjbEI1cTQ1RDNtNnhEYnJqc2x6Y1VyQ21HeGw4d2dvajlkMk9JWkhLZldRT2dlUjVyTUVKOXhVZFZ0b1JlaFdFRWJEZXl6ZmlWOF9sTVdwNlBtR1BPX21FY0RmYmdGMkpVa24tc0sxalhnOFVHTk5qZExxNHpQN1BCeEhz?oc=5",
+     "source": "AL.com"
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 1.0→3건 (2.0배)",
-   "spike_bonus": 20.0,
-   "score": 93.0,
+   "score": 63.0,
    "already_covered": false,
    "evidence": [
     {
@@ -143,159 +316,224 @@
      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-issues-travel-advisory-as-cyclone-arnab-threatens-flights-to-visakhapatnam-vijayawada/articleshow/135225232.cms?from=mdr",
      "title": "Air India issues travel advisory as Cyclone Arnab threatens flights to Visakhapatnam, Vijayawada - The Economic Times",
      "outlet": "The Economic Times"
-    },
-    {
-     "url": "https://www.landlordtoday.co.uk/breaking-news/2026/10/council-forced-to-refund-landlords-over-tax-status/",
-     "title": "Council forced to refund landlords over tax status - Landlord Today",
-     "outlet": "Landlord Today"
     }
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "PM-KISAN installment aug-nov",
-   "category": "Government Schemes",
-   "official_sources": [
-    "https://pmkisan.gov.in/",
-    "https://pib.gov.in/"
-   ],
-   "official": true,
+   "source": "google_news",
+   "keyword": "festival date",
    "traffic": 0,
-   "published": "2026-10-27T16:40:25.428114+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "in-pm-kisan-aug-nov-2026",
-   "phase": "aug-nov",
-   "queries": [
-    "pm kisan 21st installment date",
-    "pm kisan beneficiary list"
+   "article_count_24h": 38,
+   "article_count_1h": 7,
+   "published": "2026-10-27T12:16:43+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Karwa Chauth 2026 Date: October 28 or 29? Check confirmed date in India, USA, UK and Canada, sargi, puja m - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPQmNVcTR6cFZKY2sxZ2oyUFNjNGZFNDZvdWttZGM4bVB1UzY4c0Y3cTRCVkRYanFYMnhxbFNnSktPYVJVUDFmclF3cG9oc3d6RjFXQXlZbHdiZHI4NUJhV2hzVWFuNElpNXh0QlVsU3VNYk1oRWQyOU10Xy1pV0xXWTNOc3VoVHJJakZUMkI5WUtwelRSeEVhV29lZjdvU3lLbC12YVJIdlBCWi1SOUhySkZXQ0VQNllGOU9xelhlUmlQVms4MWtIeDVvcXFfMjE3UnlwVmpqZmZHV1UtX01YRVMwemJNRzZDOFhhYUVQRzVQLUtRS1dOdWZWeUotQU1BTlNqVXFiZW9kNHBtLVo1REh6ak1yZGRjeXMzUGp1MGjSAaYCQVVfeXFMUGxQVkI1RHlKQlQzeGIzVmx4YXlhVWl2dDdKZ183R3V0WjFSS1FEdTdmejgyZXVKdUFBdVl4ZUtuQ191cmNrVnhOT0luXzFDcGNZVkNscTI2RUdNYm1JY2VOenJ1TFZpejRzcUtXemctZ0NldnhuRjN3YWItTlRmWUZZV19iSTVTOG1KQ3c2UHZwQlBSNElvR041c2NFT2NVNHIyRWtVWVVDWjV2YW4zS3M1czRhaVUwbkZ0b1Fld2l1S1hCTUdvZ3hITnBDQXZhb0hBRkJPeWg3WGJORl9WOFIzU2xOdkNHcnVudXVvRGl1ek1JX2s4cUxMZUU1N29EeFNnY19XckpKaUhMQ3hFLVlQTVJMc3FUNDNvcGdTekNqWVZNQmln?oc=5",
+     "source": "The Economic Times"
+    },
+    {
+     "title": "Be Veggie 2026 at Ficoba: Dates, New Features, and Program - diarioeuskadi.eus",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTUktXzhUS3V4eHZKeUQ2cnRSTF8wWWthN3piTm9fNU5kWER4eHVRdGxHanNkTGEwVjVCVlROTWNzSWFFZERnZjJlS1ZRbktoOUxxbVh2NVlDeG5EbHV3OHAzNTRESEVaRTUxMXU2RHRGajFlTWJqdG42V0liT0RoWEhCQm9SYzhRb3BGbFpsclM2RVJVUTg4RXNwcm5nY2VxelNfQkFSUHBFY3hCcUx2QVFUS3ItLTlTYV9hRDR1NHp0OC14LVE?oc=5",
+     "source": "diarioeuskadi.eus"
+    },
+    {
+     "title": "Amélie's Director Is Coming to Singapore for the vOilah! Festival - DANAMIC",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT1JlQThibG1QcEVrWHVOYjJpaGdCaDdtaFkzTkVUNXFLdWJLSTdtWjliUTRrVUVXOWx5SW91MEFoOVNYWnB3MF9sTnRtOWNpdjdFWGZ3ZTJYX09vRTFockFpenFkM09uZ3VaSm9UZGdvRWlKeVV5Njhra1AzUHdCdkRkRFJFd25CWmFIdEhsZEN4YmIySm1BajEyYWxOY2VaUmFVcy03UklUWEUt?oc=5",
+     "source": "DANAMIC"
+    },
+    {
+     "title": "Frost Children 2026–2027 Tour Dates, Tickets & Schedule - Ones To Watch",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pY25CNmxtTDl1MVgtUWxfWjZ6Ukw4azJKOC1lMG0yMGZjeGV0eDdpYl80S0RHRlZ1OWg5SmhRYXI3YzRST3BzN3NnRmJHM1owbmgzOVE1aWNoc1dKSW5jYU9CZlAzdXpqSUFycnNNcEc3bFE?oc=5",
+     "source": "Ones To Watch"
+    },
+    {
+     "title": "Diwali 2026 Date, Lakshmi Puja Muhurat And Full 5-Day Calendar - RVCJ Media",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xQVVuX0ZKd2VUTjhZNEdNc2JoQXZYQ1p2SjVoRVNhWHVEbElGSkdhX05vckVGcE82c2VrMDRxcWVhS04xWk9ZTnh6b2swVE9QUGRoYVNCTmV0dWE1VVZMV3pHMkE0TmdYSlhz?oc=5",
+     "source": "RVCJ Media"
+    }
    ],
-   "window": "2026-08 ~ 2026-11 (보통)",
-   "days_to_start": -87,
-   "in_window": true
+   "official": false,
+   "score": 55.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://economictimes.indiatimes.com/news/new-updates/karwa-chauth-2026-date-october-28-or-29-check-confirmed-date-in-india-usa-uk-and-canada-sargi-puja-muhurat-and-moonrise-time/articleshow/135223374.cms?from=mdr",
+     "title": "Karwa Chauth 2026 Date: October 28 or 29? Check confirmed date in India, USA, UK and Canada, sargi, puja m - The Economic Times",
+     "outlet": "The Economic Times"
+    },
+    {
+     "url": "https://diarioeuskadi.eus/en/bidasoa/general/be-veggie-festival-changes-dates-to-be-held-at-ficoba-on-october-31-and-november-1",
+     "title": "Be Veggie 2026 at Ficoba: Dates, New Features, and Program - diarioeuskadi.eus",
+     "outlet": "diarioeuskadi.eus"
+    },
+    {
+     "url": "https://danamic.org/2026/10/27/voilah-french-film-festival-2026-34-films-a-beach-night-and-amelies-director/",
+     "title": "Amélie's Director Is Coming to Singapore for the vOilah! Festival - DANAMIC",
+     "outlet": "DANAMIC"
+    },
+    {
+     "url": "https://onestowatch.com/live/frost-children-tour-dates-2026-2027/",
+     "title": "Frost Children 2026–2027 Tour Dates, Tickets & Schedule - Ones To Watch",
+     "outlet": "Ones To Watch"
+    }
+   ]
   },
   {
-   "source": "calendar",
-   "keyword": "Income tax return (ITR) filing refund",
+   "source": "google_news",
+   "keyword": "GST rate change",
+   "traffic": 0,
+   "article_count_24h": 9,
+   "article_count_1h": 1,
+   "published": "2026-10-27T16:33:34+09:00",
    "category": "Taxes",
-   "official_sources": [
-    "https://www.incometax.gov.in/iec/foportal/",
-    "https://www.incometaxindia.gov.in/"
+   "news": [
+    {
+     "title": "GST changes from November 1, 2026: Refunds, return filing and ITC rules explained - Business Today",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYnEtbXZHMGRoay0xOF9jdzd1eFY0Y3lYR3AyNi10OW81cWtnVGpWU1VnOTFoWEFySmdzTWxneExGMWhFaWE4V1dORVdOTG5SMkg5M2tiNWRVd0M1aTBqQlZyaFl4OXNQclFCanFFQ09xYW1va1ZPRy11VUpqcVFGM2lSTGtObkZPaEp6QnRhdGFmWncxejhKSGszeU9fcVBKWjd0bElpRWw3bzUxNk5HUmxiMDhwcVF0ZjJNMVhxZ3JRd2Y2QzF1ek9hT2lYVUh6b2FQNWlHWGNkaVZicW5F0gHkAUFVX3lxTE4yT19GbE42dTIzNVNBREpCZEQwRDI2bERVaGlPQUUwODRoUEZlV191eTZaRG9tNWU1cUFzQWRpRkRrYU1vRjFrSWdnMTVTOFFsSGxKNmR1bzVwQTlPN1c0UlVyMkpZS1F3WWVkb3lsQldOVWRFMGd4ckNLdF81OHhiN19PNzJpbmpra2NXLTNzX1VjUENLT05zNF8zbmNvTVkzT2RHR0tVbnhXTzhnUXdfcVhSdzJKY0pZUnRudHk0RHo4Y1pISFcwVnVTUFlTV1BJb1B6WDRJUkM4ZE5TSHdWRWtPcA?oc=5",
+     "source": "Business Today"
+    },
+    {
+     "title": "Major GST Reforms Effective from November 1, 2026: Government Notifies Simplified Post-Sale Discount Rules, Credit Note Provisions, 90% Provisional Refunds for Inverted Duty Structure and Relief for Small Exporters - A2Z Taxcorp LLP",
+     "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPRG1wX0JSV3dnQ2E4TUlOVFlzcS1Hb25sUlJlY1pVVUlqSU9kb3haS2t2azAxSVFHb1lCRk9UanducndzLV9nZWZ4Nk9QOERlbk9ZUVYwdjZHb3ZzaUNTRzZXMWRwREpJNnlmQ01CN1I5cTRFU29CQWdJSEd4aWVBN1hRMjJNMHQwcWwwOGIxbVl3NGNSMzRVZFFNWk9tYklVbnNYZWlTeGJ0MWhBaUQ5MkU5azBGTFVBQzFfYllDVElrZ0FhSnpZSWR5cGJrUkZsTWcxTUdIOHJEd3RlYVR4dXd2Q1puaGlneVRFeTJGM0hIT25QaF91TWZkVEFGZlo3bmM0ZGk5a0tKNjctQzVQR09ZbTRBSmEwSklPZzdlQ3ZpSnRFajBoSEx6Z3FGQ3JEWGR1TkZFdmxOSk4wZlB6Nnd3?oc=5",
+     "source": "A2Z Taxcorp LLP"
+    },
+    {
+     "title": "Microsoft offers buyouts to 60,000 employees across India, US, UK, and Canada - Babushahi.com",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVGpnemlRT2t6Ujg3c2dlVnZxYlFXaDRsZHZuVDJzcElMRFJISlJ2VDFWSUR2c01aUmNsb2RxMHh1aDlTSGNUcFpkc3hDU2Q2YnFtUTZUazNRSXFVVThBNkRjSDBRMG9IcXhvTDNQcE83OEg1WUlreUU0MkdSbkRTQmZfZDBrWXBjVG9pd04yR1BKdUhTY2VtZGtvQnNNTi1RZmFsNDhSSngwTGF0d3lIMXU3bmhkNnZFVS1ZQktVZHBxTHlUdThPZVlkTllQdl8y?oc=5",
+     "source": "Babushahi.com"
+    },
+    {
+     "title": "Trident’s Diwali Sale Begins at Barnala, Attractive Discounts on Festive Shopping Across a Wide Range of Products - Babushahi.com",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxORjhvQ20zWjFnN09WZW9TUnc0aF9VZGVOMGg0YzdkRHhOVHAwZlBoVkVjVy01bjdvLTYzeEcwbzJBX0czU3JlZGhvTVlsT0QyTmhnQnMzOXlQdmlzY3pEVXU5cmxlVjQxZ3NBamlRQkNBbElaUHBzaVVPOGlJcEc5UmlmRjlLUEM1aUpybE95a0Jscjd5YVlpdnZ6cE9qRVlRVWhLaFVINUhQZkpGWlZQTTJ5c25FZW5nWGpTbVpyRXF0bi1iYnZBV2o3azY3QUJSU0ZjdWtJRVFYYUV4VkQ4d2IyN3lyQUlXSVQ0LXRUeUp4TWd2a2tfUW14SmdKc3BEbGhiSk9oZzF6YVk?oc=5",
+     "source": "Babushahi.com"
+    },
+    {
+     "title": "Proposal to raise GST just one more road to ruin - The Australian",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdkIxNmJ0cHE4aXlXSUctaFNDWTFnU2tsck95d2xxRDhLMzdvWnFMT0lMTkhfQ2pEWW5mWE9JZVpleXBjOWhUVXViWDViNVVQajdMc1BPUjRsY2ZkWTdWM042YkZYSkZCRlVDNkl0S3g0cWNkRG1Tdno3VHRMb01sWW9CRHJYcVRFc1BBSmV2Rmd4dWJSZGMwQVUtZDg2SExWV1NKZ3ZTc0ZWTEl1M3k0a0VTQmZocWJvLTJSRUpIaW9hYVBBZFJzY3c1Zm16MElpOHc?oc=5",
+     "source": "The Australian"
+    }
    ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-27T16:40:25.428168+09:00",
-   "score": 85,
+   "official": false,
+   "score": 46.5,
    "already_covered": false,
-   "cycle": "in-itr-refund-2026",
-   "phase": "refund",
-   "queries": [
-    "income tax refund status",
-    "itr refund delay"
-   ],
-   "window": "2026-08 ~ 2026-11 (보통)",
-   "days_to_start": -87,
-   "in_window": true
+   "evidence": [
+    {
+     "url": "https://www.businesstoday.in/latest/economy/story/gst-changes-from-november-1-2026-refunds-return-filing-and-itc-rules-explained-563893-2026-10-27",
+     "title": "GST changes from November 1, 2026: Refunds, return filing and ITC rules explained - Business Today",
+     "outlet": "Business Today"
+    },
+    {
+     "url": "https://a2ztaxcorp.net/major-gst-reforms-effective-from-november-1-2026-government-notifies-simplified-post-sale-discount-rules-credit-note-provisions-90-provisional-refunds-for-inverted-duty-structure-and-relief-for-sm/",
+     "title": "Major GST Reforms Effective from November 1, 2026: Government Notifies Simplified Post-Sale Discount Rules, Credit Note Provisions, 90% Provisional Refunds for Inverted Duty Structure and Relief for Small Exporters - A2Z Taxcorp LLP",
+     "outlet": "A2Z Taxcorp LLP"
+    },
+    {
+     "url": "https://www.babushahi.com/business.php?id=228873&headline=Microsoft-offers-buyouts-to-60,000-employees-across-India,-US,-UK,-and-Canada",
+     "title": "Microsoft offers buyouts to 60,000 employees across India, US, UK, and Canada - Babushahi.com",
+     "outlet": "Babushahi.com"
+    },
+    {
+     "url": "https://www.babushahi.com/business.php?id=228860&headline=Trident%E2%80%99s-Diwali-Sale-Begins-at-Barnala,-Attractive-Discounts-on-Festive-Shopping-Across-a-Wide-Range-of-Products",
+     "title": "Trident’s Diwali Sale Begins at Barnala, Attractive Discounts on Festive Shopping Across a Wide Range of Products - Babushahi.com",
+     "outlet": "Babushahi.com"
+    }
+   ]
   },
   {
-   "source": "calendar",
-   "keyword": "Dearness allowance (DA) hike for central employees jul",
-   "category": "Government Schemes",
-   "official_sources": [
-    "https://pib.gov.in/",
-    "https://doe.gov.in/"
+   "source": "google_trends",
+   "keyword": "nitish kumar reddy",
+   "traffic": 10000,
+   "published": "2026-10-27T17:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "'It will be healthy competition': Nitish says middle-order batters feed off each other",
+     "url": "https://www.ap7am.com/en/138363/it-will-be-healthy-competition-nitish-says-middle-order-batters-feed-off-each-other",
+     "source": "AP7AM"
+    },
+    {
+     "title": "‘It will be healthy competition’: Nitish says middle-order batters feed off each other",
+     "url": "https://www.socialnews.xyz/2026/10/27/it-will-be-healthy-competition-nitish-says-middle-order-batters-feed-off-each-other/",
+     "source": "Social News XYZ"
+    },
+    {
+     "title": "'Always believe...' Nitish Kumar Reddy reveals Gambhir chat",
+     "url": "http://www.cricbuzz.com/cricket-videos/215313/always-believe-nitish-kumar-reddy-reveals-gambhir-chat",
+     "source": "Cricbuzz"
+    }
    ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-27T16:40:25.428270+09:00",
-   "score": 85,
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
    "already_covered": false,
-   "cycle": "in-da-hike-jul-2026",
-   "phase": "jul",
-   "queries": [
-    "da hike july",
-    "da hike latest news"
-   ],
-   "window": "2026-09 ~ 2026-11 (보통)",
-   "days_to_start": -56,
-   "in_window": true
+   "evidence": [
+    {
+     "url": "https://www.ap7am.com/en/138363/it-will-be-healthy-competition-nitish-says-middle-order-batters-feed-off-each-other",
+     "title": "'It will be healthy competition': Nitish says middle-order batters feed off each other",
+     "outlet": "AP7AM"
+    },
+    {
+     "url": "https://www.socialnews.xyz/2026/10/27/it-will-be-healthy-competition-nitish-says-middle-order-batters-feed-off-each-other/",
+     "title": "‘It will be healthy competition’: Nitish says middle-order batters feed off each other",
+     "outlet": "Social News XYZ"
+    },
+    {
+     "url": "https://www.cricbuzz.com/cricket-videos/215313/always-believe-nitish-kumar-reddy-reveals-gambhir-chat",
+     "title": "'Always believe...' Nitish Kumar Reddy reveals Gambhir chat",
+     "outlet": "Cricbuzz"
+    }
+   ]
   },
   {
-   "source": "calendar",
-   "keyword": "CBSE board exams datesheet",
-   "category": "Exams",
-   "official_sources": [
-    "https://www.cbse.gov.in/"
+   "source": "google_trends",
+   "keyword": "glenn phillips",
+   "traffic": 10000,
+   "published": "2026-10-27T17:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Preview: New Zealand vs India, 3rd T20I",
+     "url": "http://www.cricbuzz.com/cricket-videos/215468/preview-new-zealand-vs-india-3rd-t20i",
+     "source": "Cricbuzz"
+    },
+    {
+     "title": "Stats - Chasemaster Tilak Varma turns up in India's 300th men's T20I",
+     "url": "https://www.cricinfo.com/story/chasemaster-tilak-varma-turns-up-in-india-s-300th-men-s-t20i-1559856",
+     "source": "Cricinfo"
+    },
+    {
+     "title": "Tilak, Nitish hold their nerve as India take 2-0 lead",
+     "url": "https://www.icc-cricket.com/news/tilak-nitish-hold-their-nerve-as-india-take-2-0-lead",
+     "source": "ICC"
+    }
    ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-27T16:40:25.428302+09:00",
-   "score": 85,
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
    "already_covered": false,
-   "cycle": "in-cbse-board-datesheet-2026",
-   "phase": "datesheet",
-   "queries": [
-    "cbse date sheet class 10",
-    "cbse date sheet class 12",
-    "cbse board exam date"
-   ],
-   "window": "2026-10 ~ 2027-01 (보통)",
-   "days_to_start": -26,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "JEE Main session1",
-   "category": "Exams",
-   "official_sources": [
-    "https://jeemain.nta.nic.in/",
-    "https://nta.ac.in/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-27T16:40:25.428338+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "in-jee-main-session1-2026",
-   "phase": "session1",
-   "queries": [
-    "jee main registration",
-    "jee main exam date",
-    "jee main admit card"
-   ],
-   "window": "2026-10 ~ 2027-01 (보통)",
-   "days_to_start": -26,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Bank holidays this month 11월",
-   "category": "Banking",
-   "official_sources": [
-    "https://www.rbi.org.in/Scripts/HolidayMatrixDisplay.aspx"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-27T16:40:25.428232+09:00",
-   "score": 70,
-   "already_covered": false,
-   "cycle": "in-bank-holidays-2026-11",
-   "phase": "11월",
-   "queries": [
-    "bank holidays this month",
-    "is bank open tomorrow",
-    "rbi holiday list"
-   ],
-   "window": "2026-11-01 전후",
-   "days_to_start": 5,
-   "in_window": false
+   "evidence": [
+    {
+     "url": "https://www.cricbuzz.com/cricket-videos/215468/preview-new-zealand-vs-india-3rd-t20i",
+     "title": "Preview: New Zealand vs India, 3rd T20I",
+     "outlet": "Cricbuzz"
+    },
+    {
+     "url": "https://www.icc-cricket.com/news/tilak-nitish-hold-their-nerve-as-india-take-2-0-lead",
+     "title": "Tilak, Nitish hold their nerve as India take 2-0 lead",
+     "outlet": "ICC"
+    }
+   ]
   },
   {
    "source": "google_news",
    "keyword": "school holiday",
    "traffic": 0,
    "article_count_24h": 40,
-   "article_count_1h": 15,
+   "article_count_1h": 14,
    "published": "2026-10-27T11:08:48+09:00",
    "category": "Holidays",
    "news": [
@@ -326,7 +564,7 @@
     }
    ],
    "official": false,
-   "score": 55.0,
+   "score": 38.5,
    "already_covered": false,
    "evidence": [
     {
@@ -348,125 +586,64 @@
   },
   {
    "source": "google_news",
-   "keyword": "festival date",
+   "keyword": "8th pay commission",
    "traffic": 0,
-   "article_count_24h": 39,
-   "article_count_1h": 5,
-   "published": "2026-10-27T12:16:43+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "Karwa Chauth 2026 Date: October 28 or 29? Check confirmed date in India, USA, UK and Canada, sargi, puja m - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPQmNVcTR6cFZKY2sxZ2oyUFNjNGZFNDZvdWttZGM4bVB1UzY4c0Y3cTRCVkRYanFYMnhxbFNnSktPYVJVUDFmclF3cG9oc3d6RjFXQXlZbHdiZHI4NUJhV2hzVWFuNElpNXh0QlVsU3VNYk1oRWQyOU10Xy1pV0xXWTNOc3VoVHJJakZUMkI5WUtwelRSeEVhV29lZjdvU3lLbC12YVJIdlBCWi1SOUhySkZXQ0VQNllGOU9xelhlUmlQVms4MWtIeDVvcXFfMjE3UnlwVmpqZmZHV1UtX01YRVMwemJNRzZDOFhhYUVQRzVQLUtRS1dOdWZWeUotQU1BTlNqVXFiZW9kNHBtLVo1REh6ak1yZGRjeXMzUGp1MGjSAaYCQVVfeXFMUGxQVkI1RHlKQlQzeGIzVmx4YXlhVWl2dDdKZ183R3V0WjFSS1FEdTdmejgyZXVKdUFBdVl4ZUtuQ191cmNrVnhOT0luXzFDcGNZVkNscTI2RUdNYm1JY2VOenJ1TFZpejRzcUtXemctZ0NldnhuRjN3YWItTlRmWUZZV19iSTVTOG1KQ3c2UHZwQlBSNElvR041c2NFT2NVNHIyRWtVWVVDWjV2YW4zS3M1czRhaVUwbkZ0b1Fld2l1S1hCTUdvZ3hITnBDQXZhb0hBRkJPeWg3WGJORl9WOFIzU2xOdkNHcnVudXVvRGl1ek1JX2s4cUxMZUU1N29EeFNnY19XckpKaUhMQ3hFLVlQTVJMc3FUNDNvcGdTekNqWVZNQmln?oc=5",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "Be Veggie 2026 at Ficoba: Dates, New Features, and Program - diarioeuskadi.eus",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTUktXzhUS3V4eHZKeUQ2cnRSTF8wWWthN3piTm9fNU5kWER4eHVRdGxHanNkTGEwVjVCVlROTWNzSWFFZERnZjJlS1ZRbktoOUxxbVh2NVlDeG5EbHV3OHAzNTRESEVaRTUxMXU2RHRGajFlTWJqdG42V0liT0RoWEhCQm9SYzhRb3BGbFpsclM2RVJVUTg4RXNwcm5nY2VxelNfQkFSUHBFY3hCcUx2QVFUS3ItLTlTYV9hRDR1NHp0OC14LVE?oc=5",
-     "source": "diarioeuskadi.eus"
-    },
-    {
-     "title": "November 2026 Hindu Festival Calendar: Diwali, Chhath Puja, Dev Diwali and Other Important Dates - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONmxrWnRVTXo3dzR5M01sWjJMc2UwX3o1bTFBRXpBMVc5TFVaTlFfakZib2c0d1lHcVRRU29kYm5sM1BSeFJNU1ItQ3pSNG13aFNtcmtrLTY2SnltdW9qdGRGNE1TR2huS09wNFlBbVF5Rk94c2JzSEp4eVAyM3FuaHc1U01wbUZYZkxmUDQwSjJLcnR1cE9aZWUyNnFzbHI5Y2kwcXJFcG1KVDFzQ19JeVg2bGZSTEFlZkVDemM1WE4wY3pTMVRkZVVPOG82a2RKWVNkbWFHNW53TzNvMGoxVm5kUjloWGxCUS1vWDFyVHIyZUloeU800gH8AUFVX3lxTE9qaDlMeVdOUmw3RGpPUmRuNVhZU2gtTkljN0sxdGN0X2hTdTc3cXBEV3ZBRXRObFJPMmhiQUx2OWNmU0c1VUpCLVk0TDBRQXVGOGo4ZFdlYXZNM1cwWEVZRjQtRnVfcUdkZ0g2aG1fSEhLTWN3Z1dhb2lBakRnN0pvRDV4M1dldXNFblNKTlBCcW54TVFXVERnbFZhM1FWVlNVTXN3ZUc4S1dMTTBuZ0JwSlBSdkF1TF9BZkNITjdfSWNwaWF6b1FOUEUwWWFJTmVqLW81SHJiMlkzQXFqTGJYbVlReU1hYXEwd3kxUTR0ckt4QjViTnVJaXYyUA?oc=5",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "Frost Children 2026–2027 Tour Dates, Tickets & Schedule - Ones To Watch",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pY25CNmxtTDl1MVgtUWxfWjZ6Ukw4azJKOC1lMG0yMGZjeGV0eDdpYl80S0RHRlZ1OWg5SmhRYXI3YzRST3BzN3NnRmJHM1owbmgzOVE1aWNoc1dKSW5jYU9CZlAzdXpqSUFycnNNcEc3bFE?oc=5",
-     "source": "Ones To Watch"
-    },
-    {
-     "title": "UAE Award Organizes 70 Date Festivals Across Nine Countries, Including Morocco - Morocco World News",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUWRWOTdGN1FtclM0c0ZMX0czV01rNzFZdVYtUnlwNUpTbmNDS2xQUGZoV1dma29EdFlOUkdPNzhzOXVLaWZxTGpZZDlQWDBLOGpDeVctVmIyR0ZkNjN6UlVicUFiWW1RM0FaeEF6cDF6LW8zUUlZYmxTelNNdGpTTmN3cnhPQkRGWE5PbVVoRWxYblNTdXByWjFLZ05sN3Y5MGJYLXQ5bTFtU3U0eUtrT1h3SUxERnlpVFB3a0RQVW1VbGJR?oc=5",
-     "source": "Morocco World News"
-    }
-   ],
-   "official": false,
-   "score": 55.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://economictimes.indiatimes.com/news/new-updates/karwa-chauth-2026-date-october-28-or-29-check-confirmed-date-in-india-usa-uk-and-canada-sargi-puja-muhurat-and-moonrise-time/articleshow/135223374.cms?from=mdr",
-     "title": "Karwa Chauth 2026 Date: October 28 or 29? Check confirmed date in India, USA, UK and Canada, sargi, puja m - The Economic Times",
-     "outlet": "The Economic Times"
-    },
-    {
-     "url": "https://diarioeuskadi.eus/en/bidasoa/general/be-veggie-festival-changes-dates-to-be-held-at-ficoba-on-october-31-and-november-1",
-     "title": "Be Veggie 2026 at Ficoba: Dates, New Features, and Program - diarioeuskadi.eus",
-     "outlet": "diarioeuskadi.eus"
-    },
-    {
-     "url": "https://economictimes.indiatimes.com/astrology/others/november-2026-hindu-festival-calendar-diwali-chhath-puja-dev-diwali-and-other-important-dates/articleshow/135206119.cms?from=mdr",
-     "title": "November 2026 Hindu Festival Calendar: Diwali, Chhath Puja, Dev Diwali and Other Important Dates - The Economic Times",
-     "outlet": "The Economic Times"
-    },
-    {
-     "url": "https://onestowatch.com/live/frost-children-tour-dates-2026-2027/",
-     "title": "Frost Children 2026–2027 Tour Dates, Tickets & Schedule - Ones To Watch",
-     "outlet": "Ones To Watch"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "DA hike",
-   "traffic": 0,
-   "article_count_24h": 42,
-   "article_count_1h": 6,
-   "published": "2026-10-27T15:50:33+09:00",
+   "article_count_24h": 16,
+   "article_count_1h": 3,
+   "published": "2026-10-27T14:43:54+09:00",
    "category": "Government Schemes",
    "news": [
     {
-     "title": "DA hike for central government employees: Can government announce dearness allowance increase on Wednesday - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOeGlVTmFTVTJXX1M4V3ZTTGNHSGE1aEhtb0xiYmdicE1weFNaVUdXRGJYaUp6N0JlN29EOFEtM1FvYWhnQUllbTQxYUtIUEcwekx5aUw1YkpTaTVmX3JYM3E5RF9EQmgybV9DLWstcExBcHlHWHNuUlRNYkVXNVYteS1HUlR1YnB5eTVjcjhIZkhoM3BxUHZrRTQ2bUxpWFJPRGsxLXdNMWRBdlJsSXMtWkV2UV85MjhBZmhPbU1yemhjYnl4cEN1eG5qNHhSQjI0M3gyS3JMQ25XWlZQOThTT3E1cVNhR0xmaUMyNmh3RndYQ0NNRnAza1pnd9IBgAJBVV95cUxQYmw3dHFYVnRoZkFabC1IWmtZMEc2cEN1M25FTUdWMkVybWIzRXplLXRDeWx1VkFua1pESHBGWXJWZk1laFJMR2M3T2pRbmgtbF9NclJtZDNzVFFFUW1fUzdTNXJreXplWXV3Z1oxdnAzUlBFX0UtM1pOQU45ZUJ4SzFULV85Q2VwR1hKeE9iN19jcUN2MktuLUJBMXhZcHRZNjY3X2cyc2kyT3dMd3lNbnk2OXd5X1hJbE1VR3dtLTFGZUpVVHZSOVMycFhfRnllaXNPbDAzd1JLOWRnYWxrSEZtMVhhbDhjMVVvcFQtdFMxV1RyVkNIX3gxWUJvRjRG?oc=5",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "DA hike news 2026: Good news before Diwali! Now, Dearness Allowance every month with minimum salary for these employees - Livemint",
-     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNYlVnS3V3TUxSZnh3U2VtZ0JCMkNDaUxuUEQxRWhVa0FKSC1JS2tJYlNqemduQmpTZTFwMkVzWnhOZ0JPWjIzaW1aZHM5cXhJVkFWWUVpd2tXREYza3JTSDdFZnlZaWtUeVdzamhmdURxNU4yWkpTaWZQcTZBUHZOd3Nyam1sRmJzd3U5OHlWdEtJY3pFWnp2MTV3SHRVekxfRGNNbldPVjBPUjRUcU4xRVMzWGFreG1pR0dGd2dwbWZlOVZNejhPS0liSl9BT0VEcXZ1NlUzdkw4d1Rka2xtMmdLNF9DVEJGQWM0dm1UaUp1ejZHSlJJZmt2WDM1azBnOTBmRHVzXzZyVm00VVpWamlR0gGXAkFVX3lxTE8yVmVlU2dtUnlmcjVlODNRajkxWUZ5ZkpGbS1TVGFjamtNM0w5MTREZjdJbnRTQ1FudWFlTG9yUGlld0JhTlZ5OV9fMXBkRWl5RjBYSS05ZGVrcFREdTZyVm1oSDMtTGg0TzNjTVlhSExINWlFUlN1cm5kTHNQRFJIckJpMDJiRno3Vkk5TlNoa21IU1J0RU83RTdxOVFWUmVjVmxmNnlCaDVIVDN5SWFXeGJLYTNzNG5sUVhQT1V6aG9zMEtoLUliXzJCeXkyQTlSQWJKbEl5dm9fTEFEUmpDOUpNc0RKYS1yZHNkWXNCX3ozSHZyRDNZZVBobDNiYXQ2ZE4weFVmSTZTNTB4V25iWEtpNFg0OA?oc=5",
+     "title": "8th Pay Commission: Speculation over fitment factors of 1.83, 2, 2.57, 3.83 and 4—We calculate salary increase for each - Livemint",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZUdFRFZ5aEZWeFNsUy1yeTB4ZlBiMDd2T3VTd0pHV2NMVlBaVVZHVzZRdHB3NFZlbkp1eTBzQVVPaU9BY0hRQXFuYjBEaUd4S1pqanE0LUt3Mk5oUEN2MkxsUnZ1aFE4LTkzaDc4cXF0dmNrejh4MnNyVnN1Rm9KNWxFeGxPd1Q0NC1TeGJwVi1XUDZ2bWo5Z0RPSzU4SkxiOTAwTVZ5MmRfUFUyVDJTWGljN1FjQk9vSm1hS2tOQWMtX0c1NC1iWGk5b05jOFRFTjhrSzRLUlBJOFNheFZnYTVCanVQeXllTzVsUHN6VU9sQ0FYZVdMNjJB?oc=5",
      "source": "Livemint"
     },
     {
-     "title": "Himachal Pradesh: ‘Rs 8,555 Cr owed to retirees’: BJP slams Sukhu Govt over unpaid dues; Demand 10% backlog clearance - Organiser",
-     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPY29CN05mcGQtQV9qNGMtM3FZbnFqb3o0djRBeERQVWxzeDVGWkxEb1hxZ21Mb19MTWpndXlJT0RmTjZNRGo2ZzAzYUdkUDRLcllKYUZ1WkhFejJnclVwVkR6LTFfb2lJeXktdVQ4aUNZb2hYNm12TWpFSDNWdWdIb3pmVW1rb0NMX1JocXVkTFl1VF91MDdfZW1XYXk2Q1dqWXYxNk1fNW9xeWdETzdpRFkzQ2xpMGNDSnFSN3JHSEhyTnVhTUExdGpid3Y5VTR2Mkh5RTZ4SUxxUEt1dlFHamhPSTZPY1dxaWlBNTRvVGJqWE8teC1SM3g5ZDV4RGpWWTlTcFVzTdIBjAJBVV95cUxNdFg5Y0lRa3o3T3U1Q1FWdFFYNmN0M3RBR2hUQUVndjhmbmIwYkdnSEQxUjFMcVo3UUNGd25mbDBONERJck5tSExOVVROTEJ0cDA4Y1lGaTZrV184N0oxbDZHZUgzQTlvVDhhNHVUNkVoWU9KeHlxYXotMzBjTEhjeDBPQ1JuOVdkQzkwVVFaTkhGMzZGcTZZbDVsdUg2dVVMQ0lrYUwtdTBfRUZPb2Y3N2d1UktRVVlpc1V1aE11cHFNUHBYQTZGZFBCeHozNlRYa1pjekEzN2RJTTB6U2xZV2QtTHRlbTFxVjU2YUZqRU9iMjBXaDJhOV9LSTNMWXVDbXd1SF9uZW9qZlFR?oc=5",
-     "source": "Organiser"
+     "title": "Mass Dharna Held at Tiranga Park Demanding Parity in Pension and Inclusion in 8th Central Pay Commission - Andaman Sheekha",
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5NLXB5V0xBVERRcUVnd1ZhMF9zeVFiSXJVZGZXM1pVQXZaVW5ybHh4WFFFaHlBbW9FYk1hRVFNUVNkX1V2MEtLaklR?oc=5",
+     "source": "Andaman Sheekha"
     },
     {
-     "title": "Diwali Bonus 2026: How Much Is Your Bonus And When Will It Be Credited? Check Eligibility And Steps To Calculate - Jagran Josh",
-     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdmdZOC1WQmJZa3JZUzVtend1TnhfRXJTREJOaDh6d3lOa3gxNl8xQTc4OGVKdlktR2diNGlnZnpnQm1UbVVtaFVPZENvQVJ3ODkxNEhXNWNEYlBadGNENFMyMXhvR3Etcld6TENpcXBvNG44WHpxWkZaVTJ4UEhod0pIbFNWYmVNb2M2OUcwMHJoOVV6VjVVWlREUUZZS0VyMVdUUkRmMkF2U21tczdFa1dsUU5vTElvaFdhMVU2ZWM5NDNZR2N2NVVnQ0R3enVoeE9qbGE3bWdoWGlmR0ZzNVE1MXpYdnRlalBEcld1Z24wdTZYY09vTEtuMNIBggJBVV95cUxNLVdkMTJqdmFmTUloMXV0ZFFpQS15Q3RJZS1OaDIwWlp0N2xrUjZrVGNzNTB6eHZRc25raXdKUE1iNXpOb3o0Y2FzSE1LMTJfQ3daWWdwM2kyZGx2a0g0VXpRVVI1VDJyYTNLWnVBR3RqQTI0OHpMSXhmcXJENUFrbGc1QVlPaTBhZUpTbjk4UF92MG9wbk56S0dqZmxmZDdSd3ppY1VUTUcxRkVWWVhXaEdQX3hRSEhLRzFWaVV6Y2FvdGI1bHBZNW84NXktMXlzb3dhTHJtR19MdmJfUnRBaldaNkhWcUw3MGtFZm5hbHhfTzE3QjZjZ25yMGRLUHZ2MlE?oc=5",
-     "source": "Jagran Josh"
+     "title": "Kerala HC back-dates 3 increments for LLM judges to 1996 - indianpaycalculator.in",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRG5aUzhwM3VPTHZ2emY1M0ZLemNtZ3BJTDBreW9zbWpkcVhGV0FWYkNNLTdaWXlESVI3ZXAxd3hONzB0LUd6V01GWXcwSHEyd19pRW04U0U4SGQzX0swSGVobVpPaUo3RmRNNHIxaWRTYml1bHRLNnZIdTl6WmVZdEFETHJJT0M3N2k2aHh5VzZGTF9oY2pQM2hTQmFNVnc?oc=5",
+     "source": "indianpaycalculator.in"
     },
     {
-     "title": "EPS-95 higher pension: Pensioners’ body appeals to President as retirees struggle to get higher pension - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTC1obEYtSXhVSU9ibEl6R25PMWhJV0dvNVhRVUpOM1pXMV9PUFZfMXRTektvLWZwYy1OMjhDVktRc2VKUUNBQVZmUDRXWlBtZnpjZDlFZE1MZnprTml0a2NRU1o3YWlqN3lLVF96ZzE1SUN2OER2Q3FLQ1ZzdmhGRzlQQXl4ZzZFbW1MTjFRYldCQjlBMjJiMTVtSERlWE5oZUZNZGZkdEZBUGdoLW9ibjROZmZpa185YTQxN2pYYVdjWHNYNU1kZWh6NHlESUVtTVUxTk1MSXhWWkdCdWJLeU1OdkxNZHVyTmRPM1BjcVpBZ08wdUhKZnFyVmUwNWNrY1HSAYcCQVVfeXFMT1VNaHZJTFc3ejR4alpEOU9vV2ZuV1ZhTS1XY1pfVWRYR3ZLaU90d0tuUlVjbnJOSUVxcjRXWi01dDFPQkJUZEx4SW9lUGJ5ZFBMZTItbW4wM2NLME1vdDRzT3R2b19kR2hZSzNKczFNQmgySGxVMWtOSGZRdThHQ3JiTHpHNTFxLThRS3RZd2JneTF6ajVJeGxmcFI5XzhUVXY0c1BaSWt3ekRRcnhRcHh2QkF1UWxiWU9uZDl3bGhoRW9nUDE4bmZULWNMTUd6ZzBPVFE2WFd3Y3JjVkFQQ3lIRUJZS0wycDBmc3A0S1pYY0prOHpiLWRqbUNCTVFmZjZzcjF3VGs?oc=5",
-     "source": "The Economic Times"
+     "title": "LTCG tax: Govt may restructure rates soon; how much could investors save at 10%, 5% or 2%? - Livemint",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZF9CS3V4R1U3MnprQXZHRHpVbTRTbzhVR1YxVkRlVThiR0d1X0c5cmx2LUg3RUozUzhCRHJMXzhjbmNDd0lWUWRVMVpjX1BESFpZUmZ6d0pVRklsOVNydTJTaWo1Rl9RUUdZblBfdVduNEd1dllwdlVZSkNlQlZPcHBteFVxVnFIenB5cjRoRV9xcHVYbXBSTnNrNW9VVmdGUnIwSE4tRTYzZWhpR1dEaUJDZV9PcWhIdjRDSmpFVk9xODQwTnk5NzFaRmFFd0tJYVJ5ZnVRam16ZTFqdFgyVDNIZG16amNaR2xN?oc=5",
+     "source": "Livemint"
+    },
+    {
+     "title": "Aequs shares crash 19% after Q2 2026 losses widen; Buy, sell or hold? | Brokerage weighs in on what’s next - Livemint",
+     "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOM2VvVjBkZG50U1BfUFVzSGd4T1VtV0w1amFKY3hhQzFKSkx0Mld3WkIzcXA1Vld1OFZBbGdFWmNSM2owQjFDOUtnVDd4X25zN0MzbTlmX0loQThxWVJVRjg1UndzT2drR3A0eHdITUU2SE9xaERiOEl0VmNvdlBPV3BnSjd4YkRpNUlPbXhTMXk2OEh4OXNLQzNZQnVsQ2tFdDdVWGhubTRCcWhhOGdLanJ6T0VzNHpHZTExVzJrTUtHX0xGUjJLRzZ3WTI4SzBvQ1RGbmNCYjhiQUpWamp1UzVzYW9FVWw2bTFzNVBRYV9hNUttQS1yb1FpbEhyQWZ4cmhBXw?oc=5",
+     "source": "Livemint"
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 1.0→6건 (3.5배)",
-   "spike_bonus": 35.0,
-   "score": 51.0,
+   "spike": "최근 1시간 기사 1.0→3건 (2.0배)",
+   "spike_bonus": 20.0,
+   "score": 37.2,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://economictimes.indiatimes.com/wealth/save/central-da-july-2026-news-can-government-announce-dearness-allowance-increase-on-wednesday-october-28/articleshow/135226813.cms?from=mdr",
-     "title": "DA hike for central government employees: Can government announce dearness allowance increase on Wednesday - The Economic Times",
-     "outlet": "The Economic Times"
-    },
-    {
-     "url": "https://www.livemint.com/money/personal-finance/da-hike-news-2026-good-news-before-diwali-now-dearness-allowance-every-month-with-minimum-salary-for-these-employees-11793027019070.html",
-     "title": "DA hike news 2026: Good news before Diwali! Now, Dearness Allowance every month with minimum salary for these employees - Livemint",
+     "url": "https://www.livemint.com/money/8th-pay-commission-speculation-over-fitment-factors-of-1-83-2-2-57-3-83-and-4-we-calculate-salary-increase-for-each-11793071982009.html",
+     "title": "8th Pay Commission: Speculation over fitment factors of 1.83, 2, 2.57, 3.83 and 4—We calculate salary increase for each - Livemint",
      "outlet": "Livemint"
     },
     {
-     "url": "https://organiser.org/2026/10/27/420869/bharat/himachal-pradesh/himachal-pradesh-5-per-cent-da-hike-sparks-questions-over-rs-10000-crore-arrears-as-pensioners-threaten-protest/",
-     "title": "Himachal Pradesh: ‘Rs 8,555 Cr owed to retirees’: BJP slams Sukhu Govt over unpaid dues; Demand 10% backlog clearance - Organiser",
-     "outlet": "Organiser"
+     "url": "https://andamansheekha.com/151861/",
+     "title": "Mass Dharna Held at Tiranga Park Demanding Parity in Pension and Inclusion in 8th Central Pay Commission - Andaman Sheekha",
+     "outlet": "Andaman Sheekha"
     },
     {
-     "url": "https://www.jagranjosh.com/general-knowledge/diwali-bonus-2026-how-much-is-the-bonus-and-when-will-it-be-credited-check-eligibility-and-steps-to-calculate-1820013360-1",
-     "title": "Diwali Bonus 2026: How Much Is Your Bonus And When Will It Be Credited? Check Eligibility And Steps To Calculate - Jagran Josh",
-     "outlet": "Jagran Josh"
+     "url": "https://www.indianpaycalculator.in/govt-news/kerala-district-judges-three-increments-1996-not-2013",
+     "title": "Kerala HC back-dates 3 increments for LLM judges to 1996 - indianpaycalculator.in",
+     "outlet": "indianpaycalculator.in"
+    },
+    {
+     "url": "https://www.livemint.com/money/personal-finance/ltcg-tax-govt-may-restructure-rates-soon-how-much-could-investors-save-at-10-5-or-2/amp-11793073136641.html",
+     "title": "LTCG tax: Govt may restructure rates soon; how much could investors save at 10%, 5% or 2%? - Livemint",
+     "outlet": "Livemint"
     }
    ]
   },
@@ -475,7 +652,7 @@
    "keyword": "RBI repo rate",
    "traffic": 0,
    "article_count_24h": 14,
-   "article_count_1h": 3,
+   "article_count_1h": 6,
    "published": "2026-10-27T11:28:00+09:00",
    "category": "Banking",
    "news": [
@@ -506,9 +683,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 0.5→3건 (2.7배)",
-   "spike_bonus": 26.7,
-   "score": 41.2,
+   "spike": "최근 1시간 기사 2.0→6건 (2.3배)",
+   "spike_bonus": 23.3,
+   "score": 30.8,
    "already_covered": false,
    "evidence": [
     {
@@ -534,60 +711,19 @@
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "finn allen",
-   "traffic": 10000,
-   "published": "2026-10-27T16:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "‘With my brand of cricket, confidence is extremely important’: Allen ahead of 3rd T20I",
-     "url": "https://tripurachronicle.in/sports-news/with-my-brand-of-cricket-confidence-is-extremely-important-allen-ahead-of-3rd-t20i/",
-     "source": "Tripura Chronicle"
-    },
-    {
-     "title": "IND vs NZ 3rd T20 Live Score : टीम इंडियाने नाणेफेक जिंकली अन् न्यूझीलंडला बॅकफूटवर ढकललं! श्रेयस अय्यरचा प्ले",
-     "url": "https://marathi.abplive.com/sports/cricket/india-vs-new-zealand-3rd-t20-live-score-update-shreyas-iyer-abhishek-sharma-vaibhav-sooryavanshi-abhishek-sharma-marathi-news-1443671",
-     "source": "ABP Majha"
-    },
-    {
-     "title": "फिन अ‍ॅलनची सुपरमॅनसारखी झेप अन् मिचेलचा लाजवाब कॅच; अक्षर पटेल पाहतच राहिला, न्यूझीलंडने अशक्य झेल...",
-     "url": "https://www.tv9marathi.com/sports/cricket-news/ind-vs-nz-finn-allen-turns-superman-to-pull-off-an-impossible-catch-with-daryl-mitchell-axar-patel-dismissal-1788086.html",
-     "source": "TV9 Marathi"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 39.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://tripurachronicle.in/sports-news/with-my-brand-of-cricket-confidence-is-extremely-important-allen-ahead-of-3rd-t20i/",
-     "title": "‘With my brand of cricket, confidence is extremely important’: Allen ahead of 3rd T20I",
-     "outlet": "Tripura Chronicle"
-    },
-    {
-     "url": "https://marathi.abplive.com/sports/cricket/india-vs-new-zealand-3rd-t20-live-score-update-shreyas-iyer-abhishek-sharma-vaibhav-sooryavanshi-abhishek-sharma-marathi-news-1443671",
-     "title": "IND vs NZ 3rd T20 Live Score : टीम इंडियाने नाणेफेक जिंकली अन् न्यूझीलंडला बॅकफूटवर ढकललं! श्रेयस अय्यरचा प्ले",
-     "outlet": "ABP Majha"
-    },
-    {
-     "url": "https://www.tv9marathi.com/sports/cricket-news/ind-vs-nz-finn-allen-turns-superman-to-pull-off-an-impossible-catch-with-daryl-mitchell-axar-patel-dismissal-1788086.html",
-     "title": "फिन अ‍ॅलनची सुपरमॅनसारखी झेप अन् मिचेलचा लाजवाब कॅच; अक्षर पटेल पाहतच राहिला, न्यूझीलंडने अशक्य झेल...",
-     "outlet": "TV9 Marathi"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "bank holiday",
    "traffic": 0,
-   "article_count_24h": 43,
-   "article_count_1h": 21,
-   "published": "2026-10-27T13:58:41+09:00",
+   "article_count_24h": 50,
+   "article_count_1h": 25,
+   "published": "2026-10-27T16:47:39+09:00",
    "category": "Banking",
    "news": [
+    {
+     "title": "Diwali bank holiday: November 9 or 10, when are banks closed for Diwali? Check RBI’s full November... - Moneycontrol.com",
+     "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPeVdQSzRNZUV2dDY2MUFwWVBjRTVHY01YTlRNeGNTc3h4MHFkM0h0S2JQY0ZFano3V0tjNkJNQTNBNS1rRW85cXpxeDVEQ1JBVVBOaG5JcWdDWEMxcGR2QUdNaEhSbVpwTmhmaTdnTmxmQWVkVjVsU3dLM1JEZk1GdVU1UmxrTk9ZUy14ZnBoc1NUQTVhNU9vMEZyWVc0dzJNYi1hOTFRQjZtcVU2Z3VTTDQwcmxNRmZjcmxHRUlZeWVCWFRrWUNSTTZRWDh1WFhmbjZDVngtVUtLUk4xUGduNE01Z3RFVXU4Vk52cy00T3BROUZZYVZQUHdLdjhLd2dESnZGX0M0cW1CRFZP0gGSAkFVX3lxTFBxbXVpUXlDM2tNRERLdndtR3JNYVNPZWhWVGZGZXR6RzV5MlBHbk5TcnJTd3hIckxFQ2NjeVVIQnBWaW95NHc0OG1ERG9WX3d2Rm5PZERnWkpnLWhQbkJQLURvd05rY0Z1Yk9jQ2xGcVI2SXVBTmg4eUtPRV9CLXdDYTU1VlEzYnp2R0pHWFRQbjhQemt3N01PVDR3aHdPZkZjS2gwOEdJS29JLTRkemJGdm5OVzVEOUVNWmU3SWxiSTkxS2xudllEWUNUNU1MckNqR3BKMVNiUEY1TkhpaUxJRENQamg0Z0NPUFNPMFhKVHk2Rm0tdmNwVndkWFd6NmtUZ0VIOHBXajAwVm1KdFJWdlE?oc=5",
+     "source": "Moneycontrol.com"
+    },
     {
      "title": "Bank Holiday on Karwa Chauth 29 Oct 2026 Thursday: Not open! Check state, region where branches will remain closed - Livemint",
      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPY0hxeF9fZjZMZS1GX3lrV2NCdjJGNFFqRklMNzhPa1ZOenFhUmIxa2NZMU9nMWhiVGttdHhJT3lRRlRrT0ZSUWktN1pSb3FJNlA4V2JxLWhjbG5zUENyNHNhdzlreG4zUDMzMGlMaGkxQkpiT0M3WURWQ1RSSGRraDYtSmFoalVMRnJOQS1ZVDdlQldFV0RCT1dKZUJYTkN6RzYxVnRIR0d6MFg0NWdIOVc3R21IUkR1a05icWpreFhSRmFJb3VkN0ZNZE43Z3RVcUtIUlJOU21BaHp3eV9kZkpzWS1ETXlIazdHTHhydWdZNk0xQjZPTVV6U051dw?oc=5",
@@ -604,11 +740,6 @@
      "source": "IndianEagle"
     },
     {
-     "title": "Bank Holiday Today: Why Are Banks Closed On 26 October? Check City-wise Reasons Behind - Jagran Josh",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU0FTcXpvaFRJV3Z5Z3NYYW9jYjVvWUJKbjg2V2hldVdfM1p6bmh2WmNDeVZQR2pRLXNaU2VqR1V3TUJtYnhCYnc4dWhWMFJmdXl3VzZURVc3WjQ4MV94alEybFNVVEhDdXQ2dndVblhqNkJWbTNJRmxWV0R5NlhSNHUxWmgwcFF1eWgxNk1Nd3c5ZmZJdzNIaldRcjJ5WXpjaUtkRzJWUHMtd1NyT1lBU3otcG9uLWI5Ump0VHlFN0ZoQ0QzRkRhVjdsajRxeW1mcjJn0gHaAUFVX3lxTE9pN1JabENUSlRQM3R6c3ZqUmlDdjdUZmtSb0l5eGFWdFpqbXdTME9WYWFLZnVzSTZ3OUo4eXM0Z21JSGFMdXoyTllJRzJCb01tVlpnODQtNS0xa1Bid1c0bXo2SnlVNXhqQXBaeGd4U0ZOZFRDeER5b2VzOHBjZmRrYWxvWmN4M1M5WXJ2aTV3YU5FRUdpdUU4WDFlcUxra3B2QXhCODNyWTMxYWd2RmJSTmZ2RTRoZS1NV2gwbTdPS2RFb0otV21fZld5elkwWGo5b0Z4RkphQXpn?oc=5",
-     "source": "Jagran Josh"
-    },
-    {
      "title": "Why you may find the Tuesday after a bank holiday such a downer - RTE.ie",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1lyUXV3ZS1ZVTQwcFN2YnN0RmNWbGJWdzlieWU0MUFrSl9JbzRNaGxid2syZkJnNVd4d0dPLXJYSGxoczlpMUc0eHR6WDk2bUlmcGE0eENRSGJjcmJsRTJQRjByYzRaWGdRc3hRU25ZVENoRUJPTVUtbUZXWEEyTk5uY0JyY0J6NkItaERYc0t6VE1KSjdka2lnM1c3dUVEdTI2UVhqSEJ6ZzFES096cw?oc=5",
      "source": "RTE.ie"
@@ -620,10 +751,166 @@
   },
   {
    "source": "google_news",
+   "keyword": "SSC exam date",
+   "traffic": 0,
+   "article_count_24h": 24,
+   "article_count_1h": 8,
+   "published": "2026-10-27T16:55:14+09:00",
+   "category": "Exams",
+   "news": [
+    {
+     "title": "SSC JE City Intimation Slip 2026 Out @ssc.gov.in, Download Paper 1 Exam City Slip Here - Adda247",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQlFfUVNGTTFWZnc0bVN0N0dCRHZWdGxWUjhOTUpxVm54QmJ4M09WUlFLQmJSNEx4X2J6ZUZZU3JDbkNtSWN0WXRqMVprVnVLSmNqZjJfNWd4SFcyd1JJNTBWSXVyVFBiXzlRdTlJME1XZnlXYmNzSDltNEZEWW9nZnBrUjQ?oc=5",
+     "source": "Adda247"
+    },
+    {
+     "title": "SSC JE, CPO 2026 exam dates revised; check new schedule here - The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdnlQdjkwNlp2T2VIQjFORlVDN2NTRktJaWtYOEZiYmVBUWtkWllsWkxiaklxbE16azQybG11T0kzTmM5eEhwSUo1clRGT1k2WGRSa19aN3lzZnZjamkzU1Y5NFBOUFNOcnB3UzlBbVE1U2dBakZyWktnTEJHdkJVM3FyenJqV3dNanlvZHlhMENYYWl2aEZzVS1WXzZhZnJMZlBvY0F4U3FBT0ZXdVhWVFFNNHBrak81enQ0WTlKNGt5aloxMUg2VXZXSnF1Tkxi0gHWAUFVX3lxTE1uX2xseDhkb21FUVdsbDBCNkhqX2FlUkFMN3d3b1dDS1M3Y3VjTC1yZUhlblNtcGRpYVZ4M0tsMGZpdC0xWkpyeGU2YW12RnpxcHhFcmRfLWZ6bF90WW1wNmxtckJqVXlRR09KbzlmQUNBWXRkZl9iWWZ2eUVQNVJITElZSXNxM1ZfY0dpcndaMXlfQjFWYlhudzdiRW9Ib0UtRWNDZEtjNEtfUUhSbGhjcl9TdlA3aC1xcTIwN09adkR2aENPY2RvWFphUUpEWnVkaXNvTmc?oc=5",
+     "source": "The Times of India"
+    },
+    {
+     "title": "TGPSC AEE Civil Exam 2026: Candidates facing SSC JE date clash may get November 7 slot - EdexLive",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdFBLRDZMa3lFMVdyVFdxLV8xTGU2ZUFRTGhodFE0ZFZPSWJmb2V6OUp0alNFdzRhVUEtN0kzVm9Mc3MwWkdXQXEtTWp6VUhZMG0wMDhVQTluQzJiMnYwbmdkbFZlTTNzQ1RzQ0c4WHY5WEE5Y3NEcVE5alFwRTdkdHZka3YtcmM1OGdoclRWZ9IBnAFBVV95cUxQVVhvbFQ4RjlOdVNsQ3NDQ2VLck5zY0ZQZVlpcUZlcUZOWmg4ZEt0WmpPdGVsdTYyRUlLb1FZTVVqVVpSb2kzNk14S0VzbDVWS3F6QWg1b1lZODNFMmVzNUhOZWtBMFZET2plTnhDbGhieDhkNXpRYXZra2lWNGFrSVVpOXp1ckVTM25BaUM0OGlYU2gwclE2dHBYZFI?oc=5",
+     "source": "EdexLive"
+    },
+    {
+     "title": "SSC JE, CPO exam dates 2026 revised; check new schedule for Paper 1 and SI recruitment tests - Moneycontrol.com",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOT1hhVXVrYUc3NU1YNC1rM2NLNUFvRjRLZmtzcE5rUUY0RXZTZDFHZHNSeGtLUVI2NkpTRXcxUEl5MURzd2Q2WUp1VGQ1N0RHRDBjNS1QMUVhdURLME5kUEluNzJkS2huZWZBejhIT3BtNTM3d2F0bHVaY2gzaGNYdDIwVXdud2dncVhjMTdEWi1idGdWb1RTSEZKaFNWSmpONWpBYmtyMzU3eEd3cnJaTkVCaW04TVNfRDJJWnk4dmRCbWtOM0JHVkd1VkU3czJlOGhEVkFsT1Vzd2pNUHdra2htOTZuUdIB6wFBVV95cUxQTmVrRDFReTJhMDJMbzNZMmxSM0dfblQ2SlZuWG9MZ2xPbThRTmw1eE9DakVidml6cVY3cnVKX0lBSHFBVGJpZTdTQlBfLUpFRWpjekN4b21jV2JBakc2SWhvOThZNzZKUVhIZ2VudFJ2NHowc3psM3J6dUFmNEJCOHlGV2U3QU4xVUNQTUdfSmU2NGVnekRtaEdEOFFxUzh4WFpuYXBmOWhpMl9PTzZaeU9JaGUxbFpjdTR6bFhpcDRWdmpUcWtidi1hLUdiX0F3eEFSQUFnZ2ZFM3RJTnZzYmRmWHRMcmFRemc0?oc=5",
+     "source": "Moneycontrol.com"
+    },
+    {
+     "title": "SSC Revises Junior Engineer And Sub-Inspector Exam Dates For 2026 - NDTV",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRFN3YkNBcHhxZnlkUjAyWGprWUR1ZTdYeWI2RngtWUJuR1VjZWJGeUh3dnJvZzJJMVA2cmFjV1FIYjlUWlVkeWQ0ZWtHMW5xWC1PTTVLN1BKNHU1TjB6a1JSZFdqSDFDOUxHTjBSYUZraFM1VEVEcXVPaFBlRjdnaEtvaHBDRGFCMzFvZWVhUFRGd0c5Y3MtRHJGajZQZE10MEdHbUc3WEjSAbABQVVfeXFMTy1faG5oM2t4NGZQSjJSM1hxSU5lSEl1azZJNFdXWjJUVTlJZkc1TzhSdHllZnYzSkVwV0tOcXFoUUJaSG0wQkZoZnh2MHRRS1U2ejB0YUViMUFNaDh2NE9vZUdKUE9BWjJpNDVkN1FGM2xvdURuYlZzZktUUDhRSk5MTkNsOHVmZVA2ZDd0YTFCSzBpRVQyLUx6ektNRmZyTjdnWFZPR3RzZ0p6d2YtUmM?oc=5",
+     "source": "NDTV"
+    }
+   ],
+   "official": false,
+   "score": 30.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "admit card released",
+   "traffic": 0,
+   "article_count_24h": 30,
+   "article_count_1h": 5,
+   "published": "2026-10-27T12:43:00+09:00",
+   "category": "Exams",
+   "news": [
+    {
+     "title": "DSSSB admit card 2026 released at dsssb.delhi.gov.in: Check direct link to download hall ticket for Octob - The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNQ0VBVm9mcGVJVE5WUjBBd3NxRlBFeEw5al9ZNHMxUkJ1bHF5LXB5V2k3VVFhU2dGVFgtdVhvbnl6ZlZ0dDVMWXJkdjBDYTBjWmZHcGg0Z250bmdiTDBhRkptcjk5N0xFenlHNk5ZNnUxREJQTzA3Qmp4dDVGdGVNaTUwRWF5XzZSakpuWjJFeTVhU3ZpZHFBYU5sRTV0SVMtOFF3TFJiek9zSGszR0FCMUgxMDF3RC1RT3RHNjJzN3FlV29hVEFEbFNySFpaVXR3M3QtcW5MeFNYbjVmM3h4RWlrOVNtWkdyVnc3RndNMi13ZV9MaE1lLVBIR2RhSklLNWJDMEhGSHF6MURPOGc2eUMwSWpoRWQ1V1hPY3E3eHNJQnk0bTBiam52eURoSWPSAbQCQVVfeXFMTlhkU2M4Uk1QZFdZWHRhLWpJQm5McWV6UVphQ0RMNlc4SS15SVJFdGU3SnFkTWJJMFRNQmNQSWNyWDVEYjNvaXM0cURCdVNCS0Y3T19tcFdqZk1MdXVOZF9ENkI3SjJnRU4yZWFyOXVYMlFwakZLXzBuNGczRTUwM2VscjZCQjJCT2hIOWRKVXRCNV90b1RZRmdMT0pqZ1Y4NUU5c2tiS0tiNFNNQUxvRmNUc0RfSWdCcEJURnNMbFJVRWY3T0kxdFgyZXkwSVFZeFQ3N29JYnJNb1hITnNITFB3RHFScmNMVkFFSUo5MkVCeHZxbHVWZlRxSzlrT0ZkU1lzb1dfLXdZR0VYbThEUU1XTlZJS2h4aVZZRm1kOUhDcWlFb0gybXdTbzUtakZ1VDN2U0U?oc=5",
+     "source": "The Times of India"
+    },
+    {
+     "title": "SSC JE City Intimation Slip 2026 Out @ssc.gov.in, Download Paper 1 Exam City Slip Here - Adda247",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQlFfUVNGTTFWZnc0bVN0N0dCRHZWdGxWUjhOTUpxVm54QmJ4M09WUlFLQmJSNEx4X2J6ZUZZU3JDbkNtSWN0WXRqMVprVnVLSmNqZjJfNWd4SFcyd1JJNTBWSXVyVFBiXzlRdTlJME1XZnlXYmNzSDltNEZEWW9nZnBrUjQ?oc=5",
+     "source": "Adda247"
+    },
+    {
+     "title": "AIIMS Releases INI CET January 2027 Admit Card - Medical Dialogues",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbzN5cjJkdXRvTjJhdDIyeDRYQ2puQXRhREp0RUFXMzdxVWxnZ2wzazFtOVhqdkVubXlFRjhsTW4xSzFxT1d3UnNhTkVOd0EzQmdRTjl1Nk5CRURfNnZ0Y1I0SExUT3lnekY3V0tOUm9KaW1qLTVBUDBBdXNmTDlJQWQyQVRuVkp5dWVyQXJOS2xKenhzMktKMEEwb19CVzBMdmZnRnM4Yi1TY21lN0RJd0JxallWd9IBuwFBVV95cUxQOHYzTkluT1BTSWd2ZzR4bEhpZ3dYMkYtMmt6ZG4wUXB1ZzluSlpqSEhvZ2wwakZrWXdaQ3J4N3Bmd0dRaGpqbHhhcnhBeTBoOXdUUllacEV3U1puOW5UQm41UHg4b0N1d1ZhZmlQWHdTclp4S1RHRko0ZUVtRVBDMWNEZ1FSRkhOdGVNOHJBNF9rSTdxdE1sV1Y2UDBJSXFMUlZ3cHk1WDN2Q2JkUW1zbDZDVXp4cHFxWDFn?oc=5",
+     "source": "Medical Dialogues"
+    },
+    {
+     "title": "FMGE October 2026 admit card to be released today; check steps to download - The Indian Express",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSXdTMVJrWkV0MURSdHZJQ0JGN3VzQVhsTVhFMXo3c2Y2aDlndmVQX0hRSmxaZzFEX3BjRnYtZXRxR0xtRnp3dWp1N1dCdU9pcC15VGJCTkF0WlhRTjI2czUxUm11bEU2QUNfMUp1Q1EwcjlwRTFlWEZrcVpTYk1adXI0LUs5dExuakcxa1dCMUtlSXc3cTZqWlRUNmJvdFk5SVF4RVdQMXVTSy1zVHc0VkwyODFON2JDUEcyZzFjRWZlajZ6ZkFsMWZiclVPcUhVcGZ0YmlCOWt1MlNkZnfSAd4BQVVfeXFMT0l3UzFSa1pFdDFEUnR2SUNCRjd1c0FYbE1YRTF6N3NmNmg5Z3ZlUF9IUUpsWmcxRF9wY0Z2LWV0cUdMbUZ6d3VqdTdXQnVPaXAteVRiQk5BdFpYUU4yNnM1MVJtdWxFNkFDXzFKdUNRMHI5cEUxZVhGa3FaU2JNWnVyNC1LOXRMbmpHMWtXQjFLZUl3N3E2alpUVDZib3RZOUlReEVXUDF1U0stc1R3NFZMMjgxTjdiQ1BHMmcxY0VmZWo2emZBbDFmYnJVT3FIVXBmdGJpQjlrdTJTZGZ3?oc=5",
+     "source": "The Indian Express"
+    },
+    {
+     "title": "FMGE October 2026: NBEMS likely to release admit card soon - Education Times",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ0pjeThPMEw3MDd4cHhTbG5UanJyc3RDVHF6d2hCVjBOUG1EVWhrdkNnejR1V2syRGp2WnIteU5fOHBZZnZpT3l5RVQ0YW9rMFZZSVkwTkZaR2NwUkVfMmx3bTl1bHpRUEFBY0hQWkdmTDYxRGNhc3BaMFpMV2NKc2RyUE16RGRjREdkNEtpQzhfMVFoQ1NJRlU2eldTZE01bi1Bd21SZ3FacEprd2lsa2NLblRqbjg1ZGtR?oc=5",
+     "source": "Education Times"
+    }
+   ],
+   "official": false,
+   "score": 30.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "IMD cyclone alert",
+   "traffic": 0,
+   "article_count_24h": 58,
+   "article_count_1h": 4,
+   "published": "2026-10-27T15:53:02+09:00",
+   "category": "Weather",
+   "news": [
+    {
+     "title": "Cyclone Arnab 2026, IMD Tracker, Landfall, Latest Updates - Vajiram & Ravi",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0b3NjanVQRTlnclFpLTZ4N2FkSHNQQkRLWGs5TVZIaTNudTJ0S2pRQjlBZm9OSnhkam5Rb1c3TFJmY09wWVRZdzJhTDl0Xy1tekNUejZDNWxBVmVTTjctRmUyQzFaQ1ZQM3c?oc=5",
+     "source": "Vajiram & Ravi"
+    },
+    {
+     "title": "Cyclone Arnab, India's First of 2026, Becomes Very Severe Storm, IMD Issues Red Alert for Several States; When, Where is Landfall? - Jagran Josh",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPT0kzQ3ZWX1Q0NlpDejBKVGdXRHN4czJ4WGVuTl8xeWFEOE5sT0lvXzdOWXZOQWRIbDc3blloVi1Ca2lBbDBpUWF3Z2FyOThtQ2tUWURCdUwzd0VoTzNVS0RwRHRPRVJYRllCRHc3a21aRl9iT0NPQjduWlFnMnY2NGRxb0pQLW5WM0IzbTI1cS1fWWppaUx0d0h2em1JdG4xdVpVVlV3WW1FY0J3bklPNUhtXzlCcGFhVUJSX2NCQUhpOUJEbkF0RlpzWWtGYk9xbEpWTDA2TWZOUHVKM2JWbUkwU1FWYkRueHRUT1lHMFhoQTRNblRYT2gzdmIyQk9OamtkSGhVSjhVdW8wUDRV0gGWAkFVX3lxTE5aZ1VpNVlHLVY0SHRfU2RueG95c3BvNXVBNExlQ0VFM0VPQzhLRVdxdTFkTHR3N2l6UDdEN2VzTmVKUmNtZ1p5RHl2dkt4aDhtR2taQU5nb3J6cjZfTTk3aUxqZzVkZkl2eG8xazFHa2NEamlUSmM0Ujl0eUs4ZldrY2VrWnB0ZTU2SldGeFlzMGF1T1Q3UW0yMF9CRFkwd0pyNlZUb1hwaTNQek9OUEhaVk9PREFXeDY2SExqaUp5LV9kWGlOODhjMV9Wb0gtOEQ2U1p1N2dzMHdxVmVUVXB2WUZOU0owSUoyeFpReGVhbU5XMUNGR2ktalBlMmJuRE1qTG1kc3FDWDN3M0dQRkw1MjQ5SkFR?oc=5",
+     "source": "Jagran Josh"
+    },
+    {
+     "title": "Will Cyclone Arnab Affect Districts In Uttar Pradesh? IMD Issues Alert; Check Forecast - NDTV Profit",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWk1LSGlWX0xWVGhPZmRGc1hjSk45SWVObVBLMHUxSk41TjQwNnlXNjVfd1d1ZmpCSXc0dnFueGFwVjRrN0ZXLVIyN1h3M0g1a1FIZDNjeDY3ajg0NnlHVmJqakNhWWNWSWZudDJQZWkzeFpUUDFwd0JZS1dDUldTRnQ0clVQel8xYUlrSkZ1VjJVcjVQaTZvMkpvTjIyMWY2S3VMa0JxUXVIOEJhVjFlM1RvRVVLLWlFZGpfbzdJYzFzNDJp0gHMAUFVX3lxTFBXRXBTVzRVLVFpTlBiUmVxYUpqQzU1Q09BRHQwYnlJWVI1NkU0RFVNRlZ1c3Y5QkpFejE0OWdBMVZmMmV4TEIzTGwwYUpnQnMyRFdhdHNwdHJrcHNYY1pqZWNDZ2dYRjFNWHFzSVFrZ1gtMmU3c0tqOHJ1MFJ2SlBvQ0lpTk5CWWVOYW82M0ZMbVpPbExhM3JuTkVtNWRnTEFBei1UcW9DZ2lJd0s1NTl5c1ltQU1qX1Z1cGRtS1I4Z1lId1ZGMGpGMUFUaw?oc=5",
+     "source": "NDTV Profit"
+    },
+    {
+     "title": "Cyclone Arnab: When will it make landfall, which areas are on alert? - The Indian Express",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUnFYdWJ4dWJEOFVVbV9YT3J1ZGJzSy1ycnZWdW5Zdk5Lam1hMTNPUWJkNER0Z00xWTFtbkRzWlBweWNYQWdLU200XzhZRjJ1eFVyUkZaM2dESmdNOHdqWWF1bDRMZVFkaGg0R0RKUDhkNjI3VlNYdllaclVZOU1Dckcxb1VDMkI1d25sVVNDLUVZbWdlZWRUSVhucHJra3JNY2tOYmpmQXpPMEnSAbIBQVVfeXFMUDZIZnFrU2J3YURQWEw5ZHpNeDZTWWpGbXJOVUZac2ZCVDhiVWZMTUNTRzcweXZxenhyVC1FOVVUM3REOURoczFMdEU3c1E1Yk0xVzRvVHgzYzhqZmp3aUVIMUtPUHBEZEdWbmdZSlhSbmdibE5uYTJ6eDFwc05sRUVyTkh3bmtNSDJWZXJfY1lKNTdqR1oyU1pxVDZnMXBxQkp1RURCVlF0QlQtai1kVC1lZw?oc=5",
+     "source": "The Indian Express"
+    },
+    {
+     "title": "Andhra: Govt steps up precautionary measures, Official machinery put on high alert - News On AIR",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcklTMUZVSEVwN05UVTR5OFZGYXlrSUtMQ2xhMkZGT09KUWM4R29xeFdHd2ZicHBoSlFrQ2w3aV9HcUM3OTYxanN0dHhwUmxwSW9nTjlzelRCNkdaWjVxSldCbEU3X09NaXg4WjBVemNRQnRUbk1NNHR4SEJrUXloYS1DTi1BRlhXYUJKVXRWb010SGRleWkwbnlqSkczMDRTNlNjQkd0VmE4YVFrZGp1QUdkWjBDaVpGem1z?oc=5",
+     "source": "News On AIR"
+    }
+   ],
+   "official": false,
+   "score": 27.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "DA hike",
+   "traffic": 0,
+   "article_count_24h": 23,
+   "article_count_1h": 3,
+   "published": "2026-10-27T15:50:33+09:00",
+   "category": "Government Schemes",
+   "news": [
+    {
+     "title": "DA hike for central government employees: Can government announce dearness allowance increase on Wednesday - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOeGlVTmFTVTJXX1M4V3ZTTGNHSGE1aEhtb0xiYmdicE1weFNaVUdXRGJYaUp6N0JlN29EOFEtM1FvYWhnQUllbTQxYUtIUEcwekx5aUw1YkpTaTVmX3JYM3E5RF9EQmgybV9DLWstcExBcHlHWHNuUlRNYkVXNVYteS1HUlR1YnB5eTVjcjhIZkhoM3BxUHZrRTQ2bUxpWFJPRGsxLXdNMWRBdlJsSXMtWkV2UV85MjhBZmhPbU1yemhjYnl4cEN1eG5qNHhSQjI0M3gyS3JMQ25XWlZQOThTT3E1cVNhR0xmaUMyNmh3RndYQ0NNRnAza1pnd9IBgAJBVV95cUxQYmw3dHFYVnRoZkFabC1IWmtZMEc2cEN1M25FTUdWMkVybWIzRXplLXRDeWx1VkFua1pESHBGWXJWZk1laFJMR2M3T2pRbmgtbF9NclJtZDNzVFFFUW1fUzdTNXJreXplWXV3Z1oxdnAzUlBFX0UtM1pOQU45ZUJ4SzFULV85Q2VwR1hKeE9iN19jcUN2MktuLUJBMXhZcHRZNjY3X2cyc2kyT3dMd3lNbnk2OXd5X1hJbE1VR3dtLTFGZUpVVHZSOVMycFhfRnllaXNPbDAzd1JLOWRnYWxrSEZtMVhhbDhjMVVvcFQtdFMxV1RyVkNIX3gxWUJvRjRG?oc=5",
+     "source": "The Economic Times"
+    },
+    {
+     "title": "DA hike July 2026: Will cabinet approve dearness allowance increase for central government employees on October 28? - Livemint",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNRmpEaFVoQThDRmFyTWxmcVpSOFVLVTlVVnUxRHF2Ym51amhtQXRhOWJ1cTBSc0o1Q1N1U2lfa0Fma1dLT29UYWJfZGQtQnZjN3lXSHp0MXdhTHEzSXpzbVJ0eF9NdnVJMkJnWlVjYVBIcU5CaHdhM0hBcm1veVJBS0NkaUlzaEt2VDZGbjc5b0VvSWxaQ1AzLU9wZnJ3RU1zYW1zQ3d0LU1TS2J3NVBsWjlRRXpBYzFKMVNleXdScm9ZS0xpWFFOaUsxbFQzU3VBbDJ4TV9DX1VkT2lKZDFxTXVjalBqeHJlZUpfOF9faHRQQ0VrY29uU1VOMkNndkxDYXA2LUhXcUxOdndKeGfSAZMCQVVfeXFMTWpXblJwWU1IQ0hnaldPQ18zN1pQZ3lJWnN3NGRFNFlwYjdIREp4d1o3bkJfdURUYWJCcE93c2Nyd1Bqc01Cbks1NjFhdDVUUGpNVUg1MVViVzdWam15Wnp2ZlNoLVMzR1F4VGl1TDdJUVJhTllqNFplWFVSUTU5MVFmc3hNdTNGTEJvb3lMSWhXdjZoSUkxZ295RTk0c1VHM2RSUkxRb2c3ajZnTTBxaENlN1lDRmNRd2hmeWpIbkJuXzZGeUR0SF9QaUZWMlN5Ukp3WWtIUEI2YkRiSF9Gend1SlYwam5PdHFmZmVCT1U2Rm9sTE9VZV9qWDJRMWxobUs1OVpJT1FBU0VscjFodjRWa0k?oc=5",
+     "source": "Livemint"
+    },
+    {
+     "title": "Himachal Pradesh: ‘Rs 8,555 Cr owed to retirees’: BJP slams Sukhu Govt over unpaid dues; Demand 10% backlog clearance - Organiser",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPY29CN05mcGQtQV9qNGMtM3FZbnFqb3o0djRBeERQVWxzeDVGWkxEb1hxZ21Mb19MTWpndXlJT0RmTjZNRGo2ZzAzYUdkUDRLcllKYUZ1WkhFejJnclVwVkR6LTFfb2lJeXktdVQ4aUNZb2hYNm12TWpFSDNWdWdIb3pmVW1rb0NMX1JocXVkTFl1VF91MDdfZW1XYXk2Q1dqWXYxNk1fNW9xeWdETzdpRFkzQ2xpMGNDSnFSN3JHSEhyTnVhTUExdGpid3Y5VTR2Mkh5RTZ4SUxxUEt1dlFHamhPSTZPY1dxaWlBNTRvVGJqWE8teC1SM3g5ZDV4RGpWWTlTcFVzTdIBjAJBVV95cUxNdFg5Y0lRa3o3T3U1Q1FWdFFYNmN0M3RBR2hUQUVndjhmbmIwYkdnSEQxUjFMcVo3UUNGd25mbDBONERJck5tSExOVVROTEJ0cDA4Y1lGaTZrV184N0oxbDZHZUgzQTlvVDhhNHVUNkVoWU9KeHlxYXotMzBjTEhjeDBPQ1JuOVdkQzkwVVFaTkhGMzZGcTZZbDVsdUg2dVVMQ0lrYUwtdTBfRUZPb2Y3N2d1UktRVVlpc1V1aE11cHFNUHBYQTZGZFBCeHozNlRYa1pjekEzN2RJTTB6U2xZV2QtTHRlbTFxVjU2YUZqRU9iMjBXaDJhOV9LSTNMWXVDbXd1SF9uZW9qZlFR?oc=5",
+     "source": "Organiser"
+    },
+    {
+     "title": "DA hike news 2026: Good news before Diwali! Now, Dearness Allowance every month with minimum salary for these employees - Livemint",
+     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNYlVnS3V3TUxSZnh3U2VtZ0JCMkNDaUxuUEQxRWhVa0FKSC1JS2tJYlNqemduQmpTZTFwMkVzWnhOZ0JPWjIzaW1aZHM5cXhJVkFWWUVpd2tXREYza3JTSDdFZnlZaWtUeVdzamhmdURxNU4yWkpTaWZQcTZBUHZOd3Nyam1sRmJzd3U5OHlWdEtJY3pFWnp2MTV3SHRVekxfRGNNbldPVjBPUjRUcU4xRVMzWGFreG1pR0dGd2dwbWZlOVZNejhPS0liSl9BT0VEcXZ1NlUzdkw4d1Rka2xtMmdLNF9DVEJGQWM0dm1UaUp1ejZHSlJJZmt2WDM1azBnOTBmRHVzXzZyVm00VVpWamlR0gGXAkFVX3lxTE8yVmVlU2dtUnlmcjVlODNRajkxWUZ5ZkpGbS1TVGFjamtNM0w5MTREZjdJbnRTQ1FudWFlTG9yUGlld0JhTlZ5OV9fMXBkRWl5RjBYSS05ZGVrcFREdTZyVm1oSDMtTGg0TzNjTVlhSExINWlFUlN1cm5kTHNQRFJIckJpMDJiRno3Vkk5TlNoa21IU1J0RU83RTdxOVFWUmVjVmxmNnlCaDVIVDN5SWFXeGJLYTNzNG5sUVhQT1V6aG9zMEtoLUliXzJCeXkyQTlSQWJKbEl5dm9fTEFEUmpDOUpNc0RKYS1yZHNkWXNCX3ozSHZyRDNZZVBobDNiYXQ2ZE4weFVmSTZTNTB4V25iWEtpNFg0OA?oc=5",
+     "source": "Livemint"
+    },
+    {
+     "title": "DA hike central government employees: Why Centre has not announced it yet; check expected hike - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQcWZZdi1INWlUZmtJcUFRcHZ1ZGVzaWJfUXZhUWd1WXB2aHNORlJVbUZfNi1kQzBsVF90UjVBenJzaENjVk16cFFneHlNbGY1aS14a3BzMjNyMlNJRU5WdXhoZmVUcWdPUjJlSjNFSGI3THVfeG8yVkV3ZnJUM0VoaVkyQkEtRm9SRkZNY3AyU1gwNGNFRjhFSm0zUkhYbzZadkhRQnRwNXZad1k3Mmg4NUNKQnp4YWtZb001UDlCZzBSNFEyTnBWNC1kanhVYXI1X2d0RDFkZjB6a1BMQ0hwQk9yVWJuX29KVFRVZlFid1JhdlFCcmxheGNuWkpzenpCTHhOLUhETWZzTnpkb1pFbF9HZUJqdDExUmlqa0UxSlJhSnlTYmV2NW9wTTl2OHBwNXh2anJ2elczUmc?oc=5",
+     "source": "The Economic Times"
+    }
+   ],
+   "official": false,
+   "score": 25.2,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "CBSE date sheet",
    "traffic": 0,
-   "article_count_24h": 42,
-   "article_count_1h": 8,
+   "article_count_24h": 44,
+   "article_count_1h": 2,
    "published": "2026-10-27T15:37:54+09:00",
    "category": "Exams",
    "news": [
@@ -654,282 +941,15 @@
     }
    ],
    "official": false,
-   "score": 30.0,
+   "score": 22.8,
    "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "SSC exam date",
-   "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 8,
-   "published": "2026-10-27T15:57:51+09:00",
-   "category": "Exams",
-   "news": [
-    {
-     "title": "SSC GD Revised Result 2026 Out, Download Updated Merit List PDF - Adda247",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WNEZDVGw1WXRrTU5tbGl5anIwZkktajRkM2pqT09LcGs0MFJKb1lMaFl0SUtyUFdVMS1oQTNNajVNc01zUmVQNURPNU1ScWZuTGw4b1BvWmNzRWExZmF6NUlnWjNSWUF5?oc=5",
-     "source": "Adda247"
-    },
-    {
-     "title": "SSC JE, CPO 2026 exam dates revised; check new schedule here - The Times of India",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdnlQdjkwNlp2T2VIQjFORlVDN2NTRktJaWtYOEZiYmVBUWtkWllsWkxiaklxbE16azQybG11T0kzTmM5eEhwSUo1clRGT1k2WGRSa19aN3lzZnZjamkzU1Y5NFBOUFNOcnB3UzlBbVE1U2dBakZyWktnTEJHdkJVM3FyenJqV3dNanlvZHlhMENYYWl2aEZzVS1WXzZhZnJMZlBvY0F4U3FBT0ZXdVhWVFFNNHBrak81enQ0WTlKNGt5aloxMUg2VXZXSnF1Tkxi0gHWAUFVX3lxTE1uX2xseDhkb21FUVdsbDBCNkhqX2FlUkFMN3d3b1dDS1M3Y3VjTC1yZUhlblNtcGRpYVZ4M0tsMGZpdC0xWkpyeGU2YW12RnpxcHhFcmRfLWZ6bF90WW1wNmxtckJqVXlRR09KbzlmQUNBWXRkZl9iWWZ2eUVQNVJITElZSXNxM1ZfY0dpcndaMXlfQjFWYlhudzdiRW9Ib0UtRWNDZEtjNEtfUUhSbGhjcl9TdlA3aC1xcTIwN09adkR2aENPY2RvWFphUUpEWnVkaXNvTmc?oc=5",
-     "source": "The Times of India"
-    },
-    {
-     "title": "SSC JE, CPO exam dates 2026 revised; check new schedule for Paper 1 and SI recruitment tests - Moneycontrol.com",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOT1hhVXVrYUc3NU1YNC1rM2NLNUFvRjRLZmtzcE5rUUY0RXZTZDFHZHNSeGtLUVI2NkpTRXcxUEl5MURzd2Q2WUp1VGQ1N0RHRDBjNS1QMUVhdURLME5kUEluNzJkS2huZWZBejhIT3BtNTM3d2F0bHVaY2gzaGNYdDIwVXdud2dncVhjMTdEWi1idGdWb1RTSEZKaFNWSmpONWpBYmtyMzU3eEd3cnJaTkVCaW04TVNfRDJJWnk4dmRCbWtOM0JHVkd1VkU3czJlOGhEVkFsT1Vzd2pNUHdra2htOTZuUdIB6wFBVV95cUxQTmVrRDFReTJhMDJMbzNZMmxSM0dfblQ2SlZuWG9MZ2xPbThRTmw1eE9DakVidml6cVY3cnVKX0lBSHFBVGJpZTdTQlBfLUpFRWpjekN4b21jV2JBakc2SWhvOThZNzZKUVhIZ2VudFJ2NHowc3psM3J6dUFmNEJCOHlGV2U3QU4xVUNQTUdfSmU2NGVnekRtaEdEOFFxUzh4WFpuYXBmOWhpMl9PTzZaeU9JaGUxbFpjdTR6bFhpcDRWdmpUcWtidi1hLUdiX0F3eEFSQUFnZ2ZFM3RJTnZzYmRmWHRMcmFRemc0?oc=5",
-     "source": "Moneycontrol.com"
-    },
-    {
-     "title": "SSC Revises Junior Engineer And Sub-Inspector Exam Dates For 2026 - NDTV",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRFN3YkNBcHhxZnlkUjAyWGprWUR1ZTdYeWI2RngtWUJuR1VjZWJGeUh3dnJvZzJJMVA2cmFjV1FIYjlUWlVkeWQ0ZWtHMW5xWC1PTTVLN1BKNHU1TjB6a1JSZFdqSDFDOUxHTjBSYUZraFM1VEVEcXVPaFBlRjdnaEtvaHBDRGFCMzFvZWVhUFRGd0c5Y3MtRHJGajZQZE10MEdHbUc3WEjSAbABQVVfeXFMTy1faG5oM2t4NGZQSjJSM1hxSU5lSEl1azZJNFdXWjJUVTlJZkc1TzhSdHllZnYzSkVwV0tOcXFoUUJaSG0wQkZoZnh2MHRRS1U2ejB0YUViMUFNaDh2NE9vZUdKUE9BWjJpNDVkN1FGM2xvdURuYlZzZktUUDhRSk5MTkNsOHVmZVA2ZDd0YTFCSzBpRVQyLUx6ektNRmZyTjdnWFZPR3RzZ0p6d2YtUmM?oc=5",
-     "source": "NDTV"
-    },
-    {
-     "title": "AEE exam rescheduled to November 7 amid SSC JE clash - The New Indian Express",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV1lTcENpd1ZoUU5tYVo3Wi1ROUdmWDRwMWw2ZkllMmgyOG9zakh0WGRJRmYwZzVhRjJHNVNHc3Q4alViWWVVLXJjS0hDb1hxLThmYUpsNkp4S1o3NUdDTVBQUTcyTk1mSHpZaVA0dDFRbnctcnh2VEloV1c4TzJWTjRjWVJiSXRtWUJhcGE2d0dsNnREcmR4cmtEa3Ywdkt1XzI2YlF6clJGMlRUUDZ4TnBPdlPSAcIBQVVfeXFMTUIzQnRYbHFsekZLdFBqanh1a21tNXhOQVlvZjY3dDFaazl6bDJOeDBiLVYwcXE4bVBRZ2VreEVnelh5eURGdEV1NU5fc1lHNWU5YTJSYzlHSE1KQlhOV3h3TGRhVlNwRkNTN0FBV1dEMktFU2YzRm1TMGs4MUdEQjZjYXcweHk1RzFGMEU2ZVYzNEhfRklTcnVEV3FJOFRHTFd1N3A3YTJyek94dGxmdFFVNHZrT2F0bHFOeVhwbU9NOXc?oc=5",
-     "source": "The New Indian Express"
-    }
-   ],
-   "official": false,
-   "score": 30.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "admit card released",
-   "traffic": 0,
-   "article_count_24h": 43,
-   "article_count_1h": 5,
-   "published": "2026-10-27T12:43:00+09:00",
-   "category": "Exams",
-   "news": [
-    {
-     "title": "DSSSB admit card 2026 released at dsssb.delhi.gov.in: Check direct link to download hall ticket for Octob - The Times of India",
-     "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNQ0VBVm9mcGVJVE5WUjBBd3NxRlBFeEw5al9ZNHMxUkJ1bHF5LXB5V2k3VVFhU2dGVFgtdVhvbnl6ZlZ0dDVMWXJkdjBDYTBjWmZHcGg0Z250bmdiTDBhRkptcjk5N0xFenlHNk5ZNnUxREJQTzA3Qmp4dDVGdGVNaTUwRWF5XzZSakpuWjJFeTVhU3ZpZHFBYU5sRTV0SVMtOFF3TFJiek9zSGszR0FCMUgxMDF3RC1RT3RHNjJzN3FlV29hVEFEbFNySFpaVXR3M3QtcW5MeFNYbjVmM3h4RWlrOVNtWkdyVnc3RndNMi13ZV9MaE1lLVBIR2RhSklLNWJDMEhGSHF6MURPOGc2eUMwSWpoRWQ1V1hPY3E3eHNJQnk0bTBiam52eURoSWPSAbQCQVVfeXFMTlhkU2M4Uk1QZFdZWHRhLWpJQm5McWV6UVphQ0RMNlc4SS15SVJFdGU3SnFkTWJJMFRNQmNQSWNyWDVEYjNvaXM0cURCdVNCS0Y3T19tcFdqZk1MdXVOZF9ENkI3SjJnRU4yZWFyOXVYMlFwakZLXzBuNGczRTUwM2VscjZCQjJCT2hIOWRKVXRCNV90b1RZRmdMT0pqZ1Y4NUU5c2tiS0tiNFNNQUxvRmNUc0RfSWdCcEJURnNMbFJVRWY3T0kxdFgyZXkwSVFZeFQ3N29JYnJNb1hITnNITFB3RHFScmNMVkFFSUo5MkVCeHZxbHVWZlRxSzlrT0ZkU1lzb1dfLXdZR0VYbThEUU1XTlZJS2h4aVZZRm1kOUhDcWlFb0gybXdTbzUtakZ1VDN2U0U?oc=5",
-     "source": "The Times of India"
-    },
-    {
-     "title": "AIIMS Releases INI CET January 2027 Admit Card - Medical Dialogues",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbzN5cjJkdXRvTjJhdDIyeDRYQ2puQXRhREp0RUFXMzdxVWxnZ2wzazFtOVhqdkVubXlFRjhsTW4xSzFxT1d3UnNhTkVOd0EzQmdRTjl1Nk5CRURfNnZ0Y1I0SExUT3lnekY3V0tOUm9KaW1qLTVBUDBBdXNmTDlJQWQyQVRuVkp5dWVyQXJOS2xKenhzMktKMEEwb19CVzBMdmZnRnM4Yi1TY21lN0RJd0JxallWd9IBuwFBVV95cUxQOHYzTkluT1BTSWd2ZzR4bEhpZ3dYMkYtMmt6ZG4wUXB1ZzluSlpqSEhvZ2wwakZrWXdaQ3J4N3Bmd0dRaGpqbHhhcnhBeTBoOXdUUllacEV3U1puOW5UQm41UHg4b0N1d1ZhZmlQWHdTclp4S1RHRko0ZUVtRVBDMWNEZ1FSRkhOdGVNOHJBNF9rSTdxdE1sV1Y2UDBJSXFMUlZ3cHk1WDN2Q2JkUW1zbDZDVXp4cHFxWDFn?oc=5",
-     "source": "Medical Dialogues"
-    },
-    {
-     "title": "FMGE October 2026 admit card to be released today; check steps to download - The Indian Express",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSXdTMVJrWkV0MURSdHZJQ0JGN3VzQVhsTVhFMXo3c2Y2aDlndmVQX0hRSmxaZzFEX3BjRnYtZXRxR0xtRnp3dWp1N1dCdU9pcC15VGJCTkF0WlhRTjI2czUxUm11bEU2QUNfMUp1Q1EwcjlwRTFlWEZrcVpTYk1adXI0LUs5dExuakcxa1dCMUtlSXc3cTZqWlRUNmJvdFk5SVF4RVdQMXVTSy1zVHc0VkwyODFON2JDUEcyZzFjRWZlajZ6ZkFsMWZiclVPcUhVcGZ0YmlCOWt1MlNkZnfSAd4BQVVfeXFMT0l3UzFSa1pFdDFEUnR2SUNCRjd1c0FYbE1YRTF6N3NmNmg5Z3ZlUF9IUUpsWmcxRF9wY0Z2LWV0cUdMbUZ6d3VqdTdXQnVPaXAteVRiQk5BdFpYUU4yNnM1MVJtdWxFNkFDXzFKdUNRMHI5cEUxZVhGa3FaU2JNWnVyNC1LOXRMbmpHMWtXQjFLZUl3N3E2alpUVDZib3RZOUlReEVXUDF1U0stc1R3NFZMMjgxTjdiQ1BHMmcxY0VmZWo2emZBbDFmYnJVT3FIVXBmdGJpQjlrdTJTZGZ3?oc=5",
-     "source": "The Indian Express"
-    },
-    {
-     "title": "FMGE October 2026: NBEMS likely to release admit card soon - Education Times",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ0pjeThPMEw3MDd4cHhTbG5UanJyc3RDVHF6d2hCVjBOUG1EVWhrdkNnejR1V2syRGp2WnIteU5fOHBZZnZpT3l5RVQ0YW9rMFZZSVkwTkZaR2NwUkVfMmx3bTl1bHpRUEFBY0hQWkdmTDYxRGNhc3BaMFpMV2NKc2RyUE16RGRjREdkNEtpQzhfMVFoQ1NJRlU2eldTZE01bi1Bd21SZ3FacEprd2lsa2NLblRqbjg1ZGtR?oc=5",
-     "source": "Education Times"
-    },
-    {
-     "title": "SSC JE City Intimation Slip 2026 Out @ssc.gov.in, Download Paper 1 Exam City Slip Here - Adda247",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQlFfUVNGTTFWZnc0bVN0N0dCRHZWdGxWUjhOTUpxVm54QmJ4M09WUlFLQmJSNEx4X2J6ZUZZU3JDbkNtSWN0WXRqMVprVnVLSmNqZjJfNWd4SFcyd1JJNTBWSXVyVFBiXzlRdTlJME1XZnlXYmNzSDltNEZEWW9nZnBrUjQ?oc=5",
-     "source": "Adda247"
-    }
-   ],
-   "official": false,
-   "score": 30.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "petrol diesel price",
-   "traffic": 0,
-   "article_count_24h": 54,
-   "article_count_1h": 19,
-   "published": "2026-10-27T12:47:26+09:00",
-   "category": "Banking",
-   "news": [
-    {
-     "title": "Petrol, Diesel Prices Steady; Brent Near $115 Amid Tensions - HDFC Sky",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMld2OXpKR3pGeFJLZ3BJbG1kT3ozX2JsYVZqT3IwMWxxaFNrZW9XZ00wYWNxM2R4c2FJVEY3aE1rMzhyQkpmRUhSWXFIcFhycXFKRGFuRzVJSFI0MnRjN0xNd0pOSkJfRmFoSldyQUIxTVhmeFNQMG9jREpKa2ZTTUY0LWdVN24yYlZCVC1Cc1BOOXlocWtiOW9waXQ4WU9GY2FjVVdRVDZsaFBqS3BES0FPMm4xM191SS1DY0tfR0hFZw?oc=5",
-     "source": "HDFC Sky"
-    },
-    {
-     "title": "Brent crude hovers around $115; Check today’s city-wise petrol, diesel and CNG rates - Moneycontrol.com",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRVd3T0tyMTdWYXNQX3pGU3BZdUt0MXV3OEFrWTBPeFdGMHlaNWtPR3RFemN3OVZTeDhGTGV5ejFMeVZWdDVvMkMxa0g2M09BX2VucGQtdG1UZzV3dlUtTFFjODl5Z2NVdjBoWlRaV1dodGQ2SWpYUm01WThXLUxaTmJRdGFQRl96akw5c2MtenVzZjlIaE9vaDA4TDhpSVZiUzNiN3ZSQThrSWZwOEpOVHh0UVVRRUxIYU9MMk9xWlNnYjdRbWdaZWo5elJ2bFViYUNWM0930gHWAUFVX3lxTFBFV3dPS3IxN1Zhc1BfekZTcFl1S3QxdXc4QWtZME94V0YweVo1a09HdEV6Y3c5VlN4OEZMZXl6MUx5VlZ0NW8yQzFrSDYzT0FfZW5wZC10bVRnNXd2VS1MUWM4OXlnY1V2MGhaVFpXV2h0ZDZJalhSbTVZOFctTFpOYlF0YVBGX3pqTDlzYy16dXNmOUhoT29oMDhMOGlJVmJTM2I3dlJBOGtJZnA4Sk5UeHRRVVFFTEhhT0wyT3FaU2diN1FtZ1plajl6UnZsVWJhQ1YzT3c?oc=5",
-     "source": "Moneycontrol.com"
-    },
-    {
-     "title": "Petrol and diesel prices today, October 27: Check fuel rates in different cities across India - Livemint",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZzZmaEIxOWdBNmFMWElaWG16VVJORGF1NlYzNXEtSGJXVm1sWnY4MGI3d0dYdEhCZl9Cbnk1RERwY3F2bjI4UVNnQ3RsdG9nV05iekpRTnlhVzBfQnRsZE13Wl9ZenRKMjR1VkNMWTlROUlYd2dlcWlHOGtDN2VuSXRkWjhEcjNCODdwTFQyRzJoLXRwdGVWbEVSWUxpOERXLVZfdl9pYU1FMTBYX2VubmpmLUVZNXJfckNKRjZ5UjA3ekhOSTFScjVfeHRRSFhvcFNua0JMWi1QWlo5djZHb9IB5gFBVV95cUxPd1kwVnRtbklMZktvc1Bqb0VkNEhNUFlaYklSamJ5T0JOZWI5N2VpNTZYTXR4dC1ucDlST2hxWmNmaXFTZEVRUFVCRUU3N2NpLTBlRTA2M3FLckwyN1BZbERyZm53MURjMnZlX0hQZ0s4cEdaUHJ2RzVpa1dmQXhKZ01sWXUwaUtWV2F0eS1hZUt4NUZDSUdzbTFwYWQ1cGo3NDJwRVR0MFFDcnJydy1peEE0UXlNMEdSamQtTDFZTDlEajVyd1E0cWZWMFhEZElORTVMcmMxZW1td3VxLVRMN1hUNGRKdw?oc=5",
-     "source": "Livemint"
-    },
-    {
-     "title": "Check out petrol and diesel prices in Chennai on October 27, 2026 - DT Next",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTjM0a1A3YnlLLVhhcTNOUW5KWEJyZmtYZFVEYUFCeVNyOXdHRVI3NC1vYmZ4dS0wYWFIa25YbWpLUTJCZ25SSWoxQVFfZ280a3kyYVMwQW1kMXd0Z2F0aUxRcnVnaDVzem5qSTQzLVRxNVpwRnhDbjVTM2xGYXNZdEZaWGNIZFFGZ09qTFV2VW5HaFRoS09BS21mVWNZeXRlZU04OWNfNUxaclB60gG6AUFVX3lxTFBrXy1EOUMwU2VEeW9ic1FTQkUwbDhlLVBTX2hmNGtyQUZuVC1TRXNtZWloMEdjZGE4ZWtSVGVrTTJnQ2FkR3J1c1NDbm1PSWItaUlBejR3OHRqM240RDl4RHJIS29zY254YVVydzJhNkJjZTFjUkxJTE15UnJyd2JpbGhoeTF1Ymg4OUczREJTcDN5WXg5clktZHJGTHJsSUlHSVcyYlRpN2dPbFhfV05PWFFxamJEQ29vZw?oc=5",
-     "source": "DT Next"
-    },
-    {
-     "title": "Official fuel price for October: Here's what you'll pay for petrol and diesel - IOL",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYkpycWlzc3hsZHh3SjQtSUFPMm12bnhlbUxQUnZqdkdycmdZY0pHc1Y3X1VseW1sdFRQOGRwbnp6czh4WlVxcFU5UFlPZDVzQXdBTThzVC1yRTVZcU5BZk5HakVBUnlVd2tsQTNFN0Yybk11T1RzVms5UThLVDFleXF1aGJ2cGFYbm1oTVloeVlIT0NtOFlSYlRyM1BRUEVaY18zekFRdGFTclF1YWFzNjFMQXA1MHVkQjZvQ3VHQWlRbjF6dFFjTFlFaVpsTjlxRHp4MQ?oc=5",
-     "source": "IOL"
-    }
-   ],
-   "official": false,
-   "score": 30.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "LPG cylinder price",
-   "traffic": 0,
-   "article_count_24h": 21,
-   "article_count_1h": 3,
-   "published": "2026-10-27T03:56:40+09:00",
-   "category": "Government Schemes",
-   "news": [
-    {
-     "title": "Indane Gas, HP Gas, Bharat Gas Connection To Be Suspended On August 16? Why Aadhaar E-KYC For LPG Important? - Goodreturns",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQl9BVmJybHRScTdXV0NZXzcxWmhxcUE2c2FUZFhha0s1akwzbFQ1Ui1hNUY1R2ExaEtmZVYxc1dDSkQ0R2pfQ29Mb21rN3Y1ejZRZVdUcGRuMkttNWFvaHFCd0RFVnJDYVlkNUZWWF9aRWZnRlRkX3lSR0tLellqS2NEdkh6amxWc0p2ZEp6eHNGUlB1M0RZWEcyMmtHeVdJTUxkeE1qalQtaGtOYkNOamYxVDhXYXllandoa1VnZW9ua3N3OFpXdVpiTkxLTTNUR0k5bXFVeG95bDlERWtDMmlOT21PMmRETEE?oc=5",
-     "source": "Goodreturns"
-    },
-    {
-     "title": "LPG cylinder new rules 2026 from Nov 1: How it will impact your household budget and the way you book a refill - CNBC TV18",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUmd5dWJWVWZtMmhtUmxqOTAzNURSVWR2YjRZb2pWSWY5R1VnUHF1Qm5oY1A3NFdSa01ubkloa3pGQ21TakN4cnlUa3lndjNHYzluOGpkOGhmVUk0ak5RLXd1SGJwVVdyZUNCRndEVXhxYXREUGdGRUVUVkJHNFJ2NTA3ODUwcEp2c2NRYUxDMUNBZ0UzdW9NX3lwenBkVWkxR0tCeEt1YnYtay1mYXdWNUlsLTFBTWVZeEl0Mi1RM3JPQmk4cUZMS2x4SVg1UjhGeHJ5UkY0SDE0NjJtTnU3di1oQXZKX3N1RXhMOFRR0gHuAUFVX3lxTFBSZ3l1YlZVZm0yaG1SbGo5MDM1RFJVZHZiNFlvalZJZjlHVWdQcXVCbmhjUDc0V1JrTW5uSWhrekZDbVNqQ3hyeVRreWd2M0djOW44amQ4aGZVSTRqTlEtd3VIYnBVV3JlQ0JGd0RVeHFhdERQZ0ZFRVRWQkc0UnY1MDc4NTBwSnZzY1FhTEMxQ0FnRTN1b01feXB6cGRVaTFHS0J4S3Vidi1rLWZhd1Y1SWwtMUFNZVl4SXQyLVEzck9CaThxRkxLbHhJWDVSOEZ4cnlSRjRIMTQ2Mm1OdTd2LWhBdkpfc3VFeEw4VFE?oc=5",
-     "source": "CNBC TV18"
-    },
-    {
-     "title": "LPG Cylinder Rules Change From November 1, 2026: Check New Rates, Refilling and Delivery Company-Wise Mandatory Revisions - Jagran Josh",
-     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOYkZDVVR2akJyenlXaGkxY3ZjTEpnNEZLQnBzWVRWRy1wS2p4WnZEQlhCbTMteFBvcmtvb1BXTVBobkw1ZWpoUmh1U1BTRXNOUElKZHJjWjVCMnV6Mkl5WllKUG9DcUNXY1FPZklvczhnazZDYVgyQmRMVmk4cWRxeVJfRVlJRV9pVHhuNUsyRkdHdDZBTElZUXcyY2RvNEhVUm52OXZfWWdtZkhmQTZEVGdfalJNb0VqeGo0Q054S3JzZmk5RVFRMlZ3dExtY2psdGUzWk95aklzVnM1YUR2YkstcTJuNFdFVkJCZEFreHBUeHl4djZETTNHWjVoMkdNWTF3YWpGX2ozbTRDeUV0bDNTRdIBmgJBVV95cUxQRm84R182b0lESUM3SnJjV0xjZXBYbW9PQlJub3ZsNXlNM2RTdmxKbk42NDZ1TUN1d2tPUUVmX3pleW0weDhOR3k4WXlrOWkwc1lsQndWaFBSVktYUzY5ZkpmN0YwSlZKTTRBVzduRlp6bnBOY2xJX3dvVGJBbGthcEVHMWV2RnVFV1ZoYlNlYmZqdE81V0s2VHlPZ3YyamFIWDVGc3U2YTRjQW5KNWx0VXJzNmU3dk9xLVVRbFlnM1RpQmVBZTc3Q0lMaWphd1lLRHVGR3RoaTBHTTNMS0otdEwyblphUE9QSzdhMzEzWG9GUXpTTEdES2taZ2RaSnFhLTJIQTBGbVRKNkR6cUlYQlZ1a2xBeGVvVUE?oc=5",
-     "source": "Jagran Josh"
-    },
-    {
-     "title": "Great Nicobar Consumers Charged ₹1,229.92 Extra Per 19 Kg Commercial LPG Cylinder for Transportation - - Nicobar Times",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYkxaWlplTDUyM0J6U001NWtoUy1lRGctTmt3TnRzVjdxOVpibjNSTDBIYW1sMkpOTTFpM3BkdEdYNldzOXBYaXFUTHNQUjVvYXlJS2JBV0c0SWRobWtZMjBZRTNsYmVOaHFYZVRwVWxlRFlXeUpLbVhWQjByVU9XcEdGOEs2TGl1RGJESUhqdEVaV081SFItX0J5ZXRCdDYwNkZNdU1Wem5pVWc4MWxQcVVEMUkzdmJhNU9UbjZzd2hwbXZ1ZHZqcW9qd3dkMHBFSlh3amxsNlRLVGtx0gHcAUFVX3lxTFBiTFpaWmVMNTIzQnpTTTU1a2hTLWVEZy1Oa3dOdHNWN3E5WmJuM1JMMEhhbWwySk5NMWkzcGR0R1g2V3M5cFhpcVRMc1BSNW9heUlLYkFXRzRJZGhta1kyMFlFM2xiZU5ocVhlVHBVbGVEWVd5SkttWFZCMHJVT1dwR0Y4SzZMaXVEYkRJSGp0RVpXTzVIUi1fQnlldEJ0NjA2Rk11TVZ6bmlVZzgxbFBxVUQxSTN2YmE1T1RuNnN3aHBtdnVkdmpxb2p3d2QwcEVKWHdqbGw2VEtUa3E?oc=5",
-     "source": "Nicobar Times"
-    },
-    {
-     "title": "Pakistan's twin cities turn to alternative fuel amid gas shortage - Tripuratimes",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONC1Ya3VKa090Um1UdlIwWnB3ckxiWEtDcjUtbldGSVFtb01kQXdaNzByZm05ZTd5ZjVXYjFrZXFlWXhlYUxtNFFkMi00NFVXcGVkU19SdWtqU1p0VGdhSGtsREdiN1JPUXB0cDlYLUZXTUxTT2IzS0lDT0tuTjNIR04yNDBtQU9aUVN5b1hINlI4Z01VR2tCSzg5TTNCSUlDTzhobmxXMEwzcE0?oc=5",
-     "source": "Tripuratimes"
-    }
-   ],
-   "official": false,
-   "spike": "최근 1시간 기사 1.0→3건 (2.0배)",
-   "spike_bonus": 20.0,
-   "score": 26.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.goodreturns.in/personal-finance/indane-gas-hp-gas-bharat-gas-connection-to-be-suspended-august-16-aadhaar-e-kyc-for-lpg-cylinders-1527173.html",
-     "title": "Indane Gas, HP Gas, Bharat Gas Connection To Be Suspended On August 16? Why Aadhaar E-KYC For LPG Important? - Goodreturns",
-     "outlet": "Goodreturns"
-    },
-    {
-     "url": "https://www.cnbctv18.com/india/lpg-cylinder-new-rules-2026-from-nov-1-how-it-will-impact-your-household-budget-and-the-way-you-book-a-refill-20019503.htm/amp",
-     "title": "LPG cylinder new rules 2026 from Nov 1: How it will impact your household budget and the way you book a refill - CNBC TV18",
-     "outlet": "CNBC TV18"
-    },
-    {
-     "url": "https://www.jagranjosh.com/general-knowledge/lpg-gas-cylinder-png-new-rules-to-be-implemented-from-november-1-check-expected-fare-refilling-and-delivery-companywise-changes-1820013314-1",
-     "title": "LPG Cylinder Rules Change From November 1, 2026: Check New Rates, Refilling and Delivery Company-Wise Mandatory Revisions - Jagran Josh",
-     "outlet": "Jagran Josh"
-    },
-    {
-     "url": "https://nicobartimes.com/local-news/great-nicobar-consumers-charged-%E2%82%B91229-92-extra-per-19-kg-commercial-lpg-cylinder-for-transportation/",
-     "title": "Great Nicobar Consumers Charged ₹1,229.92 Extra Per 19 Kg Commercial LPG Cylinder for Transportation - - Nicobar Times",
-     "outlet": "Nicobar Times"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "daryl mitchell",
-   "traffic": 5000,
-   "published": "2026-10-27T16:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-     "url": "https://m.cricbuzz.com/player-match-performance/match/161201/player/10713/batting?inningsId=1",
-     "source": "Cricbuzz"
-    },
-    {
-     "title": "Bhuvneshwar Kumar picks up his 1st wicket for India in 4 years | Bhuvneshwar has economy of 7.03 in T20Is | Inshorts",
-     "url": "https://inshorts.com/en/news/bhuvneshwar-kumar-picks-up-his-1st-wicket-for-india-in-4-years-1792834306676",
-     "source": "Inshorts"
-    },
-    {
-     "title": "WATCH: Bhuvneshwar Kumar takes first wicket for India after four years in second T20I vs NZ",
-     "url": "https://www.india.com/sports/cricket/watch-bhuvneshwar-kumar-takes-first-wicket-for-india-after-four-years-in-second-t20i-vs-nz-8538821/",
-     "source": "India.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://m.cricbuzz.com/player-match-performance/match/161201/player/10713/batting?inningsId=1",
-     "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-     "outlet": "Cricbuzz"
-    },
-    {
-     "url": "https://www.india.com/sports/cricket/watch-bhuvneshwar-kumar-takes-first-wicket-for-india-after-four-years-in-second-t20i-vs-nz-8538821/",
-     "title": "WATCH: Bhuvneshwar Kumar takes first wicket for India after four years in second T20I vs NZ",
-     "outlet": "India.com"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "sony liv",
-   "traffic": 5000,
-   "published": "2026-10-27T16:10:00+09:00",
-   "category": "Banking",
-   "news": [
-    {
-     "title": "'Immortal' OTT release date OUT: When and where to stream GV Prakash Kumar, Kayadu Lohar's horror romance",
-     "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/immortal-ott-release-date-out-when-and-where-to-stream-gv-prakash-kumar-kayadu-lohars-horror-romance/articleshow/135160635.cms",
-     "source": "The Times of India"
-    },
-    {
-     "title": "Immortal OTT Release: When and where to watch GV Prakash, Kayadu Lohar’s romantic horror movie online",
-     "url": "https://www.pinkvilla.com/entertainment/south/immortal-ott-release-when-and-where-to-watch-gv-prakash-kayadu-lohars-romantic-horror-movie-online-1406077",
-     "source": "Pinkvilla"
-    },
-    {
-     "title": "G. V. Prakash Kumar and Kayadu Lohar’s supernatural horror film Immortal to premiere on Sony LIV on October 30",
-     "url": "https://www.adgully.com/post/22743/g-v-prakash-kumar-and-kayadu-lohars-supernatural-horror-film-immortal-to-premiere-on-sony-liv-on-october-30",
-     "source": "Adgully"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/immortal-ott-release-date-out-when-and-where-to-stream-gv-prakash-kumar-kayadu-lohars-horror-romance/articleshow/135160635.cms",
-     "title": "'Immortal' OTT release date OUT: When and where to stream GV Prakash Kumar, Kayadu Lohar's horror romance",
-     "outlet": "The Times of India"
-    },
-    {
-     "url": "https://www.pinkvilla.com/entertainment/south/immortal-ott-release-when-and-where-to-watch-gv-prakash-kayadu-lohars-romantic-horror-movie-online-1406077",
-     "title": "Immortal OTT Release: When and where to watch GV Prakash, Kayadu Lohar’s romantic horror movie online",
-     "outlet": "Pinkvilla"
-    },
-    {
-     "url": "https://www.adgully.com/post/22743/g-v-prakash-kumar-and-kayadu-lohars-supernatural-horror-film-immortal-to-premiere-on-sony-liv-on-october-30",
-     "title": "G. V. Prakash Kumar and Kayadu Lohar’s supernatural horror film Immortal to premiere on Sony LIV on October 30",
-     "outlet": "Adgully"
-    }
-   ]
   },
   {
    "source": "google_news",
    "keyword": "EPFO",
    "traffic": 0,
-   "article_count_24h": 19,
-   "article_count_1h": 2,
+   "article_count_24h": 16,
+   "article_count_1h": 0,
    "published": "2026-10-27T15:58:52+09:00",
    "category": "Government Schemes",
    "news": [
@@ -960,149 +980,69 @@
     }
    ],
    "official": false,
-   "score": 22.8,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "IMD cyclone alert",
-   "traffic": 0,
-   "article_count_24h": 66,
-   "article_count_1h": 6,
-   "published": "2026-10-27T08:44:09+09:00",
-   "category": "Weather",
-   "news": [
-    {
-     "title": "IMD issues cyclone alert for Andhra Pradesh and adjoining south Odisha coasts - News On AIR",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWVhmS3dYcTJnbDY4WFJhNnA3NmlFZkJRVDNTMDd1Wm0wWDVOZkZiY2J4ODV6aVNYVHhlRmZvTlhEdXlnYVdLZ2YyWTlDaEl6Q2RLeEczNkNuUkJWOUtGR2NpNHBOUWpBdWktaWRQMWF3NHNiOUgtamdVQjhWZGxjdXZ4aHV1bjdEQUVyMmJMTlRWZTVFUjhLTHd3R3VVTFpXbGpWaWpR?oc=5",
-     "source": "News On AIR"
-    },
-    {
-     "title": "Cyclone Arnab 2026, IMD Tracker, Landfall, Latest Updates - Vajiram & Ravi",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0b3NjanVQRTlnclFpLTZ4N2FkSHNQQkRLWGs5TVZIaTNudTJ0S2pRQjlBZm9OSnhkam5Rb1c3TFJmY09wWVRZdzJhTDl0Xy1tekNUejZDNWxBVmVTTjctRmUyQzFaQ1ZQM3c?oc=5",
-     "source": "Vajiram & Ravi"
-    },
-    {
-     "title": "Cyclone Arnab, India's First of 2026, Becomes Very Severe Storm, IMD Issues Red Alert for Several States; When, Where is Landfall? - Jagran Josh",
-     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPT0kzQ3ZWX1Q0NlpDejBKVGdXRHN4czJ4WGVuTl8xeWFEOE5sT0lvXzdOWXZOQWRIbDc3blloVi1Ca2lBbDBpUWF3Z2FyOThtQ2tUWURCdUwzd0VoTzNVS0RwRHRPRVJYRllCRHc3a21aRl9iT0NPQjduWlFnMnY2NGRxb0pQLW5WM0IzbTI1cS1fWWppaUx0d0h2em1JdG4xdVpVVlV3WW1FY0J3bklPNUhtXzlCcGFhVUJSX2NCQUhpOUJEbkF0RlpzWWtGYk9xbEpWTDA2TWZOUHVKM2JWbUkwU1FWYkRueHRUT1lHMFhoQTRNblRYT2gzdmIyQk9OamtkSGhVSjhVdW8wUDRV0gGWAkFVX3lxTE5aZ1VpNVlHLVY0SHRfU2RueG95c3BvNXVBNExlQ0VFM0VPQzhLRVdxdTFkTHR3N2l6UDdEN2VzTmVKUmNtZ1p5RHl2dkt4aDhtR2taQU5nb3J6cjZfTTk3aUxqZzVkZkl2eG8xazFHa2NEamlUSmM0Ujl0eUs4ZldrY2VrWnB0ZTU2SldGeFlzMGF1T1Q3UW0yMF9CRFkwd0pyNlZUb1hwaTNQek9OUEhaVk9PREFXeDY2SExqaUp5LV9kWGlOODhjMV9Wb0gtOEQ2U1p1N2dzMHdxVmVUVXB2WUZOU0owSUoyeFpReGVhbU5XMUNGR2ktalBlMmJuRE1qTG1kc3FDWDN3M0dQRkw1MjQ5SkFR?oc=5",
-     "source": "Jagran Josh"
-    },
-    {
-     "title": "Will Cyclone Arnab Affect Districts In Uttar Pradesh? IMD Issues Alert; Check Forecast - NDTV Profit",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWk1LSGlWX0xWVGhPZmRGc1hjSk45SWVObVBLMHUxSk41TjQwNnlXNjVfd1d1ZmpCSXc0dnFueGFwVjRrN0ZXLVIyN1h3M0g1a1FIZDNjeDY3ajg0NnlHVmJqakNhWWNWSWZudDJQZWkzeFpUUDFwd0JZS1dDUldTRnQ0clVQel8xYUlrSkZ1VjJVcjVQaTZvMkpvTjIyMWY2S3VMa0JxUXVIOEJhVjFlM1RvRVVLLWlFZGpfbzdJYzFzNDJp0gHMAUFVX3lxTFBXRXBTVzRVLVFpTlBiUmVxYUpqQzU1Q09BRHQwYnlJWVI1NkU0RFVNRlZ1c3Y5QkpFejE0OWdBMVZmMmV4TEIzTGwwYUpnQnMyRFdhdHNwdHJrcHNYY1pqZWNDZ2dYRjFNWHFzSVFrZ1gtMmU3c0tqOHJ1MFJ2SlBvQ0lpTk5CWWVOYW82M0ZMbVpPbExhM3JuTkVtNWRnTEFBei1UcW9DZ2lJd0s1NTl5c1ltQU1qX1Z1cGRtS1I4Z1lId1ZGMGpGMUFUaw?oc=5",
-     "source": "NDTV Profit"
-    },
-    {
-     "title": "Cyclone Arnab: When will it make landfall, which areas are on alert? - The Indian Express",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUnFYdWJ4dWJEOFVVbV9YT3J1ZGJzSy1ycnZWdW5Zdk5Lam1hMTNPUWJkNER0Z00xWTFtbkRzWlBweWNYQWdLU200XzhZRjJ1eFVyUkZaM2dESmdNOHdqWWF1bDRMZVFkaGg0R0RKUDhkNjI3VlNYdllaclVZOU1Dckcxb1VDMkI1d25sVVNDLUVZbWdlZWRUSVhucHJra3JNY2tOYmpmQXpPMEnSAbIBQVVfeXFMUDZIZnFrU2J3YURQWEw5ZHpNeDZTWWpGbXJOVUZac2ZCVDhiVWZMTUNTRzcweXZxenhyVC1FOVVUM3REOURoczFMdEU3c1E1Yk0xVzRvVHgzYzhqZmp3aUVIMUtPUHBEZEdWbmdZSlhSbmdibE5uYTJ6eDFwc05sRUVyTkh3bmtNSDJWZXJfY1lKNTdqR1oyU1pxVDZnMXBxQkp1RURCVlF0QlQtai1kVC1lZw?oc=5",
-     "source": "The Indian Express"
-    }
-   ],
-   "official": false,
-   "score": 21.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "8th pay commission",
-   "traffic": 0,
-   "article_count_24h": 16,
-   "article_count_1h": 0,
-   "published": "2026-10-27T14:43:54+09:00",
-   "category": "Government Schemes",
-   "news": [
-    {
-     "title": "8th Pay Commission: Speculation over fitment factors of 1.83, 2, 2.57, 3.83 and 4—We calculate salary increase for each - Livemint",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZUdFRFZ5aEZWeFNsUy1yeTB4ZlBiMDd2T3VTd0pHV2NMVlBaVVZHVzZRdHB3NFZlbkp1eTBzQVVPaU9BY0hRQXFuYjBEaUd4S1pqanE0LUt3Mk5oUEN2MkxsUnZ1aFE4LTkzaDc4cXF0dmNrejh4MnNyVnN1Rm9KNWxFeGxPd1Q0NC1TeGJwVi1XUDZ2bWo5Z0RPSzU4SkxiOTAwTVZ5MmRfUFUyVDJTWGljN1FjQk9vSm1hS2tOQWMtX0c1NC1iWGk5b05jOFRFTjhrSzRLUlBJOFNheFZnYTVCanVQeXllTzVsUHN6VU9sQ0FYZVdMNjJB?oc=5",
-     "source": "Livemint"
-    },
-    {
-     "title": "Kerala HC back-dates 3 increments for LLM judges to 1996 - indianpaycalculator.in",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRG5aUzhwM3VPTHZ2emY1M0ZLemNtZ3BJTDBreW9zbWpkcVhGV0FWYkNNLTdaWXlESVI3ZXAxd3hONzB0LUd6V01GWXcwSHEyd19pRW04U0U4SGQzX0swSGVobVpPaUo3RmRNNHIxaWRTYml1bHRLNnZIdTl6WmVZdEFETHJJT0M3N2k2aHh5VzZGTF9oY2pQM2hTQmFNVnc?oc=5",
-     "source": "indianpaycalculator.in"
-    },
-    {
-     "title": "Kerala Lottery Onam Bumper 2026 Result: First Prize Rs 30 Crore, How Much Winner Will Take Home After Taxes? - Goodreturns",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMWE0WXZ4Ymgza2t2VWNES3VFOHl1TTZ2ODlSZ3ZNYzdtcWJfYWxOZjVWY3NrSlp6M0l5OHNXbE5tY0tKLTRYZktZcnhNR1JjdV9VWlloLXhyWnJBWUpHZExqa2FWUFBKWnRlUk9IOUpaRFlxZEx1SExqUERhQlMxUDliX0FZdmdMTndEejUwWGhUZ3FTV2duM2hwLU9OY2w0eUpBbEphYk5vQmdVUU1TdTkyT0x5VlVXa2hHNjBlZzhENE1hY183eGpvMnpZa3EyN19BT0NTTWNvTDQ?oc=5",
-     "source": "Goodreturns"
-    },
-    {
-     "title": "5 Big Changes From November 1, 2026: From Delhi Pollution Rules To New Banking Fees, Check List Of Things To Keep In Mind Ahead Of The New Month - Jagran Josh",
-     "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOaENxWHMxMk5HQUJkdVRfQjZWdzc0WTJ3am14eFhWbmpBX29iWmxPajJRazFCdHF2YW9RMEZyLXFHaExjY0FZbENGVmFfTWpyc3JkU0Z3cEkzUTJId3k1NFB0YWRQZ3JaSzlER0l4RmdLbU8yMWFyYkdJd3F0NXhYNGZaRzR5bGRpRHd0cG9rbHF3T2hyQkJKZkU0TGhEaVNvUkxtX1BGZ3VlUjhxYmY1LW92S21ta0E3alhfa0lvVHRTcFhwcGdsb0tKUWlYU2hmeEFMaFBIMTh1MFdSUV9hU2k0N1dfTC1zNnE3VVpfRmJiMVIxWFJxMVJ5c2hUMDdYTVVRck5oSF9idWs1YjVvZ2hIZWNsX3VBY1pRUWl30gGkAkFVX3lxTE5Uc19NQTdLU3pDeHhIR0NvNzBrQXV5ZnI3VFplRUZXcjNCd3RfeG1tZlVpMEgtbV93bXpkWkNpUEhIRUdzSVVRd2xtc3ROOFVYcEZqLVpvRG9oUElVV0tiOUtuendZMTBKUHFRNXBtNGtZTFpMQmJyTHRsUGJqaFh2UWxYR3ppbTNHLVJCbkJpclA5NldCOGNpU1hHNkZDbzhHTHRmak94S0o4Mm1mVC1XSHR1amJ4NjhPNjFfSlphNkJTVXd4OU5jcklmT1dhTzBDX3M0SGVvVkZpRWNVSHZxbkdqU0pudF9BTWxIMmlSUFp3ZW41MGMtMEVLbDRQZW9YLVlGMTlHVWtDU2prR01OU2taeG9IVlQ4YnpPZXNBMUhyX0Y?oc=5",
-     "source": "Jagran Josh"
-    },
-    {
-     "title": "Treasury Rates Today: October 26, 2026 - Forbes",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9yck9yOUFWR0FpdE9oMU00NGZWMVVrb25MOWxBWmRuU3Ztc1FvdGJZZlBMXzZwUnpPQVp5Mlg4UzFwX2VZTG00SUFUa3p0VVoxRFZOY2M3V2N3R1ZlLXhCdVVpWHNKd2s?oc=5",
-     "source": "Forbes"
-    }
-   ],
-   "official": false,
    "score": 18.0,
    "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "star sports",
-   "traffic": 2000,
-   "published": "2026-10-27T16:20:00+09:00",
-   "category": "기타",
+   "source": "google_news",
+   "keyword": "LPG cylinder price",
+   "traffic": 0,
+   "article_count_24h": 46,
+   "article_count_1h": 3,
+   "published": "2026-10-27T03:56:40+09:00",
+   "category": "Government Schemes",
    "news": [
     {
-     "title": "JioStar secures Abu Dhabi T10 broadcast rights for Indian subcontinent",
-     "url": "https://www.afaqs.com/news/media/jiostar-secures-abu-dhabi-t10-broadcast-rights-for-indian-subcontinent-12753654",
-     "source": "afaqs!"
+     "title": "Indane Gas, HP Gas, Bharat Gas Connection To Be Suspended On August 16? Why Aadhaar E-KYC For LPG Important? - Goodreturns",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQl9BVmJybHRScTdXV0NZXzcxWmhxcUE2c2FUZFhha0s1akwzbFQ1Ui1hNUY1R2ExaEtmZVYxc1dDSkQ0R2pfQ29Mb21rN3Y1ejZRZVdUcGRuMkttNWFvaHFCd0RFVnJDYVlkNUZWWF9aRWZnRlRkX3lSR0tLellqS2NEdkh6amxWc0p2ZEp6eHNGUlB1M0RZWEcyMmtHeVdJTUxkeE1qalQtaGtOYkNOamYxVDhXYXllandoa1VnZW9ua3N3OFpXdVpiTkxLTTNUR0k5bXFVeG95bDlERWtDMmlOT21PMmRETEE?oc=5",
+     "source": "Goodreturns"
     },
     {
-     "title": "JioStar gets Abu Dhabi T10 rights, but what happened to FanCode's three-year deal?",
-     "url": "https://bestmediainfo.com/mediainfo/television/jiostar-gets-abu-dhabi-t10-rights-but-what-happened-to-fancodes-three-year-deal-12754034",
-     "source": "BMI"
+     "title": "LPG cylinder new rules 2026 from Nov 1: How it will impact your household budget and the way you book a refill - CNBC TV18",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUmd5dWJWVWZtMmhtUmxqOTAzNURSVWR2YjRZb2pWSWY5R1VnUHF1Qm5oY1A3NFdSa01ubkloa3pGQ21TakN4cnlUa3lndjNHYzluOGpkOGhmVUk0ak5RLXd1SGJwVVdyZUNCRndEVXhxYXREUGdGRUVUVkJHNFJ2NTA3ODUwcEp2c2NRYUxDMUNBZ0UzdW9NX3lwenBkVWkxR0tCeEt1YnYtay1mYXdWNUlsLTFBTWVZeEl0Mi1RM3JPQmk4cUZMS2x4SVg1UjhGeHJ5UkY0SDE0NjJtTnU3di1oQXZKX3N1RXhMOFRR0gHuAUFVX3lxTFBSZ3l1YlZVZm0yaG1SbGo5MDM1RFJVZHZiNFlvalZJZjlHVWdQcXVCbmhjUDc0V1JrTW5uSWhrekZDbVNqQ3hyeVRreWd2M0djOW44amQ4aGZVSTRqTlEtd3VIYnBVV3JlQ0JGd0RVeHFhdERQZ0ZFRVRWQkc0UnY1MDc4NTBwSnZzY1FhTEMxQ0FnRTN1b01feXB6cGRVaTFHS0J4S3Vidi1rLWZhd1Y1SWwtMUFNZVl4SXQyLVEzck9CaThxRkxLbHhJWDVSOEZ4cnlSRjRIMTQ2Mm1OdTd2LWhBdkpfc3VFeEw4VFE?oc=5",
+     "source": "CNBC TV18"
     },
     {
-     "title": "Abu Dhabi T10 Awards Indian Subcontinent Broadcast Rights to JioStar; All 32 Matches to Air on Star Sports and JioHotstar",
-     "url": "https://english.hindusthansamachar.in/Encyc/2026/10/26/Sports-Cricket-JioStar-Abu-Dha.php",
-     "source": "Hindusthan Samachar English"
+     "title": "LPG Cylinder Rules Change From November 1, 2026: Check New Rates, Refilling and Delivery Company-Wise Mandatory Revisions - Jagran Josh",
+     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOYkZDVVR2akJyenlXaGkxY3ZjTEpnNEZLQnBzWVRWRy1wS2p4WnZEQlhCbTMteFBvcmtvb1BXTVBobkw1ZWpoUmh1U1BTRXNOUElKZHJjWjVCMnV6Mkl5WllKUG9DcUNXY1FPZklvczhnazZDYVgyQmRMVmk4cWRxeVJfRVlJRV9pVHhuNUsyRkdHdDZBTElZUXcyY2RvNEhVUm52OXZfWWdtZkhmQTZEVGdfalJNb0VqeGo0Q054S3JzZmk5RVFRMlZ3dExtY2psdGUzWk95aklzVnM1YUR2YkstcTJuNFdFVkJCZEFreHBUeHl4djZETTNHWjVoMkdNWTF3YWpGX2ozbTRDeUV0bDNTRdIBmgJBVV95cUxQRm84R182b0lESUM3SnJjV0xjZXBYbW9PQlJub3ZsNXlNM2RTdmxKbk42NDZ1TUN1d2tPUUVmX3pleW0weDhOR3k4WXlrOWkwc1lsQndWaFBSVktYUzY5ZkpmN0YwSlZKTTRBVzduRlp6bnBOY2xJX3dvVGJBbGthcEVHMWV2RnVFV1ZoYlNlYmZqdE81V0s2VHlPZ3YyamFIWDVGc3U2YTRjQW5KNWx0VXJzNmU3dk9xLVVRbFlnM1RpQmVBZTc3Q0lMaWphd1lLRHVGR3RoaTBHTTNMS0otdEwyblphUE9QSzdhMzEzWG9GUXpTTEdES2taZ2RaSnFhLTJIQTBGbVRKNkR6cUlYQlZ1a2xBeGVvVUE?oc=5",
+     "source": "Jagran Josh"
+    },
+    {
+     "title": "Great Nicobar Consumers Charged ₹1,229.92 Extra Per 19 Kg Commercial LPG Cylinder for Transportation - - Nicobar Times",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYkxaWlplTDUyM0J6U001NWtoUy1lRGctTmt3TnRzVjdxOVpibjNSTDBIYW1sMkpOTTFpM3BkdEdYNldzOXBYaXFUTHNQUjVvYXlJS2JBV0c0SWRobWtZMjBZRTNsYmVOaHFYZVRwVWxlRFlXeUpLbVhWQjByVU9XcEdGOEs2TGl1RGJESUhqdEVaV081SFItX0J5ZXRCdDYwNkZNdU1Wem5pVWc4MWxQcVVEMUkzdmJhNU9UbjZzd2hwbXZ1ZHZqcW9qd3dkMHBFSlh3amxsNlRLVGtx0gHcAUFVX3lxTFBiTFpaWmVMNTIzQnpTTTU1a2hTLWVEZy1Oa3dOdHNWN3E5WmJuM1JMMEhhbWwySk5NMWkzcGR0R1g2V3M5cFhpcVRMc1BSNW9heUlLYkFXRzRJZGhta1kyMFlFM2xiZU5ocVhlVHBVbGVEWVd5SkttWFZCMHJVT1dwR0Y4SzZMaXVEYkRJSGp0RVpXTzVIUi1fQnlldEJ0NjA2Rk11TVZ6bmlVZzgxbFBxVUQxSTN2YmE1T1RuNnN3aHBtdnVkdmpxb2p3d2QwcEVKWHdqbGw2VEtUa3E?oc=5",
+     "source": "Nicobar Times"
+    },
+    {
+     "title": "Two booked for illegal sale of domestic LPG - The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLW1wNDFQcHZ5VE5tWVpEaFpUUTR6VWw0NEVSMWwxanZDSGZGNlphbkxfWWZiaFNQWkZ2QW5SUm1HUGNldWxsRXFLVl8zX2dLTFlzU0R5eTJodEoxN2RQVlRGc1RyOHhlRXdGaTVFbWw3ZUxKdUlMTnNranc2d0RHZnN5LWo2Ynhzc0M2elNib0pITkMxaDkxYmotZU1zb3I5bnBCVzA4endTNU5BVW96Z2VxRkZQYTl6clg00gHAAUFVX3lxTE1lOHBDdUcyUzdJeDRYc2MwS2N4YWlpUGhyejBfdDRKNTdHZlh3RzdSYThKcFhmY1lMVktOVklQemdHS1FGenJiMjBJU2tleEFxV0JKY3J5bEttTkkwZXdpTEVmRHV6SWo2Mm9pVi1DRFFtT01jbkFGeE9Zd1VhNVBRRWpJSkhMXzBwbUVuc0dxcEZVLTVjNjFFS1Mzd1Y5V1B6cHhCV0t5MWtKMlk4UjZONWVqckpFWG95QXRWWm1kSQ?oc=5",
+     "source": "The Times of India"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.afaqs.com/news/media/jiostar-secures-abu-dhabi-t10-broadcast-rights-for-indian-subcontinent-12753654",
-     "title": "JioStar secures Abu Dhabi T10 broadcast rights for Indian subcontinent",
-     "outlet": "afaqs!"
-    },
-    {
-     "url": "https://english.hindusthansamachar.in/Encyc/2026/10/26/Sports-Cricket-JioStar-Abu-Dha.php",
-     "title": "Abu Dhabi T10 Awards Indian Subcontinent Broadcast Rights to JioStar; All 32 Matches to Air on Star Sports and JioHotstar",
-     "outlet": "Hindusthan Samachar English"
-    }
-   ]
+   "score": 17.6,
+   "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "cricbuzz live",
+   "keyword": "पाकिस्तान बनाम श्रीलंका",
    "traffic": 2000,
-   "published": "2026-10-27T16:10:00+09:00",
+   "published": "2026-10-27T17:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "New Zealand A vs India A at Lincoln, 24-27 Oct 2026",
-     "url": "https://www.bcci.tv/matches/4c0cfa4a-1a27-44c4-9937-3aba23ad8893/new-zealand-a-vs-india-a/commentary",
-     "source": "BCCI"
+     "title": "PAK vs SL ODI 5th Match: फाइनल के टिकट के लिए आज पाकिस्तान से भिड़ेगा श्रीलंका, सैम अयूब टीम से हुए बाहर",
+     "url": "https://navbharatlive.com/sports/cricket/pak-vs-sl-odi-tri-series-match-5-preview-lahore-gaddafi-stadium-saim-ayub-dropped-rdu99",
+     "source": "Navbharat Live"
     },
     {
-     "title": "Heaphy, Lennox, light deny India A in tight draw",
-     "url": "https://www.cricbuzz.com/cricket-news/140668/heaphy-lennox-light-deny-india-a-in-tight-draw",
-     "source": "Cricbuzz"
+     "title": "लाइव क्रिकेट स्कोर: पाकिस्तान बनाम श्रीलंका स्कोरकार्ड, आज का मैच | PAK Vs SL Cricket Live Score, ODI Tri-Series in Pakistan, 2026 | PAK - 11/1 (3.2)",
+     "url": "https://www.jansatta.com/khel/cricket/live-score/pakistan-vs-sri-lanka-match-5-odi-live-score-full-scorecard-highlights-odi-tri-series-in-pakistan-2026-pksl10272026274146/",
+     "source": "Jansatta"
     },
     {
-     "title": "Recent Match Report - New Zealand A vs India A 1st unofficial Test 2026 | cricinfo.com",
-     "url": "https://www.espn.com/cricket/series/24805/report/1552529/day/3/new-zealand-a-vs-india-a-1st-unofficial-test-24805",
-     "source": "ESPN"
+     "title": "PAK vs SL 5th ODI Match Prediction: Pitch Report & Dream11 Tips",
+     "url": "https://www.ai11.in/hi/news/pak-vs-sl-5th-odi-match-preview-pitch-report-fantasy-tips-2026",
+     "source": "AI11"
     }
    ],
    "official": false,
@@ -1112,14 +1052,9 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.bcci.tv/matches/4c0cfa4a-1a27-44c4-9937-3aba23ad8893/new-zealand-a-vs-india-a/commentary",
-     "title": "New Zealand A vs India A at Lincoln, 24-27 Oct 2026",
-     "outlet": "BCCI"
-    },
-    {
-     "url": "https://www.cricbuzz.com/cricket-news/140668/heaphy-lennox-light-deny-india-a-in-tight-draw",
-     "title": "Heaphy, Lennox, light deny India A in tight draw",
-     "outlet": "Cricbuzz"
+     "url": "https://navbharatlive.com/sports/cricket/pak-vs-sl-odi-tri-series-match-5-preview-lahore-gaddafi-stadium-saim-ayub-dropped-rdu99",
+     "title": "PAK vs SL ODI 5th Match: फाइनल के टिकट के लिए आज पाकिस्तान से भिड़ेगा श्रीलंका, सैम अयूब टीम से हुए बाहर",
+     "outlet": "Navbharat Live"
     }
    ]
   },
@@ -1127,8 +1062,8 @@
    "source": "google_news",
    "keyword": "UPSC result",
    "traffic": 0,
-   "article_count_24h": 11,
-   "article_count_1h": 0,
+   "article_count_24h": 13,
+   "article_count_1h": 1,
    "published": "2026-10-27T05:10:23+09:00",
    "category": "Exams",
    "news": [
@@ -1153,20 +1088,20 @@
      "source": "Careers360"
     },
     {
-     "title": "Power disrupted in Tathawade-Punawale as garbage burning damages power cables - The Indian Express",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSjFoeGxRNVNoemtuR1p6a2dXSmk0LUk0Z19EZjc2Sk5vVFZBRjRtNzBTYmpRYmUzSkJZNGdZZEd6RTR4cUw5MkVEdkJUc1YtTUV2VGVQWS1Bcy1hVEVsTFA0NFI4UVdmM2hLbXBlYVdQZUl1cHNJSzRMTVdmS19vbHhNcldZMnVYc3hUUks4VXFmVHo4amZqcUYxenVTTTVaZ1NMYW55SGlGYllRY0VBX1B3SXM3STl2cUdrVXZBN2hlQzVUemtnMlpfTnhMQdIB1AFBVV95cUxObEUyVlVyRXZsQWpjczRmemRhN1UtMnpyLTNwQXY0WnRJa0Z1dlFfYTJlMEhUNUh4OWlpLWtJaGMwUTZOUWgwYVBPcEI3Z3pIR3EwRlNXQS1IeHVIMjVXU0djQ3h3WWNQYzlkLS1rUEJLUVVLMDJwZzFaeUhJWFRBek5Eb2lNS1VsckJpT21kalVqTXNEeURLbkpLc0gzRmdSeDEyS3ZoM19hMmdWZ0I0T29DZVM5YUdwc0ZZbHBSeC1adGVlTUJaaUYyVzh3ODRHdlJkZA?oc=5",
-     "source": "The Indian Express"
+     "title": "UPPSC RO ARO Vacancy 2026 Notification Out For 501 Posts, Apply Online Starts On 26 Oct - Adda247",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWZllVa3o3d0lIMXd5T3VWUERnSDgzanJVQnRfMlVZX2xDT0NWODhkeVJoNFhvRXhOeUhaS1dRbllGZzNTUXUwQ2RSa1Z2alFKdEpQYXhvNUl3ZDJlM1B6bUREc0ZkZm5WWVZN?oc=5",
+     "source": "Adda247"
     }
    ],
    "official": false,
-   "score": 12.6,
+   "score": 14.3,
    "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "Aadhaar update",
    "traffic": 0,
-   "article_count_24h": 19,
+   "article_count_24h": 17,
    "article_count_1h": 0,
    "published": "2026-10-26T22:29:16+09:00",
    "category": "Government Schemes",
@@ -1202,85 +1137,28 @@
    "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "జార్ఖండ్ క్రికెట్ జట్టు",
-   "traffic": 500,
-   "published": "2026-10-27T16:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Cricket Controversy: ఒక్క పరుగు తేడాతో ఓటమి.. స్కోరర్ తప్పిదంపై బీసీసీఐకి ఝార్ఖండ్ ఫిర్యాదు",
-     "url": "https://tv9telugu.com/sports/cricket-news/jharkhand-complains-to-bcci-over-alleged-scoring-error-1944127.html",
-     "source": "TV9 Telugu"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://tv9telugu.com/sports/cricket-news/jharkhand-complains-to-bcci-over-alleged-scoring-error-1944127.html",
-     "title": "Cricket Controversy: ఒక్క పరుగు తేడాతో ఓటమి.. స్కోరర్ తప్పిదంపై బీసీసీఐకి ఝార్ఖండ్ ఫిర్యాదు",
-     "outlet": "TV9 Telugu"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "sony tv",
-   "traffic": 500,
-   "published": "2026-10-27T16:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Large 75\" Sony Bravia 5 mini-LED TV hits its best price in months on Amazon with limited-time deal",
-     "url": "https://www.pcguide.com/deals/large-75-sony-bravia-5-mini-led-tv-hits-its-best-price-in-months-on-amazon-with-limited-time-deal/",
-     "source": "PC Guide"
-    },
-    {
-     "title": "One of our favourite ever Sony TVs has hit a new low price, but I wouldn't update the software just yet",
-     "url": "https://www.whathifi.com/tv-home-cinema/televisions/one-of-our-favourite-ever-sony-tvs-has-hit-a-new-low-price-but-i-wouldnt-update-the-software-just-yet",
-     "source": "What Hi-Fi?"
-    },
-    {
-     "title": "77-inch Sony BRAVIA 6 price crashes to all-time low with massive discount of $1,200",
-     "url": "https://www.neowin.net/deals/77-inch-sony-bravia-6-price-crashes-to-all-time-low-with-massive-discount-of-1200/",
-     "source": "Neowin"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.pcguide.com/deals/large-75-sony-bravia-5-mini-led-tv-hits-its-best-price-in-months-on-amazon-with-limited-time-deal/",
-     "title": "Large 75\" Sony Bravia 5 mini-LED TV hits its best price in months on Amazon with limited-time deal",
-     "outlet": "PC Guide"
-    },
-    {
-     "url": "https://www.whathifi.com/tv-home-cinema/televisions/one-of-our-favourite-ever-sony-tvs-has-hit-a-new-low-price-but-i-wouldnt-update-the-software-just-yet",
-     "title": "One of our favourite ever Sony TVs has hit a new low price, but I wouldn't update the software just yet",
-     "outlet": "What Hi-Fi?"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "UPI new rule",
    "traffic": 0,
-   "article_count_24h": 7,
-   "article_count_1h": 1,
-   "published": "2026-10-26T18:44:36+09:00",
+   "article_count_24h": 6,
+   "article_count_1h": 0,
+   "published": "2026-10-27T15:45:53+09:00",
    "category": "Banking",
    "news": [
+    {
+     "title": "Digital payments mandatory for liquor purchases above Rs 1,000 in Tamil Nadu from November 1: Check what cha.. - ET Retail",
+     "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNSVVyY2tPaW5FN2RNcndrS3hYUmg5QVFiWWd2SFhoR3VhU3BGTzZHblY2eGt2a08xcmwzUzdheTdXa1BDSkh3Q3FrQjJlUHcycHBhakotdHZXT2l1Ny1admdzaFl3SUFSSTROdjJnY2ZNeUJBMEozYlVkWnQ1QzA3bXpabTBaNkVXbEVKQUhPekI3U3Bzemg2MXB2cGJZUVZtZlZTbnR4Umowb0o4ZDFDd1E0ZC1kTFlreXRfUkhXLTROQlNuVzB4cGtIbFVJZzFMTDN1UUM2VHV3R1JweFNyQjZDb1VBMjFNVkE3UTYyMEtWUTZRNEhWVzE4aEdIc2FmMVdsUmdlQUFkZ3ZuUTVoTTF5a01hWGg5VGZOSlNmMFJtQdIBpwJBVV95cUxOR29nb2RVcHhrSmJzNWdJUGJ1bVJlV094TGtGX2psaWY3cTRzX2xGSzJQNy1CSW1hQVZsamI5MzlrcFJKTzZ4YXVGZHdBVDVvVTJsYmlOZ3JveWpVNUVjeWpTRG9HaFhISXBvLVdzQ0FLMWlGYUY0dEdLQ3hKMV9XTkJYcnFHOWotYlVkS1VvaTF1OHJvTXphRTdCbU55NU1rMkxqa3hndjhBM2R5M2FhdkFQdjdkeWphQUxiY3RBLXhEWWJYZFJHUFFQX09odWNRaHc5UTdrY1VlUTNjUmVueFhqdU5Cd09GLXZpbkprd1lBS3FlOXhjMFotSU1DMXFYbHE5cHVwUDRMRFcxS1dQRTRtMmFqYlpoRS1xMk9BNm9RWTdQam5N?oc=5",
+     "source": "ET Retail"
+    },
     {
      "title": "UPI rules changing from Oct 15: Will scanning QR codes cost you extra money? What changes, what stays free - Bhaskar English",
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRkRoRDVzWVlfYmljTjJlSXpsbHlxZjhGQ2tRc0FVdXVmRFpIdHFPTVpwdzVLOUo2MUxVTVcza3kxRVdQOFFwUWtGV04xb1RmbGpJMHl0Wkc2TS1uS09SbTF6aGpYWUlZcTFZUFotdnNJZUJBaERuZlZCemQ1R0NlQm1QaVFpcGg3SkxMWk5UQjQwR2stVWsyb0dHcVdweUFKWmJHaW5TdkctVTVPbHRJd0JJcUI3ZUxKRHp2ZnlxdHdZVHPSAcgBQVVfeXFMTnZtS0dkdWloaWJ3M2h3dWJNYTRMX2JOU252RDVtdGgtWDkwUDVTQTRYUUxDbnFFa2d1b2JQa0FzYjRHeVlxX1Nsb3lwb0Q0VlBqQXZ6UHk4R182dDBwT2dXeDdiWjlOb2hZZUZBa29TNHA3cGNVU2VYQVFxWHh2Xzg4Tk5OcUpvNV9FeGJVbmVrUmc2LU1PYTZhSDFMRWd0cFlDMUh1SXN1WV91b2w1ZEZUd1Z5ZEIxbm9zNHoxR1ZCbF9QbkFqY04?oc=5",
      "source": "Bhaskar English"
+    },
+    {
+     "title": "Form 10-IEA After 1 April 2026: Re-entry Rules That Still Matter - CAclubindia",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcDhTcG84N2tsZUwtZ3hxNzI0WmpsTWVqbUxmTUFTeFVBdzZ2QnVyS1o2UmVKRV9kaEVkcnM0NUtuTEFLUWM1N0FHWFluUTVUdnh4anhUbUpiR1ZvMzhaY2NaMmZmdEphWmVlelpSTjFfaDdxSzhsVzlsWHJQUzVGVjRDTUlWai1wMEdEZXdIc3lFdUZ4Y2hwdk9yOF9tU1ZiLURKOEJTUElyeGoyd1E?oc=5",
+     "source": "CAclubindia"
     },
     {
      "title": "TASMAC Mandates Digital Payments for Liquor Purchases Above Rs 1,000 From Nov 1 - ETV Bharat",
@@ -1288,46 +1166,123 @@
      "source": "ETV Bharat"
     },
     {
-     "title": "TASMAC mandates digital payments for liquor purchases above Rs 1,000 from November 1 - Deccan Herald",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNX1RhXzBRUGc3RDZhWU5FSWlJbHVXcTlwUU1meEpTX253UnpLRWpONGxfaHZqRFpYTTVQZUJEU04zUHJzV2tuUDNuY2NoZDg0a1BRcUlEekliMWdGeFJFYkhSZmxfQVV6T0FoaWJtZUZoMXBoRjVNYzBRZUVhVS1MeG51ZjRpOWk5a0E5WE9MNzMxMzZZNFkzMWtVZnlDcUhiYmotRXA4T25rTnprQ3lNUEx3NXRSclRTbDdRUHhhenhSOERrM21nYmluQm9jaUw4VE54Y254RVNjZGN3M1Uwa3p5cGdwQQ?oc=5",
-     "source": "Deccan Herald"
-    },
-    {
-     "title": "Digital payments mandatory for liquor purchases above Rs 1,000 in Tamil Nadu from November 1: Check what c - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNamdLMUNIZFFjUjhVcU94NUY1WHltUDZkYjlKNW9iaU9KRkhoU1hBTjdmelNaVUZSeDUweEJwdnFYelc3SWhFc2RocXZlMk5OUzRxbS1mUlh0MlJzb0VFdWFBbXRaQW9pTXA3Q2ZSUzE0WWJibXFXMVk0TURmZWYtV0ZyX0gtbnFJcUZZRExIaUdJYjQzWVBpVFd4cFpId2pwZUxfUV96SnJtLWJkUFFrTGhiSWNqUGN1NmFLSXVvbk9FWTNuUk5qZWJINjJNRUFGZGdKZ29lbHJ6ajQ5SXRLOUJEZ29fR0JjOHlOYjRXcUdrN3l2STIwVWdfbEl3TFo5R1pzcnV6QVh6clBJNW5MaFVPckc4MFF0NU9YaG1KV1o2REZl0gGkAkFVX3lxTE1qZ0sxQ0hkUWNSOFVxT3g1RjVYeW1QNmRiOUo1b2JpT0pGSGhTWEFON2Z6U1pVRlJ4NTB4QnB2cVh6VzdJaEVzZGhxdmUyTk5TNHFtLWZSWHQyUnNvRUV1YUFtdFpBb2lNcDdDZlJTMTRZYmJtcVcxWTRNRGZlZi1XRnJfSC1ucUlxRllETEhpR0liNDNZUGlUV3hwWkh3anBlTF9RX3pKcm0tYmRQUWtMaGJJY2pQY3U2YUtJdW9uT0VZM25STmplYkg2Mk1FQUZkZ0pnb2VscnpqNDlJdEs5QkRnb19HQmM4eU5iNFdxR2s3eXZJMjBVZ19sSXdMWjlHWnNydXpBWHpyUEk1bkxoVU9yRzgwUXQ1T1hobUpXWjZERmU?oc=5",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "Cuba's 1940 Constitution and the right to disagree - upi",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcjVnakQ1dUhEMW1XWk5hX3dRLVVZNVFocW5ENmoxRnpxRnd5Q0lXRHV3MU15SDRucWJQUFBNZ3BwNVNpQTM1bVE3SDE4N1JZN0xRMDlPcGxyQm85Q2cwYkZnZy1OTDNqV2VWNTRLaktmTy1OWUE1UUczd0labnZNbEFGM0pGQWc2am5LLXY4SmxyNW1xbHVCRWdmUXhWcWdyVjRNaTNEUkZxeHPSAbABQVVfeXFMTVJ4VFlRc3ZKTkJTUHNDQXEtU3lUalQ5bTZ4QjJoeVhOQ1NVazZWNmlWV1FrQ3kyNGRNX2RTaTQ2cUxHV2VTUWRORXdXVUVnX21EZlZaRWJRdHF2WXRORUZQSEgxa19YdG5xRnQtWTBvbWgyMHRUX0pJb3h3TmhIaVBhMUlxNEI5eVNYRXJlMU9vV1YzZEo0cDB2V2JzaDF4YlZRUnJ3WkRibEZVNzdzT1M?oc=5",
+     "title": "FTC files complaint against Dollar General for 'deceptive pricing' - upi",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOGtVRHIxdTdkMnI4Z00xN0lxcms3TWI0djJEUWs3OFVtZ2hjalc4ZkhqWmVUX3BIMUgyQ0xvMTM1MWc5YUdxS19FQjZJUDRjWXc3aXNRZFBkVFFoSm8tR1ZobDV3TmdJdXZST21MakdjUGFnSWhicDlOOGtMZ3BZaWdMSF8tUkM4S3JDR2lvMUJ6MVdoSEFyWTVzczlFczQ3a2k4WTRuOFNYQ3RSWkVJUVFIdkJFU2NyU3fSAb8BQVVfeXFMT1JLUThnR2hsS24tSVloUWlJMGRTQ01MT0tQME8wcUdWakIxRXlWLXh1S3AzSjNCSUJpS01JR3FGS1NfLTZLaF9yWk9NaThsYlpvZ1M1NEoxOVByLTFUVW15dmpvMlAyRXJPRjJ5UWdiUVFNQ0U3WlEtRldHaDJhSFExRWUyQjFBcU51eXJDdElFWUE4YmpManNsUnFPZzdvYlBZaVotYjA2OVN3NHdubUw3clRNMFoyTDJNMDFZXzg?oc=5",
      "source": "upi"
     }
    ],
    "official": false,
-   "score": 10.5,
+   "score": 10.8,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "नामीबिया क्रिकेट टीम बनाम आयरलैण्ड क्रिकेट टीम के मैच का स्कोरकार्ड",
-   "traffic": 200,
-   "published": "2026-10-27T16:20:00+09:00",
+   "keyword": "दक्षिण अफ़्रीका क्रिकेट टीम बनाम ऑस्ट्रेलिया राष्ट्रीय क्रिकेट टीम के मैच का स्कोरकार्ड",
+   "traffic": 500,
+   "published": "2026-10-27T17:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Ireland Cricket: Namibia level series against tourists after Gerhard Erasmus' 156 not out",
-     "url": "https://www.bbc.com/sport/cricket/articles/cvx28ex38x7ko",
-     "source": "BBC"
+     "title": "‘Dodgy’ reason for mystery Hoff illness revealed as Starc responds to Lyon elephant in room",
+     "url": "https://www.foxsports.com.au/cricket/have-the-aussies-copped-the-raw-prawn-proteas-punish-ailing-attack-as-cause-for-hazlewoods-illness-is-revealed/news-story/9794321924d02ac3b9fcfdc030b47783",
+     "source": "Fox Sports"
     },
     {
-     "title": "Namibia and Ireland set for historic ODI series in Windhoek Staff Reporter NAMIBIA’S FNB Eagles will face Ireland in a five-match One Day International (ODI) series in Windhoek from 22 October to 1 November, marking the first men’s ODI meetings between t",
-     "url": "https://www.instagram.com/p/Dep6864idz0/?hl=en",
-     "source": "Instagram"
+     "title": "'Where is Nathan Lyon?': David Warner in loss of words as Pat Cummins uses Matt Renshaw as spin option in SA vs AUS 2nd Test",
+     "url": "https://sports.yahoo.com/articles/where-nathan-lyon-david-warner-120852367.html",
+     "source": "Yahoo Sports"
     },
     {
-     "title": "Ireland hoping to build momentum ahead of qualifiers",
-     "url": "https://www.rte.ie/sport/cricket/2026/1021/1596326-ireland-hoping-to-build-momentum-ahead-of-qualifiers/",
-     "source": "RTE.ie"
+     "title": "Starc: \"A dodgy prawn or something!\"",
+     "url": "https://www.theaustralian.com.au/sport/cricket/starc-a-dodgy-prawn-or-something/video/4d406c73b89d37aacd1e6a7c1818d9e0",
+     "source": "The Australian"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.foxsports.com.au/cricket/have-the-aussies-copped-the-raw-prawn-proteas-punish-ailing-attack-as-cause-for-hazlewoods-illness-is-revealed/news-story/9794321924d02ac3b9fcfdc030b47783",
+     "title": "‘Dodgy’ reason for mystery Hoff illness revealed as Starc responds to Lyon elephant in room",
+     "outlet": "Fox Sports"
+    },
+    {
+     "url": "https://sports.yahoo.com/articles/where-nathan-lyon-david-warner-120852367.html",
+     "title": "'Where is Nathan Lyon?': David Warner in loss of words as Pat Cummins uses Matt Renshaw as spin option in SA vs AUS 2nd Test",
+     "outlet": "Yahoo Sports"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "cooper connolly",
+   "traffic": 500,
+   "published": "2026-10-27T17:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Why Cooper’s Cape Town call-up is the ultimate compliment",
+     "url": "https://thewest.com.au/sport/cricket/josh-kempton-cooper-connollys-talent-paid-the-ultimate-compliment-with-call-up-for-south-africa-showdown-c-23078756",
+     "source": "The West Australian"
+    },
+    {
+     "title": "‘No-brainer’: Connolly backed to start Australia’s age shift",
+     "url": "https://thewest.com.au/sport/australian-cricket-team/cooper-connolly-calls-for-wa-star-to-be-injected-into-test-team-grow-after-embarrassing-loss-to-south-africa-c-23059082",
+     "source": "The West Australian"
+    },
+    {
+     "title": "Selectors swing the axe with Lyon, Connolly set for recall",
+     "url": "https://www.smh.com.au/sport/cricket/maddinson-dropped-smith-under-fitness-cloud-for-newlands-20261026-p618qz.html",
+     "source": "SMH.com.au"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://thewest.com.au/sport/cricket/josh-kempton-cooper-connollys-talent-paid-the-ultimate-compliment-with-call-up-for-south-africa-showdown-c-23078756",
+     "title": "Why Cooper’s Cape Town call-up is the ultimate compliment",
+     "outlet": "The West Australian"
+    },
+    {
+     "url": "https://thewest.com.au/sport/australian-cricket-team/cooper-connolly-calls-for-wa-star-to-be-injected-into-test-team-grow-after-embarrassing-loss-to-south-africa-c-23059082",
+     "title": "‘No-brainer’: Connolly backed to start Australia’s age shift",
+     "outlet": "The West Australian"
+    },
+    {
+     "url": "https://www.smh.com.au/sport/cricket/maddinson-dropped-smith-under-fitness-cloud-for-newlands-20261026-p618qz.html",
+     "title": "Selectors swing the axe with Lyon, Connolly set for recall",
+     "outlet": "SMH.com.au"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "gerald coetzee",
+   "traffic": 200,
+   "published": "2026-10-27T17:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Series set for dramatic finish as Australia return to Cape Town",
+     "url": "https://www.cricinfo.com/series/australia-in-south-africa-2026-27-1525634/south-africa-vs-australia-3rd-test-1525661/match-preview",
+     "source": "Cricinfo"
+    },
+    {
+     "title": "Captains' minds drift mistily back ahead of Newlands 'grand final'",
+     "url": "https://www.cricket.com.au/news/4599249/pat-cummins-temba-bavuma-captains-journeys-careers-newlands-australia-cape-town-third-test-decider-south-africa",
+     "source": "cricket.com.au"
+    },
+    {
+     "title": "No.1 ranking on the line as Aussies aware of Cape Town stakes",
+     "url": "https://www.icc-cricket.com/news/no-1-ranking-on-the-line-as-aussies-aware-of-cape-town-stakes",
+     "source": "ICC"
     }
    ],
    "official": false,
@@ -1337,38 +1292,52 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.bbc.com/sport/cricket/articles/cvx28ex38x7ko",
-     "title": "Ireland Cricket: Namibia level series against tourists after Gerhard Erasmus' 156 not out",
-     "outlet": "BBC"
+     "url": "https://www.cricket.com.au/news/4599249/pat-cummins-temba-bavuma-captains-journeys-careers-newlands-australia-cape-town-third-test-decider-south-africa",
+     "title": "Captains' minds drift mistily back ahead of Newlands 'grand final'",
+     "outlet": "cricket.com.au"
     },
     {
-     "url": "https://www.rte.ie/sport/cricket/2026/1021/1596326-ireland-hoping-to-build-momentum-ahead-of-qualifiers/",
-     "title": "Ireland hoping to build momentum ahead of qualifiers",
-     "outlet": "RTE.ie"
+     "url": "https://www.icc-cricket.com/news/no-1-ranking-on-the-line-as-aussies-aware-of-cape-town-stakes",
+     "title": "No.1 ranking on the line as Aussies aware of Cape Town stakes",
+     "outlet": "ICC"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "নিউজিল্যান্ড বনাম ভারত",
+   "keyword": "റേഷന് കാര്ഡ്",
    "traffic": 200,
-   "published": "2026-10-27T16:20:00+09:00",
+   "published": "2026-10-27T17:20:00+09:00",
+   "category": "기타",
+   "news": [],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": []
+  },
+  {
+   "source": "google_trends",
+   "keyword": "sri lanka national cricket team",
+   "traffic": 200,
+   "published": "2026-10-27T17:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "সবে অধিনায়ক হলেন শ্রেয়স, এরইমধ্যে 'আগামীর' ক্যাপ্টেন পেয়ে গেল টিম ইন্ডিয়া!",
-     "url": "https://bengali.news18.com/photogallery/sports/irfan-pathan-praised-tilak-varma-as-a-leader-of-the-future-after-his-match-winning-innings-in-ind-vs-nz-2nd-t20i-sup-2939180.html",
-     "source": "News18 Bengali"
+     "title": "Win-from-anywhere Pakistan face 430-conquerors Sri Lanka at high-scoring Lahore",
+     "url": "https://www.cricinfo.com/series/pakistan-odi-tri-series-2026-27-1550706/pakistan-vs-sri-lanka-5th-match-1550717/match-preview",
+     "source": "Cricinfo"
     },
     {
-     "title": "আজ চিন্তায় কিউয়ি শিবির, সিরিজ জিততে মরিয়া ভারত",
-     "url": "https://bartamanpatrika.com/news/kiwi-camp-concerned-today-india-desperate-to-win-the-series",
-     "source": "Bartaman Patrika"
+     "title": "Pakistan vs Sri Lanka LIVE: ODI tri-series, Rawalpindi - cricket score, radio commentary & updates",
+     "url": "https://www.bbc.com/sport/cricket/live/cx4g19ln55nrt",
+     "source": "BBC"
     },
     {
-     "title": "৩০০তম টি-টোয়েন্টি ম্যাচে ২০০তম জয়! একসঙ্গে জোড়া মাইলফলক স্পর্শ ভারতীয় ক্রিকেট দলের",
-     "url": "https://www.anandabazar.com/sports/cricket/india-are-only-the-second-team-in-the-world-after-pakistan-to-play-300-mens-t20is-and-wins-200-t20i-as-first-team-dgtl/cid/1721565",
-     "source": "Anandabazar Patrika"
+     "title": "Pakistan vs. Sri Lanka free live stream: How to watch Pakistan ODI tri-series clash in India",
+     "url": "https://sports.yahoo.com/articles/pakistan-vs-sri-lanka-free-200001789.html",
+     "source": "Yahoo Sports"
     }
    ],
    "official": false,
@@ -1379,20 +1348,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "അര്ബുദം",
+   "keyword": "beatrice keul",
    "traffic": 200,
-   "published": "2026-10-27T16:20:00+09:00",
+   "published": "2026-10-27T17:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "ക്യാൻസറിന് കാരണമാകുന്ന ആറ് ഭക്ഷണങ്ങൾ",
-     "url": "https://www.asianetnews.com/gallery/health/foods-and-drinks-linked-to-cancer-risk-q4qeni9",
-     "source": "Asianet News Malayalam"
+     "title": "'Epstein organized many parties with Don': Ex-Miss Switzerland Beatrice Keul accuses Trump of 'brutal' ra",
+     "url": "https://timesofindia.indiatimes.com/world/us/epstein-organized-many-parties-with-don-ex-miss-switzerland-beatrice-keul-accuses-trump-of-brutal-rape/articleshow/135224124.cms",
+     "source": "The Times of India"
     },
     {
-     "title": "ക്യാൻസറിനെ പ്രതിരോധിക്കുന്ന 7 ഭക്ഷണങ്ങൾ",
-     "url": "https://www.asianetnews.com/gallery/health/foods-that-fight-cancer-nig8gq7",
-     "source": "Asianet News Malayalam"
+     "title": "Former Miss Switzerland accuses Donald Trump of rape",
+     "url": "https://www.telegraph.co.uk/us/news/2026/10/26/beatrice-keul-accuses-donald-trump-of-rape/",
+     "source": "The Telegraph"
+    },
+    {
+     "title": "Democrats Demand Special Counsel To Probe Trump's Ties To Jeffrey Epstein",
+     "url": "https://www.ndtv.com/world-news/democrats-demand-special-counsel-to-probe-trumps-ties-to-jeffrey-epstein-12239870",
+     "source": "NDTV"
     }
    ],
    "official": false,
@@ -1419,45 +1393,6 @@
      "title": "ITAT Pune Allows an NRI to Claim a Rs 1.70-Lakh Refund After the Revised-ITR Deadline - Kalkine India",
      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZE11TDgxaVN2UldFOU9nLUpPcFZlejFXeFFueEFoX0dmV1g4NzlfY1FaTVlkamNSaFMtNXp3dzAxWDJaQlRYRFE2dWpwYnZYdjNQTlNwdU4tQVZYUWpWcUFJUUozWHhhanBqdjdqSzJ3OHBzMDEwczM4N05FN2RTV2RkdTRITHh1SThaQXdiU2hYODR2TVNLdU5DU3BORVYzRG0zQ3puaElIQjQ3djNnaGxsMVA0OTE3TnFoYmx4ZFM2cUItemhLTWhVcw?oc=5",
      "source": "Kalkine India"
-    }
-   ],
-   "official": false,
-   "score": 9.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "PAN Aadhaar link",
-   "traffic": 0,
-   "article_count_24h": 5,
-   "article_count_1h": 0,
-   "published": "2026-10-27T11:38:32+09:00",
-   "category": "Government Schemes",
-   "news": [
-    {
-     "title": "Good news: Govt to simplify KYC and onboarding for NRI investors - Cafemutual",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOW9TX3JvOF9LbDJINkRaT1V1MTR5cnM5Zk1MV2xpNTBhZGl3b3p2ZVZlRE8zc2pzSFJ0cWxxSVRySjM2a2ZBdWpKSUZCOWxYc2RlVlZvRVhvX0lSZnBNLWNvaXhGZUFKUVhDaUI5SU9jMU1WY2lZWVl2LXJwZGFMWDdDRF8wdEdtMUNZVDVEbHZIYkV5QXZQVDJfZTFmZFhTY2ZLdVZQNXFldw?oc=5",
-     "source": "Cafemutual"
-    },
-    {
-     "title": "Which bank offers the best zero balance digital savings account in India? - Telangana Today",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1lXUTgtZmk1djc2LWVoelN2UEczVjhvMjdKRjl0Ym1VaWpod2dtcmF0bFFqMzhQQ2dSU0I4c0MtcU01blFVRjlid1BUX1g0TGtOalZZN2ZHXzBMcExYWVFKd2J3b2I4N2F2d0M2RlNXQmEyQTlBREpOMEx4dlpmVzZWOFBrbVFmRTV0YUZaTl95cGNwR2UzZjBOTTA4VmdF?oc=5",
-     "source": "Telangana Today"
-    },
-    {
-     "title": "Colgate-Palmolive declares ₹24 per share interim dividend for FY26 - scanx.trade",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMmpvOHhPRGlYNDhpaWFGeVRQVmdUank1WEhkcjFGUEVfLThCV3ppS1NxeUxvb3NicHBISDFHTmd1aVlMTGppMXVQM2d3OTdyQ0Iyc29FN2JjTGljcmdTaGx0M2N6QktBLU1Qa29GTzVra084UVo3bjFWNTZON0hSWDFINkI0SVNTb1V6VGF2dVRrTTI3eUJLTmZrVTJzQWZmd1YzWkFvWGJKUlZiWWJGWVZuQzVpdnI2QlE?oc=5",
-     "source": "scanx.trade"
-    },
-    {
-     "title": "MeriPehchaan Login for JEE Main 2027 Registration Guide - PW",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX0hNcWhqTm9vdm5iUWJSWDRueENqS19zY3JpQ1VaNFctZUpJSzA4UDdHREd5dW96RjNIbUQ2VW5pRy16UlFHbkJhbjZrR29GSHdtOEhYTUtMektPWW1XVEpuWDZyM252VXB0TVFnSjlBUDNZX1V4TXF3ZWdvQXAxS1ZkV0JkMS1Jd05r?oc=5",
-     "source": "PW"
-    },
-    {
-     "title": "Aadhaar Update 2026: Can You Change Your Mobile Number, Email ID Through DigiLocker? Details Here - Mashable India",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV09COXBBYVpiUTYzUXdubXZzVi04RGg3ZEMweVhVZlE5MFJOVlUyMGM3MHVIZlRhSVZSRmM1VWthaE9UeXg4bmhJTVBRZzBsM0NvTUF1MWhiVnBHWUFYXzllNjZWWFRUQ24xaFdfZ3laSHdITzdpNzFxMlFYZjdDX3ZVVmt5dURJcm14R0xfVFNFbms0bHlzUEdlZG53eU1QNFo5Rm9VdWd4dVNIc3BzaGNUbmZ0Yld0UEludnN5eWlsb1ZNUnBxY0p3?oc=5",
-     "source": "Mashable India"
     }
    ],
    "official": false,
@@ -1530,6 +1465,35 @@
    ],
    "official": false,
    "score": 5.4,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "PAN Aadhaar link",
+   "traffic": 0,
+   "article_count_24h": 3,
+   "article_count_1h": 0,
+   "published": "2026-10-27T11:07:25+09:00",
+   "category": "Government Schemes",
+   "news": [
+    {
+     "title": "Good news: Govt to simplify KYC and onboarding for NRI investors - Cafemutual",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOW9TX3JvOF9LbDJINkRaT1V1MTR5cnM5Zk1MV2xpNTBhZGl3b3p2ZVZlRE8zc2pzSFJ0cWxxSVRySjM2a2ZBdWpKSUZCOWxYc2RlVlZvRVhvX0lSZnBNLWNvaXhGZUFKUVhDaUI5SU9jMU1WY2lZWVl2LXJwZGFMWDdDRF8wdEdtMUNZVDVEbHZIYkV5QXZQVDJfZTFmZFhTY2ZLdVZQNXFldw?oc=5",
+     "source": "Cafemutual"
+    },
+    {
+     "title": "Which bank offers the best zero balance digital savings account in India? - Telangana Today",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1lXUTgtZmk1djc2LWVoelN2UEczVjhvMjdKRjl0Ym1VaWpod2dtcmF0bFFqMzhQQ2dSU0I4c0MtcU01blFVRjlid1BUX1g0TGtOalZZN2ZHXzBMcExYWVFKd2J3b2I4N2F2d0M2RlNXQmEyQTlBREpOMEx4dlpmVzZWOFBrbVFmRTV0YUZaTl95cGNwR2UzZjBOTTA4VmdF?oc=5",
+     "source": "Telangana Today"
+    },
+    {
+     "title": "MeriPehchaan Login for JEE Main 2027 Registration Guide - PW",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX0hNcWhqTm9vdm5iUWJSWDRueENqS19zY3JpQ1VaNFctZUpJSzA4UDdHREd5dW96RjNIbUQ2VW5pRy16UlFHbkJhbjZrR29GSHdtOEhYTUtMektPWW1XVEpuWDZyM252VXB0TVFnSjlBUDNZX1V4TXF3ZWdvQXAxS1ZkV0JkMS1Jd05r?oc=5",
+     "source": "PW"
+    }
+   ],
+   "official": false,
+   "score": 3.8,
    "already_covered": false
   }
  ]
