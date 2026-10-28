@@ -1,25 +1,67 @@
 {
- "generated_at": "2026-10-28T13:37:47.917557+09:00",
+ "generated_at": "2026-10-28T14:09:27.218129+09:00",
  "sources": {
   "calendar": "ok (5)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 68, 실패 36)"
+  "evidence": "ok (저장 69, 실패 31)"
  },
  "compared_runs": 6,
  "spikes": [
-  "junior caminero",
-  "sydney sweeney sports ad",
-  "liam hicks",
-  "milwaukee braves",
-  "drohan brewers",
-  "bud selig",
-  "novig sydney sweeney",
-  "albert pujols",
-  "canelo",
-  "game 5"
+  "world series schedule",
+  "IRS refund",
+  "mlb schedule",
+  "maya joint",
+  "espn",
+  "brewers watch party tickets",
+  "anaheim ducks",
+  "jio platforms share price",
+  "jubilación",
+  "world cup",
+  "brewers logo"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "world series schedule",
+   "traffic": 20000,
+   "published": "2026-10-28T13:30:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Brewers ride 8-run fifth to Game 3 rout of Rays, take 3-0 World Series lead",
+     "url": "https://www.espn.com/mlb/story/_/id/50293953/brewers-rout-rays-game-3-1-win-first-world-series-title",
+     "source": "ESPN"
+    },
+    {
+     "title": "Not sure who this team is, but it doesn’t look like the Rays we know",
+     "url": "https://www.tampabay.com/viewpoints/2026/10/27/tampa-bay-rays-world-series-milwaukee-brewers-game-3/",
+     "source": "Tampa Bay Times"
+    },
+    {
+     "title": "World Series Game 4 Discussion: Milwaukee Brewers (3-0) @ Tampa Bay Rays (0-3)",
+     "url": "https://www.brewcrewball.com/milwaukee-brewers-discussions/92063/world-series-game-4-discussion-milwaukee-brewers-3-0-tampa-bay-rays-0-3",
+     "source": "Brew Crew Ball"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 184.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.tampabay.com/viewpoints/2026/10/27/tampa-bay-rays-world-series-milwaukee-brewers-game-3/",
+     "title": "Not sure who this team is, but it doesn’t look like the Rays we know",
+     "outlet": "Tampa Bay Times"
+    },
+    {
+     "url": "https://www.brewcrewball.com/milwaukee-brewers-discussions/92063/world-series-game-4-discussion-milwaukee-brewers-3-0-tampa-bay-rays-0-3",
+     "title": "World Series Game 4 Discussion: Milwaukee Brewers (3-0) @ Tampa Bay Rays (0-3)",
+     "outlet": "Brew Crew Ball"
+    }
+   ]
+  },
   {
    "source": "calendar",
    "keyword": "Tax filing season extension",
@@ -30,7 +72,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-28T13:37:47.947444+09:00",
+   "published": "2026-10-28T14:09:27.236904+09:00",
    "score": 85,
    "already_covered": false,
    "cycle": "us-tax-season-extension-2026",
@@ -40,7 +82,7 @@
     "extended tax return due date"
    ],
    "window": "2026-10 ~ 2026-10 (보통)",
-   "days_to_start": -26,
+   "days_to_start": -27,
    "in_window": true
   },
   {
@@ -52,7 +94,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-28T13:37:47.947635+09:00",
+   "published": "2026-10-28T14:09:27.237016+09:00",
    "score": 85,
    "already_covered": false,
    "cycle": "us-liheap-winter-2026",
@@ -63,82 +105,78 @@
     "liheap income limits"
    ],
    "window": "2026-10 ~ 2026-12 (보통)",
-   "days_to_start": -26,
+   "days_to_start": -27,
    "in_window": true
   },
   {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
+   "source": "google_news",
+   "keyword": "IRS refund",
    "traffic": 0,
-   "published": "2026-10-28T13:37:47.947585+09:00",
-   "score": 70,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 5,
-   "in_window": false
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-28T13:37:47.947607+09:00",
-   "score": 70,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 5,
-   "in_window": false
-  },
-  {
-   "source": "calendar",
-   "keyword": "Required minimum distribution deadline yearend",
+   "article_count_24h": 30,
+   "article_count_1h": 7,
+   "published": "2026-10-28T03:52:03+09:00",
    "category": "Taxes",
-   "official_sources": [
-    "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-required-minimum-distributions-rmds"
+   "news": [
+    {
+     "title": "Key Changes for City of Detroit Individual Income Tax - State of Michigan (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNamo1NlRYaFVVeE5RRUxvQjZhM1g3dmlzZ3ZTTVI4VHNpX094cjQwSUxnWHp1MnVobVM0ZkJzcFBhYnplbEtWUFlhbXZqRUs0NFRZMzQ3TFRNVlZrLXJXbXczcmt4dTdUdGNkVGQ0RHJacnhSUWNDMDJkZFhZYmEtZDlMcXZiQUVITzJJWHpn?oc=5",
+     "source": "State of Michigan (.gov)"
+    },
+    {
+     "title": "The IRS is giving refunds, potentially worth thousands, to over 50K families after a tax credit change — do you qualify? - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbjQzdVJWZTJOSGM1cTlTWWdCNUxwaEx3dWhwQ0MtYko1eHdxYi00aTBpS2FIck9uY1lhY3BJZVdPc19DNkFyTV9abERtbmEyZlJ6MFQ0OHhEMDkzS2VWUERLTm1kdzJtQ2s0T19tQ3Rld1d4NFRGNHVDem9WUEJCNGVNZEpINjlXYVowMUJudGMxZ1J2bTh0bUQtNlhjam42OWJV?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "The IRS continues to automatically send money back: they are depositing up to US$ 5,000 per child to the people who are entitled to it - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOeDJJN0Y3UXFNS0I5MmJhOGhBejhJeTF4X0Zpd1k1YVFrNjJTVGdrMHJCemVBd2IxbXpQUmNHeVlRZmlTRmtoaGxIaXNXQjA3a1B3bzFFN3gtdENBUUpxUXJsS3V3LTJFNE5HVi1jVlA5NFFLdTFMbGpWNlNTTDdNR2tpMU1sU280V3ZNYU95ODB5SmtJLXlETmRVSTJ6TENHREw4Z3NKN3VtdkFKYlY3RGQxSXB5VFpkeFFGRFVtTnhVeFZIMEpLZ2oxVE5MOXU3Wl9iYmlRWmNEMzFrV1MzVnBLWWFyS3dhQTY3Smpvci1FTlpraGF6a0VOZnc?oc=5",
+     "source": "El Cronista"
+    },
+    {
+     "title": "Gina Hinojosa pitches $1,500 tax refund, electricity rate freeze and public education fixes in Texas - KXXV",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUmZaLXZaWEMyVXlXcElhUkEwVGdoWVBncXh3RmotalJERGJFZXdnYzJ2RlNjVWJSSTBxSi1MTUp3VUhTbU9wUDFkeTVoX3NleW5pdTdOb2JhSS15THhBZHRKQTNteEh4dTFuaFZPVnNGRnhfcjBLZkVueG1UdjV6QURreDRRTmE2SzhYQVFBN3VxODlNS1hUZGROUk14cm1BZGtIM1VwNll1XzFzM2FUdXhOd1JGY19QdGlBNG9KazRQNG9uWUg5MVBza3hCd0V0?oc=5",
+     "source": "KXXV"
+    },
+    {
+     "title": "Atlanta Man Extradited in $100M Tax Refund Fraud Case - Hoodline",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUW5mXzNNaDdKZUllQ2Nod19ZMy1IcEJURmtJNkg4V3hZVWFFM3JwWmJoOXJzR2Y1aFZORWN3eDdpSi1sdENhSnB0cnp0ajRncVVDYVo3TE1xMTNSUi0ydjRYUnRwQ0NBYW9KUTNKRlhWRmNDbWU2N1RYeGVSXzF3N05Vek42QmlEU2MzNDEzSDZ6U3pBSVY5Z1h2VjIwQ08xdnIxUlFQODlqdw?oc=5",
+     "source": "Hoodline"
+    }
    ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-28T13:37:47.947655+09:00",
-   "score": 70,
+   "official": false,
+   "spike": "최근 1시간 기사 1.7→7건 (3.0배)",
+   "spike_bonus": 30.0,
+   "score": 84.0,
    "already_covered": false,
-   "cycle": "us-rmd-yearend-2026",
-   "phase": "yearend",
-   "queries": [
-    "rmd deadline december 31",
-    "required minimum distribution age"
-   ],
-   "window": "2026-11 ~ 2026-12 (보통)",
-   "days_to_start": 5,
-   "in_window": false
+   "evidence": [
+    {
+     "url": "https://www.michigan.gov/taxes/citytax/detroit/key-changes/key-changes-for-individual",
+     "title": "Key Changes for City of Detroit Individual Income Tax - State of Michigan (.gov)",
+     "outlet": "State of Michigan (.gov)"
+    },
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/irs-giving-refunds-potentially-worth-130000789.html",
+     "title": "The IRS is giving refunds, potentially worth thousands, to over 50K families after a tax credit change — do you qualify? - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "url": "https://www.cronista.com/en/finance/the-irs-continues-to-automatically-send-money-back-they-are-depositing-up-to-us-5000-per-child-to-the-people-who-are-entitled-to-it/",
+     "title": "The IRS continues to automatically send money back: they are depositing up to US$ 5,000 per child to the people who are entitled to it - El Cronista",
+     "outlet": "El Cronista"
+    },
+    {
+     "url": "https://www.kxxv.com/news/local-news/gina-hinojosa-pitches-1-500-tax-refund-electricity-rate-freeze-and-public-education-fixes-in-texas",
+     "title": "Gina Hinojosa pitches $1,500 tax refund, electricity rate freeze and public education fixes in Texas - KXXV",
+     "outlet": "KXXV"
+    }
+   ]
   },
   {
    "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
    "article_count_24h": 47,
-   "article_count_1h": 4,
+   "article_count_1h": 5,
    "published": "2026-10-28T13:31:07+09:00",
    "category": "Health Insurance",
    "news": [
@@ -153,6 +191,11 @@
      "source": "WABI"
     },
     {
+     "title": "What to know about Medicare open enrollment - Yahoo",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbDBEYVB6b2VPRDg4MnEtQ0tlYndjX3Zfd2l4VGlPTDBRQmMwbnVSTWQ5UlFMWWtRWFJsSVBIU0JuVmxKdnhjRVZjQkpNYlIyNDlQcmhhWS1CWjEzNnhmOF9LRmZHSXFjcHc3dDR2N0NHb3pUTVZublU4dzBfWHNxdXI5Ti1Hc2FLRGZn?oc=5",
+     "source": "Yahoo"
+    },
+    {
      "title": "Open Enrollment Through Dec. 7 For Medicare Beneficiaries - WIZS",
      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zVjV6TG1mMTFPeE1peDZDaWY4clQ0T3RZUzlaa3BDUFRJQV9RSnlyam5YWExnYnpaYjRFdkprTVN5Ykt2NVdFeWR0akVGdGU2TnduX3VXN090dHNkT0RPTkNWWjQ1V1hKZ1UzVFBadXNfTGdmNjNYZGxuREVtSmPSAYcBQVVfeXFMTjlkMHZiV2xzQmpjSE5Cd0JnMU5nS1ZQTWJrd1d3THZYV0dNNkh5RlBRT1hvODY1bTZJVWNDRHdPRm5veVg3dVlKZ2YySEh3ajExMnRQZkh0M1owRzhQV2lNb3MwMXNkeDJfejB6TUQzUHo3RGEweWVTekJuR2tpZ2hKajB2dlUw?oc=5",
      "source": "WIZS"
@@ -161,21 +204,21 @@
      "title": "Do GLP-1 drugs pay for themselves? What five years of data show - https://www.celinegounder.com/",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1BFSFdXakh6YWxxV0R5NWhRX0pkWENXWWxDZ3FKUlZDVlU4dlRmSk1xRUlTR0VPdjZTcGxieWFVOVdfVW5Jb2lERWZLUTJ1VzlHYmJYSS1nTnM4QlQ5TEVqaWMxZEVZZUhFRFR0VW9WV2dkUUtzREtVUXpMd1lzLUVaUUM5a00?oc=5",
      "source": "https://www.celinegounder.com/"
-    },
-    {
-     "title": "More Than 4 Million Medicare Beneficiaries Will Have Their Medicare Advantage or Stand-Alone Prescription Drug Plan Terminated at the End of 2026 - KFF",
-     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQNmNta3dFcUpub2tyQjJMUFdISlA4VERKWmxSR0s1VEFhV3pDRXZ6NEZaRy1KRElZVUJnckdBWHI2VEtUQVBOYnlEaTlQWXlGWlZEdV8tSHE4di1OcXB2LUVFLXF5U2ZhXzFHODZzWTRxNV95SWZJdDNacGI5cUpPS0RKMnZjZllMWGliZHpkdWtTVG05QTdZWUJlVEZuMWROckI5VXVqNmRHRTlYNTNBVUNtYnQ0ZFltX0FoZTVSQzQzd2JmeU1reTZhYmJ3ekpWSkRMMmVydGxZSHNGOV9LeEx3SVZFR2tvcmRBY3VIbGRtaEVZdVZXQjNpQ2JVTFBoVUVWVTVn?oc=5",
-     "source": "KFF"
     }
    ],
    "official": false,
-   "score": 69.0,
+   "score": 75.0,
    "already_covered": false,
    "evidence": [
     {
      "url": "https://www.wabi.tv/2026/10/27/medicare-open-enrollment-underway-deadline-is-dec-7/",
      "title": "Medicare open enrollment underway, deadline is Dec. 7 - WABI",
      "outlet": "WABI"
+    },
+    {
+     "url": "https://www.yahoo.com/news/us/articles/know-medicare-open-enrollment-042518591.html",
+     "title": "What to know about Medicare open enrollment - Yahoo",
+     "outlet": "Yahoo"
     },
     {
      "url": "https://wizs.com/open-enrollment-through-dec-7-for-medicare-beneficiaries/",
@@ -186,20 +229,82 @@
      "url": "https://www.celinegounder.com/p/glp1-coverage-open-enrollment-employers-medicare",
      "title": "Do GLP-1 drugs pay for themselves? What five years of data show - https://www.celinegounder.com/",
      "outlet": "https://www.celinegounder.com/"
-    },
-    {
-     "url": "https://www.kff.org/medicare/more-than-4-million-medicare-beneficiaries-will-have-their-medicare-advantage-or-stand-alone-prescription-drug-plan-terminated-at-the-end-of-2026/",
-     "title": "More Than 4 Million Medicare Beneficiaries Will Have Their Medicare Advantage or Stand-Alone Prescription Drug Plan Terminated at the End of 2026 - KFF",
-     "outlet": "KFF"
     }
    ]
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-28T14:09:27.236984+09:00",
+   "score": 71,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 4,
+   "in_window": false
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-28T14:09:27.236998+09:00",
+   "score": 71,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 4,
+   "in_window": false
+  },
+  {
+   "source": "calendar",
+   "keyword": "Required minimum distribution deadline yearend",
+   "category": "Taxes",
+   "official_sources": [
+    "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-required-minimum-distributions-rmds"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-28T14:09:27.237028+09:00",
+   "score": 71,
+   "already_covered": false,
+   "cycle": "us-rmd-yearend-2026",
+   "phase": "yearend",
+   "queries": [
+    "rmd deadline december 31",
+    "required minimum distribution age"
+   ],
+   "window": "2026-11 ~ 2026-12 (보통)",
+   "days_to_start": 4,
+   "in_window": false
   },
   {
    "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 39,
+   "article_count_1h": 26,
    "published": "2026-10-28T10:21:34+09:00",
    "category": "Elections",
    "news": [
@@ -250,7 +355,7 @@
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 21,
+   "article_count_1h": 23,
    "published": "2026-10-28T10:49:08+09:00",
    "category": "Elections",
    "news": [
@@ -312,9 +417,14 @@
    "traffic": 0,
    "article_count_24h": 37,
    "article_count_1h": 12,
-   "published": "2026-10-28T01:50:00+09:00",
+   "published": "2026-10-28T06:36:00+09:00",
    "category": "Benefits",
    "news": [
+    {
+     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSmYyY2F6SHhJLWFtX2VZdkhmanA0V21pMDI0dVkwVWE5UkRXZXIwMDdhVzVMdkw2MFNqNlZzSGxxMGlpT1VVS1BBQURGV2lEaFhRSWg4b3dRXzh5WEdudm9ZZVR3X3oxUDhmN19hOVZxVE1oS3RlS0xLX3pnQmE0MTJ3ZkRZQUJJWGdneUdmNzY3OU5lenZCRXNTQURjcHN3S1IwM3BNcjZOQQ?oc=5",
+     "source": "Newsweek"
+    },
     {
      "title": "Social Security payment dates change in November. When checks arrive - Central New Jersey News",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1BHbnZramF6dWV3ZGl4ZEl5dzgyeFFrYWJOb0RZZGREMzc2TV9uY0FwbFhXQWVsUjdZRHNGdnJ0TG5VeWszQ3NGTnVrclRuRF8tc3BkVmdlcHZ5alVtLVE0UGc1NnpyTEp1dVVpTG1NQXhGVC1IalBtLTJHODUtWVUwOTFlS2lNSUdBdXFSS1FZYXRQNUQwZG92ZGZnZGw4R0FaZElSMDJLMnFlQThTcnBPdGs4aG1V?oc=5",
@@ -334,134 +444,22 @@
      "title": "Social Security recipients may see 2 payments this week. Here's why - Yahoo",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbXZqRW5BTjJnN0ZrUGdlTkZRcmlFY0lPcHNFTTZUbXNRVVZuWDZ3WjQtQmJfN1g2MUF3VHpLRl94aVZ0aVVXb0JQUWVjOThwNlFBMU44WDVSSEFnVWlSc0Y5Wm9EcUxySEJEMlVWTGdkeF9xOUxtTW5xRXVNOW9tRWYwSnJ0VnBUdnljRVVIRkFrZw?oc=5",
      "source": "Yahoo"
-    },
-    {
-     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSmYyY2F6SHhJLWFtX2VZdkhmanA0V21pMDI0dVkwVWE5UkRXZXIwMDdhVzVMdkw2MFNqNlZzSGxxMGlpT1VVS1BBQURGV2lEaFhRSWg4b3dRXzh5WEdudm9ZZVR3X3oxUDhmN19hOVZxVE1oS3RlS0xLX3pnQmE0MTJ3ZkRZQUJJWGdneUdmNzY3OU5lenZCRXNTQURjcHN3S1IwM3BNcjZOQQ?oc=5",
-     "source": "Newsweek"
     }
    ],
    "official": false,
    "score": 56.0,
    "already_covered": false,
    "evidence": [
+    {
+     "url": "https://www.newsweek.com/some-social-security-recipients-get-two-payments-this-week-whos-affected-12626770",
+     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
+     "outlet": "Newsweek"
+    },
     {
      "url": "https://abcnews.com/GMA/News/current-future-retirees-potential-social-security-shortfall/story?id=133749799",
      "title": "What current, future retirees should know about potential Social Security shortfall - ABC News - Breaking News, Latest News and Videos",
      "outlet": "ABC News - Breaking News, Latest News and Videos"
     },
-    {
-     "url": "https://www.yahoo.com/news/us/articles/social-security-recipients-may-see-133811438.html",
-     "title": "Social Security recipients may see 2 payments this week. Here's why - Yahoo",
-     "outlet": "Yahoo"
-    },
-    {
-     "url": "https://www.newsweek.com/some-social-security-recipients-get-two-payments-this-week-whos-affected-12626770",
-     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
-     "outlet": "Newsweek"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "social security COLA",
-   "traffic": 0,
-   "article_count_24h": 19,
-   "article_count_1h": 5,
-   "published": "2026-10-27T23:00:37+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Social Security COLA 2027: How to Find Out Your Exact Benefits Increase Early - CPA Practice Advisor",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeTN1YzZaVXNxbDBMN3FxU0JUTjlMdnFCWHFZYUdMRHJqd2dXTjFQQVZDZWpyRGYwSjRIQ3VSU2xZVnk3WXd2RzBIWEdmODhoLVZjZXlCTG8tQkdXSkZRS0V3U0pKcUEyWXlXT0Y0dnc4SWNFNldKZm14UnpPUzhpSkxWa1FSWlhHbXBiTU11dHFwbVVzaFhESS0tVVI1NGZsRkR2cVBpaUtqWU85TmN5eGUwNkxMZ0RVVlFWc1V3NUdfbllpTGNDTGx3?oc=5",
-     "source": "CPA Practice Advisor"
-    },
-    {
-     "title": "Worried Your 2027 Social Security COLA Won’t Be Enough? 3 Things to Do Now - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMmFKNEJkeExxazN1S0QxZENfNDJPS1Znb0MtYWIzWGg2LTNTUHpjaktDNC1BdE9IVXpVbmN6N2c5ZnZnUlE1U1N3TXc1aVdaa1VFalkzVkdrSGRQYUdWSE5wYjlodXNpYnpHMDVCZVlxQ3B4bi1nR0pXRTdKcUphT2tlU19uQ1VWS2xjT3lCWDdhVm5oTGk1dzNya3JFRXc?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "Social Security COLA Increase 2027: It Has Already Been Confirmed and Beneficiaries Will Receive More Money Directly in Their Accounts - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPbzR3V05oZFRXamo1dGctUnl5TUx4M0JkVXFiVDlVU2JXbGJ1QUNQS1FqQUJYVDBUMEEwbzVlYlV4bFZERldFbGV6SHoxb2xOUGZJNFVHYTNRTnd2QTBfQmV3UVV4TnpjYkpPbVZoY1N1SU9lU2pybTAxa1l2UkFGeVR3VXFHWm9kbTNBT2x5Znd3anZ3TE1hMHBsYzBraGpSTFlIYjM4Vk00OVQ3cThXZzN3SXN5NkZ0cGRobjFBVHlXVUpwWGdzY0R6S2ZfWTVZRHc2bGM3QzlMUHBFLTdJdUlNU2VRbVZ1a09BTXBjOFpQelBxdWlqTGh1dHhnOU0?oc=5",
-     "source": "El Cronista"
-    },
-    {
-     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSmYyY2F6SHhJLWFtX2VZdkhmanA0V21pMDI0dVkwVWE5UkRXZXIwMDdhVzVMdkw2MFNqNlZzSGxxMGlpT1VVS1BBQURGV2lEaFhRSWg4b3dRXzh5WEdudm9ZZVR3X3oxUDhmN19hOVZxVE1oS3RlS0xLX3pnQmE0MTJ3ZkRZQUJJWGdneUdmNzY3OU5lenZCRXNTQURjcHN3S1IwM3BNcjZOQQ?oc=5",
-     "source": "Newsweek"
-    },
-    {
-     "title": "Saving Social Security May Mean Ending the COLA - RealClearMarkets",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMnN3Y0lZSEhCeVptUU05TGNvYVNMZnR6MXRGUXFuWTI1SzJ1M1ZfeHJ5dS10SDRDbi1YV0lfOENXc1k4OTZhRUw1aFh3Vk9TSktYeXpsVkxNeFpPWlI4MFc0eDVpMDd3RFRMaU9feExWRDZVX1ZrRkdjWTkzc0xIRlBoQ2U1ZDFIZHlHcjEyelFkMnRsanNOc1FwbWY3S1pHWkEzaEg3aw?oc=5",
-     "source": "RealClearMarkets"
-    }
-   ],
-   "official": false,
-   "score": 56.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cpapracticeadvisor.com/2026/10/27/social-security-cola-2027-how-to-find-out-your-exact-benefits-increase-early/192578/",
-     "title": "Social Security COLA 2027: How to Find Out Your Exact Benefits Increase Early - CPA Practice Advisor",
-     "outlet": "CPA Practice Advisor"
-    },
-    {
-     "url": "https://finance.yahoo.com/economy/policy/articles/worried-2027-social-security-cola-112201531.html",
-     "title": "Worried Your 2027 Social Security COLA Won’t Be Enough? 3 Things to Do Now - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/social-security-cola-increase-2027-it-has-already-been-confirmed-and-beneficiaries-will-receive-more-money-directly-in-their-accounts/",
-     "title": "Social Security COLA Increase 2027: It Has Already Been Confirmed and Beneficiaries Will Receive More Money Directly in Their Accounts - El Cronista",
-     "outlet": "El Cronista"
-    },
-    {
-     "url": "https://www.newsweek.com/some-social-security-recipients-get-two-payments-this-week-whos-affected-12626770",
-     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
-     "outlet": "Newsweek"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "SSI payment",
-   "traffic": 0,
-   "article_count_24h": 22,
-   "article_count_1h": 6,
-   "published": "2026-10-28T03:30:43+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Social Security Benefits for Divorced Spouses - Social Security Administration (.gov)",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4ZDJEeDV5TDhyMzBZTGtYeUZadHlGWW05SnVFTXZtUHJNVl9feXUwQUxnbmV5UC03bEhxQWRkV0ktNVk1amdvTFZWclZSTWlZalA3cmFfbjJuOHgxUEE?oc=5",
-     "source": "Social Security Administration (.gov)"
-    },
-    {
-     "title": "Social Security payment dates change in November. When checks arrive - Central New Jersey News",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1BHbnZramF6dWV3ZGl4ZEl5dzgyeFFrYWJOb0RZZGREMzc2TV9uY0FwbFhXQWVsUjdZRHNGdnJ0TG5VeWszQ3NGTnVrclRuRF8tc3BkVmdlcHZ5alVtLVE0UGc1NnpyTEp1dVVpTG1NQXhGVC1IalBtLTJHODUtWVUwOTFlS2lNSUdBdXFSS1FZYXRQNUQwZG92ZGZnZGw4R0FaZElSMDJLMnFlQThTcnBPdGs4aG1V?oc=5",
-     "source": "Central New Jersey News"
-    },
-    {
-     "title": "Social Security and SSI payment schedule for November 2026 - The Clarion-Ledger",
-     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdUk1UjEyUk9TTk5JcTdCT2tFeVd3cTJubGNRcFl0VVctNWVYQ1JER3hFR3kxS19rcnBVa2xuaVRURzA1TVJmc05vX05DWlZLZElhY0V0TElvQTNoZmxmcUlrTXlUTkxER2NVeW9GQnB3cEhBb1NqQy1EZ0dVTmlKSVhUTi1BX3hINVdETVQyM19RblIxN0Y4ZzM3UjNBdmE1SkxiVTJMM0hCakJsU1ItbmdKLXhEbXJ4VEhOSEoxclpkMk55dXpsMHh0ZnVMUjA1cFZHbnFWQzNvRjBpZWNBN05LZmlQMVUyWWplWHNxSk5XLUhyWnc?oc=5",
-     "source": "The Clarion-Ledger"
-    },
-    {
-     "title": "When do Social Security, SSI benefits go out for November in SC? - Greenville Online",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNi1lV1FneDVOWFVIdXBNVjlpOFBvWl81T2k4N2tpdnZ3RkIwNDhMSzNTLXlicTBkWmF1QW02dFU1dzY3NmtUcmI2bjBUaURwd2J1QXJHVEttMzFtbDZJRU4yRXU0QU9DYlgwdkg1UHItQzVkVXNRMlNjay1aOWxZTV83bGpyTktUeXNwY2ZETG1hWjJtaElzVmFBN2ZHX1NzUTZuRFVua2tyY3dFWW9heUhfSVVYQjNKZDY2dnlDdHdWal9ONEtOQ0NRZ0h4RmJZ?oc=5",
-     "source": "Greenville Online"
-    },
-    {
-     "title": "Social Security recipients may see 2 payments this week. Here's why - Yahoo",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbXZqRW5BTjJnN0ZrUGdlTkZRcmlFY0lPcHNFTTZUbXNRVVZuWDZ3WjQtQmJfN1g2MUF3VHpLRl94aVZ0aVVXb0JQUWVjOThwNlFBMU44WDVSSEFnVWlSc0Y5Wm9EcUxySEJEMlVWTGdkeF9xOUxtTW5xRXVNOW9tRWYwSnJ0VnBUdnljRVVIRkFrZw?oc=5",
-     "source": "Yahoo"
-    }
-   ],
-   "official": false,
-   "score": 56.0,
-   "already_covered": false,
-   "evidence": [
     {
      "url": "https://www.yahoo.com/news/us/articles/social-security-recipients-may-see-133811438.html",
      "title": "Social Security recipients may see 2 payments this week. Here's why - Yahoo",
@@ -473,8 +471,8 @@
    "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 36,
-   "article_count_1h": 4,
+   "article_count_24h": 39,
+   "article_count_1h": 6,
    "published": "2026-10-28T04:29:15+09:00",
    "category": "Benefits",
    "news": [
@@ -505,7 +503,7 @@
     }
    ],
    "official": false,
-   "score": 51.5,
+   "score": 56.0,
    "already_covered": false,
    "evidence": [
     {
@@ -524,8 +522,8 @@
    "source": "google_news",
    "keyword": "tax deadline",
    "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 4,
+   "article_count_24h": 24,
+   "article_count_1h": 7,
    "published": "2026-10-27T21:47:00+09:00",
    "category": "Taxes",
    "news": [
@@ -556,7 +554,7 @@
     }
    ],
    "official": false,
-   "score": 48.3,
+   "score": 52.5,
    "already_covered": false,
    "evidence": [
     {
@@ -583,10 +581,336 @@
   },
   {
    "source": "google_news",
-   "keyword": "product recall",
+   "keyword": "SSI payment",
+   "traffic": 0,
+   "article_count_24h": 22,
+   "article_count_1h": 3,
+   "published": "2026-10-28T03:30:43+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Social Security Benefits for Divorced Spouses - Social Security Administration (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4ZDJEeDV5TDhyMzBZTGtYeUZadHlGWW05SnVFTXZtUHJNVl9feXUwQUxnbmV5UC03bEhxQWRkV0ktNVk1amdvTFZWclZSTWlZalA3cmFfbjJuOHgxUEE?oc=5",
+     "source": "Social Security Administration (.gov)"
+    },
+    {
+     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSmYyY2F6SHhJLWFtX2VZdkhmanA0V21pMDI0dVkwVWE5UkRXZXIwMDdhVzVMdkw2MFNqNlZzSGxxMGlpT1VVS1BBQURGV2lEaFhRSWg4b3dRXzh5WEdudm9ZZVR3X3oxUDhmN19hOVZxVE1oS3RlS0xLX3pnQmE0MTJ3ZkRZQUJJWGdneUdmNzY3OU5lenZCRXNTQURjcHN3S1IwM3BNcjZOQQ?oc=5",
+     "source": "Newsweek"
+    },
+    {
+     "title": "Social Security payment dates change in November. When checks arrive - Central New Jersey News",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1BHbnZramF6dWV3ZGl4ZEl5dzgyeFFrYWJOb0RZZGREMzc2TV9uY0FwbFhXQWVsUjdZRHNGdnJ0TG5VeWszQ3NGTnVrclRuRF8tc3BkVmdlcHZ5alVtLVE0UGc1NnpyTEp1dVVpTG1NQXhGVC1IalBtLTJHODUtWVUwOTFlS2lNSUdBdXFSS1FZYXRQNUQwZG92ZGZnZGw4R0FaZElSMDJLMnFlQThTcnBPdGs4aG1V?oc=5",
+     "source": "Central New Jersey News"
+    },
+    {
+     "title": "Social Security and SSI payment schedule for November 2026 - The Clarion-Ledger",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdUk1UjEyUk9TTk5JcTdCT2tFeVd3cTJubGNRcFl0VVctNWVYQ1JER3hFR3kxS19rcnBVa2xuaVRURzA1TVJmc05vX05DWlZLZElhY0V0TElvQTNoZmxmcUlrTXlUTkxER2NVeW9GQnB3cEhBb1NqQy1EZ0dVTmlKSVhUTi1BX3hINVdETVQyM19RblIxN0Y4ZzM3UjNBdmE1SkxiVTJMM0hCakJsU1ItbmdKLXhEbXJ4VEhOSEoxclpkMk55dXpsMHh0ZnVMUjA1cFZHbnFWQzNvRjBpZWNBN05LZmlQMVUyWWplWHNxSk5XLUhyWnc?oc=5",
+     "source": "The Clarion-Ledger"
+    },
+    {
+     "title": "When do Social Security, SSI benefits go out for November in SC? - Greenville Online",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNi1lV1FneDVOWFVIdXBNVjlpOFBvWl81T2k4N2tpdnZ3RkIwNDhMSzNTLXlicTBkWmF1QW02dFU1dzY3NmtUcmI2bjBUaURwd2J1QXJHVEttMzFtbDZJRU4yRXU0QU9DYlgwdkg1UHItQzVkVXNRMlNjay1aOWxZTV83bGpyTktUeXNwY2ZETG1hWjJtaElzVmFBN2ZHX1NzUTZuRFVua2tyY3dFWW9heUhfSVVYQjNKZDY2dnlDdHdWal9ONEtOQ0NRZ0h4RmJZ?oc=5",
+     "source": "Greenville Online"
+    }
+   ],
+   "official": false,
+   "score": 47.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.newsweek.com/some-social-security-recipients-get-two-payments-this-week-whos-affected-12626770",
+     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
+     "outlet": "Newsweek"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security COLA",
+   "traffic": 0,
+   "article_count_24h": 18,
+   "article_count_1h": 2,
+   "published": "2026-10-27T23:00:37+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Social Security COLA 2027: How to Find Out Your Exact Benefits Increase Early - CPA Practice Advisor",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeTN1YzZaVXNxbDBMN3FxU0JUTjlMdnFCWHFZYUdMRHJqd2dXTjFQQVZDZWpyRGYwSjRIQ3VSU2xZVnk3WXd2RzBIWEdmODhoLVZjZXlCTG8tQkdXSkZRS0V3U0pKcUEyWXlXT0Y0dnc4SWNFNldKZm14UnpPUzhpSkxWa1FSWlhHbXBiTU11dHFwbVVzaFhESS0tVVI1NGZsRkR2cVBpaUtqWU85TmN5eGUwNkxMZ0RVVlFWc1V3NUdfbllpTGNDTGx3?oc=5",
+     "source": "CPA Practice Advisor"
+    },
+    {
+     "title": "Worried Your 2027 Social Security COLA Won’t Be Enough? 3 Things to Do Now - The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN2s1UTE0YkQycTM3bzA3M3poNjMtdHJKR1hxbms3LVFGWTFwZXV4THBiV2M2QmhZR05SakRtQnVrd3RNNW1rd0xyaHR3R2dtUm5pZlFhMkloSmZmcFc2MUUxR3pldVZuQUUtNlhPeWxkZU40VWdBSTN2OUs2Z3JKOFIyazllcC01NEQ3SlFDQnhsSWFPNlhDRHZkYkRuQXFWeDFjdlQxMkNNeUJlODl1WGg3M2V6MkN5?oc=5",
+     "source": "The Motley Fool"
+    },
+    {
+     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSmYyY2F6SHhJLWFtX2VZdkhmanA0V21pMDI0dVkwVWE5UkRXZXIwMDdhVzVMdkw2MFNqNlZzSGxxMGlpT1VVS1BBQURGV2lEaFhRSWg4b3dRXzh5WEdudm9ZZVR3X3oxUDhmN19hOVZxVE1oS3RlS0xLX3pnQmE0MTJ3ZkRZQUJJWGdneUdmNzY3OU5lenZCRXNTQURjcHN3S1IwM3BNcjZOQQ?oc=5",
+     "source": "Newsweek"
+    },
+    {
+     "title": "Social Security COLA Increase 2027: It Has Already Been Confirmed and Beneficiaries Will Receive More Money Directly in Their Accounts - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPbzR3V05oZFRXamo1dGctUnl5TUx4M0JkVXFiVDlVU2JXbGJ1QUNQS1FqQUJYVDBUMEEwbzVlYlV4bFZERldFbGV6SHoxb2xOUGZJNFVHYTNRTnd2QTBfQmV3UVV4TnpjYkpPbVZoY1N1SU9lU2pybTAxa1l2UkFGeVR3VXFHWm9kbTNBT2x5Znd3anZ3TE1hMHBsYzBraGpSTFlIYjM4Vk00OVQ3cThXZzN3SXN5NkZ0cGRobjFBVHlXVUpwWGdzY0R6S2ZfWTVZRHc2bGM3QzlMUHBFLTdJdUlNU2VRbVZ1a09BTXBjOFpQelBxdWlqTGh1dHhnOU0?oc=5",
+     "source": "El Cronista"
+    },
+    {
+     "title": "Saving Social Security May Mean Ending the COLA - RealClearMarkets",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMnN3Y0lZSEhCeVptUU05TGNvYVNMZnR6MXRGUXFuWTI1SzJ1M1ZfeHJ5dS10SDRDbi1YV0lfOENXc1k4OTZhRUw1aFh3Vk9TSktYeXpsVkxNeFpPWlI4MFc0eDVpMDd3RFRMaU9feExWRDZVX1ZrRkdjWTkzc0xIRlBoQ2U1ZDFIZHlHcjEyelFkMnRsanNOc1FwbWY3S1pHWkEzaEg3aw?oc=5",
+     "source": "RealClearMarkets"
+    }
+   ],
+   "official": false,
+   "score": 42.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.cpapracticeadvisor.com/2026/10/27/social-security-cola-2027-how-to-find-out-your-exact-benefits-increase-early/192578/",
+     "title": "Social Security COLA 2027: How to Find Out Your Exact Benefits Increase Early - CPA Practice Advisor",
+     "outlet": "CPA Practice Advisor"
+    },
+    {
+     "url": "https://www.fool.com/retirement/2026/10/27/worried-your-2027-social-security-cola-won-t-be-enough-3-things-to-do-now/",
+     "title": "Worried Your 2027 Social Security COLA Won’t Be Enough? 3 Things to Do Now - The Motley Fool",
+     "outlet": "The Motley Fool"
+    },
+    {
+     "url": "https://www.newsweek.com/some-social-security-recipients-get-two-payments-this-week-whos-affected-12626770",
+     "title": "Some Social Security Recipients Get Two Payments This Week: Who’s Affected - Newsweek",
+     "outlet": "Newsweek"
+    },
+    {
+     "url": "https://www.cronista.com/en/finance/social-security-cola-increase-2027-it-has-already-been-confirmed-and-beneficiaries-will-receive-more-money-directly-in-their-accounts/",
+     "title": "Social Security COLA Increase 2027: It Has Already Been Confirmed and Beneficiaries Will Receive More Money Directly in Their Accounts - El Cronista",
+     "outlet": "El Cronista"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "federal holiday",
+   "traffic": 0,
+   "article_count_24h": 38,
+   "article_count_1h": 2,
+   "published": "2026-10-28T09:29:00+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Holiday spending expected to set records | National News | 2news.com - KTVN",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa2tsanJHTXFjS1o2NDlwNGkzYzJORkk0a2cxMlg4VjRlYTlwVF9WRmFabE1LLURyUUZwc0hmYnFWUkR0SmpBd2VuYmstUkJQS2FwTF9PYzlpamI1OGl5U3pBaFMxcmI5dHJuX3VUNTAzN1pDNjlnMEd4emhXd3ZJT0JIYVlkdkw1b3ZrTFVPQmV3VElDSzNvQ2k3VTVRM1ZNWjhlUG9BWFRFT2lmQ24yeE52b3ZUOUlrbHhveENiTQ?oc=5",
+     "source": "KTVN"
+    },
+    {
+     "title": "German Unity Day celebrates bringing people together - The Redstone Rocket",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeWRlTGl6SEtyRHFZRTZVQWdDdnZZeE9wS2kwMWdJT21VUWozOGFqX0ZfRWlxbkE0SGpNRm45VGZVTGNIM2QwTC1PRC05Z2FCRTBQNnh6cVdOOUs1azZOaEJUS2gtWGtTVUtfUElxb0ZITFJpN3ZlT2RNX2l0U01pbGxRd3RFZWFweV94ZTRzZURpdw?oc=5",
+     "source": "The Redstone Rocket"
+    },
+    {
+     "title": "For 7 Years, Veterans Day Was Not on Nov. 11. This is What Happened - Military.com",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZU1vaUZINXp3R1EyR1lPUF9GdUdOckZjRkxxNndJX2VTb0xlTUMta3JhWjU3YnR2Si1pSUJmT2J1c0dNUjdRQkhmdC03MlVOd1lqNjBPUTd6Nzc0V0xRZE9ORlN5MGNtWlBpZUwzekRKZHhyQmFvcjgtVV9UUjNKYTY2VFI0ZVppT0NxbnJRdm8?oc=5",
+     "source": "Military.com"
+    },
+    {
+     "title": "Holiday spending expected to set records - KTVN",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUkV2YTB6R3Faa3FiWXNCcEV2dVVDc3V5czZ1eVh5Q01FUzlYRS00Wm1kQ2ZaaWg2TUNhTXdpc1l2dG1vWWQ5elI4VzJaWHVnVlNUcmdlMnJEM0tHeldvSnZFLThSczB1NmJqS2d6SkxNeDVIOGhRWFRuaW5fN0tER1BUZTcxV2dJaFYzU0hJZDZ4cG8yRHFscWlrQ2wxbkhEZDhHVE52RlFsR1FSY0xfVDVMcXRqdFZJRk55N2toUi1zdw?oc=5",
+     "source": "KTVN"
+    },
+    {
+     "title": "FRANKLIN COUNTY USDA SERVICE CENTER BULLETIN – OCTOBER 2026 - InsuranceNewsNet",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZHlJYlE5ZEQ2MzYyVFdUeUJib3dtVFhvVHl2a1psMlBfSHZIQ0JibEVRcHl2YVo5blBtZFBaUmJFWVcyWFhDSEZSeUctR3kwTkRrVUNPdUhXTmw0TlRuVDlSRFBWbFV3MFAzeVZZbEp1U2pCT2xENzQxUkJPYjRXRzZpMWh2T2tHajFPQkdWWFJTT0pDVzRza1lSVQ?oc=5",
+     "source": "InsuranceNewsNet"
+    }
+   ],
+   "official": false,
+   "score": 41.8,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.2news.com/news/national/holiday-spending-expected-to-set-records/video_7bd9fa54-9b6a-5466-b652-c5e44528e24c.html",
+     "title": "Holiday spending expected to set records | National News | 2news.com - KTVN",
+     "outlet": "KTVN"
+    },
+    {
+     "url": "https://www.theredstonerocket.com/news/article_43335295-5012-4324-b2fe-2b4100b95eb1.html",
+     "title": "German Unity Day celebrates bringing people together - The Redstone Rocket",
+     "outlet": "The Redstone Rocket"
+    },
+    {
+     "url": "https://www.military.com/for-7-years-veterans-day-was-not-on-nov-11-heres-what-happened",
+     "title": "For 7 Years, Veterans Day Was Not on Nov. 11. This is What Happened - Military.com",
+     "outlet": "Military.com"
+    },
+    {
+     "url": "https://www.2news.com/news/national/holiday-spending-expected-to-set-records/video_7bd9fa54-9b6a-5466-b652-c5e44528e24c.html",
+     "title": "Holiday spending expected to set records - KTVN",
+     "outlet": "KTVN"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "student loan",
+   "traffic": 0,
+   "article_count_24h": 29,
+   "article_count_1h": 2,
+   "published": "2026-10-27T19:25:00+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "The first deadline for student-loan borrowers to pick a new repayment plan is approaching after a 30-day extension - Business Insider",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdUswZ1dQbUxFNERsMEJOanJUM2V3VWR0Qzk2YlVldjlvdld1bDJtTGI2cVV3YUcyTWZYUTF2S252Q2EyaEFZeWx0TkxFaTMzN2xRQTZnZFNRU1VacktVTlVkSk00aHh2ZThWc183SGp2QU1NYzFRTjNoT2pXQXM5azBDaGpYRXVLRjEtd1ZiZThfZHlrSU4tX0JidXF2QW5BM1dpcHJpdDJpUjU3blBBWkhldw?oc=5",
+     "source": "Business Insider"
+    },
+    {
+     "title": "Featured-Image - CT Mirror",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMjhsbDMzOUt0djNLMGJtcWhoSm03d2pNLVpmV2ZRZXVkRUowdmJvbHN4akE1QnktY0ZfcWNSTG5tVjdRZUp2eTQ2SnpHQXVRclc0azREQmxia001QV91d3lfaEVxOHhsVThSRm1fWmNzWDk3dXNraV83U05jZEU0Nmg3YmZBT1FlUW5aQWZiMTRBbjhaYWhOdzRsUWFRNXpyLWhoZ2l1WURZdFVMUFlWczZPbFZ3Uy13MHN6YTcyYTFQTUE?oc=5",
+     "source": "CT Mirror"
+    },
+    {
+     "title": "Trump Says He May Back a Cap on Student Loan Interest - Investopedia",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEl1c3c3Q1VTM0xrYkJ2eUZWMTVFc3JoTVFLc2s2RkNERXBfb29PSGZZSUtVXzFJQ3pIckFsQWtQNUZkMDA1WkM1X0x6Z0JWZzV6NU9obWpmeEFJX1pQbDZiaXdKaWdQVUtzTUstX2pmeHBBaEFRcDdhN2w0VHZDMWN4cWs5M3BDLVNLbC15X21Zb0RHVHJyLWNhaw?oc=5",
+     "source": "Investopedia"
+    },
+    {
+     "title": "Student loan borrowers leaving SAVE plan may face much higher bills - WFTV",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdkFNXzliQ3Rjd2tTQ2FWME1nbXJlczR3MDJKX2lHS1huMmpVLS1nbWs4NEV1TTNVMDJRYllIbmxBLVRzeEVMck9XeENnT19hV2pBUG1JS3JGNHZZeFExUHhIYnh4b29HSWxtX3lubWFmX3hyUW14c29hWWhkak1tN0ZScEtJNWdfOUs5U3ltNG9qNlgtMzVoUmFLdHl5SHRVd2NCdlV1WW1WT2xVNVpZZWcyRWxMaURFZDhrWGNTbXZWdHY2OVHSAdoBQVVfeXFMUEdyUkZjVHRfanhJSlJPdWtxRE5fTzRoRjNJTU9vSjZTRnYzRUI1MER0S0hmNi1NMjJSSzlnY1ByanRIYWkwRVcwMkhxTWk2bzZYOWpJaVkwcFpzRF8yelJmMC13c0x4NnJuaV9pMmZCN2laQ1YzWEMzSVpqc0FrR3IxZkd0MnpTdHo5UFhQRE9OOEoxWXlPMk9oRVhOX2N4QjNJeU1vNFFLNGNhQjlkdGpOMGNxRkVYY1FCY1VEUU5SNHd4Ni1jeTJxSzNPVGlrWjhncW1KOVJydUE?oc=5",
+     "source": "WFTV"
+    },
+    {
+     "title": "Texas judges are blocking student debt deals — and borrowers are paying the price - Austin American-Statesman",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOGNqU2FyTkZKUHJXYUhKMm1VMm1DM2ZJOHBpVDdpN2habVF6MEd1Zk1hVUxZbFlyeGJKUVdrQ0luaU9FVjBrdzVheWNfMDlZWDk3UWpWd0ZBZUY4QjdjWDVwSDVVT21xWXdZMnZ1ODRBOEtGMG95U1duWWtxei1Ja0xuaDFjTWROdFcxVm03N05rY3NfR0czckRR?oc=5",
+     "source": "Austin American-Statesman"
+    }
+   ],
+   "official": false,
+   "score": 39.9,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.businessinsider.com/student-loan-borrowers-save-transition-first-deadline-pick-repayment-plan-2026-10",
+     "title": "The first deadline for student-loan borrowers to pick a new repayment plan is approaching after a 30-day extension - Business Insider",
+     "outlet": "Business Insider"
+    },
+    {
+     "url": "https://ctmirror.org/2026/10/27/connecticut-can-help-student-loan-borrowers-before-they-fall-behind-richard/featured-image-3/",
+     "title": "Featured-Image - CT Mirror",
+     "outlet": "CT Mirror"
+    },
+    {
+     "url": "https://www.wftv.com/news/local/student-loan-borrowers-leaving-save-plan-may-face-much-higher-bills/7QYCT52JLFESXO4GVCXWQ2WFMU/",
+     "title": "Student loan borrowers leaving SAVE plan may face much higher bills - WFTV",
+     "outlet": "WFTV"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "mlb schedule",
+   "traffic": 10000,
+   "published": "2026-10-28T13:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Ashby makes history with record scoreless streak for reliever in postseason",
+     "url": "https://www.mlb.com/news/aaron-ashby-postseason-consecutive-scoreless-innings-reliever-record",
+     "source": "MLB.com"
+    },
+    {
+     "title": "Brewers' Aaron Ashby breaks postseason scoreless relief record as World Series Game 4 goes to extras",
+     "url": "https://apnews.com/article/world-series-ashby-brewers-1ab695d18d619e82c97cc5e03d0b436a",
+     "source": "AP News"
+    },
+    {
+     "title": "World Series 2026: Aaron Ashby breaks MLB record for consecutive scoreless innings by a reliever in a single postseason",
+     "url": "https://sports.yahoo.com/mlb/breaking-news/article/world-series-2026-aaron-ashby-breaks-mlb-record-for-consecutive-scoreless-innings-by-a-reliever-in-a-single-postseason-030648264.html",
+     "source": "Yahoo Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.mlb.com/news/aaron-ashby-postseason-consecutive-scoreless-innings-reliever-record",
+     "title": "Ashby makes history with record scoreless streak for reliever in postseason",
+     "outlet": "MLB.com"
+    },
+    {
+     "url": "https://sports.yahoo.com/mlb/breaking-news/article/world-series-2026-aaron-ashby-breaks-mlb-record-for-consecutive-scoreless-innings-by-a-reliever-in-a-single-postseason-030648264.html",
+     "title": "World Series 2026: Aaron Ashby breaks MLB record for consecutive scoreless innings by a reliever in a single postseason",
+     "outlet": "Yahoo Sports"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "daylight saving time",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 4,
+   "article_count_1h": 5,
+   "published": "2026-10-28T06:58:45+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Daylight saving time is coming to an end again. Here's how the time change may impact you - PBS",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVkt1eF9GYWwtOE1POHpsTnpMVU9za2hBMnFWdzI5T2lUczJIaDZSVWZGWU5zTVhQU0ZSa2k5N08ya2NQdFJtWmRtQzJwUDRWR2hNTUFWbHJLa1R0NlNDeEZ5Z25feEN1eW1Pd25iMG9NZGZxUDF3X09QWkJSTG1pR0VoWkhfSkxremgwc0d4RW9zNUFzSVZTaFVlb2tvVjkyN1RyMV9PUUczLXp4WERyb3JZYnFlNUxodkFRREpXMHQ?oc=5",
+     "source": "PBS"
+    },
+    {
+     "title": "East Texans prepare to fall back for daylight saving time during Halloween weekend - KLTV.com",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYllYLTJSUTJTRVlCcDNuWWxnNkY3TE9BdnlESkZGcXhXbndRZnRfSUp6NUdXWWRiRXdqeXFEVDhZQXVZSUlOdXIyZGp5N0RxZTV0anEwVE5hOFdSaXNzd0w1R1BwSVM5cTJRbDJaR2k0UzJsTDNYem5abnVwcE02Uk5kQlN0SWlmVzVnOFZsZGFGd1ZyU2VRdnJsZlFLbjFXcWxKNHp3YmstcVlq0gHAAUFVX3lxTE84QjVkTTRydlpneGZBY3MzZGwzMDcxcUJqbU1nbFNYSVppNXZOa0NrSXhZU1VLV2VBQmtTNDVLWHJ6NnE3SlBMb1h2bTY2eWVHRU5MLWw1UGZfcG8yU2U0Q05tclByRmxOSHJXNnVlMzdPWkdUWXBTcUlXdHZRLWNUU3dYUlBhUEROa1dXMVpXTU9Na3NBR3lvRTdtaUNIcEtMcU9IX0tXTk1vOXhma0tJUElLZGN2ZzlfY2hzQlVMQg?oc=5",
+     "source": "KLTV.com"
+    },
+    {
+     "title": "Almost time to fall back; when do we change the clocks? - WSB-TV",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcW5WdDk2MmtZdldGU2ozN05iZUFhQ0RneHJ2VEc2XzFyVnN2d2ZPbDdySHVnb0pWQW40OUpuaVdtVlFGcFZOQkdoOWhpbjkxckRMeHFFNnluSHhSUDh5cXhia3lLSmJGVkx6WGlYdVM5Qklzd2ROOFdDNGFLLUxJTjRzb3IwZjQ5TmNDUGw2dFNib0hJM2lFNEJKQXFJcVpEQmhLZTB0OHZGeDFJTzEw0gHDAUFVX3lxTE1NYnA0X01KNy1kanV4MnZJc3FTU1Z3c2RzcWN2VGRGaFVlLXF5U2xZN3ZyS2VKZG9CRVd3aEp2V0sydG1kV09pWUk1VXN5X0c0eXlNaU91b0ppMWc3TG9TZWRWR0pwRFNWbGNJRGZNd0k5SGFiaFZ1dWZmZmM1VG5IYXNydWdDbXdNczVLMXN1Wm1zSWF6X1hkX3I5VmIyUnNCdGYzY3MtajUyUXFFXzZQd1B4RlJoa0VXdkItRWlLZ1BHQQ?oc=5",
+     "source": "WSB-TV"
+    },
+    {
+     "title": "What if we didn't \"fall back\"? What year-round daylight saving time in Memphis would look like - FOX13 Memphis",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTURzRWQ5aE5TQndLRXlJRFhUa3VYbElTMUJGc3FoTjZ1ckFMNVZMd2hUS3kwQktvMm5wNmtQTGR5QTdxWVByMXJrNGp3WVNYdUNNblNlWHk5M1NrOGRfZTNtaWJMSlJpRUpzemxqRE41NHppNUE4V3FWeFdDc25zWlBFMHpMOFc4X3dXbkxiNHpwZko5YWZRYjBTdV8zVXV1V2FkVmc1SzRuTXYzOE83bUJJbUJlZFFVY2xXdW5sbTFNenRpNjhRREttaTRaYjBXdTNNRmMxMkNTbnIzNTVKTUVVNG9GUlkxMEVZeXZ4a1ZEWUYtbVV3?oc=5",
+     "source": "FOX13 Memphis"
+    },
+    {
+     "title": "We’re falling back this weekend, but just how much daylight are we losing?! - WOWK 13 News",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZjcybXBjcjBRd3lVd0hEeGJBMHItcWVPRENua3lLWkN5SFM3OW1UVE9MWnpkUjZmeFlUcHFseExFVnZlRFJsVlNnMm1nMEE5TkRpc1g4VXJaMFNnMmx0ZEI3aW5MM0JYZ24zVmpvTGlnMWRjaGg5MlpiSkljZFQzelVienBldENyRGlQWlB2X0UyRGh5OWdwS3Jtcm9pNHg5UEdvVUNR0gGrAUFVX3lxTFBBTXYxYTMtY3U2dnFBX3F2Tk82dDl0al9XaEpqbnk0d3BYNGlJU0RnaU80Z1JhZFp2N0I3bG9ST1BKQjBuemYwbG9jMERTMWRvcXVNU2MwX195d25jUTRQTUlERmpMSDFrbWRBZU9NUzdoQnBST3RVREdXdF93aTZfMWQ3aG5kVE5xSG9fN00zcTl3QWxsT1NDNGVHZGVwUC15ZEpKdlpsZXdrVQ?oc=5",
+     "source": "WOWK 13 News"
+    }
+   ],
+   "official": false,
+   "score": 38.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.pbs.org/newshour/nation/daylight-saving-time-is-coming-to-an-end-again-heres-how-the-time-change-may-impact-you",
+     "title": "Daylight saving time is coming to an end again. Here's how the time change may impact you - PBS",
+     "outlet": "PBS"
+    },
+    {
+     "url": "https://www.kltv.com/2026/10/28/east-texans-prepare-fall-back-daylight-saving-time-during-halloween-weekend/",
+     "title": "East Texans prepare to fall back for daylight saving time during Halloween weekend - KLTV.com",
+     "outlet": "KLTV.com"
+    },
+    {
+     "url": "https://www.wsbtv.com/news/trending/almost-time-fall-back-when-do-we-change-clocks/BI27IO6H6ZF5FL6MHL7R6TP36M/",
+     "title": "Almost time to fall back; when do we change the clocks? - WSB-TV",
+     "outlet": "WSB-TV"
+    },
+    {
+     "url": "https://www.fox13memphis.com/news/what-if-we-didnt-fall-back-what-year-round-daylight-saving-time-in-memphis-would/article_fb38af74-a7af-4d62-a5e6-b409c881c5da.html",
+     "title": "What if we didn't \"fall back\"? What year-round daylight saving time in Memphis would look like - FOX13 Memphis",
+     "outlet": "FOX13 Memphis"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "product recall",
+   "traffic": 0,
+   "article_count_24h": 80,
+   "article_count_1h": 2,
    "published": "2026-10-28T01:00:00+09:00",
    "category": "Recalls",
    "news": [
@@ -611,320 +935,20 @@
      "source": "Detroit Free Press"
     },
     {
-     "title": "More than 44,000 cans of Walmart fruit cocktail recalled over lead concerns - Fox Business",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb0VOaFE3YzhGMDRnVGVvUVdpekdmVGFqdjRTd096Yk8zVTZoaEFlRk81dm5sdTlVdjdseHl4ZGREaWM0YUl1QllESVFuTm1KMFp2VlNzbmhJV0c1MFpZRWNmMUJYV29IYmpZOUtpOGN1TlA2WjlyVGIwdmNRaFNHTlIyNTdmTE5VX045VGk1MEotQ2hPQ243eGdwR0dvR0c1cXlGYXJJb0RnTW1K0gGsAUFVX3lxTE1vRU5oUTdjOEYwNGdUZW9RV2l6R2ZUYWp2NFN3T3piTzNVNmhoQWVGTzV2bmx1OVV2N2x4eXhkZERpYzRhSXVCWURJUW5ObUowWnZWU3NuaElXRzUwWllFY2YxQlhXb0hialk5S2k4Y3VOUDZaOXJUYjB2Y1FoU0dOUjI1N2ZMTlVfTjlUaTUwSi1DaE9Dbjd4Z3BHR29HRzVxeUZhcklvRGdNbUo?oc=5",
-     "source": "Fox Business"
-    }
-   ],
-   "official": false,
-   "score": 41.9,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/10/27/plant-based-butter-miyokos-creamery-recall/92465584007/",
-     "title": "Popular plant-based butter recalled. See affected product - USA Today",
-     "outlet": "USA Today"
-    },
-    {
-     "url": "https://www.foodsafetynews.com/2026/10/fda-issues-another-warning-against-darwins-pet-food-firm-refuses-to-initiate-recall/",
-     "title": "FDA issues another warning against Darwin's pet food; firm refuses to initiate recall - Food Safety News",
-     "outlet": "Food Safety News"
-    },
-    {
-     "url": "https://www.foxbusiness.com/lifestyle/more-than-44000-cans-walmart-fruit-cocktail-recalled-lead-concerns.amp",
-     "title": "More than 44,000 cans of Walmart fruit cocktail recalled over lead concerns - Fox Business",
-     "outlet": "Fox Business"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "student loan",
-   "traffic": 0,
-   "article_count_24h": 29,
-   "article_count_1h": 2,
-   "published": "2026-10-27T21:04:15+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "2026 Credit Karma Student Loan Debt Report - Credit Karma",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWQ2d1VmhJZHNOUlRDSF9FQ3VXM3BBbUFoQURrajB0MFBwVjJSVWpBUWZ1eTlubDU4VlZNc1YzUEsyMnh3MkQxWk0zUFVETlYyV0FQUzVJNU11MU16U0I0S3dwRS03MUVGSUZCZXl6Rl8?oc=5",
-     "source": "Credit Karma"
-    },
-    {
-     "title": "The first deadline for student-loan borrowers to pick a new repayment plan is approaching after a 30-day extension - Business Insider",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdUswZ1dQbUxFNERsMEJOanJUM2V3VWR0Qzk2YlVldjlvdld1bDJtTGI2cVV3YUcyTWZYUTF2S252Q2EyaEFZeWx0TkxFaTMzN2xRQTZnZFNRU1VacktVTlVkSk00aHh2ZThWc183SGp2QU1NYzFRTjNoT2pXQXM5azBDaGpYRXVLRjEtd1ZiZThfZHlrSU4tX0JidXF2QW5BM1dpcHJpdDJpUjU3blBBWkhldw?oc=5",
-     "source": "Business Insider"
-    },
-    {
-     "title": "Featured-Image - CT Mirror",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMjhsbDMzOUt0djNLMGJtcWhoSm03d2pNLVpmV2ZRZXVkRUowdmJvbHN4akE1QnktY0ZfcWNSTG5tVjdRZUp2eTQ2SnpHQXVRclc0azREQmxia001QV91d3lfaEVxOHhsVThSRm1fWmNzWDk3dXNraV83U05jZEU0Nmg3YmZBT1FlUW5aQWZiMTRBbjhaYWhOdzRsUWFRNXpyLWhoZ2l1WURZdFVMUFlWczZPbFZ3Uy13MHN6YTcyYTFQTUE?oc=5",
-     "source": "CT Mirror"
-    },
-    {
-     "title": "Trump Says He May Back a Cap on Student Loan Interest - Investopedia",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEl1c3c3Q1VTM0xrYkJ2eUZWMTVFc3JoTVFLc2s2RkNERXBfb29PSGZZSUtVXzFJQ3pIckFsQWtQNUZkMDA1WkM1X0x6Z0JWZzV6NU9obWpmeEFJX1pQbDZiaXdKaWdQVUtzTUstX2pmeHBBaEFRcDdhN2w0VHZDMWN4cWs5M3BDLVNLbC15X21Zb0RHVHJyLWNhaw?oc=5",
-     "source": "Investopedia"
-    },
-    {
-     "title": "Student loan borrowers leaving SAVE plan may face much higher bills - WFTV",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdkFNXzliQ3Rjd2tTQ2FWME1nbXJlczR3MDJKX2lHS1huMmpVLS1nbWs4NEV1TTNVMDJRYllIbmxBLVRzeEVMck9XeENnT19hV2pBUG1JS3JGNHZZeFExUHhIYnh4b29HSWxtX3lubWFmX3hyUW14c29hWWhkak1tN0ZScEtJNWdfOUs5U3ltNG9qNlgtMzVoUmFLdHl5SHRVd2NCdlV1WW1WT2xVNVpZZWcyRWxMaURFZDhrWGNTbXZWdHY2OVHSAdoBQVVfeXFMUEdyUkZjVHRfanhJSlJPdWtxRE5fTzRoRjNJTU9vSjZTRnYzRUI1MER0S0hmNi1NMjJSSzlnY1ByanRIYWkwRVcwMkhxTWk2bzZYOWpJaVkwcFpzRF8yelJmMC13c0x4NnJuaV9pMmZCN2laQ1YzWEMzSVpqc0FrR3IxZkd0MnpTdHo5UFhQRE9OOEoxWXlPMk9oRVhOX2N4QjNJeU1vNFFLNGNhQjlkdGpOMGNxRkVYY1FCY1VEUU5SNHd4Ni1jeTJxSzNPVGlrWjhncW1KOVJydUE?oc=5",
-     "source": "WFTV"
-    }
-   ],
-   "official": false,
-   "score": 39.9,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.creditkarma.com/Error_Credit_Karma.htm?referenceerror=18.47c90b17.1793162352.471ec05a",
-     "title": "2026 Credit Karma Student Loan Debt Report - Credit Karma",
-     "outlet": "Credit Karma"
-    },
-    {
-     "url": "https://www.businessinsider.com/student-loan-borrowers-save-transition-first-deadline-pick-repayment-plan-2026-10",
-     "title": "The first deadline for student-loan borrowers to pick a new repayment plan is approaching after a 30-day extension - Business Insider",
-     "outlet": "Business Insider"
-    },
-    {
-     "url": "https://ctmirror.org/2026/10/27/connecticut-can-help-student-loan-borrowers-before-they-fall-behind-richard/featured-image-3/",
-     "title": "Featured-Image - CT Mirror",
-     "outlet": "CT Mirror"
-    },
-    {
-     "url": "https://www.wftv.com/news/local/student-loan-borrowers-leaving-save-plan-may-face-much-higher-bills/7QYCT52JLFESXO4GVCXWQ2WFMU/",
-     "title": "Student loan borrowers leaving SAVE plan may face much higher bills - WFTV",
-     "outlet": "WFTV"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "daylight saving time",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 9,
-   "published": "2026-10-28T06:58:45+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "Daylight saving time is coming to an end again. Here's how the time change may impact you - PBS",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVkt1eF9GYWwtOE1POHpsTnpMVU9za2hBMnFWdzI5T2lUczJIaDZSVWZGWU5zTVhQU0ZSa2k5N08ya2NQdFJtWmRtQzJwUDRWR2hNTUFWbHJLa1R0NlNDeEZ5Z25feEN1eW1Pd25iMG9NZGZxUDF3X09QWkJSTG1pR0VoWkhfSkxremgwc0d4RW9zNUFzSVZTaFVlb2tvVjkyN1RyMV9PUUczLXp4WERyb3JZYnFlNUxodkFRREpXMHQ?oc=5",
-     "source": "PBS"
-    },
-    {
-     "title": "East Texans prepare to fall back for daylight saving time during Halloween weekend - KLTV.com",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYllYLTJSUTJTRVlCcDNuWWxnNkY3TE9BdnlESkZGcXhXbndRZnRfSUp6NUdXWWRiRXdqeXFEVDhZQXVZSUlOdXIyZGp5N0RxZTV0anEwVE5hOFdSaXNzd0w1R1BwSVM5cTJRbDJaR2k0UzJsTDNYem5abnVwcE02Uk5kQlN0SWlmVzVnOFZsZGFGd1ZyU2VRdnJsZlFLbjFXcWxKNHp3YmstcVlq0gHAAUFVX3lxTE84QjVkTTRydlpneGZBY3MzZGwzMDcxcUJqbU1nbFNYSVppNXZOa0NrSXhZU1VLV2VBQmtTNDVLWHJ6NnE3SlBMb1h2bTY2eWVHRU5MLWw1UGZfcG8yU2U0Q05tclByRmxOSHJXNnVlMzdPWkdUWXBTcUlXdHZRLWNUU3dYUlBhUEROa1dXMVpXTU9Na3NBR3lvRTdtaUNIcEtMcU9IX0tXTk1vOXhma0tJUElLZGN2ZzlfY2hzQlVMQg?oc=5",
-     "source": "KLTV.com"
-    },
-    {
-     "title": "What if we didn't \"fall back\"? What year-round daylight saving time in Memphis would look like - FOX13 Memphis",
-     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTURzRWQ5aE5TQndLRXlJRFhUa3VYbElTMUJGc3FoTjZ1ckFMNVZMd2hUS3kwQktvMm5wNmtQTGR5QTdxWVByMXJrNGp3WVNYdUNNblNlWHk5M1NrOGRfZTNtaWJMSlJpRUpzemxqRE41NHppNUE4V3FWeFdDc25zWlBFMHpMOFc4X3dXbkxiNHpwZko5YWZRYjBTdV8zVXV1V2FkVmc1SzRuTXYzOE83bUJJbUJlZFFVY2xXdW5sbTFNenRpNjhRREttaTRaYjBXdTNNRmMxMkNTbnIzNTVKTUVVNG9GUlkxMEVZeXZ4a1ZEWUYtbVV3?oc=5",
-     "source": "FOX13 Memphis"
-    },
-    {
-     "title": "We’re falling back this weekend, but just how much daylight are we losing?! - WOWK 13 News",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZjcybXBjcjBRd3lVd0hEeGJBMHItcWVPRENua3lLWkN5SFM3OW1UVE9MWnpkUjZmeFlUcHFseExFVnZlRFJsVlNnMm1nMEE5TkRpc1g4VXJaMFNnMmx0ZEI3aW5MM0JYZ24zVmpvTGlnMWRjaGg5MlpiSkljZFQzelVienBldENyRGlQWlB2X0UyRGh5OWdwS3Jtcm9pNHg5UEdvVUNR0gGrAUFVX3lxTFBBTXYxYTMtY3U2dnFBX3F2Tk82dDl0al9XaEpqbnk0d3BYNGlJU0RnaU80Z1JhZFp2N0I3bG9ST1BKQjBuemYwbG9jMERTMWRvcXVNU2MwX195d25jUTRQTUlERmpMSDFrbWRBZU9NUzdoQnBST3RVREdXdF93aTZfMWQ3aG5kVE5xSG9fN00zcTl3QWxsT1NDNGVHZGVwUC15ZEpKdlpsZXdrVQ?oc=5",
-     "source": "WOWK 13 News"
-    },
-    {
-     "title": "Daylight Saving Time: Turning Your Clocks Back? Test Your Smoke Alarms Too - American Red Cross",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQakVkclFDNGpKc0t2RThSMFNHdXhQLWpaNUpqQXcxQlFuTTVzczVDd3ViTjJOczdhZDE0Mm9hZ29FbDFoWEtjZkkwTUhhbXdkRWU2TXpxa0hwVjJERDFuNmFiV0hXODkwaHZaRXhyU25kQTU5YTZQMU9hRDgxT3V6VExfN2Z2cGg0N3RXblljMXBnV3hKWVZ6VHZfNlBiMG14LUpnRzYwZU1VV0ZSVk1YSUFURUZ0VHc?oc=5",
-     "source": "American Red Cross"
-    }
-   ],
-   "official": false,
-   "score": 38.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.pbs.org/newshour/nation/daylight-saving-time-is-coming-to-an-end-again-heres-how-the-time-change-may-impact-you",
-     "title": "Daylight saving time is coming to an end again. Here's how the time change may impact you - PBS",
-     "outlet": "PBS"
-    },
-    {
-     "url": "https://www.kltv.com/2026/10/28/east-texans-prepare-fall-back-daylight-saving-time-during-halloween-weekend/",
-     "title": "East Texans prepare to fall back for daylight saving time during Halloween weekend - KLTV.com",
-     "outlet": "KLTV.com"
-    },
-    {
-     "url": "https://www.fox13memphis.com/news/what-if-we-didnt-fall-back-what-year-round-daylight-saving-time-in-memphis-would/article_fb38af74-a7af-4d62-a5e6-b409c881c5da.html",
-     "title": "What if we didn't \"fall back\"? What year-round daylight saving time in Memphis would look like - FOX13 Memphis",
-     "outlet": "FOX13 Memphis"
-    },
-    {
-     "url": "https://www.redcross.org/about-us/news-and-events/news/2026/test-your-smoke-alarms-as-you-turn-back-your-clocks.html",
-     "title": "Daylight Saving Time: Turning Your Clocks Back? Test Your Smoke Alarms Too - American Red Cross",
-     "outlet": "American Red Cross"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "federal holiday",
-   "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 1,
-   "published": "2026-10-28T09:29:00+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "Holiday spending expected to set records | National News | 2news.com - KTVN",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa2tsanJHTXFjS1o2NDlwNGkzYzJORkk0a2cxMlg4VjRlYTlwVF9WRmFabE1LLURyUUZwc0hmYnFWUkR0SmpBd2VuYmstUkJQS2FwTF9PYzlpamI1OGl5U3pBaFMxcmI5dHJuX3VUNTAzN1pDNjlnMEd4emhXd3ZJT0JIYVlkdkw1b3ZrTFVPQmV3VElDSzNvQ2k3VTVRM1ZNWjhlUG9BWFRFT2lmQ24yeE52b3ZUOUlrbHhveENiTQ?oc=5",
-     "source": "KTVN"
-    },
-    {
-     "title": "For 7 Years, Veterans Day Was Not on Nov. 11. This is What Happened - Military.com",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZU1vaUZINXp3R1EyR1lPUF9GdUdOckZjRkxxNndJX2VTb0xlTUMta3JhWjU3YnR2Si1pSUJmT2J1c0dNUjdRQkhmdC03MlVOd1lqNjBPUTd6Nzc0V0xRZE9ORlN5MGNtWlBpZUwzekRKZHhyQmFvcjgtVV9UUjNKYTY2VFI0ZVppT0NxbnJRdm8?oc=5",
-     "source": "Military.com"
-    },
-    {
-     "title": "FRANKLIN COUNTY USDA SERVICE CENTER BULLETIN – OCTOBER 2026 - InsuranceNewsNet",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZHlJYlE5ZEQ2MzYyVFdUeUJib3dtVFhvVHl2a1psMlBfSHZIQ0JibEVRcHl2YVo5blBtZFBaUmJFWVcyWFhDSEZSeUctR3kwTkRrVUNPdUhXTmw0TlRuVDlSRFBWbFV3MFAzeVZZbEp1U2pCT2xENzQxUkJPYjRXRzZpMWh2T2tHajFPQkdWWFJTT0pDVzRza1lSVQ?oc=5",
-     "source": "InsuranceNewsNet"
-    },
-    {
-     "title": "National forecast projects record holiday retail sales despite consumer concerns - WV News",
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQOUFITWY5aFk2bTNBcm5BXzM3cnBWV2hQdlFPR0pMeXM2ZWs5aXV1X0VKcFJjYm5pLXJOc2JKVVVNeTVTYmNScTFmTTFqbF94QzBGX3pYdDMyZmVqMGlNc0p0N3FZN0Y2anY3U21SWXZHNXdMOFNkdjlHTDNpaGdldUxtS1Y0a3d6aEVMZldCTjN0R191SXZwa3BfYUpPZHRsYi1Ya1E4SXNKVU0wWm00b0Z3cDJsQWhJTWZjbHlVMWg0WVdUQmFtWFRXdm9xMUtoNW9GVGoyQnFVMjhrY1E5MlQtVUFDQ0hBVmllLTVDalZEdXRDcXNaTQ?oc=5",
-     "source": "WV News"
-    },
-    {
-     "title": "Veterans Day facts: history, dates and who the day honors - qz.com",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJSXU1LUg4TmFZV280YlhfODR6djV5TFFkUW9XaG1UVFhIaVpRTXowLTNocHAtRHAyQm8tVW90QVpXUFZJdzBLS3FmXzN3M2t4UGo4?oc=5",
-     "source": "qz.com"
-    }
-   ],
-   "official": false,
-   "score": 37.4,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.2news.com/news/national/holiday-spending-expected-to-set-records/video_7bd9fa54-9b6a-5466-b652-c5e44528e24c.html",
-     "title": "Holiday spending expected to set records | National News | 2news.com - KTVN",
-     "outlet": "KTVN"
-    },
-    {
-     "url": "https://www.military.com/for-7-years-veterans-day-was-not-on-nov-11-heres-what-happened",
-     "title": "For 7 Years, Veterans Day Was Not on Nov. 11. This is What Happened - Military.com",
-     "outlet": "Military.com"
-    },
-    {
-     "url": "https://www.wvnews.com/news/wvnews/national-forecast-projects-record-holiday-retail-sales-despite-consumer-concerns/article_a4e67753-39de-44c3-8896-144274bd4fac.html",
-     "title": "National forecast projects record holiday retail sales despite consumer concerns - WV News",
-     "outlet": "WV News"
-    },
-    {
-     "url": "https://qz.com/veterans-day-facts-history",
-     "title": "Veterans Day facts: history, dates and who the day honors - qz.com",
-     "outlet": "qz.com"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "IRS refund",
-   "traffic": 0,
-   "article_count_24h": 29,
-   "article_count_1h": 1,
-   "published": "2026-10-28T03:52:03+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Key Changes for City of Detroit Individual Income Tax - State of Michigan (.gov)",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNamo1NlRYaFVVeE5RRUxvQjZhM1g3dmlzZ3ZTTVI4VHNpX094cjQwSUxnWHp1MnVobVM0ZkJzcFBhYnplbEtWUFlhbXZqRUs0NFRZMzQ3TFRNVlZrLXJXbXczcmt4dTdUdGNkVGQ0RHJacnhSUWNDMDJkZFhZYmEtZDlMcXZiQUVITzJJWHpn?oc=5",
-     "source": "State of Michigan (.gov)"
-    },
-    {
-     "title": "The IRS is giving refunds, potentially worth thousands, to over 50K families after a tax credit change — do you qualify? - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbjQzdVJWZTJOSGM1cTlTWWdCNUxwaEx3dWhwQ0MtYko1eHdxYi00aTBpS2FIck9uY1lhY3BJZVdPc19DNkFyTV9abERtbmEyZlJ6MFQ0OHhEMDkzS2VWUERLTm1kdzJtQ2s0T19tQ3Rld1d4NFRGNHVDem9WUEJCNGVNZEpINjlXYVowMUJudGMxZ1J2bTh0bUQtNlhjam42OWJV?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "The IRS continues to automatically send money back: they are depositing up to US$ 5,000 per child to the people who are entitled to it - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOeDJJN0Y3UXFNS0I5MmJhOGhBejhJeTF4X0Zpd1k1YVFrNjJTVGdrMHJCemVBd2IxbXpQUmNHeVlRZmlTRmtoaGxIaXNXQjA3a1B3bzFFN3gtdENBUUpxUXJsS3V3LTJFNE5HVi1jVlA5NFFLdTFMbGpWNlNTTDdNR2tpMU1sU280V3ZNYU95ODB5SmtJLXlETmRVSTJ6TENHREw4Z3NKN3VtdkFKYlY3RGQxSXB5VFpkeFFGRFVtTnhVeFZIMEpLZ2oxVE5MOXU3Wl9iYmlRWmNEMzFrV1MzVnBLWWFyS3dhQTY3Smpvci1FTlpraGF6a0VOZnc?oc=5",
-     "source": "El Cronista"
-    },
-    {
-     "title": "Gina Hinojosa pitches $1,500 tax refund, electricity rate freeze and public education fixes in Texas - KXXV",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUmZaLXZaWEMyVXlXcElhUkEwVGdoWVBncXh3RmotalJERGJFZXdnYzJ2RlNjVWJSSTBxSi1MTUp3VUhTbU9wUDFkeTVoX3NleW5pdTdOb2JhSS15THhBZHRKQTNteEh4dTFuaFZPVnNGRnhfcjBLZkVueG1UdjV6QURreDRRTmE2SzhYQVFBN3VxODlNS1hUZGROUk14cm1BZGtIM1VwNll1XzFzM2FUdXhOd1JGY19QdGlBNG9KazRQNG9uWUg5MVBza3hCd0V0?oc=5",
-     "source": "KXXV"
-    },
-    {
-     "title": "Atlanta Man Extradited in $100M Tax Refund Fraud Case - Hoodline",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUW5mXzNNaDdKZUllQ2Nod19ZMy1IcEJURmtJNkg4V3hZVWFFM3JwWmJoOXJzR2Y1aFZORWN3eDdpSi1sdENhSnB0cnp0ajRncVVDYVo3TE1xMTNSUi0ydjRYUnRwQ0NBYW9KUTNKRlhWRmNDbWU2N1RYeGVSXzF3N05Vek42QmlEU2MzNDEzSDZ6U3pBSVY5Z1h2VjIwQ08xdnIxUlFQODlqdw?oc=5",
-     "source": "Hoodline"
-    }
-   ],
-   "official": false,
-   "score": 35.7,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.michigan.gov/taxes/citytax/detroit/key-changes/key-changes-for-individual",
-     "title": "Key Changes for City of Detroit Individual Income Tax - State of Michigan (.gov)",
-     "outlet": "State of Michigan (.gov)"
-    },
-    {
-     "url": "https://finance.yahoo.com/economy/policy/articles/irs-giving-refunds-potentially-worth-130000789.html",
-     "title": "The IRS is giving refunds, potentially worth thousands, to over 50K families after a tax credit change — do you qualify? - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/the-irs-continues-to-automatically-send-money-back-they-are-depositing-up-to-us-5000-per-child-to-the-people-who-are-entitled-to-it/",
-     "title": "The IRS continues to automatically send money back: they are depositing up to US$ 5,000 per child to the people who are entitled to it - El Cronista",
-     "outlet": "El Cronista"
-    },
-    {
-     "url": "https://www.kxxv.com/news/local-news/gina-hinojosa-pitches-1-500-tax-refund-electricity-rate-freeze-and-public-education-fixes-in-texas",
-     "title": "Gina Hinojosa pitches $1,500 tax refund, electricity rate freeze and public education fixes in Texas - KXXV",
-     "outlet": "KXXV"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "REAL ID",
-   "traffic": 0,
-   "article_count_24h": 23,
-   "article_count_1h": 2,
-   "published": "2026-10-27T22:06:49+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "What is the Trump-backed SAVE America Act requiring voter ID, proof of citizenship to register? - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPakp6cUZqckpHYXRSRmZ3S1NIVHE3TnR5ek9qN1M2YmVKUV96bjJaUWhGNFZyTFFFSVRoZnNFODZjNWRYT3E5R2lKUDIxTm9UQzlmTVllRS16cmZ1d1hqQ3pYNzNvUnRrR29aUUQyQ043NjhJSXFjV0g2TnY5TmJUYzNOMi1tQnJnUDRWVHl5ZGhGcUI3QkIxWHl5UzhfVm1qYUJ30gGoAUFVX3lxTE1vdmwzR2RvYmZoVzRZNFpoNmxyRE82czE3UlVtWHNqRkFyY2JEWXFjQmZtaUtqQVFpaWZWOGFDdUhMYXctejlGZDV2dWNtanUyVktUakJTZmtTWlFqYzJoU2FEODZjOWJUMmpGNTVya184d1d5SDU1eGcxdzJXc2Vqc1VaUWpjazBRRlRQTVZJVG82enZCTmY0THE1eVo2Rk9mb3I0RFdLRg?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "title": "Are you registered to vote? How Chicago area residents can check - NBC 5 Chicago",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWi15N2FMNnA1enljcGs3TTBfVndDSnVhVzRQVVVqdEdOX0RrWHdITmt0SWNHN2o5UE9NMEdxRWFUdmVDblktUlJLcVBCVnFOclNvRFQyNzM0Um14ZWxkQ1FlQ3hocE9ZckhGVDlfQVhfbjJuMjVfaU9mSUlvV0Z4MzFfcUczRVBBckhkMXJJZm1LQldQMWZBU3ZpaDlKTGFhTmk5dXl5b0l1TVY0a3p2UVlRN19haG41ODI3cEV6MNIBxwFBVV95cUxNR1lMWWxVeEhDb3oyMm9COEN3dFBpYjYyVll2NXZEamRlZ0RjbUZvRU1aWVBNeTBQOHBkOG1RcEN1dHBUQ3RpR3RzaVhDcXl1Y2lwYmJ2eUttODUxUWttVHBkZEhQTS1NVDgwdHlhQ3AwWGZfYjVkOTJiaVc3R3dyY2gtdHV2Z0ZMcUc1NnYxaHNMS2pkbm1SYWlSRzNqTUU5QXhmMUhBRUdQWS1rcXB5QTFSdUpnNFdlZmljcEdhRndnNmJzM2Jn?oc=5",
-     "source": "NBC 5 Chicago"
-    },
-    {
-     "title": "Mobile NJMVC Van Coming to Mt. Laurel for REAL ID License Appointments - TAPinto",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQR2RETGJhSHplUW5OOHh5UEllZWdLQlhSRGlCMUZ3ZDVCUURuZzRaRDdka2gtZFFOTFhUS3hUR0RXbmM1NTk3aURNUHpsY3Nvc2U1X3VBbXNJNnZQNFdLUlBQbV9QclBqaDRtaUdsMWpZUkNkR1AxbXBMcGtxRlVfMngyWHRzN3h4dzVRbXNwbVdaZzZvOFphOFVWRFVTZmpuUTZ1c3N3SFJFV0dRZHk0ZmNzLVIyZ2xGM1U1ZnV2cEJ5R1ZSc1NUY3F4WXdsdVU0ZDZsU1FWZW5XeDQ2b3U3LTJ5bFY1dw?oc=5",
-     "source": "TAPinto"
-    },
-    {
-     "title": "SSOJet Releases mock-idp, an Open-Source Tool That Simulates Okta, Microsoft Entra ID & Seven Other Identity Providers - The Des Moines Register",
-     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZl95VHVLbjlvZ3JZYnNEOTg4RTZBZFlLVkJTR2NuQzFwUXcwV1ppbERna0c2akRwckZZRlRtS3c4LWxxSjhlVXNkT0hEajZtV2pDSlhfRFdhWWdRVFhhU3ppTHhYczFwZkhSeWpTVDQ1d2JpazhuTnNDcEJMRWQ2ZTJzTTg5MllfOVN0dUhCQUJ3LW50Q0c5RFdKRHZiTVVhcXhoSXp6SFVUVE9TSUh3RFJsaHFpMGNoRi1qR3BJbWs0YzA0ZUxpQVBYUVdydVpyMTFXdUpfeFJJX2xvektQX1ZXaktDbXc4OU9henk0dnZwX3RYVzRYTFlGVEktZ21laDBFUFF2aw?oc=5",
-     "source": "The Des Moines Register"
-    },
-    {
-     "title": "Transfer rumors, news: Real Madrid eye Liverpool's Alexis Mac Allister - ESPN",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ1lRZ0tONWZtSVpEVkk0UlRya0FaRjNtZk82ekZGdm9Jd01QX1BvcjE0UEFRa1pPUW5TZTU4dU82TjJfMnZsSVU5UHNoZUQxVnlSQTFsRWFTbFFPbFVEMi16U212NGxWVFJqaEEzeS1PLThBV3pCRGQ4am4zbHdaWnVMT2ktd05aalVzdGhkOC1wZlZCRndvSWgxbEJLcFI2eTZsNGprOTZUazJTQ0h1WVNMcF8?oc=5",
-     "source": "ESPN"
+     "title": "More than 44,000 cans of Walmart Great Value fruit cocktail recalled - El Paso Times",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM2FZb0lMajZxblF6dy10NmpuelYtZGEtUDkwdm1PRlFDZDV4LWlhQVBGVWgzRFA2VDNLdTBaMU1DNHJyejlhWGZVdE9HVDAwQnAweFJvLUstRmdNd0lRdVhzcUJ0SnA5bVJVQWY4VEhiSTBweF9PSG9nbnZyMUdWZEw3OThMSi1fQm1UM3MwWjdKQzc0VGYzWU1TVE1iSVVJeVI3Ujk2RVk1bFlmTVo4LWI0bHRFRUR3T20yX3ZqOVNYTENS?oc=5",
+     "source": "El Paso Times"
     }
    ],
    "official": false,
    "score": 34.6,
-   "already_covered": true
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 42,
+   "article_count_24h": 48,
    "article_count_1h": 2,
    "published": "2026-10-28T02:15:09+09:00",
    "category": "Recalls",
@@ -950,9 +974,9 @@
      "source": "Delawareonline.com"
     },
     {
-     "title": "Ford recalls over 30K trucks. See the affected models - Hilton Head Island Packet",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2NUFnV1k5aG92RmJvMjFWTFU3THp6NU5WaUJobEdjU1ptT0txWmcwRXRuTHA4M21tbTRNemhmSDNkckxCSUotUkFxV1JLSkwzVTYwVk1laFRHbHlQbHlWMVpJajAzcG1sUnNGOFFTa2JMUQ?oc=5",
-     "source": "Hilton Head Island Packet"
+     "title": "Ford announces 3 different recalls impacting a combined 45K vehicles - AL.com",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLVZ2NWRXOW05Zk9kZFhEOENpa0pOMW5HV0pTaktfSjZ3akFaSU5mTnJyU2Noc0RGVFBiT3RmM3lqOFZzaWpnN1h2ZUVJcXhxbEozYlBQVFZwNmJzRUpSalpmWThBVGVLMmNYeVFhS2lqREFwdld0TU5sNEx6MVVmeFJGbHVqVUtrVHFSbW0xQ19ZbVV5TFhYRC1nYkNnQkVSZHdndWhmeTnSAbwBQVVfeXFMT2U4d3ZINHVVa0NFZi1KY3UyYzR2aEJ4SFFsNUd4TWlwZXRzSW9hX185MFBFdUhwS0syZmZFZkhKQU5MWXJWRzZQalFuS2cyRTlzdjN4VWlna1EtOFRnam1yVk45WnVUaENJSG1aWWJjSTZQRVV2RUFUQjVsa3ZQd205Rk4yVGNsYVpBbGRwbDgxLVdFU0w1aHg5OW55MjV4YkRQQ0hocWFWWHB5Y2dtY0pPUEpIN2ZwZkdLdXk?oc=5",
+     "source": "AL.com"
     }
    ],
    "official": false,
@@ -963,7 +987,7 @@
    "source": "google_news",
    "keyword": "FAFSA",
    "traffic": 0,
-   "article_count_24h": 18,
+   "article_count_24h": 17,
    "article_count_1h": 0,
    "published": "2026-10-27T22:55:38+09:00",
    "category": "Benefits",
@@ -1002,7 +1026,7 @@
    "source": "google_news",
    "keyword": "ACA open enrollment",
    "traffic": 0,
-   "article_count_24h": 28,
+   "article_count_24h": 27,
    "article_count_1h": 0,
    "published": "2026-10-28T05:06:43+09:00",
    "category": "Health Insurance",
@@ -1038,176 +1062,128 @@
    "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "junior caminero",
-   "traffic": 1000,
-   "published": "2026-10-28T13:20:00+09:00",
-   "category": "Taxes",
+   "source": "google_news",
+   "keyword": "REAL ID",
+   "traffic": 0,
+   "article_count_24h": 23,
+   "article_count_1h": 1,
+   "published": "2026-10-27T22:06:49+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "Fiery Caminero airs frustrations about Rays' miscues as focus shifts to Game 3",
-     "url": "https://www.mlb.com/news/junior-caminero-rays-miscues-2026-world-series-game-2",
-     "source": "MLB.com"
+     "title": "What is the Trump-backed SAVE America Act requiring voter ID, proof of citizenship to register? - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPakp6cUZqckpHYXRSRmZ3S1NIVHE3TnR5ek9qN1M2YmVKUV96bjJaUWhGNFZyTFFFSVRoZnNFODZjNWRYT3E5R2lKUDIxTm9UQzlmTVllRS16cmZ1d1hqQ3pYNzNvUnRrR29aUUQyQ043NjhJSXFjV0g2TnY5TmJUYzNOMi1tQnJnUDRWVHl5ZGhGcUI3QkIxWHl5UzhfVm1qYUJ30gGoAUFVX3lxTE1vdmwzR2RvYmZoVzRZNFpoNmxyRE82czE3UlVtWHNqRkFyY2JEWXFjQmZtaUtqQVFpaWZWOGFDdUhMYXctejlGZDV2dWNtanUyVktUakJTZmtTWlFqYzJoU2FEODZjOWJUMmpGNTVya184d1d5SDU1eGcxdzJXc2Vqc1VaUWpjazBRRlRQTVZJVG82enZCTmY0THE1eVo2Rk9mb3I0RFdLRg?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos"
     },
     {
-     "title": "Rays looking to Junior Caminero's bat, leadership in World Series",
-     "url": "https://www.espn.com/mlb/story/_/id/50204309/world-series-junior-caminero-rays-leader",
+     "title": "Are you registered to vote? How Chicago area residents can check - NBC 5 Chicago",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWi15N2FMNnA1enljcGs3TTBfVndDSnVhVzRQVVVqdEdOX0RrWHdITmt0SWNHN2o5UE9NMEdxRWFUdmVDblktUlJLcVBCVnFOclNvRFQyNzM0Um14ZWxkQ1FlQ3hocE9ZckhGVDlfQVhfbjJuMjVfaU9mSUlvV0Z4MzFfcUczRVBBckhkMXJJZm1LQldQMWZBU3ZpaDlKTGFhTmk5dXl5b0l1TVY0a3p2UVlRN19haG41ODI3cEV6MNIBxwFBVV95cUxNR1lMWWxVeEhDb3oyMm9COEN3dFBpYjYyVll2NXZEamRlZ0RjbUZvRU1aWVBNeTBQOHBkOG1RcEN1dHBUQ3RpR3RzaVhDcXl1Y2lwYmJ2eUttODUxUWttVHBkZEhQTS1NVDgwdHlhQ3AwWGZfYjVkOTJiaVc3R3dyY2gtdHV2Z0ZMcUc1NnYxaHNMS2pkbm1SYWlSRzNqTUU5QXhmMUhBRUdQWS1rcXB5QTFSdUpnNFdlZmljcEdhRndnNmJzM2Jn?oc=5",
+     "source": "NBC 5 Chicago"
+    },
+    {
+     "title": "Mobile NJMVC Van Coming to Mt. Laurel for REAL ID License Appointments - TAPinto",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQR2RETGJhSHplUW5OOHh5UEllZWdLQlhSRGlCMUZ3ZDVCUURuZzRaRDdka2gtZFFOTFhUS3hUR0RXbmM1NTk3aURNUHpsY3Nvc2U1X3VBbXNJNnZQNFdLUlBQbV9QclBqaDRtaUdsMWpZUkNkR1AxbXBMcGtxRlVfMngyWHRzN3h4dzVRbXNwbVdaZzZvOFphOFVWRFVTZmpuUTZ1c3N3SFJFV0dRZHk0ZmNzLVIyZ2xGM1U1ZnV2cEJ5R1ZSc1NUY3F4WXdsdVU0ZDZsU1FWZW5XeDQ2b3U3LTJ5bFY1dw?oc=5",
+     "source": "TAPinto"
+    },
+    {
+     "title": "SSOJet Releases mock-idp, an Open-Source Tool That Simulates Okta, Microsoft Entra ID & Seven Other Identity Providers - The Des Moines Register",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZl95VHVLbjlvZ3JZYnNEOTg4RTZBZFlLVkJTR2NuQzFwUXcwV1ppbERna0c2akRwckZZRlRtS3c4LWxxSjhlVXNkT0hEajZtV2pDSlhfRFdhWWdRVFhhU3ppTHhYczFwZkhSeWpTVDQ1d2JpazhuTnNDcEJMRWQ2ZTJzTTg5MllfOVN0dUhCQUJ3LW50Q0c5RFdKRHZiTVVhcXhoSXp6SFVUVE9TSUh3RFJsaHFpMGNoRi1qR3BJbWs0YzA0ZUxpQVBYUVdydVpyMTFXdUpfeFJJX2xvektQX1ZXaktDbXc4OU9henk0dnZwX3RYVzRYTFlGVEktZ21laDBFUFF2aw?oc=5",
+     "source": "The Des Moines Register"
+    },
+    {
+     "title": "Transfer rumors, news: Real Madrid eye Liverpool's Alexis Mac Allister - ESPN",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ1lRZ0tONWZtSVpEVkk0UlRya0FaRjNtZk82ekZGdm9Jd01QX1BvcjE0UEFRa1pPUW5TZTU4dU82TjJfMnZsSVU5UHNoZUQxVnlSQTFsRWFTbFFPbFVEMi16U212NGxWVFJqaEEzeS1PLThBV3pCRGQ4am4zbHdaWnVMT2ktd05aalVzdGhkOC1wZlZCRndvSWgxbEJLcFI2eTZsNGprOTZUazJTQ0h1WVNMcF8?oc=5",
      "source": "ESPN"
-    },
-    {
-     "title": "Why the Rays loved Junior Caminero's World Series dugout outburst",
-     "url": "https://www.usatoday.com/story/sports/mlb/playoffs/2026/10/25/junior-caminero-dugout-reaction-in-world-series-rays/92436284007/",
-     "source": "USA Today"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 30.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.mlb.com/news/junior-caminero-rays-miscues-2026-world-series-game-2",
-     "title": "Fiery Caminero airs frustrations about Rays' miscues as focus shifts to Game 3",
-     "outlet": "MLB.com"
-    },
-    {
-     "url": "https://www.usatoday.com/story/sports/mlb/playoffs/2026/10/25/junior-caminero-dugout-reaction-in-world-series-rays/92436284007/",
-     "title": "Why the Rays loved Junior Caminero's World Series dugout outburst",
-     "outlet": "USA Today"
-    }
-   ]
+   "score": 30.9,
+   "already_covered": true
   },
   {
    "source": "google_trends",
-   "keyword": "sydney sweeney sports ad",
-   "traffic": 500,
-   "published": "2026-10-28T13:20:00+09:00",
+   "keyword": "maya joint",
+   "traffic": 200,
+   "published": "2026-10-28T13:50:00+09:00",
    "category": "Benefits",
    "news": [
     {
-     "title": "Letter: Sweeney underwear TV ad for gambling company is pornographic",
-     "url": "https://www.stltoday.com/opinion/letters/article_464f60c9-bd6e-4ef0-9651-03960997b89d.html",
-     "source": "STLtoday.com"
+     "title": "Maya Joint makes mockery of rankings with big win in Tokyo",
+     "url": "https://www.abc.net.au/news/2026-10-28/maya-joint-defeats-sorana-cirstea-at-pan-pacific-open-in-tokyo/107317294",
+     "source": "ABC News & Headlines – Australian Broadcasting Corporation"
     },
     {
-     "title": "Sydney Sweeney’s Nude Betting Ad Critic Faces 'Twice the Hate' — as Famed British Golfer Backs Actress",
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/sydney-sweeney-nude-betting-ad-101129136.html",
-     "source": "Yahoo"
+     "title": "Joint is rocking as Aussie sends sixth seed sprawling",
+     "url": "https://www.canberratimes.com.au/story/9381107/joint-is-rocking-as-aussie-sends-sixth-seed-sprawling/",
+     "source": "The Canberra Times"
     },
     {
-     "title": "“Think you know sports?”: Sexualization of women in sports continues to impact female athletes",
-     "url": "https://waylandstudentpress.com/136113/features/think-you-know-sports-sexualization-of-women-in-sports-continues-to-impact-female-athletes/",
-     "source": "Wayland Student Press"
+     "title": "Sorana Cîrstea, eliminated in the first round of the WTA 500 tournament in Tokyo by a player who came through qualifying",
+     "url": "https://informat.ro/en/sport/sorana-cirstea-loses-to-australias-maya-joint-145377",
+     "source": "Informat.ro"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 28.0,
+   "score": 25.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.stltoday.com/opinion/letters/article_464f60c9-bd6e-4ef0-9651-03960997b89d.html",
-     "title": "Letter: Sweeney underwear TV ad for gambling company is pornographic",
-     "outlet": "STLtoday.com"
+     "url": "https://www.abc.net.au/news/2026-10-28/maya-joint-defeats-sorana-cirstea-at-pan-pacific-open-in-tokyo/107317294",
+     "title": "Maya Joint makes mockery of rankings with big win in Tokyo",
+     "outlet": "ABC News & Headlines – Australian Broadcasting Corporation"
     },
     {
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/sydney-sweeney-nude-betting-ad-101129136.html",
-     "title": "Sydney Sweeney’s Nude Betting Ad Critic Faces 'Twice the Hate' — as Famed British Golfer Backs Actress",
-     "outlet": "Yahoo"
+     "url": "https://www.canberratimes.com.au/story/9381107/joint-is-rocking-as-aussie-sends-sixth-seed-sprawling/",
+     "title": "Joint is rocking as Aussie sends sixth seed sprawling",
+     "outlet": "The Canberra Times"
+    },
+    {
+     "url": "https://informat.ro/en/sport/sorana-cirstea-loses-to-australias-maya-joint-145377",
+     "title": "Sorana Cîrstea, eliminated in the first round of the WTA 500 tournament in Tokyo by a player who came through qualifying",
+     "outlet": "Informat.ro"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "liam hicks",
-   "traffic": 500,
-   "published": "2026-10-28T13:20:00+09:00",
-   "category": "Taxes",
+   "keyword": "espn",
+   "traffic": 5000,
+   "published": "2026-10-28T13:50:00+09:00",
+   "category": "기타",
    "news": [
     {
-     "title": "Rays' Liam Hicks becomes fourth Canadian-born player to homer in World Series",
-     "url": "https://www.sportsnet.ca/mlb/article/rays-liam-hicks-becomes-fourth-canadian-born-player-to-homer-in-world-series/",
-     "source": "Sportsnet.ca"
+     "title": "Pat McAfee built an empire playing the party clown. Now he can’t take the joke | Opinion",
+     "url": "https://www.usatoday.com/story/sports/ncaaf/2026/10/27/party-clown-pat-mcafee-is-losing-his-cool-with-college-fans-espn-college-game-day-utah-kicker/92465083007/",
+     "source": "USA Today"
     },
     {
-     "title": "First World Series HR comes from Hicks, capping 4-run first",
-     "url": "https://www.mlb.com/news/rays-score-4-runs-in-first-inning-of-2026-world-series-game-2",
-     "source": "MLB.com"
+     "title": "Pat McAfee calls College GameDay visit to University of Utah ‘uncomfortable’",
+     "url": "https://www.abc4.com/news/local-news/pat-mcafee-college-gameday-uofu-uncomfortable/",
+     "source": "ABC4 Utah"
     },
     {
-     "title": "A chaotic first inning in game two",
-     "url": "https://www.foxsports.com/watch-vertical/fmc-azg5cm1yjw9ymepw",
-     "source": "FOX Sports"
+     "title": "ESPN Stands by McAfee’s ‘Very Real and Valid’ Concerns From Utah",
+     "url": "https://frontofficesports.com/article/espn-stands-by-mcafees-very-real-and-valid-concerns/",
+     "source": "Front Office Sports"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 26.2,
+   "score": 24.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.sportsnet.ca/mlb/article/rays-liam-hicks-becomes-fourth-canadian-born-player-to-homer-in-world-series/",
-     "title": "Rays' Liam Hicks becomes fourth Canadian-born player to homer in World Series",
-     "outlet": "Sportsnet.ca"
+     "url": "https://www.usatoday.com/story/sports/ncaaf/2026/10/27/party-clown-pat-mcafee-is-losing-his-cool-with-college-fans-espn-college-game-day-utah-kicker/92465083007/",
+     "title": "Pat McAfee built an empire playing the party clown. Now he can’t take the joke | Opinion",
+     "outlet": "USA Today"
     },
     {
-     "url": "https://www.mlb.com/news/rays-score-4-runs-in-first-inning-of-2026-world-series-game-2",
-     "title": "First World Series HR comes from Hicks, capping 4-run first",
-     "outlet": "MLB.com"
-    },
-    {
-     "url": "https://www.foxsports.com/watch-vertical/fmc-azg5cm1yjw9ymepw",
-     "title": "A chaotic first inning in game two",
-     "outlet": "FOX Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "milwaukee braves",
-   "traffic": 200,
-   "published": "2026-10-28T13:20:00+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "World Series: 1957 Braves player reflects on Milwaukee team",
-     "url": "https://www.fox6now.com/video/fmc-gbr8upz86s63a89k",
-     "source": "FOX6 News Milwaukee"
-    },
-    {
-     "title": "There for Milwaukee's World Series in '50s, Torre is watching this one closely",
-     "url": "https://www.mlb.com/news/joe-torre-on-1950s-world-series-in-milwaukee",
-     "source": "MLB.com"
-    },
-    {
-     "title": "Visiting bat boy for 1957 world champion Milwaukee Braves recalls winning it all",
-     "url": "https://www.channel3000.com/news/national-and-world-news/visiting-bat-boy-for-1957-world-champion-milwaukee-braves-recalls-winning-it-all/article_c5c577bf-b2d7-597c-96ce-2100395797d2.html",
-     "source": "Channel 3000"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 20.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.fox6now.com/video/fmc-gbr8upz86s63a89k",
-     "title": "World Series: 1957 Braves player reflects on Milwaukee team",
-     "outlet": "FOX6 News Milwaukee"
-    },
-    {
-     "url": "https://www.mlb.com/news/joe-torre-on-1950s-world-series-in-milwaukee",
-     "title": "There for Milwaukee's World Series in '50s, Torre is watching this one closely",
-     "outlet": "MLB.com"
-    },
-    {
-     "url": "https://www.channel3000.com/news/national-and-world-news/visiting-bat-boy-for-1957-world-champion-milwaukee-braves-recalls-winning-it-all/article_c5c577bf-b2d7-597c-96ce-2100395797d2.html",
-     "title": "Visiting bat boy for 1957 world champion Milwaukee Braves recalls winning it all",
-     "outlet": "Channel 3000"
+     "url": "https://frontofficesports.com/article/espn-stands-by-mcafees-very-real-and-valid-concerns/",
+     "title": "ESPN Stands by McAfee’s ‘Very Real and Valid’ Concerns From Utah",
+     "outlet": "Front Office Sports"
     }
    ]
   },
@@ -1215,8 +1191,8 @@
    "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 68,
-   "article_count_1h": 4,
+   "article_count_24h": 75,
+   "article_count_1h": 5,
    "published": "2026-10-28T00:18:05+09:00",
    "category": "기타",
    "news": [
@@ -1231,9 +1207,9 @@
      "source": "BBC"
     },
     {
-     "title": "Los Altos plans minimum wage increase for the new year - Los Altos Town Crier",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdVRuWjEyMHVVd2hJWlhlX3lCQ0E1QzR3WVU4WkNBWmRuaUdMdzlTNEkza1ltNkR4ZHFRODF5YUhvTUdScGFoeVNGc1FRbC1UVUw0eVpIMF81US1xS2dXWEVMUWdKYlJzcXJ6VVJwWFZnQ3JyMjNJdlJ4MlNBTjRYRkptNGk4aGYxMHllbV9aX1c0eks4WHFQakNaWlRwVnVDT1pDVWdRVUFaaEVXeGZVYUdOQzZIaWlrWldpWVl5a3MzeXVqeGd4WGZUekJrVUdxUHZuTVdzeGtYcS1n?oc=5",
-     "source": "Los Altos Town Crier"
+     "title": "Healey poised to increase adult minimum wage by 3.9% - Financial Times",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYmhnRkFDekZ0WFVpN2ZOTjVZTVlXZVVPSUs4S01VNm81ZV9yVFJHaERmd3RlaGFkRGhsa05fZmVMd1V2SzdWbFkzSFRqZEVFWHJubUVvME0zNUVwa3FkSFM5ZmZHQnd2U0F1c016V1Z0bVg4X09Wd3VoSlF4dFlKVDNQRE8?oc=5",
+     "source": "Financial Times"
     },
     {
      "title": "UKHospitality Responds to National Minimum Wage and National Living Wage Increase - Hotel News Resource",
@@ -1241,13 +1217,13 @@
      "source": "Hotel News Resource"
     },
     {
-     "title": "Healey poised to increase adult minimum wage by 3.9% - Financial Times",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYmhnRkFDekZ0WFVpN2ZOTjVZTVlXZVVPSUs4S01VNm81ZV9yVFJHaERmd3RlaGFkRGhsa05fZmVMd1V2SzdWbFkzSFRqZEVFWHJubUVvME0zNUVwa3FkSFM5ZmZHQnd2U0F1c016V1Z0bVg4X09Wd3VoSlF4dFlKVDNQRE8?oc=5",
-     "source": "Financial Times"
+     "title": "Minimum wage freeze hits NYC workers amid rising inflation - Brooklyn Eagle",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBeHZIdkc1Rkh0Y3EzQWFLSHFkeTdoX09hSWpHM2JuLTUtZ1JrUndYZTJGSTRLWmVYdUp3UFp6WGNSZHFwVFZPcTFEVmxrZkMtUUphRVE4NEVqRzIyMDZtdXc2dw?oc=5",
+     "source": "Brooklyn Eagle"
     }
    ],
    "official": false,
-   "score": 19.3,
+   "score": 21.0,
    "already_covered": false
   },
   {
@@ -1290,47 +1266,6 @@
    "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "drohan brewers",
-   "traffic": 2000,
-   "published": "2026-10-28T13:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "How Pat Murphy's leadership has Brewers nearing World Series title",
-     "url": "https://www.espn.com/mlb/story/_/id/50288815/world-series-brewers-manager-pat-murphy-stories",
-     "source": "ESPN"
-    },
-    {
-     "title": "The Best Pat Murphy Stories, As Told By The 2026 Milwaukee Brewers",
-     "url": "https://www.foxsports.com/stories/mlb/best-pat-murphy-stories-told-brewers",
-     "source": "FOX Sports"
-    },
-    {
-     "title": "Milwaukee Brewers look to sweep World Series with ties to South Florida",
-     "url": "https://www.wpbf.com/article/milwaukee-brewers-shane-drohan-pat-murphy-world-series-florida-fau-cardinal-newman/74266002",
-     "source": "WPBF"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.foxsports.com/stories/mlb/best-pat-murphy-stories-told-brewers",
-     "title": "The Best Pat Murphy Stories, As Told By The 2026 Milwaukee Brewers",
-     "outlet": "FOX Sports"
-    },
-    {
-     "url": "https://www.wpbf.com/article/milwaukee-brewers-shane-drohan-pat-murphy-world-series-florida-fau-cardinal-newman/74266002",
-     "title": "Milwaukee Brewers look to sweep World Series with ties to South Florida",
-     "outlet": "WPBF"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "stimulus check",
    "traffic": 0,
@@ -1366,25 +1301,61 @@
   },
   {
    "source": "google_trends",
-   "keyword": "bud selig",
-   "traffic": 500,
-   "published": "2026-10-28T13:10:00+09:00",
+   "keyword": "brewers watch party tickets",
+   "traffic": 1000,
+   "published": "2026-10-28T13:30:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Column: What’s up, Bud? Selig lobbies for a salary cap while we’re just trying to enjoy this World Series.",
-     "url": "https://www.chicagotribune.com/2026/10/25/world-series-bud-selig-salary-cap/",
-     "source": "Chicago Tribune"
+     "title": "World Series Game 4 tickets at Tropicana Field: What's available?",
+     "url": "https://www.wtsp.com/article/sports/mlb/rays/world-series-game-4-tickets-tropicana-field-whats-available/67-4b9af3cc-e236-4df8-87ae-f920c1f53675",
+     "source": "wtsp.com"
     },
     {
-     "title": "Reusse: Twins fans might owe Bud Selig thanks as Brewers return to World Series",
-     "url": "https://www.startribune.com/minnesota-twins-target-field-contraction-bud-selig-milwaukee-brewers-rays-world-series-2026-mlb/601902791",
-     "source": "Star Tribune"
+     "title": "Tampa Bay forces a Game 5—shop Rays vs Brewers Wednesday World Series tickets",
+     "url": "https://www.usatoday.com/story/shopping/sports/tickets/2026/10/28/buy-rays-vs-brewers-tickets-world-series-game-5/92446793007/",
+     "source": "USA Today"
     },
     {
-     "title": "Bud Selig is savoring this Brewers World Series and says MLB needs a salary cap",
-     "url": "https://www.nytimes.com/athletic/7712973/2026/10/22/bud-selig-brewers-world-series-mlb-salary-cap/",
-     "source": "The New York Times"
+     "title": "World Series Game 4 ticket prices surge with Brewers one win from title",
+     "url": "https://www.jsonline.com/story/sports/mlb/brewers/2026/10/27/world-series-ticket-prices-rise-for-game-4-as-brewers-take-3-0-lead/92457149007/",
+     "source": "Milwaukee Journal Sentinel"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 12.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.usatoday.com/story/shopping/sports/tickets/2026/10/28/buy-rays-vs-brewers-tickets-world-series-game-5/92446793007/",
+     "title": "Tampa Bay forces a Game 5—shop Rays vs Brewers Wednesday World Series tickets",
+     "outlet": "USA Today"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "anaheim ducks",
+   "traffic": 500,
+   "published": "2026-10-28T13:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Anaheim Ducks Confirm Goaltender Decision Ahead of Canucks Game",
+     "url": "https://sports.yahoo.com/articles/anaheim-ducks-confirm-goaltender-decision-005733429.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Lukas Dostal News: Guarding home crease",
+     "url": "https://www.rotowire.com/hockey/headlines/lukas-dostal-news-guarding-home-crease-597480",
+     "source": "RotoWire"
+    },
+    {
+     "title": "Ducks' Lukas Dostal: Weathers early storm for fourth win",
+     "url": "https://www.cbssports.com/fantasy/hockey/news/ducks-lukas-dostal-weathers-early-storm-for-fourth-win/",
+     "source": "CBS Sports"
     }
    ],
    "official": false,
@@ -1394,33 +1365,43 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.chicagotribune.com/2026/10/25/world-series-bud-selig-salary-cap/",
-     "title": "Column: What’s up, Bud? Selig lobbies for a salary cap while we’re just trying to enjoy this World Series.",
-     "outlet": "Chicago Tribune"
+     "url": "https://sports.yahoo.com/articles/anaheim-ducks-confirm-goaltender-decision-005733429.html",
+     "title": "Anaheim Ducks Confirm Goaltender Decision Ahead of Canucks Game",
+     "outlet": "Yahoo Sports"
+    },
+    {
+     "url": "https://www.rotowire.com/hockey/headlines/lukas-dostal-news-guarding-home-crease-597480",
+     "title": "Lukas Dostal News: Guarding home crease",
+     "outlet": "RotoWire"
+    },
+    {
+     "url": "https://www.cbssports.com/fantasy/hockey/news/ducks-lukas-dostal-weathers-early-storm-for-fourth-win/",
+     "title": "Ducks' Lukas Dostal: Weathers early storm for fourth win",
+     "outlet": "CBS Sports"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "novig sydney sweeney",
+   "keyword": "jio platforms share price",
    "traffic": 500,
-   "published": "2026-10-28T13:10:00+09:00",
+   "published": "2026-10-28T13:30:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Sydney's $250K Tab at Novig: Sign Up & Claim Today at 6 PM ET",
-     "url": "https://www.actionnetwork.com/general/sydneys-250k-tab-at-novig-claim-10-tonight-for-2026-sports-equinox",
-     "source": "Action Network"
+     "title": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
+     "url": "https://www.cnbc.com/2026/10/28/jio-ipo-india-listing-.html",
+     "source": "CNBC"
     },
     {
-     "title": "M.L.B. Playoff Ads With Sydney Sweeney and Megan Fox Draw Pushback",
-     "url": "https://www.nytimes.com/2026/10/16/business/media/mlb-playoffs-commercials-sydney-sweeney-novig.html",
-     "source": "The New York Times"
+     "title": "Jio Platforms IPO: India's largest share sale could end cheap mobile internet for millions",
+     "url": "https://www.bbc.com/news/articles/cw78pe7vlej5o",
+     "source": "BBC"
     },
     {
-     "title": "Are sports commercials becoming too inappropriate for kids?",
-     "url": "https://www.denisonforum.org/biblical-living/are-sports-commercials-becoming-too-inappropriate-for-kids/",
-     "source": "Denison Forum"
+     "title": "Jio IPO Listing Live Updates: Jio Platforms to make Dalal Street debut after record demand; check share price, gains & more",
+     "url": "https://timesofindia.indiatimes.com/business/india-business/jio-ipo-listing-today-live-updates-reliance-jio-platforms-share-price-nse-bse-listing-price-gmp-listing-gains-mukesh-ambani/liveblog/135249451.cms",
+     "source": "The Times of India"
     }
    ],
    "official": false,
@@ -1430,52 +1411,89 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.denisonforum.org/biblical-living/are-sports-commercials-becoming-too-inappropriate-for-kids/",
-     "title": "Are sports commercials becoming too inappropriate for kids?",
-     "outlet": "Denison Forum"
+     "url": "https://www.cnbc.com/2026/10/28/jio-ipo-india-listing-.html",
+     "title": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
+     "outlet": "CNBC"
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/cw78pe7vlej5o",
+     "title": "Jio Platforms IPO: India's largest share sale could end cheap mobile internet for millions",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://timesofindia.indiatimes.com/business/india-business/jio-ipo-listing-today-live-updates-reliance-jio-platforms-share-price-nse-bse-listing-price-gmp-listing-gains-mukesh-ambani/liveblog/135249451.cms",
+     "title": "Jio IPO Listing Live Updates: Jio Platforms to make Dalal Street debut after record demand; check share price, gains & more",
+     "outlet": "The Times of India"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "albert pujols",
-   "traffic": 500,
-   "published": "2026-10-28T13:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Albert Pujols Has a Message for Men Who Think They’re ‘Fine’ When It Comes to Their Health",
-     "url": "https://www.mensjournal.com/sports/albert-pujols-has-a-message-for-men-who-think-theyre-fine-when-it-comes-to-their-health",
-     "source": "Men's Journal"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "canelo",
+   "keyword": "jubilación",
    "traffic": 200,
-   "published": "2026-10-28T13:20:00+09:00",
+   "published": "2026-10-28T13:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Canelo vs. Mbilli: Fecha, horario, cartelera, cómo ver y más",
-     "url": "https://espndeportes.espn.com/boxeo/nota/_/id/17415810/canelo-vs-mbilli-cartelera-horarios-donde-ver-boxeo",
-     "source": "ESPN Deportes"
+     "title": "La pensión media en Granada asciende a 1.187 euros en octubre, un 5,1% más que hace un año",
+     "url": "https://www.elindependientedegranada.es/economia/pension-media-granada-asciende-1187-euros-octubre-51-mas-que-hace-ano",
+     "source": "El Independiente de Granada"
     },
     {
-     "title": "Canelo Álvarez vs. Christian Mbilli: Horario confirmado de la pelea estelar este 31 de octubre de 2026",
-     "url": "https://www.mediotiempo.com/mas-deportes/box/canelo-alvarez-vs-christian-mbilli-horario-confirmado-pelea-estelar-31-octubre-2026",
-     "source": "Mediotiempo"
+     "title": "El gasto en pensiones supera por primera vez los 14.500 millones",
+     "url": "https://www.idealista.com/news/finanzas/economia/2026/10/27/920874-el-gasto-en-pensiones-supera-por-primera-vez-los-14-500-millones",
+     "source": "Idealista"
     },
     {
-     "title": "Esto dijo Saúl \"Canelo\" Álvarez en su llegada a Arabia Saudita para su combate ante Christian Mbilli",
-     "url": "https://cnnespanol.cnn.com/2026/10/27/deportes/video/saul-canelo-alvarez-christian-mbilli",
-     "source": "CNN en Español"
+     "title": "Los nuevos jubilados cobran 1.758 euros, mientras que los pensionistas autónomos ya jubilados perciben 1.063,53, por debajo del salario mínimo",
+     "url": "https://www.noticiastrabajo.es/economia/pensiones/los-nuevos-jubilados-cobran-1758-euros-mientras-que-los-pensionistas-autonomos-ya-jubilados-perciben-106353-por-debajo-del-salario-minimo/",
+     "source": "Noticias Trabajo"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.elindependientedegranada.es/economia/pension-media-granada-asciende-1187-euros-octubre-51-mas-que-hace-ano",
+     "title": "La pensión media en Granada asciende a 1.187 euros en octubre, un 5,1% más que hace un año",
+     "outlet": "El Independiente de Granada"
+    },
+    {
+     "url": "https://www.idealista.com/news/finanzas/economia/2026/10/27/920874-el-gasto-en-pensiones-supera-por-primera-vez-los-14-500-millones",
+     "title": "El gasto en pensiones supera por primera vez los 14.500 millones",
+     "outlet": "Idealista"
+    },
+    {
+     "url": "https://www.noticiastrabajo.es/economia/pensiones/los-nuevos-jubilados-cobran-1758-euros-mientras-que-los-pensionistas-autonomos-ya-jubilados-perciben-106353-por-debajo-del-salario-minimo/",
+     "title": "Los nuevos jubilados cobran 1.758 euros, mientras que los pensionistas autónomos ya jubilados perciben 1.063,53, por debajo del salario mínimo",
+     "outlet": "Noticias Trabajo"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "world cup",
+   "traffic": 200,
+   "published": "2026-10-28T13:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Eyeing Future World Cup Success, U.S. Soccer Uplifting Young Stars For LA Olympics",
+     "url": "https://www.foxsports.com/stories/soccer/us-soccer-usmnt-young-stars-la-olympics-2028-world-cup",
+     "source": "FOX Sports"
+    },
+    {
+     "title": "US Soccer Bets On LA 2028 To Fix The World Cup Gap",
+     "url": "https://sports.yahoo.com/articles/us-soccer-bets-la-2028-034814510.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "FOX Sports Host Rob Stone sees bright future for young U.S. Men’s National Team",
+     "url": "https://nebraska.tv/sports/national/fox-sports-host-rob-stone-sees-bright-future-for-young-us-mens-national-team",
+     "source": "KHGI"
     }
    ],
    "official": false,
@@ -1486,25 +1504,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "game 5",
+   "keyword": "brewers logo",
    "traffic": 200,
-   "published": "2026-10-28T13:20:00+09:00",
+   "published": "2026-10-28T13:30:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Angel Reese blames herself after a dramatic falloff in Dream’s Game 4 loss in the WNBA Finals",
-     "url": "https://www.wjbf.com/sports/ap-sports/ap-angel-reese-blames-herself-after-a-dramatic-falloff-in-dreams-game-4-loss-in-the-wnba-finals/",
-     "source": "WJBF"
+     "title": "Columbus farm showcases Brewers’ spirit with giant logo",
+     "url": "https://www.wmtv15news.com/2026/10/27/columbus-farm-showcases-brewers-spirit-with-giant-logo/",
+     "source": "WMTV 15 NEWS"
     },
     {
-     "title": "Video WNBA finals head to Atlanta for Game 3",
-     "url": "https://abcnews.com/video/137459568/",
-     "source": "ABC News - Breaking News, Latest News and Videos"
+     "title": "Wisconsin cranberry farmers root for Milwaukee Brewers with bog design",
+     "url": "https://www.wisconsinrapidstribune.com/story/life/2026/10/21/wisconsin-cranberry-growers-brewers-world-series-display/92367919007/",
+     "source": "Daily Tribune Media"
     },
     {
-     "title": "Lineup switch by coach Natalie Nakase works out as Valkyries even WNBA Finals series with Dream at 2",
-     "url": "https://www.wric.com/sports/sports-headlines/ap-lineup-switch-by-coach-natalie-nakase-works-out-as-valkyries-even-wnba-finals-series-with-dream-at-2/",
-     "source": "WRIC ABC 8News"
+     "title": "Cranberry Growers in Wisconsin cheer on the Brewers",
+     "url": "https://www.mlb.com/brewers/video/cranberry-growers-in-wisconsin-cheer-on-the-brewers",
+     "source": "MLB.com"
     }
    ],
    "official": false,
