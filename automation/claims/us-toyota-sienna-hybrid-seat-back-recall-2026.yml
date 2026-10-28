@@ -1,0 +1,49 @@
+- claim: 'Scope: 2022-2026 Sienna Hybrid 7-passenger, seat backs'
+  value: 2022-2026, 2022 to 2026, 2022–2026, 7-passenger, Sienna Hybrid
+  value_note: 원문 '2022-2026 Sienna Hybrid  7-passenger' (공백 2칸)
+  quote: is recalling certain 2022-2026 Sienna Hybrid
+  source: https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=SIENNA%20HYBRID&modelYear=2024
+- claim: Defect
+  value: second-row seat backs may fail to remain secured
+  quote: The second-row seat backs may fail to remain secured in the event of a crash.
+  source: https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=SIENNA%20HYBRID&modelYear=2024
+- claim: Units
+  value: 228,367
+  value_note: 'API 필드 PotentialNumberofUnitsAffected: 228367'
+  quote: '"PotentialNumberofUnitsAffected":228367'
+  source: https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=26V690
+- claim: Consequence
+  value: risk of injury
+  quote: A seat back that is not secured may fail to properly protect an occupant during a crash, increasing the risk of injury.
+  source: https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=SIENNA%20HYBRID&modelYear=2024
+- claim: 'Remedy: SRS ECU software; MaaS replace seat backs; free'
+  value: SRS, Mobility as a Service, MaaS, free
+  quote: Dealers will update the supplemental restraint system (SRS) electronic control unit (ECU) software.
+  source: https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=SIENNA%20HYBRID&modelYear=2024
+  value_note: 원문 'supplemental restraint system (SRS)'; MaaS·무상수리는 다음 claim 원문 'For vehicles equipped with the "Mobility as a Service" (MaaS) package… free of charge'
+- claim: MaaS remedy
+  value: replace the two second-row seat backs
+  quote: dealers will replace the two second-row seat backs. Repairs will be performed free of charge.
+  source: https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=SIENNA%20HYBRID&modelYear=2024
+- claim: Letters date
+  value: December 7, 2026, Dec. 7, 2026, Dec. 7
+  value_note: 원문 'December 7, 2026'
+  quote: Owner notification letters are expected to be mailed December 7, 2026.
+  source: https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=SIENNA%20HYBRID&modelYear=2024
+- claim: Toyota phone and codes
+  value: 1-800-331-4331, 26TB24, 26TA24
+  quote: 1-800-331-4331. Toyota's numbers for this recall are 26TB24 and 26TA24.
+  source: https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=SIENNA%20HYBRID&modelYear=2024
+  value_note: 원문과 같은 번호(1-800-331-4331, 26TB24, 26TA24)
+- claim: Campaign number
+  value: 26V690000
+  quote: 26V690000
+  source: https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=26V690
+- claim: parkIt false
+  value: park it
+  value_note: 'API 필드 parkIt: false (주차 권고 없음)'
+  quote: '"parkIt":false'
+  source: https://api.nhtsa.gov/recalls/recallsByVehicle?make=TOYOTA&model=SIENNA%20HYBRID&modelYear=2024
+- claim: VIN
+  value: 17-character
+  derived: VIN 은 17자리 (표준)
