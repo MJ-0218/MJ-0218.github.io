@@ -1,27 +1,31 @@
 {
- "generated_at": "2026-10-29T17:41:51.883715+09:00",
+ "generated_at": "2026-10-29T18:11:44.197305+09:00",
  "sources": {
   "calendar": "ok (3)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 73, 실패 34)"
+  "evidence": "ok (저장 66, 실패 39)"
  },
- "compared_runs": 5,
+ "compared_runs": 6,
  "spikes": [
   "flood watch",
   "federal holiday",
+  "SNAP benefits",
+  "social security COLA",
+  "IRS refund",
+  "tax deadline",
+  "us",
   "sl vs eng",
-  "yulia putintseva",
-  "joan smalls",
-  "emma stone",
-  "tokyo open",
-  "yaxel"
+  "stock market today",
+  "elena rybakina",
+  "lol",
+  "black friday 2026"
  ],
  "candidates": [
   {
    "source": "google_trends",
    "keyword": "flood watch",
-   "traffic": 10000,
+   "traffic": 20000,
    "published": "2026-10-29T17:10:00+09:00",
    "category": "Benefits",
    "news": [
@@ -36,15 +40,15 @@
      "source": "KHON2"
     },
     {
-     "title": "Heavy showers pound Oahu; most islands under flood watch",
+     "title": "Heavy showers pound Windward Oahu, Maui; most islands under flood watch",
      "url": "https://www.staradvertiser.com/2026/10/28/breaking-news/flood-advisory-for-molokai-as-flood-watch-continues-statewide/",
      "source": "Honolulu Star-Advertiser"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 104.0,
+   "spike": "검색량 10,000→20,000",
+   "spike_bonus": 20,
+   "score": 192.0,
    "already_covered": false,
    "evidence": [
     {
@@ -54,141 +58,80 @@
     },
     {
      "url": "https://www.staradvertiser.com/2026/10/28/breaking-news/flood-advisory-for-molokai-as-flood-watch-continues-statewide/",
-     "title": "Heavy showers pound Oahu; most islands under flood watch",
+     "title": "Heavy showers pound Windward Oahu, Maui; most islands under flood watch",
      "outlet": "Honolulu Star-Advertiser"
     }
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Tax filing season extension",
-   "category": "Taxes",
-   "official_sources": [
-    "https://www.irs.gov/newsroom",
-    "https://www.irs.gov/filing"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-29T17:41:51.915655+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-tax-season-extension-2026",
-   "phase": "extension",
-   "queries": [
-    "october 15 tax extension deadline",
-    "extended tax return due date"
-   ],
-   "window": "2026-10 ~ 2026-10 (보통)",
-   "days_to_start": -28,
-   "in_window": true
-  },
-  {
    "source": "google_news",
-   "keyword": "SSI payment",
+   "keyword": "federal holiday",
    "traffic": 0,
-   "article_count_24h": 26,
-   "article_count_1h": 10,
-   "published": "2026-10-29T17:23:30+09:00",
+   "article_count_24h": 40,
+   "article_count_1h": 8,
+   "published": "2026-10-29T18:08:13+09:00",
    "category": "Benefits",
    "news": [
     {
-     "title": "SSI recipients to get November payments early. Here's when - Democrat and Chronicle",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVdlc01fbXpjODloUDBSVy0wQVdNNTQyV01USFdFdE1jQzhPX25UYUR5YzdtTUlmVnBacG9PYTVkdEVzOWNmTjluZnZ2N0JMRFFTNU5tY0lqeERzRDFnTE9QNGU4YkdpTXVIRnl2UDRSVnFoTXlqR0U5d2FScUFrMnFxbzJGVDUzR0xpMzdlVWJyV282bW9Ra0VGQy1oN3pudXJoV2NHTnB4WkY1?oc=5",
-     "source": "Democrat and Chronicle"
+     "title": "November SSI checks come early in Tennessee. Here's the full schedule - The Tennessean",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ2t4UVFMTmJBVW1SYVZ3NXVCVllqTGw4NlVkZVJkd3lla0xqRjNuUzZyTm9nNnoxQlZ4V09QNkg5MjFnNHhOcFJ1WWNiZ3BhMVozVXpVanB2bDZZeWRQYnlUYk5iaE8zWmNfSW95MVlQVVVIQlFyLTRBVWVZSlpqcnpvWThIRUxqQzMxaU9YMEZxODEtUVZqZFR6MXlod1BjblpWb2J2MUJKZmphcU5ab3k3c1NQaE12eS1ZdE9lWUI0YWxW?oc=5",
+     "source": "The Tennessean"
     },
     {
-     "title": "SSI payments for November are coming out early. Here's why - The Detroit News",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOR080MW1fMXNKYmZOUGhVRktadGZsYi13UjAyM2gwZVF5aTF5V01fNDc4SmltVGlTZGcySUZUaTUwbDdQSlNQREQtX3o4d1FXWHZMZjVkaXA2ZEtqbnVvSy1rS3hST05yWXBlbmZBSUhIQUFvUGZtWEp1QXByOG9WMzFPM1k4amkwQXdQN1JUSU1SQjJMejNZV1luSldkX2xDaEhrYkhEZVlKWnViRzhTTUxWaktwMmp3NFdoVmoydGJEZlJlMkNaaEI0bG1TZUlZNFA1UQ?oc=5",
-     "source": "The Detroit News"
+     "title": "When is Veterans Day 2026? Is it a federal holiday? What to know - AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMF9aQzRaYURDYkI4RHVxM3dMLWNGX1hOVEJVa0k1aGNSb19Tc1RRUHpyeTR5cmtUejBwdFZtRHEzZjZKRHBRQ0pEbE05YWp2ak93SkstaTdGTWd1Tm52QlY3cW5qeXR2SV9MWjJKVzZPX0czdW5TZENqMkk4N1o1SGFjQQ?oc=5",
+     "source": "AOL.com"
     },
     {
-     "title": "When will you get your Social Security and Supplemental Security Income payments for November? - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMzVCNmJCMEtVY0hDdkFRbXRlcE5qQmxCX2lzdm15N0h4eTlvb1RFU25hdmpGR2lROElocTVkYXJxMHYwdUhVaFZOdmF4S1h0MDdMbHg2WFJRRDVBdVdpaXk2VjZ5RHhKaXQtY0RDWkIyTXVVQnMyb01Ub2lJVmg5RG9qY2cyNjlDRnY0VjJibGRlWEYtNDlRUDlhR1RGSTBlUVZPZFVQT1g5N3NPRWNPUDFUams0QzBQTlBHQVlxVEFxUERXVHlERU54cGlEQlpDREZVUnoyRk1KQmpNUGt1NXJjUXRRN0xqNlV2d2JscjdaUVVtNkdYOXh3?oc=5",
-     "source": "Yahoo Finance"
+     "title": "Seasonal holiday jobs may help Oregonians meet federal SNAP requirements, DHS says - KPIC",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX3hnY0NrdEpxV3hUOVA4X0Z4Uk5yNmpUV1RZZlI3TU5mRTlpblF1SFN2NWdwR2xjekJiTDc0bzNLa3ctQnFIckZUUFdzdEpZbHdFTHRGN0lwNlY5Wjc2Ulk3enZBcHduZ213Z19MQXVsNC1nOWtBanFqWlFaRDU3c1RoSDI1SVBIV1V1SHNNR0hIZHNQRU9lVjllcjFPYlV5MHJqYjNyb2xkQlExNUE?oc=5",
+     "source": "KPIC"
     },
     {
-     "title": "When Social Security Recipients Will Get Their Checks in November - MONEY",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XUDBMNW1lLTMyRFJmWmtJeVBvaFgxX0l6RTg1dEFqVjU3eWRKeUNjcGhxR0ZLc1dDTHhyNXhWSUhUaVZTTjlrMWNPMG1MX0FfYWtoSURGa2RYaVR2SmcxbQ?oc=5",
-     "source": "MONEY"
+     "title": "Veterans Day lunch for student veterans and active service members - Henry Ford College",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd1dfa2liUnAxekYybzk5eWtqUHdtNDBmNHhxeTFYUkZZY1NIbUp3bEQ2cnZOb3FTbU1QdWt4ZzNsWG5ERU5ELWx2bm9MRWF5NjVLUFNmVlhIV2N5OVpHNzBqNjBtV1JVZ0lpblNRVVliU3NTeE91WEtBam5EUlBySnRHMWwtNGZ6UHBHSVh3?oc=5",
+     "source": "Henry Ford College"
     },
     {
-     "title": "Who gets paid on Friday, October 30? SSI recipients and disabled veterans receive their money early - Tododisca",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IOEtER01wNFNxdWlhZTRIYnFMSF9JRU1tZ1lQdkR4WHhnd0k3YlJ5a2lkY2pxX0xRSDhIWnhMVW9sNUZoYVROZGw0cGpfdExOM3F4TmFWWXlTX1k0YXYyMUtJNWdPNTYy?oc=5",
-     "source": "Tododisca"
+     "title": "Only Congress Can Change Federal Election Day, Not the President - Legis1",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YMXlXa0ZkRWJvRTE4eGFOU0VOV2NGaGlGeHNRU2sxN1g2bWFaNFlyaTllT3EtRWpmMW5CT3R4ak90UnBIVVV1OW1RMFNEcXlJRUZaakpXQVpacE1LaWpvaGtqbDdJWTdwbU1faVRZTHA2T3oxUTVxQ3JNVTJ0UQ?oc=5",
+     "source": "Legis1"
     }
    ],
    "official": false,
-   "score": 80.0,
+   "spike": "최근 1시간 기사 2.3→8건 (2.7배)",
+   "spike_bonus": 27.0,
+   "score": 123.2,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://finance.yahoo.com/personal-finance/banking/article/when-will-you-get-your-social-security-and-supplemental-security-income-payment-for-november-150845589.html",
-     "title": "When will you get your Social Security and Supplemental Security Income payments for November? - Yahoo Finance",
-     "outlet": "Yahoo Finance"
+     "url": "https://www.aol.com/articles/veterans-day-2026-federal-holiday-174603000.html",
+     "title": "When is Veterans Day 2026? Is it a federal holiday? What to know - AOL.com",
+     "outlet": "AOL.com"
     },
     {
-     "url": "https://money.com/social-security-check-this-month/",
-     "title": "When Social Security Recipients Will Get Their Checks in November - MONEY",
-     "outlet": "MONEY"
+     "url": "https://kpic.com/news/local/seasonal-holiday-jobs-may-help-oregonians-meet-federal-snap-requirements-dhs-says",
+     "title": "Seasonal holiday jobs may help Oregonians meet federal SNAP requirements, DHS says - KPIC",
+     "outlet": "KPIC"
     },
     {
-     "url": "https://tododisca.es/en/ssi-va-payment-friday-october-30/",
-     "title": "Who gets paid on Friday, October 30? SSI recipients and disabled veterans receive their money early - Tododisca",
-     "outlet": "Tododisca"
+     "url": "https://www.hfcc.edu/news/2026/veterans-day-lunch-students-and-active-service-members",
+     "title": "Veterans Day lunch for student veterans and active service members - Henry Ford College",
+     "outlet": "Henry Ford College"
+    },
+    {
+     "url": "https://legis1.com/news/federal-election-day-only-congress-can-change-not",
+     "title": "Only Congress Can Change Federal Election Day, Not the President - Legis1",
+     "outlet": "Legis1"
     }
    ]
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-29T17:41:51.915781+09:00",
-   "score": 72,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 3,
-   "in_window": false
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-29T17:41:51.915802+09:00",
-   "score": 72,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 3,
-   "in_window": false
   },
   {
    "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 60,
-   "article_count_1h": 3,
+   "article_count_24h": 64,
+   "article_count_1h": 4,
    "published": "2026-10-29T13:02:00+09:00",
    "category": "Benefits",
    "news": [
@@ -213,13 +156,15 @@
      "source": "South Carolina Public Radio"
     },
     {
-     "title": "900,000 New Yorkers at risk of losing Medicaid benefits, Mamdani says - New York Amsterdam News",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLVBacWlCU2Jxd2lRRFkyMVRuaGRyNXh5dUNVWVh3NTZjVXlmS3I5SjI0R18wQkIyczJxZzF1VVhIMXRSdUdGZEhVbDZMbGMtaVpUcDZfa3BXVUxtRTIwZ25JeHlBZHplX1puOVp5Y3pLc1pKSUFCVWFUT2xFcHJjdHZvQnpMdHBZaTE3d0lfU2t0NlpPZlprNVBPNXJQU2szekVhZy02Y1g3ajU2RzhN?oc=5",
-     "source": "New York Amsterdam News"
+     "title": "The Daily Wave: SNAP Benefits To Change Nov. 1 - WAVY.com",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ1MxMFRSRjAzX3JncnhoY1Bzbk5RbzlTZUhlYVd1RTVCSXBvb3N3dFBQaGM3TC0yN3hYUE9zc1lfd3Fpc1BvRTQ4amU1MHBLcEJDRmFjSWhOR3ZXdEJ4NERtZnJqYlhBWjNYWWU0UXNGeDhXRXRRSEI0MTNQUEs5M1E1NjVrUnl2?oc=5",
+     "source": "WAVY.com"
     }
    ],
    "official": false,
-   "score": 67.2,
+   "spike": "최근 1시간 기사 1.5→4건 (2.0배)",
+   "spike_bonus": 20.0,
+   "score": 105.6,
    "already_covered": false,
    "evidence": [
     {
@@ -236,27 +181,386 @@
      "url": "https://www.southcarolinapublicradio.org/sc-news/2026-10-28/certain-snap-purchases-will-be-restricted-under-healthy-food-sc-pilot-program",
      "title": "Certain SNAP purchases will be restricted under Healthy Food SC pilot program - South Carolina Public Radio",
      "outlet": "South Carolina Public Radio"
-    },
-    {
-     "url": "https://amsterdamnews.com/news/2026/10/29/900000-new-yorkers-at-risk-of-losing-medicaid-benefits-mamdani-says/",
-     "title": "900,000 New Yorkers at risk of losing Medicaid benefits, Mamdani says - New York Amsterdam News",
-     "outlet": "New York Amsterdam News"
     }
    ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security COLA",
+   "traffic": 0,
+   "article_count_24h": 57,
+   "article_count_1h": 8,
+   "published": "2026-10-29T07:41:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment. - MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOXJidlJSSTZwQVpKcVNWZmhXS1hFcW9qdUxnMGRNU2EzYUVWNERmYTNMckZLMXlXakxaUU9lNHhVZjNRNkE0VmtZSENGcXJMSmRhZ21HZzEzZEMzemhxUjk2SzFlRHpTTVR5Ylk2dXpmLXlnaGllSDk4UnJxci1nRVowd055M2M1bmFodzd6czNJLWdoa21pbGhnLU1oSTZMWFpTcUp4NVZ5OGNOWFNuNjExNk5ZOUNXbEhXOUtvbWFCWXdGSHhNaU5FN0ZMVWFQSVBicmxn?oc=5",
+     "source": "MarketWatch"
+    },
+    {
+     "title": "November SSI checks come early in Tennessee. Here's the full schedule - The Tennessean",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ2t4UVFMTmJBVW1SYVZ3NXVCVllqTGw4NlVkZVJkd3lla0xqRjNuUzZyTm9nNnoxQlZ4V09QNkg5MjFnNHhOcFJ1WWNiZ3BhMVozVXpVanB2bDZZeWRQYnlUYk5iaE8zWmNfSW95MVlQVVVIQlFyLTRBVWVZSlpqcnpvWThIRUxqQzMxaU9YMEZxODEtUVZqZFR6MXlod1BjblpWb2J2MUJKZmphcU5ab3k3c1NQaE12eS1ZdE9lWUI0YWxW?oc=5",
+     "source": "The Tennessean"
+    },
+    {
+     "title": "SSI recipients to get November payments early. Here's when - Democrat and Chronicle",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVdlc01fbXpjODloUDBSVy0wQVdNNTQyV01USFdFdE1jQzhPX25UYUR5YzdtTUlmVnBacG9PYTVkdEVzOWNmTjluZnZ2N0JMRFFTNU5tY0lqeERzRDFnTE9QNGU4YkdpTXVIRnl2UDRSVnFoTXlqR0U5d2FScUFrMnFxbzJGVDUzR0xpMzdlVWJyV282bW9Ra0VGQy1oN3pudXJoV2NHTnB4WkY1?oc=5",
+     "source": "Democrat and Chronicle"
+    },
+    {
+     "title": "When Social Security Recipients Will Get Their Checks in November - MONEY",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XUDBMNW1lLTMyRFJmWmtJeVBvaFgxX0l6RTg1dEFqVjU3eWRKeUNjcGhxR0ZLc1dDTHhyNXhWSUhUaVZTTjlrMWNPMG1MX0FfYWtoSURGa2RYaVR2SmcxbQ?oc=5",
+     "source": "MONEY"
+    },
+    {
+     "title": "Social Security's Flawed COLA Formula Will Be an Issue in 2027 Despite a Large Increase - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnY0anFXWXJHeGlrSGhsNmZmalQxWUpCajBReEhEbGg5dlg5VkI5bFNDVldOQnRJSVowb0x4SDhWaE5mZHhJNW1adktGT0NmeE1wSHhtMmhlTzBmX1JzM21oNFhsMVdhT2ZiY0RuTy05bHlwQU91R1lTVGplRGZaMm1JTEdHbzcxLXZpWjdvMDRWQnhiM3FsS0U5cGhCV0lJSUNN?oc=5",
+     "source": "Yahoo Finance"
+    }
+   ],
+   "official": false,
+   "spike": "최근 1시간 기사 1.8→8건 (3.2배)",
+   "spike_bonus": 31.8,
+   "score": 91.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://money.com/social-security-check-this-month/",
+     "title": "When Social Security Recipients Will Get Their Checks in November - MONEY",
+     "outlet": "MONEY"
+    },
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/social-securitys-flawed-cola-formula-165602862.html",
+     "title": "Social Security's Flawed COLA Formula Will Be an Issue in 2027 Despite a Large Increase - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    }
+   ]
+  },
+  {
+   "source": "calendar",
+   "keyword": "Tax filing season extension",
+   "category": "Taxes",
+   "official_sources": [
+    "https://www.irs.gov/newsroom",
+    "https://www.irs.gov/filing"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-29T18:11:44.230186+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-tax-season-extension-2026",
+   "phase": "extension",
+   "queries": [
+    "october 15 tax extension deadline",
+    "extended tax return due date"
+   ],
+   "window": "2026-10 ~ 2026-10 (보통)",
+   "days_to_start": -28,
+   "in_window": true
+  },
+  {
+   "source": "google_news",
+   "keyword": "SSI payment",
+   "traffic": 0,
+   "article_count_24h": 30,
+   "article_count_1h": 9,
+   "published": "2026-10-29T17:23:30+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "SSI recipients to get November payments early. Here's when - Democrat and Chronicle",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVdlc01fbXpjODloUDBSVy0wQVdNNTQyV01USFdFdE1jQzhPX25UYUR5YzdtTUlmVnBacG9PYTVkdEVzOWNmTjluZnZ2N0JMRFFTNU5tY0lqeERzRDFnTE9QNGU4YkdpTXVIRnl2UDRSVnFoTXlqR0U5d2FScUFrMnFxbzJGVDUzR0xpMzdlVWJyV282bW9Ra0VGQy1oN3pudXJoV2NHTnB4WkY1?oc=5",
+     "source": "Democrat and Chronicle"
+    },
+    {
+     "title": "SSI payments for November are coming out early. Here's why - The Detroit News",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOR080MW1fMXNKYmZOUGhVRktadGZsYi13UjAyM2gwZVF5aTF5V01fNDc4SmltVGlTZGcySUZUaTUwbDdQSlNQREQtX3o4d1FXWHZMZjVkaXA2ZEtqbnVvSy1rS3hST05yWXBlbmZBSUhIQUFvUGZtWEp1QXByOG9WMzFPM1k4amkwQXdQN1JUSU1SQjJMejNZV1luSldkX2xDaEhrYkhEZVlKWnViRzhTTUxWaktwMmp3NFdoVmoydGJEZlJlMkNaaEI0bG1TZUlZNFA1UQ?oc=5",
+     "source": "The Detroit News"
+    },
+    {
+     "title": "November SSI checks come early in Tennessee. Here's the full schedule - The Tennessean",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ2t4UVFMTmJBVW1SYVZ3NXVCVllqTGw4NlVkZVJkd3lla0xqRjNuUzZyTm9nNnoxQlZ4V09QNkg5MjFnNHhOcFJ1WWNiZ3BhMVozVXpVanB2bDZZeWRQYnlUYk5iaE8zWmNfSW95MVlQVVVIQlFyLTRBVWVZSlpqcnpvWThIRUxqQzMxaU9YMEZxODEtUVZqZFR6MXlod1BjblpWb2J2MUJKZmphcU5ab3k3c1NQaE12eS1ZdE9lWUI0YWxW?oc=5",
+     "source": "The Tennessean"
+    },
+    {
+     "title": "When will you get your Social Security and Supplemental Security Income payments for November? - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMzVCNmJCMEtVY0hDdkFRbXRlcE5qQmxCX2lzdm15N0h4eTlvb1RFU25hdmpGR2lROElocTVkYXJxMHYwdUhVaFZOdmF4S1h0MDdMbHg2WFJRRDVBdVdpaXk2VjZ5RHhKaXQtY0RDWkIyTXVVQnMyb01Ub2lJVmg5RG9qY2cyNjlDRnY0VjJibGRlWEYtNDlRUDlhR1RGSTBlUVZPZFVQT1g5N3NPRWNPUDFUams0QzBQTlBHQVlxVEFxUERXVHlERU54cGlEQlpDREZVUnoyRk1KQmpNUGt1NXJjUXRRN0xqNlV2d2JscjdaUVVtNkdYOXh3?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "When Social Security Recipients Will Get Their Checks in November - MONEY",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XUDBMNW1lLTMyRFJmWmtJeVBvaFgxX0l6RTg1dEFqVjU3eWRKeUNjcGhxR0ZLc1dDTHhyNXhWSUhUaVZTTjlrMWNPMG1MX0FfYWtoSURGa2RYaVR2SmcxbQ?oc=5",
+     "source": "MONEY"
+    }
+   ],
+   "official": false,
+   "score": 80.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://finance.yahoo.com/personal-finance/banking/article/when-will-you-get-your-social-security-and-supplemental-security-income-payment-for-november-150845589.html",
+     "title": "When will you get your Social Security and Supplemental Security Income payments for November? - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "url": "https://money.com/social-security-check-this-month/",
+     "title": "When Social Security Recipients Will Get Their Checks in November - MONEY",
+     "outlet": "MONEY"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "IRS refund",
+   "traffic": 0,
+   "article_count_24h": 22,
+   "article_count_1h": 12,
+   "published": "2026-10-29T02:50:11+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Nigerian Man Extradited For $100 Million IRS Refund Scheme - Law360",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR0lBZEdjQjN0WTVSZzdUU2RETkFpaTk3SGwxTXpBSy1Yc0trVmlaVmNlU2hlUVIwT3FLWkNDSTJnalBNUlVuNHhNaWlwdTg5UHR1Y2d1Y1ozN1pVN1pOREpEUEhsVGVYTFg4TlRQSlMwWUNDSFI5LUhGeW1YYVVnQkVpV0hvX214WnRqb28wWjhLUVRGMktOZ3h3R2g1aDdRUkIxTGpqOEhFWFRnNEJob2R3eE1kckVPUUZlaTZVclo4cWPSAWhBVV95cUxNU2JiVDVoV09oZ0FkYU13ZmxUWFJaY0otYjdJazBVZlJhaFdDRmp3ckFNWnQxLWE3d3JNeDZzcklfQVotLUhvVmcwQ3dObHd2RXBQZWptcU5aVkhtbUlTakJaNWVIOWNiNw?oc=5",
+     "source": "Law360"
+    },
+    {
+     "title": "Indictment: $81 million in fraudulent tax refunds issued in Mobile-area scheme - NBC 15 WPMI",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmR6RDhUUGNPVVZlalNiYXBhQlBxV3dxNjZfMkJ6UXRXY1F2MzZZX1VHNzBpN3BsWnI2REZhUkNOQ0JIdTg2Z1VZZDdnZDg5OWZKUzZvdVhGX0ZSYVpfY1lKZ3BXZTljVHBVTUlsSktKRXJib0FvSDgyMk1WSlVwcEswZFA3bmRFRzkxNUxsTGxNNnJRQUNmYlh3VjlZMGkzdkxwRjRMNGZkWGM?oc=5",
+     "source": "NBC 15 WPMI"
+    },
+    {
+     "title": "Question 5 could mean more tax refunds for Massachusetts residents, but opponents warn for funding trade-offs - The Worcester Guardian",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRnRHNHFpT3NqX0RoWTVpVzRwOW1uS0ctRlJvTUtFS1FrTDVaaWo5cUVpNjRkTE4tbWFKQ1YwazhIZ2NjczdHd3BoUXR2VWZ4UGpfRlFWWEZLdUZMUElKbUExdXV4U2JkOGtIN1otZk9mQm9SM0JDOHZ0WjBNMFQ4UXhMaS1hekV1aWJmVWZ2QjY5ajJKdWgxRGZtUThTN0lPdVlYcFVLb2Rfa2l6V3dBWmZpM21leEFRcWdDNnkzcno5V3FHNV84TGQ4bzcxd1gxRVRoekpFNy1FZ2tS?oc=5",
+     "source": "The Worcester Guardian"
+    },
+    {
+     "title": "Frost Law Offers Special Webinars Looking At Election Results, Delinquent SBA Loans, Missing ERC Refunds; Free Sessions Offer Insights to Tax Community, Businesses - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZzJWRzNiRFhTVnJZY3pmMHRKaXpUbzFxYnlDNXNER0FBYU03RnNCZ1k3a1dfckl4OElqLW5NaXpHRlJ6VkxWaHVjNEVsYkRscXV4QTRmVWFwYTZZbE9VNTJ6Z3lIMjJVYXJWc3g4NWUxZjZJN2IzaDkyWThOd2tUcHhwQXFNdVc3dmJlOU5NRzlPMUs1NW9XU3dRblNTNmM?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "Two Senoia residents charged in $74 million federal tax fraud scheme - The Newnan Times-Herald",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTngtdERGQXVHQnB1aHhfXzFSSFpuTkEwU0lKNDdkNTdoeU1EbDYtazZpM3pWRXFMYy1penJvck5ZdHp5RXo5b1dEMVVFQmhSSUZFR3N5QUlnY3JYRU9JU3RXVjNxZWdlWl81UUxVXzRlVU5ZSWV6UVV2ZGJ2LXBvR0NCRkdFem9LWFNrV1pRNTRpaUZaSDczY1o5cmZkbzd0NThfR3FCM1FHN09WR1ExWDg5eWE2YkVranpLMjlFVEVDZHp2cGxlejVxcUQ2U3huQ215TVVCa2VIUjRoWTMwMGtCelFhQQ?oc=5",
+     "source": "The Newnan Times-Herald"
+    }
+   ],
+   "official": false,
+   "spike": "최근 1시간 기사 4.7→12건 (2.3배)",
+   "spike_bonus": 22.9,
+   "score": 76.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.law360.com/tax-authority/international/articles/2543178/nigerian-man-extradited-for-100-million-irs-refund-scheme",
+     "title": "Nigerian Man Extradited For $100 Million IRS Refund Scheme - Law360",
+     "outlet": "Law360"
+    },
+    {
+     "url": "https://mynbc15.com/news/local/indictment-81-million-in-fraudulent-tax-refunds-issued-in-mobile-area-scheme",
+     "title": "Indictment: $81 million in fraudulent tax refunds issued in Mobile-area scheme - NBC 15 WPMI",
+     "outlet": "NBC 15 WPMI"
+    },
+    {
+     "url": "https://theworcesterguardian.org/f/question-5-could-mean-more-tax-refunds-for-massachusetts-residents-but-opponents-warn-for-funding-trade-offs/",
+     "title": "Question 5 could mean more tax refunds for Massachusetts residents, but opponents warn for funding trade-offs - The Worcester Guardian",
+     "outlet": "The Worcester Guardian"
+    },
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/frost-law-offers-special-webinars-163800880.html",
+     "title": "Frost Law Offers Special Webinars Looking At Election Results, Delinquent SBA Loans, Missing ERC Refunds; Free Sessions Offer Insights to Tax Community, Businesses - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "tax deadline",
+   "traffic": 0,
+   "article_count_24h": 25,
+   "article_count_1h": 10,
+   "published": "2026-10-29T04:52:25+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "IRS extends tax deadlines for Harris, Fort Bend and 60 other Texas counties. Here’s who qualifies - Click2Houston",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbXFUX2VpT3pMS2NtYnVyVTRQYXpWejFQNm44VXBzOUs3V1pRWWJPdHBmVTJfQ2k3Mm9VM3JreVZCQmxSUl9pb3lwLUg3MVpZM2packRLYnFNZGdHWFZRakpCQkN5Q19UbzJ5RGVDTHBndGdrcXQzMlhPUWRuY1dNcWo5bFFtQlJUQU03SU8zaHJpSXg3bzNiMGV4T0FBaldhbGY0OWFhTUlqbXJNWnA4aVpsZnNOOFVtcVNfRWhZN1NzMTVMOFBhQ2djXzdoUmd4YUhKN0ZjZFFRWEd1NnRLLQ?oc=5",
+     "source": "Click2Houston"
+    },
+    {
+     "title": "IRS extends tax deadlines for Texans in 62 counties hit by July storms - KEYE",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX1dkdTVkZWRtNzJvQW5VLWZhd3hRLXpXYWUtbmNXZWp2bGJIWVdSZlFmaDc1TWUtbFZHLW1nZGpJSWhwX0JGUHhIdTZnUE9ramJMVldCUHhMQ201YmJyMXRqSWFlVnVZbmY3UlBlbHV3OHdiSXItS214WTlKc0pjV013RjRiMnVUWENHdVJQMmUyTTlwMmZWaE1CUndwV3QxOWFHUm1R?oc=5",
+     "source": "KEYE"
+    },
+    {
+     "title": "Texas Flood Victims Get Federal Tax Deadline Extension Through February 2027 - Dallas Express",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeDR6Tkw3S2EwRlllNl9QOHdLd2JuT0hvZ1FNaG0tN2F4R01GZDhlT2hCSEJGNF9pa2MyMzdKN3pMeENGSzA2WFJGbldoN25xTno4QTJDZTV6S0VyOWxuTG5tbkIybS1ER19MRDM3ODBrQzNTQVlIZjlCQkZ2RURxRFl5Y2F2MDc0a2FSajVaQzlhWExqa1d1aDZvWWo0TGVoQ3BHNEpZSWNIY0p1OFE?oc=5",
+     "source": "Dallas Express"
+    },
+    {
+     "title": "Pied-à-terre tax’s fate hinges on appeals court as city races against deadline - Crain's New York",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTHpDM3hQek9ydWpOSnQ2bnJiQ0ZFRTRIOFByV3liMFMxdW05alVZTjlKWFRvTTFFTTdGbVYxSzVRekpUWEprN3pfcHB3UmlIMktFNHcyNjV6SUdnNEFjSjVGMDVaRU1qbkxMOExHdnJUQUVRLUg4S2Z0cnZubmxoTVZSYnJCYnRCejlIYw?oc=5",
+     "source": "Crain's New York"
+    },
+    {
+     "title": "IRS Extends Tax Deadlines For Texas Counties Hit By Storms - Law360",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcE16WGFNRDdQb2N1VFBkQ243UmlSYkNYVXJ5aG12RTJ2dldnWUNGWktra1N6MGUxdWtiVzFvZm9NRUJXa2R2Q3pueGNfMFBGam92ZjRoMlEtem5SMUpnUnRtQ2tqQUNKSnJhX2duaVlLQXAzR2M5UHRHbjRnZUhndDVkaU43RHZvSDZfZWRlc0Z5XzZnSW03LUp3eEFPM2PSAWhBVV95cUxPd19oNmhRRU83a3o1elluU0tkb0FsNU9iQkMzMXlRYWpoN2JORDV3enBveWUxdmhmSFo5TDQ5NnoxQzcxcTFCaTRFcDU1SWEzbmpwdnNEdWl5Mk45NHhiZHh4ZU5vTGVQZA?oc=5",
+     "source": "Law360"
+    }
+   ],
+   "official": false,
+   "spike": "최근 1시간 기사 4.0→10건 (2.2배)",
+   "spike_bonus": 22.0,
+   "score": 75.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.click2houston.com/news/local/2026/10/28/irs-extends-tax-deadlines-for-harris-fort-bend-and-60-other-texas-counties-heres-who-qualifies/",
+     "title": "IRS extends tax deadlines for Harris, Fort Bend and 60 other Texas counties. Here’s who qualifies - Click2Houston",
+     "outlet": "Click2Houston"
+    },
+    {
+     "url": "https://cbsaustin.com/news/local/irs-extends-tax-deadlines-for-texans-in-62-counties-hit-by-july-storms",
+     "title": "IRS extends tax deadlines for Texans in 62 counties hit by July storms - KEYE",
+     "outlet": "KEYE"
+    },
+    {
+     "url": "https://dallasexpress.com/state/texas-flood-victims-get-federal-tax-deadline-extension-through-february-2027/",
+     "title": "Texas Flood Victims Get Federal Tax Deadline Extension Through February 2027 - Dallas Express",
+     "outlet": "Dallas Express"
+    },
+    {
+     "url": "https://www.law360.com/tax-authority/articles/2543494",
+     "title": "IRS Extends Tax Deadlines For Texas Counties Hit By Storms - Law360",
+     "outlet": "Law360"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "student loan",
+   "traffic": 0,
+   "article_count_24h": 49,
+   "article_count_1h": 5,
+   "published": "2026-10-29T18:00:00+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "Their colleges closed, but the government refuses to erase their debts, lawsuit says - NPR",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmY5RThMeDFLMmJiZVQtd1Y5WkVnUktobGpfbmV6MEozeDk0aGVxb2hVZWFUcEtjbWJvQ19mRzZIVmo3bDVRMXdRNkVSUGdlVHF5UkdlWDlTanlqRE1JeTJUMEc5ZWxfaUZ4SDNzYmZJMmJEb1lOeG0yRmxhZUFqckhuamo1dkVhTVpTZjQ1d1kzZEpacW11WkpGY0VOa29kTlRMYmt5UnlVSGs?oc=5",
+     "source": "NPR"
+    },
+    {
+     "title": "Trump Signals Support For Some Student Loan Relief, Maybe, As GOP Electoral Prospects Dim - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb2ZHTDdBbDNLdkhHa0dWTFFIbW1ZMmFsTGJBamlJYVY4djNXczhlXzdwSHNHOGMzRlZhRU9XX1BLMXR4eWVKMmxfNUpveU9yTWZXV3dURUZkR3daZk9vV2JMeDdnbHMtMFpydFA5UGZ4bjNlNnJCNWtKSWk3cUI0MGJhNk4zOHVaaEhZdWFNSm0tYXFmRFgwbEp6SWRLVm9HeXRPTXV6OG8yWF9yMWhpQTdyVWwzR1l0Wl84SGRyLXZvcWRBaFFXNWM1YUVaSGpnNnJreEVB?oc=5",
+     "source": "Forbes"
+    },
+    {
+     "title": "From Surplus to Subsidy: How Grad PLUS Unraveled - American Enterprise Institute - AEI",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNXFXN1E1UmNxRGVXVFV2TEZNNFpZX2V6X28yLXNtMnljTDhFdVY3ZDhEOS1SLVNrTlpfSHZMcFlKNWRjME9fOTZ5ZFdBaXhhcFRtNDJOMC1uM1pDaUNwQ0pDYU1TbWI5Tk5ESFlqQXR5ajJCaGVFa3ZUZGxyR01nYV9oMlRNaXhWaGF6QUJiTmtCa3FkYThNMQ?oc=5",
+     "source": "American Enterprise Institute - AEI"
+    },
+    {
+     "title": "How student loans have shaped this family’s economy - www.marketplace.org",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaEtVUzU3b1pWcWdBZC1qS3FBX3lvaEVCcHhDSG4wc2Z0UHE3X1M3NmhzUGdmSTcxSHl2dDZJOUJfRFcyX3VIY01sLTktM0hPZFp4T0l6ZGloWUtRZ0lEdVE3NnpGLXpqalZ1eGczR25jbDNPV0lHc3FaN2lGM01USHdXS1N2cktjbUw5OXpXQjlqTllKQWNZ?oc=5",
+     "source": "www.marketplace.org"
+    },
+    {
+     "title": "UC student's NFL internship leads to $20,000 gift to reduce loan burden - University of Cincinnati",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VdzdvRlpXSFYtWUVfRHB3dks1VjZwaVgxRVNPZDhiUVU4ZjJISWd0d1RvQXFZZWVIbWFuenRzcnJjS3Jra2k4SWNVQWtGT3JEcm1YekJDdGQxNnBjSk1GWkM2cnR3dw?oc=5",
+     "source": "University of Cincinnati"
+    }
+   ],
+   "official": false,
+   "score": 75.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.npr.org/2026/10/29/nx-s1-6003916/student-loans-closed-colleges-education-department-trump-biden",
+     "title": "Their colleges closed, but the government refuses to erase their debts, lawsuit says - NPR",
+     "outlet": "NPR"
+    },
+    {
+     "url": "https://www.marketplace.org/story/2026/10/28/how-student-loan-debt-shaped-this-familys-lives",
+     "title": "How student loans have shaped this family’s economy - www.marketplace.org",
+     "outlet": "www.marketplace.org"
+    },
+    {
+     "url": "https://www.uc.edu/news/articles/2026/10/uc-student-nfl-internship-cj-garner-johnson-gift.html",
+     "title": "UC student's NFL internship leads to $20,000 gift to reduce loan burden - University of Cincinnati",
+     "outlet": "University of Cincinnati"
+    }
+   ]
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-29T18:11:44.230310+09:00",
+   "score": 72,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 3,
+   "in_window": false
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-29T18:11:44.230332+09:00",
+   "score": 72,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 3,
+   "in_window": false
   },
   {
    "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 26,
-   "published": "2026-10-29T14:16:42+09:00",
+   "article_count_1h": 39,
+   "published": "2026-10-29T18:02:25+09:00",
    "category": "Elections",
    "news": [
     {
-     "title": "\"Nauseously optimistic\": Anxious House Democrats brace for midterm Election Day - Axios",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPblJXZHViZlMwMkNCamlaM2lPZFlVcnRsbWdBbGVQUURmWFpYZV8xQjY4WFZ1b3cwVjFoNkQ3Sl9pOF94aUZMNU5zUnF6Z2NNdkk0NnlqVEJuTkhkdUt3TV9QcGFwZnlfZ284aGE0Q054bVdBaTlVLWRyRXJTb3U1Y3lqNWE?oc=5",
-     "source": "Axios"
+     "title": "CoRec hosts midterm Election Day voting Tuesday - Purdue University",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdmRTRVFWQkpQMUZZck1ReDI1SHlNZDZqVXJndXBDbXk2U0R5c3pZNW5yaU9qY1d3YzlLVnlKeWNyakJMVGI4WVZ5VE9oNGNVNUtlcjVsaDBEaHI2NlE5XzhjMmpGNFhOSFg4TC1OWHdtNEFPNlVDc0RjbW10UzIzVHd1VUhyVllNcW1kckpBZVhFR0czNHBEaWF0c2hfc1lZ?oc=5",
+     "source": "Purdue University"
+    },
+    {
+     "title": "Minnesota get out the vote efforts ramp up as Election Day approaches - MPR News",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdTl1Zy1yNEJfYVlHQUhGZk1WcVp4c1dWcHFSSEVuU0h1RWo1c1VCdm80YWdtU28tZ3hZQ2I3RHlHQXFOMTV4YTcxOE5seERNOTAza0kzM1pDU3c3aGFSbXVrWENSandINkV2V1VkdWJscDRJaG9PcFJYeTZlbnZMeE1Hc3VTdTllRDFWWllINFIySlJUMXkzd3gyMkpUX3JFSThCVDh0MENBS3F1VkxF?oc=5",
+     "source": "MPR News"
+    },
+    {
+     "title": "Two reports will give insight on the economy ahead of Election Day - NPR",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVndLRExuWUxweFJ3ZndYM1huLXk3YkhKYUxRNHZzeG13UnJnRE1obU80MUdvT2RNeUp2TEJNOWN2WGtYaEVYTmdWRDk5aklCcVFQbEpTOHVIcG9sdHNjcVoxUHR2S3lGYlhDQ3lRNTByc3VILU85UFRIbUpLd2FzMGc5MXlZX01rbzd3LUlCcDVTbk5qOGVUQnJjR3ozUjR4alA3V0hDVVhoSkZLbEFkbA?oc=5",
+     "source": "NPR"
     },
     {
      "title": "Get Out the Vote for election day - The American Legion",
@@ -267,16 +571,6 @@
      "title": "Early midterm voting data shows enthusiasm ahead of election day - NBC News",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQlpNU01TYlNPaXFxUXNUNjh5R2tndWh6eHZtNFhueG4zY3g4bkoybVdndjNWSHhQelV1VzY3QWxqT3pydjRPa05ZdDU1LW5lcWdCT0w4RFZUelo3SERsTTVmeXozNnF3ZHRBWnd2QzdVeDVpdkVDQzM0WTQ3SU56U2VrM1VEQmI2eEdNOGx0MmpDOVNTVG5mSWZ0Q3V0d2U2cHM5ZHRSVXlBSTg?oc=5",
      "source": "NBC News"
-    },
-    {
-     "title": "Washoe County urges mail ballot voters to use vote center drop boxes - Washoe Life (.gov)",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSndIZWJ0MTliOWNVTERGUHFhU0NseERlY0hrVXV2TURhTWJ0d0pnX2U1b2FDREw2WHFMVWEzb19ESWpyOENnMVRzTDJTSlNBdEg4QW5OUEhCT0dSWWhsampGNzVtb014VXU0ZlA4MFFjMUlhZTFHVU5BYU8wREJpY01qNFVUeXNQVTA0a0xuallGLV9pOERwWnlLWGREbEV4OFJ1UEw5cmtOOThvTERuQVQ5N0lqb2k4ajZvaFVn?oc=5",
-     "source": "Washoe Life (.gov)"
-    },
-    {
-     "title": "City of Norfolk Closed for Election Day - City of Norfolk (.gov)",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GNXhVWDF3MmFGZjktWW1wbkgzVXlvZWlrdTZYRmgybHVBQlRlbm1Rc0FIdWoxdDJzdFRIMGNOZUZEME1vMEpfc0N0MVI5S3dJOVZuQk5LRGVOZw?oc=5",
-     "source": "City of Norfolk (.gov)"
     }
    ],
    "official": false,
@@ -284,24 +578,24 @@
    "already_covered": false,
    "evidence": [
     {
+     "url": "https://www.purdue.edu/newsroom/purduetoday/2026/Q4/corec-hosts-midterm-election-day-voting-tuesday/",
+     "title": "CoRec hosts midterm Election Day voting Tuesday - Purdue University",
+     "outlet": "Purdue University"
+    },
+    {
+     "url": "https://www.mprnews.org/story/2026/10/29/minnesota-get-out-the-vote-efforts-ramp-up-as-election-day-approaches",
+     "title": "Minnesota get out the vote efforts ramp up as Election Day approaches - MPR News",
+     "outlet": "MPR News"
+    },
+    {
+     "url": "https://www.npr.org/2026/10/29/nx-s1-6020539/two-reports-will-give-insight-on-the-economy-ahead-of-election-day",
+     "title": "Two reports will give insight on the economy ahead of Election Day - NPR",
+     "outlet": "NPR"
+    },
+    {
      "url": "https://www.legion.org/information-center/news/vote/2026/october/get-out-the-vote-for-election-day",
      "title": "Get Out the Vote for election day - The American Legion",
      "outlet": "The American Legion"
-    },
-    {
-     "url": "https://www.nbcnews.com/video/early-midterm-voting-data-shows-enthusiasm-ahead-of-election-day-272440901813",
-     "title": "Early midterm voting data shows enthusiasm ahead of election day - NBC News",
-     "outlet": "NBC News"
-    },
-    {
-     "url": "https://washoelife.washoecounty.gov/washoe-county/voters/washoe-county-urges-mail-ballot-voters-to-use-county-drop-boxes/",
-     "title": "Washoe County urges mail ballot voters to use vote center drop boxes - Washoe Life (.gov)",
-     "outlet": "Washoe Life (.gov)"
-    },
-    {
-     "url": "https://norfolk.gov/m/newsflash/home/detail/10588",
-     "title": "City of Norfolk Closed for Election Day - City of Norfolk (.gov)",
-     "outlet": "City of Norfolk (.gov)"
     }
    ]
   },
@@ -310,7 +604,7 @@
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 10,
+   "article_count_1h": 24,
    "published": "2026-10-29T14:30:21+09:00",
    "category": "Elections",
    "news": [
@@ -368,73 +662,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "federal holiday",
-   "traffic": 0,
-   "article_count_24h": 38,
-   "article_count_1h": 6,
-   "published": "2026-10-29T03:46:00+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "When is Veterans Day 2026? Is it a federal holiday? What to know - Cincinnati Enquirer",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWlRpeDNzWGdUWlZRQXg3cWlwaEVaQzZaamIxYlo5cnJlSWpxZzVoQTBTTG12bE80VC1IZVAtQXp4aG91X245aG9mRnJEV2FKcGpNWHdVRTRidVdjRENlc3dyYlQyUEtIbkdKVVJTT1lRMGgzdDRuWElfR212RURaQ3FRdmc4bVVKcGVlcVFGNGVIT0htOTVjd3BNWUJtcDkxNnhCWjVLX0syYmRp?oc=5",
-     "source": "Cincinnati Enquirer"
-    },
-    {
-     "title": "Seasonal holiday jobs may help Oregonians meet federal SNAP requirements, DHS says - KPIC",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX3hnY0NrdEpxV3hUOVA4X0Z4Uk5yNmpUV1RZZlI3TU5mRTlpblF1SFN2NWdwR2xjekJiTDc0bzNLa3ctQnFIckZUUFdzdEpZbHdFTHRGN0lwNlY5Wjc2Ulk3enZBcHduZ213Z19MQXVsNC1nOWtBanFqWlFaRDU3c1RoSDI1SVBIV1V1SHNNR0hIZHNQRU9lVjllcjFPYlV5MHJqYjNyb2xkQlExNUE?oc=5",
-     "source": "KPIC"
-    },
-    {
-     "title": "Veterans Day lunch for student veterans and active service members - Henry Ford College",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd1dfa2liUnAxekYybzk5eWtqUHdtNDBmNHhxeTFYUkZZY1NIbUp3bEQ2cnZOb3FTbU1QdWt4ZzNsWG5ERU5ELWx2bm9MRWF5NjVLUFNmVlhIV2N5OVpHNzBqNjBtV1JVZ0lpblNRVVliU3NTeE91WEtBam5EUlBySnRHMWwtNGZ6UHBHSVh3?oc=5",
-     "source": "Henry Ford College"
-    },
-    {
-     "title": "Only Congress Can Change Federal Election Day, Not the President - Legis1",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YMXlXa0ZkRWJvRTE4eGFOU0VOV2NGaGlGeHNRU2sxN1g2bWFaNFlyaTllT3EtRWpmMW5CT3R4ak90UnBIVVV1OW1RMFNEcXlJRUZaakpXQVpacE1LaWpvaGtqbDdJWTdwbU1faVRZTHA2T3oxUTVxQ3JNVTJ0UQ?oc=5",
-     "source": "Legis1"
-    },
-    {
-     "title": "Holiday on October 29, 2026 — National Oatmeal Day in the U.S. - UA.NEWS",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV2FCclNpTGN5NUxiaWNiZ1poYVJaTzVnT0tkNkkyNU53M0Q1MF91QlFlOVZZWHJ6TlJ1bzlsOU5iQ19EeTJqUmRzdE5jMHRyTVJSNFJPWDZHOFBWeUR4V0FiTUxDTDZMY3d0SGRfX1F0bmQxbVBJb3Jyd25WTlM2alVIeEltZkxOZE9zS1dCeU9WTVlGM1NGazRwYVNWUWV0VVF5cFhrUQ?oc=5",
-     "source": "UA.NEWS"
-    }
-   ],
-   "official": false,
-   "spike": "최근 1시간 기사 1.6→6건 (2.7배)",
-   "spike_bonus": 26.9,
-   "score": 59.2,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://kpic.com/news/local/seasonal-holiday-jobs-may-help-oregonians-meet-federal-snap-requirements-dhs-says",
-     "title": "Seasonal holiday jobs may help Oregonians meet federal SNAP requirements, DHS says - KPIC",
-     "outlet": "KPIC"
-    },
-    {
-     "url": "https://www.hfcc.edu/news/2026/veterans-day-lunch-students-and-active-service-members",
-     "title": "Veterans Day lunch for student veterans and active service members - Henry Ford College",
-     "outlet": "Henry Ford College"
-    },
-    {
-     "url": "https://legis1.com/news/federal-election-day-only-congress-can-change-not",
-     "title": "Only Congress Can Change Federal Election Day, Not the President - Legis1",
-     "outlet": "Legis1"
-    },
-    {
-     "url": "https://ua.news/en/world/sviato-29-zhovtnia-vivsianka-na-snidanok-iak-ziavilosia-nezvichne-sviato-u-ssha",
-     "title": "Holiday on October 29, 2026 — National Oatmeal Day in the U.S. - UA.NEWS",
-     "outlet": "UA.NEWS"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 41,
-   "article_count_1h": 9,
+   "article_count_24h": 47,
+   "article_count_1h": 21,
    "published": "2026-10-28T23:54:40+09:00",
    "category": "Benefits",
    "news": [
@@ -449,6 +680,11 @@
      "source": "The Detroit News"
     },
     {
+     "title": "November SSI checks come early in Tennessee. Here's the full schedule - The Tennessean",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ2t4UVFMTmJBVW1SYVZ3NXVCVllqTGw4NlVkZVJkd3lla0xqRjNuUzZyTm9nNnoxQlZ4V09QNkg5MjFnNHhOcFJ1WWNiZ3BhMVozVXpVanB2bDZZeWRQYnlUYk5iaE8zWmNfSW95MVlQVVVIQlFyLTRBVWVZSlpqcnpvWThIRUxqQzMxaU9YMEZxODEtUVZqZFR6MXlod1BjblpWb2J2MUJKZmphcU5ab3k3c1NQaE12eS1ZdE9lWUI0YWxW?oc=5",
+     "source": "The Tennessean"
+    },
+    {
      "title": "SSI recipients to get November payments early. Here's when - Democrat and Chronicle",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVdlc01fbXpjODloUDBSVy0wQVdNNTQyV01USFdFdE1jQzhPX25UYUR5YzdtTUlmVnBacG9PYTVkdEVzOWNmTjluZnZ2N0JMRFFTNU5tY0lqeERzRDFnTE9QNGU4YkdpTXVIRnl2UDRSVnFoTXlqR0U5d2FScUFrMnFxbzJGVDUzR0xpMzdlVWJyV282bW9Ra0VGQy1oN3pudXJoV2NHTnB4WkY1?oc=5",
      "source": "Democrat and Chronicle"
@@ -457,11 +693,6 @@
      "title": "When Social Security Recipients Will Get Their Checks in November - MONEY",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XUDBMNW1lLTMyRFJmWmtJeVBvaFgxX0l6RTg1dEFqVjU3eWRKeUNjcGhxR0ZLc1dDTHhyNXhWSUhUaVZTTjlrMWNPMG1MX0FfYWtoSURGa2RYaVR2SmcxbQ?oc=5",
      "source": "MONEY"
-    },
-    {
-     "title": "When November 2026 Social Security and SSI checks go out: See schedule - The Clarion-Ledger",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLUdUbElqT3J6cnl1Y0trZHFLVWNRRnB0Q1pPZEZCaWp0U2FSMHdVMzh6bzY2TG5iek4zbklRVy1aNDBrTEJHRldZWV91UmQ0dUVTMWVpOVctWGNBQUdCTXZtNlNQM25RUTRLTFdSMmlRZlFIMjJCaVZIZ3hfRjFMYXpaVjBhRE4xeFo1U3JIM1lhTjZxQW5mZkczcnBBa0FWZlBmb2g1eVRCRU4wbU5uQmZQZVJFMzU2UURtYmlERzRXZw?oc=5",
-     "source": "The Clarion-Ledger"
     }
    ],
    "official": false,
@@ -486,13 +717,23 @@
    "traffic": 0,
    "article_count_24h": 100,
    "article_count_1h": 9,
-   "published": "2026-10-29T12:16:05+09:00",
+   "published": "2026-10-29T18:09:25+09:00",
    "category": "Holidays",
    "news": [
+    {
+     "title": "Do clocks fall back this weekend? When daylight saving time ends - Democrat and Chronicle",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUkZVbjRDRm1Ua3RSU19EUFBLcHpJMFpZTVY4RGpwaWtwcGRUWUU4Wk0xeTVzS09ZUHE4VGlGRDFiWXJ4V2htQ1ZrZ3BBOXlaMXdaVEt1SDQ5eS1IV0xEQ2lxS2hNRmd0Y2hIU2VtRVA1Vlp1RTJJMHA5ems5MXMyTm1yblY5Mk1Ld242eFhLM2V1SU5xYWFla201MVl0eEdqTjNkaGxMMjFvR0h0dzdyU1B0NVl3X0RnMUtyMlRqQTdoaHBUS3ZzSDJRcTNUalFO?oc=5",
+     "source": "Democrat and Chronicle"
+    },
     {
      "title": "Turn the clocks back Sunday for end of Daylight Saving Time - Hoptown Chronicle",
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOGdLdU9tSnFwVnFkY2VRYmJGSFc5OGhXX0U2R19SLV9sdHo3TGZCUi1ZRUpwOExpU0daN0dzR1pDWEdtajduU29hUGdrSnphdEN3Rk9jNnVxYnhSbS12RHgzaThmemIycjNEcjlGOVlDRS1NZzg1dlNyNHlCMGZ0RHZ3Wk5HSkdqWHVDc24wWDR4dW8?oc=5",
      "source": "Hoptown Chronicle"
+    },
+    {
+     "title": "Daylight saving time ends Sunday - Purdue University",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN1daUTFHRl9xM01rNXVnZkJUaGxLSVZMejl4aVBfQWZzcXBMeW1NellXdkRlOTlicUtxUnJlbXhoWkZleWZrak5XU2Y3eGFHcXNzQ3p4Y0xQNE0wb1NVNEpuX3VzTFpfRHQ3V2luVVN6UUtnamllWnZZbTFDMXdnZVNZcE9HX1NXWTZHSncwcw?oc=5",
+     "source": "Purdue University"
     },
     {
      "title": "Daylight Saving Time ends at 2 a.m. Sunday - KTVN",
@@ -503,16 +744,6 @@
      "title": "Daylight saving time is spooky this year: What to know about the 2026 clock change - Fast Company",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeEphWkk0QWpBTXZLQVh4UXpsTGswYTJLTnBtT3FJNXRlcGR1ZDl0bmJnRlhFampZalcxdk90dzJnWXRNU2c5ajlUU0hTZ2ZBS2lsX0lkZ2VXQTM0aTFENWlUSWswdzlpcldwQ1FoOVFWakhyX1k2b0oweTZ5czFvNVVKR2FLS25qcUFHR21PNlJQVFU4ckQydkJLeWtrcGk5WlM0VA?oc=5",
      "source": "Fast Company"
-    },
-    {
-     "title": "How daylight saving time changes affect you and what you can do about it - MPR News",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcVJsaXRaV1VVdEQ3d0ZuTkFxcHlrYm5PbzN3Mk94QjROaUEzYUNhNXptNG41bWFzZXgwSzR3VmJzWGNvMlZsMkwtN0Y4d2FaOG50YW9TRjNrOEJWUjRxQTZsTXlTTnlMamF5MjZnUFZlOHVGQlRBMWE5Sjk2MHdQdVBBdWpvNjN4OGhHV2Z0MnhVMlpMaGY2bDRiQ0thXzFJbjNYQjhqZm1hZjhGeF9n?oc=5",
-     "source": "MPR News"
-    },
-    {
-     "title": "Daylight saving time ends this weekend - KVUE",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS1FJLVBnMG1ubnNXNDNfd0l4MnNmS1lzdXkzaGMwZnVQTUFlMkE2NEtOMjNLbldMelJEZ1RiX0xENklJREVoQkFIT2xzY0NndXZfZnEtZ1lrVGxmN1RlVlg5a2ZESWhtb0trRzBiUG1RT092U3oxVWxsNkNBVHh3bGxPSS0xQW1RSDR6X0tLQUxzYnFGbTBPekl6dXQ0YVRFLU5kakFoZ2ZRRGhUVDBGcg?oc=5",
-     "source": "KVUE"
     }
    ],
    "official": false,
@@ -525,243 +756,14 @@
      "outlet": "Hoptown Chronicle"
     },
     {
+     "url": "https://www.purdue.edu/newsroom/purduetoday/2026/Q4/daylight-saving-time-ends-sunday-4/",
+     "title": "Daylight saving time ends Sunday - Purdue University",
+     "outlet": "Purdue University"
+    },
+    {
      "url": "https://www.2news.com/news/local/daylight-saving-time-ends-at-2-a-m-sunday/video_01a579c1-5fd3-5eef-b087-06e9075d4dc4.html",
      "title": "Daylight Saving Time ends at 2 a.m. Sunday - KTVN",
      "outlet": "KTVN"
-    },
-    {
-     "url": "https://www.mprnews.org/story/2026/10/28/daylight-saving-is-nov-1-heres-how-it-affects-you-and-what-you-can-do",
-     "title": "How daylight saving time changes affect you and what you can do about it - MPR News",
-     "outlet": "MPR News"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "IRS refund",
-   "traffic": 0,
-   "article_count_24h": 52,
-   "article_count_1h": 7,
-   "published": "2026-10-29T02:50:11+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Nigerian Man Extradited For $100 Million IRS Refund Scheme - Law360",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR0lBZEdjQjN0WTVSZzdUU2RETkFpaTk3SGwxTXpBSy1Yc0trVmlaVmNlU2hlUVIwT3FLWkNDSTJnalBNUlVuNHhNaWlwdTg5UHR1Y2d1Y1ozN1pVN1pOREpEUEhsVGVYTFg4TlRQSlMwWUNDSFI5LUhGeW1YYVVnQkVpV0hvX214WnRqb28wWjhLUVRGMktOZ3h3R2g1aDdRUkIxTGpqOEhFWFRnNEJob2R3eE1kckVPUUZlaTZVclo4cWPSAWhBVV95cUxNU2JiVDVoV09oZ0FkYU13ZmxUWFJaY0otYjdJazBVZlJhaFdDRmp3ckFNWnQxLWE3d3JNeDZzcklfQVotLUhvVmcwQ3dObHd2RXBQZWptcU5aVkhtbUlTakJaNWVIOWNiNw?oc=5",
-     "source": "Law360"
-    },
-    {
-     "title": "Indictment: $81 million in fraudulent tax refunds issued in Mobile-area scheme - NBC 15 WPMI",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmR6RDhUUGNPVVZlalNiYXBhQlBxV3dxNjZfMkJ6UXRXY1F2MzZZX1VHNzBpN3BsWnI2REZhUkNOQ0JIdTg2Z1VZZDdnZDg5OWZKUzZvdVhGX0ZSYVpfY1lKZ3BXZTljVHBVTUlsSktKRXJib0FvSDgyMk1WSlVwcEswZFA3bmRFRzkxNUxsTGxNNnJRQUNmYlh3VjlZMGkzdkxwRjRMNGZkWGM?oc=5",
-     "source": "NBC 15 WPMI"
-    },
-    {
-     "title": "Two Senoia residents charged in $74 million federal tax fraud scheme - The Newnan Times-Herald",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTngtdERGQXVHQnB1aHhfXzFSSFpuTkEwU0lKNDdkNTdoeU1EbDYtazZpM3pWRXFMYy1penJvck5ZdHp5RXo5b1dEMVVFQmhSSUZFR3N5QUlnY3JYRU9JU3RXVjNxZWdlWl81UUxVXzRlVU5ZSWV6UVV2ZGJ2LXBvR0NCRkdFem9LWFNrV1pRNTRpaUZaSDczY1o5cmZkbzd0NThfR3FCM1FHN09WR1ExWDg5eWE2YkVranpLMjlFVEVDZHp2cGxlejVxcUQ2U3huQ215TVVCa2VIUjRoWTMwMGtCelFhQQ?oc=5",
-     "source": "The Newnan Times-Herald"
-    },
-    {
-     "title": "Mobile tax preparer, former Alabama basketball star, among those indicted in $177 million fraud case - Fox 10 News",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWjFrNFpMeXJMaC0xWTBLM3dMMHFMMUZJU1M4Si1KSnp5UzhseXVRbElyWmxOcGV1Y2VDSVcwaUtnUjNiWWNwUHhkdDYwUDFaZGw2ejdGRVFzMjNzUnlpYkpmMmdhWFR4YlRIaklSTmF5Z0tFWXVYcG9VS1FqMlR3eWRreE9CMUxqNngwTmRUU21tTW9jM2laaDlRM0xFaXd4RlA1YklZQnF3ZG85aVhDR3h1TDdDaVFpRzRIbENmNlRNbDVZVmduU2dR0gHeAUFVX3lxTFAzMUItXzA4UmZBc3Z4cUFHRE8zUVY5TndZcTdlMXA4TzhiUG1vMGRtNnR5SVBxaUxGUkpIcW5mUjBIQ3NuVndnOFFMRkpCVGYyR2lUTjdMVENzMl84cjJKaDhEaDhoS2FPWk1kNk1sWS1iRVg0OFJNY3I3d19OX1N3aWNqNHF4dFpjVXpOaXU4TDhtcVJSMHdQZmdWRnoydFVpRlVuZTZXX0ZlcXQ1RDRCb1o1V3g2TXJXZFlzZUQ3SEVOLVNGM2ZQd0FkNlh6c2QwYnhqUUFKdGZJNDA0dw?oc=5",
-     "source": "Fox 10 News"
-    },
-    {
-     "title": "San Diego County resending 44,000 property tax bills after city trash fee error - cbs8.com",
-     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUmhaU2ZmNmJsX2ptUm1ZUXVGZE1FSUtlZGNBcUFRM2tJam9tT1duSVlma3VRem5NSmpwTkJyZ0o5YWpPS1VFR1ZyTm1JekVFdHlWcmtsUG9XZzJ2Y1VpQUFhLTVOcnh0LVNKM0ZMRGZxV0FOUl9ZZDRaSkJEcC1IeWV0WnlRaUxITlc0N3FndUhVc2g4VHE5MDBZdjhublBCOVRYYzBuOXFtX1BtS2hWakJuN2tQcWlrN3phUlc1R3I0UUpTQXNQRktOSHA1N3R3MlRXcHJwSGMtY2pvdWRLU3haVmpYU3hSb0NYdzczNlcwUjZCbmxvVTFNdVIyUkU?oc=5",
-     "source": "cbs8.com"
-    }
-   ],
-   "official": false,
-   "score": 52.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.law360.com/tax-authority/international/articles/2543178/nigerian-man-extradited-for-100-million-irs-refund-scheme",
-     "title": "Nigerian Man Extradited For $100 Million IRS Refund Scheme - Law360",
-     "outlet": "Law360"
-    },
-    {
-     "url": "https://mynbc15.com/news/local/indictment-81-million-in-fraudulent-tax-refunds-issued-in-mobile-area-scheme",
-     "title": "Indictment: $81 million in fraudulent tax refunds issued in Mobile-area scheme - NBC 15 WPMI",
-     "outlet": "NBC 15 WPMI"
-    },
-    {
-     "url": "https://www.fox10tv.com/2026/10/28/mobile-tax-preparer-former-alabama-basketball-star-among-those-indicted-177-million-fraud-case/",
-     "title": "Mobile tax preparer, former Alabama basketball star, among those indicted in $177 million fraud case - Fox 10 News",
-     "outlet": "Fox 10 News"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "student loan",
-   "traffic": 0,
-   "article_count_24h": 46,
-   "article_count_1h": 8,
-   "published": "2026-10-29T05:47:46+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "Trump Signals Support For Some Student Loan Relief, Maybe, As GOP Electoral Prospects Dim - Forbes",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb2ZHTDdBbDNLdkhHa0dWTFFIbW1ZMmFsTGJBamlJYVY4djNXczhlXzdwSHNHOGMzRlZhRU9XX1BLMXR4eWVKMmxfNUpveU9yTWZXV3dURUZkR3daZk9vV2JMeDdnbHMtMFpydFA5UGZ4bjNlNnJCNWtKSWk3cUI0MGJhNk4zOHVaaEhZdWFNSm0tYXFmRFgwbEp6SWRLVm9HeXRPTXV6OG8yWF9yMWhpQTdyVWwzR1l0Wl84SGRyLXZvcWRBaFFXNWM1YUVaSGpnNnJreEVB?oc=5",
-     "source": "Forbes"
-    },
-    {
-     "title": "From Surplus to Subsidy: How Grad PLUS Unraveled - American Enterprise Institute - AEI",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNXFXN1E1UmNxRGVXVFV2TEZNNFpZX2V6X28yLXNtMnljTDhFdVY3ZDhEOS1SLVNrTlpfSHZMcFlKNWRjME9fOTZ5ZFdBaXhhcFRtNDJOMC1uM1pDaUNwQ0pDYU1TbWI5Tk5ESFlqQXR5ajJCaGVFa3ZUZGxyR01nYV9oMlRNaXhWaGF6QUJiTmtCa3FkYThNMQ?oc=5",
-     "source": "American Enterprise Institute - AEI"
-    },
-    {
-     "title": "How student loans have shaped this family’s economy - www.marketplace.org",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaEtVUzU3b1pWcWdBZC1qS3FBX3lvaEVCcHhDSG4wc2Z0UHE3X1M3NmhzUGdmSTcxSHl2dDZJOUJfRFcyX3VIY01sLTktM0hPZFp4T0l6ZGloWUtRZ0lEdVE3NnpGLXpqalZ1eGczR25jbDNPV0lHc3FaN2lGM01USHdXS1N2cktjbUw5OXpXQjlqTllKQWNZ?oc=5",
-     "source": "www.marketplace.org"
-    },
-    {
-     "title": "UC student's NFL internship leads to $20,000 gift to reduce loan burden - University of Cincinnati",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VdzdvRlpXSFYtWUVfRHB3dks1VjZwaVgxRVNPZDhiUVU4ZjJISWd0d1RvQXFZZWVIbWFuenRzcnJjS3Jra2k4SWNVQWtGT3JEcm1YekJDdGQxNnBjSk1GWkM2cnR3dw?oc=5",
-     "source": "University of Cincinnati"
-    },
-    {
-     "title": "Woman, 22, Pays Off $27K in Student Loans in Just 8 Months, Reveals What She Gave Up to Do It (Exclusive) - People.com",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRzJMMkY2ZUYtR2JnSGtwaV9nc0hvWFBCRmFQUklCWHEtWXZLUXFZMUxYUXpheXd0ZmZZQjJrXzhCRE55b2lzVUZ0dkdHMDRNM29ZNEpiaEhMb2tpYjNwdUZRRXRYdnhadGtRMHkxQ1VjbkdOWlhWRFdkRWJxYnBianlTbS1uNlpJU3VERXlmTHh4QndfbllvYlMzcXBBcXB6Wng5Ym5FNnF5N0U?oc=5",
-     "source": "People.com"
-    }
-   ],
-   "official": false,
-   "score": 52.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.marketplace.org/story/2026/10/28/how-student-loan-debt-shaped-this-familys-lives",
-     "title": "How student loans have shaped this family’s economy - www.marketplace.org",
-     "outlet": "www.marketplace.org"
-    },
-    {
-     "url": "https://www.uc.edu/news/articles/2026/10/uc-student-nfl-internship-cj-garner-johnson-gift.html",
-     "title": "UC student's NFL internship leads to $20,000 gift to reduce loan burden - University of Cincinnati",
-     "outlet": "University of Cincinnati"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "social security COLA",
-   "traffic": 0,
-   "article_count_24h": 22,
-   "article_count_1h": 3,
-   "published": "2026-10-29T07:41:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment. - MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOXJidlJSSTZwQVpKcVNWZmhXS1hFcW9qdUxnMGRNU2EzYUVWNERmYTNMckZLMXlXakxaUU9lNHhVZjNRNkE0VmtZSENGcXJMSmRhZ21HZzEzZEMzemhxUjk2SzFlRHpTTVR5Ylk2dXpmLXlnaGllSDk4UnJxci1nRVowd055M2M1bmFodzd6czNJLWdoa21pbGhnLU1oSTZMWFpTcUp4NVZ5OGNOWFNuNjExNk5ZOUNXbEhXOUtvbWFCWXdGSHhNaU5FN0ZMVWFQSVBicmxn?oc=5",
-     "source": "MarketWatch"
-    },
-    {
-     "title": "When Social Security Recipients Will Get Their Checks in November - MONEY",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XUDBMNW1lLTMyRFJmWmtJeVBvaFgxX0l6RTg1dEFqVjU3eWRKeUNjcGhxR0ZLc1dDTHhyNXhWSUhUaVZTTjlrMWNPMG1MX0FfYWtoSURGa2RYaVR2SmcxbQ?oc=5",
-     "source": "MONEY"
-    },
-    {
-     "title": "Social Security's Flawed COLA Formula Will Be an Issue in 2027 Despite a Large Increase - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnY0anFXWXJHeGlrSGhsNmZmalQxWUpCajBReEhEbGg5dlg5VkI5bFNDVldOQnRJSVowb0x4SDhWaE5mZHhJNW1adktGT0NmeE1wSHhtMmhlTzBmX1JzM21oNFhsMVdhT2ZiY0RuTy05bHlwQU91R1lTVGplRGZaMm1JTEdHbzcxLXZpWjdvMDRWQnhiM3FsS0U5cGhCV0lJSUNN?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "Beef Prices Remain High. Social Security's 3.6% Raise Uses a Price Index Built Around Workers, Not Retirees - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUG1WVFNpNFRqVUw1Z0s5QmFoeFlHMGkyNm9zdk42OUdHUWd3OHZOeFlhX1d2U2s2ZXczU3VpSlJkUmRCa0pmTXU2bFdyVkxST3hUclpWSVo4eG9WUm9MSnJPbDFPWjgtcnF0SnVTOXA2ZDFzbXlqcXN1bG5OMFJ4S3BIS0h4YlluMmlIdkJ5YzhGZzBYMFd6Y214UWI1R1ZfYlNIM0tiRkp5dm9wVGw3VUtMNVIzOExKV0FkTmZmbGxpaDJjVjRJQkVodEJaWnJWNWxmU2dXU19kM1ZCR19FTzc2UGg0aDBDNlEzWlZLVGlyVjZ0T2FVYUxfYy10UU0?oc=5",
-     "source": "24/7 Wall St."
-    },
-    {
-     "title": "2027 Social Security COLA: When the increase kicks in and how soon you’ll get more money - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdXRGMTJNcS04czNhWmYwMVJIa29IZHU4aWZsbkRBbUdPcThZNmExMFl6SGlpNUtwMG9RMkZvdDRZSk9DcnJ4ZlJhMHFfMjhSYjhnWFJ6YmpubDRpQzFBbXVMOWcxZFdOTk5UWDY5UEJYRGxTa2lMbnR3SG96VkszVHJmalNFQjM5QmVzRmJwNUdONUVoTTFULUVtdXBUb0hZRU00YlBuT3Nrd3pMa01aNktKX3pXWWFlVkVFMVF2N3Q?oc=5",
-     "source": "El Cronista"
-    }
-   ],
-   "official": false,
-   "score": 47.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://money.com/social-security-check-this-month/",
-     "title": "When Social Security Recipients Will Get Their Checks in November - MONEY",
-     "outlet": "MONEY"
-    },
-    {
-     "url": "https://finance.yahoo.com/economy/policy/articles/social-securitys-flawed-cola-formula-165602862.html",
-     "title": "Social Security's Flawed COLA Formula Will Be an Issue in 2027 Despite a Large Increase - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://247wallst.com/personal-finance/social-security/2026/10/28/beef-prices-remain-high-social-securitys-3-6-raise-uses-a-price-index-built-around-workers-not-retirees/",
-     "title": "Beef Prices Remain High. Social Security's 3.6% Raise Uses a Price Index Built Around Workers, Not Retirees - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/2027-social-security-cola-when-the-increase-kicks-in-and-how-soon-youll-get-more-money/",
-     "title": "2027 Social Security COLA: When the increase kicks in and how soon you’ll get more money - El Cronista",
-     "outlet": "El Cronista"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "tax deadline",
-   "traffic": 0,
-   "article_count_24h": 44,
-   "article_count_1h": 3,
-   "published": "2026-10-29T04:52:25+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "IRS extends tax deadlines for Harris, Fort Bend and 60 other Texas counties. Here’s who qualifies - Click2Houston",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbXFUX2VpT3pMS2NtYnVyVTRQYXpWejFQNm44VXBzOUs3V1pRWWJPdHBmVTJfQ2k3Mm9VM3JreVZCQmxSUl9pb3lwLUg3MVpZM2packRLYnFNZGdHWFZRakpCQkN5Q19UbzJ5RGVDTHBndGdrcXQzMlhPUWRuY1dNcWo5bFFtQlJUQU03SU8zaHJpSXg3bzNiMGV4T0FBaldhbGY0OWFhTUlqbXJNWnA4aVpsZnNOOFVtcVNfRWhZN1NzMTVMOFBhQ2djXzdoUmd4YUhKN0ZjZFFRWEd1NnRLLQ?oc=5",
-     "source": "Click2Houston"
-    },
-    {
-     "title": "IRS extends tax deadlines for Texans in 62 counties hit by July storms - KEYE",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX1dkdTVkZWRtNzJvQW5VLWZhd3hRLXpXYWUtbmNXZWp2bGJIWVdSZlFmaDc1TWUtbFZHLW1nZGpJSWhwX0JGUHhIdTZnUE9ramJMVldCUHhMQ201YmJyMXRqSWFlVnVZbmY3UlBlbHV3OHdiSXItS214WTlKc0pjV013RjRiMnVUWENHdVJQMmUyTTlwMmZWaE1CUndwV3QxOWFHUm1R?oc=5",
-     "source": "KEYE"
-    },
-    {
-     "title": "Texas Flood Victims Get Federal Tax Deadline Extension Through February 2027 - Dallas Express",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeDR6Tkw3S2EwRlllNl9QOHdLd2JuT0hvZ1FNaG0tN2F4R01GZDhlT2hCSEJGNF9pa2MyMzdKN3pMeENGSzA2WFJGbldoN25xTno4QTJDZTV6S0VyOWxuTG5tbkIybS1ER19MRDM3ODBrQzNTQVlIZjlCQkZ2RURxRFl5Y2F2MDc0a2FSajVaQzlhWExqa1d1aDZvWWo0TGVoQ3BHNEpZSWNIY0p1OFE?oc=5",
-     "source": "Dallas Express"
-    },
-    {
-     "title": "Pied-à-terre tax’s fate hinges on appeals court as city races against deadline - Crain's New York",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTHpDM3hQek9ydWpOSnQ2bnJiQ0ZFRTRIOFByV3liMFMxdW05alVZTjlKWFRvTTFFTTdGbVYxSzVRekpUWEprN3pfcHB3UmlIMktFNHcyNjV6SUdnNEFjSjVGMDVaRU1qbkxMOExHdnJUQUVRLUg4S2Z0cnZubmxoTVZSYnJCYnRCejlIYw?oc=5",
-     "source": "Crain's New York"
-    },
-    {
-     "title": "IRS Extends Tax Deadlines For Texas Counties Hit By Storms - Law360",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcE16WGFNRDdQb2N1VFBkQ243UmlSYkNYVXJ5aG12RTJ2dldnWUNGWktra1N6MGUxdWtiVzFvZm9NRUJXa2R2Q3pueGNfMFBGam92ZjRoMlEtem5SMUpnUnRtQ2tqQUNKSnJhX2duaVlLQXAzR2M5UHRHbjRnZUhndDVkaU43RHZvSDZfZWRlc0Z5XzZnSW03LUp3eEFPM2PSAWhBVV95cUxPd19oNmhRRU83a3o1elluU0tkb0FsNU9iQkMzMXlRYWpoN2JORDV3enBveWUxdmhmSFo5TDQ5NnoxQzcxcTFCaTRFcDU1SWEzbmpwdnNEdWl5Mk45NHhiZHh4ZU5vTGVQZA?oc=5",
-     "source": "Law360"
-    }
-   ],
-   "official": false,
-   "score": 44.1,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.click2houston.com/news/local/2026/10/28/irs-extends-tax-deadlines-for-harris-fort-bend-and-60-other-texas-counties-heres-who-qualifies/",
-     "title": "IRS extends tax deadlines for Harris, Fort Bend and 60 other Texas counties. Here’s who qualifies - Click2Houston",
-     "outlet": "Click2Houston"
-    },
-    {
-     "url": "https://cbsaustin.com/news/local/irs-extends-tax-deadlines-for-texans-in-62-counties-hit-by-july-storms",
-     "title": "IRS extends tax deadlines for Texans in 62 counties hit by July storms - KEYE",
-     "outlet": "KEYE"
-    },
-    {
-     "url": "https://dallasexpress.com/state/texas-flood-victims-get-federal-tax-deadline-extension-through-february-2027/",
-     "title": "Texas Flood Victims Get Federal Tax Deadline Extension Through February 2027 - Dallas Express",
-     "outlet": "Dallas Express"
-    },
-    {
-     "url": "https://www.law360.com/tax-authority/articles/2543494",
-     "title": "IRS Extends Tax Deadlines For Texas Counties Hit By Storms - Law360",
-     "outlet": "Law360"
     }
    ]
   },
@@ -769,7 +771,7 @@
    "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 50,
+   "article_count_24h": 35,
    "article_count_1h": 2,
    "published": "2026-10-29T08:43:21+09:00",
    "category": "Health Insurance",
@@ -828,9 +830,70 @@
   },
   {
    "source": "google_news",
+   "keyword": "FAFSA",
+   "traffic": 0,
+   "article_count_24h": 16,
+   "article_count_1h": 2,
+   "published": "2026-10-28T23:03:45+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Plan Ahead: Complete the 2027-28 FAFSA early - Augusta University",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90aFdnSVBiOEdlQTI4b3JZZnRCbHBvY3lrY1U5Qy10QWNYbjZPdy0tX1JjNzRoVHZySkNIc25ZOFU1YnNnQTIxb0szT3hnLW4yTUpTNHFEdzFicWhRSkZOQUVDVDNFYldzdmFieGQ4dkNEZGZRcjdSMjlhbkU?oc=5",
+     "source": "Augusta University"
+    },
+    {
+     "title": "FAFSA Help Available Locally - WRBI Radio",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmJaMVlncW40U0FKRkp4TmUySTR0SlhFZlJEN3d0dklTZjBEYTNPTUFVX1pUTXZVazlCcERKQ3NQblJjS1Utb1FmVUxhWlVfVnBRRktLY1RIMWpJdkhFRkRLdEtRb1RNS3ljMVZObjlTOGxhR0xPcDRZUkpneTJTbk5IMlkzNFBVdXplVXNTTnVLcmluMk5KY0FzdlhPckVHVVhWVTlnNDJfeG51YkE0MU5UQmpYYkJOWlFvTGotNXI?oc=5",
+     "source": "WRBI Radio"
+    },
+    {
+     "title": "A Historic Early Start: Florida's First-Look FAFSA Dashboard Tracks Class of 2027 FAFSA Completions - Florida College Access Network",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVVJoNEVyMmpOeUJtV2xVVHBCVExOeUlLeTZCdWwyeUZwUElXVUpKbkdvYUktWWI5eDdHMGVvOE5GZ0ZqZmZmM0FPdF9pMkpsWFc5MFJkMjFrWTZKUzdLRmRJNnFBOGFRaEpKX05JM3lWajdxTHdIck96eTUtZThpaDRqZzhpU1VrT3BRSWFLR1NndkwzUU8yNFR1X2tKb2hGSXJJb2xzaVJSTW9HWFJPMGdadXFCb0FDUXZUSDZYeGpkWDNfNmZV?oc=5",
+     "source": "Florida College Access Network"
+    },
+    {
+     "title": "Need help with FAFSA? Free Lincoln workshop is Oct. 29 - Lincoln Courier",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa2RvbzRXUmpVWmF5Z282U2dSbkh0QmRlU21CbmY1LTZVemNqZzVRV0taUldNcEZvUmJrZHZ4OHdHaXdubGtXVlhmWVY3R3l6WFpWWGlvUDFtUF9xRWxfanNCNVc0RmhLc3JzZHlNOHU1LXU1S1FBc1ctdlJPSUNseXRBN2FDQWFEZXVNTE96b0RrZ2M3a1o5N0cwV1U3UHRTOUo3UlhuSi01YUlrdkczTw?oc=5",
+     "source": "Lincoln Courier"
+    },
+    {
+     "title": "University of Arkansas at Fort Smith to host Freaky FAFSA event Oct. 29 - River Valley Democrat-Gazette",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMGp3cmZ4V2duNktkRUNlMVJVVm1GbWxVaGhzdDFMc1pGWkFURXBFRG1WLUcwUFFCVEtlalRFSk1EZDlfTkE5T1lNUmt3ZFZqcXhCbUd4ZGJKRS1hRVRKbWhOTnR2LTk4NDFBMDE5Y2NUS2JFZGV2aWRKZlJpYU5Xb21ybDJYSFp3QlVRcUR4RU1lcFVoZDI2UnU1QmtZYmlDQm1HUGwyMTQ?oc=5",
+     "source": "River Valley Democrat-Gazette"
+    }
+   ],
+   "official": false,
+   "score": 39.9,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://jagwire.augusta.edu/plan-ahead-complete-the-2027-28-fafsa-early/",
+     "title": "Plan Ahead: Complete the 2027-28 FAFSA early - Augusta University",
+     "outlet": "Augusta University"
+    },
+    {
+     "url": "https://wrbiradio.com/fafsa-help-available-locally/?utm_source=rss&utm_medium=rss&utm_campaign=fafsa-help-available-locally",
+     "title": "FAFSA Help Available Locally - WRBI Radio",
+     "outlet": "WRBI Radio"
+    },
+    {
+     "url": "https://floridacollegeaccess.org/research-and-policy/floridas-first-look-fafsa-dashboard-tracks-class-of-2027-fafsa-completions/",
+     "title": "A Historic Early Start: Florida's First-Look FAFSA Dashboard Tracks Class of 2027 FAFSA Completions - Florida College Access Network",
+     "outlet": "Florida College Access Network"
+    },
+    {
+     "url": "https://www.rivervalleydemocratgazette.com/news/2026/oct/28/university-of-arkansas-at-fort-smith-to-host/",
+     "title": "University of Arkansas at Fort Smith to host Freaky FAFSA event Oct. 29 - River Valley Democrat-Gazette",
+     "outlet": "River Valley Democrat-Gazette"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "product recall",
    "traffic": 0,
-   "article_count_24h": 62,
+   "article_count_24h": 100,
    "article_count_1h": 3,
    "published": "2026-10-28T23:15:40+09:00",
    "category": "Recalls",
@@ -883,72 +946,86 @@
    ]
   },
   {
-   "source": "google_news",
-   "keyword": "FAFSA",
-   "traffic": 0,
-   "article_count_24h": 14,
-   "article_count_1h": 1,
-   "published": "2026-10-28T23:03:45+09:00",
-   "category": "Taxes",
+   "source": "google_trends",
+   "keyword": "us",
+   "traffic": 1000,
+   "published": "2026-10-29T17:50:00+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "Plan Ahead: Complete the 2027-28 FAFSA early - Augusta University",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90aFdnSVBiOEdlQTI4b3JZZnRCbHBvY3lrY1U5Qy10QWNYbjZPdy0tX1JjNzRoVHZySkNIc25ZOFU1YnNnQTIxb0szT3hnLW4yTUpTNHFEdzFicWhRSkZOQUVDVDNFYldzdmFieGQ4dkNEZGZRcjdSMjlhbkU?oc=5",
-     "source": "Augusta University"
+     "title": "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms",
+     "url": "https://www.wsj.com/world/middle-east/u-s-warns-gulf-of-possible-short-intense-renewal-of-iran-war-after-midterms-cd1a55e1",
+     "source": "WSJ"
     },
     {
-     "title": "A Historic Early Start: Florida's First-Look FAFSA Dashboard Tracks Class of 2027 FAFSA Completions - Florida College Access Network",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVVJoNEVyMmpOeUJtV2xVVHBCVExOeUlLeTZCdWwyeUZwUElXVUpKbkdvYUktWWI5eDdHMGVvOE5GZ0ZqZmZmM0FPdF9pMkpsWFc5MFJkMjFrWTZKUzdLRmRJNnFBOGFRaEpKX05JM3lWajdxTHdIck96eTUtZThpaDRqZzhpU1VrT3BRSWFLR1NndkwzUU8yNFR1X2tKb2hGSXJJb2xzaVJSTW9HWFJPMGdadXFCb0FDUXZUSDZYeGpkWDNfNmZV?oc=5",
-     "source": "Florida College Access Network"
+     "title": "US warns allies to prepare for potential retaliation by Iran if military action renewed after midterms",
+     "url": "https://www.timesofisrael.com/liveblog_entry/us-warns-allies-to-prepare-for-potential-retaliation-by-iran-if-military-action-renewed-after-midterms/",
+     "source": "The Times of Israel"
     },
     {
-     "title": "FAFSA Help Available Locally - WRBI Radio",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmJaMVlncW40U0FKRkp4TmUySTR0SlhFZlJEN3d0dklTZjBEYTNPTUFVX1pUTXZVazlCcERKQ3NQblJjS1Utb1FmVUxhWlVfVnBRRktLY1RIMWpJdkhFRkRLdEtRb1RNS3ljMVZObjlTOGxhR0xPcDRZUkpneTJTbk5IMlkzNFBVdXplVXNTTnVLcmluMk5KY0FzdlhPckVHVVhWVTlnNDJfeG51YkE0MU5UQmpYYkJOWlFvTGotNXI?oc=5",
-     "source": "WRBI Radio"
-    },
-    {
-     "title": "Need help with FAFSA? Free Lincoln workshop is Oct. 29 - Lincoln Courier",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa2RvbzRXUmpVWmF5Z282U2dSbkh0QmRlU21CbmY1LTZVemNqZzVRV0taUldNcEZvUmJrZHZ4OHdHaXdubGtXVlhmWVY3R3l6WFpWWGlvUDFtUF9xRWxfanNCNVc0RmhLc3JzZHlNOHU1LXU1S1FBc1ctdlJPSUNseXRBN2FDQWFEZXVNTE96b0RrZ2M3a1o5N0cwV1U3UHRTOUo3UlhuSi01YUlrdkczTw?oc=5",
-     "source": "Lincoln Courier"
-    },
-    {
-     "title": "University of Arkansas at Fort Smith to host Freaky FAFSA event Oct. 29 - River Valley Democrat-Gazette",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMGp3cmZ4V2duNktkRUNlMVJVVm1GbWxVaGhzdDFMc1pGWkFURXBFRG1WLUcwUFFCVEtlalRFSk1EZDlfTkE5T1lNUmt3ZFZqcXhCbUd4ZGJKRS1hRVRKbWhOTnR2LTk4NDFBMDE5Y2NUS2JFZGV2aWRKZlJpYU5Xb21ybDJYSFp3QlVRcUR4RU1lcFVoZDI2UnU1QmtZYmlDQm1HUGwyMTQ?oc=5",
-     "source": "River Valley Democrat-Gazette"
+     "title": "Trump says 'anything's possible' regarding potential strikes on Iran after midterm elections",
+     "url": "https://www.foxnews.com/live-news/us-iran-war-trump-speaks-strait-hormuz-10-28-26",
+     "source": "Fox News"
     }
    ],
    "official": false,
-   "score": 35.7,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 32.0,
    "already_covered": true,
    "evidence": [
     {
-     "url": "https://jagwire.augusta.edu/plan-ahead-complete-the-2027-28-fafsa-early/",
-     "title": "Plan Ahead: Complete the 2027-28 FAFSA early - Augusta University",
-     "outlet": "Augusta University"
-    },
-    {
-     "url": "https://floridacollegeaccess.org/research-and-policy/floridas-first-look-fafsa-dashboard-tracks-class-of-2027-fafsa-completions/",
-     "title": "A Historic Early Start: Florida's First-Look FAFSA Dashboard Tracks Class of 2027 FAFSA Completions - Florida College Access Network",
-     "outlet": "Florida College Access Network"
-    },
-    {
-     "url": "https://wrbiradio.com/fafsa-help-available-locally/?utm_source=rss&utm_medium=rss&utm_campaign=fafsa-help-available-locally",
-     "title": "FAFSA Help Available Locally - WRBI Radio",
-     "outlet": "WRBI Radio"
-    },
-    {
-     "url": "https://www.rivervalleydemocratgazette.com/news/2026/oct/28/university-of-arkansas-at-fort-smith-to-host/",
-     "title": "University of Arkansas at Fort Smith to host Freaky FAFSA event Oct. 29 - River Valley Democrat-Gazette",
-     "outlet": "River Valley Democrat-Gazette"
+     "url": "https://www.foxnews.com/live-news/us-iran-war-trump-speaks-strait-hormuz-10-28-26",
+     "title": "Trump says 'anything's possible' regarding potential strikes on Iran after midterm elections",
+     "outlet": "Fox News"
     }
    ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "ACA open enrollment",
+   "traffic": 0,
+   "article_count_24h": 32,
+   "article_count_1h": 0,
+   "published": "2026-10-29T08:27:22+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "N.J. health insurance premiums on ACA marketplace rise by 20% for 2027 plans - WHYY",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPaFExZXJJMlVHbEZ5eW1VdDhkcVBZcERiYTlJSUZ2cUpPTVZXY2FIakwxakdYVUdrcUZYWm1TUGJBV3FQTzh6NVZQWkluejk2aElZVmZDX1pzcDRsNTZKZ2ZyekhwY0FnVldmVWNjd0RiUWRVSmlFTWd0SnZKRjRvUEFhelF5UTY5Q3c4c3lKcEhyNm9NUnZ1bGxBR2FjTUhIcjNnb3FjUE9xR0ZEYVREaUxDZzRZLXBIbHg5V0pCODR4QXRSeDl6Z3JCdWN1SFQ3ejNldWJId2F3N2Z2TnliZmF1QlllYXc0YVpSTG1GRUE5SXhSMXJoTFAxeVI?oc=5",
+     "source": "WHYY"
+    },
+    {
+     "title": "Lawsuit challenges freeze on new health insurance brokers ahead of open enrollment - Marketplace.org",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOFRJYVJuc3BBdFd0Y1lIQ2Mzcl9DSXctNHlfNS1VQ2FYZmRWcy1QbzgxdngxZFJEa2JqYzYzaDVrX3I2VnB4ZmIzVl9UaXJYcDZMSVV2UzlpXy1VQ1REOUpvRTJ4SC04RjBQNkR2akgyd0VFMWthNW9TT0ZGaTU2NnNSTlNSWEVBR0xIWGFPdzdtM2hEbkhMQW4xQ1hVTEFSckk0TGVWU3ZOYTlYODRn?oc=5",
+     "source": "Marketplace.org"
+    },
+    {
+     "title": "Need health insurance? Here’s how 2027 ACA options may affect immigrants and more - The Haitian Times",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeDFwYjRyOEl0ejRaNk50TnlhNWlzZEduV215OVpxWDJ2MFpqb0E2dHdNaS02NVNUZWdDc1NWdVVZSHBfRXlFOHBPMnp6TUdiMEdtcUo1ZWJkNC1GNWN1MlVWUlBsUTBfZlRNb2xaaU9jeWVwWXRkMHNndUJXVGpsblV3eF9kTW5J?oc=5",
+     "source": "The Haitian Times"
+    },
+    {
+     "title": "Looking for an ACA Marketplace health plan? Here's where to start - Dallas News",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeGM3WEpUZVZqSjdDNjJFYmdDOXJrZkN1MDJpRkRZOXdVZ1RuVHNfR2trU1lpSHhJaExKMXg3d3o0SlNydXl6c3dHNjZHcVhvT0xPOFMtLUpHYlRJTktVRDlUa3hSM2JqVlJhaEcyYUItVzhiVVZURzFDUWU5dTRXQ3dlN1hoRnh4M183djFhcWNfcXpDQ0ZQd3VLNmZLSXM1dWdF?oc=5",
+     "source": "Dallas News"
+    },
+    {
+     "title": "Health insurance costs rise for 2027 - Spectrum News",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYnpuTGRlTVpoQUREdFJzZWFZZTBidU1vNDJPSzQ4S3VfaGhqZS1BM1JOVmNrREdCMzZLbDZqTzhzdGx2dHFuNmdFdjBjU2sxSmU1M2tGWU5aRmRBN0djcV9HNTRjYWRpWEN4YThXZ0tSSnBPUWFEZG9UUHJIeG05YlhWMUhEZm1fNXJzY3JqVFZ5VVZvYVhTUkJrdGI0SXdwVXBEd1pxUHk?oc=5",
+     "source": "Spectrum News"
+    }
+   ],
+   "official": false,
+   "score": 31.5,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
    "article_count_24h": 29,
-   "article_count_1h": 2,
+   "article_count_1h": 1,
    "published": "2026-10-29T04:34:54+09:00",
    "category": "Recalls",
    "news": [
@@ -979,14 +1056,14 @@
     }
    ],
    "official": false,
-   "score": 34.6,
+   "score": 30.9,
    "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "LIHEAP",
    "traffic": 0,
-   "article_count_24h": 7,
+   "article_count_24h": 6,
    "article_count_1h": 0,
    "published": "2026-10-29T15:12:51+09:00",
    "category": "Benefits",
@@ -997,16 +1074,6 @@
      "source": "The Owensboro Times"
     },
     {
-     "title": "Hutchinson expands utility assistance program to residents of all ages - Hutch Post",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wUldodmJVZ3lxNkRRZEhneXlEWUdCNVZuYVp0S1pFb1M5RWlhTUJaaUpFOUZBVHNaeUFoQVoydWJFRjhxLVNKVUZYVTh6dzJ4b2VIdnE3YXBteE9ma1VZVDhzOFo2d3A5NnZUck92YjNHUQ?oc=5",
-     "source": "Hutch Post"
-    },
-    {
-     "title": "Home heating oil prices have doubled in a year. Customers brace for cold — and big bills - PennLive.com",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNWIxQ255THVzaHNXbzdvS3paLUFiNGZtQWJXVXQwR2ZYV1ZELWNjWFMtSTRiVHRET25HbWNmTmdtZjhoVUk3SjVSeUQyRlpKanFzZFFvUFN3aUdMMVFJel9ZUVg5OHdNYVVDdGRFVTRfTW04UjRGRG1WZ0dWMW5ld3I0NnF1VURQem5QMmtZZi1TdmNwYVlRSHgwV0VCck10dmZBeGpRRVk0NklHN3l2TjNoeS1QR1c1a1FRejVOYjJweHNLYnc0UGVnbU1ld9IB4gFBVV95cUxONXBXb2JBajgydzVVMGppQ09GTFlvQl9xUXJ0SVVJOC1NaUlTckdnenhfZkIyaU9VTklZck1Ed0huRkhaZ0hSaTQ3TWNwNmN2V1h2ZWl5Szhtd1l2ZFRBS0dENnUwZEZFand6UHRFdmZzVjY2SjJEY1NmWjQ0UVNkSnVZQ2VSbjFaRlllSVVoRTJVMzNjMS05cDhfUkxSTk9ZaUQtQ2pvTDBYclRKQ3M0VnBCZk4yWl96eTRLMktRcjJGbk1VTng4QmlUSDhCQmdxcEhaOWVUMEF1N0Fzc3VrbWZB?oc=5",
-     "source": "PennLive.com"
-    },
-    {
      "title": "Trahan highlights $142 million in heating assistance as winter costs rise - WestfordCAT",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNajUwY2FmZl96d3g4YnFTWVpQUWVRbC1uQ3FkSFdlNXFtQnB0SGgtZmd1OEZ3SkV5djBkSHRPSGc3S2VHc1lIdzFKbVltNTRyZUdFajZUc2huNWtWYkdWUmdFcFNRdHY4c05CRUdkZHFWdVJyWTAyd19HRG41VlBTWmpOTFhuaG13VURLNWtfVVY3U3Z4UmcxNENnbjlfY2pzRU1saE44dDA?oc=5",
      "source": "WestfordCAT"
@@ -1015,57 +1082,28 @@
      "title": "‘Keeping Coos Warm’ Begins in Berlin as Councilors Search for More Heating Fuel Help - InDepthNH.org",
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbVYwMWpZa3lwbzloOXduMTVtQVVXWDJoYlBRV3BDZGRkb1RqOVJ6R1BMTjc1ZURYZ1hvaFFwNmZpeGRjX1JfSVpMdHgyWlNEdUVRbzhFd0ljdVpKSlNMZVBUeHFEUXN2aFQtNW9vVUEwN0NFZWxkZFV6VGxVY0lZQ2YyYUZYMEd2RGx2V0Italoya2FIUHJnZEtDZXJ4QmYzUS1tZmcxbzBLak1XbHB6aDdyZlJhMVZ6WXlzaWI3QmtWWHJZLWpxcw?oc=5",
      "source": "InDepthNH.org"
+    },
+    {
+     "title": "Hutchinson expands utility assistance program to residents of all ages - Hutch Post",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wUldodmJVZ3lxNkRRZEhneXlEWUdCNVZuYVp0S1pFb1M5RWlhTUJaaUpFOUZBVHNaeUFoQVoydWJFRjhxLVNKVUZYVTh6dzJ4b2VIdnE3YXBteE9ma1VZVDhzOFo2d3A5NnZUck92YjNHUQ?oc=5",
+     "source": "Hutch Post"
+    },
+    {
+     "title": "Free firewood now; uncertainty next year - The Monitor - Jefferson County",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DUHd2ckZfR1dtVzVkaGhpRVEwVTV3Z1hiZmJVcGhhN0hlNjNiaXZBcTBqYUM1UWUzWXY0Y21za3BqMmdZOVFzT2JrZGpDdEx6bmlHVjFxWFlmNGhFX1dwa1paenBxTzlVTUMwc0pZYw?oc=5",
+     "source": "The Monitor - Jefferson County"
     }
    ],
    "official": false,
-   "score": 33.6,
+   "score": 28.8,
    "already_covered": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "ACA open enrollment",
-   "traffic": 0,
-   "article_count_24h": 33,
-   "article_count_1h": 0,
-   "published": "2026-10-28T22:30:00+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "Lawsuit challenges freeze on new health insurance brokers ahead of open enrollment - Marketplace.org",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOFRJYVJuc3BBdFd0Y1lIQ2Mzcl9DSXctNHlfNS1VQ2FYZmRWcy1QbzgxdngxZFJEa2JqYzYzaDVrX3I2VnB4ZmIzVl9UaXJYcDZMSVV2UzlpXy1VQ1REOUpvRTJ4SC04RjBQNkR2akgyd0VFMWthNW9TT0ZGaTU2NnNSTlNSWEVBR0xIWGFPdzdtM2hEbkhMQW4xQ1hVTEFSckk0TGVWU3ZOYTlYODRn?oc=5",
-     "source": "Marketplace.org"
-    },
-    {
-     "title": "N.J. health insurance premiums on ACA marketplace rise by 20% for 2027 plans - WHYY",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPaFExZXJJMlVHbEZ5eW1VdDhkcVBZcERiYTlJSUZ2cUpPTVZXY2FIakwxakdYVUdrcUZYWm1TUGJBV3FQTzh6NVZQWkluejk2aElZVmZDX1pzcDRsNTZKZ2ZyekhwY0FnVldmVWNjd0RiUWRVSmlFTWd0SnZKRjRvUEFhelF5UTY5Q3c4c3lKcEhyNm9NUnZ1bGxBR2FjTUhIcjNnb3FjUE9xR0ZEYVREaUxDZzRZLXBIbHg5V0pCODR4QXRSeDl6Z3JCdWN1SFQ3ejNldWJId2F3N2Z2TnliZmF1QlllYXc0YVpSTG1GRUE5SXhSMXJoTFAxeVI?oc=5",
-     "source": "WHYY"
-    },
-    {
-     "title": "Need health insurance? Here’s how 2027 ACA options may affect immigrants and more - The Haitian Times",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeDFwYjRyOEl0ejRaNk50TnlhNWlzZEduV215OVpxWDJ2MFpqb0E2dHdNaS02NVNUZWdDc1NWdVVZSHBfRXlFOHBPMnp6TUdiMEdtcUo1ZWJkNC1GNWN1MlVWUlBsUTBfZlRNb2xaaU9jeWVwWXRkMHNndUJXVGpsblV3eF9kTW5J?oc=5",
-     "source": "The Haitian Times"
-    },
-    {
-     "title": "Shapiro Administration Releases Health Insurance Transparency Resources Ahead of Open Enrollment - GantNews.com",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSmVvNG9SNUgwQmhOTTIyYkNrZGt6bWkwaXRZNVhrdm5aSU5nRWJJandoZ3Q1WDNla3FwcmpwV3lJbVppM2VmVnFTaVpJV3lUMnNZX1ZvYjVuTlVlbnJzVEVBeGFScmFndWxXcHVDalVhcVRIb09LWU5CeWZQWmk5bTFpNFZzQlV2UTkwbm0xOEY4bC1yNktPSUJ4am9YSDhoY3lCNlhpUG0yNnBHVXd5QnNXa0JZS0JjMkFFTnRWUk9Qc3ZBM2x3QtIBzgFBVV95cUxQZ2o0WUtrU28tcXN5LXg0YjdqeDAyRjNCV0dDYUlkSlQxV3F4bmhoWUxsUTVVb0VvcXdieU44SThJYjJQRWtCOXlaa0lDNDhncUpXYkZxTmMtVWFLdXNJVEVzWG1VRHI5a3h3UEFzR2x2SS1QWFg5QzZIRmstbWswaHpuQk9meGJMZWdUMlNjWWp0OUtaTEhWOUJPM3Itb2JoR2hxcmJpM084emhrdy1OTlNQaThpMktDZWtzOFhHcWRRdU1LSndLT1JHQnRNZw?oc=5",
-     "source": "GantNews.com"
-    },
-    {
-     "title": "Looking for an ACA Marketplace health plan? Here's where to start - Dallas News",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeGM3WEpUZVZqSjdDNjJFYmdDOXJrZkN1MDJpRkRZOXdVZ1RuVHNfR2trU1lpSHhJaExKMXg3d3o0SlNydXl6c3dHNjZHcVhvT0xPOFMtLUpHYlRJTktVRDlUa3hSM2JqVlJhaEcyYUItVzhiVVZURzFDUWU5dTRXQ3dlN1hoRnh4M183djFhcWNfcXpDQ0ZQd3VLNmZLSXM1dWdF?oc=5",
-     "source": "Dallas News"
-    }
-   ],
-   "official": false,
-   "score": 31.5,
-   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 14,
+   "article_count_1h": 16,
    "published": "2026-10-29T00:25:30+09:00",
    "category": "기타",
    "news": [
@@ -1141,7 +1179,7 @@
   {
    "source": "google_trends",
    "keyword": "sl vs eng",
-   "traffic": 1000,
+   "traffic": 2000,
    "published": "2026-10-29T16:20:00+09:00",
    "category": "기타",
    "news": [
@@ -1162,9 +1200,9 @@
     }
    ],
    "official": false,
-   "spike": "검색량 500→1,000",
+   "spike": "검색량 1,000→2,000",
    "spike_bonus": 20,
-   "score": 15.0,
+   "score": 18.0,
    "already_covered": false,
    "evidence": [
     {
@@ -1180,11 +1218,52 @@
    ]
   },
   {
+   "source": "google_trends",
+   "keyword": "stock market today",
+   "traffic": 2000,
+   "published": "2026-10-29T17:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Nasdaq-100 futures fall over 1% as Alphabet shares sell off after earnings report: Live updates",
+     "url": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html",
+     "source": "CNBC"
+    },
+    {
+     "title": "Stock market today: Dow rises, S&P 500 and Nasdaq futures fall as Alphabet stock sells off, AI jitters return",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-081708101.html",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "US tech stocks set to fall after earnings fuel AI spending concerns",
+     "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
+     "source": "Financial Times"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html",
+     "title": "Nasdaq-100 futures fall over 1% as Alphabet shares sell off after earnings report: Live updates",
+     "outlet": "CNBC"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-081708101.html",
+     "title": "Stock market today: Dow rises, S&P 500 and Nasdaq futures fall as Alphabet stock sells off, AI jitters return",
+     "outlet": "Yahoo Finance"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "REAL ID",
    "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 1,
+   "article_count_24h": 24,
+   "article_count_1h": 0,
    "published": "2026-10-29T03:55:16+09:00",
    "category": "기타",
    "news": [
@@ -1204,65 +1283,114 @@
      "source": "WGN-TV"
     },
     {
+     "title": "‍(sTrEaMs Coverage)! Austin FC v Real Salt Lake LIVE 𝐒𝐭𝐫𝐞𝐚𝐦 Ｆｒｅｅ Ｃｈａｎｎｅｌ 29 October 2026 - Vantage Data Centers",
+     "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQZjFhQUxja3AxMnR4dzBVbEpSY1drS1VOSEdfQ0JlV25Va0luQVR3aEVFd241dWFaUlFOX25IX1k2VnF6X1daNzFnaUtkTGVIcnFZMUpLa1JkQkd4a19vVnpibFNwLThHOWFlalJGVjZmQy1zcnFKZkF5aFhIeERmclktMVhvSTl1Y21KTzNhNjAyZmdwRkVQalV6cHc2Z0hfaWU3SXdCaVVZTHUwSVZZOFBPeV9tWlVpTUp4WG1sM2wtYXloRnVrZlpTM1hhWVRyVTg5MEY3Y1F5cWZ4dnBBdUJjWGJ0QktYcEp0OUVaTTgxT21oVUF1V0xyVFRyYTZqME94VHpKMDkxZHRFLXc5RlFYSGVlYnY0YlBBb0VWU3ctMFE0d1ZiTGdjek5fMXRMVDNoZ0ZsUndXMmFsa0I1RFBIeVM3NVBvak5mdURPZ2VsQV9jUkpqQw?oc=5",
+     "source": "Vantage Data Centers"
+    },
+    {
      "title": "KIRO 7 Investigates: Price vs portion size at fast food chains - KIRO 7 News Seattle",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVVZwVWxjLTlGaDBWUE9RTl9vSHB4RllkUy12ZkJwSDI3UFd0YzgweHpjeDA2NHhucDlZaElCNFg3cGtTclJKSndBTmMtOHVKUjU1STlwbGNtcWphZzRQNnEzQURQdDV2YTE0YnZzQmlOU3l1eEhiSXc3MW5zQVpVajZaWXdrelZuOHY3LV9KQjlEYW9LLWROLV9uWkNUVlBrRGdoMG0yZXdiekpfcmJwUzdIakxzenkyN3o1ZzQwR1JCa3EyYzVodEItTGNORThvTmc?oc=5",
      "source": "KIRO 7 News Seattle"
-    },
-    {
-     "title": "Children Born Between 2008 and 2026 Do Not Need to Show a Real ID or Other Acceptable ID at Any Airport to Fly Domestically: Here’s What They Do Need to Do - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQWFhXZGNmYVNEZjRIWTdwSlgyZUFWeW5HT2REWWlYLTVlcFRKZlFDZ3p2YWhEQmlWLUpoSXhhVHdSMWtpX0F1VzFaY0E5T1h1XzFYOEhKSFROQmxXbUJkRTdvZjBScS1ONDhqWUtyaElmMGhaT0NDMVlncnVuVUlYQWJQUTFhUEVZb2ptaFRhMmtIc0dQOFBVcEZSSk8xTXctMGl0OXZ5UU9lUXBsaXNuRnFSX2hDYUg5RzZhVFRMejdGd2NTOGlON0RHSUtFWTB1cWFtUUdZUFJnWG5uYXZpeVhYc0dMUnNIOWppN29CTEFMa21qTkFQTTBkZ1puZE54ZnpkSTdlSk43QTJ1WUNnbFF3VnQzZWs?oc=5",
-     "source": "El Cronista"
     }
    ],
    "official": false,
-   "score": 14.3,
+   "score": 12.6,
    "already_covered": true
   },
   {
    "source": "google_trends",
-   "keyword": "yulia putintseva",
-   "traffic": 500,
-   "published": "2026-10-29T16:20:00+09:00",
+   "keyword": "elena rybakina",
+   "traffic": 200,
+   "published": "2026-10-29T17:30:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Rybakina vs Putintseva • Tokyo 2026",
-     "url": "https://en.tennistemple.com/match/rybakina-putintseva-tokyo-2026/9487299/",
-     "source": "TennisTemple"
+     "title": "Rybakina looking to clinch year-end number one in Tokyo",
+     "url": "https://japantoday.com/category/sports/rybakina-looking-to-clinch-year-end-number-one-in-tokyo",
+     "source": "Japan Today"
     },
     {
-     "title": "WTA Tokyo Round of 16 Best Bets Including Elena Rybakina vs Yulia Putintseva",
-     "url": "https://lastwordonsports.com/tennis/2026/10/28/wta-tokyo-rybakina-putintseva/",
-     "source": "Last Word On Sports"
+     "title": "Rankings Watch: Rybakina one win from securing year-end World No. 1",
+     "url": "https://www.wtatennis.com/news/4599060/rankings-watch-rybakina-one-win-from-securing-year-end-world-no-1",
+     "source": "WTA Tennis"
     },
     {
-     "title": "Elena Rybakina vs. Yulia Putintseva prediction, odds, picks for WTA Toray Pan Pacific Open 2026",
-     "url": "https://www.dimers.com/tennis/news/elena-rybakina-vs-yulia-putintseva-tennis-prediction-wta-toray-pan-pacific-open-2026-ac",
-     "source": "Dimers"
+     "title": "The change that allowed Elena Rybakina to dominate the WTA tour",
+     "url": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170980/the-change-that-allowed-elena-rybakina-to-dominate-the-wta-tour/",
+     "source": "Tennis World USA"
     }
    ],
    "official": false,
-   "spike": "검색량 100→500",
-   "spike_bonus": 20,
-   "score": 13.5,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://en.tennistemple.com/match/rybakina-putintseva-tokyo-2026/9487299/",
-     "title": "Rybakina vs Putintseva • Tokyo 2026",
-     "outlet": "TennisTemple"
-    },
-    {
-     "url": "https://lastwordonsports.com/tennis/2026/10/28/wta-tokyo-rybakina-putintseva/",
-     "title": "WTA Tokyo Round of 16 Best Bets Including Elena Rybakina vs Yulia Putintseva",
-     "outlet": "Last Word On Sports"
-    },
-    {
-     "url": "https://www.dimers.com/tennis/news/elena-rybakina-vs-yulia-putintseva-tennis-prediction-wta-toray-pan-pacific-open-2026-ac",
-     "title": "Elena Rybakina vs. Yulia Putintseva prediction, odds, picks for WTA Toray Pan Pacific Open 2026",
-     "outlet": "Dimers"
+     "url": "https://www.wtatennis.com/news/4599060/rankings-watch-rybakina-one-win-from-securing-year-end-world-no-1",
+     "title": "Rankings Watch: Rybakina one win from securing year-end World No. 1",
+     "outlet": "WTA Tennis"
     }
    ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "lol",
+   "traffic": 100,
+   "published": "2026-10-29T17:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "GCD: The LoL Esports Global Contract Database",
+     "url": "https://www.sheepesports.com/en/articles/gcd-the-lol-esports-global-contract-database/en",
+     "source": "Sheep Esports"
+    },
+    {
+     "title": "The HUF x ‘League of Legends’ Worlds 2026 Collection Raids the Championship Skin Vault",
+     "url": "https://hypebeast.com/2026/10/huf-league-of-legends-worlds-championships-2026-collaboration-collection-release-info",
+     "source": "Hypebeast"
+    },
+    {
+     "title": "This tiny West L.A. studio sparked a 1 million viewer global phenomenon streaming League of Legends",
+     "url": "https://secretlosangeles.com/league-of-legends-worlds-2026/",
+     "source": "Secret Los Angeles"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false,
+   "evidence": []
+  },
+  {
+   "source": "google_trends",
+   "keyword": "black friday 2026",
+   "traffic": 100,
+   "published": "2026-10-29T17:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Horror Game Sales: Save on Resident Evil, Until Dawn, Silent Hill, and More Ahead of Halloween",
+     "url": "https://www.ign.com/articles/horror-game-sales-ahead-of-halloween-2026",
+     "source": "IGN"
+    },
+    {
+     "title": "Should you wait for the PlayStation Black Friday sale? What shoppers should know",
+     "url": "https://www.nj.com/shopping-deals/2026/10/should-you-wait-for-the-playstation-black-friday-sale-what-shoppers-should-know.html",
+     "source": "NJ.com"
+    },
+    {
+     "title": "Best Buy updates 2026 Halloween sale with new deals: Switch/PS5 games, accessories, TVs, more",
+     "url": "https://9to5toys.com/2026/10/26/best-buy-updates-2026-halloween-sale-new-deals/",
+     "source": "9to5Toys"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
   },
   {
    "source": "google_trends",
@@ -1282,28 +1410,14 @@
      "source": "Fox News"
     },
     {
-     "title": "Joan Smalls hints at Candice Swanepoel rift over Tom Brady relationship in pointed ‘accountability’ post",
-     "url": "https://pagesix.com/2026/10/28/celebrity-news/joan-smalls-hints-at-candice-swanepoel-rift-over-tom-brady-relationship/",
-     "source": "Page Six"
+     "title": "Tom Brady and Supermodel Candice Swanepoel Have Been Dating ‘For a While,’ Source Says",
+     "url": "https://www.usmagazine.com/celebrity-news/news/tom-brady-and-supermodel-candice-swanepoel-are-dating/",
+     "source": "Us Weekly"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.foxnews.com/entertainment/tom-brady-latest-romance-sparks-victorias-secret-model-war-report",
-     "title": "Tom Brady’s latest romance sparks Victoria’s Secret model war: report",
-     "outlet": "Fox News"
-    },
-    {
-     "url": "https://pagesix.com/2026/10/28/celebrity-news/joan-smalls-hints-at-candice-swanepoel-rift-over-tom-brady-relationship/",
-     "title": "Joan Smalls hints at Candice Swanepoel rift over Tom Brady relationship in pointed ‘accountability’ post",
-     "outlet": "Page Six"
-    }
-   ]
+   "score": 0.6,
+   "already_covered": false
   },
   {
    "source": "google_trends",
@@ -1329,145 +1443,7 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.yahoo.com/entertainment/movies/articles/emma-stone-thank-big-twist-073015537.html",
-     "title": "Emma Stone Is To Thank for The Big Twist in ‘You Can See Everything' [Spoilers]",
-     "outlet": "Yahoo"
-    },
-    {
-     "url": "https://www.cinemablend.com/movies/just-found-out-another-a-list-actress-involved-you-can-see-everything-emma-stone",
-     "title": "I Just Found Out Another A-List Actress Was Also Involved With You Can See Everything",
-     "outlet": "Cinemablend"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "tokyo open",
-   "traffic": 100,
-   "published": "2026-10-29T16:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Naomi Osaka expands her tennis fashion vision beyond Grand Slams with Tokyo crane kimono",
-     "url": "https://www.nytimes.com/athletic/7726913/2026/10/27/naomi-osaka-tennis-fashion-outfits-tokyo-pan-pacific-open/",
-     "source": "The New York Times"
-    },
-    {
-     "title": "WTA Tour: Naomi Osaka wears Japan-inspired outfit during Tokyo win as Venus Williams loses to teenager at Guangzhou Open",
-     "url": "https://www.skysports.com/tennis/news/13604425/wta-tour-naomi-osaka-wears-japan-inspired-outfit-during-tokyo-win-as-venus-williams-loses-to-teenager-at-guangzhou-open",
-     "source": "Sky Sports"
-    },
-    {
-     "title": "Osaka saves triple set point vs. Paolini, advances to Tokyo second round",
-     "url": "https://www.wtatennis.com/videos/4599556/osaka-saves-triple-set-point-vs-paolini-advances-to-tokyo-second-round",
-     "source": "WTA Tennis"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.skysports.com/tennis/news/13604425/wta-tour-naomi-osaka-wears-japan-inspired-outfit-during-tokyo-win-as-venus-williams-loses-to-teenager-at-guangzhou-open",
-     "title": "WTA Tour: Naomi Osaka wears Japan-inspired outfit during Tokyo win as Venus Williams loses to teenager at Guangzhou Open",
-     "outlet": "Sky Sports"
-    },
-    {
-     "url": "https://www.wtatennis.com/videos/4599556/osaka-saves-triple-set-point-vs-paolini-advances-to-tokyo-second-round",
-     "title": "Osaka saves triple set point vs. Paolini, advances to Tokyo second round",
-     "outlet": "WTA Tennis"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "yaxel",
-   "traffic": 100,
-   "published": "2026-10-29T16:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Warriors' Yaxel Lendeborg: 'Lost all respect' for Luka Doncic",
-     "url": "https://www.espn.com/nba/story/_/id/50245902/warriors-yaxel-lendeborg-lost-all-respect-luka-doncic",
-     "source": "ESPN"
-    },
-    {
-     "title": "Yaxel Lendeborg Had Bold Reaction For Luka Doncic Rematch",
-     "url": "https://sports.yahoo.com/articles/yaxel-lendeborg-had-bold-reaction-072743095.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Warriors rookie Yaxel Lendeborg ‘not afraid' to be himself after early criticism",
-     "url": "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/yaxel-lendeborg-luka-doncic-trash-talk/1973839/",
-     "source": "NBC Sports Bay Area & California"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "japan open",
-   "traffic": 100,
-   "published": "2026-10-29T16:10:00+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Canada's Leylah Fernandez wins first-round match at Japan Open",
-     "url": "https://www.sportsnet.ca/wta/article/canadas-leylah-fernandez-wins-first-round-match-at-japan-open/",
-     "source": "Sportsnet.ca"
-    },
-    {
-     "title": "Canada’s Fernandez holds off Mertens rally to advance from second round at Japan Open",
-     "url": "https://www.thestar.com/sports/tennis/canada-s-fernandez-holds-off-mertens-rally-to-advance-from-second-round-at-japan-open/article_3f4a6b26-c21e-5877-a8a6-a96797547549.html",
-     "source": "Toronto Star"
-    },
-    {
-     "title": "Sports News, Transfers, Scores | Watch Live Sport",
-     "url": "https://www.skysports.com/tennis/watch/6807277399678051112/toray-pan-pacific-open-tennis-2026",
-     "source": "Sky Sports"
-    }
-   ],
-   "official": false,
-   "score": 0.8,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "one piece 1197",
-   "traffic": 200,
-   "published": "2026-10-29T15:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "One Piece: Oda Officially Introduces New Yonko Level Ability for the Straw Hat Pirates",
-     "url": "https://www.imdb.com/news/ni66084717/?ref_=int_nwr_1",
-     "source": "IMDb"
-    },
-    {
-     "title": "One Piece Chapter 1197 Spoilers & Manga Plot Leaks",
-     "url": "https://www.yahoo.com/entertainment/tv/articles/one-piece-chapter-1197-spoilers-065915962.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "One Piece Chapter 1197 Release Date, Time & Where to Read",
-     "url": "https://www.aol.com/articles/one-piece-chapter-1197-release-045948000.html",
-     "source": "AOL.com"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
+   "score": 0.3,
    "already_covered": false
   },
   {
