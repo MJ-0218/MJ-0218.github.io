@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-10-29T12:11:07.519122+09:00",
+ "generated_at": "2026-10-29T12:40:47.179239+09:00",
  "sources": {
   "calendar": "ok (4)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 75, 실패 31)"
+  "evidence": "ok (저장 71, 실패 32)"
  },
  "compared_runs": 6,
  "spikes": [
   "social security COLA",
   "student loan",
-  "darryn peterson",
-  "uribe",
-  "sydney sweeney",
-  "milwaukee braves",
-  "trevor megill",
-  "novig",
-  "chourio",
-  "ace bailey",
-  "seattle kraken",
-  "bogdan bogdanović"
+  "brewers",
+  "1982 world series",
+  "cooper pratt mormon",
+  "america",
+  "bud selig",
+  "fanatics brewers",
+  "brewers pro shop",
+  "cuauhtémoc cárdenas",
+  "who won world series mvp",
+  "chris harrison"
  ],
  "candidates": [
   {
@@ -27,7 +27,7 @@
    "keyword": "social security COLA",
    "traffic": 0,
    "article_count_24h": 21,
-   "article_count_1h": 7,
+   "article_count_1h": 9,
    "published": "2026-10-29T07:41:00+09:00",
    "category": "Benefits",
    "news": [
@@ -58,9 +58,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 1.2→7건 (3.7배)",
-   "spike_bonus": 36.9,
-   "score": 139.0,
+   "spike": "최근 1시간 기사 2.3→9건 (3.0배)",
+   "spike_bonus": 30.0,
+   "score": 128.0,
    "already_covered": false,
    "evidence": [
     {
@@ -86,11 +86,34 @@
    ]
   },
   {
+   "source": "calendar",
+   "keyword": "Tax filing season extension",
+   "category": "Taxes",
+   "official_sources": [
+    "https://www.irs.gov/newsroom",
+    "https://www.irs.gov/filing"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-10-29T12:40:47.210435+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-tax-season-extension-2026",
+   "phase": "extension",
+   "queries": [
+    "october 15 tax extension deadline",
+    "extended tax return due date"
+   ],
+   "window": "2026-10 ~ 2026-10 (보통)",
+   "days_to_start": -27,
+   "in_window": true
+  },
+  {
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
-   "article_count_24h": 46,
-   "article_count_1h": 19,
+   "article_count_24h": 44,
+   "article_count_1h": 21,
    "published": "2026-10-29T05:47:46+09:00",
    "category": "Benefits",
    "news": [
@@ -121,9 +144,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 6.0→19건 (2.9배)",
-   "spike_bonus": 28.6,
-   "score": 88.0,
+   "spike": "최근 1시간 기사 7.5→21건 (2.6배)",
+   "spike_bonus": 25.9,
+   "score": 85.0,
    "already_covered": false,
    "evidence": [
     {
@@ -139,33 +162,10 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Tax filing season extension",
-   "category": "Taxes",
-   "official_sources": [
-    "https://www.irs.gov/newsroom",
-    "https://www.irs.gov/filing"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-10-29T12:11:07.549835+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-tax-season-extension-2026",
-   "phase": "extension",
-   "queries": [
-    "october 15 tax extension deadline",
-    "extended tax return due date"
-   ],
-   "window": "2026-10 ~ 2026-10 (보통)",
-   "days_to_start": -27,
-   "in_window": true
-  },
-  {
    "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 38,
+   "article_count_24h": 46,
    "article_count_1h": 12,
    "published": "2026-10-29T08:03:00+09:00",
    "category": "Benefits",
@@ -181,6 +181,11 @@
      "source": "Yahoo Finance"
     },
     {
+     "title": "Social Security November payment schedule: Here’s when recipients get their checks - FOX 5 DC",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjV0xzRXM4REFOZDUwVG5tQ0lrWjBSZkxGZ0Z4VWRlUloxTi1mRmVIc0sxTW9sZzlfcWFHTWpyb1p4RHZUZXhnQ3dVLTVDSndsMmg3dVkzTTIxOVFZZWVXTzRua2l5U3VVQ2ZmUFZ5TWl5Nlh3TUhWSXVRMA?oc=5",
+     "source": "FOX 5 DC"
+    },
+    {
      "title": "When November 2026 Social Security and SSI checks go out: See schedule - The Clarion-Ledger",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLUdUbElqT3J6cnl1Y0trZHFLVWNRRnB0Q1pPZEZCaWp0U2FSMHdVMzh6bzY2TG5iek4zbklRVy1aNDBrTEJHRldZWV91UmQ0dUVTMWVpOVctWGNBQUdCTXZtNlNQM25RUTRLTFdSMmlRZlFIMjJCaVZIZ3hfRjFMYXpaVjBhRE4xeFo1U3JIM1lhTjZxQW5mZkczcnBBa0FWZlBmb2g1eVRCRU4wbU5uQmZQZVJFMzU2UURtYmlERzRXZw?oc=5",
      "source": "The Clarion-Ledger"
@@ -189,11 +194,6 @@
      "title": "Social Security and SSI payments arrive early in November 2026 - Tododisca",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc2MwbDhxdXZFVlhuQ1htR1hhZUprVmZMbHZFN1o4bnFJeUJLbjVPYi0zU1h3NXZlQkw0dHc1b1ZuSEd1eHFPcVBWRUxTUW05bzBYYVNDTy16N2VqYXRFZVRYLXBJTWxmTlRDTGpuTmZybFlUY3NSakwyRUxYck5MaXVEM19qVGFiOWt3UXFZM1ExLVAyd0tUNQ?oc=5",
      "source": "Tododisca"
-    },
-    {
-     "title": "SSA and SSI payment schedule: Social Security sends out the last October deposit and has already confirmed November dates - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYktvVjN2M2dWNUZOLVB3dVdBWlhRSmNzbFFjUmxuMEdaVHlHdFRBcG8wd3JJa0hEOGN4a201UnFuLVl5RmpXV3FELXAxUVR0QUcxX1BMaFlQdnY0RU4yN283UDFFLVQ3X29ha2YtRFJKZldXZHc3bDc4SV9TQVpzemt3djBOSXZlQURaTXk3THExcEF0SW9ud2UzSWV0Q0RiTC1GOFRtUlMzNlIyQXZEbWtvLXNBN3YwRUxqVThyRnctcEhsdUF0dk9lUUNLclBrSmZOMkhkOG0yZV81T2QxUVpEUnNKWUxiTC01MnNR?oc=5",
-     "source": "El Cronista"
     }
    ],
    "official": false,
@@ -206,14 +206,14 @@
      "outlet": "Yahoo Finance"
     },
     {
+     "url": "https://www.fox5dc.com/news/social-security-november-2026-payment-dates",
+     "title": "Social Security November payment schedule: Here’s when recipients get their checks - FOX 5 DC",
+     "outlet": "FOX 5 DC"
+    },
+    {
      "url": "https://tododisca.es/sociedad/social-security-and-ssi-payments-arrive-early-in-november-2026/",
      "title": "Social Security and SSI payments arrive early in November 2026 - Tododisca",
      "outlet": "Tododisca"
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/ssa-and-ssi-payment-schedule-social-security-sends-out-the-last-october-deposit-and-has-already-confirmed-november-dates/",
-     "title": "SSA and SSI payment schedule: Social Security sends out the last October deposit and has already confirmed November dates - El Cronista",
-     "outlet": "El Cronista"
     }
    ]
   },
@@ -221,8 +221,8 @@
    "source": "google_news",
    "keyword": "SSI payment",
    "traffic": 0,
-   "article_count_24h": 32,
-   "article_count_1h": 6,
+   "article_count_24h": 31,
+   "article_count_1h": 5,
    "published": "2026-10-29T08:03:00+09:00",
    "category": "Benefits",
    "news": [
@@ -282,7 +282,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-29T12:11:07.549951+09:00",
+   "published": "2026-10-29T12:40:47.210553+09:00",
    "score": 71,
    "already_covered": false,
    "cycle": "us-federal-holidays-veterans-day-2026",
@@ -305,7 +305,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-29T12:11:07.549971+09:00",
+   "published": "2026-10-29T12:40:47.210573+09:00",
    "score": 71,
    "already_covered": false,
    "cycle": "us-federal-holidays-thanksgiving-2026",
@@ -327,7 +327,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-10-29T12:11:07.550032+09:00",
+   "published": "2026-10-29T12:40:47.210617+09:00",
    "score": 71,
    "already_covered": false,
    "cycle": "us-rmd-yearend-2026",
@@ -341,11 +341,47 @@
    "in_window": false
   },
   {
+   "source": "google_trends",
+   "keyword": "brewers",
+   "traffic": 200000,
+   "published": "2026-10-29T12:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Brewers vs. Rays live score, updates: Milwaukee leads Tampa Bay early in MLB World Series Game 5",
+     "url": "https://www.nytimes.com/athletic/live-blogs/brewers-vs-rays-live-updates-mlb-world-series-game-5-score-result/syFE55E4DZfy/",
+     "source": "The New York Times"
+    },
+    {
+     "title": "'We’ve got one more day': Rays walk it off to force Game 5",
+     "url": "https://www.mlb.com/news/rays-win-world-series-game-4-2026",
+     "source": "MLB.com"
+    },
+    {
+     "title": "Brewers vs Rays live updates in World Series Game 5, score, highlights",
+     "url": "https://www.jsonline.com/story/sports/mlb/brewers/2026/10/28/brewers-vs-rays-world-series-game-5-live-updates-score-highlights--live/92472944007/",
+     "source": "Milwaukee Journal Sentinel"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 69.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.mlb.com/news/rays-win-world-series-game-4-2026",
+     "title": "'We’ve got one more day': Rays walk it off to force Game 5",
+     "outlet": "MLB.com"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 31,
+   "article_count_1h": 36,
    "published": "2026-10-29T09:13:49+09:00",
    "category": "Elections",
    "news": [
@@ -360,6 +396,11 @@
      "source": "Washoe Life (.gov)"
     },
     {
+     "title": "Obama visits Georgia to boost Democrats ahead of Election Day | - Capitol Beat",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa241elRSOE16UmZDblJja1RKcVdRdXp5ODdqUTVObmxlRXUtc19mOFNtelNPOHNzU08xZDJodThTaEtlTWx2YUt2ZzNXMk1uZDZsblIwanI0Vm16dzNkYzN4QU5QbFlBSy1aUHVZQi1fQXllTUl1VlJHbEU5U2pIOW9RNV9zY0otNVlpMDJmT25VTnNyclZNbkVVZw?oc=5",
+     "source": "Capitol Beat"
+    },
+    {
      "title": "We’ve seen it before: Common themes to expect on and before Election Day - Center for an Informed Public",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MR0ZUYlg0ZlpZZVpCdWxZbjliZzhmYkxNXzhDVEx0VURPOGJtZDhMWGt6R1FSTk8yaDJOSDRFbHFnMWkyUFdmTEVxbnpKOF9HQ3JFam5XcTFrdkhuOGhId0Z6TDhWWk5wYXhKZlFKenBwVEd4RVE?oc=5",
      "source": "Center for an Informed Public"
@@ -368,11 +409,6 @@
      "title": "City of Norfolk Closed for Election Day - City of Norfolk (.gov)",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GNXhVWDF3MmFGZjktWW1wbkgzVXlvZWlrdTZYRmgybHVBQlRlbm1Rc0FIdWoxdDJzdFRIMGNOZUZEME1vMEpfc0N0MVI5S3dJOVZuQk5LRGVOZw?oc=5",
      "source": "City of Norfolk (.gov)"
-    },
-    {
-     "title": "\"Nauseously optimistic\": Anxious House Democrats brace for midterm Election Day - Axios",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPblJXZHViZlMwMkNCamlaM2lPZFlVcnRsbWdBbGVQUURmWFpYZV8xQjY4WFZ1b3cwVjFoNkQ3Sl9pOF94aUZMNU5zUnF6Z2NNdkk0NnlqVEJuTkhkdUt3TV9QcGFwZnlfZ284aGE0Q054bVdBaTlVLWRyRXJTb3U1Y3lqNWE?oc=5",
-     "source": "Axios"
     }
    ],
    "official": false,
@@ -390,14 +426,14 @@
      "outlet": "Washoe Life (.gov)"
     },
     {
+     "url": "https://capitol-beat.org/2026/10/obama-visits-georgia-to-boost-democrats-ahead-of-election-day/",
+     "title": "Obama visits Georgia to boost Democrats ahead of Election Day | - Capitol Beat",
+     "outlet": "Capitol Beat"
+    },
+    {
      "url": "https://www.cip.uw.edu/2026/10/28/common-rumor-themes-election-day/",
      "title": "We’ve seen it before: Common themes to expect on and before Election Day - Center for an Informed Public",
      "outlet": "Center for an Informed Public"
-    },
-    {
-     "url": "https://norfolk.gov/m/newsflash/home/detail/10588",
-     "title": "City of Norfolk Closed for Election Day - City of Norfolk (.gov)",
-     "outlet": "City of Norfolk (.gov)"
     }
    ]
   },
@@ -406,8 +442,8 @@
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 25,
-   "published": "2026-10-29T10:06:17+09:00",
+   "article_count_1h": 21,
+   "published": "2026-10-29T10:36:04+09:00",
    "category": "Elections",
    "news": [
     {
@@ -466,8 +502,8 @@
    "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 46,
-   "article_count_1h": 2,
+   "article_count_24h": 32,
+   "article_count_1h": 3,
    "published": "2026-10-29T08:43:21+09:00",
    "category": "Health Insurance",
    "news": [
@@ -498,7 +534,7 @@
     }
    ],
    "official": false,
-   "score": 57.0,
+   "score": 63.0,
    "already_covered": false,
    "evidence": [
     {
@@ -525,118 +561,62 @@
   },
   {
    "source": "google_news",
-   "keyword": "federal holiday",
+   "keyword": "tax deadline",
    "traffic": 0,
-   "article_count_24h": 40,
-   "article_count_1h": 3,
-   "published": "2026-10-29T03:46:00+09:00",
-   "category": "Benefits",
+   "article_count_24h": 21,
+   "article_count_1h": 6,
+   "published": "2026-10-29T04:52:25+09:00",
+   "category": "Taxes",
    "news": [
     {
-     "title": "When is Veterans Day 2026? Is it a federal holiday? What to know - Cincinnati Enquirer",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWlRpeDNzWGdUWlZRQXg3cWlwaEVaQzZaamIxYlo5cnJlSWpxZzVoQTBTTG12bE80VC1IZVAtQXp4aG91X245aG9mRnJEV2FKcGpNWHdVRTRidVdjRENlc3dyYlQyUEtIbkdKVVJTT1lRMGgzdDRuWElfR212RURaQ3FRdmc4bVVKcGVlcVFGNGVIT0htOTVjd3BNWUJtcDkxNnhCWjVLX0syYmRp?oc=5",
-     "source": "Cincinnati Enquirer"
+     "title": "IRS extends tax deadlines for Harris, Fort Bend and 60 other Texas counties. Here’s who qualifies - Click2Houston",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbXFUX2VpT3pMS2NtYnVyVTRQYXpWejFQNm44VXBzOUs3V1pRWWJPdHBmVTJfQ2k3Mm9VM3JreVZCQmxSUl9pb3lwLUg3MVpZM2packRLYnFNZGdHWFZRakpCQkN5Q19UbzJ5RGVDTHBndGdrcXQzMlhPUWRuY1dNcWo5bFFtQlJUQU03SU8zaHJpSXg3bzNiMGV4T0FBaldhbGY0OWFhTUlqbXJNWnA4aVpsZnNOOFVtcVNfRWhZN1NzMTVMOFBhQ2djXzdoUmd4YUhKN0ZjZFFRWEd1NnRLLQ?oc=5",
+     "source": "Click2Houston"
     },
     {
-     "title": "Seasonal holiday jobs may help Oregonians meet federal SNAP requirements, DHS says - KPIC",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX3hnY0NrdEpxV3hUOVA4X0Z4Uk5yNmpUV1RZZlI3TU5mRTlpblF1SFN2NWdwR2xjekJiTDc0bzNLa3ctQnFIckZUUFdzdEpZbHdFTHRGN0lwNlY5Wjc2Ulk3enZBcHduZ213Z19MQXVsNC1nOWtBanFqWlFaRDU3c1RoSDI1SVBIV1V1SHNNR0hIZHNQRU9lVjllcjFPYlV5MHJqYjNyb2xkQlExNUE?oc=5",
-     "source": "KPIC"
+     "title": "Texas Flood Victims Get Federal Tax Deadline Extension Through February 2027 - Dallas Express",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeDR6Tkw3S2EwRlllNl9QOHdLd2JuT0hvZ1FNaG0tN2F4R01GZDhlT2hCSEJGNF9pa2MyMzdKN3pMeENGSzA2WFJGbldoN25xTno4QTJDZTV6S0VyOWxuTG5tbkIybS1ER19MRDM3ODBrQzNTQVlIZjlCQkZ2RURxRFl5Y2F2MDc0a2FSajVaQzlhWExqa1d1aDZvWWo0TGVoQ3BHNEpZSWNIY0p1OFE?oc=5",
+     "source": "Dallas Express"
     },
     {
-     "title": "Veterans Day lunch for student veterans and active service members - Henry Ford College",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd1dfa2liUnAxekYybzk5eWtqUHdtNDBmNHhxeTFYUkZZY1NIbUp3bEQ2cnZOb3FTbU1QdWt4ZzNsWG5ERU5ELWx2bm9MRWF5NjVLUFNmVlhIV2N5OVpHNzBqNjBtV1JVZ0lpblNRVVliU3NTeE91WEtBam5EUlBySnRHMWwtNGZ6UHBHSVh3?oc=5",
-     "source": "Henry Ford College"
+     "title": "IRS extends tax deadlines for Texans in 62 counties hit by July storms - KEYE",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX1dkdTVkZWRtNzJvQW5VLWZhd3hRLXpXYWUtbmNXZWp2bGJIWVdSZlFmaDc1TWUtbFZHLW1nZGpJSWhwX0JGUHhIdTZnUE9ramJMVldCUHhMQ201YmJyMXRqSWFlVnVZbmY3UlBlbHV3OHdiSXItS214WTlKc0pjV013RjRiMnVUWENHdVJQMmUyTTlwMmZWaE1CUndwV3QxOWFHUm1R?oc=5",
+     "source": "KEYE"
     },
     {
-     "title": "Only Congress Can Change Federal Election Day, Not the President - Legis1",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YMXlXa0ZkRWJvRTE4eGFOU0VOV2NGaGlGeHNRU2sxN1g2bWFaNFlyaTllT3EtRWpmMW5CT3R4ak90UnBIVVV1OW1RMFNEcXlJRUZaakpXQVpacE1LaWpvaGtqbDdJWTdwbU1faVRZTHA2T3oxUTVxQ3JNVTJ0UQ?oc=5",
-     "source": "Legis1"
+     "title": "Pied-à-terre tax’s fate hinges on appeals court as city races against deadline - Crain's New York",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTHpDM3hQek9ydWpOSnQ2bnJiQ0ZFRTRIOFByV3liMFMxdW05alVZTjlKWFRvTTFFTTdGbVYxSzVRekpUWEprN3pfcHB3UmlIMktFNHcyNjV6SUdnNEFjSjVGMDVaRU1qbkxMOExHdnJUQUVRLUg4S2Z0cnZubmxoTVZSYnJCYnRCejlIYw?oc=5",
+     "source": "Crain's New York"
     },
     {
-     "title": "Social Security and SSI payments arrive early in November 2026 - Tododisca",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc2MwbDhxdXZFVlhuQ1htR1hhZUprVmZMbHZFN1o4bnFJeUJLbjVPYi0zU1h3NXZlQkw0dHc1b1ZuSEd1eHFPcVBWRUxTUW05bzBYYVNDTy16N2VqYXRFZVRYLXBJTWxmTlRDTGpuTmZybFlUY3NSakwyRUxYck5MaXVEM19qVGFiOWt3UXFZM1ExLVAyd0tUNQ?oc=5",
-     "source": "Tododisca"
+     "title": "IRS Extends Tax Deadlines For Texas Counties Hit By Storms - Law360",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcE16WGFNRDdQb2N1VFBkQ243UmlSYkNYVXJ5aG12RTJ2dldnWUNGWktra1N6MGUxdWtiVzFvZm9NRUJXa2R2Q3pueGNfMFBGam92ZjRoMlEtem5SMUpnUnRtQ2tqQUNKSnJhX2duaVlLQXAzR2M5UHRHbjRnZUhndDVkaU43RHZvSDZfZWRlc0Z5XzZnSW03LUp3eEFPM2PSAWhBVV95cUxPd19oNmhRRU83a3o1elluU0tkb0FsNU9iQkMzMXlRYWpoN2JORDV3enBveWUxdmhmSFo5TDQ5NnoxQzcxcTFCaTRFcDU1SWEzbmpwdnNEdWl5Mk45NHhiZHh4ZU5vTGVQZA?oc=5",
+     "source": "Law360"
     }
    ],
    "official": false,
-   "score": 47.0,
+   "score": 52.5,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://kpic.com/news/local/seasonal-holiday-jobs-may-help-oregonians-meet-federal-snap-requirements-dhs-says",
-     "title": "Seasonal holiday jobs may help Oregonians meet federal SNAP requirements, DHS says - KPIC",
-     "outlet": "KPIC"
+     "url": "https://www.click2houston.com/news/local/2026/10/28/irs-extends-tax-deadlines-for-harris-fort-bend-and-60-other-texas-counties-heres-who-qualifies/",
+     "title": "IRS extends tax deadlines for Harris, Fort Bend and 60 other Texas counties. Here’s who qualifies - Click2Houston",
+     "outlet": "Click2Houston"
     },
     {
-     "url": "https://www.hfcc.edu/news/2026/veterans-day-lunch-students-and-active-service-members",
-     "title": "Veterans Day lunch for student veterans and active service members - Henry Ford College",
-     "outlet": "Henry Ford College"
+     "url": "https://dallasexpress.com/state/texas-flood-victims-get-federal-tax-deadline-extension-through-february-2027/",
+     "title": "Texas Flood Victims Get Federal Tax Deadline Extension Through February 2027 - Dallas Express",
+     "outlet": "Dallas Express"
     },
     {
-     "url": "https://legis1.com/news/federal-election-day-only-congress-can-change-not",
-     "title": "Only Congress Can Change Federal Election Day, Not the President - Legis1",
-     "outlet": "Legis1"
+     "url": "https://cbsaustin.com/news/local/irs-extends-tax-deadlines-for-texans-in-62-counties-hit-by-july-storms",
+     "title": "IRS extends tax deadlines for Texans in 62 counties hit by July storms - KEYE",
+     "outlet": "KEYE"
     },
     {
-     "url": "https://tododisca.es/sociedad/social-security-and-ssi-payments-arrive-early-in-november-2026/",
-     "title": "Social Security and SSI payments arrive early in November 2026 - Tododisca",
-     "outlet": "Tododisca"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "product recall",
-   "traffic": 0,
-   "article_count_24h": 48,
-   "article_count_1h": 5,
-   "published": "2026-10-28T23:15:40+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "FDA recalls plant-based butter over E. coli and mold concerns - CBS News",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcmlWOVBjUXZzbmdKSFFmdnVULS05M2t2Mk1pZks2RlM3blN1amY4ckM1eW83UHZ6emxWT1NJZXoxckpsMVl0RFpCdTBPdlVSNTRKS1drbGhaZHo4R0Z3MWVkMHZaMzNVTjlSNW9sTTJBWkk2VXdVTEdnejNDQXJ3WkRLNjVVcW1tTVluQWgwVGlJcnJMV1E?oc=5",
-     "source": "CBS News"
-    },
-    {
-     "title": "Mold, E-coli, and yeast found in recalled butter - NewsNation",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX2ljakpfTWNIM0hfbGk2SWhCbmRLdVBwb09WZU56UURlejNXTWR3dGh2RVJjTWlvbm16YzFyN0RuTTE0eXJRY0w3VjQ4RlJPTW5YakhJbkpCYWp1RG1QZkVheGFUbHhKbUtXbG9DZURGa0RpOW1STDF0UmxLY2dJbGhPVGg2T09NSEZTQtIBkgFBVV95cUxPUC0zNzRVRTVzeTBGNnh2blBjeFJTancwUUpERGpsdF9lOTg1UERYSldlNWl4b1hKbzU3eDBaMUdnbkVyVUNtUTZ5OXhVSTF5YTJhTi1zRi1QaThBQmJicVpfQlhiLW9pR0MtSlhpMndXR0d2Slc5UWVMb2k2YndOV2pQajBiNVNXNkphQ2ZjaWJQUQ?oc=5",
-     "source": "NewsNation"
-    },
-    {
-     "title": "Check your fridge for recalled butter sold in Iowa - The Des Moines Register",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdVNvaGpSdC0tRzY0Y3pOQk83Tm5ERXBkbUZPWVpydnQ1UHZMRk5MOFZ3c3FwcnBHOWNWS3Z5Mmw4TXpQb3E2V3BMQ1JLMEk5Q2NTMnEtaGFQZ2VhVUdJSFhvMHlMWjRoTDEtVjJOYlExamgyZUpCWF9fblN2VUpmblFsQ2FYV3lwN1B5TGRhX0o2dmVIVzlkRFNGWkZNZFdsSzAtaFBEcFp3OTJNbnVPQ2NBdExDaXEyU292SWV3YWN5eUlGWW9zTDJ2dHE1ODg?oc=5",
-     "source": "The Des Moines Register"
-    },
-    {
-     "title": "Overwhelmed by recalls? How to tell what's worth worrying about - USA Today",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMUZwazY5Q05hVWRuNy0zLUFXVnlwcnBJOXZSeElHclV1UU5Md2tCbFVMM2I0aURiOVZkVGF6XzN0Qml5d2RuZXhJMi1xellXelNtN0lNNXVSdFZwNkVfczRPM3hXVy1KNTlXUFJnN1FSV3pud2tHRERyamRpYmlxSU1Ybk9lR0k1UGVXbUZzMUdLZ3ZFNUdId1VQWkFZQW13elB2VV9MNzlpMmMtOGJkdHFfZ2JIb0k4X0FF?oc=5",
-     "source": "USA Today"
-    },
-    {
-     "title": "Some packaged salads recalled for undeclared allergens - WBTV",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNlpQU25mSUxpWkV1RlJpYzJ3eldZUGVJMTQ0YnA1cHRLN1hacFJTc3hnS1VXeGR1SEV0Y3hfV0ctTkRiYXhjTm5UcnJjLXJBdmNrOFZ0azFEX0JKQk5kUVJ5X2gtNzh6XzdzcldFSzlyeVdwWWNmNUl3aFFpNGJBNndLa3Z0azhtNzU00gGfAUFVX3lxTFBRTmkyQUE5UVVlYVVUR01NSHIzcE5jU21CcU5DR3NsYVRfaEVRX25rRHFWUGFYcHFjc2RtV3NiOEhTME1WTzI2SWk5cUtOd2VfcWpVYmw4NDhDTUwzRWJudmVUWWYxcm8zV2FzUTF4SHFhWkZlZTk4b0NLTVJ1NDlfTU0xcFBQSDNaSVFiX1gyUm1ySVFmUVlISDBhaGkxWQ?oc=5",
-     "source": "WBTV"
-    }
-   ],
-   "official": false,
-   "score": 45.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cbsnews.com/philadelphia/news/fda-issues-butter-recall-miyokos-creamery-e-coli/",
-     "title": "FDA recalls plant-based butter over E. coli and mold concerns - CBS News",
-     "outlet": "CBS News"
-    },
-    {
-     "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/10/28/recalls-consumers-guide/92399401007/",
-     "title": "Overwhelmed by recalls? How to tell what's worth worrying about - USA Today",
-     "outlet": "USA Today"
-    },
-    {
-     "url": "https://www.wbtv.com/2026/10/28/some-packaged-salads-recalled-undeclared-allergens/",
-     "title": "Some packaged salads recalled for undeclared allergens - WBTV",
-     "outlet": "WBTV"
+     "url": "https://www.law360.com/tax-authority/articles/2543494",
+     "title": "IRS Extends Tax Deadlines For Texas Counties Hit By Storms - Law360",
+     "outlet": "Law360"
     }
    ]
   },
@@ -644,7 +624,7 @@
    "source": "google_news",
    "keyword": "ACA open enrollment",
    "traffic": 0,
-   "article_count_24h": 29,
+   "article_count_24h": 30,
    "article_count_1h": 0,
    "published": "2026-10-29T08:27:22+09:00",
    "category": "Health Insurance",
@@ -703,183 +683,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "IRS refund",
-   "traffic": 0,
-   "article_count_24h": 21,
-   "article_count_1h": 2,
-   "published": "2026-10-29T02:50:00+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Nigerian Man Extradited For $100 Million IRS Refund Scheme - Law360",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LSV9lZm0wRmJHNnRiTFZwd3hxeWpqWnJSS3dINllyam9wY0RwVTFLVGF2OXVQV185Rk45MkhsQUwtbXdablR3cWVsX1MtS1dYd1ZtM3lB0gFWQVVfeXFMT0tJX2VmbTBGYkc2dGJMVnB3eHF5ampaclJLd0g2WXJqb3BjRHBVMUtUYXY5dVBXXzlGTjkySGxBTC1td1puVHdxZWxfUy1LV1h3Vm0zeUE?oc=5",
-     "source": "Law360"
-    },
-    {
-     "title": "Indictment: $81 million in fraudulent tax refunds issued in Mobile-area scheme - NBC 15 WPMI",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmR6RDhUUGNPVVZlalNiYXBhQlBxV3dxNjZfMkJ6UXRXY1F2MzZZX1VHNzBpN3BsWnI2REZhUkNOQ0JIdTg2Z1VZZDdnZDg5OWZKUzZvdVhGX0ZSYVpfY1lKZ3BXZTljVHBVTUlsSktKRXJib0FvSDgyMk1WSlVwcEswZFA3bmRFRzkxNUxsTGxNNnJRQUNmYlh3VjlZMGkzdkxwRjRMNGZkWGM?oc=5",
-     "source": "NBC 15 WPMI"
-    },
-    {
-     "title": "Frost Law Offers Special Webinars Looking At Election Results, Delinquent SBA Loans, Missing ERC Refunds; Free Sessions Offer Insights to Tax Community, Businesses - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZzJWRzNiRFhTVnJZY3pmMHRKaXpUbzFxYnlDNXNER0FBYU03RnNCZ1k3a1dfckl4OElqLW5NaXpHRlJ6VkxWaHVjNEVsYkRscXV4QTRmVWFwYTZZbE9VNTJ6Z3lIMjJVYXJWc3g4NWUxZjZJN2IzaDkyWThOd2tUcHhwQXFNdVc3dmJlOU5NRzlPMUs1NW9XU3dRblNTNmM?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "Japan switches to a refund system for tourist tax-free shopping starting Nov. 1 - Northeast Mississippi Daily Journal",
-     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUlU0ZWhSYUVnNl9QWFhubm5JTjhnZy1BdlRQNmhPaEdDNGFSWEZaNGlOcG5YMndHaDJsYmFHV0ZwTElTNHJkNmJuX0pvcTYtQkd2RHl6S3FOODFJWk9SdVlZSzFNN1JQM1UyNkFzenluZUhfM2ZwYWtPVzA0MFFMLURpbldGRWJFR2tHc1VWblAyRm1lNVpUTElMQzhxakFlSU9DZ1FlT1BWM3duY0VRcHdsSVM3ekM5emlMYnNpelZILURXWk1FV0VqeHFnWkd1U2xiLUR5dktBR2ticVVUMUlZSFpPWFFwZFlxUl9TZjN1QTdMXzBGQW9wOA?oc=5",
-     "source": "Northeast Mississippi Daily Journal"
-    },
-    {
-     "title": "Earned Income Tax Credit (EITC) Increase for 2027: How Much More in Refunds Is Expected - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSDd2WXFmVjRCUXNqM1UwT3RMTEhSNHZMQXNWYmxlSEpzN1VOTWdVeG5lcmlyc0FxTTdUWWhIQjB6VkZWVm5MaERPRXY4RTFhT0N5S2hJUXl0WGd0cnFEMzFhRkJoSXNMc0VWb1lTalFLNzhYMkFTNDRFeExFUmxqenowUVRDWVZ6OVRGSEt0YUJwV253c0NFN19OUlhlSFFRa2V6WEdoaURQWkJVMlc5czNXNDBWRi1QU0hfNmZR?oc=5",
-     "source": "El Cronista"
-    }
-   ],
-   "official": false,
-   "score": 39.9,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.law360.com/amp/articles/2543178",
-     "title": "Nigerian Man Extradited For $100 Million IRS Refund Scheme - Law360",
-     "outlet": "Law360"
-    },
-    {
-     "url": "https://mynbc15.com/news/local/indictment-81-million-in-fraudulent-tax-refunds-issued-in-mobile-area-scheme",
-     "title": "Indictment: $81 million in fraudulent tax refunds issued in Mobile-area scheme - NBC 15 WPMI",
-     "outlet": "NBC 15 WPMI"
-    },
-    {
-     "url": "https://finance.yahoo.com/economy/policy/articles/frost-law-offers-special-webinars-163800880.html",
-     "title": "Frost Law Offers Special Webinars Looking At Election Results, Delinquent SBA Loans, Missing ERC Refunds; Free Sessions Offer Insights to Tax Community, Businesses - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://www.djournal.com/news/national/japan-switches-to-a-refund-system-for-tourist-tax-free-shopping-starting-nov-1/article_e0ca17d2-0b9d-5faa-a88f-4c30fbe411d8.html",
-     "title": "Japan switches to a refund system for tourist tax-free shopping starting Nov. 1 - Northeast Mississippi Daily Journal",
-     "outlet": "Northeast Mississippi Daily Journal"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "tax deadline",
-   "traffic": 0,
-   "article_count_24h": 48,
-   "article_count_1h": 2,
-   "published": "2026-10-29T04:52:25+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "IRS extends tax deadlines for Harris, Fort Bend and 60 other Texas counties. Here’s who qualifies - Click2Houston",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbXFUX2VpT3pMS2NtYnVyVTRQYXpWejFQNm44VXBzOUs3V1pRWWJPdHBmVTJfQ2k3Mm9VM3JreVZCQmxSUl9pb3lwLUg3MVpZM2packRLYnFNZGdHWFZRakpCQkN5Q19UbzJ5RGVDTHBndGdrcXQzMlhPUWRuY1dNcWo5bFFtQlJUQU03SU8zaHJpSXg3bzNiMGV4T0FBaldhbGY0OWFhTUlqbXJNWnA4aVpsZnNOOFVtcVNfRWhZN1NzMTVMOFBhQ2djXzdoUmd4YUhKN0ZjZFFRWEd1NnRLLQ?oc=5",
-     "source": "Click2Houston"
-    },
-    {
-     "title": "Texas Flood Victims Get Federal Tax Deadline Extension Through February 2027 - Dallas Express",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeDR6Tkw3S2EwRlllNl9QOHdLd2JuT0hvZ1FNaG0tN2F4R01GZDhlT2hCSEJGNF9pa2MyMzdKN3pMeENGSzA2WFJGbldoN25xTno4QTJDZTV6S0VyOWxuTG5tbkIybS1ER19MRDM3ODBrQzNTQVlIZjlCQkZ2RURxRFl5Y2F2MDc0a2FSajVaQzlhWExqa1d1aDZvWWo0TGVoQ3BHNEpZSWNIY0p1OFE?oc=5",
-     "source": "Dallas Express"
-    },
-    {
-     "title": "IRS extends tax deadlines for Texans in 62 counties hit by July storms - KEYE",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX1dkdTVkZWRtNzJvQW5VLWZhd3hRLXpXYWUtbmNXZWp2bGJIWVdSZlFmaDc1TWUtbFZHLW1nZGpJSWhwX0JGUHhIdTZnUE9ramJMVldCUHhMQ201YmJyMXRqSWFlVnVZbmY3UlBlbHV3OHdiSXItS214WTlKc0pjV013RjRiMnVUWENHdVJQMmUyTTlwMmZWaE1CUndwV3QxOWFHUm1R?oc=5",
-     "source": "KEYE"
-    },
-    {
-     "title": "Pied-à-terre tax’s fate hinges on appeals court as city races against deadline - Crain's New York",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTHpDM3hQek9ydWpOSnQ2bnJiQ0ZFRTRIOFByV3liMFMxdW05alVZTjlKWFRvTTFFTTdGbVYxSzVRekpUWEprN3pfcHB3UmlIMktFNHcyNjV6SUdnNEFjSjVGMDVaRU1qbkxMOExHdnJUQUVRLUg4S2Z0cnZubmxoTVZSYnJCYnRCejlIYw?oc=5",
-     "source": "Crain's New York"
-    },
-    {
-     "title": "IRS Extends Tax Deadlines For Texas Counties Hit By Storms - Law360",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcE16WGFNRDdQb2N1VFBkQ243UmlSYkNYVXJ5aG12RTJ2dldnWUNGWktra1N6MGUxdWtiVzFvZm9NRUJXa2R2Q3pueGNfMFBGam92ZjRoMlEtem5SMUpnUnRtQ2tqQUNKSnJhX2duaVlLQXAzR2M5UHRHbjRnZUhndDVkaU43RHZvSDZfZWRlc0Z5XzZnSW03LUp3eEFPM2PSAWhBVV95cUxPd19oNmhRRU83a3o1elluU0tkb0FsNU9iQkMzMXlRYWpoN2JORDV3enBveWUxdmhmSFo5TDQ5NnoxQzcxcTFCaTRFcDU1SWEzbmpwdnNEdWl5Mk45NHhiZHh4ZU5vTGVQZA?oc=5",
-     "source": "Law360"
-    }
-   ],
-   "official": false,
-   "score": 39.9,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.click2houston.com/news/local/2026/10/28/irs-extends-tax-deadlines-for-harris-fort-bend-and-60-other-texas-counties-heres-who-qualifies/",
-     "title": "IRS extends tax deadlines for Harris, Fort Bend and 60 other Texas counties. Here’s who qualifies - Click2Houston",
-     "outlet": "Click2Houston"
-    },
-    {
-     "url": "https://dallasexpress.com/state/texas-flood-victims-get-federal-tax-deadline-extension-through-february-2027/",
-     "title": "Texas Flood Victims Get Federal Tax Deadline Extension Through February 2027 - Dallas Express",
-     "outlet": "Dallas Express"
-    },
-    {
-     "url": "https://cbsaustin.com/news/local/irs-extends-tax-deadlines-for-texans-in-62-counties-hit-by-july-storms",
-     "title": "IRS extends tax deadlines for Texans in 62 counties hit by July storms - KEYE",
-     "outlet": "KEYE"
-    },
-    {
-     "url": "https://www.law360.com/tax-authority/articles/2543494",
-     "title": "IRS Extends Tax Deadlines For Texas Counties Hit By Storms - Law360",
-     "outlet": "Law360"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "daylight saving time",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 9,
-   "published": "2026-10-29T00:12:11+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "Daylight saving time is spooky this year: What to know about the 2026 clock change - Fast Company",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeEphWkk0QWpBTXZLQVh4UXpsTGswYTJLTnBtT3FJNXRlcGR1ZDl0bmJnRlhFampZalcxdk90dzJnWXRNU2c5ajlUU0hTZ2ZBS2lsX0lkZ2VXQTM0aTFENWlUSWswdzlpcldwQ1FoOVFWakhyX1k2b0oweTZ5czFvNVVKR2FLS25qcUFHR21PNlJQVFU4ckQydkJLeWtrcGk5WlM0VA?oc=5",
-     "source": "Fast Company"
-    },
-    {
-     "title": "How daylight saving time changes affect you and what you can do about it - MPR News",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcVJsaXRaV1VVdEQ3d0ZuTkFxcHlrYm5PbzN3Mk94QjROaUEzYUNhNXptNG41bWFzZXgwSzR3VmJzWGNvMlZsMkwtN0Y4d2FaOG50YW9TRjNrOEJWUjRxQTZsTXlTTnlMamF5MjZnUFZlOHVGQlRBMWE5Sjk2MHdQdVBBdWpvNjN4OGhHV2Z0MnhVMlpMaGY2bDRiQ0thXzFJbjNYQjhqZm1hZjhGeF9n?oc=5",
-     "source": "MPR News"
-    },
-    {
-     "title": "Daylight saving time ends this weekend - KVUE",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS1FJLVBnMG1ubnNXNDNfd0l4MnNmS1lzdXkzaGMwZnVQTUFlMkE2NEtOMjNLbldMelJEZ1RiX0xENklJREVoQkFIT2xzY0NndXZfZnEtZ1lrVGxmN1RlVlg5a2ZESWhtb0trRzBiUG1RT092U3oxVWxsNkNBVHh3bGxPSS0xQW1RSDR6X0tLQUxzYnFGbTBPekl6dXQ0YVRFLU5kakFoZ2ZRRGhUVDBGcg?oc=5",
-     "source": "KVUE"
-    },
-    {
-     "title": "Why Daylight Saving Time May Be Bad for Your Brain and Health | Newswise - Newswise",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN0RkQmU1WVlGV1N2SmJKU1loM25RYUw5ejNLQktvVXFVcktCZlRrVzlhRm9rQjJjc2puVklGNm9RQ2M4NFNkRjBtUVlRblpJbEpLYzczcmh4X3I3M01wZlVFM1RuT1AtZ3dJQ2poWEhVbGhJT3NPNEMyUFQ3T2hkTjd0Z3VFOXplT0tyQy10dTNWSHowVjlPN0ZHa9IBmwFBVV95cUxNN0RkQmU1WVlGV1N2SmJKU1loM25RYUw5ejNLQktvVXFVcktCZlRrVzlhRm9rQjJjc2puVklGNm9RQ2M4NFNkRjBtUVlRblpJbEpLYzczcmh4X3I3M01wZlVFM1RuT1AtZ3dJQ2poWEhVbGhJT3NPNEMyUFQ3T2hkTjd0Z3VFOXplT0tyQy10dTNWSHowVjlPN0ZHaw?oc=5",
-     "source": "Newswise"
-    },
-    {
-     "title": "Daylight saving time and its over 100-year history - KELOLAND.com",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaVdNeWM5VW12YnNsSm1wUUFFWG14MmtfTmw4bzJYZ0t5SS1kLWM2YjhtNkVNc1ZRZmM4Xzl3dENDRzVIQ2NYYVpwQVdYREd4dF92bXVmU1pxRjg0TjcxaEs1V0gwaHUwQW1GYVY1bDgyMTBDMFN1ejRxbnJmZjBsb2VOWTlIQjdzRmVSYWItTU1wbVFNYU9Xa1FFLUVNSmPSAaQBQVVfeXFMTzJnSmw3RnhkLWtlaEJJNTFQVzFhQ0dyUVlWS0FwMmpzd1R5RVlHUEVPM2c0ZmR6alRGbjc2QklEeG9GYU0xd18xcE41c21WRnRjNnZKV3ZzUW9senZiRkdOY01CdG1IWkpiYjlvSTRRN0gtRkVHYTlCSWlucG1pRzdvTWwxaHhXRktiTjBad1FjS2FVLTZpOXktc3BYME9FU18yOVA?oc=5",
-     "source": "KELOLAND.com"
-    }
-   ],
-   "official": false,
-   "score": 38.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.mprnews.org/story/2026/10/28/daylight-saving-is-nov-1-heres-how-it-affects-you-and-what-you-can-do",
-     "title": "How daylight saving time changes affect you and what you can do about it - MPR News",
-     "outlet": "MPR News"
-    },
-    {
-     "url": "https://www.newswise.com/articles/why-daylight-saving-time-may-be-bad-for-your-brain-and-health",
-     "title": "Why Daylight Saving Time May Be Bad for Your Brain and Health | Newswise - Newswise",
-     "outlet": "Newswise"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 57,
-   "article_count_1h": 1,
+   "article_count_24h": 62,
+   "article_count_1h": 2,
    "published": "2026-10-29T00:39:00+09:00",
    "category": "Benefits",
    "news": [
@@ -899,18 +706,18 @@
      "source": "TacomaWeekly"
     },
     {
-     "title": "The Daily Wave: SNAP Benefits To Change Nov. 1 - WAVY.com",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ1MxMFRSRjAzX3JncnhoY1Bzbk5RbzlTZUhlYVd1RTVCSXBvb3N3dFBQaGM3TC0yN3hYUE9zc1lfd3Fpc1BvRTQ4amU1MHBLcEJDRmFjSWhOR3ZXdEJ4NERtZnJqYlhBWjNYWWU0UXNGeDhXRXRRSEI0MTNQUEs5M1E1NjVrUnl2?oc=5",
-     "source": "WAVY.com"
-    },
-    {
      "title": "Oregon encourages residents to apply for SNAP benefits before the holidays - KTVZ",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa1psWVRybENyQkRvVkg5QU1HSGl4cnF5dlVLLVgxWFJwT1FPbVoxYW80Y0RGWlVTLVUxN2lQOUxrRUw5V2dDOHVITEs2Q2RMOWJfODNrMFJvVHJ4b2xmYTJSZXdnTnhncmlVb0JRdGVSekJWdVZjbEpoMEplZVFMNWZKOHlrNDc1YTUxUzkta3BvSHB2SkcweU1LRWdGc1lRSmw0RVc2cmZ2M0E0?oc=5",
      "source": "KTVZ"
+    },
+    {
+     "title": "The Daily Wave: SNAP Benefits To Change Nov. 1 - WAVY.com",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ1MxMFRSRjAzX3JncnhoY1Bzbk5RbzlTZUhlYVd1RTVCSXBvb3N3dFBQaGM3TC0yN3hYUE9zc1lfd3Fpc1BvRTQ4amU1MHBLcEJDRmFjSWhOR3ZXdEJ4NERtZnJqYlhBWjNYWWU0UXNGeDhXRXRRSEI0MTNQUEs5M1E1NjVrUnl2?oc=5",
+     "source": "WAVY.com"
     }
    ],
    "official": false,
-   "score": 38.1,
+   "score": 42.6,
    "already_covered": false,
    "evidence": [
     {
@@ -932,9 +739,160 @@
   },
   {
    "source": "google_news",
+   "keyword": "daylight saving time",
+   "traffic": 0,
+   "article_count_24h": 100,
+   "article_count_1h": 10,
+   "published": "2026-10-29T00:12:11+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Daylight saving time is spooky this year: What to know about the 2026 clock change - Fast Company",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeEphWkk0QWpBTXZLQVh4UXpsTGswYTJLTnBtT3FJNXRlcGR1ZDl0bmJnRlhFampZalcxdk90dzJnWXRNU2c5ajlUU0hTZ2ZBS2lsX0lkZ2VXQTM0aTFENWlUSWswdzlpcldwQ1FoOVFWakhyX1k2b0oweTZ5czFvNVVKR2FLS25qcUFHR21PNlJQVFU4ckQydkJLeWtrcGk5WlM0VA?oc=5",
+     "source": "Fast Company"
+    },
+    {
+     "title": "How daylight saving time changes affect you and what you can do about it - MPR News",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcVJsaXRaV1VVdEQ3d0ZuTkFxcHlrYm5PbzN3Mk94QjROaUEzYUNhNXptNG41bWFzZXgwSzR3VmJzWGNvMlZsMkwtN0Y4d2FaOG50YW9TRjNrOEJWUjRxQTZsTXlTTnlMamF5MjZnUFZlOHVGQlRBMWE5Sjk2MHdQdVBBdWpvNjN4OGhHV2Z0MnhVMlpMaGY2bDRiQ0thXzFJbjNYQjhqZm1hZjhGeF9n?oc=5",
+     "source": "MPR News"
+    },
+    {
+     "title": "Daylight saving time ends this weekend - KVUE",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS1FJLVBnMG1ubnNXNDNfd0l4MnNmS1lzdXkzaGMwZnVQTUFlMkE2NEtOMjNLbldMelJEZ1RiX0xENklJREVoQkFIT2xzY0NndXZfZnEtZ1lrVGxmN1RlVlg5a2ZESWhtb0trRzBiUG1RT092U3oxVWxsNkNBVHh3bGxPSS0xQW1RSDR6X0tLQUxzYnFGbTBPekl6dXQ0YVRFLU5kakFoZ2ZRRGhUVDBGcg?oc=5",
+     "source": "KVUE"
+    },
+    {
+     "title": "Daylight saving time and its over 100-year history - KELOLAND.com",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaVdNeWM5VW12YnNsSm1wUUFFWG14MmtfTmw4bzJYZ0t5SS1kLWM2YjhtNkVNc1ZRZmM4Xzl3dENDRzVIQ2NYYVpwQVdYREd4dF92bXVmU1pxRjg0TjcxaEs1V0gwaHUwQW1GYVY1bDgyMTBDMFN1ejRxbnJmZjBsb2VOWTlIQjdzRmVSYWItTU1wbVFNYU9Xa1FFLUVNSmPSAaQBQVVfeXFMTzJnSmw3RnhkLWtlaEJJNTFQVzFhQ0dyUVlWS0FwMmpzd1R5RVlHUEVPM2c0ZmR6alRGbjc2QklEeG9GYU0xd18xcE41c21WRnRjNnZKV3ZzUW9senZiRkdOY01CdG1IWkpiYjlvSTRRN0gtRkVHYTlCSWlucG1pRzdvTWwxaHhXRktiTjBad1FjS2FVLTZpOXktc3BYME9FU18yOVA?oc=5",
+     "source": "KELOLAND.com"
+    },
+    {
+     "title": "Why Daylight Saving Time May Be Bad for Your Brain and Health | Newswise - Newswise",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN0RkQmU1WVlGV1N2SmJKU1loM25RYUw5ejNLQktvVXFVcktCZlRrVzlhRm9rQjJjc2puVklGNm9RQ2M4NFNkRjBtUVlRblpJbEpLYzczcmh4X3I3M01wZlVFM1RuT1AtZ3dJQ2poWEhVbGhJT3NPNEMyUFQ3T2hkTjd0Z3VFOXplT0tyQy10dTNWSHowVjlPN0ZHa9IBmwFBVV95cUxNN0RkQmU1WVlGV1N2SmJKU1loM25RYUw5ejNLQktvVXFVcktCZlRrVzlhRm9rQjJjc2puVklGNm9RQ2M4NFNkRjBtUVlRblpJbEpLYzczcmh4X3I3M01wZlVFM1RuT1AtZ3dJQ2poWEhVbGhJT3NPNEMyUFQ3T2hkTjd0Z3VFOXplT0tyQy10dTNWSHowVjlPN0ZHaw?oc=5",
+     "source": "Newswise"
+    }
+   ],
+   "official": false,
+   "score": 38.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.mprnews.org/story/2026/10/28/daylight-saving-is-nov-1-heres-how-it-affects-you-and-what-you-can-do",
+     "title": "How daylight saving time changes affect you and what you can do about it - MPR News",
+     "outlet": "MPR News"
+    },
+    {
+     "url": "https://www.newswise.com/articles/why-daylight-saving-time-may-be-bad-for-your-brain-and-health",
+     "title": "Why Daylight Saving Time May Be Bad for Your Brain and Health | Newswise - Newswise",
+     "outlet": "Newswise"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "IRS refund",
+   "traffic": 0,
+   "article_count_24h": 50,
+   "article_count_1h": 1,
+   "published": "2026-10-29T02:50:00+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Nigerian Man Extradited For $100 Million IRS Refund Scheme - Law360",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LSV9lZm0wRmJHNnRiTFZwd3hxeWpqWnJSS3dINllyam9wY0RwVTFLVGF2OXVQV185Rk45MkhsQUwtbXdablR3cWVsX1MtS1dYd1ZtM3lB0gFWQVVfeXFMT0tJX2VmbTBGYkc2dGJMVnB3eHF5ampaclJLd0g2WXJqb3BjRHBVMUtUYXY5dVBXXzlGTjkySGxBTC1td1puVHdxZWxfUy1LV1h3Vm0zeUE?oc=5",
+     "source": "Law360"
+    },
+    {
+     "title": "Indictment: $81 million in fraudulent tax refunds issued in Mobile-area scheme - NBC 15 WPMI",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmR6RDhUUGNPVVZlalNiYXBhQlBxV3dxNjZfMkJ6UXRXY1F2MzZZX1VHNzBpN3BsWnI2REZhUkNOQ0JIdTg2Z1VZZDdnZDg5OWZKUzZvdVhGX0ZSYVpfY1lKZ3BXZTljVHBVTUlsSktKRXJib0FvSDgyMk1WSlVwcEswZFA3bmRFRzkxNUxsTGxNNnJRQUNmYlh3VjlZMGkzdkxwRjRMNGZkWGM?oc=5",
+     "source": "NBC 15 WPMI"
+    },
+    {
+     "title": "Two Senoia residents charged in $74 million federal tax fraud scheme - The Newnan Times-Herald",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTngtdERGQXVHQnB1aHhfXzFSSFpuTkEwU0lKNDdkNTdoeU1EbDYtazZpM3pWRXFMYy1penJvck5ZdHp5RXo5b1dEMVVFQmhSSUZFR3N5QUlnY3JYRU9JU3RXVjNxZWdlWl81UUxVXzRlVU5ZSWV6UVV2ZGJ2LXBvR0NCRkdFem9LWFNrV1pRNTRpaUZaSDczY1o5cmZkbzd0NThfR3FCM1FHN09WR1ExWDg5eWE2YkVranpLMjlFVEVDZHp2cGxlejVxcUQ2U3huQ215TVVCa2VIUjRoWTMwMGtCelFhQQ?oc=5",
+     "source": "The Newnan Times-Herald"
+    },
+    {
+     "title": "San Diego County resending 44,000 property tax bills after city trash fee error - cbs8.com",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUmhaU2ZmNmJsX2ptUm1ZUXVGZE1FSUtlZGNBcUFRM2tJam9tT1duSVlma3VRem5NSmpwTkJyZ0o5YWpPS1VFR1ZyTm1JekVFdHlWcmtsUG9XZzJ2Y1VpQUFhLTVOcnh0LVNKM0ZMRGZxV0FOUl9ZZDRaSkJEcC1IeWV0WnlRaUxITlc0N3FndUhVc2g4VHE5MDBZdjhublBCOVRYYzBuOXFtX1BtS2hWakJuN2tQcWlrN3phUlc1R3I0UUpTQXNQRktOSHA1N3R3MlRXcHJwSGMtY2pvdWRLU3haVmpYU3hSb0NYdzczNlcwUjZCbmxvVTFNdVIyUkU?oc=5",
+     "source": "cbs8.com"
+    },
+    {
+     "title": "Japan switches to a refund system for tourist tax-free shopping starting Nov. 1 - Northeast Mississippi Daily Journal",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUlU0ZWhSYUVnNl9QWFhubm5JTjhnZy1BdlRQNmhPaEdDNGFSWEZaNGlOcG5YMndHaDJsYmFHV0ZwTElTNHJkNmJuX0pvcTYtQkd2RHl6S3FOODFJWk9SdVlZSzFNN1JQM1UyNkFzenluZUhfM2ZwYWtPVzA0MFFMLURpbldGRWJFR2tHc1VWblAyRm1lNVpUTElMQzhxakFlSU9DZ1FlT1BWM3duY0VRcHdsSVM3ekM5emlMYnNpelZILURXWk1FV0VqeHFnWkd1U2xiLUR5dktBR2ticVVUMUlZSFpPWFFwZFlxUl9TZjN1QTdMXzBGQW9wOA?oc=5",
+     "source": "Northeast Mississippi Daily Journal"
+    }
+   ],
+   "official": false,
+   "score": 35.7,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.law360.com/amp/articles/2543178",
+     "title": "Nigerian Man Extradited For $100 Million IRS Refund Scheme - Law360",
+     "outlet": "Law360"
+    },
+    {
+     "url": "https://mynbc15.com/news/local/indictment-81-million-in-fraudulent-tax-refunds-issued-in-mobile-area-scheme",
+     "title": "Indictment: $81 million in fraudulent tax refunds issued in Mobile-area scheme - NBC 15 WPMI",
+     "outlet": "NBC 15 WPMI"
+    },
+    {
+     "url": "https://www.times-herald.com/news/two-senoia-residents-charged-in-74-million-federal-tax-fraud-scheme/article_9366ccd4-6a70-434e-977d-72e8bacfe6f4.html",
+     "title": "Two Senoia residents charged in $74 million federal tax fraud scheme - The Newnan Times-Herald",
+     "outlet": "The Newnan Times-Herald"
+    },
+    {
+     "url": "https://www.djournal.com/news/national/japan-switches-to-a-refund-system-for-tourist-tax-free-shopping-starting-nov-1/article_e0ca17d2-0b9d-5faa-a88f-4c30fbe411d8.html",
+     "title": "Japan switches to a refund system for tourist tax-free shopping starting Nov. 1 - Northeast Mississippi Daily Journal",
+     "outlet": "Northeast Mississippi Daily Journal"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "product recall",
+   "traffic": 0,
+   "article_count_24h": 48,
+   "article_count_1h": 2,
+   "published": "2026-10-28T23:15:40+09:00",
+   "category": "Recalls",
+   "news": [
+    {
+     "title": "FDA recalls plant-based butter over E. coli and mold concerns - CBS News",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcmlWOVBjUXZzbmdKSFFmdnVULS05M2t2Mk1pZks2RlM3blN1amY4ckM1eW83UHZ6emxWT1NJZXoxckpsMVl0RFpCdTBPdlVSNTRKS1drbGhaZHo4R0Z3MWVkMHZaMzNVTjlSNW9sTTJBWkk2VXdVTEdnejNDQXJ3WkRLNjVVcW1tTVluQWgwVGlJcnJMV1E?oc=5",
+     "source": "CBS News"
+    },
+    {
+     "title": "Mold, E-coli, and yeast found in recalled butter - NewsNation",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX2ljakpfTWNIM0hfbGk2SWhCbmRLdVBwb09WZU56UURlejNXTWR3dGh2RVJjTWlvbm16YzFyN0RuTTE0eXJRY0w3VjQ4RlJPTW5YakhJbkpCYWp1RG1QZkVheGFUbHhKbUtXbG9DZURGa0RpOW1STDF0UmxLY2dJbGhPVGg2T09NSEZTQtIBkgFBVV95cUxPUC0zNzRVRTVzeTBGNnh2blBjeFJTancwUUpERGpsdF9lOTg1UERYSldlNWl4b1hKbzU3eDBaMUdnbkVyVUNtUTZ5OXhVSTF5YTJhTi1zRi1QaThBQmJicVpfQlhiLW9pR0MtSlhpMndXR0d2Slc5UWVMb2k2YndOV2pQajBiNVNXNkphQ2ZjaWJQUQ?oc=5",
+     "source": "NewsNation"
+    },
+    {
+     "title": "Check your fridge for recalled butter sold in Iowa - The Des Moines Register",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdVNvaGpSdC0tRzY0Y3pOQk83Tm5ERXBkbUZPWVpydnQ1UHZMRk5MOFZ3c3FwcnBHOWNWS3Z5Mmw4TXpQb3E2V3BMQ1JLMEk5Q2NTMnEtaGFQZ2VhVUdJSFhvMHlMWjRoTDEtVjJOYlExamgyZUpCWF9fblN2VUpmblFsQ2FYV3lwN1B5TGRhX0o2dmVIVzlkRFNGWkZNZFdsSzAtaFBEcFp3OTJNbnVPQ2NBdExDaXEyU292SWV3YWN5eUlGWW9zTDJ2dHE1ODg?oc=5",
+     "source": "The Des Moines Register"
+    },
+    {
+     "title": "Overwhelmed by recalls? How to tell what's worth worrying about - USA Today",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMUZwazY5Q05hVWRuNy0zLUFXVnlwcnBJOXZSeElHclV1UU5Md2tCbFVMM2I0aURiOVZkVGF6XzN0Qml5d2RuZXhJMi1xellXelNtN0lNNXVSdFZwNkVfczRPM3hXVy1KNTlXUFJnN1FSV3pud2tHRERyamRpYmlxSU1Ybk9lR0k1UGVXbUZzMUdLZ3ZFNUdId1VQWkFZQW13elB2VV9MNzlpMmMtOGJkdHFfZ2JIb0k4X0FF?oc=5",
+     "source": "USA Today"
+    },
+    {
+     "title": "Some packaged salads recalled for undeclared allergens - WBTV",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNlpQU25mSUxpWkV1RlJpYzJ3eldZUGVJMTQ0YnA1cHRLN1hacFJTc3hnS1VXeGR1SEV0Y3hfV0ctTkRiYXhjTm5UcnJjLXJBdmNrOFZ0azFEX0JKQk5kUVJ5X2gtNzh6XzdzcldFSzlyeVdwWWNmNUl3aFFpNGJBNndLa3Z0azhtNzU00gGfAUFVX3lxTFBRTmkyQUE5UVVlYVVUR01NSHIzcE5jU21CcU5DR3NsYVRfaEVRX25rRHFWUGFYcHFjc2RtV3NiOEhTME1WTzI2SWk5cUtOd2VfcWpVYmw4NDhDTUwzRWJudmVUWWYxcm8zV2FzUTF4SHFhWkZlZTk4b0NLTVJ1NDlfTU0xcFBQSDNaSVFiX1gyUm1ySVFmUVlISDBhaGkxWQ?oc=5",
+     "source": "WBTV"
+    }
+   ],
+   "official": false,
+   "score": 34.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "FAFSA",
    "traffic": 0,
-   "article_count_24h": 15,
+   "article_count_24h": 12,
    "article_count_1h": 0,
    "published": "2026-10-28T23:03:45+09:00",
    "category": "Taxes",
@@ -970,91 +928,11 @@
    "already_covered": true
   },
   {
-   "source": "google_trends",
-   "keyword": "darryn peterson",
-   "traffic": 500,
-   "published": "2026-10-29T11:50:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Carlos Boozer wanted his son in Utah. Here’s why he still likes the Jazz’s Darryn Peterson pick.",
-     "url": "https://www.sltrib.com/sports/jazz/2026/10/27/carlos-boozer-hoped-jazz-would/",
-     "source": "The Salt Lake Tribune"
-    },
-    {
-     "title": "Carlos Boozer's Jazz Draft Admission Takes Ironic Turn After Brutal Injury News",
-     "url": "https://sports.yahoo.com/articles/carlos-boozers-jazz-draft-admission-173540783.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Darryn Peterson gets the hoop and the harm",
-     "url": "https://www.espn.com/video/clip/_/id/50243052/darryn-peterson-gets-hoop-harm",
-     "source": "ESPN"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 28.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.sltrib.com/sports/jazz/2026/10/27/carlos-boozer-hoped-jazz-would/",
-     "title": "Carlos Boozer wanted his son in Utah. Here’s why he still likes the Jazz’s Darryn Peterson pick.",
-     "outlet": "The Salt Lake Tribune"
-    },
-    {
-     "url": "https://sports.yahoo.com/articles/carlos-boozers-jazz-draft-admission-173540783.html",
-     "title": "Carlos Boozer's Jazz Draft Admission Takes Ironic Turn After Brutal Injury News",
-     "outlet": "Yahoo Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "REAL ID",
-   "traffic": 0,
-   "article_count_24h": 20,
-   "article_count_1h": 0,
-   "published": "2026-10-29T03:55:16+09:00",
-   "category": "Housing",
-   "news": [
-    {
-     "title": "Chicago REAL ID ‘Supercenter' to close in December, Giannoulias says - NBC 5 Chicago",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWlpmSnBMQWdpbmxhNUttRzByVUYzM25hNkFaaFllZU5UTVE4NXlySWJaVE1RRlJKUVNSSkhENk5Vd3BFWnF1MVRCMDFvSG9KanN4dDFhVFc3RlVXeVAwYlNFa0FYT0xMcjZsaWFDbGg3UUgwWUg1SlBRdEpqS0VuRzl5ZUZPWDNiMUU0MWpMYnZ4UmI0ZzM0ODhpSnVEdWhCaFJMTFRMcVFmNm5Hb29lUV9n0gG6AUFVX3lxTE52aERmbXVsZ1lmWWFLcXA1QTJuLUtZVVNiU3QxUUt2M1lLWThpVWUzNWhETDRFVEZVcEs4U1Jhb2NIX0VuWDJENDE2V3hNZFBXOG1Gd3pqMFFwYy1Gc2lWRVpiV3YteTZ6TnRxNVpoX2R0M3g4eEw2UUk0MHlIeENsb2ZPS1NpM2tCOVNjdk9oLXUzdTc2QzNOWnpiR09PLUZGWFF5ZFFjbmVFeE5sa3lyNHY1YVBDX1E2UQ?oc=5",
-     "source": "NBC 5 Chicago"
-    },
-    {
-     "title": "Chicago REAL ID supercenter in the Loop to close at end of December - CBS News",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa3ZONHptdDBCMGhMT0V6dktPV21Ec1BfR0xSY2NEVV9vc2t5U0dFVVJJd1ZqcXVMWjFVT1p0RlFZNmNNY194R0c2QVhLOHoxckdWYmdSMmh3NE9vTWhqRlg0TmFqbzhFTmc5SHZGMTVjRnF0Tk5RX1VqYlRHOGpSXy1BeVQ1bjNWLVA2ZmRIcEdjUlBWUjZRQm1hMFpONnZiTjFuX25tejY?oc=5",
-     "source": "CBS News"
-    },
-    {
-     "title": "Chicago’s REAL ID Supercenter downtown to close in December - WGN-TV",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSnl2WFlGX1FyX3NQYWo3UjZ0OC16UzZfdXhiWUY4cVJ5djdIVUlXdXBLTzdnRkZnU0p0S2czeHM1VjlXdy1tQ21Nbnd4c0lSY3FFNTUyLVZQaFFFdUdTOUhMTGFBaklqYjNGX1FLc1FTRF9yQ0VreFZrek1OLWJURGZIMzVneUh3WENWQU5Fa9IBlAFBVV95cUxNX2lycGh1WnltXzRyYjBQU1ozU2xRZWxRcUJta2paRFk4WW1TMy1WdERoRHVwUGd3b0xZSFVFdXViNUIxenptaXBFVEFxXzdmYUprTUdybGx4NFc3VGVKdVVTSGctRUw3c3lxWC1kZEx3VXBLYU1DWWxCY0R6ZVlGeUF0aktCWmRvZ0ROLTFxMmJpNC1t?oc=5",
-     "source": "WGN-TV"
-    },
-    {
-     "title": "Mobile DMV coming to Pine Bush - My Hudson Valley",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRExuSmd1VHRlTnVFOFFDTnpqMzdiOVlTRll1SUFUZC1BY3FNMlpEcEhjS0hzcGMtV2hvT05OTk5nd1EtRUxRR2taVWtTcGVIY1h2VW1Ga1Z1ZVFib3R1S2k3UFplTFM4bGk2V2EwbGc0TVZhQlM4TVI3Wnl2SzFYX0lxTWIzZmNqQ2U1dFFibGJ2TlZGREJQWGppNUx2SXBwU2dR?oc=5",
-     "source": "My Hudson Valley"
-    },
-    {
-     "title": "Children Born Between 2008 and 2026 Do Not Need to Show a Real ID or Other Acceptable ID at Any Airport to Fly Domestically: Here’s What They Do Need to Do - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQWFhXZGNmYVNEZjRIWTdwSlgyZUFWeW5HT2REWWlYLTVlcFRKZlFDZ3p2YWhEQmlWLUpoSXhhVHdSMWtpX0F1VzFaY0E5T1h1XzFYOEhKSFROQmxXbUJkRTdvZjBScS1ONDhqWUtyaElmMGhaT0NDMVlncnVuVUlYQWJQUTFhUEVZb2ptaFRhMmtIc0dQOFBVcEZSSk8xTXctMGl0OXZ5UU9lUXBsaXNuRnFSX2hDYUg5RzZhVFRMejdGd2NTOGlON0RHSUtFWTB1cWFtUUdZUFJnWG5uYXZpeVhYc0dMUnNIOWppN29CTEFMa21qTkFQTTBkZ1puZE54ZnpkSTdlSk43QTJ1WUNnbFF3VnQzZWs?oc=5",
-     "source": "El Cronista"
-    }
-   ],
-   "official": false,
-   "score": 27.3,
-   "already_covered": true
-  },
-  {
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 29,
-   "article_count_1h": 0,
+   "article_count_24h": 32,
+   "article_count_1h": 1,
    "published": "2026-10-29T04:34:54+09:00",
    "category": "Recalls",
    "news": [
@@ -1079,152 +957,92 @@
      "source": "MLive.com"
     },
     {
-     "title": "Volkswagen’s EV battery recall reaches over 85,000, with Audi now included - Electrek",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV3pBakVQZEZLRUVuQUtfc2NLT0pZWkpVekhpUTN4MDljTkx0ekZaVzhwSHJTek42dk9PRDlTQUhCenBlcXNFc2I0YTZnVkRaM1BEaC0wZE1QVGM5ZjNTam5mYTlPQXZ1aUoyb21LUkw5VGVxZ0dYeW5PRmItbGpXcEtzdm1iakM2V19XSFFkb1RGeXpF?oc=5",
-     "source": "Electrek"
+     "title": "13K Dodge Durango vehicles recalled over failing tail lights - Durham Herald Sun",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWDFRT0o3RDRJUzNWb2l0YnkwRWNRaFozS082TC10ZGJBaGVINFNOdU1abDQ1TWFGcFRWd01fdlFTa1BfZENIOXc4UDUyNDBmWG5qMFJ1UXhiWW15VkJKVGQtalNwcml4d0t2M3dn?oc=5",
+     "source": "Durham Herald Sun"
     }
    ],
    "official": false,
-   "score": 27.3,
+   "score": 30.9,
    "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "uribe",
-   "traffic": 500,
-   "published": "2026-10-29T11:50:00+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "Masacre del Aro: piden investigar y compulsar copias contra el abogado Miguel Ángel del Río por “filtrar información”",
-     "url": "https://www.semana.com/nacion/articulo/masacre-del-aro-piden-investigar-y-compulsar-copias-contra-el-abogado-miguel-angel-del-rio-por-filtrar-informacion/202646/",
-     "source": "Revista Semana"
-    },
-    {
-     "title": "El Sanedrín invita a la presentación del libro Magnicidios de José Obdulio Gaviria -",
-     "url": "https://juanpaz.net/el-sanedrin-invita-a-la-presentacion-del-libro-magnicidios-de-jose-obdulio-gaviria/",
-     "source": "juanpaz.net"
-    },
-    {
-     "title": "El Sanedrín presenta Magnicidios: Un encuentro académico con Álvaro Uribe y Andrés Julián Rendón",
-     "url": "https://ifmnoticias.com/en-agenda/el-sanedrin-presenta-magnicidios-un-encuentro-academico-con-alvaro-uribe-y-andres-julian-rendon/",
-     "source": "IFM Noticias"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 26.2,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.semana.com/nacion/articulo/masacre-del-aro-piden-investigar-y-compulsar-copias-contra-el-abogado-miguel-angel-del-rio-por-filtrar-informacion/202646/",
-     "title": "Masacre del Aro: piden investigar y compulsar copias contra el abogado Miguel Ángel del Río por “filtrar información”",
-     "outlet": "Revista Semana"
-    },
-    {
-     "url": "https://juanpaz.net/el-sanedrin-invita-a-la-presentacion-del-libro-magnicidios-de-jose-obdulio-gaviria/",
-     "title": "El Sanedrín invita a la presentación del libro Magnicidios de José Obdulio Gaviria -",
-     "outlet": "juanpaz.net"
-    },
-    {
-     "url": "https://ifmnoticias.com/en-agenda/el-sanedrin-presenta-magnicidios-un-encuentro-academico-con-alvaro-uribe-y-andres-julian-rendon/",
-     "title": "El Sanedrín presenta Magnicidios: Un encuentro académico con Álvaro Uribe y Andrés Julián Rendón",
-     "outlet": "IFM Noticias"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "sydney sweeney",
-   "traffic": 5000,
-   "published": "2026-10-29T11:50:00+09:00",
+   "source": "google_news",
+   "keyword": "minimum wage increase",
+   "traffic": 0,
+   "article_count_24h": 91,
+   "article_count_1h": 8,
+   "published": "2026-10-29T10:27:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Sydney Sweeney recreates iconic 'Home Alone' scene for new lingerie campaign",
-     "url": "https://www.foxnews.com/entertainment/sydney-sweeney-recreates-iconic-home-alone-scene-new-lingerie-campaign",
-     "source": "Fox News"
+     "title": "Get ready: 2027 state minimum wage increases are around the corner! - SHRM",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamZUVU9acV9BN2lwOXdDbHRrMVd2U0NDUUxXQ0xLUmprUjJCN18zQ2gyWVJaNDFyQ0VvWm5nazc2bkI1SGlBM3lWT2NnSjVwMEVyMEV3NmdjOHYyVUQ0NE81UnhYeEw4VFZYMHV3X1Q3U2s0Sm1KVG1IdjAtMXZwVktwLUVieU00blZwSDNHZ3B5YjU0aENWRHZMWEpxeHVhSGlVekZ3?oc=5",
+     "source": "SHRM"
     },
     {
-     "title": "Sydney Sweeney channels 'Home Alone' scene in new Syrn ad",
-     "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/10/28/sydney-sweeney-commercial-home-alone-syrn/92475131007/",
-     "source": "USA Today"
+     "title": "How much is the minimum wage going up by? - BBC",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqS0xwN2JhLWVIbm9rbURMNmN5MldmYmY2TExRODYzSGtsbWJlbXJ5c3JHU3VyWWdORnVObjVPbzJFSkk1NmxJaENGWGhJenNzZzJfMnN5MWhUdw?oc=5",
+     "source": "BBC"
     },
     {
-     "title": "Sydney Sweeney’s $49 SYRN Knit Micro Shorts Get an Unexpected Accessory",
-     "url": "https://shopping.yahoo.com/style/clothing/articles/sydney-sweeney-49-syrn-knit-073646631.html",
-     "source": "Yahoo"
+     "title": "Seattle’s minimum wage set to increase in 2027 to $22.14 - www.dailyuw.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcFh1S3Nrd1hqWGpJRlhlNG9DSjhWS2lEaDNZNmRVVUU5M01NU2JjeGZ3T29yTy1XclRZMy14R1Z6Mlk1NGREOVJIZnFLSnRCMVZBNGpvNHctNmJucERNeGJtNWM3YzNoRTRTUFVEeDhtNjE4Wk1fWXJJX3NERmtfdHVZV3A0b254dHQ5ckZSSmpqalNTZlR0ZnZnVkQ?oc=5",
+     "source": "www.dailyuw.com"
+    },
+    {
+     "title": "Company wage policy in a low-wage labour market - CEPR",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1IblNpVXp4WEc1eVBESVNJVUhBcWVGX3phOWNFMVVCS0NSQmhxd1lEN2RaMzBDWHdKSlhRSWNrS1RaNGpHcDNKNW9ZLWJvTG1KT0hqcVdUMEpZN2xkRWFRYThvSjNhZl91cklkbUU5TzFjNU5QZlpUNGNjbnBHZw?oc=5",
+     "source": "CEPR"
+    },
+    {
+     "title": "LPC recommendations take the National Living Wage to £13.21 - GOV.UK",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaU9JWXJSTlhqSmJySXZnOGtzeHpzSFBSR21EUzBGQlVOOFRwTkJKRmlrSVpJdFhkb3loLWdEWG8wcFlnT2c5di0yTndqR1VKemdFTEJCakw3NWgtZFFpcXpnQWhlejdYLWNqdnpNMXN3WFhYMDNnY19MSXBLU0NadWo4YmdBamVSZkdfaTZ1Z1gwWF9nZXZF?oc=5",
+     "source": "GOV.UK"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.foxnews.com/entertainment/sydney-sweeney-recreates-iconic-home-alone-scene-new-lingerie-campaign",
-     "title": "Sydney Sweeney recreates iconic 'Home Alone' scene for new lingerie campaign",
-     "outlet": "Fox News"
-    },
-    {
-     "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/10/28/sydney-sweeney-commercial-home-alone-syrn/92475131007/",
-     "title": "Sydney Sweeney channels 'Home Alone' scene in new Syrn ad",
-     "outlet": "USA Today"
-    },
-    {
-     "url": "https://shopping.yahoo.com/style/clothing/articles/sydney-sweeney-49-syrn-knit-073646631.html",
-     "title": "Sydney Sweeney’s $49 SYRN Knit Micro Shorts Get an Unexpected Accessory",
-     "outlet": "Yahoo"
-    }
-   ]
+   "score": 30.0,
+   "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "milwaukee braves",
-   "traffic": 500,
-   "published": "2026-10-29T11:50:00+09:00",
-   "category": "Recalls",
+   "source": "google_news",
+   "keyword": "federal holiday",
+   "traffic": 0,
+   "article_count_24h": 12,
+   "article_count_1h": 2,
+   "published": "2026-10-29T03:46:00+09:00",
+   "category": "Holidays",
    "news": [
     {
-     "title": "St. Francis seniors recall 1957 Braves World Series",
-     "url": "https://www.fox6now.com/video/fmc-bodhv3w4nacfu74s",
-     "source": "FOX6 News Milwaukee"
+     "title": "When is Veterans Day 2026? Is it a federal holiday? What to know - Cincinnati Enquirer",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWlRpeDNzWGdUWlZRQXg3cWlwaEVaQzZaamIxYlo5cnJlSWpxZzVoQTBTTG12bE80VC1IZVAtQXp4aG91X245aG9mRnJEV2FKcGpNWHdVRTRidVdjRENlc3dyYlQyUEtIbkdKVVJTT1lRMGgzdDRuWElfR212RURaQ3FRdmc4bVVKcGVlcVFGNGVIT0htOTVjd3BNWUJtcDkxNnhCWjVLX0syYmRp?oc=5",
+     "source": "Cincinnati Enquirer"
     },
     {
-     "title": "Visiting bat boy for 1957 world champion Milwaukee Braves recalls winning it all",
-     "url": "https://www.channel3000.com/news/national-and-world-news/visiting-bat-boy-for-1957-world-champion-milwaukee-braves-recalls-winning-it-all/article_c5c577bf-b2d7-597c-96ce-2100395797d2.html",
-     "source": "Channel 3000"
+     "title": "Trump’s Gas Tax Holiday Would Cost US$3.5 Billion a Month - EnergyNow.com",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa3g0WkhzRDBvbmRVdHl1VHNJdjROdWh0VEIxbldqY080SGVXS0dHQ05IVUpoUGh4RjBCdzJUcHhjMWRBYWhKS0ItTC1pekdDMndYYmVXY1JuUXkxTGloWkhnOGpfdC1jZFNmYkVtTkF2UmVzQXpxMVoxVnJpdC0wUVhKVGRCVF9VT1pEb05OWQ?oc=5",
+     "source": "EnergyNow.com"
     },
     {
-     "title": "There for Milwaukee's World Series in '50s, Torre is watching this one closely",
-     "url": "https://www.mlb.com/news/joe-torre-on-1950s-world-series-in-milwaukee",
-     "source": "MLB.com"
+     "title": "Seasonal holiday jobs may help Oregonians meet federal SNAP requirements, DHS says - KATU",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTkV2cUhndU82WWg1QUhuS2ZEWXB2NTRkaFpMUjVmTmQwX2tQVzlqSjBQQl9QZnItZ0ZOaUZRd3NjUENFU3pQMmk5ZklEbU9HbzhxbGp0akp5RjEzSWJYZXJjYWNoVGhkNVRkVHJEeUNMazRJM2NxRVVac0lFS1lyTUE4R1oyY0xlaVZjX1J4OFN6VGd0SkExMlN5VzIyUDhqX0Y1WktsaHlDY2pEZ3c?oc=5",
+     "source": "KATU"
+    },
+    {
+     "title": "Veterans Day lunch for student veterans and active service members - Henry Ford College",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd1dfa2liUnAxekYybzk5eWtqUHdtNDBmNHhxeTFYUkZZY1NIbUp3bEQ2cnZOb3FTbU1QdWt4ZzNsWG5ERU5ELWx2bm9MRWF5NjVLUFNmVlhIV2N5OVpHNzBqNjBtV1JVZ0lpblNRVVliU3NTeE91WEtBam5EUlBySnRHMWwtNGZ6UHBHSVh3?oc=5",
+     "source": "Henry Ford College"
+    },
+    {
+     "title": "Only Congress Can Change Federal Election Day, Not the President - Legis1",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YMXlXa0ZkRWJvRTE4eGFOU0VOV2NGaGlGeHNRU2sxN1g2bWFaNFlyaTllT3EtRWpmMW5CT3R4ak90UnBIVVV1OW1RMFNEcXlJRUZaakpXQVpacE1LaWpvaGtqbDdJWTdwbU1faVRZTHA2T3oxUTVxQ3JNVTJ0UQ?oc=5",
+     "source": "Legis1"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 22.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.fox6now.com/video/fmc-bodhv3w4nacfu74s",
-     "title": "St. Francis seniors recall 1957 Braves World Series",
-     "outlet": "FOX6 News Milwaukee"
-    },
-    {
-     "url": "https://www.channel3000.com/news/national-and-world-news/visiting-bat-boy-for-1957-world-champion-milwaukee-braves-recalls-winning-it-all/article_c5c577bf-b2d7-597c-96ce-2100395797d2.html",
-     "title": "Visiting bat boy for 1957 world champion Milwaukee Braves recalls winning it all",
-     "outlet": "Channel 3000"
-    },
-    {
-     "url": "https://www.mlb.com/news/joe-torre-on-1950s-world-series-in-milwaukee",
-     "title": "There for Milwaukee's World Series in '50s, Torre is watching this one closely",
-     "outlet": "MLB.com"
-    }
-   ]
+   "score": 29.3,
+   "already_covered": false
   },
   {
    "source": "google_news",
@@ -1266,65 +1084,26 @@
    "already_covered": true
   },
   {
-   "source": "google_news",
-   "keyword": "minimum wage increase",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 3,
-   "published": "2026-10-29T02:21:14+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Seattle’s minimum wage set to increase in 2027 to $22.14 - www.dailyuw.com",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcFh1S3Nrd1hqWGpJRlhlNG9DSjhWS2lEaDNZNmRVVUU5M01NU2JjeGZ3T29yTy1XclRZMy14R1Z6Mlk1NGREOVJIZnFLSnRCMVZBNGpvNHctNmJucERNeGJtNWM3YzNoRTRTUFVEeDhtNjE4Wk1fWXJJX3NERmtfdHVZV3A0b254dHQ5ckZSSmpqalNTZlR0ZnZnVkQ?oc=5",
-     "source": "www.dailyuw.com"
-    },
-    {
-     "title": "Company wage policy in a low-wage labour market - CEPR",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1IblNpVXp4WEc1eVBESVNJVUhBcWVGX3phOWNFMVVCS0NSQmhxd1lEN2RaMzBDWHdKSlhRSWNrS1RaNGpHcDNKNW9ZLWJvTG1KT0hqcVdUMEpZN2xkRWFRYThvSjNhZl91cklkbUU5TzFjNU5QZlpUNGNjbnBHZw?oc=5",
-     "source": "CEPR"
-    },
-    {
-     "title": "LPC recommendations take the National Living Wage to £13.21 - GOV.UK",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaU9JWXJSTlhqSmJySXZnOGtzeHpzSFBSR21EUzBGQlVOOFRwTkJKRmlrSVpJdFhkb3loLWdEWG8wcFlnT2c5di0yTndqR1VKemdFTEJCakw3NWgtZFFpcXpnQWhlejdYLWNqdnpNMXN3WFhYMDNnY19MSXBLU0NadWo4YmdBamVSZkdfaTZ1Z1gwWF9nZXZF?oc=5",
-     "source": "GOV.UK"
-    },
-    {
-     "title": "UK Budget raises minimum wage 3.9% amid weaker growth outlook - Staffing Industry Analysts",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFJLVjZYSkdFbExTMUZoLW1VUTg4enNCSXpLREdfeXZrb0ZCM0Vobmh1OHJYZlJXZGNCYTg2T0p1TnRfZ2pnd0dFVjJlLXlKTEtlVnBPSlUxdnh0bFNPeHk0RGlDakNmUHllTzY0dnBXaHRXQWszZUk2UFBneTdGbzh1NnptLXRCQkZTQmU0S3BWUzhGeHZFTjZrbzc2eFAwZ0pfelBfbXRhLWZTSC1JN3A5LWlsdw?oc=5",
-     "source": "Staffing Industry Analysts"
-    },
-    {
-     "title": "UK's Healey says minimum wage to rise by 3.9% - Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN1lqVW1qLTdUTENzVFNqeDU3Q0hxM3YxbG1kdFhIbEt6TGRCZHBSY0JUb3lpdEtqUHhkX3U2T1FTZ3lNNTljc25GSU5EYld1Z1Vpbzc1aHZjRnNSd0Iwd3NLcjYxeTZyRkxRZVdreEtxWFNrZHBNeFpQZzZEUzB1R19EVQ?oc=5",
-     "source": "Yahoo Finance UK"
-    }
-   ],
-   "official": false,
-   "score": 17.6,
-   "already_covered": false
-  },
-  {
    "source": "google_trends",
-   "keyword": "trevor megill",
+   "keyword": "1982 world series",
    "traffic": 2000,
-   "published": "2026-10-29T11:50:00+09:00",
+   "published": "2026-10-29T12:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Welcome to 'roofball': Your guide to an all-dome World Series",
-     "url": "https://www.espn.com/mlb/story/_/id/50252562/mlb-world-series-brewers-rays-roofball",
-     "source": "ESPN"
+     "title": "How much did a 1982 World Series ticket cost? One fan still has his",
+     "url": "https://www.wsaw.com/2026/10/28/how-much-did-1982-world-series-ticket-cost-one-fan-still-has-his/",
+     "source": "WSAW"
     },
     {
-     "title": "At Tropicana Field, the ground rules are straightforward until they aren’t - The Athletic",
-     "url": "https://www.nytimes.com/athletic/7727373/2026/10/26/tropicana-field-roof-ground-rules-world-series/",
-     "source": "The New York Times"
+     "title": "In '82, fan spotted Brewers in airport. She still has stubs they signed.",
+     "url": "https://www.jsonline.com/story/news/local/2026/10/27/in-82-fan-spotted-brewers-in-airport-she-still-has-tickets-they-signed/92366087007/",
+     "source": "Milwaukee Journal Sentinel"
     },
     {
-     "title": "Brewers Pitcher Trashes Tropicana Field Ahead Of Game 3 Against Rays",
-     "url": "https://sports.yahoo.com/articles/brewers-pitcher-trashes-tropicana-field-140724870.html",
-     "source": "Yahoo Sports"
+     "title": "Raised on baseball, young collector follows in father's footsteps building his own card business",
+     "url": "https://www.tmj4.com/sports/baseball/milwaukee-brewers/raised-on-baseball-young-collector-follows-in-fathers-footsteps-building-his-own-card-business",
+     "source": "TMJ4 News"
     }
    ],
    "official": false,
@@ -1334,33 +1113,123 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://sports.yahoo.com/articles/brewers-pitcher-trashes-tropicana-field-140724870.html",
-     "title": "Brewers Pitcher Trashes Tropicana Field Ahead Of Game 3 Against Rays",
-     "outlet": "Yahoo Sports"
+     "url": "https://www.wsaw.com/2026/10/28/how-much-did-1982-world-series-ticket-cost-one-fan-still-has-his/",
+     "title": "How much did a 1982 World Series ticket cost? One fan still has his",
+     "outlet": "WSAW"
+    },
+    {
+     "url": "https://www.tmj4.com/sports/baseball/milwaukee-brewers/raised-on-baseball-young-collector-follows-in-fathers-footsteps-building-his-own-card-business",
+     "title": "Raised on baseball, young collector follows in father's footsteps building his own card business",
+     "outlet": "TMJ4 News"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "novig",
-   "traffic": 1000,
-   "published": "2026-10-29T11:50:00+09:00",
+   "keyword": "cooper pratt mormon",
+   "traffic": 2000,
+   "published": "2026-10-29T12:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Novig Promo Code NOLA: Use $50 NBA Bonus on Lakers-Clippers",
-     "url": "https://www.nola.com/sports/betting/novig-promo-code-nola-use-50-nba-bonus-on-lakers-clippers/article_e4e89979-bb1c-4ec2-827d-fcf6f46e00e6.html",
-     "source": "NOLA.com"
+     "title": "What Elder Rasband appreciates about the faithful example of Milwaukee’s Cooper Pratt",
+     "url": "https://www.thechurchnews.com/leaders/2026/10/27/elder-ronald-a-rasband-appreciates-milwaukee-brewers-cooper-pratt-example/",
+     "source": "Church News"
     },
     {
-     "title": "Novig promo code CBSSPORTS: Get $50 bonus for 76ers-Pacers, Rays-Brewers, MTSU-Kennesaw State on Wednesday",
-     "url": "https://www.cbssports.com/prediction/news/novig-promo-code-cbssports-get-50-bonus-76ers-pacers-rays-brewers-mtsu-kennesaw-state-on-wednesday/",
-     "source": "CBS Sports"
+     "title": "Cooper Pratt’s Girlfriend, Jansyn Hollis: 5 Fast Facts You Need to Know",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/cooper-pratt-girlfriend-jansyn-hollis-025645352.html",
+     "source": "Yahoo"
     },
     {
-     "title": "Novig Promo Code ALCOM: Get a $50 bonus to trade World Series Game 5, NBA",
-     "url": "https://www.al.com/betting/2026/10/novig-promo-code-alcom-get-a-50-bonus-to-trade-world-series-game-5-nba.html",
-     "source": "AL.com"
+     "title": "Who Is Cooper Pratt Wife? Meet His Girlfriend Jansyn Hollis in 2026",
+     "url": "https://ashutoshpreparatoryschool.com/blog/cooper-pratt-wife/",
+     "source": "Ashutosh Preparatory School"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.thechurchnews.com/leaders/2026/10/27/elder-ronald-a-rasband-appreciates-milwaukee-brewers-cooper-pratt-example/",
+     "title": "What Elder Rasband appreciates about the faithful example of Milwaukee’s Cooper Pratt",
+     "outlet": "Church News"
+    },
+    {
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/cooper-pratt-girlfriend-jansyn-hollis-025645352.html",
+     "title": "Cooper Pratt’s Girlfriend, Jansyn Hollis: 5 Fast Facts You Need to Know",
+     "outlet": "Yahoo"
+    },
+    {
+     "url": "https://ashutoshpreparatoryschool.com/blog/cooper-pratt-wife/",
+     "title": "Who Is Cooper Pratt Wife? Meet His Girlfriend Jansyn Hollis in 2026",
+     "outlet": "Ashutosh Preparatory School"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "REAL ID",
+   "traffic": 0,
+   "article_count_24h": 22,
+   "article_count_1h": 0,
+   "published": "2026-10-29T03:55:16+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Chicago REAL ID ‘Supercenter' to close in December, Giannoulias says - NBC 5 Chicago",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWlpmSnBMQWdpbmxhNUttRzByVUYzM25hNkFaaFllZU5UTVE4NXlySWJaVE1RRlJKUVNSSkhENk5Vd3BFWnF1MVRCMDFvSG9KanN4dDFhVFc3RlVXeVAwYlNFa0FYT0xMcjZsaWFDbGg3UUgwWUg1SlBRdEpqS0VuRzl5ZUZPWDNiMUU0MWpMYnZ4UmI0ZzM0ODhpSnVEdWhCaFJMTFRMcVFmNm5Hb29lUV9n0gG6AUFVX3lxTE52aERmbXVsZ1lmWWFLcXA1QTJuLUtZVVNiU3QxUUt2M1lLWThpVWUzNWhETDRFVEZVcEs4U1Jhb2NIX0VuWDJENDE2V3hNZFBXOG1Gd3pqMFFwYy1Gc2lWRVpiV3YteTZ6TnRxNVpoX2R0M3g4eEw2UUk0MHlIeENsb2ZPS1NpM2tCOVNjdk9oLXUzdTc2QzNOWnpiR09PLUZGWFF5ZFFjbmVFeE5sa3lyNHY1YVBDX1E2UQ?oc=5",
+     "source": "NBC 5 Chicago"
+    },
+    {
+     "title": "Chicago REAL ID supercenter in the Loop to close at end of December - CBS News",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa3ZONHptdDBCMGhMT0V6dktPV21Ec1BfR0xSY2NEVV9vc2t5U0dFVVJJd1ZqcXVMWjFVT1p0RlFZNmNNY194R0c2QVhLOHoxckdWYmdSMmh3NE9vTWhqRlg0TmFqbzhFTmc5SHZGMTVjRnF0Tk5RX1VqYlRHOGpSXy1BeVQ1bjNWLVA2ZmRIcEdjUlBWUjZRQm1hMFpONnZiTjFuX25tejY?oc=5",
+     "source": "CBS News"
+    },
+    {
+     "title": "Chicago’s REAL ID Supercenter downtown to close in December - WGN-TV",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSnl2WFlGX1FyX3NQYWo3UjZ0OC16UzZfdXhiWUY4cVJ5djdIVUlXdXBLTzdnRkZnU0p0S2czeHM1VjlXdy1tQ21Nbnd4c0lSY3FFNTUyLVZQaFFFdUdTOUhMTGFBaklqYjNGX1FLc1FTRF9yQ0VreFZrek1OLWJURGZIMzVneUh3WENWQU5Fa9IBlAFBVV95cUxNX2lycGh1WnltXzRyYjBQU1ozU2xRZWxRcUJta2paRFk4WW1TMy1WdERoRHVwUGd3b0xZSFVFdXViNUIxenptaXBFVEFxXzdmYUprTUdybGx4NFc3VGVKdVVTSGctRUw3c3lxWC1kZEx3VXBLYU1DWWxCY0R6ZVlGeUF0aktCWmRvZ0ROLTFxMmJpNC1t?oc=5",
+     "source": "WGN-TV"
+    },
+    {
+     "title": "‍(sTrEaMs Coverage)! Austin FC v Real Salt Lake LIVE 𝐒𝐭𝐫𝐞𝐚𝐦 Ｆｒｅｅ Ｃｈａｎｎｅｌ 29 October 2026 - Vantage Data Centers",
+     "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQZjFhQUxja3AxMnR4dzBVbEpSY1drS1VOSEdfQ0JlV25Va0luQVR3aEVFd241dWFaUlFOX25IX1k2VnF6X1daNzFnaUtkTGVIcnFZMUpLa1JkQkd4a19vVnpibFNwLThHOWFlalJGVjZmQy1zcnFKZkF5aFhIeERmclktMVhvSTl1Y21KTzNhNjAyZmdwRkVQalV6cHc2Z0hfaWU3SXdCaVVZTHUwSVZZOFBPeV9tWlVpTUp4WG1sM2wtYXloRnVrZlpTM1hhWVRyVTg5MEY3Y1F5cWZ4dnBBdUJjWGJ0QktYcEp0OUVaTTgxT21oVUF1V0xyVFRyYTZqME94VHpKMDkxZHRFLXc5RlFYSGVlYnY0YlBBb0VWU3ctMFE0d1ZiTGdjek5fMXRMVDNoZ0ZsUndXMmFsa0I1RFBIeVM3NVBvak5mdURPZ2VsQV9jUkpqQw?oc=5",
+     "source": "Vantage Data Centers"
+    },
+    {
+     "title": "Children Born Between 2008 and 2026 Do Not Need to Show a Real ID or Other Acceptable ID at Any Airport to Fly Domestically: Here’s What They Do Need to Do - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQWFhXZGNmYVNEZjRIWTdwSlgyZUFWeW5HT2REWWlYLTVlcFRKZlFDZ3p2YWhEQmlWLUpoSXhhVHdSMWtpX0F1VzFaY0E5T1h1XzFYOEhKSFROQmxXbUJkRTdvZjBScS1ONDhqWUtyaElmMGhaT0NDMVlncnVuVUlYQWJQUTFhUEVZb2ptaFRhMmtIc0dQOFBVcEZSSk8xTXctMGl0OXZ5UU9lUXBsaXNuRnFSX2hDYUg5RzZhVFRMejdGd2NTOGlON0RHSUtFWTB1cWFtUUdZUFJnWG5uYXZpeVhYc0dMUnNIOWppN29CTEFMa21qTkFQTTBkZ1puZE54ZnpkSTdlSk43QTJ1WUNnbFF3VnQzZWs?oc=5",
+     "source": "El Cronista"
+    }
+   ],
+   "official": false,
+   "score": 12.6,
+   "already_covered": true
+  },
+  {
+   "source": "google_trends",
+   "keyword": "america",
+   "traffic": 1000,
+   "published": "2026-10-29T12:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "América, Cruz Azul y Chivas, con boleto 'seguro' a Liguilla",
+     "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/17440355/america-cruz-azul-chivas-clasificados-puntos-liguilla",
+     "source": "ESPN Deportes"
+    },
+    {
+     "title": "Con dos eliminados y América a nada del boleto, el AP26 entra a la etapa decisiva",
+     "url": "https://www.si.com/mx/liga-mx/con-dos-eliminados-y-america-a-nada-del-boleto-el-ap26-entra-a-la-etapa-decisiva",
+     "source": "Sports Illustrated"
+    },
+    {
+     "title": "Juegos y resultados en la Liga Mx",
+     "url": "https://psn.si/futbol-liga-mx-rm-19/2026/10/28/",
+     "source": "PSN Noticias"
     }
    ],
    "official": false,
@@ -1370,103 +1239,103 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.nola.com/sports/betting/novig-promo-code-nola-use-50-nba-bonus-on-lakers-clippers/article_e4e89979-bb1c-4ec2-827d-fcf6f46e00e6.html",
-     "title": "Novig Promo Code NOLA: Use $50 NBA Bonus on Lakers-Clippers",
-     "outlet": "NOLA.com"
+     "url": "https://www.si.com/mx/liga-mx/con-dos-eliminados-y-america-a-nada-del-boleto-el-ap26-entra-a-la-etapa-decisiva",
+     "title": "Con dos eliminados y América a nada del boleto, el AP26 entra a la etapa decisiva",
+     "outlet": "Sports Illustrated"
     },
     {
-     "url": "https://www.cbssports.com/prediction/news/novig-promo-code-cbssports-get-50-bonus-76ers-pacers-rays-brewers-mtsu-kennesaw-state-on-wednesday/",
-     "title": "Novig promo code CBSSPORTS: Get $50 bonus for 76ers-Pacers, Rays-Brewers, MTSU-Kennesaw State on Wednesday",
-     "outlet": "CBS Sports"
+     "url": "https://psn.si/futbol-liga-mx-rm-19/2026/10/28/",
+     "title": "Juegos y resultados en la Liga Mx",
+     "outlet": "PSN Noticias"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "chourio",
+   "keyword": "bud selig",
    "traffic": 1000,
-   "published": "2026-10-29T11:50:00+09:00",
+   "published": "2026-10-29T12:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "How Jackson Chourio became a Brewers superstar in October",
-     "url": "https://www.espn.com/mlb/story/_/id/50293252/world-series-brewers-jackson-chourio",
-     "source": "ESPN"
+     "title": "Former Milwaukee Brewers player hopes Bud Selig will complete piece of baseball history",
+     "url": "https://www.abc15.com/news/former-milwaukee-brewers-player-hopes-bud-selig-will-complete-piece-of-baseball-history",
+     "source": "ABC15 Arizona"
     },
     {
-     "title": "Jackson Chourio's double makes postseason history",
-     "url": "https://www.mlb.com/video/jackson-chourio-doubles-2-on-a-sharp-line-drive-to-center-fielder-jonny-d",
-     "source": "MLB.com"
+     "title": "Column: What’s up, Bud? Selig lobbies for a salary cap while we’re just trying to enjoy this World Series.",
+     "url": "https://www.chicagotribune.com/2026/10/25/world-series-bud-selig-salary-cap/",
+     "source": "Chicago Tribune"
     },
     {
-     "title": "Jackson Chourio's 4 hits in Brewers' rout nears feat by Cardinals catcher 80 years ago",
-     "url": "https://www.stltoday.com/sports/professional/mlb/cardinals/article_f981ee34-f43d-422d-b158-bd2b61b8db5c.html",
-     "source": "STLtoday.com"
+     "title": "Reusse: Twins fans might owe Bud Selig thanks as Brewers return to World Series",
+     "url": "https://www.startribune.com/minnesota-twins-target-field-contraction-bud-selig-milwaukee-brewers-rays-world-series-2026-mlb/601902791",
+     "source": "Star Tribune"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
    "score": 12.0,
-   "already_covered": false
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.abc15.com/news/former-milwaukee-brewers-player-hopes-bud-selig-will-complete-piece-of-baseball-history",
+     "title": "Former Milwaukee Brewers player hopes Bud Selig will complete piece of baseball history",
+     "outlet": "ABC15 Arizona"
+    },
+    {
+     "url": "https://www.chicagotribune.com/2026/10/25/world-series-bud-selig-salary-cap/",
+     "title": "Column: What’s up, Bud? Selig lobbies for a salary cap while we’re just trying to enjoy this World Series.",
+     "outlet": "Chicago Tribune"
+    }
+   ]
   },
   {
    "source": "google_trends",
-   "keyword": "ace bailey",
+   "keyword": "fanatics brewers",
    "traffic": 500,
-   "published": "2026-10-29T11:50:00+09:00",
+   "published": "2026-10-29T12:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Jazz Mailbag: How good can Ace Bailey actually be?",
-     "url": "https://sports.ksl.com/nba/utah-jazz/jazz-mailbag-ace-bailey/578529",
-     "source": "KSL Sports"
+     "title": "Fanatics Sportsbook promo code CBSFAN350: Get $350 FanCash for Brewers-Rays, World Series Game 5, 76ers-Pacers",
+     "url": "https://www.cbssports.com/betting/news/fanatics-sportsbook-promo-code-cbsfan350-get-350-fancash-brewers-rays-world-series-game-5-76ers-pacers/",
+     "source": "CBS Sports"
     },
     {
-     "title": "Ace Bailey posts double-double Sunday against Lakers",
-     "url": "https://www.fantasypros.com/nba/news/616048/ace-bailey-posts-double-double-sunday-against-lakers.php",
-     "source": "FantasyPros"
+     "title": "Fanatics Sportsbook Promo Code YAHOO350: Bet $20 Wednesday on the NBA or NHL and Receive up to $350 FanCash",
+     "url": "https://sports.yahoo.com/betting/promos/article/fanatics-sportsbook-promo-code-yahoo350-bet-20-wednesday-on-the-nba-or-nhl-and-receive-up-to-350-fancash-220000919.html",
+     "source": "Yahoo Sports"
     },
     {
-     "title": "Play of the Day: Ace Bailey - October 25",
-     "url": "https://www.nba.com/watch/video/play-of-the-day-ace-bailey-october-25",
-     "source": "NBA.com"
+     "title": "Fanatics Sportsbook Promo Code SIBONUS350: Bet $20, Get $350 in FanCash for OKC vs. Dallas",
+     "url": "https://www.si.com/betting-promo/fanatics-sportsbook-promo-code-sibonus350-bet-20-get-350-in-fancash-for-okc-vs-dallas-01m61jthdm6y",
+     "source": "Sports Illustrated"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
    "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "seattle kraken",
-   "traffic": 500,
-   "published": "2026-10-29T11:50:00+09:00",
-   "category": "기타",
-   "news": [
+   "already_covered": false,
+   "evidence": [
     {
-     "title": "PRACTICE SOUND | Lambert",
-     "url": "https://www.nhl.com/kraken/video/practice-sound-lambert-6407489813112",
-     "source": "NHL.com"
+     "url": "https://www.cbssports.com/betting/news/fanatics-sportsbook-promo-code-cbsfan350-get-350-fancash-brewers-rays-world-series-game-5-76ers-pacers/",
+     "title": "Fanatics Sportsbook promo code CBSFAN350: Get $350 FanCash for Brewers-Rays, World Series Game 5, 76ers-Pacers",
+     "outlet": "CBS Sports"
     },
     {
-     "title": "BLUEPRINT: How Lane Lambert LEADS the Seattle Kraken to Tactical Precision and Winning Culture",
-     "url": "https://www.centraloregondaily.com/sports/seattle_kraken/blueprint-how-lane-lambert-leads-the-seattle-kraken-to-tactical-precision-and-winning-culture/video_9d09a677-e295-5ce1-9a95-18947c14b6a0.html",
-     "source": "Central Oregon Daily"
+     "url": "https://sports.yahoo.com/betting/promos/article/fanatics-sportsbook-promo-code-yahoo350-bet-20-wednesday-on-the-nba-or-nhl-and-receive-up-to-350-fancash-220000919.html",
+     "title": "Fanatics Sportsbook Promo Code YAHOO350: Bet $20 Wednesday on the NBA or NHL and Receive up to $350 FanCash",
+     "outlet": "Yahoo Sports"
     },
     {
-     "title": "BLUEPRINT: How Lane Lambert LEADS the Seattle Kraken to Tactical Precision and Winning Culture",
-     "url": "https://www.wqad.com/video/sports/locked-on/lo-seattle/locked-on-kraken/blueprint-how-lane-lambert-leads-the-seattle-kraken-to-tactical-precision-and-winning-culture/535-fa186fb4-c2ad-4427-a173-d378245d082e",
-     "source": "WQAD"
+     "url": "https://www.si.com/betting-promo/fanatics-sportsbook-promo-code-sibonus350-bet-20-get-350-in-fancash-for-okc-vs-dallas-01m61jthdm6y",
+     "title": "Fanatics Sportsbook Promo Code SIBONUS350: Bet $20, Get $350 in FanCash for OKC vs. Dallas",
+     "outlet": "Sports Illustrated"
     }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false
+   ]
   },
   {
    "source": "google_news",
@@ -1499,25 +1368,136 @@
   },
   {
    "source": "google_trends",
-   "keyword": "bogdan bogdanović",
+   "keyword": "brewers pro shop",
    "traffic": 200,
-   "published": "2026-10-29T11:50:00+09:00",
+   "published": "2026-10-29T12:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "\"That clearly affected the final outcome\" - Bogdan Bogdanovic admits Kawhi Leonard drama hurt the Clippers",
-     "url": "https://sports.yahoo.com/articles/clearly-affected-final-outcome-bogdan-151900200.html",
-     "source": "Yahoo Sports"
+     "title": "From El Dorado Hills to the World Series: Robert Gasser’s high school coach reflects on pitcher's growth",
+     "url": "https://www.kcra.com/article/el-dorado-hills-robert-gasser-world-series/74266120",
+     "source": "KCRA"
     },
     {
-     "title": "Rockets 132-100 Bucks (Oct 28, 2026) Game Recap",
-     "url": "https://www.espn.com/nba/recap/_/gameId/401909887",
-     "source": "ESPN"
+     "title": "With World Series start, Gasser is living his dream -- and his dad's",
+     "url": "https://www.mlb.com/news/robert-gasser-living-his-dream-dad-s-in-2026-world-series",
+     "source": "MLB.com"
     },
     {
-     "title": "Minimal offense leads to the Bucks getting blown out by the Rockets",
-     "url": "https://www.si.com/nba/bucks/onsi/little-help-for-tyler-herro-as-bucks-smoked-by-rockets-01m62fgt64wn",
-     "source": "Sports Illustrated"
+     "title": "World Series Game 3 pits Brewers rising star against familiar face",
+     "url": "https://www.channel3000.com/news/top-stories/world-series-game-3-pits-brewers-rising-star-against-familiar-face/article_9e1058f1-368b-4e49-b6d8-f92229b3508d.html",
+     "source": "Channel 3000"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.kcra.com/article/el-dorado-hills-robert-gasser-world-series/74266120",
+     "title": "From El Dorado Hills to the World Series: Robert Gasser’s high school coach reflects on pitcher's growth",
+     "outlet": "KCRA"
+    },
+    {
+     "url": "https://www.mlb.com/news/robert-gasser-living-his-dream-dad-s-in-2026-world-series",
+     "title": "With World Series start, Gasser is living his dream -- and his dad's",
+     "outlet": "MLB.com"
+    },
+    {
+     "url": "https://www.channel3000.com/news/top-stories/world-series-game-3-pits-brewers-rising-star-against-familiar-face/article_9e1058f1-368b-4e49-b6d8-f92229b3508d.html",
+     "title": "World Series Game 3 pits Brewers rising star against familiar face",
+     "outlet": "Channel 3000"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "cuauhtémoc cárdenas",
+   "traffic": 200,
+   "published": "2026-10-29T12:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Muere a los 92 años Cuauhtémoc Cárdenas, un líder histórico de la izquierda mexicana",
+     "url": "https://www.telemundo.com/noticias/noticias-telemundo/internacional/muere-a-los-92-anos-cuauhtemoc-cardenas-un-lider-historico-de-la-izqui-rcna606265",
+     "source": "Telemundo"
+    },
+    {
+     "title": "Murió Cuauhtémoc Cárdenas, fundador del PRD y tres veces candidato a la Presidencia",
+     "url": "https://www.milenio.com/politica/murio-cuauhtemoc-cardenas-fundador-prd-lider-izquierda",
+     "source": "MILENIO"
+    },
+    {
+     "title": "Fallece el ingeniero Cuauhtémoc Cárdenas, líder moral de izquierda y fundador del PRD",
+     "url": "https://latinus.us/mexico/2026/10/28/fallece-el-ingeniero-cuauhtemoc-cardenas-lider-moral-de-izquierda-y-fundador-del-prd-180855.html",
+     "source": "LatinUS"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.telemundo.com/noticias/noticias-telemundo/internacional/muere-a-los-92-anos-cuauhtemoc-cardenas-un-lider-historico-de-la-izqui-rcna606265",
+     "title": "Muere a los 92 años Cuauhtémoc Cárdenas, un líder histórico de la izquierda mexicana",
+     "outlet": "Telemundo"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "who won world series mvp",
+   "traffic": 200,
+   "published": "2026-10-29T12:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Today In Dodgers History: 1981 World Series Win Against Yankees; Clayton Kershaw Receives Roberto Clemete Award",
+     "url": "https://dodgerblue.com/today-in-history-dodgers-win-1981-world-series-against-yankees/2026/10/28/",
+     "source": "Dodger Blue"
+    },
+    {
+     "title": "LIVE on FOX/FOX One: Brewers-Rays World Series Game 4",
+     "url": "https://www.mlb.com/news/brewers-rays-world-series-game-4-starting-lineups-and-pitching-matchup",
+     "source": "MLB.com"
+    },
+    {
+     "title": "Which MLB teams have never won a World Series? Brewers come off list",
+     "url": "https://www.usatoday.com/story/sports/mlb/playoffs/2026/10/28/mlb-teams-never-won-world-series-brewers/92461045007/",
+     "source": "USA Today"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "chris harrison",
+   "traffic": 200,
+   "published": "2026-10-29T12:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Chris Harrison reacts to ‘The Bachelor’ cease-and-desist over his new show ‘The Vow’: ‘Jealousy is a tough thing’",
+     "url": "https://ew.com/chris-harrison-reacts-to-bachelor-cease-and-desist-over-new-show-the-vow-12196970",
+     "source": "Entertainment Weekly"
+    },
+    {
+     "title": "Chris Harrison 'The Vow' controversy escalates, he calls cease and desist 'personal'",
+     "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/10/22/chris-harrison-new-show-the-vow-abc-fox-legal-drama/92375382007/",
+     "source": "USA Today"
+    },
+    {
+     "title": "Chris Harrison’s ‘The Vow’ faces legal threat from ‘Bachelor’ producers",
+     "url": "https://www.newsnationnow.com/entertainment-news/chris-harrisons-the-vow-legal-bachelor/",
+     "source": "NewsNation"
     }
    ],
    "official": false,
