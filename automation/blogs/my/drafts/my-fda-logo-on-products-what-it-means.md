@@ -41,6 +41,6 @@ So a cream or vitamin with an "FDA approved" badge is making a claim the US FDA 
 - Clear directions and warnings
 - Who made it and where
 
-One more thing: this is about the **US** FDA. Some countries have their own agency with a similar name and their own rules, so check your local regulator's system too.
+Keep in mind this is the **US** agency's view. Malaysia has its own regulator and rules for cosmetics and supplements, so check those as well.
 
 Happy shopping!
