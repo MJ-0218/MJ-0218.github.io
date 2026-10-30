@@ -1,6 +1,6 @@
 ---
-title: "PM-KISAN 24th Instalment on 30 October 2026: ₹19,000 Crore Release From Banaskantha (What Farmers Should Check)"
-description: "PM Modi will release the 24th PM-KISAN instalment, around ₹19,000 crore, at Banaskantha, Gujarat on 30 October 2026. Amount per farmer and what to check."
+title: "PM-KISAN 24th Instalment on 30 October 2026: ₹18,690 Crore to 9.34 Crore Farmers From Banaskantha (What to Check)"
+description: "PM Modi releases the 24th PM-KISAN instalment, over ₹18,690 crore to 9.34 crore farmers, from Banaskantha on 30 October 2026. ₹2,000 each."
 category: Government Schemes
 lang: en
 blog: in
@@ -15,10 +15,12 @@ cards:
     kicker: "Farmers · PIB, 29 Oct 2026"
     title: "PM-KISAN 24th instalment"
     big: "30 October"
-    lines: ["Around ₹19,000 crore to be released", "Event at Banaskantha, Gujarat, ~10:30 AM", "₹2,000 per instalment, ₹6,000 a year"]
+    lines: ["₹18,690 crore+ to over 9.34 crore farmers", "Event at Banaskantha, Gujarat, ~10:30 AM", "₹2,000 per instalment, ₹6,000 a year"]
 sources:
   - title: "PIB — PM to Visit Gujarat on 30-31 October (29 Oct 2026)"
     url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329999"
+  - title: "PIB — PM to Release 24th Instalment of PM-KISAN tomorrow at Banaskantha (29 Oct 2026)"
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330171"
   - title: "UT Ladakh — PM-KISAN instalment press release"
     url: "https://ladakh.gov.in/?p=54669"
 ---
@@ -32,11 +34,14 @@ Prime Minister Narendra Modi will release it on **30 October 2026** from **Banas
 
 ## The key details
 - **Date:** 30 October 2026
-- **Total amount:** around **₹19,000 crore**
+- **Total amount:** more than **₹18,690 crore** (announced earlier as around ₹19,000 crore)
+- **Farmers covered:** over **9.34 crore**
 - **Place:** Banaskantha, Gujarat
 
 The PM is scheduled to start the development programme in Banaskantha at around **10:30 AM**.
 The instalment release is part of that event.
+
+Through the first 23 instalments, more than **₹4.47 lakh crore** has already been paid to eligible farmers.
 
 ## How much will each farmer get?
 PM-KISAN gives **₹6,000 a year** to small and marginal farmers.
