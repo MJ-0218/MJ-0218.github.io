@@ -1,52 +1,97 @@
 {
- "generated_at": "2026-10-30T13:33:15.902256+09:00",
+ "generated_at": "2026-10-30T14:32:52.973410+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (8)",
-  "evidence": "ok (저장 31, 실패 5)"
+  "evidence": "ok (저장 27, 실패 5)"
  },
- "compared_runs": 2,
+ "compared_runs": 3,
  "spikes": [
-  "kos",
-  "cve-2026-98432",
-  "đi bộ",
-  "shark bình",
-  "sân bay quốc tế long thành"
+  "dự báo thời tiết tphcm",
+  "sân bay quốc tế long thành",
+  "ngoc diem thu",
+  "ngân hàng thương mại cổ phần đầu tư và phát triển việt nam",
+  "hà nội",
+  "xem phim gả kim thoa",
+  "tập đoàn vingroup",
+  "giải bóng đá vô địch quốc gia việt nam",
+  "nhà môi giới"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "dự báo thời tiết tphcm",
+   "traffic": 200000,
+   "published": "2026-10-30T13:50:00+09:00",
+   "category": "Living",
+   "news": [
+    {
+     "title": "Dự báo thời tiết ngày mai 30.10 trên cả nước",
+     "url": "https://laodong.vn/moi-truong/du-bao-thoi-tiet-ngay-mai-3010-tren-ca-nuoc-1791306.ldo",
+     "source": "Laodong.vn"
+    },
+    {
+     "title": "Dự báo thời tiết ngày 30/10/2026: Miền Bắc mưa rải rác ở đồng bằng, Hà Nội 29 độ",
+     "url": "https://vietnamnet.vn/du-bao-thoi-tiet-ngay-30-10-2026-mien-bac-mua-rai-rac-o-dong-bang-ha-noi-29-do-2566048.html",
+     "source": "Báo VietNamNet"
+    },
+    {
+     "title": "Bản tin Thời tiết Hà Nội (30 - 31/10): Cuối tuần mát mẻ, nắng sớm quay trở lại",
+     "url": "https://tienphong.vn/ban-tin-thoi-tiet-ha-noi-30-3110-cuoi-tuan-mat-me-nang-som-quay-tro-lai-post1889812.tpo",
+     "source": "Báo Tiền Phong"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 69.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://vietnamnet.vn/du-bao-thoi-tiet-ngay-30-10-2026-mien-bac-mua-rai-rac-o-dong-bang-ha-noi-30-do-2566048.html",
+     "title": "Dự báo thời tiết ngày 30/10/2026: Miền Bắc mưa rải rác ở đồng bằng, Hà Nội 29 độ",
+     "outlet": "Báo VietNamNet"
+    },
+    {
+     "url": "https://tienphong.vn/ban-tin-thoi-tiet-ha-noi-30-3110-cuoi-tuan-mat-me-nang-som-quay-tro-lai-post1889812.tpo",
+     "title": "Bản tin Thời tiết Hà Nội (30 - 31/10): Cuối tuần mát mẻ, nắng sớm quay trở lại",
+     "outlet": "Báo Tiền Phong"
+    }
+   ]
+  },
   {
    "source": "google_news",
    "keyword": "phim Hàn Quốc",
    "traffic": 0,
-   "article_count_24h": 63,
-   "article_count_1h": 9,
-   "published": "2026-10-30T10:08:34+09:00",
+   "article_count_24h": 61,
+   "article_count_1h": 10,
+   "published": "2026-10-30T14:04:04+09:00",
    "category": "K-Culture",
    "news": [
     {
-     "title": "Review phim Doctor X: Mafia in White: Sự trở lại bùng nổ của Kim Ji-won - Harper's Bazaar Việt Nam",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jYVFIRHgtb3NlTjJJWHlkNDA3S1dzc2xzbC13dFAwSUdEUTRiOGI4TXNYeFNQUUtmeFkxeVBxMGFRZEVpWjYxSGtqWkhZTDNSYzNZTGJNR25rU05NT00wc2taeDVxNHVlUl9HLTJjY25mZzVMakxHT2h1bFE?oc=5",
+     "title": "Phim Hàn Quốc tháng 11/2026 có gì hay để bạn chờ đợi? - Harper's Bazaar Việt Nam",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ibW1xQWlNSTJ1clhRamtjZ2JJREFZNVNiN1dFTnVVQ2pxVG9ic0hvb1dEMzJNOW9fNHBTb0xxTU9KbDdfOVNwT0REc2hKR1FJMTRfUmRteVBKOTdYRFlNVHNxOA?oc=5",
      "source": "Harper's Bazaar Việt Nam"
     },
     {
-     "title": "KBS tưởng nhớ cố nghệ sĩ Choi Bul Am, \"người cha quốc dân\" của màn ảnh Hàn - VOH",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbDliYXVoR0cwNXcwSW1SbGttMHY1WXZ2dlRkaENIbjZaSENncTgtWGF0dTZyMV92d2JobHFacXlzck05alJQZm5Ua2VIdHV2Ml9HTm9QMjYzckpkMVRobUxETmxFUE9vTXotZTh5TEw5d3pNUWNVeEl3cEtfN0hBamkyU1RISzFzUTQxUVRzQXoxSzBJZjZVWDRWNU5NaFpYdG5QNzQ0ZG5qeEpaOHpj?oc=5",
+     "title": "5 phim Trung được chứng nhận hot nhất 2026: Đầu Xuân Tươi Sáng hạng 3, hạng 1 dễ đoán, hạng 5 quá bất ngờ - Phunumoi.net.vn",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOElmRmc0eXlGLUg0ZUxtSjZFS1c4X1hhVnFtSVFadjl0QnZYQ3Zwd2FOdlNWU01rVW0zdEp3SndYSUFVdU5sNUY5SlJZeXpEV3V3eTZoZmdDN0c5T21vVGxUeFlVYndLTGVWTWRxRkdRUUJBRFNhQy11bFdvc084M2ZrOHRFdUlsVUEyZmtMS0pFYnBDcVpqU0l6ZnZyM2xvaUtEY1JibFh1NHJaMmktcHVPbVZ6U0ZxUWh4ZXVvY2Y1X3hyWTJEemhqV0t6aEhrMHd6RENR?oc=5",
+     "source": "Phunumoi.net.vn"
+    },
+    {
+     "title": "Lễ trao giải APAN Star Awards 2026 ấn định thời gian và địa điểm tổ chức - Tạp chí Saostar",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYmd0MnJjUlYzaEJvTy04MHhlVk9PUHRCMWhBZWxmUGRJdklqNldLalNZZ182ODNVeHY0VjYzM0FNc29oMmtoMG54Tmw4bTdMVnB1eUFBSXdVZnhhbk5tLW5ocTFjdlVGTEJYTmZ3V2sxblFrTnlQVVYzSkVRUHN1RDZsbDNEZ1pLTFRQY3ctZFhsbXJyNFU3a1RMNFJWR0g1bzA4NVZCLUlld3Ix?oc=5",
+     "source": "Tạp chí Saostar"
+    },
+    {
+     "title": "Công bố 15 diễn viên tiêu biểu của Hàn Quốc 2026: Song Hye Kyo chỉ xếp thứ 12, hạng 1 đỉnh cao tuyệt đối - Kenh14.vn",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRE5sakdwd0s4Ykk3OTNsWDVoMEVpSG5KSHJ3N25UWnpwNmpjYnZLbFJkTzJBekZsUWY4X1lBeU1ZMXVqWmp1a1pfM196M3pOVnh5OGM4U3VtR3ZodHVpN2lCR0FFZHVoV0UtTHVnNHhNMXZBMUYxeS1PQWtMNkFCZ2txaUlTTTc1NUdIZ1JMRkF2dEw4ZjVMQk1vWnVzeDl6ekNfbHlXQzRsNXVDZ1NERDVQZjdQZDdSdVBSbFFiQy16Q0NvTVQ5MGZaNzNSZmhTT1ZJNC1YVVRHc2c?oc=5",
+     "source": "Kenh14.vn"
+    },
+    {
+     "title": "Giải mã sức hút của Gả Kim Thoa và Đầu Xuân Tươi Sáng - VOH",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaFNDQTZQUjJiclhQcFQzN2tCWXZqNEVJOXBLZ21XaVRGQ1NCMGtmcFlSVHphNU1IMEZ1YjdhczJBM3dCMWlxOG9HWmk5Y3JOUmYwVm5LSktUMjYyejV6d3hNQWwzdUxZX3FFdWJ3UlA3YmlFTV9ycWtFckhMbEh3TVRoV25Za25WLXV1cnpsd3M1UHJIREpIRg?oc=5",
      "source": "VOH"
-    },
-    {
-     "title": "Shin Min Ah tiết lộ thay đổi lớn nhất sau khi kết hôn với Kim Woo Bin - Laodong.vn",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQzZESXBHYmVDT1NIV0hkZTVWWnRueDdmYzhpcjJKbldwdDlLa0dRZkZiSFdBNWNDRUtReXhBWTB2RHZtSVNmMHowNXZvbnY0MnpnLUstV2tiLXNGZ0p5UTBkNDNVYVl0VGhEOVVzaXczNHozQndqTEg1ZnBUMTJYQ0RTWUJmWE52MlBLUFZRWll6b24zLVlyRldEbjB1SWdPRVBqZU1ORGJuQ0ZkMllLWWpZd2VXWDI0MWc?oc=5",
-     "source": "Laodong.vn"
-    },
-    {
-     "title": "Nóng tình dục Hàn quốc Mát mẻ phim khiêu dâm - Vantage Data Centers",
-     "url": "https://news.google.com/rss/articles/CBMitgNBVV95cUxPR3UzeXduNlB2SkNfWkhtR2dQRXlNOEU5VVV0T0xHZTNVLWlLQmxmR21UbTdMM2NYZkNoVTNjY2RHYnA3U2pPTURmVFc4SXNUcndLVEFZNXVIOWJ2REd3cEI2ZGF0S2VyQjZQV1U2N2dDa0RaMmdVNy1pZ0pMLTZ6c1laQzZFSVZ3ZXRHellQdzVDcUJ6bzNpUzJmMGRWVjRmX1IyNlF5Z2FBTVdhSlp3dEZaX0NxckNyOFNQR0dfWG5TeG55S3pNdVVTWWs3UFEwV3N4UDkxcm0za2VkVXZEX1YtNmJCZ0RFa3BzQURLRnJ1ZEJuSG1yWlBBZTZ4eV9TdFp1ZkJHNUZvUzFBeWF6TFEyMVZSekdGNXBRampaLUpKQ2UxUzBRLWFTU2syZHRnX3I2bVZ2NF8tTVV2SndDSTZPSmtDTHFNcTQ4Zm5YTzFGVElhSlg5TWpDWVcyOUY0LXp0S1VtUXpEZHpHYi01MUtRRmQ4eUVZbGFxc2M5Rk5STHRiUndiekkxcUE2RHM5Zi0zaURwTTAzYnAwejVOUEpnekEtNnRyMDQ0TGpDeGNKd0d0NEE?oc=5",
-     "source": "Vantage Data Centers"
-    },
-    {
-     "title": "Mỹ nhân 'Giày thủy tinh' Kim Hyun Joo mặc phá cách - Tuổi Trẻ",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV3hHYnVndmJFOEZrX2xwREtlY0FJdEtVMnB1SWcxSVY1UXhsVVRlUzIyVWFzMEstOWVzNm1vaVNuWjVNT0JIc3IzVjFQLUswUDZoeEc5cGdac0VVVk9YWUw4MjU5Und5d1ZKZm11bVktWkhHWV9mYUQ4QVFqVmRxLWp3YlNQX2FqVjVFTW9SeGRpT2k1?oc=5",
-     "source": "Tuổi Trẻ"
     }
    ],
    "official": false,
@@ -54,19 +99,24 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://bazaarvietnam.vn/review-phim-doctor-x-mafia-in-white-kim-ji-won/",
-     "title": "Review phim Doctor X: Mafia in White: Sự trở lại bùng nổ của Kim Ji-won - Harper's Bazaar Việt Nam",
+     "url": "https://bazaarvietnam.vn/phim-han-quoc-thang-11-2026/",
+     "title": "Phim Hàn Quốc tháng 11/2026 có gì hay để bạn chờ đợi? - Harper's Bazaar Việt Nam",
      "outlet": "Harper's Bazaar Việt Nam"
     },
     {
-     "url": "https://voh.com.vn/tin-sao/kbs-tuong-nho-co-nghe-si-choi-bul-am-nguoi-cha-quoc-dan-cua-man-anh-han-676607.html",
-     "title": "KBS tưởng nhớ cố nghệ sĩ Choi Bul Am, \"người cha quốc dân\" của màn ảnh Hàn - VOH",
-     "outlet": "VOH"
+     "url": "https://phunumoi.net.vn/5-phim-trung-duoc-chung-nhan-hot-nhat-2026-dau-xuan-tuoi-sang-hang-3-hang-1-de-doan-hang-5-qua-bat-ngo-d383161.html",
+     "title": "5 phim Trung được chứng nhận hot nhất 2026: Đầu Xuân Tươi Sáng hạng 3, hạng 1 dễ đoán, hạng 5 quá bất ngờ - Phunumoi.net.vn",
+     "outlet": "Phunumoi.net.vn"
     },
     {
-     "url": "https://tuoitre.vn/my-nhan-giay-thuy-tinh-kim-hyun-joo-mac-pha-cach-100261029232251806.htm",
-     "title": "Mỹ nhân 'Giày thủy tinh' Kim Hyun Joo mặc phá cách - Tuổi Trẻ",
-     "outlet": "Tuổi Trẻ"
+     "url": "https://www.saostar.vn/dien-anh/le-trao-giai-apan-star-awards-2026-an-dinh-thoi-gian-202610301156408077.html",
+     "title": "Lễ trao giải APAN Star Awards 2026 ấn định thời gian và địa điểm tổ chức - Tạp chí Saostar",
+     "outlet": "Tạp chí Saostar"
+    },
+    {
+     "url": "https://kenh14.vn/cong-bo-15-dien-vien-tieu-bieu-cua-han-quoc-2026-song-hye-kyo-chi-xep-thu-12-hang-1-dinh-cao-tuyet-doi-215261029150242047.chn",
+     "title": "Công bố 15 diễn viên tiêu biểu của Hàn Quốc 2026: Song Hye Kyo chỉ xếp thứ 12, hạng 1 đỉnh cao tuyệt đối - Kenh14.vn",
+     "outlet": "Kenh14.vn"
     }
    ]
   },
@@ -74,8 +124,8 @@
    "source": "google_news",
    "keyword": "K-pop",
    "traffic": 0,
-   "article_count_24h": 42,
-   "article_count_1h": 6,
+   "article_count_24h": 37,
+   "article_count_1h": 5,
    "published": "2026-10-30T12:06:46+09:00",
    "category": "K-Culture",
    "news": [
@@ -135,20 +185,20 @@
    "source": "google_news",
    "keyword": "mùa mưa",
    "traffic": 0,
-   "article_count_24h": 50,
-   "article_count_1h": 9,
-   "published": "2026-10-30T10:11:46+09:00",
+   "article_count_24h": 24,
+   "article_count_1h": 4,
+   "published": "2026-10-30T10:34:12+09:00",
    "category": "Living",
    "news": [
-    {
-     "title": "Gia Lai đầu tư hơn 376 tỷ đồng xây dựng thay thế 4 cầu yếu, đảm bảo an toàn mùa mưa lũ - Báo Gia Lai điện tử",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLUNyM0tPaWphWmJwUFVpb3lHZzV6dVk4amhYVFRUYnRpMW11cl9ZUTNJY3hDQ3VvNlhSNlh5WlJBWFl1OFFYYkowc09JTEVFUndIRUI1SUxSaFdENlZQNXkyRDhhYWxFYXVHQXk5c2lqdnJQQ1pYVmY0VEV5TTM1UnpaNWV3UzJMdzgwbnU3ZTdTY1lTS09UV1lHdkZTaHZ4V2VSWFhHTUduSnNJRnF5NG1GbV9nMXo1UmxGREdkV2RTUXFX?oc=5",
-     "source": "Báo Gia Lai điện tử"
-    },
     {
      "title": "TPHCM và Nam bộ bước vào giai đoạn chuyển mùa, nắng nóng cục bộ - Báo Sài Gòn Đầu Tư Tài Chính",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdGVvU1RLT21MbVFLc3E0Y2ZJWG43ZG1pWWNMU210T3BNRjBrSEFSd2xCQXVvclhmWXVWSWRhRWFEXzBLRGc2cmc2Rnl1U2UxYWVJZ1ZqWWZlNTB2UmkycHNMNldQQmVMd0doNDhNRUZ3dmFKS2hlN3BsN3BZRDZOcW9BdTFCRG5OS2ptbjZLQndNenhfdmpDWk5VTExWcElUbzJMRkhn?oc=5",
      "source": "Báo Sài Gòn Đầu Tư Tài Chính"
+    },
+    {
+     "title": "Gia Lai đầu tư hơn 376 tỷ đồng xây dựng thay thế 4 cầu yếu, đảm bảo an toàn mùa mưa lũ - Báo Gia Lai điện tử",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLUNyM0tPaWphWmJwUFVpb3lHZzV6dVk4amhYVFRUYnRpMW11cl9ZUTNJY3hDQ3VvNlhSNlh5WlJBWFl1OFFYYkowc09JTEVFUndIRUI1SUxSaFdENlZQNXkyRDhhYWxFYXVHQXk5c2lqdnJQQ1pYVmY0VEV5TTM1UnpaNWV3UzJMdzgwbnU3ZTdTY1lTS09UV1lHdkZTaHZ4V2VSWFhHTUduSnNJRnF5NG1GbV9nMXo1UmxGREdkV2RTUXFX?oc=5",
+     "source": "Báo Gia Lai điện tử"
     },
     {
      "title": "Tuyên Quang chủ động bảo đảm nguồn nước mùa khô - moitruong.net.vn",
@@ -167,18 +217,18 @@
     }
    ],
    "official": false,
-   "score": 30.0,
+   "score": 27.6,
    "already_covered": false,
    "evidence": [
-    {
-     "url": "https://baogialai.com.vn/gia-lai-dau-tu-hon-376-ty-dong-xay-dung-thay-the-4-cau-yeu-dam-bao-an-toan-mua-mua-lu-post603492.html",
-     "title": "Gia Lai đầu tư hơn 376 tỷ đồng xây dựng thay thế 4 cầu yếu, đảm bảo an toàn mùa mưa lũ - Báo Gia Lai điện tử",
-     "outlet": "Báo Gia Lai điện tử"
-    },
     {
      "url": "https://dttc.sggp.org.vn/tphcm-va-nam-bo-buoc-vao-giai-doan-chuyen-mua-nang-nong-cuc-bo-post138886.html",
      "title": "TPHCM và Nam bộ bước vào giai đoạn chuyển mùa, nắng nóng cục bộ - Báo Sài Gòn Đầu Tư Tài Chính",
      "outlet": "Báo Sài Gòn Đầu Tư Tài Chính"
+    },
+    {
+     "url": "https://baogialai.com.vn/gia-lai-dau-tu-hon-376-ty-dong-xay-dung-thay-the-4-cau-yeu-dam-bao-an-toan-mua-mua-lu-post603492.html",
+     "title": "Gia Lai đầu tư hơn 376 tỷ đồng xây dựng thay thế 4 cầu yếu, đảm bảo an toàn mùa mưa lũ - Báo Gia Lai điện tử",
+     "outlet": "Báo Gia Lai điện tử"
     },
     {
      "url": "https://moitruong.net.vn/tuyen-quang-chu-dong-bao-dam-nguon-nuoc-mua-kho-103651.html",
@@ -196,8 +246,8 @@
    "source": "google_news",
    "keyword": "bão",
    "traffic": 0,
-   "article_count_24h": 60,
-   "article_count_1h": 7,
+   "article_count_24h": 59,
+   "article_count_1h": 1,
    "published": "2026-10-30T11:21:15+09:00",
    "category": "Living",
    "news": [
@@ -228,7 +278,7 @@
     }
    ],
    "official": false,
-   "score": 30.0,
+   "score": 20.4,
    "already_covered": true,
    "evidence": [
     {
@@ -252,20 +302,15 @@
    "source": "google_news",
    "keyword": "mỹ phẩm Hàn Quốc",
    "traffic": 0,
-   "article_count_24h": 17,
-   "article_count_1h": 1,
-   "published": "2026-10-30T09:26:19+09:00",
+   "article_count_24h": 22,
+   "article_count_1h": 0,
+   "published": "2026-10-30T09:57:48+09:00",
    "category": "K-Culture",
    "news": [
     {
-     "title": "KindNet: Cầu nối mỹ phẩm Hàn Quốc chính ngạch tại Việt Nam - tin.skydoor.net",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkhsTUVYOGVrT3N0ck1UeUlHSXdwenRwYUxyNW1uRXRiVjZIem51dFJJVEgwai1ESWNSb2ktYVRueHlnTEpocmV4c1Z6Z2hRdjFGTHNtU3Qyc2lwYjhvcTJVVkRjaXJBTnMxM1pFTDVMenNyaGItRDhJeXRESWhXVkpieW1mNGNGbUN3TmFLakZKc0k2dl9SUkJYbFpfT2lnNmdkaE90eGo?oc=5",
-     "source": "tin.skydoor.net"
-    },
-    {
-     "title": "Hàn Quốc, Nhật Bản theo dõi việc Triều Tiên phóng tên lửa - Vietnam.vn",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeVYzTmZwVldHanlnRkNaQU1YZmN5bFlOS3k3QllreTF4ejNVcGNBc085NlE3ZndQY1J0d0U2MGtoWGxZN012YXU5NUFnUHhVSm9wdWJmbFgwbng5RngyZ3ZQOExVUkFWVHlWd3NBVHYyWTRvNUl6di1zT1Z4OXNBcDljU1VPQQ?oc=5",
-     "source": "Vietnam.vn"
+     "title": "Sản lượng công nghiệp tháng 9 của Hàn Quốc tăng mạnh nhất trong 15 năm trở lại đây nhờ chip bán dẫn - 연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRlB0NFRMY1h1NjlHWjJGT3B6cHNObFpnVzE1NWtiQ2dXaG92clhObkN6WEI4YXFGdTZWVHBUQ00zZldXbVhoWkUwQ2c1U2UwRjZWeDBJbEFSa1ZoWWxlWF9jVFlmSFUtSmNRd1o0YXk3bmxRM0V6UUpvZkk1ZmthNU91aGcwdw?oc=5",
+     "source": "연합뉴스"
     },
     {
      "title": "Hàn Quốc và Mỹ diễn tập mô phỏng phối hợp năng lực hạt nhân - Trung tâm Nội dung số và Truyền thông",
@@ -273,29 +318,29 @@
      "source": "Trung tâm Nội dung số và Truyền thông"
     },
     {
-     "title": "Hàn Quốc và Mỹ diễn tập phối hợp năng lực hạt nhân - Báo Tin tức và Dân tộc",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVThzckU1REpHTXZyQUJWVlE5cXBxay1WX19hLVo0MVI5cF9ST3BCX3hNM2VpQVZqTFo5NVFkSlhSUFA4MGFUbVczUExZQUxGRUVKSkdpamZTODNCbGFseWF6dmNlbHF5VkNiYWhfQWxGVFR6bl9jbklndmxET0dJYUZkZGlHY2gtUGozY29ZYjUwUQ?oc=5",
-     "source": "Báo Tin tức và Dân tộc"
+     "title": "Hàn Quốc, Nhật Bản theo dõi việc Triều Tiên phóng tên lửa - Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeVYzTmZwVldHanlnRkNaQU1YZmN5bFlOS3k3QllreTF4ejNVcGNBc085NlE3ZndQY1J0d0U2MGtoWGxZN012YXU5NUFnUHhVSm9wdWJmbFgwbng5RngyZ3ZQOExVUkFWVHlWd3NBVHYyWTRvNUl6di1zT1Z4OXNBcDljU1VPQQ?oc=5",
+     "source": "Vietnam.vn"
     },
     {
      "title": "Hàn Quốc, Mỹ và Nhật Bản phối hợp theo dõi vụ phóng tên lửa của Triều Tiên - BÁO SÀI GÒN GIẢI PHÓNG",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWU5JSDlDYjVGendYMVpVdkRNX01qRGFEVVcyUU54MFNXZzdYVERSbGZzUUlHWHl0ZDhseGV3UXNTQm5oLVpuQWhXRXhfd0QydmNkdzNKdXhFUWNfdUxaNjJwcXZUY29oaUVkRUJLN2ZqVEZxNXBTYXptNnFBX3hUdy1mTWxPUGxQTDc0alAtdGZ3RWxsTHE5d050WWRTOWhaWTh6X0NDLURMblV4S0NQcTZwYw?oc=5",
      "source": "BÁO SÀI GÒN GIẢI PHÓNG"
+    },
+    {
+     "title": "Hình ảnh mới nhất của Hạt Dẻ: Xinh như nàng thơ giữa phố Hàn, vóc dáng và phong cách thời trang gây chú ý - CafeF",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVVZUUy1nSHdvZmF5ZV9mQWhQZzR4X0pnUHRMaERGZENnVUNaamtQN0RkUVBkdFg5cVN4M3lsMWo0V043THFiSTFGZDlZdWMwTWRjTlk1UEt6dXE0aVRnMWtLbkxQeFRzLUx3Q3gxbzNEaXVyMEtKa3YyYVE4cUR6UmlPRmZ0eGZ5YjN6alg1SFI2ZDZnWHdUVVNSTmFNeDFuaFdfMmUzZXJMOVVsa1l2X1p2dWxyS0ZqbWx0NW5IYzFFNVNXSmswNFg3Vk15dWVVVFV4Rm82Nk1KeEU?oc=5",
+     "source": "CafeF"
     }
    ],
    "official": false,
-   "score": 20.4,
+   "score": 18.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://tin.skydoor.net/news/nghe-thuat-kindnet-cau-noi-my-pham-han-quoc-chinh-ngach-tai-viet-nam-8326770",
-     "title": "KindNet: Cầu nối mỹ phẩm Hàn Quốc chính ngạch tại Việt Nam - tin.skydoor.net",
-     "outlet": "tin.skydoor.net"
-    },
-    {
-     "url": "https://www.vietnam.vn/han-quoc-nhat-ban-theo-doi-viec-trieu-tien-phong-ten-lua",
-     "title": "Hàn Quốc, Nhật Bản theo dõi việc Triều Tiên phóng tên lửa - Vietnam.vn",
-     "outlet": "Vietnam.vn"
+     "url": "https://vi.yna.co.kr/view/AVI20261030000100880?section=economy-technology/index",
+     "title": "Sản lượng công nghiệp tháng 9 của Hàn Quốc tăng mạnh nhất trong 15 năm trở lại đây nhờ chip bán dẫn - 연합뉴스",
+     "outlet": "연합뉴스"
     },
     {
      "url": "https://vietnammedia.vnanet.vn/video/han-quoc-va-my-dien-tap-mo-phong-phoi-hop-nang-luc-hat-nhan-207121.htm",
@@ -303,79 +348,38 @@
      "outlet": "Trung tâm Nội dung số và Truyền thông"
     },
     {
-     "url": "https://baotintuc.vn/han-quoc-va-my-dien-tap-phoi-hop-nang-luc-hat-nhan-post1398314.html",
-     "title": "Hàn Quốc và Mỹ diễn tập phối hợp năng lực hạt nhân - Báo Tin tức và Dân tộc",
-     "outlet": "Báo Tin tức và Dân tộc"
+     "url": "https://www.vietnam.vn/han-quoc-nhat-ban-theo-doi-viec-trieu-tien-phong-ten-lua",
+     "title": "Hàn Quốc, Nhật Bản theo dõi việc Triều Tiên phóng tên lửa - Vietnam.vn",
+     "outlet": "Vietnam.vn"
+    },
+    {
+     "url": "https://www.sggp.org.vn/han-quoc-my-va-nhat-ban-phoi-hop-theo-doi-vu-phong-ten-lua-cua-trieu-tien-post878996.html",
+     "title": "Hàn Quốc, Mỹ và Nhật Bản phối hợp theo dõi vụ phóng tên lửa của Triều Tiên - BÁO SÀI GÒN GIẢI PHÓNG",
+     "outlet": "BÁO SÀI GÒN GIẢI PHÓNG"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "kos",
-   "traffic": 500,
-   "published": "2026-10-30T11:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Tự doanh nắm cổ phiếu KOS, Chứng khoán APG báo lỗ lớn trong 9 tháng",
-     "url": "https://www.tinnhanhchungkhoan.vn/tu-doanh-nam-co-phieu-kos-chung-khoan-apg-bao-lo-lon-trong-9-thang-post400218.html",
-     "source": "Tin nhanh chứng khoán"
-    },
-    {
-     "title": "Điều gì khiến KOS chịu áp lực bán giải chấp, rơi liên tục 27 phiên?",
-     "url": "https://diendandoanhnghiep.vn/dieu-gi-khien-kos-chiu-ap-luc-ban-giai-chap-roi-lien-tuc-27-phien-10186642.html",
-     "source": "Báo Diễn đàn Doanh nghiệp"
-    },
-    {
-     "title": "Dòng tiền bắt đáy ồ ạt, KOS từ sàn lên trần sau 29 phiên lao dốc",
-     "url": "https://vietnambiz.vn/dong-tien-bat-day-o-at-kos-tu-san-len-tran-sau-29-phien-lao-doc-202610309324313.htm",
-     "source": "VietnamBiz"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 200→500",
-   "spike_bonus": 20,
-   "score": 13.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.tinnhanhchungkhoan.vn/tu-doanh-nam-co-phieu-kos-chung-khoan-apg-bao-lo-lon-trong-9-thang-post400218.html",
-     "title": "Tự doanh nắm cổ phiếu KOS, Chứng khoán APG báo lỗ lớn trong 9 tháng",
-     "outlet": "Tin nhanh chứng khoán"
-    },
-    {
-     "url": "https://diendandoanhnghiep.vn/dieu-gi-khien-kos-chiu-ap-luc-ban-giai-chap-roi-lien-tuc-27-phien-10186642.html",
-     "title": "Điều gì khiến KOS chịu áp lực bán giải chấp, rơi liên tục 27 phiên?",
-     "outlet": "Báo Diễn đàn Doanh nghiệp"
-    },
-    {
-     "url": "https://vietnambiz.vn/dong-tien-bat-day-o-at-kos-tu-san-len-tran-sau-29-phien-lao-doc-202610309324313.htm",
-     "title": "Dòng tiền bắt đáy ồ ạt, KOS từ sàn lên trần sau 29 phiên lao dốc",
-     "outlet": "VietnamBiz"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "cve-2026-98432",
+   "keyword": "sân bay quốc tế long thành",
    "traffic": 200,
-   "published": "2026-10-30T11:10:00+09:00",
+   "published": "2026-10-30T12:40:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-     "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-     "source": "The Hacker News"
+     "title": "Sân bay Long Thành trước ngày khai thác",
+     "url": "https://thanhnien.vn/san-bay-long-thanh-truoc-ngay-khai-thac-185261029224823348.htm",
+     "source": "Báo Thanh Niên"
     },
     {
-     "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-     "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-     "source": "The Hacker News"
+     "title": "Sân bay Long Thành dự kiến khai thác từ 0h ngày 24.12",
+     "url": "https://laodong.vn/xa-hoi/san-bay-long-thanh-du-kien-khai-thac-tu-0h-ngay-2412-1791783.ldo",
+     "source": "Laodong.vn"
     },
     {
-     "title": "Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction",
-     "url": "https://cybersecuritynews.com/linux-kernel-flaw-root-commands/",
-     "source": "CyberSecurityNews"
+     "title": "ACV hoàn thiện hệ thống cấp nhiên liệu 36.000m³, chuẩn bị cho việc vận hành sân bay Long Thành",
+     "url": "https://nguoiquansat.vn/acv-hoan-thien-he-thong-cap-nhien-lieu-36-000m-chuan-bi-cho-viec-van-hanh-san-bay-long-thanh-325038.html",
+     "source": "nguoiquansat.vn"
     }
    ],
    "official": false,
@@ -385,74 +389,211 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-     "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-     "outlet": "The Hacker News"
+     "url": "https://thanhnien.vn/san-bay-long-thanh-truoc-ngay-khai-thac-185261029224823348.htm",
+     "title": "Sân bay Long Thành trước ngày khai thác",
+     "outlet": "Báo Thanh Niên"
     },
     {
-     "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-     "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-     "outlet": "The Hacker News"
-    },
-    {
-     "url": "https://cybersecuritynews.com/linux-kernel-flaw-root-commands/",
-     "title": "Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction",
-     "outlet": "CyberSecurityNews"
+     "url": "https://nguoiquansat.vn/acv-hoan-thien-he-thong-cap-nhien-lieu-36-000m-chuan-bi-cho-viec-van-hanh-san-bay-long-thanh-325038.html",
+     "title": "ACV hoàn thiện hệ thống cấp nhiên liệu 36.000m³, chuẩn bị cho việc vận hành sân bay Long Thành",
+     "outlet": "nguoiquansat.vn"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "đi bộ",
+   "keyword": "ngoc diem thu",
    "traffic": 500,
-   "published": "2026-10-30T11:50:00+09:00",
+   "published": "2026-10-30T14:00:00+09:00",
+   "category": "기타",
+   "news": [],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": []
+  },
+  {
+   "source": "google_trends",
+   "keyword": "ngân hàng thương mại cổ phần đầu tư và phát triển việt nam",
+   "traffic": 500,
+   "published": "2026-10-30T13:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Đi bộ 5km mỗi ngày, người đàn ông bất ngờ khi chân vẫn teo nhỏ",
-     "url": "https://vietnamnet.vn/di-bo-5km-moi-ngay-nguoi-dan-ong-bat-ngo-khi-chan-van-teo-nho-2569365.html",
-     "source": "Báo VietNamNet"
+     "title": "Chủ tịch ngân hàng lớn nhất Việt Nam vừa trở thành tân Tiến sĩ",
+     "url": "https://cafef.vn/chu-tich-ngan-hang-lon-nhat-viet-nam-vua-tro-thanh-tan-tien-si-188261030100558388.chn",
+     "source": "CafeF"
     },
     {
-     "title": "2 vụ tai nạn chết người liên quan người đi bộ, CSGT TP.HCM cảnh báo",
-     "url": "https://thanhnien.vn/2-vu-tai-nan-chet-nguoi-lien-quan-nguoi-di-bo-csgt-tphcm-canh-bao-185261029120319818.htm",
-     "source": "Báo Thanh Niên"
+     "title": "Kỳ 2: Giải phẫu “Nghĩa tình giả”: Khi sự dễ dãi giết chết nguyên tắc",
+     "url": "https://www.qdnd.vn/kinh-te/cac-van-de/khi-hoc-tap-va-lam-theo-bac-tro-thanh-suc-manh-trong-xay-dung-dang-o-dang-bo-bidv-ky-2-giai-phau-nghia-tinh-gia-khi-su-de-dai-giet-chet-nguyen-tac-1062504",
+     "source": "Báo Quân đội nhân dân"
     },
     {
-     "title": "Nhiều trường hợp đi bộ bị tai nạn vì qua đường sai",
-     "url": "https://www.sggp.org.vn/nhieu-truong-hop-di-bo-bi-tai-nan-vi-qua-duong-sai-post879065.html",
-     "source": "BÁO SÀI GÒN GIẢI PHÓNG"
+     "title": "Văn hóa Đảng thấm sâu vào thực tiễn Đảng bộ cơ sở BIDV Long An: Hành trình 'phụng sự Tổ quốc, phục vụ Nhân dân'",
+     "url": "https://baotayninh.vn/van-hoa-dang-tham-sau-vao-thuc-tien-dang-bo-co-so-bidv-long-an-hanh-trinh-phung-su-to-quoc-phuc-vu-nhan-dan-351925.html",
+     "source": "Báo và phát thanh, truyền hình Tây Ninh"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
    "score": 10.5,
-   "already_covered": false,
-   "evidence": [
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "hà nội",
+   "traffic": 200,
+   "published": "2026-10-30T14:00:00+09:00",
+   "category": "K-Culture",
+   "news": [
     {
-     "url": "https://vietnamnet.vn/di-bo-5km-moi-ngay-nguoi-dan-ong-bat-ngo-khi-chan-van-teo-nho-2569365.html",
-     "title": "Đi bộ 5km mỗi ngày, người đàn ông bất ngờ khi chân vẫn teo nhỏ",
-     "outlet": "Báo VietNamNet"
+     "title": "Điều Big Bang tiếc nuối về concert ở Hà Nội",
+     "url": "https://www.24h.com.vn/giai-tri/dieu-big-bang-tiec-nuoi-ve-concert-o-ha-noi-c731a1806904.html",
+     "source": "Tin tức 24h"
     },
     {
-     "url": "https://thanhnien.vn/2-vu-tai-nan-chet-nguoi-lien-quan-nguoi-di-bo-csgt-tphcm-canh-bao-185261029120319818.htm",
-     "title": "2 vụ tai nạn chết người liên quan người đi bộ, CSGT TP.HCM cảnh báo",
-     "outlet": "Báo Thanh Niên"
+     "title": "BigBang: 'Mong đến Việt Nam thường xuyên'",
+     "url": "https://vnexpress.net/bigbang-mong-den-viet-nam-thuong-xuyen-5138633.html",
+     "source": "VnExpress"
     },
     {
-     "url": "https://www.sggp.org.vn/nhieu-truong-hop-di-bo-bi-tai-nan-vi-qua-duong-sai-post879065.html",
-     "title": "Nhiều trường hợp đi bộ bị tai nạn vì qua đường sai",
-     "outlet": "BÁO SÀI GÒN GIẢI PHÓNG"
+     "title": "Báo Hàn Quốc: Việt Nam trở thành thị trường trọng điểm của nghệ sĩ Kpop",
+     "url": "https://dantri.com.vn/giai-tri/bao-han-quoc-viet-nam-tro-thanh-thi-truong-trong-diem-cua-nghe-si-kpop-20261030100607032.htm",
+     "source": "Báo Dân trí"
     }
-   ]
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "xem phim gả kim thoa",
+   "traffic": 200,
+   "published": "2026-10-30T14:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Gả Kim Thoa: Hai nhân vật ác nhất và lỗ hổng plot twist thân phận của Điền Hi Vi",
+     "url": "https://hoahoctro.tienphong.vn/ga-kim-thoa-hai-nhan-vat-ac-nhat-va-lo-hong-plot-twist-than-phan-cua-dien-hi-vi-post1889751.tpo",
+     "source": "Báo Tiền Phong"
+    },
+    {
+     "title": "Diêm An \"Gả kim thoa\" ghi điểm trong lần đầu đóng vai chính",
+     "url": "https://vtv.vn/the-thao/diem-an-ga-kim-thoa-ghi-diem-trong-lan-dau-dong-vai-chinh-100261024092427203.htm",
+     "source": "VTV.vn"
+    },
+    {
+     "title": "Giải mã sức hút của Gả Kim Thoa và Đầu Xuân Tươi Sáng",
+     "url": "https://voh.com.vn/phim-anh/giai-ma-suc-hut-cua-ga-kim-thoa-va-dau-xuan-tuoi-sang-676618.html",
+     "source": "VOH"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "tập đoàn vingroup",
+   "traffic": 100,
+   "published": "2026-10-30T13:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Công ty xăng dầu 1.000 tỉ đồng bổ nhiệm vị trí lãnh đạo cấp cao",
+     "url": "https://tuoitre.vn/cong-ty-xang-dau-1000-ti-dong-bo-nhiem-vi-tri-lanh-dao-cap-cao-100261028101900968.htm",
+     "source": "Tuổi Trẻ"
+    },
+    {
+     "title": "Công ty xăng dầu 1.000 tỷ điều chỉnh vị trí nhân sự cấp cao",
+     "url": "https://cafef.vn/cong-ty-xang-dau-1000-ty-dieu-chinh-vi-tri-nhan-su-cap-cao-188261027220632569.chn",
+     "source": "CafeF"
+    },
+    {
+     "title": "Bà Nguyễn Mai Hoa làm Chủ tịch doanh nghiệp xăng dầu nghìn tỷ của Vingroup",
+     "url": "https://nguoiquansat.vn/ba-nguyen-mai-hoa-lam-chu-tich-doanh-nghiep-xang-dau-nghin-ty-cua-vingroup-324667.html",
+     "source": "nguoiquansat.vn"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "giải bóng đá vô địch quốc gia việt nam",
+   "traffic": 100,
+   "published": "2026-10-30T13:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Cập nhật khả năng ra sân của Đình Bắc trong trận SLNA vs CAHN",
+     "url": "https://bongdaplus.vn/v-league/cap-nhat-co-hoi-ra-san-cua-dinh-bac-trong-tran-slna-vs-cahn-5276112610.html",
+     "source": "Tạp chí Bóng đá"
+    },
+    {
+     "title": "Dự đoán tỷ số SLNA 1-1 CLB CAHN: Đình Bắc lập công trên quê hương",
+     "url": "https://thanhnien.vn/du-doan-ty-so-slna-1-1-clb-cahn-dinh-bac-lap-cong-tren-que-huong-185261030102036021.htm",
+     "source": "Báo Thanh Niên"
+    },
+    {
+     "title": "Vắng Bruno, Sông Lam Nghệ An có thể ghi bàn trước Công an Hà Nội?",
+     "url": "https://baonghean.vn/vang-bruno-song-lam-nghe-an-co-the-ghi-ban-truoc-cong-an-ha-noi-10354630.html",
+     "source": "Báo Nghệ An"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "nhà môi giới",
+   "traffic": 100,
+   "published": "2026-10-30T13:30:00+09:00",
+   "category": "Deals",
+   "news": [
+    {
+     "title": "Những kẽ hở của thị trường môi giới bất động sản Kỳ 1: Tuyển dụng lao động nhưng không phải lao động",
+     "url": "https://baophapluat.vn/nhung-ke-ho-cua-thi-truong-moi-gioi-bat-dong-san-ky-1-tuyen-dung-lao-dong-nhung-khong-phai-lao-dong.html",
+     "source": "Báo Pháp Luật Việt Nam"
+    },
+    {
+     "title": "Khi môi giới BĐS cất vội bộ vest để chạy xe ôm, sàn giao dịch thành quán cà phê để gồng chi phí...Vinhomes của tỷ phú Phạm Nhật Vượng mạnh tay chi trăm tỷ mỗi tháng \"nuôi sale thay sàn\"",
+     "url": "https://kenh14.vn/khi-moi-gioi-bds-cat-voi-bo-vest-de-chay-xe-om-san-giao-dich-thanh-quan-ca-phe-de-gong-chi-phivinhomes-cua-ty-phu-pham-nhat-vuong-manh-tay-chi-tram-ty-moi-thang-nuoi-sale-thay-san-215261030092939421.chn",
+     "source": "Kenh14.vn"
+    },
+    {
+     "title": "25% hoa hồng môi giới nhà đất bị treo, vướng pháp lý",
+     "url": "https://cafef.vn/25-hoa-hong-moi-gioi-nha-dat-bi-treo-vuong-phap-ly-18826103007004055.chn",
+     "source": "CafeF"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "kem chống nắng",
    "traffic": 0,
-   "article_count_24h": 7,
-   "article_count_1h": 1,
+   "article_count_24h": 6,
+   "article_count_1h": 0,
    "published": "2026-10-29T23:33:00+09:00",
    "category": "Beauty",
    "news": [
@@ -483,92 +624,7 @@
     }
    ],
    "official": false,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "shark bình",
-   "traffic": 200,
-   "published": "2026-10-30T12:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Bố Mr Pips khai rút 97 tỷ đồng nhờ người thân giấu sau khi con bị bắt",
-     "url": "https://dantri.com.vn/phap-luat/bo-mr-pips-khai-rut-97-ty-dong-nho-nguoi-than-giau-sau-khi-con-bi-bat-20261030102818665.htm",
-     "source": "Báo Dân trí"
-    },
-    {
-     "title": "Shark Bình tại tòa: \"Xác định dám làm dám chịu, đi tù rồi thì tươi lên thôi\"",
-     "url": "https://kenh14.vn/shark-binh-tai-toa-xac-dinh-dam-lam-dam-chiu-di-tu-roi-thi-tuoi-len-thoi-215261030102709419.chn",
-     "source": "Kenh14.vn"
-    },
-    {
-     "title": "Hai cựu công an trong 'tổ tư vấn' khai không biết Mr Pips làm ăn phi pháp",
-     "url": "https://vnexpress.net/hai-cuu-cong-an-trong-to-tu-van-khai-khong-biet-mr-pips-lam-an-phi-phap-5138059.html",
-     "source": "VnExpress"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "sân bay quốc tế long thành",
-   "traffic": 100,
-   "published": "2026-10-30T12:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Sân bay Long Thành trước ngày khai thác",
-     "url": "https://thanhnien.vn/san-bay-long-thanh-truoc-ngay-khai-thac-185261029224823348.htm",
-     "source": "Báo Thanh Niên"
-    },
-    {
-     "title": "ACV hoàn thiện hệ thống cấp nhiên liệu 36.000m³, chuẩn bị cho việc vận hành sân bay Long Thành",
-     "url": "https://nguoiquansat.vn/acv-hoan-thien-he-thong-cap-nhien-lieu-36-000m-chuan-bi-cho-viec-van-hanh-san-bay-long-thanh-325038.html",
-     "source": "nguoiquansat.vn"
-    },
-    {
-     "title": "Việt Nam đang xây một tuyến đường rộng 8 làn xe, đi xuyên rừng cao su, sẽ kết nối trực tiếp tới sân bay lớn nhất nước ta",
-     "url": "https://cafef.vn/viet-nam-dang-xay-mot-tuyen-duong-rong-8-lan-xe-di-xuyen-rung-cao-su-se-ket-noi-truc-tiep-toi-san-bay-lon-nhat-nuoc-ta-188261028235225232.chn",
-     "source": "CafeF"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "phim chị chị em em",
-   "traffic": 2000,
-   "published": "2026-10-30T11:30:00+09:00",
-   "category": "Living",
-   "news": [
-    {
-     "title": "Cảnh cao trào của Lan Ngọc, Steven Nguyễn gây chú ý",
-     "url": "https://vnexpress.net/canh-cao-trao-cua-lan-ngoc-steven-nguyen-gay-chu-y-5138418.html",
-     "source": "VnExpress"
-    },
-    {
-     "title": "HOT nhất Threads lúc này: Netizen điên cuồng review Chị Chị Em Em 3, bão chê bai chiến rừng khen ngợi",
-     "url": "https://kenh14.vn/hot-nhat-threads-luc-nay-netizen-dien-cuong-review-phim-viet-top-1-phong-ve-bao-che-bai-chien-rung-khen-ngoi-215261030102913158.chn",
-     "source": "Kenh14.vn"
-    },
-    {
-     "title": "Phim có Lan Ngọc đánh bật 'Án mạng karaoke'",
-     "url": "https://znews.vn/phim-co-lan-ngoc-danh-bat-an-mang-karaoke-post1692821.html",
-     "source": "Znews"
-    }
-   ],
-   "official": false,
-   "score": 6.0,
+   "score": 7.6,
    "already_covered": false
   },
   {
@@ -576,7 +632,7 @@
    "keyword": "nồm ẩm",
    "traffic": 0,
    "article_count_24h": 2,
-   "article_count_1h": 1,
+   "article_count_1h": 0,
    "published": "2026-10-30T13:14:58+09:00",
    "category": "Living",
    "news": [
@@ -592,7 +648,7 @@
     }
    ],
    "official": false,
-   "score": 6.0,
+   "score": 3.6,
    "already_covered": false
   },
   {
@@ -616,106 +672,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "đội tuyển bóng đá quốc gia brasil",
+   "keyword": "shark bình",
    "traffic": 200,
-   "published": "2026-10-30T11:50:00+09:00",
+   "published": "2026-10-30T12:40:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Brazil mang đội hình gây sốc sang Đông Nam Á đá giao hữu",
-     "url": "https://znews.vn/brazil-mang-doi-hinh-gay-soc-sang-dong-nam-a-da-giao-huu-post1692994.html",
-     "source": "Znews"
-    },
-    {
-     "title": "ĐT Brazil triệu tập đội hình: Ancelotti gây tranh cãi với Raphinha",
-     "url": "https://bongdaplus.vn/bong-da-the-gioi/dt-brazil-trieu-tap-doi-hinh-ancelotti-gay-tranh-cai-voi-raphinha-5275872610.html",
-     "source": "Tạp chí Bóng đá"
-    },
-    {
-     "title": "Estevao được triệu tập lên tuyển Brazil dù ít ra sân cho Chelsea",
-     "url": "https://bongda24h.vn/bong-da-anh/estevao-duoc-trieu-tap-len-tuyen-brazil-du-it-ra-san-cho-chelsea-172-463501.html",
-     "source": "Bongda24h"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "máy bay",
-   "traffic": 200,
-   "published": "2026-10-30T11:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Mỹ điều 10 máy bay vận tải quân sự tới Israel",
-     "url": "https://www.24h.com.vn/tin-tuc-quoc-te/my-dieu-10-may-bay-van-tai-quan-su-toi-israel-c415a1806871.html",
-     "source": "Tin tức 24h"
-    },
-    {
-     "title": "Máy bay Mỹ ồ ạt chuyển hàng đến Trung Đông",
-     "url": "https://thanhnien.vn/may-bay-my-o-at-chuyen-hang-den-trung-dong-185261030085846896.htm",
-     "source": "Báo Thanh Niên"
-    },
-    {
-     "title": "Mỹ điều loạt máy bay vận tải quân sự đến Trung Đông",
-     "url": "https://tuoitre.vn/my-dieu-loat-may-bay-van-tai-quan-su-den-trung-dong-10026103011064379.htm",
-     "source": "Tuổi Trẻ"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "unai emery",
-   "traffic": 200,
-   "published": "2026-10-30T10:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Điều kiện duy nhất khiến HLV Emery rời Aston Villa để tới MU (Clip tin nóng)",
-     "url": "https://www.24h.com.vn/bong-da/dieu-kien-duy-nhat-khien-hlv-emery-roi-aston-villa-de-toi-mu-clip-tin-nong-c48a1806827.html",
-     "source": "Tin tức 24h"
-    },
-    {
-     "title": "Unai Emery có nguy cơ vỡ mộng nếu nhận lời dẫn dắt MU",
-     "url": "https://bongda.com.vn/unai-emery-co-nguy-co-vo-mong-neu-nhan-loi-dan-dat-mu-d853039.html",
-     "source": "bongda.com.vn"
-    },
-    {
-     "title": "Unai Emery - 'Tiến sĩ tử thần' của Ngoại hạng Anh",
-     "url": "https://vnexpress.net/unai-emery-tien-si-tu-than-cua-ngoai-hang-anh-5136415.html",
+     "title": "Cựu công an khai cả nể nên nhận 2,7 tỷ đồng 'chạy' giám định tâm thần cho Mr Pips",
+     "url": "https://vnexpress.net/cuu-cong-an-khai-ca-ne-nen-nhan-2-7-ty-dong-chay-giam-dinh-tam-than-cho-mr-pips-5138536.html",
      "source": "VnExpress"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "lewis hamilton",
-   "traffic": 200,
-   "published": "2026-10-30T10:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "'Next five races are like test races' – Hamilton outlines Ferrari's objectives in Mexico and beyond",
-     "url": "https://www.formula1.com/en/latest/article/next-five-races-are-like-test-races-hamilton-outlines-ferraris-objectives-in-mexico-and-beyond.2nIpI4JGRd8wG4e2qqjp6r",
-     "source": "Formula 1"
     },
     {
-     "title": "SF-27 development approach: Ferrari to make crucial 2027 F1 decisions after Austin progress",
-     "url": "https://scuderiafans.com/sf-27-development-approach-ferrari-to-make-crucial-2027-f1-decisions-after-austin-progress/",
-     "source": "Scuderia Ferrari Fans"
+     "title": "Shark Bình: 'Bị cáo dám làm dám chịu, đi tù thì tươi lên thôi'",
+     "url": "https://tienphong.vn/shark-binh-bi-cao-dam-lam-dam-chiu-di-tu-thi-tuoi-len-thoi-post1889875.tpo",
+     "source": "Báo Tiền Phong"
     },
     {
-     "title": "Hamilton shifts focus to Ferrari's push for second in the F1 constructors' race",
-     "url": "https://www.newsday.com/sports/motor-racing/lewis-hamilton-ferrari-formula-one-mexico-gp-y00854",
-     "source": "Newsday"
+     "title": "Nhân viên bảo vệ công ty Mr Pips sở hữu xe Mercedes, tòa liên tục hỏi có dùng vũ lực với khách không?",
+     "url": "https://tuoitre.vn/nhan-vien-bao-ve-cong-ty-mr-pips-so-huu-xe-mercedes-toa-lien-tuc-hoi-co-dung-vu-luc-voi-khach-khong-100261030004632781.htm",
+     "source": "Tuổi Trẻ"
     }
    ],
    "official": false,
