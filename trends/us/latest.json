@@ -1,23 +1,23 @@
 {
- "generated_at": "2026-11-01T05:07:48.266859+09:00",
+ "generated_at": "2026-11-01T05:36:57.770112+09:00",
  "sources": {
   "calendar": "ok (3)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 74, 실패 33)"
+  "evidence": "ok (저장 72, 실패 33)"
  },
- "compared_runs": 6,
+ "compared_runs": 5,
  "spikes": [
-  "bruins",
-  "ac milan",
-  "keyonte george",
-  "acc football standings",
-  "lsu vs alabama",
-  "oliver dunn",
-  "wednesday",
-  "sweepstake",
-  "isaiah marshall",
-  "lucia szabová"
+  "aston villa",
+  "porto vs estoril",
+  "islanders",
+  "rj harvey",
+  "north alabama vs central ar",
+  "tatum o'neal",
+  "aidan chiles",
+  "big ten network",
+  "emmitt smith",
+  "jake fette"
  ],
  "candidates": [
   {
@@ -30,7 +30,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-01T05:07:48.293736+09:00",
+   "published": "2026-11-01T05:36:57.795556+09:00",
    "score": 85,
    "already_covered": false,
    "cycle": "us-tax-season-extension-2026",
@@ -44,11 +44,56 @@
    "in_window": true
   },
   {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-01T05:36:57.795647+09:00",
+   "score": 74,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 1,
+   "in_window": false
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-01T05:36:57.795662+09:00",
+   "score": 74,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 1,
+   "in_window": false
+  },
+  {
    "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
    "article_count_24h": 20,
-   "article_count_1h": 6,
+   "article_count_1h": 4,
    "published": "2026-11-01T03:34:08+09:00",
    "category": "Benefits",
    "news": [
@@ -79,7 +124,7 @@
     }
    ],
    "official": false,
-   "score": 80.0,
+   "score": 73.6,
    "already_covered": false,
    "evidence": [
     {
@@ -105,107 +150,6 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-01T05:07:48.293842+09:00",
-   "score": 74,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 1,
-   "in_window": false
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-01T05:07:48.293858+09:00",
-   "score": 74,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 1,
-   "in_window": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "SNAP benefits",
-   "traffic": 0,
-   "article_count_24h": 50,
-   "article_count_1h": 4,
-   "published": "2026-11-01T04:32:30+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "8 people charged in $7M SNAP benefit fraud scheme - Gothamist",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSHRCQ0luTThFaUFialVVNk8xUHFySDBsVmZGY3BDZUJDXzMteGhXZG9QZ1lZalVDcExGOFphWXhFZDRyZV9mcl9BRklaUWFMYmlEd0xBRDM2YUV2NkRLVUVKMkh5dnRIQzFnRDVyVk5wYUtiQmRIT3YtZGNvWFBJMQ?oc=5",
-     "source": "Gothamist"
-    },
-    {
-     "title": "Michigan to reinstate SNAP work requirements in eight counties - SooLeader.com",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSUNIRnJYZnBaYTZ5dHpkYkVpWUdvTzAwQVhrUGprNnB1OTJmd09pZW9EU0lCYUg2akVBRFRqdUUxSGhxUXBRcXY5SGMwdDNnT1BaOGFqVklielFLVDZaU3l2VGNkYWJQQ1BWcW1TaVBZb0ItWHR5RjY1dGdubUpXclBWZ1NWb1g5VFU3cW1kaWNQOWVFVHd3RkJWWFp2UlpBbml5TVBfaXpkUFpf?oc=5",
-     "source": "SooLeader.com"
-    },
-    {
-     "title": "Guest Commentary: A lack of funding for SNAP threatens military readiness - Orlando Sentinel",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVUpjUi1DdzFKN1VwbWRCQ0VvM3cxdmNZWkdiTGNBbnkyMlRmUU10dW9HY0NTaVBfSWpGc095dzRuN1p4RXU2TjV6cmNXdVVMWXJqNGNKVGtLb2lqLVpSRlQtdUIzQnRtUFFncXI0V21YSUdlM3FWZFJEYkhpZjBjMUdCNFhqRkgxdktveVRPMDltcmRReGNBTXFDVlZIaXlxZTdURmFneENJc1hocFZUekFjOFR3QWM?oc=5",
-     "source": "Orlando Sentinel"
-    },
-    {
-     "title": "Feds Say Florida Store Owner Bought Food Stamps at Half Price to Stock His Store in $500K Scheme - Yahoo",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbTVkTXlDYWZyUXJYeWpNRENYaUdwSTJtazhoSWVyMndSMFdvUncxQTJ1bDBoVXlId28yWUhRVzhZZDFhZHZ1LXpVaXZ5N2xNaDFnelpfcm53Mlo0cHoyZUpMMlJ3TFVIVlFoMzkyX0lrbUp3djF5MmJQZjlRbmpmaVo5Vk1ScXZjTW1QYTZR?oc=5",
-     "source": "Yahoo"
-    },
-    {
-     "title": "I’m a farmer, and I’m done staying quiet - Farm Progress",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb0ozZGtzWndwSW5La25hQUFWR1FxMHo0dFIyS2dpZ2hHXzJmSmdkUmJwUXF1NnJodmNoY0RpdGRoNnpNV3ZVbXBpZlBROW9KUkVlZEVuelFnSXQ2Z3hVUlZtZGxtRjhlSUxockZ5eU54WUtyc0xvNFc5bVcyeFE1c0RCWVV5X2pIMHc?oc=5",
-     "source": "Farm Progress"
-    }
-   ],
-   "official": false,
-   "score": 73.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://gothamist.com/news/8-people-charged-in-7m-snap-benefit-fraud-scheme",
-     "title": "8 people charged in $7M SNAP benefit fraud scheme - Gothamist",
-     "outlet": "Gothamist"
-    },
-    {
-     "url": "https://www.orlandosentinel.com/2026/10/31/guest-commentary-a-lack-of-funding-for-snap-threatens-military-readiness/",
-     "title": "Guest Commentary: A lack of funding for SNAP threatens military readiness - Orlando Sentinel",
-     "outlet": "Orlando Sentinel"
-    },
-    {
-     "url": "https://www.yahoo.com/news/us/articles/feds-florida-store-owner-bought-191737300.html",
-     "title": "Feds Say Florida Store Owner Bought Food Stamps at Half Price to Stock His Store in $500K Scheme - Yahoo",
-     "outlet": "Yahoo"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
@@ -225,6 +169,11 @@
      "source": "Tom's Hardware"
     },
     {
+     "title": "Student Loan Delinquency Is Hitting Older Borrowers Hardest - Newsweek",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNURXbnduUnNJX3J4cGp6eG1kUG5VWGlyRG9objJsYWNOU0RYWkUxLS1laGVtQ3BVTFkzc196UUp3UlFibUdCNG9pNU1aeXl3WDl3bVVSTTVscEtwVE1XQUFIampGY3JtMkhSMkRJTEVkbzBtSGVqemIwQklLQnROZk55R0pISUp1YjI1a09FZ0pvVzZwS0E?oc=5",
+     "source": "Newsweek"
+    },
+    {
      "title": "Schuchard and Marquis are on the right path; student loan forgiveness; passenger rail vote (Letters) - Daily Camera",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZ0I3U3pEU01hSVdSYkc1YkJUck1iLUNwMlVqb3VpZXcxN2VjcGlwUjc1Qkh6Q1BmRndZTUlZTXEyQkJFQV83cjBIY0xucWpoc1l6XzlxbEFHd1JuU3FXYV9YUHZhT2F4Ny01TlpUMEpsRXNCbmwxS2J0ZDBJWjVoTmZoQ242ZW5NREhXQXc0enV6S1VtaHpRTXZKMUZ4dlJrU3lUWHlWTW9OdTJLeEJDUmVTd0tTZHZUU0s1d1IwWHphY25DRVAtR1hWTUYwMzhXTkE?oc=5",
      "source": "Daily Camera"
@@ -233,11 +182,6 @@
      "title": "Trump Says He Might Support Anna Paulina Luna's 2.5% Student Loan Interest Cap - The College Investor",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ0xtUHRBM1czZDFQbEZvdGdQa2VqNU1rVkczUjBwNGZPVTVOMTZrZ1lmRk4xa3Uyb3RIQ2ducjNaS0VFM09HMVdVWDB5Zm5nZGhvYmR4TVd1RXJDTVBYcWp4VWZkUUZ3NlI4RktPX00wbVhhaXRfbl91N1djNzZpdnZqMEIteDF4X1dBVVh4S1JGaENybncxaFVZX3RUZDNyRW1jWg?oc=5",
      "source": "The College Investor"
-    },
-    {
-     "title": "Student Loan Delinquency Is Hitting Older Borrowers Hardest - Newsweek",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNURXbnduUnNJX3J4cGp6eG1kUG5VWGlyRG9objJsYWNOU0RYWkUxLS1laGVtQ3BVTFkzc196UUp3UlFibUdCNG9pNU1aeXl3WDl3bVVSTTVscEtwVE1XQUFIampGY3JtMkhSMkRJTEVkbzBtSGVqemIwQklLQnROZk55R0pISUp1YjI1a09FZ0pvVzZwS0E?oc=5",
-     "source": "Newsweek"
     }
    ],
    "official": false,
@@ -250,6 +194,11 @@
      "outlet": "Tom's Hardware"
     },
     {
+     "url": "https://www.newsweek.com/student-loans-repayment-missing-pay-delinquency-borrowers-12643655",
+     "title": "Student Loan Delinquency Is Hitting Older Borrowers Hardest - Newsweek",
+     "outlet": "Newsweek"
+    },
+    {
      "url": "https://www.dailycamera.com/2026/10/31/schuchard-and-marquis-are-on-the-right-path-student-loan-forgiveness-passenger-rail-vote-letters/",
      "title": "Schuchard and Marquis are on the right path; student loan forgiveness; passenger rail vote (Letters) - Daily Camera",
      "outlet": "Daily Camera"
@@ -258,67 +207,52 @@
      "url": "https://thecollegeinvestor.com/91349/trump-says-he-might-support-capping-student-loan-interest-at-2-5/",
      "title": "Trump Says He Might Support Anna Paulina Luna's 2.5% Student Loan Interest Cap - The College Investor",
      "outlet": "The College Investor"
-    },
-    {
-     "url": "https://www.newsweek.com/student-loans-repayment-missing-pay-delinquency-borrowers-12643655",
-     "title": "Student Loan Delinquency Is Hitting Older Borrowers Hardest - Newsweek",
-     "outlet": "Newsweek"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "social security COLA",
+   "keyword": "product recall",
    "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 3,
-   "published": "2026-11-01T03:33:00+09:00",
-   "category": "Benefits",
+   "article_count_24h": 53,
+   "article_count_1h": 4,
+   "published": "2026-11-01T02:04:53+09:00",
+   "category": "Taxes",
    "news": [
     {
-     "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment. - MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOXJidlJSSTZwQVpKcVNWZmhXS1hFcW9qdUxnMGRNU2EzYUVWNERmYTNMckZLMXlXakxaUU9lNHhVZjNRNkE0VmtZSENGcXJMSmRhZ21HZzEzZEMzemhxUjk2SzFlRHpTTVR5Ylk2dXpmLXlnaGllSDk4UnJxci1nRVowd055M2M1bmFodzd6czNJLWdoa21pbGhnLU1oSTZMWFpTcUp4NVZ5OGNOWFNuNjExNk5ZOUNXbEhXOUtvbWFCWXdGSHhNaU5FN0ZMVWFQSVBicmxn?oc=5",
-     "source": "MarketWatch"
+     "title": "Toddler snack sold at Costco, Target, Walmart recalled over potentially deadly hazard - NBC 5 Chicago",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORDVpOC0tZTlIMG80SnJoN2RDVzdHeVFOV2VlVGU0b2JRUURzS0JLWlJpdURPZG84MFlMODZIakpQdGdDTFhnR1BLbGZlS0RPelJXLTgtMlBGT3pMSkFjSlNJbzVhUlpPTjl4ZWxIRGpleWlzZ3phNXNwd04xNkk3T0s0VEJDQU8xeUFWVGtrc1FtMnJmUWZQNmktalYtVFFNTUg1eWtrUWtTd2ZNMFFFWUNuSlV4c3BtSlJCSEl5cUtpUURiQkdHc1Vn0gHSAUFVX3lxTE9OejB1cEkwaVE2UlIwMjJ5Z0xMQ0N6QjE2eVIxNURYU0Z1Yk96OE9tQ25qVV92U1NjTXhoMGM1bzVaeGNzZ3JjNExRLWs2Ry1Xa0ZmQjVaaXh6WUk3VTlQcXBuWkt0anEwTHRXWGlXbl9VQzNvY1dBX0VkaEZuTHc5ZDFRQWo4YTB5SnpzbFd5YklocElqQlI2QUJpWnNIZ2RXMUxlenVrSWhseU9IUEpfdXlHUkpVN2ZTMEF2dW5oZkh3endiQmlRVVkyS0VILXJXdw?oc=5",
+     "source": "NBC 5 Chicago"
     },
     {
-     "title": "Social Security's Trump Bump-Led 2027 COLA Is Doing Something That Hasn't Been Witnessed This Century - The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbXNFU1hBMk5zR1lvVnpMc3VWcXFTYXFiczJaUlNIZlJnRjRWUGk3cy05Z1NTbktUbWdjZUZpaExCcWtFdDF6ME93Qkg1RndrQURYMHFYeFJ2U185ZEhXdXBleDRkX2hSTmdQeGV5X0F2bkdrbFg5NTktZ3VUVnJfWjVYZ3lMbWFFSUhGaTJPWVMxenMxRkM2U1lyQ2FGRWpJOG1sR09KRW9lYWpiMHNhX29aNFh2Z2tKVDJpelh0ejFYdw?oc=5",
-     "source": "The Motley Fool"
+     "title": "Toddler snacks recalled after children suffer choking incidents - El Paso Times",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYi1wZ0RxUnpfNC1hUmJ4bGFjSUhjaEc1T2hyR1RVX2V5aW1kaXBpTm5CMG45aV9RWWVLV1lCQURhUU5udVpEWVhHdEszbThxSHhWVzBqSUZhQnZnZHFReXlXUThwWDN5RzF0Tzk2TjgzQkNCajlnZHg0dHhvd3o4UEt4UzE0ZzVqR2lfbFU0S2lqU013bldwQW1vVnJqZldONWxsYVd6VFVaTUctSUpXVmdPS3FGVDVOZm5tOU9ta3U0X1JQZFlXMFBmOU9UMm1rMlR5Z0tUSQ?oc=5",
+     "source": "El Paso Times"
     },
     {
-     "title": "Social Security is busted and can't be fixed. Privatize it. | Finley - The Detroit News",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOa013NTNBLXJ5OURNWko4NGNjMXZLQVhUZW9BdS1adGFnQnlqREZBRWFhQzFuYVI4ZXhhRGpSOEVqbmdnQUNGZDQyOGpwaDY0bUU2ZFpPcXdLODEzN2xyYW5ZLVNIMnpVQmlKdVg4b3NaYVNwcWQyUXdIRWkxdnFtVUtyYWNUaVFZSnVLOEt4QVotUDJqaUlrMThoY0FVaFEwVDVrM3Y4ak4tWllZM2hJcDlPR1NmSk1weGNjQU9KeXRyekRxRkszSTIxRE5FbF9FTUVWejhjT3VYYmRqRmE1RVZrbWY1MkNTMzRPX3BR?oc=5",
-     "source": "The Detroit News"
+     "title": "Once Upon a Farm recalls bars over potentially fatal choking hazard for toddlers - firstcoastnews.com",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQZkpZam5GT1k1ekdocURwc24yQWl2RlhieTA5cWRtRXhQMmtjeVRfVWZCM3JlYlFqb1JBQWFWVDM4LWVvWUVmakVLVTduSnJBV2RBaTYtemRhaE1Odkp4THFIYkFzVF81YlFFU2RiQTZyVEdnNEJnTHdfNWZWdlhSWDhxRUoxTTlYOWxPMDBMV1k3LVdvZktvQjEydTdtbFhoMDNVQmF4T3BHVWdOUUtyMFcyeFVqWFhxRHRrdzFTRWU3Y2oweVc3bGpwdHNpM2twZFZ3UmxMa05sYldKSlNGMDVubHhsaTVVajV3NEg0SUEwV3kzNGVSQU56RGZ5Q1VPOHFZWFdnVC1YV2ZvbFdLWQ?oc=5",
+     "source": "firstcoastnews.com"
     },
     {
-     "title": "Local View: Protect Social Security cost-of-living adjustments - Duluth News Tribune",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQkRRaXlyS0EtRDFSSDl0R2lIaW1TOXc3Tk12LWJhNU1CeHhwNDN1TDF5em52anJRb2p3d3R1ZlNsMjd2bXRkSmlpVUpOM1FXb2cxNThfZ0dURVpJZ19yb1VrM0tidlp3LWtEdUpMVF9lU1lUZ3VzSGFtTUZoNGFpRVZYQXNFWTdqOWZ1RnNybWotRGNCSWdXeV9VZUpjckZ5SHA4dzlFYUNWd3pLZXR6cw?oc=5",
-     "source": "Duluth News Tribune"
+     "title": "F.D.A. Warns of Tractor Wheels Snack Bar Linked to Choking Hazard - The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOemNpQjctd0NScGU2QklMMktldU5MUE04MC14MGZRT2ZLSzVzVTBtN0F6RTkwR3o3S1lTQ0oyRjF1NjVCbEF3MkVRVGNtM3NFUGJ0clF6MUNzYkR1SnB3cXZ1N2hXMlVNNW1NeG5qRENqSmQ4aUpqSDE1bVNiSkdLbXlZazRfeUllbkR1VmJn?oc=5",
+     "source": "The New York Times"
     },
     {
-     "title": "Social Security COLA 2027: How much could your benefits increase? - Roanoke Times",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNVhHTkszd1R4ektwUFBfSlBpaHNvRVJoWi1USVp2aFUxSXpjSU1fakRnV0JNYTNtSy1UczlfanhDSHdacHUwMENZNUZnTzF3cGNweVEwbUl3V3k1cEZMREJfOS1uSVFydVdwRGlJLVJoS2tMZFhBNDlIRXo5SS1sWi1rX0ZwdjN4ZnpJbTVFTDI5dncycUtFeWN1Q25hd2hXX1FWSTh6ODJyS1lvV2tubkM5aw?oc=5",
-     "source": "Roanoke Times"
+     "title": "Once Upon a Farm Snack Bars Recalled Over Potentially Fatal Choking Hazard for Toddlers - People.com",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd3pNSU9Dd0NfX2hTY3RRNGtGNjdZdFZmQklBM2N2a1NIa0RNN3lJd1hWbE1RUHlrQVBtdWFHNjdVTk93T0RSanF2STIxMGRLelV0cGtPTkZIUGFmNUtsZ2haNFIwOHRnc0xOZnpYSWI5cEhsc1ctb1RpS2FCSmpWTmNFT2M2cEppbWpYVThXNTMxSkdkSFVyM1J6TDJsWDl4YnppbXJ2ejN5ZkxSSUE?oc=5",
+     "source": "People.com"
     }
    ],
    "official": false,
-   "score": 67.2,
+   "score": 69.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.fool.com/retirement/2026/10/31/social-security-trump-bump-led-2027-cola-do-something-not-witnessed-this-century/",
-     "title": "Social Security's Trump Bump-Led 2027 COLA Is Doing Something That Hasn't Been Witnessed This Century - The Motley Fool",
-     "outlet": "The Motley Fool"
-    },
-    {
-     "url": "https://www.duluthnewstribune.com/opinion/columns/local-view-protect-social-security-cost-of-living-adjustments",
-     "title": "Local View: Protect Social Security cost-of-living adjustments - Duluth News Tribune",
-     "outlet": "Duluth News Tribune"
-    },
-    {
-     "url": "https://roanoke.com/news/nation-world/business/personal-finance/article_86cfbdb0-346e-5887-9504-ec2d4378bde3.html",
-     "title": "Social Security COLA 2027: How much could your benefits increase? - Roanoke Times",
-     "outlet": "Roanoke Times"
+     "url": "https://www.nbcchicago.com/news/local/toddler-snack-sold-at-costco-target-walmart-recalled-over-potentially-deadly-hazard/4010095/",
+     "title": "Toddler snack sold at Costco, Target, Walmart recalled over potentially deadly hazard - NBC 5 Chicago",
+     "outlet": "NBC 5 Chicago"
     }
    ]
   },
@@ -388,8 +322,8 @@
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 27,
-   "published": "2026-11-01T01:00:21+09:00",
+   "article_count_1h": 17,
+   "published": "2026-11-01T04:00:21+09:00",
    "category": "Elections",
    "news": [
     {
@@ -446,10 +380,66 @@
   },
   {
    "source": "google_news",
+   "keyword": "social security COLA",
+   "traffic": 0,
+   "article_count_24h": 49,
+   "article_count_1h": 2,
+   "published": "2026-11-01T03:33:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment. - MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOXJidlJSSTZwQVpKcVNWZmhXS1hFcW9qdUxnMGRNU2EzYUVWNERmYTNMckZLMXlXakxaUU9lNHhVZjNRNkE0VmtZSENGcXJMSmRhZ21HZzEzZEMzemhxUjk2SzFlRHpTTVR5Ylk2dXpmLXlnaGllSDk4UnJxci1nRVowd055M2M1bmFodzd6czNJLWdoa21pbGhnLU1oSTZMWFpTcUp4NVZ5OGNOWFNuNjExNk5ZOUNXbEhXOUtvbWFCWXdGSHhNaU5FN0ZMVWFQSVBicmxn?oc=5",
+     "source": "MarketWatch"
+    },
+    {
+     "title": "Social Security's Trump Bump-Led 2027 COLA Is Doing Something That Hasn't Been Witnessed This Century - The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbXNFU1hBMk5zR1lvVnpMc3VWcXFTYXFiczJaUlNIZlJnRjRWUGk3cy05Z1NTbktUbWdjZUZpaExCcWtFdDF6ME93Qkg1RndrQURYMHFYeFJ2U185ZEhXdXBleDRkX2hSTmdQeGV5X0F2bkdrbFg5NTktZ3VUVnJfWjVYZ3lMbWFFSUhGaTJPWVMxenMxRkM2U1lyQ2FGRWpJOG1sR09KRW9lYWpiMHNhX29aNFh2Z2tKVDJpelh0ejFYdw?oc=5",
+     "source": "The Motley Fool"
+    },
+    {
+     "title": "Social Security is busted and can't be fixed. Privatize it. | Finley - The Detroit News",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOa013NTNBLXJ5OURNWko4NGNjMXZLQVhUZW9BdS1adGFnQnlqREZBRWFhQzFuYVI4ZXhhRGpSOEVqbmdnQUNGZDQyOGpwaDY0bUU2ZFpPcXdLODEzN2xyYW5ZLVNIMnpVQmlKdVg4b3NaYVNwcWQyUXdIRWkxdnFtVUtyYWNUaVFZSnVLOEt4QVotUDJqaUlrMThoY0FVaFEwVDVrM3Y4ak4tWllZM2hJcDlPR1NmSk1weGNjQU9KeXRyekRxRkszSTIxRE5FbF9FTUVWejhjT3VYYmRqRmE1RVZrbWY1MkNTMzRPX3BR?oc=5",
+     "source": "The Detroit News"
+    },
+    {
+     "title": "Local View: Protect Social Security cost-of-living adjustments - Duluth News Tribune",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQkRRaXlyS0EtRDFSSDl0R2lIaW1TOXc3Tk12LWJhNU1CeHhwNDN1TDF5em52anJRb2p3d3R1ZlNsMjd2bXRkSmlpVUpOM1FXb2cxNThfZ0dURVpJZ19yb1VrM0tidlp3LWtEdUpMVF9lU1lUZ3VzSGFtTUZoNGFpRVZYQXNFWTdqOWZ1RnNybWotRGNCSWdXeV9VZUpjckZ5SHA4dzlFYUNWd3pLZXR6cw?oc=5",
+     "source": "Duluth News Tribune"
+    },
+    {
+     "title": "Social Security COLA 2027: How much could your benefits increase? - Roanoke Times",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNVhHTkszd1R4ektwUFBfSlBpaHNvRVJoWi1USVp2aFUxSXpjSU1fakRnV0JNYTNtSy1UczlfanhDSHdacHUwMENZNUZnTzF3cGNweVEwbUl3V3k1cEZMREJfOS1uSVFydVdwRGlJLVJoS2tMZFhBNDlIRXo5SS1sWi1rX0ZwdjN4ZnpJbTVFTDI5dncycUtFeWN1Q25hd2hXX1FWSTh6ODJyS1lvV2tubkM5aw?oc=5",
+     "source": "Roanoke Times"
+    }
+   ],
+   "official": false,
+   "score": 60.8,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.fool.com/retirement/2026/10/31/social-security-trump-bump-led-2027-cola-do-something-not-witnessed-this-century/",
+     "title": "Social Security's Trump Bump-Led 2027 COLA Is Doing Something That Hasn't Been Witnessed This Century - The Motley Fool",
+     "outlet": "The Motley Fool"
+    },
+    {
+     "url": "https://www.duluthnewstribune.com/opinion/columns/local-view-protect-social-security-cost-of-living-adjustments",
+     "title": "Local View: Protect Social Security cost-of-living adjustments - Duluth News Tribune",
+     "outlet": "Duluth News Tribune"
+    },
+    {
+     "url": "https://roanoke.com/news/nation-world/business/personal-finance/article_86cfbdb0-346e-5887-9504-ec2d4378bde3.html",
+     "title": "Social Security COLA 2027: How much could your benefits increase? - Roanoke Times",
+     "outlet": "Roanoke Times"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "daylight saving time",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 23,
+   "article_count_1h": 15,
    "published": "2026-11-01T04:52:31+09:00",
    "category": "Holidays",
    "news": [
@@ -502,9 +492,65 @@
   },
   {
    "source": "google_news",
+   "keyword": "REAL ID",
+   "traffic": 0,
+   "article_count_24h": 24,
+   "article_count_1h": 3,
+   "published": "2026-11-01T00:28:54+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "DOJ Asks SCOTUS to Stay and Reverse District Court Bar on Big Bend Barrier Construction - Center for Immigration Studies",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS2k2NDhYS2FTZnNzekNOODJSVEUxVU45OHAwekV2YWt4NVNzM0k4V1J4M1pJaFJIalpubktPQTZTcG5IbTJ2aXBRRE4tdVFBX2Y0cHBNdkhYRHB1SEk5MHBGWnRFLWRvZEt1alBlTlU0QnN0MHdQUVNmcjU4TDZRazlDbTJHRGxuS0QxRmJSWFBua0dyNDc1OWZRYjRwZVRuMHVYcWdqMA?oc=5",
+     "source": "Center for Immigration Studies"
+    },
+    {
+     "title": "Veterans Day Services in Phoenix - Signals AZ",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1dzlPalBFdWdFcTBkcEJLalBzYmFqVHFsb25pdDlPeEQ4RTc1a2ljS2RmZGpQcUpnS291RWswTWdGYnBaNG1temVpS1hscDVSaXEyekd3YkdqZjQ0QzlGR1FtT0ZXM05RbUI5dG1kV2t6dHE1TWlj?oc=5",
+     "source": "Signals AZ"
+    },
+    {
+     "title": "#@$(Bledisloe Cup!]-LIVE)FREE Real Betis vs Malaga LIVE - Port of Rotterdam",
+     "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxQNEpzMDFydzdJSmVMMFBtRk5yZWtjUkk3NDJOalp5eHRRcXAxX1ZVQ1J1WFZvUFFuT2pOZllOVUc4VXNqOE5FZ2VsWHk4eGdmdFhHTGhTWkZpYnBsZ1Fzb25OSF9RWjAyakY3a2E2a1RseW5CcURtOXRIblZtQUZ1TVR1VHUycVViVFJCLUJWTC12NkV1cDhjOThWd2ZldXQ0Qkd2LXZnVzlDcDJ3TjByVklLYlNrUXp4V2hDODc4NlN1U2pITjR5cXM0N1ZWSUpNanUxLUtkNjR0bnY2V014ZXJJTUh3anduaERRYTd0Zlk2Q1VnbG1tVjY5SVNZa2RqZXY4c29PVWFNVU4tYTYyUUpzMlliNGw5NE9TTTEzWVRhT19TOFFCaE1HTmZPVzB0SkpyX2t4bFJWLVFZeUJDMnVXZnphSVdyaFh0RXhiU1dlaUZ5MHpFT0JzTUk4anFjM1k3SUpJMmNtWWdHazBlWmZxU25KeE0?oc=5",
+     "source": "Port of Rotterdam"
+    },
+    {
+     "title": "DOJ: Canadian man accused of stealing dead child's identity to live in US for more than 40 years - WBIR",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQM1lfcHRBdE5udUdrel9hRGdDWmQyZmszMGJOOTZ0V0hyVXk4amdmc2VDYzRyUlZpblVNRlJPLUV0NkRNZEZPU25Va0dQQXhveFpEUVMyeTluYk0zMWRwUldLOElDUGpkMFRjcmVsbHQyTzFiM2JCUk1Sc1NRMFU4LVNTcVBtU1Mxak1XOHlXSW16RXRXOUdwLU9xeHpTTFNHYlV5M0dobFphdk52U2lONFZkUnZaSG8xTmt3Um81SGFSX00wS1llaEtUSS1hOGQ5MF92VWFKemdkeWlGY3NJUWFjY2tfR3l3bHJ0c0VpNjctUHJDR1lmcjRYWGdOYlk2?oc=5",
+     "source": "WBIR"
+    },
+    {
+     "title": "ELECTION 2026: Who’s running, where to vote, what to bring – your VOTING guide for Beaufort, Jasper counties - The Island News (Beaufort)",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOXU4Vkc3bTFBdlFJQWg3aC1EOHdCaUNVa1BBcDQ2bWdfTk01TlFQX2FhR2l4UkdteEp0SThvb3BjZzRCU2RKb3hjN08zZE5hNFlnTkpnRUh6RUlseEJzMmg5dEl1T3ZCQ2w5REhyNm1hYlpkOVZnU0dvVkNVMk9DdEVUenNrbDIwZkNrakVpbmxvVk5Qblkwck5iOVIxSzloTk1TZEEtV3Q3eWFDQjExejN4M09QLTRhWllmZmVmdG5BN3lfNWRGQQ?oc=5",
+     "source": "The Island News (Beaufort)"
+    }
+   ],
+   "official": false,
+   "score": 54.6,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://cis.org/Arthur/DOJ-Asks-SCOTUS-Stay-and-Reverse-District-Court-Bar-Big-Bend-Barrier-Construction",
+     "title": "DOJ Asks SCOTUS to Stay and Reverse District Court Bar on Big Bend Barrier Construction - Center for Immigration Studies",
+     "outlet": "Center for Immigration Studies"
+    },
+    {
+     "url": "https://www.signalsaz.com/articles/veterans-day-services-in-phoenix/",
+     "title": "Veterans Day Services in Phoenix - Signals AZ",
+     "outlet": "Signals AZ"
+    },
+    {
+     "url": "https://yourislandnews.com/election-2026-whos-running-where-to-vote-what-to-bring-your-voting-guide-for-beaufort-jasper-counties/",
+     "title": "ELECTION 2026: Who’s running, where to vote, what to bring – your VOTING guide for Beaufort, Jasper counties - The Island News (Beaufort)",
+     "outlet": "The Island News (Beaufort)"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "SSI payment",
    "traffic": 0,
-   "article_count_24h": 48,
+   "article_count_24h": 21,
    "article_count_1h": 1,
    "published": "2026-11-01T03:34:08+09:00",
    "category": "Benefits",
@@ -563,108 +609,118 @@
   },
   {
    "source": "google_news",
-   "keyword": "product recall",
+   "keyword": "ACA open enrollment",
    "traffic": 0,
-   "article_count_24h": 57,
-   "article_count_1h": 5,
-   "published": "2026-10-31T22:52:00+09:00",
-   "category": "Taxes",
+   "article_count_24h": 13,
+   "article_count_1h": 1,
+   "published": "2026-11-01T04:21:08+09:00",
+   "category": "Health Insurance",
    "news": [
     {
-     "title": "Toddler snacks recalled after children suffer choking incidents - El Paso Times",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYi1wZ0RxUnpfNC1hUmJ4bGFjSUhjaEc1T2hyR1RVX2V5aW1kaXBpTm5CMG45aV9RWWVLV1lCQURhUU5udVpEWVhHdEszbThxSHhWVzBqSUZhQnZnZHFReXlXUThwWDN5RzF0Tzk2TjgzQkNCajlnZHg0dHhvd3o4UEt4UzE0ZzVqR2lfbFU0S2lqU013bldwQW1vVnJqZldONWxsYVd6VFVaTUctSUpXVmdPS3FGVDVOZm5tOU9ta3U0X1JQZFlXMFBmOU9UMm1rMlR5Z0tUSQ?oc=5",
-     "source": "El Paso Times"
+     "title": "ACA open enrollment: Premium hikes and what else to expect for 2027 - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT3UwcnJ4cnYtVXVxd0YtYTRyb3h1a3hxSWo2RWZ0VEcxRzN3ZFFnTHUzdy1QcnlKWnlMeWJzSzZMVk8tS01WNV95MzBmRXA1WlVBQ1dVTnQ5QlZNeXgtVkFRX25kbEtpV2NVdl93dnlDb2N4dkZBXzk1Ukx5OG5JVm9PTnR3SGpzVFNHcTF4czRheDNVLVdWeXdCN1NmVDVQd0RVOVJ5TmU1SXNBM2I5b3BsOFhkUXpkclBBcWZ2QS0?oc=5",
+     "source": "Yahoo Finance"
     },
     {
-     "title": "Once Upon a Farm recalls bars over potentially fatal choking hazard for toddlers - firstcoastnews.com",
-     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQZkpZam5GT1k1ekdocURwc24yQWl2RlhieTA5cWRtRXhQMmtjeVRfVWZCM3JlYlFqb1JBQWFWVDM4LWVvWUVmakVLVTduSnJBV2RBaTYtemRhaE1Odkp4THFIYkFzVF81YlFFU2RiQTZyVEdnNEJnTHdfNWZWdlhSWDhxRUoxTTlYOWxPMDBMV1k3LVdvZktvQjEydTdtbFhoMDNVQmF4T3BHVWdOUUtyMFcyeFVqWFhxRHRrdzFTRWU3Y2oweVc3bGpwdHNpM2twZFZ3UmxMa05sYldKSlNGMDVubHhsaTVVajV3NEg0SUEwV3kzNGVSQU56RGZ5Q1VPOHFZWFdnVC1YV2ZvbFdLWQ?oc=5",
-     "source": "firstcoastnews.com"
+     "title": "Shopping for an ACA Plan This Year? Here’s What You Need To Know - Arkansas Advocate",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYlhmNkRad0VUMXhMS2hfTUpFaVJER2FJMmJ4VmJGU1c2VnNwSElPLURDWVZFTDhiV1ZkUVpRYnFsRzZYVmNYZ2FHSEN5WGE5eUxOckRzOG41QVpWZFRNdDc2dGktRkhSaExXMElIWUo1WlZ1bWxhVTBsQnZSYU1WOGFrMjhEZzlLc1JvOFRSdGFVb3FmOFRfVWNtaTdmalNFX1VwY2ZR?oc=5",
+     "source": "Arkansas Advocate"
     },
     {
-     "title": "Toddler snack sold at Costco, Target, Walmart recalled over potentially deadly hazard - NBC 5 Chicago",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORDVpOC0tZTlIMG80SnJoN2RDVzdHeVFOV2VlVGU0b2JRUURzS0JLWlJpdURPZG84MFlMODZIakpQdGdDTFhnR1BLbGZlS0RPelJXLTgtMlBGT3pMSkFjSlNJbzVhUlpPTjl4ZWxIRGpleWlzZ3phNXNwd04xNkk3T0s0VEJDQU8xeUFWVGtrc1FtMnJmUWZQNmktalYtVFFNTUg1eWtrUWtTd2ZNMFFFWUNuSlV4c3BtSlJCSEl5cUtpUURiQkdHc1Vn0gHSAUFVX3lxTE9OejB1cEkwaVE2UlIwMjJ5Z0xMQ0N6QjE2eVIxNURYU0Z1Yk96OE9tQ25qVV92U1NjTXhoMGM1bzVaeGNzZ3JjNExRLWs2Ry1Xa0ZmQjVaaXh6WUk3VTlQcXBuWkt0anEwTHRXWGlXbl9VQzNvY1dBX0VkaEZuTHc5ZDFRQWo4YTB5SnpzbFd5YklocElqQlI2QUJpWnNIZ2RXMUxlenVrSWhseU9IUEpfdXlHUkpVN2ZTMEF2dW5oZkh3endiQmlRVVkyS0VILXJXdw?oc=5",
-     "source": "NBC 5 Chicago"
+     "title": "ACA Open Enrollment, Caregiving Expenses Rise - AARP",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYjBlTWVmU3FiVXhSVkM1bkxUNU5zZlJhMmVhaUxCc0xOdnRaWTVGNHZYbFNZRUtfT1hKZU9jbk4xbm5vc0pObTZlWmRGNUV5ODBCRU83anZPX001YXVFU0pYTjlUb0w2VEFOYnRSRXkzWTlma2dwYzJFdnZrdGVOZVpKVXc0ZFk3eVE?oc=5",
+     "source": "AARP"
     },
     {
-     "title": "Vitality Works Inc. Recalls 365 Whole Foods Market Ashwagandha Capsules Sold Nationwide - WWAYTV3",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVNRUUUxT1F1cTlnSmxoRV9fNGh0MnZja1M2ck44NjVScTBQX0pzZFdWR0VjSEo5c0o3cGpmZTRGUUx0RHBuUkgwenZ2VEMxRTJaNWtZSlNLN205R1ZuT0NRS1U1aGRTcEp3TlJkNGVBZm1qT3F5bjNRZ2c2MzM2Yk5jckpSbEFUTXFRZWNSQmszWEVIWGJweGlHZk9UN042MkpILUg3clA0eE9yRXE5dg?oc=5",
-     "source": "WWAYTV3"
+     "title": "ACA health insurance rates released for 2027 open enrollment - Iredell Free News",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUtzMUZCSk9EeEJHWDFqZklUeTVwdXdxbDl4OTZFLUx3QzRkLW9neUNVOU9KemNqa0hCVDNPWlktUlBmMmRGZzcxSE1manQxUDA5bU9BZ1QyUDRISGVtcGhPT0tyX1pfRV82WU1HeXRRc0puYmlnZWN3dzBQTmxWX2FkVWlXbW1VMllUdU5rcWM2emdCVWlTeUhQQ1ZlejNOcy1udERNRUwyM3R2R2g5bXJB?oc=5",
+     "source": "Iredell Free News"
     },
     {
-     "title": "Interactive: Millions of french press coffee makers recalled. Do you own one? - Scripps News",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU2lnZWtjY3h0ZU16VlNWTm81TFEwOUFSaXJ1bk1ZT0JZQUlDZW42YU1lcnhqV2ZrNW9LNFUtX1Q4V181WDJmSHFraDhiSFdLbzZwSTZYUTNFekpsZzRNSXQ2bG94S0RFYmhyTzM2am5ZOHFSamloTm5XVVdSUTVmeFg4Tkdkd08tVTExYlVDSnhjSkxfQ2FDQ0RGdjNzQUluUmZKc2pVU2V5QTlGR0M0?oc=5",
-     "source": "Scripps News"
+     "title": "Obamacare Premiums 2027: What Rising Costs Mean for Families - EEW Magazine",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMUtjVk1SOWtmNGtwY1ZoRmZhNEpiaUJKdGhvTkFqOWlua0Y3ZWVZMUNTRGJYeHdydldOVXU3TlNKdGJ5b0VoTUZUb21YSmN6blAtbGs5cDJSLWZoSjZCczV4VVIwVnVGVWY5OFZNN1hNQmpwdVN3MlNiS3Rna0JTcy1EWkd3bEgtcHFKNDIyalM1c1VCMjFZU3FlZWFOcnlNZzB3N0pZcG8wSTBaZXFUcWhHcDJUR2d0SlJrM3NhWEZ2b3dLTThJRUczUlppejBfbGI4VElNRDZtbDQ?oc=5",
+     "source": "EEW Magazine"
     }
    ],
    "official": false,
-   "score": 52.5,
+   "score": 51.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.nbcchicago.com/news/local/toddler-snack-sold-at-costco-target-walmart-recalled-over-potentially-deadly-hazard/4010095/",
-     "title": "Toddler snack sold at Costco, Target, Walmart recalled over potentially deadly hazard - NBC 5 Chicago",
-     "outlet": "NBC 5 Chicago"
+     "url": "https://finance.yahoo.com/economy/article/aca-open-enrollment-premium-hikes-and-what-else-to-expect-for-2027-192108163.html",
+     "title": "ACA open enrollment: Premium hikes and what else to expect for 2027 - Yahoo Finance",
+     "outlet": "Yahoo Finance"
     },
     {
-     "url": "https://www.wwaytv3.com/vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-capsules-sold-nationwide/",
-     "title": "Vitality Works Inc. Recalls 365 Whole Foods Market Ashwagandha Capsules Sold Nationwide - WWAYTV3",
-     "outlet": "WWAYTV3"
+     "url": "https://arkansasadvocate.com/2026/10/31/shopping-for-an-aca-plan-this-year-heres-what-you-need-to-know/",
+     "title": "Shopping for an ACA Plan This Year? Here’s What You Need To Know - Arkansas Advocate",
+     "outlet": "Arkansas Advocate"
     },
     {
-     "url": "https://www.scrippsnews.com/us-news/interactive-millions-of-french-press-coffee-makers-recalled-do-you-own-one",
-     "title": "Interactive: Millions of french press coffee makers recalled. Do you own one? - Scripps News",
-     "outlet": "Scripps News"
+     "url": "https://www.aarp.org/videos/things-to-know-this-week/6407676948112/?autoStart=true",
+     "title": "ACA Open Enrollment, Caregiving Expenses Rise - AARP",
+     "outlet": "AARP"
+    },
+    {
+     "url": "https://www.iredellfreenews.com/news-features/2026/aca-health-insurance-rates-released-for-2027-open-enrollment/",
+     "title": "ACA health insurance rates released for 2027 open enrollment - Iredell Free News",
+     "outlet": "Iredell Free News"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "REAL ID",
+   "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 28,
-   "article_count_1h": 1,
-   "published": "2026-10-31T23:16:37+09:00",
-   "category": "Elections",
+   "article_count_24h": 31,
+   "article_count_1h": 0,
+   "published": "2026-11-01T04:32:30+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "Veterans Day Services in Phoenix - Signals AZ",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1dzlPalBFdWdFcTBkcEJLalBzYmFqVHFsb25pdDlPeEQ4RTc1a2ljS2RmZGpQcUpnS291RWswTWdGYnBaNG1temVpS1hscDVSaXEyekd3YkdqZjQ0QzlGR1FtT0ZXM05RbUI5dG1kV2t6dHE1TWlj?oc=5",
-     "source": "Signals AZ"
+     "title": "8 people charged in $7M SNAP benefit fraud scheme - Gothamist",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSHRCQ0luTThFaUFialVVNk8xUHFySDBsVmZGY3BDZUJDXzMteGhXZG9QZ1lZalVDcExGOFphWXhFZDRyZV9mcl9BRklaUWFMYmlEd0xBRDM2YUV2NkRLVUVKMkh5dnRIQzFnRDVyVk5wYUtiQmRIT3YtZGNvWFBJMQ?oc=5",
+     "source": "Gothamist"
     },
     {
-     "title": "DOJ: Canadian man accused of stealing dead child's identity to live in US for more than 40 years - WBIR",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQM1lfcHRBdE5udUdrel9hRGdDWmQyZmszMGJOOTZ0V0hyVXk4amdmc2VDYzRyUlZpblVNRlJPLUV0NkRNZEZPU25Va0dQQXhveFpEUVMyeTluYk0zMWRwUldLOElDUGpkMFRjcmVsbHQyTzFiM2JCUk1Sc1NRMFU4LVNTcVBtU1Mxak1XOHlXSW16RXRXOUdwLU9xeHpTTFNHYlV5M0dobFphdk52U2lONFZkUnZaSG8xTmt3Um81SGFSX00wS1llaEtUSS1hOGQ5MF92VWFKemdkeWlGY3NJUWFjY2tfR3l3bHJ0c0VpNjctUHJDR1lmcjRYWGdOYlk2?oc=5",
-     "source": "WBIR"
+     "title": "Michigan to reinstate SNAP work requirements in eight counties - SooLeader.com",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSUNIRnJYZnBaYTZ5dHpkYkVpWUdvTzAwQVhrUGprNnB1OTJmd09pZW9EU0lCYUg2akVBRFRqdUUxSGhxUXBRcXY5SGMwdDNnT1BaOGFqVklielFLVDZaU3l2VGNkYWJQQ1BWcW1TaVBZb0ItWHR5RjY1dGdubUpXclBWZ1NWb1g5VFU3cW1kaWNQOWVFVHd3RkJWWFp2UlpBbml5TVBfaXpkUFpf?oc=5",
+     "source": "SooLeader.com"
     },
     {
-     "title": "Jeremy Fowler: Interest in Jonathan Taylor is 'heavy' and 'real' - ESPN",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU1FBZEdTVGlTWUp6QkFTNkRSZlU5a3RrMWpzMVNwNFpJU1gwOEs0SklDeVk5V2UzRXpFNU1ZWHNKWVR5QXluMjktY2VFQkRJY3pxM0gwdHdNTGhoRVhwY3VJV0hRRkQ1RW5tVlZxMnVRTVFQTDVMcHA0RUNlMlp6c2d1Zk52Z25oY1FzNQ?oc=5",
-     "source": "ESPN"
+     "title": "Guest Commentary: A lack of funding for SNAP threatens military readiness - Orlando Sentinel",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVUpjUi1DdzFKN1VwbWRCQ0VvM3cxdmNZWkdiTGNBbnkyMlRmUU10dW9HY0NTaVBfSWpGc095dzRuN1p4RXU2TjV6cmNXdVVMWXJqNGNKVGtLb2lqLVpSRlQtdUIzQnRtUFFncXI0V21YSUdlM3FWZFJEYkhpZjBjMUdCNFhqRkgxdktveVRPMDltcmRReGNBTXFDVlZIaXlxZTdURmFneENJc1hocFZUekFjOFR3QWM?oc=5",
+     "source": "Orlando Sentinel"
     },
     {
-     "title": "(++LIVEFREEHD++)!!San Jose vs Real Salt Lake LIVE FREE STREAMs ON TV Channel 31 October 2026 - Port of Rotterdam",
-     "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOZGpIWFZTYXFVZ2VHMUE0amNwYUZ6YUhIWlFYVTNnNjROWlpWWEVteGJhWFhFbG9PZkpfVUp1QWJ5M3phVEZWWTM1aFhtajU5aTJsbFdxRXdsRWZIcm56N1NQcnFITFd0TVRIZ2dkUnBJTk4yUS1EN1ZsNkNnUTJpSGZwN2dxS0RKUFVCdWRkR1ZZclpsSEZXNU5qTHJrRVF0VEY2RmpTM3VqZnY4M2U2WTMtRzlwalFwUUZ5TGs2UGZ5NjY4ZGI2Q2I2cThOeFAyX28wbkJ2YmhJaHlpR01WaDRyR2ZQUlRkWE5GUlJqcGp2TEFLanRmZXFTUVpJaGdtcG1JSVlpcEJGU1JTa2JyVUtEeFNoT05QR0pqbG83ZXZfWHItdmRSamlrU1pLQjNOdzBMSW1TRFhhTkx0NDRnOGo5VVA1cHJDU3lzNWVPZHo0YXh0dlphWEJ1RVNLMjVuMUxVdFg3T05oblVwRFJuWm83OGJZOWZTN2Q2b0UxUFNFbjhwNXhKeTNLX3NUTmFB?oc=5",
-     "source": "Port of Rotterdam"
+     "title": "Feds Say Florida Store Owner Bought Food Stamps at Half Price to Stock His Store in $500K Scheme - Yahoo",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbTVkTXlDYWZyUXJYeWpNRENYaUdwSTJtazhoSWVyMndSMFdvUncxQTJ1bDBoVXlId28yWUhRVzhZZDFhZHZ1LXpVaXZ5N2xNaDFnelpfcm53Mlo0cHoyZUpMMlJ3TFVIVlFoMzkyX0lrbUp3djF5MmJQZjlRbmpmaVo5Vk1ScXZjTW1QYTZR?oc=5",
+     "source": "Yahoo"
     },
     {
-     "title": "ELECTION 2026: Who’s running, where to vote, what to bring – your VOTING guide for Beaufort, Jasper counties - The Island News (Beaufort)",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOXU4Vkc3bTFBdlFJQWg3aC1EOHdCaUNVa1BBcDQ2bWdfTk01TlFQX2FhR2l4UkdteEp0SThvb3BjZzRCU2RKb3hjN08zZE5hNFlnTkpnRUh6RUlseEJzMmg5dEl1T3ZCQ2w5REhyNm1hYlpkOVZnU0dvVkNVMk9DdEVUenNrbDIwZkNrakVpbmxvVk5Qblkwck5iOVIxSzloTk1TZEEtV3Q3eWFDQjExejN4M09QLTRhWllmZmVmdG5BN3lfNWRGQQ?oc=5",
-     "source": "The Island News (Beaufort)"
+     "title": "Food assistance work rules reinstated in 8 Michigan counties and Bay City - MLive.com",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdndvSzVIMml3c3ZISjZTU19lRXZoN2VncmEyVUpVZ2tNTjFZRHpKcS1DN3h0MUpUbDZFbVhLX2ZrRUh1b0RUZmRXOGVzaDZJTmlvYzRTamZQbTh5Z1ZiaHFyM01SUHpmem54WFRSRE0tNWVqeHY3OHVhcmtPZThveV9qNHVjVHBaWWZYVzFGRWdQSHFPR1RUV04zclNHdFVYYkFEb1FERDV1eVZ0STl0SjVBQQ?oc=5",
+     "source": "MLive.com"
     }
    ],
    "official": false,
-   "score": 44.2,
-   "already_covered": true,
+   "score": 48.0,
+   "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.signalsaz.com/articles/veterans-day-services-in-phoenix/",
-     "title": "Veterans Day Services in Phoenix - Signals AZ",
-     "outlet": "Signals AZ"
+     "url": "https://gothamist.com/news/8-people-charged-in-7m-snap-benefit-fraud-scheme",
+     "title": "8 people charged in $7M SNAP benefit fraud scheme - Gothamist",
+     "outlet": "Gothamist"
     },
     {
-     "url": "https://yourislandnews.com/election-2026-whos-running-where-to-vote-what-to-bring-your-voting-guide-for-beaufort-jasper-counties/",
-     "title": "ELECTION 2026: Who’s running, where to vote, what to bring – your VOTING guide for Beaufort, Jasper counties - The Island News (Beaufort)",
-     "outlet": "The Island News (Beaufort)"
+     "url": "https://www.orlandosentinel.com/2026/10/31/guest-commentary-a-lack-of-funding-for-snap-threatens-military-readiness/",
+     "title": "Guest Commentary: A lack of funding for SNAP threatens military readiness - Orlando Sentinel",
+     "outlet": "Orlando Sentinel"
+    },
+    {
+     "url": "https://www.yahoo.com/news/us/articles/feds-florida-store-owner-bought-191737300.html",
+     "title": "Feds Say Florida Store Owner Bought Food Stamps at Half Price to Stock His Store in $500K Scheme - Yahoo",
+     "outlet": "Yahoo"
     }
    ]
   },
@@ -688,18 +744,18 @@
      "source": "SlashGear"
     },
     {
+     "title": "VW Will Automatically Limit Some ID.4 Batteries To 80% Charge This Week Unless Owners Opt Out - InsideEVs",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FcTVNM0JFcXNKbFBweHI0UXJhSVdsY1lDTVBtcWhwU0VESDBQdFc2N3E2YWktZl9mVzR1TDBBYUtWRTVucnI0aWZMdFZrYXlUN0pDb2l5eTJnYjNzRFRkcjk5U1ZaTC1n?oc=5",
+     "source": "InsideEVs"
+    },
+    {
      "title": "Ford Is Pulling Out All The Stops To Make Its Next-Gen F-150 Unstoppable - CarBuzz",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ldmJ6M3hIOTVhTElnT25FRzR1NEtCUDlJMGtKVThlVHc2NGhidERjaUhfT09oLVc0RzE3VzhmeFZCVjFSZi01RGNtdW9xNjJhZkFhRmJZZm1hR2JKWlhrTThoRV9hdmRzaVRQQg?oc=5",
      "source": "CarBuzz"
     },
     {
-     "title": "2026 Honda HR-V vs. 2026 Mazda CX-30: We Dug into the Reliability Data, and One Clearly Wins - Road Ethos",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmtVc2EweTZZenp4WmFpS0JXTjFPd1ByTGdYQVhvbUpLN3dmZnBxOExUakMtQkhDVEN3cGtLN1hsbFVGaUdUSTlwQzVLRFlVMy1FaXVpZWhyemF1YjRWdjFCT0gyTFlxYm9Qd2xJcU85cjNqY3FZOW1xZGZTSzFRLUlOV0xTcVFoS2xDaXpZYnFMSUlwUzhyS0RvZ2RDa2ZNTnhuaVZFVTB0SDV0anJFN0xOSGZ2QjIzTkJRMEhPaw?oc=5",
-     "source": "Road Ethos"
-    },
-    {
-     "title": "Catastrophic Injury Lawyer Says He’d Never Drive This Car. Then He Reveals The Chilling Reason Why - Motor1.com",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzVU5qaWdjTDVDaUlJa0V1Wm9NcVAzNG8zc3dEV3VUWG5WOGxaci15Q1Jjc3ZUekxGb1RHdzRSaVc5c3BYa1NxLThwRGZtNVoxdzNoNkpQVVFZcEhUN29Ndm1Ba0otNkExdFlmY2Rtd1g3ZUFlM0txNmxuSDQ?oc=5",
+     "title": "Jeep Recalls 1.1 Million Vehicles That Might Catch Fire - Motor1.com",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMzJsa2RGNDZrNWNaNlZpcGxlRlcyR0laS2hiejRlUE9uMHlEVVJQanhyOTNfOWU0bmItUkNlOVFVVDBWa251QVRrWlVISlNfdDBzRXJXcjdJWnpxN2YwNXJIZEdCUzhTV19zMlVzdFBoaDZ2SnVsU2xyVEFOenlUUHpB?oc=5",
      "source": "Motor1.com"
     }
    ],
@@ -718,75 +774,75 @@
      "outlet": "SlashGear"
     },
     {
+     "url": "https://insideevs.com/news/812129/vw-id4-charge-limit-80/",
+     "title": "VW Will Automatically Limit Some ID.4 Batteries To 80% Charge This Week Unless Owners Opt Out - InsideEVs",
+     "outlet": "InsideEVs"
+    },
+    {
      "url": "https://carbuzz.com/ford-reliability-testing-next-gen-f-150/",
      "title": "Ford Is Pulling Out All The Stops To Make Its Next-Gen F-150 Unstoppable - CarBuzz",
      "outlet": "CarBuzz"
-    },
-    {
-     "url": "https://www.motor1.com/news/813582/catastrophic-injury-lawyer-worst-car/",
-     "title": "Catastrophic Injury Lawyer Says He’d Never Drive This Car. Then He Reveals The Chilling Reason Why - Motor1.com",
-     "outlet": "Motor1.com"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "IRS refund",
+   "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 59,
-   "article_count_1h": 1,
-   "published": "2026-10-31T06:36:48+09:00",
+   "article_count_24h": 35,
+   "article_count_1h": 3,
+   "published": "2026-10-31T15:56:01+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "Are we getting a stimulus check in November? $500 ACA refunds, IRS tax refund, ANCHOR payment - USA Today",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYnRsQzZkZjJoSFVfamNVV3d6SHAyMS1ja0N4eGV0YXpjZUFnS25kVjNWbkJ6WnpVNjJIQlZxS1V4VHZZeEJoZFE1bUNDcjhZTzBLRTZWOFRuOFBwQ3c2RzNEc2NCSU9WV2k5UTBhYmdzMGJMS3VFQWF4cWNzbDdnQVh1M0d2MEtsM1g2UUZvNV9MbDhmcFoxWDJ5RURLeUtXXy1sY2NJOVh1X3pYWWh6Q0l4S04tRE5YdkFoeHdud2hOMlowblZTSEpEc1ZEVlhoX0N5QzZQZXl4Q0hLa2FYWU04ZW9yZ2lWTm5pTkFZLXU?oc=5",
-     "source": "USA Today"
+     "title": "Get ready: 2027 state minimum wage increases are around the corner! - SHRM",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamZUVU9acV9BN2lwOXdDbHRrMVd2U0NDUUxXQ0xLUmprUjJCN18zQ2gyWVJaNDFyQ0VvWm5nazc2bkI1SGlBM3lWT2NnSjVwMEVyMEV3NmdjOHYyVUQ0NE81UnhYeEw4VFZYMHV3X1Q3U2s0Sm1KVG1IdjAtMXZwVktwLUVieU00blZwSDNHZ3B5YjU0aENWRHZMWEpxeHVhSGlVekZ3?oc=5",
+     "source": "SHRM"
     },
     {
-     "title": "At 66 She's Raising Her Grandson. She May Qualify for the Same Child Tax Credit and Earned Income Credit as a Parent in Their 30s - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQWJjX2tJRUlERW5fTkVZUzJxLTBwdXR3elMyTXA5dDlKUUxQLXV2bmN3d0JoRzR1UjhPWDdrMFpHT3lkMVlLUk5nVG8zNU5ZeUZ4cVlWTXZHYnk4Nk5kazF6cExSUnFGV1FtQzJSNlZOU1U3eDRkY2pyVFlKc2NzelB0ekVwSlhKT0otOGFFU1IyYUpFX1JEZkJmaXZfVWRoTXo4OXhHeXU3TWtTNl9FaEEtb08wcUFLRlFySnZ4UjdOdWxkWTdXZk1qWUlucDJyWDZodHAydV96RU16MUdnSzFRVmE5YlExYS1RbVIwV05Ya0gzYXIwbDRvdWhxWUpxVGRWcDZlLTg2dw?oc=5",
-     "source": "24/7 Wall St."
+     "title": "The chart that shows how Labour is turning the tax screws on middle earners - Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUzFnNERZZUthc2xuUjRoN0U4QkFPWmViR0JCTURUVUhDTXBVTGlHRkhTaW55a3JIQWh2bzNnZHp0c0F5OXRtTXZpdGsxaGZPbEp1S0o1OU5YQWJJWWZUS0xFUTFKcHB1N0hUcFZMQlhmY0J3Tkh0WjVYTTFwVHhqNHFiM1RUQQ?oc=5",
+     "source": "Yahoo Finance Singapore"
     },
     {
-     "title": "Sexton: Sold a car recently? Forsyth County might owe you a tax refund - Winston-Salem Journal",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRUM5eWhfblE3WUFWdWZPQjRnVEJCQWFiQVFVSW9USTlhUldOYUlZWko0ZHo2Z1lYOVZGcXhxd05kb1FWUG1tSzZibVBpajhHeDlzbllyTy1VTEdQdlFwd09pVW5qaHo4MGRJaklzTnZhcENIRklheEpnNnFSTXpOSWR0eGk1WXpITFJPOW1Cd3E?oc=5",
-     "source": "Winston-Salem Journal"
+     "title": "UK minimum wage to rise 3.9% to $17.63 an hour from April 2027 - Outsource Accelerator",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2RmVzV1RUeFZKdVpsTXQ1UzF3SWZBbmRSTnJvV0p6UG45MjMxR3FkTFFUbWsxdEp6ejRKM0VtWkliWF9oSTdWY1pOTnlnNGhyRjliS2d4Y0t1ZXJ5MDc1c0VLX2Y3SHZuTFRmWjZMSWRqbjUtWGc?oc=5",
+     "source": "Outsource Accelerator"
     },
     {
-     "title": "IRS reports record $5.6 trillion in tax collections, historic refunds - Idaho News 6",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMm9UbGR3X1NudXU0T2h3WVBVeThXLWZfNU9xZVRORmRWeWg0MFJVTVFUSGpuSzFMeWtWRnFXOWdHRDhydlM2d2JMcDBKSnU0dXFMNnYtbFpqTXNlTDd6ams1bjFsR1JIaEJnOXA3UVZOY05MUEhtTjNhdGN4dm11MmhvSmtkNE9pWnVJeGpZaTRzOGlaZHZrWTFzMEtLMlBfRHJUNlF3?oc=5",
-     "source": "Idaho News 6"
+     "title": "Livermore City Council grants raises to top officials - Livermore Vine",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZFJUQnEzOVZzbGhRSjYweElFMXZ5VjFMZDRCNThRclYzcnNTcTdkN3MtYm1mb3p1alR2NUFzTlhsUnR1WW10akVualIwRHZQbFF4RDJKSG1oMEd2cnJPMzdKb0Z5bHBEUEZZMGlLekZJeG9BeGx4bXhFei1hdWxRNHoyQWZyM1dYZlpOQXpGMkU2Q3k2ZGo3eGdycEV0S2R5Mm9fSzd0cGdMSVAwNlJUdQ?oc=5",
+     "source": "Livermore Vine"
     },
     {
-     "title": "'I got my tax refund — now they want a fee': complaints mount against tax-refund platforms - 헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zYUtlY3JnUmVJWWNRSm8weWlmWGVlZ19zbFhtUlo0UmtXcFZMRVUzZzBiSnZxZ2JCUlFtZmowV0pBanRCcFJNV0ctNlVMQmdSdXlJZE0ydw?oc=5",
-     "source": "헤럴드경제"
+     "title": "John Healey risks breaking minimum wage promise for younger workers - BBC",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMdjNnRHNFTjBxV2RvcHlFSHVrc0VXU3ZtZFpFbWdXTnhmRnNPUDZZRUUtVGhfblBKNjZKQlBBUGNDdWhkY3BJWGEyYTVveC1CamhCX1c4Zkptcjh3Ync?oc=5",
+     "source": "BBC"
     }
    ],
    "official": false,
-   "score": 35.7,
+   "score": 44.1,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.usatoday.com/videos/news/2026/10/30/stimulus-check-november-2026-trump-500-refund-rebate-irs-wheres-my-refund-nj-anchor-payment-status/92518617007/",
-     "title": "Are we getting a stimulus check in November? $500 ACA refunds, IRS tax refund, ANCHOR payment - USA Today",
-     "outlet": "USA Today"
+     "url": "https://www.shrm.org/topics-tools/employment-law-compliance/get-ready-2027-state-minimum-wage-increases",
+     "title": "Get ready: 2027 state minimum wage increases are around the corner! - SHRM",
+     "outlet": "SHRM"
     },
     {
-     "url": "https://247wallst.com/personal-finance/2026/10/31/at-66-shes-raising-her-grandson-she-may-qualify-for-the-same-child-tax-credit-and-earned-income-credit-as-a-parent-in-their-30s/",
-     "title": "At 66 She's Raising Her Grandson. She May Qualify for the Same Child Tax Credit and Earned Income Credit as a Parent in Their 30s - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
+     "url": "https://sg.finance.yahoo.com/news/chart-shows-labour-turning-tax-100400196.html",
+     "title": "The chart that shows how Labour is turning the tax screws on middle earners - Yahoo Finance Singapore",
+     "outlet": "Yahoo Finance Singapore"
     },
     {
-     "url": "https://journalnow.com/opinion/column/article_3d782dde-e8bd-4f8f-bbe0-2252947b033d.html",
-     "title": "Sexton: Sold a car recently? Forsyth County might owe you a tax refund - Winston-Salem Journal",
-     "outlet": "Winston-Salem Journal"
+     "url": "https://news.outsourceaccelerator.com/uk-national-living-wage-2027/",
+     "title": "UK minimum wage to rise 3.9% to $17.63 an hour from April 2027 - Outsource Accelerator",
+     "outlet": "Outsource Accelerator"
     },
     {
-     "url": "https://www.kivitv.com/videos/video/irs-reports-record-5-6-trillion-in-tax-collections-historic-refunds",
-     "title": "IRS reports record $5.6 trillion in tax collections, historic refunds - Idaho News 6",
-     "outlet": "Idaho News 6"
+     "url": "https://www.livermorevine.com/city-government/2026/10/30/livermore-city-council-grants-raises-to-top-officials/",
+     "title": "Livermore City Council grants raises to top officials - Livermore Vine",
+     "outlet": "Livermore Vine"
     }
    ]
   },
@@ -843,60 +899,48 @@
   },
   {
    "source": "google_news",
-   "keyword": "federal holiday",
+   "keyword": "IRS refund",
    "traffic": 0,
-   "article_count_24h": 18,
-   "article_count_1h": 1,
-   "published": "2026-10-31T19:09:00+09:00",
+   "article_count_24h": 60,
+   "article_count_1h": 0,
+   "published": "2026-10-31T06:36:48+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "Is Halloween a federal holiday? What’s open and closed today - The Providence Journal",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQ0gtY1JJRDhvbXFmTXRxdXBsY1RSRWR2UXpmVUxmdTlESURlNGkyM0FTTHZhSGo3VHBIcXpoQ1ZMd25lNTA0bnpTRExxeTBJQU9zT2FJRE5wS2NNZTBXMXRvdlJzbjNCa05UZEZ2ZHJTc2NoRW1GM3gwVmxqclhnNDYtQXlfUEVlUEc0Sm8tUVRPVDNERkY4VURDd3J5cUFTb2Y3RW12NXJIRjhfUkpNX1lJWktyRFYwS1JNbzEydlJsMmZUZC1ZWllFNHZmalVpR3h3?oc=5",
-     "source": "The Providence Journal"
+     "title": "Are we getting a stimulus check in November? $500 ACA refunds, IRS tax refund, ANCHOR payment - USA Today",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYnRsQzZkZjJoSFVfamNVV3d6SHAyMS1ja0N4eGV0YXpjZUFnS25kVjNWbkJ6WnpVNjJIQlZxS1V4VHZZeEJoZFE1bUNDcjhZTzBLRTZWOFRuOFBwQ3c2RzNEc2NCSU9WV2k5UTBhYmdzMGJMS3VFQWF4cWNzbDdnQVh1M0d2MEtsM1g2UUZvNV9MbDhmcFoxWDJ5RURLeUtXXy1sY2NJOVh1X3pYWWh6Q0l4S04tRE5YdkFoeHdud2hOMlowblZTSEpEc1ZEVlhoX0N5QzZQZXl4Q0hLa2FYWU04ZW9yZ2lWTm5pTkFZLXU?oc=5",
+     "source": "USA Today"
     },
     {
-     "title": "These States Require Time Off To Vote On Election Day—But Not All Are Paid - Forbes",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV2VSZURJM2J4dU1BQjVVakxmUEk5UmtxV01vVkZiWVVLSUEzaURVYnpBZUtWVDl6WHZGVjdwY1NiQnRxYk43WkFaTl9SSFQ1by1ybHBibnRHX25rZGRfeHAxcmJWRUc1dmtVa0RENHpaOTZ4Y2xhcTdvWjBrMUk0ZFlxaDJOci1TdGFVb1cyeWFJZE5iQXF0VUxiUXRYT1pCbDZVR3RoaUw4QnhjbHlXQV9ZM3RhOHI1bDVPTjNlM0NZQQ?oc=5",
-     "source": "Forbes"
-    },
-    {
-     "title": "Trump’s Gas Tax Holiday Would Cost US$3.5 Billion a Month - EnergyNow.com",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa3g0WkhzRDBvbmRVdHl1VHNJdjROdWh0VEIxbldqY080SGVXS0dHQ05IVUpoUGh4RjBCdzJUcHhjMWRBYWhKS0ItTC1pekdDMndYYmVXY1JuUXkxTGloWkhnOGpfdC1jZFNmYkVtTkF2UmVzQXpxMVoxVnJpdC0wUVhKVGRCVF9VT1pEb05OWQ?oc=5",
-     "source": "EnergyNow.com"
-    },
-    {
-     "title": "NOVEMBER, DOOR BY DOOR - Folio Weekly",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPaHJSSGZVeEpXdE1vVkVFSDhGRXlpQ1BvRmJQVm9kRFUwal95NUdLdUY3WHpkaEZta1pkbHZFampGS2xzbVNTdkFJTjJjNThBV2dvTVI0bjdRRUtETmJyc2NIMW4xV096?oc=5",
-     "source": "Folio Weekly"
-    },
-    {
-     "title": "58% of Credit-Strapped Shoppers Dread the Holidays. For SSI Recipients, a Cash Gift Can Shrink a Later Check - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVWR1dGx5QmtZVjlzU1ZXbmRteHBMdkpFRnZiRE13MHV2VzE0dk9oaU9JeGo3NXhuUGlON3g3dm5IelBUSUhvZ1RVaklVRThMcndHV1lxUm9VWDBNNkZhVWRrSjFQVVVvVjFiNGU0WXF2UnpIN2tTbjVSdFB1N0wzelV6VXhDcFpERnhyb29RQ1JWemxJRWFFLV9xN1hoVzZIS3lqNFZuNWt1akd2MEhfQWVtaktHMzV2OGhPZzRsZkNGejRpLWtMd1dJU0lDbDRkTVh0MUFidExJeVplWmlsRk1nanFCQkRWNnByOWVZLUlpaTdIM3BGUUd3NGlkQWZyeFE?oc=5",
+     "title": "At 66 She's Raising Her Grandson. She May Qualify for the Same Child Tax Credit and Earned Income Credit as a Parent in Their 30s - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQWJjX2tJRUlERW5fTkVZUzJxLTBwdXR3elMyTXA5dDlKUUxQLXV2bmN3d0JoRzR1UjhPWDdrMFpHT3lkMVlLUk5nVG8zNU5ZeUZ4cVlWTXZHYnk4Nk5kazF6cExSUnFGV1FtQzJSNlZOU1U3eDRkY2pyVFlKc2NzelB0ekVwSlhKT0otOGFFU1IyYUpFX1JEZkJmaXZfVWRoTXo4OXhHeXU3TWtTNl9FaEEtb08wcUFLRlFySnZ4UjdOdWxkWTdXZk1qWUlucDJyWDZodHAydV96RU16MUdnSzFRVmE5YlExYS1RbVIwV05Ya0gzYXIwbDRvdWhxWUpxVGRWcDZlLTg2dw?oc=5",
      "source": "24/7 Wall St."
+    },
+    {
+     "title": "Sexton: Sold a car recently? Forsyth County might owe you a tax refund - Winston-Salem Journal",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRUM5eWhfblE3WUFWdWZPQjRnVEJCQWFiQVFVSW9USTlhUldOYUlZWko0ZHo2Z1lYOVZGcXhxd05kb1FWUG1tSzZibVBpajhHeDlzbllyTy1VTEdQdlFwd09pVW5qaHo4MGRJaklzTnZhcENIRklheEpnNnFSTXpOSWR0eGk1WXpITFJPOW1Cd3E?oc=5",
+     "source": "Winston-Salem Journal"
+    },
+    {
+     "title": "IRS reports record $5.6 trillion in tax collections, historic refunds - Idaho News 6",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMm9UbGR3X1NudXU0T2h3WVBVeThXLWZfNU9xZVRORmRWeWg0MFJVTVFUSGpuSzFMeWtWRnFXOWdHRDhydlM2d2JMcDBKSnU0dXFMNnYtbFpqTXNlTDd6ams1bjFsR1JIaEJnOXA3UVZOY05MUEhtTjNhdGN4dm11MmhvSmtkNE9pWnVJeGpZaTRzOGlaZHZrWTFzMEtLMlBfRHJUNlF3?oc=5",
+     "source": "Idaho News 6"
+    },
+    {
+     "title": "'I got my tax refund — now they want a fee': complaints mount against tax-refund platforms - 헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zYUtlY3JnUmVJWWNRSm8weWlmWGVlZ19zbFhtUlo0UmtXcFZMRVUzZzBiSnZxZ2JCUlFtZmowV0pBanRCcFJNV0ctNlVMQmdSdXlJZE0ydw?oc=5",
+     "source": "헤럴드경제"
     }
    ],
    "official": false,
-   "score": 35.7,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://folioweekly.com/2026/10/30/november-door-by-door/",
-     "title": "NOVEMBER, DOOR BY DOOR - Folio Weekly",
-     "outlet": "Folio Weekly"
-    },
-    {
-     "url": "https://247wallst.com/personal-finance/social-security/2026/10/31/58-of-credit-strapped-shoppers-dread-the-holidays-for-ssi-recipients-a-cash-gift-can-shrink-a-later-check/",
-     "title": "58% of Credit-Strapped Shoppers Dread the Holidays. For SSI Recipients, a Cash Gift Can Shrink a Later Check - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
-    }
-   ]
+   "score": 31.5,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "tax deadline",
    "traffic": 0,
-   "article_count_24h": 50,
+   "article_count_24h": 26,
    "article_count_1h": 0,
    "published": "2026-10-31T18:34:14+09:00",
    "category": "Taxes",
@@ -933,48 +977,48 @@
   },
   {
    "source": "google_news",
-   "keyword": "ACA open enrollment",
+   "keyword": "federal holiday",
    "traffic": 0,
-   "article_count_24h": 16,
-   "article_count_1h": 0,
-   "published": "2026-10-31T19:06:47+09:00",
-   "category": "Health Insurance",
+   "article_count_24h": 29,
+   "article_count_1h": 1,
+   "published": "2026-10-31T19:09:00+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "Shopping for an ACA Plan This Year? Here’s What You Need To Know - Arkansas Advocate",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYlhmNkRad0VUMXhMS2hfTUpFaVJER2FJMmJ4VmJGU1c2VnNwSElPLURDWVZFTDhiV1ZkUVpRYnFsRzZYVmNYZ2FHSEN5WGE5eUxOckRzOG41QVpWZFRNdDc2dGktRkhSaExXMElIWUo1WlZ1bWxhVTBsQnZSYU1WOGFrMjhEZzlLc1JvOFRSdGFVb3FmOFRfVWNtaTdmalNFX1VwY2ZR?oc=5",
-     "source": "Arkansas Advocate"
+     "title": "Is Halloween a federal holiday? What’s open and closed today - The Providence Journal",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQ0gtY1JJRDhvbXFmTXRxdXBsY1RSRWR2UXpmVUxmdTlESURlNGkyM0FTTHZhSGo3VHBIcXpoQ1ZMd25lNTA0bnpTRExxeTBJQU9zT2FJRE5wS2NNZTBXMXRvdlJzbjNCa05UZEZ2ZHJTc2NoRW1GM3gwVmxqclhnNDYtQXlfUEVlUEc0Sm8tUVRPVDNERkY4VURDd3J5cUFTb2Y3RW12NXJIRjhfUkpNX1lJWktyRFYwS1JNbzEydlJsMmZUZC1ZWllFNHZmalVpR3h3?oc=5",
+     "source": "The Providence Journal"
     },
     {
-     "title": "ACA Open Enrollment, Caregiving Expenses Rise - AARP",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYjBlTWVmU3FiVXhSVkM1bkxUNU5zZlJhMmVhaUxCc0xOdnRaWTVGNHZYbFNZRUtfT1hKZU9jbk4xbm5vc0pObTZlWmRGNUV5ODBCRU83anZPX001YXVFU0pYTjlUb0w2VEFOYnRSRXkzWTlma2dwYzJFdnZrdGVOZVpKVXc0ZFk3eVE?oc=5",
-     "source": "AARP"
+     "title": "These States Require Time Off To Vote On Election Day—But Not All Are Paid - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV2VSZURJM2J4dU1BQjVVakxmUEk5UmtxV01vVkZiWVVLSUEzaURVYnpBZUtWVDl6WHZGVjdwY1NiQnRxYk43WkFaTl9SSFQ1by1ybHBibnRHX25rZGRfeHAxcmJWRUc1dmtVa0RENHpaOTZ4Y2xhcTdvWjBrMUk0ZFlxaDJOci1TdGFVb1cyeWFJZE5iQXF0VUxiUXRYT1pCbDZVR3RoaUw4QnhjbHlXQV9ZM3RhOHI1bDVPTjNlM0NZQQ?oc=5",
+     "source": "Forbes"
     },
     {
-     "title": "Tips for Michiganders on purchasing health insurance when open enrollment begins Nov. 1 - The Michigan Independent",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOE9rZnRSeURkdFItVDJHR2loMnlLaUh0UXJWczVaZE94ZENsaVV4b3NHNHJ6XzY5YkNqa0NtZ1UyUUU1NnJKM0NjNFFyamtkcjV2ZW1ucjdBMnFwZldLeDh0UklKeEtvbXl5a2pCVGQ1OHNNb1F5ZTFuLUVkVHBBcEtGbk11bm5oX3NhWnFxekdiNFdPVmRGZGZhZFlvbXZidWFTWUZBak9zWGxVV24yajdzSzlhSlhucllFcnVnbmRuYS12VzFiM2dFRQ?oc=5",
-     "source": "The Michigan Independent"
+     "title": "NOVEMBER, DOOR BY DOOR - Folio Weekly",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPaHJSSGZVeEpXdE1vVkVFSDhGRXlpQ1BvRmJQVm9kRFUwal95NUdLdUY3WHpkaEZta1pkbHZFampGS2xzbVNTdkFJTjJjNThBV2dvTVI0bjdRRUtETmJyc2NIMW4xV096?oc=5",
+     "source": "Folio Weekly"
     },
     {
-     "title": "ACA health insurance rates released for 2027 open enrollment - Iredell Free News",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUtzMUZCSk9EeEJHWDFqZklUeTVwdXdxbDl4OTZFLUx3QzRkLW9neUNVOU9KemNqa0hCVDNPWlktUlBmMmRGZzcxSE1manQxUDA5bU9BZ1QyUDRISGVtcGhPT0tyX1pfRV82WU1HeXRRc0puYmlnZWN3dzBQTmxWX2FkVWlXbW1VMllUdU5rcWM2emdCVWlTeUhQQ1ZlejNOcy1udERNRUwyM3R2R2g5bXJB?oc=5",
-     "source": "Iredell Free News"
+     "title": "No SSI Check in November 2026? Here Is When Your Next Payment Will Actually Arrive - https://capitolskyline.com/",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaThoeTdWeXpqeXNvWWF1c1kzWklDcklXeEhBbVYtQkdHWG5hTEY2dU04SFkyNzFqdVQwUWVqWlpTVWYzTW4wVHdUWFZZNDJwNE91ZkJGbjg3TmtrN1A2NDlLVy0wUDZTSzZNYTBRZmdFN0lIbFhUbHNvTWxtMUViMw?oc=5",
+     "source": "https://capitolskyline.com/"
     },
     {
-     "title": "Obamacare Premiums 2027: What Rising Costs Mean for Families - EEW Magazine",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMUtjVk1SOWtmNGtwY1ZoRmZhNEpiaUJKdGhvTkFqOWlua0Y3ZWVZMUNTRGJYeHdydldOVXU3TlNKdGJ5b0VoTUZUb21YSmN6blAtbGs5cDJSLWZoSjZCczV4VVIwVnVGVWY5OFZNN1hNQmpwdVN3MlNiS3Rna0JTcy1EWkd3bEgtcHFKNDIyalM1c1VCMjFZU3FlZWFOcnlNZzB3N0pZcG8wSTBaZXFUcWhHcDJUR2d0SlJrM3NhWEZ2b3dLTThJRUczUlppejBfbGI4VElNRDZtbDQ?oc=5",
-     "source": "EEW Magazine"
+     "title": "58% of Credit-Strapped Shoppers Dread the Holidays. For SSI Recipients, a Cash Gift Can Shrink a Later Check - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVWR1dGx5QmtZVjlzU1ZXbmRteHBMdkpFRnZiRE13MHV2VzE0dk9oaU9JeGo3NXhuUGlON3g3dm5IelBUSUhvZ1RVaklVRThMcndHV1lxUm9VWDBNNkZhVWRrSjFQVVVvVjFiNGU0WXF2UnpIN2tTbjVSdFB1N0wzelV6VXhDcFpERnhyb29RQ1JWemxJRWFFLV9xN1hoVzZIS3lqNFZuNWt1akd2MEhfQWVtaktHMzV2OGhPZzRsZkNGejRpLWtMd1dJU0lDbDRkTVh0MUFidExJeVplWmlsRk1nanFCQkRWNnByOWVZLUlpaTdIM3BGUUd3NGlkQWZyeFE?oc=5",
+     "source": "24/7 Wall St."
     }
    ],
    "official": false,
-   "score": 31.5,
+   "score": 30.9,
    "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "FAFSA",
    "traffic": 0,
-   "article_count_24h": 6,
+   "article_count_24h": 5,
    "article_count_1h": 0,
    "published": "2026-11-01T02:55:48+09:00",
    "category": "Student Aid",
@@ -983,11 +1027,6 @@
      "title": "DACC to host free FAFSA workshops Nov. 5 and 17 in Las Cruces - Organ Mountain News",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa2JHREJGdm9yRXVNSFprb2tqZzZuUmo4U0V3aGZ0RmEyVV9Oc3RIR3gtN2txVzdCUHVkM0QxbmNBVjRZcG5vX1VQZVBxTnl3dHp3bkJrMTRSdTNvNVF1aVZWNDhZWjVFWjAxZ3lrNUplTjdITlRPSUF5MEVOakRNLTJ3d0NISm5WZ3VkYmxuVGlIZm9w?oc=5",
      "source": "Organ Mountain News"
-    },
-    {
-     "title": "Operation Ghostbusters: DOJ Busts Transnational FAFSA Fraud Ring - The EDU Ledger",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0ZUR09XZUFzVzVwWC0zdU1PTW9YTzdSOGM0bXR5aDcxVkdNQXVKUTRFTlktcy1kV2hoOUF5eVV6WTNCT3lIUDdjeENWbVRBQ2JyUjVSRk04eGYyTUMyaEtYNjFZX3ZTcXhqa25yU19yd2RjVE1scVpjNk0yR2pHclBMN1hNbm1CMjVRbjVVUjRxcF9wSkRIZ3RaQWtqNzlYZmJFVWVMbG44SFF0eDVLMzlkcUxQVmQyQjR6MFEzbw?oc=5",
-     "source": "The EDU Ledger"
     },
     {
      "title": "DOJ's Operation Ghostbusters Targets $200 Million 'Ghost Student' Loan Fraud, Five Charged - BigGo Finance",
@@ -1000,77 +1039,41 @@
      "source": "Knoxville News Sentinel"
     },
     {
+     "title": "Five charged in US over ghost student scheme — Ars Technica - UA.NEWS",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeWdGR25NZ2NpcW5rakFVS0lOTE9ZREdNSkh1ajlleVR1a19yX1ZGREJUUmNYdjlIWnNqRjdpSV91dGdIaTZjQUx3eEtKWVNYTnBka1hEVnhKM25PWGlTVXZRRmJ1WDIza3pERWRPVVJGcHJZbW5ySjd6b2tFRFB6VGtsLVpQMmkwUWJiMWtUNVhHTEdNbmZBcE9pa1BuLVR0c1lxb3NMa0YzenFGOWd2dS1Yamc4VGs?oc=5",
+     "source": "UA.NEWS"
+    },
+    {
      "title": "How many ‘ghost students’ were found collecting federal student aid? - GovTech",
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWU1CTWtOZk02T1hEN09sVmZVY29HTlAwa0xWNnRlWHNUaXhVMzIzTHJFLXZBLXI4TGlabkJJQkdlZjBDS3dsRldJQnBCR2NaQlZ2T1ZmaE4yVXotbllRVUozbzJGMFhaTmFDOHlUYUNtcGpOMWpQUHptdjQ0bGFBZWlod1IyQVdWb0czV3FjQ2pJSERFbm1pVV9lY09GOEMwV0Z4WmdybnlnSTNpNlE?oc=5",
      "source": "GovTech"
     }
    ],
    "official": false,
-   "score": 25.2,
+   "score": 21.0,
    "already_covered": true
   },
   {
    "source": "google_trends",
-   "keyword": "bruins",
-   "traffic": 5000,
-   "published": "2026-11-01T04:50:00+09:00",
+   "keyword": "aston villa",
+   "traffic": 2000,
+   "published": "2026-11-01T05:00:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Chicago Blackhawks vs. Boston Bruins",
-     "url": "https://www.espn.com/watch/player/_/eventCalendarId/401892614",
+     "title": "Jamie Carragher apologises for 'clumsy' Aston Villa comments after club threaten legal action",
+     "url": "https://www.espn.com/soccer/story/_/id/50335489/jamie-carragher-apologises-aston-villa-club-threaten-legal-action",
      "source": "ESPN"
     },
     {
-     "title": "Bruins Seek To End Skid Against Struggling Blackhawks On Saturday",
-     "url": "https://sports.yahoo.com/articles/bruins-seek-end-skid-against-191316744.html",
-     "source": "Yahoo Sports"
+     "title": "Jamie Carragher sued: Aston Villa to take legal action against pundit over 'unacceptable insults'",
+     "url": "https://www.bbc.com/sport/football/articles/cqd09p3kppyvo",
+     "source": "BBC"
     },
     {
-     "title": "Blackhawks at Bruins projected lineups",
-     "url": "https://www.nhl.com/news/chicago-blackhawks-boston-bruins-game-preview-october-31-2026",
-     "source": "NHL.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/bruins-seek-end-skid-against-191316744.html",
-     "title": "Bruins Seek To End Skid Against Struggling Blackhawks On Saturday",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://www.nhl.com/news/chicago-blackhawks-boston-bruins-game-preview-october-31-2026",
-     "title": "Blackhawks at Bruins projected lineups",
-     "outlet": "NHL.com"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "ac milan",
-   "traffic": 2000,
-   "published": "2026-11-01T04:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Liverpool star wants Premier League transfer despite interest from two Serie A clubs",
-     "url": "https://www.football365.com/news/liverpool-chiesa-premier-league-transfer-serie-a-interest",
-     "source": "Football365"
-    },
-    {
-     "title": "Two Serie A clubs make enquiries about signing Federico Chiesa in January 2027",
-     "url": "https://www.daveockop.com/transfer-news/two-serie-a-clubs-make-enquiries-about-signing-federico-chiesa-in-january-2027/",
-     "source": "DaveOCKOP"
-    },
-    {
-     "title": "Di Livio: ‘Chiesa made mistake joining Liverpool, Juventus players unworthy of jersey’",
-     "url": "https://football-italia.net/di-livio-chiesa-mistake-liverpool-juventus/",
-     "source": "Football Italia"
+     "title": "Jamie Carragher apologises to Aston Villa for ‘clumsy and wrong’ comments",
+     "url": "https://www.theguardian.com/football/2026/oct/30/aston-villa-to-take-legal-action-against-jamie-carragher-for-unacceptable-insults",
+     "source": "The Guardian"
     }
    ],
    "official": false,
@@ -1080,82 +1083,38 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.football365.com/news/liverpool-chiesa-premier-league-transfer-serie-a-interest",
-     "title": "Liverpool star wants Premier League transfer despite interest from two Serie A clubs",
-     "outlet": "Football365"
+     "url": "https://www.bbc.com/sport/football/articles/cqd09p3kppyvo",
+     "title": "Jamie Carragher sued: Aston Villa to take legal action against pundit over 'unacceptable insults'",
+     "outlet": "BBC"
     },
     {
-     "url": "https://www.daveockop.com/transfer-news/two-serie-a-clubs-make-enquiries-about-signing-federico-chiesa-in-january-2027/",
-     "title": "Two Serie A clubs make enquiries about signing Federico Chiesa in January 2027",
-     "outlet": "DaveOCKOP"
-    },
-    {
-     "url": "https://football-italia.net/di-livio-chiesa-mistake-liverpool-juventus/",
-     "title": "Di Livio: ‘Chiesa made mistake joining Liverpool, Juventus players unworthy of jersey’",
-     "outlet": "Football Italia"
+     "url": "https://www.theguardian.com/football/2026/oct/30/aston-villa-to-take-legal-action-against-jamie-carragher-for-unacceptable-insults",
+     "title": "Jamie Carragher apologises to Aston Villa for ‘clumsy and wrong’ comments",
+     "outlet": "The Guardian"
     }
    ]
   },
   {
-   "source": "google_news",
-   "keyword": "minimum wage increase",
-   "traffic": 0,
-   "article_count_24h": 40,
-   "article_count_1h": 1,
-   "published": "2026-10-31T15:56:01+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Get ready: 2027 state minimum wage increases are around the corner! - SHRM",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamZUVU9acV9BN2lwOXdDbHRrMVd2U0NDUUxXQ0xLUmprUjJCN18zQ2gyWVJaNDFyQ0VvWm5nazc2bkI1SGlBM3lWT2NnSjVwMEVyMEV3NmdjOHYyVUQ0NE81UnhYeEw4VFZYMHV3X1Q3U2s0Sm1KVG1IdjAtMXZwVktwLUVieU00blZwSDNHZ3B5YjU0aENWRHZMWEpxeHVhSGlVekZ3?oc=5",
-     "source": "SHRM"
-    },
-    {
-     "title": "UK minimum wage to rise 3.9% to $17.63 an hour from April 2027 - Outsource Accelerator",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2RmVzV1RUeFZKdVpsTXQ1UzF3SWZBbmRSTnJvV0p6UG45MjMxR3FkTFFUbWsxdEp6ejRKM0VtWkliWF9oSTdWY1pOTnlnNGhyRjliS2d4Y0t1ZXJ5MDc1c0VLX2Y3SHZuTFRmWjZMSWRqbjUtWGc?oc=5",
-     "source": "Outsource Accelerator"
-    },
-    {
-     "title": "John Healey risks breaking minimum wage promise for younger workers - BBC",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMdjNnRHNFTjBxV2RvcHlFSHVrc0VXU3ZtZFpFbWdXTnhmRnNPUDZZRUUtVGhfblBKNjZKQlBBUGNDdWhkY3BJWGEyYTVveC1CamhCX1c4Zkptcjh3Ync?oc=5",
-     "source": "BBC"
-    },
-    {
-     "title": "Livermore City Council grants raises to top officials - Livermore Vine",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZFJUQnEzOVZzbGhRSjYweElFMXZ5VjFMZDRCNThRclYzcnNTcTdkN3MtYm1mb3p1alR2NUFzTlhsUnR1WW10akVualIwRHZQbFF4RDJKSG1oMEd2cnJPMzdKb0Z5bHBEUEZZMGlLekZJeG9BeGx4bXhFei1hdWxRNHoyQWZyM1dYZlpOQXpGMkU2Q3k2ZGo3eGdycEV0S2R5Mm9fSzd0cGdMSVAwNlJUdQ?oc=5",
-     "source": "Livermore Vine"
-    },
-    {
-     "title": "Clear guidelines required for MSME minimum wage exemption – MEF - The Sun Malaysia",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcFdoVlBYYWI2WU9IYk5vN3B4a0Nxby1FWHQ0RFVzMFZwdVU4dHcwdnJSS3ZLZGx2eDNhWEdodklNRFk5dkFPTUQ4X1YxRUxCQklPSG5XVUhPYTdVbEZ2cEpncTU3LXZrWF9RNlFfcnpXMWFOdXhJQ1kzQ0pZODlRcXAxSHR1dHVsd3FGenZ3UjlLN0ZUNHZHeDhKalA1aTR1ZkxPSzY4VlpFNko1MGRaMEpFcw?oc=5",
-     "source": "The Sun Malaysia"
-    }
-   ],
-   "official": false,
-   "score": 14.3,
-   "already_covered": false
-  },
-  {
    "source": "google_trends",
-   "keyword": "keyonte george",
+   "keyword": "porto vs estoril",
    "traffic": 1000,
-   "published": "2026-11-01T04:50:00+09:00",
+   "published": "2026-11-01T05:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Los Angeles Lakers vs. Golden State Warriors Live Score and Stats - October 30, 2026 Gametracker",
-     "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261030_LAL@GS/",
-     "source": "CBS Sports"
+     "title": "FC Porto-Estoril: extremos tocam-se para a 10.ª jornada da Liga",
+     "url": "https://www.abola.pt/futebol/jogo/fc-porto-estoril-11216338/liveblog",
+     "source": "A Bola"
     },
     {
-     "title": "What we learned from the Spurs win over the Jazz",
-     "url": "https://www.poundingtherock.com/spurs-analysis/109041/what-we-learned-from-the-spurs-win-over-the-jazz",
-     "source": "Pounding The Rock"
+     "title": "FARIOLI IRONIZA SOBRE JOGADOR DO BENFICA (VÍDEO)",
+     "url": "https://24horas.pt/noticia/farioli-ironiza-sobre-jogador-do-benfica-video",
+     "source": "24Horas.pt"
     },
     {
-     "title": "Spurs star Victor Wembyanyama joined elite company with big game in Utah",
-     "url": "https://www.expressnews.com/sports/spurs/article/wemby-joined-elite-company-big-game-utah-22502296.php",
-     "source": "San Antonio Express-News"
+     "title": "FC Porto pode ser sexta equipa a vencer os 10 primeiros jogos na história da Liga",
+     "url": "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-fc-porto-pode-ser-sexta-equipa-a-vencer-os-10-primeiros-jogos-na-historia-da-liga/AgI0lzQ0/",
+     "source": "Flashscore.pt"
     }
    ],
    "official": false,
@@ -1165,38 +1124,43 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261030_LAL@GS/",
-     "title": "Los Angeles Lakers vs. Golden State Warriors Live Score and Stats - October 30, 2026 Gametracker",
-     "outlet": "CBS Sports"
+     "url": "https://www.abola.pt/futebol/jogo/fc-porto-estoril-11216338/liveblog",
+     "title": "FC Porto-Estoril: extremos tocam-se para a 10.ª jornada da Liga",
+     "outlet": "A Bola"
     },
     {
-     "url": "https://www.poundingtherock.com/spurs-analysis/109041/what-we-learned-from-the-spurs-win-over-the-jazz",
-     "title": "What we learned from the Spurs win over the Jazz",
-     "outlet": "Pounding The Rock"
+     "url": "https://24horas.pt/noticia/farioli-ironiza-sobre-jogador-do-benfica-video",
+     "title": "FARIOLI IRONIZA SOBRE JOGADOR DO BENFICA (VÍDEO)",
+     "outlet": "24Horas.pt"
+    },
+    {
+     "url": "https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-fc-porto-pode-ser-sexta-equipa-a-vencer-os-10-primeiros-jogos-na-historia-da-liga/AgI0lzQ0/",
+     "title": "FC Porto pode ser sexta equipa a vencer os 10 primeiros jogos na história da Liga",
+     "outlet": "Flashscore.pt"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "acc football standings",
+   "keyword": "islanders",
    "traffic": 1000,
-   "published": "2026-11-01T04:40:00+09:00",
+   "published": "2026-11-01T05:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Live ACC football standings: Updated Week 9 rankings and results",
-     "url": "https://www.usatoday.com/story/sports/ncaaf/acc/2026/10/31/acc-football-standings-live-week-9-scores-week-10-schedule/92497455007/",
-     "source": "USA Today"
+     "title": "Oilers at Islanders projected lineups",
+     "url": "https://www.nhl.com/news/edmonton-oilers-new-york-islanders-game-preview-october-31-2026",
+     "source": "NHL.com"
     },
     {
-     "title": "Open Week Musings: The ACC",
-     "url": "https://techsideline.com/subscription/2026/10/28/open-week-musings-the-acc",
-     "source": "TechSideline"
+     "title": "Vasily Podkolzin scores goal vs. Islanders",
+     "url": "https://www.espn.com/video/clip/_/id/50338667/vasily-podkolzin-scores-goal-vs-islanders",
+     "source": "ESPN"
     },
     {
-     "title": "ACC power rankings: Miami dominates Pitt as Virginia Tech and Boston College surge",
-     "url": "https://caneswarning.com/acc-power-rankings-miami-dominates-pitt-as-virginia-tech-and-boston-college-surge",
-     "source": "Canes Warning"
+     "title": "Pre-Scout: Oilers start road trip vs. scary Schaefer and his Islanders",
+     "url": "https://oilersnation.com/news/edmonton-oilers-new-york-islanders-game-preview-matthew-schaefer",
+     "source": "Oilers Nation"
     }
    ],
    "official": false,
@@ -1206,192 +1170,160 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.usatoday.com/story/sports/ncaaf/acc/2026/10/31/acc-football-standings-live-week-9-scores-week-10-schedule/92497455007/",
-     "title": "Live ACC football standings: Updated Week 9 rankings and results",
-     "outlet": "USA Today"
+     "url": "https://www.nhl.com/news/edmonton-oilers-new-york-islanders-game-preview-october-31-2026",
+     "title": "Oilers at Islanders projected lineups",
+     "outlet": "NHL.com"
     },
     {
-     "url": "https://techsideline.com/subscription/2026/10/28/open-week-musings-the-acc",
-     "title": "Open Week Musings: The ACC",
-     "outlet": "TechSideline"
-    },
-    {
-     "url": "https://caneswarning.com/acc-power-rankings-miami-dominates-pitt-as-virginia-tech-and-boston-college-surge",
-     "title": "ACC power rankings: Miami dominates Pitt as Virginia Tech and Boston College surge",
-     "outlet": "Canes Warning"
+     "url": "https://oilersnation.com/news/edmonton-oilers-new-york-islanders-game-preview-matthew-schaefer",
+     "title": "Pre-Scout: Oilers start road trip vs. scary Schaefer and his Islanders",
+     "outlet": "Oilers Nation"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "lsu vs alabama",
-   "traffic": 1000,
-   "published": "2026-11-01T04:30:00+09:00",
+   "keyword": "rj harvey",
+   "traffic": 500,
+   "published": "2026-11-01T05:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Lane Kiffin fumes over Alabama kickoff time, accuses SEC of not wanting LSU to win",
-     "url": "https://www.foxnews.com/outkick-sports/lane-kiffin-fumes-alabama-kickoff-time-accuses-sec-not-wanting-lsu-win",
+     "title": "Broncos RB Jonah Coleman 'ready for any opportunity' vs. Chiefs with RJ Harvey ruled out",
+     "url": "https://www.nfl.com/news/broncos-rb-jonah-coleman-ready-for-any-opportunity-vs-chiefs-with-rj-harvey-ruled-out",
+     "source": "NFL.com"
+    },
+    {
+     "title": "Is there fantasy 'hope' for Jaylen Waddle, Rashee Rice in Week 8?",
+     "url": "https://sports.yahoo.com/video/is-there-fantasy-hope-for-jaylen-waddle-rashee-rice-in-week-8-215804633.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Harvey has knee injury as Dobbins says 'the organization has a plan for me'",
+     "url": "https://www.9news.com/article/sports/nfl/denver-broncos/mike-klis/harvey-knee-injury-dobbins-broncos-plan/73-2b29a9c7-347d-4cb1-854b-3c75c0477f0e",
+     "source": "9News"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.nfl.com/news/broncos-rb-jonah-coleman-ready-for-any-opportunity-vs-chiefs-with-rj-harvey-ruled-out",
+     "title": "Broncos RB Jonah Coleman 'ready for any opportunity' vs. Chiefs with RJ Harvey ruled out",
+     "outlet": "NFL.com"
+    },
+    {
+     "url": "https://sports.yahoo.com/video/is-there-fantasy-hope-for-jaylen-waddle-rashee-rice-in-week-8-215804633.html",
+     "title": "Is there fantasy 'hope' for Jaylen Waddle, Rashee Rice in Week 8?",
+     "outlet": "Yahoo Sports"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "north alabama vs central ar",
+   "traffic": 500,
+   "published": "2026-11-01T05:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "North Alabama vs. Central Arkansas prediction: Why North Alabama is favored to win in college football Week 9 [2026]",
+     "url": "https://www.dimers.com/cfb/news/north-alabama-vs-central-arkansas-prediction-week-9-2026-ac",
+     "source": "Dimers"
+    },
+    {
+     "title": "UNA football heads to Central Arkansas for Halloween afternoon matchup",
+     "url": "https://www.rocketcitynow.com/article/sports/local-sports/una-football-heads-to-central-arkansas-halloween-matchup/525-d642d9f5-14f4-48c7-952a-4798b26f1c7e",
+     "source": "rocketcitynow.com"
+    },
+    {
+     "title": "Preview: Bears vs Lions, Homecoming, on the Stripes",
+     "url": "https://ucasports.com/news/2026/10/30/football-preview-bears-vs-lions-homecoming-on-the-stripes.aspx",
+     "source": "University of Central Arkansas Athletics"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.dimers.com/cfb/news/north-alabama-vs-central-arkansas-prediction-week-9-2026-ac",
+     "title": "North Alabama vs. Central Arkansas prediction: Why North Alabama is favored to win in college football Week 9 [2026]",
+     "outlet": "Dimers"
+    },
+    {
+     "url": "https://ucasports.com/news/2026/10/30/football-preview-bears-vs-lions-homecoming-on-the-stripes.aspx",
+     "title": "Preview: Bears vs Lions, Homecoming, on the Stripes",
+     "outlet": "University of Central Arkansas Athletics"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "tatum o'neal",
+   "traffic": 500,
+   "published": "2026-11-01T05:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Tatum O'Neal steps out with family ahead of 63rd birthday years after near-fatal stroke",
+     "url": "https://www.foxnews.com/entertainment/tatum-oneal-steps-out-family-ahead-63rd-birthday-years-after-near-fatal-stroke",
      "source": "Fox News"
     },
     {
-     "title": "Scott Rabalais: From Lane Kiffin and kickoff times to RJ Luis, the LSU-SEC battle continues",
-     "url": "https://www.nola.com/sports/lsu/football/lsu-sec-lane-kiffin-alabama-espn-rj-luis-basketball-will-wade-tony-clayton/article_e3ddab1e-5da5-4b91-be06-268a13477f1a.html",
-     "source": "NOLA.com"
+     "title": "Actress, 62, makes rare public appearance six years after near-fatal overdose, stroke",
+     "url": "https://www.syracuse.com/entertainment/2026/10/actress-62-makes-rare-public-appearance-six-years-after-near-fatal-overdose-stroke.html",
+     "source": "Syracuse.com"
     },
     {
-     "title": "SEC game times, channels: Lane Kiffin envious of next week's Georgia kick time",
-     "url": "https://www.dawgnation.com/football/sec-game-times-channels-lane-kiffin-envious-next-weeks-georgia-kick-time/N6H7AHIHPBGOZDKVA6KLVEKSOY/",
-     "source": "DawgNation"
+     "title": "Tatum O'Neal Makes Rare Outing 6 Years After Near-Fatal Stroke",
+     "url": "https://www.eonline.com/news/1437598/tatum-oneal-makes-rare-l-a-outing-6-years-after-stroke-overdose-photo",
+     "source": "E! News"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 12.0,
+   "score": 10.5,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.foxnews.com/outkick-sports/lane-kiffin-fumes-alabama-kickoff-time-accuses-sec-not-wanting-lsu-win",
-     "title": "Lane Kiffin fumes over Alabama kickoff time, accuses SEC of not wanting LSU to win",
+     "url": "https://www.foxnews.com/entertainment/tatum-oneal-steps-out-family-ahead-63rd-birthday-years-after-near-fatal-stroke",
+     "title": "Tatum O'Neal steps out with family ahead of 63rd birthday years after near-fatal stroke",
      "outlet": "Fox News"
     },
     {
-     "url": "https://www.nola.com/sports/lsu/football/lsu-sec-lane-kiffin-alabama-espn-rj-luis-basketball-will-wade-tony-clayton/article_e3ddab1e-5da5-4b91-be06-268a13477f1a.html",
-     "title": "Scott Rabalais: From Lane Kiffin and kickoff times to RJ Luis, the LSU-SEC battle continues",
-     "outlet": "NOLA.com"
-    },
-    {
-     "url": "https://www.dawgnation.com/football/sec-game-times-channels-lane-kiffin-envious-next-weeks-georgia-kick-time/N6H7AHIHPBGOZDKVA6KLVEKSOY/",
-     "title": "SEC game times, channels: Lane Kiffin envious of next week's Georgia kick time",
-     "outlet": "DawgNation"
+     "url": "https://www.eonline.com/news/1437598/tatum-oneal-makes-rare-l-a-outing-6-years-after-stroke-overdose-photo",
+     "title": "Tatum O'Neal Makes Rare Outing 6 Years After Near-Fatal Stroke",
+     "outlet": "E! News"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "oliver dunn",
-   "traffic": 500,
-   "published": "2026-11-01T04:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Two Players Elect Free Agency",
-     "url": "https://www.mlbtraderumors.com/2026/10/two-players-elect-free-agency.html",
-     "source": "MLB Trade Rumors"
-    },
-    {
-     "title": "Tampa Bay Rays Officially Release 29-Year-Old Infielder",
-     "url": "https://www.yardbarker.com/mlb/articles/tampa_bay_rays_officially_release_29_year_old_infielder/s1_17355_44498184",
-     "source": "Yardbarker"
-    },
-    {
-     "title": "Former Toronto Blue Jays 2-Year Pitcher Quietly Elects MLB Free Agency",
-     "url": "https://heavy.com/sports/mlb/toronto-blue-jays/toronto-blue-jays-2-year-pitcher-pannone-elects-mlb-free-agency/",
-     "source": "Heavy.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.mlbtraderumors.com/2026/10/two-players-elect-free-agency.html",
-     "title": "Two Players Elect Free Agency",
-     "outlet": "MLB Trade Rumors"
-    },
-    {
-     "url": "https://www.yardbarker.com/mlb/articles/tampa_bay_rays_officially_release_29_year_old_infielder/s1_17355_44498184",
-     "title": "Tampa Bay Rays Officially Release 29-Year-Old Infielder",
-     "outlet": "Yardbarker"
-    },
-    {
-     "url": "https://heavy.com/sports/mlb/toronto-blue-jays/toronto-blue-jays-2-year-pitcher-pannone-elects-mlb-free-agency/",
-     "title": "Former Toronto Blue Jays 2-Year Pitcher Quietly Elects MLB Free Agency",
-     "outlet": "Heavy.com"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "wednesday",
-   "traffic": 500,
-   "published": "2026-11-01T04:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Weslaco firefighters who died Wednesday identified",
-     "url": "https://myrgv.com/local-news/2026/10/30/weslaco-firefighters-who-died-wednesday-identified/",
-     "source": "MyRGV.com"
-    },
-    {
-     "title": "‘Johnny and Julia will be missed’: Firefighters in deadly off-duty incident identified",
-     "url": "https://www.valleycentral.com/news/local-news/johnny-and-julia-will-be-missed-firefighters-in-deadly-off-duty-incident-identified/",
-     "source": "ValleyCentral.com"
-    },
-    {
-     "title": "New details emerge in off-duty deaths of 2 South Texas firefighters",
-     "url": "https://www.mysanantonio.com/news/south-texas/article/julia-rocha-johnny-pena-weslaco-firefighters-22502261.php",
-     "source": "MySA"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "sweepstake",
+   "keyword": "aidan chiles",
    "traffic": 200,
-   "published": "2026-11-01T04:50:00+09:00",
+   "published": "2026-11-01T05:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "New social casinos: 5 sites our team is backing this spooky weekend",
-     "url": "https://www.mlive.com/sweepstakes-casinos/2026/10/new-social-casinos-5-sites-our-team-is-backing-this-spooky-weekend.html",
-     "source": "MLive.com"
+     "title": "David Braun Shares How Aidan Chiles Won Over His Northwestern Teammates",
+     "url": "https://sports.yahoo.com/articles/david-braun-shares-aidan-chiles-004130200.html",
+     "source": "Yahoo Sports"
     },
     {
-     "title": "Stake.us Promo Code ROTOWIRE: 250,000 GC + $25 SC Today!",
-     "url": "https://www.rotowire.com/news/stakeus-promo-code-rotowire-get-250k-gc-25-sc-for-october-31-144743",
-     "source": "RotoWire"
+     "title": "Braun on Chiles: 'He wants to be the best'",
+     "url": "https://www.nbcsports.com/watch/college-football/david-braun-on-aidan-chiles-five-touchdown-day-he-wants-to-be-the-best",
+     "source": "NBC Sports"
     },
     {
-     "title": "Top social casino sign-up bonuses in the US: best welcome offers for 2026",
-     "url": "https://africa.businessinsider.com/local/top-social-casino-sign-up-bonuses-in-the-us-best-welcome-offers-for-2026/d2n03zw",
-     "source": "Business Insider Africa"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "isaiah marshall",
-   "traffic": 200,
-   "published": "2026-11-01T04:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Marshall declared questionable for Saturday’s game against TCU",
-     "url": "https://www2.kusports.com/sports/college/basketball-women/2026/oct/29/marshall-declared-questionable-for-saturdays-game-against-tcu/",
-     "source": "KU Sports"
-    },
-    {
-     "title": "Isaiah Marshall downgraded to questionable for TCU road trip",
-     "url": "https://247sports.com/college/kansas/article/isaiah-marshall-kansas-football-qb-status-291924416/",
-     "source": "247Sports"
-    },
-    {
-     "title": "Will Isaiah Marshall play at quarterback for Kansas football vs TCU?",
-     "url": "https://sports.yahoo.com/articles/isaiah-marshall-play-quarterback-kansas-180553624.html",
+     "title": "Braun on Chiles: 'He wants to be the best'",
+     "url": "https://sports.yahoo.com/videos/braun-chiles-wants-best-202027415.html",
      "source": "Yahoo Sports"
     }
    ],
@@ -1403,25 +1335,83 @@
   },
   {
    "source": "google_trends",
-   "keyword": "lucia szabová",
+   "keyword": "big ten network",
    "traffic": 200,
-   "published": "2026-11-01T04:40:00+09:00",
+   "published": "2026-11-01T05:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Tainara Lisboa vs. Lucia Szabova prediction, odds, pick for UFC Vegas 123",
-     "url": "https://sports.yahoo.com/articles/tainara-lisboa-vs-lucia-szabova-160032072.html",
+     "title": "2026-27 Big Ten College Basketball Preview: Bracketology, power rankings, more",
+     "url": "https://www.on3.com/news/2026-27-big-ten-college-basketball-preview-bracketology-power-rankings-more/",
+     "source": "On3"
+    },
+    {
+     "title": "Ten for Ten: Big Ten men’s basketball season predictions",
+     "url": "https://www.insidenu.com/northwestern-mens-basketball/72970/ten-for-ten-big-ten-mens-basketball-season-predictions",
+     "source": "Inside NU"
+    },
+    {
+     "title": "Big Ten Favorites Facing Early Concerns",
+     "url": "https://sports.yahoo.com/articles/big-ten-favorites-facing-early-100011861.html",
+     "source": "Yahoo Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "emmitt smith",
+   "traffic": 200,
+   "published": "2026-11-01T05:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Maurkice Pouncey, Emmitt Smith Inducted into Florida-Georgia Hall of Fame",
+     "url": "https://floridagators.com/news/2026/10/30/football-maurkice-pouncey-emmitt-smith-inducted-into-florida-georgia-hall-of-fame",
+     "source": "Florida Gators"
+    },
+    {
+     "title": "Emmitt Smith’s Daughters Share Shoutouts as Cowboys Legend Gets Georgia-Florida Hall of Fame Honor",
+     "url": "https://sports.yahoo.com/articles/emmitt-smith-daughters-share-shoutouts-155259895.html",
      "source": "Yahoo Sports"
     },
     {
-     "title": "Former double champion debuts at UFC Vegas 123 eight years after saying MMA was 'too brutal' for her",
-     "url": "https://bloodyelbow.com/2026/10/31/former-double-champion-debuts-at-ufc-vegas-123-eight-years-after-saying-mma-was-too-brutal-for-her/",
-     "source": "Bloody Elbow"
+     "title": "Emmitt Smith, Maurkice Pouncey inducted into Florida-Georgia Hall of Fame",
+     "url": "https://gatorswire.usatoday.com/story/sports/college/gators/football/2026/10/30/florida-football-emmitt-smith-maurkice-pouncey-florida-georgia-hall-of-fame-induction/92522442007/",
+     "source": "Gators Wire"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "jake fette",
+   "traffic": 200,
+   "published": "2026-11-01T05:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Jake Fette ‘in line to start’ against No. 8 BYU",
+     "url": "https://arizonasports.com/ncaa/arizona-state/asu-football/jake-fette-in-line-to-start-byu",
+     "source": "Arizona Sports"
     },
     {
-     "title": "Lucia Szabova v Tainara Lisboa Odds",
-     "url": "https://sportsbook.fanduel.com/mma/ufc-matches/lucia-szabova-v-tainara-lisboa-36234232",
-     "source": "FanDuel Sportsbook"
+     "title": "ASU football freshman QB Jake Fette brings early swagger to gridiron",
+     "url": "https://www.azcentral.com/story/sports/college/asu/2026/10/30/arizona-state-football-freshman-quarterback-jake-fette/92505305007/",
+     "source": "azcentral.com and The Arizona Republic"
+    },
+    {
+     "title": "Kenny Dillingham's Starting Quarterback Decision Will Be Made at Game Time, Per Sources",
+     "url": "https://sports.yahoo.com/articles/kenny-dillinghams-starting-quarterback-decision-154932786.html",
+     "source": "Yahoo Sports"
     }
    ],
    "official": false,
@@ -1463,16 +1453,11 @@
    "source": "google_news",
    "keyword": "LIHEAP",
    "traffic": 0,
-   "article_count_24h": 2,
+   "article_count_24h": 1,
    "article_count_1h": 0,
-   "published": "2026-10-31T05:23:00+09:00",
+   "published": "2026-10-31T06:07:00+09:00",
    "category": "Benefits",
    "news": [
-    {
-     "title": "Election Day is Tuesday, Free shredding event set for Nov. 21, and more - Pennsylvania House Democratic Caucus",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UeEdaVXo4VW9GN3VsRlZLYUZrQUpMa1gzcXl2VXJaaTFsd1JFS0sxMFpMYkJOR01LMDhvbHh1d1Nib19BdlZIal9fdkVSMUR2bzB0cVZnUXlfYXJJYXhLd1gzZkV3Zw?oc=5",
-     "source": "Pennsylvania House Democratic Caucus"
-    },
     {
      "title": "Davenport to hold special election for 2nd Ward - KWQC",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUnlGTkJJajRXM1VLOEdxd0d4Vnhqbk1VUDlTMUZEcWV0eVBTbGo1eUVpcFJIN3F0X3BkbEhEamVfUDE0SlJiNkFTREItOFUwM2hOV1J0U1hMTFAyX3kzSXFfMWVyc3FvQ0lHQllBSkV0allVQlN6VTI0d0xPeDg5VGVwVUlLT2d4VEM1YnRYTTc1QdIBkgFBVV95cUxOUnlGTkJJajRXM1VLOEdxd0d4Vnhqbk1VUDlTMUZEcWV0eVBTbGo1eUVpcFJIN3F0X3BkbEhEamVfUDE0SlJiNkFTREItOFUwM2hOV1J0U1hMTFAyX3kzSXFfMWVyc3FvQ0lHQllBSkV0allVQlN6VTI0d0xPeDg5VGVwVUlLT2d4VEM1YnRYTTc1QQ?oc=5",
@@ -1480,7 +1465,7 @@
     }
    ],
    "official": false,
-   "score": 6.7,
+   "score": 3.4,
    "already_covered": true
   }
  ]
