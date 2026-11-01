@@ -1,26 +1,18 @@
 {
- "generated_at": "2026-11-01T14:37:18.039188+09:00",
+ "generated_at": "2026-11-01T15:10:31.020694+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (19)",
-  "evidence": "ok (저장 65, 실패 41)"
+  "evidence": "ok (저장 63, 실패 35)"
  },
  "compared_runs": 5,
  "spikes": [
-  "flood watch",
-  "medicare open enrollment",
-  "tax deadline",
-  "IRS refund",
-  "txst football",
-  "power ball drawing",
-  "bradley cooper",
-  "is fortnite down right now",
-  "oma vs pak",
-  "pedro pascal",
-  "deportivo toluca fútbol club",
-  "conor mcgregor",
-  "el chapo"
+  "social security COLA",
+  "fortnite",
+  "winning powerball numbers",
+  "crimson desert game",
+  "rush hour"
  ],
  "candidates": [
   {
@@ -47,25 +39,272 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 172.5,
+   "score": 150.0,
+   "already_covered": false
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-01T15:10:31.041974+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 0,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-01T15:10:31.042002+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": 0,
+   "in_window": true
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security COLA",
+   "traffic": 0,
+   "article_count_24h": 54,
+   "article_count_1h": 3,
+   "published": "2026-11-01T03:33:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment. - MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOXJidlJSSTZwQVpKcVNWZmhXS1hFcW9qdUxnMGRNU2EzYUVWNERmYTNMckZLMXlXakxaUU9lNHhVZjNRNkE0VmtZSENGcXJMSmRhZ21HZzEzZEMzemhxUjk2SzFlRHpTTVR5Ylk2dXpmLXlnaGllSDk4UnJxci1nRVowd055M2M1bmFodzd6czNJLWdoa21pbGhnLU1oSTZMWFpTcUp4NVZ5OGNOWFNuNjExNk5ZOUNXbEhXOUtvbWFCWXdGSHhNaU5FN0ZMVWFQSVBicmxn?oc=5",
+     "source": "MarketWatch"
+    },
+    {
+     "title": "Social Security is busted and can't be fixed. Privatize it. | Finley - The Detroit News",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOa013NTNBLXJ5OURNWko4NGNjMXZLQVhUZW9BdS1adGFnQnlqREZBRWFhQzFuYVI4ZXhhRGpSOEVqbmdnQUNGZDQyOGpwaDY0bUU2ZFpPcXdLODEzN2xyYW5ZLVNIMnpVQmlKdVg4b3NaYVNwcWQyUXdIRWkxdnFtVUtyYWNUaVFZSnVLOEt4QVotUDJqaUlrMThoY0FVaFEwVDVrM3Y4ak4tWllZM2hJcDlPR1NmSk1weGNjQU9KeXRyekRxRkszSTIxRE5FbF9FTUVWejhjT3VYYmRqRmE1RVZrbWY1MkNTMzRPX3BR?oc=5",
+     "source": "The Detroit News"
+    },
+    {
+     "title": "Social Security's Trump Bump-Led 2027 COLA Is Doing Something That Hasn't Been Witnessed This Century - The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbXNFU1hBMk5zR1lvVnpMc3VWcXFTYXFiczJaUlNIZlJnRjRWUGk3cy05Z1NTbktUbWdjZUZpaExCcWtFdDF6ME93Qkg1RndrQURYMHFYeFJ2U185ZEhXdXBleDRkX2hSTmdQeGV5X0F2bkdrbFg5NTktZ3VUVnJfWjVYZ3lMbWFFSUhGaTJPWVMxenMxRkM2U1lyQ2FGRWpJOG1sR09KRW9lYWpiMHNhX29aNFh2Z2tKVDJpelh0ejFYdw?oc=5",
+     "source": "The Motley Fool"
+    },
+    {
+     "title": "Local View: Protect Social Security cost-of-living adjustments - Duluth News Tribune",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQkRRaXlyS0EtRDFSSDl0R2lIaW1TOXc3Tk12LWJhNU1CeHhwNDN1TDF5em52anJRb2p3d3R1ZlNsMjd2bXRkSmlpVUpOM1FXb2cxNThfZ0dURVpJZ19yb1VrM0tidlp3LWtEdUpMVF9lU1lUZ3VzSGFtTUZoNGFpRVZYQXNFWTdqOWZ1RnNybWotRGNCSWdXeV9VZUpjckZ5SHA4dzlFYUNWd3pLZXR6cw?oc=5",
+     "source": "Duluth News Tribune"
+    },
+    {
+     "title": "See when your November Social Security check arrives - The Journal News | lohud.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSXA4QXFnYkNEeUtta25hYnlGV2JPbVFET0JCMS1wQ3VPSmxZRS1SV3FTeWp3eGg2bUF3RUY3SUVqdFg0VTh0UEtPX0lNRUR5SURRdGhqZGZsVzZ0bEpKRXBfcHItNi1HWkY5VWJlZlAxbi00NEkzYThndC1Va3VDaW9FSGEzMFhSdzJFRkp6WUx4R1dMd1VUeGRua2pSSjZrbFA5eXVJMUZHMFU?oc=5",
+     "source": "The Journal News | lohud.com"
+    }
+   ],
+   "official": false,
+   "spike": "최근 1시간 기사 0.2→3건 (3.3배)",
+   "spike_bonus": 33.3,
+   "score": 84.3,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.hawaiinewsnow.com/2026/10/31/first-alert-weather-flash-flood-warning-issued-kauai/",
-     "title": "First Alert Weather: Flash flood warning extended for Kauai",
-     "outlet": "Hawaii News Now"
+     "url": "https://www.fool.com/retirement/2026/10/31/social-security-trump-bump-led-2027-cola-do-something-not-witnessed-this-century/",
+     "title": "Social Security's Trump Bump-Led 2027 COLA Is Doing Something That Hasn't Been Witnessed This Century - The Motley Fool",
+     "outlet": "The Motley Fool"
     },
     {
-     "url": "https://www.staradvertiser.com/2026/10/31/breaking-news/flash-flood-warning-issued-for-kauai-as-heavy-showers-soak-island/",
-     "title": "Flash flood warning extended again for Kauai as heavy showers persist",
-     "outlet": "Honolulu Star-Advertiser"
+     "url": "https://www.duluthnewstribune.com/opinion/columns/local-view-protect-social-security-cost-of-living-adjustments",
+     "title": "Local View: Protect Social Security cost-of-living adjustments - Duluth News Tribune",
+     "outlet": "Duluth News Tribune"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "product recall",
+   "traffic": 0,
+   "article_count_24h": 41,
+   "article_count_1h": 3,
+   "published": "2026-11-01T11:36:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Children's sensory swing recalled after multiple injuries, including concussions - KGW",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc25BbjlkclQ4OV9xSXdLWnFoQm5iWXVJa3pJbkRlN0JCcUpWSUJVZERxWk5sM2dVcGFmXzk5YmZta0ppaXFXQ2RfaDhRcER4Y0dva0dIc2tLSnEyMmNBTFJ1aWZ1UjJmOGdLdGJDRzBkMmFnWS1UZWxmTzREUXl3Rm5SaWl0M2RMRFByc0l2U0VqMzZKRmR3MGh4ejZVa0NpZVJaV3lXOVBrN2dsd0x6Mnk5OGpBOWVmSXFLWTN5S1Z1bzFaQW0zQjM1VVBtLVpYdmc?oc=5",
+     "source": "KGW"
     },
     {
-     "url": "https://mauinow.com/2026/10/29/flood-watch-expires-after-periods-of-heavy-rain-rockfalls-and-road-closures-in-east-maui-and-%CA%BBiao/",
-     "title": "Flood Watch expires after periods of heavy rain, rockfalls, and road closures in East Maui and ʻĪao",
-     "outlet": "Maui Now"
+     "title": "Toddler snacks recalled after children suffer choking incidents - El Paso Times",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYi1wZ0RxUnpfNC1hUmJ4bGFjSUhjaEc1T2hyR1RVX2V5aW1kaXBpTm5CMG45aV9RWWVLV1lCQURhUU5udVpEWVhHdEszbThxSHhWVzBqSUZhQnZnZHFReXlXUThwWDN5RzF0Tzk2TjgzQkNCajlnZHg0dHhvd3o4UEt4UzE0ZzVqR2lfbFU0S2lqU013bldwQW1vVnJqZldONWxsYVd6VFVaTUctSUpXVmdPS3FGVDVOZm5tOU9ta3U0X1JQZFlXMFBmOU9UMm1rMlR5Z0tUSQ?oc=5",
+     "source": "El Paso Times"
+    },
+    {
+     "title": "Toddler snack sold at Costco, Target, Walmart recalled over potentially deadly hazard - NBC 5 Chicago",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORDVpOC0tZTlIMG80SnJoN2RDVzdHeVFOV2VlVGU0b2JRUURzS0JLWlJpdURPZG84MFlMODZIakpQdGdDTFhnR1BLbGZlS0RPelJXLTgtMlBGT3pMSkFjSlNJbzVhUlpPTjl4ZWxIRGpleWlzZ3phNXNwd04xNkk3T0s0VEJDQU8xeUFWVGtrc1FtMnJmUWZQNmktalYtVFFNTUg1eWtrUWtTd2ZNMFFFWUNuSlV4c3BtSlJCSEl5cUtpUURiQkdHc1Vn0gHSAUFVX3lxTE9OejB1cEkwaVE2UlIwMjJ5Z0xMQ0N6QjE2eVIxNURYU0Z1Yk96OE9tQ25qVV92U1NjTXhoMGM1bzVaeGNzZ3JjNExRLWs2Ry1Xa0ZmQjVaaXh6WUk3VTlQcXBuWkt0anEwTHRXWGlXbl9VQzNvY1dBX0VkaEZuTHc5ZDFRQWo4YTB5SnpzbFd5YklocElqQlI2QUJpWnNIZ2RXMUxlenVrSWhseU9IUEpfdXlHUkpVN2ZTMEF2dW5oZkh3endiQmlRVVkyS0VILXJXdw?oc=5",
+     "source": "NBC 5 Chicago"
+    },
+    {
+     "title": "Chewy cookie bars designed for toddlers recalled over choking hazard - LiveNOW from FOX",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNpTDBUd0ZTdVZmRUY2a0dpRUpTMnVTd1ROaVN2VHYwY2s5cWF3bkdFdTM2NWV5TWFLbWRmdFZLSlZrRHdybnRJbmRweG1pWG52dWZMSm1QbkN1QnlmNGxwd20zSk1VNVZ1X2k1TWhjTWlfXzBKTS1QbVl5VFBQNzc4NHFfbTdFZlZxa2Z5OTlpZ2psTmFoSEJfV2Ixa2NJY3Z3?oc=5",
+     "source": "LiveNOW from FOX"
+    },
+    {
+     "title": "German court says SEAT may have to take back recalled Cupra Borns - AutoNext.co",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTldzSlluOGtMb3BSZS1aUGttT1lvTFR6cVNQQ0x4RW1zcUpMelZSZy1jNmhSMDdXVll2S3JDMGJEM2dkLWpaN0hSakpnQTM3QmNxWnlBSlJabXllaENmb1NuUHZyWHdEWFJnRnh4d2pDRTI1UkVKTE9kVzB5amdGR3Bn?oc=5",
+     "source": "AutoNext.co"
+    }
+   ],
+   "official": false,
+   "score": 67.2,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.nbcchicago.com/news/local/toddler-snack-sold-at-costco-target-walmart-recalled-over-potentially-deadly-hazard/4010095/",
+     "title": "Toddler snack sold at Costco, Target, Walmart recalled over potentially deadly hazard - NBC 5 Chicago",
+     "outlet": "NBC 5 Chicago"
+    },
+    {
+     "url": "https://www.livenowfox.com/news/soft-baked-cookie-bars-designed-toddlers-recalled-over-choking-hazard",
+     "title": "Chewy cookie bars designed for toddlers recalled over choking hazard - LiveNOW from FOX",
+     "outlet": "LiveNOW from FOX"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "election day",
+   "traffic": 0,
+   "article_count_24h": 100,
+   "article_count_1h": 14,
+   "published": "2026-11-01T14:30:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Election Day 2026: Where to vote - Santa Fe New Mexican",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYnpqMXJ2NW1ZdmoxM0FjOWZ4Z255ZzVPWXdEWk1xSWRxQXd3OU1NNFhnTXdRUkMxbFphZVlBU0hET3RjWm92YVA4ZzNJUk12VFJ6TlZ0QTZvLWhXNFRsdDc5U0RpT1lzRGdDbXhrV1JQLUZvbHo3anhKT0tsRzFoeFFnNThiNWplMS1GWHBMLUpfS2g0NXB1SDlZamZEQWpadW56V2dEYU1QTW9zdC12UmxaU3owTG5aZWdqTFlmVDVHdllkY0NTaTNvcw?oc=5",
+     "source": "Santa Fe New Mexican"
+    },
+    {
+     "title": "NPR's voting correspondent on what he's watching for on election day - and afterwards : Consider This from NPR - NPR",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX1B3cGJtWGpRQlpEbTlwakhQX2M5c0lTclNUOVhURlF1cVBRcDRXSDRCRW91Mmctem9FSi1JYnZCWDVNS3ItV0twSUpORnppUlhMUU1pQ1puV3g0VTJnRDQzaG0wbUVDdUFrNGFJalpsR18weGtTWk5OcjdSSkZzaHRqSE4wbm92NkRnLTFGTHJYQVpFY3R3WVNtNzhvcDVDREVidnd0S2htdGN4bE5XWGtLN0xMVTFWSGZOVm1CUFkzN0Ix?oc=5",
+     "source": "NPR"
+    },
+    {
+     "title": "Labor groups rally for Iowa Democrats in weekend push before Election Day - Iowa Capital Dispatch",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObG95aTdqbEd6UFg0cm5HRGdtUFFOZGdCcHR3S1NVeDVad2dYRjc4bGRoR2l0aXN2Y3JTeC1MdmlNSkp6aTRmZXd1RXQzWG5iaWhvckl6YjA5QnA3TjFuNkJ2b3pwLUN6aXRrQXNJQ1kxUVJrOFFUUnRoTGpENDQtb3BNSlV1Wlp4NXN5UjRLdDE2TGd1UzV1akYtNk16aGlWaFNHU1BhSEdSUmwzR3paaDZIbU5sZmdZ?oc=5",
+     "source": "Iowa Capital Dispatch"
+    },
+    {
+     "title": "Michigan Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VWE96aXR0S3I2YjZPYWRXb21UM1lCZXoxbFdDenBTUzdjMmJHUjljRTdFc3hHQm9DTlBiSXIzRGg1c1U4N05MbHk0OFhtSVNpc2RNcWZhMzdpRldLWE5jYzd0cEZQRV8zR1d1VUtWWWlYQQ?oc=5",
+     "source": "NBC News"
+    },
+    {
+     "title": "NorCal elections officials say how they would handle Election Day threats and other issues - KCRA",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPclFtOGxSc0hMNXBnQmhXTmVNYnZrVjl0V1ZGTHptdVQ1LW4wNWFiTEJ4UnQ3MzNmMmNHb0NfNUU1Vk0tcHV1TVoxekRObVBiOEdHeDdvbzRtRVE3XzRNVFVncmVRWkJkdDZYd2FORTc5ZU05RFhRcnBOdVhlWW0tRTFHMkc3YzVNd2RaWDc4ZTFCZw?oc=5",
+     "source": "KCRA"
+    }
+   ],
+   "official": false,
+   "score": 65.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.santafenewmexican.com/news/local_news/election-day-2026-where-to-vote/article_f397bb62-0559-4e67-b665-b9378a8e994b.html",
+     "title": "Election Day 2026: Where to vote - Santa Fe New Mexican",
+     "outlet": "Santa Fe New Mexican"
+    },
+    {
+     "url": "https://www.npr.org/2026/10/31/nx-s1-6023769/nprs-voting-correspondent-on-what-hes-watching-for-on-election-day-and-afterwards",
+     "title": "NPR's voting correspondent on what he's watching for on election day - and afterwards : Consider This from NPR - NPR",
+     "outlet": "NPR"
+    },
+    {
+     "url": "https://iowacapitaldispatch.com/2026/10/31/labor-groups-rally-for-iowa-democrats-in-weekend-push-before-election-day/",
+     "title": "Labor groups rally for Iowa Democrats in weekend push before Election Day - Iowa Capital Dispatch",
+     "outlet": "Iowa Capital Dispatch"
+    },
+    {
+     "url": "https://www.nbcnews.com/politics/2026-elections/michigan-results",
+     "title": "Michigan Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News",
+     "outlet": "NBC News"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "early voting",
+   "traffic": 0,
+   "article_count_24h": 100,
+   "article_count_1h": 13,
+   "published": "2026-11-01T13:18:18+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Democrats, unaffiliated voters fuel record early voting turnout in North Carolina - WRAL",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2R5OUJzS2FYRW96a2lwY193Q0N1Q2VzWV9qYWU1bVg3U091Zm9BUUg1eW5PS3FTVXFQa2dMUklrYUpPcmhnM3ZSa2hTV202a2ppRUxFNFZDcGp2UkJmRUJSNUZCWUZMU1JXdVJjdXRfeTlYOWUwYm8xNTBlSkV3M2thR0h6aHdldUFId1R0QmJiTU5kWmt6dy15ZEFHaHN0MjhSMGMyMUJUZ21OWlE?oc=5",
+     "source": "WRAL"
+    },
+    {
+     "title": "Texas Republicans sweating over low turnout in early voting - The Washington Post",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHFqYzJRejQ3XzViNS1DUi03amZDLThHNk1HV0xTX1ZaQWxDV1E3ZlZ2dXF5bmZGQUhPM1ZHbWd4Y1BkV2FRR2hiWkhKbzA2YmFxWEE5WEYtVVhwS0pjM0cxZFVta3JOSGtfQXhxeVZNblFOVUNZQURFRWxVblZRREx2cDdRVTdHMDJ0M2o0eFYxVmNkdFZTckh5M2x4c2tCWVlQUnJXdjVRZw?oc=5",
+     "source": "The Washington Post"
+    },
+    {
+     "title": "NC early voting tops 2 million ballots ahead of Election Day - ABC11 News",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ20wenVTZjVLZEVJbTZZTjRVckNvVUMzeU40TFJtRVg3YU1oV0o2Nm15eE9Sd2o4OFBaZHNpaWZyeTh0VEQ1bkVsZUwzc0dnNm9OcVFXbTZkZzN2SUtMMjVOWFltZzBDMU5wWnUxT3FvVzFxRkhtNHBhVV9qR0E5Vzk2VUY0UWdyY2RzR0FVUGhzb1Rh0gGaAUFVX3lxTE5VMEt1cExIeGU1eUpmSFN5VTdRMUpXbi1KaGprNkJCTmQ5cmY1MHFIY0VuVWdFeUk0bGkwaTFQMWlWdlRDS2tSbzRBdDR2MGVFSzZsSUVxWGVZRlFfZHFLeC1VaDRMdUVpRnZ1S1o0RUNGUlhWRWw5ZHlwU1VzZkFmckxJem9PUk1rQ0hCUlc0UzVzcmhrb1p0ekE?oc=5",
+     "source": "ABC11 News"
+    },
+    {
+     "title": "Texas early voting turnout rivals 2018 - Axios",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CY1dscGMxWThBR3FzOWVwblF0Mnk1TjMwX2dfa01kVlhVd01YNTBNVW1id0E0UDlHaVBpdFRQZ0o5dW9GMDR3QnZ4S2NOVFZteDVPWHhiMV9IeGhsWlVUZXd4RWNjOFgzanZUNkIwNS13Q0Y5ZXFmNmNkcw?oc=5",
+     "source": "Axios"
+    },
+    {
+     "title": "High early voting turnout sets stage for competitive Texas midterm races - NBC 5 Dallas-Fort Worth",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTW5OcGJpT0NOdkljOEVGQ085dFNLYXVaMmhxaWtMUk9PTTdnZW1PUXo3b3EtaHVtdHJyMm5peFFNNUFnaFFXMTVKSmlIczFLOHRremZVa2tJd0xVVC1jUGlNcU04WkYxOUpWQ285QXBGZkktNGx3d1FNMDg2ak1GVktETFY5dzBRTW1vb0VhTkhDMzRWTGFlUnVvUElzb0lVQ3FlcWltX0kwZVJwbWY2dFlqTERUZk5PQlJQOHdUa9IBxwFBVV95cUxOMWdKRndIUEVZX193eGZCWWdGOHBieHJyX3ZtRVRERXRGZ2NoNW1YOHFGUUJrMk5oZmlSSk5xd1FZMUVWZk00MEM1STRCaUF5QWxhbW1QbFotVmh5MWdPcTRzaVltRFFodnRKOEdGOG1SOEJlRGRYdE01QnJRMVBfYkhiOXNXOVNhSG1iLWk4d1oxQkVrUUFfeWZubXJUenlMc0ZQekpBYVBqMzZMbzlkRHI4dVFqREpWU1V6SlA3NGdzU09uM3Bn?oc=5",
+     "source": "NBC 5 Dallas-Fort Worth"
+    }
+   ],
+   "official": false,
+   "score": 65.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.wral.com/news/nccapitol/end-early-voting-nc-last-day-register-how-to-guide-midterms-mail-id-2026/",
+     "title": "Democrats, unaffiliated voters fuel record early voting turnout in North Carolina - WRAL",
+     "outlet": "WRAL"
+    },
+    {
+     "url": "https://abc11.com/post/nc-early-voting-tops-2-million-ballots-ahead-election-day/20003447/",
+     "title": "NC early voting tops 2 million ballots ahead of Election Day - ABC11 News",
+     "outlet": "ABC11 News"
+    },
+    {
+     "url": "https://www.nbcdfw.com/news/politics/lone-star-politics/high-early-voting-turnout-competitive-texas-midterm-races/4099100/",
+     "title": "High early voting turnout sets stage for competitive Texas midterm races - NBC 5 Dallas-Fort Worth",
+     "outlet": "NBC 5 Dallas-Fort Worth"
     }
    ]
   },
@@ -105,9 +344,7 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 0.8→3건 (2.2배)",
-   "spike_bonus": 22.2,
-   "score": 96.3,
+   "score": 63.0,
    "already_covered": false,
    "evidence": [
     {
@@ -129,323 +366,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "tax deadline",
-   "traffic": 0,
-   "article_count_24h": 26,
-   "article_count_1h": 6,
-   "published": "2026-11-01T07:46:23+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Belgium extends QDMTT, IIR and GIR notification deadlines to 31 October 2026 - EY",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQalhqdEdiU0Z3UWgyUEh5U1hrbnlsZ1JPUHJxSXZza0NkQUdHTWwtb0Q0d2lQX0k4U29Nd0h5dWZoQnJLZXdQNVdtZ1hvakd0SlQxZ1dnTnkwVXI2bno2Q2FjVkxlbldFM0gzTnFMSkNSSjFsR2tydlpacXc2bnhTN3Q2RUVjOWZTVV9Rb2ZzVGw0WkVKTTNjQTZYSEJkU25MYlN5Y2J4ZW0tamtabmtRT0hYNU1weVpoUXlHcV9tRllKMEk2?oc=5",
-     "source": "EY"
-    },
-    {
-     "title": "Property tax deadlines approach for Galveston County residents - The Daily News | Texas' Oldest Newspaper",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPS25YcFpoa1dRT1ZndVFwa3lSamQ2VEFjWjBwQWRscVZOdUlVSlhHYmVjVDVPdGl6ZkNKZllhdlNqRnZPQnJrTXNIQmU5WkVXZGNGdkl5a09YODQ0TV9NWTVxaFIySFlQb0xSR2FsMGdhcUFSb2o5YU9vR0NsNDMzUFFXLVZoeFcwRVotaXRKb1NRNG5PWThUeFVRZGg0ekl2T1o5bjRFMWNhMGFqQnVidmt0NHJmal9wbDR5cEZDZWdYR2h1R2tDSW80UGxNUkExelNqZmYxMkItUQ?oc=5",
-     "source": "The Daily News | Texas' Oldest Newspaper"
-    },
-    {
-     "title": "The DGI sets November 2 as the deadline for several tax filings - Yabiladi.com",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUVdaWUdzYnlpMlJpM3dWZmN1NHdnZTVrYmFxeW8yenFncTRhUnhaYm44a2RRdFM4dk1xNlhnOUZhTFZyNEdDMDBrY2FNd0hGZTItV1JaaDlYNGk0a3N3NUJiTGxlVWt0aVYtcllET3BjVk1kSnVHbE4yS3JEaWNrLWpFV1VMc1pXZlJ1OExKU1hWbE1YZHc?oc=5",
-     "source": "Yabiladi.com"
-    },
-    {
-     "title": "Important Income Tax Due Dates in November 2026; Don’t Miss These Deadlines - A2Z Taxcorp LLP",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTUN3YjVfRFdLUF85WkVKTnNpR0EtYU5FTUZJN283OVFGdXkwWmpVNi02Wk8tSmZoVGJWdHdDSWtQRFFfdVlzQjVrOGRyVU9lTG8xeDVFalNOclVycjF0YlNzSkE4ekJBRC1MT3RJbmNhR0NjOW40ZTFFY2dsS085R3d5ekRJekxEbExZMUlfeTBSWTljbVNuSU90aWJZUQ?oc=5",
-     "source": "A2Z Taxcorp LLP"
-    },
-    {
-     "title": "Two-year tax deadline on inherited pensions scrapped - MSN",
-     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONjZ1LWpPNDJqeDkxWDVTemVwaEQ3TmtXRlh2MVFnd3g1ODFVT3h1UDJadGw5czJMZmhLbVdNV244Y004Qm84Q1RKbGQ2NVpQSVhqWXdPSTNQd3BtYzdPazdsdjRvVzVZeGJPaHUySVItU241R0EzSDBEelMtTWVtYWh4WnBhb3NlVUd3N2pxcGFkNnZoRWtsaWNOUWxfVnRQcW1LRXZqM2lmX0ZmazkyNEtCcGlYNmN2dzNEejhFRl8zbVhydEtNZHNXbGRGOWNRYTNrZHRpcTBtUXUybDRHWElBaGVnMEpF?oc=5",
-     "source": "MSN"
-    }
-   ],
-   "official": false,
-   "spike": "최근 1시간 기사 1.0→6건 (3.5배)",
-   "spike_bonus": 35.0,
-   "score": 89.2,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.ey.com/en_be/technical/tax/tax-alerts/2026/belgium-extends-qdmtt-iir-gir-notification-deadlines-to-31-october-2026",
-     "title": "Belgium extends QDMTT, IIR and GIR notification deadlines to 31 October 2026 - EY",
-     "outlet": "EY"
-    },
-    {
-     "url": "https://www.galvnews.com/news/property-tax-deadlines-approach-for-galveston-county-residents/article_ffa233f4-e53c-4cd3-a26c-e84bcb42086b.html",
-     "title": "Property tax deadlines approach for Galveston County residents - The Daily News | Texas' Oldest Newspaper",
-     "outlet": "The Daily News | Texas' Oldest Newspaper"
-    },
-    {
-     "url": "https://en.yabiladi.com/articles/details/206364/sets-november-deadline-several-filings.html",
-     "title": "The DGI sets November 2 as the deadline for several tax filings - Yabiladi.com",
-     "outlet": "Yabiladi.com"
-    }
-   ]
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-01T14:37:18.075345+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 0,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-01T14:37:18.075371+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": 0,
-   "in_window": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "IRS refund",
-   "traffic": 0,
-   "article_count_24h": 57,
-   "article_count_1h": 6,
-   "published": "2026-11-01T08:00:04+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Supplemental assessment due to IRS error is proper - The Tax Adviser",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdjhuWG50eG12cW9KZGh6TWFtWm5VRlNiclVkWU5DNFRSLWI5ZDY5RkJwMjB4YUVLcjBMY0VNdkZOS05MS0ZTNTFHdjdUSjM2Z3BjaUp2V2N0ZVFnNExtU3pNT2t4MV9CV0w3c0NqSm93b3NZMkNTak5SNEN1QW9BR09meWZsM1k3SHdPOWVSQ2c2cEtzbjYyeEhJNGlsUQ?oc=5",
-     "source": "The Tax Adviser"
-    },
-    {
-     "title": "IRS reports record $5.6 trillion in tax collections, historic refunds - ktnv.com",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR0FRNHhzRWRhZ0VicGQzN21hVnJTXzNYVGZHaEFXOTZVYXZITEwwTnpPYmlQSEhvaDhNYUhnMXphejZ5UFZfVTBndWc4bEJRVXRmRE9ISnExRFozRmJEZk5ER05xekR6NmdzV2RBMjJkMmJmQnhQVkZSVmp5SlVGejI3US1iYXhGNTNQUUhSX1JGMFFlMGdDcHdVU1NHcXh1d040?oc=5",
-     "source": "ktnv.com"
-    },
-    {
-     "title": "Japan Requires Tourist Tax Refunds at Airport - 조선일보",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaVhnZ1lidml2SWF4UlpoalpwQlZkNXYzM2JhNjBwaUZraHY1clQxcEk1b190RzBVZ2tROWNvNXlJazNtVkRXS1ZydTN6Y3hCdGRpNE5qcmpCWkttYkU0dUk1aEE5RlBmRm12ZXlmU3IzQjlHd25GQTB3TllmcDhQQ1NodHA?oc=5",
-     "source": "조선일보"
-    },
-    {
-     "title": "At 66 She's Raising Her Grandson. She May Qualify for the Same Child Tax Credit and Earned Income Credit as a Parent in Their 30s - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQWJjX2tJRUlERW5fTkVZUzJxLTBwdXR3elMyTXA5dDlKUUxQLXV2bmN3d0JoRzR1UjhPWDdrMFpHT3lkMVlLUk5nVG8zNU5ZeUZ4cVlWTXZHYnk4Nk5kazF6cExSUnFGV1FtQzJSNlZOU1U3eDRkY2pyVFlKc2NzelB0ekVwSlhKT0otOGFFU1IyYUpFX1JEZkJmaXZfVWRoTXo4OXhHeXU3TWtTNl9FaEEtb08wcUFLRlFySnZ4UjdOdWxkWTdXZk1qWUlucDJyWDZodHAydV96RU16MUdnSzFRVmE5YlExYS1RbVIwV05Ya0gzYXIwbDRvdWhxWUpxVGRWcDZlLTg2dw?oc=5",
-     "source": "24/7 Wall St."
-    },
-    {
-     "title": "Grocery tax refunds hit a new high in Idaho - Idaho Press",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVXFUMjFQOXdZb0lQUEkyQ0RVYk0xS3VzSzd3bF9rWW9UZWNxUDRwTF9wb2ZuRGc5b05QbGtLOC1hRzNoRjliZy1FS211VlAxWHRCODdVUkdOVUpZWWZINkRfZE9EZm4wU09YdkNmVGY0WERqNnNsVzQxSXhxQXRjZkRRM1ZGWVZVWk43SXJEeUtKa3hGbGRoc0hYaWxFcFVrVDQ3dElmSlM2TENCTVhNX2RnNndKRjJmNTd1RHhjZzh6dXRGb1V3MHhJemM2WHpfQWFRTQ?oc=5",
-     "source": "Idaho Press"
-    }
-   ],
-   "official": false,
-   "spike": "최근 1시간 기사 2.0→6건 (2.3배)",
-   "spike_bonus": 23.3,
-   "score": 77.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.thetaxadviser.com/issues/2026/oct/supplemental-assessment-due-to-irs-error-is-proper/",
-     "title": "Supplemental assessment due to IRS error is proper - The Tax Adviser",
-     "outlet": "The Tax Adviser"
-    },
-    {
-     "url": "https://www.ktnv.com/videos/video/irs-reports-record-5-6-trillion-in-tax-collections-historic-refunds",
-     "title": "IRS reports record $5.6 trillion in tax collections, historic refunds - ktnv.com",
-     "outlet": "ktnv.com"
-    },
-    {
-     "url": "https://247wallst.com/personal-finance/2026/10/31/at-66-shes-raising-her-grandson-she-may-qualify-for-the-same-child-tax-credit-and-earned-income-credit-as-a-parent-in-their-30s/",
-     "title": "At 66 She's Raising Her Grandson. She May Qualify for the Same Child Tax Credit and Earned Income Credit as a Parent in Their 30s - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
-    },
-    {
-     "url": "https://www.idahopress.com/newsletters/intro/grocery-tax-refunds-hit-a-new-high-in-idaho/article_6c514c67-35e7-4b36-9c6d-2c1e4fe04e66.html",
-     "title": "Grocery tax refunds hit a new high in Idaho - Idaho Press",
-     "outlet": "Idaho Press"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "txst football",
-   "traffic": 20000,
-   "published": "2026-11-01T14:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Kings vs. Grizzlies (Oct 31, 2026) Live Odds, Player Props, and more",
-     "url": "https://www.espn.com/nba/odds/_/gameId/401909899",
-     "source": "ESPN"
-    },
-    {
-     "title": "Victor Wembanyama gets up for alley-oop vs. Minnesota Timberwolves",
-     "url": "https://www.espn.com/video/clip/_/id/50343091/victor-wembanyama-gets-alley-oop-vs-minnesota-timberwolves",
-     "source": "ESPN"
-    },
-    {
-     "title": "Navy takes the lead through Jackson Gutierrez's TD",
-     "url": "https://www.espn.com/video/clip/_/id/50337410/navy-takes-lead-jackson-gutierrez-td",
-     "source": "ESPN"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 69.0,
-   "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "google_news",
-   "keyword": "election day",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 15,
-   "published": "2026-11-01T12:31:05+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Trump Administration, States Harden Battle Lines Ahead of Election Day - WSJ",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN2F4SnlZRldnd1pER2ZKamRuQ1prZXlhWmdITjNlWURUV1d6b2k1Sm1aTDVVYjRPSi01NFZhTzVUUm1CZEQtZXJsbFBOSDNnWEV5SnhIT3RtemZQaE9HWERJR0h6MWdZbXVnWmxYZUpOaWhlSWhXVV9FMksxNXNDNnBZQXpRV1g1ZkswaUpMQ3E3aE9xZkRyNEVKT1dfeEtwajdpeTI5ZUpXOVl1YWp1UnU5clJmYUZI?oc=5",
-     "source": "WSJ"
-    },
-    {
-     "title": "NPR's voting correspondent on what he's watching for on election day - and afterwards : Consider This from NPR - NPR",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX1B3cGJtWGpRQlpEbTlwakhQX2M5c0lTclNUOVhURlF1cVBRcDRXSDRCRW91Mmctem9FSi1JYnZCWDVNS3ItV0twSUpORnppUlhMUU1pQ1puV3g0VTJnRDQzaG0wbUVDdUFrNGFJalpsR18weGtTWk5OcjdSSkZzaHRqSE4wbm92NkRnLTFGTHJYQVpFY3R3WVNtNzhvcDVDREVidnd0S2htdGN4bE5XWGtLN0xMVTFWSGZOVm1CUFkzN0Ix?oc=5",
-     "source": "NPR"
-    },
-    {
-     "title": "Labor groups rally for Iowa Democrats in weekend push before Election Day - Iowa Capital Dispatch",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObG95aTdqbEd6UFg0cm5HRGdtUFFOZGdCcHR3S1NVeDVad2dYRjc4bGRoR2l0aXN2Y3JTeC1MdmlNSkp6aTRmZXd1RXQzWG5iaWhvckl6YjA5QnA3TjFuNkJ2b3pwLUN6aXRrQXNJQ1kxUVJrOFFUUnRoTGpENDQtb3BNSlV1Wlp4NXN5UjRLdDE2TGd1UzV1akYtNk16aGlWaFNHU1BhSEdSUmwzR3paaDZIbU5sZmdZ?oc=5",
-     "source": "Iowa Capital Dispatch"
-    },
-    {
-     "title": "Michigan Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VWE96aXR0S3I2YjZPYWRXb21UM1lCZXoxbFdDenBTUzdjMmJHUjljRTdFc3hHQm9DTlBiSXIzRGg1c1U4N05MbHk0OFhtSVNpc2RNcWZhMzdpRldLWE5jYzd0cEZQRV8zR1d1VUtWWWlYQQ?oc=5",
-     "source": "NBC News"
-    },
-    {
-     "title": "NorCal elections officials say how they would handle Election Day threats and other issues - KCRA",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPclFtOGxSc0hMNXBnQmhXTmVNYnZrVjl0V1ZGTHptdVQ1LW4wNWFiTEJ4UnQ3MzNmMmNHb0NfNUU1Vk0tcHV1TVoxekRObVBiOEdHeDdvbzRtRVE3XzRNVFVncmVRWkJkdDZYd2FORTc5ZU05RFhRcnBOdVhlWW0tRTFHMkc3YzVNd2RaWDc4ZTFCZw?oc=5",
-     "source": "KCRA"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.npr.org/2026/10/31/nx-s1-6023769/nprs-voting-correspondent-on-what-hes-watching-for-on-election-day-and-afterwards",
-     "title": "NPR's voting correspondent on what he's watching for on election day - and afterwards : Consider This from NPR - NPR",
-     "outlet": "NPR"
-    },
-    {
-     "url": "https://iowacapitaldispatch.com/2026/10/31/labor-groups-rally-for-iowa-democrats-in-weekend-push-before-election-day/",
-     "title": "Labor groups rally for Iowa Democrats in weekend push before Election Day - Iowa Capital Dispatch",
-     "outlet": "Iowa Capital Dispatch"
-    },
-    {
-     "url": "https://www.nbcnews.com/politics/2026-elections/michigan-results",
-     "title": "Michigan Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News",
-     "outlet": "NBC News"
-    },
-    {
-     "url": "https://www.kcra.com/article/northern-california-election-day-issues-what-to-do/74300887",
-     "title": "NorCal elections officials say how they would handle Election Day threats and other issues - KCRA",
-     "outlet": "KCRA"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "early voting",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 13,
-   "published": "2026-11-01T12:06:10+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-     "source": "NBC News"
-    },
-    {
-     "title": "Democrats, unaffiliated voters fuel record early voting turnout in North Carolina - WRAL",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2R5OUJzS2FYRW96a2lwY193Q0N1Q2VzWV9qYWU1bVg3U091Zm9BUUg1eW5PS3FTVXFQa2dMUklrYUpPcmhnM3ZSa2hTV202a2ppRUxFNFZDcGp2UkJmRUJSNUZCWUZMU1JXdVJjdXRfeTlYOWUwYm8xNTBlSkV3M2thR0h6aHdldUFId1R0QmJiTU5kWmt6dy15ZEFHaHN0MjhSMGMyMUJUZ21OWlE?oc=5",
-     "source": "WRAL"
-    },
-    {
-     "title": "Texas Republicans sweating over low turnout in early voting - The Washington Post",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHFqYzJRejQ3XzViNS1DUi03amZDLThHNk1HV0xTX1ZaQWxDV1E3ZlZ2dXF5bmZGQUhPM1ZHbWd4Y1BkV2FRR2hiWkhKbzA2YmFxWEE5WEYtVVhwS0pjM0cxZFVta3JOSGtfQXhxeVZNblFOVUNZQURFRWxVblZRREx2cDdRVTdHMDJ0M2o0eFYxVmNkdFZTckh5M2x4c2tCWVlQUnJXdjVRZw?oc=5",
-     "source": "The Washington Post"
-    },
-    {
-     "title": "Texas early voting turnout rivals 2018 - Axios",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CY1dscGMxWThBR3FzOWVwblF0Mnk1TjMwX2dfa01kVlhVd01YNTBNVW1id0E0UDlHaVBpdFRQZ0o5dW9GMDR3QnZ4S2NOVFZteDVPWHhiMV9IeGhsWlVUZXd4RWNjOFgzanZUNkIwNS13Q0Y5ZXFmNmNkcw?oc=5",
-     "source": "Axios"
-    },
-    {
-     "title": "NC early voting tops 2 million ballots ahead of Election Day - ABC11 News",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ20wenVTZjVLZEVJbTZZTjRVckNvVUMzeU40TFJtRVg3YU1oV0o2Nm15eE9Sd2o4OFBaZHNpaWZyeTh0VEQ1bkVsZUwzc0dnNm9OcVFXbTZkZzN2SUtMMjVOWFltZzBDMU5wWnUxT3FvVzFxRkhtNHBhVV9qR0E5Vzk2VUY0UWdyY2RzR0FVUGhzb1Rh0gGaAUFVX3lxTE5VMEt1cExIeGU1eUpmSFN5VTdRMUpXbi1KaGprNkJCTmQ5cmY1MHFIY0VuVWdFeUk0bGkwaTFQMWlWdlRDS2tSbzRBdDR2MGVFSzZsSUVxWGVZRlFfZHFLeC1VaDRMdUVpRnZ1S1o0RUNGUlhWRWw5ZHlwU1VzZkFmckxJem9PUk1rQ0hCUlc0UzVzcmhrb1p0ekE?oc=5",
-     "source": "ABC11 News"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
-     "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-     "outlet": "NBC News"
-    },
-    {
-     "url": "https://www.wral.com/news/nccapitol/end-early-voting-nc-last-day-register-how-to-guide-midterms-mail-id-2026/",
-     "title": "Democrats, unaffiliated voters fuel record early voting turnout in North Carolina - WRAL",
-     "outlet": "WRAL"
-    },
-    {
-     "url": "https://abc11.com/post/nc-early-voting-tops-2-million-ballots-ahead-election-day/20003447/",
-     "title": "NC early voting tops 2 million ballots ahead of Election Day - ABC11 News",
-     "outlet": "ABC11 News"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 37,
-   "article_count_1h": 5,
+   "article_count_24h": 39,
+   "article_count_1h": 9,
    "published": "2026-10-31T19:12:54+09:00",
    "category": "Benefits",
    "news": [
@@ -460,11 +384,6 @@
      "source": "The Journal News | lohud.com"
     },
     {
-     "title": "Retirees born on these days receive Social Security payments today, February 11, 2026 - MARCA",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLXdMR0JNb2FJWF9ENVpQTXBtRy1TMmNMY1I2Z1VwM0FrMFhCd1JIdUFURnNaSzNfWEJ2YnpGTXBmUzhZUUpsTVZqR2xRZzFzTHI3QlhLLVUySzJTMTJGcHIwZmg4ZE1uZ0ZCX09aVk1lUWZjYTRuT0g2bzN1VXVkY0w2TDJYVnBvcGFPS29xRkxVUlV1a3B6Wm15UnNmUjRONEHSAaIBQVVfeXFMTXRqZnVydU9YWTVoUF9ZSWlvaExibGFReW4tMHFNWUVZbXVwY0IwUVJjWU9TMF9uS2FtOUhFX0I5RG9HSTFxb0RPOU9hUUthRW9FN1R4XzFEaFBHdUh5aGY1eFpuWl9yZnBfVndDVFFRVVBrMUFaVm1BNEJQMVVJeGNQdmdYNFhTQV94M09JVy1WWmpSYXBUU0Q2U0Q1eXNtSlRR?oc=5",
-     "source": "MARCA"
-    },
-    {
      "title": "Social Security pays on Election Day: who gets a check on Tuesday, November 3 - Tododisca",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYWcwMEd3ZUNTM21xd3VqcWdlekxmTGpYbHdERzM0elJwTUZROVA2SFZYOTI3SDBkWjBCOFVMb2Z5aDhUa1kwdm1EYlJsQTNFeFVBSm9zLU9QTG5VOGgzRTV5TjFhSjFZTEtGRDRaWW5YTHBNcjAwM2dPTU9pTnJpa1hqdUFJRTA?oc=5",
      "source": "Tododisca"
@@ -473,6 +392,11 @@
      "title": "$90 refund payments sent to millions of people: Didn’t receive yours? This could be why - AL.com",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk1IWkMwckk3cUZqc3VJYnJtcnNsbkVWQnRFNHJHU2hjbDZvLUxyQk90RThRaE16eFZKSW82RHpET2tRQ0V6NHV1QlRzQzgzMUVmRjR1TWRQUzVrNldBTHBaZ21IQ083R2NSUUhCOE5WMEt4MnpSTXZsUm5jWnVRR0lzVHBJbTUtdm91bGFodTlIak1mVEVDTjBYdWtxRF9Vem5qeWxGUlRQbmcyMHZEQUhqbnY0SlFTNW1ycdIB0AFBVV95cUxQMXo1UGdnTUpUQ1pOc0lJaGt4QmV0eGdaTnhrT290bk1sR0lKOVI0ZnBsMDFLcnBZNzhyRkJ0dlM0NjBVU0d6SnFTR0NpblgyZmRadHNEcmNVS3RzVE1UZ2Y0TUs5c1ZnSjJ3N2lWUlhBZlJSV2NFUXkyd3B6bTFXSmoxSFJ5TEZlWlFTb0E2VmxNUEotZF9KdjJFaGJzNDUxel8xQW5OZ0dBRThqNTVySjB2cXRxa2RDdzZiUmd0cHVKVjZkbTY5ZGZtU3FZdjYw?oc=5",
      "source": "AL.com"
+    },
+    {
+     "title": "Retirees born on these days receive Social Security payments today, February 11, 2026 - MARCA",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLXdMR0JNb2FJWF9ENVpQTXBtRy1TMmNMY1I2Z1VwM0FrMFhCd1JIdUFURnNaSzNfWEJ2YnpGTXBmUzhZUUpsTVZqR2xRZzFzTHI3QlhLLVUySzJTMTJGcHIwZmg4ZE1uZ0ZCX09aVk1lUWZjYTRuT0g2bzN1VXVkY0w2TDJYVnBvcGFPS29xRkxVUlV1a3B6Wm15UnNmUjRONEHSAaIBQVVfeXFMTXRqZnVydU9YWTVoUF9ZSWlvaExibGFReW4tMHFNWUVZbXVwY0IwUVJjWU9TMF9uS2FtOUhFX0I5RG9HSTFxb0RPOU9hUUthRW9FN1R4XzFEaFBHdUh5aGY1eFpuWl9yZnBfVndDVFFRVVBrMUFaVm1BNEJQMVVJeGNQdmdYNFhTQV94M09JVy1WWmpSYXBUU0Q2U0Q1eXNtSlRR?oc=5",
+     "source": "MARCA"
     }
    ],
    "official": false,
@@ -485,14 +409,14 @@
      "outlet": "USA Today"
     },
     {
-     "url": "https://www.marca.com/en/lifestyle/us-news/personal-finance/2026/02/11/698c6084ca474148518b4583.html",
-     "title": "Retirees born on these days receive Social Security payments today, February 11, 2026 - MARCA",
-     "outlet": "MARCA"
-    },
-    {
      "url": "https://tododisca.es/en/social-security-payment-tuesday-november-3-election-day/",
      "title": "Social Security pays on Election Day: who gets a check on Tuesday, November 3 - Tododisca",
      "outlet": "Tododisca"
+    },
+    {
+     "url": "https://www.marca.com/en/lifestyle/us-news/personal-finance/2026/02/11/698c6084ca474148518b4583.html",
+     "title": "Retirees born on these days receive Social Security payments today, February 11, 2026 - MARCA",
+     "outlet": "MARCA"
     }
    ]
   },
@@ -502,9 +426,14 @@
    "traffic": 0,
    "article_count_24h": 100,
    "article_count_1h": 10,
-   "published": "2026-11-01T13:55:00+09:00",
+   "published": "2026-11-01T15:01:45+09:00",
    "category": "Holidays",
    "news": [
+    {
+     "title": "Daylight saving time ends Sunday. Here’s what to know as clocks ‘fall back.’ - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU0t4OVJhWHE3S3pGc1AtZms1V3VDUFdjY0FPMTZ4cmlkb3NpckFHNGlqZ1lQZlB0dE16T2dpSUY4RGJ0d2tLc19kZHdqXzEwR0dScGpuUG1tQlBTRW95UG1rZjFmRHQ0MmFlcUJ1dFowZzlmajQ0TzBVaG1taUUtT0IwQ2pFSFpMc0RRZm5GaEVTNWdZTkVsNDZOUl9PUVRiekJxRUJqUQ?oc=5",
+     "source": "NBC News"
+    },
     {
      "title": "Daylight saving time ends tonight. Here’s when to set your clocks back - Los Angeles Times",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeEpOb2s2NlNBekxPTXFfUTBxZ3laREIwMTM4R28zcTlUYmZFT3RLNDFyWGFfUXZZVlJPSEhnMzdRai1qOHhQemNocTVuYWtBMU9RUVcxRUZOdzRfV1ViX0RUTTVhLWxZQkRMWUtKenppbU1DNGhuVFBRakZobF9GamNaS0hVc3RZbXVmWW9obElWRHA5NlNzMFlHTnFkWTdlZVZGbUZsa2xibkN0Z1pObS04dGM4ZTBudlpMYQ?oc=5",
@@ -521,11 +450,6 @@
      "source": "The Palm Beach Post"
     },
     {
-     "title": "Daylight saving time 2026 ending: When to 'fall back' - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMl9GNW1pWm0wdExCb0VEdHZxVkVoZmFRRmNrd0xvZFNFbUpkSHhFQkJNX1JycDJxeW14TF9vb1YxTFR2akJCeVliUkpDVXFZX3k5TEZQdG5SeWk1Zmx1Sk8tOVloejhOYXZjZ1V0Mk1nVXA2X3RLN2lRWGpBTHEtc0VhLS1BMnliZUQzTVNiVUdLOUpxX28w0gGcAUFVX3lxTE12XzNLSlgyczJLNnpTRzhJek5kckI0ZTY0OS1MOUxhdTBZOTdlNEFVM2JkTWpzTUJwX2RSRmpOeDlXQmN6RTBHcnUzWlMwYVIxNmwxV2V5aUtTUUhBa0FIYUJ1OXlhYjNiT09pSVdQR3BxNldEbmhmdE9aTHFxTHNmTWlpMl9QZDEzZWY3bEtLTTVrcHl0SFhEbVZIWA?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
      "title": "Georgia passed permanent daylight saving time bill. Here’s why clocks still fall back - WSB-TV",
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNejF6ZWtmaEFVaExTZk1yYUdULVkyZkp6c3ItLUhvUGN2SmtOMTBkeElMNHpUeFNGZlhrLUtjMFAxV3BuWkFvVnJLTDN3WGpUaGh6SDdDR2F6ZUZqeTJ0LWw2Q3VNV2M0MU5HdUZXWUF4bUZPZW1reGlwYkM5dDRDMV9GZllnek1VX0ZrZjd5V2lsLVdTclJCdGhiQjNOSWx4U1QwWWRGR0ZaSHFYVTk1ejNjNjBNNkpmUTNac3kzMGd1UXVIME5YVmNaNGM3TkFYVFp1WkpDNlpxXzhVdXM4RXR5UdIB9wFBVV95cUxPcjZIZ0dwdU9Qd2VMaUl6czAtTTJuUktnZWU3aTVvNHN5OWhpaVRJcW1keTY0dmtTS01CRjJKUVJkMzRPLURtS2hXZWlpdmFmTHJDdERrTnVuZmNOTWRsWms3TUdVYXlrUnJjQ1YyWkktZ1dEYTdfbkFrVXQtdzhIanFPUTE3RG94dUNZZHNreUdJX3JGWVQ4bkhlX3k3eWI3a1doeGxJZ2VPeHMtWWppeW4tLS0yRlZNbDlia25teC1UUEIyV1BQdzhQdnRfWXo2Ni1LMVRxbFNndlgxM1BVMkhuMmIxWmg0V2hUWEl0Z0J3d2RnZEdF?oc=5",
      "source": "WSB-TV"
@@ -536,14 +460,14 @@
    "already_covered": false,
    "evidence": [
     {
+     "url": "https://www.nbcnews.com/news/us-news/daylight-saving-time-ends-2026-when-november-1-what-know-rcna606619",
+     "title": "Daylight saving time ends Sunday. Here’s what to know as clocks ‘fall back.’ - NBC News",
+     "outlet": "NBC News"
+    },
+    {
      "url": "https://www.latimes.com/california/story/2026-10-31/daylight-saving-time-ends-tonight-heres-when-to-set-your-clocks-back",
      "title": "Daylight saving time ends tonight. Here’s when to set your clocks back - Los Angeles Times",
      "outlet": "Los Angeles Times"
-    },
-    {
-     "url": "https://abcnews.com/GMA/Living/daylight-saving-time-2026-ending-fall-back/story?id=137001508",
-     "title": "Daylight saving time 2026 ending: When to 'fall back' - ABC News - Breaking News, Latest News and Videos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
     },
     {
      "url": "https://www.wsbtv.com/news/local/georgia-passed-permanent-daylight-saving-time-bill-heres-why-clocks-will-still-fall-back/ZI6ZORZBYZAA7H2YYGC26MVMPM/",
@@ -618,7 +542,7 @@
    "keyword": "student loan",
    "traffic": 0,
    "article_count_24h": 20,
-   "article_count_1h": 9,
+   "article_count_1h": 10,
    "published": "2026-11-01T02:31:30+09:00",
    "category": "Student Aid",
    "news": [
@@ -666,11 +590,128 @@
      "url": "https://www.dailycamera.com/2026/10/31/schuchard-and-marquis-are-on-the-right-path-student-loan-forgiveness-passenger-rail-vote-letters/",
      "title": "Schuchard and Marquis are on the right path; student loan forgiveness; passenger rail vote (Letters) - Daily Camera",
      "outlet": "Daily Camera"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "IRS refund",
+   "traffic": 0,
+   "article_count_24h": 56,
+   "article_count_1h": 4,
+   "published": "2026-11-01T08:00:04+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Supplemental assessment due to IRS error is proper - The Tax Adviser",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdjhuWG50eG12cW9KZGh6TWFtWm5VRlNiclVkWU5DNFRSLWI5ZDY5RkJwMjB4YUVLcjBMY0VNdkZOS05MS0ZTNTFHdjdUSjM2Z3BjaUp2V2N0ZVFnNExtU3pNT2t4MV9CV0w3c0NqSm93b3NZMkNTak5SNEN1QW9BR09meWZsM1k3SHdPOWVSQ2c2cEtzbjYyeEhJNGlsUQ?oc=5",
+     "source": "The Tax Adviser"
     },
     {
-     "url": "https://finance.biggo.com/news/6374f2a6-21ca-4a91-bb42-68fafe1fe0f9",
-     "title": "DOJ's Operation Ghostbusters Targets $200 Million 'Ghost Student' Loan Fraud, Five Charged - BigGo Finance",
-     "outlet": "BigGo Finance"
+     "title": "IRS reports record $5.6 trillion in tax collections, historic refunds - ktnv.com",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR0FRNHhzRWRhZ0VicGQzN21hVnJTXzNYVGZHaEFXOTZVYXZITEwwTnpPYmlQSEhvaDhNYUhnMXphejZ5UFZfVTBndWc4bEJRVXRmRE9ISnExRFozRmJEZk5ER05xekR6NmdzV2RBMjJkMmJmQnhQVkZSVmp5SlVGejI3US1iYXhGNTNQUUhSX1JGMFFlMGdDcHdVU1NHcXh1d040?oc=5",
+     "source": "ktnv.com"
+    },
+    {
+     "title": "Japan Requires Tourist Tax Refunds at Airport - 조선일보",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaVhnZ1lidml2SWF4UlpoalpwQlZkNXYzM2JhNjBwaUZraHY1clQxcEk1b190RzBVZ2tROWNvNXlJazNtVkRXS1ZydTN6Y3hCdGRpNE5qcmpCWkttYkU0dUk1aEE5RlBmRm12ZXlmU3IzQjlHd25GQTB3TllmcDhQQ1NodHA?oc=5",
+     "source": "조선일보"
+    },
+    {
+     "title": "At 66 She's Raising Her Grandson. She May Qualify for the Same Child Tax Credit and Earned Income Credit as a Parent in Their 30s - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQWJjX2tJRUlERW5fTkVZUzJxLTBwdXR3elMyTXA5dDlKUUxQLXV2bmN3d0JoRzR1UjhPWDdrMFpHT3lkMVlLUk5nVG8zNU5ZeUZ4cVlWTXZHYnk4Nk5kazF6cExSUnFGV1FtQzJSNlZOU1U3eDRkY2pyVFlKc2NzelB0ekVwSlhKT0otOGFFU1IyYUpFX1JEZkJmaXZfVWRoTXo4OXhHeXU3TWtTNl9FaEEtb08wcUFLRlFySnZ4UjdOdWxkWTdXZk1qWUlucDJyWDZodHAydV96RU16MUdnSzFRVmE5YlExYS1RbVIwV05Ya0gzYXIwbDRvdWhxWUpxVGRWcDZlLTg2dw?oc=5",
+     "source": "24/7 Wall St."
+    },
+    {
+     "title": "Grocery tax refunds hit a new high in Idaho - Idaho Press",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVXFUMjFQOXdZb0lQUEkyQ0RVYk0xS3VzSzd3bF9rWW9UZWNxUDRwTF9wb2ZuRGc5b05QbGtLOC1hRzNoRjliZy1FS211VlAxWHRCODdVUkdOVUpZWWZINkRfZE9EZm4wU09YdkNmVGY0WERqNnNsVzQxSXhxQXRjZkRRM1ZGWVZVWk43SXJEeUtKa3hGbGRoc0hYaWxFcFVrVDQ3dElmSlM2TENCTVhNX2RnNndKRjJmNTd1RHhjZzh6dXRGb1V3MHhJemM2WHpfQWFRTQ?oc=5",
+     "source": "Idaho Press"
+    }
+   ],
+   "official": false,
+   "score": 48.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.thetaxadviser.com/issues/2026/oct/supplemental-assessment-due-to-irs-error-is-proper/",
+     "title": "Supplemental assessment due to IRS error is proper - The Tax Adviser",
+     "outlet": "The Tax Adviser"
+    },
+    {
+     "url": "https://www.ktnv.com/videos/video/irs-reports-record-5-6-trillion-in-tax-collections-historic-refunds",
+     "title": "IRS reports record $5.6 trillion in tax collections, historic refunds - ktnv.com",
+     "outlet": "ktnv.com"
+    },
+    {
+     "url": "https://247wallst.com/personal-finance/2026/10/31/at-66-shes-raising-her-grandson-she-may-qualify-for-the-same-child-tax-credit-and-earned-income-credit-as-a-parent-in-their-30s/",
+     "title": "At 66 She's Raising Her Grandson. She May Qualify for the Same Child Tax Credit and Earned Income Credit as a Parent in Their 30s - 24/7 Wall St.",
+     "outlet": "24/7 Wall St."
+    },
+    {
+     "url": "https://www.idahopress.com/newsletters/intro/grocery-tax-refunds-hit-a-new-high-in-idaho/article_6c514c67-35e7-4b36-9c6d-2c1e4fe04e66.html",
+     "title": "Grocery tax refunds hit a new high in Idaho - Idaho Press",
+     "outlet": "Idaho Press"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "tax deadline",
+   "traffic": 0,
+   "article_count_24h": 53,
+   "article_count_1h": 3,
+   "published": "2026-10-31T18:34:14+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Property tax deadlines approach for Galveston County residents - The Daily News | Texas' Oldest Newspaper",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPS25YcFpoa1dRT1ZndVFwa3lSamQ2VEFjWjBwQWRscVZOdUlVSlhHYmVjVDVPdGl6ZkNKZllhdlNqRnZPQnJrTXNIQmU5WkVXZGNGdkl5a09YODQ0TV9NWTVxaFIySFlQb0xSR2FsMGdhcUFSb2o5YU9vR0NsNDMzUFFXLVZoeFcwRVotaXRKb1NRNG5PWThUeFVRZGg0ekl2T1o5bjRFMWNhMGFqQnVidmt0NHJmal9wbDR5cEZDZWdYR2h1R2tDSW80UGxNUkExelNqZmYxMkItUQ?oc=5",
+     "source": "The Daily News | Texas' Oldest Newspaper"
+    },
+    {
+     "title": "The DGI sets November 2 as the deadline for several tax filings - Yabiladi.com",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUVdaWUdzYnlpMlJpM3dWZmN1NHdnZTVrYmFxeW8yenFncTRhUnhaYm44a2RRdFM4dk1xNlhnOUZhTFZyNEdDMDBrY2FNd0hGZTItV1JaaDlYNGk0a3N3NUJiTGxlVWt0aVYtcllET3BjVk1kSnVHbE4yS3JEaWNrLWpFV1VMc1pXZlJ1OExKU1hWbE1YZHc?oc=5",
+     "source": "Yabiladi.com"
+    },
+    {
+     "title": "Important Income Tax Due Dates in November 2026; Don’t Miss These Deadlines - A2Z Taxcorp LLP",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTUN3YjVfRFdLUF85WkVKTnNpR0EtYU5FTUZJN283OVFGdXkwWmpVNi02Wk8tSmZoVGJWdHdDSWtQRFFfdVlzQjVrOGRyVU9lTG8xeDVFalNOclVycjF0YlNzSkE4ekJBRC1MT3RJbmNhR0NjOW40ZTFFY2dsS085R3d5ekRJekxEbExZMUlfeTBSWTljbVNuSU90aWJZUQ?oc=5",
+     "source": "A2Z Taxcorp LLP"
+    },
+    {
+     "title": "Tax eService Resumes Operations Ahead Of Filing Deadline - Your Gibraltar TV",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeTQ4QzIyR1hZMXpiRWI5a2NPY1JRUjZXOHlLS1RQSzAydkpuSW8tLXhIQnZ4bUVTZHd6WVJvU0xyQ1VoWXQtdGRTbEtiWG4tckpWcGhiLWtPeVVYdHlGWlNPc29FclEwdEZpU0stZWozcEZlczNCUmZxN1lIUERTLXJKNmszclYwT1BxUkNTWmpCRk8wYUhnaktn?oc=5",
+     "source": "Your Gibraltar TV"
+    },
+    {
+     "title": "Income Tax Form 3CEB deadline today: Who must file transfer pricing report by 31 Oct and how to submit it? | Explained - Livemint",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRWhMY1k5eDFNSGpJclc2dnZxSlRvZmJyb2g2bkV2UmJuMEpVQ0dlRUxLLTJwWE13MlVoN3ZoOXQ0VjBKME53bkVIS2RBNzZiVXEwMExubzN2U3NEZ3VjX1J6TFJWUEJaSWdSOGJxUThHTk9vSTliUUNFblRmQWlJUWJOaHgtOFRiTzQ4Z2h6Q0JLZmJBeGRXR3hieWJoR0M1NVR5Z1J6YXEwVnBUY3d2Mm9wdU13Ync5Z2dwQ1dKR1ZzdVRoUnltUW9VVE96M2M1dVV3VVNSa3VyaW1TeUxGdWU2MUV1QnlxYTNPdjhPQm8xX0MxVl9fRtIB_gFBVV95cUxOV0RxaDEtTmVRMDhWT3lvWW5zNXJNMGRFWGZrUHhHeWJ0REhjR2wwbnJRb2FqWUdjYWxBRFIwSUxWXzdEOE14Y0JZeTFFampwX3N3MnlCWk4tQ2p1anlJM0EwTEttYnR1d2ZQVWRPSTMtelJLQWpuVnNTaVREdlNtUnk5YnA4TEdlVFlhSDQ5emp6UDlhTzBuenpaV0xQUWpRSnhVd3lpQURqX0xFVkdvOEt0NVRKOXdXM3JJcDVpU0dpMFU3ejZaWklRNEdUS2s0UzdjU3hMZ3FHc2hHWi1FMGU1S2owV0FJY051YTA3Q0VQMEwzZWx2WkcwV19oUQ?oc=5",
+     "source": "Livemint"
+    }
+   ],
+   "official": false,
+   "score": 44.1,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.galvnews.com/news/property-tax-deadlines-approach-for-galveston-county-residents/article_ffa233f4-e53c-4cd3-a26c-e84bcb42086b.html",
+     "title": "Property tax deadlines approach for Galveston County residents - The Daily News | Texas' Oldest Newspaper",
+     "outlet": "The Daily News | Texas' Oldest Newspaper"
+    },
+    {
+     "url": "https://en.yabiladi.com/articles/details/206364/sets-november-deadline-several-filings.html",
+     "title": "The DGI sets November 2 as the deadline for several tax filings - Yabiladi.com",
+     "outlet": "Yabiladi.com"
+    },
+    {
+     "url": "https://a2ztaxcorp.net/important-income-tax-due-dates-in-november-2026-dont-miss-these-deadlines/",
+     "title": "Important Income Tax Due Dates in November 2026; Don’t Miss These Deadlines - A2Z Taxcorp LLP",
+     "outlet": "A2Z Taxcorp LLP"
+    },
+    {
+     "url": "https://www.yourgibraltartv.com/daily/tax-eservice-resumes-operations-ahead-of-filing-deadline",
+     "title": "Tax eService Resumes Operations Ahead Of Filing Deadline - Your Gibraltar TV",
+     "outlet": "Your Gibraltar TV"
     }
    ]
   },
@@ -679,7 +720,7 @@
    "keyword": "SSI payment",
    "traffic": 0,
    "article_count_24h": 18,
-   "article_count_1h": 3,
+   "article_count_1h": 2,
    "published": "2026-10-31T19:12:54+09:00",
    "category": "Benefits",
    "news": [
@@ -710,7 +751,7 @@
     }
    ],
    "official": false,
-   "score": 47.0,
+   "score": 42.6,
    "already_covered": false,
    "evidence": [
     {
@@ -737,52 +778,52 @@
   },
   {
    "source": "google_news",
-   "keyword": "product recall",
+   "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 39,
-   "article_count_1h": 3,
-   "published": "2026-10-31T22:52:00+09:00",
+   "article_count_24h": 40,
+   "article_count_1h": 2,
+   "published": "2026-11-01T05:08:00+09:00",
    "category": "Benefits",
    "news": [
     {
-     "title": "Toddler snacks recalled after children suffer choking incidents - El Paso Times",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYi1wZ0RxUnpfNC1hUmJ4bGFjSUhjaEc1T2hyR1RVX2V5aW1kaXBpTm5CMG45aV9RWWVLV1lCQURhUU5udVpEWVhHdEszbThxSHhWVzBqSUZhQnZnZHFReXlXUThwWDN5RzF0Tzk2TjgzQkNCajlnZHg0dHhvd3o4UEt4UzE0ZzVqR2lfbFU0S2lqU013bldwQW1vVnJqZldONWxsYVd6VFVaTUctSUpXVmdPS3FGVDVOZm5tOU9ta3U0X1JQZFlXMFBmOU9UMm1rMlR5Z0tUSQ?oc=5",
-     "source": "El Paso Times"
+     "title": "8 people charged in $7M SNAP benefit fraud scheme - Gothamist",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSHRCQ0luTThFaUFialVVNk8xUHFySDBsVmZGY3BDZUJDXzMteGhXZG9QZ1lZalVDcExGOFphWXhFZDRyZV9mcl9BRklaUWFMYmlEd0xBRDM2YUV2NkRLVUVKMkh5dnRIQzFnRDVyVk5wYUtiQmRIT3YtZGNvWFBJMQ?oc=5",
+     "source": "Gothamist"
     },
     {
-     "title": "Children's sensory swing recalled after multiple injuries, including concussions - KGW",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc25BbjlkclQ4OV9xSXdLWnFoQm5iWXVJa3pJbkRlN0JCcUpWSUJVZERxWk5sM2dVcGFmXzk5YmZta0ppaXFXQ2RfaDhRcER4Y0dva0dIc2tLSnEyMmNBTFJ1aWZ1UjJmOGdLdGJDRzBkMmFnWS1UZWxmTzREUXl3Rm5SaWl0M2RMRFByc0l2U0VqMzZKRmR3MGh4ejZVa0NpZVJaV3lXOVBrN2dsd0x6Mnk5OGpBOWVmSXFLWTN5S1Z1bzFaQW0zQjM1VVBtLVpYdmc?oc=5",
-     "source": "KGW"
+     "title": "They Want Us To Forget - Civil Discourse with Joyce Vance",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aQjZwVGUzZlY1Sy1qZkNMZ0xldzFxVXhVYzhMeW54RWFGa3V5Q2Y4UGhLQ2V0dDhJYUtwOWVmdWRrZ1RpVUtyc1ZocHR3NW9oTDhKN0c3alVQOHdTcUtsUTFtMFhsNExCd2lRSGdxNnhTTUpi?oc=5",
+     "source": "Civil Discourse with Joyce Vance"
     },
     {
-     "title": "Toddler snack sold at Costco, Target, Walmart recalled over potentially deadly hazard - NBC 5 Chicago",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORDVpOC0tZTlIMG80SnJoN2RDVzdHeVFOV2VlVGU0b2JRUURzS0JLWlJpdURPZG84MFlMODZIakpQdGdDTFhnR1BLbGZlS0RPelJXLTgtMlBGT3pMSkFjSlNJbzVhUlpPTjl4ZWxIRGpleWlzZ3phNXNwd04xNkk3T0s0VEJDQU8xeUFWVGtrc1FtMnJmUWZQNmktalYtVFFNTUg1eWtrUWtTd2ZNMFFFWUNuSlV4c3BtSlJCSEl5cUtpUURiQkdHc1Vn0gHSAUFVX3lxTE9OejB1cEkwaVE2UlIwMjJ5Z0xMQ0N6QjE2eVIxNURYU0Z1Yk96OE9tQ25qVV92U1NjTXhoMGM1bzVaeGNzZ3JjNExRLWs2Ry1Xa0ZmQjVaaXh6WUk3VTlQcXBuWkt0anEwTHRXWGlXbl9VQzNvY1dBX0VkaEZuTHc5ZDFRQWo4YTB5SnpzbFd5YklocElqQlI2QUJpWnNIZ2RXMUxlenVrSWhseU9IUEpfdXlHUkpVN2ZTMEF2dW5oZkh3endiQmlRVVkyS0VILXJXdw?oc=5",
-     "source": "NBC 5 Chicago"
+     "title": "Group allegedly stole millions in SNAP benefits, bought luxury cars: DA - PIX11",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQblN4cS12bFNQR01KMVV5N2VKUldhTmw5QnFyQ1ZQYWY4Z3VHNHZ3ZjFJdGhYSG9hMU0xSkhNWjRTanpLM2thNFQwOHd1Q0tCZnlja0lsY3dxVUFBVkhNVTJjY3Z4ZGw5bmZFUHBuSDhtZGhyRDEza2xuT0VybEpEYjNTTkVzTGVxSC1CaHJxeEJVLWJkMjBQT0o1UU1jOGM10gGmAUFVX3lxTE1Ed2hHejh3REF2b29NUkowTGNfZXhxMjlObHF3Ty1oNDhiU2ZSSmRscWYzVkM1ZVB5Wk5yR2JGcXNoRE5yYklWTU5kLVJzZ0Y2VlNCMmoyWERIaldFVzFBMHpTZzVFbkgxUEVQNVB5bFVIWjY5T3ZiZnowY0J4VDFocWlSb3RjWlluNWowdWZDU2Nzd3lGTHdjWUtmWmxZQVMxNE9RRHc?oc=5",
+     "source": "PIX11"
     },
     {
-     "title": "Chewy cookie bars designed for toddlers recalled over choking hazard - LiveNOW from FOX",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNpTDBUd0ZTdVZmRUY2a0dpRUpTMnVTd1ROaVN2VHYwY2s5cWF3bkdFdTM2NWV5TWFLbWRmdFZLSlZrRHdybnRJbmRweG1pWG52dWZMSm1QbkN1QnlmNGxwd20zSk1VNVZ1X2k1TWhjTWlfXzBKTS1QbVl5VFBQNzc4NHFfbTdFZlZxa2Z5OTlpZ2psTmFoSEJfV2Ixa2NJY3Z3?oc=5",
-     "source": "LiveNOW from FOX"
+     "title": "New York struggles after cuts to SNAP program – ABC22 & FOX44 - MyChamplainValley.com",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd2p2NjNqYWExel9WQzQxZXNvcTZYVjZHSFl6RWxWclU5NnJFOWowY0h6TEJ3Ul9VMkxuRC1yMnItOGVxTHdWblNDZUFQS0FGRVYxazhZMFhEUkgzSGU2RVpIUmYwWm5HWkIyempfcHNaUTFiNVRwRHBJX2xYZ1lyWHdFbmdDR2twWFo5UW00UHlFV29jVl9tbHVjZw?oc=5",
+     "source": "MyChamplainValley.com"
     },
     {
-     "title": "German court says SEAT may have to take back recalled Cupra Borns - AutoNext.co",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTldzSlluOGtMb3BSZS1aUGttT1lvTFR6cVNQQ0x4RW1zcUpMelZSZy1jNmhSMDdXVll2S3JDMGJEM2dkLWpaN0hSakpnQTM3QmNxWnlBSlJabXllaENmb1NuUHZyWHdEWFJnRnh4d2pDRTI1UkVKTE9kVzB5amdGR3Bn?oc=5",
-     "source": "AutoNext.co"
+     "title": "Indianapolis Man Pleads Guilty to Cloning 150 EBT Cards, Stealing SNAP Benefits - KSLM Radio",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPam40bEpzWHVkLUVmNGg2NC1RQkxtU2didG5vOEx4U2hqRThKXzlDeGxiakpxZmhMX25tQ1F0WWlCRTF1TXAzRG9PREE0RXlDbDRSRnNQbndPd1lobThWZTV4ZmI3ZWNSNkV0cmpkbk1FMjVqRHRVMm9SYmZGNGM5Uk9TR2dZd1hEMngwQjVQOHRwVmtZSE5md0xIM3ZEVzRwTlBNdVZSNVNMUlJBNVZqR3BrVW8?oc=5",
+     "source": "KSLM Radio"
     }
    ],
    "official": false,
-   "score": 47.0,
+   "score": 42.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.nbcchicago.com/news/local/toddler-snack-sold-at-costco-target-walmart-recalled-over-potentially-deadly-hazard/4010095/",
-     "title": "Toddler snack sold at Costco, Target, Walmart recalled over potentially deadly hazard - NBC 5 Chicago",
-     "outlet": "NBC 5 Chicago"
+     "url": "https://gothamist.com/news/8-people-charged-in-7m-snap-benefit-fraud-scheme",
+     "title": "8 people charged in $7M SNAP benefit fraud scheme - Gothamist",
+     "outlet": "Gothamist"
     },
     {
-     "url": "https://www.livenowfox.com/news/soft-baked-cookie-bars-designed-toddlers-recalled-over-choking-hazard",
-     "title": "Chewy cookie bars designed for toddlers recalled over choking hazard - LiveNOW from FOX",
-     "outlet": "LiveNOW from FOX"
+     "url": "https://www.kslm.news/news/indianapolis-man-pleads-guilty-to-cloning-150-ebt-cards-stealing-snap-benefits-mvx0ahpi",
+     "title": "Indianapolis Man Pleads Guilty to Cloning 150 EBT Cards, Stealing SNAP Benefits - KSLM Radio",
+     "outlet": "KSLM Radio"
     }
    ]
   },
@@ -790,7 +831,7 @@
    "source": "google_news",
    "keyword": "REAL ID",
    "traffic": 0,
-   "article_count_24h": 25,
+   "article_count_24h": 31,
    "article_count_1h": 0,
    "published": "2026-11-01T11:01:11+09:00",
    "category": "Elections",
@@ -844,197 +885,12 @@
   },
   {
    "source": "google_news",
-   "keyword": "social security COLA",
-   "traffic": 0,
-   "article_count_24h": 53,
-   "article_count_1h": 1,
-   "published": "2026-11-01T03:33:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment. - MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOXJidlJSSTZwQVpKcVNWZmhXS1hFcW9qdUxnMGRNU2EzYUVWNERmYTNMckZLMXlXakxaUU9lNHhVZjNRNkE0VmtZSENGcXJMSmRhZ21HZzEzZEMzemhxUjk2SzFlRHpTTVR5Ylk2dXpmLXlnaGllSDk4UnJxci1nRVowd055M2M1bmFodzd6czNJLWdoa21pbGhnLU1oSTZMWFpTcUp4NVZ5OGNOWFNuNjExNk5ZOUNXbEhXOUtvbWFCWXdGSHhNaU5FN0ZMVWFQSVBicmxn?oc=5",
-     "source": "MarketWatch"
-    },
-    {
-     "title": "Social Security is busted and can't be fixed. Privatize it. | Finley - The Detroit News",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOa013NTNBLXJ5OURNWko4NGNjMXZLQVhUZW9BdS1adGFnQnlqREZBRWFhQzFuYVI4ZXhhRGpSOEVqbmdnQUNGZDQyOGpwaDY0bUU2ZFpPcXdLODEzN2xyYW5ZLVNIMnpVQmlKdVg4b3NaYVNwcWQyUXdIRWkxdnFtVUtyYWNUaVFZSnVLOEt4QVotUDJqaUlrMThoY0FVaFEwVDVrM3Y4ak4tWllZM2hJcDlPR1NmSk1weGNjQU9KeXRyekRxRkszSTIxRE5FbF9FTUVWejhjT3VYYmRqRmE1RVZrbWY1MkNTMzRPX3BR?oc=5",
-     "source": "The Detroit News"
-    },
-    {
-     "title": "Social Security's Trump Bump-Led 2027 COLA Is Doing Something That Hasn't Been Witnessed This Century - The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbXNFU1hBMk5zR1lvVnpMc3VWcXFTYXFiczJaUlNIZlJnRjRWUGk3cy05Z1NTbktUbWdjZUZpaExCcWtFdDF6ME93Qkg1RndrQURYMHFYeFJ2U185ZEhXdXBleDRkX2hSTmdQeGV5X0F2bkdrbFg5NTktZ3VUVnJfWjVYZ3lMbWFFSUhGaTJPWVMxenMxRkM2U1lyQ2FGRWpJOG1sR09KRW9lYWpiMHNhX29aNFh2Z2tKVDJpelh0ejFYdw?oc=5",
-     "source": "The Motley Fool"
-    },
-    {
-     "title": "Local View: Protect Social Security cost-of-living adjustments - Duluth News Tribune",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQkRRaXlyS0EtRDFSSDl0R2lIaW1TOXc3Tk12LWJhNU1CeHhwNDN1TDF5em52anJRb2p3d3R1ZlNsMjd2bXRkSmlpVUpOM1FXb2cxNThfZ0dURVpJZ19yb1VrM0tidlp3LWtEdUpMVF9lU1lUZ3VzSGFtTUZoNGFpRVZYQXNFWTdqOWZ1RnNybWotRGNCSWdXeV9VZUpjckZ5SHA4dzlFYUNWd3pLZXR6cw?oc=5",
-     "source": "Duluth News Tribune"
-    },
-    {
-     "title": "See when your November Social Security check arrives - The Journal News | lohud.com",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSXA4QXFnYkNEeUtta25hYnlGV2JPbVFET0JCMS1wQ3VPSmxZRS1SV3FTeWp3eGg2bUF3RUY3SUVqdFg0VTh0UEtPX0lNRUR5SURRdGhqZGZsVzZ0bEpKRXBfcHItNi1HWkY5VWJlZlAxbi00NEkzYThndC1Va3VDaW9FSGEzMFhSdzJFRkp6WUx4R1dMd1VUeGRua2pSSjZrbFA5eXVJMUZHMFU?oc=5",
-     "source": "The Journal News | lohud.com"
-    }
-   ],
-   "official": false,
-   "score": 38.1,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.fool.com/retirement/2026/10/31/social-security-trump-bump-led-2027-cola-do-something-not-witnessed-this-century/",
-     "title": "Social Security's Trump Bump-Led 2027 COLA Is Doing Something That Hasn't Been Witnessed This Century - The Motley Fool",
-     "outlet": "The Motley Fool"
-    },
-    {
-     "url": "https://www.duluthnewstribune.com/opinion/columns/local-view-protect-social-security-cost-of-living-adjustments",
-     "title": "Local View: Protect Social Security cost-of-living adjustments - Duluth News Tribune",
-     "outlet": "Duluth News Tribune"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "SNAP benefits",
-   "traffic": 0,
-   "article_count_24h": 29,
-   "article_count_1h": 1,
-   "published": "2026-11-01T05:08:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "8 people charged in $7M SNAP benefit fraud scheme - Gothamist",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSHRCQ0luTThFaUFialVVNk8xUHFySDBsVmZGY3BDZUJDXzMteGhXZG9QZ1lZalVDcExGOFphWXhFZDRyZV9mcl9BRklaUWFMYmlEd0xBRDM2YUV2NkRLVUVKMkh5dnRIQzFnRDVyVk5wYUtiQmRIT3YtZGNvWFBJMQ?oc=5",
-     "source": "Gothamist"
-    },
-    {
-     "title": "They Want Us To Forget - Civil Discourse with Joyce Vance",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aQjZwVGUzZlY1Sy1qZkNMZ0xldzFxVXhVYzhMeW54RWFGa3V5Q2Y4UGhLQ2V0dDhJYUtwOWVmdWRrZ1RpVUtyc1ZocHR3NW9oTDhKN0c3alVQOHdTcUtsUTFtMFhsNExCd2lRSGdxNnhTTUpi?oc=5",
-     "source": "Civil Discourse with Joyce Vance"
-    },
-    {
-     "title": "New York struggles after cuts to SNAP program – ABC22 & FOX44 - MyChamplainValley.com",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd2p2NjNqYWExel9WQzQxZXNvcTZYVjZHSFl6RWxWclU5NnJFOWowY0h6TEJ3Ul9VMkxuRC1yMnItOGVxTHdWblNDZUFQS0FGRVYxazhZMFhEUkgzSGU2RVpIUmYwWm5HWkIyempfcHNaUTFiNVRwRHBJX2xYZ1lyWHdFbmdDR2twWFo5UW00UHlFV29jVl9tbHVjZw?oc=5",
-     "source": "MyChamplainValley.com"
-    },
-    {
-     "title": "Indianapolis Man Pleads Guilty to Cloning 150 EBT Cards, Stealing SNAP Benefits - KSLM Radio",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPam40bEpzWHVkLUVmNGg2NC1RQkxtU2didG5vOEx4U2hqRThKXzlDeGxiakpxZmhMX25tQ1F0WWlCRTF1TXAzRG9PREE0RXlDbDRSRnNQbndPd1lobThWZTV4ZmI3ZWNSNkV0cmpkbk1FMjVqRHRVMm9SYmZGNGM5Uk9TR2dZd1hEMngwQjVQOHRwVmtZSE5md0xIM3ZEVzRwTlBNdVZSNVNMUlJBNVZqR3BrVW8?oc=5",
-     "source": "KSLM Radio"
-    },
-    {
-     "title": "Group allegedly stole millions in SNAP benefits, bought luxury cars: DA - Yahoo",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTTUxckphNmcwWlpISm9UY1R6aUx4YUNQb01sd3hIUTBZdk1XdGhkYW11RFhQcW44cGhMd3BxU3pBeXJlTXBpVXZmeUNoTjJuNU1YMGxwNnl3T1RaVU15bE5UUWJLblk3aW1oc21rMTRRWUs2cTVKTW8xWkJQMDNGWklkb25CazYwV2FZRUNfbFBuOXM?oc=5",
-     "source": "Yahoo"
-    }
-   ],
-   "official": false,
-   "score": 38.1,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://gothamist.com/news/8-people-charged-in-7m-snap-benefit-fraud-scheme",
-     "title": "8 people charged in $7M SNAP benefit fraud scheme - Gothamist",
-     "outlet": "Gothamist"
-    },
-    {
-     "url": "https://www.kslm.news/news/indianapolis-man-pleads-guilty-to-cloning-150-ebt-cards-stealing-snap-benefits-mvx0ahpi",
-     "title": "Indianapolis Man Pleads Guilty to Cloning 150 EBT Cards, Stealing SNAP Benefits - KSLM Radio",
-     "outlet": "KSLM Radio"
-    },
-    {
-     "url": "https://www.yahoo.com/news/us/articles/group-allegedly-stole-millions-snap-203203064.html",
-     "title": "Group allegedly stole millions in SNAP benefits, bought luxury cars: DA - Yahoo",
-     "outlet": "Yahoo"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "ACA open enrollment",
-   "traffic": 0,
-   "article_count_24h": 7,
-   "article_count_1h": 0,
-   "published": "2026-11-01T13:07:07+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "It’s here: 2027 Obamacare enrollment - Florida Phoenix",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlUjFqMUhWUjBqQ3BDbGhEZGVUVkIxbm0zRUZjbU03U3diQXJ4LVJ6Wi05NVJyd1F5LWJoYzhDLUMzRUNIZXN5eWIyd2ZsZVpsNXdBYkl6YUxUNUw2Qjgw?oc=5",
-     "source": "Florida Phoenix"
-    },
-    {
-     "title": "ACA 2027 marketplaces open Sunday with increased rates. Here's what to know - NBC10 Philadelphia",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaUlfYkU3dFRVbkhUWnRla1k0LWwyRlJ6TFpMMHhTU0ZQMHJLUTFNSVhpbHlKQkdBNWRfblJFVk9MSTQxbDFFTjBJZEp2Z1cyWi0yOFZLVE1hS1ppNTVkMUVIbUJEX18zN2ZyUmVaVXJ6QlBUelZrbUhjUTNzWHJOcTlPSUpxMG5EZkFDd25Cb3haY3dEQ29yOURXM0hMdENFYmdwYndtT1gyd25aN1RndmdmYktYdEJfOF94LVAyM2Z4ZWfSAcsBQVVfeXFMTXZSWXhRZjJjSzBvM09Eelh5Wk5HZjNXRUxhQnAzeTUwcjd0cm92T3FpVFZadlAzakV4NnoySXUtek5RT2I2UlhJcmVoUWFOa0ExM2d6eVhBNmlaNHROeWpxTFFjWW9ibExQcEQzNGtEdjNDYXNRRF9oT1lWMTZ0N0k2aVl5NHdvVWpadXpxUGZMbGhLZE9oQW9UempYeEZyV1NaYmNac0pUeGtxSWdkaU1CbFhpaEJwdmJFU3A2dHE1VmhRYkNfUmJlVk0?oc=5",
-     "source": "NBC10 Philadelphia"
-    },
-    {
-     "title": "ACA open enrollment: Premium hikes and what else to expect for 2027 - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT3UwcnJ4cnYtVXVxd0YtYTRyb3h1a3hxSWo2RWZ0VEcxRzN3ZFFnTHUzdy1QcnlKWnlMeWJzSzZMVk8tS01WNV95MzBmRXA1WlVBQ1dVTnQ5QlZNeXgtVkFRX25kbEtpV2NVdl93dnlDb2N4dkZBXzk1Ukx5OG5JVm9PTnR3SGpzVFNHcTF4czRheDNVLVdWeXdCN1NmVDVQd0RVOVJ5TmU1SXNBM2I5b3BsOFhkUXpkclBBcWZ2QS0?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "Shopping for an ACA Plan This Year? Here’s What You Need To Know - Arkansas Advocate",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYlhmNkRad0VUMXhMS2hfTUpFaVJER2FJMmJ4VmJGU1c2VnNwSElPLURDWVZFTDhiV1ZkUVpRYnFsRzZYVmNYZ2FHSEN5WGE5eUxOckRzOG41QVpWZFRNdDc2dGktRkhSaExXMElIWUo1WlZ1bWxhVTBsQnZSYU1WOGFrMjhEZzlLc1JvOFRSdGFVb3FmOFRfVWNtaTdmalNFX1VwY2ZR?oc=5",
-     "source": "Arkansas Advocate"
-    },
-    {
-     "title": "ACA Open Enrollment, Caregiving Expenses Rise - AARP",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYjBlTWVmU3FiVXhSVkM1bkxUNU5zZlJhMmVhaUxCc0xOdnRaWTVGNHZYbFNZRUtfT1hKZU9jbk4xbm5vc0pObTZlWmRGNUV5ODBCRU83anZPX001YXVFU0pYTjlUb0w2VEFOYnRSRXkzWTlma2dwYzJFdnZrdGVOZVpKVXc0ZFk3eVE?oc=5",
-     "source": "AARP"
-    }
-   ],
-   "official": false,
-   "score": 31.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "car recall",
-   "traffic": 0,
-   "article_count_24h": 51,
-   "article_count_1h": 1,
-   "published": "2026-11-01T04:52:49+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "Ford Recalls Another 777,000 Trucks And SUVs - Motor1.com",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSURuOElyOW5tM0poWjVwcjhSMTdUYUpXZnNyazNZTE8wRVlieTluNk91Vkw2RTV5V2psZFFlOGl2dG5xeXlWMjc0UDd4MWRkV0JuZ2E4OTZ4T0NQMVpiQ19fU1g4b2Exd1JpX0ZrVWJpTGJndVpmSWRGM0VkQ3hrcURPLUlHdw?oc=5",
-     "source": "Motor1.com"
-    },
-    {
-     "title": "German court says SEAT may have to take back recalled Cupra Borns - AutoNext.co",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTldzSlluOGtMb3BSZS1aUGttT1lvTFR6cVNQQ0x4RW1zcUpMelZSZy1jNmhSMDdXVll2S3JDMGJEM2dkLWpaN0hSakpnQTM3QmNxWnlBSlJabXllaENmb1NuUHZyWHdEWFJnRnh4d2pDRTI1UkVKTE9kVzB5amdGR3Bn?oc=5",
-     "source": "AutoNext.co"
-    },
-    {
-     "title": "GM Recalls Six Crossovers Over Bad Seat Welds - thetruthaboutcars.com",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSzRkbF9OR1IwdThKRUd4RlVFem0wMGZzT01PSEZZME00YlJrbFg3U2pZMnhLODFEcGxkZW5wYnRZRnAzaHZIbGVQdkloZDNsME83WEtSVjlvZE90RVU0dWdKNUlVcllPekJ4Q052SWhQc1UyMWRIVnZWSFd1eC1mUllKLWpGcGNrTnBpc21HekZGV2FETjkxMEhMLTlLTmN5SnozamtB?oc=5",
-     "source": "thetruthaboutcars.com"
-    },
-    {
-     "title": "Toyota recalls over 228,000 minivans after crash tests show seat belts can unlock seat backs - The Cool Down",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQlRRTEJ3N2tMVkt6Tnl6SFJLRmZyZzdTLXlFS3huMVV5UHBHYU1LOHQtaTdQQUZJY2szWk4tV2RWbWViTngzMDNyTlB2Q1VjNkRvWGVWczF2X0gxN0l5V2ZjMFdvVGxWVUtFSGpXTzVPaEp2ZUFLX0JHaTdjN3VFQXFHUEM4Zmdk?oc=5",
-     "source": "The Cool Down"
-    },
-    {
-     "title": "Faulty Tire Sealant Bottles Cause Honda To Recall Thousands Of Cars For A Second Time - SlashGear",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSVF1dGdlZW50Q0txNHRWaE5BYWpVWHpaVHhYT0Y2aHZ4dHFEM2dPWnVsY2NENVIydzV0ZUNkVkxRdXcxc3NsTDI4V1I1dXk2S3FNbU9RdXIxTVZIUVN0TTh4Tms3cDloVXozYXdzQVlTTzdwb2xkajU1Qjg2MVZIR19KSHBhMEJyd0cwMzJoT3E?oc=5",
-     "source": "SlashGear"
-    }
-   ],
-   "official": false,
-   "score": 30.9,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "federal holiday",
    "traffic": 0,
-   "article_count_24h": 19,
-   "article_count_1h": 1,
+   "article_count_24h": 18,
+   "article_count_1h": 0,
    "published": "2026-10-31T23:00:00+09:00",
-   "category": "Elections",
+   "category": "Benefits",
    "news": [
     {
      "title": "These States Require Time Off To Vote On Election Day—But Not All Are Paid - Forbes",
@@ -1057,9 +913,87 @@
      "source": "Republican Herald"
     },
     {
-     "title": "NOVEMBER, DOOR BY DOOR - Folio Weekly",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPaHJSSGZVeEpXdE1vVkVFSDhGRXlpQ1BvRmJQVm9kRFUwal95NUdLdUY3WHpkaEZta1pkbHZFampGS2xzbVNTdkFJTjJjNThBV2dvTVI0bjdRRUtETmJyc2NIMW4xV096?oc=5",
-     "source": "Folio Weekly"
+     "title": "58% of Credit-Strapped Shoppers Dread the Holidays. For SSI Recipients, a Cash Gift Can Shrink a Later Check - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVWR1dGx5QmtZVjlzU1ZXbmRteHBMdkpFRnZiRE13MHV2VzE0dk9oaU9JeGo3NXhuUGlON3g3dm5IelBUSUhvZ1RVaklVRThMcndHV1lxUm9VWDBNNkZhVWRrSjFQVVVvVjFiNGU0WXF2UnpIN2tTbjVSdFB1N0wzelV6VXhDcFpERnhyb29RQ1JWemxJRWFFLV9xN1hoVzZIS3lqNFZuNWt1akd2MEhfQWVtaktHMzV2OGhPZzRsZkNGejRpLWtMd1dJU0lDbDRkTVh0MUFidExJeVplWmlsRk1nanFCQkRWNnByOWVZLUlpaTdIM3BGUUd3NGlkQWZyeFE?oc=5",
+     "source": "24/7 Wall St."
+    }
+   ],
+   "official": false,
+   "score": 33.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "ACA open enrollment",
+   "traffic": 0,
+   "article_count_24h": 7,
+   "article_count_1h": 0,
+   "published": "2026-11-01T13:07:07+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "It’s here: 2027 Obamacare enrollment - Florida Phoenix",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlUjFqMUhWUjBqQ3BDbGhEZGVUVkIxbm0zRUZjbU03U3diQXJ4LVJ6Wi05NVJyd1F5LWJoYzhDLUMzRUNIZXN5eWIyd2ZsZVpsNXdBYkl6YUxUNUw2Qjgw?oc=5",
+     "source": "Florida Phoenix"
+    },
+    {
+     "title": "ACA open enrollment: Premium hikes and what else to expect for 2027 - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT3UwcnJ4cnYtVXVxd0YtYTRyb3h1a3hxSWo2RWZ0VEcxRzN3ZFFnTHUzdy1QcnlKWnlMeWJzSzZMVk8tS01WNV95MzBmRXA1WlVBQ1dVTnQ5QlZNeXgtVkFRX25kbEtpV2NVdl93dnlDb2N4dkZBXzk1Ukx5OG5JVm9PTnR3SGpzVFNHcTF4czRheDNVLVdWeXdCN1NmVDVQd0RVOVJ5TmU1SXNBM2I5b3BsOFhkUXpkclBBcWZ2QS0?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "ACA 2027 marketplaces open Sunday with increased rates. Here's what to know - NBC10 Philadelphia",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaUlfYkU3dFRVbkhUWnRla1k0LWwyRlJ6TFpMMHhTU0ZQMHJLUTFNSVhpbHlKQkdBNWRfblJFVk9MSTQxbDFFTjBJZEp2Z1cyWi0yOFZLVE1hS1ppNTVkMUVIbUJEX18zN2ZyUmVaVXJ6QlBUelZrbUhjUTNzWHJOcTlPSUpxMG5EZkFDd25Cb3haY3dEQ29yOURXM0hMdENFYmdwYndtT1gyd25aN1RndmdmYktYdEJfOF94LVAyM2Z4ZWfSAcsBQVVfeXFMTXZSWXhRZjJjSzBvM09Eelh5Wk5HZjNXRUxhQnAzeTUwcjd0cm92T3FpVFZadlAzakV4NnoySXUtek5RT2I2UlhJcmVoUWFOa0ExM2d6eVhBNmlaNHROeWpxTFFjWW9ibExQcEQzNGtEdjNDYXNRRF9oT1lWMTZ0N0k2aVl5NHdvVWpadXpxUGZMbGhLZE9oQW9UempYeEZyV1NaYmNac0pUeGtxSWdkaU1CbFhpaEJwdmJFU3A2dHE1VmhRYkNfUmJlVk0?oc=5",
+     "source": "NBC10 Philadelphia"
+    },
+    {
+     "title": "Shopping for an ACA Plan This Year? Here’s What You Need To Know - Arkansas Advocate",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYlhmNkRad0VUMXhMS2hfTUpFaVJER2FJMmJ4VmJGU1c2VnNwSElPLURDWVZFTDhiV1ZkUVpRYnFsRzZYVmNYZ2FHSEN5WGE5eUxOckRzOG41QVpWZFRNdDc2dGktRkhSaExXMElIWUo1WlZ1bWxhVTBsQnZSYU1WOGFrMjhEZzlLc1JvOFRSdGFVb3FmOFRfVWNtaTdmalNFX1VwY2ZR?oc=5",
+     "source": "Arkansas Advocate"
+    },
+    {
+     "title": "ACA Open Enrollment, Caregiving Expenses Rise - AARP",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYjBlTWVmU3FiVXhSVkM1bkxUNU5zZlJhMmVhaUxCc0xOdnRaWTVGNHZYbFNZRUtfT1hKZU9jbk4xbm5vc0pObTZlWmRGNUV5ODBCRU83anZPX001YXVFU0pYTjlUb0w2VEFOYnRSRXkzWTlma2dwYzJFdnZrdGVOZVpKVXc0ZFk3eVE?oc=5",
+     "source": "AARP"
+    }
+   ],
+   "official": false,
+   "score": 31.5,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "car recall",
+   "traffic": 0,
+   "article_count_24h": 25,
+   "article_count_1h": 1,
+   "published": "2026-11-01T09:04:18+09:00",
+   "category": "Recalls",
+   "news": [
+    {
+     "title": "Catastrophic Injury Lawyer Says He’d Never Drive This Car. Then He Reveals The Chilling Reason Why - Motor1.com",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzVU5qaWdjTDVDaUlJa0V1Wm9NcVAzNG8zc3dEV3VUWG5WOGxaci15Q1Jjc3ZUekxGb1RHdzRSaVc5c3BYa1NxLThwRGZtNVoxdzNoNkpQVVFZcEhUN29Ndm1Ba0otNkExdFlmY2Rtd1g3ZUFlM0txNmxuSDQ?oc=5",
+     "source": "Motor1.com"
+    },
+    {
+     "title": "German court says SEAT may have to take back recalled Cupra Borns - AutoNext.co",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTldzSlluOGtMb3BSZS1aUGttT1lvTFR6cVNQQ0x4RW1zcUpMelZSZy1jNmhSMDdXVll2S3JDMGJEM2dkLWpaN0hSakpnQTM3QmNxWnlBSlJabXllaENmb1NuUHZyWHdEWFJnRnh4d2pDRTI1UkVKTE9kVzB5amdGR3Bn?oc=5",
+     "source": "AutoNext.co"
+    },
+    {
+     "title": "GM Recalls Six Crossovers Over Bad Seat Welds - thetruthaboutcars.com",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSzRkbF9OR1IwdThKRUd4RlVFem0wMGZzT01PSEZZME00YlJrbFg3U2pZMnhLODFEcGxkZW5wYnRZRnAzaHZIbGVQdkloZDNsME83WEtSVjlvZE90RVU0dWdKNUlVcllPekJ4Q052SWhQc1UyMWRIVnZWSFd1eC1mUllKLWpGcGNrTnBpc21HekZGV2FETjkxMEhMLTlLTmN5SnozamtB?oc=5",
+     "source": "thetruthaboutcars.com"
+    },
+    {
+     "title": "Faulty Tire Sealant Bottles Cause Honda To Recall Thousands Of Cars For A Second Time - SlashGear",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSVF1dGdlZW50Q0txNHRWaE5BYWpVWHpaVHhYT0Y2aHZ4dHFEM2dPWnVsY2NENVIydzV0ZUNkVkxRdXcxc3NsTDI4V1I1dXk2S3FNbU9RdXIxTVZIUVN0TTh4Tms3cDloVXozYXdzQVlTTzdwb2xkajU1Qjg2MVZIR19KSHBhMEJyd0cwMzJoT3E?oc=5",
+     "source": "SlashGear"
+    },
+    {
+     "title": "Toyota recalls over 228,000 minivans after crash tests show seat belts can unlock seat backs - The Cool Down",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQlRRTEJ3N2tMVkt6Tnl6SFJLRmZyZzdTLXlFS3huMVV5UHBHYU1LOHQtaTdQQUZJY2szWk4tV2RWbWViTngzMDNyTlB2Q1VjNkRvWGVWczF2X0gxN0l5V2ZjMFdvVGxWVUtFSGpXTzVPaEp2ZUFLX0JHaTdjN3VFQXFHUEM4Zmdk?oc=5",
+     "source": "The Cool Down"
     }
    ],
    "official": false,
@@ -1068,9 +1002,45 @@
   },
   {
    "source": "google_trends",
-   "keyword": "power ball drawing",
+   "keyword": "fortnite",
    "traffic": 5000,
    "published": "2026-11-01T13:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "The Seven ‘One Piece’ Fortnite Skins And Its Pirate Season Release Date",
+     "url": "https://www.forbes.com/sites/paultassi/2026/10/27/the-seven-one-piece-fortnite-skins-and-its-pirate-season-release-date/",
+     "source": "Forbes"
+    },
+    {
+     "title": "Is Fortnite down? When will game be back online with One Piece season",
+     "url": "https://www.northjersey.com/story/tech/gaming/2026/11/01/fortnite-offline-as-treasure-hunters-one-piece-season-drops-on-nov-1/92515160007/",
+     "source": "Bergen Record"
+    },
+    {
+     "title": "Fortnite - Official Treasure Hunters Gameplay Trailer",
+     "url": "https://www.ign.com/videos/fortnite-official-treasure-hunters-gameplay-trailer",
+     "source": "IGN"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 500→5,000",
+   "spike_bonus": 20,
+   "score": 27.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.ign.com/videos/fortnite-official-treasure-hunters-gameplay-trailer",
+     "title": "Fortnite - Official Treasure Hunters Gameplay Trailer",
+     "outlet": "IGN"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "winning powerball numbers",
+   "traffic": 5000,
+   "published": "2026-11-01T14:30:00+09:00",
    "category": "기타",
    "news": [
     {
@@ -1090,9 +1060,9 @@
     }
    ],
    "official": false,
-   "spike": "검색량 1,000→5,000",
-   "spike_bonus": 20,
-   "score": 27.0,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
    "already_covered": false,
    "evidence": [
     {
@@ -1109,66 +1079,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "bradley cooper",
-   "traffic": 200,
-   "published": "2026-11-01T14:20:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Bradley Cooper's Before-And-After Photos Go Viral As Fans Say They're 'Sad' Over His Alleged Surgery",
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/bradley-coopers-photos-viral-fans-060543336.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "Jennifer Lawrence Jokes She Was ‘Sick’ of Kissing Bradley Cooper in Silver Linings Playbook : ‘He Didn’t Like That’",
-     "url": "https://people.com/jennifer-lawrence-joked-sick-of-kissing-bradley-cooper-in-silver-linings-playbook-12198743",
-     "source": "People.com"
-    },
-    {
-     "title": "Jennifer Lawrence reveals the cringey comment she made after kissing ‘Silver Linings Playbook’ co-star Bradley Cooper",
-     "url": "https://www.aol.com/articles/jennifer-lawrence-reveals-cringey-she-143945000.html",
-     "source": "AOL.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 25.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/bradley-coopers-photos-viral-fans-060543336.html",
-     "title": "Bradley Cooper's Before-And-After Photos Go Viral As Fans Say They're 'Sad' Over His Alleged Surgery",
-     "outlet": "Yahoo"
-    },
-    {
-     "url": "https://www.aol.com/articles/jennifer-lawrence-reveals-cringey-she-143945000.html",
-     "title": "Jennifer Lawrence reveals the cringey comment she made after kissing ‘Silver Linings Playbook’ co-star Bradley Cooper",
-     "outlet": "AOL.com"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "is fortnite down right now",
+   "keyword": "crimson desert game",
    "traffic": 2000,
-   "published": "2026-11-01T13:40:00+09:00",
+   "published": "2026-11-01T14:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Fortnite Treasure Hunters Battle Pass Revealed – All Mini Season Skins",
-     "url": "https://www.vice.com/en/article/fortnite-treasure-hunters-battle-pass-skins-release-date/",
-     "source": "VICE"
+     "title": "[Notices] Charting the Unknown Market Availability Update",
+     "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=144",
+     "source": "펄어비스 공식 홈페이지"
     },
     {
-     "title": "The Seven ‘One Piece’ Fortnite Skins And Its Pirate Season Release Date",
-     "url": "https://www.forbes.com/sites/paultassi/2026/10/27/the-seven-one-piece-fortnite-skins-and-its-pirate-season-release-date/",
-     "source": "Forbes"
+     "title": "Crimson Desert: Charting the Unknown DLC Review So Far – Much More Content, Not Always for the Better",
+     "url": "https://www.ign.com/articles/crimson-desert-charting-the-unknown-review",
+     "source": "IGN"
     },
     {
-     "title": "Eiichiro Oda’s One Piece Is Officially Returning in November",
-     "url": "https://www.imdb.com/news/ni66087724/?ref_=nmnw_art_perm",
-     "source": "IMDb"
+     "title": "Crimson Desert Enhanced Adds Surprise Free Trial For All Xbox Series X|S Owners",
+     "url": "https://www.purexbox.com/news/2026/10/crimson-desert-enhanced-adds-surprise-free-trial-for-all-xbox-series-xs-owners",
+     "source": "Pure Xbox"
     }
    ],
    "official": false,
@@ -1178,9 +1107,19 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.vice.com/en/article/fortnite-treasure-hunters-battle-pass-skins-release-date/",
-     "title": "Fortnite Treasure Hunters Battle Pass Revealed – All Mini Season Skins",
-     "outlet": "VICE"
+     "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=144",
+     "title": "[Notices] Charting the Unknown Market Availability Update",
+     "outlet": "펄어비스 공식 홈페이지"
+    },
+    {
+     "url": "https://www.ign.com/articles/crimson-desert-charting-the-unknown-review",
+     "title": "Crimson Desert: Charting the Unknown DLC Review So Far – Much More Content, Not Always for the Better",
+     "outlet": "IGN"
+    },
+    {
+     "url": "https://www.purexbox.com/news/2026/10/crimson-desert-enhanced-adds-surprise-free-trial-for-all-xbox-series-xs-owners",
+     "title": "Crimson Desert Enhanced Adds Surprise Free Trial For All Xbox Series X|S Owners",
+     "outlet": "Pure Xbox"
     }
    ]
   },
@@ -1188,7 +1127,7 @@
    "source": "google_news",
    "keyword": "FAFSA",
    "traffic": 0,
-   "article_count_24h": 5,
+   "article_count_24h": 4,
    "article_count_1h": 0,
    "published": "2026-11-01T02:55:48+09:00",
    "category": "Student Aid",
@@ -1212,15 +1151,75 @@
      "title": "Want to become a Vol? Don't miss these University of Tennessee deadlines - Knoxville News Sentinel",
      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRmFCQk9Tdi1qaHBUU3NKQlE1TFZPR0ZGT0p3QktJSkc3NWE2cVBnQWxVWXdUdkhvUVBrNy1MQ1NKZl9IekpsYVh6UzJTS1BWUGsxd1hqY2VYN0c1eUJweEY2T3BMWF9WazJyeTYtTUlvT21MZE9TZnZnLUJUc3FrSENhWXFTVWFWaUNjOVhzQVhLeHppZ3NtdFoyUllHbU5TVFU4OGFxaVZHT2hpVm9hbkxpMGpoVW96WnhqOEtJck9rQ0xVdUN5M3Fsa2YtNWR5WDBja08zenlyZ2l2SldZTVpSUnh5dw?oc=5",
      "source": "Knoxville News Sentinel"
-    },
-    {
-     "title": "Five charged in US over ghost student scheme — Ars Technica - UA.NEWS",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeWdGR25NZ2NpcW5rakFVS0lOTE9ZREdNSkh1ajlleVR1a19yX1ZGREJUUmNYdjlIWnNqRjdpSV91dGdIaTZjQUx3eEtKWVNYTnBka1hEVnhKM25PWGlTVXZRRmJ1WDIza3pERWRPVVJGcHJZbW5ySjd6b2tFRFB6VGtsLVpQMmkwUWJiMWtUNVhHTEdNbmZBcE9pa1BuLVR0c1lxb3NMa0YzenFGOWd2dS1Yamc4VGs?oc=5",
-     "source": "UA.NEWS"
     }
    ],
    "official": false,
-   "score": 14.7,
+   "score": 11.8,
+   "already_covered": true
+  },
+  {
+   "source": "google_trends",
+   "keyword": "rush hour",
+   "traffic": 200,
+   "published": "2026-11-01T14:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "MDOT Adds Dynamic Shoulder Lane To US 131 Between I-96 And Post Road Next Year",
+     "url": "https://wgrd.com/ixp/45/p/rush-hour-traffic-solutions-us-131/",
+     "source": "97.9 WGRD"
+    },
+    {
+     "title": "M4 morning crash causes delays as woman arrested for drink driving",
+     "url": "https://www.walesonline.co.uk/news/wales-news/m4-crash-live-updates-drivers-34837401",
+     "source": "Wales Online"
+    },
+    {
+     "title": "M4 traffic RECAP: Rush hour chaos as all traffic held on major motorway after crash",
+     "url": "https://www.express.co.uk/news/uk/2261760/m4-traffic-live-j24-j23-delays",
+     "source": "Daily Express"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://wgrd.com/ixp/45/p/rush-hour-traffic-solutions-us-131/",
+     "title": "MDOT Adds Dynamic Shoulder Lane To US 131 Between I-96 And Post Road Next Year",
+     "outlet": "97.9 WGRD"
+    },
+    {
+     "url": "https://www.walesonline.co.uk/news/wales-news/m4-crash-live-updates-drivers-34837401",
+     "title": "M4 morning crash causes delays as woman arrested for drink driving",
+     "outlet": "Wales Online"
+    },
+    {
+     "url": "https://www.express.co.uk/news/uk/2261760/m4-traffic-live-j24-j23-delays",
+     "title": "M4 traffic RECAP: Rush hour chaos as all traffic held on major motorway after crash",
+     "outlet": "Daily Express"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "LIHEAP",
+   "traffic": 0,
+   "article_count_24h": 1,
+   "article_count_1h": 0,
+   "published": "2026-11-01T01:41:59+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Applications open for energy assistance programs - MyStateline",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTUlPUjFadFV0bGlCVjM3UnVGMlhfY2hxSWxQeXRha0FFT3pLQmYtdFJVVUZBdTdWSUhBSTlhaEYzbzd1UjdBeThEangzb3VvZVlTcXoxa21GWVFfR18yeHlFeGJEeUlwTTRKVTlNRXd4VFNKZDNiU0JYNGplZDNaOFNXd3g2WDY0LVhxNE83c01JVFdQVVVjQUpvVdIBmwFBVV95cUxQTUlPUjFadFV0bGlCVjM3UnVGMlhfY2hxSWxQeXRha0FFT3pLQmYtdFJVVUZBdTdWSUhBSTlhaEYzbzd1UjdBeThEangzb3VvZVlTcXoxa21GWVFfR18yeHlFeGJEeUlwTTRKVTlNRXd4VFNKZDNiU0JYNGplZDNaOFNXd3g2WDY0LVhxNE83c01JVFdQVVVjQUpvVQ?oc=5",
+     "source": "MyStateline"
+    }
+   ],
+   "official": false,
+   "score": 3.4,
    "already_covered": true
   },
   {
@@ -1247,79 +1246,61 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.thenews.pk/print/1446150-pakistan-set-up-plate-final-against-oman-after-abbas-afridi-s-blazing-fifty",
-     "title": "Pakistan set up plate final against Oman after Abbas Afridi’s blazing fifty",
-     "outlet": "The News Pakistan"
-    },
-    {
-     "url": "https://thesportstak.com/cricket/match/oma-vs-pak-plate-final-hong-kong-sixes-01-november-2026-275394/stats",
-     "title": "OMA vs PAK Plate Final Stats - Mong Kok (01 November 2026)",
-     "outlet": "SportsTak"
-    }
-   ]
+   "score": 3.0,
+   "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "pedro pascal",
+   "keyword": "bradley cooper",
+   "traffic": 200,
+   "published": "2026-11-01T14:20:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Bradley Cooper's Before-And-After Photos Go Viral As Fans Say They're 'Sad' Over His Alleged Surgery",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/bradley-coopers-photos-viral-fans-060543336.html",
+     "source": "Yahoo"
+    },
+    {
+     "title": "Jennifer Lawrence Jokes She Was ‘Sick’ of Kissing Bradley Cooper in Silver Linings Playbook : ‘He Didn’t Like That’",
+     "url": "https://people.com/jennifer-lawrence-joked-sick-of-kissing-bradley-cooper-in-silver-linings-playbook-12198743",
+     "source": "People.com"
+    },
+    {
+     "title": "Jennifer Lawrence reveals the cringey comment she made after kissing ‘Silver Linings Playbook’ co-star Bradley Cooper",
+     "url": "https://www.aol.com/articles/jennifer-lawrence-reveals-cringey-she-143945000.html",
+     "source": "AOL.com"
+    }
+   ],
+   "official": false,
+   "score": 1.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "txst football",
    "traffic": 200,
    "published": "2026-11-01T14:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Tony Gilroy on the Pedro Pascal Lunch That Saved 'Behemoth!'",
-     "url": "https://variety.com/2026/film/awards/behemoth-tony-gilroy-pedro-pascal-loneliness-oscars-1236935214/",
-     "source": "Variety"
+     "title": "Fresno State Bulldogs vs Texas State Bobcats Prediction, Picks, Prop Bets For November 14, 2026 - NCAAF",
+     "url": "https://www.covers.com/sport/football/ncaaf/matchup/378884/picks",
+     "source": "Covers.com"
     },
     {
-     "title": "Full Trailer: Pedro Pascal In \"Behemoth!\"",
-     "url": "https://www.darkhorizons.com/full-trailer-pedro-pascal-in-behemoth/",
-     "source": "Dark Horizons"
+     "title": "Fresno State Bulldogs vs Utah State Aggies Prediction, Picks, Prop Bets For November 07, 2026 - NCAAF",
+     "url": "https://www.covers.com/sport/football/ncaaf/matchup/378706/picks",
+     "source": "Covers.com"
     },
     {
-     "title": "Behemoth! review: Pedro Pascal shines as troubled cellist",
-     "url": "https://www.rogerebert.com/reviews/behemoth-pedro-pascal-film-review-2026",
-     "source": "Roger Ebert"
+     "title": "Avalanche 5-2 Flames (Oct 31, 2026) Game Recap",
+     "url": "https://www.espn.com/nhl/recap?gameId=401892623",
+     "source": "ESPN"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "deportivo toluca fútbol club",
-   "traffic": 200,
-   "published": "2026-11-01T14:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "¡Chivas le da la vuelta al marcador! Golazo de Natalia Colín",
-     "url": "https://www.tudn.com/futbol-femenino/liga-mx-femenil/chivas-le-da-la-vuelta-al-marcador-golazo-de-natalia-colin-video",
-     "source": "TUDN"
-    },
-    {
-     "title": "\"No todo está perdido\"",
-     "url": "https://www.tolucafc.com/noticias/no-todo-esta-perdido",
-     "source": "Deportivo Toluca"
-    },
-    {
-     "title": "Amandine Henry sueña con una liguilla histórica con las Diablas",
-     "url": "https://elvalle.com.mx/2026/10/29/amandine-henry-suena-con-una-liguilla-historica-con-las-diablas/",
-     "source": "El Valle"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
+   "score": 0.6,
    "already_covered": false
   },
   {
@@ -1346,9 +1327,7 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
+   "score": 0.6,
    "already_covered": false
   },
   {
@@ -1369,35 +1348,14 @@
      "source": "Expansión Política"
     },
     {
-     "title": "Botas, el changuito de las hijas de “El Chapo” que llevó a las autoridades hasta su escondite tras la fuga del Altiplano",
-     "url": "https://www.infobae.com/mexico/2026/10/27/botas-el-changuito-de-las-hijas-de-el-chapo-que-llevo-a-las-autoridades-hasta-su-escondite-tras-la-fuga-del-altiplano/",
-     "source": "Infobae"
+     "title": "Documental revela que reunión de Sean Penn y Kate del Castillo frenó captura de El Chapo",
+     "url": "https://cafenegroportal.com/documental-revela-que-reunion-de-sean-penn-y-kate-del-castillo-freno-captura-de-el-chapo/",
+     "source": "Cafe Negro Portal"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
+   "score": 0.6,
    "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "LIHEAP",
-   "traffic": 0,
-   "article_count_24h": 1,
-   "article_count_1h": 0,
-   "published": "2026-11-01T01:41:59+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Applications open for energy assistance programs - MyStateline",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTUlPUjFadFV0bGlCVjM3UnVGMlhfY2hxSWxQeXRha0FFT3pLQmYtdFJVVUZBdTdWSUhBSTlhaEYzbzd1UjdBeThEangzb3VvZVlTcXoxa21GWVFfR18yeHlFeGJEeUlwTTRKVTlNRXd4VFNKZDNiU0JYNGplZDNaOFNXd3g2WDY0LVhxNE83c01JVFdQVVVjQUpvVdIBmwFBVV95cUxQTUlPUjFadFV0bGlCVjM3UnVGMlhfY2hxSWxQeXRha0FFT3pLQmYtdFJVVUZBdTdWSUhBSTlhaEYzbzd1UjdBeThEangzb3VvZVlTcXoxa21GWVFfR18yeHlFeGJEeUlwTTRKVTlNRXd4VFNKZDNiU0JYNGplZDNaOFNXd3g2WDY0LVhxNE83c01JVFdQVVVjQUpvVQ?oc=5",
-     "source": "MyStateline"
-    }
-   ],
-   "official": false,
-   "score": 3.4,
-   "already_covered": true
   }
  ]
 }
