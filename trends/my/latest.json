@@ -1,66 +1,29 @@
 {
- "generated_at": "2026-11-03T06:27:10.501054+09:00",
+ "generated_at": "2026-11-03T07:26:42.637745+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (8)",
-  "evidence": "ok (저장 26, 실패 11)"
+  "evidence": "ok (저장 20, 실패 15)"
  },
- "compared_runs": 3,
+ "compared_runs": 2,
  "spikes": [
-  "pakhtakor fc vs al-nassr standings",
+  "K-drama",
   "newcastle vs everton",
-  "shirley chow malaysian bowler",
+  "sassuolo vs fiorentina",
   "newcastle united f.c. lwn everton f.c.",
-  "atalanta vs parma"
+  "atalanta vs parma",
+  "纽卡斯尔联 - 埃弗顿",
+  "polis",
+  "assault",
+  "lori"
  ],
  "candidates": [
-  {
-   "source": "google_trends",
-   "keyword": "pakhtakor fc vs al-nassr standings",
-   "traffic": 20000,
-   "published": "2026-11-03T00:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Ronaldo off Al Nassr's ACL squad due to Saudi security concerns",
-     "url": "https://www.espn.com/soccer/story/_/id/50353917/ronaldo-al-nassr-acl-squad-saudi-security-concerns",
-     "source": "ESPN"
-    },
-    {
-     "title": "In Cristiano Ronaldo's absence, Joao Felix steps up as Al Nassr clobber AFC Champions League opponents Pakhtakor",
-     "url": "https://sports.yahoo.com/articles/cristiano-ronaldos-absence-joao-felix-191039988.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Postecoglou settles on two changes to Al-Nassr's line-up against Pakhtakor",
-     "url": "https://www.goal.com/en/news/postecoglou-settles-on-two-changes-to-al-nassr-s-line-up-against-pakhtakor/bltf0a079eeff0bd08a",
-     "source": "Goal.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 69.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/cristiano-ronaldos-absence-joao-felix-191039988.html",
-     "title": "In Cristiano Ronaldo's absence, Joao Felix steps up as Al Nassr clobber AFC Champions League opponents Pakhtakor",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://www.goal.com/en/news/postecoglou-settles-on-two-changes-to-al-nassr-s-line-up-against-pakhtakor/bltf0a079eeff0bd08a",
-     "title": "Postecoglou settles on two changes to Al-Nassr's line-up against Pakhtakor",
-     "outlet": "Goal.com"
-    }
-   ]
-  },
   {
    "source": "google_news",
    "keyword": "K-drama",
    "traffic": 0,
-   "article_count_24h": 74,
-   "article_count_1h": 5,
+   "article_count_24h": 73,
+   "article_count_1h": 10,
    "published": "2026-11-03T02:35:54+09:00",
    "category": "K-Culture",
    "news": [
@@ -91,7 +54,9 @@
     }
    ],
    "official": false,
-   "score": 30.0,
+   "spike": "최근 1시간 기사 4.5→10건 (2.0배)",
+   "spike_bonus": 20.0,
+   "score": 42.0,
    "already_covered": false,
    "evidence": [
     {
@@ -112,11 +77,57 @@
    ]
   },
   {
+   "source": "google_trends",
+   "keyword": "newcastle vs everton",
+   "traffic": 5000,
+   "published": "2026-11-03T03:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights",
+     "url": "https://www.skysports.com/football/live-blog/13605485/newcastle-vs-everton-live-premier-league-match-updates-news-score-stream-and-highlights",
+     "source": "Sky Sports"
+    },
+    {
+     "title": "Newcastle United v Everton: Premier League – live",
+     "url": "https://www.theguardian.com/football/live/2026/nov/02/newcastle-united-v-everton-premier-league-live",
+     "source": "The Guardian"
+    },
+    {
+     "title": "Premier League: build-up to Newcastle v Everton - live text",
+     "url": "https://www.bbc.com/sport/football/live/cq2d68r9y6kwt",
+     "source": "BBC"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 2,000→5,000",
+   "spike_bonus": 20,
+   "score": 27.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.skysports.com/football/live-blog/13605485/newcastle-vs-everton-live-premier-league-match-updates-news-score-stream-and-highlights",
+     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights",
+     "outlet": "Sky Sports"
+    },
+    {
+     "url": "https://www.theguardian.com/football/live/2026/nov/02/newcastle-united-v-everton-premier-league-live",
+     "title": "Newcastle United v Everton: Premier League – live",
+     "outlet": "The Guardian"
+    },
+    {
+     "url": "https://www.bbc.com/sport/football/live/cq2d68r9y6kwt",
+     "title": "Premier League: build-up to Newcastle v Everton - live text",
+     "outlet": "BBC"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "flood",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 55,
+   "article_count_1h": 72,
    "published": "2026-11-02T22:30:00+09:00",
    "category": "Living",
    "news": [
@@ -124,6 +135,11 @@
      "title": "Flash flood temporarily closes NKVE stretch between Setia Alam, Shah Alam - The Star",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUlJFVlZ5aEFBNV9mLVdLVkliZHRLN0VjUUFmWXZ4THM3NUFNODFYREhBN1BLVlI5dE04WUFDd2FYUnEyMjduVnlKWDZXQjdlbi04eWgwV2lTZVRoNm9oRlFNOHY0UFNwcVZHdGZidnNvYWEwalBuenFSazdCUHB0Y1RHVUMyUnpnSEJwOWlEY2JIZDRGQno1VzkzZk1sRlpvSF9QMmZ1STcxX3prRDJUYU5rSkJ2YTJ3TTJULXdNUQ?oc=5",
      "source": "The Star"
+    },
+    {
+     "title": "Flash floods batter Klang Valley - Free Malaysia Today",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUVpHTEg2RGRGWGVlWTNTekRGRjYyTkxUSDNraWdtbDVlNDZFM3V3eFRsRlNMOXRYTzVqbTVZVWYzSGZtQTJYOHJTWm9TWnBJVkx5bEFuSE9HV0RzMlRlajhRcFltT1Zuajk5Rk1kWXpDQlBEbkZEYndadWNxbFdKLWNrUmx6bVJ6aDdmVmFLMXFTY0JVY291RA?oc=5",
+     "source": "Free Malaysia Today"
     },
     {
      "title": "Flash Flood Causes Closure Of NKVE Between Setia Alam And Shah Alam In Both Directions - BusinessToday Malaysia",
@@ -136,14 +152,9 @@
      "source": "Malay Mail"
     },
     {
-     "title": "Deadly flash flood wipes away villages in Nepal, Tibet - DW.com",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9wcWFVNy1DU1gzOVRxSnJsS09GVk40MjlKSEcwS3J2eDZfbVEtT0g4Y2FHR1hrTGZzdVE5V0lqcnhOSU1TUkxndWNIMGpubk51Wm01UE9wTVpFZmZiSi14MTlqb29tTnpZeWRDNkpOTnBERDVZWDJoX1BLONIBe0FVX3lxTE1FNE5QV3J1MWE2OXltMXpJRjZvX2thVmEtRHdMTC1kWENkaUhsZXlaWGs5aWlGV1RuSkw3SkNsZjRHVmlNNTdiLUZWZTRBT0VuNHhWWVJVSTNOWlo2M3pSV0FjeFlxNkNLZmstMWhzWVBKeXM4c3UwRFg5WQ?oc=5",
-     "source": "DW.com"
-    },
-    {
-     "title": "Flash floods batter Klang Valley - Free Malaysia Today",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUVpHTEg2RGRGWGVlWTNTekRGRjYyTkxUSDNraWdtbDVlNDZFM3V3eFRsRlNMOXRYTzVqbTVZVWYzSGZtQTJYOHJTWm9TWnBJVkx5bEFuSE9HV0RzMlRlajhRcFltT1Zuajk5Rk1kWXpDQlBEbkZEYndadWNxbFdKLWNrUmx6bVJ6aDdmVmFLMXFTY0JVY291RA?oc=5",
-     "source": "Free Malaysia Today"
+     "title": "Three evacuated as flash floods hit Kampung Melayu Subang - The Malaysian Reserve",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWG5PNVVFd3hRM1ZiYk5CNVVyUWtQaWliUmladzE4VkJCek80czZ3MjFjTDhXWk1VT1Z6WTRqTzFtQnBsRElFbkZ2WV9xcWNKZ2lJUlUxNEpqaE84Q0huS2lWZDBTSVFRZTNtVE11aGpCODJhUUt6bzE4STZKVmk5d3JGYlgwSlc1NUlpckdoMlBZZXdqZnByOXMxRGU4X3ppcXQw?oc=5",
+     "source": "The Malaysian Reserve"
     }
    ],
    "official": false,
@@ -156,65 +167,14 @@
      "outlet": "The Star"
     },
     {
-     "url": "https://www.malaymail.com/news/malaysia/2026/11/02/klang-valley-flash-floods-hit-denai-alam-ttdi-bukit-jalil-subang-and-more/241698",
-     "title": "Klang Valley flash floods hit Denai Alam, TTDI, Bukit Jalil, Subang and more - Malay Mail",
-     "outlet": "Malay Mail"
-    },
-    {
-     "url": "https://www.dw.com/en/nepal-tibet-china-flood-river-mudslide/a-78505576",
-     "title": "Deadly flash flood wipes away villages in Nepal, Tibet - DW.com",
-     "outlet": "DW.com"
-    },
-    {
      "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/02/flash-floods-batter-klang-valley",
      "title": "Flash floods batter Klang Valley - Free Malaysia Today",
      "outlet": "Free Malaysia Today"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "newcastle vs everton",
-   "traffic": 2000,
-   "published": "2026-11-03T03:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights",
-     "url": "https://www.skysports.com/football/live-blog/13605485/newcastle-vs-everton-live-premier-league-match-updates-news-score-stream-and-highlights",
-     "source": "Sky Sports"
     },
     {
-     "title": "Why there's every chance of controversial Everton change with Hayden Hackney vs Newcastle",
-     "url": "https://uk.sports.yahoo.com/news/why-theres-every-chance-controversial-180000772.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "Newcastle vs Everton betting offer and predictions: get R3,000 in deposit match bonuses with Virgin Bet South Africa (ZA)",
-     "url": "https://www.livescore.com/en/news/football/premier-league/predictions/newcastle-vs-everton-betting-offer-and-predictions-get-r3000-deposit-match-with-virgin-bet-south-africa-za/",
-     "source": "LiveScore"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 1,000→2,000",
-   "spike_bonus": 20,
-   "score": 18.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.skysports.com/football/live-blog/13605485/newcastle-vs-everton-live-premier-league-match-updates-news-score-stream-and-highlights",
-     "title": "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights",
-     "outlet": "Sky Sports"
-    },
-    {
-     "url": "https://uk.sports.yahoo.com/news/why-theres-every-chance-controversial-180000772.html",
-     "title": "Why there's every chance of controversial Everton change with Hayden Hackney vs Newcastle",
-     "outlet": "Yahoo"
-    },
-    {
-     "url": "https://www.livescore.com/en/news/football/premier-league/predictions/newcastle-vs-everton-betting-offer-and-predictions-get-r3000-deposit-match-with-virgin-bet-south-africa-za/",
-     "title": "Newcastle vs Everton betting offer and predictions: get R3,000 in deposit match bonuses with Virgin Bet South Africa (ZA)",
-     "outlet": "LiveScore"
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/02/klang-valley-flash-floods-hit-denai-alam-ttdi-bukit-jalil-subang-and-more/241698",
+     "title": "Klang Valley flash floods hit Denai Alam, TTDI, Bukit Jalil, Subang and more - Malay Mail",
+     "outlet": "Malay Mail"
     }
    ]
   },
@@ -222,10 +182,10 @@
    "source": "google_news",
    "keyword": "Korean skincare",
    "traffic": 0,
-   "article_count_24h": 30,
-   "article_count_1h": 0,
+   "article_count_24h": 29,
+   "article_count_1h": 1,
    "published": "2026-11-03T05:00:55+09:00",
-   "category": "Beauty",
+   "category": "K-Culture",
    "news": [
     {
      "title": "The Korean hair-washing routine that leaves hair cleaner and shinier than ever - Vogue Adria",
@@ -248,13 +208,13 @@
      "source": "BeautyMatter"
     },
     {
-     "title": "Luneia Brands brings K-beauty to Selfridges through Medicube and Biodance counters - Cosmetics Business",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYY1R4R2Z2M1dNOUI5R1JpODA4NGNuMzFoa3AyUGdOQmp1WWRTZnlzbGxXUm1lZmdCTkZraGo5X0docUtFdjJoVTM4NnM2WG9qQ2lRckpOM2N5a2FYZmxVVmNaUFB3UEx4VHgxTkdyR3p1d0tvUkY0UE5kRUIyZw?oc=5",
-     "source": "Cosmetics Business"
+     "title": "Yoonchae On K-Beauty, The WILDWORLD Tour, & Shopping With The Girls - Coveteur",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01Q0dQVzZhX3NJQ1Q4RnpOUXhjVlBzd3lDVFVZTHROMDN5SWpYbmIwNXpPZWF2Z05ud0Qzb29fZnlJNk1KZUdjOG1TT2x2dUlt?oc=5",
+     "source": "Coveteur"
     }
    ],
    "official": false,
-   "score": 18.0,
+   "score": 20.4,
    "already_covered": false,
    "evidence": [
     {
@@ -268,55 +228,172 @@
      "outlet": "BeautyMatter"
     },
     {
-     "url": "https://cosmeticsbusiness.com/luneia-brands-brings-k-beauty-to-selfridges",
-     "title": "Luneia Brands brings K-beauty to Selfridges through Medicube and Biodance counters - Cosmetics Business",
-     "outlet": "Cosmetics Business"
+     "url": "https://coveteur.com/yoonchae-interview",
+     "title": "Yoonchae On K-Beauty, The WILDWORLD Tour, & Shopping With The Girls - Coveteur",
+     "outlet": "Coveteur"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "shirley chow malaysian bowler",
-   "traffic": 500,
-   "published": "2026-11-03T01:50:00+09:00",
+   "keyword": "sassuolo vs fiorentina",
+   "traffic": 1000,
+   "published": "2026-11-03T02:00:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Bowling: Bowling legend Shirley passes away at 76",
-     "url": "https://www.thestar.com.my/sport/bowling/2026/11/02/bowling-legend-shirley-passes-away-at-76",
-     "source": "The Star"
+     "title": "Sassuolo vs Fiorentina: Lineups and how to watch",
+     "url": "https://www.violanation.com/fiorentina-match-coverage/23144/sassuolo-vs-fiorentina-serie-a-lineups-and-how-to-watch-online-stream",
+     "source": "Viola Nation"
     },
     {
-     "title": "Former national bowler Shirley Chow dies at 76",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/02/former-national-bowler-shirley-chow-dies-at-76",
-     "source": "Free Malaysia Today"
+     "title": "Pellegrino (DAZN): “We're united, Vanoli lifts us, we must fight every day”",
+     "url": "https://onefootball.com/en/news/pellegrino-dazn-were-united-vanoli-lifts-us-we-must-fight-every-day-43715179",
+     "source": "OneFootball"
     },
     {
-     "title": "Shirley Chow, Malaysian bowling legend, dies",
-     "url": "https://www.nst.com.my/sports/others/2026/11/1569161/shirley-chow-malaysian-bowling-legend-dies",
-     "source": "NST Online"
+     "title": "Mastantuono’s late winner ends Fiorentina's 52-day winless run",
+     "url": "https://www.washingtonpost.com/sports/soccer/2026/11/02/fiorentina-newcastle-everton-osasuna-deportivo-laliga-seriea/dfee9378-d700-11f1-930a-e08f8086f5ac_story.html",
+     "source": "The Washington Post"
     }
    ],
    "official": false,
-   "spike": "검색량 200→500",
+   "spike": "검색량 500→1,000",
    "spike_bonus": 20,
-   "score": 13.5,
+   "score": 15.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.thestar.com.my/sport/bowling/2026/11/02/bowling-legend-shirley-passes-away-at-76",
-     "title": "Bowling: Bowling legend Shirley passes away at 76",
+     "url": "https://www.violanation.com/fiorentina-match-coverage/23144/sassuolo-vs-fiorentina-serie-a-lineups-and-how-to-watch-online-stream",
+     "title": "Sassuolo vs Fiorentina: Lineups and how to watch",
+     "outlet": "Viola Nation"
+    },
+    {
+     "url": "https://onefootball.com/en/news/pellegrino-dazn-were-united-vanoli-lifts-us-we-must-fight-every-day-43715179",
+     "title": "Pellegrino (DAZN): “We're united, Vanoli lifts us, we must fight every day”",
+     "outlet": "OneFootball"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "haze",
+   "traffic": 0,
+   "article_count_24h": 54,
+   "article_count_1h": 1,
+   "published": "2026-11-02T10:45:26+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "TSH Resources agrees to Singapore haze assessment - NST Online",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSmJNOEZhMGNkY25NVGN6UzRQMzA3XzNBZDc0ejFsR1A0bTJfNkRJaWtjWjJfQnFFNGhneVFwbEt3LTA3Q0NUT2htX1kyREhkWEZna2I2eG5peEp6T0ZRUkZIdHVXTXJQMTMxdE12Y1JSWlQweW1qVERtUXpNNUVQWldLbktUazdhdUYxR0pkc1RVYWdPMHVtTml5OC1FY2FNa2Y4VjZDRdIBrAFBVV95cUxOOEtnWm10VW4xelpVS2pQaWE4cjFkUkJtdzdmZDhic1V0R2QwZlIwZmJoTlIycTFsQTNHMjZiM2o3WVNxVDlkVVFMaGpjTEoxcWlhdmVfdmpJZEF6UEZ4QVlTMDQ4MG55dGFka0gtb3k3MnZHY0RVNDFKVHpXcmJkTklaUkVzVmc4RFlpUTJYREFVYk02UkJxenZxdHgtYVZFeFROMVlKNERJbHlW?oc=5",
+     "source": "NST Online"
+    },
+    {
+     "title": "Haze probe: Three more Singapore-registered companies agree to engage assessors - The Star",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWGxjUjdDMGxZUmJKQ2gxSlZKTjd5RWI2WW9jaFZOdUcxdVlXN3BiOE5pdjNTRzZoR3hXR00yUzRnTmJpVXR3M1dHR0tqQkZXYkhyQnNmb3RqZzRDazRRUFUyQkxIVzlXSDRSbnRmanRRLWpFSk1NTlBFb3NlY044MmxVeXB6cXlmR3RtNl85YmdyTGdqOG52NXc1bm93Rlpsb2tIUl9nT1BIZURzTm5rU0hPbGpaYzNSSkJHSDBNNzNzcXJ4dU1OQzdVSmEzaHE3WUFfVmtvbUE?oc=5",
+     "source": "The Star"
+    },
+    {
+     "title": "Prolonged haze threatens fruit and vegetable yields in Malaysia - FreshPlaza",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb0hkbmdneFFGZDZ5aWQzMmhhVENybUtaQVZqRHdMR3l0UlJjS244aDV6b2trTk5DeHJ5VjZydHpvdlRZRXhqZktFbXRRelpMYThMdTdRMXpSYV9Ybl9oYU5uRzYwVXZndGJZbmR2anhJRHEzVnFId3p0YkFQdGZ6enVlTTlPdmN3b2pBbkgzUmtBbDRGN0NBNlcxdVVza1pVdVEwVms1QVZ3RlM4N25XVWN3?oc=5",
+     "source": "FreshPlaza"
+    },
+    {
+     "title": "TSH offers to fund independent assessment amid Singapore haze probe - The Malaysian Reserve",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaGRidGFSRmZUUmQtOTFWYmhxZzdkcjRRcHFhb2d0WGR1SFZjSFJPM29rWnNxTXlZdFpHSHNkNjBIbGI5YVdhN3VxWDlNYmpJd2NkU2todmFiUk5yYVlCSEhnZG01X1J6YUxzU2p1WnFWRkhsb2c3NGozb0dKNkRNcTJnMllBUlhNRTUyTnZvY3ExWlhHWFFfYkZRMUVZdVp6ZWx5NDVuSkNIV0FxdDA1OQ?oc=5",
+     "source": "The Malaysian Reserve"
+    },
+    {
+     "title": "Singapore’s Air Quality Holds Steady As Regional Haze Remains Subdued - BusinessToday Malaysia",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa09jcXFDSC02eVBWTFpDVHRxYlZZTWM1cnUzUnJGQWRMQUVxNThINWw1elMydnktcC1NRC0wU21wT09XMGlLdHJuYjQyMjNsZEJjbENmbTBCQ1lldU9ISDhyZFVJM0FTV0g2Z2t6ek9fVmJteVFER2h6Z0Rfbms0UVVrUllzUlRxNTUxN2RsSWpFZG5WX203SmZDUkd0dUhsUWxDRmZSR1l1ZWVTZ2pWMWxXTQ?oc=5",
+     "source": "BusinessToday Malaysia"
+    }
+   ],
+   "official": false,
+   "score": 14.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.nst.com.my/business/corporate/2026/11/1568785/tsh-resources-agrees-singapore-haze-assessment",
+     "title": "TSH Resources agrees to Singapore haze assessment - NST Online",
+     "outlet": "NST Online"
+    },
+    {
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/02/haze-probe-three-more-singapore-registered-companies-agree-to-engage-assessors",
+     "title": "Haze probe: Three more Singapore-registered companies agree to engage assessors - The Star",
      "outlet": "The Star"
     },
     {
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/02/former-national-bowler-shirley-chow-dies-at-76",
-     "title": "Former national bowler Shirley Chow dies at 76",
-     "outlet": "Free Malaysia Today"
+     "url": "https://www.freshplaza.com/asia/article/9888261/prolonged-haze-threatens-fruit-and-vegetable-yields-in-malaysia/",
+     "title": "Prolonged haze threatens fruit and vegetable yields in Malaysia - FreshPlaza",
+     "outlet": "FreshPlaza"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "newcastle united f.c. lwn everton f.c.",
+   "traffic": 200,
+   "published": "2026-11-03T06:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Jack Grealish expected to be out of Everton squad for Newcastle trip - The Athletic",
+     "url": "https://www.nytimes.com/athletic/7738572/2026/11/02/jack-grealish-everton-newcastle/",
+     "source": "The New York Times"
     },
     {
-     "url": "https://www.nst.com.my/sports/others/2026/11/1569161/shirley-chow-malaysian-bowling-legend-dies",
-     "title": "Shirley Chow, Malaysian bowling legend, dies",
-     "outlet": "NST Online"
+     "title": "Prem star Jack Grealish spent two nights boozing in pub and karaoke bar days before being axed from Everton squad",
+     "url": "https://www.thesun.co.uk/sport/40871783/jack-grealish-boozing-axed-everton/",
+     "source": "The Sun"
+    },
+    {
+     "title": "Jack Grealish, 'not match fit,' left out of Everton squad again",
+     "url": "https://www.espn.com/soccer/story/_/id/50360114/jack-grealish-everton-squad-again",
+     "source": "ESPN"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 100→200",
+   "spike_bonus": 20,
+   "score": 12.6,
+   "already_covered": false,
+   "evidence": []
+  },
+  {
+   "source": "google_trends",
+   "keyword": "atalanta vs parma",
+   "traffic": 200,
+   "published": "2026-11-03T05:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "LASK vs Slovan Bratislava betting offers: Up to £50 in free bets across nine bookmakers",
+     "url": "https://www.squawka.com/en/betting-offers/lask-vs-slovan-bratislava-betting-offers-free-bets-03-11-2026/",
+     "source": "Squawka"
+    },
+    {
+     "title": "✅ Atalanta-Parma confirmed teams | Rowe, Pasalic, Romero and Nicolussi",
+     "url": "https://sports.yahoo.com/articles/atalanta-parma-confirmed-teams-rowe-184800195.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Atalanta v Parma Odds",
+     "url": "https://sportsbook.fanduel.com/soccer/italian-serie-a/atalanta-v-parma-36246852",
+     "source": "FanDuel Sportsbook"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 100→200",
+   "spike_bonus": 20,
+   "score": 12.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://sports.yahoo.com/articles/atalanta-parma-confirmed-teams-rowe-184800195.html",
+     "title": "✅ Atalanta-Parma confirmed teams | Rowe, Pasalic, Romero and Nicolussi",
+     "outlet": "Yahoo Sports"
     }
    ]
   },
@@ -357,97 +434,29 @@
    ],
    "official": false,
    "score": 12.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.femina.in/beauty/products/amp-stories/8-lightweight-gel-sunscreens-essential-for-sunny-november-afternoons-291827.amp",
-     "title": "8 Lightweight Gel Sunscreens Essential For Sunny November Afternoons - Femina",
-     "outlet": "Femina"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "haze",
-   "traffic": 0,
-   "article_count_24h": 54,
-   "article_count_1h": 0,
-   "published": "2026-11-02T10:45:26+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "TSH Resources agrees to Singapore haze assessment - NST Online",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSmJNOEZhMGNkY25NVGN6UzRQMzA3XzNBZDc0ejFsR1A0bTJfNkRJaWtjWjJfQnFFNGhneVFwbEt3LTA3Q0NUT2htX1kyREhkWEZna2I2eG5peEp6T0ZRUkZIdHVXTXJQMTMxdE12Y1JSWlQweW1qVERtUXpNNUVQWldLbktUazdhdUYxR0pkc1RVYWdPMHVtTml5OC1FY2FNa2Y4VjZDRdIBrAFBVV95cUxOOEtnWm10VW4xelpVS2pQaWE4cjFkUkJtdzdmZDhic1V0R2QwZlIwZmJoTlIycTFsQTNHMjZiM2o3WVNxVDlkVVFMaGpjTEoxcWlhdmVfdmpJZEF6UEZ4QVlTMDQ4MG55dGFka0gtb3k3MnZHY0RVNDFKVHpXcmJkTklaUkVzVmc4RFlpUTJYREFVYk02UkJxenZxdHgtYVZFeFROMVlKNERJbHlW?oc=5",
-     "source": "NST Online"
-    },
-    {
-     "title": "TSH Resources seeks independent assessment over Indonesia fires, haze - The Star",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdXJab1BDbkFBTFVXYjVWd28xWDc2TFkzRC16YTJ3MlgzVkM3OWREWVk1ckQ5TVQ2OVhCRlppZjc1OW9OSHFhUzM4SjdPbVdzX0ZoUkhpdG9JRGRhamJYZEVBS3ZMV3R1TVpTS1RYSUQ3LUM5SmcyM2xXUUlCTjZsa3F5SFRKRDRTb3NpamJ6dUJwUVdFRFBNa2dsc3RPRTRKd1NKZkZkYW1XTnBaaFZkclNTOHVldzd3VFNNWGxTWW82Xy1IY3g5ZA?oc=5",
-     "source": "The Star"
-    },
-    {
-     "title": "Prolonged haze threatens fruit and vegetable yields in Malaysia - FreshPlaza",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb0hkbmdneFFGZDZ5aWQzMmhhVENybUtaQVZqRHdMR3l0UlJjS244aDV6b2trTk5DeHJ5VjZydHpvdlRZRXhqZktFbXRRelpMYThMdTdRMXpSYV9Ybl9oYU5uRzYwVXZndGJZbmR2anhJRHEzVnFId3p0YkFQdGZ6enVlTTlPdmN3b2pBbkgzUmtBbDRGN0NBNlcxdVVza1pVdVEwVms1QVZ3RlM4N25XVWN3?oc=5",
-     "source": "FreshPlaza"
-    },
-    {
-     "title": "Singapore’s Air Quality Holds Steady As Regional Haze Remains Subdued - BusinessToday Malaysia",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa09jcXFDSC02eVBWTFpDVHRxYlZZTWM1cnUzUnJGQWRMQUVxNThINWw1elMydnktcC1NRC0wU21wT09XMGlLdHJuYjQyMjNsZEJjbENmbTBCQ1lldU9ISDhyZFVJM0FTV0g2Z2t6ek9fVmJteVFER2h6Z0Rfbms0UVVrUllzUlRxNTUxN2RsSWpFZG5WX203SmZDUkd0dUhsUWxDRmZSR1l1ZWVTZ2pWMWxXTQ?oc=5",
-     "source": "BusinessToday Malaysia"
-    },
-    {
-     "title": "TSH Resources volunteers to engage with Singapore agency's independent assessors over haze - The Edge Malaysia",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vQk5ZOUx4eHl2Z0ZaRndiU01ITGV2V3hMUC1YY1FtamstMjZtb2hmLW53MG1PbTdnWXMxN2t5NUIwZS1DaEpPY1RENU1ZX0Jk?oc=5",
-     "source": "The Edge Malaysia"
-    }
-   ],
-   "official": false,
-   "score": 12.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nst.com.my/business/corporate/2026/11/1568785/tsh-resources-agrees-singapore-haze-assessment",
-     "title": "TSH Resources agrees to Singapore haze assessment - NST Online",
-     "outlet": "NST Online"
-    },
-    {
-     "url": "https://www.thestar.com.my/business/business-news/2026/11/02/tsh-resources-seeks-independent-assessment-over-indonesia-fires-haze",
-     "title": "TSH Resources seeks independent assessment over Indonesia fires, haze - The Star",
-     "outlet": "The Star"
-    },
-    {
-     "url": "https://www.freshplaza.com/asia/article/9888261/prolonged-haze-threatens-fruit-and-vegetable-yields-in-malaysia/",
-     "title": "Prolonged haze threatens fruit and vegetable yields in Malaysia - FreshPlaza",
-     "outlet": "FreshPlaza"
-    },
-    {
-     "url": "https://theedgemalaysia.com/node/824110",
-     "title": "TSH Resources volunteers to engage with Singapore agency's independent assessors over haze - The Edge Malaysia",
-     "outlet": "The Edge Malaysia"
-    }
-   ]
+   "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "newcastle united f.c. lwn everton f.c.",
+   "keyword": "纽卡斯尔联 - 埃弗顿",
    "traffic": 100,
-   "published": "2026-11-03T06:00:00+09:00",
+   "published": "2026-11-03T06:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Latest. Matthias Jaissle's team news update: Fernandez-Pardo and Miley latest ahead of Carabao Cup tie",
-     "url": "https://www.newcastleunited.com/en/news/matthias-jaissles-team-news-update-fernandez-pardo-and-miley-latest-ahead-of-carabao-cup-tie",
-     "source": "Newcastle United"
+     "title": "随着巴里一剑封喉+埃弗顿1-0纽卡，英超最新积分榜出炉",
+     "url": "https://m.sohu.com/a/1096360705_121059466?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+     "source": "搜狐网"
     },
     {
-     "title": "Magpies are sweating on recovery of striker",
-     "url": "https://www.magzter.com/stories/newspaper/Liverpool-Echo/MAGPIES-ARE-SWEATING-ON-RECOVERY-OF-STRIKER",
-     "source": "Magzter"
+     "title": "英格兰联赛杯｜埃维顿淘汰喜鹊搭末班车 8强全部诞生",
+     "url": "https://www.chinapress.com.my/20261030/%E8%8B%B1%E6%A0%BC%E5%85%B0%E8%81%94%E8%B5%9B%E6%9D%AF%EF%BD%9C%E5%9F%83%E7%BB%B4%E9%A1%BF%E6%B7%98%E6%B1%B0%E5%96%9C%E9%B9%8A%E6%90%AD%E6%9C%AB%E7%8F%AD%E8%BD%A6%E3%80%808%E5%BC%BA%E5%85%A8%E9%83%A8/",
+     "source": "China Press"
     },
     {
-     "title": "NEWSFEED: Will Osula Injury: How Long Could Newcastle United Striker Be Out?",
-     "url": "https://www.nufcblog.com/post/william-osula-ankle-injury-return-date",
-     "source": "The Newcastle United Blog"
+     "title": "英超前瞻：纽卡多人缺阵盼主场复仇，埃弗顿近期成绩不佳",
+     "url": "https://m.qie.tv/news/app/share/20260395177501.html",
+     "source": "企鹅体育"
     }
    ],
    "official": false,
@@ -458,25 +467,83 @@
   },
   {
    "source": "google_trends",
-   "keyword": "atalanta vs parma",
+   "keyword": "polis",
    "traffic": 100,
-   "published": "2026-11-03T05:20:00+09:00",
+   "published": "2026-11-03T06:20:00+09:00",
+   "category": "Living",
+   "news": [
+    {
+     "title": "Gov. Jared Polis unveils outline for 2027-28 state budget",
+     "url": "https://www.coloradopolitics.com/2026/11/02/gov-jared-polis-unveils-outline-for-2027-28-state-budget/",
+     "source": "Colorado Politics"
+    },
+    {
+     "title": "San Juan River now forecast to rise 4 feet higher than 1911 historic flood in Pagosa Springs",
+     "url": "https://coloradosun.com/2026/11/01/another-storm-southwest-colorado-flooding-evacuations/",
+     "source": "The Colorado Sun"
+    },
+    {
+     "title": "Catastrophic flooding thrashes southwestern Colorado for 2nd week",
+     "url": "https://www.denverpost.com/2026/11/02/colorado-flooding-pagosa-springs-durango/",
+     "source": "The Denver Post"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "assault",
+   "traffic": 100,
+   "published": "2026-11-03T06:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "LASK vs Slovan Bratislava betting offers: Up to £50 in free bets across nine bookmakers",
-     "url": "https://www.squawka.com/en/betting-offers/lask-vs-slovan-bratislava-betting-offers-free-bets-03-11-2026/",
-     "source": "Squawka"
+     "title": "Woman, 48, and boy, 12, arrested after air cadet leader assaulted while selling poppies at Centre on Barton",
+     "url": "https://www.cbc.ca/news/canada/hamilton/12-year-old-assault-9.7406105",
+     "source": "CBC"
     },
     {
-     "title": "Atalanta vs Parma: Lineups, Prediction, Odds & Bet Builder Tip",
-     "url": "https://www.whoscored.com/articles/ymr7Uufcx025JSXJkfCVTw/show/cng111-20261102-atalanta-vs-parma-prediction-1793620174",
-     "source": "WhoScored.com"
+     "title": "Boy and woman arrested after fight inside Hamilton restaurant",
+     "url": "https://cktbnews.com/boy-and-woman-arrested-after-fight-inside-hamilton-restaurant/",
+     "source": "CKTB News"
     },
     {
-     "title": "✅ Atalanta-Parma confirmed teams | Rowe, Pasalic, Romero and Nicolussi",
-     "url": "https://sports.yahoo.com/articles/atalanta-parma-confirmed-teams-rowe-184800195.html",
-     "source": "Yahoo Sports"
+     "title": "Hamilton Police Charge Two Following Assault at Centre Mall That Left Man With Life-Altering Injuries",
+     "url": "https://redfm.ca/en-ca/toronto/news-articles/hamilton-police-charge-two-following-assault-at-centre-mall-that-left-man-with-life-altering-injuries",
+     "source": "RED FM Canada"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "lori",
+   "traffic": 100,
+   "published": "2026-11-03T04:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Watch live: Lori Daybell asks Idaho Supreme Court for new trial",
+     "url": "https://www.ksl.com/article/51643071/watch-live-lori-daybell-asks-idaho-supreme-court-for-new-trial",
+     "source": "KSL"
+    },
+    {
+     "title": "Idaho Supreme Court to hear Lori Vallow Daybell appeal of murder convictions",
+     "url": "https://mycbs4.com/news/nation-world/idaho-supreme-court-to-hear-lori-vallow-daybell-appeal-of-murder-convictions",
+     "source": "mycbs4.com"
+    },
+    {
+     "title": "Court hears Lori Vallow Daybell appeal in killings of her 2 children, romantic rival",
+     "url": "http://www.livingstonenterprise.net/stories/court-hears-lori-vallow-daybell-appeal-in-killings-of-her-2-children-romantic-rival,354928",
+     "source": "Livingston Enterprise"
     }
    ],
    "official": false,
@@ -505,14 +572,14 @@
      "source": "The Korea Times"
     },
     {
-     "title": "Veritickets Debuts at Tmall’s 11.11 Global Shopping Festival with BIGBANG Tickets - vietnamnews.vn",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMkhsZTNSVHhhSTAzRGhxRW1PNFl4a3dqRUxOWThmeHZKOFR2cndJc0pDWENPN0Z6eDBqdS1UNWlmYU15SEVkSFZ3UVQtUmF5bGNlM0tBRGt6a0RDREVnR01KR0l4OWJxRTJ2RnpHU2Nta185RWJGT3FVR09JOTJacmN0U2hnWjNFaXdaY3NkRHR1cXZicDZsNjg3NndZLUJWTTduY1RkbjRPSTRxRTViSVBzeE9uZUZJVkVmcnJKZ09wYWVpVmZCelZnRHI?oc=5",
-     "source": "vietnamnews.vn"
-    },
-    {
      "title": "BTS charms 853,000 fans on Latin American tour - K-VIBE",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nT3hTMEZlUmRWME1HNE9kZk9UWkVsYWpLRGxPRTNGMFNDVms5V2l1dWtwRVVxZ1JldHUzbExSRWp3ZTdGNFhwMUo2ejhQMzNWTVFFNExuNzVWUTDSAVZBVV95cUxOaTBZZzNvcWxkMFJIWXJKRnhtQnFlMldObTllaDZIclRIZDJWalc1ZURQZ3diaU96dTJnOGthVEl5WWlLQ0RwTHFyT0xVY282UFB2eTU3Zw?oc=5",
      "source": "K-VIBE"
+    },
+    {
+     "title": "Veritickets Debuts at Tmall's 11.11 Global Shopping Festival with BIGBANG Tickets - wahanariau.com",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPel9kSTkxSE00ejY1eDl2VWV1QlFOZEgwQ25KTFNlTDFUX2hXc3o0SXpOLWpzUTJKVFlKNWVGM1RfTl9ISFpHS2FNZTU3aDI1NEZNZGFiYllEeDdabDNEZkR1cEVnbGJOU2ZBSml4aXRLN2lnS2FMcFRMTzBtSExKYjkxQ2ZScXdvS2ZkTU11bndJTEliRDVUemdEcy04TldXdWRmUE1VVUtnVDZrSHhEbnhB?oc=5",
+     "source": "wahanariau.com"
     },
     {
      "title": "BTS charms 853,000 fans on Latin American tour - Yonhap News Agency",
@@ -565,63 +632,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "sassuolo vs fiorentina",
+   "keyword": "shirley chow malaysian bowler",
    "traffic": 500,
-   "published": "2026-11-03T02:00:00+09:00",
+   "published": "2026-11-03T01:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Sassuolo 2-3 Fiorentina: Match report",
-     "url": "https://www.violanation.com/fiorentina-match-coverage/23148/sassuolo-2-3-fiorentina-match-report-serie-a-goal-lauriente-pellegrino-njie-mastantuono-valdepenas",
-     "source": "Viola Nation"
+     "title": "Bowling: Bowling legend Shirley passes away at 76",
+     "url": "https://www.thestar.com.my/sport/bowling/2026/11/02/bowling-legend-shirley-passes-away-at-76",
+     "source": "The Star"
     },
     {
-     "title": "Mastantuono’s late winner ends Fiorentina's 52-day winless run",
-     "url": "https://www.washingtonpost.com/sports/soccer/2026/11/02/fiorentina-newcastle-everton-osasuna-deportivo-laliga-seriea/dfee9378-d700-11f1-930a-e08f8086f5ac_story.html",
-     "source": "The Washington Post"
+     "title": "Former national bowler Shirley Chow dies at 76",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/02/former-national-bowler-shirley-chow-dies-at-76",
+     "source": "Free Malaysia Today"
     },
     {
-     "title": "✅ Sassuolo-Fiorentina teams confirmed | Pellegrino, Njie and Adžić calls",
-     "url": "https://sports.yahoo.com/articles/sassuolo-fiorentina-teams-confirmed-pellegrino-162900142.html",
-     "source": "Yahoo Sports"
-    }
-   ],
-   "official": false,
-   "score": 1.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "klasemen pakhtakor vs al-nassr",
-   "traffic": 500,
-   "published": "2026-11-03T01:10:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "score": 1.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "afc champions league",
-   "traffic": 500,
-   "published": "2026-11-03T01:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "A black night: Al-Ittihad fans demand Vicenin's dismissal after the Al-Ain scandal!",
-     "url": "https://www.goal.com/en/lists/a-dark-night-al-ittihad-fans-demand-vising-s-dismissal-after-the-al-ain-scandal/blt8139eb00715ed1d2",
-     "source": "Goal.com"
-    },
-    {
-     "title": "Rahimi against En-Nesyri: Moroccan magic tops the line-ups of Al-Ittihad and Al-Ain",
-     "url": "https://www.goal.com/en/news/rahimi-against-en-nesyri-moroccan-magic-tops-the-line-up-of-al-ittihad-and-al-ain/bltdb48a82eb87655f2",
-     "source": "Goal.com"
-    },
-    {
-     "title": "Vicinha erupts: if we had beaten Abha the questions would have changed, and Al-Ittihad is ready for the Al-Ain battle!",
-     "url": "https://www.goal.com/en/news/vitor-pereira-explodes-if-we-had-beaten-abha-the-questions-would-be-different-and-al-ittihad-are-ready-for-the-al-ain-battle/bltba671adc31b19b78",
-     "source": "Goal.com"
+     "title": "Shirley Chow, Malaysian bowling legend, dies",
+     "url": "https://www.nst.com.my/sports/others/2026/11/1569161/shirley-chow-malaysian-bowling-legend-dies",
+     "source": "NST Online"
     }
    ],
    "official": false,
@@ -671,29 +700,7 @@
     }
    ],
    "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "cheah yee see",
-   "traffic": 200,
-   "published": "2026-11-03T00:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Wedding bells for former national players Kok Siang and Yee See in romantic Bali",
-     "url": "https://www.nst.com.my/sports/badminton/2026/11/1569235/wedding-bells-former-national-players-kok-siang-and-yee-see",
-     "source": "NST Online"
-    },
-    {
-     "title": "Thinaah ke Bali raikan perkahwinan Yee See-Kok Siang",
-     "url": "https://www.hmetro.com.my/arena/badminton/2026/11/1431207/thinaah-ke-bali-raikan-perkahwinan-yee-see-kok-siang?source=widget",
-     "source": "Harian Metro"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
+   "score": 0.4,
    "already_covered": false
   }
  ]
