@@ -1,64 +1,470 @@
 {
- "generated_at": "2026-11-03T23:38:14.914638+09:00",
+ "generated_at": "2026-11-04T00:09:20.971597+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 73, 실패 33)"
+  "evidence": "ok (저장 74, 실패 30)"
  },
- "compared_runs": 5,
+ "compared_runs": 6,
  "spikes": [
-  "taxes",
-  "product recall",
-  "lawsuit",
-  "jon ossoff",
+  "senate election results today",
   "spectrum outage",
-  "emma roberts",
-  "dalen terry",
-  "trump israel",
-  "kedon slovis",
-  "roger marshall",
-  "valentin vacherot"
+  "lego godzilla",
+  "anthem",
+  "scott colom",
+  "emma roberts"
  ],
  "candidates": [
   {
-   "source": "google_trends",
-   "keyword": "taxes",
-   "traffic": 10000,
-   "published": "2026-11-03T23:20:00+09:00",
-   "category": "Taxes",
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-04T00:09:21.009217+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -2,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-04T00:09:21.009243+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -2,
+   "in_window": true
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security payment",
+   "traffic": 0,
+   "article_count_24h": 30,
+   "article_count_1h": 14,
+   "published": "2026-11-03T22:53:08+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "Two economists studied California's billionaire tax. They reached wildly different conclusions",
-     "url": "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
-     "source": "NPR"
+     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOWwtamVHLWk4WmNSRFByR3NEdUJ1RUdhSzFhbTFMX0tTb2FDazJ0dHI1dlBfTTBQSHRNY08xOW53aHBzdWlmei1hNlB1ZktZQnFZdjBySWFIbnJTa244a0hvU1RKWm1RYWpLdXhIRmVWNmJ3bF9ETW1DUWgzdE5XZDVsd2tKcTVqbnBWQS05SklwcE1BcHI5aURZZHc2anNTOVU2QmJpRDlGZjhqb0k5cGxSS2xQV2JmVEN4aWw0VGZJcERTdmxRZ1d0eWxJZFlZNTZiQQ?oc=5",
+     "source": "Yahoo Finance"
     },
     {
-     "title": "Letters to the Editor: Tax cuts for the rich don’t help us. Just look at the national deficit",
-     "url": "https://www.latimes.com/opinion/letters-to-the-editor/story/2026-11-03/wealth-billionaire-tax-deficit",
-     "source": "Los Angeles Times"
+     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55TTlDT3F2M0ktQ1BRd3I3bUVpUW5rNTFvQXpqcG5UQ3JUX0pUUC1pWG10UUduTmdpanRjWUI2Ri1RQjQ0dnJVTnlYc0pZbDVJRUJUc3plVXdnSjlkV1h0bEFobDFQcVdMQ0c5RWJNZjBycHk5cGJ6ODRzbGFCQQ?oc=5",
+     "source": "AOL.com"
     },
     {
-     "title": "What the voter records of California’s billionaires reveal",
-     "url": "https://www.politico.com/news/2026/11/02/what-the-voter-records-of-californias-billionaires-reveal-01144064",
-     "source": "Politico"
+     "title": "Social Security Payments in November 2026 - Why Some Checks Are Arriving Earlier Than Expected - https://capitolskyline.com/",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IV2FjVlBWMWZqRHE1cmxxbDZkSFQzUXZSenVKNHp3dUJIemVxWUFSb2xDS29tdUZvVjNzYlI2dWk3ak8zMmlYRHZXRVMwYUliZktpaTZyVmFkWW5wWGl0U1JMajdMUkNSd2tHTWloa0YtYlJHYXpYR3lBcw?oc=5",
+     "source": "https://capitolskyline.com/"
+    },
+    {
+     "title": "Social Security benefits could be reduced in 2032. Here's what to know - NBC 5 Chicago",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qcWNRNVZ0d29SbjFMQWhIVms4bkgyVURNMmEyanNvcVJ6ZzBFV25QT0lUbG9INXJ5a2lHRjJfNzVwSFJDUUdFS0YzcVRHQ1dlSEQwR2xQQmVqcjdVZlY5SjZHYWhNVU1yVkVUMzQzN3NMR2RybmEwMzdiMNIBgwFBVV95cUxNeEhqR0lrYTgzaTNoRDJUekhhdl9ZMlFqbHY1RlAzRWRaeTVyT3MtT04ta2ZCRjNhbGdzeHRVZU01a0R4MURLVmJZUWZrNzZUUW1CSG5OWWp3SGNESXZRNHhtLWxDT2xMMkZjMHJvRlhhVHhlMU90cGlPN2g2UzZxYzNkdw?oc=5",
+     "source": "NBC 5 Chicago"
+    },
+    {
+     "title": "Major Social Security change could cost some workers $967 a year - AL.com",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMll5Q1ZsZzV2ekl1WXNJaV8yQ2V3RHNYVnpoQmRtMGtFZ2l5WkJTMDVxbzJJYm1TMGQ4UVgwaF9RNGRqSzRIT2ZBM3VGbHZFVjJBeFo3a2hjb0VBcDRDaE9vRG1kUmJwa054VG42dzBNY0RVNUh4OFJmUlhtVHRNRk82ZDc5SXBaSG0xNzFwSl9XeVcxb0Z4QnN6enI1OW51alHSAbYBQVVfeXFMTTdITlA5N0tvVW1VZ0NTWG1sbTNPMVRTNnF1cngxZjI1UXkybng3dlAySVY3TGFSNWZ2SVV3LWtTTW5udWRwbkZvY19oUzRUN1loVHh1UEkyblAwUEFBZ2ZMU2RVeHVsUzQ2V1drNHp5UVRMZmg3X19nX2preFdqS0FlN1pJeHVvQmRiR1FjVW1oS0xUcUowOHA3YzhxT3MxbUYxaVZZd0tBdWNmc1FmR0I4TFo4eFE?oc=5",
+     "source": "AL.com"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 97.5,
+   "score": 80.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
-     "title": "Two economists studied California's billionaire tax. They reached wildly different conclusions",
-     "outlet": "NPR"
+     "url": "https://finance.yahoo.com/personal-finance/banking/article/social-security-november-payments-when-to-expect-your-next-check-135308236.html",
+     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
+     "outlet": "Yahoo Finance"
     },
     {
-     "url": "https://www.latimes.com/opinion/letters-to-the-editor/story/2026-11-03/wealth-billionaire-tax-deficit",
-     "title": "Letters to the Editor: Tax cuts for the rich don’t help us. Just look at the national deficit",
-     "outlet": "Los Angeles Times"
+     "url": "https://www.aol.com/articles/7-things-expect-november-2026-100000000.html",
+     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
+     "outlet": "AOL.com"
+    },
+    {
+     "url": "https://capitolskyline.com/social-security-payments-in-november-2026-2/",
+     "title": "Social Security Payments in November 2026 - Why Some Checks Are Arriving Earlier Than Expected - https://capitolskyline.com/",
+     "outlet": "https://capitolskyline.com/"
+    },
+    {
+     "url": "https://www.nbcchicago.com/news/local/social-security-benefits/4010791/",
+     "title": "Social Security benefits could be reduced in 2032. Here's what to know - NBC 5 Chicago",
+     "outlet": "NBC 5 Chicago"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security COLA",
+   "traffic": 0,
+   "article_count_24h": 43,
+   "article_count_1h": 6,
+   "published": "2026-11-03T22:40:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Social Security's 'Trump Bump' COLA Just Hit a Milestone Not Seen Since 1997 - FinanceBuzz",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VeHFHNTIyXzZ6bTROcFQ4UURhTlR5SVZGOXBqdTcwTW40YklCcmpJVHI3alRkZEFfR2x1OVI3M3NQTXVBcndJNnFULXMwUDBFeVc2bG90VHpCMkhIMkc2ejZYTmhNN1lvZWc?oc=5",
+     "source": "FinanceBuzz"
+    },
+    {
+     "title": "Social Security’s 2027 COLA Is the Highest in Years. Here’s Why You Shouldn’t Celebrate It Just Yet - The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbFdLN3Q1TDJxUnBNeFVFVmJOOEJObGw0aVZsQlRfSjROT1NvT1FVU2RQX29kMFpJclJVTW5KVFI2eV93X0JFM1BlNzZyWXkzVExhaHU1VnVWUm9jT2N3UE9yYVdKeTJZSW1RaENVUU1vVXBSVm1LUy0tbTZXVVAyektoNmVONUVvSHgzZ3BsUlVuLXRQU3NpYTNPXy02Q3hyNFY3VzNGNE9qS1R3TjUzTzBtVllCQnNqaUlKbFQ0TmVwOWRfNVFtLXF0TlJfbVhvVEJBU1B0VzhfZw?oc=5",
+     "source": "The Motley Fool"
+    },
+    {
+     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55TTlDT3F2M0ktQ1BRd3I3bUVpUW5rNTFvQXpqcG5UQ3JUX0pUUC1pWG10UUduTmdpanRjWUI2Ri1RQjQ0dnJVTnlYc0pZbDVJRUJUc3plVXdnSjlkV1h0bEFobDFQcVdMQ0c5RWJNZjBycHk5cGJ6ODRzbGFCQQ?oc=5",
+     "source": "AOL.com"
+    },
+    {
+     "title": "Social Security’s COLA helps but Congress must do more - Tri-Cities Area Journal of Business",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WamI4WmFiN1VEcWw0dUM1SUJWN3JybVlPUm5GZmkyVjhKNVpwY2w2Tzk5SUMxdmRGMk1QOE54ZEdQTW9POWFKcHA2LV9WX1JUa0tCSDR1M0w0SHotZEpoelZHUWlVX0dtOWc?oc=5",
+     "source": "Tri-Cities Area Journal of Business"
+    },
+    {
+     "title": "2027 COLA: Key Social Security deadline looms for people wanting to learn new benefits early - OregonLive.com",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdTF2WWdvNVJrOFgxejd1QmFaY1oyMXJyY3I2ZkdhUnlVaDNDSmlxYkpxUmx2TVU0OFVVcFRPam9ZR3ZBNl9CVFNxLU9JY0QtckFtRFBNZG1GWG9EcDlwYVlLVkh5OG9leDJ5QmktZXRScGNWS2x3dDVyeTl4YjlqczEtZHU1RElRa1hjWGJsUXdxb2trUjBkOExNVTlIYUN6N0RKYlBUYnRwbVFFNkptMmVjbkxlYzA0M3pxS0xBVG5zXzgzbl9KQVlnLTVGSWhOV05GeQ?oc=5",
+     "source": "OregonLive.com"
+    }
+   ],
+   "official": false,
+   "score": 80.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://financebuzz.com/trump-bump-cola-historic-milestone",
+     "title": "Social Security's 'Trump Bump' COLA Just Hit a Milestone Not Seen Since 1997 - FinanceBuzz",
+     "outlet": "FinanceBuzz"
+    },
+    {
+     "url": "https://www.fool.com/retirement/2026/11/02/social-security-s-2027-cola-is-the-highest-in-years-here-s-why-you-shouldn-t-celebrate-it-just-yet/",
+     "title": "Social Security’s 2027 COLA Is the Highest in Years. Here’s Why You Shouldn’t Celebrate It Just Yet - The Motley Fool",
+     "outlet": "The Motley Fool"
+    },
+    {
+     "url": "https://www.aol.com/articles/7-things-expect-november-2026-100000000.html",
+     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
+     "outlet": "AOL.com"
+    },
+    {
+     "url": "https://www.tricitiesbusinessnews.com/articles/ro-nov-2026",
+     "title": "Social Security’s COLA helps but Congress must do more - Tri-Cities Area Journal of Business",
+     "outlet": "Tri-Cities Area Journal of Business"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "SSI payment",
+   "traffic": 0,
+   "article_count_24h": 25,
+   "article_count_1h": 5,
+   "published": "2026-11-03T22:53:08+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOWwtamVHLWk4WmNSRFByR3NEdUJ1RUdhSzFhbTFMX0tTb2FDazJ0dHI1dlBfTTBQSHRNY08xOW53aHBzdWlmei1hNlB1ZktZQnFZdjBySWFIbnJTa244a0hvU1RKWm1RYWpLdXhIRmVWNmJ3bF9ETW1DUWgzdE5XZDVsd2tKcTVqbnBWQS05SklwcE1BcHI5aURZZHc2anNTOVU2QmJpRDlGZjhqb0k5cGxSS2xQV2JmVEN4aWw0VGZJcERTdmxRZ1d0eWxJZFlZNTZiQQ?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "Social Security Payments in November 2026 - Why Some Checks Are Arriving Earlier Than Expected - https://capitolskyline.com/",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IV2FjVlBWMWZqRHE1cmxxbDZkSFQzUXZSenVKNHp3dUJIemVxWUFSb2xDS29tdUZvVjNzYlI2dWk3ak8zMmlYRHZXRVMwYUliZktpaTZyVmFkWW5wWGl0U1JMajdMUkNSd2tHTWloa0YtYlJHYXpYR3lBcw?oc=5",
+     "source": "https://capitolskyline.com/"
+    },
+    {
+     "title": "When Protecting Benefits Gets in the Way of Building Independence - Advisor Perspectives",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHdaWXNyMDJLZEN3dC1NT3VFY21qOFNRZGt0a3hTVFlNZ1dzbllRSFJ6MkNqNVR5bXRETWRLTk54SmcxcEpITWpXOGx2NnBRcElpQkdXU0tBczlkOTRCbXVwN0piRml4NWU4SFBmcXdVbWpONnFNYnFTMDF1dGxoYzRpaVlSY29NbTFSX0dsX1VyWk5MTk5lRkFEbFpLZWNaZVdGdnlfa0FfUQ?oc=5",
+     "source": "Advisor Perspectives"
+    },
+    {
+     "title": "Social Security payments in November 2026: Nov. 3, 10, 18 and 25, and why one date moved for Veterans Day - Nacionale",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMTZ4OXBKb2liSm5VWU5kWXAwNzRZUEhWcEx4LS0zRVR3MWkyV2xaNk9NUVJtdUZBWXJ1VGQxaTFWYkZnOWp0ZEo5b2IwdHJ1WGRkLXdKNlp1cnN3cXpDazBSdGFLc19YUUdnY0tNVDNTcjZieWQ0SHd3NUpJNkhQajhWdHF0QWQ5VDBaeG5CTWw3cVBDdE1hcGNxVlZLRnZp?oc=5",
+     "source": "Nacionale"
+    },
+    {
+     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55TTlDT3F2M0ktQ1BRd3I3bUVpUW5rNTFvQXpqcG5UQ3JUX0pUUC1pWG10UUduTmdpanRjWUI2Ri1RQjQ0dnJVTnlYc0pZbDVJRUJUc3plVXdnSjlkV1h0bEFobDFQcVdMQ0c5RWJNZjBycHk5cGJ6ODRzbGFCQQ?oc=5",
+     "source": "AOL.com"
+    }
+   ],
+   "official": false,
+   "score": 80.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://finance.yahoo.com/personal-finance/banking/article/social-security-november-payments-when-to-expect-your-next-check-135308236.html",
+     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "url": "https://capitolskyline.com/social-security-payments-in-november-2026-2/",
+     "title": "Social Security Payments in November 2026 - Why Some Checks Are Arriving Earlier Than Expected - https://capitolskyline.com/",
+     "outlet": "https://capitolskyline.com/"
+    },
+    {
+     "url": "https://www.aol.com/articles/7-things-expect-november-2026-100000000.html",
+     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
+     "outlet": "AOL.com"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "SNAP benefits",
+   "traffic": 0,
+   "article_count_24h": 51,
+   "article_count_1h": 10,
+   "published": "2026-11-03T20:04:09+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Many WV SNAP recipients will have two sets of work requirements to keep food assistance, healthcare - West Virginia Watch",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSWRCT21JcnFvN3hyakwybXpNblBXVWp0OEdqRFlnTzg4eVNPeWhJTXM0dWRQZUVOVk5GQktGZmh3VVI4MFM0aGZJVGhBbUJBV0tUb0hPaWR1VlFqOFh4WnhvSS1LNVZ6U1RLY1FyUjZmeEhUQU5KdWR2MmlycElCaVlfaWFLWWEwVjQwMEtJY3lBb0hGSkhCMGdxQVNMN2lDWlROMDVQd0dOc0NFendoaVNCR2l6VEg1QXRoQWtjYjFiOHhRQkZxRzFnd3VtbjI4alFkUk5wbw?oc=5",
+     "source": "West Virginia Watch"
+    },
+    {
+     "title": "Seasonal jobs and SNAP Benefits: What Oregonians need to know before the holidays - Tillamook Headlight-Herald",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOak1vWEg1LVZvRGNncGRlMUpkT1F2TUtQSktnR3dBZDRIbVhtaVdkOExCdFl2UDd6dTNPMWppZHctdnI0MmxvTURCdDVsdVVNMWxHT3kxRy14SHBEaUVJckwxWWJITlMwVlZJcFlxdl80UDZ0RXNSaW1mLXlYVXc0NWhUamctUHFTU0hGQjNNdGctbjBrcDhFYkRnRlZ6ZVVGd1VXSEdEUnJGNzJWUFl4MDg3VTdIYkd6Q2tvQ2U5MElpbW8yM0lEQXJCakFJUjJzSGhDQTFGNkFCX3BzYzczX2pNYlR1MmRzXzZSdzFlZWhHbGcwNGl3VFk1eTBtT3pReGlUZUxJOA?oc=5",
+     "source": "Tillamook Headlight-Herald"
+    },
+    {
+     "title": "SNAP food and drink restrictions expand, pressuring CPG sales - FoodNavigator.com",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHZPeVBBUUE0R2hzYW5odlNzZmYtaFE5anR5UUdqektxVjRHeHRuMk9lMXdoWjFROV9Mc0JXWDJocGRKc1pEbzRpblNlS0xxUGEtcGpwTlR0bmE5VWgtbWgxREYzc0llOC1pVDdrQWtpVjdVbWxsRE1wX3JTSjNIeWtSQXZxdnhNNFlCUHZIOEpwckt0bmhPQmpB?oc=5",
+     "source": "FoodNavigator.com"
+    },
+    {
+     "title": "Indianapolis man pleads guilty after stealing nearly $100 thousand in SNAP benefits - 95.3 MNC",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM2hfWXlfLUNTQXBPOFNmM25NRjBNbjVpSHNOOTdzV0FwOHgwbE5LUGRpN0dHWndoOG9kZV9iajVrZWRWSjQ2YVU4RTBYbFRVYjk5OVZIZ21XazNxdmU0WnVsRkhrdm1JTkpxbVo4aVowOFphOUU2RlMyMW9xbXFIa1d1cjI3cTNSUjNvMXc3YU5CRHFVTWVvdi1ObWhUelVRTGtpaUZyY3F1OV9qal9mVjQ1dkZPX09s?oc=5",
+     "source": "95.3 MNC"
+    },
+    {
+     "title": "Changes are Coming to Snap Benefits for Iowans - KELO-AM",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJZG5qVHhOOURNcTBESVI0RXc0a21CSUhKTjR4MEQyckptNUZac2pmdTVIZ3hEZ2xMQldxUnV2UUVnS3pYS19rbXhHbw?oc=5",
+     "source": "KELO-AM"
+    }
+   ],
+   "official": false,
+   "score": 80.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://westvirginiawatch.com/2026/11/03/many-wv-snap-recipients-will-have-two-sets-of-work-requirements-to-keep-food-assistance-healthcare/",
+     "title": "Many WV SNAP recipients will have two sets of work requirements to keep food assistance, healthcare - West Virginia Watch",
+     "outlet": "West Virginia Watch"
+    },
+    {
+     "url": "https://www.tillamookheadlightherald.com/news/seasonal-jobs-and-snap-benefits-what-oregonians-need-to-know-before-the-holidays/article_20a73fff-4f56-5746-82da-ae6aadc2bfe6.html",
+     "title": "Seasonal jobs and SNAP Benefits: What Oregonians need to know before the holidays - Tillamook Headlight-Herald",
+     "outlet": "Tillamook Headlight-Herald"
+    },
+    {
+     "url": "https://www.foodnavigator.com/Article/2026/11/03/snap-restrictions-expand-to-four-more-states/",
+     "title": "SNAP food and drink restrictions expand, pressuring CPG sales - FoodNavigator.com",
+     "outlet": "FoodNavigator.com"
+    },
+    {
+     "url": "https://www.953mnc.com/2026/11/03/indianapolis-man-pleads-guilty-after-stealing-nearly-100-thousand-in-snap-benefits/",
+     "title": "Indianapolis man pleads guilty after stealing nearly $100 thousand in SNAP benefits - 95.3 MNC",
+     "outlet": "95.3 MNC"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "election day",
+   "traffic": 0,
+   "article_count_24h": 100,
+   "article_count_1h": 100,
+   "published": "2026-11-03T20:00:29+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Live fact check: Election Day 2026 - PBS",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0UUFHR0FTMDdueXJxTkl3M1JOSEsweVdUX1lGV1FqajZIZ2xuTTI4WEw4bHVabWl4VWFvdlVnLUhTTjN0RkxPaUlMTjNOVFF4cEN1amRtSFlRR20tX3R4OXpuVGd2TnB4MW4zdGdaQk1JemZoN240U0pLMNIBgAFBVV95cUxPcG1yLTQyZ0dLQWRtcTBhemxPa0lYVElqXzFMVEhLRURPVktPblJpMDd4aVR3NFFMTWpIaF9vS1Z6Vk90UFFZcVB6TlV1bUJQenB0Qy03em5TMXhpNGdObU1NWDRZMzIxUnltdVBVNFBaamJYdGMxM2xNUnMzOUc4Sg?oc=5",
+     "source": "PBS"
+    },
+    {
+     "title": "Election Day Could Be a Rainy One in Some Areas - The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRWlISkdQMGRFOEV5eXVRb2I0aG9ZMWNOeElWWEZzTFNyRXY2NWo1VGxHdU1WeVpaaHN1dDR0b2hBM3IySDhEY1FhRE5uRVl6ck0tNktTTHNYcW5SRUhZQTMyZ2kzc2hIODRyWFVIaEFTZkx5aUFJSVFHVUhndWxEQ2laVlpuQQ?oc=5",
+     "source": "The New York Times"
+    },
+    {
+     "title": "Voting begins on last day to cast ballots in US midterms with observers keeping close watch at polls - AP News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb0VlcDd4VEtEWWtPYUNnck5rekRyWlBCQmc5ZW9odGVWVDlLdDN3NlZzZHRuMXk5TDZ5YjY4QmpKc3RZc2RaTkVGc3hEbEIxb2c4aFRhNGhPM0gtSlRsaDM1Y2V3RWYwbXBVTjVBYlU5TnhLU0hiLVpfTldKbXg3UDZxbzEwMEppSEN0YzM1SDlrb0xETjMzWEtqSnNlMUhUSFE?oc=5",
+     "source": "AP News"
+    },
+    {
+     "title": "Minute-by-minute updates on the 2026 election - Votebeat",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUxvY05zU0dBdUpzcGFwS3JvZURjSzhRMWo0aXN6dXM5bjBJRERfRGNnWGdfUVZua1k4dHVNUmtZZ0QwSDlLaDJNRmNsb1hST3dsN0hHeTZmZjJQamtJQndxajRCeUhJZzNPZmFXNHNiT2pDa1pkWklKWnFOYUFjcHpfWF82TnkxSU45Vk5GZXByQQ?oc=5",
+     "source": "Votebeat"
+    },
+    {
+     "title": "Election Day is here. Here’s what Houston-area voters need to know - Houston Public Media",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTGphMWgwZ3dwekE2LUxDdmR4ai1vdV9QcU1vZHNuaVk0eFd0Sk40VVAwUUpxeDVUUFc5QVBmM2tNemN2NlQ0RWRtdXVnR2pSaVlGcUNTakI0OS1nbFpmYVI2aXdCdnBrUXJRU05OWjlwUEdQazM3MjVQR0FsT0VSejFJa01JNnlqUTF0eWliUURIUmFRNFBZeUkzUEtuNDVTLTZhSHYyY2w4Nm5xUGRreU9sYTIzZW1kOVRXVENITjJWREppUGpwWjZRS1BLS0FnQXJ6TVZWellJejBqWHg3VtIB6AFBVV95cUxPN0xRY01pWjZhNFZvRk9IQXNhU0xEUkRqY21WZVRndVgzN0l0eHFKSThWZXdVbHZZMXBIRW50SmViRlhIMlBKTTRkMEhEWUdqR0swRVBqSXY3Rlk0VGtueEh4ODBmczF1ZUxxWi1OZ0MtNlVUZGdoM2pTejdKNEpUV044ckEyaHpRdjI0ZXctb0RGVnU2QlF1R1I1dEVuc1JuSi1Nb1JObG1KNmgzVElaTFZpRVpLcVV1UVZBUUNkR1NPN0FubktNbTZEdHdScUV3X1ljb1BTLXpubm5ZUUVaMFBuLXJVeUZS?oc=5",
+     "source": "Houston Public Media"
+    }
+   ],
+   "official": false,
+   "score": 65.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.pbs.org/newshour/politics/live-fact-check-election-day-2026",
+     "title": "Live fact check: Election Day 2026 - PBS",
+     "outlet": "PBS"
+    },
+    {
+     "url": "https://www.votebeat.org/national/2026/11/03/election-day-2026-live-blog-midterms-trump/",
+     "title": "Minute-by-minute updates on the 2026 election - Votebeat",
+     "outlet": "Votebeat"
+    },
+    {
+     "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/11/03/565891/election-day-harris-county-polling-locations-how-to-vote/",
+     "title": "Election Day is here. Here’s what Houston-area voters need to know - Houston Public Media",
+     "outlet": "Houston Public Media"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "early voting",
+   "traffic": 0,
+   "article_count_24h": 100,
+   "article_count_1h": 56,
+   "published": "2026-11-03T22:00:21+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+     "source": "NBC News"
+    },
+    {
+     "title": "Live Results: Texas governor midterm election - PBS",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTDlkLVdLSG0weGo3TUJsUUdUVHo1LVhsejNyRmFOZjFmZkgzWmhPdkNDbWxSYWtSQlZKTkJmNldjZklfaWtlNU5iempQQldPTWR0SU52NGJSX0ZfNHNUTFMtR2h5NTMyWXd3NHEtVGNWVE1OVzU4TGZUaG1YR2FvRHJtNXJ2dFhqR3fSAY8BQVVfeXFMT3BXZEJDV2ZsdVNQaE5mV0ZNbGFLNU1vT3kwSC1semR3MkhaWVBBU2kzU0xxRTRsVE9pd0ZCeExhZjRGa0RxMmdtSEpNc2tmOVQ5S2xGSTJmOUFYQWlWZG10anNQVV9MTndqQnVkd0FzTjRtbDZOXzN6STF6QmJJVi03dEtWXzVtN3BTckhzQjQ?oc=5",
+     "source": "PBS"
+    },
+    {
+     "title": "Early voting turnout across Arkansas surpasses two previous midterm elections - The Arkansas Democrat-Gazette",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNHp2MmdhY3V0blczdVNOZ21GRXRGX1RyR2NzY1VGMmZ4Xy1rUXJEVDdYYVFfVG04RnhJajRJeU9YaXN4cUliTzVYX2NScDVZUGNaN0QyZFQxN1F1RGJkVHpIeUVZOWJDMWpVRG13RXhkMmZxbk5TN3dHZXhwRHhXRHV4OG1rbFZ3R3B2TTVOUzN3RjJxczZrN0p2VQ?oc=5",
+     "source": "The Arkansas Democrat-Gazette"
+    },
+    {
+     "title": "Missouri could approach turnout record as ballot measures drive interest - Missouri Independent",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSldtc2JqMUlYNnRTenZwWGtvc1c0c2x1V2dtWDlSZkRVbV9NSEhRU19jaWFnb2xQcjNTemlia2xfd20zVnJIMnZNQ0Q2Z3VuRUNQRWJpZFdScGxOQkFjelJ5NWF5RE15WDNXNEpNYnY1eGNHbkxXNDVZZVhUUGhGWlA3dzZ2ZEpaV2lkMVN0Sy03eG0xSmEtN1pHdEVwc2VNYVd0X0FySno5MmRqQzVrTm1JX3RNQ2c?oc=5",
+     "source": "Missouri Independent"
+    },
+    {
+     "title": "First early voting option for midterms drew around 5,000 New Haveners - Yale Daily News",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV3NabzVmNmpmOVRnbXVJN2Q5NW5zV0wxamhqamZXcTRsUklHVU5RWWxoemU2V0RHbmh3N3FQcU13UkpvWlpHb0RqMXdZczA0WV9ITHoxYnphM3luaVB0T1pUOWkyRWNkRk94VVRmRFVsQV85RGJsWjkwQUlpdHZLVm5yS1VMcy1GRFBpanp4OGFKMmdKWUROTkZQYWRKQkUzbjVqdGhYOA?oc=5",
+     "source": "Yale Daily News"
+    }
+   ],
+   "official": false,
+   "score": 65.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+     "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
+     "outlet": "NBC News"
+    },
+    {
+     "url": "https://www.pbs.org/newshour/politics/live-results-texas-governor-midterm-election",
+     "title": "Live Results: Texas governor midterm election - PBS",
+     "outlet": "PBS"
+    },
+    {
+     "url": "https://www.arkansasonline.com/news/2026/nov/02/early-voting-turnout-across-arkansas-surpasses/",
+     "title": "Early voting turnout across Arkansas surpasses two previous midterm elections - The Arkansas Democrat-Gazette",
+     "outlet": "The Arkansas Democrat-Gazette"
+    },
+    {
+     "url": "https://missouriindependent.com/2026/11/03/missouri-could-approach-turnout-record-as-ballot-measures-drive-interest/",
+     "title": "Missouri could approach turnout record as ballot measures drive interest - Missouri Independent",
+     "outlet": "Missouri Independent"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "REAL ID",
+   "traffic": 0,
+   "article_count_24h": 44,
+   "article_count_1h": 8,
+   "published": "2026-11-03T21:17:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Can you fly this Thanksgiving without a REAL ID? What TSA says - Asbury Park Press",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVWlpU0N1SHhuY2cySEN6MUlWZWZNRHU0MFkzT1NGM2x5eEdOMlVDRXJlXzYzb2t6WEZxRE1ubVUyeTBRcTZ2a0dBcURlT204OF9LQmFhVFRENUQ2VWVEeXVLS2pjR3BRZUY1WlJqQnpwdEYybHFBcVNPSDZBZEd1aEl2RXVfcS1rWUV1RHhWSkEzWnBxZ2I3LXpKMndPNFRITGZIQ0N5dHVpdnY4ODZBRTZfajVBZUpOM2o1dUZfc3Zvdw?oc=5",
+     "source": "Asbury Park Press"
+    },
+    {
+     "title": "Steamship Authority Launches Year-Round Discount Program For Veterans - Nantucket Current",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ2RGdUx5Z1dfNXFIRGFQa1JsMzNESFJRWC1MX0hOaXJickwtcmNXbms0ajl6ckJGV1hHOW1DSFRrTFpvVGpCaFNKXzVvMWd5NVdsLWtHR1hNOWpOOW1tMzJzN3YtZnRONXJHdGhJNTdBTklTb0ZGNV9FRHQ4QVlvVmpUZlFBdVlER3EzNGJlQzgyVF8tTDRVWXBmSHg5N3BucGFjS1dB?oc=5",
+     "source": "Nantucket Current"
+    },
+    {
+     "title": "No REAL ID for Thanksgiving travel? How TSA ConfirmID works - Asbury Park Press",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQnVkMVJkU053QXhXMVBaSFZud0JlSm5PT3ZETDRsMjAxZGlEVFNTSUl2d0ZJQmZtQ2RnRUZTU0ViUmRwbUk2YU5RUER0WTZvLWYzWjZTYzJuYVlZODUyTFVZZDFEaTl6cS1QMnNyVC1qbmVNSGZUVks2aklReUxNdFVzNmNiNkM0X1N1RTBLb2NSbE90MmtndDVzNHJNSVhFTVNua1JxdWFBSTlLLXI0T1FDOA?oc=5",
+     "source": "Asbury Park Press"
+    },
+    {
+     "title": "Safeguard Democracy - The Arapahoe Pinnacle",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZENTY2haS0xIVWZ4bUhiUlVvWXhNaWhKNmhuc3lTZzVQX185TS1heURzVHdhdm50cHNZVVNrMm94ckdCUWdHTDNDcjY3RzV5anRIMjM2RGZhZHhWYXRPa2JvREhjdk1GeUR2WHVNYzEtSmJ2MUhyVHpUYmU1dC1tdWg4YUV1d0dJblkxN2ZPWVpXczQ?oc=5",
+     "source": "The Arapahoe Pinnacle"
+    },
+    {
+     "title": "What do I need to bring to vote? Oklahoma polling locations, hours on Election Day - The Oklahoman",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOd3RfNVIwUV92ak5OQmVUTUxqdzhqZTlJVjJLNWFuVWtLQzRua0FMeUNuVGNic2pZWGtsV0NwVUtGeE1BZzVwU1EtUlpFTW1pVUdYWU1sZjVBQTlHdWRsZ3N5SXJlSFdNTTZRcXJyVnNaSGZKdU9PUDVYWVJWX053OGFYODFKNF9sa2c2NnVmVDRXM0p3R0hPR19iTEtCd0xMTmxXUjRhMVN1dDVZTERoLTVGUUtxY2VleHEzLXdBNEprcW56OUM2QzJ2allQdDlxV041YWFVa19BcGFhUUstNUVMNA?oc=5",
+     "source": "The Oklahoman"
+    }
+   ],
+   "official": false,
+   "score": 65.0,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://nantucketcurrent.com/news/steamship-authority-launches-year-round-discount-program-for-veterans",
+     "title": "Steamship Authority Launches Year-Round Discount Program For Veterans - Nantucket Current",
+     "outlet": "Nantucket Current"
+    },
+    {
+     "url": "https://arapahoenews.com/27799/opinion/colorado-ballot-measures-2026/safeguard-democracy/",
+     "title": "Safeguard Democracy - The Arapahoe Pinnacle",
+     "outlet": "The Arapahoe Pinnacle"
     }
    ]
   },
@@ -67,7 +473,7 @@
    "keyword": "product recall",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 16,
+   "article_count_1h": 15,
    "published": "2026-11-03T22:56:00+09:00",
    "category": "Recalls",
    "news": [
@@ -98,9 +504,7 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 7.4→16건 (2.0배)",
-   "spike_bonus": 20.2,
-   "score": 91.3,
+   "score": 65.0,
    "already_covered": false,
    "evidence": [
     {
@@ -116,356 +520,11 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-03T23:38:14.950490+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -2,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-03T23:38:14.950520+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -2,
-   "in_window": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "social security payment",
-   "traffic": 0,
-   "article_count_24h": 29,
-   "article_count_1h": 9,
-   "published": "2026-11-03T19:00:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55TTlDT3F2M0ktQ1BRd3I3bUVpUW5rNTFvQXpqcG5UQ3JUX0pUUC1pWG10UUduTmdpanRjWUI2Ri1RQjQ0dnJVTnlYc0pZbDVJRUJUc3plVXdnSjlkV1h0bEFobDFQcVdMQ0c5RWJNZjBycHk5cGJ6ODRzbGFCQQ?oc=5",
-     "source": "AOL.com"
-    },
-    {
-     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOWwtamVHLWk4WmNSRFByR3NEdUJ1RUdhSzFhbTFMX0tTb2FDazJ0dHI1dlBfTTBQSHRNY08xOW53aHBzdWlmei1hNlB1ZktZQnFZdjBySWFIbnJTa244a0hvU1RKWm1RYWpLdXhIRmVWNmJ3bF9ETW1DUWgzdE5XZDVsd2tKcTVqbnBWQS05SklwcE1BcHI5aURZZHc2anNTOVU2QmJpRDlGZjhqb0k5cGxSS2xQV2JmVEN4aWw0VGZJcERTdmxRZ1d0eWxJZFlZNTZiQQ?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "Social Security benefits could be reduced in 2032. Here's what to know - NBC 5 Chicago",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qcWNRNVZ0d29SbjFMQWhIVms4bkgyVURNMmEyanNvcVJ6ZzBFV25QT0lUbG9INXJ5a2lHRjJfNzVwSFJDUUdFS0YzcVRHQ1dlSEQwR2xQQmVqcjdVZlY5SjZHYWhNVU1yVkVUMzQzN3NMR2RybmEwMzdiMNIBgwFBVV95cUxNeEhqR0lrYTgzaTNoRDJUekhhdl9ZMlFqbHY1RlAzRWRaeTVyT3MtT04ta2ZCRjNhbGdzeHRVZU01a0R4MURLVmJZUWZrNzZUUW1CSG5OWWp3SGNESXZRNHhtLWxDT2xMMkZjMHJvRlhhVHhlMU90cGlPN2g2UzZxYzNkdw?oc=5",
-     "source": "NBC 5 Chicago"
-    },
-    {
-     "title": "Major Social Security change could cost some workers $967 a year - AL.com",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMll5Q1ZsZzV2ekl1WXNJaV8yQ2V3RHNYVnpoQmRtMGtFZ2l5WkJTMDVxbzJJYm1TMGQ4UVgwaF9RNGRqSzRIT2ZBM3VGbHZFVjJBeFo3a2hjb0VBcDRDaE9vRG1kUmJwa054VG42dzBNY0RVNUh4OFJmUlhtVHRNRk82ZDc5SXBaSG0xNzFwSl9XeVcxb0Z4QnN6enI1OW51alHSAbYBQVVfeXFMTTdITlA5N0tvVW1VZ0NTWG1sbTNPMVRTNnF1cngxZjI1UXkybng3dlAySVY3TGFSNWZ2SVV3LWtTTW5udWRwbkZvY19oUzRUN1loVHh1UEkyblAwUEFBZ2ZMU2RVeHVsUzQ2V1drNHp5UVRMZmg3X19nX2preFdqS0FlN1pJeHVvQmRiR1FjVW1oS0xUcUowOHA3YzhxT3MxbUYxaVZZd0tBdWNmc1FmR0I4TFo4eFE?oc=5",
-     "source": "AL.com"
-    },
-    {
-     "title": "Social Security payments in November 2026: Nov. 3, 10, 18 and 25, and why one date moved for Veterans Day - Nacionale",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMTZ4OXBKb2liSm5VWU5kWXAwNzRZUEhWcEx4LS0zRVR3MWkyV2xaNk9NUVJtdUZBWXJ1VGQxaTFWYkZnOWp0ZEo5b2IwdHJ1WGRkLXdKNlp1cnN3cXpDazBSdGFLc19YUUdnY0tNVDNTcjZieWQ0SHd3NUpJNkhQajhWdHF0QWQ5VDBaeG5CTWw3cVBDdE1hcGNxVlZLRnZp?oc=5",
-     "source": "Nacionale"
-    }
-   ],
-   "official": false,
-   "score": 80.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.aol.com/articles/7-things-expect-november-2026-100000000.html",
-     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
-     "outlet": "AOL.com"
-    },
-    {
-     "url": "https://finance.yahoo.com/personal-finance/banking/article/social-security-november-payments-when-to-expect-your-next-check-135308236.html",
-     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://www.nbcchicago.com/news/local/social-security-benefits/4010791/",
-     "title": "Social Security benefits could be reduced in 2032. Here's what to know - NBC 5 Chicago",
-     "outlet": "NBC 5 Chicago"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "SSI payment",
-   "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 9,
-   "published": "2026-11-03T22:53:08+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOWwtamVHLWk4WmNSRFByR3NEdUJ1RUdhSzFhbTFMX0tTb2FDazJ0dHI1dlBfTTBQSHRNY08xOW53aHBzdWlmei1hNlB1ZktZQnFZdjBySWFIbnJTa244a0hvU1RKWm1RYWpLdXhIRmVWNmJ3bF9ETW1DUWgzdE5XZDVsd2tKcTVqbnBWQS05SklwcE1BcHI5aURZZHc2anNTOVU2QmJpRDlGZjhqb0k5cGxSS2xQV2JmVEN4aWw0VGZJcERTdmxRZ1d0eWxJZFlZNTZiQQ?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "Social Security payments in November 2026: Nov. 3, 10, 18 and 25, and why one date moved for Veterans Day - Nacionale",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMTZ4OXBKb2liSm5VWU5kWXAwNzRZUEhWcEx4LS0zRVR3MWkyV2xaNk9NUVJtdUZBWXJ1VGQxaTFWYkZnOWp0ZEo5b2IwdHJ1WGRkLXdKNlp1cnN3cXpDazBSdGFLc19YUUdnY0tNVDNTcjZieWQ0SHd3NUpJNkhQajhWdHF0QWQ5VDBaeG5CTWw3cVBDdE1hcGNxVlZLRnZp?oc=5",
-     "source": "Nacionale"
-    },
-    {
-     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55TTlDT3F2M0ktQ1BRd3I3bUVpUW5rNTFvQXpqcG5UQ3JUX0pUUC1pWG10UUduTmdpanRjWUI2Ri1RQjQ0dnJVTnlYc0pZbDVJRUJUc3plVXdnSjlkV1h0bEFobDFQcVdMQ0c5RWJNZjBycHk5cGJ6ODRzbGFCQQ?oc=5",
-     "source": "AOL.com"
-    },
-    {
-     "title": "SSA Confirms November Payments Are Being Sent Early for All Retirees and Pensioners Born Between the 1st and the 10th - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ0R1TTRxLXk3T3FpOFIyQldWNnBDYXpGdHBFdHN0cHhKemtwMDh3dWNMQWxHVDdRNWtjc0JHSDBhRE8xNDNvSmUydjRJYUhGMVNuS1Iya2JER0xweHdVbVhVS3NkMjF3cEp3eHR1U0Q1aEIwR2xYXzRCSmtGeGVBWndMMkh6Nm9EMjJQLV9OaER2WHV4S3h2MG5zZTR3XzB0eWdpWHR3ZTJMM3VQUVdMY184UFlFRGttTzhRRWU3TFMzWFczS0VmbE9ZeDZmTDlnUWlhZWlTN1pidDAwUmJXanp1SlB2YVEwNHc?oc=5",
-     "source": "El Cronista"
-    },
-    {
-     "title": "Who gets Social Security tomorrow, November 3? Is your payment COLA-adjusted, and how much will beneficiar - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNeTEzQ0t0TEZ3MWp4d2tfRXNPSHFEVGRURjBkbUx0clVXcFN2MHlMOEVQS0ExbXdQX1RBQUUwMDlDN1ZocEhKNzZyQnVQSGtQTXd6QU1DM1U3YjVaOFFxUDE0bm9GVXFCWkNlYnlta1F6NVlLQ3JRdlVEb0J4QWRuV1NIYkZ3R3dqXzhZajJuRmNKVEVnVVRGNmFyd0tGRE5kTlY2U196QnBEaW83MTNkYldCRDM2Y2QxSEpwMnRvc3hUNmNHS1pCcmZFczZKWFlRWGN6SVZwQUU3cURuaGlVTk94d29IYnYxbHhHcnN0Z2tPekVfYXNfcThPVzk1MmRZTkZKLUVMYW00RVNCQUZYQXREd1ZlYk13SHBqQW9vY3ZXNDRQN3g3Wi130gGvAkFVX3lxTE93Ny1oVTdCUUhEN0FDN1B0b2JaY2dmRk84NjI1MUVsckFEcU5mWWRWVGZmcVBpcGJLUlBGUWJJRDJ1OV9mWUlhMXotcmh5TlRnTmZCbFlyUzJuMEJoQk1ZWUJBaE03d1pETHhKYURHMnBTYWIzVDVCYjJReENvSE5OTWdQTTNDaFRaWUxDY1R1bUxodG1CazlQd0EwUW5DcmhVYVBhaElzRWdiOUtSUHlZXzQtZ2FhSHZfMFZ3VGNESmRQY2N4UHVJSnB6cTRrRG5RZ2pCcThVRGlpSGJTTlBhX2sxcWtHeVNraW50TklqSHNnQlVVZTVXMzVVOFhsRWdhVXhMRzhGczl4VElhNm9obUFCSWszWkxMUTM1UDNERmlMbzVjMVEwNDNyUGFJMA?oc=5",
-     "source": "The Economic Times"
-    }
-   ],
-   "official": false,
-   "score": 80.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://finance.yahoo.com/personal-finance/banking/article/social-security-november-payments-when-to-expect-your-next-check-135308236.html",
-     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://www.aol.com/articles/7-things-expect-november-2026-100000000.html",
-     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
-     "outlet": "AOL.com"
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/ssa-confirms-november-payments-are-being-sent-early-for-all-retirees-and-pensioners-born-between-the-1st-and-the-10th/",
-     "title": "SSA Confirms November Payments Are Being Sent Early for All Retirees and Pensioners Born Between the 1st and the 10th - El Cronista",
-     "outlet": "El Cronista"
-    },
-    {
-     "url": "https://economictimes.indiatimes.com/news/international/us/who-gets-social-security-tomorrow-november-3-is-your-payment-cola-adjusted-and-how-much-will-beneficiaries-receive-in-november/articleshow/135461432.cms?from=mdr",
-     "title": "Who gets Social Security tomorrow, November 3? Is your payment COLA-adjusted, and how much will beneficiar - The Economic Times",
-     "outlet": "The Economic Times"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "SNAP benefits",
-   "traffic": 0,
-   "article_count_24h": 52,
-   "article_count_1h": 7,
-   "published": "2026-11-03T20:04:09+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Many WV SNAP recipients will have two sets of work requirements to keep food assistance, healthcare - West Virginia Watch",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSWRCT21JcnFvN3hyakwybXpNblBXVWp0OEdqRFlnTzg4eVNPeWhJTXM0dWRQZUVOVk5GQktGZmh3VVI4MFM0aGZJVGhBbUJBV0tUb0hPaWR1VlFqOFh4WnhvSS1LNVZ6U1RLY1FyUjZmeEhUQU5KdWR2MmlycElCaVlfaWFLWWEwVjQwMEtJY3lBb0hGSkhCMGdxQVNMN2lDWlROMDVQd0dOc0NFendoaVNCR2l6VEg1QXRoQWtjYjFiOHhRQkZxRzFnd3VtbjI4alFkUk5wbw?oc=5",
-     "source": "West Virginia Watch"
-    },
-    {
-     "title": "Seasonal jobs and SNAP Benefits: What Oregonians need to know before the holidays - Tillamook Headlight-Herald",
-     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOak1vWEg1LVZvRGNncGRlMUpkT1F2TUtQSktnR3dBZDRIbVhtaVdkOExCdFl2UDd6dTNPMWppZHctdnI0MmxvTURCdDVsdVVNMWxHT3kxRy14SHBEaUVJckwxWWJITlMwVlZJcFlxdl80UDZ0RXNSaW1mLXlYVXc0NWhUamctUHFTU0hGQjNNdGctbjBrcDhFYkRnRlZ6ZVVGd1VXSEdEUnJGNzJWUFl4MDg3VTdIYkd6Q2tvQ2U5MElpbW8yM0lEQXJCakFJUjJzSGhDQTFGNkFCX3BzYzczX2pNYlR1MmRzXzZSdzFlZWhHbGcwNGl3VFk1eTBtT3pReGlUZUxJOA?oc=5",
-     "source": "Tillamook Headlight-Herald"
-    },
-    {
-     "title": "Many WV SNAP recipients will have 2 sets of work requirements to keep food assistance, healthcare - News From The States",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaFg3N0JsMlEzOHFoa0RoYUt1YlI2amZHTXc1cHNOaWlOSHRVSktLWHNDelc1VmJBRUJNbDlaeHNHUGRfbWdHRG9XbjZoMzA4X3FicXFJLUZxNHNSQVRVaDhMVUxVSTZOQlFTTWxTR2Q0ZlFWdmgxWm9qNzJSd09KR1RyWndDeVFpOXNqd2txUnQ3V3hxbVo3WUxpM2JzcXZtTTJzMnl6VUItdm1oQnFMcFNrXzRzd0VTNU9vRjBNQzNONHE2MDV2WkdOTGY?oc=5",
-     "source": "News From The States"
-    },
-    {
-     "title": "SNAP food and drink restrictions expand, pressuring CPG sales - FoodNavigator.com",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHZPeVBBUUE0R2hzYW5odlNzZmYtaFE5anR5UUdqektxVjRHeHRuMk9lMXdoWjFROV9Mc0JXWDJocGRKc1pEbzRpblNlS0xxUGEtcGpwTlR0bmE5VWgtbWgxREYzc0llOC1pVDdrQWtpVjdVbWxsRE1wX3JTSjNIeWtSQXZxdnhNNFlCUHZIOEpwckt0bmhPQmpB?oc=5",
-     "source": "FoodNavigator.com"
-    },
-    {
-     "title": "Changes are Coming to Snap Benefits for Iowans - KELO-AM",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJZG5qVHhOOURNcTBESVI0RXc0a21CSUhKTjR4MEQyckptNUZac2pmdTVIZ3hEZ2xMQldxUnV2UUVnS3pYS19rbXhHbw?oc=5",
-     "source": "KELO-AM"
-    }
-   ],
-   "official": false,
-   "score": 80.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://westvirginiawatch.com/2026/11/03/many-wv-snap-recipients-will-have-two-sets-of-work-requirements-to-keep-food-assistance-healthcare/",
-     "title": "Many WV SNAP recipients will have two sets of work requirements to keep food assistance, healthcare - West Virginia Watch",
-     "outlet": "West Virginia Watch"
-    },
-    {
-     "url": "https://www.tillamookheadlightherald.com/news/seasonal-jobs-and-snap-benefits-what-oregonians-need-to-know-before-the-holidays/article_20a73fff-4f56-5746-82da-ae6aadc2bfe6.html",
-     "title": "Seasonal jobs and SNAP Benefits: What Oregonians need to know before the holidays - Tillamook Headlight-Herald",
-     "outlet": "Tillamook Headlight-Herald"
-    },
-    {
-     "url": "https://www.foodnavigator.com/Article/2026/11/03/snap-restrictions-expand-to-four-more-states/",
-     "title": "SNAP food and drink restrictions expand, pressuring CPG sales - FoodNavigator.com",
-     "outlet": "FoodNavigator.com"
-    },
-    {
-     "url": "https://kelo.com/2026/11/03/976264/",
-     "title": "Changes are Coming to Snap Benefits for Iowans - KELO-AM",
-     "outlet": "KELO-AM"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "election day",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 100,
-   "published": "2026-11-03T20:00:29+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Live fact check: Election Day 2026 - PBS",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0UUFHR0FTMDdueXJxTkl3M1JOSEsweVdUX1lGV1FqajZIZ2xuTTI4WEw4bHVabWl4VWFvdlVnLUhTTjN0RkxPaUlMTjNOVFF4cEN1amRtSFlRR20tX3R4OXpuVGd2TnB4MW4zdGdaQk1JemZoN240U0pLMNIBgAFBVV95cUxPcG1yLTQyZ0dLQWRtcTBhemxPa0lYVElqXzFMVEhLRURPVktPblJpMDd4aVR3NFFMTWpIaF9vS1Z6Vk90UFFZcVB6TlV1bUJQenB0Qy03em5TMXhpNGdObU1NWDRZMzIxUnltdVBVNFBaamJYdGMxM2xNUnMzOUc4Sg?oc=5",
-     "source": "PBS"
-    },
-    {
-     "title": "Today is Election Day | What you need to know - FOX 7 Austin",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51RWMxVktWcmlaUk1IYjVKV1lXWkd6Vi1sZk9oMG04bVFjVlpmS1pTd2lHQk1lbXJOdjRfZGpZeEVCZnBrNm9PcklycTNaYkhZYUhHMHdYV2ZGRjlrdl9GM3NsSFpZdl80V2hISklIUVhyUUJJU2RmTWIxWU0?oc=5",
-     "source": "FOX 7 Austin"
-    },
-    {
-     "title": "Minute-by-minute updates on the 2026 election - Votebeat",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUxvY05zU0dBdUpzcGFwS3JvZURjSzhRMWo0aXN6dXM5bjBJRERfRGNnWGdfUVZua1k4dHVNUmtZZ0QwSDlLaDJNRmNsb1hST3dsN0hHeTZmZjJQamtJQndxajRCeUhJZzNPZmFXNHNiT2pDa1pkWklKWnFOYUFjcHpfWF82TnkxSU45Vk5GZXByQQ?oc=5",
-     "source": "Votebeat"
-    },
-    {
-     "title": "Election Day arrives after a surge in early voting, with observers keeping close watch at the polls - AP News",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb0VlcDd4VEtEWWtPYUNnck5rekRyWlBCQmc5ZW9odGVWVDlLdDN3NlZzZHRuMXk5TDZ5YjY4QmpKc3RZc2RaTkVGc3hEbEIxb2c4aFRhNGhPM0gtSlRsaDM1Y2V3RWYwbXBVTjVBYlU5TnhLU0hiLVpfTldKbXg3UDZxbzEwMEppSEN0YzM1SDlrb0xETjMzWEtqSnNlMUhUSFE?oc=5",
-     "source": "AP News"
-    },
-    {
-     "title": "How Trump Is Spending Election Day and Night - Time Magazine",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdThYdWkxS0Y2N3BVM3RHR3pTNUZ2RG1qVEQwTHQ2WWkwT1dBZS1QbTFBUXRtMGlKWXdBM0VuUlRKUTlwdlN5cEY3VXlQdUFJOXdFbktYNjNleUtYVTN5WlF4NFQ2UjZva1l3Wm9jNVlPTUxWbFZIVlhhR2NpT1ZTV3JlT1Zac1hJRUgtQjQ3WElEWjA?oc=5",
-     "source": "Time Magazine"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.pbs.org/newshour/politics/live-fact-check-election-day-2026",
-     "title": "Live fact check: Election Day 2026 - PBS",
-     "outlet": "PBS"
-    },
-    {
-     "url": "https://www.fox7austin.com/news/today-is-election-day-what-you-need-know",
-     "title": "Today is Election Day | What you need to know - FOX 7 Austin",
-     "outlet": "FOX 7 Austin"
-    },
-    {
-     "url": "https://www.votebeat.org/national/2026/11/03/election-day-2026-live-blog-midterms-trump/",
-     "title": "Minute-by-minute updates on the 2026 election - Votebeat",
-     "outlet": "Votebeat"
-    },
-    {
-     "url": "https://time.com/article/2026/11/03/what-is-trump-planning-to-do-on-election-day-midterm/",
-     "title": "How Trump Is Spending Election Day and Night - Time Magazine",
-     "outlet": "Time Magazine"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "early voting",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 50,
-   "published": "2026-11-03T22:00:21+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-     "source": "NBC News"
-    },
-    {
-     "title": "Early voting turnout across Arkansas surpasses two previous midterm elections - The Arkansas Democrat-Gazette",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNHp2MmdhY3V0blczdVNOZ21GRXRGX1RyR2NzY1VGMmZ4Xy1rUXJEVDdYYVFfVG04RnhJajRJeU9YaXN4cUliTzVYX2NScDVZUGNaN0QyZFQxN1F1RGJkVHpIeUVZOWJDMWpVRG13RXhkMmZxbk5TN3dHZXhwRHhXRHV4OG1rbFZ3R3B2TTVOUzN3RjJxczZrN0p2VQ?oc=5",
-     "source": "The Arkansas Democrat-Gazette"
-    },
-    {
-     "title": "Missouri could approach turnout record as ballot measures drive interest - Missouri Independent",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSldtc2JqMUlYNnRTenZwWGtvc1c0c2x1V2dtWDlSZkRVbV9NSEhRU19jaWFnb2xQcjNTemlia2xfd20zVnJIMnZNQ0Q2Z3VuRUNQRWJpZFdScGxOQkFjelJ5NWF5RE15WDNXNEpNYnY1eGNHbkxXNDVZZVhUUGhGWlA3dzZ2ZEpaV2lkMVN0Sy03eG0xSmEtN1pHdEVwc2VNYVd0X0FySno5MmRqQzVrTm1JX3RNQ2c?oc=5",
-     "source": "Missouri Independent"
-    },
-    {
-     "title": "First early voting option for midterms drew around 5,000 New Haveners - Yale Daily News",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV3NabzVmNmpmOVRnbXVJN2Q5NW5zV0wxamhqamZXcTRsUklHVU5RWWxoemU2V0RHbmh3N3FQcU13UkpvWlpHb0RqMXdZczA0WV9ITHoxYnphM3luaVB0T1pUOWkyRWNkRk94VVRmRFVsQV85RGJsWjkwQUlpdHZLVm5yS1VMcy1GRFBpanp4OGFKMmdKWUROTkZQYWRKQkUzbjVqdGhYOA?oc=5",
-     "source": "Yale Daily News"
-    },
-    {
-     "title": "Election Day is Tuesday. What you need to know to vote in NC’s 2026 midterms - WRAL",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGtpdEI0X0hKSVo1allwMGtPZG9kNVdkTTFGVkd6ZUNQV2Z0ZmFHeHRmaEdRTHJ4VmZuRXBpelBqVUR0YVhuMmstX2VCUUx1R3hLRXNfcHZ6VU9oNms0cjlNSnhPS1ZlaFAxTzFicUZLNjBnRDRVelRGR0xTQzNIVWo4Q3lTaXlZNkV4bUdBbjloTExId3V2S3dCOTJsZndCa2w3OUhtSm1YdTVOcmlyLWpNenpKNDdsS3BIbA?oc=5",
-     "source": "WRAL"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
-     "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-     "outlet": "NBC News"
-    },
-    {
-     "url": "https://www.arkansasonline.com/news/2026/nov/02/early-voting-turnout-across-arkansas-surpasses/",
-     "title": "Early voting turnout across Arkansas surpasses two previous midterm elections - The Arkansas Democrat-Gazette",
-     "outlet": "The Arkansas Democrat-Gazette"
-    },
-    {
-     "url": "https://missouriindependent.com/2026/11/03/missouri-could-approach-turnout-record-as-ballot-measures-drive-interest/",
-     "title": "Missouri could approach turnout record as ballot measures drive interest - Missouri Independent",
-     "outlet": "Missouri Independent"
-    },
-    {
-     "url": "https://www.wral.com/news/nccapitol/how-to-vote-nc-north-carolina-voter-guide-sample-ballot-find-precinct-november-2026/",
-     "title": "Election Day is Tuesday. What you need to know to vote in NC’s 2026 midterms - WRAL",
-     "outlet": "WRAL"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 44,
-   "article_count_1h": 6,
+   "article_count_24h": 34,
+   "article_count_1h": 5,
    "published": "2026-11-03T21:00:00+09:00",
    "category": "Recalls",
    "news": [
@@ -480,19 +539,19 @@
      "source": "Transport Evolved"
     },
     {
-     "title": "BMW Recalls 27,720 Sedans For Driveshaft Problem, Rollaway Risk - Motor1.com",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Cb2wtMDktUHlVX3M3bXVBWlp3R05OZEE5OHBQbnU4clRodHlLUTRFUV8wbFd5dXhHVGtLc1BVTUczWXFRbjc4bGdYX3ZKYWhYWk5aZENpWTM0QkZHeE5BdTZIZXZiWDc0YXZ0UFlB?oc=5",
+     "title": "Rivian Recalls 100,000 SUVs For Strange Backup Camera Display Fault - Motor1.com",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1WcllzeDlGbjFJT0Z1RHFfQ0Z2N2FlaFAxbEU3eXd6MGhTbmxxNVpGRUpMQUY1SHhDcUdhMFhvR1RTMnlfUTNzN3Ntd2NnVmRlUUVmdXBabkhvVnZBM09kaXQyWGRTb0ZMWVM1b0dUUWIybkpDMWJ3RQ?oc=5",
      "source": "Motor1.com"
+    },
+    {
+     "title": "Lincoln recalls new hybrids for unexpected shifts to neutral - Driving",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTHFJWFBNUTYxcTJCWXVrdENWM3Q4eURhMEluZVZudEd2SjRRZnJxSWV6LUNtZ2E5QjN3U3lvVjAyVHlXWlVVdnBWRDVqaXpkeWswOU5hTWN3THhxOW41cklRWWFHazk4bjBQczZqY1l5YS1ZQUNfdnZ3NXdsN1k1SUxPakRsTkJ2cEVVdF9UdHlJWnFYT3Z6ZC1VNWlxSFljV0NfODU3REFtUQ?oc=5",
+     "source": "Driving"
     },
     {
      "title": "Q3 Recalls Top 8.8 Million Vehicles as 2026 Volume Nears Five-Year High – Dashboard by NIADA - National Independent Automobile Dealers Association",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeDdCeGJJV084RUZSeVBnVlJKZEJzZUQxTlZhTmRQOXk1TVRJNUFMNURGeTY0aHVLakVUQWZxa0JaNzVXRE5ZbU5VcnZkR3hWSVNxOW5WTE9pSm5ra19SeXN4UVBsaU1Od2hLemRCdXhFRlYwYnpvVXdZYllRVko4d2RHZG14N1dsU1FIT1o2eVNZLWJBYVBvM0NHdGIxUTZGRlE?oc=5",
      "source": "National Independent Automobile Dealers Association"
-    },
-    {
-     "title": "Toyota recalls more than 200,000 vehicles. See recall list - Delawareonline.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcElVcFVPLVQ1bTg0akNtU0NyU2QwSHFXa2RMNGEwcWoyYWpFOUJXX2xfekpDS2hsMzQxVFBhZ3lKRDRTWVlwUlhWVFhtUzRma2VLdnV5b3F3X1Axdzk4bGhMTmJSeDN6aUE4OGFTQy0zeTBSR3JYN3hUc24xdEEtR2hiSE1haHdfWndLeGdGdWZpdUo4M2UyUm9zeDFmbzk0VFBJcGtfTmpQSEdVckp1WFhTY25SckdsV21B?oc=5",
-     "source": "Delawareonline.com"
     }
    ],
    "official": false,
@@ -505,9 +564,14 @@
      "outlet": "Transport Evolved"
     },
     {
-     "url": "https://www.motor1.com/news/805413/bmw-recalls-27-720-sedans/",
-     "title": "BMW Recalls 27,720 Sedans For Driveshaft Problem, Rollaway Risk - Motor1.com",
+     "url": "https://www.motor1.com/news/809467/rivian-backup-camera-image-recall/",
+     "title": "Rivian Recalls 100,000 SUVs For Strange Backup Camera Display Fault - Motor1.com",
      "outlet": "Motor1.com"
+    },
+    {
+     "url": "https://driving.ca/auto-news/driver-info/lincoln-nautilus-corsair-hybrids-recall-shifts-neutral-power-loss",
+     "title": "Lincoln recalls new hybrids for unexpected shifts to neutral - Driving",
+     "outlet": "Driving"
     },
     {
      "url": "https://niada.com/dashboard/q3-recalls-top-8-8-million-vehicles-as-2026-volume-nears-five-year-high/",
@@ -520,8 +584,8 @@
    "source": "google_news",
    "keyword": "federal holiday",
    "traffic": 0,
-   "article_count_24h": 89,
-   "article_count_1h": 16,
+   "article_count_24h": 98,
+   "article_count_1h": 9,
    "published": "2026-11-03T20:23:00+09:00",
    "category": "Elections",
    "news": [
@@ -531,17 +595,12 @@
      "source": "USA Today"
     },
     {
-     "title": "Is Election Day a federal holiday? SC voters need to make time to vote - Greenville Online",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNU0FrLV9lTlBZX05HRlh0UmY5MnpNVjRYdlY2emh3SGFaOHBMSEQ0MXBhc3ZXT2ladE5QTnpxWDZ0MlF3Z04ydGhFOC1qM0N2d3pYWDhDRnlGTlpKeVhqam5SYUtsRl95MEI2cjhqSWwzbGxYbEZoM3FwR3daYU9CQ3hVOEdnTjBtM1lNckVQYzVJaGdGdng2TW5va3NEbzFlTjdrXzBQR0d0NXpSaWE4Qlp5Sl84MG9UMVc0cE5kSFQ4WmpEZmhyX3ZyLUVTZmdRT1YxUS1EU1plbm5HTC1MRFprSGlLN1pxZEpF?oc=5",
-     "source": "Greenville Online"
+     "title": "Will mail be delivered on Election Day? What's open and closed on Nov. 3 - wtsp.com",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORUtUbktRVFd5MENCQmh0dmFfZjNyekpFT2xDOVhuVllMamM4VEkxa2tnRE1LajFCR1lmTE1qa2xPeHkxV1JaZkl5OXY0MXYzakVFU3pZbG9nZjdldUdfTnMwVG5kUlF3bnVfb0pfSkltcU1KNEpOXzFlVC1HRVNURE1LTU9NSUtieVBPbzNqeFdKbHc3d0tfRTgtRnljSUhyT0J0ekIzeE1md3pIcHFNQTB3c3c0ZjVLTlE3ZzNVTENpR0Z1SlRWaDdoWlU5ek5mM0NTc1h6dm1DcXFFN0VKc1BPR0pNM2c?oc=5",
+     "source": "wtsp.com"
     },
     {
-     "title": "What is closed on Election Day 2026? Banks, schools, mail - Bergen Record",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbS1QQVVtWVlQZENpUmNyVmhxWnNJNkF2Umh1UjRWMUlXVnVTUUVKMjFUZWRGamZvSGdwUGV1QnlQUjUxclA3Z01CcnB2ektOSTQ4N2FYbFdESWRscC1MRWw5MTJEX3JhYUdvcnZPSGdQcVNfRWJyb2JuWi1wcXkwb2gzNG1WSHB1dC1DU05jN0ctZzJaWFczUzFHaFNXWmk0TDd0VHFNMnIzSzF5czFUbw?oc=5",
-     "source": "Bergen Record"
-    },
-    {
-     "title": "Is Election Day a holiday in 2026? What's open and closed - qz.com",
+     "title": "Election Day is not a federal holiday: What's open and closed on Nov. 3, 2026 - qz.com",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iR1lCMXZRZjZvQTRLT3Z2VGVYWkRwaXllbVR2UFh0TUNxa2ZINkNUZ3N4MnlCeW5EZGtYcmpidWpzRmFkMS0wVGpwYjVoN003UkpQcTZEcC0zRHRQdlQxRzVR?oc=5",
      "source": "qz.com"
     },
@@ -549,6 +608,11 @@
      "title": "Is Election Day a federal holiday? Are banks, stock market open on Nov. 3? - The Oklahoman",
      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPakYyUlZvNDZnRkJodjc0VnhlVGxfN1B4WDFydGQxYWIwejFyeU9aVFdzYlIyYWpUZnZOakZuVzJjOTN5eHpJdi14Z2FIaDdzZjVSaFBlbFFuR0I3M3JnYXRXV3BxVi1zeXNpSWp2Q1dETVlCN29MMEJDSWJhcFR4Q1JpYkZtOWl6THhLNHFZeUVmOEVpdHd0TEdFbjQ1VHZ3S3lWcUFNUkYwcXRUaGhMWVlZZFlWLWpzVlJMVGs5Qk40V0oyYW1SUVl4NFdRbW1oNDZULVFkWExWbW9tbmUtNlV5TFNVUzUyR1Q4R1Yzclc?oc=5",
      "source": "The Oklahoman"
+    },
+    {
+     "title": "Is Election Day a federal holiday? SC voters need to make time to vote - Greenville Online",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNU0FrLV9lTlBZX05HRlh0UmY5MnpNVjRYdlY2emh3SGFaOHBMSEQ0MXBhc3ZXT2ladE5QTnpxWDZ0MlF3Z04ydGhFOC1qM0N2d3pYWDhDRnlGTlpKeVhqam5SYUtsRl95MEI2cjhqSWwzbGxYbEZoM3FwR3daYU9CQ3hVOEdnTjBtM1lNckVQYzVJaGdGdng2TW5va3NEbzFlTjdrXzBQR0d0NXpSaWE4Qlp5Sl84MG9UMVc0cE5kSFQ4WmpEZmhyX3ZyLUVTZmdRT1YxUS1EU1plbm5HTC1MRFprSGlLN1pxZEpF?oc=5",
+     "source": "Greenville Online"
     }
    ],
    "official": false,
@@ -562,161 +626,69 @@
     },
     {
      "url": "https://qz.com/election-day-holiday-2026-open-closed",
-     "title": "Is Election Day a holiday in 2026? What's open and closed - qz.com",
+     "title": "Election Day is not a federal holiday: What's open and closed on Nov. 3, 2026 - qz.com",
      "outlet": "qz.com"
     }
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "lawsuit",
-   "traffic": 5000,
-   "published": "2026-11-03T23:20:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Judge Dismisses Trump Lawsuit Demanding Harvard Admissions Data",
-     "url": "https://www.nytimes.com/2026/11/02/us/harvard-admissions-trump-lawsuit-dismissed.html",
-     "source": "The New York Times"
-    },
-    {
-     "title": "Federal judge dismisses Trump lawsuit seeking Harvard admissions data",
-     "url": "https://www.theguardian.com/education/2026/nov/03/harvard-trump-lawsuit-dismissed-admissions-data",
-     "source": "The Guardian"
-    },
-    {
-     "title": "Judge dismisses Trump administration lawsuit against Harvard on admissions",
-     "url": "https://www.washingtonpost.com/education/2026/11/02/judge-dismisses-trump-administration-lawsuit-against-harvard-admissions/",
-     "source": "The Washington Post"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 64.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.theguardian.com/education/2026/nov/03/harvard-trump-lawsuit-dismissed-admissions-data",
-     "title": "Federal judge dismisses Trump lawsuit seeking Harvard admissions data",
-     "outlet": "The Guardian"
-    }
-   ]
-  },
-  {
    "source": "google_news",
-   "keyword": "REAL ID",
+   "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 41,
-   "article_count_1h": 3,
-   "published": "2026-11-03T21:17:00+09:00",
+   "article_count_24h": 36,
+   "article_count_1h": 2,
+   "published": "2026-11-03T22:58:28+09:00",
    "category": "Health Insurance",
    "news": [
     {
-     "title": "Can you fly this Thanksgiving without a REAL ID? What TSA says - Asbury Park Press",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVWlpU0N1SHhuY2cySEN6MUlWZWZNRHU0MFkzT1NGM2x5eEdOMlVDRXJlXzYzb2t6WEZxRE1ubVUyeTBRcTZ2a0dBcURlT204OF9LQmFhVFRENUQ2VWVEeXVLS2pjR3BRZUY1WlJqQnpwdEYybHFBcVNPSDZBZEd1aEl2RXVfcS1rWUV1RHhWSkEzWnBxZ2I3LXpKMndPNFRITGZIQ0N5dHVpdnY4ODZBRTZfajVBZUpOM2o1dUZfc3Zvdw?oc=5",
-     "source": "Asbury Park Press"
+     "title": "Losing your Medicare plan? What Long Islanders should know - Newsday",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb3J4S1NRMFpTaWVuY3lyNWtPVFo0SUMyYk9DUWp4VmctQWdUVG1JUHY1b3pnYmNhbUN0Rl9JNl92eEthOFRZU1NuakhYcjFFdEFiTGh6SHp5bEJHU2NHckhoSlRTcWg1MUFSZFBYUllkcGJDS0MwYTB2ODRxbnFFd1FMdWw1YjdST3gyWDFkdlc4Xy1CdHI1Tw?oc=5",
+     "source": "Newsday"
     },
     {
-     "title": "Steamship Authority Launches Year-Round Discount Program For Veterans - Nantucket Current",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ2RGdUx5Z1dfNXFIRGFQa1JsMzNESFJRWC1MX0hOaXJickwtcmNXbms0ajl6ckJGV1hHOW1DSFRrTFpvVGpCaFNKXzVvMWd5NVdsLWtHR1hNOWpOOW1tMzJzN3YtZnRONXJHdGhJNTdBTklTb0ZGNV9FRHQ4QVlvVmpUZlFBdVlER3EzNGJlQzgyVF8tTDRVWXBmSHg5N3BucGFjS1dB?oc=5",
-     "source": "Nantucket Current"
+     "title": "AARP: Medicare open enrollment is prime time for scammers to target vulnerable adults - WWMT",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZU1VcnhOb2pLOXJLUGk2TUhvMTR2QzZ4c3hXeFVzc243b2ZMOVpTeFNBQU5pX1o3dzhYU1NRMTNxWjYwTzdMdkdTY3paMHVuNWFUdVdYNzFDZWlCWGRDampqNnFfd2p2bHdDTFREb2dyelhFQ0xGbjd0eGVnakVHNzVyYktSbmdkT0o0elBRejI3UFdqRzdHTVVwUFVERXVNZ01oc081ckk3bk4zXzJaTE9ZMTZURi1uOG52Rm9rQ2VNSkdfVmIwdWZ4RUhPeGFOYUY0VUpYbk9NSGM?oc=5",
+     "source": "WWMT"
     },
     {
-     "title": "No REAL ID for Thanksgiving travel? How TSA ConfirmID works - Asbury Park Press",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQnVkMVJkU053QXhXMVBaSFZud0JlSm5PT3ZETDRsMjAxZGlEVFNTSUl2d0ZJQmZtQ2RnRUZTU0ViUmRwbUk2YU5RUER0WTZvLWYzWjZTYzJuYVlZODUyTFVZZDFEaTl6cS1QMnNyVC1qbmVNSGZUVks2aklReUxNdFVzNmNiNkM0X1N1RTBLb2NSbE90MmtndDVzNHJNSVhFTVNua1JxdWFBSTlLLXI0T1FDOA?oc=5",
-     "source": "Asbury Park Press"
+     "title": "Medicare Open Enrollment Offers Chance to Review Coverage, Avoid Costly Mistakes - Radio Catskill",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd05MS3RES0wzck1NYlBqRUhvTmtEWUx1N3BoanlualRtTFYwSkpFcEJtaER6WTZQcVpWZEhsYUtHQUcxXzloNFd6eUhkdm5jWS1HOEo4eURWem96T2x3dUdBLW1GOE5iQVFoN0RQaGRkRVJBMmlRdDR0d3NhREpaal9IYjN3NTVZQjN4MjE5TDZodzc5WHhjdkZiVHMwUlNQWk41T1poRmItdw?oc=5",
+     "source": "Radio Catskill"
     },
     {
-     "title": "Safeguard Democracy - The Arapahoe Pinnacle",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZENTY2haS0xIVWZ4bUhiUlVvWXhNaWhKNmhuc3lTZzVQX185TS1heURzVHdhdm50cHNZVVNrMm94ckdCUWdHTDNDcjY3RzV5anRIMjM2RGZhZHhWYXRPa2JvREhjdk1GeUR2WHVNYzEtSmJ2MUhyVHpUYmU1dC1tdWg4YUV1d0dJblkxN2ZPWVpXczQ?oc=5",
-     "source": "The Arapahoe Pinnacle"
+     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Clearwater Tribune",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWVdDdW1KRVZ3dU16cjRJX1hEeFBmb29Sa3ZpSkNXbGZoMXJLaHNZRTFTcmxrejRuMTU4cXlWWk9JTlRiY3lXN0hBSFdWcU12RGRsMThYRFVVNjlROE5GLWs2TVBwYVJQNEs1UGRJeUlPTXpLN25mazJJSk9wYnVvZ0JlOGRTZ2FfMTdBdmdfUFVqa2UwMDVZNTNfNk9RZGVNdThUa01KN2ZHbmRlZVVfak16dW44aWZVeDJ1dTdjUFlFWjQ0Y0RHTEVnc0JOQzNZQzV1bkVaWVVpZDF2TTlYS21RcVE0NTJHWTRNLWxnTm9PVEs4cjNwS1VkR3hhalRzWTBaWUxaTjNjR1BIR3c?oc=5",
+     "source": "Clearwater Tribune"
     },
     {
-     "title": "U.S. Air Force Academy Updates Base Access Procedures, Reinstates Trusted Traveler Program - www.usafa.edu",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTldFdTZZOEFXVTA2WUZSSWxLcHRMc0tnckprUFRfN09oOFVyemNVbGNmT00zYnRnbHFxVlJ0QnptRkZlMGtnMVZTT1FEV25UZWlKZ0VrOUR1VzFIc3Ixb2ZlQVlzZmd3UnlybFhsaGEwdXFQVGJsanZWdDZTUUJjTzZsZjBOZWsyYlpiMWR4QUw3NzhBOFlPTXoxaENDQldiSnN5OW1uWUZEcDZiREJhOERjUm9PLXNFOUFQYUdIbVM3TXNjaFFKVGk4TFZWLTRqWVJhemNDV0Q?oc=5",
-     "source": "www.usafa.edu"
+     "title": "Best Medicare Supplement (Medigap) Companies for 2027 - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVk9INGY4Y3FPWlc3SkQzZlZ4cEF1NHl2RHA4Y1FubUZsMzZncHFpNFUtRUNWSEplSHRnQmNCWkVPbzEtV0JCUjJLLTN1cExDZGxqakp4ODkwZ1pWYmNYQWwxams0a1JxdWdsZ2FZVnRQY2J5SEdlYkZRejFiWkJfZWU5MDRqV0wwWTR2LVBiZ2dTS1R6N3Z3?oc=5",
+     "source": "Forbes"
     }
    ],
    "official": false,
-   "score": 63.0,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://nantucketcurrent.com/news/steamship-authority-launches-year-round-discount-program-for-veterans",
-     "title": "Steamship Authority Launches Year-Round Discount Program For Veterans - Nantucket Current",
-     "outlet": "Nantucket Current"
-    },
-    {
-     "url": "https://arapahoenews.com/27799/opinion/colorado-ballot-measures-2026/safeguard-democracy/",
-     "title": "Safeguard Democracy - The Arapahoe Pinnacle",
-     "outlet": "The Arapahoe Pinnacle"
-    },
-    {
-     "url": "https://www.usafa.edu/public-affairs/press-releases/u-s-air-force-academy-updates-base-access-procedures-reinstates-trusted-traveler-program/",
-     "title": "U.S. Air Force Academy Updates Base Access Procedures, Reinstates Trusted Traveler Program - www.usafa.edu",
-     "outlet": "www.usafa.edu"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "social security COLA",
-   "traffic": 0,
-   "article_count_24h": 45,
-   "article_count_1h": 5,
-   "published": "2026-11-03T03:28:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Social Security’s 2027 COLA Is the Highest in Years. Here’s Why You Shouldn’t Celebrate It Just Yet - The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbFdLN3Q1TDJxUnBNeFVFVmJOOEJObGw0aVZsQlRfSjROT1NvT1FVU2RQX29kMFpJclJVTW5KVFI2eV93X0JFM1BlNzZyWXkzVExhaHU1VnVWUm9jT2N3UE9yYVdKeTJZSW1RaENVUU1vVXBSVm1LUy0tbTZXVVAyektoNmVONUVvSHgzZ3BsUlVuLXRQU3NpYTNPXy02Q3hyNFY3VzNGNE9qS1R3TjUzTzBtVllCQnNqaUlKbFQ0TmVwOWRfNVFtLXF0TlJfbVhvVEJBU1B0VzhfZw?oc=5",
-     "source": "The Motley Fool"
-    },
-    {
-     "title": "Social Security's 'Trump Bump' COLA Just Hit a Milestone Not Seen Since 1997 - FinanceBuzz",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VeHFHNTIyXzZ6bTROcFQ4UURhTlR5SVZGOXBqdTcwTW40YklCcmpJVHI3alRkZEFfR2x1OVI3M3NQTXVBcndJNnFULXMwUDBFeVc2bG90VHpCMkhIMkc2ejZYTmhNN1lvZWc?oc=5",
-     "source": "FinanceBuzz"
-    },
-    {
-     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55TTlDT3F2M0ktQ1BRd3I3bUVpUW5rNTFvQXpqcG5UQ3JUX0pUUC1pWG10UUduTmdpanRjWUI2Ri1RQjQ0dnJVTnlYc0pZbDVJRUJUc3plVXdnSjlkV1h0bEFobDFQcVdMQ0c5RWJNZjBycHk5cGJ6ODRzbGFCQQ?oc=5",
-     "source": "AOL.com"
-    },
-    {
-     "title": "Social Security’s COLA helps but Congress must do more - Tri-Cities Area Journal of Business",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WamI4WmFiN1VEcWw0dUM1SUJWN3JybVlPUm5GZmkyVjhKNVpwY2w2Tzk5SUMxdmRGMk1QOE54ZEdQTW9POWFKcHA2LV9WX1JUa0tCSDR1M0w0SHotZEpoelZHUWlVX0dtOWc?oc=5",
-     "source": "Tri-Cities Area Journal of Business"
-    },
-    {
-     "title": "2027 COLA: Key Social Security deadline looms for people wanting to learn new benefits early - OregonLive.com",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdTF2WWdvNVJrOFgxejd1QmFaY1oyMXJyY3I2ZkdhUnlVaDNDSmlxYkpxUmx2TVU0OFVVcFRPam9ZR3ZBNl9CVFNxLU9JY0QtckFtRFBNZG1GWG9EcDlwYVlLVkh5OG9leDJ5QmktZXRScGNWS2x3dDVyeTl4YjlqczEtZHU1RElRa1hjWGJsUXdxb2trUjBkOExNVTlIYUN6N0RKYlBUYnRwbVFFNkptMmVjbkxlYzA0M3pxS0xBVG5zXzgzbl9KQVlnLTVGSWhOV05GeQ?oc=5",
-     "source": "OregonLive.com"
-    }
-   ],
-   "official": false,
-   "score": 56.0,
+   "score": 57.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.fool.com/retirement/2026/11/02/social-security-s-2027-cola-is-the-highest-in-years-here-s-why-you-shouldn-t-celebrate-it-just-yet/",
-     "title": "Social Security’s 2027 COLA Is the Highest in Years. Here’s Why You Shouldn’t Celebrate It Just Yet - The Motley Fool",
-     "outlet": "The Motley Fool"
+     "url": "https://www.newsday.com/business/wallet-watch/long-island-medicare-2027-plan-changes-w13fmwpq",
+     "title": "Losing your Medicare plan? What Long Islanders should know - Newsday",
+     "outlet": "Newsday"
     },
     {
-     "url": "https://financebuzz.com/trump-bump-cola-historic-milestone",
-     "title": "Social Security's 'Trump Bump' COLA Just Hit a Milestone Not Seen Since 1997 - FinanceBuzz",
-     "outlet": "FinanceBuzz"
+     "url": "https://wwmt.com/news/local/medicare-open-enrollment-scams-scammers-target-vulnerable-adults-aarp-medicare-healthcare-seniors-tips-protect-wwmt",
+     "title": "AARP: Medicare open enrollment is prime time for scammers to target vulnerable adults - WWMT",
+     "outlet": "WWMT"
     },
     {
-     "url": "https://www.aol.com/articles/7-things-expect-november-2026-100000000.html",
-     "title": "7 Things To Expect From Your November 2026 Social Security Check - AOL.com",
-     "outlet": "AOL.com"
+     "url": "https://radiocatskill.org/medicare-open-enrollment-offers-chance-to-review-coverage-avoid-costly-mistakes/",
+     "title": "Medicare Open Enrollment Offers Chance to Review Coverage, Avoid Costly Mistakes - Radio Catskill",
+     "outlet": "Radio Catskill"
     },
     {
-     "url": "https://www.tricitiesbusinessnews.com/articles/ro-nov-2026",
-     "title": "Social Security’s COLA helps but Congress must do more - Tri-Cities Area Journal of Business",
-     "outlet": "Tri-Cities Area Journal of Business"
+     "url": "https://www.clearwatertribune.com/online_features/health_and_wellness/medicare-open-enrollment-ends-dec-7-give-your-plan-a-check-up/article_d214971c-84a7-532a-9147-6751a54dcbd5.html",
+     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Clearwater Tribune",
+     "outlet": "Clearwater Tribune"
     }
    ]
   },
@@ -725,7 +697,7 @@
    "keyword": "daylight saving time",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 4,
+   "article_count_1h": 9,
    "published": "2026-11-03T21:00:00+09:00",
    "category": "Holidays",
    "news": [
@@ -740,34 +712,80 @@
      "source": "The Tuscaloosa News"
     },
     {
-     "title": "Chicago's thoughts on daylight saving time - WBEZ Chicago",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUZuWTdMOERPenNjalBZSFFyWksxdl9vUXkzZU1LajJhaUpfTG1qTHU0dlFMTUpOOFczZ3NQQml0LWRpVXJpajFRVVJIMWdXRTZLblhNeldCRVVEUDdEVDQwZ2s5QnB6ODFhTGtUZ0ltLVYzUnZsWnBDQ2k0dHpSSG1fajJlYllQY2tEdjBDY2FNOHlMQVIzb18xb25tWGpUNTV4MEE0STdjQXhfSnBFeWxB?oc=5",
-     "source": "WBEZ Chicago"
-    },
-    {
      "title": "Making the case for Standard time vs Daylight Saving Time: A local expert weighs in - WJAR",
      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTmVzUjB1V0pNcXZ2aHdxWWQ2ZWlDaVd0cWZDbVE5WWQwZ092Z0xWWEJxNG4tTjFZNGhjVXlzLVQtQ3Y2aXZMNmRWRENTMHlHM3dNU3ltOGN4OWhJdTdyUnFHcUUwYUNwZEdPVkIwLVBGU2RtUDVmMDdwbGxTRldMVWloVXNUeFlqeUtPNTN3aWZvWUhXT3lJYlIxUnVqdHBycHMzMEpLYUJiTWl1SXRGU3JqaktsdGlJQVBsaUNOcVBNM2ZYUE5QTE84MkhhTXJTTy03dS03aVVMU2tHakpYMk9R?oc=5",
      "source": "WJAR"
     },
     {
-     "title": "New Study Reveals Health, Economic Costs Of Daylight Saving Time - Forbes",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdHdqNWlwcVpLT3VPcWZVTGk1aDFnY0ZLSUtmVkxPQXBtV25QaTRJbktkUml1R3RWei1fQmlyRXZFWGlTV0ZibHFhaHU3clIyS003VFNSdWhFcTV4ZHZNeGVmalBYaXF6VjdIcGg0bklCbTVSWE1FVkRKRnkxdG5UTVo5TDhRdi1tYUFEVnNhWlF5Q3BkQ1IzMkVLQTBrb0lSZEhSWWh2UFVwV2VRWWU1OXFaSHFSelRRZWZNZld3?oc=5",
-     "source": "Forbes"
+     "title": "Chicago's thoughts on daylight saving time - WBEZ Chicago",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUZuWTdMOERPenNjalBZSFFyWksxdl9vUXkzZU1LajJhaUpfTG1qTHU0dlFMTUpOOFczZ3NQQml0LWRpVXJpajFRVVJIMWdXRTZLblhNeldCRVVEUDdEVDQwZ2s5QnB6ODFhTGtUZ0ltLVYzUnZsWnBDQ2k0dHpSSG1fajJlYllQY2tEdjBDY2FNOHlMQVIzb18xb25tWGpUNTV4MEE0STdjQXhfSnBFeWxB?oc=5",
+     "source": "WBEZ Chicago"
+    },
+    {
+     "title": "Why Tennessee still changes its clocks - WREG.com",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUDZmUDM2NkFDWExTUFF0QWQ4c0JNNzNBVl9GV0ttb1d4a3NZb3U5cDNFQ1lhZ25OZ1Y1UUlfRWNmbVUyR2VTaVFqMC1PYi1KTm5JeXUyVnRTaWR1MW9RU1R3WUg0ODhwcXFJdUo1aDlUVnVLc1RxMkZQQmVNX0cxNnZlZUxCOFZ5MVJhREJ2NXhjeGliZ2FoRVhFOXJTekZLYWw1edIBqgFBVV95cUxPd3VtMEN1QW1INUlMNFhHcGFIMXBOQVk5RVh0WjlVa19RRmhVbEIwd1dXbWxkbHR3WTNLd29ndEhjTVgtVU93S215S213NTQxR1VvRVVTVEtkTmluSE5oWmRvdmg2NGFGMXZDVGdYUkoyLW1LbGlXNU1SZnBRVGdjaWxQSDJlcXhINjRxV0tFV3RLbkl6ODBiWEM1TG9MTEpQZVh0clFWeVU1UQ?oc=5",
+     "source": "WREG.com"
     }
    ],
    "official": false,
-   "score": 50.6,
+   "score": 55.0,
    "already_covered": false,
    "evidence": [
-    {
-     "url": "https://www.wbez.org/say-more-with-mary-dixon-patrick-smith/2026/11/02/chicagos-thoughts-on-daylight-saving-time",
-     "title": "Chicago's thoughts on daylight saving time - WBEZ Chicago",
-     "outlet": "WBEZ Chicago"
-    },
     {
      "url": "https://turnto10.com/features/health-landing-page/making-the-case-for-standard-time-vs-daylight-saving-time-a-local-expert-weighs-in-november-2-2026",
      "title": "Making the case for Standard time vs Daylight Saving Time: A local expert weighs in - WJAR",
      "outlet": "WJAR"
+    },
+    {
+     "url": "https://www.wbez.org/say-more-with-mary-dixon-patrick-smith/2026/11/02/chicagos-thoughts-on-daylight-saving-time",
+     "title": "Chicago's thoughts on daylight saving time - WBEZ Chicago",
+     "outlet": "WBEZ Chicago"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "senate election results today",
+   "traffic": 5000,
+   "published": "2026-11-03T23:30:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "U.S. Senate Midterm Election Live Results 2026",
+     "url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+     "source": "NBC News"
+    },
+    {
+     "title": "8 Senate Races the Forecasters Can’t Agree On",
+     "url": "https://time.com/article/2026/11/03/us-election-midterms-forecasters-analysis-senate-race-ratings/",
+     "source": "Time Magazine"
+    },
+    {
+     "title": "From Alaska to Michigan, candidates highlight critical stakes of Senate control in closing messages",
+     "url": "https://edition.cnn.com/2026/11/02/politics/live-news/midterm-election-congress",
+     "source": "CNN"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 52.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+     "title": "U.S. Senate Midterm Election Live Results 2026",
+     "outlet": "NBC News"
+    },
+    {
+     "url": "https://time.com/article/2026/11/03/us-election-midterms-forecasters-analysis-senate-race-ratings/",
+     "title": "8 Senate Races the Forecasters Can’t Agree On",
+     "outlet": "Time Magazine"
+    },
+    {
+     "url": "https://edition.cnn.com/2026/11/02/politics/live-news/midterm-election-congress",
+     "title": "From Alaska to Michigan, candidates highlight critical stakes of Senate control in closing messages",
+     "outlet": "CNN"
     }
    ]
   },
@@ -775,8 +793,8 @@
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
-   "article_count_24h": 35,
-   "article_count_1h": 9,
+   "article_count_24h": 24,
+   "article_count_1h": 18,
    "published": "2026-11-03T17:00:00+09:00",
    "category": "Student Aid",
    "news": [
@@ -786,14 +804,14 @@
      "source": "National Urban League"
     },
     {
-     "title": "3 Class Action Student Loan Lawsuits Against The Education Department Heat Up: Key Details - Forbes",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQN1FhYkx1VDBvRmx3SWZEeXViellrQXRMaTM0b2hnRUh0Rm8yY2RxQ1NhcTV2aFdKck9ISTVHVTc1UWJPRjRzYkFsTXdHcmhuanRxTVp2SENWY0RxamJQZDY0TUVGQU9QV29tNnFVUU03MGtJd05ZODA4Wk5LTW5BaHlZNU9uTVZqWjlEMVdGeThxenZPZEFOaEFmZ3FyY3FEQk5FUWxGS24tVnpIbkxwTWUxZk45czkwU1NIX3B5LUFObGdNNHFINEd3RW4taWVEMzV0SnRJZmE?oc=5",
-     "source": "Forbes"
-    },
-    {
      "title": "Mortgage Rates Today, November 3, 2026: 30-Year Rates Drop to 7.26% - WSJ",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSzJIWldGZWR6Z0hCOE45YkhOYXpwR2dXZkJEUk5YYUJFeWxQeFZYQVlpN0IxUFlwQmtCeV9EMU52YVJFVzFQRXIteG54ZnUydzZvZUcxaTMtVnV5dVFpTkJFT2VtMzl2Qk5qNkhTUjlUWTBYRWsxelZPcEdfeGFiUVVrb3VGMXVfQWpJS1hwSXNydHhoZkt2Z3hPbkhvSTRBN1RibERR?oc=5",
      "source": "WSJ"
+    },
+    {
+     "title": "3 Class Action Student Loan Lawsuits Against The Education Department Heat Up: Key Details - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQN1FhYkx1VDBvRmx3SWZEeXViellrQXRMaTM0b2hnRUh0Rm8yY2RxQ1NhcTV2aFdKck9ISTVHVTc1UWJPRjRzYkFsTXdHcmhuanRxTVp2SENWY0RxamJQZDY0TUVGQU9QV29tNnFVUU03MGtJd05ZODA4Wk5LTW5BaHlZNU9uTVZqWjlEMVdGeThxenZPZEFOaEFmZ3FyY3FEQk5FUWxGS24tVnpIbkxwTWUxZk45czkwU1NIX3B5LUFObGdNNHFINEd3RW4taWVEMzV0SnRJZmE?oc=5",
+     "source": "Forbes"
     },
     {
      "title": "Federal judge awards restitution on 5% of $1M student loan scam - Colorado Politics",
@@ -834,71 +852,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "tax deadline",
-   "traffic": 0,
-   "article_count_24h": 20,
-   "article_count_1h": 4,
-   "published": "2026-11-03T14:30:00+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Schenectady fails to break tax cap, violates charter budget deadline - The Daily Gazette",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZmJnT3pWT2JYbGVtbmN0TThRODlxX3dtY2l2TVRRZVF0bUlFQUpPT1U4ODRqQ3pRSGtfNWV0MkRkb2FtTVh4YjBaVTE5WnVOanJWZUgyOXl3WlBSTmZySFVvalVUdF83RGJGUUJfV0cxaEEyNzJvV19TMElxMDFfUVNrYkZ5b0dDWFp5NTdoM1V1ZndJRW5UQ3hCMVQ1T0RId21ub1RNMGc5bmxuYkdoR3RHenVtU2xuVmQ3LXI2aml4R2RwNGtPVlpNaw?oc=5",
-     "source": "The Daily Gazette"
-    },
-    {
-     "title": "Film Unions Wonder If Next CA Gov Will Commit To Expand Tax Credits - Deadline",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOG1CbFA2WHJJWUJGS3BfQWVnUkUzUlRCdmgtNHZ1ek94X0UwSG1KU3N3dHZNNjgzNEhpYTE5aGhWdE5BdDdTUWI1N29uYWFoRTdfOHRqcnlzNEVZNXp6blNfS25JWFNIS1gxWHdWdF9ySzcwTW9CelBWa0VXdGlQY2szdUU2WFBWUFU4UWREb2Q2ek5ydnEwbWt2OHI?oc=5",
-     "source": "Deadline"
-    },
-    {
-     "title": "The day before his successor as California’s governor is elected in the high stakes midterms, Gavin Newsom is going out with a bang. In what would be termed a seismic November surprise in any other normal election year, potential POTUS contender Newso - Facebook",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUmZxRW5OOVVCaHZiVlNoRFNUWXFFTDhObm8zaEtna2ZVVHRVTnJKNjJBSGJkN0k0c2xNMnRFR3hMV3dsUVh2TUo2M0dkN2JYOHg1YkhEcy1UZTVBOW1Pb1JZdjF0V1UyRkxzZEhoZi05ZTNkc3ZHLUkySFlrMlAzcTFSU3pfS211WWVFUnBaMi1vdUYwS1BxSkd4djRnc041WEl5dkZFQlhsa3p5QUxDRnNRb2JjaE14LUtvWE5RNF9oSnU3TXZ0c19yWkNvY3FwWGt4cUVn?oc=5",
-     "source": "Facebook"
-    },
-    {
-     "title": "HMRC issues five things you ‘need to know' warning ahead of urgent November 7 deadline - AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBaNTJoYjlUeHAwWWhKRWczNWs3OFBtS0U1S2tfLTBtajJSS1JGRFdNNzIwVVJxM05KVG5JU2tFYWJObEQ5d0NGaE85azdHR09fM0JIV3dxNi1TUXlVQmNxN2lfdnU5T3NmQWpGWmFLYnpiR3FLcVNkYXRiejg?oc=5",
-     "source": "AOL.com"
-    },
-    {
-     "title": "IRS deadline arrives for Wisconsin taxpayers affected by April storms - Channel 3000",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZ0dBUHh4bUk4MzNONnhhZDJGOW9WSHRDWnd5S1BmWHNQdDFqODJsQjhjU25WU2xfaDMxSXlvQjhZNU9QWW05bzkyV0NNSHRjNldZc1VubmU5bnZEWGthN3FfaWdlVEVwUUJBbHdGTnRYRlNwME1LRnVFeGtYdnd5amlNTjUxZTVRbGd2LTRoVlRyOTM0QlZSN3VDem1Jd0YxNWFVUGhuSC1YbzY4ZlhOcVVaZWJ2WjUwenhrMnZOWmdnczdmS3l6bFdJNlZwOXlSUEM5YVBmV0FPVTktM1hhZXZQQWFwZ1E?oc=5",
-     "source": "Channel 3000"
-    }
-   ],
-   "official": false,
-   "score": 48.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.dailygazette.com/news/government/schenectady-city-council-2026-budget/article_2e313fb9-53fd-40b2-8cec-3e8790595336.html",
-     "title": "Schenectady fails to break tax cap, violates charter budget deadline - The Daily Gazette",
-     "outlet": "The Daily Gazette"
-    },
-    {
-     "url": "https://deadline.com/2026/11/hollywood-unions-react-newsom-1-billion-film-tax-credit-1237211519/",
-     "title": "Film Unions Wonder If Next CA Gov Will Commit To Expand Tax Credits - Deadline",
-     "outlet": "Deadline"
-    },
-    {
-     "url": "https://www.aol.com/articles/hmrc-issues-five-things-know-073400000.html",
-     "title": "HMRC issues five things you ‘need to know' warning ahead of urgent November 7 deadline - AOL.com",
-     "outlet": "AOL.com"
-    },
-    {
-     "url": "https://www.channel3000.com/news/irs-deadline-arrives-for-wisconsin-taxpayers-affected-by-april-storms/article_74a57ec2-1b6b-496b-bb97-8a91a0782ae0.html",
-     "title": "IRS deadline arrives for Wisconsin taxpayers affected by April storms - Channel 3000",
-     "outlet": "Channel 3000"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "IRS refund",
    "traffic": 0,
    "article_count_24h": 32,
-   "article_count_1h": 3,
+   "article_count_1h": 4,
    "published": "2026-11-03T13:28:00+09:00",
    "category": "Taxes",
    "news": [
@@ -918,18 +875,18 @@
      "source": "Kiplinger"
     },
     {
+     "title": "IRS achieved historic performance in 2026 for American taxpayers, efficiently delivering new tax benefits to working families - The Troy Times Tribune",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQOUlETU50LWdFREhjRDJ5QkNQRkJfRkZPcnVuSnJNWlY3ZURsRkV0TVM3djh3OU1nMUdERElLcWhqNlFXOGhtVVVUeW1zQmQzUVhmeEFCUk4zdEQzT09ieWZRbWQtSTlSS3kzSlZYNjZLUlZmOG5tNkpIbWk1Rk5veEVfRlBDZ2IzLXlQYTFxeHYzVHZPbEdJcllDeHc1S0wtRms2QWMzZ3NpZmRMZ19WU0htNzBTcFZvRGp3R0lBMDJJcmUwa1ZmWS1wcFJEN21ZR19DdUVZbXoxQ2hCNE1wbmlQQ1FlZWcyMkpZdmlRRFIyQkJYRTVXbXh1Um1XZw?oc=5",
+     "source": "The Troy Times Tribune"
+    },
+    {
      "title": "Paper Refund Checks Took 36 Days to Issue in 2026, up From 13. Here’s How to Avoid the Wait in 2027 - Money Talks News",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTnlON3lsUGdZQzROQ0xQZ01falA4QTNXVXpodEJNamYyVVhadVJDczlKZ2JSQy00OEt5Tmo5eXJYZ3ZMb2ZUa19MVm9lTlZadklQYjlLUXhxamdvcGN2a1k0aC04YUlYenhWVXlhODBnYmFhTmNoUGh3VUpPaHlWbWU3TVFUMkNCemo0aUI3bWNod1BBblc5NUZ3NHhpOWg4YlUtY2wyZEw4VnVndm14MDVR?oc=5",
      "source": "Money Talks News"
-    },
-    {
-     "title": "Verizon tax refund approved in Bernards Township - New Jersey Hills Media Group",
-     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQ0hXRjlITzI3dzU5WmxJZWFsWXlYSmllbnItVFNycVhPekdUbGJId0JDUlNIeE1QWmVkbTAwUVZUSll5WUgzdUxES2l2VFhCZUF5MzIwcGFDekVpd0tRUTUza3lKSFhJTmFLMlp5cTJVMmZoVkp0SkdwWHNlR2dTVl9hRG1NbDlpWXlmSUFUeFl3M1BtaVpadWRhMUJxaTA0em81a3pjeXpQY0lfWXBRUW9nQ1ZFeTlQaXlUeENBWjFzMURJRzdxeU40VlpBdmc0eVRud3l3a1ExR0FXWkdleUczOWhFZzcx?oc=5",
-     "source": "New Jersey Hills Media Group"
     }
    ],
    "official": false,
-   "score": 44.1,
+   "score": 48.3,
    "already_covered": false,
    "evidence": [
     {
@@ -948,140 +905,106 @@
      "outlet": "Kiplinger"
     },
     {
-     "url": "https://www.moneytalksnews.com/paper-refund-checks-took-days-to-issue-in-up-from-heres-how-to-avoid-the-wait-in/",
-     "title": "Paper Refund Checks Took 36 Days to Issue in 2026, up From 13. Here’s How to Avoid the Wait in 2027 - Money Talks News",
-     "outlet": "Money Talks News"
+     "url": "https://www.timestribunenews.com/2026/11/03/irs-achieved-historic-performance-in-2026-for-american-taxpayers-efficiently-delivering-new-tax-benefits-to-working-families/",
+     "title": "IRS achieved historic performance in 2026 for American taxpayers, efficiently delivering new tax benefits to working families - The Troy Times Tribune",
+     "outlet": "The Troy Times Tribune"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "ACA open enrollment",
+   "keyword": "tax deadline",
    "traffic": 0,
-   "article_count_24h": 27,
-   "article_count_1h": 2,
-   "published": "2026-11-03T08:38:32+09:00",
-   "category": "Health Insurance",
+   "article_count_24h": 20,
+   "article_count_1h": 3,
+   "published": "2026-11-03T14:30:00+09:00",
+   "category": "Taxes",
    "news": [
     {
-     "title": "With ACA open enrollment starting, healthcare is top of mind for many voters - NPR",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXdmbEJBcXphZVRFbGdHTWNqUXFhZzlkdC1TdmRjdnJPOVdXLTZrTjZpeWhxdE1WQzg0UDVhSnBtNXBYa0ktLXlCTXhxaTFiN1dZR3JJZzBxRndEdlZjZFZCSTJYemc0NmtGWVRnWl9yM3pVbEFCSF9GZnRicTM5dUpNZGZVdmVUYWtyZ3FCOEhWZGU2ek9aOHRQN3RvRVR0cElYU2V2VmpsX0VOc0EwYlVEb2ZiOWlnRi01Zg?oc=5",
-     "source": "NPR"
+     "title": "Schenectady fails to break tax cap, violates charter budget deadline - The Daily Gazette",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZmJnT3pWT2JYbGVtbmN0TThRODlxX3dtY2l2TVRRZVF0bUlFQUpPT1U4ODRqQ3pRSGtfNWV0MkRkb2FtTVh4YjBaVTE5WnVOanJWZUgyOXl3WlBSTmZySFVvalVUdF83RGJGUUJfV0cxaEEyNzJvV19TMElxMDFfUVNrYkZ5b0dDWFp5NTdoM1V1ZndJRW5UQ3hCMVQ1T0RId21ub1RNMGc5bmxuYkdoR3RHenVtU2xuVmQ3LXI2aml4R2RwNGtPVlpNaw?oc=5",
+     "source": "The Daily Gazette"
     },
     {
-     "title": "What to know about the Affordable Care Act's open enrollment period - PBS",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMHBUNjRpM2NlenhMS1NSS0ZYNmxPUkxlZExwTjBiM1NoZjR0NWhoUF9SR2pJQXJHcGFqQjUyYkV5ZjZqWURBbnB5NFN4RnBvb1FvOUJDZWJUdzFLVS1yeXNtQUdLLTk0UGJJOGIwcWxIV0twd1JOelkycEFFakgxVXMzMGMzWFFQd2JLYWlHX3pSQS00V2dOLVJzYWJORVh3clZ6Tg?oc=5",
-     "source": "PBS"
+     "title": "Film Unions Wonder If Next CA Gov Will Commit To Expand Tax Credits - Deadline",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOG1CbFA2WHJJWUJGS3BfQWVnUkUzUlRCdmgtNHZ1ek94X0UwSG1KU3N3dHZNNjgzNEhpYTE5aGhWdE5BdDdTUWI1N29uYWFoRTdfOHRqcnlzNEVZNXp6blNfS25JWFNIS1gxWHdWdF9ySzcwTW9CelBWa0VXdGlQY2szdUU2WFBWUFU4UWREb2Q2ek5ydnEwbWt2OHI?oc=5",
+     "source": "Deadline"
     },
     {
-     "title": "With premiums on the rise, what to know as ACA coverage open enrollment begins - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjI2b2E5eWVKQ0pwNTVWbC15VTZEbWhacHZERVlXS2lhNlg2Z3E3UVY1dmlGRENiYjVRMGJYQ2ZRWl9RM25TaUlsYU1iRWlnaHBOUEV3ZlFZLVpxZzFuQmdSRkhFd1RXZUxpUXVyVjFSWTVEaFNvbmEtZ19jbXAxcHJpN2YzeWdjZ1dCdjlkMmd1ZXdydGlOYVRUa9IBoAFBVV95cUxQMm93eEdUbm9lRlJCanNPYzl6TTdIbG5RcVRsdGh4ZGd1UXRoNjRUa2FOd3JmbmgzZWktOEpTRVl0YVhGYjM0aFVBYjhjWHFGNWV4YjJmTmRpVEhSWVRqeUU0Zzc5NnExWXBXcVM5dVZYZ1BEdzdBTllaclQxMnk4amhGaVp0Ti10NjVvelcxZDJfUV85OGFhVnZCRzNUb1lq?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
+     "title": "The day before his successor as California’s governor is elected in the high stakes midterms, Gavin Newsom is going out with a bang. In what would be termed a seismic November surprise in any other normal election year, potential POTUS contender Newso - Facebook",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUmZxRW5OOVVCaHZiVlNoRFNUWXFFTDhObm8zaEtna2ZVVHRVTnJKNjJBSGJkN0k0c2xNMnRFR3hMV3dsUVh2TUo2M0dkN2JYOHg1YkhEcy1UZTVBOW1Pb1JZdjF0V1UyRkxzZEhoZi05ZTNkc3ZHLUkySFlrMlAzcTFSU3pfS211WWVFUnBaMi1vdUYwS1BxSkd4djRnc041WEl5dkZFQlhsa3p5QUxDRnNRb2JjaE14LUtvWE5RNF9oSnU3TXZ0c19yWkNvY3FwWGt4cUVn?oc=5",
+     "source": "Facebook"
     },
     {
-     "title": "ACA open enrollment begins as Las Vegas agency warns of rising premiums - KSNV",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLTNpTTRXbm1HZlNkUGxpbU0tbEhBYzhNRk5BRGRoRTM3SnI0d3Z0WUZlUUJ2YlFEei11NkdyekROSDR4a0R0U0pCOHZsYWZ0WV9JaFo0ajFkOVJjQjJDTU9mNHhtSFFkcWE4VFhWeEZSNzNHNUlwRG5LcGdUQll1M3o1OU5hV1pla3Q1QlVLTHBTU0pzRkhQOS1NRjAzNG00Uzg4Qw?oc=5",
-     "source": "KSNV"
+     "title": "IRS deadline arrives for Wisconsin taxpayers affected by April storms - Channel 3000",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZ0dBUHh4bUk4MzNONnhhZDJGOW9WSHRDWnd5S1BmWHNQdDFqODJsQjhjU25WU2xfaDMxSXlvQjhZNU9QWW05bzkyV0NNSHRjNldZc1VubmU5bnZEWGthN3FfaWdlVEVwUUJBbHdGTnRYRlNwME1LRnVFeGtYdnd5amlNTjUxZTVRbGd2LTRoVlRyOTM0QlZSN3VDem1Jd0YxNWFVUGhuSC1YbzY4ZlhOcVVaZWJ2WjUwenhrMnZOWmdnczdmS3l6bFdJNlZwOXlSUEM5YVBmV0FPVTktM1hhZXZQQWFwZ1E?oc=5",
+     "source": "Channel 3000"
     },
     {
-     "title": "Enrollment is open for Affordable Care Act coverage. What do New Mexicans need to know? - Santa Fe New Mexican",
-     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNMDdMQjV1RlBxTnJvRDJKNGVjMjlBN0ZtLTlFc29NTVEtMXNwMUkwbmN3dXA2Wml0YnlPNGxCb2hWTF8xZFBwdjJHMG5MOTJTdU1oN201YUhsM0pHdHo4cGwtWEp1N1Q0dlZ3V3psaXU1dV91eDZKeDFDeTFzbUROMmxxd3p6cjdoNVhOSklBbTlVSHNOVExCYXhBbWxqUk0yM0pscUcxRU5MaVF5TTRrVEVLVnhjWnU1S1A3SVFmT0ZFV256QnJ5NXlHQ3NkSWY1YzEzcmE5dHNvczY5VlNWaHk4bXZQV1BqblFoM25hdzhIYThhYjBtRWlVWHBkaGplY3NLVFMwQWM5RndfQUE3ZmZydw?oc=5",
-     "source": "Santa Fe New Mexican"
+     "title": "HMRC issues five things you ‘need to know' warning ahead of urgent November 7 deadline - AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBaNTJoYjlUeHAwWWhKRWczNWs3OFBtS0U1S2tfLTBtajJSS1JGRFdNNzIwVVJxM05KVG5JU2tFYWJObEQ5d0NGaE85azdHR09fM0JIV3dxNi1TUXlVQmNxN2lfdnU5T3NmQWpGWmFLYnpiR3FLcVNkYXRiejg?oc=5",
+     "source": "AOL.com"
     }
    ],
    "official": false,
-   "score": 39.9,
+   "score": 44.1,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.npr.org/2026/11/02/nx-s1-6014590/with-aca-open-enrollment-starting-healthcare-is-top-of-mind-for-many-voters",
-     "title": "With ACA open enrollment starting, healthcare is top of mind for many voters - NPR",
-     "outlet": "NPR"
+     "url": "https://www.dailygazette.com/news/government/schenectady-city-council-2026-budget/article_2e313fb9-53fd-40b2-8cec-3e8790595336.html",
+     "title": "Schenectady fails to break tax cap, violates charter budget deadline - The Daily Gazette",
+     "outlet": "The Daily Gazette"
     },
     {
-     "url": "https://www.pbs.org/newshour/health/what-to-know-about-the-affordable-care-acts-open-enrollment-period",
-     "title": "What to know about the Affordable Care Act's open enrollment period - PBS",
-     "outlet": "PBS"
+     "url": "https://deadline.com/2026/11/hollywood-unions-react-newsom-1-billion-film-tax-credit-1237211519/",
+     "title": "Film Unions Wonder If Next CA Gov Will Commit To Expand Tax Credits - Deadline",
+     "outlet": "Deadline"
     },
     {
-     "url": "https://abcnews.com/Health/premiums-rise-aca-coverage-open-enrollment-begins/story?id=137765948",
-     "title": "With premiums on the rise, what to know as ACA coverage open enrollment begins - ABC News - Breaking News, Latest News and Videos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
+     "url": "https://www.channel3000.com/news/irs-deadline-arrives-for-wisconsin-taxpayers-affected-by-april-storms/article_74a57ec2-1b6b-496b-bb97-8a91a0782ae0.html",
+     "title": "IRS deadline arrives for Wisconsin taxpayers affected by April storms - Channel 3000",
+     "outlet": "Channel 3000"
     },
     {
-     "url": "https://news3lv.com/news/local/aca-open-enrollment-begins-as-las-vegas-agency-warns-of-rising-premiums",
-     "title": "ACA open enrollment begins as Las Vegas agency warns of rising premiums - KSNV",
-     "outlet": "KSNV"
+     "url": "https://www.aol.com/articles/hmrc-issues-five-things-know-073400000.html",
+     "title": "HMRC issues five things you ‘need to know' warning ahead of urgent November 7 deadline - AOL.com",
+     "outlet": "AOL.com"
     }
    ]
   },
   {
-   "source": "google_news",
-   "keyword": "medicare open enrollment",
-   "traffic": 0,
-   "article_count_24h": 37,
-   "article_count_1h": 1,
-   "published": "2026-11-03T15:41:18+09:00",
-   "category": "Health Insurance",
+   "source": "google_trends",
+   "keyword": "lawsuit",
+   "traffic": 5000,
+   "published": "2026-11-03T23:20:00+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "AARP: Medicare open enrollment is prime time for scammers to target vulnerable adults - WWMT",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZU1VcnhOb2pLOXJLUGk2TUhvMTR2QzZ4c3hXeFVzc243b2ZMOVpTeFNBQU5pX1o3dzhYU1NRMTNxWjYwTzdMdkdTY3paMHVuNWFUdVdYNzFDZWlCWGRDampqNnFfd2p2bHdDTFREb2dyelhFQ0xGbjd0eGVnakVHNzVyYktSbmdkT0o0elBRejI3UFdqRzdHTVVwUFVERXVNZ01oc081ckk3bk4zXzJaTE9ZMTZURi1uOG52Rm9rQ2VNSkdfVmIwdWZ4RUhPeGFOYUY0VUpYbk9NSGM?oc=5",
-     "source": "WWMT"
+     "title": "Judge Dismisses Trump Lawsuit Demanding Harvard Admissions Data",
+     "url": "https://www.nytimes.com/2026/11/02/us/harvard-admissions-trump-lawsuit-dismissed.html",
+     "source": "The New York Times"
     },
     {
-     "title": "Losing your Medicare plan? What Long Islanders should know - Newsday",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb3J4S1NRMFpTaWVuY3lyNWtPVFo0SUMyYk9DUWp4VmctQWdUVG1JUHY1b3pnYmNhbUN0Rl9JNl92eEthOFRZU1NuakhYcjFFdEFiTGh6SHp5bEJHU2NHckhoSlRTcWg1MUFSZFBYUllkcGJDS0MwYTB2ODRxbnFFd1FMdWw1YjdST3gyWDFkdlc4Xy1CdHI1Tw?oc=5",
-     "source": "Newsday"
+     "title": "Federal judge dismisses Trump lawsuit seeking Harvard admissions data",
+     "url": "https://www.theguardian.com/education/2026/nov/03/harvard-trump-lawsuit-dismissed-admissions-data",
+     "source": "The Guardian"
     },
     {
-     "title": "Medicare Open Enrollment Offers Chance to Review Coverage, Avoid Costly Mistakes - Radio Catskill",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd05MS3RES0wzck1NYlBqRUhvTmtEWUx1N3BoanlualRtTFYwSkpFcEJtaER6WTZQcVpWZEhsYUtHQUcxXzloNFd6eUhkdm5jWS1HOEo4eURWem96T2x3dUdBLW1GOE5iQVFoN0RQaGRkRVJBMmlRdDR0d3NhREpaal9IYjN3NTVZQjN4MjE5TDZodzc5WHhjdkZiVHMwUlNQWk41T1poRmItdw?oc=5",
-     "source": "Radio Catskill"
-    },
-    {
-     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Clearwater Tribune",
-     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWVdDdW1KRVZ3dU16cjRJX1hEeFBmb29Sa3ZpSkNXbGZoMXJLaHNZRTFTcmxrejRuMTU4cXlWWk9JTlRiY3lXN0hBSFdWcU12RGRsMThYRFVVNjlROE5GLWs2TVBwYVJQNEs1UGRJeUlPTXpLN25mazJJSk9wYnVvZ0JlOGRTZ2FfMTdBdmdfUFVqa2UwMDVZNTNfNk9RZGVNdThUa01KN2ZHbmRlZVVfak16dW44aWZVeDJ1dTdjUFlFWjQ0Y0RHTEVnc0JOQzNZQzV1bkVaWVVpZDF2TTlYS21RcVE0NTJHWTRNLWxnTm9PVEs4cjNwS1VkR3hhalRzWTBaWUxaTjNjR1BIR3c?oc=5",
-     "source": "Clearwater Tribune"
-    },
-    {
-     "title": "Best Medicare Supplement (Medigap) Companies for 2027 - Forbes",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVk9INGY4Y3FPWlc3SkQzZlZ4cEF1NHl2RHA4Y1FubUZsMzZncHFpNFUtRUNWSEplSHRnQmNCWkVPbzEtV0JCUjJLLTN1cExDZGxqakp4ODkwZ1pWYmNYQWwxams0a1JxdWdsZ2FZVnRQY2J5SEdlYkZRejFiWkJfZWU5MDRqV0wwWTR2LVBiZ2dTS1R6N3Z3?oc=5",
-     "source": "Forbes"
+     "title": "Judge dismisses Trump administration lawsuit against Harvard on admissions",
+     "url": "https://www.washingtonpost.com/education/2026/11/02/judge-dismisses-trump-administration-lawsuit-against-harvard-admissions/",
+     "source": "The Washington Post"
     }
    ],
    "official": false,
-   "score": 35.7,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://wwmt.com/news/local/medicare-open-enrollment-scams-scammers-target-vulnerable-adults-aarp-medicare-healthcare-seniors-tips-protect-wwmt",
-     "title": "AARP: Medicare open enrollment is prime time for scammers to target vulnerable adults - WWMT",
-     "outlet": "WWMT"
-    },
-    {
-     "url": "https://www.newsday.com/business/wallet-watch/long-island-medicare-2027-plan-changes-w13fmwpq",
-     "title": "Losing your Medicare plan? What Long Islanders should know - Newsday",
-     "outlet": "Newsday"
-    },
-    {
-     "url": "https://radiocatskill.org/medicare-open-enrollment-offers-chance-to-review-coverage-avoid-costly-mistakes/",
-     "title": "Medicare Open Enrollment Offers Chance to Review Coverage, Avoid Costly Mistakes - Radio Catskill",
-     "outlet": "Radio Catskill"
-    },
-    {
-     "url": "https://www.clearwatertribune.com/online_features/health_and_wellness/medicare-open-enrollment-ends-dec-7-give-your-plan-a-check-up/article_d214971c-84a7-532a-9147-6751a54dcbd5.html",
-     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Clearwater Tribune",
-     "outlet": "Clearwater Tribune"
-    }
-   ]
+   "score": 40.0,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "LIHEAP",
    "traffic": 0,
-   "article_count_24h": 15,
-   "article_count_1h": 0,
+   "article_count_24h": 16,
+   "article_count_1h": 1,
    "published": "2026-11-03T13:26:00+09:00",
    "category": "Benefits",
    "news": [
@@ -1112,8 +1035,91 @@
     }
    ],
    "official": false,
-   "score": 33.6,
-   "already_covered": true
+   "score": 38.1,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://www.nbcphiladelphia.com/news/local/pa-residents-can-get-up-to-2000-in-heating-assistance-how-to-apply/4490177/",
+     "title": "Pa. residents can get up to $2,000 in heating assistance. How to apply - NBC10 Philadelphia",
+     "outlet": "NBC10 Philadelphia"
+    },
+    {
+     "url": "https://www.timesleader.com/news/1764279/pennsylvania-roundup-dhs-accepting-applications-for-2026-27-liheap-season",
+     "title": "PENNSYLVANIA ROUNDUP: DHS accepting applications for 2026-27 LIHEAP season - Times Leader",
+     "outlet": "Times Leader"
+    },
+    {
+     "url": "https://www.raccoonvalleyradio.com/2026/11/03/why-people-may-need-liheap/",
+     "title": "Why People May Need LIHEAP - Raccoon Valley Radio",
+     "outlet": "Raccoon Valley Radio"
+    },
+    {
+     "url": "https://www.cbsnews.com/pittsburgh/news/liheap-applications-open-2026/",
+     "title": "LIHEAP applications open for Pennsylvanians who need help with winter utility bills - CBS News",
+     "outlet": "CBS News"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "ACA open enrollment",
+   "traffic": 0,
+   "article_count_24h": 26,
+   "article_count_1h": 1,
+   "published": "2026-11-03T08:38:32+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "With ACA open enrollment starting, healthcare is top of mind for many voters - NPR",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXdmbEJBcXphZVRFbGdHTWNqUXFhZzlkdC1TdmRjdnJPOVdXLTZrTjZpeWhxdE1WQzg0UDVhSnBtNXBYa0ktLXlCTXhxaTFiN1dZR3JJZzBxRndEdlZjZFZCSTJYemc0NmtGWVRnWl9yM3pVbEFCSF9GZnRicTM5dUpNZGZVdmVUYWtyZ3FCOEhWZGU2ek9aOHRQN3RvRVR0cElYU2V2VmpsX0VOc0EwYlVEb2ZiOWlnRi01Zg?oc=5",
+     "source": "NPR"
+    },
+    {
+     "title": "What to know about the Affordable Care Act's open enrollment period - PBS",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMHBUNjRpM2NlenhMS1NSS0ZYNmxPUkxlZExwTjBiM1NoZjR0NWhoUF9SR2pJQXJHcGFqQjUyYkV5ZjZqWURBbnB5NFN4RnBvb1FvOUJDZWJUdzFLVS1yeXNtQUdLLTk0UGJJOGIwcWxIV0twd1JOelkycEFFakgxVXMzMGMzWFFQd2JLYWlHX3pSQS00V2dOLVJzYWJORVh3clZ6Tg?oc=5",
+     "source": "PBS"
+    },
+    {
+     "title": "With premiums on the rise, what to know as ACA coverage open enrollment begins - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjI2b2E5eWVKQ0pwNTVWbC15VTZEbWhacHZERVlXS2lhNlg2Z3E3UVY1dmlGRENiYjVRMGJYQ2ZRWl9RM25TaUlsYU1iRWlnaHBOUEV3ZlFZLVpxZzFuQmdSRkhFd1RXZUxpUXVyVjFSWTVEaFNvbmEtZ19jbXAxcHJpN2YzeWdjZ1dCdjlkMmd1ZXdydGlOYVRUa9IBoAFBVV95cUxQMm93eEdUbm9lRlJCanNPYzl6TTdIbG5RcVRsdGh4ZGd1UXRoNjRUa2FOd3JmbmgzZWktOEpTRVl0YVhGYjM0aFVBYjhjWHFGNWV4YjJmTmRpVEhSWVRqeUU0Zzc5NnExWXBXcVM5dVZYZ1BEdzdBTllaclQxMnk4amhGaVp0Ti10NjVvelcxZDJfUV85OGFhVnZCRzNUb1lq?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "title": "ACA open enrollment begins as Las Vegas agency warns of rising premiums - KSNV",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLTNpTTRXbm1HZlNkUGxpbU0tbEhBYzhNRk5BRGRoRTM3SnI0d3Z0WUZlUUJ2YlFEei11NkdyekROSDR4a0R0U0pCOHZsYWZ0WV9JaFo0ajFkOVJjQjJDTU9mNHhtSFFkcWE4VFhWeEZSNzNHNUlwRG5LcGdUQll1M3o1OU5hV1pla3Q1QlVLTHBTU0pzRkhQOS1NRjAzNG00Uzg4Qw?oc=5",
+     "source": "KSNV"
+    },
+    {
+     "title": "Enrollment is open for Affordable Care Act coverage. What do New Mexicans need to know? - Santa Fe New Mexican",
+     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNMDdMQjV1RlBxTnJvRDJKNGVjMjlBN0ZtLTlFc29NTVEtMXNwMUkwbmN3dXA2Wml0YnlPNGxCb2hWTF8xZFBwdjJHMG5MOTJTdU1oN201YUhsM0pHdHo4cGwtWEp1N1Q0dlZ3V3psaXU1dV91eDZKeDFDeTFzbUROMmxxd3p6cjdoNVhOSklBbTlVSHNOVExCYXhBbWxqUk0yM0pscUcxRU5MaVF5TTRrVEVLVnhjWnU1S1A3SVFmT0ZFV256QnJ5NXlHQ3NkSWY1YzEzcmE5dHNvczY5VlNWaHk4bXZQV1BqblFoM25hdzhIYThhYjBtRWlVWHBkaGplY3NLVFMwQWM5RndfQUE3ZmZydw?oc=5",
+     "source": "Santa Fe New Mexican"
+    }
+   ],
+   "official": false,
+   "score": 35.7,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.npr.org/2026/11/02/nx-s1-6014590/with-aca-open-enrollment-starting-healthcare-is-top-of-mind-for-many-voters",
+     "title": "With ACA open enrollment starting, healthcare is top of mind for many voters - NPR",
+     "outlet": "NPR"
+    },
+    {
+     "url": "https://www.pbs.org/newshour/health/what-to-know-about-the-affordable-care-acts-open-enrollment-period",
+     "title": "What to know about the Affordable Care Act's open enrollment period - PBS",
+     "outlet": "PBS"
+    },
+    {
+     "url": "https://abcnews.com/Health/premiums-rise-aca-coverage-open-enrollment-begins/story?id=137765948",
+     "title": "With premiums on the rise, what to know as ACA coverage open enrollment begins - ABC News - Breaking News, Latest News and Videos",
+     "outlet": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "url": "https://news3lv.com/news/local/aca-open-enrollment-begins-as-las-vegas-agency-warns-of-rising-premiums",
+     "title": "ACA open enrollment begins as Las Vegas agency warns of rising premiums - KSNV",
+     "outlet": "KSNV"
+    }
+   ]
   },
   {
    "source": "google_news",
@@ -1155,11 +1161,74 @@
    "already_covered": false
   },
   {
+   "source": "google_trends",
+   "keyword": "spectrum outage",
+   "traffic": 1000,
+   "published": "2026-11-03T23:20:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Internet outage prompts auditors to make calls to verify voters",
+     "url": "https://www.bhpioneer.com/local_news/internet-outage-prompts-auditors-to-make-calls-to-verify-voters/article_9719d335-b359-4d2a-82c9-b9baba1989e4.html",
+     "source": "Black Hills Pioneer"
+    },
+    {
+     "title": "Basin-wide Frontier internet outage blamed on vandals cutting cables",
+     "url": "https://z1077fm.com/basin-wide-frontier-internet-outage-blamed-on-vandals-cutting-cables/",
+     "source": "Z107.7 FM Joshua Tree"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 500→1,000",
+   "spike_bonus": 20,
+   "score": 32.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bhpioneer.com/local_news/internet-outage-prompts-auditors-to-make-calls-to-verify-voters/article_9719d335-b359-4d2a-82c9-b9baba1989e4.html",
+     "title": "Internet outage prompts auditors to make calls to verify voters",
+     "outlet": "Black Hills Pioneer"
+    },
+    {
+     "url": "https://z1077fm.com/basin-wide-frontier-internet-outage-blamed-on-vandals-cutting-cables/",
+     "title": "Basin-wide Frontier internet outage blamed on vandals cutting cables",
+     "outlet": "Z107.7 FM Joshua Tree"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "taxes",
+   "traffic": 5000,
+   "published": "2026-11-03T23:20:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "The 'poison pill' ballot measure that could kill the California billionaire tax",
+     "url": "https://www.cnbc.com/2026/11/03/poison-pill-ballot-measure-could-kill-california-billionaire-tax-.html",
+     "source": "CNBC"
+    },
+    {
+     "title": "Californians to decide whether to tax billionaires with Proposition 40 vote",
+     "url": "https://www.cbsnews.com/sanfrancisco/news/california-proposition-40-billionaire-wealth-tax/",
+     "source": "CBS News"
+    },
+    {
+     "title": "Opinion | Massachusetts has a warning for California and Washington voters",
+     "url": "https://www.washingtonpost.com/opinions/2026/11/01/massachusetts-has-warning-california-washington-about-taxes/",
+     "source": "The Washington Post"
+    }
+   ],
+   "official": false,
+   "score": 32.5,
+   "already_covered": false
+  },
+  {
    "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 53,
-   "article_count_1h": 9,
+   "article_count_24h": 48,
+   "article_count_1h": 7,
    "published": "2026-11-03T21:07:48+09:00",
    "category": "기타",
    "news": [
@@ -1195,6 +1264,173 @@
   },
   {
    "source": "google_trends",
+   "keyword": "lego godzilla",
+   "traffic": 200,
+   "published": "2026-11-03T23:50:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Massive LEGO 21375 Godzilla stomps into your collection on Black Friday 2026",
+     "url": "https://jaysbrickblog.com/news/massive-lego-21375-godzilla-stomps-into-your-collection-on-black-friday-2026/",
+     "source": "Jay's Brick Blog"
+    },
+    {
+     "title": "Lego Godzilla is over 5,300-pieces of kaiju fury, but the price is equally monstrous",
+     "url": "https://www.gamesradar.com/toys-collectibles/lego-godzilla-is-over-5-300-pieces-of-kaiju-fury-but-the-price-is-equally-monstrous/",
+     "source": "GamesRadar+"
+    },
+    {
+     "title": "LEGO Ideas Godzilla and Gift with Purchase, Available November 27th",
+     "url": "https://www.jedinews.com/lego/articles/lego-ideas-godzilla-and-gift-with-purchase-available-november-27th/",
+     "source": "Jedi News"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 25.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://jaysbrickblog.com/news/massive-lego-21375-godzilla-stomps-into-your-collection-on-black-friday-2026/",
+     "title": "Massive LEGO 21375 Godzilla stomps into your collection on Black Friday 2026",
+     "outlet": "Jay's Brick Blog"
+    },
+    {
+     "url": "https://www.gamesradar.com/toys-collectibles/lego-godzilla-is-over-5-300-pieces-of-kaiju-fury-but-the-price-is-equally-monstrous/",
+     "title": "Lego Godzilla is over 5,300-pieces of kaiju fury, but the price is equally monstrous",
+     "outlet": "GamesRadar+"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "anthem",
+   "traffic": 5000,
+   "published": "2026-11-03T23:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Seahawks slammed over 'national atrocity' as metal singer performs Star-Spangled Banner on MNF",
+     "url": "https://www.aol.com/articles/seahawks-slammed-over-national-atrocity-012713000.html",
+     "source": "AOL.com"
+    },
+    {
+     "title": "WATCH: Anthrax Frontman Joey Belladonna Sings National Anthem on Monday Night Football",
+     "url": "https://therockrevival.com/rock-news/watch-anthrax-frontman-joey-belladonna-sings-national-anthem-on-monday-night-football/",
+     "source": "The Rock Revival"
+    },
+    {
+     "title": "Who is singing the national anthem at the Bears vs Seahawks Monday Night Football game?",
+     "url": "https://en.as.com/nfl/who-is-singing-the-national-anthem-at-the-bears-vs-seahawks-monday-night-football-game-f202611-n/",
+     "source": "Diario AS"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "scott colom",
+   "traffic": 500,
+   "published": "2026-11-03T23:30:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Mississippi U.S. Senate 2026: Live Election Results, Hyde-Smith vs. Colom",
+     "url": "https://www.nytimes.com/interactive/2026/11/03/us/elections/results-mississippi-us-senate.html",
+     "source": "The New York Times"
+    },
+    {
+     "title": "Live Results: Mississippi Senate midterm election",
+     "url": "https://www.pbs.org/newshour/politics/live-results-mississippi-senate-midterm-election",
+     "source": "PBS"
+    },
+    {
+     "title": "POLLS OPEN: What to know before voting in Mississippi’s midterm election",
+     "url": "https://www.wlox.com/2026/11/02/what-know-before-voting-mississippis-midterm-election/",
+     "source": "WLOX"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 22.8,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "emma roberts",
+   "traffic": 2000,
+   "published": "2026-11-03T23:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Emma Roberts Is in a New League Debuting Trading Card Business With Husband Cody John",
+     "url": "https://www.eonline.com/news/1437754/emma-roberts-husband-cody-john-start-trading-card-channel-summer-breaks",
+     "source": "E! News"
+    },
+    {
+     "title": "Emma Roberts' Son Rhodes Walked Her Down the Aisle at Summer Wedding in Idaho",
+     "url": "https://www.aol.com/articles/emma-roberts-son-rhodes-walked-195400000.html",
+     "source": "AOL.com"
+    },
+    {
+     "title": "Emma Roberts on Getting Married, American Horror Story and She Breaks Baseball Cards with Jimmy Kimmel",
+     "url": "https://abc.com/video/1ebd8a36-f969-4955-b805-2ab24a8f4395/playlist/pl5523099034",
+     "source": "ABC Network"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 1,000→2,000",
+   "spike_bonus": 20,
+   "score": 18.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "FAFSA",
+   "traffic": 0,
+   "article_count_24h": 5,
+   "article_count_1h": 0,
+   "published": "2026-11-03T10:33:54+09:00",
+   "category": "Student Aid",
+   "news": [
+    {
+     "title": "LMC seeking partners to help more Benton Harbor students complete FAFASs - News/Talk/Sports 94.9 WSJM",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmFBcVhLNl8yak13aWpvNkpPTl9QV0czajlIV2Zqa0RNVmRoTGVuM0F6Q1F2X2xvSGZ3MndXeGdkMmVzcVBVcDZuX0I0YmRIQUR2eEhZUTd6eE0ydFJmdFYzZDZZWkNmNkRSVjNVUnBqSEZsTHc3RmF5ZlFYaGdERlFVQzJNYTd6VDBPV25LU2FQaFBzNE5vbmpVb3lHaHlnZzBjU01jZw?oc=5",
+     "source": "News/Talk/Sports 94.9 WSJM"
+    },
+    {
+     "title": "Polis releases his final budget, but the election will almost certainly change his education funding proposal - Chalkbeat",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLU1ST2ZhVkVkVjFxQVZoV0NFOVdUYmRkVDZHb19zMVBmbVlLcFVjYkh0b3Nic3BKdVFNa3pOV0ZNQTBKOHhuc21Jdl8wbUZ4OGMzcll0M2JGSGVJcW1QcUlvVXFQc1hHYmV6Q21FWktwdWxNU0FfUnppakZ6LTZFWkNYVGV4MWRpUldROE56V3NUN0VOdWd3X3VvbmRaME1TQ0k2OQ?oc=5",
+     "source": "Chalkbeat"
+    },
+    {
+     "title": "Wynne High School hosting Financial Aid Night tonight - Wynne Progress",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQzBxd1RlNG5iOFZKRlhXemp6VXRERXJXVV9JaHZ2b1ZCUUJKdThaVUk3NmZXSWk0ZC04ZS04RWY3bHhObk1ON1VRd3dHbkhWREpyY1BnTHJPc1BZMXdQZnpIMnNSRUEwbHo4aXdPb0ZiY19zbHRKWDBfTVAwZVFlUUJRRXpyLWlGRUhR?oc=5",
+     "source": "Wynne Progress"
+    },
+    {
+     "title": "Kenyan Prince Challenges Interpol, US authorities over $32m fraud probe - Legit News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOWVIWVhSbTI5ekcyZmo5VTlYSE4xYUFERlNJRzEyNkJyNmtpMWRKSUdpOS14alVILVREczRUd25MNERjUEdpRG5nU1ZIYTZBWHZVWkN4eGZmb0lNejFuVUdCNk05WFI3a2lDNnhwUTlkWmNEaVN2Y1MxWE9VbW51Q2JQLW9rQmR2QnRlVkNvRk8ySTBwcm85aF9BMjdBeUE?oc=5",
+     "source": "Legit News"
+    },
+    {
+     "title": "Wynne High School hosting Financial Aid Night tonight - cedarnews.net",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVElrazFYcXYyMXJIc2NjSEtMalpudTVUTzQzVnNLOU9ZVGtrMzUwX2Jkc2lkbXVMc09lS3c1Q01lMzNNMTJfcjlVLVJ0N1RQMXJ0bXE2M3pJX1MwU1lDZTlRUUFYSXAybHZGakZUNkxoSGh1dWc3blQ3YXhfNS1FTXR3VVVEMkpCRDlrX3F2NA?oc=5",
+     "source": "cedarnews.net"
+    }
+   ],
+   "official": false,
+   "score": 14.7,
+   "already_covered": true
+  },
+  {
+   "source": "google_trends",
    "keyword": "jon ossoff",
    "traffic": 1000,
    "published": "2026-11-03T23:20:00+09:00",
@@ -1217,196 +1453,7 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 26.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.ajc.com/politics/2026/11/jon-ossoff-commanding-win-mike-collins/",
-     "title": "Jon Ossoff, once vulnerable, seeks a commanding win over Mike Collins",
-     "outlet": "The Atlanta Journal-Constitution"
-    },
-    {
-     "url": "https://www.pbs.org/newshour/politics/live-results-georgia-senate-midterm-election",
-     "title": "Live Results: Georgia Senate midterm election",
-     "outlet": "PBS"
-    },
-    {
-     "url": "https://www.nbcnews.com/politics/2026-election/jon-ossoff-builds-senate-race-lead-georgia-governor-candidates-voters-rcna604857",
-     "title": "As Jon Ossoff builds a Senate race lead, Georgia governor candidates vie for his backers",
-     "outlet": "NBC News"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "spectrum outage",
-   "traffic": 500,
-   "published": "2026-11-03T23:20:00+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Internet outage prompts auditors to make calls to verify voters",
-     "url": "https://www.bhpioneer.com/local_news/internet-outage-prompts-auditors-to-make-calls-to-verify-voters/article_9719d335-b359-4d2a-82c9-b9baba1989e4.html",
-     "source": "Black Hills Pioneer"
-    },
-    {
-     "title": "Basin-wide Frontier internet outage blamed on vandals cutting cables",
-     "url": "https://z1077fm.com/basin-wide-frontier-internet-outage-blamed-on-vandals-cutting-cables/",
-     "source": "Z107.7 FM Joshua Tree"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 22.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.bhpioneer.com/local_news/internet-outage-prompts-auditors-to-make-calls-to-verify-voters/article_9719d335-b359-4d2a-82c9-b9baba1989e4.html",
-     "title": "Internet outage prompts auditors to make calls to verify voters",
-     "outlet": "Black Hills Pioneer"
-    },
-    {
-     "url": "https://z1077fm.com/basin-wide-frontier-internet-outage-blamed-on-vandals-cutting-cables/",
-     "title": "Basin-wide Frontier internet outage blamed on vandals cutting cables",
-     "outlet": "Z107.7 FM Joshua Tree"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "emma roberts",
-   "traffic": 1000,
-   "published": "2026-11-03T23:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Emma Roberts Is in a New League Debuting Trading Card Business With Husband Cody John",
-     "url": "https://www.eonline.com/news/1437754/emma-roberts-husband-cody-john-start-trading-card-channel-summer-breaks",
-     "source": "E! News"
-    },
-    {
-     "title": "Emma Roberts' Son Rhodes Walked Her Down the Aisle at Summer Wedding in Idaho",
-     "url": "https://www.aol.com/articles/emma-roberts-son-rhodes-walked-195400000.html",
-     "source": "AOL.com"
-    },
-    {
-     "title": "Emma Roberts on Getting Married, American Horror Story and She Breaks Baseball Cards with Jimmy Kimmel",
-     "url": "https://abc.com/video/1ebd8a36-f969-4955-b805-2ab24a8f4395/playlist/pl5523099034",
-     "source": "ABC Network"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "dalen terry",
-   "traffic": 1000,
-   "published": "2026-11-03T23:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Sources: Injury-plagued Thunder agree to 2-year deal with veteran Dalen Terry",
-     "url": "https://www.espn.com/nba/story/_/id/50368707/sources-thunder-agree-2-year-deal-dalen-terry",
-     "source": "ESPN"
-    },
-    {
-     "title": "Thunder Reportedly Sign Former 1st-Round NBA Draft Pick Amid Holmgren, Williams, Wallace Injuries",
-     "url": "https://bleacherreport.com/articles/25528883-thunder-reportedly-sign-former-1st-round-nba-draft-pick-amid-holmgren-williams-wallace-injuries",
-     "source": "Bleacher Report"
-    },
-    {
-     "title": "Dalen Terry departs the Warriors' G League team in …",
-     "url": "https://uk.sports.yahoo.com/news/dalen-terry-departs-warriors-g-141958779.html",
-     "source": "Yahoo"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "FAFSA",
-   "traffic": 0,
-   "article_count_24h": 4,
-   "article_count_1h": 0,
-   "published": "2026-11-03T10:33:54+09:00",
-   "category": "Student Aid",
-   "news": [
-    {
-     "title": "LMC seeking partners to help more Benton Harbor students complete FAFASs - News/Talk/Sports 94.9 WSJM",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmFBcVhLNl8yak13aWpvNkpPTl9QV0czajlIV2Zqa0RNVmRoTGVuM0F6Q1F2X2xvSGZ3MndXeGdkMmVzcVBVcDZuX0I0YmRIQUR2eEhZUTd6eE0ydFJmdFYzZDZZWkNmNkRSVjNVUnBqSEZsTHc3RmF5ZlFYaGdERlFVQzJNYTd6VDBPV25LU2FQaFBzNE5vbmpVb3lHaHlnZzBjU01jZw?oc=5",
-     "source": "News/Talk/Sports 94.9 WSJM"
-    },
-    {
-     "title": "Polis releases his final budget, but the election will almost certainly change his education funding proposal - Chalkbeat",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLU1ST2ZhVkVkVjFxQVZoV0NFOVdUYmRkVDZHb19zMVBmbVlLcFVjYkh0b3Nic3BKdVFNa3pOV0ZNQTBKOHhuc21Jdl8wbUZ4OGMzcll0M2JGSGVJcW1QcUlvVXFQc1hHYmV6Q21FWktwdWxNU0FfUnppakZ6LTZFWkNYVGV4MWRpUldROE56V3NUN0VOdWd3X3VvbmRaME1TQ0k2OQ?oc=5",
-     "source": "Chalkbeat"
-    },
-    {
-     "title": "Wynne High School hosting Financial Aid Night tonight - Wynne Progress",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQzBxd1RlNG5iOFZKRlhXemp6VXRERXJXVV9JaHZ2b1ZCUUJKdThaVUk3NmZXSWk0ZC04ZS04RWY3bHhObk1ON1VRd3dHbkhWREpyY1BnTHJPc1BZMXdQZnpIMnNSRUEwbHo4aXdPb0ZiY19zbHRKWDBfTVAwZVFlUUJRRXpyLWlGRUhR?oc=5",
-     "source": "Wynne Progress"
-    },
-    {
-     "title": "Wynne High School hosting Financial Aid Night tonight - cedarnews.net",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVElrazFYcXYyMXJIc2NjSEtMalpudTVUTzQzVnNLOU9ZVGtrMzUwX2Jkc2lkbXVMc09lS3c1Q01lMzNNMTJfcjlVLVJ0N1RQMXJ0bXE2M3pJX1MwU1lDZTlRUUFYSXAybHZGakZUNkxoSGh1dWc3blQ3YXhfNS1FTXR3VVVEMkpCRDlrX3F2NA?oc=5",
-     "source": "cedarnews.net"
-    }
-   ],
-   "official": false,
-   "score": 11.8,
-   "already_covered": true
-  },
-  {
-   "source": "google_trends",
-   "keyword": "trump israel",
-   "traffic": 500,
-   "published": "2026-11-03T23:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Trump says that US will stop paying Israel aid after year-end",
-     "url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end",
-     "source": "Al Jazeera"
-    },
-    {
-     "title": "Trump says US will stop $4 billion funding to Israel at end of 2026",
-     "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/",
-     "source": "Reuters"
-    },
-    {
-     "title": "Trump says U.S. will stop $4B in military aid to Israel at end of 2026",
-     "url": "https://www.nbcnews.com/politics/2026-election/trump-says-us-will-stop-4b-military-aid-israel-end-2026-rcna607210",
-     "source": "NBC News"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "kedon slovis",
-   "traffic": 200,
-   "published": "2026-11-03T23:20:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
+   "score": 6.5,
    "already_covered": false
   },
   {
@@ -1433,38 +1480,7 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "valentin vacherot",
-   "traffic": 200,
-   "published": "2026-11-03T23:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Vacherot ahead of Djokovic clash in Paris: 'My season could be over, I'm giving 100%'",
-     "url": "https://www.atptour.com/en/news/vacherot-feature-paris-2026-r1",
-     "source": "ATP Tour"
-    },
-    {
-     "title": "Paris R1 previews and predictions: Djokovic vs. Vacherot, Paul vs. Rune",
-     "url": "https://tenngrand.com/paris-tennis-previews-picks-predictions-djokovic-vs-vacherot-paul-rune/",
-     "source": "The Grandstand"
-    },
-    {
-     "title": "Decoding the Djokovic paradox: Pioline questions the Serbian’s late-season logic",
-     "url": "https://www.tennisworldusa.org/tennis/news/Novak_Djokovic/171133/decoding-the-djokovic-paradox-pioline-questions-the-serbians-lateseason-logic/",
-     "source": "Tennis World USA"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
+   "score": 0.6,
    "already_covered": false
   }
  ]
