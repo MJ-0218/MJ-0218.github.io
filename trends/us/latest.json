@@ -1,22 +1,20 @@
 {
- "generated_at": "2026-11-03T17:12:05.294771+09:00",
+ "generated_at": "2026-11-03T17:37:37.130008+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 75, 실패 28)"
+  "evidence": "ok (저장 73, 실패 27)"
  },
- "compared_runs": 5,
+ "compared_runs": 6,
  "spikes": [
   "IRS refund",
-  "social security payment",
-  "federal holiday",
-  "gta6 release date",
-  "matt damon",
-  "maria timofeeva",
-  "wow forever",
+  "maya joint",
   "ca lottery",
-  "barcelona vs aston villa"
+  "中期选举",
+  "jeline vandromme",
+  "laura bozzo",
+  "keith lee"
  ],
  "candidates": [
   {
@@ -55,9 +53,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 5.2→16건 (2.7배)",
-   "spike_bonus": 27.2,
-   "score": 115.8,
+   "spike": "최근 1시간 기사 7.4→16건 (2.0배)",
+   "spike_bonus": 20.2,
+   "score": 105.3,
    "already_covered": false,
    "evidence": [
     {
@@ -83,11 +81,56 @@
    ]
   },
   {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-03T17:37:37.171383+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -2,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-03T17:37:37.171416+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -2,
+   "in_window": true
+  },
+  {
    "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 32,
-   "article_count_1h": 22,
+   "article_count_24h": 31,
+   "article_count_1h": 6,
    "published": "2026-11-03T16:52:58+09:00",
    "category": "Benefits",
    "news": [
@@ -118,9 +161,7 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 10.2→22건 (2.0배)",
-   "spike_bonus": 20.4,
-   "score": 112.6,
+   "score": 80.0,
    "already_covered": false,
    "evidence": [
     {
@@ -142,97 +183,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "federal holiday",
-   "traffic": 0,
-   "article_count_24h": 49,
-   "article_count_1h": 10,
-   "published": "2026-11-03T11:28:00+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Is Election Day a federal holiday? SC voters need to make time to vote - Greenville Online",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNU0FrLV9lTlBZX05HRlh0UmY5MnpNVjRYdlY2emh3SGFaOHBMSEQ0MXBhc3ZXT2ladE5QTnpxWDZ0MlF3Z04ydGhFOC1qM0N2d3pYWDhDRnlGTlpKeVhqam5SYUtsRl95MEI2cjhqSWwzbGxYbEZoM3FwR3daYU9CQ3hVOEdnTjBtM1lNckVQYzVJaGdGdng2TW5va3NEbzFlTjdrXzBQR0d0NXpSaWE4Qlp5Sl84MG9UMVc0cE5kSFQ4WmpEZmhyX3ZyLUVTZmdRT1YxUS1EU1plbm5HTC1MRFprSGlLN1pxZEpF?oc=5",
-     "source": "Greenville Online"
-    },
-    {
-     "title": "Is Election Day 2026 a federal holiday? What to know - Idaho Statesman",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS3FtM3VhSUFxbVF2Vkc1VmFzLXRxaC1iU0ZtS1I0ZDl1b3JBa1ZqQk8tUUFKVU9xVTJjV28wemR5Z1Y2U1JhQXVXQVlsNkFqbU1KVDlNNkZhZUEzUHVfZlQxelh1akJmWjhrMXNjNVlOd19RV3RGRXNwcTk2RHVlM0VIWEtrdw?oc=5",
-     "source": "Idaho Statesman"
-    },
-    {
-     "title": "Is Election Day a federal holiday? NC voters should make time Nov. 3 - The Asheville Citizen Times",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdWRYYk5SdXlmS2JzT2JPWFI1Qkc4c0hIeERZcG4wd1F5TG0wZ190dnh3R0d5UkdIcDFyTW1TX2pGaFA3Z244elhFLTN2S0VFaEh0Zk5ybHdKU1VVUXRfSVZTcDcwdFNFc2V3WjdoWFlDaWF0bFhZSTN3ZnBKSFJzY1RXYTJOenAzem5GVHRwZ3hQVDlNRk02ekhGdEtkekZQeEdHanhFaW9nMUk3T0JuMnVDVlczU3FWbU9hVGxmV2hRcVBKcGkyLWxVQVFTLVFBVDktNmd0ZTl2VkI0V2w2QlptdTV0T0U?oc=5",
-     "source": "The Asheville Citizen Times"
-    },
-    {
-     "title": "Election Day isn't a federal holiday, but Ohio protects right to vote - The Columbus Dispatch",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX3ktMkNqWnZSRkN5RVpmQjhWZWgyQ2JsUEpYc19ha0FMbk10Vjg1VXRINGtFQ0pIem5CejFPdlhHTlgxS1lhY01IRVNLMEhzeUFDckJ5dWE3VDB4Sk02RS1JanBoblY0QnJzU0JVazVjOHZNSTZjRnVQWUxhXzl4blpxZ2Myanc2bVdSRjUxZDJ4MHkxNjBXbExTUWZUcnEyTjV1S1RvVnZNQjkzYVBOY0htTlNOdw?oc=5",
-     "source": "The Columbus Dispatch"
-    },
-    {
-     "title": "Is Election Day a holiday in Massachusetts? Can you get time off work? - Worcester Telegram",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLWsxWkV3akZFaVUwQll2MjUzM1gwTW9RdEFIenZ3SlloOTJJdTFBVHVKbTNNZXRsc0xtU2thUEJraWxQUGg3c1gyNmpOdG9BOXk4LXNDdm1ZSHIyUFpQSE5wdUxJSDN5eGZZemtFUFI3dkVJVk44TlJ6MlNMbWtBSnhGUkRVcUxza0RDSFFSWGRNR3lYejJUcm95WW53bjV3b3JZekQycExueWJyanNWVWhLWHFuT2pRd0xhU3d1Mml2a29mZVFNNEFrWXBEVGVBdU01UkhyMnF5cUhraElady13?oc=5",
-     "source": "Worcester Telegram"
-    }
-   ],
-   "official": false,
-   "spike": "최근 1시간 기사 3.5→10건 (2.4배)",
-   "spike_bonus": 24.4,
-   "score": 96.7,
-   "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-03T17:12:05.316123+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -2,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-03T17:12:05.316151+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -2,
-   "in_window": true
-  },
-  {
-   "source": "google_news",
    "keyword": "SSI payment",
    "traffic": 0,
-   "article_count_24h": 22,
-   "article_count_1h": 6,
+   "article_count_24h": 54,
+   "article_count_1h": 8,
    "published": "2026-11-03T16:52:58+09:00",
    "category": "Benefits",
    "news": [
@@ -240,6 +194,11 @@
      "title": "When do Social Security payments go out for November? See schedule - USA Today",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbWREVmNVM2ttYlVDNGo1eExYZVItNnNBMGZmbHo2SE1Rb2w3MnY5V2JDcVlKV2VxWTlpcGhFbEtJV3NoTUR5alM4U0FvRWF2bG1mZ0pNelFNQUR1aGtDZGxtUUNldnc3OFRtMXpGX1NtdEViQWJVRFl5aVJHMFRHUV9OaUFRTzVnaWFsMUZkdGJLTk8zQUs0T2k0dGFnc0VpR0xnUFdORHJ4aGM?oc=5",
      "source": "USA Today"
+    },
+    {
+     "title": "Here’s when your Social Security payment will arrive in November - NewsNation",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRmhiV2dQU25WQTJDcE5QWGplTlJwRXhQdzFtTUd0X08wZE5SdUNuN1l4bTBpaE9OdkRGR3RyYmpxZ045OVhlZ2FBOGN6TmdLdGRYaFhzb1AyQUFWNXpBNFdkaXVsU2E1X0JnUFpqck5aZzFJZGtqbkt2UVMxUUN6NmFsR0NNSkdiTUItMmpxc1B0ZDFIOXFWbdIBngFBVV95cUxPb194NEFUUjdxLS1QdjB1TEJpZzd6UTdaa1BGemlCYVNsY0p3YkEwSDRwTW96cXpLTzFYNkhwWmFmY01ZXzZpSEhwczJFUk51Q25reVU3OGY5QXJleHd2eEIyMHNsbnkySlJIZVJwaHZ5UzNNcnlRQjdaWmM5b0ZzOFdSZGoxM0FBc29DS2tZbUJwdEdEWDh0SlpPVnpPdw?oc=5",
+     "source": "NewsNation"
     },
     {
      "title": "Social Security payments in November 2026: Nov. 3, 10, 18 and 25, and why one date moved for Veterans Day - Nacionale",
@@ -255,11 +214,6 @@
      "title": "Social Security Payment Schedule for November 2026 - North American Community Hub - NCHStats",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IMHdYRElFOVFtaTluZXJMTE5XV0xDOGJOazc5eFFKOXRfWlpwZlBGSzBWcFgtM2NyQ25DNGFvTl9WTXlWc1lWcDhSdUFMbEt0bTdxSGZLVThVcXJDbHFlY1AzNV9scUZnY3hR?oc=5",
      "source": "NCHStats"
-    },
-    {
-     "title": "Social Security Payments Up to $5,181 Arriving This Week: Who Gets Paid? - Newsweek",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd1FmS0JEOU1UTmpyaTNyWFp2bXRCeXhEaWUxdzZWdnhFU2NEV0ctdzI0UzZvZC1DNEZYaDJBTDE1SF9rWWxFR0VsSWdjckIwWlU0YUd6YVFmV05Cd3o2QkJRYnd2Ymk2cXptZ1pGdUNYbDhHVGpvUXpqQW5xRXd5aGI0VU5aTHhUYmtpYjY3aFQ2RTNHWVNfUXlZeGtJb0ZacmdieA?oc=5",
-     "source": "Newsweek"
     }
    ],
    "official": false,
@@ -280,11 +234,6 @@
      "url": "https://nchstats.com/social-security-payment-november-2026/",
      "title": "Social Security Payment Schedule for November 2026 - North American Community Hub - NCHStats",
      "outlet": "NCHStats"
-    },
-    {
-     "url": "https://www.newsweek.com/social-security-payments-up-to-5181-arriving-this-week-who-gets-paid-12648246",
-     "title": "Social Security Payments Up to $5,181 Arriving This Week: Who Gets Paid? - Newsweek",
-     "outlet": "Newsweek"
     }
    ]
   },
@@ -293,7 +242,7 @@
    "keyword": "election day",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 72,
+   "article_count_1h": 56,
    "published": "2026-11-03T16:46:46+09:00",
    "category": "Elections",
    "news": [
@@ -354,8 +303,8 @@
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 24,
-   "published": "2026-11-03T13:00:21+09:00",
+   "article_count_1h": 16,
+   "published": "2026-11-03T16:30:21+09:00",
    "category": "Elections",
    "news": [
     {
@@ -364,9 +313,9 @@
      "source": "NBC News"
     },
     {
-     "title": "Early Voting Turnout Surges - The New York Times",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYWY3VFVsbXlrN1JBQXhHQUFaZzl1NWhUVFA2MTBRRkRuQTYtSlozcUlVWHJaSTRBOVpwMVpaUmJaUUZmdl9rd1hMdVNUeGg3am9uaTYwZkRKc3hoMC1rUmQxRkU5aFEwbUF2c3poZ055S1pYdWxhNWhDWTNpQm9RV1Fn?oc=5",
-     "source": "The New York Times"
+     "title": "Election 2026: Early voting wraps for Tennessee’s November 3 general election - WSMV",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdWpGcWpUNnZHaFN2UGdSLVN4czhFVkU4eGlOTEFXNy1BV3kxUHozMUZaeXlsbUxvbTBhM3FPcjVjRUVOa2RsM05XUmRtLVdwN0lGTlpYdFZVcW01ejY4OVRrV2dsSDBVUHhXVHIyUWp6M3pPblpNMXUzcERyMzhsc0hNYUtVbEVicmx3RzFNYUJqLWc3SnNfMkFoQkQteVRFVGwwTlo3dw?oc=5",
+     "source": "WSMV"
     },
     {
      "title": "Nearly 2 million New Yorkers voted early. What does that mean for Election Day? - Spectrum News",
@@ -374,14 +323,14 @@
      "source": "Spectrum News"
     },
     {
-     "title": "Ohio sees record early voting turnout - 10TV",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjBDWV9CZDVjNU5PN1FlUV90ODNveGFzcHotVkRFNk1lZGFNbXB2d25qSG5PNGx3a2FLS3dHa3F4aURXbWd6bnJzZEZUZGhGbEVORjZWMUR6bWZST1VIQkFyZjZ1T1lGZlBMZFFocW9SaEVDeWZTQS00U2k4VWRkd2NicGI0eS1RaDNsY2E0UFQ2RU9sRGw2UW1mSU9ROV9kLXd6dWdpMGo0TnNkb2gtS1N2UEswWnI4Q3dIUjJwVXBpLWhs?oc=5",
-     "source": "10TV"
+     "title": "Early Voting Turnout Surges - The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYWY3VFVsbXlrN1JBQXhHQUFaZzl1NWhUVFA2MTBRRkRuQTYtSlozcUlVWHJaSTRBOVpwMVpaUmJaUUZmdl9rd1hMdVNUeGg3am9uaTYwZkRKc3hoMC1rUmQxRkU5aFEwbUF2c3poZ055S1pYdWxhNWhDWTNpQm9RV1Fn?oc=5",
+     "source": "The New York Times"
     },
     {
-     "title": "As North Texans break early voting records, Tarrant County becomes an election battleground - Fort Worth Report",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUGxWZDVqRzJXZFRXbE5lN000ZGRfVmN1OGM1UHF1ZnRiaXhFZUItOHZzUUVFNGVIUWw1UHE5WnNsTlVBOElUZk9QLUlzekZ0SDQ1b2lEeXgtYmowUTN5OGM5OG5XYVRLSmRRalJYY0o4MDZhS0RQclc2QnF1bnE2OW9ERGpCdGx4LUFWWHowbVdBbjFCR2dldFBGSXVySkZuY3ZwQ0FrNjFVaWROMUxFWHdyeU51ajNzQ2lobVJBV1B2RFFqSzB3c0x3?oc=5",
-     "source": "Fort Worth Report"
+     "title": "What Ohio's early voting numbers reveal - News 5 Cleveland WEWS",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNFVvMklZU3RTUUxuVGMzSkYzX2JUTXBWbkx1TjI0UXZmNzJCbFpldy12QWdzSmJfU2kyTjRBSXhrdHBFc3FOdWVTUmN2LXRzTTc5NHdjN3NzLXJRdldTZUJoT1VBYmswMHAydXA3dkVuTWo0UDdnVFh1OFJrVXlGM2JxWWxUcGRlZGdIM0N3d1NmZndMQ2swNjE4X1h3dw?oc=5",
+     "source": "News 5 Cleveland WEWS"
     }
    ],
    "official": false,
@@ -394,14 +343,75 @@
      "outlet": "NBC News"
     },
     {
+     "url": "https://www.wsmv.com/2026/11/02/election-2026-early-voting-wraps-tennessees-november-3-general-election/",
+     "title": "Election 2026: Early voting wraps for Tennessee’s November 3 general election - WSMV",
+     "outlet": "WSMV"
+    },
+    {
      "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/11/02/final-early-voting-turnout",
      "title": "Nearly 2 million New Yorkers voted early. What does that mean for Election Day? - Spectrum News",
      "outlet": "Spectrum News"
     },
     {
-     "url": "https://fortworthreport.org/2026/11/02/as-north-texans-break-early-voting-records-tarrant-county-becomes-an-election-battleground/",
-     "title": "As North Texans break early voting records, Tarrant County becomes an election battleground - Fort Worth Report",
-     "outlet": "Fort Worth Report"
+     "url": "https://www.news5cleveland.com/news/politics/ohio-politics/what-ohios-early-voting-numbers-reveal",
+     "title": "What Ohio's early voting numbers reveal - News 5 Cleveland WEWS",
+     "outlet": "News 5 Cleveland WEWS"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "product recall",
+   "traffic": 0,
+   "article_count_24h": 100,
+   "article_count_1h": 6,
+   "published": "2026-11-03T16:02:00+09:00",
+   "category": "Recalls",
+   "news": [
+    {
+     "title": "Philips Sales Rise Amid Product Recall Agreement - WSJ",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcFR0NUJEa2hKcDR0U0kwbTF2UkctYWpCNW9JMEVrTWF1UUx6UVFZSllSbm13OTdLenB1Z3Z4Q2J5bmRrVnNqVmN4TnJscGNvbkJ5SHN0NWFrS1JLRHVGTnF5cDdoM1NQMG1vZEI1dXVVTXpsTktaYnRVSHJqSGpxb2FXU01Ec2xVR3B5Y2p6bUw5OHR5ZHlUdHdLcw?oc=5",
+     "source": "WSJ"
+    },
+    {
+     "title": "Jennifer Garner’s Once Upon a Farm Product Recall Sinks the Stock 37% - Barron's",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUWNKTDM3dElLUGZ5T3VHNjJKWVFxZHlMV1FOcmU1Zk5LSFJhMmtEbXBvZFN6cU03SW1PNEtTZkh6RkMteWh5VkMtbHczSUcyMUVyUTJ3UGM4NDhaa2RLRFNTUzNQWWpfT3Z2dXA2RVVuZTNJT0VpeWw1N1FoOTZlNFFINUZVNndJNm1yOXFlUWk?oc=5",
+     "source": "Barron's"
+    },
+    {
+     "title": "Once Upon a Farm to reformulate recalled bars: 'We fell short' - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWtheDRybDNjd3JhbkFCLV9Iams3Sm1FQjZid0UzRktWSnZWTVZ4TlpUbjktWV9KbGY0b2t4OGxTWDRNUGVuOWFmaWw4Z0tfcVM0ckEzN29WN0ZQR2FLdmYwMVNsaFBaMDhzc0g0Y0pxRjNTZjhpbGkyRnpLeUdRd1BMSDJUQ2V3X0xqUWlVS1RKVTRyeEZuUG9jLVBRQ1NSTTVQRjBkYWtDQdIBrwFBVV95cUxQbWlRdXIwcWpHeG5iQkRVT1A4YnlxRjdzOUtzbGVjNXp4VmU0dThmU0p6bXF0MHdKR0l6Q3p0eG1BaFNNU1M4STI4NkM1RzQ3dW9RZnM3LWpxcFhqMFhOVmJIM3ItcDR1LVZ2SlJRZzVpMzdwblZOMzM1N05qZ0RjYjJlYlAycG5mNndjTWp3QmZmcnpBLVpwczNqOGd4bERNM2lTVGpLMTU1MTY0LVdZ?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "title": "Urgent recall for popular bottled water sold at supermarkets across Australia - Yahoo Lifestyle Australia",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRE9xSnZjbTR0N1Jxb01OME1HRmxfWkZwdEJDdFVGU1FuaDNmOWNnN09JZUlIS1pDY0w5dU5LRGxka0pMSEZOcy1iV0h0Y2pVd2cycWhhbk56ZVRuRWtabjNramFMZ0FZVEVKM2FFaGkxaHpTcFJWZnFlQzZVN0xLanNzRHZhTFJuQ2I2aDBoWnBnX1ZUb2QweWFySlpXSE0xZVhMT3ZwT0lZek5wekhSdElIeVdyLVg0aVJuVEphY0lxazl2?oc=5",
+     "source": "Yahoo Lifestyle Australia"
+    },
+    {
+     "title": "Popular child snack recalled due to potential choking hazard for toddlers - 6abc Philadelphia",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOEdQYzltYW01azN4OHFEcU94eDhqR2s0YlJKbWJiSFhZWTFCOUZKWEtmRW9iWjd5TVFPRks3RDJrNFA0ejRIY182MjRHX3lrY3UyOTBYMzVuaVdwTkVKLXgzYWYtZ1VyUDRvLW9fVkVTVWV6QWZUOUlmV2hXU1Y2MFYtYXpfd191QWo3ZzBpUTVPdVVoaGtXUmt4N2lrMy1v?oc=5",
+     "source": "6abc Philadelphia"
+    }
+   ],
+   "official": false,
+   "score": 65.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://abcnews.com/GMA/Food/toddler-soft-baked-bars-voluntarily-recalled-due-potential/story?id=137764514",
+     "title": "Once Upon a Farm to reformulate recalled bars: 'We fell short' - ABC News - Breaking News, Latest News and Videos",
+     "outlet": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "url": "https://au.lifestyle.yahoo.com/product-recall-for-pump-water-from-woolworths-coles-aldi-iga-and-other-retailers-050643982.html",
+     "title": "Urgent recall for popular bottled water sold at supermarkets across Australia - Yahoo Lifestyle Australia",
+     "outlet": "Yahoo Lifestyle Australia"
+    },
+    {
+     "url": "https://6abc.com/story/farm-tractor-wheels-recalled-due-potential-choking-hazard-toddlers/20007648/",
+     "title": "Popular child snack recalled due to potential choking hazard for toddlers - 6abc Philadelphia",
+     "outlet": "6abc Philadelphia"
     }
    ]
   },
@@ -468,118 +478,62 @@
   },
   {
    "source": "google_news",
-   "keyword": "social security COLA",
+   "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 23,
-   "article_count_1h": 6,
-   "published": "2026-11-03T03:28:00+09:00",
-   "category": "Benefits",
+   "article_count_24h": 33,
+   "article_count_1h": 2,
+   "published": "2026-11-03T12:02:50+09:00",
+   "category": "Health Insurance",
    "news": [
     {
-     "title": "Social Security’s 2027 COLA Is the Highest in Years. Here’s Why You Shouldn’t Celebrate It Just Yet - The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbFdLN3Q1TDJxUnBNeFVFVmJOOEJObGw0aVZsQlRfSjROT1NvT1FVU2RQX29kMFpJclJVTW5KVFI2eV93X0JFM1BlNzZyWXkzVExhaHU1VnVWUm9jT2N3UE9yYVdKeTJZSW1RaENVUU1vVXBSVm1LUy0tbTZXVVAyektoNmVONUVvSHgzZ3BsUlVuLXRQU3NpYTNPXy02Q3hyNFY3VzNGNE9qS1R3TjUzTzBtVllCQnNqaUlKbFQ0TmVwOWRfNVFtLXF0TlJfbVhvVEJBU1B0VzhfZw?oc=5",
-     "source": "The Motley Fool"
+     "title": "AARP: Medicare open enrollment is prime time for scammers to target vulnerable adults - WWMT",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZU1VcnhOb2pLOXJLUGk2TUhvMTR2QzZ4c3hXeFVzc243b2ZMOVpTeFNBQU5pX1o3dzhYU1NRMTNxWjYwTzdMdkdTY3paMHVuNWFUdVdYNzFDZWlCWGRDampqNnFfd2p2bHdDTFREb2dyelhFQ0xGbjd0eGVnakVHNzVyYktSbmdkT0o0elBRejI3UFdqRzdHTVVwUFVERXVNZ01oc081ckk3bk4zXzJaTE9ZMTZURi1uOG52Rm9rQ2VNSkdfVmIwdWZ4RUhPeGFOYUY0VUpYbk9NSGM?oc=5",
+     "source": "WWMT"
     },
     {
-     "title": "2027 COLA: Key Social Security deadline looms for people wanting to learn new benefits early - AL.com",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcE1oTmY0cnE5aEluei14OFJnTjBab0pxYTFTaGtoZjZGeHZfRlJCbmY3blBCTEJzRHdrV0RCVTZQeXNndW81Wm9QX2hkaGVmTmZqM1NiUXFrQmNwcnBOdHNmQ1pCbHN1MTFtWnJWRHVma2htZFVfTmFRcDhSWWpRTjlSSXZWZ055OXZrTXRjUUcwekEtVDhIeGNlNHRjZUdqWW56TTRsdXBuTUxlY2RVMGtJcG8yQVFUcjk1UDJVQTRHZ0xFczhz0gHbAUFVX3lxTE5XVV9IOFB1NHhURWEwNXE2aVF3MTJfOGRpQzNZTHl1N211OTRfd3R4TmhPQVJPSnNobmwyc01oLVRIN2RXZmF5T0QwTXNmTF92eVprdXh1bzE0Y3JsOW4tWk1zUy14SXY0eDYyVUdWZVp0c3pDcXk0bldkaHpoQ3ZWUTFvLWl2MEJ0ZlhxSXlzZVBXNURPeGxqb3VRVncwSGpUanhyVWZCOTZPZmVLdUpIZm13ZFFMN3NNazVBTzVMSmlXdHFIYk1EemFxSDgtSFhSdFdsdktvVE9JVQ?oc=5",
-     "source": "AL.com"
+     "title": "Medicare Open Enrollment Offers Chance to Review Coverage, Avoid Costly Mistakes - Radio Catskill",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd05MS3RES0wzck1NYlBqRUhvTmtEWUx1N3BoanlualRtTFYwSkpFcEJtaER6WTZQcVpWZEhsYUtHQUcxXzloNFd6eUhkdm5jWS1HOEo4eURWem96T2x3dUdBLW1GOE5iQVFoN0RQaGRkRVJBMmlRdDR0d3NhREpaal9IYjN3NTVZQjN4MjE5TDZodzc5WHhjdkZiVHMwUlNQWk41T1poRmItdw?oc=5",
+     "source": "Radio Catskill"
     },
     {
-     "title": "Social Security’s COLA helps but Congress must do more - Tri-Cities Area Journal of Business",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WamI4WmFiN1VEcWw0dUM1SUJWN3JybVlPUm5GZmkyVjhKNVpwY2w2Tzk5SUMxdmRGMk1QOE54ZEdQTW9POWFKcHA2LV9WX1JUa0tCSDR1M0w0SHotZEpoelZHUWlVX0dtOWc?oc=5",
-     "source": "Tri-Cities Area Journal of Business"
+     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Clearwater Tribune",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWVdDdW1KRVZ3dU16cjRJX1hEeFBmb29Sa3ZpSkNXbGZoMXJLaHNZRTFTcmxrejRuMTU4cXlWWk9JTlRiY3lXN0hBSFdWcU12RGRsMThYRFVVNjlROE5GLWs2TVBwYVJQNEs1UGRJeUlPTXpLN25mazJJSk9wYnVvZ0JlOGRTZ2FfMTdBdmdfUFVqa2UwMDVZNTNfNk9RZGVNdThUa01KN2ZHbmRlZVVfak16dW44aWZVeDJ1dTdjUFlFWjQ0Y0RHTEVnc0JOQzNZQzV1bkVaWVVpZDF2TTlYS21RcVE0NTJHWTRNLWxnTm9PVEs4cjNwS1VkR3hhalRzWTBaWUxaTjNjR1BIR3c?oc=5",
+     "source": "Clearwater Tribune"
     },
     {
-     "title": "2027 Social Security COLA Is Official - Here's How Much 6 Types of Beneficiaries Will Get - AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNckhrVnZDczhIeDBMYzBRN0ExTXpkTlhrS2prWm1BeTgzM2dLTWtWc3VUX0RLbl9MTzlxQ1BVMnRVOWcxQ2plNmNVeFVjVXYzZmNHc1lsY3VuZlJRRHJwRTVwZDlMVDU0ZFpvZG9fUGlzd05peHRMNmlNakhZQXRYbHhpeG4?oc=5",
-     "source": "AOL.com"
+     "title": "ACA and Medicare in 2027: What’s changing and how to prepare - KCRA",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdHdfaktGcXduYlRFZnhqUVFhQm9GeWF3Q2hvamljMHdqZ25DWllUUmVCcnl6bDdvRlhWQmF5OWg1ellrTGxFYS1xbHkzY09RNGNqcjNFb3YwU1RqV2NSaS11ZjYxSkRzQ29DcTUyVFl2dXYtczRhVTBBQks0YkZpRg?oc=5",
+     "source": "KCRA"
     },
     {
-     "title": "Your Social Security COLA Notice Is Coming — 6 Things to Check Before Filing It Away - SavingAdvice.com",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZ0xPZm1saDlPYUp0MTZId2I4MmNueFl4RFVIbVFTNm4tSTZYLXh1SVRBb1JlR1B3eDNOSmE3MDNLalZpU0VpR20zYkxtWmkzWHMxaHFEWThrOWIyemVxSVNlN05Ld1lTeFE1T0dlbTFaNEZZR1J2Q2pIckowVEh1NHZQalY1X05ZYU9PeDdPcmFPTjg3ZXhaa2xxamxiNVRPdXZnR2lWVnFuMXpldDFWTlFiUVBXQlNaRm5FbnYtc21xQXJTMlNOVHE1U2J4cnU1V2V0bkROMXJYMDVwekE?oc=5",
-     "source": "SavingAdvice.com"
+     "title": "Senior Resource Alliance SHINE Program provides free, unbiased Medicare Counseling during Open Enrollment - Mysanfordherald",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdlF6Um5CMWVvZldmSWxUY0pBbVZ0ZTFoc3kzbnI4UDR6elNPdUhabEZmWHIzdC1ZMmJBdEVZU0h1TGJMTUNRWU1TRjhud3VISDZFdkRIM0EwOGRDM2RvNHhBRDhMLU5mU0VvOWZ2dW5iRFkxS19idFBRU1FyN3JJQmV4TEV3N09DVTEzaHlZR3ZELW52czlIU3hOaVVpeTdEZ1BMdXVNd2o4TGVnaF9IRDNrai1pNDlLLXJUYW1ONlFlbVo3ZElWSlFCTnlMblNOdmV4UzIzTDlZWUtSaWNTd3JNdw?oc=5",
+     "source": "Mysanfordherald"
     }
    ],
    "official": false,
-   "score": 56.0,
+   "score": 57.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.fool.com/retirement/2026/11/02/social-security-s-2027-cola-is-the-highest-in-years-here-s-why-you-shouldn-t-celebrate-it-just-yet/",
-     "title": "Social Security’s 2027 COLA Is the Highest in Years. Here’s Why You Shouldn’t Celebrate It Just Yet - The Motley Fool",
-     "outlet": "The Motley Fool"
+     "url": "https://wwmt.com/news/local/medicare-open-enrollment-scams-scammers-target-vulnerable-adults-aarp-medicare-healthcare-seniors-tips-protect-wwmt",
+     "title": "AARP: Medicare open enrollment is prime time for scammers to target vulnerable adults - WWMT",
+     "outlet": "WWMT"
     },
     {
-     "url": "https://www.tricitiesbusinessnews.com/articles/ro-nov-2026",
-     "title": "Social Security’s COLA helps but Congress must do more - Tri-Cities Area Journal of Business",
-     "outlet": "Tri-Cities Area Journal of Business"
+     "url": "https://radiocatskill.org/medicare-open-enrollment-offers-chance-to-review-coverage-avoid-costly-mistakes/",
+     "title": "Medicare Open Enrollment Offers Chance to Review Coverage, Avoid Costly Mistakes - Radio Catskill",
+     "outlet": "Radio Catskill"
     },
     {
-     "url": "https://www.aol.com/articles/2027-social-security-cola-official-163000000.html",
-     "title": "2027 Social Security COLA Is Official - Here's How Much 6 Types of Beneficiaries Will Get - AOL.com",
-     "outlet": "AOL.com"
+     "url": "https://www.clearwatertribune.com/online_features/health_and_wellness/medicare-open-enrollment-ends-dec-7-give-your-plan-a-check-up/article_d214971c-84a7-532a-9147-6751a54dcbd5.html",
+     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Clearwater Tribune",
+     "outlet": "Clearwater Tribune"
     },
     {
-     "url": "https://www.savingadvice.com/articles/2026/11/02/10763963_your-social-security-cola-notice-is-coming-6-things-to-check-before-filing-it-away.html",
-     "title": "Your Social Security COLA Notice Is Coming — 6 Things to Check Before Filing It Away - SavingAdvice.com",
-     "outlet": "SavingAdvice.com"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "product recall",
-   "traffic": 0,
-   "article_count_24h": 100,
-   "article_count_1h": 3,
-   "published": "2026-11-03T16:02:00+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "Philips Sales Rise Amid Product Recall Agreement - WSJ",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcFR0NUJEa2hKcDR0U0kwbTF2UkctYWpCNW9JMEVrTWF1UUx6UVFZSllSbm13OTdLenB1Z3Z4Q2J5bmRrVnNqVmN4TnJscGNvbkJ5SHN0NWFrS1JLRHVGTnF5cDdoM1NQMG1vZEI1dXVVTXpsTktaYnRVSHJqSGpxb2FXU01Ec2xVR3B5Y2p6bUw5OHR5ZHlUdHdLcw?oc=5",
-     "source": "WSJ"
-    },
-    {
-     "title": "Jennifer Garner’s Once Upon a Farm Product Recall Sinks the Stock 37% - Barron's",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUWNKTDM3dElLUGZ5T3VHNjJKWVFxZHlMV1FOcmU1Zk5LSFJhMmtEbXBvZFN6cU03SW1PNEtTZkh6RkMteWh5VkMtbHczSUcyMUVyUTJ3UGM4NDhaa2RLRFNTUzNQWWpfT3Z2dXA2RVVuZTNJT0VpeWw1N1FoOTZlNFFINUZVNndJNm1yOXFlUWk?oc=5",
-     "source": "Barron's"
-    },
-    {
-     "title": "Once Upon a Farm to reformulate recalled bars: 'We fell short' - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWtheDRybDNjd3JhbkFCLV9Iams3Sm1FQjZid0UzRktWSnZWTVZ4TlpUbjktWV9KbGY0b2t4OGxTWDRNUGVuOWFmaWw4Z0tfcVM0ckEzN29WN0ZQR2FLdmYwMVNsaFBaMDhzc0g0Y0pxRjNTZjhpbGkyRnpLeUdRd1BMSDJUQ2V3X0xqUWlVS1RKVTRyeEZuUG9jLVBRQ1NSTTVQRjBkYWtDQdIBrwFBVV95cUxQbWlRdXIwcWpHeG5iQkRVT1A4YnlxRjdzOUtzbGVjNXp4VmU0dThmU0p6bXF0MHdKR0l6Q3p0eG1BaFNNU1M4STI4NkM1RzQ3dW9RZnM3LWpxcFhqMFhOVmJIM3ItcDR1LVZ2SlJRZzVpMzdwblZOMzM1N05qZ0RjYjJlYlAycG5mNndjTWp3QmZmcnpBLVpwczNqOGd4bERNM2lTVGpLMTU1MTY0LVdZ?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "title": "Urgent recall for popular bottled water sold at supermarkets across Australia - Yahoo Lifestyle Australia",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRE9xSnZjbTR0N1Jxb01OME1HRmxfWkZwdEJDdFVGU1FuaDNmOWNnN09JZUlIS1pDY0w5dU5LRGxka0pMSEZOcy1iV0h0Y2pVd2cycWhhbk56ZVRuRWtabjNramFMZ0FZVEVKM2FFaGkxaHpTcFJWZnFlQzZVN0xLanNzRHZhTFJuQ2I2aDBoWnBnX1ZUb2QweWFySlpXSE0xZVhMT3ZwT0lZek5wekhSdElIeVdyLVg0aVJuVEphY0lxazl2?oc=5",
-     "source": "Yahoo Lifestyle Australia"
-    },
-    {
-     "title": "Popular child snack recalled due to potential choking hazard for toddlers - 6abc Philadelphia",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOEdQYzltYW01azN4OHFEcU94eDhqR2s0YlJKbWJiSFhZWTFCOUZKWEtmRW9iWjd5TVFPRks3RDJrNFA0ejRIY182MjRHX3lrY3UyOTBYMzVuaVdwTkVKLXgzYWYtZ1VyUDRvLW9fVkVTVWV6QWZUOUlmV2hXU1Y2MFYtYXpfd191QWo3ZzBpUTVPdVVoaGtXUmt4N2lrMy1v?oc=5",
-     "source": "6abc Philadelphia"
-    }
-   ],
-   "official": false,
-   "score": 54.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://abcnews.com/GMA/Food/toddler-soft-baked-bars-voluntarily-recalled-due-potential/story?id=137764514",
-     "title": "Once Upon a Farm to reformulate recalled bars: 'We fell short' - ABC News - Breaking News, Latest News and Videos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "url": "https://au.lifestyle.yahoo.com/product-recall-for-pump-water-from-woolworths-coles-aldi-iga-and-other-retailers-050643982.html",
-     "title": "Urgent recall for popular bottled water sold at supermarkets across Australia - Yahoo Lifestyle Australia",
-     "outlet": "Yahoo Lifestyle Australia"
-    },
-    {
-     "url": "https://6abc.com/story/farm-tractor-wheels-recalled-due-potential-choking-hazard-toddlers/20007648/",
-     "title": "Popular child snack recalled due to potential choking hazard for toddlers - 6abc Philadelphia",
-     "outlet": "6abc Philadelphia"
+     "url": "https://www.kcra.com/article/aca-marketplace-medicare-changes-2027/74297044",
+     "title": "ACA and Medicare in 2027: What’s changing and how to prepare - KCRA",
+     "outlet": "KCRA"
     }
    ]
   },
@@ -646,62 +600,62 @@
   },
   {
    "source": "google_news",
-   "keyword": "medicare open enrollment",
+   "keyword": "social security COLA",
    "traffic": 0,
-   "article_count_24h": 33,
-   "article_count_1h": 1,
-   "published": "2026-11-03T12:02:50+09:00",
-   "category": "Health Insurance",
+   "article_count_24h": 45,
+   "article_count_1h": 4,
+   "published": "2026-11-03T03:28:00+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "AARP: Medicare open enrollment is prime time for scammers to target vulnerable adults - WWMT",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZU1VcnhOb2pLOXJLUGk2TUhvMTR2QzZ4c3hXeFVzc243b2ZMOVpTeFNBQU5pX1o3dzhYU1NRMTNxWjYwTzdMdkdTY3paMHVuNWFUdVdYNzFDZWlCWGRDampqNnFfd2p2bHdDTFREb2dyelhFQ0xGbjd0eGVnakVHNzVyYktSbmdkT0o0elBRejI3UFdqRzdHTVVwUFVERXVNZ01oc081ckk3bk4zXzJaTE9ZMTZURi1uOG52Rm9rQ2VNSkdfVmIwdWZ4RUhPeGFOYUY0VUpYbk9NSGM?oc=5",
-     "source": "WWMT"
+     "title": "Social Security’s 2027 COLA Is the Highest in Years. Here’s Why You Shouldn’t Celebrate It Just Yet - The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbFdLN3Q1TDJxUnBNeFVFVmJOOEJObGw0aVZsQlRfSjROT1NvT1FVU2RQX29kMFpJclJVTW5KVFI2eV93X0JFM1BlNzZyWXkzVExhaHU1VnVWUm9jT2N3UE9yYVdKeTJZSW1RaENVUU1vVXBSVm1LUy0tbTZXVVAyektoNmVONUVvSHgzZ3BsUlVuLXRQU3NpYTNPXy02Q3hyNFY3VzNGNE9qS1R3TjUzTzBtVllCQnNqaUlKbFQ0TmVwOWRfNVFtLXF0TlJfbVhvVEJBU1B0VzhfZw?oc=5",
+     "source": "The Motley Fool"
     },
     {
-     "title": "Medicare Open Enrollment Offers Chance to Review Coverage, Avoid Costly Mistakes - Radio Catskill",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd05MS3RES0wzck1NYlBqRUhvTmtEWUx1N3BoanlualRtTFYwSkpFcEJtaER6WTZQcVpWZEhsYUtHQUcxXzloNFd6eUhkdm5jWS1HOEo4eURWem96T2x3dUdBLW1GOE5iQVFoN0RQaGRkRVJBMmlRdDR0d3NhREpaal9IYjN3NTVZQjN4MjE5TDZodzc5WHhjdkZiVHMwUlNQWk41T1poRmItdw?oc=5",
-     "source": "Radio Catskill"
+     "title": "2027 COLA: Key Social Security deadline looms for people wanting to learn new benefits early - AL.com",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcE1oTmY0cnE5aEluei14OFJnTjBab0pxYTFTaGtoZjZGeHZfRlJCbmY3blBCTEJzRHdrV0RCVTZQeXNndW81Wm9QX2hkaGVmTmZqM1NiUXFrQmNwcnBOdHNmQ1pCbHN1MTFtWnJWRHVma2htZFVfTmFRcDhSWWpRTjlSSXZWZ055OXZrTXRjUUcwekEtVDhIeGNlNHRjZUdqWW56TTRsdXBuTUxlY2RVMGtJcG8yQVFUcjk1UDJVQTRHZ0xFczhz0gHbAUFVX3lxTE5XVV9IOFB1NHhURWEwNXE2aVF3MTJfOGRpQzNZTHl1N211OTRfd3R4TmhPQVJPSnNobmwyc01oLVRIN2RXZmF5T0QwTXNmTF92eVprdXh1bzE0Y3JsOW4tWk1zUy14SXY0eDYyVUdWZVp0c3pDcXk0bldkaHpoQ3ZWUTFvLWl2MEJ0ZlhxSXlzZVBXNURPeGxqb3VRVncwSGpUanhyVWZCOTZPZmVLdUpIZm13ZFFMN3NNazVBTzVMSmlXdHFIYk1EemFxSDgtSFhSdFdsdktvVE9JVQ?oc=5",
+     "source": "AL.com"
     },
     {
-     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Clearwater Tribune",
-     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWVdDdW1KRVZ3dU16cjRJX1hEeFBmb29Sa3ZpSkNXbGZoMXJLaHNZRTFTcmxrejRuMTU4cXlWWk9JTlRiY3lXN0hBSFdWcU12RGRsMThYRFVVNjlROE5GLWs2TVBwYVJQNEs1UGRJeUlPTXpLN25mazJJSk9wYnVvZ0JlOGRTZ2FfMTdBdmdfUFVqa2UwMDVZNTNfNk9RZGVNdThUa01KN2ZHbmRlZVVfak16dW44aWZVeDJ1dTdjUFlFWjQ0Y0RHTEVnc0JOQzNZQzV1bkVaWVVpZDF2TTlYS21RcVE0NTJHWTRNLWxnTm9PVEs4cjNwS1VkR3hhalRzWTBaWUxaTjNjR1BIR3c?oc=5",
-     "source": "Clearwater Tribune"
+     "title": "Social Security’s COLA helps but Congress must do more - Tri-Cities Area Journal of Business",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WamI4WmFiN1VEcWw0dUM1SUJWN3JybVlPUm5GZmkyVjhKNVpwY2w2Tzk5SUMxdmRGMk1QOE54ZEdQTW9POWFKcHA2LV9WX1JUa0tCSDR1M0w0SHotZEpoelZHUWlVX0dtOWc?oc=5",
+     "source": "Tri-Cities Area Journal of Business"
     },
     {
-     "title": "ACA and Medicare in 2027: What’s changing and how to prepare - KCRA",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdHdfaktGcXduYlRFZnhqUVFhQm9GeWF3Q2hvamljMHdqZ25DWllUUmVCcnl6bDdvRlhWQmF5OWg1ellrTGxFYS1xbHkzY09RNGNqcjNFb3YwU1RqV2NSaS11ZjYxSkRzQ29DcTUyVFl2dXYtczRhVTBBQks0YkZpRg?oc=5",
-     "source": "KCRA"
+     "title": "2027 Social Security COLA Is Official - Here's How Much 6 Types of Beneficiaries Will Get - AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNckhrVnZDczhIeDBMYzBRN0ExTXpkTlhrS2prWm1BeTgzM2dLTWtWc3VUX0RLbl9MTzlxQ1BVMnRVOWcxQ2plNmNVeFVjVXYzZmNHc1lsY3VuZlJRRHJwRTVwZDlMVDU0ZFpvZG9fUGlzd05peHRMNmlNakhZQXRYbHhpeG4?oc=5",
+     "source": "AOL.com"
     },
     {
-     "title": "Senior Resource Alliance SHINE Program provides free, unbiased Medicare Counseling during Open Enrollment - Mysanfordherald",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdlF6Um5CMWVvZldmSWxUY0pBbVZ0ZTFoc3kzbnI4UDR6elNPdUhabEZmWHIzdC1ZMmJBdEVZU0h1TGJMTUNRWU1TRjhud3VISDZFdkRIM0EwOGRDM2RvNHhBRDhMLU5mU0VvOWZ2dW5iRFkxS19idFBRU1FyN3JJQmV4TEV3N09DVTEzaHlZR3ZELW52czlIU3hOaVVpeTdEZ1BMdXVNd2o4TGVnaF9IRDNrai1pNDlLLXJUYW1ONlFlbVo3ZElWSlFCTnlMblNOdmV4UzIzTDlZWUtSaWNTd3JNdw?oc=5",
-     "source": "Mysanfordherald"
+     "title": "Your Social Security COLA Notice Is Coming — 6 Things to Check Before Filing It Away - SavingAdvice.com",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZ0xPZm1saDlPYUp0MTZId2I4MmNueFl4RFVIbVFTNm4tSTZYLXh1SVRBb1JlR1B3eDNOSmE3MDNLalZpU0VpR20zYkxtWmkzWHMxaHFEWThrOWIyemVxSVNlN05Ld1lTeFE1T0dlbTFaNEZZR1J2Q2pIckowVEh1NHZQalY1X05ZYU9PeDdPcmFPTjg3ZXhaa2xxamxiNVRPdXZnR2lWVnFuMXpldDFWTlFiUVBXQlNaRm5FbnYtc21xQXJTMlNOVHE1U2J4cnU1V2V0bkROMXJYMDVwekE?oc=5",
+     "source": "SavingAdvice.com"
     }
    ],
    "official": false,
-   "score": 51.0,
+   "score": 51.5,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://wwmt.com/news/local/medicare-open-enrollment-scams-scammers-target-vulnerable-adults-aarp-medicare-healthcare-seniors-tips-protect-wwmt",
-     "title": "AARP: Medicare open enrollment is prime time for scammers to target vulnerable adults - WWMT",
-     "outlet": "WWMT"
+     "url": "https://www.fool.com/retirement/2026/11/02/social-security-s-2027-cola-is-the-highest-in-years-here-s-why-you-shouldn-t-celebrate-it-just-yet/",
+     "title": "Social Security’s 2027 COLA Is the Highest in Years. Here’s Why You Shouldn’t Celebrate It Just Yet - The Motley Fool",
+     "outlet": "The Motley Fool"
     },
     {
-     "url": "https://radiocatskill.org/medicare-open-enrollment-offers-chance-to-review-coverage-avoid-costly-mistakes/",
-     "title": "Medicare Open Enrollment Offers Chance to Review Coverage, Avoid Costly Mistakes - Radio Catskill",
-     "outlet": "Radio Catskill"
+     "url": "https://www.tricitiesbusinessnews.com/articles/ro-nov-2026",
+     "title": "Social Security’s COLA helps but Congress must do more - Tri-Cities Area Journal of Business",
+     "outlet": "Tri-Cities Area Journal of Business"
     },
     {
-     "url": "https://www.clearwatertribune.com/online_features/health_and_wellness/medicare-open-enrollment-ends-dec-7-give-your-plan-a-check-up/article_d214971c-84a7-532a-9147-6751a54dcbd5.html",
-     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Clearwater Tribune",
-     "outlet": "Clearwater Tribune"
+     "url": "https://www.aol.com/articles/2027-social-security-cola-official-163000000.html",
+     "title": "2027 Social Security COLA Is Official - Here's How Much 6 Types of Beneficiaries Will Get - AOL.com",
+     "outlet": "AOL.com"
     },
     {
-     "url": "https://www.kcra.com/article/aca-marketplace-medicare-changes-2027/74297044",
-     "title": "ACA and Medicare in 2027: What’s changing and how to prepare - KCRA",
-     "outlet": "KCRA"
+     "url": "https://www.savingadvice.com/articles/2026/11/02/10763963_your-social-security-cola-notice-is-coming-6-things-to-check-before-filing-it-away.html",
+     "title": "Your Social Security COLA Notice Is Coming — 6 Things to Check Before Filing It Away - SavingAdvice.com",
+     "outlet": "SavingAdvice.com"
     }
    ]
   },
@@ -709,7 +663,7 @@
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
-   "article_count_24h": 24,
+   "article_count_24h": 37,
    "article_count_1h": 10,
    "published": "2026-11-03T00:40:36+09:00",
    "category": "Student Aid",
@@ -824,125 +778,43 @@
   },
   {
    "source": "google_news",
-   "keyword": "REAL ID",
+   "keyword": "federal holiday",
    "traffic": 0,
-   "article_count_24h": 23,
-   "article_count_1h": 1,
-   "published": "2026-11-03T11:17:00+09:00",
+   "article_count_24h": 33,
+   "article_count_1h": 7,
+   "published": "2026-11-03T11:28:00+09:00",
    "category": "Elections",
    "news": [
     {
-     "title": "Wisconsin DMV extends hours ahead of Election Day - WBAY",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVlVCQUNsWVJxMlVmR25kd1lhdmY4bVZ4eGdEMXRhVk5KZUxDd3lsM1AtRVF5U2xYdVh0NXlpNlo5VEJPaUFPNGFOY00xSGEzNkVWU2g4bDBlVHZhZzdGV2Y5eU1Td0tzcTJUM1lURlRXc01QVWRDODlZdGpxOWY5OFZKT0NTdw?oc=5",
-     "source": "WBAY"
+     "title": "Is Election Day a federal holiday? SC voters need to make time to vote - Greenville Online",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNU0FrLV9lTlBZX05HRlh0UmY5MnpNVjRYdlY2emh3SGFaOHBMSEQ0MXBhc3ZXT2ladE5QTnpxWDZ0MlF3Z04ydGhFOC1qM0N2d3pYWDhDRnlGTlpKeVhqam5SYUtsRl95MEI2cjhqSWwzbGxYbEZoM3FwR3daYU9CQ3hVOEdnTjBtM1lNckVQYzVJaGdGdng2TW5va3NEbzFlTjdrXzBQR0d0NXpSaWE4Qlp5Sl84MG9UMVc0cE5kSFQ4WmpEZmhyX3ZyLUVTZmdRT1YxUS1EU1plbm5HTC1MRFprSGlLN1pxZEpF?oc=5",
+     "source": "Greenville Online"
     },
     {
-     "title": "Wisconsin DMV extends hours for voter ID ahead of midterm election - Channel 3000",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONUU3ZGl4QlBjSlhwdUhkRS1BcXl0dlRJaVZZUjJWWDFUeFU4TUd3MDlHcEJmcFhvdW15YWRHbXNDck9iVXF0VWZRdTVRUGQtanhOdWdiYVVodmVXbjhvMVd4TDBXNDBlNTJiZl9DY2JhQ2xXOWgtS1dWYXJndG1DekZTcHRCeW9PMzA5aUxPNE5Lc1luZlF0TzA3cmU5M2h3WlgzR19RNW02anZBZVVqMWVyY2tPNkJLVE42QkM2MUxJM3AtV3RpWWYyaVpNWjBsR0pGV2w4eDRqdVBhcEJyOEExOA?oc=5",
-     "source": "Channel 3000"
+     "title": "Is Election Day 2026 a federal holiday? What to know - Idaho Statesman",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS3FtM3VhSUFxbVF2Vkc1VmFzLXRxaC1iU0ZtS1I0ZDl1b3JBa1ZqQk8tUUFKVU9xVTJjV28wemR5Z1Y2U1JhQXVXQVlsNkFqbU1KVDlNNkZhZUEzUHVfZlQxelh1akJmWjhrMXNjNVlOd19RV3RGRXNwcTk2RHVlM0VIWEtrdw?oc=5",
+     "source": "Idaho Statesman"
     },
     {
-     "title": "DMV extends hours ahead of election - WKOW",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVjU1WTN5eWFWcURMcERFa05obEpvSUFDdDdINW03OFNYZHJNajVkRHEtNVVZNl9kOERiV0FDLTNzcjJZbk4zLXpVV1lCLVoyTnN0UHVQSU5uVlVaa0t5TlpJYlBMVDRUNzVxV2NPa3FVVVhWRzhEb3BKSk1GTk5MbXlnWlBZTWNLcDdOVnAyNW13VmQ1RWJDMUIxdjlZOUViY2ExSklLdXNrb0RoNmF2QWE4dFVVcTR1WEtvaA?oc=5",
-     "source": "WKOW"
+     "title": "Is Election Day a federal holiday? NC voters should make time Nov. 3 - The Asheville Citizen Times",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdWRYYk5SdXlmS2JzT2JPWFI1Qkc4c0hIeERZcG4wd1F5TG0wZ190dnh3R0d5UkdIcDFyTW1TX2pGaFA3Z244elhFLTN2S0VFaEh0Zk5ybHdKU1VVUXRfSVZTcDcwdFNFc2V3WjdoWFlDaWF0bFhZSTN3ZnBKSFJzY1RXYTJOenAzem5GVHRwZ3hQVDlNRk02ekhGdEtkekZQeEdHanhFaW9nMUk3T0JuMnVDVlczU3FWbU9hVGxmV2hRcVBKcGkyLWxVQVFTLVFBVDktNmd0ZTl2VkI0V2w2QlptdTV0T0U?oc=5",
+     "source": "The Asheville Citizen Times"
     },
     {
-     "title": "Flying for Thanksgiving with an old driver’s license? It could cost you $45 at the airport - Tododisca",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFByVXByMnpsWFp0SU9lSEliSk1hVXNCTFF1aFU4aWRTTFBnNU84c2NxemNLbmxpMUQ1VnVxWGQ2MTlWTEgtb3dYZHVXTG1WUXZleVVRclVWaVdqTGcydVdWbkZkR0lvUlp3OFdB?oc=5",
-     "source": "Tododisca"
+     "title": "Election Day isn't a federal holiday, but Ohio protects right to vote - The Columbus Dispatch",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX3ktMkNqWnZSRkN5RVpmQjhWZWgyQ2JsUEpYc19ha0FMbk10Vjg1VXRINGtFQ0pIem5CejFPdlhHTlgxS1lhY01IRVNLMEhzeUFDckJ5dWE3VDB4Sk02RS1JanBoblY0QnJzU0JVazVjOHZNSTZjRnVQWUxhXzl4blpxZ2Myanc2bVdSRjUxZDJ4MHkxNjBXbExTUWZUcnEyTjV1S1RvVnZNQjkzYVBOY0htTlNOdw?oc=5",
+     "source": "The Columbus Dispatch"
     },
     {
-     "title": "Wisconsin DMV extends hours ahead of Election Day - WTMJ",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGVVSUtjUVJXdVBra2k2d2czWnRFcmJYdjBkZFZfRjJjLU12RGZhRFJaY2U1djV4b0RJamt1NEo1eWRnOHNNeE96Z0dMUVlhTG9sRHBUV05DRVNvODJjVmpIRDlYZnlsZ0p0eVNFeEtUcXd3SkIxbTJXejNwWkV2bkRYV2poQ1FTRllKWmE2SFFibm9nNGlBbGp0WXNEOGUyN2lXQw?oc=5",
-     "source": "WTMJ"
+     "title": "Is Election Day a holiday in Massachusetts? Can you get time off work? - Worcester Telegram",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLWsxWkV3akZFaVUwQll2MjUzM1gwTW9RdEFIenZ3SlloOTJJdTFBVHVKbTNNZXRsc0xtU2thUEJraWxQUGg3c1gyNmpOdG9BOXk4LXNDdm1ZSHIyUFpQSE5wdUxJSDN5eGZZemtFUFI3dkVJVk44TlJ6MlNMbWtBSnhGUkRVcUxza0RDSFFSWGRNR3lYejJUcm95WW53bjV3b3JZekQycExueWJyanNWVWhLWHFuT2pRd0xhU3d1Mml2a29mZVFNNEFrWXBEVGVBdU01UkhyMnF5cUhraElady13?oc=5",
+     "source": "Worcester Telegram"
     }
    ],
    "official": false,
-   "score": 44.2,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://www.wbay.com/2026/11/03/wisconsin-dmv-extends-hours-ahead-election-day/",
-     "title": "Wisconsin DMV extends hours ahead of Election Day - WBAY",
-     "outlet": "WBAY"
-    },
-    {
-     "url": "https://www.channel3000.com/news/wisconsin-dmv-extends-hours-for-voter-id-ahead-of-midterm-election/article_de6f1d71-abe1-4f2b-ba70-1c8fcf328b4d.html",
-     "title": "Wisconsin DMV extends hours for voter ID ahead of midterm election - Channel 3000",
-     "outlet": "Channel 3000"
-    },
-    {
-     "url": "https://www.wkow.com/news/election/dmv-extends-hours-ahead-of-election/article_424e3aaf-3354-48cf-82d9-51eda141af86.html",
-     "title": "DMV extends hours ahead of election - WKOW",
-     "outlet": "WKOW"
-    },
-    {
-     "url": "https://tododisca.es/en/real-id-45-fee-thanksgiving-flight/",
-     "title": "Flying for Thanksgiving with an old driver’s license? It could cost you $45 at the airport - Tododisca",
-     "outlet": "Tododisca"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "daylight saving time",
-   "traffic": 0,
-   "article_count_24h": 92,
-   "article_count_1h": 5,
-   "published": "2026-11-03T06:16:00+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "Chicago's thoughts on daylight saving time - WBEZ Chicago",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUZuWTdMOERPenNjalBZSFFyWksxdl9vUXkzZU1LajJhaUpfTG1qTHU0dlFMTUpOOFczZ3NQQml0LWRpVXJpajFRVVJIMWdXRTZLblhNeldCRVVEUDdEVDQwZ2s5QnB6ODFhTGtUZ0ltLVYzUnZsWnBDQ2k0dHpSSG1fajJlYllQY2tEdjBDY2FNOHlMQVIzb18xb25tWGpUNTV4MEE0STdjQXhfSnBFeWxB?oc=5",
-     "source": "WBEZ Chicago"
-    },
-    {
-     "title": "Daylight saving time ends Sunday: What the time change means for the Tennessee Valley - Local 3 News",
-     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNUFVleDFIcFd0UGVvZDhFc21fRkxRRXlNQU96TU5Bb3ZfZlpFYUp0Z3B3bTgxcVgwaDE4WXp3WnYySVVTT05xSExnUGx6cDctTVpqYkV2TGI0Z1hLb3VrZk5FRVdBSzloNjNkVGNZZkRZcmxYeXk5WEZ5MzlSVEgzcFU5NXpkNXRkRjFMZHlJSWo0OVhBTEZpWFFndzk5QUloXzU2c2F5VmtMRnZ0QzJUb1ZJTUFYVFpiVW1zYnlQcjU1OUVTQmdNYTB5SEJucnl2RTRCZENVaVA0Zjk5RlNLZndsUnpURWxfbDRWSVBKUTFaQkpVWVhOV0pCbzJ6S2pOeTV0MlpLQmhqOUh5dHhpSDBBMjYwQjQ?oc=5",
-     "source": "Local 3 News"
-    },
-    {
-     "title": "How Making Daylight Saving Time Permanent Affects Homeowners - Realtor.com",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPek1XY0EwTWc0QXN5T0tSb2hxVmJmUkNwYjBULXZFNk1UeHZWcHFOOGcxRGJHbEJoWVE3T0tkbFBXWlAyZ2plUWhFdEpoUTFvcVNTSWpVMTJoWHRrTVFaTHM5YnI1RTJadElPRlVGNHltdktLYlFOZDZoSW9fZlM1LUtJbXM0TUV4VHlXS2laZw?oc=5",
-     "source": "Realtor.com"
-    },
-    {
-     "title": "New Study Reveals Health, Economic Costs Of Daylight Saving Time - Forbes",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdHdqNWlwcVpLT3VPcWZVTGk1aDFnY0ZLSUtmVkxPQXBtV25QaTRJbktkUml1R3RWei1fQmlyRXZFWGlTV0ZibHFhaHU3clIyS003VFNSdWhFcTV4ZHZNeGVmalBYaXF6VjdIcGg0bklCbTVSWE1FVkRKRnkxdG5UTVo5TDhRdi1tYUFEVnNhWlF5Q3BkQ1IzMkVLQTBrb0lSZEhSWWh2UFVwV2VRWWU1OXFaSHFSelRRZWZNZld3?oc=5",
-     "source": "Forbes"
-    },
-    {
-     "title": "UW researchers warn against permanent Daylight Saving Time before ‘Big Dark’ - FOX 13 Seattle",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEt6Z3QzcGpmdG8yQTF0N1BYSmhOSWx1RFVpWmJWc3pyWW9IenFhYkV0Zm5HVEZWcWZqLU9zNU80YmVmNDhzUDdQSkZzbXlXLXpETVBFdTM5TzVkQ0tnRFdTaEhTcU1uTS1iMXhWdVB3a2hhdjVlaEkxbGx5cWYyd3hFa2gyekdq?oc=5",
-     "source": "FOX 13 Seattle"
-    }
-   ],
-   "official": false,
-   "score": 38.5,
+   "score": 45.5,
    "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.wbez.org/say-more-with-mary-dixon-patrick-smith/2026/11/02/chicagos-thoughts-on-daylight-saving-time",
-     "title": "Chicago's thoughts on daylight saving time - WBEZ Chicago",
-     "outlet": "WBEZ Chicago"
-    },
-    {
-     "url": "https://www.local3news.com/local-weather/weather-wise/daylight-saving-time-ends-sunday-what-the-time-change-means-for-the-tennessee-valley/article_f0fa74dc-5254-4076-8878-ad562f1ada25.html",
-     "title": "Daylight saving time ends Sunday: What the time change means for the Tennessee Valley - Local 3 News",
-     "outlet": "Local 3 News"
-    },
-    {
-     "url": "https://www.realtor.com/news/trends/daylight-saving-time-permanent-affects-homeowners/",
-     "title": "How Making Daylight Saving Time Permanent Affects Homeowners - Realtor.com",
-     "outlet": "Realtor.com"
-    },
-    {
-     "url": "https://www.fox13seattle.com/news/uw-warn-permanent-daylight-saving-time-big-dark",
-     "title": "UW researchers warn against permanent Daylight Saving Time before ‘Big Dark’ - FOX 13 Seattle",
-     "outlet": "FOX 13 Seattle"
-    }
-   ]
+   "evidence": []
   },
   {
    "source": "google_news",
@@ -1007,10 +879,88 @@
   },
   {
    "source": "google_news",
+   "keyword": "daylight saving time",
+   "traffic": 0,
+   "article_count_24h": 98,
+   "article_count_1h": 3,
+   "published": "2026-11-03T06:16:00+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Chicago's thoughts on daylight saving time - WBEZ Chicago",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUZuWTdMOERPenNjalBZSFFyWksxdl9vUXkzZU1LajJhaUpfTG1qTHU0dlFMTUpOOFczZ3NQQml0LWRpVXJpajFRVVJIMWdXRTZLblhNeldCRVVEUDdEVDQwZ2s5QnB6ODFhTGtUZ0ltLVYzUnZsWnBDQ2k0dHpSSG1fajJlYllQY2tEdjBDY2FNOHlMQVIzb18xb25tWGpUNTV4MEE0STdjQXhfSnBFeWxB?oc=5",
+     "source": "WBEZ Chicago"
+    },
+    {
+     "title": "Daylight saving time ends Sunday: What the time change means for the Tennessee Valley - Local 3 News",
+     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNUFVleDFIcFd0UGVvZDhFc21fRkxRRXlNQU96TU5Bb3ZfZlpFYUp0Z3B3bTgxcVgwaDE4WXp3WnYySVVTT05xSExnUGx6cDctTVpqYkV2TGI0Z1hLb3VrZk5FRVdBSzloNjNkVGNZZkRZcmxYeXk5WEZ5MzlSVEgzcFU5NXpkNXRkRjFMZHlJSWo0OVhBTEZpWFFndzk5QUloXzU2c2F5VmtMRnZ0QzJUb1ZJTUFYVFpiVW1zYnlQcjU1OUVTQmdNYTB5SEJucnl2RTRCZENVaVA0Zjk5RlNLZndsUnpURWxfbDRWSVBKUTFaQkpVWVhOV0pCbzJ6S2pOeTV0MlpLQmhqOUh5dHhpSDBBMjYwQjQ?oc=5",
+     "source": "Local 3 News"
+    },
+    {
+     "title": "How Making Daylight Saving Time Permanent Affects Homeowners - Realtor.com",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPek1XY0EwTWc0QXN5T0tSb2hxVmJmUkNwYjBULXZFNk1UeHZWcHFOOGcxRGJHbEJoWVE3T0tkbFBXWlAyZ2plUWhFdEpoUTFvcVNTSWpVMTJoWHRrTVFaTHM5YnI1RTJadElPRlVGNHltdktLYlFOZDZoSW9fZlM1LUtJbXM0TUV4VHlXS2laZw?oc=5",
+     "source": "Realtor.com"
+    },
+    {
+     "title": "New Study Reveals Health, Economic Costs Of Daylight Saving Time - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdHdqNWlwcVpLT3VPcWZVTGk1aDFnY0ZLSUtmVkxPQXBtV25QaTRJbktkUml1R3RWei1fQmlyRXZFWGlTV0ZibHFhaHU3clIyS003VFNSdWhFcTV4ZHZNeGVmalBYaXF6VjdIcGg0bklCbTVSWE1FVkRKRnkxdG5UTVo5TDhRdi1tYUFEVnNhWlF5Q3BkQ1IzMkVLQTBrb0lSZEhSWWh2UFVwV2VRWWU1OXFaSHFSelRRZWZNZld3?oc=5",
+     "source": "Forbes"
+    },
+    {
+     "title": "Set your clocks back Sunday, but this tradition may be ending - Scripps News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOTF0dTllZWFMWGh5amp6MVg2Zk1lcG5WMnBKS2tLUWx6clI1d3VIVFNGYnZxTWdNMURWSnFVZkN2MXBIa184RVd3dVRxVEpkWUtuMGlRWFRqR0cyZHBTMzQ3Ylg5NTVCczFMdDBvS3hfSGdWRkpiSTRnMk5ka0lJS3o3V0lORGpwU2NFQ05ZdDNsOFY3UUtMWTRQSHk?oc=5",
+     "source": "Scripps News"
+    }
+   ],
+   "official": false,
+   "score": 32.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "REAL ID",
+   "traffic": 0,
+   "article_count_24h": 23,
+   "article_count_1h": 1,
+   "published": "2026-11-03T11:17:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Wisconsin DMV extends hours ahead of Election Day - WBAY",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVlVCQUNsWVJxMlVmR25kd1lhdmY4bVZ4eGdEMXRhVk5KZUxDd3lsM1AtRVF5U2xYdVh0NXlpNlo5VEJPaUFPNGFOY00xSGEzNkVWU2g4bDBlVHZhZzdGV2Y5eU1Td0tzcTJUM1lURlRXc01QVWRDODlZdGpxOWY5OFZKT0NTdw?oc=5",
+     "source": "WBAY"
+    },
+    {
+     "title": "Wisconsin DMV extends hours for voter ID ahead of midterm election - Channel 3000",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONUU3ZGl4QlBjSlhwdUhkRS1BcXl0dlRJaVZZUjJWWDFUeFU4TUd3MDlHcEJmcFhvdW15YWRHbXNDck9iVXF0VWZRdTVRUGQtanhOdWdiYVVodmVXbjhvMVd4TDBXNDBlNTJiZl9DY2JhQ2xXOWgtS1dWYXJndG1DekZTcHRCeW9PMzA5aUxPNE5Lc1luZlF0TzA3cmU5M2h3WlgzR19RNW02anZBZVVqMWVyY2tPNkJLVE42QkM2MUxJM3AtV3RpWWYyaVpNWjBsR0pGV2w4eDRqdVBhcEJyOEExOA?oc=5",
+     "source": "Channel 3000"
+    },
+    {
+     "title": "DMV extends hours ahead of election - WKOW",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVjU1WTN5eWFWcURMcERFa05obEpvSUFDdDdINW03OFNYZHJNajVkRHEtNVVZNl9kOERiV0FDLTNzcjJZbk4zLXpVV1lCLVoyTnN0UHVQSU5uVlVaa0t5TlpJYlBMVDRUNzVxV2NPa3FVVVhWRzhEb3BKSk1GTk5MbXlnWlBZTWNLcDdOVnAyNW13VmQ1RWJDMUIxdjlZOUViY2ExSklLdXNrb0RoNmF2QWE4dFVVcTR1WEtvaA?oc=5",
+     "source": "WKOW"
+    },
+    {
+     "title": "Flying for Thanksgiving with an old driver’s license? It could cost you $45 at the airport - Tododisca",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFByVXByMnpsWFp0SU9lSEliSk1hVXNCTFF1aFU4aWRTTFBnNU84c2NxemNLbmxpMUQ1VnVxWGQ2MTlWTEgtb3dYZHVXTG1WUXZleVVRclVWaVdqTGcydVdWbkZkR0lvUlp3OFdB?oc=5",
+     "source": "Tododisca"
+    },
+    {
+     "title": "Wisconsin DMV extends hours ahead of Election Day - WTMJ",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGVVSUtjUVJXdVBra2k2d2czWnRFcmJYdjBkZFZfRjJjLU12RGZhRFJaY2U1djV4b0RJamt1NEo1eWRnOHNNeE96Z0dMUVlhTG9sRHBUV05DRVNvODJjVmpIRDlYZnlsZ0p0eVNFeEtUcXd3SkIxbTJXejNwWkV2bkRYV2poQ1FTRllKWmE2SFFibm9nNGlBbGp0WXNEOGUyN2lXQw?oc=5",
+     "source": "WTMJ"
+    }
+   ],
+   "official": false,
+   "score": 30.9,
+   "already_covered": true
+  },
+  {
+   "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 34,
-   "article_count_1h": 10,
+   "article_count_24h": 38,
+   "article_count_1h": 8,
    "published": "2026-11-03T14:09:58+09:00",
    "category": "기타",
    "news": [
@@ -1018,6 +968,16 @@
      "title": "💰 Western Visayas workers get PHP 40-PHP 45 wage hike JUST IN: Minimum wage earners in Western Visayas and Soccsksargen are set to receive higher pay following the approval of new wage increases announced by the Department of Labor and Emplo - Facebook",
      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUk0yS1ItbGp4RkN5NTl4RDBDYlJQN3V1UWJWNXE4aUM5c3hFd01LN3g1OEY2SXd5LTloU2RSNzR0Q1JiSkxUQXp5MHZWRVN6dVB2RXRjcHFrTGJ2QTNTVU1KTUpIa29sVGcyY2hHczVxME5aQUNFZ0x2a0hjdjM5OE5ESFp6Y1JJUFZPZlpBQ3ZHOHVhbWlxTnh1X3RPQ2NSREZPQmMxRnUteFB2b081elRNVHQycUFBLTBIU3B2ZEFLbF9XdkFfZW1MaTNJRlgxQUlueWZEdmV5VDVLM0E?oc=5",
      "source": "Facebook"
+    },
+    {
+     "title": "W. Visayas workers to get up to P45 daily wage hike starting Nov. 19 - Inquirer.net",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeUcybjJzeG1Bck91aHVKR0pCWm1hVVE2dVZGWTNQTE5hWHlyenpmdkF5dEt4R1lRTDlGTHVNbUFVZ0ZGYWNKNXNlNzlxUjZ4WGdnQm5mc2pSUEVKdHYxSlFVY2NybDhpY05XZE1FODFJM3pqYU0tMFM1Z0dfM3huak8xcUxRSmFBTnh3MUNxZlN3VVBXYU9CRURTMkwzLXR1MTdtRTBoQdIBrAFBVV95cUxQVlJIVDN6ZW5nZVROLVdaaVZBUGJLZUt2Mk5zUFZmMkVsSGZiUGhxOVhxTGxqNjJLMFRfMU9HV29VRm5kbk1UTjhIc05meW9KSFEwOGpzaVVPTEFDQUpQVnV3dDU0NmE4c0VzMmpJbE9FaWctMWRtRTJHdjFOcC1UeU5VczFLeThyWE1rZmszaG9QNkhpRG9GdDJjMWJWRHpDRkV0T0tBR20yVDJa?oc=5",
+     "source": "Inquirer.net"
+    },
+    {
+     "title": "NWPC approves P40-45 wage hike for WV, NegOcc - Digicast Negros",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbmVQYTVvaUFtUC1WTWtMdDdRLUlwRnVLc20wUHNqdTZFcl9zY1k5UU1XSldTUzBsSGVoM0ZZS0R5VW5Ecm0wcnJOemFaQVpUeGJjNndDd3hsblljOGdkSFNwYVgta25zVFJfLVY4RzNsMHlveGJTMW0wY2IxRXNNVDhR0gGCAUFVX3lxTE1uZVBhNW9pQW1QLVZNa0x0N1EtSXBGdUtzbTBQc2p1NkVyX3NjWTlRTVdKV1NTMGxIZWgzRllLRHlVbkRybTByck56YVpBWlR4YmM2d0N3eGxuWWM4Z2RIU3BhWC1rbnNUUl8tVjhHM2wweW94YlMxbTBjYjFFc01UOFE?oc=5",
+     "source": "Digicast Negros"
     },
     {
      "title": "Large-scale protests have continued for a fourth day, sparked by demands by Bangladeshi clothing wor.. - 매일경제",
@@ -1028,16 +988,6 @@
      "title": "Kazakhstan to raise minimum wage to 110,000 tenge in 2027 - AKIpress News Agency",
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdnlnd3VTTUNRZEZLNWFVV3ZnaDE1cHpsSEVrOUJCTFlpcGhNLUpSLVVGNnpDSFAxZVlkNXh0SGtBUjlWRGptcElDU0Vvd0FzeHhINm9FNUYyODlQQTFHQ0p0N3dsQkk4QU10OEJ1Z0MydXNuUHh5MGd0WDdpLVlScjRWRXJvOVM2SWgxRFdVN1VSandSeEE?oc=5",
      "source": "AKIpress News Agency"
-    },
-    {
-     "title": "Colombia’s 42-Hour Workweek Shapes the 2027 Minimum Wage Debate - ColombiaOne.com",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4zQ0N2QUotWXpsOEhQcS1pNnNrRjJSZWhzeVdleF9XY2dSWnd3ZnNkLWhCS2ZZWVd1SzF1T015UWRXRW1nWkJvcHBlWXVUY0NyZU5UcktCOHctSWRWVWY4a2hud0tLYlkyTnlGeGlROA?oc=5",
-     "source": "ColombiaOne.com"
-    },
-    {
-     "title": "Kurti promises public-sector pay rises and a 14th month's salary - Nacionale",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcVZGY3Etd0w0M0FGdTR0LVhuTzhqOXFWT1N5c2lUUW5RaFpHX2JwM1ZqVjM0ajZKN0dMTmNySFZqX2lvRmFYUmZTMEVkamJleEh1OEVidWFVSC1MZnZhV1dPS00xUnFQNWt0MjVPUVJBRWdYMDViRDlJTklzcVh3WjlqOWdyV1VnN2I5YlQ5MGRHSElucC01ZjlB?oc=5",
-     "source": "Nacionale"
     }
    ],
    "official": false,
@@ -1048,7 +998,7 @@
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 27,
+   "article_count_24h": 28,
    "article_count_1h": 0,
    "published": "2026-11-03T01:30:00+09:00",
    "category": "Recalls",
@@ -1082,47 +1032,6 @@
    "official": false,
    "score": 27.3,
    "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "gta6 release date",
-   "traffic": 100,
-   "published": "2026-11-03T16:40:00+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "First Look at the Travis Scott x Rockstar Games x Nike Air Force 1 Low \"Grand Theft Auto\" in Black",
-     "url": "https://hypebeast.com/2026/11/travis-scott-cactus-jack-rockstar-games-nike-air-force-1-low-grand-theft-auto-6-black-first-look",
-     "source": "Hypebeast"
-    },
-    {
-     "title": "Travis Scott’s Cactus Jack x Rockstar Games x Nike Air Force 1 Low GTA 6 Pack Releases November 2026",
-     "url": "https://www.soleretriever.com/news/articles/travis-scott-cactus-jack-rockstar-games-nike-air-force-1-low-gta-6-pack-release-date-november-2026",
-     "source": "Sole Retriever"
-    },
-    {
-     "title": "Travis Scott's GTA 6 AF1 Sneakers Drop November 19",
-     "url": "https://resellcalendar.com/news/news/travis-scott-gta-6-sneaker-reseller-nike-af1/",
-     "source": "Resell Calendar"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 23.2,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.soleretriever.com/news/articles/travis-scott-cactus-jack-rockstar-games-nike-air-force-1-low-gta-6-pack-release-date-november-2026",
-     "title": "Travis Scott’s Cactus Jack x Rockstar Games x Nike Air Force 1 Low GTA 6 Pack Releases November 2026",
-     "outlet": "Sole Retriever"
-    },
-    {
-     "url": "https://resellcalendar.com/news/news/travis-scott-gta-6-sneaker-reseller-nike-af1/",
-     "title": "Travis Scott's GTA 6 AF1 Sneakers Drop November 19",
-     "outlet": "Resell Calendar"
-    }
-   ]
   },
   {
    "source": "google_news",
@@ -1164,92 +1073,10 @@
    "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "matt damon",
-   "traffic": 100,
-   "published": "2026-11-03T16:40:00+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "Matt Damon Gushes Over Daughter Isabella, 20, at 2026 CFDA Awards: ‘She’s a Wonderful Young Woman’ (Exclusive)",
-     "url": "https://people.com/matt-damon-and-his-daughter-share-how-they-give-each-other-advice-while-attending-the-2026-cfdas-together-exclusive-12208538",
-     "source": "People.com"
-    },
-    {
-     "title": "Matt Damon's daughter Isabella, 20, dazzles in silver gown beside her famous dad",
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/matt-damons-daughter-isabella-20-021321033.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "Matt Damon and His Modeling Star Daughter Isabella, 20, Are the Ultimate Red Carpet Duo",
-     "url": "https://parade.com/news/matt-damon-modeling-star-daughter-isabella-20ultimate-red-carpet-duo",
-     "source": "Parade Magazine"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 20.2,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/matt-damons-daughter-isabella-20-021321033.html",
-     "title": "Matt Damon's daughter Isabella, 20, dazzles in silver gown beside her famous dad",
-     "outlet": "Yahoo"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "maria timofeeva",
-   "traffic": 2000,
-   "published": "2026-11-03T16:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "November 4, 2026: Claire Liu vs Katie Boulter: Set 2 Winner Tennis Prediction Market",
-     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/claire-liu-vs-katie-boulter-set-2-winner-nov-04-2026/",
-     "source": "Robinhood"
-    },
-    {
-     "title": "November 3, 2026: Maaya Rajeshwaran Revathi vs Katarzyna Kawa: Set 2 Winner Tennis Prediction Market",
-     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/maaya-rajeshwaran-revathi-vs-katarzyna-kawa-set-2-winner-nov-03-2026/",
-     "source": "Robinhood"
-    },
-    {
-     "title": "November 3, 2026: Talia Gibson vs Oleksandra Oliynykova: Set 1 Winner Tennis Prediction Market",
-     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/talia-gibson-vs-oleksandra-oliynykova-set-1-winner-nov-03-2026/",
-     "source": "Robinhood"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/claire-liu-vs-katie-boulter-set-2-winner-nov-04-2026/",
-     "title": "November 4, 2026: Claire Liu vs Katie Boulter: Set 2 Winner Tennis Prediction Market",
-     "outlet": "Robinhood"
-    },
-    {
-     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/maaya-rajeshwaran-revathi-vs-katarzyna-kawa-set-2-winner-nov-03-2026/",
-     "title": "November 3, 2026: Maaya Rajeshwaran Revathi vs Katarzyna Kawa: Set 2 Winner Tennis Prediction Market",
-     "outlet": "Robinhood"
-    },
-    {
-     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/talia-gibson-vs-oleksandra-oliynykova-set-1-winner-nov-03-2026/",
-     "title": "November 3, 2026: Talia Gibson vs Oleksandra Oliynykova: Set 1 Winner Tennis Prediction Market",
-     "outlet": "Robinhood"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "FAFSA",
    "traffic": 0,
-   "article_count_24h": 5,
+   "article_count_24h": 6,
    "article_count_1h": 0,
    "published": "2026-11-03T10:33:54+09:00",
    "category": "Student Aid",
@@ -1258,6 +1085,11 @@
      "title": "LMC seeking partners to help more Benton Harbor students complete FAFASs - News/Talk/Sports 94.9 WSJM",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmFBcVhLNl8yak13aWpvNkpPTl9QV0czajlIV2Zqa0RNVmRoTGVuM0F6Q1F2X2xvSGZ3MndXeGdkMmVzcVBVcDZuX0I0YmRIQUR2eEhZUTd6eE0ydFJmdFYzZDZZWkNmNkRSVjNVUnBqSEZsTHc3RmF5ZlFYaGdERlFVQzJNYTd6VDBPV25LU2FQaFBzNE5vbmpVb3lHaHlnZzBjU01jZw?oc=5",
      "source": "News/Talk/Sports 94.9 WSJM"
+    },
+    {
+     "title": "Polis releases his final budget, but the election will almost certainly change his education funding proposal - Chalkbeat",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLU1ST2ZhVkVkVjFxQVZoV0NFOVdUYmRkVDZHb19zMVBmbVlLcFVjYkh0b3Nic3BKdVFNa3pOV0ZNQTBKOHhuc21Jdl8wbUZ4OGMzcll0M2JGSGVJcW1QcUlvVXFQc1hHYmV6Q21FWktwdWxNU0FfUnppakZ6LTZFWkNYVGV4MWRpUldROE56V3NUN0VOdWd3X3VvbmRaME1TQ0k2OQ?oc=5",
+     "source": "Chalkbeat"
     },
     {
      "title": "Wynne High School hosting Financial Aid Night tonight - Wynne Progress",
@@ -1273,16 +1105,298 @@
      "title": "Wynne High School hosting Financial Aid Night tonight - cedarnews.net",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVElrazFYcXYyMXJIc2NjSEtMalpudTVUTzQzVnNLOU9ZVGtrMzUwX2Jkc2lkbXVMc09lS3c1Q01lMzNNMTJfcjlVLVJ0N1RQMXJ0bXE2M3pJX1MwU1lDZTlRUUFYSXAybHZGakZUNkxoSGh1dWc3blQ3YXhfNS1FTXR3VVVEMkpCRDlrX3F2NA?oc=5",
      "source": "cedarnews.net"
-    },
-    {
-     "title": "“Catch me if you can”: Millionaire forex trader dares Interpol and Trump - Yen News",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS0ZVNmtCTHo4YVFfdUZNMk1Kek5HaXJKWkxNOWxWdHBLWWdub1ZmVy03dW02VEhETkNXRVB0dkJQcWZPRExrS0JnOEJ1VnpFOEhsUzJJWnJGSGlUN1RoRk5uNFZIMm9RZ1NEMW5pQUo3WDV4dTkwcUoyXzk4bGI1RUdfVURfUVB6U2wwblhMRVRyQ0tUV00ycHFBNA?oc=5",
-     "source": "Yen News"
     }
    ],
    "official": false,
-   "score": 14.7,
+   "score": 17.6,
    "already_covered": true
+  },
+  {
+   "source": "google_trends",
+   "keyword": "maya joint",
+   "traffic": 2000,
+   "published": "2026-11-03T17:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "November 4, 2026: Claire Liu vs Katie Boulter: Set 2 Winner Tennis Prediction Market",
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/claire-liu-vs-katie-boulter-set-2-winner-nov-04-2026/",
+     "source": "Robinhood"
+    },
+    {
+     "title": "November 3, 2026: Andrey Rublev vs Tomas Martin Etcheverry: Total Games Tennis Prediction Market",
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/andrey-rublev-vs-tomas-martin-etcheverry-total-games-nov-03-2026/",
+     "source": "Robinhood"
+    },
+    {
+     "title": "November 3, 2026: Novak Djokovic vs Valentin Vacherot: Set 1 Winner Tennis Prediction Market",
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/novak-djokovic-vs-valentin-vacherot-set-1-winner-nov-03-2026/",
+     "source": "Robinhood"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/claire-liu-vs-katie-boulter-set-2-winner-nov-04-2026/",
+     "title": "November 4, 2026: Claire Liu vs Katie Boulter: Set 2 Winner Tennis Prediction Market",
+     "outlet": "Robinhood"
+    },
+    {
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/andrey-rublev-vs-tomas-martin-etcheverry-total-games-nov-03-2026/",
+     "title": "November 3, 2026: Andrey Rublev vs Tomas Martin Etcheverry: Total Games Tennis Prediction Market",
+     "outlet": "Robinhood"
+    },
+    {
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/novak-djokovic-vs-valentin-vacherot-set-1-winner-nov-03-2026/",
+     "title": "November 3, 2026: Novak Djokovic vs Valentin Vacherot: Set 1 Winner Tennis Prediction Market",
+     "outlet": "Robinhood"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "ca lottery",
+   "traffic": 200,
+   "published": "2026-11-03T16:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "California Lottery Powerball, Daily 3 Midday winning numbers for Nov. 2, 2026",
+     "url": "https://www.desertsun.com/story/news/local/2026/11/02/california-lottery-results-monday-november-2-2026/92580771007/",
+     "source": "The Desert Sun"
+    },
+    {
+     "title": "California Lottery Daily 3 Midday, Daily Derby winning numbers for Nov. 1, 2026",
+     "url": "https://www.desertsun.com/story/news/local/2026/11/01/california-lottery-results-sunday-november-1-2026/92559462007/",
+     "source": "The Desert Sun"
+    },
+    {
+     "title": "California Lottery Daily 3 Midday, Daily Derby winning numbers for Oct. 29, 2026",
+     "url": "https://www.desertsun.com/story/news/local/2026/10/29/california-lottery-results-thursday-october-29-2026/92510651007/",
+     "source": "The Desert Sun"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 100→200",
+   "spike_bonus": 20,
+   "score": 12.6,
+   "already_covered": false,
+   "evidence": []
+  },
+  {
+   "source": "google_trends",
+   "keyword": "中期选举",
+   "traffic": 200,
+   "published": "2026-11-03T16:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "一文读懂美国中期选举：两党各持何种立场，选情如何",
+     "url": "https://cn.nytimes.com/usa/20261103/midterms-election-2026-senate-house-congress/",
+     "source": "纽约时报中文网"
+    },
+    {
+     "title": "美国中期选举今日投票，民调：民主党参议院候选人在七个关键州领先",
+     "url": "https://news.ifeng.com/c/8xkM97nXIi9",
+     "source": "凤凰网"
+    },
+    {
+     "title": "燃油成本成为中期选战焦点 伊朗战争如何影响美国选民的最后抉择？",
+     "url": "https://www.voachinese.com/a/from-a-foreign-war-to-household-bills-how-iran-enters-america-s-midterm-elections-20261102/8217784.html",
+     "source": "美国之音"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 100→200",
+   "spike_bonus": 20,
+   "score": 12.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://cn.nytimes.com/usa/20261103/midterms-election-2026-senate-house-congress/",
+     "title": "一文读懂美国中期选举：两党各持何种立场，选情如何",
+     "outlet": "纽约时报中文网"
+    },
+    {
+     "url": "https://news.ifeng.com/c/8xkM97nXIi9",
+     "title": "美国中期选举今日投票，民调：民主党参议院候选人在七个关键州领先",
+     "outlet": "凤凰网"
+    },
+    {
+     "url": "https://www.voachinese.com/a/from-a-foreign-war-to-household-bills-how-iran-enters-america-s-midterm-elections-20261102/8217784.html",
+     "title": "燃油成本成为中期选战焦点 伊朗战争如何影响美国选民的最后抉择？",
+     "outlet": "美国之音"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "jeline vandromme",
+   "traffic": 500,
+   "published": "2026-11-03T17:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "November 4, 2026: Gibson vs Sasnovich Tennis Prediction Market",
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/gibson-vs-sasnovich-nov-04-2026/",
+     "source": "Robinhood"
+    },
+    {
+     "title": "November 3, 2026: Grenier vs Moeller Tennis Prediction Market",
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/grenier-vs-moeller-nov-03-2026/",
+     "source": "Robinhood"
+    },
+    {
+     "title": "November 3, 2026: Caniato vs Giustino Tennis Prediction Market",
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/caniato-vs-giustino-nov-03-2026/",
+     "source": "Robinhood"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/gibson-vs-sasnovich-nov-04-2026/",
+     "title": "November 4, 2026: Gibson vs Sasnovich Tennis Prediction Market",
+     "outlet": "Robinhood"
+    },
+    {
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/grenier-vs-moeller-nov-03-2026/",
+     "title": "November 3, 2026: Grenier vs Moeller Tennis Prediction Market",
+     "outlet": "Robinhood"
+    },
+    {
+     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/caniato-vs-giustino-nov-03-2026/",
+     "title": "November 3, 2026: Caniato vs Giustino Tennis Prediction Market",
+     "outlet": "Robinhood"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "laura bozzo",
+   "traffic": 500,
+   "published": "2026-11-03T17:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Hija de Laura Bozzo revela que su madre tenía solo un 10 % de posibilidades de sobrevivir tras emergencia médica",
+     "url": "https://www.elnuevodia.com/entretenimiento/farandula/notas/hija-de-laura-bozzo-revela-que-su-madre-tenia-solo-un-10-de-posibilidades-de-sobrevivir-tras-emergencia-medica/",
+     "source": "El Nuevo Día"
+    },
+    {
+     "title": "Laura Bozzo continúa internada, en habitación privada y siendo vigilada: “Es un milagro que siga viva”",
+     "url": "https://www.infobae.com/peru/2026/11/01/laura-bozzo-continua-internada-en-habitacion-privada-y-siendo-vigilada-es-un-milagro-que-siga-viva/",
+     "source": "Infobae"
+    },
+    {
+     "title": "Asistente de #LauraBozzo DESMIENTE CATEGÓRICAMENTE el fallecimiento de la conductora",
+     "url": "https://www.univision.com/shows/hoy/asistente-de-laurabozzo-desmiente-categoricamente-el-fallecimiento-de-la-conductora-video-vertical",
+     "source": "Univision"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.elnuevodia.com/entretenimiento/farandula/notas/hija-de-laura-bozzo-revela-que-su-madre-tenia-solo-un-10-de-posibilidades-de-sobrevivir-tras-emergencia-medica/",
+     "title": "Hija de Laura Bozzo revela que su madre tenía solo un 10 % de posibilidades de sobrevivir tras emergencia médica",
+     "outlet": "El Nuevo Día"
+    },
+    {
+     "url": "https://www.infobae.com/peru/2026/11/01/laura-bozzo-continua-internada-en-habitacion-privada-y-siendo-vigilada-es-un-milagro-que-siga-viva/",
+     "title": "Laura Bozzo continúa internada, en habitación privada y siendo vigilada: “Es un milagro que siga viva”",
+     "outlet": "Infobae"
+    },
+    {
+     "url": "https://www.univision.com/shows/hoy/asistente-de-laurabozzo-desmiente-categoricamente-el-fallecimiento-de-la-conductora-video-vertical",
+     "title": "Asistente de #LauraBozzo DESMIENTE CATEGÓRICAMENTE el fallecimiento de la conductora",
+     "outlet": "Univision"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "keith lee",
+   "traffic": 100,
+   "published": "2026-11-03T17:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "2 Chainz Talks to Keith Lee About Bad Review He Gave His Restaurant, Celebrity Special Treatment",
+     "url": "https://www.complex.com/pop-culture/a/markelibert/2-chainz-keith-lee-restaurant-review-debate",
+     "source": "Complex"
+    },
+    {
+     "title": "2 Chainz Defends Celebrity Perks – Keith Lee Stands Up for Regular Customers | WATCH the Debate",
+     "url": "https://eurweb.com/?p=1182315",
+     "source": "EURweb"
+    },
+    {
+     "title": "2 Chainz Appears To Respond To Keith Lee Debate With Questions About The Illuminati",
+     "url": "https://www.hotnewhiphop.com/1015371-2-chainz-keith-lee-response-illuminati",
+     "source": "HotNewHipHop"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.complex.com/pop-culture/a/markelibert/2-chainz-keith-lee-restaurant-review-debate",
+     "title": "2 Chainz Talks to Keith Lee About Bad Review He Gave His Restaurant, Celebrity Special Treatment",
+     "outlet": "Complex"
+    },
+    {
+     "url": "https://eurweb.com/2-chainz-keith-lee/",
+     "title": "2 Chainz Defends Celebrity Perks – Keith Lee Stands Up for Regular Customers | WATCH the Debate",
+     "outlet": "EURweb"
+    },
+    {
+     "url": "https://www.hotnewhiphop.com/1015371-2-chainz-keith-lee-response-illuminati",
+     "title": "2 Chainz Appears To Respond To Keith Lee Debate With Questions About The Illuminati",
+     "outlet": "HotNewHipHop"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "maria timofeeva",
+   "traffic": 200,
+   "published": "2026-11-03T16:50:00+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Sports News, Transfers, Scores | Watch Live Sport",
+     "url": "https://www.skysports.com/tennis/watch/6468795692364360112/prudential-hong-kong-tennis-open-2026",
+     "source": "Sky Sports"
+    },
+    {
+     "title": "WTA Hong Kong Day 2 Predictions Including Sorana Cirstea vs Maria Timofeeva",
+     "url": "https://lastwordonsports.com/tennis/2026/11/02/wta-hong-kong-day-2-predictions-cirstea-timofeeva/",
+     "source": "Last Word On Sports"
+    },
+    {
+     "title": "Sorana Cirstea vs. Maria Timofeeva prediction, odds, picks for WTA Hong Kong Open 2026",
+     "url": "https://www.dimers.com/tennis/news/sorana-cirstea-vs-maria-timofeeva-tennis-prediction-wta-hong-kong-open-2026-ac",
+     "source": "Dimers"
+    }
+   ],
+   "official": false,
+   "score": 1.5,
+   "already_covered": false
   },
   {
    "source": "google_trends",
@@ -1308,107 +1422,30 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
-     "title": "World of Warcraft: Forever Goes Live Globally November 4!",
-     "outlet": "Blizzard News"
-    },
-    {
-     "url": "https://www.ign.com/articles/world-of-warcraft-forever-preload-and-global-release-times-confirmed",
-     "title": "Here's When You Can Play World of Warcraft Forever in Your Time Zone",
-     "outlet": "IGN"
-    },
-    {
-     "url": "https://www.pcgamer.com/games/world-of-warcraft/im-glad-that-wow-foreverll-have-a-slower-lo-fi-update-schedule-because-im-not-playing-this-thing-to-be-in-a-rush/",
-     "title": "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush",
-     "outlet": "PC Gamer"
-    }
-   ]
+   "score": 1.5,
+   "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "ca lottery",
+   "keyword": "gta6 release date",
    "traffic": 100,
    "published": "2026-11-03T16:40:00+09:00",
-   "category": "기타",
+   "category": "Taxes",
    "news": [
     {
-     "title": "California Lottery Powerball, Daily 3 Midday winning numbers for Nov. 2, 2026",
-     "url": "https://www.desertsun.com/story/news/local/2026/11/02/california-lottery-results-monday-november-2-2026/92580771007/",
-     "source": "The Desert Sun"
+     "title": "First Look at the Travis Scott x Rockstar Games x Nike Air Force 1 Low \"Grand Theft Auto\" in Black",
+     "url": "https://hypebeast.com/2026/11/travis-scott-cactus-jack-rockstar-games-nike-air-force-1-low-grand-theft-auto-6-black-first-look",
+     "source": "Hypebeast"
     },
     {
-     "title": "California Lottery Daily 3 Midday, Daily Derby winning numbers for Nov. 1, 2026",
-     "url": "https://www.desertsun.com/story/news/local/2026/11/01/california-lottery-results-sunday-november-1-2026/92559462007/",
-     "source": "The Desert Sun"
+     "title": "Travis Scott’s Cactus Jack x Rockstar Games x Nike Air Force 1 Low GTA 6 Pack Releases November 2026",
+     "url": "https://www.soleretriever.com/news/articles/travis-scott-cactus-jack-rockstar-games-nike-air-force-1-low-gta-6-pack-release-date-november-2026",
+     "source": "Sole Retriever"
     },
     {
-     "title": "California Lottery Daily 3 Midday, Daily Derby winning numbers for Oct. 29, 2026",
-     "url": "https://www.desertsun.com/story/news/local/2026/10/29/california-lottery-results-thursday-october-29-2026/92510651007/",
-     "source": "The Desert Sun"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "barcelona vs aston villa",
-   "traffic": 100,
-   "published": "2026-11-03T16:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Jamie Carragher predicts 18-game Barcelona run to come to an end vs Aston Villa",
-     "url": "https://sports.yahoo.com/articles/jamie-carragher-predicts-18-game-070000369.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Aston Villa Football Club - The Official Club Website",
-     "url": "https://www.avfc.co.uk/news/2026/november/02/prematch-unai-emery-pre-barcelona/",
-     "source": "Aston Villa"
-    },
-    {
-     "title": "Barcelona vs Aston Villa: UEFA Champions League stats & head-to-head",
-     "url": "https://www.bbc.com/sport/football/live/c6gr8p0x118dt",
-     "source": "BBC"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "disneyland paris ride closing 2027",
-   "traffic": 100,
-   "published": "2026-11-03T16:10:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Beloved Disney ride to close after 33 years",
-     "url": "https://www.thestreet.com/retail/disneyland-paris-ride-to-close-after-33-years",
-     "source": "TheStreet"
-    },
-    {
-     "title": "Disneyland’s Autopia Ride Will Switch to Electric Vehicles",
-     "url": "https://www.nytimes.com/2026/11/02/climate/disneyland-autopia-gas-electric.html",
-     "source": "The New York Times"
-    },
-    {
-     "title": "Disneyland to electrify Autopia track on classic 1955 ride, report says",
-     "url": "https://www.ocregister.com/2026/11/02/disneyland-to-electrify-autopia-track-on-classic-1955-ride-report-says/",
-     "source": "Orange County Register"
+     "title": "Travis Scott’s GTA 6 Air Force 1 Low Gets Its First Look",
+     "url": "https://www.hotnewhiphop.com/1015421-travis-scott-x-rockstar-games-x-nike-air-force-1-low-sneaker-news",
+     "source": "HotNewHipHop"
     }
    ],
    "official": false,
@@ -1417,83 +1454,29 @@
   },
   {
    "source": "google_trends",
-   "keyword": "sadie sink",
-   "traffic": 200,
-   "published": "2026-11-03T16:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Sadie Sink Chooses Perfect Follow-Up Movie to 'Spider-Man: Brand New Day'",
-     "url": "https://thedirect.com/article/spider-man-brand-new-day-sadie-sink-follow-up-movie",
-     "source": "The Direct"
-    },
-    {
-     "title": "Ben Wang Circling Iceman Role In Marvel’s ‘X-Men’",
-     "url": "https://deadline.com/2026/11/ben-wang-circling-iceman-role-x-men-1237211516/",
-     "source": "Deadline"
-    },
-    {
-     "title": "‘X-Men’: ‘Hunger Games’ Actor Ben Wang Circling Iceman Role in Marvel’s Reboot",
-     "url": "https://variety.com/2026/film/news/x-men-hunger-games-ben-wang-iceman-marvel-reboot-1236937787/",
-     "source": "Variety"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "中期选举",
+   "keyword": "matt damon",
    "traffic": 100,
-   "published": "2026-11-03T16:20:00+09:00",
-   "category": "기타",
+   "published": "2026-11-03T16:40:00+09:00",
+   "category": "Recalls",
    "news": [
     {
-     "title": "一文读懂美国中期选举：两党各持何种立场，选情如何",
-     "url": "https://cn.nytimes.com/usa/20261103/midterms-election-2026-senate-house-congress/",
-     "source": "纽约时报中文网"
+     "title": "Matt Damon Gushes Over Daughter Isabella, 20, at 2026 CFDA Awards: ‘She’s a Wonderful Young Woman’ (Exclusive)",
+     "url": "https://people.com/matt-damon-and-his-daughter-share-how-they-give-each-other-advice-while-attending-the-2026-cfdas-together-exclusive-12208538",
+     "source": "People.com"
     },
     {
-     "title": "美国中选“最可能剧本”，将是美股“最危险剧本”？",
-     "url": "https://wallstreetcn.com/articles/3785069",
-     "source": "华尔街见闻"
+     "title": "Matt Damon's daughter Isabella, 20, dazzles in silver gown beside her famous dad",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/matt-damons-daughter-isabella-20-021321033.html",
+     "source": "Yahoo"
     },
     {
-     "title": "美国中期选举今日投票，民调：民主党参议院候选人在七个关键州领先",
-     "url": "https://news.ifeng.com/c/8xkM97nXIi9",
-     "source": "凤凰网"
+     "title": "Matt Damon and His Modeling Star Daughter Isabella, 20, Are the Ultimate Red Carpet Duo",
+     "url": "https://parade.com/news/matt-damon-modeling-star-daughter-isabella-20ultimate-red-carpet-duo",
+     "source": "Parade Magazine"
     }
    ],
    "official": false,
-   "score": 0.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "seattle basketball",
-   "traffic": 100,
-   "published": "2026-11-03T16:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Lobos Drop Season Opener to Seattle - New Mexico Lobos - Official Athletics Website",
-     "url": "https://golobos.com/news/2026/11/2/lobos-drop-season-opener-to-seattle",
-     "source": "New Mexico Lobos"
-    },
-    {
-     "title": "UNM women’s basketball falls short in Amy Eagan debut",
-     "url": "https://www.krqe.com/news/community/unm-womens-basketball-falls-short-in-amy-eagan-debut/",
-     "source": "KRQE"
-    },
-    {
-     "title": "Seattle U vs. New Mexico TV & Stream – Nov. 2",
-     "url": "https://933kjr.iheart.com/content/2026-11-02-seattle-u-vs-new-mexico-tv-stream-nov-2/",
-     "source": "Sports Radio 93.3 KJR"
-    }
-   ],
-   "official": false,
-   "score": 0.3,
+   "score": 0.7,
    "already_covered": false
   }
  ]
