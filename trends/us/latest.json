@@ -1,40 +1,88 @@
 {
- "generated_at": "2026-11-04T20:11:28.654803+09:00",
+ "generated_at": "2026-11-04T20:38:12.600666+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 80, 실패 25)"
+  "evidence": "ok (저장 79, 실패 25)"
  },
  "compared_runs": 4,
  "spikes": [
-  "social security payment",
-  "SNAP benefits",
-  "tax deadline",
-  "oakland county election results",
-  "guilford county election results",
-  "callie barr",
-  "john frieda",
-  "harford county election results",
-  "dutchess county election results",
-  "wavy 10",
-  "dewanna bonner wnba finals reaction",
-  "arthur rinderknech",
-  "el niño"
+  "product recall",
+  "monmouth county election results",
+  "maine election results governor",
+  "south carolina election results 2026",
+  "baltimore county election results",
+  "anne arundel county election results",
+  "pickerington school levy",
+  "monroe county election results",
+  "volusia county election results",
+  "summit county election results",
+  "kane county election results"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-04T20:38:12.641372+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -3,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-04T20:38:12.641402+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -3,
+   "in_window": true
+  },
   {
    "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
    "article_count_24h": 59,
-   "article_count_1h": 20,
-   "published": "2026-11-04T19:19:30+09:00",
+   "article_count_1h": 15,
+   "published": "2026-11-04T20:00:00+09:00",
    "category": "Benefits",
    "news": [
     {
+     "title": "Millions of Social Security payments hit accounts early next week - Cleveland.com",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd3h5cmxwX0VJaG55N0FXVWNINlhocWQ5VTlpczdKMW12ekU1WFFqdlYzbzA4UDNSSldnZVZycFlKRWN6V0FSUktyLXFjdTJyR20zTWFLbmhFZVNXeDBxYnFZSUVRTVdVelhwejdLbmhndzFDRk9xc3RoZkZ6SlVWUU9aZFF6ZjhHTW5CcnBDX3U2TDZxMEN4SzZTTUQzdFdhMjJUVl82c3hCRDlpYkHSAcIBQVVfeXFMTUFNWXBFQzBUVGFxV0l6SWdfZm5fWDlhX2E1clRUZmRyckw3YU5iQUo2aEFteVl1d1hOX1pBTDV4ME9YV29QeDhKNnowOFF0b1pmMXJtNHNSQi1DeDFqV25XMENxLWFtU1NkUTRKSGI5Wm1XYU9NRDZaMUd3TGR1WkRXdFlFbWZPUjZjS2E3LTFnSkRoaWxUUkxxd3hQckdDTi1KOHljQXJRMmU3enNoU0hucW9MeWhnOWtUU3ItdDQ2S1E?oc=5",
+     "source": "Cleveland.com"
+    },
+    {
      "title": "Social Security benefits are paid out on Tuesday, November 10: who gets a check? - Diario AS",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQVhheVhFenBfaXZLdEdXeEhORmR5UlphYlB2UlM1d3A4YVFFSFlWZU51QmEzU0xaS25QMzdzWWwxUjZfRDhDNEZJXzlGWnpJTlZqS0Z5LWtQT2JzMmlKbVdfOXgwRUZ5M0tJdUx2Y0pWMk9xNzg5amQ5M3c5V1FWbmdPY2llNTBEVEJqbU5NZ2xaY2JkcUI2dTJUYlZPdFJpS0s4VFBfUktMNUVmMk1vQk1IZnRzUXo4YVHSAc4BQVVfeXFMTnQtSjN5VkhyT0p5bWFDRXNtLXRjb1cxWVZaSl8yT18wME1aSk10S254YWR6czMydGhfYXZ1WndxdlRuY1c1ckRub0k0X3FfYlprQXNwZVpiQm1McmhEc2NrOVRnS0xpUms2SEpfUXdQV1paODhZN3JrVXF0YVlVRXIyQXctQWFqNVdLelJ1ZVVXNzV0eTBFYThwRVowUTBKNlVXWWZKSEhvYmlRT1YtTzl6TmtQRHFTZUk2dktCSEUyME5wcHA0cDdmSnU5X0E?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdC1KM3lWSHJPSnltYUNFc20tdGNvVzFZVlpKXzJPXzAwTVpKTXRLbnhhZHpzMzJ0aF9hdnVad3F2VG5jVzVyRG5vSTRfcV9iWmtBc3BlWmJCbUxyaERzY2s5VGdLTGlSazZISl9Rd1BXWlo4OFk3cmtVcXRhWVVFcjJBdy1BYWo1V0t6UnVlVVc3NXR5MEVhOHBFWjBRMEo2VVdZZkpISG9iaVFPVi1POXpOa1BEcVNlSTZ2S0JIRTIwTnBwcDRwN2ZKdTlfQdIBzgFBVV95cUxOdC1KM3lWSHJPSnltYUNFc20tdGNvVzFZVlpKXzJPXzAwTVpKTXRLbnhhZHpzMzJ0aF9hdnVad3F2VG5jVzVyRG5vSTRfcV9iWmtBc3BlWmJCbUxyaERzY2s5VGdLTGlSazZISl9Rd1BXWlo4OFk3cmtVcXRhWVVFcjJBdy1BYWo1V0t6UnVlVVc3NXR5MEVhOHBFWjBRMEo2VVdZZkpISG9iaVFPVi1POXpOa1BEcVNlSTZ2S0JIRTIwTnBwcDRwN2ZKdTlfQQ?oc=5",
      "source": "Diario AS"
     },
     {
@@ -48,24 +96,17 @@
      "source": "Yahoo Finance"
     },
     {
-     "title": "Millions of Social Security payments hit accounts early next week - Cleveland.com",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd3h5cmxwX0VJaG55N0FXVWNINlhocWQ5VTlpczdKMW12ekU1WFFqdlYzbzA4UDNSSldnZVZycFlKRWN6V0FSUktyLXFjdTJyR20zTWFLbmhFZVNXeDBxYnFZSUVRTVdVelhwejdLbmhndzFDRk9xc3RoZkZ6SlVWUU9aZFF6ZjhHTW5CcnBDX3U2TDZxMEN4SzZTTUQzdFdhMjJUVl82c3hCRDlpYkHSAcIBQVVfeXFMTUFNWXBFQzBUVGFxV0l6SWdfZm5fWDlhX2E1clRUZmRyckw3YU5iQUo2aEFteVl1d1hOX1pBTDV4ME9YV29QeDhKNnowOFF0b1pmMXJtNHNSQi1DeDFqV25XMENxLWFtU1NkUTRKSGI5Wm1XYU9NRDZaMUd3TGR1WkRXdFlFbWZPUjZjS2E3LTFnSkRoaWxUUkxxd3hQckdDTi1KOHljQXJRMmU3enNoU0hucW9MeWhnOWtUU3ItdDQ2S1E?oc=5",
-     "source": "Cleveland.com"
-    },
-    {
      "title": "What current, future retirees should know about potential Social Security shortfall - ABC News - Breaking News, Latest News and Videos",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOEIwLWM3d2VVZnJmd2VqOG9KVnpSaVdkY0NXbzhDc1lIVFdaSzBCZFBuLW9ad0ptcHBQblBNS1RteW1FelRDX2NfRFNsZG82N2NvN0w5eVZKd3RGcHQtc3hQTS1XT1VKZHctVkFsOEY4T0hxTFdxeVRSSlRzNU45Y1QzbHdMZGtpWWgwZUJLcFU2OWRSOXY4ZmEwOV9tRXJacXpEU2tFdEc2dk3SAbABQVVfeXFMTWhOaGNJb2MwWmVCRjJVRUxaQ29lZzdkN3Q3eklZSEt2MHpwTFgzRVRWOG5jelo1QzA0TlRfU2xUOV9nWlpHVk9pck9EcHc5cFdMc29peFJweVdCY2xuWmdfV3lFM0JPd1M1cTBtcG95S2RFd0tBVE9WSjV6RG9STDBoTk84enEyNF9meEotekRVU2RJVVRqSW5ZVzczZU1GcUhXbFNiS3g3QUlIYTF0MFQ?oc=5",
      "source": "ABC News - Breaking News, Latest News and Videos"
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 8.0→20건 (2.3배)",
-   "spike_bonus": 23.3,
-   "score": 117.3,
+   "score": 80.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://en.as.com/latest_news/social-security-benefits-are-paid-out-on-tuesday-november-10-who-gets-a-check-f202611-n/",
+     "url": "https://en.as.com/latest_news/social-security-benefits-are-paid-out-on-tuesday-november-10-who-gets-a-check-f202611-n/?outputType=amp",
      "title": "Social Security benefits are paid out on Tuesday, November 10: who gets a check? - Diario AS",
      "outlet": "Diario AS"
     },
@@ -90,7 +131,7 @@
    "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 57,
+   "article_count_24h": 51,
    "article_count_1h": 5,
    "published": "2026-11-04T17:06:44+09:00",
    "category": "Benefits",
@@ -122,9 +163,7 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 2.0→5건 (2.0배)",
-   "spike_bonus": 20.0,
-   "score": 112.0,
+   "score": 80.0,
    "already_covered": false,
    "evidence": [
     {
@@ -150,120 +189,19 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-04T20:11:28.692945+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -3,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-04T20:11:28.692973+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -3,
-   "in_window": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "social security COLA",
-   "traffic": 0,
-   "article_count_24h": 56,
-   "article_count_1h": 7,
-   "published": "2026-11-04T19:06:12+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Social Security COLA history: 10 of the biggest raises - qz.com",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sbWFmWDlkS0w5UGVrNVZ2UHdPcktZTkFkUC1wWElKelNlaXQ1VERNNXdwNEp6bXV5aHBDbVNmaTJCSm5mcnhhQ2ctV2UzTDJaTUo5MGZsdUt3WHFfNXY3czZ4TXplNGtJVGc?oc=5",
-     "source": "qz.com"
-    },
-    {
-     "title": "Social Security’s Biggest Pay Raise in 4 Years Is Here - But There’s a Catch - FinanceBuzz",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5laWdzWGI2Y3ZIM0dVdE1mQ205LXBVdlhiZ2p4Z2I0eVV6T1VQZTdLS2tUT0tHamNmeGZDOVJUYndZOUN0M1V4UTlEaDlIbDNGQVlwdE1RWXBGTlJvallTRWt3dC16RjgweVpIRVpGd1VtcnBO?oc=5",
-     "source": "FinanceBuzz"
-    },
-    {
-     "title": "What to know about the Social Security fix proposed by Sens. Elizabeth Warren and Bernie Moreno - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTzhPSndjb0dyRDVpN254X2JRRlZtMm1veGw1TTNIN0ZsQS1qZWx5X0NfTExrbmhvbE45em5Sc19lTUFELXFyQVZwN3E1Y1pfcVVzcGJHX0d4NG9TVVR6eXdTUF9fRUw2WmVqUklyZm4wVzhmaXp5TnVSVUNXT2lKLXA3VWNpdVdHUmx0Y29iVXA3QVYxWlMyT2l2WTdtR3VaZWowWmczUTjSAa4BQVVfeXFMTzc2cXQyalI2elo0cTRvZF9sMXlmcnZNaW9HQkUwaERybTd5eVNwcS1POGNlcWM4b1NEU3pwUG5BSmpGY0RkQnJiS21CTEsyNVJyUVJ3SVNYMm5tajRDWVB6VktHV1dLX2hyOHlmemtWV1FLVjZrcWJZM3VQd01JOHlKbnJHRUh4aERCWmNjOGpVSGU0RVUxVU9FdVQ2Zi1KSHVNYkhvZHpORVNZeXJR?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "title": "Social Security’s November 18 Deadline: How to Get Your 2027 COLA Notice Early - https://capitolskyline.com/",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41OHdhS2FXTkhYeU5UV01KdW9VUVJrLVp1MGxDazVBVU51a3gyLVJBd09uUGdlR3Q2SnlSelpoallDa05iQlBIMEtQS19wbDgtLThPM1VRYkVsa1FjajdabDFJUFhJVVhQa3RucWViZ1d3c2swMDZYcFBLWTU?oc=5",
-     "source": "https://capitolskyline.com/"
-    },
-    {
-     "title": "Social Security COLA, tax break could narrow spending gap for older consumers in 2027 - HousingWire",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX2dGMHVuaHowMjJHQlZMUVFvU0JnS1VQQncwOUJ6UV9YMFQ2dDVvQThJdmswbWlBUFBhVDhkalZkcGhuc3dWYU5NcUFKempzaG5Xcm90bm5HZlVnUGlHeEZtX0JHS2ZkMVlkZURuYldSTXhNOXlNbGRpbmFuQ3RJZ0Z4a2tVQ2luOXZJcUh6Vm1qdw?oc=5",
-     "source": "HousingWire"
-    }
-   ],
-   "official": false,
-   "score": 80.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://qz.com/social-security-cola-history-biggest-raises",
-     "title": "Social Security COLA history: 10 of the biggest raises - qz.com",
-     "outlet": "qz.com"
-    },
-    {
-     "url": "https://financebuzz.com/social-securitys-biggest-pay-raise-catch-2",
-     "title": "Social Security’s Biggest Pay Raise in 4 Years Is Here - But There’s a Catch - FinanceBuzz",
-     "outlet": "FinanceBuzz"
-    },
-    {
-     "url": "https://abcnews.com/Politics/social-security-fix-proposed-sens-elizabeth-warren-bernie/story?id=134253518",
-     "title": "What to know about the Social Security fix proposed by Sens. Elizabeth Warren and Bernie Moreno - ABC News - Breaking News, Latest News and Videos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "url": "https://capitolskyline.com/social-security-cola-notice-november-18-2026/",
-     "title": "Social Security’s November 18 Deadline: How to Get Your 2027 COLA Notice Early - https://capitolskyline.com/",
-     "outlet": "https://capitolskyline.com/"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "IRS refund",
    "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 5,
-   "published": "2026-11-04T16:21:57+09:00",
+   "article_count_24h": 54,
+   "article_count_1h": 9,
+   "published": "2026-11-04T17:15:00+09:00",
    "category": "Taxes",
    "news": [
+    {
+     "title": "IRS Transcript Codes And WMR Reference Codes List For 2027 - The College Investor",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlQ0g4T2l3NHVSVkJ5OUVpZE9Ua0pOaFdlWEFSVmtVV2FZaklqUzNKTEZzVlp6enprbVVIS0xZSGdQTlYxM2tGVUZVd2paUHBVQk9RNFJpYXFJUkY1MVYyTS1jRmpOeUh2cy16Tw?oc=5",
+     "source": "The College Investor"
+    },
     {
      "title": "Trump administration begins mailing out $500 ACA refund checks. Here's what to know - ABC News - Breaking News, Latest News and Videos",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa0IwMm5kT1pySXR5LWRKSGRHRGhxenNyX0NKR0ROeURQQ20zQmhYckxQN2ZjcjVfVURGdGRnZWJtMFIwdmVmTE5FUlJFLThsQnFfTUFoZkw0N2g0OUFKZUFCYmt2RFlPNkxrT3V3aC0yMXZSV1M4aUhmbUFhSDlGS1VUdVNGNzJNTElQSTE1SDIxV0RwSm4wcjdMRnpQR29hbkVzUWN30gGrAUFVX3lxTFBSX2xEUXptOTBuZ3dKNTJicHpuS2FVNVVCMWdkZ3E2ckVGVlFwbi1rcWxQWktKdmN3c3EwTU9MdXZsSHRrMmlDdXZKcmJHRmV0RXQ4NjRFT0N1cFFEWTZIbk0wZVltZU1ZV3ZGZ1NCbkYzaU9GMjlVSmxZQXRFbjdBMG9lamw0R0hBbEpBUlVSMG5pZDQwSkUyR0dpcGMzZU5RR1RScHdVWVRnbw?oc=5",
@@ -275,19 +213,14 @@
      "source": "Britannica"
     },
     {
+     "title": "IRS suspends dyed diesel tax for on-highway use of fuel - RSM US LLP",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaDB4akNxcmVTUjVWWDZBWm9KX08tSjRGR3RLZmxra2ZxNUo2NzNCWEV2SmFCZHpxNGVmUkI5NENCMzNVSEl0OHBUSGJ6NmdRY0hDTGVoMUE2aG96WExXMk9RTTlEN3NzTFpvQ1lfUk85VVE2N25Hb2M5OTlJZjRlV1JkM2tfdXc3aW1yWUJQbnhvbF9k?oc=5",
+     "source": "RSM US LLP"
+    },
+    {
      "title": "No answers on tax refund delay - WOWT",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9udFNqcndRakU0S1FoRVpWbjBXWGFpMDVEc3FGRnJUbVNWWndhZEpVZGNENmI2ckY0RHZicHVJTUlxRlkyTWI1QUd5azFKTHhQZVU2d2xsbW1PQmxmdE45Z2RTOGlqa1FQeHlrM2JEUWVuNjY4?oc=5",
      "source": "WOWT"
-    },
-    {
-     "title": "Her Tax Refund Can Go Straight Into Her IRA, Split Across Up to Three Accounts, With One Extra Form - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZGlEOWFULU9CTVk0SHNCUDlrcTFYT01qc1NLa0NJMmNkRjBSYWlLODhmYlFHOUlSZktscm44MkJMSUd5ay1VcEdKcnFQVW5MUzdWLU41bTh4Tkw3amZEbTNWR2ZyMDdxT3VRZkpJQUkzc2VOeTZDOWlReTREUUJfQ0UwU3RoSlJrUEZHVlhjTWdTdHM1Z0pYamNDekhrOW5CQlZ2d085MlBidWg1NS1Nb2dycnMzbkcxcXRBZHRwOVFybDVITnFVTVZIM1BlWUhuNEY4S1N0YTNwVXN6cVBwRGxR?oc=5",
-     "source": "24/7 Wall St."
-    },
-    {
-     "title": "Flood-damaged homeowners may qualify for property tax relief, appraiser says - WPEC",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQakVrX0NULVJsZ3NhQUNqa1RtSm5FV0JkUVppX19hUjlBdVZZeTYtTHFXTXhKeE04elIwajhvcHRoQm5MWjk5aTNfa1BIS2dZV2ZkRkZrZkY3WXdUXzNucjd0UVU3aGdiQldtWWRicHFtVkJZY3JQN25IdDNwd0RndFNLaWJMaHN6NmdENHcxckdRdzhBM3BUSElDaTdwVFBfbmcxQjhzZHhXUnNhZmYxemx4cmR3bFM1R2tUUFpOOW1mOTBsSXc3cDJ4cFVNU3NyLUlLUjA2dXJkcVpYUkxN?oc=5",
-     "source": "WPEC"
     }
    ],
    "official": false,
@@ -295,77 +228,14 @@
    "already_covered": false,
    "evidence": [
     {
+     "url": "https://thecollegeinvestor.com/6186/irs-wmr-reference-codes/",
+     "title": "IRS Transcript Codes And WMR Reference Codes List For 2027 - The College Investor",
+     "outlet": "The College Investor"
+    },
+    {
      "url": "https://abcnews.com/Health/trump-administration-begins-mailing-500-aca-refund-checks/story?id=136915170",
      "title": "Trump administration begins mailing out $500 ACA refund checks. Here's what to know - ABC News - Breaking News, Latest News and Videos",
      "outlet": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "url": "https://www.wowt.com/video/2026/11/03/no-answers-tax-refund-delay/",
-     "title": "No answers on tax refund delay - WOWT",
-     "outlet": "WOWT"
-    },
-    {
-     "url": "https://247wallst.com/personal-finance/2026/11/03/her-tax-refund-can-go-straight-into-her-ira-split-across-up-to-three-accounts-with-one-extra-form/",
-     "title": "Her Tax Refund Can Go Straight Into Her IRA, Split Across Up to Three Accounts, With One Extra Form - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
-    },
-    {
-     "url": "https://cbs12.com/news/local/flood-damaged-homeowners-may-qualify-for-property-tax-relief-appraiser-says-florida-news-flood-damage-severe-flooding",
-     "title": "Flood-damaged homeowners may qualify for property tax relief, appraiser says - WPEC",
-     "outlet": "WPEC"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "tax deadline",
-   "traffic": 0,
-   "article_count_24h": 42,
-   "article_count_1h": 10,
-   "published": "2026-11-04T05:13:59+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "He Can Make His 2026 IRA Contribution All the Way Until Tax Day in April 2027. Most People Think the Window Closes December 31 - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMWlfQTFEczFHa2xDcWp0VnpfWGZIemhfN2FhWlJDXzJHN0R6MTg2YTNKN3dyWnczMHFFSFAwMjdIb1oxMk1kSDlLN2haX0c1aFV4OENxa3VqUzVMeHlQb0dpRjNvSmVVWW5VdlBlUnA5Wkg3bFJLb3A1Wi1WMnlJNmxRaEtzdXQyMDU5THVoRndEUzcwNzRhUTJ5Z295SUNuQXc?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "He Can Make His 2026 IRA Contribution All the Way Until Tax Day in April 2027. Most People Think the Window Closes December 31 - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQb0MwQlJsWXBYMjF2aVY4SmI4U1lBM0dzYTU0WmpHVi1vYXJ3Rmtpc1NyNUVtNC1QcWc3eExJWDRuNkxmdE1pRUZpVV9YS2JaV0ZZbThNSS1acFRha2hJUHJHVWF5emJxX2FCX2x0TmRYUFU1VXRzaGZMcFN3Z1hsZUJ2ZmJRWEdaOENnbEV1QkZuNFFJYlhJSlhuLVY4eDQ4TzRVZ3ZmOE9SZFg2WVJucm1HYy1vUUk2NzlZN2NhMTZSblZCeUd3QXZDM2VONTdELXd3OVMzc1JvU1U0MVJuR05sRkhsX3NnZGVSNFFseXhxdTVGOUpvVVU0S1NXcGUtM25SUGxDUQ?oc=5",
-     "source": "24/7 Wall St."
-    },
-    {
-     "title": "IRS suspends dyed diesel tax for on-highway use of fuel - RSM US LLP",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaDB4akNxcmVTUjVWWDZBWm9KX08tSjRGR3RLZmxra2ZxNUo2NzNCWEV2SmFCZHpxNGVmUkI5NENCMzNVSEl0OHBUSGJ6NmdRY0hDTGVoMUE2aG96WExXMk9RTTlEN3NzTFpvQ1lfUk85VVE2N25Hb2M5OTlJZjRlV1JkM2tfdXc3aW1yWUJQbnhvbF9k?oc=5",
-     "source": "RSM US LLP"
-    },
-    {
-     "title": "MVP: Debevoise's Peter Schuur - Law360",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObWJpNzFIRTU3b0xYcnBRTHQyXzBYOUQtbnoxaWlacThxWFpoQXVLVW9JSzRwM0RndEVYek5VZ1YyVHJ4d2FYdFBuak5UVUEyc1lBTVBZSHZ4WGtyamhydXMzbXhzU0ptWDY2eDdOM0hFeXcwMXFvSjkyZmE5TDlVdXlQWnFKa0swbkhXODVHOFBYTTFz0gFoQVVfeXFMT3lWSC1ObFM3TUxyRXc0WHY2Wk5zV084YjhubjJReXFQbXYzQThYYUhabENzeVdKSXZXTENlbkxMV0xzSE5YUXMwajJPZ2VDaWY0Vm9MekJDelJULWlrS29xRGUxVDRnSHo?oc=5",
-     "source": "Law360"
-    },
-    {
-     "title": "Tax Day 2025: How to get food freebies and discounts - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdndXczRuSll6ZmxkMkhjbUVMdm1Cb1AtNmJTcURPWHI1LUNiZmxST3NReFpWOHFUY3llWlJjcXVEa1ozcHRaT0VJX2NpNzZMOTBVenBqOVg3TE04STdoNEFIVDB5NUwxdkI5Rnh6elVROTB5cE5GSGU2LTF6MGVBTzhWemdNWUY4NjlwM9IBkgFBVV95cUxPclRNVnIyMTBzWFRESklONlRvVzNhczZDZUE5WFl2SnlVaVBzZ2VLTXZSenlNc2s0enh0NkxtMkVKbGk3bGR3SnRVMTNTUUE5OWFoSWxlN0NjWWp0TmoweEx6a2NDUlJPdGFGZmNtejZ4QkY1NkVQNWE4R1pCSkFlX0k3ZmdmVVFtVUdFYWJhMk9xUQ?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
-    }
-   ],
-   "official": false,
-   "spike": "최근 1시간 기사 4.2→10건 (2.1배)",
-   "spike_bonus": 21.0,
-   "score": 74.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://finance.yahoo.com/markets/currencies/articles/2026-ira-contribution-way-until-201359142.html",
-     "title": "He Can Make His 2026 IRA Contribution All the Way Until Tax Day in April 2027. Most People Think the Window Closes December 31 - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://247wallst.com/personal-finance/2026/11/03/he-can-make-his-2026-ira-contribution-all-the-way-until-tax-day-in-april-2027-most-people-think-the-window-closes-december-31/",
-     "title": "He Can Make His 2026 IRA Contribution All the Way Until Tax Day in April 2027. Most People Think the Window Closes December 31 - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
     },
     {
      "url": "https://www.rsmus.com/insights/tax-alerts/2026/irs-suspends-dyed-diesel-tax-on-highway-use",
@@ -373,131 +243,72 @@
      "outlet": "RSM US LLP"
     },
     {
-     "url": "https://www.law360.com/tax-authority/federal/articles/2536852/mvp-debevoise-s-peter-schuur",
-     "title": "MVP: Debevoise's Peter Schuur - Law360",
-     "outlet": "Law360"
+     "url": "https://www.wowt.com/video/2026/11/03/no-answers-tax-refund-delay/",
+     "title": "No answers on tax refund delay - WOWT",
+     "outlet": "WOWT"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "SSI payment",
+   "keyword": "product recall",
    "traffic": 0,
-   "article_count_24h": 65,
-   "article_count_1h": 3,
-   "published": "2026-11-04T20:00:00+09:00",
-   "category": "Benefits",
+   "article_count_24h": 100,
+   "article_count_1h": 11,
+   "published": "2026-11-04T06:58:00+09:00",
+   "category": "Recalls",
    "news": [
     {
-     "title": "Millions of Social Security payments hit accounts early next week - Cleveland.com",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd3h5cmxwX0VJaG55N0FXVWNINlhocWQ5VTlpczdKMW12ekU1WFFqdlYzbzA4UDNSSldnZVZycFlKRWN6V0FSUktyLXFjdTJyR20zTWFLbmhFZVNXeDBxYnFZSUVRTVdVelhwejdLbmhndzFDRk9xc3RoZkZ6SlVWUU9aZFF6ZjhHTW5CcnBDX3U2TDZxMEN4SzZTTUQzdFdhMjJUVl82c3hCRDlpYkHSAcIBQVVfeXFMTUFNWXBFQzBUVGFxV0l6SWdfZm5fWDlhX2E1clRUZmRyckw3YU5iQUo2aEFteVl1d1hOX1pBTDV4ME9YV29QeDhKNnowOFF0b1pmMXJtNHNSQi1DeDFqV25XMENxLWFtU1NkUTRKSGI5Wm1XYU9NRDZaMUd3TGR1WkRXdFlFbWZPUjZjS2E3LTFnSkRoaWxUUkxxd3hQckdDTi1KOHljQXJRMmU3enNoU0hucW9MeWhnOWtUU3ItdDQ2S1E?oc=5",
-     "source": "Cleveland.com"
+     "title": "Blood pressure medication recalled nationwide. See the affected drug - USA Today",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT3JsVE40a21JXzRVSUYzNEtESkNOTzd2cUZ0a2std2RSajV3eHdiLTFJQXZCY2c0bVBRcXI3TEUwWkxiclhDODhORGlxTFZBVWc1NkF5S1BhQ2h4LURNaG9GWTlMa2FFcVNFVjVNUTRLVjRvaU9SdDhHWWdUQWVCRUUxVTF2cDB2NVVUY2pJVTJib1M4YTBUODBqYXB1R3RLaFRXYXBNaF94OFJSbVBFTVJHcmNrM3FSZ3pZTjdGcFo1MmF4cWs1SkZB?oc=5",
+     "source": "USA Today"
     },
     {
-     "title": "Social Security Payments in November 2026 - Check Your Payment Date and Why Some Benefits Arrive Early - https://capitolskyline.com/",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56X3A5RWllNWVMX3VLSEJQYmNsTHVUb2xxbUJFLTVZMTlMOGROcHRDNlN0RFozbHRmZjBXLUpoQjdLRjBTb3JVTmZtbVRuODNhbmxvbF9KbXJIMzUtNjZITVlCZWlwX29rVklOeUNrUV82N2FQZE9udXlUdw?oc=5",
-     "source": "https://capitolskyline.com/"
+     "title": "More than 3 million bottles of eye drops sold at CVS, Kroger, more voluntarily recalled - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkdDalJPZ0Q4b0dNMnhZbmZCS21UNnR5bzhjWUFDbFVpRGdQNEJaTXoxaE9ENUg2UFk4dGV0Y2R6cGZYVTBwUjF3eXUtU004Yy1EOTdMZFBTNnVfck40UzM5SzVBVldPZmZGUXEtZEotUG1kN1I1R0tyTE5ZU1c2Z2MydENHMFRoV2RXazNTaVpNTU5ZRjRvUXo0NNIBoAFBVV95cUxPcW9nRURveWM4WEVjWEk5Q29IbWZSSHBvSnZsc2ZMSWlLbUJocDNBRjd5d001cEdHdXhKZGh0Y05CejJIS2hjaDFiYjNXMWxMazF4R0wtdFdZOEN6SW1aSXI3MHphZ0dDWDZyRGxWMFFkQy1uVzZhT0NHelNpbk50Nk4wSGFPVk1vbjZ0b2VrSV9TajVjWXBhVGk4czFkX0Jr?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos"
     },
     {
-     "title": "Social Security benefits are paid out on Tuesday, November 10: who gets a check? - Diario AS",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQVhheVhFenBfaXZLdEdXeEhORmR5UlphYlB2UlM1d3A4YVFFSFlWZU51QmEzU0xaS25QMzdzWWwxUjZfRDhDNEZJXzlGWnpJTlZqS0Z5LWtQT2JzMmlKbVdfOXgwRUZ5M0tJdUx2Y0pWMk9xNzg5amQ5M3c5V1FWbmdPY2llNTBEVEJqbU5NZ2xaY2JkcUI2dTJUYlZPdFJpS0s4VFBfUktMNUVmMk1vQk1IZnRzUXo4YVHSAc4BQVVfeXFMTnQtSjN5VkhyT0p5bWFDRXNtLXRjb1cxWVZaSl8yT18wME1aSk10S254YWR6czMydGhfYXZ1WndxdlRuY1c1ckRub0k0X3FfYlprQXNwZVpiQm1McmhEc2NrOVRnS0xpUms2SEpfUXdQV1paODhZN3JrVXF0YVlVRXIyQXctQWFqNVdLelJ1ZVVXNzV0eTBFYThwRVowUTBKNlVXWWZKSEhvYmlRT1YtTzl6TmtQRHFTZUk2dktCSEUyME5wcHA0cDdmSnU5X0E?oc=5",
-     "source": "Diario AS"
+     "title": "Interactive: Did you buy this recalled Whole Foods supplement? - Scripps News",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWhwczNSX24ySVl2Y0VsbDBoYUVWMk9FS0FhSTQ2NFhIVjR4MVlaazVha3kySTBsR18yUkF1Ym0xS3o1WmtOSmdsUHJiVjlMMHpJMS1QZk5SenhOeEhrU2d6STdMTFZKVWEtYmpMWDRHcTN0Q1hJRVVFM3Jxak9pczMyQno4VlNpR2RqdlNXN2tsUDhNMnpLVG12SQ?oc=5",
+     "source": "Scripps News"
     },
     {
-     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOWwtamVHLWk4WmNSRFByR3NEdUJ1RUdhSzFhbTFMX0tTb2FDazJ0dHI1dlBfTTBQSHRNY08xOW53aHBzdWlmei1hNlB1ZktZQnFZdjBySWFIbnJTa244a0hvU1RKWm1RYWpLdXhIRmVWNmJ3bF9ETW1DUWgzdE5XZDVsd2tKcTVqbnBWQS05SklwcE1BcHI5aURZZHc2anNTOVU2QmJpRDlGZjhqb0k5cGxSS2xQV2JmVEN4aWw0VGZJcERTdmxRZ1d0eWxJZFlZNTZiQQ?oc=5",
-     "source": "Yahoo Finance"
+     "title": "The Food Is Fine. The Recall Process Isn’t.: News Article - Independent Institute",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04UkpoeUJObEI2d1FMb3VCdWY3NG1FdUV3TWpCemVmaWljZ3hIMVRnaTdJSVdCcDdZLW9idHBEY3Q0QUZRVlNWV1BNdXlTWHc2VFZmcVg0NzIxSG1mUm1QZ3RuaHY5TTdWODVJb1BfbS1sMGJrN3c?oc=5",
+     "source": "Independent Institute"
     },
     {
-     "title": "2027 Social Security COLA: 10 numbers behind the 3.6% raise - qz.com",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85cXdiZi1LMUpnb2NDaUZodWhQU2JMNGFTMXBldkhMX0F0THlIZXNYLWI0Q1Y5eklZVG5RTXA1NlFHeTJRV2xjT19MTVN0bHcxVUJmSnpFZkdCb0N3a3c?oc=5",
-     "source": "qz.com"
+     "title": "Popular Toddler Snack Under Recall Due To Chocking Hazzard - CNY News",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ubElLRmF1aHFhM3RLUmhIcGx1ZUMxWmpLbmVaQmZVWjJZYUhJaHczNTh0b05XNEZIdGpWMUZzSkg2ZlE0Y1VuZFNPOTFxTlBydXJIdld4TjNjVThHXzBsNlBWUGJvcUZROWNIQkcxWTZKNVU?oc=5",
+     "source": "CNY News"
     }
    ],
    "official": false,
-   "score": 67.2,
+   "spike": "최근 1시간 기사 4.5→11건 (2.2배)",
+   "spike_bonus": 21.8,
+   "score": 65.3,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://capitolskyline.com/social-security-payments-in-november-2026-3/",
-     "title": "Social Security Payments in November 2026 - Check Your Payment Date and Why Some Benefits Arrive Early - https://capitolskyline.com/",
-     "outlet": "https://capitolskyline.com/"
+     "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/11/02/blood-pressure-medication-recalled/92563231007/",
+     "title": "Blood pressure medication recalled nationwide. See the affected drug - USA Today",
+     "outlet": "USA Today"
     },
     {
-     "url": "https://en.as.com/latest_news/social-security-benefits-are-paid-out-on-tuesday-november-10-who-gets-a-check-f202611-n/",
-     "title": "Social Security benefits are paid out on Tuesday, November 10: who gets a check? - Diario AS",
-     "outlet": "Diario AS"
+     "url": "https://abcnews.com/GMA/Wellness/3-million-bottles-eye-drops-sold-cvs-kroger/story?id=131684549",
+     "title": "More than 3 million bottles of eye drops sold at CVS, Kroger, more voluntarily recalled - ABC News - Breaking News, Latest News and Videos",
+     "outlet": "ABC News - Breaking News, Latest News and Videos"
     },
     {
-     "url": "https://finance.yahoo.com/personal-finance/banking/article/social-security-november-payments-when-to-expect-your-next-check-135308236.html",
-     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
-     "outlet": "Yahoo Finance"
+     "url": "https://www.scrippsnews.com/health/interactive-did-you-buy-this-recalled-whole-foods-supplement",
+     "title": "Interactive: Did you buy this recalled Whole Foods supplement? - Scripps News",
+     "outlet": "Scripps News"
     },
     {
-     "url": "https://qz.com/2027-social-security-cola-increase",
-     "title": "2027 Social Security COLA: 10 numbers behind the 3.6% raise - qz.com",
-     "outlet": "qz.com"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "minimum wage increase",
-   "traffic": 0,
-   "article_count_24h": 45,
-   "article_count_1h": 10,
-   "published": "2026-11-04T17:49:02+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Bangladesh to increase garment sector pay: wage board - Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMEh3M1VwYkVqRTA5YXRSYlp6ZVhUN2FZbVpKZ2xCR2xxTkVUdFBoTy1ENG83QWZHX3NSV1l4bk5tRGFCVjltTGdYcmJpR0k0cUFOa0lQR1BlSmFMTXgwUjRsRUFlaUg5WG4zaEhNMFdQcXh3OHQzdmxyMnlVdUIwOFEwelZmUHNTYmJtckpYLTI?oc=5",
-     "source": "Yahoo Finance Singapore"
-    },
-    {
-     "title": "Missouri voters approve Amendment 6, curbing lawmakers’ power to overturn citizen laws - Missouri Independent",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbDZWUDNoS2ZBd1JjTkF3RS0ySFJjcjVQVzFHQzdsU2NhVnRDcTRSemcyQXZ1SGE2eDVqWkMzSzRmcGNoT3FVVTVUS0lfZGx3amtSaGJFUHpON2JrQ21lWEpBOWwxdkhueXRZNGxwMnVLZHpGWTl0bnUybUpyMm1pNmtlcXFtX1FiNUxobEwxTUUtamZnVUNHb0VXcmRFOVZCVGF2U01FaDkxRGxGbW4zMmJzc2RIS2J3V1dENFJ2RG1zS1RqVGhn?oc=5",
-     "source": "Missouri Independent"
-    },
-    {
-     "title": "Cost of hiring minimum wage worker to climb by £4,000 - The Telegraph",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWF8zMTltbGdDZk10SWFVNkt2cHlWNWJqLTRIRVAwalJPQTZyUGZGTTNGWUJ5M3RleUdreGVmTWtVVFpVMkg0VTh4S1FLN1dXaUEwY294bnVORHU1YThyZFVyUHUzYnRaMExQNzJ5SWpPOUt5Q1hXYl83Y1pRSDdHOE4yM1psdHFVR3JIOEVXUm9wZDhIcnJYUTJueHR6VEoweXc?oc=5",
-     "source": "The Telegraph"
-    },
-    {
-     "title": "Bulgarian Government Sets 2027 Minimum Wage at €660, Hourly Rate at €3.98 - Novinite.com",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaGMwSHZDdk5ibjY3SlR6MnZRNDFRTElpYWlwV181b3hRQnlQN1FPRjl2V0JqUFlmVnRnSUFBWGM2S2FTMzk0dnZVWEJtdGg3ZS1DUlctVGk4UGhVTFpnc2xfdUt3QzNpOVVXLUxMazNmdndZQXFQeUY5S0N2NkIwNkRBYndnN2Q1UFItR3BrbXEwM0RsM0cxWEtFSmtSb0J5ejZveFZVYkxkSFhvMnJJcDVCa1JrY2QyX29ZMlBfdFUwbUV5Rk5IUUk2b1A?oc=5",
-     "source": "Novinite.com"
-    },
-    {
-     "title": "Minimum wage hikes push up cost of employing a single worker ‘by over £4,000’ - City AM",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU3R0amIwUllyRWNSdENwa21pWUZPU1dIY3RwX3NnNzhGMFJNUnEyRTFjNldlU3JHdmk0VnhiTDNodlE3OVNGai0yeTFUQ2VhY2YtOEdBQkJpeGFhOVo5a2FoNG5aSERha3RVOUpJdTF6dFpvV0NNb1JBMGVaeHQzdkFPd0pmZ2hhNHVVNEczX2RZaDVielRpaEJGblV5QQ?oc=5",
-     "source": "City AM"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sg.finance.yahoo.com/news/bangladesh-increase-garment-sector-pay-084902232.html",
-     "title": "Bangladesh to increase garment sector pay: wage board - Yahoo Finance Singapore",
-     "outlet": "Yahoo Finance Singapore"
-    },
-    {
-     "url": "https://missouriindependent.com/2026/11/03/missouri-voters-approve-amendment-6-curbing-lawmakers-power-to-overturn-citizen-laws/",
-     "title": "Missouri voters approve Amendment 6, curbing lawmakers’ power to overturn citizen laws - Missouri Independent",
-     "outlet": "Missouri Independent"
-    },
-    {
-     "url": "https://www.telegraph.co.uk/business/2026/11/04/cost-of-hiring-minimum-wage-worker-to-climb-by-4000/",
-     "title": "Cost of hiring minimum wage worker to climb by £4,000 - The Telegraph",
-     "outlet": "The Telegraph"
-    },
-    {
-     "url": "https://www.novinite.com/articles/241430/Bulgarian+Government+Sets+2027+Minimum+Wage+at+%E2%82%AC660%2C+Hourly+Rate+at+%E2%82%AC3.98",
-     "title": "Bulgarian Government Sets 2027 Minimum Wage at €660, Hourly Rate at €3.98 - Novinite.com",
-     "outlet": "Novinite.com"
+     "url": "https://www.independent.org/article/2026/11/03/food-recall-process/",
+     "title": "The Food Is Fine. The Recall Process Isn’t.: News Article - Independent Institute",
+     "outlet": "Independent Institute"
     }
    ]
   },
@@ -506,7 +317,7 @@
    "keyword": "election day",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 34,
+   "article_count_1h": 50,
    "published": "2026-11-04T17:34:49+09:00",
    "category": "Elections",
    "news": [
@@ -521,19 +332,19 @@
      "source": "Virginia Mercury"
     },
     {
-     "title": "Election Day wraps up in Washoe County - Washoe Life (.gov)",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ1dlZjFxYXVRVmFYWDA4UDJoZjVQWGh6T3JTdXRFdWliOXpFU0N6M3ZldUNiUlFxZm8tc1VoWkM1UWFKajh3SlFjeGc0SFFlcjY2VkxBRWlnd3YtUVctQ1ZMSXN5eWtnbmxyazZfbjR6YjBhNDROd2kzc0xIYm5LemRFLU1CVUtaUmFtam41elpUeEstcHc?oc=5",
-     "source": "Washoe Life (.gov)"
-    },
-    {
-     "title": "Election Day unfolded with relatively few problems, despite worries over Trump election interference - AP News",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb0VlcDd4VEtEWWtPYUNnck5rekRyWlBCQmc5ZW9odGVWVDlLdDN3NlZzZHRuMXk5TDZ5YjY4QmpKc3RZc2RaTkVGc3hEbEIxb2c4aFRhNGhPM0gtSlRsaDM1Y2V3RWYwbXBVTjVBYlU5TnhLU0hiLVpfTldKbXg3UDZxbzEwMEppSEN0YzM1SDlrb0xETjMzWEtqSnNlMUhUSFE?oc=5",
-     "source": "AP News"
-    },
-    {
      "title": "Election Day Live Updates: Pritzker and Stratton Declared Early Winners - WTTW News",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS3VNVzJmNXBidGQyVDVkZVh5UXdlVGdjVlA4dUFEOXpZMElJNDcyd0RUSlgtLVZfNHNvNkVmeXNiaW9meG5fb2hFcEVFOG9nX0xHRXJPYXhheDRKRmpfRHZjcWd3U1JlaGdaREIzaUIwa2RMWGZpMmFIMGdVU2hvQmlFb2dZV1ZuWGt5U1RBSFFsaDNoT2tFLVR3Uk5ydjFZ?oc=5",
      "source": "WTTW News"
+    },
+    {
+     "title": "Advocates go to court over hourslong delay at Prince George’s County polling place - Maryland Matters",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOG9URjZPVDlWb0dsU1dXYWtVaDZ0dkFYY2ZsTUI0dE4xVjVVRWlzZG9FQlJJejhKRktVSlpvUUx4VmpHTzZYakQySDZzbGpINVRPMnVhTU9qdl81X1Ryd21ZRUlkeDV4ZlJQMFloS3pZNEFIZV9QWmY2a29iODVnNXBROWVXUnZpNXl1OHNVbmx4bmJDQ21tM1czYzEtMFprTHljX1BTbDlVbzJ6MHZkZHRyQlRnZ3U1RzF5aA?oc=5",
+     "source": "Maryland Matters"
+    },
+    {
+     "title": "False accusations and unverified claims quickly spread about Election Day voting - PBS",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdmJYMVV0OEFVbHI4cFA0dEI4eUtTcGlteXhwV2JiVEFwbE9ZQlo3azZxS0UzbFZveF8yZFZtZy16UVVTc1pRMnBCUW16YjhBMkROTTQ0b2NSOURIYTdNNDFxOGhkM1c2VlJUNFBucnJlNVFBdUNqTWhtQjJ2bXg0MUZYcmJaSFRNZ0JXNGtjZzVBWUJIcHRVRWEwX3VHQ2w1VnJobEtYcEdvSmRfTjJhVG9lelJyVGdNdlHSAb8BQVVfeXFMTnZvODkzaEpWaFlKOEM4Uld0QmUxSlZOWHkxMzNRdGp1UHBPY2p6VDJnTDRWRFI4UUh1RTNYZld3SmE2MWkwVUlsaE9MZk1yUFdfVmNiWWJoWEpENHZuYVdVYWJvajBJbEk5S1pKTFc5ckZ2UzlJZm9MUmhvY21KOWZzclN0MjZWakFVNGM2SFhHZmk1dEl1QVAtczI2aWVBTjV4OG5vbUJTaDdrQlZla0dzejEzSGZWMVRJTE9JX1U?oc=5",
+     "source": "PBS"
     }
    ],
    "official": false,
@@ -551,14 +362,14 @@
      "outlet": "Virginia Mercury"
     },
     {
-     "url": "https://washoelife.washoecounty.gov/washoe-county/election-day-wraps-up-in-washoe-county-2/",
-     "title": "Election Day wraps up in Washoe County - Washoe Life (.gov)",
-     "outlet": "Washoe Life (.gov)"
-    },
-    {
      "url": "https://news.wttw.com/2026/11/03/election-day-live-updates-chicago-area-votes-control-congress-play",
      "title": "Election Day Live Updates: Pritzker and Stratton Declared Early Winners - WTTW News",
      "outlet": "WTTW News"
+    },
+    {
+     "url": "https://marylandmatters.org/2026/11/03/heavy-election-day-turnout-follows-heavy-early-voting-no-major-problems-reported/",
+     "title": "Advocates go to court over hourslong delay at Prince George’s County polling place - Maryland Matters",
+     "outlet": "Maryland Matters"
     }
    ]
   },
@@ -567,8 +378,8 @@
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 15,
-   "published": "2026-11-04T18:30:21+09:00",
+   "article_count_1h": 21,
+   "published": "2026-11-04T17:30:21+09:00",
    "category": "Elections",
    "news": [
     {
@@ -625,10 +436,193 @@
   },
   {
    "source": "google_news",
+   "keyword": "social security COLA",
+   "traffic": 0,
+   "article_count_24h": 55,
+   "article_count_1h": 2,
+   "published": "2026-11-04T19:14:33+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Social Security’s Biggest Pay Raise in 4 Years Is Here - But There’s a Catch - FinanceBuzz",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5laWdzWGI2Y3ZIM0dVdE1mQ205LXBVdlhiZ2p4Z2I0eVV6T1VQZTdLS2tUT0tHamNmeGZDOVJUYndZOUN0M1V4UTlEaDlIbDNGQVlwdE1RWXBGTlJvallTRWt3dC16RjgweVpIRVpGd1VtcnBO?oc=5",
+     "source": "FinanceBuzz"
+    },
+    {
+     "title": "Social Security COLA history: 10 of the biggest raises - qz.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sbWFmWDlkS0w5UGVrNVZ2UHdPcktZTkFkUC1wWElKelNlaXQ1VERNNXdwNEp6bXV5aHBDbVNmaTJCSm5mcnhhQ2ctV2UzTDJaTUo5MGZsdUt3WHFfNXY3czZ4TXplNGtJVGc?oc=5",
+     "source": "qz.com"
+    },
+    {
+     "title": "What to know about the Social Security fix proposed by Sens. Elizabeth Warren and Bernie Moreno - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTzhPSndjb0dyRDVpN254X2JRRlZtMm1veGw1TTNIN0ZsQS1qZWx5X0NfTExrbmhvbE45em5Sc19lTUFELXFyQVZwN3E1Y1pfcVVzcGJHX0d4NG9TVVR6eXdTUF9fRUw2WmVqUklyZm4wVzhmaXp5TnVSVUNXT2lKLXA3VWNpdVdHUmx0Y29iVXA3QVYxWlMyT2l2WTdtR3VaZWowWmczUTjSAa4BQVVfeXFMTzc2cXQyalI2elo0cTRvZF9sMXlmcnZNaW9HQkUwaERybTd5eVNwcS1POGNlcWM4b1NEU3pwUG5BSmpGY0RkQnJiS21CTEsyNVJyUVJ3SVNYMm5tajRDWVB6VktHV1dLX2hyOHlmemtWV1FLVjZrcWJZM3VQd01JOHlKbnJHRUh4aERCWmNjOGpVSGU0RVUxVU9FdVQ2Zi1KSHVNYkhvZHpORVNZeXJR?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "title": "Social Security’s November 18 Deadline: How to Get Your 2027 COLA Notice Early - https://capitolskyline.com/",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41OHdhS2FXTkhYeU5UV01KdW9VUVJrLVp1MGxDazVBVU51a3gyLVJBd09uUGdlR3Q2SnlSelpoallDa05iQlBIMEtQS19wbDgtLThPM1VRYkVsa1FjajdabDFJUFhJVVhQa3RucWViZ1d3c2swMDZYcFBLWTU?oc=5",
+     "source": "https://capitolskyline.com/"
+    },
+    {
+     "title": "Social Security COLA, tax break could narrow spending gap for older consumers in 2027 - HousingWire",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX2dGMHVuaHowMjJHQlZMUVFvU0JnS1VQQncwOUJ6UV9YMFQ2dDVvQThJdmswbWlBUFBhVDhkalZkcGhuc3dWYU5NcUFKempzaG5Xcm90bm5HZlVnUGlHeEZtX0JHS2ZkMVlkZURuYldSTXhNOXlNbGRpbmFuQ3RJZ0Z4a2tVQ2luOXZJcUh6Vm1qdw?oc=5",
+     "source": "HousingWire"
+    }
+   ],
+   "official": false,
+   "score": 60.8,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://financebuzz.com/social-securitys-biggest-pay-raise-catch-2",
+     "title": "Social Security’s Biggest Pay Raise in 4 Years Is Here - But There’s a Catch - FinanceBuzz",
+     "outlet": "FinanceBuzz"
+    },
+    {
+     "url": "https://qz.com/social-security-cola-history-biggest-raises",
+     "title": "Social Security COLA history: 10 of the biggest raises - qz.com",
+     "outlet": "qz.com"
+    },
+    {
+     "url": "https://abcnews.com/Politics/social-security-fix-proposed-sens-elizabeth-warren-bernie/story?id=134253518",
+     "title": "What to know about the Social Security fix proposed by Sens. Elizabeth Warren and Bernie Moreno - ABC News - Breaking News, Latest News and Videos",
+     "outlet": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "url": "https://capitolskyline.com/social-security-cola-notice-november-18-2026/",
+     "title": "Social Security’s November 18 Deadline: How to Get Your 2027 COLA Notice Early - https://capitolskyline.com/",
+     "outlet": "https://capitolskyline.com/"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "SSI payment",
+   "traffic": 0,
+   "article_count_24h": 62,
+   "article_count_1h": 2,
+   "published": "2026-11-04T20:00:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Millions of Social Security payments hit accounts early next week - Cleveland.com",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd3h5cmxwX0VJaG55N0FXVWNINlhocWQ5VTlpczdKMW12ekU1WFFqdlYzbzA4UDNSSldnZVZycFlKRWN6V0FSUktyLXFjdTJyR20zTWFLbmhFZVNXeDBxYnFZSUVRTVdVelhwejdLbmhndzFDRk9xc3RoZkZ6SlVWUU9aZFF6ZjhHTW5CcnBDX3U2TDZxMEN4SzZTTUQzdFdhMjJUVl82c3hCRDlpYkHSAcIBQVVfeXFMTUFNWXBFQzBUVGFxV0l6SWdfZm5fWDlhX2E1clRUZmRyckw3YU5iQUo2aEFteVl1d1hOX1pBTDV4ME9YV29QeDhKNnowOFF0b1pmMXJtNHNSQi1DeDFqV25XMENxLWFtU1NkUTRKSGI5Wm1XYU9NRDZaMUd3TGR1WkRXdFlFbWZPUjZjS2E3LTFnSkRoaWxUUkxxd3hQckdDTi1KOHljQXJRMmU3enNoU0hucW9MeWhnOWtUU3ItdDQ2S1E?oc=5",
+     "source": "Cleveland.com"
+    },
+    {
+     "title": "Social Security Payments in November 2026 - Check Your Payment Date and Why Some Benefits Arrive Early - https://capitolskyline.com/",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56X3A5RWllNWVMX3VLSEJQYmNsTHVUb2xxbUJFLTVZMTlMOGROcHRDNlN0RFozbHRmZjBXLUpoQjdLRjBTb3JVTmZtbVRuODNhbmxvbF9KbXJIMzUtNjZITVlCZWlwX29rVklOeUNrUV82N2FQZE9udXlUdw?oc=5",
+     "source": "https://capitolskyline.com/"
+    },
+    {
+     "title": "Social Security benefits are paid out on Tuesday, November 10: who gets a check? - Diario AS",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQVhheVhFenBfaXZLdEdXeEhORmR5UlphYlB2UlM1d3A4YVFFSFlWZU51QmEzU0xaS25QMzdzWWwxUjZfRDhDNEZJXzlGWnpJTlZqS0Z5LWtQT2JzMmlKbVdfOXgwRUZ5M0tJdUx2Y0pWMk9xNzg5amQ5M3c5V1FWbmdPY2llNTBEVEJqbU5NZ2xaY2JkcUI2dTJUYlZPdFJpS0s4VFBfUktMNUVmMk1vQk1IZnRzUXo4YVHSAc4BQVVfeXFMTnQtSjN5VkhyT0p5bWFDRXNtLXRjb1cxWVZaSl8yT18wME1aSk10S254YWR6czMydGhfYXZ1WndxdlRuY1c1ckRub0k0X3FfYlprQXNwZVpiQm1McmhEc2NrOVRnS0xpUms2SEpfUXdQV1paODhZN3JrVXF0YVlVRXIyQXctQWFqNVdLelJ1ZVVXNzV0eTBFYThwRVowUTBKNlVXWWZKSEhvYmlRT1YtTzl6TmtQRHFTZUk2dktCSEUyME5wcHA0cDdmSnU5X0E?oc=5",
+     "source": "Diario AS"
+    },
+    {
+     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOWwtamVHLWk4WmNSRFByR3NEdUJ1RUdhSzFhbTFMX0tTb2FDazJ0dHI1dlBfTTBQSHRNY08xOW53aHBzdWlmei1hNlB1ZktZQnFZdjBySWFIbnJTa244a0hvU1RKWm1RYWpLdXhIRmVWNmJ3bF9ETW1DUWgzdE5XZDVsd2tKcTVqbnBWQS05SklwcE1BcHI5aURZZHc2anNTOVU2QmJpRDlGZjhqb0k5cGxSS2xQV2JmVEN4aWw0VGZJcERTdmxRZ1d0eWxJZFlZNTZiQQ?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "2027 Social Security COLA: 10 numbers behind the 3.6% raise - qz.com",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85cXdiZi1LMUpnb2NDaUZodWhQU2JMNGFTMXBldkhMX0F0THlIZXNYLWI0Q1Y5eklZVG5RTXA1NlFHeTJRV2xjT19MTVN0bHcxVUJmSnpFZkdCb0N3a3c?oc=5",
+     "source": "qz.com"
+    }
+   ],
+   "official": false,
+   "score": 60.8,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://capitolskyline.com/social-security-payments-in-november-2026-3/",
+     "title": "Social Security Payments in November 2026 - Check Your Payment Date and Why Some Benefits Arrive Early - https://capitolskyline.com/",
+     "outlet": "https://capitolskyline.com/"
+    },
+    {
+     "url": "https://en.as.com/latest_news/social-security-benefits-are-paid-out-on-tuesday-november-10-who-gets-a-check-f202611-n/",
+     "title": "Social Security benefits are paid out on Tuesday, November 10: who gets a check? - Diario AS",
+     "outlet": "Diario AS"
+    },
+    {
+     "url": "https://finance.yahoo.com/personal-finance/banking/article/social-security-november-payments-when-to-expect-your-next-check-135308236.html",
+     "title": "Social Security November payments: When to expect your next check - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "url": "https://qz.com/2027-social-security-cola-increase",
+     "title": "2027 Social Security COLA: 10 numbers behind the 3.6% raise - qz.com",
+     "outlet": "qz.com"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "tax deadline",
+   "traffic": 0,
+   "article_count_24h": 16,
+   "article_count_1h": 8,
+   "published": "2026-11-04T05:13:59+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "He Can Make His 2026 IRA Contribution All the Way Until Tax Day in April 2027. Most People Think the Window Closes December 31 - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMWlfQTFEczFHa2xDcWp0VnpfWGZIemhfN2FhWlJDXzJHN0R6MTg2YTNKN3dyWnczMHFFSFAwMjdIb1oxMk1kSDlLN2haX0c1aFV4OENxa3VqUzVMeHlQb0dpRjNvSmVVWW5VdlBlUnA5Wkg3bFJLb3A1Wi1WMnlJNmxRaEtzdXQyMDU5THVoRndEUzcwNzRhUTJ5Z295SUNuQXc?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "MVP: Debevoise's Peter Schuur - Law360",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObWJpNzFIRTU3b0xYcnBRTHQyXzBYOUQtbnoxaWlacThxWFpoQXVLVW9JSzRwM0RndEVYek5VZ1YyVHJ4d2FYdFBuak5UVUEyc1lBTVBZSHZ4WGtyamhydXMzbXhzU0ptWDY2eDdOM0hFeXcwMXFvSjkyZmE5TDlVdXlQWnFKa0swbkhXODVHOFBYTTFz0gFoQVVfeXFMT3lWSC1ObFM3TUxyRXc0WHY2Wk5zV084YjhubjJReXFQbXYzQThYYUhabENzeVdKSXZXTENlbkxMV0xzSE5YUXMwajJPZ2VDaWY0Vm9MekJDelJULWlrS29xRGUxVDRnSHo?oc=5",
+     "source": "Law360"
+    },
+    {
+     "title": "He Can Make His 2026 IRA Contribution All the Way Until Tax Day in April 2027. Most People Think the Window Closes December 31 - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQb0MwQlJsWXBYMjF2aVY4SmI4U1lBM0dzYTU0WmpHVi1vYXJ3Rmtpc1NyNUVtNC1QcWc3eExJWDRuNkxmdE1pRUZpVV9YS2JaV0ZZbThNSS1acFRha2hJUHJHVWF5emJxX2FCX2x0TmRYUFU1VXRzaGZMcFN3Z1hsZUJ2ZmJRWEdaOENnbEV1QkZuNFFJYlhJSlhuLVY4eDQ4TzRVZ3ZmOE9SZFg2WVJucm1HYy1vUUk2NzlZN2NhMTZSblZCeUd3QXZDM2VONTdELXd3OVMzc1JvU1U0MVJuR05sRkhsX3NnZGVSNFFseXhxdTVGOUpvVVU0S1NXcGUtM25SUGxDUQ?oc=5",
+     "source": "24/7 Wall St."
+    },
+    {
+     "title": "MTD deadline looms as landlord record-keeping gaps persist - Mortgage Professional America",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcnpfRlhpYTJESnR2c0RYLVJqbVFtbUFoQnZTZ2ZRdXlLd3Z0QUFCUHNRa0RISWlFNnV0Um8wM0NYRkJfUTZJNUNwMHJaLUFkeE5BWjFfdV9HdUZBU25UMHBwMHVzVnVReE0tZFZhbkpoMWNGa1Y2cEZaaUxScmNGUGdUTnQ3OFhFYVBCdkdmMHlETUtnOXVpbXlJdmlmdldsbDkwRXZsSi0ycFJjaXlsUXVRbkFyNllL?oc=5",
+     "source": "Mortgage Professional America"
+    },
+    {
+     "title": "General Tax Authority Extends Registration Deadline for Global, Domestic Minimum Tax - Qatar news agency",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYldqV2dlOC1KbGpjdXNFZEZmcDdEdUxzdllVQURVRnB2c0xOYjAtU0o2UlZqT2tvRVRGVDBhbjhJcWVXM2tkRjV3cG15VDE3ay1oTVZ3WWVvRkluN1ZUczdSMFdBTmE2QWhidm40VkxMYThOR0MxU0JuT1VSN19kejhkRnhHSF9YV05lWkJLSWhXbHR4bzBpRVVYY3pKNTVkdEdMbWZrSWs0UDhhdzdrQW1ma3VSU3pYMGd3a19KTnExM2dtUnp4ZVlB?oc=5",
+     "source": "Qatar news agency"
+    }
+   ],
+   "official": false,
+   "score": 56.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://finance.yahoo.com/markets/currencies/articles/2026-ira-contribution-way-until-201359142.html",
+     "title": "He Can Make His 2026 IRA Contribution All the Way Until Tax Day in April 2027. Most People Think the Window Closes December 31 - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "url": "https://www.law360.com/tax-authority/federal/articles/2536852/mvp-debevoise-s-peter-schuur",
+     "title": "MVP: Debevoise's Peter Schuur - Law360",
+     "outlet": "Law360"
+    },
+    {
+     "url": "https://247wallst.com/personal-finance/2026/11/03/he-can-make-his-2026-ira-contribution-all-the-way-until-tax-day-in-april-2027-most-people-think-the-window-closes-december-31/",
+     "title": "He Can Make His 2026 IRA Contribution All the Way Until Tax Day in April 2027. Most People Think the Window Closes December 31 - 24/7 Wall St.",
+     "outlet": "24/7 Wall St."
+    },
+    {
+     "url": "https://www.mpamag.com/uk/mortgage-types/buy-to-let/mtd-deadline-looms-as-landlord-record-keeping-gaps-persist/596018",
+     "title": "MTD deadline looms as landlord record-keeping gaps persist - Mortgage Professional America",
+     "outlet": "Mortgage Professional America"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "daylight saving time",
    "traffic": 0,
-   "article_count_24h": 47,
-   "article_count_1h": 5,
+   "article_count_24h": 46,
+   "article_count_1h": 8,
    "published": "2026-11-04T17:02:42+09:00",
    "category": "Holidays",
    "news": [
@@ -683,8 +677,8 @@
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
-   "article_count_24h": 28,
-   "article_count_1h": 15,
+   "article_count_24h": 39,
+   "article_count_1h": 12,
    "published": "2026-11-04T13:11:08+09:00",
    "category": "Student Aid",
    "news": [
@@ -709,8 +703,8 @@
      "source": "FOX 5 Atlanta"
     },
     {
-     "title": "Today’s CD Rates for November 4, 2026: Highest APYs Range From 4.50% to 5.25% - WSJ",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSkl3cU5Wd3ZtaVdhVnhzRklXM3drTnJGTmdIWFJfTDJ4UFBpbGdBWFhqLVBSRmxjRmlJRFR5NlNjZEJHM0s5TDN5cTZ1RGRzLXhucWNiNVF3QmxDYW9yZEQyUG9xREJTZDNxM3hTNXItdndzdVpEWkkyeVU3eDBpLVRCN21wRzVVYkQ5MlR0NjRMbnpJbUd0UHkwWms?oc=5",
+     "title": "Today's High-Yield Savings Rates for November 4, 2026: Up to 5.00% - WSJ",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdlpuelFNcmtBaV92dlJJQmlDS3V4WkhOcWpRR1RzcTNKQzJldmZPUVg1SDMxVDJQUldNRE8wSktCTEVaNFVyd0VMVFpXNUVPcjNvMnpBTWdaS0lESXNuZFJpLWsyMUJEN21OTTZUcnJrRDF1SXRDdHhuYTRVTUpfY1gxZDVKMFlQWDV2WkQ4bFk5U2JEUzZUc05yMEhaOS1OOWZXMGZEbWt0Q3pSdVJ2YTV3?oc=5",
      "source": "WSJ"
     }
    ],
@@ -734,45 +728,45 @@
      "outlet": "FOX 5 Atlanta"
     },
     {
-     "url": "https://www.wsj.com/buyside/personal-finance/banking/cd-rates-today-11-4-2026?mod=googlenewsfeed",
-     "title": "Today’s CD Rates for November 4, 2026: Highest APYs Range From 4.50% to 5.25% - WSJ",
+     "url": "https://www.wsj.com/buyside/personal-finance/banking/high-yield-savings-rates-today-11-4-2026?mod=googlenewsfeed",
+     "title": "Today's High-Yield Savings Rates for November 4, 2026: Up to 5.00% - WSJ",
      "outlet": "WSJ"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "product recall",
+   "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 77,
-   "article_count_1h": 7,
-   "published": "2026-11-04T06:58:00+09:00",
-   "category": "Recalls",
+   "article_count_24h": 65,
+   "article_count_1h": 8,
+   "published": "2026-11-04T01:18:07+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "Blood pressure medication recalled nationwide. See the affected drug - USA Today",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT3JsVE40a21JXzRVSUYzNEtESkNOTzd2cUZ0a2std2RSajV3eHdiLTFJQXZCY2c0bVBRcXI3TEUwWkxiclhDODhORGlxTFZBVWc1NkF5S1BhQ2h4LURNaG9GWTlMa2FFcVNFVjVNUTRLVjRvaU9SdDhHWWdUQWVCRUUxVTF2cDB2NVVUY2pJVTJib1M4YTBUODBqYXB1R3RLaFRXYXBNaF94OFJSbVBFTVJHcmNrM3FSZ3pZTjdGcFo1MmF4cWs1SkZB?oc=5",
-     "source": "USA Today"
+     "title": "Get ready: 2027 state minimum wage increases are around the corner! - SHRM",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamZUVU9acV9BN2lwOXdDbHRrMVd2U0NDUUxXQ0xLUmprUjJCN18zQ2gyWVJaNDFyQ0VvWm5nazc2bkI1SGlBM3lWT2NnSjVwMEVyMEV3NmdjOHYyVUQ0NE81UnhYeEw4VFZYMHV3X1Q3U2s0Sm1KVG1IdjAtMXZwVktwLUVieU00blZwSDNHZ3B5YjU0aENWRHZMWEpxeHVhSGlVekZ3?oc=5",
+     "source": "SHRM"
     },
     {
-     "title": "More than 3 million bottles of eye drops sold at CVS, Kroger, more voluntarily recalled - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkdDalJPZ0Q4b0dNMnhZbmZCS21UNnR5bzhjWUFDbFVpRGdQNEJaTXoxaE9ENUg2UFk4dGV0Y2R6cGZYVTBwUjF3eXUtU004Yy1EOTdMZFBTNnVfck40UzM5SzVBVldPZmZGUXEtZEotUG1kN1I1R0tyTE5ZU1c2Z2MydENHMFRoV2RXazNTaVpNTU5ZRjRvUXo0NNIBoAFBVV95cUxPcW9nRURveWM4WEVjWEk5Q29IbWZSSHBvSnZsc2ZMSWlLbUJocDNBRjd5d001cEdHdXhKZGh0Y05CejJIS2hjaDFiYjNXMWxMazF4R0wtdFdZOEN6SW1aSXI3MHphZ0dDWDZyRGxWMFFkQy1uVzZhT0NHelNpbk50Nk4wSGFPVk1vbjZ0b2VrSV9TajVjWXBhVGk4czFkX0Jr?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
+     "title": "Bangladesh agrees new garment pay scale from December amid protests - Reuters",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT3JxOXMtbnR3WnV5ak9kOTJ0akdfaU5lVERjY29uakFPbFRNLTBCU2RPTjR3RlJmZnBkSUI4dE1CeTktMGtwTExFYXJFeDR0ZE5hV1U5Ujd2TDJMenFoQmh2VEhtN2lRaW9hQ091T2hHY2R4T2FBM1dKc0JmbS1QVjVUVWdreVhJV1NReHFMSnJpeVFiOTRsdnZ3MFIyc00xWjBVbGN1bDlDLUlOanpla2t4bmFMUQ?oc=5",
+     "source": "Reuters"
     },
     {
-     "title": "The Food Is Fine. The Recall Process Isn’t.: News Article - Independent Institute",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04UkpoeUJObEI2d1FMb3VCdWY3NG1FdUV3TWpCemVmaWljZ3hIMVRnaTdJSVdCcDdZLW9idHBEY3Q0QUZRVlNWV1BNdXlTWHc2VFZmcVg0NzIxSG1mUm1QZ3RuaHY5TTdWODVJb1BfbS1sMGJrN3c?oc=5",
-     "source": "Independent Institute"
+     "title": "Bangladesh to increase garment sector pay: wage board - Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMEh3M1VwYkVqRTA5YXRSYlp6ZVhUN2FZbVpKZ2xCR2xxTkVUdFBoTy1ENG83QWZHX3NSV1l4bk5tRGFCVjltTGdYcmJpR0k0cUFOa0lQR1BlSmFMTXgwUjRsRUFlaUg5WG4zaEhNMFdQcXh3OHQzdmxyMnlVdUIwOFEwelZmUHNTYmJtckpYLTI?oc=5",
+     "source": "Yahoo Finance Singapore"
     },
     {
-     "title": "Recall alert: Popular blood pressure medication recalled - WSB-TV",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZnNIa3JRUmd4WUJ5NXNsZWdmVWhVb01SSmNyeTc5NmtqLUQtZDRObmhpRWR1dDFhazdjX2N5UVRFR0RFWmd0S2hhUzkxd2ZoRlVKbXBCdU05SWZzclNOeER5QjZubUdoZU9SLXMzcVU5WXI2dkJfdGNuUXdGV1lwV19WWWZ4MHNiMTQwX0xPRzR3cC1lWkZjYzVrRlp1NmI2OTZlWWtFLUVnZVBHUHhGaF9USzVDUkJLREpN0gHPAUFVX3lxTE1aeUFORnFFb2k3dXN3WTR5bXZ2cGozSGJJc25WNWFraXVuV2kzYVpiTlNsXzg4VHNUeTZ1OURWZTlqT3N3a2Q4RVJOSUtyc3VsT25wTlplTWUwRHFGYnBtSVNrWTVxVUxadG1MTWZhYU1FTUR5amJnQTlYYmZJMTFBWUx0STJBV2Jfai1zRVpFVFVWSE5tQjRpck13enVlMWg0d0xhRWdrMmVYby1yOUlzcF81bjRBM0VIcWRMMnIyTWwtMkJnNnZRcDNPWjFVTQ?oc=5",
-     "source": "WSB-TV"
+     "title": "Bangladesh to increase garment sector’s minimum wage - The Straits Times",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHB1b1lkdDd4elp1WUZYd3JfWFNTZm9NS29ZeUlaQUowZGh6VTFPS01FOWtYN2R3QVMyMHY3T1l3Vk9zLVAtRzFFOExlcXR6bWxfSjh3RHN4ZTZmdDNVb01oQ1VSLTM0XzFSRy1TUjhZX1lidEd3UjByeHhVLU90bE1jemxSS3B6MHdhUHhRdWVwR3ZUYWxOdDZOcw?oc=5",
+     "source": "The Straits Times"
     },
     {
-     "title": "Over 100,000 Bottles of Acetaminophen Recalled Due to Labeling Mistake - People.com",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUlsYUh1QVR6d245QThYdUQwZ1R5Vm5vZ2g1bVVSOUpDTjd5QlFXWjZmMjBZY3dBcS1lQjFUNHZxYTZKak1JWEkxUVlyLXpPU3lkXzZNenlTSUd0NjBOQ1VPb0c0d1BSdWJiMnBSbm1oLTN0Nl92ZkU4bDlrRzVZMl9GeXEzSC1YdWtB?oc=5",
-     "source": "People.com"
+     "title": "Missouri voters approve Amendment 6, curbing lawmakers’ power to overturn citizen laws - Missouri Independent",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbDZWUDNoS2ZBd1JjTkF3RS0ySFJjcjVQVzFHQzdsU2NhVnRDcTRSemcyQXZ1SGE2eDVqWkMzSzRmcGNoT3FVVTVUS0lfZGx3amtSaGJFUHpON2JrQ21lWEpBOWwxdkhueXRZNGxwMnVLZHpGWTl0bnUybUpyMm1pNmtlcXFtX1FiNUxobEwxTUUtamZnVUNHb0VXcmRFOVZCVGF2U01FaDkxRGxGbW4zMmJzc2RIS2J3V1dENFJ2RG1zS1RqVGhn?oc=5",
+     "source": "Missouri Independent"
     }
    ],
    "official": false,
@@ -780,24 +774,24 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/11/02/blood-pressure-medication-recalled/92563231007/",
-     "title": "Blood pressure medication recalled nationwide. See the affected drug - USA Today",
-     "outlet": "USA Today"
+     "url": "https://www.shrm.org/topics-tools/employment-law-compliance/get-ready-2027-state-minimum-wage-increases",
+     "title": "Get ready: 2027 state minimum wage increases are around the corner! - SHRM",
+     "outlet": "SHRM"
     },
     {
-     "url": "https://abcnews.com/GMA/Wellness/3-million-bottles-eye-drops-sold-cvs-kroger/story?id=131684549",
-     "title": "More than 3 million bottles of eye drops sold at CVS, Kroger, more voluntarily recalled - ABC News - Breaking News, Latest News and Videos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
+     "url": "https://sg.finance.yahoo.com/news/bangladesh-increase-garment-sector-pay-084902232.html",
+     "title": "Bangladesh to increase garment sector pay: wage board - Yahoo Finance Singapore",
+     "outlet": "Yahoo Finance Singapore"
     },
     {
-     "url": "https://www.independent.org/article/2026/11/03/food-recall-process/",
-     "title": "The Food Is Fine. The Recall Process Isn’t.: News Article - Independent Institute",
-     "outlet": "Independent Institute"
+     "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-to-increase-garment-sector-minimum-wage",
+     "title": "Bangladesh to increase garment sector’s minimum wage - The Straits Times",
+     "outlet": "The Straits Times"
     },
     {
-     "url": "https://www.wsbtv.com/news/trending/recall-alert-popular-blood-pressure-medication-recalled/TVQOMRIRZZGDROVXI3ZS75BPQ4/",
-     "title": "Recall alert: Popular blood pressure medication recalled - WSB-TV",
-     "outlet": "WSB-TV"
+     "url": "https://missouriindependent.com/2026/11/03/missouri-voters-approve-amendment-6-curbing-lawmakers-power-to-overturn-citizen-laws/",
+     "title": "Missouri voters approve Amendment 6, curbing lawmakers’ power to overturn citizen laws - Missouri Independent",
+     "outlet": "Missouri Independent"
     }
    ]
   },
@@ -805,8 +799,8 @@
    "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 32,
-   "article_count_1h": 3,
+   "article_count_24h": 22,
+   "article_count_1h": 2,
    "published": "2026-11-04T08:21:14+09:00",
    "category": "Health Insurance",
    "news": [
@@ -821,9 +815,9 @@
      "source": "Times-Citizen Communications"
     },
     {
-     "title": "Medicare Part D premiums projected to rise 50% in 2027 without plan switching: KFF - Fierce Healthcare",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSnZ6TTBXU1NDUnZJYlV0LWF3Ym9FemRyVXBJWGJaSjFzNDVsQ2dsVUNKXzFqcTJCMDgxUUpLazU2NnhxRWR4ZGRqUGlnNGI4eUpVMDJVMWZDWkFyNzYzcEh1cjZnNzJBcXJDRzNuRGlZWmdYN2JBUl9YWmUyRThrbC1iU3ExRDJVVjY5RW02czVDdmoyekl1TkxrY2xTZXRiWDJFcDZjbWRrTnFhZ0hzTzItX0I?oc=5",
-     "source": "Fierce Healthcare"
+     "title": "ACA and Medicare in 2027: What’s changing and how to prepare - KCRA",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdHdfaktGcXduYlRFZnhqUVFhQm9GeWF3Q2hvamljMHdqZ25DWllUUmVCcnl6bDdvRlhWQmF5OWg1ellrTGxFYS1xbHkzY09RNGNqcjNFb3YwU1RqV2NSaS11ZjYxSkRzQ29DcTUyVFl2dXYtczRhVTBBQks0YkZpRg?oc=5",
+     "source": "KCRA"
     },
     {
      "title": "Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you. - MarketWatch",
@@ -831,13 +825,13 @@
      "source": "MarketWatch"
     },
     {
-     "title": "Medicare Open Enrollment & Health Insurance Changes with Leanne Malone - WGNS Radio",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeVY0OC00Q0M4dGx4MkxXX0VfWi16NERvSGJJV0JiUVVrT3N5TXlXOVBOUmZlS3lLZ21tVUQtNVppaGJiX2prejJYSGhyNXdoWG4zWU9VMTY3Uk1iS2ltZEdDR29CSDNKZTdPaVUtdmdDZkl4eEJNNmJOUFl5cEhRRGtUNHB3aktPbDR0VkllbVRzM2VQVlloTjl4cHZMUmNZNWZ5a2RmcnZZMTYtY2c?oc=5",
-     "source": "WGNS Radio"
+     "title": "Medicare Drug Costs Are Rising 50 Percent for Seniors: What To Know - Newsweek",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc0doWjVFVVFCOWlXNEl2dzVhWlQwWE10TGozRjdyUGVBbUJJRWdhVGhHekZZTFZwc1hicE9pbC1nWmdOdS1qUmpHZ29FZEZqd2N6c0VsWktXR1RNcmdxb1AzYUNoSEtHSWFVTTF5cEJTWVRGRWRPNzVnWXltMzRIMVR1SVp0a3BhNmhhaHV3SXlZa1RYNV8wZ1EzWGJLYkQzeWc?oc=5",
+     "source": "Newsweek"
     }
    ],
    "official": false,
-   "score": 44.1,
+   "score": 39.9,
    "already_covered": false,
    "evidence": [
     {
@@ -851,14 +845,14 @@
      "outlet": "Times-Citizen Communications"
     },
     {
-     "url": "https://www.fiercehealthcare.com/payers/medicare-part-d-premiums-projected-rise-50-2027-without-plan-switching-kff",
-     "title": "Medicare Part D premiums projected to rise 50% in 2027 without plan switching: KFF - Fierce Healthcare",
-     "outlet": "Fierce Healthcare"
+     "url": "https://www.kcra.com/article/aca-marketplace-medicare-changes-2027/74297044",
+     "title": "ACA and Medicare in 2027: What’s changing and how to prepare - KCRA",
+     "outlet": "KCRA"
     },
     {
-     "url": "https://www.wgnsradio.com/article/101897/medicare-open-enrollment-health-insurance-changes-with-leanne-malone",
-     "title": "Medicare Open Enrollment & Health Insurance Changes with Leanne Malone - WGNS Radio",
-     "outlet": "WGNS Radio"
+     "url": "https://www.newsweek.com/medicare-drug-costs-are-rising-50-percent-for-seniors-what-to-know-12659531",
+     "title": "Medicare Drug Costs Are Rising 50 Percent for Seniors: What To Know - Newsweek",
+     "outlet": "Newsweek"
     }
    ]
   },
@@ -866,8 +860,8 @@
    "source": "google_news",
    "keyword": "federal holiday",
    "traffic": 0,
-   "article_count_24h": 61,
-   "article_count_1h": 8,
+   "article_count_24h": 56,
+   "article_count_1h": 7,
    "published": "2026-11-04T01:38:00+09:00",
    "category": "Holidays",
    "news": [
@@ -976,70 +970,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "ACA open enrollment",
-   "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 1,
-   "published": "2026-11-04T13:42:00+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "What to know about the Affordable Care Act's open enrollment period now underway - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYWtNSGxRRTl2TjhnblVSOWtZdkJDbGZ4eHhmSGhoUUxkZFdKai0yTVp6UFVBV2o5a2hnRnA5UzVWcDRCX3ZmalBtWmp4YXd1dXpHcWtEUm03aWVacnVhcm5ZZXlsLUZrVm4zelN4dWdabFljV04ya01ZZjlTckhjaUx6VWJFVm85d0Vtb09sNWNOZ2tkZUdORFJZNUZ0ZTVfMVBtaUt30gGrAUFVX3lxTFBaajVfZFRDVzVnRl9UTUc2WTVaaGdWSHh0ZjRUWkk4OEdKSFN1Tmw3dWc1WUZldktPN0N5YVNGOEIwMkVzZEFEMWZIZ08wR3pSX3prWlJNNEE1dGpRWFlaU1V0dmcxbnh2b09qcGxidXEtenRQMVZUN0FnX0FBanNNRjU1a3AxZmpXTXRNTHpqMzNiTm4yRDlvRHpFcjhyX21KMzB5WEFra19BYw?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "title": "With premiums on the rise, what to know as ACA coverage open enrollment begins - ABC11 News",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYzR6bHUwUmFXTk9Zc0Rjd2d6QVpEbHhjR3g2MjMxSEt1aTlRNnlTRThlUEYtSi0wTl9DNlA3dGxRMXhWcnBnSzVMWkZZN3FGd1U3WUJib3QycjFYTVk0RDdvTl9QOVdhWUNSaVdGTnBDSTQxNkF4OFZHRklXdktfT05oanVGaUk4VWp1ZjZwSXZmeEFBckstaA?oc=5",
-     "source": "ABC11 News"
-    },
-    {
-     "title": "Enrollment is open for Affordable Care Act coverage - The Taos News",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVkhVaE5JSnZVdmlzcGh6YWFwMjhnSmN5UjZUckZQZlNKR3IwMnRDbkRndEpWeG1vS1VIWUppMGZvdDc4MUQwU2ZqWGsyTFBkRmN1SXliQ0tzTUdJUjFydm9sVURSYmdvZ3QyY1UzV2twRTQwZ0sxcWlaQXhNblZLVFlCemRCUlNpQWhzeEVkQVlJOEZYWnU3eHJJQWp6Tnpocmlnc2hMajFsd0JLWURCRkZRMHBvMmxkT3ZRNUZ2UFNMZDgyMC1ta1g4cV9xSDlkU3FuUA?oc=5",
-     "source": "The Taos News"
-    },
-    {
-     "title": "Price Hikes And Fewer Options Mean Another Chaotic ACA Enrollment Period - Black America Web",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BaHp3blNOa1V6YkNBREhNLWVvZ1NFNnZybm5ZZ1BYcXFaR1lmWWsxOGcwa2QxNW1hTndMRmU0MU5jbFFYU1NBM2hSa0o4M1JGRHZURFRwTHhvb01rcEpJQ1ZaSHB0a0tWLUlHZG9rbVpTRDRaQmJQQThHRlMyZw?oc=5",
-     "source": "Black America Web"
-    },
-    {
-     "title": "Be Well ACA Open Enrollment - TelegraphHerald.com",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNW9ORmZuQ2JCb2VsN05PaTNzQnN0Mmh3VTVCUC00bWRXdEluVUlmczlkSk9fLS1vQ1B0VjNnQWhLY3haMTFJVklPSXdZZDdWUlF1ZzFIVEdZRHBBM1hzZUdvNWhqY0lOMjEyNG9aNWIzdmFPLW1vUVRfRmhPMFZhZlJTZnl2N3Q0MEdVTWF6aDJvWHQ5MXFJeQ?oc=5",
-     "source": "TelegraphHerald.com"
-    }
-   ],
-   "official": false,
-   "score": 35.7,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://abcnews.com/Health/wireStory/affordable-care-acts-open-enrollment-period-now-underway-137746299",
-     "title": "What to know about the Affordable Care Act's open enrollment period now underway - ABC News - Breaking News, Latest News and Videos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "url": "https://abc11.com/story/premiums-rise-what-know-aca-coverage-open-enrollment-begins/20009427/",
-     "title": "With premiums on the rise, what to know as ACA coverage open enrollment begins - ABC11 News",
-     "outlet": "ABC11 News"
-    },
-    {
-     "url": "https://www.taosnews.com/news/health/enrollment-is-open-for-affordable-care-act-coverage/article_a6b73950-5b24-5f22-94f1-c61971c41aa7.html",
-     "title": "Enrollment is open for Affordable Care Act coverage - The Taos News",
-     "outlet": "The Taos News"
-    },
-    {
-     "url": "https://blackamericaweb.com/2026/11/03/aca-enrollment-period-price-hikes/",
-     "title": "Price Hikes And Fewer Options Mean Another Chaotic ACA Enrollment Period - Black America Web",
-     "outlet": "Black America Web"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "REAL ID",
    "traffic": 0,
-   "article_count_24h": 39,
+   "article_count_24h": 20,
    "article_count_1h": 2,
    "published": "2026-11-04T06:04:48+09:00",
    "category": "Elections",
@@ -1055,19 +988,19 @@
      "source": "Asbury Park Press"
     },
     {
-     "title": "Colorado voters reject mail ballot ID requirements - Colorado Springs Gazette",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNUJYRV9nVWdJMHh6YVMyWFJLNk1yMlR3QjVhOXlnQUZLeml1SElMN0pZWlA5MTlCR0w0YUhlbGpETEZTMWQ5RE1TdDFpZjB6VG9FbHZHTzJQT081U2FYWjRjaUNna2hIMkhvVW9aTlVFNGk4NHJxTzJxUFBuUm5YZW9yWTVsM2c?oc=5",
-     "source": "Colorado Springs Gazette"
-    },
-    {
      "title": "Real ID before Thanksgiving: how to get it, fly without having one - PhillyBurbs",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcGZxZlZ6cHdHLWpnMGI5NF9Lc3ZsQkJLb1dKWlFTaUttaGRNM0lHSlY5dG9zY0hNRWtaRnNzckhZckZMRE9wRWJ6eEJkeWxPY2xOdUpCZ0dCWV9hajBybHFIOElHYTd0MHN0TUJSczRmSlhveGNqSXd4VlZrRTk3YlZRdWV5Q3lEXzlDa3hQb3NTZ3ZudFJvTUR3ZTVodmtGbmVPR2JZbXZSMWhaWTRZU0ItM0dMMDloZDEtTnREaWx3dldZYVdR?oc=5",
      "source": "PhillyBurbs"
     },
     {
-     "title": "Alexi Giannoulias wins reelection as Illinois Secretary of State, NBC News projects - NBC 5 Chicago",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZU9lMVZsSnhiWW5wZTJMemJTWFRDandrb2NfdjBSNEd6MXljNWJPUW1yTlh0Mnk2SzZONXRwbVhKcGdwcERyVHBRd2RON090dUgxZDdBdmlFcWstZDR3Z2k2R3c4U1lJa2RLOWUzTVphMnA1bTBhaXRjdG95blp0MXpPOTFtQTVhNzR4QUFURTc4WFBEN3NUcUZUX19mM2pkR01iS3lBVXE0UmxjUUtuZTA4SXE3V2paNVdiTmJmV2NVQlJZczY1TW50X0R0UUJaX2dyZ1p6Um5ITlN3WFU00gHnAUFVX3lxTE5vRk9Vby1tT1NoWVdkRDBMVi1ZMzgyLWI4RHZkLWR6d1drWDJvTnNkOEFlSGc3YnB4WGIxVnJHZzIxTjA0VEZVR2dUaU1fRGN2Wk02bTliMWFsb3FGSnhFWDJ2MFpMMDB5eUY1dWNadzZhYUgyNW5MOXpWLXh5VmpqM0dxNERDNFpCM2NCcDFoYjBuMnZaN1l4ZG5Bdi1VbUdDRlZUQW5CMWZRZ3VxdFkzLV9wYU9vNmVIV1gyZE5Bb0xHM296dzFxR2pFdlRqa2JCQ3BZTlljXzZDRTJQY0R1RmNIWlJ1QQ?oc=5",
-     "source": "NBC 5 Chicago"
+     "title": "What do I need to bring to vote in Wisconsin? How do I register? - Milwaukee Journal Sentinel",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcE9iTzJzODh0S1hwTmNSWjZsQVJYemRNTG45T2k1ZHVSVW1XWm81M3gxRTBabmgtSmdkWHMtWnRfWGx1aTFDU3BHVWhoX0xkUnpyY2xxUy1BMHFKU3ZUZDA5dG9NbGVUb3RfbUxMZHU0TThfSXlucnlHM2otSmtqcUg2UGRiRjh4Nll3R0xyR2ktNnlxdVNlYjVmYjVveDJyZkplRWJZMGhhV3d1RnMxSnY4bnpfbC1NZnRObHFIMEZKTVpjNDBLamZZTjZSTmQt?oc=5",
+     "source": "Milwaukee Journal Sentinel"
+    },
+    {
+     "title": "What do I need to bring to vote? Oklahoma polling locations, hours on Election Day - The Oklahoman",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOd3RfNVIwUV92ak5OQmVUTUxqdzhqZTlJVjJLNWFuVWtLQzRua0FMeUNuVGNic2pZWGtsV0NwVUtGeE1BZzVwU1EtUlpFTW1pVUdYWU1sZjVBQTlHdWRsZ3N5SXJlSFdNTTZRcXJyVnNaSGZKdU9PUDVYWVJWX053OGFYODFKNF9sa2c2NnVmVDRXM0p3R0hPR19iTEtCd0xMTmxXUjRhMVN1dDVZTERoLTVGUUtxY2VleHEzLXdBNEprcW56OUM2QzJ2allQdDlxV041YWFVa19BcGFhUUstNUVMNA?oc=5",
+     "source": "The Oklahoman"
     }
    ],
    "official": false,
@@ -1076,25 +1009,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "oakland county election results",
+   "keyword": "monmouth county election results",
    "traffic": 2000,
-   "published": "2026-11-04T19:50:00+09:00",
+   "published": "2026-11-04T20:20:00+09:00",
    "category": "Elections",
    "news": [
     {
-     "title": "Key Races: 2026 Michigan General Election Results",
-     "url": "https://www.clickondetroit.com/decision-2026/2026/11/02/key-races-2026-michigan-general-election-results/",
-     "source": "ClickOnDetroit | WDIV Local 4"
+     "title": "Election Day 2026 updates: Major upset in Monmouth?",
+     "url": "https://www.app.com/story/news/local/elections/2026/11/03/elections-nj-updates-asbury-park-press-monmouth-ocean-county-nj/92475709007/",
+     "source": "Asbury Park Press"
     },
     {
-     "title": "2026 Michigan election results for Oakland County races and proposals",
-     "url": "https://www.detroitnews.com/story/news/politics/elections/oakland-county/2026/11/03/oakland-county-election-results-november-3-2026/92566476007/",
-     "source": "The Detroit News"
+     "title": "Democrats sweep Monmouth County offices, ending 18-year Republican winning streak",
+     "url": "https://newjerseyglobe.com/fr/democrats-sweep-monmouth-county-offices-ending-18-year-republican-winning-streak/",
+     "source": "New Jersey Globe"
     },
     {
-     "title": "Election results for Kalamazoo-area races, proposals, Nov. 3, 2026",
-     "url": "https://www.mlive.com/news/kalamazoo/2026/11/election-results-for-kalamazoo-area-races-proposals-nov-3-2026.html",
-     "source": "MLive.com"
+     "title": "N.J. election day 2026: Monmouth County live results",
+     "url": "https://www.nj.com/monmouth/2026/11/nj-election-day-2026-monmouth-county-live-results.html",
+     "source": "NJ.com"
     }
    ],
    "official": false,
@@ -1104,18 +1037,144 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.clickondetroit.com/decision-2026/2026/11/02/key-races-2026-michigan-general-election-results/",
-     "title": "Key Races: 2026 Michigan General Election Results",
-     "outlet": "ClickOnDetroit | WDIV Local 4"
+     "url": "https://newjerseyglobe.com/fr/democrats-sweep-monmouth-county-offices-ending-18-year-republican-winning-streak/",
+     "title": "Democrats sweep Monmouth County offices, ending 18-year Republican winning streak",
+     "outlet": "New Jersey Globe"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "maine election results governor",
+   "traffic": 2000,
+   "published": "2026-11-04T20:20:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Maine 2026: Live Midterm Election Results",
+     "url": "https://www.nytimes.com/interactive/2026/11/03/us/elections/results-maine.html",
+     "source": "The New York Times"
+    },
+    {
+     "title": "Live Maine Results | Elections 2026",
+     "url": "https://www.pbs.org/newshour/elections-2026/results/maine",
+     "source": "PBS"
+    },
+    {
+     "title": "Election results: Races in central and western Maine counties",
+     "url": "https://www.wmtw.com/article/maine-2026-election-results-androscoggin-oxford-kennebec-franklin-counties/74297828",
+     "source": "WMTW"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 32.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.pbs.org/newshour/elections-2026/results/maine",
+     "title": "Live Maine Results | Elections 2026",
+     "outlet": "PBS"
+    },
+    {
+     "url": "https://www.wmtw.com/article/maine-2026-election-results-androscoggin-oxford-kennebec-franklin-counties/74297828",
+     "title": "Election results: Races in central and western Maine counties",
+     "outlet": "WMTW"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "south carolina election results 2026",
+   "traffic": 2000,
+   "published": "2026-11-04T20:20:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "South Carolina U.S. House Election Live Results 2026",
+     "url": "https://apnews.com/projects/elections-2026/south-carolina-us-house-results/",
+     "source": "AP News"
+    },
+    {
+     "title": "Live South Carolina Results | Elections 2026",
+     "url": "https://www.pbs.org/newshour/elections-2026/results/south-carolina",
+     "source": "PBS"
+    },
+    {
+     "title": "Top races to watch in South Carolina, North Carolina",
+     "url": "https://www.wyff4.com/article/south-carolina-key-races-election-day/74322615",
+     "source": "WYFF"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 32.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://apnews.com/projects/elections-2026/south-carolina-us-house-results/",
+     "title": "South Carolina U.S. House Election Live Results 2026",
+     "outlet": "AP News"
+    },
+    {
+     "url": "https://www.pbs.org/newshour/elections-2026/results/south-carolina",
+     "title": "Live South Carolina Results | Elections 2026",
+     "outlet": "PBS"
+    },
+    {
+     "url": "https://www.wyff4.com/article/south-carolina-key-races-election-day/74322615",
+     "title": "Top races to watch in South Carolina, North Carolina",
+     "outlet": "WYFF"
     }
    ]
   },
   {
    "source": "google_news",
+   "keyword": "ACA open enrollment",
+   "traffic": 0,
+   "article_count_24h": 11,
+   "article_count_1h": 0,
+   "published": "2026-11-04T13:42:00+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "What to know about the Affordable Care Act's open enrollment period now underway - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYWtNSGxRRTl2TjhnblVSOWtZdkJDbGZ4eHhmSGhoUUxkZFdKai0yTVp6UFVBV2o5a2hnRnA5UzVWcDRCX3ZmalBtWmp4YXd1dXpHcWtEUm03aWVacnVhcm5ZZXlsLUZrVm4zelN4dWdabFljV04ya01ZZjlTckhjaUx6VWJFVm85d0Vtb09sNWNOZ2tkZUdORFJZNUZ0ZTVfMVBtaUt30gGrAUFVX3lxTFBaajVfZFRDVzVnRl9UTUc2WTVaaGdWSHh0ZjRUWkk4OEdKSFN1Tmw3dWc1WUZldktPN0N5YVNGOEIwMkVzZEFEMWZIZ08wR3pSX3prWlJNNEE1dGpRWFlaU1V0dmcxbnh2b09qcGxidXEtenRQMVZUN0FnX0FBanNNRjU1a3AxZmpXTXRNTHpqMzNiTm4yRDlvRHpFcjhyX21KMzB5WEFra19BYw?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "title": "ACA and Medicare in 2027: What’s changing and how to prepare - KCRA",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdHdfaktGcXduYlRFZnhqUVFhQm9GeWF3Q2hvamljMHdqZ25DWllUUmVCcnl6bDdvRlhWQmF5OWg1ellrTGxFYS1xbHkzY09RNGNqcjNFb3YwU1RqV2NSaS11ZjYxSkRzQ29DcTUyVFl2dXYtczRhVTBBQks0YkZpRg?oc=5",
+     "source": "KCRA"
+    },
+    {
+     "title": "With premiums on the rise, what to know as ACA coverage open enrollment begins - Rural Radio Network",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdlJGWUYyRFVQUlB3aVZlY2xpNk9pOHVjT2xSZ0ZsUmxBU1hCS2RoOU42OEFWaFZEUjByaXM5VnQwQS0yYkluc2pyYzAyYmc2OE1RSmV5ZWVBYlk2T2N3VzNobnVOZjJSSnhiajJzeUVoaXdnS2NFYWpycU5YYVdnd0dta0k5MTFYSzE5YjQ3dTFzU0lCS0E0Qzh6Z0JzYl84NUtYQTNWMGpaU0NaRGdDTnRXLThXSTduODNMMmNvSnhfMzg4ZzQ0?oc=5",
+     "source": "Rural Radio Network"
+    },
+    {
+     "title": "Enrollment is open for Affordable Care Act coverage - The Taos News",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVkhVaE5JSnZVdmlzcGh6YWFwMjhnSmN5UjZUckZQZlNKR3IwMnRDbkRndEpWeG1vS1VIWUppMGZvdDc4MUQwU2ZqWGsyTFBkRmN1SXliQ0tzTUdJUjFydm9sVURSYmdvZ3QyY1UzV2twRTQwZ0sxcWlaQXhNblZLVFlCemRCUlNpQWhzeEVkQVlJOEZYWnU3eHJJQWp6Tnpocmlnc2hMajFsd0JLWURCRkZRMHBvMmxkT3ZRNUZ2UFNMZDgyMC1ta1g4cV9xSDlkU3FuUA?oc=5",
+     "source": "The Taos News"
+    },
+    {
+     "title": "Price Hikes And Fewer Options Mean Another Chaotic ACA Enrollment Period - Black America Web",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BaHp3blNOa1V6YkNBREhNLWVvZ1NFNnZybm5ZZ1BYcXFaR1lmWWsxOGcwa2QxNW1hTndMRmU0MU5jbFFYU1NBM2hSa0o4M1JGRHZURFRwTHhvb01rcEpJQ1ZaSHB0a0tWLUlHZG9rbVpTRDRaQmJQQThHRlMyZw?oc=5",
+     "source": "Black America Web"
+    }
+   ],
+   "official": false,
+   "score": 31.5,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 53,
-   "article_count_1h": 0,
+   "article_count_24h": 52,
+   "article_count_1h": 1,
    "published": "2026-11-04T02:58:33+09:00",
    "category": "Recalls",
    "news": [
@@ -1140,158 +1199,25 @@
      "source": "Transport Evolved"
     },
     {
-     "title": "Once Upon a Farm Recalls Tractor Wheels Toddler Snacks Due to Choking Hazard - Consumer Reports",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbmdUZTMwd2t3ZVlra0FSb0drdFczVENTZWo5V1Q2UTd3SkJqZjc1TFlkMkJYdGNxOUQxekpQQmVoOHZEQVI4aWpfQUs3WkkwZGZZQkRKMTFUbXp5NnYxTXh5TEJHTGNhWEhMdHFKZElXV3N5R1FFcjJVQ21ZYjRJWXdka3ZrSDROZ2J0ZDd4am5DQjEzNllNb3dlODkxZmU3NUFORjRRWHZhN3JXYThiZThkbG5fa0U?oc=5",
-     "source": "Consumer Reports"
+     "title": "Is Toyota Planning an Off-Road Sienna? - The Progress",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUjBVVmVOQ2ZWR1IxaUFXNkhUeXc4S0t6anJjTkR2OTNFV0xZVGhOQ01EdWdyc2M4SzNzYXN3TldNTUxrclJwMEk1bm93V3J6MHJPMmhjLUtYN1dYRjdGVE1hT1hhaE54V2V5aUV0a0tpN2QwSVhfaV9ReEhqN3k3NFNoWnhCZmxYVG9XdHpRTEF4RENUWGtHRXR2aTkyanNlSDd0S3QzcGZsOExpYTZEVWFKWUtrZXNMVDBOWE9qR2s?oc=5",
+     "source": "The Progress"
     }
    ],
    "official": false,
-   "score": 27.3,
+   "score": 30.9,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "guilford county election results",
-   "traffic": 100,
-   "published": "2026-11-04T19:50:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Guilford County race results 2026 | Board of Commissioners, Board of Education, Sheriff",
-     "url": "https://www.wxii12.com/article/north-carolina-election-results-2026-guilford-county/74163065",
-     "source": "WXII"
-    },
-    {
-     "title": "Key Guilford County races to watch in the midterm elections",
-     "url": "https://www.yahoo.com/news/videos/key-guilford-county-races-watch-112807488.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "Democrats unseat Republicans in several Guilford County races. See the full results.",
-     "url": "https://greensboro.com/news/local/government-politics/elections/article_71321080-814e-49cb-b3ba-50c07eafd94f.html",
-     "source": "Greensboro News and Record"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.wxii12.com/article/north-carolina-election-results-2026-guilford-county/74163065",
-     "title": "Guilford County race results 2026 | Board of Commissioners, Board of Education, Sheriff",
-     "outlet": "WXII"
-    },
-    {
-     "url": "https://www.yahoo.com/news/videos/key-guilford-county-races-watch-112807488.html",
-     "title": "Key Guilford County races to watch in the midterm elections",
-     "outlet": "Yahoo"
-    },
-    {
-     "url": "https://greensboro.com/news/local/government-politics/elections/article_71321080-814e-49cb-b3ba-50c07eafd94f.html",
-     "title": "Democrats unseat Republicans in several Guilford County races. See the full results.",
-     "outlet": "Greensboro News and Record"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "callie barr",
-   "traffic": 100,
-   "published": "2026-11-04T19:50:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Republican Jack Bergman wins reelection in Michigan's 1st Congressional District",
-     "url": "https://upnorthlive.com/news/local/republican-jack-bergman-wins-reelection-in-michigans-1st-congressional-district-midterm-election-results-upnorthlive",
-     "source": "WPBN"
-    },
-    {
-     "title": "Bergman defeats Barr once more, winning 6th term representing Michigan’s 1st Congressional District",
-     "url": "https://www.yahoo.com/news/politics/articles/bergman-defeats-barr-once-more-075133917.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "Jack Bergman Wins Re-Election in Michigan’s 1st Congressional District",
-     "url": "https://www.9and10news.com/2026/11/04/jack-bergman-wins-re-election-in-michigans-1st-congressional-district/",
-     "source": "9and10News.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://upnorthlive.com/news/local/republican-jack-bergman-wins-reelection-in-michigans-1st-congressional-district-midterm-election-results-upnorthlive",
-     "title": "Republican Jack Bergman wins reelection in Michigan's 1st Congressional District",
-     "outlet": "WPBN"
-    },
-    {
-     "url": "https://www.yahoo.com/news/politics/articles/bergman-defeats-barr-once-more-075133917.html",
-     "title": "Bergman defeats Barr once more, winning 6th term representing Michigan’s 1st Congressional District",
-     "outlet": "Yahoo"
-    },
-    {
-     "url": "https://www.9and10news.com/2026/11/04/jack-bergman-wins-re-election-in-michigans-1st-congressional-district/",
-     "title": "Jack Bergman Wins Re-Election in Michigan’s 1st Congressional District",
-     "outlet": "9and10News.com"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "john frieda",
-   "traffic": 100,
-   "published": "2026-11-04T19:50:00+09:00",
+   "keyword": "baltimore county election results",
+   "traffic": 200,
+   "published": "2026-11-04T20:20:00+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "Celebrity hairstylist John Frieda dies aged 75",
-     "url": "https://www.bbc.com/news/articles/crlykl5gl3x4o",
-     "source": "BBC"
-    },
-    {
-     "title": "‘A true icon of the hair industry’: Celebrity hairstylist John Frieda dies aged 75",
-     "url": "https://www.theguardian.com/lifeandstyle/2026/nov/04/celebrity-hairstylist-john-frieda-dies-aged-75",
-     "source": "The Guardian"
-    },
-    {
-     "title": "John Frieda, Celebrity Hair Stylist and Hair Care Business Entrepreneur, Dies at 75",
-     "url": "https://people.com/john-frieda-celebrity-hair-stylist-dies-at-75-12235362",
-     "source": "People.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 23.2,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.bbc.com/news/articles/crlykl5gl3x4o",
-     "title": "Celebrity hairstylist John Frieda dies aged 75",
-     "outlet": "BBC"
-    },
-    {
-     "url": "https://www.theguardian.com/lifeandstyle/2026/nov/04/celebrity-hairstylist-john-frieda-dies-aged-75",
-     "title": "‘A true icon of the hair industry’: Celebrity hairstylist John Frieda dies aged 75",
-     "outlet": "The Guardian"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "harford county election results",
-   "traffic": 100,
-   "published": "2026-11-04T19:40:00+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Election Results: Baltimore County executive race",
-     "url": "https://www.wbaltv.com/article/election-results-2026-baltimore-county-executive/74110926",
+     "title": "Election Results: County Executive Races",
+     "url": "https://www.wbaltv.com/article/election-results-2026-maryland-county-executive-races/74110923",
      "source": "WBAL-TV"
     },
     {
@@ -1308,58 +1234,121 @@
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 23.2,
-   "already_covered": false
+   "score": 24.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.wbaltv.com/article/election-results-2026-maryland-county-executive-races/74110923",
+     "title": "Election Results: County Executive Races",
+     "outlet": "WBAL-TV"
+    },
+    {
+     "url": "https://foxbaltimore.com/news/local/democrat-julian-jones-becomes-first-black-county-executive-for-baltimore-county",
+     "title": "Democrat Julian Jones becomes first Black county executive for Baltimore County",
+     "outlet": "WBFF"
+    },
+    {
+     "url": "https://www.baltimoresun.com/2026/11/04/baltimore-county-council-results-election/",
+     "title": "Historic wins reshape Baltimore County Council as Democrats maintain control",
+     "outlet": "Baltimore Sun"
+    }
+   ]
   },
   {
    "source": "google_trends",
-   "keyword": "dutchess county election results",
-   "traffic": 200,
-   "published": "2026-11-04T19:40:00+09:00",
+   "keyword": "anne arundel county election results",
+   "traffic": 100,
+   "published": "2026-11-04T20:20:00+09:00",
    "category": "Elections",
    "news": [
     {
-     "title": "Latest Election Day 2026 news, results, live updates from Poughkeepsie",
-     "url": "https://www.poughkeepsiejournal.com/story/news/politics/elections/2026/11/03/election-day-2026-poughkeepsie-ny-news-results-live-updates--live/92557321007/",
-     "source": "The Poughkeepsie Journal"
+     "title": "Anne Arundel County: Election results 2026",
+     "url": "https://www.thebanner.com/politics-power/anne-arundel-county-election-results-2026-RWDWRSXZTBH5NOLTCN4G722LAQ/",
+     "source": "The Baltimore Banner"
     },
     {
-     "title": "Election 2026: All the Ulster, Northern Dutchess election results at a glance",
-     "url": "https://www.dailyfreeman.com/2026/11/04/election-2026-all-the-ulster-northern-dutchess-election-results-at-a-glance/",
-     "source": "Daily Freeman"
+     "title": "LIVE ELECTION RESULTS 2026: Anne Arundel County, Maryland, and Federal",
+     "url": "https://www.eyeonannapolis.net/2026/11/live-election-results-2026-anne-arundel-county-maryland-and-federal/",
+     "source": "Eye On Annapolis"
     },
     {
-     "title": "Live: Putnam Election Results",
-     "url": "https://highlandscurrent.org/2026/11/03/live-putnam-election-results/",
-     "source": "Highlands Current"
+     "title": "Anne Arundel County elects new executive, welcomes 5 new council members in historic shift",
+     "url": "https://www.wmar2news.com/local/anne-arundel-county-elects-new-executive-welcomes-5-new-council-members-in-historic-shift",
+     "source": "WMAR 2 News Baltimore"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 20.8,
+   "score": 20.2,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.thebanner.com/politics-power/anne-arundel-county-election-results-2026-RWDWRSXZTBH5NOLTCN4G722LAQ/",
+     "title": "Anne Arundel County: Election results 2026",
+     "outlet": "The Baltimore Banner"
+    },
+    {
+     "url": "https://www.eyeonannapolis.net/2026/11/live-election-results-2026-anne-arundel-county-maryland-and-federal/",
+     "title": "LIVE ELECTION RESULTS 2026: Anne Arundel County, Maryland, and Federal",
+     "outlet": "Eye On Annapolis"
+    },
+    {
+     "url": "https://www.wmar2news.com/local/anne-arundel-county-elects-new-executive-welcomes-5-new-council-members-in-historic-shift",
+     "title": "Anne Arundel County elects new executive, welcomes 5 new council members in historic shift",
+     "outlet": "WMAR 2 News Baltimore"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "pickerington school levy",
+   "traffic": 100,
+   "published": "2026-11-04T20:20:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Ohio school levy election results 2026 | Central Ohio school and local tax issues",
+     "url": "https://www.10tv.com/article/news/politics/elections/election-results-ohio-school-tax-levy/530-558f8ea2-b73f-4cd5-9685-3475831a173a",
+     "source": "10TV"
+    },
+    {
+     "title": "Columbus-area school ballot issues: Results for November 2026",
+     "url": "https://www.nbc4i.com/news/your-local-election-hq/columbus-area-school-ballot-issues-live-results-for-november-2026/",
+     "source": "NBC4 WCMH-TV"
+    },
+    {
+     "title": "Which local school levies passed and failed",
+     "url": "https://www.wvxu.org/education/2026-11-03/which-local-school-levies-passed-and-failed",
+     "source": "WVXU"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 20.2,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "wavy 10",
+   "keyword": "monroe county election results",
    "traffic": 100,
-   "published": "2026-11-04T19:50:00+09:00",
+   "published": "2026-11-04T20:20:00+09:00",
    "category": "Elections",
    "news": [
     {
-     "title": "Who won on Virginia Beach City Council?",
-     "url": "https://www.13newsnow.com/article/news/politics/elections/virginia-beach-city-council-race-results-2026-election-live/291-f19d4a5e-0595-4aca-9b41-09df31ddc512",
-     "source": "13newsnow.com"
+     "title": "Monroe County town supervisor races see potential upsets",
+     "url": "https://www.rochesterfirst.com/news/your-local-election-hq/monroe-county-town-supervisor-results/",
+     "source": "RochesterFirst"
     },
     {
-     "title": "Virginia Beach: November 2026 Election Results",
-     "url": "https://www.wavy.com/news/local-news/virginia-beach/virginia-beach-november-2026-election-results/",
-     "source": "WAVY.com"
+     "title": "Results from town and village races across Monroe County",
+     "url": "https://www.wxxinews.org/local-news/2026-11-03/results-from-town-and-village-races-across-monroe-county",
+     "source": "WXXI News"
     },
     {
-     "title": "Virginia Beach voters decide on city council seats",
-     "url": "https://www.yahoo.com/news/videos/virginia-beach-voters-decide-city-051222397.html",
+     "title": "Monroe County Democrats hold onto 2025 gains",
+     "url": "https://www.yahoo.com/news/politics/articles/monroe-county-democrats-hold-onto-074447216.html",
      "source": "Yahoo"
     }
    ],
@@ -1370,10 +1359,136 @@
    "already_covered": false
   },
   {
+   "source": "google_trends",
+   "keyword": "volusia county election results",
+   "traffic": 100,
+   "published": "2026-11-04T20:20:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "RESULTS: Volusia County races | Florida midterm election",
+     "url": "https://www.wesh.com/article/florida-election-results-volusia-county-2026/74263898",
+     "source": "WESH"
+    },
+    {
+     "title": "Voters across Volusia County cast ballots on Election Day",
+     "url": "https://www.news-journalonline.com/picture-gallery/news/politics/elections/2026/11/03/volusia-county-voters-election-day/92587979007/",
+     "source": "Daytona Beach News-Journal"
+    },
+    {
+     "title": "Four Volusia County Council seats were up for grabs. Who won?",
+     "url": "https://www.yahoo.com/news/politics/articles/four-volusia-county-council-seats-031624813.html",
+     "source": "Yahoo"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 20.2,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "summit county election results",
+   "traffic": 100,
+   "published": "2026-11-04T20:10:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "2026 election results for Summit County judge races",
+     "url": "https://signalakron.org/summit-county-judge-races-election-results-november-2026/",
+     "source": "Signal Akron"
+    },
+    {
+     "title": "Democrats win in all but 2 contested Summit judge races",
+     "url": "https://www.beaconjournal.com/story/news/politics/elections/county/2026/11/03/summit-county-judge-races-election-results/92381922007/",
+     "source": "Akron Beacon Journal"
+    },
+    {
+     "title": "Democrats are leading in contested Summit County judge races",
+     "url": "https://www.centredaily.com/news/nation-world/national/article317911378.html",
+     "source": "Centre Daily Times"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 20.2,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "kane county election results",
+   "traffic": 100,
+   "published": "2026-11-04T20:10:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Penny Wegman in lead in Kane County treasurer’s race",
+     "url": "https://www.chicagotribune.com/2026/11/04/kane-county-treasurer-election-results/",
+     "source": "Chicago Tribune"
+    },
+    {
+     "title": "Kankakee County voters decide fate of local ballot initiatives",
+     "url": "https://www.shawlocal.com/daily-journal/2026/11/04/kankakee-county-voters-decide-fate-of-local-ballot-initiatives/",
+     "source": "Shaw Local"
+    },
+    {
+     "title": "Kane County Treasurer Candidates Visit Campus",
+     "url": "https://elginobserver.com/25469/news/kane-county-treasurer-candidates-visit-campus/",
+     "source": "Observer"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 20.2,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "FAFSA",
+   "traffic": 0,
+   "article_count_24h": 5,
+   "article_count_1h": 0,
+   "published": "2026-11-04T02:27:00+09:00",
+   "category": "Student Aid",
+   "news": [
+    {
+     "title": "Sidney High School to host FAFSA night - Sidney Daily News",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jSEI5cS15alJGdHd6el9IN1VEQjNnSVl5TjFYMHlYQ1VmWHpIT1lZdmNsOG5pYU91N3NOVnVORDNfNVJyejgzbUg0VU1OWm0zSVRHd2NTWjdSdWE2UEJVeF9TQWctUHNncGdINldLTzd1RjBNUXJrSw?oc=5",
+     "source": "Sidney Daily News"
+    },
+    {
+     "title": "PHEAA Offers Free Financial Aid Webinars During November - Beaver County Radio",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNampGLTMxMnFUcEU4aVJ0Z2xXU2FxZHhaNV9aNmVfN0o0M1JIcGhFeDVtZHdqZFhfTWtmLVAxanpQdE96SE81WEgwM1dEWHFKN005S2ZjcVJGSXZfSEI0UkI3ZjZWMUZDMXJTRmpTajAxcExFRDVRczJod0JHLW5va083RUxFTUN4RHl1VEFBNGZ1OGZSUGE0?oc=5",
+     "source": "Beaver County Radio"
+    },
+    {
+     "title": "PHEAA Offers Free Financial Aid Webinars During November - PennWatch",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcnBwZjhCWDRkMnpYNGZBRTRMZDZrVHJpUVBnN1YxMjUtNEtaUmE4c2F2NlZMU3JfblYwWDVkd0xYS3VNc2kxdHpaeHN6R3hERWlPV0Y4aW1xUFlURk83Mk83Z1N0WkZNS3FtQk1yTFc1akU0VXJRMVJvQ1ZxUXh6ekF1LVBVUQ?oc=5",
+     "source": "PennWatch"
+    },
+    {
+     "title": "Arizona election results 2026: scenes from Election Day - Cronkite News",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT1pabE1EUXJqVUZoRzJYNWNKSVlVUDVya1hIcVN3RldGS0VYN2trSkN3QnFVV3U5cElaaUdLdVJMQjB2Qndkcjc3SkRHdjZUc0hUUFhQQjh5YjFqWGV1OTVWZVMweFVNZ2RHb09XMHdrQ1NtQmEwQlZ6cEh3b3o3aW9xUlBJdE1rOC1sQjNB?oc=5",
+     "source": "Cronkite News"
+    },
+    {
+     "title": "Governor Hochul Announces Higher Education Services 2025-26 Annual Report, Highlighting A Year Of Progress In College Affordability And Access - LongIsland.com",
+     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVk1NUnE1UXFhQ0pFTU4zQ3ZuNVRLQjdsaFczSEFSOTY1Z0VSTlYtUzdxOUppb2UzcVZTUTdEejVTRlliaGNwSnM2MTMwZGJrTEQyMFNuUzNYaWNUUTMxdzFGRXBjZ1MtYXJUblkzUXNkUnBtSXBhXzNabXUyM3FnZWZTTE1WNzhfVkdVU3VUNkRnckVVYU1BN05GTnI1LWhkdHl3TVRrUjlPTW42RURmaTRQX2lkdlBfcktPZWR2WVo0d2dUal9YUlVMZlJZS3o2eDhjZzdmazBCbFJGakJTNVFRYUhNN1oydnZ4REVRZEJaMl9CUUdSc3NnUXMxRk9pQnR0NERfS2pqRGZwWGlYQ0Q2ZTExdw?oc=5",
+     "source": "LongIsland.com"
+    }
+   ],
+   "official": false,
+   "score": 14.7,
+   "already_covered": true
+  },
+  {
    "source": "google_news",
    "keyword": "stimulus check",
    "traffic": 0,
-   "article_count_24h": 4,
+   "article_count_24h": 3,
    "article_count_1h": 0,
    "published": "2026-11-04T16:21:57+09:00",
    "category": "Benefits",
@@ -1392,141 +1507,10 @@
      "title": "Official | A major US state will deposit $1,200 into residents’ bank accounts in November 2026 - El Cronista",
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVGFUSE9BcWNnRGwwdGpXaklmbG43QjRtR0VMN3EtanZCNkZyeEJMX2VhM3FWd2g5M2xJRC1ESXR5S19RanFQOVAwWDlSb1FGcXd5Y1pGSmtCMHRfbWtUQmZtWkNvOE5HUGZCR211cGlWZkIyNG16ZHViMlFCZ0pVNC00YV93UTRrNHJZR2pZRTEyb0U2ZGpEaFBlNjRES3AtSXZFc081eEFiMzNGVjNiVXVxbWxVZFFQcHl3RVlscWNTMnBNMGQzblMyU0dtWkk?oc=5",
      "source": "El Cronista"
-    },
-    {
-     "title": "Could Social Security Recipients Get a $3,550 Stimulus Payment? Here’s What You Need To Know - FinanceBuzz",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1OSVVudF9xUFlpdTZDLXA3b2k3VzF3ZktpOUVCMFRMMDFNYjhWXzRLUVpsNGRNQ2hLSFRURlE0dWhtQzlQeFR4QmZHT05uY0hMM2g5ZEYxdHhMX1JXV2t0V2Z4anRJeVZNZkxRZ2NtdVV0U2xBSEE?oc=5",
-     "source": "FinanceBuzz"
     }
    ],
    "official": false,
-   "score": 19.2,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "FAFSA",
-   "traffic": 0,
-   "article_count_24h": 5,
-   "article_count_1h": 0,
-   "published": "2026-11-04T02:27:00+09:00",
-   "category": "Student Aid",
-   "news": [
-    {
-     "title": "Sidney High School to host FAFSA night - Sidney Daily News",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jSEI5cS15alJGdHd6el9IN1VEQjNnSVl5TjFYMHlYQ1VmWHpIT1lZdmNsOG5pYU91N3NOVnVORDNfNVJyejgzbUg0VU1OWm0zSVRHd2NTWjdSdWE2UEJVeF9TQWctUHNncGdINldLTzd1RjBNUXJrSw?oc=5",
-     "source": "Sidney Daily News"
-    },
-    {
-     "title": "PHEAA Offers Free Financial Aid Webinars During November - PennWatch",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcnBwZjhCWDRkMnpYNGZBRTRMZDZrVHJpUVBnN1YxMjUtNEtaUmE4c2F2NlZMU3JfblYwWDVkd0xYS3VNc2kxdHpaeHN6R3hERWlPV0Y4aW1xUFlURk83Mk83Z1N0WkZNS3FtQk1yTFc1akU0VXJRMVJvQ1ZxUXh6ekF1LVBVUQ?oc=5",
-     "source": "PennWatch"
-    },
-    {
-     "title": "PHEAA Offers Free Financial Aid Webinars During November - Beaver County Radio",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNampGLTMxMnFUcEU4aVJ0Z2xXU2FxZHhaNV9aNmVfN0o0M1JIcGhFeDVtZHdqZFhfTWtmLVAxanpQdE96SE81WEgwM1dEWHFKN005S2ZjcVJGSXZfSEI0UkI3ZjZWMUZDMXJTRmpTajAxcExFRDVRczJod0JHLW5va083RUxFTUN4RHl1VEFBNGZ1OGZSUGE0?oc=5",
-     "source": "Beaver County Radio"
-    },
-    {
-     "title": "Arizona election results 2026: scenes from Election Day - Cronkite News",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT1pabE1EUXJqVUZoRzJYNWNKSVlVUDVya1hIcVN3RldGS0VYN2trSkN3QnFVV3U5cElaaUdLdVJMQjB2Qndkcjc3SkRHdjZUc0hUUFhQQjh5YjFqWGV1OTVWZVMweFVNZ2RHb09XMHdrQ1NtQmEwQlZ6cEh3b3o3aW9xUlBJdE1rOC1sQjNB?oc=5",
-     "source": "Cronkite News"
-    },
-    {
-     "title": "Governor Hochul Announces Higher Education Services 2025-26 Annual Report, Highlighting A Year Of Progress In College Affordability And Access - LongIsland.com",
-     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVk1NUnE1UXFhQ0pFTU4zQ3ZuNVRLQjdsaFczSEFSOTY1Z0VSTlYtUzdxOUppb2UzcVZTUTdEejVTRlliaGNwSnM2MTMwZGJrTEQyMFNuUzNYaWNUUTMxdzFGRXBjZ1MtYXJUblkzUXNkUnBtSXBhXzNabXUyM3FnZWZTTE1WNzhfVkdVU3VUNkRnckVVYU1BN05GTnI1LWhkdHl3TVRrUjlPTW42RURmaTRQX2lkdlBfcktPZWR2WVo0d2dUal9YUlVMZlJZS3o2eDhjZzdmazBCbFJGakJTNVFRYUhNN1oydnZ4REVRZEJaMl9CUUdSc3NnUXMxRk9pQnR0NERfS2pqRGZwWGlYQ0Q2ZTExdw?oc=5",
-     "source": "LongIsland.com"
-    }
-   ],
-   "official": false,
-   "score": 14.7,
-   "already_covered": true
-  },
-  {
-   "source": "google_trends",
-   "keyword": "dewanna bonner wnba finals reaction",
-   "traffic": 500,
-   "published": "2026-11-04T19:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "DeWanna Bonner Faces Tough WNBA Career Decision After Dream’s Finals Defeat",
-     "url": "https://www.si.com/onsi/womens-fastbreak/wnba/dewanna-bonner-faces-tough-wnba-career-decision-after-dream-s-finals-defeat-01m6e3d8w928",
-     "source": "Sports Illustrated"
-    },
-    {
-     "title": "DeWanna Bonner News Announced as Dream Lose WNBA Finals",
-     "url": "https://athlonsports.com/wnba/atlanta-dream/dewanna-bonner-news-announced-wnba-finals",
-     "source": "Athlon Sports"
-    },
-    {
-     "title": "‘Ring Chasers Will Not Be Rewarded,’ ‘Left Her Team To Lose Again’ – WNBA Fans Troll DeWanna Bonner After Dream’s Championship Loss vs. Valkyries",
-     "url": "https://www.aol.com/articles/ring-chasers-not-rewarded-left-163809000.html",
-     "source": "AOL.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "arthur rinderknech",
-   "traffic": 100,
-   "published": "2026-11-04T19:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Mattia Bellucci v Arthur Rinderknech Odds",
-     "url": "https://sportsbook.fanduel.com/tennis/atp-paris-2026/mattia-bellucci-v-arthur-rinderknech-36275536",
-     "source": "FanDuel Sportsbook"
-    },
-    {
-     "title": "Arthur Rinderknech vs Mattia Bellucci Prediction - November 4, 2026",
-     "url": "https://ats.io/matchup/tennis/arthur-rinderknech-vs-mattia-bellucci-prediction-04-11-2026/",
-     "source": "ATS.io"
-    },
-    {
-     "title": "Mattia Bellucci vs. Arthur Rinderknech prediction, odds, picks for ATP Paris Masters 2026",
-     "url": "https://www.dimers.com/tennis/news/mattia-bellucci-vs-arthur-rinderknech-tennis-prediction-atp-paris-masters-2026-ac",
-     "source": "Dimers"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "el niño",
-   "traffic": 100,
-   "published": "2026-11-04T19:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "The ripple effect of El Niño: What does it mean and how does it impact the world's economy?",
-     "url": "https://www.foxweather.com/weather-news/ripple-effect-el-nino-what-mean-how-impact-world-economy",
-     "source": "FOX Weather"
-    },
-    {
-     "title": "El Nino poses 'meaningful risk' of higher inflation in 2027, SF Fed paper says",
-     "url": "https://www.reuters.com/markets/us/el-nino-poses-meaningful-risk-higher-inflation-2027-sf-fed-paper-says-2026-11-02/",
-     "source": "Reuters"
-    },
-    {
-     "title": "El Niño Could Raise US Inflation, Boost Jobs in 2027, Fed Study Says",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-02/el-nino-could-raise-us-inflation-boost-jobs-in-2027-fed-study",
-     "source": "Bloomberg.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
+   "score": 14.4,
    "already_covered": false
   }
  ]
