@@ -1,26 +1,71 @@
 {
- "generated_at": "2026-11-05T12:11:38.263177+09:00",
+ "generated_at": "2026-11-05T12:39:21.619757+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 70, 실패 35)"
+  "evidence": "ok (저장 71, 실패 35)"
  },
  "compared_runs": 6,
  "spikes": [
   "social security COLA",
-  "milwaukee bucks vs boston celtics match player stats",
-  "zilla fatu",
-  "heat vs clippers",
-  "uic police activity",
-  "is cruz leaving chicago fire",
-  "ausar thompson",
-  "the day after tomorrow",
-  "derrick white",
-  "lakers - kings",
-  "lauren sánchez bezos"
+  "nets",
+  "ban vs wi",
+  "teresa benitez thompson",
+  "martha maccallum",
+  "mark kelly",
+  "ayo dosunmu",
+  "energy drinks",
+  "liam neeson",
+  "tobias harris",
+  "harrison barnes"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-05T12:39:21.639429+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -3,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-05T12:39:21.639452+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -3,
+   "in_window": true
+  },
   {
    "source": "google_news",
    "keyword": "social security COLA",
@@ -57,9 +102,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 0.7→4건 (3.0배)",
-   "spike_bonus": 30.0,
-   "score": 85.1,
+   "spike": "최근 1시간 기사 0.8→4건 (2.7배)",
+   "spike_bonus": 27.3,
+   "score": 82.1,
    "already_covered": false,
    "evidence": [
     {
@@ -85,154 +130,18 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-05T12:11:38.301955+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -3,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-05T12:11:38.301983+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -3,
-   "in_window": true
-  },
-  {
-   "source": "google_trends",
-   "keyword": "milwaukee bucks vs boston celtics match player stats",
-   "traffic": 20000,
-   "published": "2026-11-05T11:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Fenerbahce 3-2 Liverpool (Nov 4, 2026) Team Stats",
-     "url": "https://www.espn.com/soccer/team-stats/_/gameId/401915382",
-     "source": "ESPN"
-    },
-    {
-     "title": "Jerzy Robinson's lob attempt ends up going in for a South Carolina trey",
-     "url": "https://www.espn.com/video/clip/_/id/50359520",
-     "source": "ESPN"
-    },
-    {
-     "title": "Golden Knights vs. Penguins (Nov 3, 2026) Live Score",
-     "url": "https://www.espn.com/nhl/game/_/gameId/401892639",
-     "source": "ESPN"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 69.0,
-   "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "google_news",
-   "keyword": "minimum wage increase",
-   "traffic": 0,
-   "article_count_24h": 47,
-   "article_count_1h": 7,
-   "published": "2026-11-05T06:28:25+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Shapiro, Democrats say new trifecta will deliver minimum wage increase, transit funding, and more - Spotlight PA",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTUk3UFlkVFA2TGU3U3dvLTZEbldrcHM1a0twUi02MHdlX1d3dlo1Nmc3OTk1NWNva2gxTGVRb3B0MGFjNzVUb2x2WTJvU0pwbDE5SUpubnQ0OHJHRGxCODQwb1k0bTFiRDRLQ3B5SHo2TWlSNGc1VGlibWRLLXBrcXU3cWQ5WFdMQW1DVnlvMjRHM3psTnVWRVdfOTdZMWFuQVVB?oc=5",
-     "source": "Spotlight PA"
-    },
-    {
-     "title": "Pennsylvania Democrats pledge to raise minimum wage under trifecta leadership - ABC27",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNWhOSkJGTUg2aXhrLUYtcFI5MUVsbVhfaEd4SU9yaDRUMFhjamRkQnZhbS1xcUFqZjVGWnB0c0MyWUhTWlJxME4zOHhINGdRclJMRktuVW8xLWd2QmNCYjJUeW1pMmR5Z2Jmc2ZvWXRjV1hZb20wTjI2X0xROUM2U0xzS3B1Z0tOOGh6RTU0ZFRHTi1jbkJoSGQxQ0xrcmU2Z0dKQmd4aUg0SUdvcmdreHhad9IBuAFBVV95cUxOWEVDUFNIWFh1ZS00STJGQXZaNlJnV18tdXE4dUUxWnRVVWpWUF9HbmloZGQyeUhfSTZkcDRpLWMycHRwMDE5UkF4MXpta2hDTFRmUU9ITlYySmJKS2ZJV2g4amdNR0Z6WnliR3EyMnRoZGRvb3dDeWhCZVhjUmdRc2syUS03bk9JUEJpUExxQ19LNFBMYXBIa0dfSnFhLXNNSmVEY0dwYXhJU05vbkd4VDVqYjA1ekt0?oc=5",
-     "source": "ABC27"
-    },
-    {
-     "title": "Minimum wage in 2027: new rates for 12 states and 3 cities to know - qz.com",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FNURTblhDSnA0eWsybUc0RFZKejRIaW9aTnQ5SmlmSzVOQ1J1N0V1WjU1dkM1TTBGYm44bHU2Z0hQY2NtR1c1elBfZi1KakdqVi1IeTAwc010dkppak1ReDFEZlo1Zw?oc=5",
-     "source": "qz.com"
-    },
-    {
-     "title": "Pennsylvania Democrats now have power to push forward on election reform, marijuana legalization and minimum wage increases - The Conversation",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVnV5Q1lFd0JyOXU4VXlLOTZGaEJkU0dHS2Z2b3djZGEtUDJ3QlJERWl3RDNqbjNIcUp6aC1aQ21XeEhmem5DVEFCMTJnMUtZRVB1eGZLWGFDN1BzWFFLSGgtVzFvNC13ZjF6SmdKTVk0M3BmMFA3QjdWMC1Sc0JYTmVydENxcV80dnh6RHo4Uld1N3NvbG9WWS0xS3pKTzZXdDhBY2FEQmloUmdyVld1N2lOT0ZJQkFWU0ViRWlLaTI0OHMwWFBvSTZNLUo2cUJ2WXJDTWlGbm51SkFncXZOTjh5VUpZODZWd0lGMWhB?oc=5",
-     "source": "The Conversation"
-    },
-    {
-     "title": "Bangladesh agrees new garment pay scale from December amid protests - Reuters",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT3JxOXMtbnR3WnV5ak9kOTJ0akdfaU5lVERjY29uakFPbFRNLTBCU2RPTjR3RlJmZnBkSUI4dE1CeTktMGtwTExFYXJFeDR0ZE5hV1U5Ujd2TDJMenFoQmh2VEhtN2lRaW9hQ091T2hHY2R4T2FBM1dKc0JmbS1QVjVUVWdreVhJV1NReHFMSnJpeVFiOTRsdnZ3MFIyc00xWjBVbGN1bDlDLUlOanpla2t4bmFMUQ?oc=5",
-     "source": "Reuters"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.spotlightpa.org/news/2026/11/pennsylvania-democrats-trifecta-agenda-minimum-wage-capitol/",
-     "title": "Shapiro, Democrats say new trifecta will deliver minimum wage increase, transit funding, and more - Spotlight PA",
-     "outlet": "Spotlight PA"
-    },
-    {
-     "url": "https://qz.com/minimum-wage-2027-states-cities-experian",
-     "title": "Minimum wage in 2027: new rates for 12 states and 3 cities to know - qz.com",
-     "outlet": "qz.com"
-    },
-    {
-     "url": "https://theconversation.com/pennsylvania-democrats-now-have-power-to-push-forward-on-election-reform-marijuana-legalization-and-minimum-wage-increases-295731",
-     "title": "Pennsylvania Democrats now have power to push forward on election reform, marijuana legalization and minimum wage increases - The Conversation",
-     "outlet": "The Conversation"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 28,
-   "published": "2026-11-05T11:32:55+09:00",
+   "article_count_1h": 23,
+   "published": "2026-11-05T10:52:40+09:00",
    "category": "Elections",
    "news": [
     {
-     "title": "Midterm Elections Live Updates: Democrats Project Power as G.O.P. Reels in a Reordered Washington - The New York Times",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ3N3bFh4Q1JsM0lqczM5Q2l5Wmx1WG90Q0hBV1hZRDVmdmJUTFdBWDhySHI0RGlFV2dZeUhlRGR0UEtGdVZkUS15WDZ6eXlSRVJIVFV6eEo5ODBXY3h4S1JWQUoyb1N1dW9YQXFTUEM1dFNTTXRxOW1vcGRpUmhKbmNQWQ?oc=5",
-     "source": "The New York Times"
-    },
-    {
-     "title": "Photo gallery: Scenes from Election Day - Nebraska Examiner",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WdmZ6N2NiQjR0aVd0bnhVVS1EMGFpQ04xeXQtQ3BMbnBEWTJRN3dPeEhwNjFRZnlzNTR4dndrNWZsNW9CMTVFMW5ZTVlLLVlReEFqRDhJTXNKMkdmTHBhMVl5SFVsWUVSNmQ2R0tYUzR4OHhIZ2lWbmNB?oc=5",
-     "source": "Nebraska Examiner"
+     "title": "Floods and severe weather beset parts of the U.S. on Election Day - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaDRzTjJaSmI3NHBodDlTNWJhWVRlRmhFeGNFV1FDeU94cUxEb2h0V05ybTFZOEl0N0JUOWl0UExPY2dEdDJUUmplMEJjekM0aDZ1YkJTS3NtMTJ2RnlHZHJXTzlkQ2gxYi1tb3prVGtqb2REMU1JS0Nncm1XZDVaTWk0WFRhOVNidVJwT2pSYlQ4Z3FWRjVWNzZzSjBkLWt0?oc=5",
+     "source": "NBC News"
     },
     {
      "title": "After Election Day rout, Trump returns to the White House ballroom, his ‘safest place’ - The Washington Post",
@@ -240,14 +149,19 @@
      "source": "The Washington Post"
     },
     {
+     "title": "Photo gallery: Scenes from Election Day - Nebraska Examiner",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WdmZ6N2NiQjR0aVd0bnhVVS1EMGFpQ04xeXQtQ3BMbnBEWTJRN3dPeEhwNjFRZnlzNTR4dndrNWZsNW9CMTVFMW5ZTVlLLVlReEFqRDhJTXNKMkdmTHBhMVl5SFVsWUVSNmQ2R0tYUzR4OHhIZ2lWbmNB?oc=5",
+     "source": "Nebraska Examiner"
+    },
+    {
+     "title": "The Election Day Revolt That Threatens America’s AI Boom - WSJ",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNWxqLTFYWFUzV3Fud2xTOXU5aUdyM21Hb0lfd1lmSmc5NGVyVjNzVzRISXNIbkxjYVVTTlpZTHJaaDc5VEtoSnk1em8tOXMtMjFsQmRJZXFBWFFUNThnenJRa00zOS0tSzYwYXd1OVQ1U1VNSF9ncnJBWGc2NHhBSXRueXBkWDU5b3ZXVVRHNlJEbU1OTFlR?oc=5",
+     "source": "WSJ"
+    },
+    {
      "title": "MSU students broadly unaware of Board of Trustees candidates on Election Day - The State News",
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ0gtVU9rNUJjbmlTZ2tnbk95YmFiMFJ4X1BVc2tFdzFPUXZFN3BSanA4VW9hT0JOb1lybG5ETE5FdzBfUEJNWW81T2VOM1haZm1INHhueFItVEwwdGwyTXNpLXBsa3lwX3JCZlZsT1FwOUlXTkgyZFFzVHUxaTdfekphOWU0bnJEZEFGUDU4cW44ZERWaWg5MWVJcnlIMGgxaFZNNTBDRGNsRE5TUmVxRm5ZaUQ?oc=5",
      "source": "The State News"
-    },
-    {
-     "title": "Wisconsin votes: Election Day in photos - Civic Media",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYXdmbHZnS0xJRW9McFNheEFlMU0wV0Y4X2FKZGpiaHV2dS1uTThtM2dUbk1MTmt0bVRSWHpTOFhaMEFjV3dNc2w4MU1Pckd3MkpORHFXdUxfQ19GNHNGUWdVaU9TSzZrZFhodDhwd084elFyS2dRQl9uYnRydjhyUjd3?oc=5",
-     "source": "Civic Media"
     }
    ],
    "official": false,
@@ -255,9 +169,9 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.nytimes.com/live/2026/11/04/us/midterm-election-results-democrats",
-     "title": "Midterm Elections Live Updates: Democrats Project Power as G.O.P. Reels in a Reordered Washington - The New York Times",
-     "outlet": "The New York Times"
+     "url": "https://www.nbcnews.com/weather/floods/floods-severe-weather-beset-parts-us-election-day-rcna607186",
+     "title": "Floods and severe weather beset parts of the U.S. on Election Day - NBC News",
+     "outlet": "NBC News"
     },
     {
      "url": "https://nebraskaexaminer.com/2026/11/04/scenes-from-election-day-2026/",
@@ -268,11 +182,6 @@
      "url": "https://statenews.com/article/2026/11/msu-students-broadly-unaware-of-board-of-trustees-candidates-on-election-day",
      "title": "MSU students broadly unaware of Board of Trustees candidates on Election Day - The State News",
      "outlet": "The State News"
-    },
-    {
-     "url": "https://civicmedia.us/news/2026/11/04/wisconsin-votes-election-day-in-photos",
-     "title": "Wisconsin votes: Election Day in photos - Civic Media",
-     "outlet": "Civic Media"
     }
    ]
   },
@@ -281,8 +190,8 @@
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 7,
-   "published": "2026-11-05T10:30:21+09:00",
+   "article_count_1h": 6,
+   "published": "2026-11-05T12:30:21+09:00",
    "category": "Elections",
    "news": [
     {
@@ -291,14 +200,14 @@
      "source": "NBC News"
     },
     {
-     "title": "Chatham Co. unofficial turnout at 53%, early voting rose by about 15,000 ballots compared to last midterm - WTOC",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQM3Vwa2dKclZ5dzFmdnotcmI3cGlKejdLZjNvZ25DQjl1Y0xkZ2RnMVEtVWRhSG96b1VxT0c1U19jcVRsLXZCa0g5ekZ3UF81VnJuN0pYNkRKZWdOa1JGSWhWUndSQXVwMWsyckxWRHQ5YWJVejJHTm82cjZIeGhJQ2pwR1NMYnpSV0tNTlYxbmNXcVBoUTNNWnFKWkNFZVJ6aERKNjN5Sk5uRGpkTElMdjZqYVRfbjJCN1FmSEFNV2tYUlJKSXZR0gHbAUFVX3lxTE5laURuWmYwVDczNHc1SWp0dDJKUXByX2hvWk1laFAwWEhPUFFlYXp2cVhhQ3duemItSEVNb3Q4Z2h2NXRHVXdGcW14UGZSNlp3NzBoTzY0dFBkZ1RmcW1OZlpzeGh4UDJoLW8tYjV3TEtFMEtkSmdsbmM4N09Kd01UeUdjZTFrQjVvcFhmd3FBYXVWVlpFVDgwcmp0Nl9oc2hTU0xBdmtGMnB0YmE3SzBmVmlTOWlrTUdXYWFzbGpQZWdvVHQ1ZTlnTnc1MzJKdDR3dkhQVC0yNDhHZw?oc=5",
-     "source": "WTOC"
-    },
-    {
      "title": "Lubbock County election results late after machine error, ballot rescans - KCBD",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSFBNTjY1aHM3WFZQa1hIWVV4OU05azFBXzQtUnRUWnFrc0swTV80ZjR1a0JEcG11UnJtcUxja2ctbkwySV8yTzVOZmVCRHc3YnM0SEtXOHBiMEVlYXZxOWVVY2NOS3dSaDVJMElhREpCTHpGZXNJdjA2Mm5GbDNqcUtIelphTXZjbDdYNjZoZlRUVmkxWHk2YnhDM2p1S3JrX1REQTFwNNIBuwFBVV95cUxPaU9oTW0wMHozSExiNGR5bmZpUzJiNkRLS0pIcnBDc3FpbTljOHE5djhsQUZrazJqcnNRRFZDM2RHZW5Ta2pLaElqNmZicG5XNUZzeUJlNDg2akdvOHB0Y0o1MHNnd0J4Tk8wR0Zma0hRUlBJRGxqdFdldExoRWtVYnZzZnFKUWg2WkxJRVQ3S2YwVE5UQVg1c1B2NWJyQjhxblB3SG5URUVnN25WYXRhU2F3THBIbm1OVDJ3?oc=5",
      "source": "KCBD"
+    },
+    {
+     "title": "Chatham Co. unofficial turnout at 53%, early voting rose by about 15,000 ballots compared to last midterm - WTOC",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQM3Vwa2dKclZ5dzFmdnotcmI3cGlKejdLZjNvZ25DQjl1Y0xkZ2RnMVEtVWRhSG96b1VxT0c1U19jcVRsLXZCa0g5ekZ3UF81VnJuN0pYNkRKZWdOa1JGSWhWUndSQXVwMWsyckxWRHQ5YWJVejJHTm82cjZIeGhJQ2pwR1NMYnpSV0tNTlYxbmNXcVBoUTNNWnFKWkNFZVJ6aERKNjN5Sk5uRGpkTElMdjZqYVRfbjJCN1FmSEFNV2tYUlJKSXZR0gHbAUFVX3lxTE5laURuWmYwVDczNHc1SWp0dDJKUXByX2hvWk1laFAwWEhPUFFlYXp2cVhhQ3duemItSEVNb3Q4Z2h2NXRHVXdGcW14UGZSNlp3NzBoTzY0dFBkZ1RmcW1OZlpzeGh4UDJoLW8tYjV3TEtFMEtkSmdsbmM4N09Kd01UeUdjZTFrQjVvcFhmd3FBYXVWVlpFVDgwcmp0Nl9oc2hTU0xBdmtGMnB0YmE3SzBmVmlTOWlrTUdXYWFzbGpQZWdvVHQ1ZTlnTnc1MzJKdDR3dkhQVC0yNDhHZw?oc=5",
+     "source": "WTOC"
     },
     {
      "title": "Iowa’s voter turnout broke records for midterm elections - Iowa Capital Dispatch",
@@ -321,14 +230,14 @@
      "outlet": "NBC News"
     },
     {
-     "url": "https://www.wtoc.com/2026/11/04/chatham-co-unofficial-turnout-53-early-voting-rose-by-about-15000-ballots-compared-last-midterm/",
-     "title": "Chatham Co. unofficial turnout at 53%, early voting rose by about 15,000 ballots compared to last midterm - WTOC",
-     "outlet": "WTOC"
-    },
-    {
      "url": "https://www.kcbd.com/2026/11/05/lubbock-county-election-results-late-after-machine-error-ballot-rescans/",
      "title": "Lubbock County election results late after machine error, ballot rescans - KCBD",
      "outlet": "KCBD"
+    },
+    {
+     "url": "https://www.wtoc.com/2026/11/04/chatham-co-unofficial-turnout-53-early-voting-rose-by-about-15000-ballots-compared-last-midterm/",
+     "title": "Chatham Co. unofficial turnout at 53%, early voting rose by about 15,000 ballots compared to last midterm - WTOC",
+     "outlet": "WTOC"
     },
     {
      "url": "https://iowacapitaldispatch.com/2026/11/04/iowas-voter-turnout-broke-records-for-midterm-elections/",
@@ -352,14 +261,14 @@
      "source": "Law360"
     },
     {
-     "title": "‘Yes on 5’ concedes in apparent defeat of tax refund question - WGBH",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWk5IMy1GN0V0akRjQzh6X3FwTTFfZXJrR0dvSVVnUjU5MF9idXZudGhQYk1XZE1BZXhUX05uTUlQT1piTFgxbFI2amo1WUFsOVhpdHVXb1dEOVV6NklMVkhKMUk3cXVHMzhORWhIRXZpa1Via0pRSk8xRXd6bnM3YmNQbm9zOEh0UktqTVFMOEFVeld4VkpGQ3RsR25BRTlJT2dfX192ZGg?oc=5",
-     "source": "WGBH"
-    },
-    {
      "title": "No answers on tax refund delay - WOWT",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9udFNqcndRakU0S1FoRVpWbjBXWGFpMDVEc3FGRnJUbVNWWndhZEpVZGNENmI2ckY0RHZicHVJTUlxRlkyTWI1QUd5azFKTHhQZVU2d2xsbW1PQmxmdE45Z2RTOGlqa1FQeHlrM2JEUWVuNjY4?oc=5",
      "source": "WOWT"
+    },
+    {
+     "title": "‘Yes on 5’ concedes in apparent defeat of tax refund question - WGBH",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWk5IMy1GN0V0akRjQzh6X3FwTTFfZXJrR0dvSVVnUjU5MF9idXZudGhQYk1XZE1BZXhUX05uTUlQT1piTFgxbFI2amo1WUFsOVhpdHVXb1dEOVV6NklMVkhKMUk3cXVHMzhORWhIRXZpa1Via0pRSk8xRXd6bnM3YmNQbm9zOEh0UktqTVFMOEFVeld4VkpGQ3RsR25BRTlJT2dfX192ZGg?oc=5",
+     "source": "WGBH"
     },
     {
      "title": "California man, 52, claimed over $13M in bogus IRS refunds and splurged on a Maserati — now he owes back $682,768 - Yahoo Finance",
@@ -382,14 +291,14 @@
      "outlet": "Law360"
     },
     {
-     "url": "https://www.wgbh.org/news/politics/2026-11-04/yes-on-5-concedes-in-apparent-defeat-of-tax-refund-question",
-     "title": "‘Yes on 5’ concedes in apparent defeat of tax refund question - WGBH",
-     "outlet": "WGBH"
-    },
-    {
      "url": "https://www.wowt.com/video/2026/11/03/no-answers-tax-refund-delay/",
      "title": "No answers on tax refund delay - WOWT",
      "outlet": "WOWT"
+    },
+    {
+     "url": "https://www.wgbh.org/news/politics/2026-11-04/yes-on-5-concedes-in-apparent-defeat-of-tax-refund-question",
+     "title": "‘Yes on 5’ concedes in apparent defeat of tax refund question - WGBH",
+     "outlet": "WGBH"
     },
     {
      "url": "https://finance.yahoo.com/economy/policy/articles/california-man-52-claimed-over-161500115.html",
@@ -402,8 +311,8 @@
    "source": "google_news",
    "keyword": "tax deadline",
    "traffic": 0,
-   "article_count_24h": 19,
-   "article_count_1h": 2,
+   "article_count_24h": 20,
+   "article_count_1h": 3,
    "published": "2026-11-05T08:47:00+09:00",
    "category": "Taxes",
    "news": [
@@ -434,7 +343,7 @@
     }
    ],
    "official": false,
-   "score": 57.0,
+   "score": 63.0,
    "already_covered": false,
    "evidence": [
     {
@@ -461,10 +370,71 @@
   },
   {
    "source": "google_news",
+   "keyword": "LIHEAP",
+   "traffic": 0,
+   "article_count_24h": 10,
+   "article_count_1h": 2,
+   "published": "2026-11-05T09:00:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "How to apply for heating aid as Philadelphia weather gets colder | Local News | phillytrib.com - phillytrib.com",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZk9DQXMzTjFUejJNdXN1OWtSalg2SzU1QV9lMDl0V3VPQW1LZmhJNnJFcllpRXAxN1FHTWRFS203MmtDLWRxOTBaTVJRN0h3bEt4ZEQ3cTNNaE1RdnBmeFFvbDZQQVNxZWFxWmZ6SHhuVkoyYlNGUERVQ2hodGRQclJ4VmFfbGJnRjYzOW1XSjAyWERvNkNMRVRSS1dPUW1kZVprUllRVzJvTHlzMC0wTHctM2k1VVoxZDV5YWh2RzVRUUxjQWc0alYycWNNVVlDR0txcUhZSDNPZjJoRDhiNEs0UU13Q2EtNDlPdVpB?oc=5",
+     "source": "phillytrib.com"
+    },
+    {
+     "title": "Florida county offers electric bill aid, but applications won't stop shutoffs - The Cool Down",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGtQZ0k2WDg5U25vSTVBZ1BXamViaUdYaDdwOGlta012LUdPVy1ORmM4ekxYUlZIejNQOTNUTjB5Qkt5eTVTNWdpMWVLemxveEJuRXhJYUh0MHVqNEx0cDhlYUczZF85cHNERGdwYmJkU3lwSW9PTGtQWmJYcVp5SkExeVowTXEtRG1QMUllazZFZ1ExaEE?oc=5",
+     "source": "The Cool Down"
+    },
+    {
+     "title": "Pennsylvania opens energy assistance applications; Maryland aid available year-round - LocalNews1",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdDJJR2k2M3paRW5mbVdTQV9rR1hfUThjZkxxTmNtclI4aXBrRXpWQzFZaWZOeHByaUR4WHJnWlRRbkFBWlZncklNR0h1UUhfM1pTQlcySWpxX2lIbUR4dGVGZHJzZHJncnpYSzh6V1hrLVNtWk5TRTZxRVhBTENWNWRHMmd5WmlpOHBJbVZYa1p1ME5YaHJaVk9Yekg?oc=5",
+     "source": "LocalNews1"
+    },
+    {
+     "title": "US Heating Oil and Gas Prices 4 Nov 2026: Your Cost | GOS - globaloilshock.com",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10N1pjb24zVXVYQnBkS3A0WmlhNHk0ZnhyMWVDcmZsdXJfNlVQVk91M3lEcUc1eGhaeW1Kd2ZYMFJMTlpOMG1uZG1sVzFmc1k4bGNVOGJ3SmFvV1I4aXkwZ0l5T1M?oc=5",
+     "source": "globaloilshock.com"
+    },
+    {
+     "title": "Applications being taken for energy assistance program - Observer-Reporter",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTHZUcU5BXzJuYXlwb1lLMVVuOXFwd0NiYjFnRkZtTHI2UDI0RjJxaWc4eFJCdERpQUJKQ3k5VkFBS1VmZnhFU2E5N0dDNVQyaGN0WXVpc2pQeEJLVFJfNjFSSkFQb01QTEgzaFFlN2h3MTc4Q0t4anFBTVFvMjJHaG1oU0IzR3hFTkM1QlVER1RiYXFoYnBlaV95NzFUWS1ybzNNV3VKSEYtU0phZkRFOFVYaG9uWC1m?oc=5",
+     "source": "Observer-Reporter"
+    }
+   ],
+   "official": false,
+   "score": 60.8,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://www.phillytrib.com/news/local_news/how-to-apply-for-heating-aid-as-philadelphia-weather-gets-colder/article_0278a95d-4f17-49c7-bd79-7a61d0cb51b4.html",
+     "title": "How to apply for heating aid as Philadelphia weather gets colder | Local News | phillytrib.com - phillytrib.com",
+     "outlet": "phillytrib.com"
+    },
+    {
+     "url": "https://www.thecooldown.com/green-home/broward-county-electric-bill-assistance-application/",
+     "title": "Florida county offers electric bill aid, but applications won't stop shutoffs - The Cool Down",
+     "outlet": "The Cool Down"
+    },
+    {
+     "url": "https://localnews1.org/pennsylvania-opens-liheap-applications-maryland-aid-available-year-round/",
+     "title": "Pennsylvania opens energy assistance applications; Maryland aid available year-round - LocalNews1",
+     "outlet": "LocalNews1"
+    },
+    {
+     "url": "https://globaloilshock.com/en/countries/united-states/",
+     "title": "US Heating Oil and Gas Prices 4 Nov 2026: Your Cost | GOS - globaloilshock.com",
+     "outlet": "globaloilshock.com"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
    "article_count_24h": 26,
-   "article_count_1h": 8,
+   "article_count_1h": 10,
    "published": "2026-11-04T21:00:00+09:00",
    "category": "Benefits",
    "news": [
@@ -519,7 +489,7 @@
    "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 17,
+   "article_count_24h": 18,
    "article_count_1h": 1,
    "published": "2026-11-05T09:53:29+09:00",
    "category": "Health Insurance",
@@ -578,61 +548,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "product recall",
-   "traffic": 0,
-   "article_count_24h": 51,
-   "article_count_1h": 2,
-   "published": "2026-11-05T10:36:19+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "Philips Shares Rise After Stronger Profitability Revives Confidence - WSJ",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcFR0NUJEa2hKcDR0U0kwbTF2UkctYWpCNW9JMEVrTWF1UUx6UVFZSllSbm13OTdLenB1Z3Z4Q2J5bmRrVnNqVmN4TnJscGNvbkJ5SHN0NWFrS1JLRHVGTnF5cDdoM1NQMG1vZEI1dXVVTXpsTktaYnRVSHJqSGpxb2FXU01Ec2xVR3B5Y2p6bUw5OHR5ZHlUdHdLcw?oc=5",
-     "source": "WSJ"
-    },
-    {
-     "title": "What should you do if your food is recalled? These simple steps can keep your kitchen (and family) safe - Sacramento Bee",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DdWthRjB6T1pKdXBqRm10NkJxQUJQajJFaGtzenVTcXo4d3R3eHNVM21KRk5pSmRxRTF4WXpVaDJxc0lPRTg2cjhBeDhxNm5wcTVRa2F1WnFEUzhldjdMQkZIbWoweHcxMWY1eUlqdE1UNFXSAXNBVV95cUxQRUZfc3FtMFN3UTV6SDhxWnlIYVN2Z3BEcG1qYW51bTE5Y21UdUxoNzdnNVBuSXctVVNuQ3VURkE4RUNITURBd2JBWTZSRWJ5Mkd0SklJT3M2cVdiLUxvTF96VTJfLXBIZ0w2eXBfYzFWNm1V?oc=5",
-     "source": "Sacramento Bee"
-    },
-    {
-     "title": "Snacks sold in WA recalled for ‘potentially fatal’ choking hazard. What to know - Tacoma News Tribune",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhLWFmemJ0WTh5T1VqTDZDWlRxYUgyV2wxSW9wbFRWd0w0UEI0YTFGNHRRdFQzRURDeDJkLW00MEJHWEV3R1lxUlhBVHptczRoUW5DVERFYW01cERzVWYyXzhwR3hHa2dDbmVXTGszM2MxS28yc042Y3dKbUFDQVXSAX9BVV95cUxPd2U1a3dicWxiMmxSaUdNRFI5c1BkcndjN0ZNQVFfTmZZTWRHTWNGV3RHcDVRNC02T0JBUmNvRHlnVHh4Z0RTS1dUemZwSWU5aG85eEdUUDYwWVJvbjluaUR1d3dta1V4SUZmS3VIbUNqOEE2QjZLNTllVS1qaXE4?oc=5",
-     "source": "Tacoma News Tribune"
-    },
-    {
-     "title": "FDA updates list of cinnamon with high lead levels to include 21st product - Food Safety News",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVjFtU01uNlJScWlFRXBSclVHOC0wanpHMWRkQkQ1RlZtVmJmS1BHbUtoQXBwdXpGUlJmb01VY0lTc1JCQkYyaGlYdzZERnFEZV9GYUpXR2VHNFNFY0ItQk1CVXBwTzJfS1I4NUdHTlF1MmpWaEpnQ2tsQzRVME9oazBrMGlFYy1iaXFuWGJyTTlDVHExa202RHc0VWZJWWJLM19GTHp5R0hhNE11QjZJMTc5UWg?oc=5",
-     "source": "Food Safety News"
-    },
-    {
-     "title": "FDA Announces New Recall of Blood Pressure Medication - Good Housekeeping",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMWVaNnlSbkZIbnEtSlF5T1JQV1pmTWl5dm11QUxfX0dBTDl5T080bUdtVE5jZFAycVNOUEpBVFRjMG5JZFdwTWNJODRyUnpLMXhBYjBUR3lRU3RONUhBaWFnRXJNeWNsOWlrQzlsYkMzd3poX2NraWdWZTNHNVZ5UmxLRmJwT3hmVndac1RfdG5VU0Fma1pDc3FQVnNiY0xVTnVlY1BB?oc=5",
-     "source": "Good Housekeeping"
-    }
-   ],
-   "official": false,
-   "score": 49.4,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.foodsafetynews.com/2026/11/fda-updates-list-of-cinnamon-with-high-lead-levels-to-include-21st-product/",
-     "title": "FDA updates list of cinnamon with high lead levels to include 21st product - Food Safety News",
-     "outlet": "Food Safety News"
-    },
-    {
-     "url": "https://www.goodhousekeeping.com/health/a74336198/fda-announces-another-blood-pressure-medicine-recall/",
-     "title": "FDA Announces New Recall of Blood Pressure Medication - Good Housekeeping",
-     "outlet": "Good Housekeeping"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
    "article_count_24h": 30,
-   "article_count_1h": 9,
+   "article_count_1h": 10,
    "published": "2026-11-05T03:54:25+09:00",
    "category": "Student Aid",
    "news": [
@@ -682,7 +601,7 @@
    "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 29,
+   "article_count_24h": 27,
    "article_count_1h": 3,
    "published": "2026-11-05T06:02:21+09:00",
    "category": "Benefits",
@@ -741,10 +660,173 @@
   },
   {
    "source": "google_news",
+   "keyword": "federal holiday",
+   "traffic": 0,
+   "article_count_24h": 14,
+   "article_count_1h": 3,
+   "published": "2026-11-05T07:16:50+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Trump is floating a gas tax holiday amid rising fuel costs. What does that mean? - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdlJwLVFPMmVsaHAyT0R4Yl9LRlI1M2cwb2RwWDl5bHY4R1llTF9FbjgtMjNhVHJsREh3aHlpVjYzbk9sbnBHdlVCS0FHVml2bXg3OGNReVRVYzJ1SmVVaVd2aFdZb3pDYUp1MEYwQ2E5U2dNNHhPMmt1YkJkUjN0bzJVQ2QyaHc3eTZGTUpUeUFuOEFBaVVzOUR3WdIBoAFBVV95cUxPVHExellwOEg2Q0ZoTTgtVWxvR1AwY3k0Mm5PX3FVdHRYSDBsd0VLb0VTdkNCT1FSVEdDVW9nSmxjeUZFUnlVWXNNSTRvM0l0dHBSd0wwM2lVUENjaHV3RWtkc0JmR0MydF9JU2hmaGI3ZTc3U1Z5YmZQODhYTTdRR2F1ZU8zV0pCUG9EN3FTcmRvRVQySFBLSUZqaGZtNUht?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "title": "Schools closed, Gulf Islands National Seashore free on Veterans Day - St. Augustine Record",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNkQ3NW1qdm4xc0R5M0JRWTZMZXNFTDFSODZUU2xVT3o0MlprbFBEc1RhRUNUZzl0LWZwNzJrVW5GTy10aXZOenFRakNNdm1lZjFiR0VabGg3MV96RlRYZms5Y2dySklTMlNmT2VSQ3lWeDNDWEJ4d3FWc3JHaHNqbk1seFRJTG5JLTFCM0VhaXItMk1aVS1xazRrcmVRZXNDWEk5Rmh5OGlpazY5YnowTW1wdmFweF9qdm5nZEdCTVNubmMxOV9DWlAtVV9DbU9Bb0VKY240aDRIN0VnbVY4MHNWYUlPMHl4S2ZxZXBWQQ?oc=5",
+     "source": "St. Augustine Record"
+    },
+    {
+     "title": "Iowa chapter of Salem-based Satanic Temple wins fight to participate in holiday event at State Capitol in Des Moines - The Boston Globe",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdUllNDQtenJ0dTRlZEFwbFVCRVl5cGVmY1Bta3J2dnRmMkJDbHlNdXdaN0puQ2VpRkdPM3l5QkdCRXE4TWViQXpiTURPMjB2UWZGaFZaZ2VCZUFFcWFGNEZjenpobkpVcmJ3YkczdHE3TldWRjNoTzB4U3diMXFHbFh0MXd2MXpxcGNnNG1kUWh6SnYwVjdaMlVCaw?oc=5",
+     "source": "The Boston Globe"
+    },
+    {
+     "title": "Veterans Day next holiday coming up. Why isn't it on a Monday? - Treasure Coast News",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTnk2b19HZGMtQXl0U21ya0pfQzhmSnVvYXdUMG04dlhGZ0dLRVlrRnIzdVVkZ1Zoc1lTb3NncmtaamsyOVN2ODNEc2VkcWxrVUFBUVVkWXhQUFlCMGV0WGN4SGRtaG5rbGxzVXB1bGJmZXg4Qk9iaDNfVlp6OHBqckM1S0RSUEgtamFlaGNRRFdMNzFTY2tiaGlIWDM3bkpJWkF0dmRVRGVqS3dYdVpCWmk3TEo1VkxBVGc?oc=5",
+     "source": "Treasure Coast News"
+    },
+    {
+     "title": "Walmart Brings Back Its Holiday Meal Basket: Price and What’s Included - Revista Merca2.0",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa2ZoYWdnWUlJZEMwcDJmemVscjY2cGNWRFlzUndNVmY4S3pza2dYc1c5N3puV2ROcHBtVHQ2UFN0MFJYWGZMRHJlMU1pd182MzdhdFVtNzRZM09POEotbkxwcmd5VDdnTUVrSUZxY0ZpUldmRVFRVlhTakNMYTdmSGFmWHlsTTB1d2JraFVsU3lFS0xsMFJ1UQ?oc=5",
+     "source": "Revista Merca2.0"
+    }
+   ],
+   "official": false,
+   "score": 46.2,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://abcnews.com/Politics/trump-floating-gas-tax-holiday-amid-rising-fuel/story?id=132859509",
+     "title": "Trump is floating a gas tax holiday amid rising fuel costs. What does that mean? - ABC News - Breaking News, Latest News and Videos",
+     "outlet": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "url": "https://www.bostonglobe.com/2026/11/04/metro/satanic-temple-iowa-holiday-event-capitol-rotunda/",
+     "title": "Iowa chapter of Salem-based Satanic Temple wins fight to participate in holiday event at State Capitol in Des Moines - The Boston Globe",
+     "outlet": "The Boston Globe"
+    },
+    {
+     "url": "https://www.merca20.com/walmart-brings-back-its-holiday-meal-basket-price-and-whats-included/",
+     "title": "Walmart Brings Back Its Holiday Meal Basket: Price and What’s Included - Revista Merca2.0",
+     "outlet": "Revista Merca2.0"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "product recall",
+   "traffic": 0,
+   "article_count_24h": 50,
+   "article_count_1h": 1,
+   "published": "2026-11-05T10:36:19+09:00",
+   "category": "Recalls",
+   "news": [
+    {
+     "title": "Philips Shares Rise After Stronger Profitability Revives Confidence - WSJ",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcFR0NUJEa2hKcDR0U0kwbTF2UkctYWpCNW9JMEVrTWF1UUx6UVFZSllSbm13OTdLenB1Z3Z4Q2J5bmRrVnNqVmN4TnJscGNvbkJ5SHN0NWFrS1JLRHVGTnF5cDdoM1NQMG1vZEI1dXVVTXpsTktaYnRVSHJqSGpxb2FXU01Ec2xVR3B5Y2p6bUw5OHR5ZHlUdHdLcw?oc=5",
+     "source": "WSJ"
+    },
+    {
+     "title": "What should you do if your food is recalled? These simple steps can keep your kitchen (and family) safe - Sacramento Bee",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DdWthRjB6T1pKdXBqRm10NkJxQUJQajJFaGtzenVTcXo4d3R3eHNVM21KRk5pSmRxRTF4WXpVaDJxc0lPRTg2cjhBeDhxNm5wcTVRa2F1WnFEUzhldjdMQkZIbWoweHcxMWY1eUlqdE1UNFXSAXNBVV95cUxQRUZfc3FtMFN3UTV6SDhxWnlIYVN2Z3BEcG1qYW51bTE5Y21UdUxoNzdnNVBuSXctVVNuQ3VURkE4RUNITURBd2JBWTZSRWJ5Mkd0SklJT3M2cVdiLUxvTF96VTJfLXBIZ0w2eXBfYzFWNm1V?oc=5",
+     "source": "Sacramento Bee"
+    },
+    {
+     "title": "Snacks sold in WA recalled for ‘potentially fatal’ choking hazard. What to know - Tacoma News Tribune",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhLWFmemJ0WTh5T1VqTDZDWlRxYUgyV2wxSW9wbFRWd0w0UEI0YTFGNHRRdFQzRURDeDJkLW00MEJHWEV3R1lxUlhBVHptczRoUW5DVERFYW01cERzVWYyXzhwR3hHa2dDbmVXTGszM2MxS28yc042Y3dKbUFDQVXSAX9BVV95cUxPd2U1a3dicWxiMmxSaUdNRFI5c1BkcndjN0ZNQVFfTmZZTWRHTWNGV3RHcDVRNC02T0JBUmNvRHlnVHh4Z0RTS1dUemZwSWU5aG85eEdUUDYwWVJvbjluaUR1d3dta1V4SUZmS3VIbUNqOEE2QjZLNTllVS1qaXE4?oc=5",
+     "source": "Tacoma News Tribune"
+    },
+    {
+     "title": "FDA updates list of cinnamon with high lead levels to include 21st product - Food Safety News",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVjFtU01uNlJScWlFRXBSclVHOC0wanpHMWRkQkQ1RlZtVmJmS1BHbUtoQXBwdXpGUlJmb01VY0lTc1JCQkYyaGlYdzZERnFEZV9GYUpXR2VHNFNFY0ItQk1CVXBwTzJfS1I4NUdHTlF1MmpWaEpnQ2tsQzRVME9oazBrMGlFYy1iaXFuWGJyTTlDVHExa202RHc0VWZJWWJLM19GTHp5R0hhNE11QjZJMTc5UWg?oc=5",
+     "source": "Food Safety News"
+    },
+    {
+     "title": "FDA Announces New Recall of Blood Pressure Medication - Good Housekeeping",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMWVaNnlSbkZIbnEtSlF5T1JQV1pmTWl5dm11QUxfX0dBTDl5T080bUdtVE5jZFAycVNOUEpBVFRjMG5JZFdwTWNJODRyUnpLMXhBYjBUR3lRU3RONUhBaWFnRXJNeWNsOWlrQzlsYkMzd3poX2NraWdWZTNHNVZ5UmxLRmJwT3hmVndac1RfdG5VU0Fma1pDc3FQVnNiY0xVTnVlY1BB?oc=5",
+     "source": "Good Housekeeping"
+    }
+   ],
+   "official": false,
+   "score": 44.2,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.foodsafetynews.com/2026/11/fda-updates-list-of-cinnamon-with-high-lead-levels-to-include-21st-product/",
+     "title": "FDA updates list of cinnamon with high lead levels to include 21st product - Food Safety News",
+     "outlet": "Food Safety News"
+    },
+    {
+     "url": "https://www.goodhousekeeping.com/health/a74336198/fda-announces-another-blood-pressure-medicine-recall/",
+     "title": "FDA Announces New Recall of Blood Pressure Medication - Good Housekeeping",
+     "outlet": "Good Housekeeping"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "minimum wage increase",
+   "traffic": 0,
+   "article_count_24h": 46,
+   "article_count_1h": 4,
+   "published": "2026-11-05T06:28:25+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Shapiro, Democrats say new trifecta will deliver minimum wage increase, transit funding, and more - Spotlight PA",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTUk3UFlkVFA2TGU3U3dvLTZEbldrcHM1a0twUi02MHdlX1d3dlo1Nmc3OTk1NWNva2gxTGVRb3B0MGFjNzVUb2x2WTJvU0pwbDE5SUpubnQ0OHJHRGxCODQwb1k0bTFiRDRLQ3B5SHo2TWlSNGc1VGlibWRLLXBrcXU3cWQ5WFdMQW1DVnlvMjRHM3psTnVWRVdfOTdZMWFuQVVB?oc=5",
+     "source": "Spotlight PA"
+    },
+    {
+     "title": "Pennsylvania Democrats pledge to raise minimum wage under trifecta leadership - ABC27",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNWhOSkJGTUg2aXhrLUYtcFI5MUVsbVhfaEd4SU9yaDRUMFhjamRkQnZhbS1xcUFqZjVGWnB0c0MyWUhTWlJxME4zOHhINGdRclJMRktuVW8xLWd2QmNCYjJUeW1pMmR5Z2Jmc2ZvWXRjV1hZb20wTjI2X0xROUM2U0xzS3B1Z0tOOGh6RTU0ZFRHTi1jbkJoSGQxQ0xrcmU2Z0dKQmd4aUg0SUdvcmdreHhad9IBuAFBVV95cUxOWEVDUFNIWFh1ZS00STJGQXZaNlJnV18tdXE4dUUxWnRVVWpWUF9HbmloZGQyeUhfSTZkcDRpLWMycHRwMDE5UkF4MXpta2hDTFRmUU9ITlYySmJKS2ZJV2g4amdNR0Z6WnliR3EyMnRoZGRvb3dDeWhCZVhjUmdRc2syUS03bk9JUEJpUExxQ19LNFBMYXBIa0dfSnFhLXNNSmVEY0dwYXhJU05vbkd4VDVqYjA1ekt0?oc=5",
+     "source": "ABC27"
+    },
+    {
+     "title": "Minimum wage in 2027: new rates for 12 states and 3 cities to know - qz.com",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FNURTblhDSnA0eWsybUc0RFZKejRIaW9aTnQ5SmlmSzVOQ1J1N0V1WjU1dkM1TTBGYm44bHU2Z0hQY2NtR1c1elBfZi1KakdqVi1IeTAwc010dkppak1ReDFEZlo1Zw?oc=5",
+     "source": "qz.com"
+    },
+    {
+     "title": "Pennsylvania Democrats now have power to push forward on election reform, marijuana legalization and minimum wage increases - The Conversation",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVnV5Q1lFd0JyOXU4VXlLOTZGaEJkU0dHS2Z2b3djZGEtUDJ3QlJERWl3RDNqbjNIcUp6aC1aQ21XeEhmem5DVEFCMTJnMUtZRVB1eGZLWGFDN1BzWFFLSGgtVzFvNC13ZjF6SmdKTVk0M3BmMFA3QjdWMC1Sc0JYTmVydENxcV80dnh6RHo4Uld1N3NvbG9WWS0xS3pKTzZXdDhBY2FEQmloUmdyVld1N2lOT0ZJQkFWU0ViRWlLaTI0OHMwWFBvSTZNLUo2cUJ2WXJDTWlGbm51SkFncXZOTjh5VUpZODZWd0lGMWhB?oc=5",
+     "source": "The Conversation"
+    },
+    {
+     "title": "Bangladesh agrees new garment pay scale from December amid protests - Reuters",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT3JxOXMtbnR3WnV5ak9kOTJ0akdfaU5lVERjY29uakFPbFRNLTBCU2RPTjR3RlJmZnBkSUI4dE1CeTktMGtwTExFYXJFeDR0ZE5hV1U5Ujd2TDJMenFoQmh2VEhtN2lRaW9hQ091T2hHY2R4T2FBM1dKc0JmbS1QVjVUVWdreVhJV1NReHFMSnJpeVFiOTRsdnZ3MFIyc00xWjBVbGN1bDlDLUlOanpla2t4bmFMUQ?oc=5",
+     "source": "Reuters"
+    }
+   ],
+   "official": false,
+   "score": 41.9,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.spotlightpa.org/news/2026/11/pennsylvania-democrats-trifecta-agenda-minimum-wage-capitol/",
+     "title": "Shapiro, Democrats say new trifecta will deliver minimum wage increase, transit funding, and more - Spotlight PA",
+     "outlet": "Spotlight PA"
+    },
+    {
+     "url": "https://qz.com/minimum-wage-2027-states-cities-experian",
+     "title": "Minimum wage in 2027: new rates for 12 states and 3 cities to know - qz.com",
+     "outlet": "qz.com"
+    },
+    {
+     "url": "https://theconversation.com/pennsylvania-democrats-now-have-power-to-push-forward-on-election-reform-marijuana-legalization-and-minimum-wage-increases-295731",
+     "title": "Pennsylvania Democrats now have power to push forward on election reform, marijuana legalization and minimum wage increases - The Conversation",
+     "outlet": "The Conversation"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "REAL ID",
    "traffic": 0,
    "article_count_24h": 25,
-   "article_count_1h": 6,
+   "article_count_1h": 4,
    "published": "2026-11-05T03:01:00+09:00",
    "category": "Elections",
    "news": [
@@ -775,7 +857,7 @@
     }
    ],
    "official": false,
-   "score": 45.5,
+   "score": 41.9,
    "already_covered": true,
    "evidence": [
     {
@@ -801,11 +883,57 @@
    ]
   },
   {
+   "source": "google_trends",
+   "keyword": "nets",
+   "traffic": 2000,
+   "published": "2026-11-05T12:10:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Nets vs. Hornets: Can Brooklyn finally give the home crowd something to cheer about?",
+     "url": "https://www.netsdaily.com/nets-game-previews/115707/nets-hornets-preview-prediction-game-info-how-to-watch",
+     "source": "NetsDaily"
+    },
+    {
+     "title": "Live Discussion: Charlotte Hornets at Brooklyn Nets, 7:30 PM ET",
+     "url": "https://sports.yahoo.com/articles/live-discussion-charlotte-hornets-brooklyn-000000987.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Charlotte Hornets at Brooklyn Nets - NBA Game Summary - Nov 04, 2026",
+     "url": "https://www.usatoday.com/sports/nba/event/2026/3018211/boxscore/?itm_source=oembed&itm_medium=sports&itm_campaign=scoreboard&site=USAT&itm_content=NBA&tile=2",
+     "source": "USA Today"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 40.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.netsdaily.com/nets-game-previews/115707/nets-hornets-preview-prediction-game-info-how-to-watch",
+     "title": "Nets vs. Hornets: Can Brooklyn finally give the home crowd something to cheer about?",
+     "outlet": "NetsDaily"
+    },
+    {
+     "url": "https://sports.yahoo.com/articles/live-discussion-charlotte-hornets-brooklyn-000000987.html",
+     "title": "Live Discussion: Charlotte Hornets at Brooklyn Nets, 7:30 PM ET",
+     "outlet": "Yahoo Sports"
+    },
+    {
+     "url": "https://sportsdata.usatoday.com/basketball/nba/summary/3018211?itm_source=oembed&itm_medium=sports&itm_campaign=scoreboard&site=USAT&itm_content=NBA&tile=2",
+     "title": "Charlotte Hornets at Brooklyn Nets - NBA Game Summary - Nov 04, 2026",
+     "outlet": "USA Today"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
    "article_count_24h": 33,
-   "article_count_1h": 1,
+   "article_count_1h": 0,
    "published": "2026-11-05T07:15:00+09:00",
    "category": "Recalls",
    "news": [
@@ -836,7 +964,7 @@
     }
    ],
    "official": false,
-   "score": 44.2,
+   "score": 39.0,
    "already_covered": false,
    "evidence": [
     {
@@ -853,61 +981,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "federal holiday",
-   "traffic": 0,
-   "article_count_24h": 14,
-   "article_count_1h": 2,
-   "published": "2026-11-05T07:16:50+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "Trump is floating a gas tax holiday amid rising fuel costs. What does that mean? - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdlJwLVFPMmVsaHAyT0R4Yl9LRlI1M2cwb2RwWDl5bHY4R1llTF9FbjgtMjNhVHJsREh3aHlpVjYzbk9sbnBHdlVCS0FHVml2bXg3OGNReVRVYzJ1SmVVaVd2aFdZb3pDYUp1MEYwQ2E5U2dNNHhPMmt1YkJkUjN0bzJVQ2QyaHc3eTZGTUpUeUFuOEFBaVVzOUR3WdIBoAFBVV95cUxPVHExellwOEg2Q0ZoTTgtVWxvR1AwY3k0Mm5PX3FVdHRYSDBsd0VLb0VTdkNCT1FSVEdDVW9nSmxjeUZFUnlVWXNNSTRvM0l0dHBSd0wwM2lVUENjaHV3RWtkc0JmR0MydF9JU2hmaGI3ZTc3U1Z5YmZQODhYTTdRR2F1ZU8zV0pCUG9EN3FTcmRvRVQySFBLSUZqaGZtNUht?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "title": "Schools closed, Gulf Islands National Seashore free on Veterans Day - St. Augustine Record",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNkQ3NW1qdm4xc0R5M0JRWTZMZXNFTDFSODZUU2xVT3o0MlprbFBEc1RhRUNUZzl0LWZwNzJrVW5GTy10aXZOenFRakNNdm1lZjFiR0VabGg3MV96RlRYZms5Y2dySklTMlNmT2VSQ3lWeDNDWEJ4d3FWc3JHaHNqbk1seFRJTG5JLTFCM0VhaXItMk1aVS1xazRrcmVRZXNDWEk5Rmh5OGlpazY5YnowTW1wdmFweF9qdm5nZEdCTVNubmMxOV9DWlAtVV9DbU9Bb0VKY240aDRIN0VnbVY4MHNWYUlPMHl4S2ZxZXBWQQ?oc=5",
-     "source": "St. Augustine Record"
-    },
-    {
-     "title": "Veterans Day next holiday coming up. Why isn't it on a Monday? - Treasure Coast News",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTnk2b19HZGMtQXl0U21ya0pfQzhmSnVvYXdUMG04dlhGZ0dLRVlrRnIzdVVkZ1Zoc1lTb3NncmtaamsyOVN2ODNEc2VkcWxrVUFBUVVkWXhQUFlCMGV0WGN4SGRtaG5rbGxzVXB1bGJmZXg4Qk9iaDNfVlp6OHBqckM1S0RSUEgtamFlaGNRRFdMNzFTY2tiaGlIWDM3bkpJWkF0dmRVRGVqS3dYdVpCWmk3TEo1VkxBVGc?oc=5",
-     "source": "Treasure Coast News"
-    },
-    {
-     "title": "Walmart Brings Back Its Holiday Meal Basket: Price and What’s Included - Revista Merca2.0",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa2ZoYWdnWUlJZEMwcDJmemVscjY2cGNWRFlzUndNVmY4S3pza2dYc1c5N3puV2ROcHBtVHQ2UFN0MFJYWGZMRHJlMU1pd182MzdhdFVtNzRZM09POEotbkxwcmd5VDdnTUVrSUZxY0ZpUldmRVFRVlhTakNMYTdmSGFmWHlsTTB1d2JraFVsU3lFS0xsMFJ1UQ?oc=5",
-     "source": "Revista Merca2.0"
-    },
-    {
-     "title": "Here’s why NYC public schools will be closed for 3 more days this month - SILive.com",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXNrLXFiWVBkRGJXczJvWlFmZ3piMjVuYk5fRlVKNEhleFpRMGc0SU5KOElWbmg5enl1Z0pjYUJWeDBZR3ZjUFByX0UyVWk0Q3RrV1Z0Rjlzb3hfZ1ZNNk1HMnJxN2owbXBPRlNpZ0FkUnB3cnFvc2NqUUh6WGF5WFFCV3ZJLXJxRDVRTUN3bGdEMVRPV04tU2ZtTnZQVHVsMmFwcElmOHpodWJnNzFZ?oc=5",
-     "source": "SILive.com"
-    }
-   ],
-   "official": false,
-   "score": 41.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://abcnews.com/Politics/trump-floating-gas-tax-holiday-amid-rising-fuel/story?id=132859509",
-     "title": "Trump is floating a gas tax holiday amid rising fuel costs. What does that mean? - ABC News - Breaking News, Latest News and Videos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "url": "https://www.merca20.com/walmart-brings-back-its-holiday-meal-basket-price-and-whats-included/",
-     "title": "Walmart Brings Back Its Holiday Meal Basket: Price and What’s Included - Revista Merca2.0",
-     "outlet": "Revista Merca2.0"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "daylight saving time",
    "traffic": 0,
-   "article_count_24h": 65,
-   "article_count_1h": 15,
+   "article_count_24h": 64,
+   "article_count_1h": 13,
    "published": "2026-11-05T02:00:00+09:00",
    "category": "Holidays",
    "news": [
@@ -922,19 +999,19 @@
      "source": "Science Daily"
     },
     {
-     "title": "Trump urges Congress to pass daylight saving bill after ‘ridiculous’ early sunset - The Hill",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNk9BNTR2ZEpFZlRQY2RwZkZMNDBJYXJ3LUZTM1ZHVWNjZ05uRnJQTlEzQXRLcURYRjFHcEQwd1gyaHB4T01yMmQwWU9jdHlMUkN1N0c1aVMySnowVGpITGM0c2hJMW1jYTFJaEE3eVExaGl5S3Q4cnJLczE4QXAtb0NkMk1sd0Y4OUhtcHlPUm9Vc0XSAZgBQVVfeXFMTUxFRTQ1MGoycTFUYWlRS08wQXBDNklwZGVHMVBRMHh1cTZOZEh4Q2xqbXdTd1UxOWU4blVTdnpYMkxfTUkwQ1E4WEU5OXptT3JXZHRSLU05NW9RM1d4SnBiOS1POEgxSUpWQVhMZFBJdzF0VkZSb0Q2LW5GMWRkdkhPbTYzc2E3TzZRQ3dJekRla1ZhTkpiZkY?oc=5",
-     "source": "The Hill"
-    },
-    {
      "title": "Trump Reveals Why He Paused the Senate Debate on Daylight Saving Time - Newsweek",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObUZ4dXNkUEtiR3pnM3R0WGs2WjZ1d1NJRERZOTJKSnJZcXI5cF8yeGxOYng1WGMxNGtFVGl6T0RSLWhIbHJxOFBhV0tFXzdpTGZXNHNxMEhwQlhlU3JPelZLRXlPOTFYVGFOYlBQVzVCV2tfMDlqNFVxNlo2NzBzTXpBdzdaSDZfUGdsbQ?oc=5",
      "source": "Newsweek"
     },
     {
-     "title": "Daylight saving time 2026 ending: When to 'fall back' - ABC30 Fresno",
-     "url": "https://news.google.com/rss/articles/CBMigwtBVV95cUxPLWlMUjNRdXp3Q2FyN0gxUVJZS28xZ2JvRmVCY2pNM2REUVBOWXdsWlNVZ0NKVFMyMTRJcWNYS19hb2JTOG1MVEU2UGN4MnE4aWhoVVZmN3NvdkxzeEkybERhbm4xVjF4OW1DRTBxMGo1LVg2cG1UVmFxY1M4NXBXRXNrNzU1WDVpQ1ZVM3lCQVN6aW8ya3JyOHE1MnlfS1lxSWNSMVpuRUdPcDFMeGIxS0lCc3FkeDRXSmpGLUVZOXJNaHFCc0M5bE4xQWV6d05Ob0hIVmNUN0lzcVFsMWRpWVVWQlBPTkZibHMxV25zY0tNOThJS0F1SzhhcHNCZmJxcXpSVGYwVXRYUkpHRVJPNXdudVhHNXE5clk5N2pFYTUwdENGNmlJYVBWOThMc1VkSmRKSmpEeFdQalMwTEFxY1NiR2pvc2kxNDRIZ05GbkxyYklvZ1lfMzF1VFhaWUt3dmlsRVNYdEZoajhkdjRPZEE5cEU2dWhzTkcwTy1RUW5hYUxOMWJ6M0U2ekVsX2ZLZGxidTVmYmZJT0Z5S3RyUnNqRUdDVWFUYzlGOENRZ2ZRMG1NSTY1czZVUTFLbnpuUVFaNEJnaThkZjRxMFNBN3dtZnQ2TVhtTlJUUUg3T0JoV1BEM01kU3p3NUdBdUo0ZDNrdGJKWHBOSEtRSEZFSk5UTl9mRDNrSFJFMlpob3RjRmVpOTNKd3pQZ19ELW5QQjhNa1RpSTdtNEdVTGNQTHZ3TW5ZTjQ3ZmVSVXpkakVpeS15NDhtZlctQWpId1k3ZUtGZ0YtelloRXpuNFBUODE4YXJzRUdwbU9tS256V0VuV3hSWV9NcjdteWhhcXowaXUtSFA2eGlleHlLZV9JMTdLN01UNV9uRktBeXR1NTlMeFdBVXJNTkR5X2d5ZHF3VmZkbU1laVFyYmU1Q05kWENvanlEbFI4Y1VsOTJjd3gyWUZxa3JJa2FVeGpLLTR6RFhKRDhXREJsOGhkR0VRNjJOTjRVd3l0SWRLYlExLXhtMVZqdGlUR1B1aVRhWTBOSk5LMy1nZ0NKaENaNk50WVlUUUx0c2w3ZkQxZ01SSmROelNVZmN4bDI1U0kxRjVWcUdvekN6b0Z5UklNbGctOXBYdm9NU1NkYkc4Y0RxUHBReW9SS0o2V1ZCalU5T1FnUHlTbHVDZjZJTWdXUjcyTTR0NFhBX3BmaS1XTnRVYnVCWWp3bEdPM0thbDQydHBRRVBjN2F5SXVTcHl0dnNnQ1dlUE5XVjZ5bDREZHNYY2ptUm1NQl84YXFOZTRyS0xGY1JzdHFOZGlQTlRPeEFjTW1YZGJhaDdZbnJMSnhNM1NHTUJYdzBRNWhiVUdwTDFOd0hDdEtyblUxczZ6NEh0ZmdJNnBxa09WSHJjZVZydDRiSmpCSUJLTDVGWFh0WWxybTVfSTNFX0FhN245aUhhODNrWUFSbnQzenI5eVoyeExmNUNfNzJLdjVzeVdEWTBfYXpfSDJ6aWtOYUJ5SUpXVWlLT2VxNU55WU12ZVpXbGczSUlpM01VbjNUYUdNTGNRbnRsbXZzUTJRSkZONlhqYVV6bTVuTVFfZlpVSlVockZtV0xLSE9hTFRWVzBJU2xQcnZhdENPTUhCZi1zblpZOTg0emROY05CRm5RaXdXZzNjSmJSc2dvWmVsaG16SWdZbG9TSlFtQWlDNHg2cGN2X3lYNlBZdUdyUUl1bnp3eG84Wk4ydkFONFNWSy1LSDBKT1BPa2hTb2F4NUdKR1hpZHhYVGpaampPNm5aOGYtMlZUOVNSVXo4dnB0VnFFTkFxQkpfckFzVEw3eERzRk9CUHFTOGZObkJJRXBhUzIxWm15MFRCUUhXekxEQUtXYVUtOUdZ?oc=5",
-     "source": "ABC30 Fresno"
+     "title": "Trump urges Congress to pass daylight saving bill after ‘ridiculous’ early sunset - The Hill",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNk9BNTR2ZEpFZlRQY2RwZkZMNDBJYXJ3LUZTM1ZHVWNjZ05uRnJQTlEzQXRLcURYRjFHcEQwd1gyaHB4T01yMmQwWU9jdHlMUkN1N0c1aVMySnowVGpITGM0c2hJMW1jYTFJaEE3eVExaGl5S3Q4cnJLczE4QXAtb0NkMk1sd0Y4OUhtcHlPUm9Vc0XSAZgBQVVfeXFMTUxFRTQ1MGoycTFUYWlRS08wQXBDNklwZGVHMVBRMHh1cTZOZEh4Q2xqbXdTd1UxOWU4blVTdnpYMkxfTUkwQ1E4WEU5OXptT3JXZHRSLU05NW9RM1d4SnBiOS1POEgxSUpWQVhMZFBJdzF0VkZSb0Q2LW5GMWRkdkhPbTYzc2E3TzZRQ3dJekRla1ZhTkpiZkY?oc=5",
+     "source": "The Hill"
+    },
+    {
+     "title": "New Study Reveals a Hidden Danger of Permanent Daylight Saving Time - Men's Journal",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeVI0emRieS1YcElZSko3bV9WUUd1emhoVWZnejlEakVudzVIajRuZ1FMMThXbjIxOVNLT21GdDZKdjh0dzJCMUh0c2tFVC1GSWJlNHZjTzdVNUo0cF9fd2dSRDY3X0hfZktOQnI1dWN1YjZkNGhCdjNWNVN1TE5SWEVSNHVxQlM5UjRwcHNQbXNZV1cwaXlyS29kUFFURzBwYVR2OQ?oc=5",
+     "source": "Men's Journal"
     }
    ],
    "official": false,
@@ -950,11 +1027,42 @@
      "url": "https://www.newsweek.com/daylight-saving-time-permanent-donald-trump-senate-12667597",
      "title": "Trump Reveals Why He Paused the Senate Debate on Daylight Saving Time - Newsweek",
      "outlet": "Newsweek"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "ban vs wi",
+   "traffic": 2000,
+   "published": "2026-11-05T12:00:00+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "BAN vs WI Cricket Scorecard, 1st Test at Dhaka, October 28 - November 01, 2026",
+     "url": "https://www.cricinfo.com/series/west-indies-in-bangladesh-2026-27-1553291/bangladesh-vs-west-indies-1st-test-1553295/full-scorecard",
+     "source": "Cricinfo"
     },
     {
-     "url": "https://abc30.com/story/daylight-saving-time-2026-ending-when-fall-back/19913454/?userab=kfsn_content_recs-582*variant_a_control_kfsn-2512,kabc_content_recs-577*variant_a_control-2480,wls_content_recs-584*variant_a_control_wls-2516,wtvd_content_recs-585*variant_b_trending_wtvd-2519,ktrk_content_recs-587*variant_b_trending_ktrk-2523,wpvi_content_recs-586*variant_a_control_wpvi-2520,abcn_article_nfy_v2-691*control-3727,otv_web_content_rec-539*variant_c_trending-2268,otv_web_topic-580*variant_b_topic_redesign-2509,follow_abcnews_otv_on_google-654*variant_a_control-3493,otv_search_page_design_unification-546*variant_b_search_redesign-2300,otv_web_live-581*variant_b_live_redesign-2511,follow_otv_on_google-683*variant_c_share_plus_google_button-3662,abcn_popular_reads_exp_followup-648*variant_c_autotagswpopularity-3458,otv_mobile_web_content_recs-639*variant_b_mobile_content_recs_enabled-3431,kgo_content_recs-583*variant_a_control_kgo-2514,abcn_verts_midterms-671*variant_a_control-3586,otvlink_abcnnav-576*variant_a_control-2478",
-     "title": "Daylight saving time 2026 ending: When to 'fall back' - ABC30 Fresno",
-     "outlet": "ABC30 Fresno"
+     "title": "West Indies coach says preparation was vital to first-Test victory",
+     "url": "https://www.jamaicaobserver.com/2026/11/02/west-indies-coach-says-preparation-vital-first-test-victory/",
+     "source": "Jamaica Observer"
+    },
+    {
+     "title": "Mushtaq fails to deliver",
+     "url": "https://www.daily-sun.com/winner/906705",
+     "source": "www.daily-sun.com"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 37.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.jamaicaobserver.com/2026/11/02/west-indies-coach-says-preparation-vital-first-test-victory/",
+     "title": "West Indies coach says preparation was vital to first-Test victory",
+     "outlet": "Jamaica Observer"
     }
    ]
   },
@@ -962,7 +1070,7 @@
    "source": "google_news",
    "keyword": "ACA open enrollment",
    "traffic": 0,
-   "article_count_24h": 28,
+   "article_count_24h": 27,
    "article_count_1h": 1,
    "published": "2026-11-05T00:55:01+09:00",
    "category": "Health Insurance",
@@ -1054,95 +1162,80 @@
    "already_covered": false
   },
   {
-   "source": "google_news",
-   "keyword": "LIHEAP",
-   "traffic": 0,
-   "article_count_24h": 6,
-   "article_count_1h": 0,
-   "published": "2026-11-05T09:00:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "How to apply for heating aid as Philadelphia weather gets colder | Local News | phillytrib.com - phillytrib.com",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZk9DQXMzTjFUejJNdXN1OWtSalg2SzU1QV9lMDl0V3VPQW1LZmhJNnJFcllpRXAxN1FHTWRFS203MmtDLWRxOTBaTVJRN0h3bEt4ZEQ3cTNNaE1RdnBmeFFvbDZQQVNxZWFxWmZ6SHhuVkoyYlNGUERVQ2hodGRQclJ4VmFfbGJnRjYzOW1XSjAyWERvNkNMRVRSS1dPUW1kZVprUllRVzJvTHlzMC0wTHctM2k1VVoxZDV5YWh2RzVRUUxjQWc0alYycWNNVVlDR0txcUhZSDNPZjJoRDhiNEs0UU13Q2EtNDlPdVpB?oc=5",
-     "source": "phillytrib.com"
-    },
-    {
-     "title": "Pennsylvania opens energy assistance applications; Maryland aid available year-round - LocalNews1",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdDJJR2k2M3paRW5mbVdTQV9rR1hfUThjZkxxTmNtclI4aXBrRXpWQzFZaWZOeHByaUR4WHJnWlRRbkFBWlZncklNR0h1UUhfM1pTQlcySWpxX2lIbUR4dGVGZHJzZHJncnpYSzh6V1hrLVNtWk5TRTZxRVhBTENWNWRHMmd5WmlpOHBJbVZYa1p1ME5YaHJaVk9Yekg?oc=5",
-     "source": "LocalNews1"
-    },
-    {
-     "title": "Applications being taken for energy assistance program - Observer-Reporter",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTHZUcU5BXzJuYXlwb1lLMVVuOXFwd0NiYjFnRkZtTHI2UDI0RjJxaWc4eFJCdERpQUJKQ3k5VkFBS1VmZnhFU2E5N0dDNVQyaGN0WXVpc2pQeEJLVFJfNjFSSkFQb01QTEgzaFFlN2h3MTc4Q0t4anFBTVFvMjJHaG1oU0IzR3hFTkM1QlVER1RiYXFoYnBlaV95NzFUWS1ybzNNV3VKSEYtU0phZkRFOFVYaG9uWC1m?oc=5",
-     "source": "Observer-Reporter"
-    },
-    {
-     "title": "Wednesday WMOK News Check Yellow Sheet – November 4, 2026 – Metropolis and Massac County News - WMOK",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORTFRLVJCN2tRdkF1dlVDZk5fV1l0RWFGam0yVGVhYld5VHpUbno5OHVvQ0ZkY0dfUjRjbkhxdjhTMFZUNHQ3N08yLVVLUFk4aGtkcWFxbG53d1htd2NuMGFNXy13bGZnRTNYVW54TVFZdG44MG0xV0F1ZUJaV1VBSEtMdDBYYms3R2hvdUE1dms2UkNKWk80a2g4ZTFYNkxoVFpPNmxuY1puRi1ieXh1U2RRb0lhNlVyU0d2YThOa0lqdw?oc=5",
-     "source": "WMOK"
-    },
-    {
-     "title": "Pennsylvania PPL customers can explore electric bill relief options in person, with ID and proof of income - The Cool Down",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOemp1VndyVG9qWGxVaXgyTml5WXpfcVpnUGpxanM1R2puRFF4VmtyUUFTQndCSnFmN3lHSGxHdk94dWE5d0NGMzhLZEoyMUVMendncVJxaU44aGRleHBNUlh0R1J3SkxjOFNKdkRpVExscEtKZWE2bW1wQVJTSGRIY251eFNQN0V4Z3REMC1weGlEdw?oc=5",
-     "source": "The Cool Down"
-    }
-   ],
-   "official": false,
-   "score": 28.8,
-   "already_covered": true
-  },
-  {
    "source": "google_trends",
-   "keyword": "zilla fatu",
-   "traffic": 500,
-   "published": "2026-11-05T11:30:00+09:00",
-   "category": "Benefits",
+   "keyword": "teresa benitez thompson",
+   "traffic": 2000,
+   "published": "2026-11-05T12:20:00+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "BREAKING NEWS: John Cena announces the John Cena Classic: Raw highlights, Nov. 2, 2026",
-     "url": "https://www.wwe.com/videos/breaking-news-john-cena-announces-the-john-cena-classic-raw-highlights-nov-2-2026",
-     "source": "WWE"
+     "title": "Nevada House District 2 Midterm Election 2026: Live Results",
+     "url": "https://www.nbcnews.com/politics/2026-elections/nevada-us-house-district-2-results",
+     "source": "NBC News"
     },
     {
-     "title": "WWE® & The Walt Disney Company Expand Partnership with Two-Day Takeover of ESPN Wide World of Sports Complex Featuring the John Cena Classic & Marvel Studios’ ‘Avengers: Doomsday’-Themed Worlds Collide",
-     "url": "https://thewaltdisneycompany.com/news/wwe-espn-wide-world-sports-takeover/",
-     "source": "The Walt Disney Company"
+     "title": "Nevada Second Congressional District 2026: Live Election Results, Benitez-Thompson vs. Flippo",
+     "url": "https://www.nytimes.com/interactive/2026/11/03/us/elections/results-nevada-us-house-2.html",
+     "source": "The New York Times"
     },
     {
-     "title": "WWE, Disney Team for ‘Avengers: Doomsday’-Themed Worlds Collide, John Cena Classic",
-     "url": "https://variety.com/2026/tv/news/wwe-disney-avengers-doomsday-worlds-collide-john-cena-1236938410/",
-     "source": "Variety"
+     "title": "Benitez-Thompson vows to represent all voters in Nevada's 2nd Congressional District",
+     "url": "https://www.2news.com/news/campaign/benitez-thompson-vows-to-represent-all-voters-in-nevadas-2nd-congressional-district/article_f98fba4c-de52-4443-8ccf-10de490972a6.html",
+     "source": "KTVN"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 28.0,
+   "score": 32.5,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.wwe.com/videos/breaking-news-john-cena-announces-the-john-cena-classic-raw-highlights-nov-2-2026",
-     "title": "BREAKING NEWS: John Cena announces the John Cena Classic: Raw highlights, Nov. 2, 2026",
-     "outlet": "WWE"
+     "url": "https://www.nbcnews.com/politics/2026-elections/nevada-us-house-district-2-results",
+     "title": "Nevada House District 2 Midterm Election 2026: Live Results",
+     "outlet": "NBC News"
     },
     {
-     "url": "https://thewaltdisneycompany.com/news/wwe-espn-wide-world-sports-takeover/",
-     "title": "WWE® & The Walt Disney Company Expand Partnership with Two-Day Takeover of ESPN Wide World of Sports Complex Featuring the John Cena Classic & Marvel Studios’ ‘Avengers: Doomsday’-Themed Worlds Collide",
-     "outlet": "The Walt Disney Company"
-    },
-    {
-     "url": "https://variety.com/2026/tv/news/wwe-disney-avengers-doomsday-worlds-collide-john-cena-1236938410/",
-     "title": "WWE, Disney Team for ‘Avengers: Doomsday’-Themed Worlds Collide, John Cena Classic",
-     "outlet": "Variety"
+     "url": "https://www.2news.com/news/campaign/benitez-thompson-vows-to-represent-all-voters-in-nevadas-2nd-congressional-district/article_f98fba4c-de52-4443-8ccf-10de490972a6.html",
+     "title": "Benitez-Thompson vows to represent all voters in Nevada's 2nd Congressional District",
+     "outlet": "KTVN"
     }
    ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "martha maccallum",
+   "traffic": 1000,
+   "published": "2026-11-05T12:00:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Thomas H. Quinn Speaker Series: The Book of Valor - A Discussion with Martha MacCallum and General Patrick Brady",
+     "url": "https://mendoza.nd.edu/events/10567",
+     "source": "University of Notre Dame Mendoza College of Business"
+    },
+    {
+     "title": "Bestselling author Martha MacCallum to discuss ‘The Book of Valor’",
+     "url": "https://mendoza.nd.edu/news-stories/all-news-stories/bestselling-author-martha-maccallum-discuss-book-valor",
+     "source": "University of Notre Dame Mendoza College of Business"
+    },
+    {
+     "title": "Fox News host reacts after he’s caught on hot mic asking if network can ‘do a spin on the races’ amid election results",
+     "url": "https://www.yahoo.com/entertainment/tv/articles/fox-news-host-reacts-caught-142631523.html",
+     "source": "Yahoo"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 32.0,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "stimulus check",
    "traffic": 0,
-   "article_count_24h": 6,
+   "article_count_24h": 8,
    "article_count_1h": 1,
    "published": "2026-11-05T04:29:32+09:00",
    "category": "Benefits",
@@ -1151,6 +1244,11 @@
      "title": "Gina Hinojosa campaigned on $1,500 checks for Texans. Will lawmakers go for it? - Houston Chronicle",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSHFYTVVJSHQyOERmYXRGcnA3YnlVVDlKM0hvM0tlX2YtdkhTOXR5LXJscmFFX0F5ZW5jYk91ZVV2VzFJZW4ycGs1VXFMWi1SLXM0RkxyZlRoRGQzY2lBbFBGWWVzbVl3eTBieGpoTm9zVXNNNENja1Q2NWNCektXRTl2UFdSd1p2S1UtVXYtSV8wSkV0YUp3?oc=5",
      "source": "Houston Chronicle"
+    },
+    {
+     "title": "California woman bagged $18M in COVID relief heist: feds - New York Post",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdWhuVHRaNVE5ZFJjeHF3d3lsMWJ5LV9mX1JhZUtjT2J0anZlemtaU25la3d3Tm1mUW5rd3BkazUzMm13aVFPSXR6dUtLd2xWZU5ERXR2WUdmZ3pLbkJqQU5xZHUtRjlNYWE2aW9GTGlqajhCVTdGN3JJS2JpVnVvN213Z2w2b0M4NzBDQkdpS0EwYkhLV0xRWGtR?oc=5",
+     "source": "New York Post"
     },
     {
      "title": "Jill On Money: It’s good to be an owner - WBKB11.com",
@@ -1166,103 +1264,40 @@
      "title": "How To Keep Your Middle Class Membership Card - Financial Samurai",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdC0tTnVTZFpUNjFudHJmdEhBRFhqeVUwbUIxYVROMmhkbEozUzVJZFZEdDl0VmxFSTFYTUJFZno3M3FfeHNuR2gxU2k5U3hKbmdhNnNBM3lxNlEyTVkyQno2bDBFM1VYN1otc1RtYUZob1FFdFI0WFhGQU9RVnhhc3JVcjRQZw?oc=5",
      "source": "Financial Samurai"
-    },
-    {
-     "title": "Are Trump's $5,000 midterms checks still on the table? Americans beg for answers - The Sun",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZzhpUUl0Nm5qc05RX2ZsRlkzeTk3Rm1lTUZYdmFFQlc4dmhPZ0x2TU9CQkpsTVhWdHVNSDJESGpmaWx3WkF1aE9UVzBPZzlaZ01jZExNc01DaWxZcUdqcEFDVnNfVlNJbFo5bVJVWkJaMTZtSW9mRnRxXzRYbTJqOGR3VDZaX3RaR1Fkcjlab21PRUExU2VhNlRGZw?oc=5",
-     "source": "The Sun"
     }
    ],
    "official": false,
-   "score": 24.6,
+   "score": 31.4,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "heat vs clippers",
-   "traffic": 5000,
-   "published": "2026-11-05T11:40:00+09:00",
-   "category": "기타",
+   "keyword": "mark kelly",
+   "traffic": 1000,
+   "published": "2026-11-05T12:00:00+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "Final Injury Report for Heat-Clippers: Will Giannis Antetokounmpo, Rui Hachimura Play?",
-     "url": "https://sports.yahoo.com/articles/final-injury-report-heat-clippers-230000107.html",
-     "source": "Yahoo Sports"
+     "title": "Trump’s rally sprint had flavors of a farewell tour, MAGA crowds and an unexpected closing message",
+     "url": "https://www.cnn.com/2026/10/31/politics/trump-closing-message-midterm",
+     "source": "CNN"
     },
     {
-     "title": "Heat vs. Clippers Prediction, Odds and Best NBA Prop Bets for Wednesday, Nov. 4",
-     "url": "https://www.si.com/betting/heat-vs-clippers-prediction-odds-and-best-nba-prop-bets-for-wednesday-nov-4-2026",
-     "source": "Sports Illustrated"
+     "title": "Licensable picture: Nadia Colom, wife of Democratic U.S. Senate candidate Scott Colom, listens to him speak with daughters Brooklyn, middle, and",
+     "url": "https://www.reutersconnect.com/item/nadia-colom-wife-of-democratic-us-senate-candidate-scott-colom-listens-to-him-speak-with-daughters-brooklyn-middle-and/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVVTQVRPREFZMzAyNzQzMzM",
+     "source": "Reuters Connect"
     },
     {
-     "title": "How to watch Heat vs. Clippers: TV channel and streaming options for November 4",
-     "url": "https://www.nytimes.com/athletic/7754132/2026/11/04/heat-vs-clippers-stream-how-to-watch-nov-4/",
-     "source": "The New York Times"
+     "title": "WATCH: Trump rallies in Iowa as part of final push before Election Day",
+     "url": "https://www.pbs.org/newshour/politics/watch-live-trump-rallies-in-iowa-as-part-of-final-push-before-election-day",
+     "source": "PBS"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 24.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/final-injury-report-heat-clippers-230000107.html",
-     "title": "Final Injury Report for Heat-Clippers: Will Giannis Antetokounmpo, Rui Hachimura Play?",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://www.si.com/betting/heat-vs-clippers-prediction-odds-and-best-nba-prop-bets-for-wednesday-nov-4-2026",
-     "title": "Heat vs. Clippers Prediction, Odds and Best NBA Prop Bets for Wednesday, Nov. 4",
-     "outlet": "Sports Illustrated"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "uic police activity",
-   "traffic": 5000,
-   "published": "2026-11-05T11:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "UIC stabbing: Student arrested in attempted crime at UIC Student Center East on Halsted; FBI, ATF investigating",
-     "url": "https://abc7chicago.com/post/chicago-news-today-public-urged-avoid-uic-student-center-east-due-police-activity-second-floor-say/20015610/",
-     "source": "ABC7 Chicago"
-    },
-    {
-     "title": "Police investigate attempted stabbing on UIC campus, building evacuated",
-     "url": "https://www.nbcchicago.com/news/local/alert-warns-students-to-avoid-part-of-uic-campus-due-to-police-activity/4012373/",
-     "source": "NBC 5 Chicago"
-    },
-    {
-     "title": "UIC student arrested, student center evacuated after attempted on-campus stabbing",
-     "url": "https://chicago.suntimes.com/crime/2026/11/04/uic-student-arrested-student-center-evacuated-after-attempted-stabbing-on-campus",
-     "source": "Chicago Sun-Times"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://abc7chicago.com/post/chicago-news-today-public-urged-avoid-uic-student-center-east-due-police-activity-second-floor-say/20015610/",
-     "title": "UIC stabbing: Student arrested in attempted crime at UIC Student Center East on Halsted; FBI, ATF investigating",
-     "outlet": "ABC7 Chicago"
-    },
-    {
-     "url": "https://www.nbcchicago.com/news/local/alert-warns-students-to-avoid-part-of-uic-campus-due-to-police-activity/4012373/",
-     "title": "Police investigate attempted stabbing on UIC campus, building evacuated",
-     "outlet": "NBC 5 Chicago"
-    },
-    {
-     "url": "https://chicago.suntimes.com/crime/2026/11/04/uic-student-arrested-student-center-evacuated-after-attempted-stabbing-on-campus",
-     "title": "UIC student arrested, student center evacuated after attempted on-campus stabbing",
-     "outlet": "Chicago Sun-Times"
-    }
-   ]
+   "score": 26.0,
+   "already_covered": false
   },
   {
    "source": "google_news",
@@ -1300,112 +1335,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "is cruz leaving chicago fire",
-   "traffic": 2000,
-   "published": "2026-11-05T11:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "'Chicago Fire' 300: Taylor Kinney on Milestone, Saying Goodbye to Cruz",
-     "url": "https://variety.com/2026/tv/news/chicago-fire-300-taylor-kinney-cruz-1236937912/",
-     "source": "Variety"
-    },
-    {
-     "title": "‘Chicago Fire’ reaches major television milestone",
-     "url": "https://www.yahoo.com/entertainment/tv/articles/chicago-fire-reaches-major-television-235247863.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "'Chicago Fire' bids farewell to Cruz after 15 seasons. Inside his emotional goodbye",
-     "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/11/04/chicago-fire-joe-cruz-joe-minoso-leaves-show-after-15-seasons/92483501007/",
-     "source": "USA Today"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "ausar thompson",
-   "traffic": 1000,
-   "published": "2026-11-05T11:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Ausar Thompson is embracing new shooting habits with Detroit Pistons",
-     "url": "https://www.freep.com/story/sports/nba/pistons/2026/11/03/ausar-thompson-embracing-his-new-shot-with-detroit-pistons/92575324007/",
-     "source": "Detroit Free Press"
-    },
-    {
-     "title": "Central Notes: Thompson, Joe, Watson, Tyson, Buzelis",
-     "url": "https://www.hoopsrumors.com/2026/11/central-notes-thompson-joe-watson-tyson-buzelis.html",
-     "source": "Hoops Rumors"
-    },
-    {
-     "title": "Ausar Thompson is the reason the Pistons shouldn't trade for a shot creator—yet",
-     "url": "https://pistonpowered.com/ausar-thompson-reason-pistons-shot-creator",
-     "source": "PistonPowered"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "the day after tomorrow",
-   "traffic": 1000,
-   "published": "2026-11-05T11:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Jake Gyllenhaal's 123-Minute Sci-Fi Action Thriller Is Officially the Biggest Movie on Netflix",
-     "url": "https://movieweb.com/the-day-after-tomorrow-jake-gyllenhaal-stream-november-2026/",
-     "source": "MovieWeb"
-    },
-    {
-     "title": "How Did ‘The Day After Tomorrow’ Become the Top Movie on Netflix in 2026?",
-     "url": "https://decider.com/2026/11/03/top-movie-on-netflix-the-day-after-tomorrow/",
-     "source": "Decider"
-    },
-    {
-     "title": "Jake Gyllenhaal's 124-Minute Sci-Fi Disaster Movie Is Officially Netflix's Biggest Streaming Hit",
-     "url": "https://www.slashfilm.com/2305743/jake-gyllenhaal-sci-fi-disaster-movie-the-day-after-tomorrow-streaming-netflix-november-2026/",
-     "source": "SlashFilm"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "derrick white",
+   "keyword": "ayo dosunmu",
    "traffic": 500,
-   "published": "2026-11-05T11:50:00+09:00",
+   "published": "2026-11-05T12:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "The Celtics need more from Derrick White and Payton Pritchard",
-     "url": "https://www.celticsblog.com/celtics-analysis/149278/the-boston-celtics-need-more-from-derrick-white-dwhite-and-payton-pritchard-11-9",
-     "source": "CelticsBlog"
+     "title": "Ayo Dosunmu's Recent Play Is Making Wolves Look Like Geniuses",
+     "url": "https://www.si.com/nba/timberwolves/onsi/ayo-dosunmu-recent-play-making-wolves-look-geniuses-01m6h958md1b",
+     "source": "Sports Illustrated"
     },
     {
-     "title": "Payton Pritchard and Sam Hauser's struggles in Celtics' loss prove their value",
-     "url": "https://hardwoodhoudini.com/payton-pritchard-sam-hauser-struggles-celtics-loss-prove-value",
-     "source": "Hardwood Houdini"
+     "title": "Ayo Dosunmu logs double-double Monday",
+     "url": "https://www.fantasypros.com/nba/news/617456/ayo-dosunmu-logs-double-double-monday.php",
+     "source": "FantasyPros"
     },
     {
-     "title": "Sam Hauser News: Goes cold from deep",
-     "url": "https://www.rotowire.com/basketball/headlines/sam-hauser-news-goes-cold-from-deep-537407",
-     "source": "RotoWire"
+     "title": "Timberwolves’ Chris Finch reveals key factor in Ayo Dosunmu for ‘stepping up’ amid injuries",
+     "url": "https://sports.yahoo.com/articles/timberwolves-chris-finch-reveals-key-022558807.html",
+     "source": "Yahoo Sports"
     }
    ],
    "official": false,
@@ -1416,24 +1364,82 @@
   },
   {
    "source": "google_trends",
-   "keyword": "lakers - kings",
+   "keyword": "energy drinks",
    "traffic": 500,
-   "published": "2026-11-05T11:30:00+09:00",
+   "published": "2026-11-05T12:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Lakers vs. Kings Preview: Quick road trip",
-     "url": "https://www.silverscreenandroll.com/lakers-game-previews/128397/lakers-vs-kings-discussion-injury-report-how-to-watch-tv-stream-start-time-luka-doncic-zach-lavine",
-     "source": "Silver Screen and Roll"
+     "title": "Energy drinks linked to cardiac arrest in young adults, study finds",
+     "url": "https://www.usatoday.com/story/life/health-wellness/2026/11/04/energy-drinks-linked-heart-attacks-young-adults-study/92608524007/",
+     "source": "USA Today"
     },
     {
-     "title": "Kings vs Lakers Preview: Sacramento Win Tsunami Incoming?",
-     "url": "https://kingsherald.com/articles/kings-vs-lakers-preview-sacramento-win-tsunami-incoming/",
-     "source": "The Kings Herald"
+     "title": "Energy drinks linked to higher risk of cardiac arrest in young adults, study finds",
+     "url": "https://www.nbcnews.com/health/health-care/energy-drinks-linked-higher-risk-cardiac-arrest-young-adults-study-fin-rcna606546",
+     "source": "NBC News"
     },
     {
-     "title": "Lakers vs. Kings Prediction, Odds and Best NBA Prop Bets for Wednesday, Nov. 4",
-     "url": "https://www.si.com/betting/lakers-vs-kings-prediction-odds-and-best-nba-prop-bets-for-wednesday-nov-4-2026",
+     "title": "Energy drinks and stimulant supplements linked to several serious heart risks",
+     "url": "https://cardiovascularbusiness.com/topics/clinical/heart-health/energy-drinks-and-stimulant-supplements-linked-several-serious-heart-risks",
+     "source": "Cardiovascular Business"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "liam neeson",
+   "traffic": 500,
+   "published": "2026-11-05T12:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Liam Neeson shares hilarious reaction to Meryl Streep taking over as Aslan in ‘Narnia’",
+     "url": "https://ew.com/liam-neeson-reacts-meryl-streep-aslan-narnia-12237049",
+     "source": "Entertainment Weekly"
+    },
+    {
+     "title": "Liam Neeson Officially Addresses Netflix's New Narnia Reboot & Aslan Casting",
+     "url": "https://screenrant.com/chronicles-of-narnia-original-aslan-liam-neeson-unaware-reboot/",
+     "source": "ScreenRant"
+    },
+    {
+     "title": "‘Meryl Is Playing Jesus Christ?’: Liam Neeson Makes His Feelings Clear on His Narnia Replacement",
+     "url": "https://www.yahoo.com/entertainment/movies/articles/meryl-playing-jesus-christ-liam-123500761.html",
+     "source": "Yahoo"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "tobias harris",
+   "traffic": 500,
+   "published": "2026-11-05T12:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Mitch Johnson: Spurs taking ' very methodical' approach to Harris' rehab",
+     "url": "https://www.expressnews.com/sports/spurs/article/spurs-taking-patient-methodical-approach-22504446.php",
+     "source": "San Antonio Express-News"
+    },
+    {
+     "title": "Spurs Notes: Harris, Wembanyama, Castle, Fox",
+     "url": "https://www.hoopsrumors.com/2026/11/spurs-notes-harris-wembanyama-castle-fox.html",
+     "source": "Hoops Rumors"
+    },
+    {
+     "title": "Injury Update: Why Spurs Won't Rush Recovery for Tobias Harris, Jayden Quaintance",
+     "url": "https://www.si.com/nba/spurs/onsi/injury-update-why-spurs-won-t-rush-recovery-for-tobias-harris-jayden-quaintance",
      "source": "Sports Illustrated"
     }
    ],
@@ -1445,25 +1451,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "lauren sánchez bezos",
+   "keyword": "harrison barnes",
    "traffic": 200,
-   "published": "2026-11-05T11:50:00+09:00",
+   "published": "2026-11-05T12:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Jeff Bezos once gave Eva Longoria and the admiral behind Osama bin Laden's capture $100 million—but she says you don't need wealth to give back",
-     "url": "https://fortune.com/article/billionaire-jeff-bezos-gave-eva-longoria-admiral-behind-osama-bin-ladens-capture-100-million-she-says-you-dont-need-wealth-to-give-back/",
-     "source": "Fortune"
+     "title": "How Harrison 'The Banker' Barnes found equity and purpose with young Spurs",
+     "url": "https://sports.yahoo.com/articles/harrison-banker-barnes-found-equity-224729901.html",
+     "source": "Yahoo Sports"
     },
     {
-     "title": "Eva Longoria Reveals What She’s Doing With the $50 Million Jeff Bezos Awarded Her",
-     "url": "https://www.imdb.com/news/ni66089370/?ref_=nwc_art_perm",
-     "source": "IMDb"
+     "title": "'Smart' Veteran Is Just An Added Bonus for Overpowered Spurs",
+     "url": "https://roundtable.io/sports/nba/spurs/video/smart-veteran-is-just-an-added-bonus-for-overpowered-spurs",
+     "source": "roundtable.io"
     },
     {
-     "title": "Eva Longoria Uses Part of $50M Bezos Award to Help Women Build Food Businesses With José Andrés",
-     "url": "https://www.yahoo.com/entertainment/celebrity/articles/eva-longoria-uses-part-50m-220024549.html",
-     "source": "Yahoo"
+     "title": "Open Thread: Harrison Barnes creates a memeworthy moment",
+     "url": "https://sports.yahoo.com/articles/open-thread-harrison-barnes-creates-120000181.html",
+     "source": "Yahoo Sports"
     }
    ],
    "official": false,
