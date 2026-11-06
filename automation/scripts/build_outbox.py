@@ -203,7 +203,12 @@ def main():
         if not urgent:
             while not (hours[0] <= slot.hour < hours[1]):
                 slot = (slot + timedelta(hours=1)).replace(minute=0)
-        if done.get(slug, {}).get("naver") and done.get(slug, {}).get("tistory"):
+        # 오래된 글(기본 7일 넘은 글)도 미리보기 이미지를 빼서 16MB 한도를 지킨다 — 복사용 본문의 사이트 이미지 주소는 그대로
+        try:
+            old_img = bool(asof) and (now.date() - datetime.fromisoformat(asof).date()).days > int(pub.get("outbox_image_days", 7))
+        except ValueError:
+            old_img = False
+        if old_img or (done.get(slug, {}).get("naver") and done.get(slug, {}).get("tistory")):
             for r in (naver, tistory):
                 if r:
                     r["images"] = []
