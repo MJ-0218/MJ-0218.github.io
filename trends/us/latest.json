@@ -1,32 +1,77 @@
 {
- "generated_at": "2026-11-06T14:09:58.700080+09:00",
+ "generated_at": "2026-11-06T14:39:09.724065+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 74, 실패 27)"
+  "evidence": "ok (저장 74, 실패 29)"
  },
  "compared_runs": 6,
  "spikes": [
   "social security COLA",
-  "travis hunter",
-  "ethan hawke",
-  "solo leveling season 3 release date",
-  "burt reynolds",
-  "arizona basketball",
-  "al horford",
-  "adam driver",
-  "maya hawke",
-  "tim hardaway jr.",
-  "terence crawford"
+  "stephen curry",
+  "bryce james",
+  "jordan rodgers",
+  "dan koh",
+  "bam adebayo",
+  "giannis antetokounmpo",
+  "charles bassey",
+  "brandin podziemski",
+  "sam nivola",
+  "kiyomi mcmiller"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-06T14:39:09.752825+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -5,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-06T14:39:09.752850+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -5,
+   "in_window": true
+  },
   {
    "source": "google_news",
    "keyword": "social security COLA",
    "traffic": 0,
-   "article_count_24h": 13,
-   "article_count_1h": 7,
+   "article_count_24h": 12,
+   "article_count_1h": 8,
    "published": "2026-11-06T08:10:14+09:00",
    "category": "Benefits",
    "news": [
@@ -57,9 +102,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 2.2→7건 (2.5배)",
-   "spike_bonus": 25.3,
-   "score": 120.5,
+   "spike": "최근 1시간 기사 3.3→8건 (2.1배)",
+   "spike_bonus": 20.8,
+   "score": 79.3,
    "already_covered": false,
    "evidence": [
     {
@@ -81,112 +126,6 @@
      "url": "https://www.aol.com/articles/average-social-security-recipient-could-163500000.html",
      "title": "The Average Social Security Recipient Could Get $900 More in 2027 (Here's the Catch) - AOL.com",
      "outlet": "AOL.com"
-    }
-   ]
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-06T14:09:58.740268+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -5,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-06T14:09:58.740297+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -5,
-   "in_window": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "social security payment",
-   "traffic": 0,
-   "article_count_24h": 20,
-   "article_count_1h": 6,
-   "published": "2026-11-06T08:10:14+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "How Social Security Benefits Change From Age 62 to 90 - Investopedia",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTGpRY1YyWHJrX3BQZS1BeGpYb3o0bDl6OWFaMldGZEl6VFVPYlgyMTdzb0NBaEJQdjd4emU5aHZ5RGtNNVJIRFJlMUVIVUZudElyZFA2NndnNTM4U0JuSkJPdFpnV0pDVXRFaGVRX2UzU2tSNEdnUTV6S1p4YlVQUEdrMWdrRUtxYVlaaVVTaFJQalI5S0E?oc=5",
-     "source": "Investopedia"
-    },
-    {
-     "title": "Social Security Changes Taking Effect in 2027 - AARP",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jTjU5a2ZiQWpoVEdsa1F0cGx1U3BlV1pFWjNpb3ZaM3lEWkhSOGNBUDJ3a3ZrZXR0di1YWktDa29vT0Nva29QYm1aTHB3bG9Yd0x6T0RCS0NnS2pCMFNJMWQyc2Q?oc=5",
-     "source": "AARP"
-    },
-    {
-     "title": "What to know about the Social Security fix proposed by Sens. Elizabeth Warren and Bernie Moreno - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTzhPSndjb0dyRDVpN254X2JRRlZtMm1veGw1TTNIN0ZsQS1qZWx5X0NfTExrbmhvbE45em5Sc19lTUFELXFyQVZwN3E1Y1pfcVVzcGJHX0d4NG9TVVR6eXdTUF9fRUw2WmVqUklyZm4wVzhmaXp5TnVSVUNXT2lKLXA3VWNpdVdHUmx0Y29iVXA3QVYxWlMyT2l2WTdtR3VaZWowWmczUTjSAa4BQVVfeXFMTzc2cXQyalI2elo0cTRvZF9sMXlmcnZNaW9HQkUwaERybTd5eVNwcS1POGNlcWM4b1NEU3pwUG5BSmpGY0RkQnJiS21CTEsyNVJyUVJ3SVNYMm5tajRDWVB6VktHV1dLX2hyOHlmemtWV1FLVjZrcWJZM3VQd01JOHlKbnJHRUh4aERCWmNjOGpVSGU0RVUxVU9FdVQ2Zi1KSHVNYkhvZHpORVNZeXJR?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "title": "Who gets paid on Tuesday, November 10? Social Security's Veterans Day shift and how much to expect - Tododisca",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRnlyYVZFcjFjZXB0LU5tbW9VMmRWY3kzaERxd2cyelUwQkRXUkV6TEFObFhxck1DdmxId3Qxc1ZBU0dvSU11b0V3UzRNaUVuX2RkZkxXeExKM3cwci1XM1JBX2JidTVZVzFIbzhqRWVYYmZza1U3ZnZXRjdRM3Z5ME1tV3N5WFhB?oc=5",
-     "source": "Tododisca"
-    },
-    {
-     "title": "Social Security’s 2-for-1 Rule Hits Workers Earning Above $25,560 in 2027. Every Dollar Over It Withholds 50 Cents of Benefits - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOamJMUUlqNWVuaF8xamVDcEdRWkF5TFZpeWswRU9sNEJWVjNyRE9POVZOVWRsaWxwVENRVFdBcVR2Z0NNUHAwczhRa05XTkttaDBWY3hGd1ZkRG85eWpsV2ZYcFFyZVNLUG9YSUxiZ0NZdmVMc05lVG5KZ2w0eGowcXRDaUg3MUY4NjRidWZZMVU4dGVjNG1VTk11cjlJamsybnhUUEYzOGFnVS1qazQ5TXMxRDJ6TXFJRnJaaTdvS1BsUVFTVUxLV2hlam8yNzBCTEQzYzdIRkQwUHN1SncySHdpWjFWOGxUczdxVWFkS0x2Si1Pal94UTVyV20wRGI4cHFn?oc=5",
-     "source": "24/7 Wall St."
-    }
-   ],
-   "official": false,
-   "score": 80.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.aarp.org/social-security/ssa-changes-2027/",
-     "title": "Social Security Changes Taking Effect in 2027 - AARP",
-     "outlet": "AARP"
-    },
-    {
-     "url": "https://abcnews.com/Politics/social-security-fix-proposed-sens-elizabeth-warren-bernie/story?id=134253518",
-     "title": "What to know about the Social Security fix proposed by Sens. Elizabeth Warren and Bernie Moreno - ABC News - Breaking News, Latest News and Videos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "url": "https://tododisca.es/en/social-security-payment-tuesday-november-10-veterans-day/",
-     "title": "Who gets paid on Tuesday, November 10? Social Security's Veterans Day shift and how much to expect - Tododisca",
-     "outlet": "Tododisca"
-    },
-    {
-     "url": "https://247wallst.com/personal-finance/2026/11/05/social-securitys-2-for-1-rule-hits-workers-earning-above-25560-in-2027-every-dollar-over-it-withholds-50-cents-of-benefits/",
-     "title": "Social Security’s 2-for-1 Rule Hits Workers Earning Above $25,560 in 2027. Every Dollar Over It Withholds 50 Cents of Benefits - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
     }
    ]
   },
@@ -256,10 +195,15 @@
    "keyword": "election day",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 12,
-   "published": "2026-11-06T13:46:19+09:00",
+   "article_count_1h": 7,
+   "published": "2026-11-06T13:03:04+09:00",
    "category": "Elections",
    "news": [
+    {
+     "title": "LIVE UPDATES | Maryland polls close, election results come in - WBAL-TV",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTUt3V1k2QlU2YVdJRTJhRnZSaE9VUGxaUHIxOUtDODQ3bEhoVGh2TERhRnJJZkRjSlpUb3Zva214cl9IYnVFUUt2WWZLS2xwRzNJaFA3U3hXbGptejZ1OTB1VEFMWVpWYnpLdkQ5a3JSZGxzdkZjMXFOaGY4dFdVQU5OTzNfV1ZKSjlqb0tYT1FVQ0NPQndEdVZR?oc=5",
+     "source": "WBAL-TV"
+    },
     {
      "title": "These Democratic Senate candidates won their races before Election Day - The Washington Post",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONk1kUUlndS1NaFdiT2dtUDNKbWNLSTM4U2N0Q211dlZvTDJaVDFMRHQzYWRZOVY2VktCaGVONDF6ZU5TdFpRNjJOajU4NkVFb19aSENpUWtDSTJOT3ktMWdocEJPVnMxUGFFdzFnVERzMzdrdFpNME1rTUROdjc0WnNlOTlvakI0R0RVWWdoZ3F5QWlPYnM3NElZTUNROU56Z0dwbVhKVU1xeGdJa05Sc18zNEwteHlJd05GU2dhQQ?oc=5",
@@ -279,17 +223,17 @@
      "title": "Elections - MS NOW",
      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAycjZSY1BqSjhHazFVaHF6QnJlYkVOb0gxd09YTTcwSmppWHhiYmFfQ2FoMmROT1lIOHkyYXFNdnpoUQ?oc=5",
      "source": "MS NOW"
-    },
-    {
-     "title": "LIVE UPDATES | Maryland polls close, election results come in - WBAL-TV",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTUt3V1k2QlU2YVdJRTJhRnZSaE9VUGxaUHIxOUtDODQ3bEhoVGh2TERhRnJJZkRjSlpUb3Zva214cl9IYnVFUUt2WWZLS2xwRzNJaFA3U3hXbGptejZ1OTB1VEFMWVpWYnpLdkQ5a3JSZGxzdkZjMXFOaGY4dFdVQU5OTzNfV1ZKSjlqb0tYT1FVQ0NPQndEdVZR?oc=5",
-     "source": "WBAL-TV"
     }
    ],
    "official": false,
    "score": 65.0,
    "already_covered": false,
    "evidence": [
+    {
+     "url": "https://www.wbaltv.com/article/elections-live-maryland-election-day-2026-live-updates/74275224",
+     "title": "LIVE UPDATES | Maryland polls close, election results come in - WBAL-TV",
+     "outlet": "WBAL-TV"
+    },
     {
      "url": "https://whyy.org/articles/return-day-sussex-county-2026/",
      "title": "Delaware Republicans and Democrats ‘bury the hatchet’ for Return Day - WHYY",
@@ -299,11 +243,6 @@
      "url": "https://www.ms.now/elections",
      "title": "Elections - MS NOW",
      "outlet": "MS NOW"
-    },
-    {
-     "url": "https://www.wbaltv.com/article/elections-live-maryland-election-day-2026-live-updates/74275224",
-     "title": "LIVE UPDATES | Maryland polls close, election results come in - WBAL-TV",
-     "outlet": "WBAL-TV"
     }
    ]
   },
@@ -311,8 +250,8 @@
    "source": "google_news",
    "keyword": "early voting",
    "traffic": 0,
-   "article_count_24h": 72,
-   "article_count_1h": 8,
+   "article_count_24h": 76,
+   "article_count_1h": 5,
    "published": "2026-11-06T12:06:00+09:00",
    "category": "Elections",
    "news": [
@@ -332,14 +271,14 @@
      "source": "KCRG"
     },
     {
-     "title": "Travis County sets midterm early voting record with nearly 450K ballots - Community Impact",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTDNsZ2FyejloMjJiUzJac0VfQkYtZkZGbVA2RGVNWEUyY1ZyOFpCX0p3ZkJlUG02aV90SFVXTHJjZU9BYmJHZ1dCNFZ3X1k4aVh1ajF2SVQ0VUtVQzBPeU1hWnBZcExPb21Sd2M5UzZPSmRSNDRBb1EzNzhzU0tQU3laR0s2NnVXQkVFeTlfdGxjR3RsTmV1UkRpbGZuOTEwa0l5Z2VSaDg3UDJtNE4wemxsSEhUcnUxVng2UTRaRlNTUQ?oc=5",
-     "source": "Community Impact"
-    },
-    {
      "title": "These Democratic Senate candidates won their races before Election Day - The Washington Post",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONk1kUUlndS1NaFdiT2dtUDNKbWNLSTM4U2N0Q211dlZvTDJaVDFMRHQzYWRZOVY2VktCaGVONDF6ZU5TdFpRNjJOajU4NkVFb19aSENpUWtDSTJOT3ktMWdocEJPVnMxUGFFdzFnVERzMzdrdFpNME1rTUROdjc0WnNlOTlvakI0R0RVWWdoZ3F5QWlPYnM3NElZTUNROU56Z0dwbVhKVU1xeGdJa05Sc18zNEwteHlJd05GU2dhQQ?oc=5",
      "source": "The Washington Post"
+    },
+    {
+     "title": "Travis County sets midterm early voting record with nearly 450K ballots - Community Impact",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTDNsZ2FyejloMjJiUzJac0VfQkYtZkZGbVA2RGVNWEUyY1ZyOFpCX0p3ZkJlUG02aV90SFVXTHJjZU9BYmJHZ1dCNFZ3X1k4aVh1ajF2SVQ0VUtVQzBPeU1hWnBZcExPb21Sd2M5UzZPSmRSNDRBb1EzNzhzU0tQU3laR0s2NnVXQkVFeTlfdGxjR3RsTmV1UkRpbGZuOTEwa0l5Z2VSaDg3UDJtNE4wemxsSEhUcnUxVng2UTRaRlNTUQ?oc=5",
+     "source": "Community Impact"
     }
    ],
    "official": false,
@@ -369,11 +308,113 @@
    ]
   },
   {
+   "source": "google_trends",
+   "keyword": "stephen curry",
+   "traffic": 5000,
+   "published": "2026-11-06T14:20:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Steph Curry’s post after wife Ayesha’s viral kissing scene speaks volumes",
+     "url": "https://nypost.com/2026/11/05/sports/steph-curry-wife-ayesha-viral-kissing-scene/",
+     "source": "New York Post"
+    },
+    {
+     "title": "“You Guys Are Annoying”: Ayesha Curry Fires Back After Backlash Over Intimate Scene in New Movie",
+     "url": "https://www.yahoo.com/entertainment/movies/articles/guys-annoying-ayesha-curry-fires-181246379.html",
+     "source": "Yahoo"
+    },
+    {
+     "title": "Ayesha Curry to star in holiday rom-com 'Second Chance Holiday,' premiering on Roku",
+     "url": "https://www.espn.com/nba/story/_/id/50301789/ayesha-stephen-curry-roku-holiday-rom-com",
+     "source": "ESPN"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 64.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://nypost.com/2026/11/05/sports/steph-curry-wife-ayesha-viral-kissing-scene/",
+     "title": "Steph Curry’s post after wife Ayesha’s viral kissing scene speaks volumes",
+     "outlet": "New York Post"
+    },
+    {
+     "url": "https://www.yahoo.com/entertainment/movies/articles/guys-annoying-ayesha-curry-fires-181246379.html",
+     "title": "“You Guys Are Annoying”: Ayesha Curry Fires Back After Backlash Over Intimate Scene in New Movie",
+     "outlet": "Yahoo"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "medicare open enrollment",
+   "traffic": 0,
+   "article_count_24h": 23,
+   "article_count_1h": 2,
+   "published": "2026-11-06T11:00:15+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "Opinion | Financial Focus: Making the most of Medicare open enrollment - VailDaily.com",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSjl3MWFGODZoWlV4dHZhU1hKY0tXdGJIRUQzUnlGVHM5NzNmSUppRDFYMkZfVlEwUjFTeUk5SkhPQ1ZGQzNrMlAxcFlORkNhMTRLNDdRd1hyRTR1Vk5ienhwcUZOMnpTSldxMl82LXFjLXhWSVBGREN1TjRYUUxmUVNiaVpyeTlyeHJrZXlHNmY4c0ZLaXdpNnZwSVRPUWNzaGtJNQ?oc=5",
+     "source": "VailDaily.com"
+    },
+    {
+     "title": "Medicare beneficiaries urged to review coverage during open enrollment - KOAA News 5",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVVQyMmF0b1EyS2tycURrN3hVNjNhZHRSblY3NEZOM19lUEpuQ0NqdFJMQnZ1OW5ZZGhibm4tQVlyZWtOOEI3WUxPdWpfUjU2ZGtoa0Y3dlZGdndiUDlyZk9Hc2Q5Z0RuZk5QZTZhUmVGZW53LUhJbzZpSjFxUEo1YktOTjJYbEl2TF9HLVZjWk5XVVF4b0tWSGJ4THpsNEI5NW1XZ0Y4WVdhaEE?oc=5",
+     "source": "KOAA News 5"
+    },
+    {
+     "title": "Financial Focus: Making the most of Medicare open enrollment - - Bluebonnet News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUmRBbm9MWm5uQjlhaVdINDNMYlNsbnJGQmFhN0tBdXlTWmJDamVFVF9McjJoYzUtYWYwLUVsTDB0V2hnLWtISzRsN3J4clNuMk9Rbjl1dS1jSGkxNHdGTVU3YWJKcmdONms0aGZsSEVheVk4RENDLVozYVp3TzdLZ29aaGZWT1dCSVVINjFudmJ6SFhDMDVNdkpMc0pUNlU?oc=5",
+     "source": "- Bluebonnet News"
+    },
+    {
+     "title": "Free Medicare Open Enrollment Seminar Set for November 10 - Franklin County Free Press",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGNtMHV4Wi1BdlpHM0dxT3dta3M0WW1wTG9MaHctNG9wM3AwNGpvMUdTUjNoOXRBMkhBajNralR2dnBJN0U1bU5aeGJqZmJWZ0wtWlphT1lWZVNSX3VhbzQzaVhMV0JsSE1IQ3pOWkRsYTFkSm9BZFdaVXNMNndiX1k1b3ZxTkxuSFJqcA?oc=5",
+     "source": "Franklin County Free Press"
+    },
+    {
+     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Noticias Newswire",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42NE4zY3d0MXZMSDczemlFbm1IUnk1dHVUT3hVbzlqX1FuOFZvZTFpZkNFemotRWVwYUNObDU3WTgwMHY2dkQxdFg5UDdfZko2S0NOY012ZGJnMXBqRTI1STBZTTJUTHgxdXB2UHctaDVkeVdXdWxQajRnSQ?oc=5",
+     "source": "Noticias Newswire"
+    }
+   ],
+   "official": false,
+   "score": 57.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.vaildaily.com/opinion/opinion-financial-focus-making-the-most-of-medicare-open-enrollment/",
+     "title": "Opinion | Financial Focus: Making the most of Medicare open enrollment - VailDaily.com",
+     "outlet": "VailDaily.com"
+    },
+    {
+     "url": "https://www.koaa.com/news/local-news/medicare-beneficiaries-urged-to-review-coverage-during-open-enrollment",
+     "title": "Medicare beneficiaries urged to review coverage during open enrollment - KOAA News 5",
+     "outlet": "KOAA News 5"
+    },
+    {
+     "url": "https://bluebonnetnews.com/2026/11/05/financial-focus-making-the-most-of-medicare-open-enrollment/",
+     "title": "Financial Focus: Making the most of Medicare open enrollment - - Bluebonnet News",
+     "outlet": "- Bluebonnet News"
+    },
+    {
+     "url": "https://fcfreepresspa.com/free-medicare-open-enrollment-seminar-set-for-november-10/",
+     "title": "Free Medicare Open Enrollment Seminar Set for November 10 - Franklin County Free Press",
+     "outlet": "Franklin County Free Press"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
    "article_count_24h": 27,
-   "article_count_1h": 8,
+   "article_count_1h": 6,
    "published": "2026-11-06T03:22:56+09:00",
    "category": "Benefits",
    "news": [
@@ -431,71 +472,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "medicare open enrollment",
-   "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 1,
-   "published": "2026-11-06T11:00:15+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "Opinion | Financial Focus: Making the most of Medicare open enrollment - VailDaily.com",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSjl3MWFGODZoWlV4dHZhU1hKY0tXdGJIRUQzUnlGVHM5NzNmSUppRDFYMkZfVlEwUjFTeUk5SkhPQ1ZGQzNrMlAxcFlORkNhMTRLNDdRd1hyRTR1Vk5ienhwcUZOMnpTSldxMl82LXFjLXhWSVBGREN1TjRYUUxmUVNiaVpyeTlyeHJrZXlHNmY4c0ZLaXdpNnZwSVRPUWNzaGtJNQ?oc=5",
-     "source": "VailDaily.com"
-    },
-    {
-     "title": "Medicare beneficiaries urged to review coverage during open enrollment - KOAA News 5",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVVQyMmF0b1EyS2tycURrN3hVNjNhZHRSblY3NEZOM19lUEpuQ0NqdFJMQnZ1OW5ZZGhibm4tQVlyZWtOOEI3WUxPdWpfUjU2ZGtoa0Y3dlZGdndiUDlyZk9Hc2Q5Z0RuZk5QZTZhUmVGZW53LUhJbzZpSjFxUEo1YktOTjJYbEl2TF9HLVZjWk5XVVF4b0tWSGJ4THpsNEI5NW1XZ0Y4WVdhaEE?oc=5",
-     "source": "KOAA News 5"
-    },
-    {
-     "title": "Financial Focus: Making the most of Medicare open enrollment - - Bluebonnet News",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUmRBbm9MWm5uQjlhaVdINDNMYlNsbnJGQmFhN0tBdXlTWmJDamVFVF9McjJoYzUtYWYwLUVsTDB0V2hnLWtISzRsN3J4clNuMk9Rbjl1dS1jSGkxNHdGTVU3YWJKcmdONms0aGZsSEVheVk4RENDLVozYVp3TzdLZ29aaGZWT1dCSVVINjFudmJ6SFhDMDVNdkpMc0pUNlU?oc=5",
-     "source": "- Bluebonnet News"
-    },
-    {
-     "title": "Free Medicare Open Enrollment Seminar Set for November 10 - Franklin County Free Press",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGNtMHV4Wi1BdlpHM0dxT3dta3M0WW1wTG9MaHctNG9wM3AwNGpvMUdTUjNoOXRBMkhBajNralR2dnBJN0U1bU5aeGJqZmJWZ0wtWlphT1lWZVNSX3VhbzQzaVhMV0JsSE1IQ3pOWkRsYTFkSm9BZFdaVXNMNndiX1k1b3ZxTkxuSFJqcA?oc=5",
-     "source": "Franklin County Free Press"
-    },
-    {
-     "title": "Medicare Open Enrollment Ends Dec. 7: Give Your Plan a Check-up - Noticias Newswire",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42NE4zY3d0MXZMSDczemlFbm1IUnk1dHVUT3hVbzlqX1FuOFZvZTFpZkNFemotRWVwYUNObDU3WTgwMHY2dkQxdFg5UDdfZko2S0NOY012ZGJnMXBqRTI1STBZTTJUTHgxdXB2UHctaDVkeVdXdWxQajRnSQ?oc=5",
-     "source": "Noticias Newswire"
-    }
-   ],
-   "official": false,
-   "score": 51.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.vaildaily.com/opinion/opinion-financial-focus-making-the-most-of-medicare-open-enrollment/",
-     "title": "Opinion | Financial Focus: Making the most of Medicare open enrollment - VailDaily.com",
-     "outlet": "VailDaily.com"
-    },
-    {
-     "url": "https://www.koaa.com/news/local-news/medicare-beneficiaries-urged-to-review-coverage-during-open-enrollment",
-     "title": "Medicare beneficiaries urged to review coverage during open enrollment - KOAA News 5",
-     "outlet": "KOAA News 5"
-    },
-    {
-     "url": "https://bluebonnetnews.com/2026/11/05/financial-focus-making-the-most-of-medicare-open-enrollment/",
-     "title": "Financial Focus: Making the most of Medicare open enrollment - - Bluebonnet News",
-     "outlet": "- Bluebonnet News"
-    },
-    {
-     "url": "https://fcfreepresspa.com/free-medicare-open-enrollment-seminar-set-for-november-10/",
-     "title": "Free Medicare Open Enrollment Seminar Set for November 10 - Franklin County Free Press",
-     "outlet": "Franklin County Free Press"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "daylight saving time",
    "traffic": 0,
-   "article_count_24h": 48,
-   "article_count_1h": 4,
+   "article_count_24h": 46,
+   "article_count_1h": 5,
    "published": "2026-11-06T14:02:45+09:00",
    "category": "Holidays",
    "news": [
@@ -526,7 +506,7 @@
     }
    ],
    "official": false,
-   "score": 50.6,
+   "score": 55.0,
    "already_covered": false,
    "evidence": [
     {
@@ -545,8 +525,8 @@
    "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 0,
+   "article_count_24h": 27,
+   "article_count_1h": 1,
    "published": "2026-11-06T09:27:21+09:00",
    "category": "Benefits",
    "news": [
@@ -561,6 +541,11 @@
      "source": "FOX 5 New York"
     },
     {
+     "title": "What a Democratic sweep means for Medicaid, SNAP cuts in Ohio - Signal Cleveland",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPemI0U0xEbHppODl5Znh4akpKQjg1Q29iY0tDWlNRTElfcUpjYmRaQlFKOHFGdnhzSk9jZ2RsUjNGZHhSbEx1d1ZDVFBrTXNrT0cwQ1hHZGdLcVRRM2NuczhISVRKQUNWcnVWZ2pKclNIY3ZCdmU5Mjh0TXltZWJfTDBDSGF6OEk5cVQ3UA?oc=5",
+     "source": "Signal Cleveland"
+    },
+    {
      "title": "SNAP Work Rules and Funding Changes Reshape Federal Food Aid - Legis1",
      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhSEx1cnhRMWdRNkl0aUhKWGkwTDRVaVFpVFRVNTIwb1dTOWdhNFlrZEJYS3RPX193bFIySWFrLXFvTHk3eDFyTzVvU1ZacmFQWjJxanpZalpyTUVaR2FPWml5V1MyNVI2QWZaM1JYcTJrdEpHTE9faG1JMkxkQQ?oc=5",
      "source": "Legis1"
@@ -569,15 +554,10 @@
      "title": "Our History - Food Research & Action Center (FRAC)",
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80NDlZOE42M0EwWTB6OVhEdkZXVE40bmVTY3hDendmaE4xYldCTGFfTmdxN042LUtZcXJtaGdGS2VIZkZlZmlsRlRCUjdCOThRQ2c?oc=5",
      "source": "Food Research & Action Center (FRAC)"
-    },
-    {
-     "title": "Phoenix families who have lost SNAP, CHIP benefits can apply for help with bills - KJZZ",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV1JUQ0tBbGN6MTFXOHBKODYwbzFZZ25KbmFKeVdySzdjeTJJNV9KMzJCMHRYUUJ4RC1paXFMOW9CNXE2eDlwWGtHMllDelFpU0M3VkhsMjNCSjVPQnRPaGZuTHZHTFdVRVJqREJSX3hZekQwZV9HTmZDSG1SQlJiMGNOUFEzelE0NUlVNHd4blRyaEdUOFlTZC00YmtHNGFCMjlqMndoZVptQU15ZTd3N092QTdxSnFUQy16WG5B?oc=5",
-     "source": "KJZZ"
     }
    ],
    "official": false,
-   "score": 48.0,
+   "score": 54.4,
    "already_covered": false,
    "evidence": [
     {
@@ -591,14 +571,75 @@
      "outlet": "FOX 5 New York"
     },
     {
+     "url": "https://signalcleveland.org/what-a-democratic-sweep-means-for-medicaid-snap-in-ohio/",
+     "title": "What a Democratic sweep means for Medicaid, SNAP cuts in Ohio - Signal Cleveland",
+     "outlet": "Signal Cleveland"
+    },
+    {
      "url": "https://legis1.com/news/snap-eligibility-and-costs-reshaped-by-new-law-as",
      "title": "SNAP Work Rules and Funding Changes Reshape Federal Food Aid - Legis1",
      "outlet": "Legis1"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security payment",
+   "traffic": 0,
+   "article_count_24h": 20,
+   "article_count_1h": 4,
+   "published": "2026-11-06T08:10:14+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "How Social Security Benefits Change From Age 62 to 90 - Investopedia",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTGpRY1YyWHJrX3BQZS1BeGpYb3o0bDl6OWFaMldGZEl6VFVPYlgyMTdzb0NBaEJQdjd4emU5aHZ5RGtNNVJIRFJlMUVIVUZudElyZFA2NndnNTM4U0JuSkJPdFpnV0pDVXRFaGVRX2UzU2tSNEdnUTV6S1p4YlVQUEdrMWdrRUtxYVlaaVVTaFJQalI5S0E?oc=5",
+     "source": "Investopedia"
     },
     {
-     "url": "https://www.kjzz.org/kjzz-news/2026-11-05/phoenix-families-who-have-lost-snap-chip-benefits-can-apply-for-help-with-bills",
-     "title": "Phoenix families who have lost SNAP, CHIP benefits can apply for help with bills - KJZZ",
-     "outlet": "KJZZ"
+     "title": "Social Security Changes Taking Effect in 2027 - AARP",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jTjU5a2ZiQWpoVEdsa1F0cGx1U3BlV1pFWjNpb3ZaM3lEWkhSOGNBUDJ3a3ZrZXR0di1YWktDa29vT0Nva29QYm1aTHB3bG9Yd0x6T0RCS0NnS2pCMFNJMWQyc2Q?oc=5",
+     "source": "AARP"
+    },
+    {
+     "title": "What to know about the Social Security fix proposed by Sens. Elizabeth Warren and Bernie Moreno - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTzhPSndjb0dyRDVpN254X2JRRlZtMm1veGw1TTNIN0ZsQS1qZWx5X0NfTExrbmhvbE45em5Sc19lTUFELXFyQVZwN3E1Y1pfcVVzcGJHX0d4NG9TVVR6eXdTUF9fRUw2WmVqUklyZm4wVzhmaXp5TnVSVUNXT2lKLXA3VWNpdVdHUmx0Y29iVXA3QVYxWlMyT2l2WTdtR3VaZWowWmczUTjSAa4BQVVfeXFMTzc2cXQyalI2elo0cTRvZF9sMXlmcnZNaW9HQkUwaERybTd5eVNwcS1POGNlcWM4b1NEU3pwUG5BSmpGY0RkQnJiS21CTEsyNVJyUVJ3SVNYMm5tajRDWVB6VktHV1dLX2hyOHlmemtWV1FLVjZrcWJZM3VQd01JOHlKbnJHRUh4aERCWmNjOGpVSGU0RVUxVU9FdVQ2Zi1KSHVNYkhvZHpORVNZeXJR?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "title": "Who gets paid on Tuesday, November 10? Social Security's Veterans Day shift and how much to expect - Tododisca",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRnlyYVZFcjFjZXB0LU5tbW9VMmRWY3kzaERxd2cyelUwQkRXUkV6TEFObFhxck1DdmxId3Qxc1ZBU0dvSU11b0V3UzRNaUVuX2RkZkxXeExKM3cwci1XM1JBX2JidTVZVzFIbzhqRWVYYmZza1U3ZnZXRjdRM3Z5ME1tV3N5WFhB?oc=5",
+     "source": "Tododisca"
+    },
+    {
+     "title": "Social Security’s 2-for-1 Rule Hits Workers Earning Above $25,560 in 2027. Every Dollar Over It Withholds 50 Cents of Benefits - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOamJMUUlqNWVuaF8xamVDcEdRWkF5TFZpeWswRU9sNEJWVjNyRE9POVZOVWRsaWxwVENRVFdBcVR2Z0NNUHAwczhRa05XTkttaDBWY3hGd1ZkRG85eWpsV2ZYcFFyZVNLUG9YSUxiZ0NZdmVMc05lVG5KZ2w0eGowcXRDaUg3MUY4NjRidWZZMVU4dGVjNG1VTk11cjlJamsybnhUUEYzOGFnVS1qazQ5TXMxRDJ6TXFJRnJaaTdvS1BsUVFTVUxLV2hlam8yNzBCTEQzYzdIRkQwUHN1SncySHdpWjFWOGxUczdxVWFkS0x2Si1Pal94UTVyV20wRGI4cHFn?oc=5",
+     "source": "24/7 Wall St."
+    }
+   ],
+   "official": false,
+   "score": 51.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.aarp.org/social-security/ssa-changes-2027/",
+     "title": "Social Security Changes Taking Effect in 2027 - AARP",
+     "outlet": "AARP"
+    },
+    {
+     "url": "https://abcnews.com/Politics/social-security-fix-proposed-sens-elizabeth-warren-bernie/story?id=134253518",
+     "title": "What to know about the Social Security fix proposed by Sens. Elizabeth Warren and Bernie Moreno - ABC News - Breaking News, Latest News and Videos",
+     "outlet": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "url": "https://tododisca.es/en/social-security-payment-tuesday-november-10-veterans-day/",
+     "title": "Who gets paid on Tuesday, November 10? Social Security's Veterans Day shift and how much to expect - Tododisca",
+     "outlet": "Tododisca"
+    },
+    {
+     "url": "https://247wallst.com/personal-finance/2026/11/05/social-securitys-2-for-1-rule-hits-workers-earning-above-25560-in-2027-every-dollar-over-it-withholds-50-cents-of-benefits/",
+     "title": "Social Security’s 2-for-1 Rule Hits Workers Earning Above $25,560 in 2027. Every Dollar Over It Withholds 50 Cents of Benefits - 24/7 Wall St.",
+     "outlet": "24/7 Wall St."
     }
    ]
   },
@@ -606,8 +647,8 @@
    "source": "google_news",
    "keyword": "product recall",
    "traffic": 0,
-   "article_count_24h": 54,
-   "article_count_1h": 6,
+   "article_count_24h": 55,
+   "article_count_1h": 5,
    "published": "2026-11-05T23:04:21+09:00",
    "category": "Recalls",
    "news": [
@@ -632,9 +673,9 @@
      "source": "fox61.com"
     },
     {
-     "title": "29,000 Baby Brezza Bottle Sterilizers Recalled Due to Burn Hazards - Consumer Reports",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ1JwS2RRbjh3dk80ZUZrTmJTaGhhaklVaEFBNkc4eHNVMzdXT3M4SVc4VHItWUYtN3hZeFVSclNqSVBpamlYZlVWb0pzR0xydExuaXRkb1FxSDdwM2FrRWZoUXdTeTNyZ0l3WDdGT085ZmZvUVdzMVR1dmszOVJyRHhOVG4xbnlHMk5QX3hlZXRBcEtVQ0xVX2lRZ1R6ODQ2Y1JFYnRyM3hRNHl2ZWtoZ05tcmU?oc=5",
-     "source": "Consumer Reports"
+     "title": "Snacks sold in California may contain metal, prompting recall. See health risks - Sacramento Bee",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UYmNTblJMTldLM1ljSWNEUks5akJmZEtRWjgyemZVVERNU29KQVc0V2Jzam1YMUJlVUQxM0VqWFhwQVNhSWZQNGJNQnRBTjdXWGNkaGdiZmJ5X2RJVENzc04xalliaThzLVJLYw?oc=5",
+     "source": "Sacramento Bee"
     }
    ],
    "official": false,
@@ -650,57 +691,62 @@
      "url": "https://www.powderbulksolids.com/product-recalls/fda-recall-update-october-2026",
      "title": "FDA Food Recalls Jump 20% in October - Powder & Bulk Solids",
      "outlet": "Powder & Bulk Solids"
-    },
-    {
-     "url": "https://www.consumerreports.org/babies-kids/baby-product-recalls/baby-brezza-bottle-sterilizer-recall-a9819069225/",
-     "title": "29,000 Baby Brezza Bottle Sterilizers Recalled Due to Burn Hazards - Consumer Reports",
-     "outlet": "Consumer Reports"
     }
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "travis hunter",
-   "traffic": 2000,
-   "published": "2026-11-06T13:30:00+09:00",
-   "category": "Benefits",
+   "source": "google_news",
+   "keyword": "IRS refund",
+   "traffic": 0,
+   "article_count_24h": 27,
+   "article_count_1h": 3,
+   "published": "2026-11-05T17:15:00+09:00",
+   "category": "Taxes",
    "news": [
     {
-     "title": "“Hurt Like Heck”: Travis Hunter's Wife Leanna Lenee Shares Painful Truth About Her Jaguars-Colts Game Day Outfit",
-     "url": "https://sports.yahoo.com/articles/hurt-heck-travis-hunters-wife-155121009.html",
-     "source": "Yahoo Sports"
+     "title": "IRS Where's My Refund Questions For 2027: Delays, CP53E Notices And Error Codes - The College Investor",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOHZxWUx6a2pVSWd1akc0clFLOUUybzB3YnRCRzdubXBjb0pscnhULVhxUndwY1Y5UGV1Zk9RZlBtVTM3MzJvOVI5NVRqSFRLaHY4eWRvc1VRbUlUdERkd2pjN1lCN1BDaDlOTXdPRWNsR2JidHZEMDJtSXFLRElGYTN6NTJZWXFuNzIwaURkbw?oc=5",
+     "source": "The College Investor"
     },
     {
-     "title": "Travis Hunter’s wife Leanna Lenee makes surprising admission about her custom Jaguars outfit before Colts",
-     "url": "https://timesofindia.indiatimes.com/sports/nfl/news/travis-hunters-wife-leanna-lenee-makes-surprising-admission-about-her-custom-jaguars-outfit-before-colts-win/articleshow/135580440.cms",
-     "source": "The Times of India"
+     "title": "IRS will hold refunds for filers who claim the EITC or ACTC — when they’re released - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM25RSW1INlFuTlQ3Zy1jbUU3djBqRDFkcEdveV9xZHpwbDlSV3Z2VU5JakRsMjloWEUxUDRBdUZwbzctMXpBaUQxZmNZZm91QlRzMzBJdXZoRzNvUzU4dnY5R044OUlfWnNvQ2xwRnFHekV5Vm1ZVVkyTFl1UktoaTJtSlB0STRHQ0lfckMyeUJoWmxSRXVSbUpGZHFXd3dCTUJNQUJrek9sb09Da2pMbnhSSTA0MFFk?oc=5",
+     "source": "El Cronista"
     },
     {
-     "title": "LaJohntay Wester's kick-return fumble marks Ravens' third giveaway against Jaguars",
-     "url": "https://www.nfl.com/videos/lajohntay-wester-s-kick-return-fumble-marks-ravens-third-giveaway-against-jaguars",
-     "source": "NFL.com"
+     "title": "CFPB Defends Decision to Cancel Navy Federal's $80 Million Overdraft Refund Order - CUTimes",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ3hieDRQQ1JKLTBmU0hhOW9kYjhuVmx0Xy02OUtoMzFOYXVueTFJRmVydV9PZjd0MXNXdVhjMzQwaTNsa2RGTzRSeVJqOEdvUFRKQXltMldLdzZTbWtGSF9GbFl1VGFTTWtRRVlzUmV4bGNmOWs1bVlmR0RWMTNXdWVEV3d0bnBua1BKN0t1LVVldVVNdlh5eDVDMjNUclV2ZXZMYk94cHpLZU9rM2hOMExZRFpnZw?oc=5",
+     "source": "CUTimes"
+    },
+    {
+     "title": "Montana Property Tax Refunds Available For Homeowners Who Missed The 2026 Homestead Act Deadline - The Moose 94.7 FM",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OcXJST09oOTdFRzl2c2J6dUVYb3M3bWwyMzYxT2lHOHhRVGM0TVVhLTJtTVJGd0VpNkJFQTBWT3hjNHY3dlVtZlc2TlVCZk1wRzVQQUY2VTZGQ19rSjZtSEJhUlFKWmhBaXNKMHU3MWRlSkd2MlE?oc=5",
+     "source": "The Moose 94.7 FM"
+    },
+    {
+     "title": "IRS Says It Collected Record $5.6 Trillion in FY 2026 as Refunds Increased - mountainhomenews",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObV9EbjRlYnNkTFRtSGFXeWJtWHRrck4wZ25OT0R2eGhVaUpDUGJfODNuZkZTc3U1eEdwek56WTM1cUZyOHZ3TmVLbUo0YnBFYlp2SnRvR2Z5dzFRWnZwSFF4M3RMbzFRQU5LeTV4OGhIUXQyQlVQV2tqcEVRWkR5Rm9vSklxOElwTlJzcFJFS0JKSlRPa2N0ei1haFZRYWVRTFQ0OFE3eTNFamx5bGZDQnB3Y3FsdlRySEU0?oc=5",
+     "source": "mountainhomenews"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 40.0,
+   "score": 44.1,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://sports.yahoo.com/articles/hurt-heck-travis-hunters-wife-155121009.html",
-     "title": "“Hurt Like Heck”: Travis Hunter's Wife Leanna Lenee Shares Painful Truth About Her Jaguars-Colts Game Day Outfit",
-     "outlet": "Yahoo Sports"
+     "url": "https://thecollegeinvestor.com/17495/common-irs-wheres-my-refund-questions-and-errors/",
+     "title": "IRS Where's My Refund Questions For 2027: Delays, CP53E Notices And Error Codes - The College Investor",
+     "outlet": "The College Investor"
     },
     {
-     "url": "https://timesofindia.indiatimes.com/sports/nfl/news/travis-hunters-wife-leanna-lenee-makes-surprising-admission-about-her-custom-jaguars-outfit-before-colts-win/articleshow/135580440.cms",
-     "title": "Travis Hunter’s wife Leanna Lenee makes surprising admission about her custom Jaguars outfit before Colts",
-     "outlet": "The Times of India"
+     "url": "https://www.cronista.com/en/finance/irs-will-hold-refunds-for-filers-who-claim-the-eitc-or-actc-when-theyre-released/",
+     "title": "IRS will hold refunds for filers who claim the EITC or ACTC — when they’re released - El Cronista",
+     "outlet": "El Cronista"
     },
     {
-     "url": "https://www.nfl.com/videos/lajohntay-wester-s-kick-return-fumble-marks-ravens-third-giveaway-against-jaguars",
-     "title": "LaJohntay Wester's kick-return fumble marks Ravens' third giveaway against Jaguars",
-     "outlet": "NFL.com"
+     "url": "https://mooseradio.com/ixp/1107/p/montana-homestead-act-tax-refund/",
+     "title": "Montana Property Tax Refunds Available For Homeowners Who Missed The 2026 Homestead Act Deadline - The Moose 94.7 FM",
+     "outlet": "The Moose 94.7 FM"
     }
    ]
   },
@@ -710,13 +756,13 @@
    "traffic": 0,
    "article_count_24h": 8,
    "article_count_1h": 0,
-   "published": "2026-11-06T09:12:53+09:00",
+   "published": "2026-11-06T09:12:50+09:00",
    "category": "Benefits",
    "news": [
     {
-     "title": "State Accepting Applications for 2026-2027 LIHEAP Season - newtownpanow.com",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeENPQkx5OVFhaWVpb2U4T2lTRDBxZGs3WTYzMVpDRjVFLVRXN3ZNNUJvMDRvalY1eEFHSnVKS0ZzYS13aVJiVDNLX1dlRFc4bGFlb2tDU2Z4Mk52MDdRN0dwMWdsTExEQ3c3TGQtRnI5RGY3MzF5NXhRMkFZMElfTFlfVjVWNi05anVVV0xUVEpVU1FuR3ZZ?oc=5",
-     "source": "newtownpanow.com"
+     "title": "PA Accepting Applications for 2026-2027 LIHEAP Season - New Hope Free Press",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUpXZGE1aG5fby1GOWdrbFJiV1F4c3hYNEw1ZVY2MGFlbzA4VTB2UkMtNllIekJ4azY0ZjVRVGh4UUtWVWRmQ21HRUdYQkQ2ZXJ4T0dGc05UZUVtYnVkZHV4WjQ1ZWhQY3FhYU16SVpoUTFPcmFpUjNBWnlkdjI2eWFwaEl4VkFid05HVGM1NFRzMnpqVGhUODlWSFZVdTg?oc=5",
+     "source": "New Hope Free Press"
     },
     {
      "title": "Pa. residents can get up to $1,000 toward heating bills this winter - Metro Philadelphia",
@@ -744,9 +790,9 @@
    "already_covered": true,
    "evidence": [
     {
-     "url": "http://newtownpanow.com/2026/11/05/state-accepting-applications-for-2026-2027-liheap-season/",
-     "title": "State Accepting Applications for 2026-2027 LIHEAP Season - newtownpanow.com",
-     "outlet": "newtownpanow.com"
+     "url": "https://www.newhopefreepress.com/2026/11/05/pa-accepting-applications-for-2026-2027-liheap-season/",
+     "title": "PA Accepting Applications for 2026-2027 LIHEAP Season - New Hope Free Press",
+     "outlet": "New Hope Free Press"
     },
     {
      "url": "https://www.metrophiladelphia.com/stories/pa-heating-assistance-liheap-applications,161967",
@@ -769,7 +815,7 @@
    "source": "google_news",
    "keyword": "SSI payment",
    "traffic": 0,
-   "article_count_24h": 16,
+   "article_count_24h": 17,
    "article_count_1h": 1,
    "published": "2026-11-06T03:31:23+09:00",
    "category": "Benefits",
@@ -795,9 +841,9 @@
      "source": "24/7 Wall St."
     },
     {
-     "title": "Prediction markets have $35 million in bets on Mississippi Senate race - The Clarion-Ledger",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVjBYQTNtNWRuTE1SeXhldWxFdzlRdU84SHdQZEtfY3BwU2RYV0tQcWc3a2pZOVg0VTNYUEszTW1pRGotM2RxUWl6Z2NGejhLRmZ6Vjc1ckRZVjRlVDIzYl81V1JzaDE0UXVSaDlLOTlidVFZQi1mTW0xLWN5akNJbzZwSmViMHBjWjdWc25NQnZ4NEtsSUU0eEhjbkRZVkh2X1V5TnRTc2JKZzNnbG80cS1KeFZ2X0kyX2xIUFctaU1vaEtnSnplR3pib1J6RlV3R21XRzF5SlFDQU1xS19QSzBCVFM?oc=5",
-     "source": "The Clarion-Ledger"
+     "title": "Confirmed: Retirees who began receiving benefits before May 1997 will be paid on December 3 - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNEV6SHp5NUdzNTJZclhaOTc0Mmd1S1VMWi1Bb3RoaFdsNzNVdVFWSFd4a1BaclI0YjNpRERvcWg1RDhMYkJ6NE5RaWJBTkxjeVFlaG5nZnFOMTM1Sjh1UkdQWUJIR1pMWEZxaEI1RWprQVh6aElmbTY4c3V4U0VOR2g0bzFnRjE0T25PM010aE5XbTFEYXh4TDUzYzFhcnhnUlJuTEUwNFh4cEVkeDVtelpTeXRDWmptaUZpYXdhRkxWejE4M3c?oc=5",
+     "source": "El Cronista"
     }
    ],
    "official": false,
@@ -818,76 +864,154 @@
      "url": "https://247wallst.com/personal-finance/social-security/2026/11/05/she-opens-a-high-yield-savings-account-paying-4-2-to-build-a-cushion-crossing-the-2000-resource-limit-can-stop-her-ssi-check/",
      "title": "She Opens a High-Yield Savings Account Paying 4.2% to Build a Cushion. Crossing the $2,000 Resource Limit Can Stop Her SSI Check - 24/7 Wall St.",
      "outlet": "24/7 Wall St."
+    },
+    {
+     "url": "https://www.cronista.com/en/finance/confirmed-retirees-who-began-receiving-benefits-before-may-1997-will-be-paid-on-december-3/",
+     "title": "Confirmed: Retirees who began receiving benefits before May 1997 will be paid on December 3 - El Cronista",
+     "outlet": "El Cronista"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "IRS refund",
+   "keyword": "federal holiday",
    "traffic": 0,
-   "article_count_24h": 28,
-   "article_count_1h": 1,
-   "published": "2026-11-05T17:15:00+09:00",
-   "category": "Taxes",
+   "article_count_24h": 23,
+   "article_count_1h": 4,
+   "published": "2026-11-06T06:50:52+09:00",
+   "category": "Holidays",
    "news": [
     {
-     "title": "IRS Where's My Refund Questions For 2027: Delays, CP53E Notices And Error Codes - The College Investor",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOHZxWUx6a2pVSWd1akc0clFLOUUybzB3YnRCRzdubXBjb0pscnhULVhxUndwY1Y5UGV1Zk9RZlBtVTM3MzJvOVI5NVRqSFRLaHY4eWRvc1VRbUlUdERkd2pjN1lCN1BDaDlOTXdPRWNsR2JidHZEMDJtSXFLRElGYTN6NTJZWXFuNzIwaURkbw?oc=5",
-     "source": "The College Investor"
+     "title": "Trump’s Gas Tax Holiday Would Cost US$3.5 Billion a Month - EnergyNow.com",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa3g0WkhzRDBvbmRVdHl1VHNJdjROdWh0VEIxbldqY080SGVXS0dHQ05IVUpoUGh4RjBCdzJUcHhjMWRBYWhKS0ItTC1pekdDMndYYmVXY1JuUXkxTGloWkhnOGpfdC1jZFNmYkVtTkF2UmVzQXpxMVoxVnJpdC0wUVhKVGRCVF9VT1pEb05OWQ?oc=5",
+     "source": "EnergyNow.com"
     },
     {
-     "title": "IRS will hold refunds for filers who claim the EITC or ACTC — when they’re released - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM25RSW1INlFuTlQ3Zy1jbUU3djBqRDFkcEdveV9xZHpwbDlSV3Z2VU5JakRsMjloWEUxUDRBdUZwbzctMXpBaUQxZmNZZm91QlRzMzBJdXZoRzNvUzU4dnY5R044OUlfWnNvQ2xwRnFHekV5Vm1ZVVkyTFl1UktoaTJtSlB0STRHQ0lfckMyeUJoWmxSRXVSbUpGZHFXd3dCTUJNQUJrek9sb09Da2pMbnhSSTA0MFFk?oc=5",
-     "source": "El Cronista"
+     "title": "Holiday Shopping Savings on National Cash Back Day with RetailMeNot - WSMV",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYTBhSGZvTkJEOGhuV3VnNHF0M19lX1RQT3RsR2ZmUm9oSDkxMm5ZM1NQakdUaXQ5X0ZtaE9JUnN3a0NLVU56QjhKOV84ZndoM3FlaWxSa3ZMRnVMWERhS19EVHJtXzNFeDVMbklCV3NQc1pQeUZ5WklHRzgwVlpfR3hNYXpDYzVhQUdTVzNaMHpld0VwWXJHYUxYVGhHUdIBsgFBVV95cUxNblFjMjJJSmxNSUtfNDRCSW4zQW1zTWxibThneVdXbnFWd0RpeGtuMG05RWFsaWJlT3F2S1IyS2p3cWp6NXBvekRDWVY3ejFvMnF3VFIzQk0yMzFzYTlUY1d6NlhIUGl0U1JKRXJDTDZ3UWFLZkFsZXNoTWNlYmVid1dFUjA1T1I3cEhwUXNmYXQ5eVhtMUt3bUQtbmZrRzkwRWJaZTZXcnF0cnRjRGZlQU9n?oc=5",
+     "source": "WSMV"
     },
     {
-     "title": "Montana Property Tax Refunds Available For Homeowners Who Missed The 2026 Homestead Act Deadline - The Moose 94.7 FM",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OcXJST09oOTdFRzl2c2J6dUVYb3M3bWwyMzYxT2lHOHhRVGM0TVVhLTJtTVJGd0VpNkJFQTBWT3hjNHY3dlVtZlc2TlVCZk1wRzVQQUY2VTZGQ19rSjZtSEJhUlFKWmhBaXNKMHU3MWRlSkd2MlE?oc=5",
-     "source": "The Moose 94.7 FM"
+     "title": "Is today a holiday? Why are schools closed today in NJ? - Bergen Record",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM0N2bDVBd2VxNGZ0eDBaTm8yWkdoQTVwNEVLVjlpb2NQOW5VM0tLamZ6cU1VUWlnR3cxa3JCYlRSMmI1TENpWmlLQ2MxS1A3R0UwX0U3RDVFcE1WamZnS2JseW9qWnpfY3lTaVZqUU9ZTzZUVTBYM1JiOWFjQ3haeURRVjhkX1o5VFUzN0R1Yng2U0Z3SmhBUzY4bnl5NWd6UURGS0lNd0FRa3JZcjl2RGdUNUkzX3FpN3IxRmVvM0RqZS0yZ2RMUA?oc=5",
+     "source": "Bergen Record"
     },
     {
-     "title": "IRS Says It Collected Record $5.6 Trillion in FY 2026 as Refunds Increased - mountainhomenews",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObV9EbjRlYnNkTFRtSGFXeWJtWHRrck4wZ25OT0R2eGhVaUpDUGJfODNuZkZTc3U1eEdwek56WTM1cUZyOHZ3TmVLbUo0YnBFYlp2SnRvR2Z5dzFRWnZwSFF4M3RMbzFRQU5LeTV4OGhIUXQyQlVQV2tqcEVRWkR5Rm9vSklxOElwTlJzcFJFS0JKSlRPa2N0ei1haFZRYWVRTFQ0OFE3eTNFamx5bGZDQnB3Y3FsdlRySEU0?oc=5",
-     "source": "mountainhomenews"
+     "title": "Veterans Day history: 8 turning points from Armistice Day - qz.com",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIUzVoSEExUGd1aWMwamVHM1RfbW9PbHNJUl9DczFaVzJESF9hMkFJeFd3ZjZhNm1KSUtFRWVVSlNqSG42TU5iWm5UMkF4Ykx3ZlhKemFCVU5VOWdSTF95N2NWQ2x5d1I1Tk01eDRSSF94dw?oc=5",
+     "source": "qz.com"
     },
     {
-     "title": "Florida couple seeking $24,851 tax refund sees wait estimate jump from 9 weeks to 180 days - The Cool Down",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcHhFQ1lvVzdRTXNLNnZvTTdsLXd2eEdhcXhoQmgxdWtjZkYwX29rUUJFRXZhczlIOUYwWlNkRi15MVJhZDFzTXFjVXVIWG5oSXY2R190N1RkZVJxS3dwbC1ZcmEtczFySVphLVoxNGNXZVlfRldvRTFnSW9KWDBvd1JNRjFZY0xx?oc=5",
-     "source": "The Cool Down"
+     "title": "What’s closed for Veterans Day on Wednesday in LA County - Los Angeles Daily News",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQXNSSzRmZDFLWWQwUDIxN202RXVNUVltUHJhN0FLNURZSmszSURBcHNjcDBiZXJQeVVLQkR4U3M5WXAyRE5sMHNMaGdEUnJzVXFHcDVxNm8zYnpmQVFPQ0VodEZGeHkxTXp1cjlRUktpMlo5UmhYNnk0U1hEblNGdGtDeGsxRHVJNDFFc2JlMUZCQWFFSkFqcQ?oc=5",
+     "source": "Los Angeles Daily News"
     }
    ],
    "official": false,
-   "score": 35.7,
+   "score": 35.4,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://thecollegeinvestor.com/17495/common-irs-wheres-my-refund-questions-and-errors/",
-     "title": "IRS Where's My Refund Questions For 2027: Delays, CP53E Notices And Error Codes - The College Investor",
-     "outlet": "The College Investor"
+     "url": "https://www.wsmv.com/2026/11/05/holiday-shopping-savings-national-cash-back-day-with-retailmenot/",
+     "title": "Holiday Shopping Savings on National Cash Back Day with RetailMeNot - WSMV",
+     "outlet": "WSMV"
     },
     {
-     "url": "https://www.cronista.com/en/finance/irs-will-hold-refunds-for-filers-who-claim-the-eitc-or-actc-when-theyre-released/",
-     "title": "IRS will hold refunds for filers who claim the EITC or ACTC — when they’re released - El Cronista",
-     "outlet": "El Cronista"
+     "url": "https://qz.com/veterans-day-history-armistice-day-turning-points",
+     "title": "Veterans Day history: 8 turning points from Armistice Day - qz.com",
+     "outlet": "qz.com"
     },
     {
-     "url": "https://mooseradio.com/ixp/1107/p/montana-homestead-act-tax-refund/",
-     "title": "Montana Property Tax Refunds Available For Homeowners Who Missed The 2026 Homestead Act Deadline - The Moose 94.7 FM",
-     "outlet": "The Moose 94.7 FM"
-    },
-    {
-     "url": "https://www.thecooldown.com/green-business/florida-couple-24851-tax-refund-delay/",
-     "title": "Florida couple seeking $24,851 tax refund sees wait estimate jump from 9 weeks to 180 days - The Cool Down",
-     "outlet": "The Cool Down"
+     "url": "https://www.dailynews.com/2026/11/05/whats-closed-for-veterans-day-on-wednesday-in-la-county/",
+     "title": "What’s closed for Veterans Day on Wednesday in LA County - Los Angeles Daily News",
+     "outlet": "Los Angeles Daily News"
     }
    ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "car recall",
+   "traffic": 0,
+   "article_count_24h": 55,
+   "article_count_1h": 2,
+   "published": "2026-11-06T01:54:09+09:00",
+   "category": "Recalls",
+   "news": [
+    {
+     "title": "Hyundai Issues a Recall for 38,000 Vehicles Due to Potentially Faulty Airbags and Seatbelts - Car and Driver",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSVZKNlowbng2TXlybHE5Ylc0OUU0b202UGREVUdDMlRkdjhjQ2l1aktKYjI1WmxXRVlESlhqQXBPbzE0Wm11dkRHaUNDLWZmN1U1MGdaNmdndk9kc2NsNFNhMGtkVmFVQUN0Xzg5d1Q5bmJ0WmtNU0lzOWN5cmtNM20xTzhQYzFIWVdHOHRDUTRobHVpQnB5MXF4MnBfNE9KYW1R?oc=5",
+     "source": "Car and Driver"
+    },
+    {
+     "title": "Hyundai recalls over 37,000 vehicles. See the affected models - Idaho Statesman",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0RmpFSHdYbzUyX3VJRWpMUWowRVRpRDNaNHdUdWJkS2ZWUXhIZmpDN3g2RE9OWmdaSTV0QV9SVUZXY0RyUnZmM1hMa3o1Z0RfNUtaVmJZeE1xemxIQWxkSU81aC1hbzR4LVNJUXBocFBvTnpX?oc=5",
+     "source": "Idaho Statesman"
+    },
+    {
+     "title": "The Electric Vehicles With the Most Recalls in 2026 - Kiplinger",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeXkwbE1ibmsybzR3TWdub2NFQ3VUQ3NYT2lTb0lKVTZ3aHJJZm90WkJuNXhCWGJmc1FqTmx3dzQ1SHM2VnN2OUtCdHBlY0VudFU1OXlwTktDdlpEZE4xWG5TdHdCN29iLVl5U0tTUVpEeDVZYkhGRmZpbUNqTUlJS1UzU0N2UQ?oc=5",
+     "source": "Kiplinger"
+    },
+    {
+     "title": "GM recalls 67,000 EVs over brake issue. Would I still recommend them? - Yahoo Autos",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVndwdmpRVDNvTkhxRFZxX0ZZbksyMXBRMWNSRXdCZnVRV0FsRVIzQ0ZfNkVFRnVYbi0zYWc5R3dZNHpLZFV0OHk3V2VDdm54VklrVW12MGtnU2J4MV92Wml4bDBTNDF4MHVhdElEQkdNZnV2NHlOLUhYY1d2QUNSampfT0NTSURtSmdzaTgyOHhiUQ?oc=5",
+     "source": "Yahoo Autos"
+    },
+    {
+     "title": "37,901 vehicles recalled over dangerous software problem that can deactivate air bags - Cleveland.com",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONU9kb1R3OXF1NmRlUEotdHhDenkzeTVGeTl6Z2xaNE5kTk5Sd1VUZkhreXRKTmNpazR0SWUxR1JjV3paQmd4ZzJmY0drSFMtVTQ5N0p1YnhpQ1dfTXdOLWxxekZPXzNkaDM2UGFITE1xN2wxNENBZUJDVzdvZ3FMMDVpNzZZeU5ZN01TRFl3WFpLd2d6ZFNPNllQVmc4NmNra1M0WjE3UjNtMVFFb0M1dmREZFpLa3BybUdTWkpjQl9fMGQtR0E40gHbAUFVX3lxTE5DejFrbkdFYVRockVuRmV6UHBBN3dRSkV6MnFwRkEtTU4xWm5GQ1NieWh3WEQ0Q3N5WVFfQWstY0h6LXYzb05zZFo4emxuZy04a2IxZ2RuWG5RWWFPZFNFTGZHT21QR2pOb1cxMWU4SnVQaThJVmNXR1lYVmNhRWh1cWFVaFBycUU4ajJyY0ZnV2RKam50MXRyRnZrdk5vR1BwZzgtMUVRRm15dnVMUnJNeUxianJZcThScURxeEVBZFNzSjF1b2RuOGlKQm9zVEt4bldFeXFZd2JXOA?oc=5",
+     "source": "Cleveland.com"
+    }
+   ],
+   "official": false,
+   "score": 34.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "stimulus check",
+   "traffic": 0,
+   "article_count_24h": 19,
+   "article_count_1h": 0,
+   "published": "2026-11-05T22:36:37+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Trump’s $5,000 stimulus check promise faces a big question after Democrats take control of the House and S - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOWVpPX0J4NGVKc2RESnJHRXFyTTFqTFlycnp1ZU41SGVaNTZpNDUwRDY1NUJMMHRZbFFaU2NyUnBEdElIalR4V3UwWUJVSHNCMGZueGVoU0NLajdiZXZxZm1fMDFZWVp2MnVwWWsyN29fR0RoRFJndWZmRW1xTVo1STlhUVpuUEp2NnZLdzNFbnJRNDQzTkR2V1NPeXdVM21OTEU2YU9FTXVXREdIX01KYy1EUjJJYkVWVndUSUc4RERZaUtyQ0VoRnpfdDg2ckY2cWlwZ2VKaGp2bUZVd1FEeURMRlMzNGp6aWhUOEN3NEV1STVPdDV4b3RFSHBfb3JCU0Iyckw3TTBxTzJXLTlsREdEUmo0Yi1hbUZIbkpDeWhtazM0d3NGXzVscGVoMjRHS3FhTkVNaW5zMmgwNVUzZG1ncWxXOFBMRGo4alV3V0M0MnlIclRj0gHcAkFVX3lxTE9yY0JWSVN4SDIxVkJnNGdhZmRaUkZfcDkyRnE5ZTA4Uks1V0x1SlJZUGRYWFlOdVNDMUNpbVl1Mm1GX1ZjeXhKZ25KVU91MS03THRtc1I4Q1ZJSHQycWZ3cEwzbldfdDhmb1RadFdmaVlzN2ZYNWdtQloyVmhETXNEX0RDOC1KRDE5RlZDVU1fMmNEeldIUVB1YmFWeDFVZ0JpZjctdWhNN1A1Y3pZd3BwcF9sX3JrOUk0SUh0V1NhWkFoSUhseFJHZDBnd3RMZ2FGaWxQazVBaWVHVjYzQmpzQ1IyWFZoeHQ4M1JhX2lCS0xmZ25WU1k1ZWV2MkVaNWZVM0RPY3pKWHl5WEZ3Y054VGpSOHpKcDhGalE2N3BWcVhXb3UyMjctYTlWUXR4Vm5WRzQ1aGFPMWNRYVdjbGh5TzhPaXFoempabzhieDBXLUNUZ1NTX0oyRHNEbA?oc=5",
+     "source": "The Economic Times"
+    },
+    {
+     "title": "TIA Lobbyists Have Questions About Obama Stimulus Plan - PEI Private Equity",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORWFqckxfTXAtYTNWRjJxeHNyNTgydDMyd1ZCQzBRZU1DTUN2Q3NXZ2NSSkc0TnpMeThCdWRDdDZXX0JkX1Z2cFE4dllZRjV6SU83ZmZmVzY3YkpjRWVfLUlEWE5vZDh2em1RNHBuNHVsaHZtMjJnN0xMVklaWGlYUmk2Y0VMYWg3THVPMXZIR1dSRkgyMFo4dGEyZ3JwNjg?oc=5",
+     "source": "PEI Private Equity"
+    },
+    {
+     "title": "Who is Russell Brand? Comedian found guilty of serious crimes, faces significant consequences in the UK le - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNUkM1M3luaXdEMVdVR3ZyZFRKbERzRVY4aDVnWkh2bHRKalZpazRwSTlxLVNhWmFWY0NTanRsOVFLUjY2N3hFLWFNdGlIUmdHXzdWVlg1WGdEVk1halp2eWY5aWFWeXFRTHhleExvdzBsb1pSbXd5WkRTTG5Bd1ZWbFdDbzMzMlBfakoteVdOeldPWGpaX2hYel9qUk5MVGtKeUhZV0hNeEYxX2JtOWpFRjVqNmpyZzl6YUxpdFdPUlVyUzdZLW82RWJiRHluaUxyc1JERW1vZGo0bEk3RzZkNzBmaDkwUlE2Z0RacUVpRFVmbTlZMXhONTQ4RHRBbE5Md3kwOTBhcDNIVXJFYUlsMmxMQjQ3aE5vNHfSAZ8CQVVfeXFMUFFGZk1yLXpES0gwLThDRmF2NzgtcEFHdXFLZkR0dDZhT0hGeVpFWnBVNzdNeHhDU2hWeDItT2NTZTdqZ2xKRC1PSl8yb2w0dlRDSVQ0aEFFem1WQjRUUTItaEJYdUhTb0RUMTFiV1M0YkhnV01rTkFINnBEZDRhdjB6TElMcW0zRzVnT1dVWlBXQVU3VUprblNNS2tPTjBBZWdkZmxqOEN1TUdGd2trN044a2NNZEx3bFBuTGhuRWJBejZsRWtDQVBKUHhPVzdkWGYxVHktUXdSOF8wTVRKeTRhMlNDTE1uM3E2QkhoVFNmTUx2ZVBVQ2R5U082ajE0RlR2NjJUdENVVmFadXBJb3JBdnNHdllCelZiTnlWbm8?oc=5",
+     "source": "The Economic Times"
+    },
+    {
+     "title": "Kentucky company paid $800,000 for Ohio river land, but why was its compensation lawsuit over floodplain r - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNSmMyRUtRV190ZDVOQWFKc0lpRVFjVEJsZHhxMjBZd1pyaXFKSDNSLXdMUUVPZXllNE91VmpKMW5qSjZrNzYwaVpFY0FvU3hYRVFROUw4Tm82aWNXckVRZlh3dDZEbTZiYllnX3NvWDJRZ0ozY1lPV243cEpoZ2cwbTdHTEVxa1owa2t1X1NZVmluNUhOOS16SnlncmRia3R0U3RZb2xjS0o1eHRfQjNJYWNCM1JxRUhxYzM3WGJaaHBxUktPbWxFSlhNZnRfbG5KZXVqRlgteFRiZ1E5UDIyMTlla0VZb3J2SjZZeDZldGNkRmNzZlZpU0ZGVFFucmRoTGo4azc3N1BZUDR4Z3FzTE0wX2hWQ002OXFkUG40c21BaG1LT1Z3UDNGS0pIWEdwT21xeHRQUzM0UUNJVWF6THp1VnZHWjlYMFpscUFnX2drOUpBZVVTTzBWUWFiaG5EbzFrdWQ3WXhpT2xYZkJJMFEwemd0UFRlbUMtYzhiNC1MYnPSAasCQVVfeXFMTXJtVlh4dXNnUUFlVGR3RFZ5ZWV1RVNPVnlFMlNvTDllVG5XQV9YVW02eks5SnhJX3lMWG82N3l3c2dDMUo1QjlaVzZ1NFlyMUR5RUJEUi1nYVNaR0kxV2syRHFFa2tCdkpQSGZkT1dvblEzRHl5VFhKUkNYMkEtekFPUVZJMVk2QmhIT2VaZjNUdzVubnpLVnhPTk5mcXZ2SlQ1UWxVR1JPUGlpUnhPS01YRzM5VHNPMlR2Qlg2cGpIT3F6TkJNWnFQTmhRSVI2RWhIaUdaRmFDdUZJNUlTQ1VIUm5rRmhiT2Rzc2J6a2FESWFyVGxxWU00X1k1UHJkbF80c0lJUE1IUWQ5NW1aV1JGQ2dRWUJ2ZEpFM2kxaFlsU0ZOQlFMckdzVHc?oc=5",
+     "source": "The Economic Times"
+    },
+    {
+     "title": "Guy Fawkes Day 2026: Who was Guy Fawkes? Here's why November 5 is observed as Bonfire Night - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOd2pOYmt5UUNTZUp4eUJqalVHcFNCR0lrUE84bUhNUGd6eGtUdVhvczFWRkdxZzNDSjlzMGhPRE1TN2JybUVoWkhOY1E3cjlZVEVlanZSTE1scE1oV1NaaTVTLXhYbTM5NHVsdkVtcEFQU1ctazFhLWxwYXVHM2RTa2VzQ0g5YlpMc2FDOWhBbGVCVWRfMExjNFYxN2JCTnhNTGRUS3NGSnZiUXMyUUhmdGRNX1RGUWtVZ1k4M1d3ZHFsczZlYkRKc3d3NGNHVnJjaGh1ZDhDc2tHbl9BZWVjcnhBSEhuZEVfWmRNdkxhdlV3R0xEblpz0gH8AUFVX3lxTFBkRDNhc0N4YnVaRFJLSzAyZEVhN29zaWRRUEplT1dJaTRCcmR3WVVmRUlmMG1JOURfTm15Y0h0VFU2RG9uNExQYmZaZDBXN2xEOW1jTzMzTk80Q29naVFfMVdHVXZQOWxXRFBULVlIa0E2MXBzbG5yM1JWOXdJZ2xVZFo1aFBEeG4wM2pKZHhSNWxiM3ZtT01zb2w5MlNDVmo1c1hvaDVXakd5VGJsdHI5d3J6bE4zOWtncmota29FclpmY2w0UGdiZDJxUEs0SWFSZlBqSHd0Mi02bV9mWWg4RDBOZ1RMMk9pd0RQOHVFLVFXZHdwWWNCRlZUOA?oc=5",
+     "source": "The Economic Times"
+    }
+   ],
+   "official": false,
+   "score": 33.6,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "ACA open enrollment",
    "traffic": 0,
    "article_count_24h": 20,
-   "article_count_1h": 1,
+   "article_count_1h": 0,
    "published": "2026-11-06T03:00:00+09:00",
    "category": "Health Insurance",
    "news": [
@@ -918,130 +1042,30 @@
     }
    ],
    "official": false,
-   "score": 35.7,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.wptf.com/2026/11/05/what-to-know-about-the-affordable-care-acts-open-enrollment-period-now-underway/",
-     "title": "What to know about the Affordable Care Act’s open enrollment period now underway - WPTF",
-     "outlet": "WPTF"
-    },
-    {
-     "url": "https://nbcmontana.com/news/local/montanans-urged-to-review-plan-details-during-aca-enrollment-period",
-     "title": "Montanans urged to review plan details during ACA enrollment period - NBC Montana",
-     "outlet": "NBC Montana"
-    },
-    {
-     "url": "https://blavity.com/health/affordable-care-act-enrollment-dates-guide",
-     "title": "Need Health Insurance? Here's Your Guide To Affordable Care Act Open Enrollment - Blavity News",
-     "outlet": "Blavity News"
-    },
-    {
-     "url": "https://www.fiercehealthcare.com/payers/nabip-sues-cms-over-moratorium-new-aca-broker-registrations",
-     "title": "Court blocks CMS' moratorium on new ACA broker registrations - Fierce Healthcare",
-     "outlet": "Fierce Healthcare"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "stimulus check",
-   "traffic": 0,
-   "article_count_24h": 18,
-   "article_count_1h": 0,
-   "published": "2026-11-05T22:36:37+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Trump’s $5,000 stimulus check promise faces a big question after Democrats take control of the House and S - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOWVpPX0J4NGVKc2RESnJHRXFyTTFqTFlycnp1ZU41SGVaNTZpNDUwRDY1NUJMMHRZbFFaU2NyUnBEdElIalR4V3UwWUJVSHNCMGZueGVoU0NLajdiZXZxZm1fMDFZWVp2MnVwWWsyN29fR0RoRFJndWZmRW1xTVo1STlhUVpuUEp2NnZLdzNFbnJRNDQzTkR2V1NPeXdVM21OTEU2YU9FTXVXREdIX01KYy1EUjJJYkVWVndUSUc4RERZaUtyQ0VoRnpfdDg2ckY2cWlwZ2VKaGp2bUZVd1FEeURMRlMzNGp6aWhUOEN3NEV1STVPdDV4b3RFSHBfb3JCU0Iyckw3TTBxTzJXLTlsREdEUmo0Yi1hbUZIbkpDeWhtazM0d3NGXzVscGVoMjRHS3FhTkVNaW5zMmgwNVUzZG1ncWxXOFBMRGo4alV3V0M0MnlIclRj0gHcAkFVX3lxTE9yY0JWSVN4SDIxVkJnNGdhZmRaUkZfcDkyRnE5ZTA4Uks1V0x1SlJZUGRYWFlOdVNDMUNpbVl1Mm1GX1ZjeXhKZ25KVU91MS03THRtc1I4Q1ZJSHQycWZ3cEwzbldfdDhmb1RadFdmaVlzN2ZYNWdtQloyVmhETXNEX0RDOC1KRDE5RlZDVU1fMmNEeldIUVB1YmFWeDFVZ0JpZjctdWhNN1A1Y3pZd3BwcF9sX3JrOUk0SUh0V1NhWkFoSUhseFJHZDBnd3RMZ2FGaWxQazVBaWVHVjYzQmpzQ1IyWFZoeHQ4M1JhX2lCS0xmZ25WU1k1ZWV2MkVaNWZVM0RPY3pKWHl5WEZ3Y054VGpSOHpKcDhGalE2N3BWcVhXb3UyMjctYTlWUXR4Vm5WRzQ1aGFPMWNRYVdjbGh5TzhPaXFoempabzhieDBXLUNUZ1NTX0oyRHNEbA?oc=5",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "Alaska Permanent Fund Status: How to know if you get the $1,200 payment this month? - MARCA",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS25aWklvOE1OajhOVXgzM2s0ZmdIdldMUVJmZDNJRWphMi13VTBSTjIwemEzNDZycVU1ZnU1Uk9ONlJETHFvYVVGTWZ4QU5mdkZQYkQ3V0FNM1hJdW82bl9jaExXQ0pHQUtJckxucTdUNWhxbWxPT1RRYlNNSFByLXF2eUlTUjRycWwxOWdBV3NWejlGa2lieTdTNVNmdFpMRkk5Z3RXdXpBN2JGODQxa2xBZExIa1N2M29xRDFsLThYVFhQcGt3d1NqaDREVVI2N0FLZmZzS19Tdi1FRWJJWVFMY2NfME84VTJPVNIB7AFBVV95cUxNcW5YZkI5M19LWXJuempIYXhsbUJJNFdRanRHWHJkZFRMN25hdkFmZEV5R01FS2gwWjFQOGxqUWdDUDVNbTdRTEN5WUppbXdWN2VtcU9PeUpPOXZYYk10Vmp2blhPQWExdjBOLUE4M0NqSnp4YUhEb0ctbjVGRk1PSkFGTzhqZGh5RXdHbVdweER6YlBOVTJlWnFyOWVVQkxRdHhLXy1VOWNoTW1TclNzTm1zQnZzM0RIZUtQWU9mT2FnV3JBdFJ5a00xOUV3aEVWeWlCWDVydi1RMWZYSXhYdjNOSFM3Q0RIeEhHbA?oc=5",
-     "source": "MARCA"
-    },
-    {
-     "title": "In 1990, a Texas family donated a cave to protect its bats; today, about 4 million female bats use it as a - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOU0ctejJxeWVlQVFkd2lDOEZvN2pFYmlQNjdrRjBYSFZNTXhZSXdsZnNiUUduLWNhb2ZaMld4TG16RldUVktEQUFnVUJ0Q1ZPZVJMRVJUUDg1Q2VHakxZWUlMVWh0QWl2VUF2VFlfYWhHangtRzFYU0lvZWY4ZW44TTNhakdtYTREZ3BYU3RQeTUzWFNNUEZmSk44LTRTeEwzNG91ZDhkWGJoT2NDZEU4ZHVhX1JCZW96UFJfYVZpUjRUdHp1WmdxQWtqMUFTMVBzSWFBSUZmMS12elo2ejlpci15TjIydXFMUXEwalpUMkF1Nm9CdVhnczBvMF9mN1dwS1BWcVd5eGpnOHh2SEgtRmNtRnd6M1NmMXVXclBpOHV5M2o0T1HSAasCQVVfeXFMTUJFVlFTRTNVU1JvTXRGSEIwZ2ZkQzBEc21tcC1ac2JWMXVkWFpoUmVSSVI0VDBQY2RxTnYyVVJqVmRHSXJ0YU5zbm9xT1RBMHZmdXdUN2FtdUd1RHhvd3RieFZvRU9FaUFHOGhCbHZtVjFkMHpHRUk1TzRGdWMxbGh2Zmljd0d1d3dQWWp5aTlTS3JIWnNJN3hKYUdiczU5R0FyMHY4WlBmRl9Ldlp1OEp6eDh6S2pWYzUwdDRqUXVQRVUxd3N2dnlMUGt5b3MwU2FXWldkX0RaamNHbnluOEp4QVNWZjg3Yk8yM2FBc0JocUNaMFRXVlZhUTIwVHdZbnNrU1RRalZtMHN4N2Rhb3hyaDRpamg4c3J6UmZwNnU1cWxfNWJRVUhzV1k?oc=5",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "Voters elected Democrats who are doctors and challenged RFK Jr. Can they protect the Medicaid Program and - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNWHg5cVFFZWNoM3NDNDJZTUdCWGFXY3AtUVF5emZHTGl2MnYwTk9zNzQycmhHUWJtNHVaLWhvX3hVbHZvYWN0NHhwNHp2Zm5KbTBGUy12U0t1S29vVk1hTjdDY19udFJTbnczVkYzYkdnTVlOSDRUbHRUVmE3SE5iem9Xb2VnY2xId1lrSkhoUVZ3YXNlTmpZNVNLSDduelJRbmYyTWwwbDZnQUpFdlN4cTB1WjFPWnNsVXA3amhWUk01OVhibElYeThZbEZDb01Yd1I1Y1ZoSDdfN1E0U243MWUyNmVPZm1zQXo3ZjZxTElQMXBUVnhEWWZ0YjVVNzdkRDdwemZWVzRyandaa1BDNkUzNW13WXVCbVJzb1J4bnQyRDNPekt2NWxYUdIBsAJBVV95cUxQb1o0MnFWV2hMYm1Mb0RBME5hdGVOTzZBQWRGazBpeEVqRDlCel9hRWJXY1l6Y1lVbzFIYlpvUi1BTXRDY3d1d2VGT1AyNkl5QlhEN0RPUVo4V1lVanZER1FlZ0FOb3p2alc0cTBoczFtVHBYOTBrUGpnV0JPY2J5aWJza2tQUW0wTGtya2E5OV9zMWJQUjBTWms3ZXJoSVlCSUFpa2k0U0FtdFRDWjNjNlV4MVJEYUdJY1o5TUxBbXNGaWlIdHhvdFF0YnR6Sk14M1FfcGRXcTVrZXI1NnZlaDBvNkZ1RDZCeVJma2Q3Zy1IdEFJLWVzc1Z2QTRUMHh4amxpa01PZHBzWDctaXBOWHZTb29naThxb0xfdzJmanJVU0hzak9TS0kyMmMwb1Q2?oc=5",
-     "source": "The Economic Times"
-    },
-    {
-     "title": "Who is Russell Brand? Comedian found guilty of serious crimes, faces significant consequences in the UK le - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNUkM1M3luaXdEMVdVR3ZyZFRKbERzRVY4aDVnWkh2bHRKalZpazRwSTlxLVNhWmFWY0NTanRsOVFLUjY2N3hFLWFNdGlIUmdHXzdWVlg1WGdEVk1halp2eWY5aWFWeXFRTHhleExvdzBsb1pSbXd5WkRTTG5Bd1ZWbFdDbzMzMlBfakoteVdOeldPWGpaX2hYel9qUk5MVGtKeUhZV0hNeEYxX2JtOWpFRjVqNmpyZzl6YUxpdFdPUlVyUzdZLW82RWJiRHluaUxyc1JERW1vZGo0bEk3RzZkNzBmaDkwUlE2Z0RacUVpRFVmbTlZMXhONTQ4RHRBbE5Md3kwOTBhcDNIVXJFYUlsMmxMQjQ3aE5vNHfSAZ8CQVVfeXFMUFFGZk1yLXpES0gwLThDRmF2NzgtcEFHdXFLZkR0dDZhT0hGeVpFWnBVNzdNeHhDU2hWeDItT2NTZTdqZ2xKRC1PSl8yb2w0dlRDSVQ0aEFFem1WQjRUUTItaEJYdUhTb0RUMTFiV1M0YkhnV01rTkFINnBEZDRhdjB6TElMcW0zRzVnT1dVWlBXQVU3VUprblNNS2tPTjBBZWdkZmxqOEN1TUdGd2trN044a2NNZEx3bFBuTGhuRWJBejZsRWtDQVBKUHhPVzdkWGYxVHktUXdSOF8wTVRKeTRhMlNDTE1uM3E2QkhoVFNmTUx2ZVBVQ2R5U082ajE0RlR2NjJUdENVVmFadXBJb3JBdnNHdllCelZiTnlWbm8?oc=5",
-     "source": "The Economic Times"
-    }
-   ],
-   "official": false,
-   "score": 33.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "car recall",
-   "traffic": 0,
-   "article_count_24h": 56,
-   "article_count_1h": 1,
-   "published": "2026-11-06T01:54:09+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "Hyundai Issues a Recall for 38,000 Vehicles Due to Potentially Faulty Airbags and Seatbelts - Car and Driver",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSVZKNlowbng2TXlybHE5Ylc0OUU0b202UGREVUdDMlRkdjhjQ2l1aktKYjI1WmxXRVlESlhqQXBPbzE0Wm11dkRHaUNDLWZmN1U1MGdaNmdndk9kc2NsNFNhMGtkVmFVQUN0Xzg5d1Q5bmJ0WmtNU0lzOWN5cmtNM20xTzhQYzFIWVdHOHRDUTRobHVpQnB5MXF4MnBfNE9KYW1R?oc=5",
-     "source": "Car and Driver"
-    },
-    {
-     "title": "Hyundai recalls over 37,000 vehicles. See the affected models - Idaho Statesman",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0RmpFSHdYbzUyX3VJRWpMUWowRVRpRDNaNHdUdWJkS2ZWUXhIZmpDN3g2RE9OWmdaSTV0QV9SVUZXY0RyUnZmM1hMa3o1Z0RfNUtaVmJZeE1xemxIQWxkSU81aC1hbzR4LVNJUXBocFBvTnpX?oc=5",
-     "source": "Idaho Statesman"
-    },
-    {
-     "title": "GM recalls 67,000 EVs over brake issue. Would I still recommend them? - Yahoo Autos",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVndwdmpRVDNvTkhxRFZxX0ZZbksyMXBRMWNSRXdCZnVRV0FsRVIzQ0ZfNkVFRnVYbi0zYWc5R3dZNHpLZFV0OHk3V2VDdm54VklrVW12MGtnU2J4MV92Wml4bDBTNDF4MHVhdElEQkdNZnV2NHlOLUhYY1d2QUNSampfT0NTSURtSmdzaTgyOHhiUQ?oc=5",
-     "source": "Yahoo Autos"
-    },
-    {
-     "title": "The Electric Vehicles With the Most Recalls in 2026 - Kiplinger",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeXkwbE1ibmsybzR3TWdub2NFQ3VUQ3NYT2lTb0lKVTZ3aHJJZm90WkJuNXhCWGJmc1FqTmx3dzQ1SHM2VnN2OUtCdHBlY0VudFU1OXlwTktDdlpEZE4xWG5TdHdCN29iLVl5U0tTUVpEeDVZYkhGRmZpbUNqTUlJS1UzU0N2UQ?oc=5",
-     "source": "Kiplinger"
-    },
-    {
-     "title": "37,901 vehicles recalled over dangerous software problem that can deactivate air bags - Cleveland.com",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONU9kb1R3OXF1NmRlUEotdHhDenkzeTVGeTl6Z2xaNE5kTk5Sd1VUZkhreXRKTmNpazR0SWUxR1JjV3paQmd4ZzJmY0drSFMtVTQ5N0p1YnhpQ1dfTXdOLWxxekZPXzNkaDM2UGFITE1xN2wxNENBZUJDVzdvZ3FMMDVpNzZZeU5ZN01TRFl3WFpLd2d6ZFNPNllQVmc4NmNra1M0WjE3UjNtMVFFb0M1dmREZFpLa3BybUdTWkpjQl9fMGQtR0E40gHbAUFVX3lxTE5DejFrbkdFYVRockVuRmV6UHBBN3dRSkV6MnFwRkEtTU4xWm5GQ1NieWh3WEQ0Q3N5WVFfQWstY0h6LXYzb05zZFo4emxuZy04a2IxZ2RuWG5RWWFPZFNFTGZHT21QR2pOb1cxMWU4SnVQaThJVmNXR1lYVmNhRWh1cWFVaFBycUU4ajJyY0ZnV2RKam50MXRyRnZrdk5vR1BwZzgtMUVRRm15dnVMUnJNeUxianJZcThScURxeEVBZFNzSjF1b2RuOGlKQm9zVEt4bldFeXFZd2JXOA?oc=5",
-     "source": "Cleveland.com"
-    }
-   ],
-   "official": false,
-   "score": 30.9,
+   "score": 31.5,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "ethan hawke",
+   "keyword": "bryce james",
    "traffic": 1000,
-   "published": "2026-11-06T13:50:00+09:00",
+   "published": "2026-11-06T14:00:00+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "Levon Hawke to Star With Anthony Hopkins in Indie Drama ‘Twenty-Seven’ (EXCLUSIVE)",
-     "url": "https://variety.com/2026/film/news/levon-hawke-anthony-hopkins-twenty-seven-gregory-caruso-1236940057/",
-     "source": "Variety"
+     "title": "Bryce James stats: Lebron James' son makes first college start for Arizona",
+     "url": "https://www.usatoday.com/story/sports/ncaab/big12/2026/11/03/bryce-james-arizona-basketball-first-start-stats/92579162007/",
+     "source": "USA Today"
     },
     {
-     "title": "Ethan Hawke’s Son Levon Hawke Lands First Leading Role Opposite Anthony Hopkins",
-     "url": "https://people.com/levon-hawke-lands-first-leading-film-role-opposite-anthony-hopkins-12239107",
-     "source": "People.com"
+     "title": "Bryce James' Full Box Score, Highlights From MCBB Debut in Arizona's Upset Loss to UCLA",
+     "url": "https://bleacherreport.com/articles/25528879-bryce-james-full-box-score-highlights-mcbb-debut-arizonas-upset-loss-ucla",
+     "source": "Bleacher Report"
     },
     {
-     "title": "Levon Hawke to Star With Anthony Hopkins in Indie Drama ‘Twenty-Seven’ (Exclusive)",
-     "url": "https://www.imdb.com/it/news/ni66097212/?ref_=nwc_art_perm",
-     "source": "IMDb"
+     "title": "“We got another Make-A-Swish Kid” – Jason Whitlock accuses LeBron James of forcing Bryce onto Arizona's roster",
+     "url": "https://www.basketballnetwork.net/college/jason-whitlock-accuses-lebron-james-of-forcing-bryce-onto-arizonas-roster",
+     "source": "Basketball Network"
     }
    ],
    "official": false,
@@ -1051,90 +1075,54 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://variety.com/2026/film/news/levon-hawke-anthony-hopkins-twenty-seven-gregory-caruso-1236940057/",
-     "title": "Levon Hawke to Star With Anthony Hopkins in Indie Drama ‘Twenty-Seven’ (EXCLUSIVE)",
-     "outlet": "Variety"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "solo leveling season 3 release date",
-   "traffic": 1000,
-   "published": "2026-11-06T13:30:00+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Solo Leveling Officially Returns Next Week With 3 New Episodes",
-     "url": "https://www.cbr.com/solo-leveling-ragnarok-webtoon-november-5-release-date/",
-     "source": "Comic Book Resources"
+     "url": "https://www.usatoday.com/story/sports/ncaab/big12/2026/11/03/bryce-james-arizona-basketball-first-start-stats/92579162007/",
+     "title": "Bryce James stats: Lebron James' son makes first college start for Arizona",
+     "outlet": "USA Today"
     },
     {
-     "title": "Solo Leveling: 4 Strongest Hunters In Anime Sequel, Officially Ranked",
-     "url": "https://www.imdb.com/news/ni66093215/?ref_=ttnw_art_perm",
-     "source": "IMDb"
-    },
-    {
-     "title": "Solo Leveling: Ragnarok Confirms Return From Hiatus With New Season & Artist (First Look Revealed)",
-     "url": "https://comicbook.com/anime/news/solo-leveling-ragnarok-confirms-return-from-hiatus-with-new-season-artist-first-look-revealed/",
-     "source": "ComicBook.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 30.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cbr.com/solo-leveling-ragnarok-webtoon-november-5-release-date/",
-     "title": "Solo Leveling Officially Returns Next Week With 3 New Episodes",
-     "outlet": "Comic Book Resources"
-    },
-    {
-     "url": "https://comicbook.com/anime/news/solo-leveling-ragnarok-confirms-return-from-hiatus-with-new-season-artist-first-look-revealed/",
-     "title": "Solo Leveling: Ragnarok Confirms Return From Hiatus With New Season & Artist (First Look Revealed)",
-     "outlet": "ComicBook.com"
+     "url": "https://bleacherreport.com/articles/25528879-bryce-james-full-box-score-highlights-mcbb-debut-arizonas-upset-loss-ucla",
+     "title": "Bryce James' Full Box Score, Highlights From MCBB Debut in Arizona's Upset Loss to UCLA",
+     "outlet": "Bleacher Report"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "federal holiday",
+   "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 2,
-   "published": "2026-11-06T06:50:52+09:00",
-   "category": "Holidays",
+   "article_count_24h": 52,
+   "article_count_1h": 8,
+   "published": "2026-11-06T09:04:00+09:00",
+   "category": "기타",
    "news": [
     {
-     "title": "Trump’s Gas Tax Holiday Would Cost US$3.5 Billion a Month - EnergyNow.com",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa3g0WkhzRDBvbmRVdHl1VHNJdjROdWh0VEIxbldqY080SGVXS0dHQ05IVUpoUGh4RjBCdzJUcHhjMWRBYWhKS0ItTC1pekdDMndYYmVXY1JuUXkxTGloWkhnOGpfdC1jZFNmYkVtTkF2UmVzQXpxMVoxVnJpdC0wUVhKVGRCVF9VT1pEb05OWQ?oc=5",
-     "source": "EnergyNow.com"
+     "title": "Pennsylvania Democrats plan new push for $15 minimum wage - WGAL",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHFsOWg1QnNTRUJzZ0FqSXJKdmhWN3dFYVRLT3JOVDZzWGs0Z0h2ZmppRHA2NDJfOUoxbUdnaDRqb0VqdE0yVEg5Z085RDdqemxjS01EdExMM0NJWXo0WTVlc2pTVEt3WElQeDU5cGpRZTRqVmdkZFlyLXVXMFktQTNpcUtKbVdkRlJJQXl6dnJyMnVTb2RiRkdB?oc=5",
+     "source": "WGAL"
     },
     {
-     "title": "Holiday Shopping Savings on National Cash Back Day with RetailMeNot - WSMV",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYTBhSGZvTkJEOGhuV3VnNHF0M19lX1RQT3RsR2ZmUm9oSDkxMm5ZM1NQakdUaXQ5X0ZtaE9JUnN3a0NLVU56QjhKOV84ZndoM3FlaWxSa3ZMRnVMWERhS19EVHJtXzNFeDVMbklCV3NQc1pQeUZ5WklHRzgwVlpfR3hNYXpDYzVhQUdTVzNaMHpld0VwWXJHYUxYVGhHUdIBsgFBVV95cUxNblFjMjJJSmxNSUtfNDRCSW4zQW1zTWxibThneVdXbnFWd0RpeGtuMG05RWFsaWJlT3F2S1IyS2p3cWp6NXBvekRDWVY3ejFvMnF3VFIzQk0yMzFzYTlUY1d6NlhIUGl0U1JKRXJDTDZ3UWFLZkFsZXNoTWNlYmVid1dFUjA1T1I3cEhwUXNmYXQ5eVhtMUt3bUQtbmZrRzkwRWJaZTZXcnF0cnRjRGZlQU9n?oc=5",
-     "source": "WSMV"
+     "title": "60% of New Yorkers back $30 minimum wage - NEWS10 ABC",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11Tl92WHBROUtacnB5Ykw0MEVDN0ZiUXYxQTlOTnVOY0xPQVAyLVY5b0p1V0J2ekpKVXk2X3ZzQkJVQjRUQWUwV3lMbElqQTk5WGF4SV9LX1FFQVVpRE1mTml0TzBEUXha0gFuQVVfeXFMTXpCQWxyY1VXME5naFcyTTlGVmJ1QWVfdlBramFaTWw4TDRrZHBsaC03Zmg5S0VHOE1KM3JXblZvV0U3S3JJTVhJNkJJYUpyVmVjMlBrek9CZnV1R0pGRWJIRlotMDREWXh5YkJ6Zmc?oc=5",
+     "source": "NEWS10 ABC"
     },
     {
-     "title": "Is today a holiday? Why are schools closed today in NJ? - Bergen Record",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM0N2bDVBd2VxNGZ0eDBaTm8yWkdoQTVwNEVLVjlpb2NQOW5VM0tLamZ6cU1VUWlnR3cxa3JCYlRSMmI1TENpWmlLQ2MxS1A3R0UwX0U3RDVFcE1WamZnS2JseW9qWnpfY3lTaVZqUU9ZTzZUVTBYM1JiOWFjQ3haeURRVjhkX1o5VFUzN0R1Yng2U0Z3SmhBUzY4bnl5NWd6UURGS0lNd0FRa3JZcjl2RGdUNUkzX3FpN3IxRmVvM0RqZS0yZ2RMUA?oc=5",
-     "source": "Bergen Record"
+     "title": "Bangladesh Agrees to Raise Minimum Wage for Garment Workers After Protests - The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRUhDS1A5OU9GR3dIRU5HRmJwUlNwZGZsVGg3WjNIcW5Ob3JKWl9acHQ2b0wtQWt0c24zd2lVclRzUDdxT1hGVEM1ck96cmxVb2FxVk8yOFhCUFlZMGdrNzBFVnNKTEdlWWw0RE5rTXdkMHNSYUVCbUF4S1gxYk9VNVhLN01pV2Rubm4zUEN2YVFJTDRj?oc=5",
+     "source": "The New York Times"
     },
     {
-     "title": "Veterans Day history: 8 turning points from Armistice Day - qz.com",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIUzVoSEExUGd1aWMwamVHM1RfbW9PbHNJUl9DczFaVzJESF9hMkFJeFd3ZjZhNm1KSUtFRWVVSlNqSG42TU5iWm5UMkF4Ykx3ZlhKemFCVU5VOWdSTF95N2NWQ2x5d1I1Tk01eDRSSF94dw?oc=5",
-     "source": "qz.com"
+     "title": "Pennsylvania minimum wage increase coming? What Shapiro says will happen - Delawareonline.com",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeFp4ZTBsZ2VqZUYtX0ZVajU3SFdGVzhrcm1QeEx5c1ZMbmpCVWcxUHJUcVJnWHZZSnM4bmZ3WEVxR0ptQy1hb1p0UV8yR05oTE5NaEhxOHdqVGkxLXgtbmVXRFZZLUpWUWlDTGR3ZUFlcW5vc0dnalRSZC1vbzdGUGJIc04zeXg5UmJWSV9OS281NTJjZmZSN0ZZODBSQkN1WVRnaVdDZHV3WGZlcllzVzgzYmJTWnlQUDU1bHlMbDhtUQ?oc=5",
+     "source": "Delawareonline.com"
     },
     {
-     "title": "Is USPS closed on Nov. 11? What to know before you go - AL.com",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTkVJWjZMR3BpWGxXRVNKZUJsb0VBLVJzWnU3V2wwTUZwSnozYldPTy1PVF9rTi1na3lMNHE1d3cydzhWWHItWnBCeTlGLTF5MlV0ZkpydmVjMlg1eHR4Y05FR0Y4LVVuSzFyeTVXRnBHbGtkM05udEFSbXM2STQyV19GUUpEckoyQUNLaW5rb28zQdIBpgFBVV95cUxOeGpOVlB1ZWh0Z3ZzOVJpOERZcWdJZElRd3EtUjNkTk54ek41NlhYd3ctM1NDQlB2cHpxZWdCMTJMV2U1WVpEV3RCaGdpcVN3TXBiOEVQdy04cGZXOGZFeWdJSlJrYVl3cG1FczVReXJVODhpdDNNWm9ZdDdjMUVsTkRzbGM1MVNXbXNJbFByUElscnRLMjFGSWNpQnU1NVFfVnVKYkl3?oc=5",
-     "source": "AL.com"
+     "title": "Gov. Shapiro wants to raise minimum wage again, but this time with a Democratic majority. Here’s what to know. - Inquirer.com",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTW9rb1Q4cURsU0ZJRXBRSENYYS1Tam1sODBaYnBxcFJuSG1yTzdWQzFKMXJfMU8tcHRjbFZha3VyMTdraWhObFVvOVoxV2JyN3RqNkNtSnotaE8zbWR6cERDSnp2OGZwQS1vRXVrakNfblNpT2ZrcGxUNlhFWUxoMkVrVnRGTjloX1c0SzFMM3lxeGI1YU0zNTFqc3NiQUdpV3FVZ3VLSUZNbHpYUXkyT1dGdXozR3RJ?oc=5",
+     "source": "Inquirer.com"
     }
    ],
    "official": false,
-   "score": 29.3,
+   "score": 30.0,
    "already_covered": false
   },
   {
@@ -1142,7 +1130,7 @@
    "keyword": "REAL ID",
    "traffic": 0,
    "article_count_24h": 26,
-   "article_count_1h": 0,
+   "article_count_1h": 2,
    "published": "2026-11-06T02:47:59+09:00",
    "category": "Holidays",
    "news": [
@@ -1173,47 +1161,100 @@
     }
    ],
    "official": false,
-   "score": 23.1,
+   "score": 29.3,
    "already_covered": true
   },
   {
-   "source": "google_news",
-   "keyword": "minimum wage increase",
-   "traffic": 0,
-   "article_count_24h": 53,
-   "article_count_1h": 9,
-   "published": "2026-11-06T07:15:50+09:00",
-   "category": "기타",
+   "source": "google_trends",
+   "keyword": "jordan rodgers",
+   "traffic": 200,
+   "published": "2026-11-06T14:20:00+09:00",
+   "category": "Taxes",
    "news": [
     {
-     "title": "60% of New Yorkers back $30 minimum wage - NEWS10 ABC",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11Tl92WHBROUtacnB5Ykw0MEVDN0ZiUXYxQTlOTnVOY0xPQVAyLVY5b0p1V0J2ekpKVXk2X3ZzQkJVQjRUQWUwV3lMbElqQTk5WGF4SV9LX1FFQVVpRE1mTml0TzBEUXha0gFuQVVfeXFMTXpCQWxyY1VXME5naFcyTTlGVmJ1QWVfdlBramFaTWw4TDRrZHBsaC03Zmg5S0VHOE1KM3JXblZvV0U3S3JJTVhJNkJJYUpyVmVjMlBrek9CZnV1R0pGRWJIRlotMDREWXh5YkJ6Zmc?oc=5",
-     "source": "NEWS10 ABC"
+     "title": "Aaron Rodgers’ brother Jordan makes rare comment about quarterback after it’s revealed he’s only ‘cordial’ with him",
+     "url": "https://pagesix.com/2026/11/05/celebrity-news/aaron-rodgers-brother-jordan-makes-rare-comment-about-quarterback/",
+     "source": "Page Six"
     },
     {
-     "title": "Pennsylvania Democrats plan new push for $15 minimum wage - WGAL",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHFsOWg1QnNTRUJzZ0FqSXJKdmhWN3dFYVRLT3JOVDZzWGs0Z0h2ZmppRHA2NDJfOUoxbUdnaDRqb0VqdE0yVEg5Z085RDdqemxjS01EdExMM0NJWXo0WTVlc2pTVEt3WElQeDU5cGpRZTRqVmdkZFlyLXVXMFktQTNpcUtKbVdkRlJJQXl6dnJyMnVTb2RiRkdB?oc=5",
-     "source": "WGAL"
+     "title": "Jordan Rodgers makes a 'surprise' Aaron Rodgers pick in rare public comments about brother",
+     "url": "https://nypost.com/2026/11/05/sports/jordan-rodgers-makes-a-surprise-aaron-rodgers-pick-in-rare-public-comments-about-brother/",
+     "source": "New York Post"
     },
     {
-     "title": "Bangladesh Agrees to Raise Minimum Wage for Garment Workers After Protests - The New York Times",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRUhDS1A5OU9GR3dIRU5HRmJwUlNwZGZsVGg3WjNIcW5Ob3JKWl9acHQ2b0wtQWt0c24zd2lVclRzUDdxT1hGVEM1ck96cmxVb2FxVk8yOFhCUFlZMGdrNzBFVnNKTEdlWWw0RE5rTXdkMHNSYUVCbUF4S1gxYk9VNVhLN01pV2Rubm4zUEN2YVFJTDRj?oc=5",
-     "source": "The New York Times"
-    },
-    {
-     "title": "Pennsylvania minimum wage increase coming? What Shapiro says will happen - Delawareonline.com",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeFp4ZTBsZ2VqZUYtX0ZVajU3SFdGVzhrcm1QeEx5c1ZMbmpCVWcxUHJUcVJnWHZZSnM4bmZ3WEVxR0ptQy1hb1p0UV8yR05oTE5NaEhxOHdqVGkxLXgtbmVXRFZZLUpWUWlDTGR3ZUFlcW5vc0dnalRSZC1vbzdGUGJIc04zeXg5UmJWSV9OS281NTJjZmZSN0ZZODBSQkN1WVRnaVdDZHV3WGZlcllzVzgzYmJTWnlQUDU1bHlMbDhtUQ?oc=5",
-     "source": "Delawareonline.com"
-    },
-    {
-     "title": "Gov. Shapiro wants to raise minimum wage again, but this time with a Democratic majority. Here’s what to know. - Inquirer.com",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTW9rb1Q4cURsU0ZJRXBRSENYYS1Tam1sODBaYnBxcFJuSG1yTzdWQzFKMXJfMU8tcHRjbFZha3VyMTdraWhObFVvOVoxV2JyN3RqNkNtSnotaE8zbWR6cERDSnp2OGZwQS1vRXVrakNfblNpT2ZrcGxUNlhFWUxoMkVrVnRGTjloX1c0SzFMM3lxeGI1YU0zNTFqc3NiQUdpV3FVZ3VLSUZNbHpYUXkyT1dGdXozR3RJ?oc=5",
-     "source": "Inquirer.com"
+     "title": "Jordan Rodgers delivers left-field Aaron Rodgers opinion on ‘First Take’",
+     "url": "https://awfulannouncing.com/nfl/jordan-rodgers-aaron-rodgers-first-take.html",
+     "source": "Awful Announcing"
     }
    ],
    "official": false,
-   "score": 21.0,
-   "already_covered": false
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://pagesix.com/2026/11/05/celebrity-news/aaron-rodgers-brother-jordan-makes-rare-comment-about-quarterback/",
+     "title": "Aaron Rodgers’ brother Jordan makes rare comment about quarterback after it’s revealed he’s only ‘cordial’ with him",
+     "outlet": "Page Six"
+    },
+    {
+     "url": "https://nypost.com/2026/11/05/sports/jordan-rodgers-makes-a-surprise-aaron-rodgers-pick-in-rare-public-comments-about-brother/",
+     "title": "Jordan Rodgers makes a 'surprise' Aaron Rodgers pick in rare public comments about brother",
+     "outlet": "New York Post"
+    },
+    {
+     "url": "https://awfulannouncing.com/nfl/jordan-rodgers-aaron-rodgers-first-take.html",
+     "title": "Jordan Rodgers delivers left-field Aaron Rodgers opinion on ‘First Take’",
+     "outlet": "Awful Announcing"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "dan koh",
+   "traffic": 200,
+   "published": "2026-11-06T14:10:00+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Koh sails to victory in Sixth District House race",
+     "url": "https://www.bostonglobe.com/2026/11/03/metro/koh-wins-sixth-district-house-asian-american/",
+     "source": "The Boston Globe"
+    },
+    {
+     "title": "Congressman-elect Dan Koh says his first priority is to 'get to the bottom of Donald Trump’s corruption'",
+     "url": "https://www.wbur.org/news/2026/11/04/dan-koh-elected-salem-lynn-congress-representative",
+     "source": "WBUR"
+    },
+    {
+     "title": "Dan Koh wins race to replace Congressman Seth Moulton",
+     "url": "https://www.wgbh.org/news/politics/2026-11-03/dan-koh-wins-race-to-replace-congressman-seth-moulton",
+     "source": "WGBH"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bostonglobe.com/2026/11/03/metro/koh-wins-sixth-district-house-asian-american/",
+     "title": "Koh sails to victory in Sixth District House race",
+     "outlet": "The Boston Globe"
+    },
+    {
+     "url": "https://www.wbur.org/news/2026/11/04/dan-koh-elected-salem-lynn-congress-representative",
+     "title": "Congressman-elect Dan Koh says his first priority is to 'get to the bottom of Donald Trump’s corruption'",
+     "outlet": "WBUR"
+    },
+    {
+     "url": "https://www.wgbh.org/news/politics/2026-11-03/dan-koh-wins-race-to-replace-congressman-seth-moulton",
+     "title": "Dan Koh wins race to replace Congressman Seth Moulton",
+     "outlet": "WGBH"
+    }
+   ]
   },
   {
    "source": "google_news",
@@ -1256,143 +1297,112 @@
   },
   {
    "source": "google_trends",
-   "keyword": "burt reynolds",
-   "traffic": 500,
-   "published": "2026-11-06T13:20:00+09:00",
+   "keyword": "bam adebayo",
+   "traffic": 2000,
+   "published": "2026-11-06T14:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Toy Robot's Dec Releases: Passenger 57, Sharky's Machine & Detroit Rock City Arrive on 4K!",
-     "url": "https://whysoblu.com/toy-robots-dec-releases-passenger-57-sharkys-machine-detroit-rock-city-arrive-on-4k/",
-     "source": "Why So Blu?"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 200→500",
-   "spike_bonus": 20,
-   "score": 13.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://whysoblu.com/toy-robots-dec-releases-passenger-57-sharkys-machine-detroit-rock-city-arrive-on-4k/",
-     "title": "Toy Robot's Dec Releases: Passenger 57, Sharky's Machine & Detroit Rock City Arrive on 4K!",
-     "outlet": "Why So Blu?"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "arizona basketball",
-   "traffic": 1000,
-   "published": "2026-11-06T13:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "RJ Godfrey's attorneys sue Arizona Regents for not certifying him under NCAA bylaws",
-     "url": "https://tucson.com/sports/arizonawildcats/basketball/article_d591f930-db85-4d24-92c4-da2d585336c7.html",
-     "source": "Arizona Daily Star"
+     "title": "Where Are They Now: Adebayo's season-high 35 lifts Heat past Clippers in OT",
+     "url": "https://www.thewashingtondailynews.com/sports/where-are-they-now-adebayos-season-high-35-lifts-heat-past-clippers-in-ot-a7049da7",
+     "source": "The Washington Daily News"
     },
     {
-     "title": "Arizona forward RJ Godfrey files lawsuit against Arizona Board of Regents over eligibility",
-     "url": "https://www.thestar.com/sports/basketball/arizona-forward-rj-godfrey-files-lawsuit-against-arizona-board-of-regents-over-eligibility/article_2aa592c1-3966-5b1f-b43d-297ca4dfeea0.html",
-     "source": "Toronto Star"
+     "title": "Heat's Bam Adebayo: Strikes for 27 in Friday's rout",
+     "url": "https://www.cbssports.com/fantasy/basketball/news/heats-bam-adebayo-strikes-for-27-in-fridays-rout/",
+     "source": "CBS Sports"
     },
     {
-     "title": "RJ Godfrey sues Arizona Board of Regents in latest push for eligibility with Wildcats",
-     "url": "https://www.azdesertswarm.com/basketball/85196/arizona-wildcats-basketball-rj-godfrey-pima-county-lawsuit-eligibility-tro-2026-bergin-ncaa",
-     "source": "Arizona Desert Swarm"
+     "title": "Bam Adebayo posts 35/10/4/1 stat line vs. Clippers",
+     "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-05/bam-adebayo-posts-35-10-4-1-stat-line-vs-clippers",
+     "source": "NBC Sports"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 12.0,
+   "score": 15.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://tucson.com/sports/arizonawildcats/basketball/article_d591f930-db85-4d24-92c4-da2d585336c7.html",
-     "title": "RJ Godfrey's attorneys sue Arizona Regents for not certifying him under NCAA bylaws",
-     "outlet": "Arizona Daily Star"
+     "url": "https://www.cbssports.com/fantasy/basketball/news/heats-bam-adebayo-strikes-for-27-in-fridays-rout/",
+     "title": "Heat's Bam Adebayo: Strikes for 27 in Friday's rout",
+     "outlet": "CBS Sports"
     },
     {
-     "url": "https://www.thestar.com/sports/basketball/arizona-forward-rj-godfrey-files-lawsuit-against-arizona-board-of-regents-over-eligibility/article_2aa592c1-3966-5b1f-b43d-297ca4dfeea0.html",
-     "title": "Arizona forward RJ Godfrey files lawsuit against Arizona Board of Regents over eligibility",
-     "outlet": "Toronto Star"
-    },
-    {
-     "url": "https://www.azdesertswarm.com/basketball/85196/arizona-wildcats-basketball-rj-godfrey-pima-county-lawsuit-eligibility-tro-2026-bergin-ncaa",
-     "title": "RJ Godfrey sues Arizona Board of Regents in latest push for eligibility with Wildcats",
-     "outlet": "Arizona Desert Swarm"
+     "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-05/bam-adebayo-posts-35-10-4-1-stat-line-vs-clippers",
+     "title": "Bam Adebayo posts 35/10/4/1 stat line vs. Clippers",
+     "outlet": "NBC Sports"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "al horford",
-   "traffic": 1000,
-   "published": "2026-11-06T13:30:00+09:00",
+   "keyword": "giannis antetokounmpo",
+   "traffic": 2000,
+   "published": "2026-11-06T14:00:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Sonny Gray Predicted To Leave Red Sox To Join NL Contender",
-     "url": "https://sports.yahoo.com/articles/sonny-gray-predicted-leave-red-014354027.html",
+     "title": "Is Giannis Antetokounmpo Playing Tonight? (Injury Update Betting Impact for Heat vs. Warriors)",
+     "url": "https://www.si.com/betting/giannis-antetokounmpo-injury-update-betting-impact-for-heat-vs-warriors-nov-5",
+     "source": "Sports Illustrated"
+    },
+    {
+     "title": "Visiting Heat are listing Giannis Antetokounmpo as …",
+     "url": "https://sports.yahoo.com/articles/visiting-heat-listing-giannis-antetokounmpo-214454898.html",
      "source": "Yahoo Sports"
     },
     {
-     "title": "Could Braves and Sonny Gray finally happen this offseason?",
-     "url": "https://www.ajc.com/sports/2026/11/could-braves-and-sonny-gray-finally-happen-this-offseason/",
-     "source": "The Atlanta Journal-Constitution"
-    },
-    {
-     "title": "MLB Free Agency Buzz: Rays Won't Trade Rasmussen; Orioles Exploring Trade Market",
-     "url": "https://www.foxsports.com/stories/mlb/mlb-free-agency-skubal-offseason-signings",
-     "source": "FOX Sports"
+     "title": "Giannis Antetokounmpo final status for Miami Heat vs LA Clippers revealed",
+     "url": "https://basketnews.com/news-258840-giannis-antetokounmpo-final-status-for-miami-heat-vs-la-clippers-revealed.html",
+     "source": "BasketNews.com"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 12.0,
+   "score": 15.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://sports.yahoo.com/articles/sonny-gray-predicted-leave-red-014354027.html",
-     "title": "Sonny Gray Predicted To Leave Red Sox To Join NL Contender",
+     "url": "https://www.si.com/betting/giannis-antetokounmpo-injury-update-betting-impact-for-heat-vs-warriors-nov-5",
+     "title": "Is Giannis Antetokounmpo Playing Tonight? (Injury Update Betting Impact for Heat vs. Warriors)",
+     "outlet": "Sports Illustrated"
+    },
+    {
+     "url": "https://sports.yahoo.com/articles/visiting-heat-listing-giannis-antetokounmpo-214454898.html",
+     "title": "Visiting Heat are listing Giannis Antetokounmpo as …",
      "outlet": "Yahoo Sports"
     },
     {
-     "url": "https://www.ajc.com/sports/2026/11/could-braves-and-sonny-gray-finally-happen-this-offseason/",
-     "title": "Could Braves and Sonny Gray finally happen this offseason?",
-     "outlet": "The Atlanta Journal-Constitution"
-    },
-    {
-     "url": "https://www.foxsports.com/stories/mlb/mlb-free-agency-skubal-offseason-signings",
-     "title": "MLB Free Agency Buzz: Rays Won't Trade Rasmussen; Orioles Exploring Trade Market",
-     "outlet": "FOX Sports"
+     "url": "https://basketnews.com/news-258840-giannis-antetokounmpo-final-status-for-miami-heat-vs-la-clippers-revealed.html",
+     "title": "Giannis Antetokounmpo final status for Miami Heat vs LA Clippers revealed",
+     "outlet": "BasketNews.com"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "adam driver",
+   "keyword": "charles bassey",
    "traffic": 1000,
-   "published": "2026-11-06T13:30:00+09:00",
+   "published": "2026-11-06T14:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Adam Driver Says ‘The Ship Has Sailed’ on ‘The Hunt for Ben Solo’ and He’s Done Playing Kylo Ren: ‘It’s Over’",
-     "url": "https://variety.com/2026/film/news/adam-driver-the-hunt-for-ben-solo-kylo-ren-1236939988/",
-     "source": "Variety"
+     "title": "How Warriors energizer Charles ‘Basketball’ Bassey is trying to seize center opportunity",
+     "url": "https://www.sfchronicle.com/sports/warriors/article/warriors-energizer-charles-bassey-trying-seize-22508552.php",
+     "source": "San Francisco Chronicle"
     },
     {
-     "title": "Adam Driver Says “the Ship Has Sailed” on Playing Kylo Ren: “No More ‘Star Wars'”",
-     "url": "https://www.hollywoodreporter.com/movies/movie-news/adam-driver-kylo-ren-the-hunt-for-ben-solo-ship-sailed-1236748987/",
-     "source": "The Hollywood Reporter"
+     "title": "Charles Bassey calls out ‘fake toughness' after Warriors' fiery win over Suns",
+     "url": "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/charles-bassey-fake-toughness-phoenix-suns/1976736/",
+     "source": "NBC Sports Bay Area & California"
     },
     {
-     "title": "Adam Driver Confirms His Solo ‘Star Wars’ Movie Is Officially Over: ‘It’s Dead’",
-     "url": "https://people.com/adam-driver-confirms-his-solo-star-wars-movie-is-officially-over-12238735",
-     "source": "People.com"
+     "title": "Good & Bad: Charles Bassey back-to-back vs LAC and PHX",
+     "url": "https://dubnationhq.com/p/good-and-bad-charles-bassey-back",
+     "source": "Dub Nation HQ"
     }
    ],
    "official": false,
@@ -1403,25 +1413,54 @@
   },
   {
    "source": "google_trends",
-   "keyword": "maya hawke",
-   "traffic": 200,
-   "published": "2026-11-06T13:50:00+09:00",
+   "keyword": "brandin podziemski",
+   "traffic": 1000,
+   "published": "2026-11-06T14:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Maya Hawke Boards ‘Magic: The Gathering’ Movie From Legendary And Hasbro",
-     "url": "https://deadline.com/2026/11/maya-hawke-magic-the-gathering-movie-1237213391/",
+     "title": "Brandin Podziemski is already quietly justifying his Warriors extension",
+     "url": "https://bluemanhoop.com/brandin-podziemski-is-already-quietly-justifying-his-warriors-extension",
+     "source": "Blue Man Hoop"
+    },
+    {
+     "title": "NBA Notes: Warriors, Brandin Podziemski, Pistons, Ron Holland, Sixers",
+     "url": "https://www.yardbarker.com/nba/articles/nba_notes_warriors_brandin_podziemski_pistons_ron_holland_sixers/s1_17038_44496350",
+     "source": "Yardbarker"
+    },
+    {
+     "title": "Postgame Warriors Talk: Brandin Podziemski ‑ 11/2/26",
+     "url": "https://www.nba.com/warriors/videos/postgame-warriors-talk-brandin-podziemski-11-2-26",
+     "source": "NBA.com"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 12.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "sam nivola",
+   "traffic": 200,
+   "published": "2026-11-06T14:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Sam Nivola Is Serving Bedroom Eyes and Major Temptation in ‘PHONY’",
+     "url": "https://instinctmagazine.com/sam-nivola-bedroom-eyes-phony/",
+     "source": "Instinct Magazine"
+    },
+    {
+     "title": "Sam Nivola, Nico Parker & Paul Giamatti To Star In 'Grandgear' Movie",
+     "url": "https://deadline.com/2026/10/sam-nivola-nico-parker-paul-giamatti-grandgear-1237200160/",
      "source": "Deadline"
     },
     {
-     "title": "Maya Hawke Joins ‘Magic: The Gathering’ Movie Adaptation",
-     "url": "https://www.hollywoodreporter.com/movies/movie-news/maya-hawke-magic-the-gathering-1236747928/",
-     "source": "The Hollywood Reporter"
-    },
-    {
-     "title": "‘Magic: The Gathering’ Movie Casts Maya Hawke in Key Role",
-     "url": "https://gizmodo.com/magic-the-gathering-movie-casts-a-stranger-things-star-2000835204",
-     "source": "Gizmodo"
+     "title": "The Director Of 'Godzilla Minus One' Has Cast His Upcoming Mech Movie",
+     "url": "https://www.inverse.com/entertainment/grandgear-takashi-yamazaki-cast",
+     "source": "Inverse"
     }
    ],
    "official": false,
@@ -1432,54 +1471,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "tim hardaway jr.",
+   "keyword": "kiyomi mcmiller",
    "traffic": 200,
-   "published": "2026-11-06T13:40:00+09:00",
+   "published": "2026-11-06T14:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Erik Spoelstra sends Tim Hardaway Jr. a pointed message with second-half benching",
-     "url": "https://allucanheat.com/erik-spoelstra-sends-tim-hardaway-jr-a-pointed-message-with-second-half-benching",
-     "source": "All U Can Heat"
+     "title": "McMiller erupts for career-high 42 in 95-65 win over UCF",
+     "url": "https://floridagators.com/news/2026/11/5/womens-basketball-mcmiller-erupts-for-42-in-gators-95-65-win-over-ucf",
+     "source": "Florida Gators"
     },
     {
-     "title": "Jason Kidd sends urgent demand to Heat player he used to coach with Mavericks",
-     "url": "https://sports.yahoo.com/articles/jason-kidd-sends-urgent-demand-224636667.html",
+     "title": "Florida’s Kiyomi McMiller Leaves NCAA Fans Talking After Becoming Fifth Player in Program History to Post Back-to-Back 30-Point Games",
+     "url": "https://sports.yahoo.com/articles/florida-kiyomi-mcmiller-leaves-ncaa-040720531.html",
      "source": "Yahoo Sports"
     },
     {
-     "title": "The one player still struggling for the Miami Heat",
-     "url": "https://www.si.com/nba/heat/onsi/the-one-player-still-struggling-for-the-miami-heat-01m69yz7n9r7",
-     "source": "Sports Illustrated"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "terence crawford",
-   "traffic": 200,
-   "published": "2026-11-06T13:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Terence Crawford names the man he would face if weight wasn't an issue: \"He talks too much\"",
-     "url": "https://boxingnewsonline.net/news/crawford-on-fight-he-takes-at-any-weight/",
-     "source": "Boxing News Online"
-    },
-    {
-     "title": "Terence Crawford teases one more fight as boxing struggles to embrace a new generation",
-     "url": "https://www.boxingscene.com/articles/terence-crawford-teases-one-more-fight-as-boxing-struggles-to-embrace-a-new-generation",
-     "source": "BoxingScene"
-    },
-    {
-     "title": "Terence Crawford Talks Comeback, But Who Pays?",
-     "url": "https://www.boxing247.com/boxing-news/terence-crawford-talks-comeback-but-who-pays/311081",
-     "source": "Boxing News 24/7"
+     "title": "Gators’ transfer Kiyomi McMiller explodes for 42 points as Florida routs UCF",
+     "url": "https://www.orlandosentinel.com/2026/11/05/florida-gators-womens-basketball-kiyomi-mckiller-tammi-reiss-ucf-knights/",
+     "source": "Orlando Sentinel"
     }
    ],
    "official": false,
