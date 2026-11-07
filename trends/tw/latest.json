@@ -1,118 +1,69 @@
 {
- "generated_at": "2026-11-07T13:33:59.546521+09:00",
+ "generated_at": "2026-11-07T14:31:30.012170+09:00",
  "sources": {
   "google_trends": "ok (10)",
-  "google_news": "ok (7)",
-  "evidence": "ok (저장 21, 실패 7)"
+  "google_news": "ok (8)",
+  "evidence": "ok (저장 21, 실패 6)"
  },
- "compared_runs": 2,
+ "compared_runs": 3,
  "spikes": [
   "股利",
-  "台塑企業",
-  "中度台风",
-  "電子支付",
   "碰撞",
-  "阿傑·米切爾",
-  "lakers vs trail blazers",
   "司機",
-  "貿易",
-  "三星galaxy s25"
+  "黃樂",
+  "德尼·阿夫迪亞",
+  "達米安·里拉德",
+  "毒物",
+  "竹北市長候選人"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "股利",
+   "traffic": 5000,
+   "published": "2026-11-07T13:10:00+09:00",
+   "category": "기타",
+   "news": [],
+   "official": false,
+   "spike": "검색량 2,000→5,000",
+   "spike_bonus": 20,
+   "score": 27.0,
+   "already_covered": false,
+   "evidence": []
+  },
   {
    "source": "google_news",
    "keyword": "颱風",
    "traffic": 0,
-   "article_count_24h": 58,
-   "article_count_1h": 8,
-   "published": "2026-11-07T08:17:00+09:00",
+   "article_count_24h": 64,
+   "article_count_1h": 13,
+   "published": "2026-11-07T07:39:15+09:00",
    "category": "Living",
    "news": [
+    {
+     "title": "查帕卡颱風最快今生成 有望轉中颱 專家曝影響台日機率 - UDN",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Nc0J4LVhXeDhpRUcxOGwzV1E4TDlOZ3JtbDh6X1piY0c2WHVQTjRKRWo1QmRvNEhJQ3BWaHZRMWE1UEwwZ0lGdXhWMzgtUHo00gFWQVVfeXFMTmhmRHdDcjc5LVpqZGJqMDRZM21rWWZxbzRldDVuU3hYRU5RLUgwTGx5amFWYXVGMHBTMFRHbXBpNTFsb3ZLUVMxbEVnMmhoUFB3VTdMM0E?oc=5",
+     "source": "UDN"
+    },
+    {
+     "title": "11月還有颱風！「查帕卡」最快今生成　下週一恐增強中颱 - 鏡週刊Mirror Media",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90WHo0RkdoQWhXaWQxNTM4ak5EMlA0bGhKQlVUN3VwTWpzc0xDMWVOZW5wbWpFSHNNMlNNMVhIWjFjVkV5a1pPOUtyQmNPV0FsMHVFbHc1b2F1OUXSAWBBVV95cUxPTGxrMjh2ZkhmdFVBZm9hWmxwamZCRVQwU0p3Y0dJYS1IZ2ZzYW90cG9ycEY1RXFsTEw1anpybWNFOGRWeEZXTlhQUWZyenlaaVFZeEhoWllYVWFZMTRDMW4?oc=5",
+     "source": "鏡週刊Mirror Media"
+    },
     {
      "title": "天氣／準颱風查帕卡「拋物線大轉向」！最快今生成 強度挑戰中颱 - TVBS新聞網",
      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NNlRodFozWndSOHpUY3pERWxHci1sM3RQX25tQzQxYll3UjRMMVU5RU96U3hCT3VuUUpwNXVfbFUyaHh5blFxbVYzcXlWUQ?oc=5",
      "source": "TVBS新聞網"
     },
     {
-     "title": "11月還有颱風！準「查帕卡」最快今成颱4有利條件助挑戰中颱| 生活 - Newtalk新聞",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iWTVJdDVTQW9jUEtTOExzaC1LUlctY0pMS2RMLWZwZ0t6ZVpOYmY2NDQ2YkQ2MjR5cjNfVHdWM0ZPX3BNVWYtbDlFRmVTZFhCamZibXRWUFMtQkE?oc=5",
-     "source": "Newtalk新聞"
-    },
-    {
-     "title": "颱風「查帕卡」最快今生成！強度不排除達中颱 專家曝對台日影響 - Yahoo新聞",
-     "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxPWlRmbFhBUWVEU1E0bDhKSmJCUUFNOEFJX2xpdTY5SDQtLUlsOGZwZE1UUEZpLTV0X0x2YVhhZHRjZk9QT0UxZG8tUzNRUTRSNUFhT21yUWxIb2VUYk16Y3dHYWJIYVNtd1cwMkcwQWFUcmMtcTl6Q3FDSEg1OHM4RVVHY05ZX21fNHF4aU5hS3M2MXB2MWdKY01wREQ5Uzd6UzZLUEZMbTNHMk05bU1STHJvX2hPcW9SR0dTa2VXZ0x2MTZTVXNmSHdVNlNuSm9qeVA2VkpOdXhxRlJxeUs5YXNXUVBSdDlJTGZieHBlY1V6YzJ0YjFyeFVkSFNBMWZrMWJyVlVzOW9iNWQ3R2t5eHBCc1Q1Y3FEV0FrOWRtNjI3STJwc2cyWDBUM05EbmNienhhS3Z5blF3dlFmNjJrWVhlX1E4LW43Yi1uaEp0SEtZdlp3ekE1WGtQazVfc0haTUVXTmk0TzgzZlpiMlZfNS1RWXV1TmVIWFZoa24tdkRxRHM2dUFMS21rNGVDYzNi?oc=5",
+     "title": "快訊／「查帕卡」颱風生成！日本氣象廳曝最新路徑 - Yahoo新聞",
+     "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPR1dSMC1DWTBWcHB1TFdnVE15NVU4LWU4S3hpSGtGVGlxTTVWdWh1U0ZzeHFETzl4ZG5pZ1JtemNDbkc4YTNiQVN0ODM0N250MlI2cENyeHBORW9qTzJjVXNjWGRlR3oyU195WUhuTUZBaTR5aVFQYm5HRU11Rkh3ZUV3c0xPUDJrQkw4Qjc5WTJGZlNucnNzT0pzejRVMkYxUzRtZGVYbVdSUUVNcVlUNE54czNUOGRWLUV6d3N0am1fdmlaYVRISEtQVjB2VFkyczcyUEg3RXdzdHc0MGZIeURuOVhrV1F1cVYxYktRbzRLSFlpeFZNQlJJVEg2SE5uRHBsa2lfdlRJUGNmX1lpdGZFMjN4TjN2enVoT0ZLb25mdHdUWlc5YW1NUThDWFFXOGpSaHpKUXBhc2c?oc=5",
      "source": "Yahoo新聞"
     },
     {
-     "title": "【台股盤中暴跌3737點！賴清德急傳Line 謝金河：台灣掃到颱風尾】 是被颱風尾掃到。 （#起啵） - Facebook",
-     "url": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxNQjJVM1g2T0MyOTlpd0ZabWR1NUNVUDFMcTNIbzRZSS1LLUl0WnBvMTVjeE1TaXZIaFk0YzJvVkhWRExETzdCSkZGSnhBb2FZRi1lSmN6dUZvckpKYkg1cFVHcWotVFVkX3dpQmpDZUZsYVdBdy1QWjd2WUdidFo5ZFZpOEU3bnZXRmtqOExQczBSci1jYXdVa085c3hBSzRTb2hlNFF5OXdvT2h0T0RfYnFGOUVrODZxcGxUeExtUXFLcWNVTnRYMmd1QjhaUy1lUXFZQlZOZG9XOU54bEx1MDZnWThmYUtncUVlUHVuVHZGbnNjcnVqdGhnaFQwOUY4YXQtUDFiNlM3M1F4YVhCbWxwdW1QQUJQai1nQk1KbnRJTTYzOXJpVXRJTGVydG5NU2xBRVpvOHhLWXZvMmdFd1NmYXVqOXpBRFBTbURKcnNoWDlnOVVqaTVEbUFNZVFBQlZPWkN5QjBhY1V6NG55R0M5bUUyWE5jX0VCa0xWR24tOVZsMWVERXlWQWQ1Tkg5UXdvaUIwMWp5SWg3UlFfOEF1NEVIMm16QXVWUU1CRlFpYVBiOHRRNkhxamw1eWw5T1N1TEQ5aVVEYWtRZ2tnd0RjVWQ1SkU3d1NLaXhjODNoV00wbzNYNkV3?oc=5",
-     "source": "Facebook"
-    },
-    {
-     "title": "拋物線大迴轉！準颱風「查帕卡」最快今生成 對台影響曝 - 東森新聞",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIZ1hXSEwzOVU4eHdxanpTdktEdE1teHhPTUlVYUNLMG1JaU93MHV6WlA3dmtjWWo5QjQ1Vm14clhZQXNvRHhtN3l1Qm9jMWVPMjRfaQ?oc=5",
+     "title": "第32號颱風查帕卡生成！最新路徑曝 暫無侵台跡象 - 東森新聞",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OOGxtaGtzbllhS2ZjYXBqRE5aQjh3ejlUQ3YzZlJiNHBadFpHdnJqX2xKTFRiampTTWFhZmc0eWhuLUw2d2xZUkNPeE1MWTVKT0Z3aw?oc=5",
      "source": "東森新聞"
-    }
-   ],
-   "official": false,
-   "score": 30.0,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://news.tvbs.com.tw/life/4047029",
-     "title": "天氣／準颱風查帕卡「拋物線大轉向」！最快今生成 強度挑戰中颱 - TVBS新聞網",
-     "outlet": "TVBS新聞網"
-    },
-    {
-     "url": "https://newtalk.tw/news/view/2026-11-07/1069808",
-     "title": "11月還有颱風！準「查帕卡」最快今成颱4有利條件助挑戰中颱| 生活 - Newtalk新聞",
-     "outlet": "Newtalk新聞"
-    },
-    {
-     "url": "https://tw.news.yahoo.com/%E9%A2%B1%E9%A2%A8-%E6%9F%A5%E5%B8%95%E5%8D%A1-%E6%9C%80%E5%BF%AB%E4%BB%8A%E7%94%9F%E6%88%90-%E5%BC%B7%E5%BA%A6%E4%B8%8D%E6%8E%92%E9%99%A4%E9%81%94%E4%B8%AD%E9%A2%B1-%E5%B0%88%E5%AE%B6%E6%9B%9D%E5%B0%8D%E5%8F%B0%E6%97%A5%E5%BD%B1%E9%9F%BF-014500123.html",
-     "title": "颱風「查帕卡」最快今生成！強度不排除達中颱 專家曝對台日影響 - Yahoo新聞",
-     "outlet": "Yahoo新聞"
-    },
-    {
-     "url": "https://news.ebc.net.tw/news/living/579480",
-     "title": "拋物線大迴轉！準颱風「查帕卡」最快今生成 對台影響曝 - 東森新聞",
-     "outlet": "東森新聞"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "防曬",
-   "traffic": 0,
-   "article_count_24h": 9,
-   "article_count_1h": 2,
-   "published": "2026-11-07T12:37:03+09:00",
-   "category": "Beauty",
-   "news": [
-    {
-     "title": "理膚寶水更新安得利無瑕防曬液產品資訊強化廣譜防護與透明度 - GeneOnline",
-     "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQc1VySWdDZ19ZVGVOOWY5bS1QR3ZnbEsxVF9wdkdQZWVLR2xOdXJicHh1c0RmOGNVakZ6REg4M204VjN3Mk1hLXpaVmNubWFfY2h0Uzh0T0ZZU1BlX2ZiNkxQclZ1M2xfdEh3NUlwN1dWQjFGVmdXU2h4eFNUVEJVQnRXc3FIdVFJQ0lCT1FhWlF0ZG5xdGltdV9wYmlQazNyRV9KSVNqMUZCVzgtS0hEZk1fNDNNc3dOd3VNTEFfN3ZhcThFV2JranplX0g0MV9DRWFEQWEyZjhCU2JxVDYyRnFkSGdSRXVYcHRXNDdVSkFGaHh1VXpwaGxxdEtraFFmb002elN4Sy11TkZ0cmVqMkwtaW56aTZpSHFBRlExcDdpRUQ2bFpSMERFTTR3eWoxNkw0MW1vRFd6RVBmeTBDUVlSRHMyZw?oc=5",
-     "source": "GeneOnline"
-    },
-    {
-     "title": "討論牆 | 全台好天氣！高溫飆33度留意防曬 南部及中部山區防不定時陣雨 - LINE TODAY",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mdWE5a3lfbUJmX1JVSktFMzlPWXpuY2l5MFp2NGxRUTJ5cWZuaGdyZlA3NHlfazdRQXJPWWpvbW5Qb0I5RDlZOGpVTGlfdThhbU4xODN2dHdQRWJzdkNtY09vTWw?oc=5",
-     "source": "LINE TODAY"
-    },
-    {
-     "title": "2026防曬新觀念！皮膚科邱品齊醫師揭6重點：正確用量、成分挑選一次看 - Bella.tw儂儂",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LUHBDSnJ3ejRjOTVzbXhFM09Qdlp3ZGpTTVBkbEIyX0V5dUNpSW1oYzdueFVzazBtcG5rQWx1Z3Rhbm5UbzRPRUcxMmtzVWVzX3pQcy1Zal9iZ1d6YllORGRwRzJVYWJqS3FTYjI4c2ZXanJHVG8xM2VUdw?oc=5",
-     "source": "Bella.tw儂儂"
-    },
-    {
-     "title": "想不到美國防曬，落後世界這麼多！看懂FDA最新核可的BEMT防曬劑是什麼？ - Vogue Taiwan",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc3pDMWdlQXNzRVI3RzMxZDNDZndYYzlKcXdXczRBeW1Ca01ULUstTlVocG1RdzZHME1kZVBhWFFRMUtzLUpnbWZyZVgwYlplZ21UUXpHdGw0ejBlUHJNdXRKQll4QWFILWY1bkhjRkdIUjRUMW1lOEt6SVdxR1V4YjRUeFVMWkp1VXRIUjUxRnljRGZTcmZsSEYtbE8xdTl2blJfZnNBMG03eHdsVXlwcUFGV1VVck5TS2llMExkVTlJVVd2VjU5V20tS3VvNGc?oc=5",
-     "source": "Vogue Taiwan"
-    },
-    {
-     "title": "討論牆 | 想不到美國防曬，落後世界這麼多！看懂FDA最新核可的BEMT防曬劑是什麼？ - LINE TODAY",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zVkp6aUdjaWktbFpWaXBXa09oZDMySkRVVUhSa08xempTOFlvZ1BrU2lXd3lOMU5wcHVaVlM0WFZPOWZLbVFpWkhpakhXeU9fX2NYSDIyOHNObG9kbmFLSXVfRm8?oc=5",
-     "source": "LINE TODAY"
     }
    ],
    "official": false,
@@ -120,116 +71,24 @@
    "already_covered": true,
    "evidence": [
     {
-     "url": "https://www.vogue.com.tw/article/%E9%98%B2%E6%9B%AC-%E5%8C%96%E5%AD%B8%E9%98%B2%E6%9B%AC%E5%8A%91-%E9%98%B2%E6%9B%AC%E6%88%90%E5%88%86",
-     "title": "想不到美國防曬，落後世界這麼多！看懂FDA最新核可的BEMT防曬劑是什麼？ - Vogue Taiwan",
-     "outlet": "Vogue Taiwan"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "股利",
-   "traffic": 2000,
-   "published": "2026-11-07T13:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "台股崩跌恐沖散洋流？台北人「驚人股利」曝光 作家示警小心賭爛票：就看護盤成效了",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%B4%A9%E8%B7%8C%E6%81%90%E6%B2%96%E6%95%A3%E6%B4%8B%E6%B5%81-%E5%8F%B0%E5%8C%97%E4%BA%BA-%E9%A9%9A%E4%BA%BA%E8%82%A1%E5%88%A9-%E6%9B%9D%E5%85%89-%E4%BD%9C%E5%AE%B6%E7%A4%BA%E8%AD%A6%E5%B0%8F%E5%BF%83%E8%B3%AD%E7%88%9B%E7%A5%A8-034001160.html",
-     "source": "Yahoo新聞"
+     "url": "https://udn.com/news/story/7266/9863175",
+     "title": "查帕卡颱風最快今生成 有望轉中颱 專家曝影響台日機率 - UDN",
+     "outlet": "UDN"
     },
     {
-     "title": "台股昨盤中史詩級大跌！但融資追繳令未失控、多數「自行出場」",
-     "url": "https://ec.ltn.com.tw/article/breakingnews/5632435",
-     "source": "自由財經"
+     "url": "https://www.mirrormedia.mg/story/20261107edi003",
+     "title": "11月還有颱風！「查帕卡」最快今生成　下週一恐增強中颱 - 鏡週刊Mirror Media",
+     "outlet": "鏡週刊Mirror Media"
     },
     {
-     "title": "AI風雲起金融新變局》台股股災中外資買什麼？南亞科、大立光居前16檔潛在反彈股出列- 日報",
-     "url": "https://www.ctee.com.tw/news/20261107700033-439901",
-     "source": "工商時報"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
+     "url": "https://news.tvbs.com.tw/life/4047029",
+     "title": "天氣／準颱風查帕卡「拋物線大轉向」！最快今生成 強度挑戰中颱 - TVBS新聞網",
+     "outlet": "TVBS新聞網"
+    },
     {
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%B4%A9%E8%B7%8C%E6%81%90%E6%B2%96%E6%95%A3%E6%B4%8B%E6%B5%81-%E5%8F%B0%E5%8C%97%E4%BA%BA-%E9%A9%9A%E4%BA%BA%E8%82%A1%E5%88%A9-%E6%9B%9D%E5%85%89-%E4%BD%9C%E5%AE%B6%E7%A4%BA%E8%AD%A6%E5%B0%8F%E5%BF%83%E8%B3%AD%E7%88%9B%E7%A5%A8-034001160.html",
-     "title": "台股崩跌恐沖散洋流？台北人「驚人股利」曝光 作家示警小心賭爛票：就看護盤成效了",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E6%9F%A5%E5%B8%95%E5%8D%A1-%E9%A2%B1%E9%A2%A8%E7%94%9F%E6%88%90-%E6%97%A5%E6%9C%AC%E6%B0%A3%E8%B1%A1%E5%BB%B3%E6%9B%9D%E6%9C%80%E6%96%B0%E8%B7%AF%E5%BE%91-043700606.html",
+     "title": "快訊／「查帕卡」颱風生成！日本氣象廳曝最新路徑 - Yahoo新聞",
      "outlet": "Yahoo新聞"
-    },
-    {
-     "url": "https://ec.ltn.com.tw/article/breakingnews/5632435",
-     "title": "台股昨盤中史詩級大跌！但融資追繳令未失控、多數「自行出場」",
-     "outlet": "自由財經"
-    },
-    {
-     "url": "https://www.ctee.com.tw/news/20261107700033-439901",
-     "title": "AI風雲起金融新變局》台股股災中外資買什麼？南亞科、大立光居前16檔潛在反彈股出列- 日報",
-     "outlet": "工商時報"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "韓劇",
-   "traffic": 0,
-   "article_count_24h": 31,
-   "article_count_1h": 1,
-   "published": "2026-11-07T00:09:09+09:00",
-   "category": "K-Culture",
-   "news": [
-    {
-     "title": "驚悚韓劇《末路兼職》衝全球51市場Top 10排行！李宰旭陷打工地獄：便利商店夜班、送牛奶成奪命任務 - Vogue Taiwan",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BT09CakJHenNLUXRJRTNMcmRwQ1VHNHJGWHpFX0VmbnVzMFZzWFdZWEVTZkZYRHpuSEFZX2IwOXNYVkVQeFdPOTF2SUltZ1d1TGp4MTJPUFRpZEstVjlhODNFaDNNZjN0Nkp2bHBB?oc=5",
-     "source": "Vogue Taiwan"
-    },
-    {
-     "title": "不只申敏兒的《再婚皇后》！韓劇掀西式宮廷風　金泰梨、秀智接棒 - NOWnews今日新聞",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE14QlZhWlJWSGlqSnBQUTY2Y2IxZGVIVHIzTXZubF90SGRKSVhHcVotQjhTcVdYRFBYR2ZGZXJ4UVE3V1ZpenBKbTgtZW1yRHNsSnfSAVJBVV95cUxNeEJWYVpSVkhpakpwUFE2NmNiMWRlSFRyM012bmxfdEhkSklYR3FaLUI4U3FXWERQWEdmRmVyeFFRN1dWaXpwSm04LWVtckRzbEp3?oc=5",
-     "source": "NOWnews今日新聞"
-    },
-    {
-     "title": "金曲歌手自爆「中年春心蕩漾」！追韓劇狂換理想情人 被問小鮮肉反應曝光 - 鏡報",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDQW42cjlfd0FmV0hHclRhMTk2OElQVExvWnFFcEZxUjg2Z3VDR0YtOEF6N3pSUHlBNlQ0bURMZU1PcE5hODRMdzZJcm81cU5udVE?oc=5",
-     "source": "鏡報"
-    },
-    {
-     "title": "以莉.高露追韓劇戀愛 打趣身邊只有鮮肉包 - 中時新聞網",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QYzdJZTh2ZTl2UHBxVWlMSnRVM1pjRThDZmh6MzJXcTMzSktWeTZJSzhuQkhpUHo1YmhXaHdNbGFwOTBfSGppRkZNUGJWdFc2d1FVcXNOb3hGeDRhMUpMWGhKWUxNSVFoVlAw?oc=5",
-     "source": "中時新聞網"
-    },
-    {
-     "title": "討論牆 | 金曲歌手追韓劇追到「春心蕩漾」 以莉高露解放三八本性 - LINE TODAY",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10UWlzYjNIdnVjbWxFV3Z3YU03YUpZWXl3Y3ItT2U0cDE3TS10a3NDakxfTWxZVGNPeWIxRngwYk5mY3NqbHJOQWFNejBMcFI0c3lfTUZKNXhEeHptWW8xam9LWFg?oc=5",
-     "source": "LINE TODAY"
-    }
-   ],
-   "official": false,
-   "score": 14.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.vogue.com.tw/article/netflix-k-drama-dead-end-job",
-     "title": "驚悚韓劇《末路兼職》衝全球51市場Top 10排行！李宰旭陷打工地獄：便利商店夜班、送牛奶成奪命任務 - Vogue Taiwan",
-     "outlet": "Vogue Taiwan"
-    },
-    {
-     "url": "https://www.nownews.com/amp/news/6889287",
-     "title": "不只申敏兒的《再婚皇后》！韓劇掀西式宮廷風　金泰梨、秀智接棒 - NOWnews今日新聞",
-     "outlet": "NOWnews今日新聞"
-    },
-    {
-     "url": "https://www.mirrordaily.news/story/96280",
-     "title": "金曲歌手自爆「中年春心蕩漾」！追韓劇狂換理想情人 被問小鮮肉反應曝光 - 鏡報",
-     "outlet": "鏡報"
-    },
-    {
-     "url": "https://www.chinatimes.com/newspapers/20261107000623-260112",
-     "title": "以莉.高露追韓劇戀愛 打趣身邊只有鮮肉包 - 中時新聞網",
-     "outlet": "中時新聞網"
     }
    ]
   },
@@ -238,7 +97,7 @@
    "keyword": "K-pop",
    "traffic": 0,
    "article_count_24h": 26,
-   "article_count_1h": 1,
+   "article_count_1h": 2,
    "published": "2026-11-06T16:45:35+09:00",
    "category": "K-Culture",
    "news": [
@@ -253,6 +112,11 @@
      "source": "網路溫度計 DailyView"
     },
     {
+     "title": "秘密合約曝光：HYBE 與 ADOR 緊握 K-Pop 人氣女團 NewJeans 控制權 - Hypebeast",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeDNRMU90VHJFNVpKdEJsNDRqcF9xVlQ2ZG1DYks4LXpqNHRqQ0M1ZXN6RDJVZVZiM2kyUll2MkZrTEV2RHZ1cmZNcVVEaGkwTXBSLVNsclJqM1Zpemd0WWhCZV8xaHdCOUQ1bUp6SzF5M2lBVXZPbFlMNGJiU3lvd0pEMGdfQ2tocHRBd1R5WFZSNUplRW8ydlQtNjlsUnlteTdMT2VEcw?oc=5",
+     "source": "Hypebeast"
+    },
+    {
      "title": "TWICE Momo的10個故事！選秀曾遭淘汰又逆轉出道，因Rain立志成為KPOP明星，舞蹈實力獲孝淵認證 - ELLE",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VR1ZoOERmbW9ncENKakZ1UHk1MjZjMXlhS1BUVEozV1NYakIxLTNGYTVjQWFaVFo5aUNVUmxDZkpXWlVRWml6ZV9XUjVaMXF0OEp0MHVTR3c3a1NySHpYclJ5MlFjRmwzZnpHVGp4QnNBdFk?oc=5",
      "source": "ELLE"
@@ -261,15 +125,10 @@
      "title": "idolink 愛豆連線 - LINE TODAY",
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xWUVWT05FM0hRZE8yRTdlRWNvcDBqUkFRdWc3dmRlTWxRSEl5allGc1AwYkpqbFhjb0xxU29fNUZYUnctYlBIZzRRd01tWlh1R3c?oc=5",
      "source": "LINE TODAY"
-    },
-    {
-     "title": "太平洋新聞網 - 太平洋新聞網",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11WG03SFEtd0JuUjN0TDVGblBxWVNuU2FzSVVsVE9fM0Vvel9OUFZMekNRWlZ1R2ptdnZjQWp6X0JPRDYxWk4tTDBrX0UyeWFqU0V3TURGQ21MaGF6T1lJZzU5UTNUOFo3MDBuTFBWcDg5a1d4ZnQ5eG05aw?oc=5",
-     "source": "太平洋新聞網"
     }
    ],
    "official": false,
-   "score": 14.3,
+   "score": 16.0,
    "already_covered": false,
    "evidence": [
     {
@@ -286,74 +145,116 @@
      "url": "https://www.elle.com/tw/entertainment/voice/g74329992/twice-momo/",
      "title": "TWICE Momo的10個故事！選秀曾遭淘汰又逆轉出道，因Rain立志成為KPOP明星，舞蹈實力獲孝淵認證 - ELLE",
      "outlet": "ELLE"
-    },
-    {
-     "url": "http://www.pacificnews.com.tw/shownews.php?postnewsid=17&titleid=104476",
-     "title": "太平洋新聞網 - 太平洋新聞網",
-     "outlet": "太平洋新聞網"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "台塑企業",
-   "traffic": 500,
-   "published": "2026-11-07T12:20:00+09:00",
+   "keyword": "碰撞",
+   "traffic": 1000,
+   "published": "2026-11-07T12:30:00+09:00",
    "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "검색량 200→500",
-   "spike_bonus": 20,
-   "score": 13.5,
-   "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "google_trends",
-   "keyword": "中度台风",
-   "traffic": 200,
-   "published": "2026-11-07T12:10:00+09:00",
-   "category": "Living",
    "news": [
     {
-     "title": "11月還有颱風！準「查帕卡」最快今成颱4有利條件助挑戰中颱| 生活",
-     "url": "https://newtalk.tw/news/view/2026-11-07/1069808",
-     "source": "Newtalk新聞"
-    },
-    {
-     "title": "颱風「查帕卡」最快今生成！日氣象廳預測路徑急轉彎 直撲熱區曝",
-     "url": "https://news.tvbs.com.tw/world/4047086",
+     "title": "國1五股段2車嚴重碰撞！34歲駕駛「疑未繫安全帶」拋飛慘死",
+     "url": "https://news.tvbs.com.tw/local/4047054",
      "source": "TVBS新聞網"
     },
     {
-     "title": "可能有新颱風「預測路徑大迴轉」",
-     "url": "https://www.facebook.com/ETtoday/posts/%E5%8F%AF%E8%83%BD%E6%9C%89%E6%96%B0%E9%A2%B1%E9%A2%A8%E9%A0%90%E6%B8%AC%E8%B7%AF%E5%BE%91%E5%A4%A7%E8%BF%B4%E8%BD%89/1614113254081087/?locale=zh_CN",
-     "source": "Facebook"
+     "title": "國道死亡事故！駕駛疑未繫安全帶…拋飛亡",
+     "url": "https://www.mirrormedia.mg/external/setn_1934886",
+     "source": "鏡週刊Mirror Media"
+    },
+    {
+     "title": "國1五股凌晨死亡車禍！轎車撞翻四輪朝天34歲男拋飛慘死- 社會新聞",
+     "url": "https://news.pchome.com.tw/society/m00361/20261107/index-79401829324506361002.html",
+     "source": "PChome Online 新聞"
     }
    ],
    "official": false,
-   "spike": "검색량 100→200",
+   "spike": "검색량 500→1,000",
    "spike_bonus": 20,
-   "score": 12.6,
+   "score": 15.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://newtalk.tw/news/view/2026-11-07/1069808",
-     "title": "11月還有颱風！準「查帕卡」最快今成颱4有利條件助挑戰中颱| 生活",
-     "outlet": "Newtalk新聞"
+     "url": "https://news.tvbs.com.tw/local/4047054",
+     "title": "國1五股段2車嚴重碰撞！34歲駕駛「疑未繫安全帶」拋飛慘死",
+     "outlet": "TVBS新聞網"
     },
     {
-     "url": "https://news.tvbs.com.tw/world/4047086",
-     "title": "颱風「查帕卡」最快今生成！日氣象廳預測路徑急轉彎 直撲熱區曝",
-     "outlet": "TVBS新聞網"
+     "url": "https://www.mirrormedia.mg/external/setn_1934886",
+     "title": "國道死亡事故！駕駛疑未繫安全帶…拋飛亡",
+     "outlet": "鏡週刊Mirror Media"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "韓劇",
+   "traffic": 0,
+   "article_count_24h": 34,
+   "article_count_1h": 1,
+   "published": "2026-11-07T00:09:09+09:00",
+   "category": "K-Culture",
+   "news": [
+    {
+     "title": "驚悚韓劇《末路兼職》衝全球51市場Top 10排行！李宰旭陷打工地獄：便利商店夜班、送牛奶成奪命任務 - Vogue Taiwan",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BT09CakJHenNLUXRJRTNMcmRwQ1VHNHJGWHpFX0VmbnVzMFZzWFdZWEVTZkZYRHpuSEFZX2IwOXNYVkVQeFdPOTF2SUltZ1d1TGp4MTJPUFRpZEstVjlhODNFaDNNZjN0Nkp2bHBB?oc=5",
+     "source": "Vogue Taiwan"
+    },
+    {
+     "title": "韓劇最美皇后是誰？申敏兒、河智苑宮廷古裝造型美翻，《再婚皇后》到《奇皇后》各有魅力 - ELLE",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5mcHoxejBtaTN0SExFNExXSTl2aTBzOWIySW5udE54Tm1sQzhjT0ZtS0lwU0pyclZGTDhVVUtSeDNMclZOeE1lcV9INVlnOVJfQmhOM1cwQU9pdzFsRWswdTA1WlFkX3BXY09fLWFWcHNreWJJYkI5cHZaYw?oc=5",
+     "source": "ELLE"
+    },
+    {
+     "title": "不只申敏兒的《再婚皇后》！韓劇掀西式宮廷風　金泰梨、秀智接棒 - NOWnews今日新聞",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE14QlZhWlJWSGlqSnBQUTY2Y2IxZGVIVHIzTXZubF90SGRKSVhHcVotQjhTcVdYRFBYR2ZGZXJ4UVE3V1ZpenBKbTgtZW1yRHNsSnfSAVJBVV95cUxNeEJWYVpSVkhpakpwUFE2NmNiMWRlSFRyM012bmxfdEhkSklYR3FaLUI4U3FXWERQWEdmRmVyeFFRN1dWaXpwSm04LWVtckRzbEp3?oc=5",
+     "source": "NOWnews今日新聞"
+    },
+    {
+     "title": "金曲歌手自爆「中年春心蕩漾」！追韓劇狂換理想情人 被問小鮮肉反應曝光 - 鏡報",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDQW42cjlfd0FmV0hHclRhMTk2OElQVExvWnFFcEZxUjg2Z3VDR0YtOEF6N3pSUHlBNlQ0bURMZU1PcE5hODRMdzZJcm81cU5udVE?oc=5",
+     "source": "鏡報"
+    },
+    {
+     "title": "以莉.高露追韓劇戀愛 打趣身邊只有鮮肉包 - 中時新聞網",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QYzdJZTh2ZTl2UHBxVWlMSnRVM1pjRThDZmh6MzJXcTMzSktWeTZJSzhuQkhpUHo1YmhXaHdNbGFwOTBfSGppRkZNUGJWdFc2d1FVcXNOb3hGeDRhMUpMWGhKWUxNSVFoVlAw?oc=5",
+     "source": "中時新聞網"
+    }
+   ],
+   "official": false,
+   "score": 14.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.vogue.com.tw/article/netflix-k-drama-dead-end-job",
+     "title": "驚悚韓劇《末路兼職》衝全球51市場Top 10排行！李宰旭陷打工地獄：便利商店夜班、送牛奶成奪命任務 - Vogue Taiwan",
+     "outlet": "Vogue Taiwan"
+    },
+    {
+     "url": "https://www.elle.com/tw/beauty/skin/g74352764/kdrama-queen-beauty-tips/",
+     "title": "韓劇最美皇后是誰？申敏兒、河智苑宮廷古裝造型美翻，《再婚皇后》到《奇皇后》各有魅力 - ELLE",
+     "outlet": "ELLE"
+    },
+    {
+     "url": "https://www.nownews.com/amp/news/6889287",
+     "title": "不只申敏兒的《再婚皇后》！韓劇掀西式宮廷風　金泰梨、秀智接棒 - NOWnews今日新聞",
+     "outlet": "NOWnews今日新聞"
+    },
+    {
+     "url": "https://www.mirrordaily.news/story/96280",
+     "title": "金曲歌手自爆「中年春心蕩漾」！追韓劇狂換理想情人 被問小鮮肉反應曝光 - 鏡報",
+     "outlet": "鏡報"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "電子支付",
+   "keyword": "司機",
    "traffic": 200,
-   "published": "2026-11-07T12:00:00+09:00",
+   "published": "2026-11-07T12:50:00+09:00",
    "category": "기타",
    "news": [],
    "official": false,
@@ -400,64 +301,275 @@
    ],
    "official": false,
    "score": 11.3,
-   "already_covered": true
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://886.news/archives/371978",
+     "title": "金門縣除濕機汰舊換新補助計畫每台最高補助4,900元 - 台灣新聞雲",
+     "outlet": "台灣新聞雲"
+    },
+    {
+     "url": "https://news.tvbs.com.tw/life/4046753",
+     "title": "雙11開跑！全聯祭「11元除濕機、小棕瓶」 好市多滿萬折千 - TVBS新聞網",
+     "outlet": "TVBS新聞網"
+    }
+   ]
   },
   {
    "source": "google_trends",
-   "keyword": "碰撞",
-   "traffic": 500,
-   "published": "2026-11-07T12:30:00+09:00",
+   "keyword": "黃樂",
+   "traffic": 200,
+   "published": "2026-11-07T14:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "國道五股路段死亡車禍 34歲男拋出車外殞命",
-     "url": "https://udn.com/news/story/7320/9863403",
+     "title": "金融時報揭美方備忘錄指黃仁勳曾和疑遭陸國安單位吸收的女主管交往| 全球財經| 全球",
+     "url": "https://udn.com/news/story/6811/9863452",
      "source": "UDN"
     },
     {
-     "title": "國1五股段深夜2車追撞 駕駛疑未繫安全帶拋飛車外不治",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/5632442",
-     "source": "自由時報"
+     "title": "紐時：黃仁勳身邊「女共諜」來自中國國安部 任務目的曝光",
+     "url": "https://ec.ltn.com.tw/article/breakingnews/5632354",
+     "source": "自由財經"
     },
     {
-     "title": "國1五股段2車嚴重碰撞！34歲駕駛「疑未繫安全帶」拋飛慘死",
-     "url": "https://news.tvbs.com.tw/local/4047054",
-     "source": "TVBS新聞網"
+     "title": "共諜案 美眾院要黃仁勳簡報 | 中華日報",
+     "url": "https://today.line.me/tw/v3/article/LXezyaa",
+     "source": "LINE TODAY"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 10.5,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://udn.com/news/story/6811/9863452",
+     "title": "金融時報揭美方備忘錄指黃仁勳曾和疑遭陸國安單位吸收的女主管交往| 全球財經| 全球",
+     "outlet": "UDN"
+    },
+    {
+     "url": "https://ec.ltn.com.tw/article/breakingnews/5632354",
+     "title": "紐時：黃仁勳身邊「女共諜」來自中國國安部 任務目的曝光",
+     "outlet": "自由財經"
+    },
+    {
+     "url": "https://today.line.me/tw/v3/article/LXezyaa",
+     "title": "共諜案 美眾院要黃仁勳簡報 | 中華日報",
+     "outlet": "LINE TODAY"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "德尼·阿夫迪亞",
+   "traffic": 200,
+   "published": "2026-11-07T13:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Deni Avdija is at it again",
+     "url": "https://www.jta.org/2026/11/06/sports/deni-avdija-is-at-it-again",
+     "source": "Jewish Telegraphic Agency"
+    },
+    {
+     "title": "Deni Avdija, Micah Nori and the summer phone call that defines Trail Blazers’ quick start - The Athletic",
+     "url": "https://www.nytimes.com/athletic/7749871/2026/11/03/deni-avdija-micah-nori-trail-blazers-nba/",
+     "source": "The New York Times"
+    },
+    {
+     "title": "Portland Trail Blazers at Phoenix Suns - NBA Game Summary - Nov 04, 2026",
+     "url": "https://www.usatoday.com/sports/nba/event/2026/3019178/boxscore/?itm_source=oembed&itm_medium=sports&itm_campaign=scoreboard&site=USAT&itm_content=NBA&tile=4",
+     "source": "USA Today"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "阿傑·米切爾",
-   "traffic": 500,
-   "published": "2026-11-07T11:40:00+09:00",
+   "keyword": "達米安·里拉德",
+   "traffic": 100,
+   "published": "2026-11-07T13:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "How Thunder’s Ajay Mitchell Evolved From Overlooked Prospect to Budding NBA Star",
-     "url": "https://www.si.com/nba/thunder/how-thunder-ajay-mitchell-evolved-overlooked-prospect-budding-nba-star",
-     "source": "Sports Illustrated"
-    },
-    {
-     "title": "Recent Thunder additions should only benefit Ajay Mitchell's offensive punch",
-     "url": "https://thunderousintentions.com/okc-thunder-recent-additions-should-only-benefit-ajay-mitchell-offensive",
-     "source": "Thunderous Intentions"
-    },
-    {
-     "title": "“Guys are out, and we need more scoring? He'll do so,” …",
-     "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/11/06/guys-are-out-and-we-need-more-scoring-hell-do-so/92649829007/",
-     "source": "HoopsHype"
+     "title": "Doc Rivers: Damian Lillard 'never welcomed' properly with Bucks",
+     "url": "https://www.jsonline.com/story/sports/nba/bucks/2026/11/06/doc-rivers-damian-lillard-never-welcomed-properly-milwaukee-bucks/92646650007/",
+     "source": "Milwaukee Journal Sentinel"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 10.5,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "毒物",
+   "traffic": 100,
+   "published": "2026-11-07T13:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "南生圍發生毒狗案 三歲唐狗沾劇毒痛不欲生終安樂死",
+     "url": "https://hk.news.yahoo.com/%E5%8D%97%E7%94%9F%E5%9C%8D%E7%99%BC%E7%94%9F%E6%AF%92%E7%8B%97%E6%A1%88-%E4%B8%89%E6%AD%B2%E5%94%90%E7%8B%97%E6%B2%BE%E5%8A%87%E6%AF%92%E7%97%9B%E4%B8%8D%E6%AC%B2%E7%94%9F%E7%B5%82%E5%AE%89%E6%A8%82%E6%AD%BB-060439818.html",
+     "source": "Yahoo"
+    },
+    {
+     "title": "“华人女工程师癫痫离世”背后：离开大厂后，和AI的27万条对话",
+     "url": "https://tech.ifeng.com/c/8xo1c3UuuyI",
+     "source": "凤凰网科技"
+    },
+    {
+     "title": "美国男子起诉OpenAI：ChatGPT涉嫌教妻子如何毒杀自己- 警告!",
+     "url": "https://www.cnbeta.com.tw/articles/tech/1585262.htm",
+     "source": "cnBeta.COM"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "竹北市長候選人",
+   "traffic": 100,
+   "published": "2026-11-07T13:40:00+09:00",
+   "category": "기타",
+   "news": [],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "蝦皮 雙11",
+   "traffic": 0,
+   "article_count_24h": 5,
+   "article_count_1h": 1,
+   "published": "2026-11-07T06:42:00+09:00",
+   "category": "Deals",
+   "news": [
+    {
+     "title": "蝦皮購物雙11加碼3大超強優惠 指定12時段限定商品折扣下殺 VIP會員零門檻抽洛杉磯來回機票 - 自由電子報3C科技",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5yX2tVc2pYWmFUSmhZZzFqeTI1dmROVWNJZnJmb0lWdm1NaVQ5TUQ5X2RVWlBWWlh3ZTRiWXhlTFkyTm9PSndV0gFMQVVfeXFMUEw0anIxeGVtaVhmR3d1dmJhb3Jyamh2MnZya1VRMnAxTlNsSGw3T3JIekc1bzVxb0xqQVFjdzE5UzRDQzJmZXpSUnRldQ?oc=5",
+     "source": "自由電子報3C科技"
+    },
+    {
+     "title": "雙11優惠懶人包》2026 momo購物、蝦皮、酷澎、PChome...各大電商/品牌整理(持續更新)！ - 卡優新聞網",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94dTNJUm1JZEZHV1lFT0dIcUt0YUdfbTh5OWZPY0lPbnNMeEVIQWMtLXEyMGNhQjNTMXZUYWVEXy1yUk5pMXNDTm4zRHlILUZIVlFyMkh0OEF5ai1w?oc=5",
+     "source": "卡優新聞網"
+    },
+    {
+     "title": "雙11超商出手請客！全家送熱拿鐵、限一萬杯　7-11也請喝琥珀奶茶 - NOWnews今日新聞",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5xeGFWN1QzdTJ1bWFackg3NVY5X1ZUTy16ZWFyc2huXzE5U1RpTnBoVG1nWUxjMTJyWEw5Nk5LeEtHU1ZTS1l2MThILTTSAVJBVV95cUxOQ3cwUjhFSDVhSEU0N0RNYjVGTjBxbGVFTXEwVU5adFFoWjlhNXEwcHhoZDk1aDEzQVRKenoxT0d2UDctTVZJY3JJMmZjOXRieFlR?oc=5",
+     "source": "NOWnews今日新聞"
+    },
+    {
+     "title": "雙11「最強信用卡」曝光 - 東森新聞",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1sWklDWF9oS21hTGtpT0ZFZU0yd01MNzhsakp5dWR2Vy1Ednktc0Q4c0hSaEFvZDh6WVJka1hGMFNOQ1hxdG10QVd1Njd6aHRvbGVXTDZUQQ?oc=5",
+     "source": "東森新聞"
+    },
+    {
+     "title": "雙11「聰明消費」風潮來襲！星巴克家享咖啡、雀巢膠囊咖啡、美祿這樣買- 消費新聞 - PChome Online 新聞",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaXN1TUtMTF9FMTUyd3F1SWZmNkVGUVFOUy15eUIzMENnWm1FNm5EdDNtNTE0YWNMemFkME1RYkJmNXVVQWRnMFUza3drellXWjNXZDBTZWVCWTBCNktNNjNYelRmMThfM1dhVUxYTmtNaDdKSGlsLTJvbXRZS1JsUTZIU0RBYU5iaTBr?oc=5",
+     "source": "PChome Online 新聞"
+    }
+   ],
+   "official": false,
+   "score": 8.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "防曬",
+   "traffic": 0,
+   "article_count_24h": 6,
+   "article_count_1h": 0,
+   "published": "2026-11-06T17:07:44+09:00",
+   "category": "K-Culture",
+   "news": [
+    {
+     "title": "2026防曬新觀念！皮膚科邱品齊醫師揭6重點：正確用量、成分挑選一次看 - Bella.tw儂儂",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LUHBDSnJ3ejRjOTVzbXhFM09Qdlp3ZGpTTVBkbEIyX0V5dUNpSW1oYzdueFVzazBtcG5rQWx1Z3Rhbm5UbzRPRUcxMmtzVWVzX3pQcy1Zal9iZ1d6YllORGRwRzJVYWJqS3FTYjI4c2ZXanJHVG8xM2VUdw?oc=5",
+     "source": "Bella.tw儂儂"
+    },
+    {
+     "title": "討論牆 | 全台好天氣！高溫飆33度留意防曬 南部及中部山區防不定時陣雨 - LINE TODAY",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mdWE5a3lfbUJmX1JVSktFMzlPWXpuY2l5MFp2NGxRUTJ5cWZuaGdyZlA3NHlfazdRQXJPWWpvbW5Qb0I5RDlZOGpVTGlfdThhbU4xODN2dHdQRWJzdkNtY09vTWw?oc=5",
+     "source": "LINE TODAY"
+    },
+    {
+     "title": "討論牆 | 想不到美國防曬，落後世界這麼多！看懂FDA最新核可的BEMT防曬劑是什麼？ - LINE TODAY",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zVkp6aUdjaWktbFpWaXBXa09oZDMySkRVVUhSa08xempTOFlvZ1BrU2lXd3lOMU5wcHVaVlM0WFZPOWZLbVFpWkhpakhXeU9fX2NYSDIyOHNObG9kbmFLSXVfRm8?oc=5",
+     "source": "LINE TODAY"
+    },
+    {
+     "title": "法國品牌BB霜獲讚「遮瑕度驚人」！修飾泛紅毛孔、帶自然光澤！用家：戴口罩用唔會甩好多！ - U Beauty",
+     "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNR0RnUkZ0Uk9DaUVjbDhNU3JIaloxR1luYUd0RmQyNTc4RlZfYnZsVVFuQktEZkl3UGhudXFFTW9DbWJ0VElxMmlPd29RemRGOTJoOGh4a3pIQ3dLZlVOYUYtX0s0cGdiRlZsSFdIYU1MeG9aeTIwWDVSdHNhbW1RUEMwOUlhay15c1l3Nllhd2h1Zlc5azZ5VkVkNnloazJjTEpqSHZDX05JdmJweXF4aDZ2SGlyWVhJRktsdEYza2g5eHlla201bTFnRHRiTHRQWDhseGhld2dvOFp0OHI4VmlsSEJFMHdWam0td0I1dVByTDFyWDJsTFNBcUpjQjZQSEQtQmg1Z0VGZlVhck0wbWlMcklZckp3NTdyOTgxT01WTFZiVW9aS28yTGZoN2ZiRnVINGNFMnVDc0ZwNFY1ak5aV1ZmdFRjVTNrdTI2UnpsS3lCbHRz?oc=5",
+     "source": "U Beauty"
+    },
+    {
+     "title": "300萬人觀看！韓國女生教3步4日改善皮膚泛紅！公開4款敏感肌必用平價護膚品！ - U Beauty",
+     "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxNZXJHTURvMlRZaW9EZTZUTUxMS1FrU3Iyb2pVQllfdklpdW1ibVVBOFhiRkxTRXN3R092cXJ2MThXdzl5ZjhYXy1MbFJhQTdvMnU1QzczLXZrcWR0ZjhYQ0YtRzV0ejJGY2ZZWHQtYzRnLUZ6YldNb1FBOXBQaEVpN0lvUzFhNC1paEdPdk8xM2FVbnVSSnMxNEoyZ01OZWRhWmtUd2pBWHpHdWM5XzdwYjBxWnk0a1k5b3QyVmRyQVMxaHdGNDBPSjRHUTNobWs2akVadHRNQzFtMGs4YktzWE1TSUFYNFZzeDVZQVo5enFhRk11VkJGRFlwQWNJMjVOel9POEdza2NwdnlmaFJ5eDhPVnFmQjU1OUpNRmJuczQ3VzZpRjdhYlU2b29pWk9rSnZRbENHYzNkd0pZQURMeHBOZ0htd3lGT1RJeFJLa2xMZEo2Nm9LaFVwUFNUejBnTmN1SGhiNjdpS3lzQk9UbjdLUG9PdFloenFDU01DNmpTNzR2M2licHZvaVRzOU43anpxX19qWDJRNjFWRDhxelp1dGIxWW9UWTJKM0pVamRlTVc3b1pxbnVRM3hEdXdwbGRONjNsM2pNV0E?oc=5",
+     "source": "U Beauty"
+    }
+   ],
+   "official": false,
+   "score": 7.6,
+   "already_covered": true
+  },
+  {
+   "source": "google_news",
+   "keyword": "韓系保養",
+   "traffic": 0,
+   "article_count_24h": 2,
+   "article_count_1h": 0,
+   "published": "2026-11-06T20:31:55+09:00",
+   "category": "K-Culture",
+   "news": [
+    {
+     "title": "韓國保養品推薦！麗珠蘭登台全台600家康是美獨家開賣- 財經新聞 - PChome Online 新聞",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSV9HQm9lSzNxbFU1QzNzMUZzZ1QtOVZXQS1hQ2Jfa19adTVyMFZaOU05WXZyeGpKUUJLR1hOa2FLU3c5Z1FHb3pLem55LXRYS0IyUEE4M1FQUlpZN0l0ZG1CRzZGT3BkeEd0MzRHTjRsZjNKQVJsa3BpQkY5VFEyYktMc2ZkeThibFEtYg?oc=5",
+     "source": "PChome Online 新聞"
+    },
+    {
+     "title": "樹德科大邀西京大學蒞校交流拓展國際視野 接軌韓國藝術教育！ - 蕃新聞",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04YmNhamJDY1pBZkszbmFvaHNhN3FyVDlaXzYzRzVjby0ySF9zZG15NmFtMWhxbnRzMEZGbVE0elZoMnMyV0lVYkhRMlA4Z1BPUXc?oc=5",
+     "source": "蕃新聞"
+    }
+   ],
+   "official": false,
+   "score": 2.5,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "梅雨",
+   "traffic": 0,
+   "article_count_24h": 1,
+   "article_count_1h": 0,
+   "published": "2026-11-07T02:36:53+09:00",
+   "category": "Living",
+   "news": [
+    {
+     "title": "安心使用除濕機 你不可不知 - 經濟部標準檢驗局",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8yT044TGZXNWhTZTBNYVdUZlZnZWgwcU9wXzZQWTFuQlRheWpGdWQtdE14NnBxZzZtQ2N4akVCLXpZdFBDWDd4bklaRC0wNjREQ0JkWjR5bTVSdWxJWjEwUkJqVWNDM3dDcmVwZ2R5RW5hQjdwQWNLdWpn?oc=5",
+     "source": "經濟部標準檢驗局"
+    }
+   ],
+   "official": false,
+   "score": 1.3,
    "already_covered": false
   },
   {
@@ -473,33 +585,18 @@
      "source": "Blazer's Edge"
     },
     {
+     "title": "Licensable picture: NBA: Portland Trail Blazers at Los Angeles Lakers",
+     "url": "https://www.reutersconnect.com/item/nba-portland-trail-blazers-at-los-angeles-lakers/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVVTQVRPREFZMzAyOTU5MTQ",
+     "source": "Reuters Connect"
+    },
+    {
      "title": "BLAZERS POSTCAST: Lakers-Blazers Reaction",
      "url": "https://www.centraloregondaily.com/sports/portland_trail_blazers/blazers-postcast-lakers-blazers-reaction/video_556c68cd-7745-5aa6-85bc-49da70c7dbdb.html",
      "source": "Central Oregon Daily"
-    },
-    {
-     "title": "Lakers vs. Trail Blazers: What to watch in NBA Cup rematch",
-     "url": "https://www.thesportingtribune.com/2026/11/06/lakers-vs-trail-blazers-what-to-watch-in-nba-cup-rematch",
-     "source": "The Sporting Tribune"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "司機",
-   "traffic": 100,
-   "published": "2026-11-07T12:50:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
+   "score": 0.6,
    "already_covered": false
   },
   {
@@ -520,112 +617,13 @@
      "source": "NHKニュース"
     },
     {
-     "title": "米中閣僚がオンライン協議　米はレアアース輸出規制緩和要求　APEC首脳会談へ事前調整",
-     "url": "https://topics.smt.docomo.ne.jp/article/sankei/world/sankei-_world_china_KJSS337VVVLAHCF7SYGAHVJRLM",
-     "source": "ｄメニューニュース"
+     "title": "米中閣僚がオンライン協議 米はレアアース輸出規制緩和要求 APEC首脳会談へ事前調整",
+     "url": "https://www.sankei.com/article/20261107-KJSS337VVVLAHCF7SYGAHVJRLM/?outputType=asynd",
+     "source": "産経ニュース"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "三星galaxy s25",
-   "traffic": 100,
-   "published": "2026-11-07T12:30:00+09:00",
-   "category": "Deals",
-   "news": [
-    {
-     "title": "雙11手機優惠！iPhone Duo罕見降價2千 三星旗艦機省9410元",
-     "url": "https://tech.udn.com/tech/story/123151/9859827?from=redpush",
-     "source": "udn科技玩家"
-    },
-    {
-     "title": "三星旗艦現在買直省萬元！SAMSUNG S25通路最低價格一次看(2026.11)",
-     "url": "https://www.sogi.com.tw/articles/samsung-galaxy-s25-sale/6270054",
-     "source": "SOGI手機王"
-    },
-    {
-     "title": "果粉快衝！iPhone Duo全容量降價2千元　通路：門市有現貨",
-     "url": "https://3c.ltn.com.tw/news/68172",
-     "source": "自由電子報3C科技"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "蝦皮 雙11",
-   "traffic": 0,
-   "article_count_24h": 5,
-   "article_count_1h": 0,
-   "published": "2026-11-06T17:17:23+09:00",
-   "category": "Deals",
-   "news": [
-    {
-     "title": "雙11優惠懶人包》2026 momo購物、蝦皮、酷澎、PChome...各大電商/品牌整理(持續更新)！ - 卡優新聞網",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94dTNJUm1JZEZHV1lFT0dIcUt0YUdfbTh5OWZPY0lPbnNMeEVIQWMtLXEyMGNhQjNTMXZUYWVEXy1yUk5pMXNDTm4zRHlILUZIVlFyMkh0OEF5ai1w?oc=5",
-     "source": "卡優新聞網"
-    },
-    {
-     "title": "蝦皮購物雙11加碼3大超強優惠 指定12時段限定商品折扣下殺 VIP會員零門檻抽洛杉磯來回機票 - 自由電子報3C科技",
-     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5yX2tVc2pYWmFUSmhZZzFqeTI1dmROVWNJZnJmb0lWdm1NaVQ5TUQ5X2RVWlBWWlh3ZTRiWXhlTFkyTm9PSndV0gFMQVVfeXFMUEw0anIxeGVtaVhmR3d1dmJhb3Jyamh2MnZya1VRMnAxTlNsSGw3T3JIekc1bzVxb0xqQVFjdzE5UzRDQzJmZXpSUnRldQ?oc=5",
-     "source": "自由電子報3C科技"
-    },
-    {
-     "title": "雙11「最強信用卡」曝光 - 東森新聞",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1sWklDWF9oS21hTGtpT0ZFZU0yd01MNzhsakp5dWR2Vy1Ednktc0Q4c0hSaEFvZDh6WVJka1hGMFNOQ1hxdG10QVd1Njd6aHRvbGVXTDZUQQ?oc=5",
-     "source": "東森新聞"
-    },
-    {
-     "title": "蝦皮雙 11 最後下殺 iPad 半價 1111 元 AirPods - 自由電子報3C科技",
-     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5Ka2FTRHplM3lOQjVaWUM3V0tiazMwQ2VHZF93ZDVUQUEyNnYxT3VCYngyS2J5QWQtRGMtOWFERlhXOHBybVhv0gFMQVVfeXFMTkd0dkhhbFpodkRwZVFOc0ZoTXlRVk40TnRmRTJ3dlZXZUpnNC1fRnQ5SGhBaVBnRmJBM1RoTDdDVm1kVmZCVFdXdDFYSA?oc=5",
-     "source": "自由電子報3C科技"
-    },
-    {
-     "title": "雙11「聰明消費」風潮來襲！星巴克家享咖啡、雀巢膠囊咖啡、美祿這樣買- 消費新聞 - PChome Online 新聞",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaXN1TUtMTF9FMTUyd3F1SWZmNkVGUVFOUy15eUIzMENnWm1FNm5EdDNtNTE0YWNMemFkME1RYkJmNXVVQWRnMFUza3drellXWjNXZDBTZWVCWTBCNktNNjNYelRmMThfM1dhVUxYTmtNaDdKSGlsLTJvbXRZS1JsUTZIU0RBYU5iaTBr?oc=5",
-     "source": "PChome Online 新聞"
-    }
-   ],
-   "official": false,
-   "score": 6.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "韓系保養",
-   "traffic": 0,
-   "article_count_24h": 3,
-   "article_count_1h": 0,
-   "published": "2026-11-06T20:31:55+09:00",
-   "category": "K-Culture",
-   "news": [
-    {
-     "title": "韓國保養品推薦！麗珠蘭登台全台600家康是美獨家開賣- 財經新聞 - PChome Online 新聞",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSV9HQm9lSzNxbFU1QzNzMUZzZ1QtOVZXQS1hQ2Jfa19adTVyMFZaOU05WXZyeGpKUUJLR1hOa2FLU3c5Z1FHb3pLem55LXRYS0IyUEE4M1FQUlpZN0l0ZG1CRzZGT3BkeEd0MzRHTjRsZjNKQVJsa3BpQkY5VFEyYktMc2ZkeThibFEtYg?oc=5",
-     "source": "PChome Online 新聞"
-    },
-    {
-     "title": "韓妝「妝前臉部溫度」你有沒有在意過？剛洗完臉立刻上妝跟等15分鐘後上妝，底妝服貼度差距彩妝師這樣解釋 - 墨新聞-MORE News",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TZE9WVGNtaXBCdWdQM05YOWFHNTN5WVdZMTNmTHB4T3d5NmJIWFJoekVMWXRkb3pRVldhZHZkaDFlUQ?oc=5",
-     "source": "墨新聞-MORE News"
-    },
-    {
-     "title": "樹德科大邀西京大學蒞校交流拓展國際視野 接軌韓國藝術教育！ - 蕃新聞",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04YmNhamJDY1pBZkszbmFvaHNhN3FyVDlaXzYzRzVjby0ySF9zZG15NmFtMWhxbnRzMEZGbVE0elZoMnMyV0lVYkhRMlA4Z1BPUXc?oc=5",
-     "source": "蕃新聞"
-    }
-   ],
-   "official": false,
-   "score": 3.8,
+   "score": 0.3,
    "already_covered": false
   }
  ]
