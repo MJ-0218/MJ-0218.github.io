@@ -1,32 +1,74 @@
 {
- "generated_at": "2026-11-08T17:37:11.848401+09:00",
+ "generated_at": "2026-11-08T18:10:25.229879+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 67, 실패 25)"
+  "evidence": "ok (저장 53, 실패 26)"
  },
  "compared_runs": 6,
  "spikes": [
   "IRS refund",
   "social security COLA",
-  "claire liu",
-  "usher",
+  "play gta 6 before launch date",
+  "medal",
+  "jeffrey epstein",
+  "alexandra eala",
   "australia vs samoa",
-  "the diplomat",
-  "中超",
-  "wegmans sold winning powerball ticket",
-  "riot",
-  "taekwondo",
-  "arjun rajput"
+  "mililani vs kapolei"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-08T18:10:25.269029+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -7,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-08T18:10:25.269056+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -7,
+   "in_window": true
+  },
   {
    "source": "google_news",
    "keyword": "IRS refund",
    "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 8,
+   "article_count_24h": 23,
+   "article_count_1h": 9,
    "published": "2026-11-08T05:16:19+09:00",
    "category": "Taxes",
    "news": [
@@ -57,9 +99,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 1.2→8건 (4.2배)",
-   "spike_bonus": 40,
-   "score": 94.5,
+   "spike": "최근 1시간 기사 2.3→9건 (3.0배)",
+   "spike_bonus": 30.0,
+   "score": 84.0,
    "already_covered": false,
    "evidence": [
     {
@@ -120,9 +162,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 0.3→4건 (3.8배)",
-   "spike_bonus": 37.5,
-   "score": 93.5,
+   "spike": "최근 1시간 기사 1.0→4건 (2.5배)",
+   "spike_bonus": 25.0,
+   "score": 79.5,
    "already_covered": false,
    "evidence": [
     {
@@ -148,57 +190,12 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-08T17:37:11.877707+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -7,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-08T17:37:11.877735+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -7,
-   "in_window": true
-  },
-  {
    "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
    "article_count_24h": 79,
-   "article_count_1h": 11,
-   "published": "2026-11-08T15:44:05+09:00",
+   "article_count_1h": 15,
+   "published": "2026-11-08T17:33:43+09:00",
    "category": "Elections",
    "news": [
     {
@@ -250,71 +247,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "product recall",
-   "traffic": 0,
-   "article_count_24h": 47,
-   "article_count_1h": 7,
-   "published": "2026-11-08T13:37:00+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "Gourmia recalls air fryers nationwide after dozens of reported burns - KGW",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVEFBWFBSc25hZTZxWFk0QkI5dXRoOXpmYXR2c1hBSnpVQUdnekhzRW1jaFBTTVVhYTRKR05pdEJkTDFjTDZheEZmaWtjM2x0c280X1FkYWNUbHNROVBPcDFVNFdLZG5oc1EtV3lWTzNHM3U2RWdVNDhtV3dRNnIyNlo2Q1Bfd2FhOGFwVmdjZzVlZG85VXJVaUI4cUhCbGpLVWVac1JkTHZEUUk3YnJtODBCZkhjMUR5SF9kdzVzLURCREt6MWRhUVExY2J0SW9BckpZ?oc=5",
-     "source": "KGW"
-    },
-    {
-     "title": "Fruit puree pouches voluntarily recalled over potential for plastic contamination - ABC11 News",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaXEyQzA4VG9yM3ZHSHVWTGJiem5DOTYzN1doRUtMZVVzc3dTcTVSY0tKUmxtenFXME95Rm9XNzFQb0ZoOW5CcDFJMDhPXzBYbUxiUno2cmQtT3NxX3licEU1VnVsX3E3QlBrY3NyMzJVN19VVU15NDVFZVdHYTJua2FRbzZMaXJMWFJwRS1DWFBSMGpCWkVZNmFYYk9Pd2R3SnBkNjR5MUpiQQ?oc=5",
-     "source": "ABC11 News"
-    },
-    {
-     "title": "Recalled baby bottle sterilizer dryer could overheat, cause burns - LiveNOW from FOX",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUDc2cVFUaGM4V1pZbHBST29aaWE4bHFoUzA0cFM1NnFiVlFlQVY0VnhVdk5iUTVjdzgtdEFFZFQ1dTBMaDM0SEJPeTZ2dnh3T3gzODNEeEV0TjhCUFhhWmhfN1FxWXpZeVpXZ1QtbkFmUk85aXFuQlNrQ01lZ19ZcFR0dHZzVE5VVHpkQTQ0ZC13VC01RlZQdnNuc3Y?oc=5",
-     "source": "LiveNOW from FOX"
-    },
-    {
-     "title": "Millions of ladders sold at Costco, Lowe's recalled after reports of serious injuries - NBC 5 Chicago",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSEFQcWs4T3k0OENUQm5Pd1oxRWQweWFKdFBSRzUwRUlKMk92REI2WTVSSFhvVkNQTnBlZURjVWZ6cWd2SnhGZlBDeHVIajJWTnU0TWpROGVBcTdYS29HLU4wUzRNTTVhYVpUbGs0SDBXZW9EOG5ISXliQzZYUndPYV96akVLR0xmdFc5RDM0UTNBaFBFOV9YTWtyV0lTTnNQTkJSMFFsQ0xqd2xONEJKclZpbFI4MDVlQUpwQ01SWUFCRk5Sc2RtWkdB0gHSAUFVX3lxTE1UeFZCSl9IWEI0MHJlMTJueFlWc3FfYV8xdmJNSm1GNXc3MVFxOUFIaWduR1M0VTRwWFFFcTA2RWtLOFlvTzJTQnMyWlZQSnZ4MGFIM1A0MHlJOE00bUE5ZF9sWnlZcUhPR2l4dWtqLXJ6UHZWNWI5cGhKTWk1QmFMaUZfZHdoYTdiZElabFd0aElyQS1TT1FEbzZvQ0FhTWV0WGtfYkZ3UE41d1RHSE45S2VPMnFXcy1OWmRDamlaS0RqN1h5RWdFVnZTcmU4cTdLdw?oc=5",
-     "source": "NBC 5 Chicago"
-    },
-    {
-     "title": "Popular items stripped from shelves in mass recalls across Australia - Yahoo Lifestyle Australia",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOV9xSzF5VGI1aExsMy1rbGVVZ1g1dVBkNmFwa25EaUhsellBYkdFREpNU0Y1NzFNdm50a3JBbHIzQ2VRVE5tUm9KbEhLajhfWGl5S3I1czVDSHBjcGVPV1dBNG1ka3ZoX3QwdUJfMU5zN2Rtc3F4blVGNC1nS0hHRWpuTm1FWm0tUmU4a3hBUW5WQ3RDdWZCX3lkZy1SY0otdXV4UFpkSE9tQzFLdE9faUhmYUJiZkY0UWE3Z1RhSHp2bm5zX1ZVSHNn?oc=5",
-     "source": "Yahoo Lifestyle Australia"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://abc11.com/story/fruit-puree-pouches-voluntarily-recalled-potential-plastic-contamination/19563285/",
-     "title": "Fruit puree pouches voluntarily recalled over potential for plastic contamination - ABC11 News",
-     "outlet": "ABC11 News"
-    },
-    {
-     "url": "https://www.livenowfox.com/news/recalled-baby-bottle-sterilizer-dryer-could-overheat-cause-burns",
-     "title": "Recalled baby bottle sterilizer dryer could overheat, cause burns - LiveNOW from FOX",
-     "outlet": "LiveNOW from FOX"
-    },
-    {
-     "url": "https://www.nbcchicago.com/news/local/millions-of-ladders-sold-at-costco-lowes-recalled-after-reports-of-serious-injuries/4013679/",
-     "title": "Millions of ladders sold at Costco, Lowe's recalled after reports of serious injuries - NBC 5 Chicago",
-     "outlet": "NBC 5 Chicago"
-    },
-    {
-     "url": "https://au.lifestyle.yahoo.com/product-recall-roundup-pump-water-bottles-aldi-tv-stand-garden-item-sold-at-mitre-10-180000181.html",
-     "title": "Popular items stripped from shelves in mass recalls across Australia - Yahoo Lifestyle Australia",
-     "outlet": "Yahoo Lifestyle Australia"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
    "article_count_24h": 20,
-   "article_count_1h": 12,
+   "article_count_1h": 15,
    "published": "2026-11-08T11:06:00+09:00",
    "category": "Benefits",
    "news": [
@@ -372,62 +308,57 @@
   },
   {
    "source": "google_news",
-   "keyword": "early voting",
+   "keyword": "product recall",
    "traffic": 0,
-   "article_count_24h": 17,
-   "article_count_1h": 2,
-   "published": "2026-11-08T16:30:21+09:00",
-   "category": "Elections",
+   "article_count_24h": 46,
+   "article_count_1h": 3,
+   "published": "2026-11-08T13:37:00+09:00",
+   "category": "Recalls",
    "news": [
     {
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-     "source": "NBC News"
+     "title": "Gourmia recalls air fryers nationwide after dozens of reported burns - KGW",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVEFBWFBSc25hZTZxWFk0QkI5dXRoOXpmYXR2c1hBSnpVQUdnekhzRW1jaFBTTVVhYTRKR05pdEJkTDFjTDZheEZmaWtjM2x0c280X1FkYWNUbHNROVBPcDFVNFdLZG5oc1EtV3lWTzNHM3U2RWdVNDhtV3dRNnIyNlo2Q1Bfd2FhOGFwVmdjZzVlZG85VXJVaUI4cUhCbGpLVWVac1JkTHZEUUk3YnJtODBCZkhjMUR5SF9kdzVzLURCREt6MWRhUVExY2J0SW9BckpZ?oc=5",
+     "source": "KGW"
     },
     {
-     "title": "Like in past elections, Alaska is still counting ballots. When will we know who won? - Anchorage Daily News",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcGpNT0puZ3BSc3dfek1DM0JSMFZhSHRESjJYeHkxNENnd0RFUy1fYk9pVlFtZlZseWxlT19BVzI1QzFxTjAzeW9jTDlwaHZfSWx3dGF2ZlhoS2stYnc2SXNjdEtMclJYVjJQdEw5U281eDZRaVdleldZQnA5c1NXamU2WUdtaHQtZWFfN2VOelRraDF1ajl4aE1xeXZURWFCd2FSWFpBTFAydVBGLXF1WUdrcEVKNHRyV1FVRF9xMA?oc=5",
-     "source": "Anchorage Daily News"
+     "title": "Recalled baby bottle sterilizer dryer could overheat, cause burns - LiveNOW from FOX",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUDc2cVFUaGM4V1pZbHBST29aaWE4bHFoUzA0cFM1NnFiVlFlQVY0VnhVdk5iUTVjdzgtdEFFZFQ1dTBMaDM0SEJPeTZ2dnh3T3gzODNEeEV0TjhCUFhhWmhfN1FxWXpZeVpXZ1QtbkFmUk85aXFuQlNrQ01lZ19ZcFR0dHZzVE5VVHpkQTQ0ZC13VC01RlZQdnNuc3Y?oc=5",
+     "source": "LiveNOW from FOX"
     },
     {
-     "title": "New Zealand’s governing coalition holds slim majority in preliminary count - Al Jazeera",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaG5IckpSU0pKMzd1TGJpLVNPTEdwZFJBZjRaTDFVc0hHNXptUUs3Nml6bmhGeE5hNGx6cjZKM2xmWVFrcFVJT2VWTU9YbGVYZlAyZVlWazN0QzVjbk1vX2JDTGc5OEU1OVJrZmZha2N0Mm9ZeUZJQnlKNGVkWXNNWklQaTVNbUprVWdRRU5jWkRDRllfTF9UODZKTE1ESjZFT1UtMGdySWtNV1pJ0gGyAUFVX3lxTE5ucGdMYnFfM0toX1BkOEFMYzVmWnU4RnRZdjFUYktRdnVWQ1NWVlVkTk0yZ0lPYjlSYlViSGR4VGRreUdnVHh5d2hIM080TDJna3prZV9UeTl3SmFfUlBUSG12UFdKMnRObjlnaTlnZmFHbTM5bWVtejI2NnBGYldmMkU4OU9uV3VfOEhseHU2emctV1gzdXVVOHhXMWhRYUFGQTFXT0dmOUctM2J2eEM1cEE?oc=5",
-     "source": "Al Jazeera"
+     "title": "Millions of ladders sold at Costco, Lowe's recalled after reports of serious injuries - NBC 5 Chicago",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSEFQcWs4T3k0OENUQm5Pd1oxRWQweWFKdFBSRzUwRUlKMk92REI2WTVSSFhvVkNQTnBlZURjVWZ6cWd2SnhGZlBDeHVIajJWTnU0TWpROGVBcTdYS29HLU4wUzRNTTVhYVpUbGs0SDBXZW9EOG5ISXliQzZYUndPYV96akVLR0xmdFc5RDM0UTNBaFBFOV9YTWtyV0lTTnNQTkJSMFFsQ0xqd2xONEJKclZpbFI4MDVlQUpwQ01SWUFCRk5Sc2RtWkdB0gHSAUFVX3lxTE1UeFZCSl9IWEI0MHJlMTJueFlWc3FfYV8xdmJNSm1GNXc3MVFxOUFIaWduR1M0VTRwWFFFcTA2RWtLOFlvTzJTQnMyWlZQSnZ4MGFIM1A0MHlJOE00bUE5ZF9sWnlZcUhPR2l4dWtqLXJ6UHZWNWI5cGhKTWk1QmFMaUZfZHdoYTdiZElabFd0aElyQS1TT1FEbzZvQ0FhTWV0WGtfYkZ3UE41d1RHSE45S2VPMnFXcy1OWmRDamlaS0RqN1h5RWdFVnZTcmU4cTdLdw?oc=5",
+     "source": "NBC 5 Chicago"
     },
     {
-     "title": "Who voted early in Idaho’s election? Mostly Republicans. - Idaho Capital Sun",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3NQV1ZfTmNkenVyd2FKNGNwb245LWowU3hhU1F0aXhTZy1WUGJabHdDTWpPTHZJV0I5VEJhNXNxZkdzUk5HWndwNWpvcUQwZHF2UnNLWlhxeVIzSDlJaTluZjBtY1l4VGVnaV9OdVUyY2cyR3p4dkd0QkxBR3RJbDVGRzdsY0tISjBkRzdlMnNoVDJPdUQzVQ?oc=5",
-     "source": "Idaho Capital Sun"
+     "title": "Popular items stripped from shelves in mass recalls across Australia - Yahoo Lifestyle Australia",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOV9xSzF5VGI1aExsMy1rbGVVZ1g1dVBkNmFwa25EaUhsellBYkdFREpNU0Y1NzFNdm50a3JBbHIzQ2VRVE5tUm9KbEhLajhfWGl5S3I1czVDSHBjcGVPV1dBNG1ka3ZoX3QwdUJfMU5zN2Rtc3F4blVGNC1nS0hHRWpuTm1FWm0tUmU4a3hBUW5WQ3RDdWZCX3lkZy1SY0otdXV4UFpkSE9tQzFLdE9faUhmYUJiZkY0UWE3Z1RhSHp2bm5zX1ZVSHNn?oc=5",
+     "source": "Yahoo Lifestyle Australia"
     },
     {
-     "title": "Westchester Election Results Take Shape Following Polling Delays - News12 | Westchester",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSWQ4WDJfbDIwdTlSQXFFNzQzVmhUMHk3LWV2N1oxdmJSOV9NRzAxckNIUE93VFNsajl2MEdnMTlPSlBvWjBCeWU5RzBwak5hVk1JZS1zWWFJTDhKdS1LTW1JR05jZlBuM1JaSmlsZHF3V1pzX3k3c2tpQlNsSEFpRFBMRXlrSWV6MzBvR0c2VDZZSTFRbkxkSFBlaEJxOEZFRnRmS1dJaUgzUjNKV1NfSGJKdEl1ZXRuUnVrZ2w2LXF1QnZHbmZF?oc=5",
-     "source": "News12 | Westchester"
+     "title": "Furniture, mowers and kitchen gear: Your guide to latest WA product recalls - The Olympian",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5laHpsSGFSWElNS0JXOE9YQW54VXJSWnB4RTFhS3FiV0dvNmtSY3BWTVNZeTR6cTdxdE5nZzZfYXBIRVdyazRQdmdjUGFKeFgzYVhRWnlVYVBQWGdna09fYWlfeGNhUWJ4bElGYThHWVBucHVTVGczRGJFc9IBe0FVX3lxTE1EdlVOaHJIUmNaR0xQR3ZmbXp1aWJ0WHkzejhXYkJLeUIyTzkzeVh3RkFuNXF0d0VkMGVSTmFnMVNBcFZ3VzFIdHo5c3hQYTk5ZmN0Y1UtbGZMdTVRRU9Tb2p2QWxHZjVDQXM1QkhyN0RRT3AwSHpVNlEwbw?oc=5",
+     "source": "The Olympian"
     }
    ],
    "official": false,
-   "score": 49.4,
+   "score": 54.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "outlet": "NBC News"
+     "url": "https://www.livenowfox.com/news/recalled-baby-bottle-sterilizer-dryer-could-overheat-cause-burns",
+     "title": "Recalled baby bottle sterilizer dryer could overheat, cause burns - LiveNOW from FOX",
+     "outlet": "LiveNOW from FOX"
     },
     {
-     "url": "https://www.adn.com/politics/2026/11/06/like-in-past-elections-alaska-is-still-counting-ballots-when-will-we-know-who-won/",
-     "title": "Like in past elections, Alaska is still counting ballots. When will we know who won? - Anchorage Daily News",
-     "outlet": "Anchorage Daily News"
+     "url": "https://www.nbcchicago.com/news/local/millions-of-ladders-sold-at-costco-lowes-recalled-after-reports-of-serious-injuries/4013679/",
+     "title": "Millions of ladders sold at Costco, Lowe's recalled after reports of serious injuries - NBC 5 Chicago",
+     "outlet": "NBC 5 Chicago"
     },
     {
-     "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results",
-     "title": "New Zealand’s governing coalition holds slim majority in preliminary count - Al Jazeera",
-     "outlet": "Al Jazeera"
-    },
-    {
-     "url": "https://idahocapitalsun.com/2026/11/07/who-voted-early-in-idahos-election-mostly-republicans/",
-     "title": "Who voted early in Idaho’s election? Mostly Republicans. - Idaho Capital Sun",
-     "outlet": "Idaho Capital Sun"
+     "url": "https://au.lifestyle.yahoo.com/product-recall-roundup-pump-water-bottles-aldi-tv-stand-garden-item-sold-at-mitre-10-180000181.html",
+     "title": "Popular items stripped from shelves in mass recalls across Australia - Yahoo Lifestyle Australia",
+     "outlet": "Yahoo Lifestyle Australia"
     }
    ]
   },
@@ -435,8 +366,8 @@
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 5,
+   "article_count_24h": 28,
+   "article_count_1h": 10,
    "published": "2026-11-08T01:05:38+09:00",
    "category": "Student Aid",
    "news": [
@@ -456,14 +387,14 @@
      "source": "The College Investor"
     },
     {
+     "title": "A Year in Money: Four People Share How They Spend, Save and Pay Off Debt - The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeHh3d1haYUtNYTFwUGNWQkhDVXB4OXl3WEpUSzRsbndEZHZHVGV3S2s4ZjVqWXEzWFVySm01RU94RzgwTE1aZFY5cXE0Zi1ZTTJ1bkF3QkVBdVJnbzBWWjQyemNYc1BzS1U3djNjNklvSmptOE1uSllkQ0gxN282MVdNU01GSzExR0tBcmViNXJReU5u?oc=5",
+     "source": "The New York Times"
+    },
+    {
      "title": "Credible student loans review: Compare lenders and rates in one place - USA Today",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZzU2bTEzOVNYUUtrdUpTTmZSRmVPMkpibEFRWFlFdU5HSWJDd1NWenN1NEVOZ3dNSzctRHFXUTlTUmNXakNjMnROekFaQjhIdlFZdkR4UGc0UXpjcTNGNVl5NWdaWHNMM3BoaTkySWRqT0Q0blN1QTJObVFDMU9aTG1GOE1Zc1RXZ0d6SkdtQk1CSGxjREVuTGs4X1pQUi1OMXpnNWQ4blJYWWZ2?oc=5",
      "source": "USA Today"
-    },
-    {
-     "title": "‘Patronised and ignored’: How graduates feel let down by Healey’s student-loan snub - The i Paper",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT3BTVTN1SHRSdmtMRGEzclpKN1lEdmp3ZTlObS1VOFBvU09JNVM3bG5yYVdUNGRPYzQtNEhlZkEwaTFBVWJubDVyWWZnN2NOVlJwZ0lqckpGZkxKWUhzSzZOOU1DVmlFWUJqcnlUektyWFB0UllnVVpPNDNvNVBocUpVNkZCZ2UxeVFTbEgyZw?oc=5",
-     "source": "The i Paper"
     }
    ],
    "official": false,
@@ -496,7 +427,7 @@
    "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 24,
+   "article_count_24h": 23,
    "article_count_1h": 3,
    "published": "2026-11-07T23:00:00+09:00",
    "category": "Benefits",
@@ -552,7 +483,7 @@
    "source": "google_news",
    "keyword": "ACA open enrollment",
    "traffic": 0,
-   "article_count_24h": 13,
+   "article_count_24h": 12,
    "article_count_1h": 0,
    "published": "2026-11-08T16:00:00+09:00",
    "category": "Health Insurance",
@@ -573,14 +504,14 @@
      "source": "Fast Company"
     },
     {
-     "title": "What to know about the Affordable Care Act's open enrollment period now underway - yoursun.com",
-     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTXQyT3Zvek53NXlYNWJ3R0g5YnBONU9vOFdnOGF0U3h3M1h2NGFfMXhza3FDNWFOUU5yellrY0hlMG9iR211b0VSdEZFQ1R3bVh4TVM4aEFNYzRrbTVVblFhbDlkUlJUQWlEMW9qZkRIVmtONEE0c3k5TXMwY1VNcXdBTzgydVdDTTFTb2dMNG9XTlFlcldxRlhVeWd0LWpDczRaWTA4V18tSUthTlBEU2djV3JsNHFDLU1tZnE0UHFLU0dOWFh3U3FIcEc0NS05TnFQVWJGdldMbjhUaXVyc0o3ZGkyWEFiNjktS2M2bWZGNDVFY29DcmNNOWpxSGs?oc=5",
-     "source": "yoursun.com"
-    },
-    {
      "title": "Jeffries Promises a Fast ACA Subsidy Vote. It Will Miss the Dec. 15 Deadline - 24/7 Wall St.",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONGlmR1d2LWFqZ3RLQzJXQ2NDazBsbjlVOVJXdzVLbFBqTkY4dDRIeFZxaWFXOUtDWTV5bDV1TnZ2anh2cWdDUG1SQUp4d182SHI2Tm5TYjBhNmlMNk9qTnNKVHkwTXdEY2Fsa3VaRFpqY1o2WUwyVU9BLWowcGJpelhCVEhkSlpWMzgwaGpOc3Jkd1VCQ2p6SXFxbUFrbDd3UlltaEFhSGZRZ091RWxsSWNheEpqV0tsSXc?oc=5",
      "source": "24/7 Wall St."
+    },
+    {
+     "title": "Judge sides with ACA brokers, lifts moratorium on new registrations - RamaOnHealthcare",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMGFMZHVIdUtQY0s4M29pZEdJb19SQXZHcjVOZUdqQ1JCWkI1S0I5d3RfM3hOWnA1UnRnVW1idVlNYTZleFN3OTJKZDlYUlRGZHhhS3NLV1FQMmRXU0pxdmV1OXl3akZ3THJiNC1kUkRFMW5wMHh0WVJrdTVoRU1LMGlOQlA4Xy12OXE0bzlRSVVMVTFrbHN2dlBxVlY?oc=5",
+     "source": "RamaOnHealthcare"
     }
    ],
    "official": false,
@@ -598,14 +529,14 @@
      "outlet": "Hoodline"
     },
     {
-     "url": "https://www.yoursun.com/waterline/health/what-to-know-about-the-affordable-care-acts-open-enrollment-period-now-underway/article_c31b0ff9-f789-5d94-b594-b60b015d7159.html",
-     "title": "What to know about the Affordable Care Act's open enrollment period now underway - yoursun.com",
-     "outlet": "yoursun.com"
-    },
-    {
      "url": "https://247wallst.com/investing/2026/11/07/jeffries-promises-a-fast-aca-subsidy-vote-it-will-miss-the-dec-15-deadline/",
      "title": "Jeffries Promises a Fast ACA Subsidy Vote. It Will Miss the Dec. 15 Deadline - 24/7 Wall St.",
      "outlet": "24/7 Wall St."
+    },
+    {
+     "url": "https://ramaonhealthcare.com/judge-sides-with-aca-brokers-lifts-moratorium-on-new-registrations/",
+     "title": "Judge sides with ACA brokers, lifts moratorium on new registrations - RamaOnHealthcare",
+     "outlet": "RamaOnHealthcare"
     }
    ]
   },
@@ -614,7 +545,7 @@
    "keyword": "tax deadline",
    "traffic": 0,
    "article_count_24h": 27,
-   "article_count_1h": 1,
+   "article_count_1h": 2,
    "published": "2026-11-08T07:59:14+09:00",
    "category": "Taxes",
    "news": [
@@ -639,13 +570,13 @@
      "source": "BKReader"
     },
     {
-     "title": "Florida homeowners may get partial property tax refunds if floods make homes unlivable for 30 days - The Cool Down",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTTVXQ0VSUThodkxsN0RLRXRFaER4a3d4eUdDalBLaUJZY1AxWDJrRzZ0aFhIX2Q3d2laQ1JtTWpQcEpzNThhVi1JYVZBSlU1NTk4cmNrX0lfQlBiYjRJRWxfV2FIaUM2dFdLTEF0M2Zmal9zZHdfOS1nSWl5TU9wZUNYaFQ4d28?oc=5",
-     "source": "The Cool Down"
+     "title": "Japan's ruling party zeroes in on ex-PM, others over tax cut bill walkouts - 毎日新聞",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0Y3NIQU8tZzhVaEplenhqd3ctOTdfZHlrQUFzS0lUT2ctVmVybVVOczdPOFlBTFhvTUFQRWNxRUZFSWVhU2E3SUoxV1kxTWJIQUtMQ0JDS0Z1eGFKUmNZNXN0V3IyTk9wR1dwbDJaRmx3Zw?oc=5",
+     "source": "毎日新聞"
     }
    ],
    "official": false,
-   "score": 35.7,
+   "score": 39.9,
    "already_covered": false,
    "evidence": [
     {
@@ -662,11 +593,6 @@
      "url": "https://www.bkreader.com/policy-government/appeals-court-allows-nyc-second-home-tax-rollout-to-continue-12987267",
      "title": "Appeals Court Allows NYC Second-Home Tax Rollout to Continue - BKReader",
      "outlet": "BKReader"
-    },
-    {
-     "url": "https://www.thecooldown.com/green-business/palm-beach-flood-property-tax-refund/",
-     "title": "Florida homeowners may get partial property tax refunds if floods make homes unlivable for 30 days - The Cool Down",
-     "outlet": "The Cool Down"
     }
    ]
   },
@@ -674,7 +600,7 @@
    "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 26,
+   "article_count_24h": 25,
    "article_count_1h": 0,
    "published": "2026-11-08T09:00:00+09:00",
    "category": "Benefits",
@@ -695,14 +621,14 @@
      "source": "WTHI-TV"
     },
     {
-     "title": "Summer Hunger Rose 4 Points Among Low-Income Families With Children Despite Summer EBT - Medical Daily",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTHhPeS1BRXp0UmdjQXlwZjV2M1RYRDhEQ1Qzd1Q0SmVZbWs4RXQzZjVoZDBNQXZrbExWWGFFbVlySTVxR3ROdWkzWHJjajU3RUJxMGo5T0tOeEFBdmtvV1I1QXJXWDR4QzhWMk1wdkNTVFVPbzhFUDhFVVM5WEVpbmo1UHhiSHpjdnQyeDlQVQ?oc=5",
-     "source": "Medical Daily"
-    },
-    {
      "title": "City of Phoenix offers to help eligible residents with SNAP application process - Your Valley",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcGVRbTNsV3I5aldjUXRUU2hoejdHMmI4NEp4SUVkRklQM0g4NFVPMHJySFRiSjhPTXlwOEt4ajJMNmRqczJaNnkwZ1MwV3NYdVVJcFpYOFJiQ3JoQ0RIWTA0U1ZESFZ1N1BlRjZlbGpzUWpENGJfRmNURFdfSkxCb24tNmtWSllUdXBBQjBtOHRNVG5Md1laamNiYlRzdUF5eDZwNXEwalh1LV9ELXRweENkNEJVSExEYnJUYnJ3?oc=5",
      "source": "Your Valley"
+    },
+    {
+     "title": "Summer Hunger Rose 4 Points Among Low-Income Families With Children Despite Summer EBT - Medical Daily",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTHhPeS1BRXp0UmdjQXlwZjV2M1RYRDhEQ1Qzd1Q0SmVZbWs4RXQzZjVoZDBNQXZrbExWWGFFbVlySTVxR3ROdWkzWHJjajU3RUJxMGo5T0tOeEFBdmtvV1I1QXJXWDR4QzhWMk1wdkNTVFVPbzhFUDhFVVM5WEVpbmo1UHhiSHpjdnQyeDlQVQ?oc=5",
+     "source": "Medical Daily"
     }
    ],
    "official": false,
@@ -713,7 +639,7 @@
    "source": "google_news",
    "keyword": "REAL ID",
    "traffic": 0,
-   "article_count_24h": 23,
+   "article_count_24h": 22,
    "article_count_1h": 0,
    "published": "2026-11-08T10:04:00+09:00",
    "category": "Benefits",
@@ -750,9 +676,48 @@
   },
   {
    "source": "google_news",
+   "keyword": "federal holiday",
+   "traffic": 0,
+   "article_count_24h": 18,
+   "article_count_1h": 3,
+   "published": "2026-11-08T04:25:34+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Veterans Day ceremonies, events and deals - Texas Public Radio | TPR",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelFZOVRjUHJVZF9XMkJiSUZHSk1XaUJ3OC1qMGtlV0d6RU9XYWxqUW9OSzhkSzlVRGthM3JNRzZyZzFKVGljS0dQVW5VOXIxWmRrQ0hjeG56NGZfWFVuQUVYZS1rLTNDNjZhdmVJSXFyQnAwRVYxd2wyVG8yb3MxSHB5MHdxQnZLcFdoemRzampNY09TUFpFbmN3Y18zbHMtSzBlZUZwVzRudw?oc=5",
+     "source": "Texas Public Radio | TPR"
+    },
+    {
+     "title": "Thanksgiving deserves more than a passing thanks - hometownsource.com",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYW9FUjN1U2NFY2Fhd2pOaHJOeUh0YXdBQkhKaDdYdnJ6Wld2amRCU0h1OWpZWjgwLS1RZ05qUXBaT2M4MVBhZ0JEcFJjaWVTNy1fdXVDZFVNRlhtTlhqbzkwUjNtUkxfcXBMampTMzc4aXM0TGxNajdhLXFhR2J5aVlqMURGRGZtSlo4SUdsTmZFRE1kek80OGVqSFFjUVJWd2JISVltX0NZMVhydmU2OVIzamlaZUV5Skk1ODV6aHVxMTFHdzJ3UG5QaUlSbDZPT3RQZ2thSzlsdE8zRVEzMU10ZXVpMEdwREhHZ3JnWWQ?oc=5",
+     "source": "hometownsource.com"
+    },
+    {
+     "title": "BACH Announces Holiday Hours for Veterans Day and Fort Campbell DONSA - Clarksville Online",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSm1lckRyeURCc2puLXZzR1FMR0JGQWE1b0xTb3czUmJaY0hyNWN5VTl1azFwZnFIb3VKaGJQc3NxRi1CWTlfQkhpaE5MbzdvWjhaV0hZckhuWEk3S1p1RXkwTkFmTV85RGVmQVpCa1dERFZxYzg4OGZzeDBjNHdzMFZDb0l3Q2c4Z0JPZWxKWmxfbURORzNsNmRiU2k3cjd6ZmZEaXBUcmpPallBSkZuMEhxMzY5QQ?oc=5",
+     "source": "Clarksville Online"
+    },
+    {
+     "title": "California recognizes Eid - LAist",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLURMT3Nidk5SMEtydmQyVmVQUU5ob05UQXRTVG5tNC1WcjBJT1JNeGVhU1kxbnM4Y3pKOXhid2VSb2o5V3FxcUoxUTFtODllVW5DM2dhcFdRTFN1X0tZWV8xazduZDZ5Nm85emJPUnlvbGoxeG83ekViQXVJeWdnSmVkZ2FPZzV2NlloOC1LcktueFpoNFg3eA?oc=5",
+     "source": "LAist"
+    },
+    {
+     "title": "‘It never rains on the Veterans Parade.’ Service members, supporters march through drizzle for Boston’s annual precession. - The Boston Globe",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHakdNb2RkelJxXzMxTzd0LUN2a2V4Z3JSN1U2TjRSOV9IbVpDbV9Oc0w1WURhRWhmODJtMDJrNjBOZVp6UDdJNGRlN29adHo4LVJwcC1HSjF0U2IxNS1oX1FDUTM3a0ZIMGNScUtvTVhZN0R1WjY1QlN6MjU?oc=5",
+     "source": "The Boston Globe"
+    }
+   ],
+   "official": false,
+   "score": 32.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 15,
+   "article_count_24h": 14,
    "article_count_1h": 0,
    "published": "2026-11-08T11:34:00+09:00",
    "category": "Health Insurance",
@@ -789,9 +754,48 @@
   },
   {
    "source": "google_news",
+   "keyword": "early voting",
+   "traffic": 0,
+   "article_count_24h": 15,
+   "article_count_1h": 1,
+   "published": "2026-11-08T09:35:20+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "New Zealand’s governing coalition holds slim majority in preliminary count - Al Jazeera",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaG5IckpSU0pKMzd1TGJpLVNPTEdwZFJBZjRaTDFVc0hHNXptUUs3Nml6bmhGeE5hNGx6cjZKM2xmWVFrcFVJT2VWTU9YbGVYZlAyZVlWazN0QzVjbk1vX2JDTGc5OEU1OVJrZmZha2N0Mm9ZeUZJQnlKNGVkWXNNWklQaTVNbUprVWdRRU5jWkRDRllfTF9UODZKTE1ESjZFT1UtMGdySWtNV1pJ0gGyAUFVX3lxTE5ucGdMYnFfM0toX1BkOEFMYzVmWnU4RnRZdjFUYktRdnVWQ1NWVlVkTk0yZ0lPYjlSYlViSGR4VGRreUdnVHh5d2hIM080TDJna3prZV9UeTl3SmFfUlBUSG12UFdKMnRObjlnaTlnZmFHbTM5bWVtejI2NnBGYldmMkU4OU9uV3VfOEhseHU2emctV1gzdXVVOHhXMWhRYUFGQTFXT0dmOUctM2J2eEM1cEE?oc=5",
+     "source": "Al Jazeera"
+    },
+    {
+     "title": "Who voted early in Idaho’s election? Mostly Republicans. - Idaho Capital Sun",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3NQV1ZfTmNkenVyd2FKNGNwb245LWowU3hhU1F0aXhTZy1WUGJabHdDTWpPTHZJV0I5VEJhNXNxZkdzUk5HWndwNWpvcUQwZHF2UnNLWlhxeVIzSDlJaTluZjBtY1l4VGVnaV9OdVUyY2cyR3p4dkd0QkxBR3RJbDVGRzdsY0tISjBkRzdlMnNoVDJPdUQzVQ?oc=5",
+     "source": "Idaho Capital Sun"
+    },
+    {
+     "title": "Westchester Election Results Take Shape Following Polling Delays - News12 | Westchester",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSWQ4WDJfbDIwdTlSQXFFNzQzVmhUMHk3LWV2N1oxdmJSOV9NRzAxckNIUE93VFNsajl2MEdnMTlPSlBvWjBCeWU5RzBwak5hVk1JZS1zWWFJTDhKdS1LTW1JR05jZlBuM1JaSmlsZHF3V1pzX3k3c2tpQlNsSEFpRFBMRXlrSWV6MzBvR0c2VDZZSTFRbkxkSFBlaEJxOEZFRnRmS1dJaUgzUjNKV1NfSGJKdEl1ZXRuUnVrZ2w2LXF1QnZHbmZF?oc=5",
+     "source": "News12 | Westchester"
+    },
+    {
+     "title": "Lee Hae-sik Referred for Superintendent Vote Disclosure - 조선일보",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWGZ1N3BmVHBZcEZERU1GXzY1Yk9tWlZmSFM5OGVoU0hRMjNnNHpzU3FoMzhGTDR5ZkFzOGk1MWtrVGpuZVEwU2dBLUFRRFJvVnpvb2pKdHdiN0hIRmthVTNWdTZXTUhtcjhSSTkxWFpMOGt0dElDUzR1ZF9pdlBoOENRRmJkLVc3?oc=5",
+     "source": "조선일보"
+    },
+    {
+     "title": "Armstrong Williams: The public’s confidence is a loan | STAFF COMMENTARY - Baltimore Sun",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02NVNlREprMnJZeGNqMWtCemstYXFxcDQ3anowcU5xVnB1cGxpcTVZS2NuekUtZGFwQlB6bjkzRDFlLWg2eUxhbXJmMmxoMDNqaXIxRFprZXdjVUNyR040OGtCbzJrVHhwdS05YVBSR0NUbGp6Y0Ew?oc=5",
+     "source": "Baltimore Sun"
+    }
+   ],
+   "official": false,
+   "score": 30.9,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 31,
+   "article_count_24h": 29,
    "article_count_1h": 1,
    "published": "2026-11-08T07:43:15+09:00",
    "category": "Recalls",
@@ -831,7 +835,7 @@
    "keyword": "daylight saving time",
    "traffic": 0,
    "article_count_24h": 18,
-   "article_count_1h": 2,
+   "article_count_1h": 1,
    "published": "2026-11-08T01:30:00+09:00",
    "category": "Holidays",
    "news": [
@@ -862,14 +866,55 @@
     }
    ],
    "official": false,
-   "score": 29.3,
+   "score": 26.2,
    "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "play gta 6 before launch date",
+   "traffic": 5000,
+   "published": "2026-11-08T17:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Grand Theft Auto VI Pre-Load Begins on November 10",
+     "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10?utm_source=twitter&amp;utm_medium=o_social&amp;utm_campaign=gtavi_announcement_pre-load-20261103",
+     "source": "Rockstar Games"
+    },
+    {
+     "title": "Download Grand Theft Auto VI Faster and Get to Leonida Sooner With Spectrum Internet Gig",
+     "url": "https://corporate.charter.com/newsroom/spectrum-giving-free-gig-speed-lift-thanksgiving-grand-theft-auto",
+     "source": "Charter Communications"
+    },
+    {
+     "title": "Grand Theft Auto VI pre-download begins November 10",
+     "url": "https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10/",
+     "source": "PlayStation.Blog"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://corporate.charter.com/newsroom/spectrum-giving-free-gig-speed-lift-thanksgiving-grand-theft-auto",
+     "title": "Download Grand Theft Auto VI Faster and Get to Leonida Sooner With Spectrum Internet Gig",
+     "outlet": "Charter Communications"
+    },
+    {
+     "url": "https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10/",
+     "title": "Grand Theft Auto VI pre-download begins November 10",
+     "outlet": "PlayStation.Blog"
+    }
+   ]
   },
   {
    "source": "google_news",
    "keyword": "SSI payment",
    "traffic": 0,
-   "article_count_24h": 8,
+   "article_count_24h": 7,
    "article_count_1h": 0,
    "published": "2026-11-08T09:32:00+09:00",
    "category": "Benefits",
@@ -901,66 +946,30 @@
     }
    ],
    "official": false,
-   "score": 26.9,
+   "score": 23.5,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "claire liu",
-   "traffic": 5000,
-   "published": "2026-11-08T17:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Alex Eala outlasts Maria Sakkari in rain-soaked Hong Kong Open semifinals, faces Claire Liu in final",
-     "url": "https://www.espn.com/tennis/story/_/id/50407226/alex-eala-outlasts-maria-sakkari-rain-soaked-hong-kong-open-semifinals-faces-claire-liu-final",
-     "source": "ESPN"
-    },
-    {
-     "title": "LIVE: Alex Eala vs Claire Liu – Hong Kong Open final",
-     "url": "https://sports.inquirer.net/706177/live-alex-eala-vs-claire-liu-hong-kong-open-final",
-     "source": "Inquirer.net"
-    },
-    {
-     "title": "Eala tops Sakkari in rain-impacted semifinal to set Hong Kong final against Liu",
-     "url": "https://www.wtatennis.com/news/4606011/eala-tops-sakkari-in-rain-impacted-semifinal-to-set-hong-kong-final-against-liu",
-     "source": "WTA Tennis"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.wtatennis.com/news/4606011/eala-tops-sakkari-in-rain-impacted-semifinal-to-set-hong-kong-final-against-liu",
-     "title": "Eala tops Sakkari in rain-impacted semifinal to set Hong Kong final against Liu",
-     "outlet": "WTA Tennis"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "usher",
+   "keyword": "medal",
    "traffic": 100,
-   "published": "2026-11-08T17:10:00+09:00",
+   "published": "2026-11-08T17:50:00+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "Fans say Chris Brown and Usher’s first Atlanta concert left them feeling shortchanged",
-     "url": "https://www.11alive.com/article/entertainment/music/fans-react-chris-brown-usher-first-night-atlanta-concert/85-835b212e-d0e0-4cb0-a914-0cbff588c967",
-     "source": "11Alive.com"
+     "title": "Beach Wrestling 2026 Dakar Youth Olympics: Live, Schedule, Rules",
+     "url": "https://uww.org/articles/beach-wrestling-2026-dakar-youth-olympics-live-schedule-rules",
+     "source": "United World Wrestling"
     },
     {
-     "title": "Usher and Chris Brown deliver a very late, underwhelming concert in Atlanta",
-     "url": "https://www.ajc.com/arts-entertainment/2026/11/chris-brown-usher-atlanta-tour-atlanta/",
-     "source": "The Atlanta Journal-Constitution"
+     "title": "(SP)SENEGAL-DAKAR-SALY-2026 YOUTH OLYMPICS-BEACH WRESTLING",
+     "url": "https://www.bignewsnetwork.com/news/279419506/spsenegal-dakar-saly-2026-youth-olympics-beach-wrestling",
+     "source": "Big News Network.com"
     },
     {
-     "title": "Chris Brown and Usher Perform Together After Reported Backstage Argument and 2½-Hour Atlanta Concert Delay",
-     "url": "https://www.yahoo.com/entertainment/music/concerts/articles/chris-brown-usher-perform-together-010055889.html",
-     "source": "Yahoo"
+     "title": "Senegalese female wrestler wins the nation’s first Olympic gold at Dakar Youth Games",
+     "url": "https://www.couriernews.com/sports/senegalese-female-wrestler-wins-the-nation-s-first-olympic-gold-at-dakar-youth-games/article_b43aba43-c97a-5add-8b46-169ad31178bb.html",
+     "source": "couriernews.com"
     }
    ],
    "official": false,
@@ -970,55 +979,57 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.ajc.com/arts-entertainment/2026/11/chris-brown-usher-atlanta-tour-atlanta/",
-     "title": "Usher and Chris Brown deliver a very late, underwhelming concert in Atlanta",
-     "outlet": "The Atlanta Journal-Constitution"
+     "url": "https://uww.org/articles/beach-wrestling-2026-dakar-youth-olympics-live-schedule-rules",
+     "title": "Beach Wrestling 2026 Dakar Youth Olympics: Live, Schedule, Rules",
+     "outlet": "United World Wrestling"
     },
     {
-     "url": "https://www.yahoo.com/entertainment/music/concerts/articles/chris-brown-usher-perform-together-010055889.html",
-     "title": "Chris Brown and Usher Perform Together After Reported Backstage Argument and 2½-Hour Atlanta Concert Delay",
-     "outlet": "Yahoo"
+     "url": "https://www.bignewsnetwork.com/news/279419506/spsenegal-dakar-saly-2026-youth-olympics-beach-wrestling",
+     "title": "(SP)SENEGAL-DAKAR-SALY-2026 YOUTH OLYMPICS-BEACH WRESTLING",
+     "outlet": "Big News Network.com"
+    },
+    {
+     "url": "https://www.couriernews.com/sports/senegalese-female-wrestler-wins-the-nation-s-first-olympic-gold-at-dakar-youth-games/article_b43aba43-c97a-5add-8b46-169ad31178bb.html",
+     "title": "Senegalese female wrestler wins the nation’s first Olympic gold at Dakar Youth Games",
+     "outlet": "couriernews.com"
     }
    ]
   },
   {
-   "source": "google_news",
-   "keyword": "federal holiday",
-   "traffic": 0,
-   "article_count_24h": 16,
-   "article_count_1h": 0,
-   "published": "2026-11-08T04:25:34+09:00",
-   "category": "Holidays",
+   "source": "google_trends",
+   "keyword": "jeffrey epstein",
+   "traffic": 100,
+   "published": "2026-11-08T17:30:00+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "Veterans Day ceremonies, events and deals - Texas Public Radio | TPR",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelFZOVRjUHJVZF9XMkJiSUZHSk1XaUJ3OC1qMGtlV0d6RU9XYWxqUW9OSzhkSzlVRGthM3JNRzZyZzFKVGljS0dQVW5VOXIxWmRrQ0hjeG56NGZfWFVuQUVYZS1rLTNDNjZhdmVJSXFyQnAwRVYxd2wyVG8yb3MxSHB5MHdxQnZLcFdoemRzampNY09TUFpFbmN3Y18zbHMtSzBlZUZwVzRudw?oc=5",
-     "source": "Texas Public Radio | TPR"
+     "title": "The Epstein Election and the End of MAGA",
+     "url": "https://www.theatlantic.com/politics/2026/11/epstein-midterm-election-end-maga/689303/",
+     "source": "The Atlantic"
     },
     {
-     "title": "Rogersville holds 1st ever Veterans Day Parade, Saturday - WJHL",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVV9aaEJ4YXd2eHlfWEkyUmpQSjJvMkJoUFFxb0J4N0dQbWJ5amdQM3VvMGtUYUpsZjZETFVJc1M3S0ZtSENhazFHSE5nOE1GXzVuMTFnaXVqRV9ERHBMN19leEpDejkzZ2sxRUgySC1XRWRiUXA0eHVKeFlIbXVQS2RYY2Q4MllfQl9HaU5SSzRNUdIBlwFBVV95cUxOUFFiVWs2LWo3TUJyVThpd3pDendLTmRIQnRVbzlHN3BIRm5BNHpLUW1OeVBqSm9DRzFEUElqSXFXME1BeEhTOXFHQUFqSmhNb0Y0SHkwV3FHcTlOZnVXeV92djVHWkhXb3lid1Q5dEZZdHVFQ1pCeHlCR1BjMkdCcC1JMWNlM2FlS0tqLVdtUUR6U01kY21z?oc=5",
-     "source": "WJHL"
+     "title": "‘Want to burn the Republican Party down’: Trump world spooked as voters unleash wrath over Epstein",
+     "url": "https://www.ms.now/deadline-white-house/watch/want-to-burn-the-republican-party-down-trump-world-spooked-as-voters-unleash-wrath-over-epstein-2519967299790",
+     "source": "MS NOW"
     },
     {
-     "title": "Thanksgiving deserves more than a passing thanks - hometownsource.com",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYW9FUjN1U2NFY2Fhd2pOaHJOeUh0YXdBQkhKaDdYdnJ6Wld2amRCU0h1OWpZWjgwLS1RZ05qUXBaT2M4MVBhZ0JEcFJjaWVTNy1fdXVDZFVNRlhtTlhqbzkwUjNtUkxfcXBMampTMzc4aXM0TGxNajdhLXFhR2J5aVlqMURGRGZtSlo4SUdsTmZFRE1kek80OGVqSFFjUVJWd2JISVltX0NZMVhydmU2OVIzamlaZUV5Skk1ODV6aHVxMTFHdzJ3UG5QaUlSbDZPT3RQZ2thSzlsdE8zRVEzMU10ZXVpMEdwREhHZ3JnWWQ?oc=5",
-     "source": "hometownsource.com"
-    },
-    {
-     "title": "BACH Announces Holiday Hours for Veterans Day and Fort Campbell DONSA - Clarksville Online",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSm1lckRyeURCc2puLXZzR1FMR0JGQWE1b0xTb3czUmJaY0hyNWN5VTl1azFwZnFIb3VKaGJQc3NxRi1CWTlfQkhpaE5MbzdvWjhaV0hZckhuWEk3S1p1RXkwTkFmTV85RGVmQVpCa1dERFZxYzg4OGZzeDBjNHdzMFZDb0l3Q2c4Z0JPZWxKWmxfbURORzNsNmRiU2k3cjd6ZmZEaXBUcmpPallBSkZuMEhxMzY5QQ?oc=5",
-     "source": "Clarksville Online"
-    },
-    {
-     "title": "California recognizes Eid - LAist",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLURMT3Nidk5SMEtydmQyVmVQUU5ob05UQXRTVG5tNC1WcjBJT1JNeGVhU1kxbnM4Y3pKOXhid2VSb2o5V3FxcUoxUTFtODllVW5DM2dhcFdRTFN1X0tZWV8xazduZDZ5Nm85emJPUnlvbGoxeG83ekViQXVJeWdnSmVkZ2FPZzV2NlloOC1LcktueFpoNFg3eA?oc=5",
-     "source": "LAist"
+     "title": "Scoop: How Epstein ads pushed Dems' closing argument",
+     "url": "https://www.axios.com/2026/11/06/democrats-ads-epstein",
+     "source": "Axios"
     }
    ],
    "official": false,
-   "score": 23.1,
-   "already_covered": false
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 20.2,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.ms.now/deadline-white-house/watch/want-to-burn-the-republican-party-down-trump-world-spooked-as-voters-unleash-wrath-over-epstein-2519967299790",
+     "title": "‘Want to burn the Republican Party down’: Trump world spooked as voters unleash wrath over Epstein",
+     "outlet": "MS NOW"
+    }
+   ]
   },
   {
    "source": "google_news",
@@ -1061,8 +1072,49 @@
   },
   {
    "source": "google_trends",
+   "keyword": "alexandra eala",
+   "traffic": 2000,
+   "published": "2026-11-08T17:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Alex Eala outlasts Maria Sakkari in rain-soaked Hong Kong Open semifinals, faces Claire Liu in final",
+     "url": "https://www.espn.com/tennis/story/_/id/50407226/alex-eala-outlasts-maria-sakkari-rain-soaked-hong-kong-open-semifinals-faces-claire-liu-final",
+     "source": "ESPN"
+    },
+    {
+     "title": "Eala tops Sakkari in rain-impacted semifinal to set Hong Kong final against Liu",
+     "url": "https://www.wtatennis.com/news/4606011/eala-tops-sakkari-in-rain-impacted-semifinal-to-set-hong-kong-final-against-liu",
+     "source": "WTA Tennis"
+    },
+    {
+     "title": "Tennis: Alex Eala survives tough Ruzic challenge to make Hong Kong Open semis",
+     "url": "https://www.abs-cbn.com/sports/othersports/2026/11/6/tennis-alex-eala-survives-tough-ruzic-challenge-to-make-hong-kong-open-final-four-2340",
+     "source": "ABS-CBN"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.wtatennis.com/news/4606011/eala-tops-sakkari-in-rain-impacted-semifinal-to-set-hong-kong-final-against-liu",
+     "title": "Eala tops Sakkari in rain-impacted semifinal to set Hong Kong final against Liu",
+     "outlet": "WTA Tennis"
+    },
+    {
+     "url": "https://www.abs-cbn.com/sports/othersports/2026/11/6/tennis-alex-eala-survives-tough-ruzic-challenge-to-make-hong-kong-open-final-four-2340",
+     "title": "Tennis: Alex Eala survives tough Ruzic challenge to make Hong Kong Open semis",
+     "outlet": "ABS-CBN"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
    "keyword": "australia vs samoa",
-   "traffic": 200,
+   "traffic": 500,
    "published": "2026-11-08T17:20:00+09:00",
    "category": "기타",
    "news": [
@@ -1077,15 +1129,15 @@
      "source": "News.com.au"
     },
     {
-     "title": "Toa Sāmoa hungry for revenge as they chase World Cup final spot",
-     "url": "https://pmn.co.nz/read/sports/toa-samoa-hungry-for-revenge-as-they-chase-world-cup-final-spot",
-     "source": "Pacific Media Network"
+     "title": "Watch Australia vs Samoa: FREE live streams and TV channels",
+     "url": "https://sports.yahoo.com/articles/watch-australia-vs-samoa-free-060500905.html",
+     "source": "Yahoo Sports"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
+   "spike": "검색량 200→500",
+   "spike_bonus": 20,
+   "score": 13.5,
    "already_covered": false,
    "evidence": [
     {
@@ -1094,265 +1146,40 @@
      "outlet": "The Guardian"
     },
     {
-     "url": "https://pmn.co.nz/read/sports/toa-samoa-hungry-for-revenge-as-they-chase-world-cup-final-spot",
-     "title": "Toa Sāmoa hungry for revenge as they chase World Cup final spot",
-     "outlet": "Pacific Media Network"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "the diplomat",
-   "traffic": 200,
-   "published": "2026-11-08T17:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "‘The Diplomat’ season 5: What we know so far about the Netflix political drama",
-     "url": "https://www.lifestyleasia.com/hk/entertainment/streaming/will-the-diplomat-season-5-happen-all-we-know-about-netflix-political-drama/",
-     "source": "Lifestyle Asia Hong Kong"
-    },
-    {
-     "title": "‘The Diplomat: Season 4’ on Netflix review by Susan Granger",
-     "url": "https://westportjournal.com/arts/visual/watching-the-diplomat-season-4-with-susan-granger/",
-     "source": "Westport Journal"
-    },
-    {
-     "title": "How The Diplomat Season 4 Faked Windsor Castle, a Warship, and a G7 Summit",
-     "url": "https://www.whats-on-netflix.com/interviews/the-diplomat-season-4-production-designer-interview-italy-locations/",
-     "source": "What's on Netflix"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.whats-on-netflix.com/interviews/the-diplomat-season-4-production-designer-interview-italy-locations/",
-     "title": "How The Diplomat Season 4 Faked Windsor Castle, a Warship, and a G7 Summit",
-     "outlet": "What's on Netflix"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "中超",
-   "traffic": 200,
-   "published": "2026-11-08T17:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "最后一个冠军点！蓉城客平泰山即夺队史首冠，英博主场能否逆袭？",
-     "url": "https://m.zhibo8.com/news/web/zuqiu/2026-11-08/6aeeee516c4d8native.htm",
-     "source": "直播吧"
-    },
-    {
-     "title": "中超冠军，今天揭晓！",
-     "url": "https://www.ctdsb.net/c1720_202611/2899120.html",
-     "source": "极目新闻"
-    },
-    {
-     "title": "赵宇：关于成都蓉城，更应该被关注的是俱乐部管理问题",
-     "url": "https://m.zhibo8.cc/news/web/zuqiu/2026-11-08/6aefcd869bebenative.htm",
-     "source": "直播吧"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://m.zhibo8.com/news/web/zuqiu/2026-11-08/6aeeee516c4d8native.htm",
-     "title": "最后一个冠军点！蓉城客平泰山即夺队史首冠，英博主场能否逆袭？",
-     "outlet": "直播吧"
-    },
-    {
-     "url": "https://www.ctdsb.net/c1720_202611/2899120.html",
-     "title": "中超冠军，今天揭晓！",
-     "outlet": "极目新闻"
-    },
-    {
-     "url": "https://m.zhibo8.cc/news/web/zuqiu/2026-11-08/6aefcd869bebenative.htm",
-     "title": "赵宇：关于成都蓉城，更应该被关注的是俱乐部管理问题",
-     "outlet": "直播吧"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "wegmans sold winning powerball ticket",
-   "traffic": 100,
-   "published": "2026-11-08T17:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Powerball winning ticket sold at Montvale, NJ Wegmans for $847 million jackpot",
-     "url": "https://abc7ny.com/post/new-jersey-ticket-wins-847m-powerball-jackpot-ninth-largest-game-history/20017286/",
-     "source": "ABC7 New York"
-    },
-    {
-     "title": "PB_Jackpot_RetailWin_110526",
-     "url": "https://www.njlottery.com/en-us/newsandevents/newsinput/2026/press-releases/PB_Jackpot_RetailWin_110526.html",
-     "source": "NJ Lottery"
-    },
-    {
-     "title": "After Wegmans ticket matches $847 million Powerball, jackpot at $20 million",
-     "url": "https://www.tcpalm.com/story/news/2026/11/07/powerball-numbers-saturday-november-wegmans-new-jersey/92653560007/",
-     "source": "Treasure Coast News"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://abc7ny.com/post/new-jersey-ticket-wins-847m-powerball-jackpot-ninth-largest-game-history/20017286/",
-     "title": "Powerball winning ticket sold at Montvale, NJ Wegmans for $847 million jackpot",
-     "outlet": "ABC7 New York"
-    },
-    {
-     "url": "https://www.njlottery.com/en-us/newsandevents/newsinput/2026/press-releases/PB_Jackpot_RetailWin_110526.html",
-     "title": "PB_Jackpot_RetailWin_110526",
-     "outlet": "NJ Lottery"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "riot",
-   "traffic": 100,
-   "published": "2026-11-08T17:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Protecting Competitive Integrity in VCT 2027",
-     "url": "https://playvalorant.com/en-us/news/game-updates/protecting-competitive-integrity-in-vct-2027/",
-     "source": "VALORANT"
-    },
-    {
-     "title": "Everything to know about the VCT Pacific Kickoff Qualifiers",
-     "url": "https://www.sheepesports.com/en/articles/everything-to-know-about-the-vct-pacific-kickoff-qualifiers/en",
-     "source": "Sheep Esports"
-    },
-    {
-     "title": "Riot Games and JioBLAST to host VCT 2027 Kickoff South Asia qualifiers",
-     "url": "https://thenewsmill.com/2026/11/riot-games-and-jioblast-to-host-vct-2027-kickoff-south-asia-qualifiers/",
-     "source": "The News Mill"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://playvalorant.com/en-us/news/game-updates/protecting-competitive-integrity-in-vct-2027/",
-     "title": "Protecting Competitive Integrity in VCT 2027",
-     "outlet": "VALORANT"
-    },
-    {
-     "url": "https://thenewsmill.com/2026/11/riot-games-and-jioblast-to-host-vct-2027-kickoff-south-asia-qualifiers/",
-     "title": "Riot Games and JioBLAST to host VCT 2027 Kickoff South Asia qualifiers",
-     "outlet": "The News Mill"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "taekwondo",
-   "traffic": 100,
-   "published": "2026-11-08T17:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "PPP blasts handling of North Korea's solo Unesco taekwondo bid",
-     "url": "https://www.koreajoongangdaily.com/korea/ppp-blasts-handling-of-north-koreas-solo-unesco-taekwondo-bid/12961156",
-     "source": "Korea JoongAng Daily"
-    },
-    {
-     "title": "On the 7th, the People's Power strongly criticized the situation in which North Korea's sole registr..",
-     "url": "https://www.mk.co.kr/en/politics/12201509",
-     "source": "매일경제"
-    },
-    {
-     "title": "People Power Party Blames Government Over Taekwondo's Likely North Korean Listing",
-     "url": "https://en.sedaily.com/politics/2026/11/07/people-power-party-blames-government-over-taekwondos-likely",
-     "source": "Seoul Economic Daily"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.koreajoongangdaily.com/korea/ppp-blasts-handling-of-north-koreas-solo-unesco-taekwondo-bid/12961156",
-     "title": "PPP blasts handling of North Korea's solo Unesco taekwondo bid",
-     "outlet": "Korea JoongAng Daily"
-    },
-    {
-     "url": "https://www.mk.co.kr/en/politics/12201509",
-     "title": "On the 7th, the People's Power strongly criticized the situation in which North Korea's sole registr..",
-     "outlet": "매일경제"
-    },
-    {
-     "url": "https://en.sedaily.com/politics/2026/11/07/people-power-party-blames-government-over-taekwondos-likely",
-     "title": "People Power Party Blames Government Over Taekwondo's Likely North Korean Listing",
-     "outlet": "Seoul Economic Daily"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "arjun rajput",
-   "traffic": 100,
-   "published": "2026-11-08T17:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "India vs Pakistan, Under-19 Asia Cup Live Score: India on the brink of all out after Arjun Rajput's solid innings",
-     "url": "https://timesofindia.indiatimes.com/sports/cricket/india-under-19-vs-pakistan-under-19-asia-cup-cricket-live-score-aaryavir-sehwag-anvay-dravid-yashbardhan-chauhan/liveblog/135650118.cms",
-     "source": "The Times of India"
-    },
-    {
-     "title": "India U19 vs Pakistan U19 Live Streaming: When and where to watch ACC U19 Asia Cup 2026 clash; squads, points table and match details",
-     "url": "https://sports.yahoo.com/articles/india-u19-vs-pakistan-u19-050000355.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "U-19 Asia Cup: India and Pakistan lock horns in battle for bragging rights, top spot",
-     "url": "https://www.rediff.com/cricket/report/india-vs-pakistan-u19-asia-cup-key-players-and-match-preview/20261107.htm",
-     "source": "Rediff"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://timesofindia.indiatimes.com/sports/cricket/india-under-19-vs-pakistan-under-19-asia-cup-cricket-live-score-aaryavir-sehwag-anvay-dravid-yashbardhan-chauhan/liveblog/135650118.cms",
-     "title": "India vs Pakistan, Under-19 Asia Cup Live Score: India on the brink of all out after Arjun Rajput's solid innings",
-     "outlet": "The Times of India"
-    },
-    {
-     "url": "https://sports.yahoo.com/articles/india-u19-vs-pakistan-u19-050000355.html",
-     "title": "India U19 vs Pakistan U19 Live Streaming: When and where to watch ACC U19 Asia Cup 2026 clash; squads, points table and match details",
+     "url": "https://sports.yahoo.com/articles/watch-australia-vs-samoa-free-060500905.html",
+     "title": "Watch Australia vs Samoa: FREE live streams and TV channels",
      "outlet": "Yahoo Sports"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "mililani vs kapolei",
+   "traffic": 100,
+   "published": "2026-11-08T17:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Prep football: Kapolei vs. Mililani (11/7/26)",
+     "url": "https://www.staradvertiser.com/2026/11/07/photo-gallery/prep-football-kapolei-vs-mililani-11-7-26/",
+     "source": "Honolulu Star-Advertiser"
     },
     {
-     "url": "https://www.rediff.com/cricket/report/india-vs-pakistan-u19-asia-cup-key-players-and-match-preview/20261107.htm",
-     "title": "U-19 Asia Cup: India and Pakistan lock horns in battle for bragging rights, top spot",
-     "outlet": "Rediff"
+     "title": "Built Ford Tough Matchup: OIA Open Division Championship Game – Kapolei vs. Mililani",
+     "url": "https://www.khon2.com/sports/built-ford-tough-matchup-oia-open-division-championship-game-kapolei-vs-mililani/",
+     "source": "KHON2"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.staradvertiser.com/2026/11/07/photo-gallery/prep-football-kapolei-vs-mililani-11-7-26/",
+     "title": "Prep football: Kapolei vs. Mililani (11/7/26)",
+     "outlet": "Honolulu Star-Advertiser"
     }
    ]
   },
@@ -1391,18 +1218,18 @@
    "traffic": 0,
    "article_count_24h": 2,
    "article_count_1h": 0,
-   "published": "2026-11-08T02:41:38+09:00",
+   "published": "2026-11-08T01:17:00+09:00",
    "category": "Benefits",
    "news": [
-    {
-     "title": "Americans wait for 2nd stimulus check: Here's how it could impact the economy - KRCG",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOGt0elI2NTRKYjA2QVVtalFVYnpWUkU2WER2NTdtQ20tcHQyVDNFNGxmd2RNVU9SdjY0RkMyUXE0ODhmSlcwa3ExWEdYVGhjSGh5QTBjUnZYTnJRY3g5UnU3RGoyQkVDRmF2N0xWOERzZ2JpLXhvUGFSZkxHZW10NzdhazBjRkVTUXFCbDVUZGlvZ19pOGdBZ1NXUzAwMGZlYWpLQm9DTnRRS2ZSeTlPSWNNcm1nekxUY25VUUZwVTVjc092S1dN?oc=5",
-     "source": "KRCG"
-    },
     {
      "title": "Don’t spend the money just yet: Is Trump still sending the $5,000 midterm payments? - AL.com",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR2xaaEVISU1YajNPemRRNGU1bFlGOFBzUjlNbUVEOHFnRUZZdnlXc19fWFlvY2o1VmtPaUxLT0x1cmstbExpRjg3TlhnMGxVZXpWbjFpVlZkUm1pRG14NXpYXzN6cG5NcHd3TmZOQmdNN2lSR29wek9FU1l6SWJBZWFVQmdXVmdBQ3czbWNNWmVZWGN3SElDel9fLWVkdHo3NW83NUhidkpPZ2dHVENRdmhuQU9iZ9IBygFBVV95cUxNZG5QRG41elZRSFZ3REhIZlZLdjFIZDA2MHRnWXViSlpnQnhVYmlneUM4Qy05SU1RNnU3dW15Wm1qNllvTmRWMDZhYUt0VXFSTU5HUzJaU1UtczViUENSNEN2b3ZIVVJNc1Y1YlZPcUxBemdNMy1pbkN2ZG00M2d5S1VLZWx3am50TDJ3b2hrNGN0cm5wSWxaUmRFejVLN2wzTVVkeGlUbUl5aGhoNTdKclBhUDlMNGJDUGo4SklBNXZQR1o2Zi1pZE5n?oc=5",
      "source": "AL.com"
+    },
+    {
+     "title": "Nataru Transportation Stimulus Increases Two-fold, Government Prepares Rp883 Billion - VOI.ID",
+     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5pRlNtUU9UdnY4YWwzb2c5Znp6cmhaNHRScmt6Ny1XUWxrS0RnVzREQzVqTXg2RWxEWmwzSEFaQlEwZ1E?oc=5",
+     "source": "VOI.ID"
     }
    ],
    "official": false,
@@ -1411,25 +1238,106 @@
   },
   {
    "source": "google_trends",
-   "keyword": "artificial intelligence news",
-   "traffic": 100,
-   "published": "2026-11-08T16:40:00+09:00",
+   "keyword": "the diplomat",
+   "traffic": 200,
+   "published": "2026-11-08T17:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
-     "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
-     "source": "CNBC"
+     "title": "‘The Diplomat’ season 5: What we know so far about the Netflix political drama",
+     "url": "https://www.lifestyleasia.com/hk/entertainment/streaming/will-the-diplomat-season-5-happen-all-we-know-about-netflix-political-drama/",
+     "source": "Lifestyle Asia Hong Kong"
     },
     {
-     "title": "Exclusive | Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
-     "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
-     "source": "WSJ"
+     "title": "‘The Diplomat: Season 4’ on Netflix review by Susan Granger",
+     "url": "https://westportjournal.com/arts/visual/watching-the-diplomat-season-4-with-susan-granger/",
+     "source": "Westport Journal"
     },
     {
-     "title": "Market turmoil saps enthusiasm for the buzziest IPO of the year",
-     "url": "https://www.cnn.com/2026/11/06/investing/wall-street-mayhem-complicates-anthropics-already-complicated-ipo",
-     "source": "CNN"
+     "title": "How The Diplomat Season 4 Faked Windsor Castle, a Warship, and a G7 Summit",
+     "url": "https://www.whats-on-netflix.com/interviews/the-diplomat-season-4-production-designer-interview-italy-locations/",
+     "source": "What's on Netflix"
+    }
+   ],
+   "official": false,
+   "score": 0.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "wegmans sold winning powerball ticket",
+   "traffic": 100,
+   "published": "2026-11-08T17:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Powerball winning ticket sold at Montvale, NJ Wegmans for $847 million jackpot",
+     "url": "https://abc7ny.com/post/new-jersey-ticket-wins-847m-powerball-jackpot-ninth-largest-game-history/20017286/",
+     "source": "ABC7 New York"
+    },
+    {
+     "title": "PB_Jackpot_RetailWin_110526",
+     "url": "https://www.njlottery.com/en-us/newsandevents/newsinput/2026/press-releases/PB_Jackpot_RetailWin_110526.html",
+     "source": "NJ Lottery"
+    },
+    {
+     "title": "After Wegmans ticket matches $847 million Powerball, jackpot at $20 million",
+     "url": "https://www.tcpalm.com/story/news/2026/11/07/powerball-numbers-saturday-november-wegmans-new-jersey/92653560007/",
+     "source": "Treasure Coast News"
+    }
+   ],
+   "official": false,
+   "score": 0.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "taekwondo",
+   "traffic": 100,
+   "published": "2026-11-08T17:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "PPP blasts handling of North Korea's solo Unesco taekwondo bid",
+     "url": "https://www.koreajoongangdaily.com/korea/ppp-blasts-handling-of-north-koreas-solo-unesco-taekwondo-bid/12961156",
+     "source": "Korea JoongAng Daily"
+    },
+    {
+     "title": "On the 7th, the People's Power strongly criticized the situation in which North Korea's sole registr..",
+     "url": "https://www.mk.co.kr/en/politics/12201509",
+     "source": "매일경제"
+    },
+    {
+     "title": "People Power Party Blames Government Over Taekwondo's Likely North Korean Listing",
+     "url": "https://en.sedaily.com/politics/2026/11/07/people-power-party-blames-government-over-taekwondos-likely",
+     "source": "Seoul Economic Daily"
+    }
+   ],
+   "official": false,
+   "score": 0.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "riot",
+   "traffic": 100,
+   "published": "2026-11-08T17:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Protecting Competitive Integrity in VCT 2027",
+     "url": "https://playvalorant.com/en-us/news/game-updates/protecting-competitive-integrity-in-vct-2027/",
+     "source": "VALORANT"
+    },
+    {
+     "title": "Riot Games and JioBLAST to host VCT 2027 Kickoff South Asia qualifiers",
+     "url": "https://thenewsmill.com/2026/11/riot-games-and-jioblast-to-host-vct-2027-kickoff-south-asia-qualifiers/",
+     "source": "The News Mill"
+    },
+    {
+     "title": "Introducing VCT Pacific 2027",
+     "url": "https://valorantesports.com/en-SG/valorantesports/news/vct-pacific-2027-primer",
+     "source": "VALORANT Esports"
     }
    ],
    "official": false,
