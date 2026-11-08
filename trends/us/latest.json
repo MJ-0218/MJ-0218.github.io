@@ -1,32 +1,137 @@
 {
- "generated_at": "2026-11-09T02:38:20.447286+09:00",
+ "generated_at": "2026-11-09T03:09:13.275946+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
-  "google_news": "ok (20)",
-  "evidence": "ok (저장 70, 실패 33)"
+  "google_news": "ok (19)",
+  "evidence": "ok (저장 75, 실패 26)"
  },
- "compared_runs": 5,
+ "compared_runs": 6,
  "spikes": [
-  "daylight saving time",
-  "shedeur sanders",
-  "kevin kane purdue",
-  "bruno fernandes",
-  "panthers vs bruins",
-  "sammy kershaw cma awards snub",
-  "todd blanche",
-  "seattle reign fc vs gotham",
-  "arkansas basketball",
-  "st john's basketball",
-  "nwsl schedule"
+  "seattle power outages",
+  "nwsl",
+  "alex singleton",
+  "where to watch dallas cowboys vs colts",
+  "nfl coverage map",
+  "vitória sc vs porto",
+  "michael strahan",
+  "jack mccaffery",
+  "bills vs vikings",
+  "marshals tv show schedule change"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-09T03:09:13.315189+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -7,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-09T03:09:13.315220+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -7,
+   "in_window": true
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security payment",
+   "traffic": 0,
+   "article_count_24h": 23,
+   "article_count_1h": 6,
+   "published": "2026-11-08T23:00:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "December Social Security direct payment worth $994 goes out in 23 days - Washington Examiner",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzVtWEdUUnp6MzFXWlpIS1g3YmgtV2drRkE4QjFQZi1rSVNBQlpLd3U3ZXg1cUgtUWp3S2JCalNSNXFseFIwQ0QzQjZoOG5uNURGdHJ6YmpCRHJsTXRtbkstVzRGYXdIYmNBNGFBQzZBOUs2LVdndUFWbF9RRVREekNrTjB6SEJCOTd5STlzNGY3d3B4RU5XNnVNb2VkN0psMENZ?oc=5",
+     "source": "Washington Examiner"
+    },
+    {
+     "title": "Some retirees don’t have to wait until 2027 to see their first new COLA-adjusted payment increase - Diario AS",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONmJqMEdLTW91TDlWdE90TW85cnhqdWRHUGF2ZmN5SDRlOVBLY244Q2Jxd2tkUks5Tm95T3VXcmtLdmVzeWxiQlVqUXFQdmlXMkg5RDBtcS05eU02Y0lsZzk3b3Fnc096V01DOXFheThzQWwzekptRC1RN18wRDhFOXFWZkJyd0tFLTlkQXZZc1VXNmdsbFVBVmFSc2F0SUVZUldfREFRM3Z2WkJlclN1bzNGd3VyVUd5WjZWdFhUVkdadG1vTVdvTmhqdGt0RHRFR2s00gHnAUFVX3lxTE1LSXBvSEdoelRIamV5Wmp4VllnQU9QQk50b1ZyU243Tk1FbTF0NlZBamxiVWYxUW9VeWlYQWhrQmRCNWhwTDBDbEdpSXRsVkZCSFA2dXp6Ym5XOUlobzNVWUJUT05fcEd3bTVaVGlHLUVJMEZpTXhzLURlRzhVMWxYVzBnWTNuQTlrZUUyREZkZVg2Tk9MQmVEQTYyMTJNRVhyZkowa1FmWDdSbWF5Z2RILVU5eEFrZFV0ck1naUVIRFRsZ2NXLXg2M1NDZVBmdk5iUWtXUlg1MGNpY3ZHOVFxY2doWk5vQQ?oc=5",
+     "source": "Diario AS"
+    },
+    {
+     "title": "Social Security benefit cuts 2032: Americans face 22% reduction - Beinsure",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb3BvdkpRUUM3SnZzX29kMTI0eGgwOS13R3FhS3Bhd3VPVEs4SUNqb0g0MHk4LTlGczdQX1Q4VnJXZkxGZ0VWVl91eVZnTkoyXzR2MmRhdzJqZTNQcUVHUTJRRDkyd3E2elM4UG8xd3VJQkZoejJHN3dERlpHX0pBdlpkVV94clZSSzloeExwUTU0QQ?oc=5",
+     "source": "Beinsure"
+    },
+    {
+     "title": "Social Security shake-up: Key 2027 changes explained - BorderReport",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaTRGY18wRnhyLVp2bEZkSllWVHNCUnB1UV9DUWZ6ZG0tRDdmeGVwaXpNOEZydy1jendwRW1CWGhCRElsUE5YbVJIQ1Z5Ty1JOHRMTS1VYTF1OHVtTUZxNFRvLTFmclp1MVJJOHdJeENzZFkzVEtXSWVDa3R2MHV1cnVmMDBKNE1MMHMwclItMNIBlAFBVV95cUxQamFLd2YzcE5zMzdPa284Q3FHaUhtaUdUMjRGU1hZQnRBOGc0dG8wbTlIeXowOUlVM1J4WlRxU3dIdjloZG5VS0ZCTVpMdTlzZDdqclQwTmlNR1hONmx6aGtZT05LalhpMEJOQU9SMDQ2eW5EdWJ1ZnN3cElPWGdJT0VER1ROcklaUlZmUTBHbEFEbWd5?oc=5",
+     "source": "BorderReport"
+    },
+    {
+     "title": "At 66 He’ll Owe the IRS $18,000 in Back Taxes. The Agency Can Take Up to 15% of His Social Security Check Until It’s Paid - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT0JnZkZIdkdQckd3bTE0VjQ0SjJ0SU00QTB3UVE1YmQycTlpMkVsMEFDcFpvUzFyTnktUFIyUTdLdmJPYy10aTRvRmw1Z0Z1VExXUXpfQUtROUZ2UXFFMll4dWxIblJvUWxQd25OUjVodHhBSENSZW5ZS1NVcm81cmoyUzZwdmdjWW1oQ0ZR?oc=5",
+     "source": "Yahoo Finance"
+    }
+   ],
+   "official": false,
+   "score": 80.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.washingtonexaminer.com/news/4769273/december-2026-social-security-direct-payment-23-days/",
+     "title": "December Social Security direct payment worth $994 goes out in 23 days - Washington Examiner",
+     "outlet": "Washington Examiner"
+    },
+    {
+     "url": "https://en.as.com/latest_news/some-retirees-dont-have-to-wait-until-2027-to-see-their-first-new-cola-adjusted-payment-increase-f202611-n/",
+     "title": "Some retirees don’t have to wait until 2027 to see their first new COLA-adjusted payment increase - Diario AS",
+     "outlet": "Diario AS"
+    },
+    {
+     "url": "https://beinsure.com/news/social-security-benefit-cuts-2032-americans-face-22-reduction/",
+     "title": "Social Security benefit cuts 2032: Americans face 22% reduction - Beinsure",
+     "outlet": "Beinsure"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/currencies/articles/66-ll-owe-irs-18-150223819.html",
+     "title": "At 66 He’ll Owe the IRS $18,000 in Back Taxes. The Agency Can Take Up to 15% of His Social Security Check Until It’s Paid - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    }
+   ]
+  },
   {
    "source": "google_news",
    "keyword": "daylight saving time",
    "traffic": 0,
    "article_count_24h": 19,
-   "article_count_1h": 6,
+   "article_count_1h": 4,
    "published": "2026-11-08T23:57:32+09:00",
    "category": "Benefits",
    "news": [
@@ -57,9 +162,7 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 2.0→6건 (2.3배)",
-   "spike_bonus": 23.3,
-   "score": 117.3,
+   "score": 73.6,
    "already_covered": false,
    "evidence": [
     {
@@ -76,112 +179,6 @@
      "url": "https://katu.com/news/local/polar-night-arctic-communities-face-months-without-sunrise-unlike-dst-shifts",
      "title": "Polar night: Arctic communities face months without sunrise, unlike DST shifts - KATU",
      "outlet": "KATU"
-    }
-   ]
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-09T02:38:20.485713+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -7,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-09T02:38:20.485740+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -7,
-   "in_window": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "social security payment",
-   "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 5,
-   "published": "2026-11-08T23:00:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "December Social Security direct payment worth $994 goes out in 23 days - Washington Examiner",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzVtWEdUUnp6MzFXWlpIS1g3YmgtV2drRkE4QjFQZi1rSVNBQlpLd3U3ZXg1cUgtUWp3S2JCalNSNXFseFIwQ0QzQjZoOG5uNURGdHJ6YmpCRHJsTXRtbkstVzRGYXdIYmNBNGFBQzZBOUs2LVdndUFWbF9RRVREekNrTjB6SEJCOTd5STlzNGY3d3B4RU5XNnVNb2VkN0psMENZ?oc=5",
-     "source": "Washington Examiner"
-    },
-    {
-     "title": "Some retirees don’t have to wait until 2027 to see their first new COLA-adjusted payment increase - Diario AS",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONmJqMEdLTW91TDlWdE90TW85cnhqdWRHUGF2ZmN5SDRlOVBLY244Q2Jxd2tkUks5Tm95T3VXcmtLdmVzeWxiQlVqUXFQdmlXMkg5RDBtcS05eU02Y0lsZzk3b3Fnc096V01DOXFheThzQWwzekptRC1RN18wRDhFOXFWZkJyd0tFLTlkQXZZc1VXNmdsbFVBVmFSc2F0SUVZUldfREFRM3Z2WkJlclN1bzNGd3VyVUd5WjZWdFhUVkdadG1vTVdvTmhqdGt0RHRFR2s00gHnAUFVX3lxTE1LSXBvSEdoelRIamV5Wmp4VllnQU9QQk50b1ZyU243Tk1FbTF0NlZBamxiVWYxUW9VeWlYQWhrQmRCNWhwTDBDbEdpSXRsVkZCSFA2dXp6Ym5XOUlobzNVWUJUT05fcEd3bTVaVGlHLUVJMEZpTXhzLURlRzhVMWxYVzBnWTNuQTlrZUUyREZkZVg2Tk9MQmVEQTYyMTJNRVhyZkowa1FmWDdSbWF5Z2RILVU5eEFrZFV0ck1naUVIRFRsZ2NXLXg2M1NDZVBmdk5iUWtXUlg1MGNpY3ZHOVFxY2doWk5vQQ?oc=5",
-     "source": "Diario AS"
-    },
-    {
-     "title": "Social Security benefit cuts 2032: Americans face 22% reduction - Beinsure",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb3BvdkpRUUM3SnZzX29kMTI0eGgwOS13R3FhS3Bhd3VPVEs4SUNqb0g0MHk4LTlGczdQX1Q4VnJXZkxGZ0VWVl91eVZnTkoyXzR2MmRhdzJqZTNQcUVHUTJRRDkyd3E2elM4UG8xd3VJQkZoejJHN3dERlpHX0pBdlpkVV94clZSSzloeExwUTU0QQ?oc=5",
-     "source": "Beinsure"
-    },
-    {
-     "title": "Social Security shake-up: Key 2027 changes explained - BorderReport",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaTRGY18wRnhyLVp2bEZkSllWVHNCUnB1UV9DUWZ6ZG0tRDdmeGVwaXpNOEZydy1jendwRW1CWGhCRElsUE5YbVJIQ1Z5Ty1JOHRMTS1VYTF1OHVtTUZxNFRvLTFmclp1MVJJOHdJeENzZFkzVEtXSWVDa3R2MHV1cnVmMDBKNE1MMHMwclItMNIBlAFBVV95cUxQamFLd2YzcE5zMzdPa284Q3FHaUhtaUdUMjRGU1hZQnRBOGc0dG8wbTlIeXowOUlVM1J4WlRxU3dIdjloZG5VS0ZCTVpMdTlzZDdqclQwTmlNR1hONmx6aGtZT05LalhpMEJOQU9SMDQ2eW5EdWJ1ZnN3cElPWGdJT0VER1ROcklaUlZmUTBHbEFEbWd5?oc=5",
-     "source": "BorderReport"
-    },
-    {
-     "title": "At 66 He'll Owe the IRS $18,000 in Back Taxes. The Agency Can Take Up to 15% of His Social Security Check Until It's Paid - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNXhSaVdaTi1icEU1WnlQSXJyWGQzLWxyZTB2ZFl6aFFfdGZOMHgzUWtHOXlSOXhNU1NFT01QVFZlQjI1WEFKM18ySXFpaE1aRkFTSzJ3b0tNM1hKam0xalZabThLYjlYbXJiM2RRd01NQmhBNUp3Mk9MM1d5U1hieE93SUxkWGxEZzF1TXppQXVTeDBmSHN4cGhXNVdqdDBOdXFNTnhFTWNpOFl4VGEwYnV5MndudU5nMmxBajRieHctY1JhdXRkUGplMllBZE5KanEzR2VrTFVsRGlVem9iSXY3dHVPUVdDbHl4TmZ5Q1UtOUVhZFRJakV3?oc=5",
-     "source": "24/7 Wall St."
-    }
-   ],
-   "official": false,
-   "score": 80.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.washingtonexaminer.com/news/4769273/december-2026-social-security-direct-payment-23-days/",
-     "title": "December Social Security direct payment worth $994 goes out in 23 days - Washington Examiner",
-     "outlet": "Washington Examiner"
-    },
-    {
-     "url": "https://en.as.com/latest_news/some-retirees-dont-have-to-wait-until-2027-to-see-their-first-new-cola-adjusted-payment-increase-f202611-n/",
-     "title": "Some retirees don’t have to wait until 2027 to see their first new COLA-adjusted payment increase - Diario AS",
-     "outlet": "Diario AS"
-    },
-    {
-     "url": "https://beinsure.com/news/social-security-benefit-cuts-2032-americans-face-22-reduction/",
-     "title": "Social Security benefit cuts 2032: Americans face 22% reduction - Beinsure",
-     "outlet": "Beinsure"
-    },
-    {
-     "url": "https://247wallst.com/personal-finance/2026/11/08/at-66-hell-owe-the-irs-18000-in-back-taxes-the-agency-can-take-up-to-15-of-his-social-security-check-until-its-paid/",
-     "title": "At 66 He'll Owe the IRS $18,000 in Back Taxes. The Agency Can Take Up to 15% of His Social Security Check Until It's Paid - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
     }
    ]
   },
@@ -205,14 +202,14 @@
      "source": "Business Insider"
     },
     {
-     "title": "Splash Financial review: Compare student loan rates in one place - Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ05PeHhaRnFTRW15d0VVTExLd29Qd3JQX3h6V20yTnZtMWN1TzVTd3FPRl9va0FXd0ppOHFDc1ZyWFZYMkdoRjY1WW1uTURVZWdIUUd6OXR4T0w2QWlPMlBaZGk0R0lhSklyZlN5Q2drLWJLYzZOYUh0dmNsOVpweElSSW40WDFEV2Y2MC0xWFNpUQ?oc=5",
-     "source": "Yahoo Finance Singapore"
-    },
-    {
      "title": "LETTER: Erasing student loan interest isn’t ‘free’ - Las Vegas Review-Journal",
      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQYW5BU0p6bnY2V2Rsc0tGNEdxR2pNRmtaM0pCY3ZzUW82dE5Gck9ERDNUWi1BVktVekRqOVFQU1NkQVB5dktYUE9FcnNNMEFMMTlsc29hZkNnYVZVb3VwcmItS3hrX3dYTU0zeHFnTGRLOUZtTV9GUElsY0hzd19OOFVCYkxWNXhrMmtoZElSaTVjTHl4eXU2MS1ZVHU4azdQXzVWMjZBUDdSR3JpR1pPSXVJMHZpUEhSRXEzVlRMVFUxNFF2TENDMEljODlmTm9ZcEJVNV9VUmhic3ZQbkVBZF9XUEVXeDBpSzd3S1V2a2JBZGpPcWFiVlpJdFA0dnRzdmx6dldBT0VkamcxVk10eVRWT0tYYzdaeWF3bTlmMXBrZ3o3eUVyLUROa2VBSFpHNzAyWmI1allMT2daNWtxWVF4bVR2WFc1REkyTXdFbjNPUU1MTGJBcE16YUZ0MVNLakd6TGhhRTF6bDZFN1FvS1pQSzZSaWFNY2c?oc=5",
      "source": "Las Vegas Review-Journal"
+    },
+    {
+     "title": "Splash Financial review: Compare student loan rates in one place - Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ05PeHhaRnFTRW15d0VVTExLd29Qd3JQX3h6V20yTnZtMWN1TzVTd3FPRl9va0FXd0ppOHFDc1ZyWFZYMkdoRjY1WW1uTURVZWdIUUd6OXR4T0w2QWlPMlBaZGk0R0lhSklyZlN5Q2drLWJLYzZOYUh0dmNsOVpweElSSW40WDFEV2Y2MC0xWFNpUQ?oc=5",
+     "source": "Yahoo Finance Singapore"
     },
     {
      "title": "A Year in Money: Four People Share How They Spend, Save and Pay Off Debt - The New York Times",
@@ -235,136 +232,55 @@
      "outlet": "Business Insider"
     },
     {
-     "url": "https://sg.finance.yahoo.com/news/splash-financial-review-compare-student-152740096.html",
-     "title": "Splash Financial review: Compare student loan rates in one place - Yahoo Finance Singapore",
-     "outlet": "Yahoo Finance Singapore"
-    },
-    {
      "url": "https://www.reviewjournal.com/opinion/letters/letter-erasing-student-loan-interest-isnt-free-3911133/?utm_campaign=widget&utm_medium=section_row&utm_source=homepage&utm_term=LETTER%3A%20Erasing%20student%20loan%20interest%20isn%E2%80%99t%20%E2%80%98free%E2%80%99",
      "title": "LETTER: Erasing student loan interest isn’t ‘free’ - Las Vegas Review-Journal",
      "outlet": "Las Vegas Review-Journal"
+    },
+    {
+     "url": "https://sg.finance.yahoo.com/news/splash-financial-review-compare-student-152740096.html",
+     "title": "Splash Financial review: Compare student loan rates in one place - Yahoo Finance Singapore",
+     "outlet": "Yahoo Finance Singapore"
     }
    ]
   },
   {
-   "source": "google_news",
-   "keyword": "election day",
-   "traffic": 0,
-   "article_count_24h": 68,
-   "article_count_1h": 11,
-   "published": "2026-11-08T23:30:21+09:00",
-   "category": "Elections",
+   "source": "google_trends",
+   "keyword": "seattle power outages",
+   "traffic": 20000,
+   "published": "2026-11-09T02:30:00+09:00",
+   "category": "기타",
    "news": [
     {
-     "title": "Midterm Elections 2026: Congress Polls, Charts and More - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5",
-     "source": "NBC News"
+     "title": "WEST SEATTLE WEATHER: Major power outage hits thousands, trees and wires down",
+     "url": "https://westseattleblog.com/2026/11/west-seattle-weather-first-power-outage-2/",
+     "source": "West Seattle Blog..."
     },
     {
-     "title": "I Voted on Election Day and Ate Nothing but Free Food - Houstonia Magazine",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQUljQjBhZm1kenYwclBJbUN1NVM4Y1dGdmpCVEIwM2N1dTU0a002blpKVnh6Sk9rM1NBWW1vQi14NzE5ZHk4ZkdsdU10THp1dGJ4a01xeGN4ZkNsRkJxVXhCUDRQR3Vya21mbGVJR2RNaDZmcXBOMmZEUjZGOVZwak5QU0JqRzdnXzBHZlRwTFlqZGVPQm16MHE1RE5xYU9mbWE5cFhwME9jYzg?oc=5",
-     "source": "Houstonia Magazine"
+     "title": "Thousands remain without electricity after powerful windstorm hits Pacific Northwest",
+     "url": "https://mynorthwest.com/local/thousands-remain-without-electricity-after-powerful-windstorm-hits-pacific-northwest/4296771",
+     "source": "MyNorthwest.com"
     },
     {
-     "title": "Channel 9’s Tom Terry remembers 2006 Election Day tornado - WFTV",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMDlUc0ZHa2N2elhzZzR0OEowOTY0QVRNMklCZV9lSHhRNmNUY1J0T2JOX2t0MmZiZTA0bnZhNWV0X09qWW1pVkJZREVpa0plNlZUaGpaTC1hRlFvSS1HNVJROG1mZ2F1TnBmMlowRjBBNkZ4WW1PZHMycXBZeElMR0dadEtZaVJWSW92eXc3LVYxbU40eHQ5MmdjYURNZ0pST2QteHBZTFdsSHVPeFJrNXhCVG43dVHSAcsBQVVfeXFMT1dFVjBaT25naUM5TkY5U0FpUDFiQlA2cWJMYm5DYzJTZlpmb0otVlZkVnlnaHc3SUZKNTFaV0paRks0NHpNVTc1RFJTdldTclkxY3dyc0RnT1p0eU90T0d4QldMSk1aT0MtZjlRVFdLQWNsZ3JMbnE2X3hWQ3ZMeUM4UkZMTGYtVEhKN2hHRDI1MDJLQTVJcnZLR2JVbUNYY09aWHRsTWM0Uk15WE9QLTFoMXlSS2hKN2lHak1zdEVzR204Z0wzOThEcGc?oc=5",
-     "source": "WFTV"
-    },
-    {
-     "title": "Week in photos: see the highlights from Election Day - Sacramento Bee",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91QWgxSmJZR3ZQNmdnVUZnVV95UmxVNVJrWXVFZkx1elpnY1duaHFxOFRIR05yV1Aza1BWejNTbXdCZWRXeF9Cam1qbnpXaDB3THJTRWdJdlhEQTBSZjh4bFE2YTlnZ9IBZkFVX3lxTE9FRnR5ZVpGTktSeUdxRE1ZamljTW9OWjBEZmxBb1dwMUNGTHRfRkFheEoycm5HSVlPY0Q5TWNwUm9MVGVVbzNpRGM0emk2bGJwenMwX21WU0xtMl9BYl8tVHhubVJwdw?oc=5",
-     "source": "Sacramento Bee"
-    },
-    {
-     "title": "Why some Fresno County races are still undecided four days after Election Day - ABC30 Fresno",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYm1yUjNNWWxSWTAtb0VmNmJONndXVzZRYk9xR3JkTEhuM19tSnFqamNDbllINC1mQTZTRkhoRmxPVTdGbS01YWFjSy0yMzJyVjlpaFBDUGwxdWE4S3kyUWVQTFVzdDdVVml0NTJYdllTM1lfV1VqSWtBYkdGdE9TMFRId3NpUHA3U25BR9IBkgFBVV95cUxQa1FyeTV1YUJ5djNEWnItSFpWNUI3djVJUzY1NTVXUzZDRHlYNXphN2lyaDVSVVNyeHloUUZYeUhadmxPb2tWdFpFVVBWNnRka1NZNGNyNTRYVlg5RGlsQUl6VHdhMFFqalpuVmVKcGRzR3dYdXZCZzJjaE5vclZTRWNLbGVCOThzanphUXRNVkhTQQ?oc=5",
-     "source": "ABC30 Fresno"
+     "title": "Seattle power outages linger after windstorm blasts through Western WA",
+     "url": "https://www.seattletimes.com/seattle-news/weather/seattle-power-outages-linger-after-windstorm-blasts-through-western-wa/",
+     "source": "The Seattle Times"
     }
    ],
    "official": false,
-   "score": 65.0,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 69.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.nbcnews.com/politics/2026-elections/midterms",
-     "title": "Midterm Elections 2026: Congress Polls, Charts and More - NBC News",
-     "outlet": "NBC News"
+     "url": "https://westseattleblog.com/2026/11/west-seattle-weather-first-power-outage-2/",
+     "title": "WEST SEATTLE WEATHER: Major power outage hits thousands, trees and wires down",
+     "outlet": "West Seattle Blog..."
     },
     {
-     "url": "https://www.houstoniamag.com/eat-and-drink/food-news-and-events/election-day-free-food-houston-restaurants/",
-     "title": "I Voted on Election Day and Ate Nothing but Free Food - Houstonia Magazine",
-     "outlet": "Houstonia Magazine"
-    },
-    {
-     "url": "https://www.wftv.com/news/local/channel-9s-tom-terry-remembers-2006-election-day-tornado/25POBW4QMBAH5N3JGOPFGNR3DA/",
-     "title": "Channel 9’s Tom Terry remembers 2006 Election Day tornado - WFTV",
-     "outlet": "WFTV"
-    },
-    {
-     "url": "https://abc30.com/post/fresno-county-races-are-undecided-days-election-day/20023284/",
-     "title": "Why some Fresno County races are still undecided four days after Election Day - ABC30 Fresno",
-     "outlet": "ABC30 Fresno"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "early voting",
-   "traffic": 0,
-   "article_count_24h": 13,
-   "article_count_1h": 4,
-   "published": "2026-11-09T02:00:21+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-     "source": "NBC News"
-    },
-    {
-     "title": "Nevada's last day of early voting could be its biggest - KTNV Las Vegas",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUU9kUU1fRTlNYzM0bzdHbWhCOG9rc09fLWstN2NOd3g1VXZxYlJZNkMzUFpoZFI5cmVmMHZxbHNjemF5UXlTY1FuU2VwbllXcGs1M3pQVXBQcmtDNDlJMldxMm10QkRCaGNhODJjbEFEalJmWDgyNnY2dUdEV2M1NF9FU2NKalJGMDJBMnpib1VHa0hGa2NRMGhvRFhSSGFvTUxYeDlydnI?oc=5",
-     "source": "KTNV Las Vegas"
-    },
-    {
-     "title": "Westchester Election Results Take Shape Following Polling Delays - News12 | Westchester",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSWQ4WDJfbDIwdTlSQXFFNzQzVmhUMHk3LWV2N1oxdmJSOV9NRzAxckNIUE93VFNsajl2MEdnMTlPSlBvWjBCeWU5RzBwak5hVk1JZS1zWWFJTDhKdS1LTW1JR05jZlBuM1JaSmlsZHF3V1pzX3k3c2tpQlNsSEFpRFBMRXlrSWV6MzBvR0c2VDZZSTFRbkxkSFBlaEJxOEZFRnRmS1dJaUgzUjNKV1NfSGJKdEl1ZXRuUnVrZ2w2LXF1QnZHbmZF?oc=5",
-     "source": "News12 | Westchester"
-    },
-    {
-     "title": "Final ballot count to determine fate of close local races starts this week - Dayton Daily News",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa2ZtWVp3VThvUU5QUDg5d0hfd0t6Tk4tTkNKcWt2TXlQV0JIWHd6N3lpS1ltYTl4ckxUUlV1VlZsdGNoY3llcEw3VXNfa0ltWGlFYmJuc19hbS1JVG1zQWpUeVhXT3oxYTVPZmxHS1J5SVRCdE1aYW11TDc0dkIwZUthQ1ZLVF9nZ2duRXl6Ukhtc3Yw?oc=5",
-     "source": "Dayton Daily News"
-    },
-    {
-     "title": "Like in past elections, Alaska is still counting ballots. When will we know who won? - Anchorage Daily News",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcGpNT0puZ3BSc3dfek1DM0JSMFZhSHRESjJYeHkxNENnd0RFUy1fYk9pVlFtZlZseWxlT19BVzI1QzFxTjAzeW9jTDlwaHZfSWx3dGF2ZlhoS2stYnc2SXNjdEtMclJYVjJQdEw5U281eDZRaVdleldZQnA5c1NXamU2WUdtaHQtZWFfN2VOelRraDF1ajl4aE1xeXZURWFCd2FSWFpBTFAydVBGLXF1WUdrcEVKNHRyV1FVRF9xMA?oc=5",
-     "source": "Anchorage Daily News"
-    }
-   ],
-   "official": false,
-   "score": 59.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "outlet": "NBC News"
-    },
-    {
-     "url": "https://www.ktnv.com/news/political/elections-local/nevadas-last-day-of-early-voting-could-be-its-biggest",
-     "title": "Nevada's last day of early voting could be its biggest - KTNV Las Vegas",
-     "outlet": "KTNV Las Vegas"
-    },
-    {
-     "url": "https://westchester.news12.com/2026/11/08/westchester-election-results-take-shape-following-polling-delays/wG6e8KRPnQ63jqpefVbqg",
-     "title": "Westchester Election Results Take Shape Following Polling Delays - News12 | Westchester",
-     "outlet": "News12 | Westchester"
-    },
-    {
-     "url": "https://www.daytondailynews.com/local/final-ballot-count-to-determine-fate-of-close-local-races-starts-this-week/article_49898678-40ad-557f-8333-2f477876c83a.html",
-     "title": "Final ballot count to determine fate of close local races starts this week - Dayton Daily News",
-     "outlet": "Dayton Daily News"
+     "url": "https://mynorthwest.com/local/thousands-remain-without-electricity-after-powerful-windstorm-hits-pacific-northwest/4296771",
+     "title": "Thousands remain without electricity after powerful windstorm hits Pacific Northwest",
+     "outlet": "MyNorthwest.com"
     }
    ]
   },
@@ -372,14 +288,14 @@
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 31,
-   "article_count_1h": 4,
-   "published": "2026-11-09T00:20:33+09:00",
+   "article_count_24h": 32,
+   "article_count_1h": 5,
+   "published": "2026-11-09T02:02:22+09:00",
    "category": "Recalls",
    "news": [
     {
-     "title": "Mercedes Recalls 144,000 Cars For Blank Screens - Motor1.com",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Mc0ExSHl2RFZEVURUU1hFYjRlWGJza0ZzVG4wQW9qajBoN1JwZ1d1ZXpFcm9GRkZfYVBjQ19ZVzZ3Smw5dktSNTd3aHR5Q0FhTXlzWmR5WE1QMDdsYnZLdHN4TzhFaDJRMDNJNGUxM1owSGs5NFJScGYwcw?oc=5",
+     "title": "Some Range Rovers And Jaguars Could Suddenly Lose Power - Motor1.com",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XNjNIeUMwUHVYaUFQREVOYnpyME9vV04tUEV2TGRkbTRfbDhhTDROa3dheXZfYWRueWxlR3UtWWJrbmY1WXozLU0xX094c1VlX2hZSGJuNW9JaV9tdUlWN1FHSlVudEVlclowWk50UWg?oc=5",
      "source": "Motor1.com"
     },
     {
@@ -404,12 +320,12 @@
     }
    ],
    "official": false,
-   "score": 59.8,
+   "score": 65.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.motor1.com/news/795490/mercedes-benz-blank-displays-recall/",
-     "title": "Mercedes Recalls 144,000 Cars For Blank Screens - Motor1.com",
+     "url": "https://www.motor1.com/news/809157/jlr-recall-power-loss-issue/",
+     "title": "Some Range Rovers And Jaguars Could Suddenly Lose Power - Motor1.com",
      "outlet": "Motor1.com"
     },
     {
@@ -431,173 +347,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "product recall",
-   "traffic": 0,
-   "article_count_24h": 35,
-   "article_count_1h": 7,
-   "published": "2026-11-08T20:00:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Health Canada issues new product recall notices for items sold at major Canadian stores - Inside Halton",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQM1p0LVpKcVo5ZHU2YzZVdDhFQkNWX0NRUF9JangzTmFkNTZLTFZYSUxWeTVaWmpIclRmM1pqeG9vdGRneTJ4ejhOMWZ0Q3BzNTltNGF2c3ZnWEI5SDNxQzE1U2J1N3E3S19mdGlQUmsyUUlPV3ZrcXZ5VGZLZHlmWHhnWWUtNUJkZU9OOTEyMkYzd084cG1TbjA4OG1PemlFN1JSUDBjX1Z3TkFBcEI0UGZVaE5DbjVLb1NCbHhB?oc=5",
-     "source": "Inside Halton"
-    },
-    {
-     "title": "Toddler-Snack Recall Tests Organic-Food Maker Once Upon a Farm - WSJ",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRENlaXk0dXhmUkJzVWRMTVNSQjNwQ1J6LS1MRUE0RVRoTXRjZ2JKVWpFWTVqU3dDRVJla25LcllTRDNzSTJhMWxYR1lacmVNUTJWVkFKY0tnekZCbzRvUjBEX2cyTGFrdGR0bnJsSTh6ZWpFdWRieVJkSjZ4YU1OVzl1ZHFYZEpGQ2Nrak5hRlk3NW1CZ0ZuUVRrR3l6aUZ4UFE?oc=5",
-     "source": "WSJ"
-    },
-    {
-     "title": "Fresh & Ready Foods LLC Recalls Fresh To You Brand Sausage, Egg & Cheese Biscuit Sandwich Due to Possible Health Risk - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWEp1Q2JfaEZtUjlqSHl0S2dJWUh1OENScllXcGZHOEJ1MVkwYXhLV0pva3lGbTRfa25xdkQxdnhwSTFHajlIZVI3c215MG5BR3pfQ0lRNzViNjAwaGlQbEYxak9vZWE1djBmUmNycGxfOUVJNmZFdGZmcHhJaEY0UTlZUkZCODBSb184dGQzcDBLOE1l?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "Over 3.6 million ladders sold at Lowe’s and Costco recalled after reports of serious injuries - AL.com",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVY2M3ljZURibGo0SV9XLW5Iek1Kc05jWXFTa0tDWVpQSU91YmpxTEQyaEdoNUNwRjNoR0czTjRLWHNOT3FoUklxZS1wV2VDR3diRTQ4R1ZiWWpFYVNGSFF4bG5NR3FhVzlZUzdUOUtOVVRlLUhzcmNfcHdFMW16dEhRT2p2cDF0X0hNUFY2M2ZvRnlVUTZHM0thdzVxMDhWUGxmSnpWSU1oRDgxMnNXdkxQQTIxMkxoUGRHcklMbXI2dUtjUjBn0gHbAUFVX3lxTE9sUFFkcG44NjhjQUhpY0c2aDZQSk1oNnFuY3FUcjk0cEltd21zazlSRl9ndk9fRkFkc0Y2aTh6ZVJERklyeDJhWnR3RWpQaDMtRmlHQmd6TkxmeVdVTzVMSFM4MldIZWRGVDdJM3BYU1R5NmRkNlBCSEwxVmRTcUZhdWM2TVdpd1ZTMUNiTWhhYWlwYmZpMXdhODlHTFlOVHBBSXRwVDljdkZLMjEtNUp4RmRDV0lheVV1RHJDem9NV2VFQ0JieHBvTjFkSzFiaWJFYldiNTZWaDQ5OA?oc=5",
-     "source": "AL.com"
-    },
-    {
-     "title": "Parents warned after potentially dangerous baby product recall, can pose health risks - WKRC",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcWVJM194U2lzQzNqRmtqN1Fzbk9XTFdmV3ZhRllXdTNpRElEdEVCY3E1cDktaUxqb1dfeDJUMGZxemN0RVlXbnlYYmFZYkJWcUJaSnBIYmtuZmZnRVozSnRSZzVlMUVKQ0dteklBaWxyYzM0dTRhV3FTUFRQX282RDY1NnBHUkVRLTRkS2Npbm9IUEE1XzhCNTdxeXB2aFJxWDh0bTZZQ2IwcDZDSVhrdjVwSGEzX2xDYWJHZnlPYTJEN2EzZEVPQ1plNA?oc=5",
-     "source": "WKRC"
-    }
-   ],
-   "official": false,
-   "score": 56.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.insidehalton.com/news/health-canada-product-recalls-roundup/article_a4721d6d-34aa-5a2e-a064-09d175453a76.html",
-     "title": "Health Canada issues new product recall notices for items sold at major Canadian stores - Inside Halton",
-     "outlet": "Inside Halton"
-    },
-    {
-     "url": "https://finance.yahoo.com/healthcare/articles/fresh-ready-foods-llc-recalls-140300141.html",
-     "title": "Fresh & Ready Foods LLC Recalls Fresh To You Brand Sausage, Egg & Cheese Biscuit Sandwich Due to Possible Health Risk - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "federal holiday",
-   "traffic": 0,
-   "article_count_24h": 26,
-   "article_count_1h": 5,
-   "published": "2026-11-08T20:54:00+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "When is Veterans Day? Date, day and federal holiday facts - The Journal News | lohud.com",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMzVsbEJFdjlScGpfV0dqNzBlNnY2bVdSN19hZFg1cHdZcFppQUNpZkw4T0paV2t1Nk5RWHBqTkw1cWhIV0puQUNDaG1teUFWSDlHemROZmJ5cndFbGUxbWd0RWlfV3FiTW9JbHEwdlAxMHRHU2hoS21Wb0NWcnkwYTROdkdDUEFZTXhzTXN0d3BMV3JzUnExR1ZqdEJkYXNWd3lrT2hEX0c?oc=5",
-     "source": "The Journal News | lohud.com"
-    },
-    {
-     "title": "Is there school on Veterans Day? Jacksonville-area closures for Nov. 11 - The Florida Times-Union",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWUxwTVFqcEUxOWJnVHM1b2NQLXBmV0NXbzJveExFQVQxUWZMT1lsRXk2VU9OZURFd3h2R2IyeHJOX25ncWdPOVgzTTB6dzVrMnBoWlBSN3RBMWVGN3FQeWxIZzRCcFRBWTR3a2RSNjRTTmhMN1gydWlsYjdFRlNYSTBJeEhuUU8xOHRmZW5zWkQ5YVZxQnQ3MUJvZTI0YlJPeFpWeGtiQWE3dUhtQkR3?oc=5",
-     "source": "The Florida Times-Union"
-    },
-    {
-     "title": "What's open and what's closed in Minnesota on Veterans Day 2026 - AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNT29pUzNjVy1lQTdWRDlMck5FUEpkUDVianhMSWUyVkNkQjVDa1NLcWNhbGdlbW1YNXZ2OTI0aXB2c3J2ZUdqTkcxSHJFTkE4S3NvcWhHZHhTWWs1NzhqQnRheXlVYkdLNVNKbnRHTnhwZkItdDEzSnBvU052WWp6YUlqQQ?oc=5",
-     "source": "AOL.com"
-    },
-    {
-     "title": "D-FW Business datebook: Fed conferences, José Andrés and an inflation update - Dallas News",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGhfcEdmNThkaHJjMXNrYjJqaUs0V1pRYjltSFBMOHZWNWhxWGlDNjdqWGFWaVRZNk1lOUZFS2MyaFdLa0dYdVFfNzJXY25Wc3NLS0sxaVVDLUVkSzBMMzlCWTRmNUktc3dVNzd2SjJkNWctUGNPTVYxY1RJVzZ4cnBhTVpXOVh5V2JIMTVIbVR4eC14LThlRUtJMzA?oc=5",
-     "source": "Dallas News"
-    },
-    {
-     "title": "What is Diwali, and why is it celebrated? What to know about the annual festival of lights. - Yahoo",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNc182T3gzVGhRZG0wb0stR2txMFFLcDV6bjNybTR1MW9ocHN2ZXFETVZGNGY3T2VFaWljM3h1S0Rsdk1PWUV1ZXRZYmlKcnlMbldGazZzTEYtVFphTmpyZnIzckk0VXdBZXlacnpuNFZUdGhJbUtLdkcxLVFrLWlQWDJ5U3lTY0xTWGNaZk54WDdEbU5mTHhJcWRFOFpRYUVHeWFiMUhfamJZdWV5SFB6RVA1QzJxRVcyeEt1QkhtT2h1eVhnZmZJdlNXa2NvSVdqVEE?oc=5",
-     "source": "Yahoo"
-    }
-   ],
-   "official": false,
-   "score": 55.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.aol.com/articles/whats-open-whats-closed-minnesota-133457000.html",
-     "title": "What's open and what's closed in Minnesota on Veterans Day 2026 - AOL.com",
-     "outlet": "AOL.com"
-    },
-    {
-     "url": "https://www.yahoo.com/news/article/what-is-diwali-the-festival-of-lights-reaches-its-biggest-day-today-heres-what-to-know-163104826.html",
-     "title": "What is Diwali, and why is it celebrated? What to know about the annual festival of lights. - Yahoo",
-     "outlet": "Yahoo"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "social security COLA",
-   "traffic": 0,
-   "article_count_24h": 17,
-   "article_count_1h": 1,
-   "published": "2026-11-08T20:52:41+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Some retirees don’t have to wait until 2027 to see their first new COLA-adjusted payment increase - Diario AS",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONmJqMEdLTW91TDlWdE90TW85cnhqdWRHUGF2ZmN5SDRlOVBLY244Q2Jxd2tkUks5Tm95T3VXcmtLdmVzeWxiQlVqUXFQdmlXMkg5RDBtcS05eU02Y0lsZzk3b3Fnc096V01DOXFheThzQWwzekptRC1RN18wRDhFOXFWZkJyd0tFLTlkQXZZc1VXNmdsbFVBVmFSc2F0SUVZUldfREFRM3Z2WkJlclN1bzNGd3VyVUd5WjZWdFhUVkdadG1vTVdvTmhqdGt0RHRFR2s00gHnAUFVX3lxTE1LSXBvSEdoelRIamV5Wmp4VllnQU9QQk50b1ZyU243Tk1FbTF0NlZBamxiVWYxUW9VeWlYQWhrQmRCNWhwTDBDbEdpSXRsVkZCSFA2dXp6Ym5XOUlobzNVWUJUT05fcEd3bTVaVGlHLUVJMEZpTXhzLURlRzhVMWxYVzBnWTNuQTlrZUUyREZkZVg2Tk9MQmVEQTYyMTJNRVhyZkowa1FmWDdSbWF5Z2RILVU5eEFrZFV0ck1naUVIRFRsZ2NXLXg2M1NDZVBmdk5iUWtXUlg1MGNpY3ZHOVFxY2doWk5vQQ?oc=5",
-     "source": "Diario AS"
-    },
-    {
-     "title": "Social Security Is Teetering, and 3 of President Donald Trump's Policies Are Helping to Push It Over the Edge - The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRkY1S0l3bUREdkp1R3NSWHpvUlZ4Ulo5dlY0X1l2ZEktZzhRSk10OGdJaEtoWU13SDFJb1N3cUc2QU1JUEhabVNKeGlCM1EtbVBBY193RlFtdExRbmM3VTBqMXhMWUZBbkVPTndhdVljLUNhTHBNOHRHc0J1VHlBYVIxcGhnZTBrd25LNUE0UGZVWHctZ0FBY1ZuS0tKTHJfNUZ1VE9UNkh4dW85bUhyUDBvWXVhUzJoNWZZOThjdFA?oc=5",
-     "source": "The Motley Fool"
-    },
-    {
-     "title": "Social Security's 2027 Raise Could Increase Retirees' Taxes - What the 3.6% COLA Means for Your Benefits - https://capitolskyline.com/",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSzJNcThyRVRFOWZaTDNoWTNRemRHemhycGd3RGZGRGwzX1ZYUnROS0xUY2h1cmhubXM3MUZFU3BuM3VYanNZTXZlbk9yeHhoNFhBMWI1RVVic0cxUFN0cE04eTllNHhzQ2xEZXVxTnZVRWtjMWlPTURVVlB0WFBUcEFFX0NEa2FWYmEyd0h3?oc=5",
-     "source": "https://capitolskyline.com/"
-    },
-    {
-     "title": "A Spousal Benefit Gets the Full 3.6% COLA in 2027. It Still Tops Out at Half of Your Spouse’s Check - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMjR3QzI1WGcyUG5NRW1MVE5sczRnSklidFRUMEZzUU9BSWtGbDZhZzVwVmNiYVZkeUlpT1ZrdEYzSkdLekFUZDJMd1I0bVNoUEx6UU40VEM2OGVQdlpoWnlIRkk1czZVem1EbkRjTUwtQndnbnFyeWlnallVUmdpdDcybEVVMkpaVkM2cGdNc1dQOVJOU1hDcjdlRnR2cThrZEZtX3NFZHVKcUpDMVVVNUxuZG5WSXQtaHNCWTA4dkNTNVNQTlo5ZkJxbjZxbG91RDkzTVhxNVVkamFfVDlGcg?oc=5",
-     "source": "24/7 Wall St."
-    },
-    {
-     "title": "Social Security benefit cuts 2032: Americans face 22% reduction - Beinsure",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb3BvdkpRUUM3SnZzX29kMTI0eGgwOS13R3FhS3Bhd3VPVEs4SUNqb0g0MHk4LTlGczdQX1Q4VnJXZkxGZ0VWVl91eVZnTkoyXzR2MmRhdzJqZTNQcUVHUTJRRDkyd3E2elM4UG8xd3VJQkZoejJHN3dERlpHX0pBdlpkVV94clZSSzloeExwUTU0QQ?oc=5",
-     "source": "Beinsure"
-    }
-   ],
-   "official": false,
-   "score": 54.4,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://en.as.com/latest_news/some-retirees-dont-have-to-wait-until-2027-to-see-their-first-new-cola-adjusted-payment-increase-f202611-n/",
-     "title": "Some retirees don’t have to wait until 2027 to see their first new COLA-adjusted payment increase - Diario AS",
-     "outlet": "Diario AS"
-    },
-    {
-     "url": "https://www.fool.com/retirement/2026/11/08/social-security-teetering-3-donald-trump-policies-helping-push-it-over-the-edge/",
-     "title": "Social Security Is Teetering, and 3 of President Donald Trump's Policies Are Helping to Push It Over the Edge - The Motley Fool",
-     "outlet": "The Motley Fool"
-    },
-    {
-     "url": "https://capitolskyline.com/social-securitys-2027-raise-could-increase-retirees-taxes/",
-     "title": "Social Security's 2027 Raise Could Increase Retirees' Taxes - What the 3.6% COLA Means for Your Benefits - https://capitolskyline.com/",
-     "outlet": "https://capitolskyline.com/"
-    },
-    {
-     "url": "https://247wallst.com/personal-finance/2026/11/08/a-spousal-benefit-gets-the-full-3-6-cola-in-2027-it-still-tops-out-at-half-of-your-spouses-check/",
-     "title": "A Spousal Benefit Gets the Full 3.6% COLA in 2027. It Still Tops Out at Half of Your Spouse’s Check - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 28,
-   "article_count_1h": 1,
+   "article_count_24h": 26,
+   "article_count_1h": 2,
    "published": "2026-11-08T23:16:00+09:00",
    "category": "Benefits",
    "news": [
@@ -622,13 +375,13 @@
      "source": "The Lawton Constitution"
     },
     {
-     "title": "Woman Gets Approved For Financing. Then The Car Salesman Sees What She Tries To Pay With: 'I Left My Wallet In The Uber' - Motor1.com",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJMHJzbDUxcDBob0pIVHlTT3JGX3NyRm44T1ctd2xUcG81OXdIa09UekFDbl9RS2MtU3NhOFZaTmpDbFphT0FkcDd1M2lkVGdzazZUdlZkbURFOXNWalg0Vg?oc=5",
-     "source": "Motor1.com"
+     "title": "Former Massachusetts state official facing drug, firearm, and wire fraud allegations indicted on new count - Fall River Reporter",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdHhESXlZdE16Q0hqSzYzZUF4RXF6MW9RbEhwc01zeEdhWmJjWHpQUGhacGR5bkRNMXNJZzQ1WW1ra0Ixdi14Q2wxbkJDdldxUXhJcWN3TXRkNVg1c0w2X0J4a0NNc05wVTR6RFhqXzFVaWdhc0xDS1F0c2NYVlpqSEJLWGJSaDdnQUpLRVBXZEJDSHpoRkpqYTUxSFVTWXo0VTRLRWJHbFB4OWxnVzdpbWJLWUQ3dHMyWWdINXhnMmttNTQ3UkRwT25oZVlkNV8w?oc=5",
+     "source": "Fall River Reporter"
     }
    ],
    "official": false,
-   "score": 54.4,
+   "score": 60.8,
    "already_covered": false,
    "evidence": [
     {
@@ -647,70 +400,65 @@
      "outlet": "BKReader"
     },
     {
-     "url": "https://www.motor1.com/news/791452/ebt-car-payment/",
-     "title": "Woman Gets Approved For Financing. Then The Car Salesman Sees What She Tries To Pay With: 'I Left My Wallet In The Uber' - Motor1.com",
-     "outlet": "Motor1.com"
+     "url": "https://www.swoknews.com/news/noble-man-uses-sham-farm-stand-to-steal-212k-in-snap-benefits/article_675ed917-f974-5599-b6fc-e3d923a9b60f.html",
+     "title": "Noble man uses sham farm stand to steal $212K in SNAP benefits - The Lawton Constitution",
+     "outlet": "The Lawton Constitution"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "IRS refund",
+   "keyword": "product recall",
    "traffic": 0,
-   "article_count_24h": 20,
-   "article_count_1h": 3,
-   "published": "2026-11-08T05:16:19+09:00",
-   "category": "Taxes",
+   "article_count_24h": 35,
+   "article_count_1h": 10,
+   "published": "2026-11-08T20:00:00+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "RELEASE: Gottheimer Joins North Jersey Families Helped With Military Pension Back Pay, Health Insurance Coverage, IRS Refunds, and More - House.gov",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOejVLSHZtZldRaXZ6TDRCQmlSZDNjVlRnWmwzQkkwUnlZWjZSWnBuOFBub0UtdW1CNFIxdkxrcFY2am1xMlpCeEswS1huM1p0LUNYa1g1VnJ3TU5jMXFqTVI5ZHlNZ014S1lqMEJTWjUtY080Vm9jWGdfdVdhVFY0aVJwcU95T3ZOZkFNNG0xRHIwOTNQU3dHelNGbmhQRHJxM2pqQkJfN1A1cjRwWWs0WGJ0UUFYUzE5blFTNVdMRE9JcGdEcGdyUnZkOEpISXBmNURsSnhIdEdXajdicllJVy1JcENHcEVWbDRnNS1MZF9ZLXdfVzFTM0d3?oc=5",
-     "source": "House.gov"
+     "title": "Health Canada issues new product recall notices for items sold at major Canadian stores - Inside Halton",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQM1p0LVpKcVo5ZHU2YzZVdDhFQkNWX0NRUF9JangzTmFkNTZLTFZYSUxWeTVaWmpIclRmM1pqeG9vdGRneTJ4ejhOMWZ0Q3BzNTltNGF2c3ZnWEI5SDNxQzE1U2J1N3E3S19mdGlQUmsyUUlPV3ZrcXZ5VGZLZHlmWHhnWWUtNUJkZU9OOTEyMkYzd084cG1TbjA4OG1PemlFN1JSUDBjX1Z3TkFBcEI0UGZVaE5DbjVLb1NCbHhB?oc=5",
+     "source": "Inside Halton"
     },
     {
-     "title": "Florida homeowners may get partial property tax refunds if floods make homes unlivable for 30 days - Yahoo",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRHI2TGtTdmdmMzUzTEUzNmpIOGx4NFpHbDh3LXltUE9oQkFiTUc3Wm53cXhwTmxVQnNBMnI4U3BleVk4RU5kczl0ZzlyX3NMdkQ0M3lkcEk5SXZCTkl3ZFRlM1BvVDR5VGR4Nkc5a1lBYU9TSjVlV20yU3l3LS04ejQ0NlozazltYU91ZGlDYTJzbHNqRS10NW10SWN1azEzNmF0bXd3?oc=5",
-     "source": "Yahoo"
+     "title": "Toddler-Snack Recall Tests Organic-Food Maker Once Upon a Farm - WSJ",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRENlaXk0dXhmUkJzVWRMTVNSQjNwQ1J6LS1MRUE0RVRoTXRjZ2JKVWpFWTVqU3dDRVJla25LcllTRDNzSTJhMWxYR1lacmVNUTJWVkFKY0tnekZCbzRvUjBEX2cyTGFrdGR0bnJsSTh6ZWpFdWRieVJkSjZ4YU1OVzl1ZHFYZEpGQ2Nrak5hRlk3NW1CZ0ZuUVRrR3l6aUZ4UFE?oc=5",
+     "source": "WSJ"
     },
     {
-     "title": "GST needs a consumption-based overhaul, not piecemeal refund reforms - Business Standard",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNa0s2MldGTGlFUFNWclFDclFOWVAySExWdWJhT1ZxVnhCc3BhUTdUV3NpSEdwaGdEOHpBX0k3YWNySUlTM0dSemVGMDNWeGo0WUFtYi1zQlNLRE5waDVtejVzbTItc2Vka3FOSkIxNGpfM0I3R0xRZnh6RUFVak5fZndHdlVnUFRPUEtzdjU0alJHd2tLcGVQYjIwdElaTU5jQ3RfQW1BbEhqWnpybGhUNmVSQW0yTjZJTGNwTm9wb3NqblhXYkJreEdqdjBSZ21aaFNV0gHYAUFVX3lxTE12dUExUGttS3RSOXptb0V2MlBQSllFVFo5M29HNTU5ckVYNjY2MkVUZUtSQlZabS1nMDQ1ZFFVVlNDS3o5T1M4NnVtZUVNSmZpN1lkODRIU1V6TkJRWmM3QlQ0T1YyMzloM2VpVmJ2WDMzaG9IMmQwU3ctOHlOUnNZMlpGTG1rb2NRMjNMS1N2UWltSEc0eFNJZTdwOVJ0RWM3dWYwOWlOUGZRbng2dGVMczRkNk9xdHNjMW1EeWNUUHZfSTJYcF9GRmIwU2xfcWJhcldzY1U3Qg?oc=5",
-     "source": "Business Standard"
+     "title": "Fresh & Ready Foods LLC Recalls Fresh To You Brand Sausage, Egg & Cheese Biscuit Sandwich Due to Possible Health Risk - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWEp1Q2JfaEZtUjlqSHl0S2dJWUh1OENScllXcGZHOEJ1MVkwYXhLV0pva3lGbTRfa25xdkQxdnhwSTFHajlIZVI3c215MG5BR3pfQ0lRNzViNjAwaGlQbEYxak9vZWE1djBmUmNycGxfOUVJNmZFdGZmcHhJaEY0UTlZUkZCODBSb184dGQzcDBLOE1l?oc=5",
+     "source": "Yahoo Finance"
     },
     {
-     "title": "South Africans are handing their tax accounts over to people who put them at risk of losing millions and going to jail - Daily Investor",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNLTQzcGZtMXlnUkRtT2pNdGItdTM4czlBSDZuNkdLRnhGdnRWMWFwU2F1Ti1COXBra3luUmlwZ1V6X2JpdGlaeEFOYzRQa3JCS1Z5YUhhcEp3XzBsVXpXZTZybjRoZUhPeTA5cEloaVZTNXFMelBITmFkNTJCdFB4c0hhRElTNnZ6TjFSMmFDRDlYOHEyVmtYRUo5a2ZRSVo4ejNMQ0xZdHgyeVUyazhVXzQwS1lEakNDdmJxOU9lQ3VvamZxa0oyV0FsYVlKcTZTSXB2R2w1U25VOWlxeXBRYUlxX0hIVk5NQzNFMkhYYW1rUQ?oc=5",
-     "source": "Daily Investor"
+     "title": "Over 3.6 million ladders sold at Lowe’s and Costco recalled after reports of serious injuries - AL.com",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVY2M3ljZURibGo0SV9XLW5Iek1Kc05jWXFTa0tDWVpQSU91YmpxTEQyaEdoNUNwRjNoR0czTjRLWHNOT3FoUklxZS1wV2VDR3diRTQ4R1ZiWWpFYVNGSFF4bG5NR3FhVzlZUzdUOUtOVVRlLUhzcmNfcHdFMW16dEhRT2p2cDF0X0hNUFY2M2ZvRnlVUTZHM0thdzVxMDhWUGxmSnpWSU1oRDgxMnNXdkxQQTIxMkxoUGRHcklMbXI2dUtjUjBn0gHbAUFVX3lxTE9sUFFkcG44NjhjQUhpY0c2aDZQSk1oNnFuY3FUcjk0cEltd21zazlSRl9ndk9fRkFkc0Y2aTh6ZVJERklyeDJhWnR3RWpQaDMtRmlHQmd6TkxmeVdVTzVMSFM4MldIZWRGVDdJM3BYU1R5NmRkNlBCSEwxVmRTcUZhdWM2TVdpd1ZTMUNiTWhhYWlwYmZpMXdhODlHTFlOVHBBSXRwVDljdkZLMjEtNUp4RmRDV0lheVV1RHJDem9NV2VFQ0JieHBvTjFkSzFiaWJFYldiNTZWaDQ5OA?oc=5",
+     "source": "AL.com"
     },
     {
-     "title": "Our tax system should be as fair as it can possibly be - Business Post",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlFBNnozend6UWkxdVZPVnFqekxpNWdpVkktd1oxTWZxOGhMMUotdnBpTTBGLTZSLWl0Z3ZZOEMtdnd5SEgwNkZRWVJFSWJvWDNzWExIVlNDbmdQdmRuUHZaTVp3YlJfek9oME9sX1gzaklqRFRISE9sQnRWLXhZeXg0dGtNWEhsVFJGS0g1QWcwMlc4d2x0bzRmT1Z0UVFQbVE?oc=5",
-     "source": "Business Post"
+     "title": "Shoppers urged to toss Wise Wife ground cinnamon sold in 14 states over possible lead contamination - The Cool Down",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ3lTRVZfd1llZjhMLWZpcGFrcTlUbXBPc204aTFLdFI0RWU1c0VNc0cwelAzZUp0LTZabFRTX0kyaEFxYkpTMDl2dFdDam1rWV9YcHNKUXpuS1hnMGNDeFhDWUJEd3p6QU1JLVV2cjlyLUJFVWNiTnB3WDB3aUxwZ3dINHFSOHl0UlI0?oc=5",
+     "source": "The Cool Down"
     }
    ],
    "official": false,
-   "score": 44.1,
+   "score": 56.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://gottheimer.house.gov/posts/release-gottheimer-joins-north-jersey-families-helped-with-military-pension-back-pay-health-insurance-coverage-irs-refunds-and-more",
-     "title": "RELEASE: Gottheimer Joins North Jersey Families Helped With Military Pension Back Pay, Health Insurance Coverage, IRS Refunds, and More - House.gov",
-     "outlet": "House.gov"
+     "url": "https://www.insidehalton.com/news/health-canada-product-recalls-roundup/article_a4721d6d-34aa-5a2e-a064-09d175453a76.html",
+     "title": "Health Canada issues new product recall notices for items sold at major Canadian stores - Inside Halton",
+     "outlet": "Inside Halton"
     },
     {
-     "url": "https://www.yahoo.com/news/weather-news/articles/florida-homeowners-may-partial-property-224000705.html",
-     "title": "Florida homeowners may get partial property tax refunds if floods make homes unlivable for 30 days - Yahoo",
-     "outlet": "Yahoo"
+     "url": "https://finance.yahoo.com/healthcare/articles/fresh-ready-foods-llc-recalls-140300141.html",
+     "title": "Fresh & Ready Foods LLC Recalls Fresh To You Brand Sausage, Egg & Cheese Biscuit Sandwich Due to Possible Health Risk - Yahoo Finance",
+     "outlet": "Yahoo Finance"
     },
     {
-     "url": "https://www.business-standard.com/opinion/columns/gst-needs-a-consumption-based-overhaul-not-piecemeal-refund-reforms-126110800523_1.html",
-     "title": "GST needs a consumption-based overhaul, not piecemeal refund reforms - Business Standard",
-     "outlet": "Business Standard"
-    },
-    {
-     "url": "https://www.businesspost.ie/analysis-opinion/our-tax-system-should-be-as-fair-as-it-can-possibly-be/",
-     "title": "Our tax system should be as fair as it can possibly be - Business Post",
-     "outlet": "Business Post"
+     "url": "https://www.thecooldown.com/sustainable-food/wise-wife-ground-cinnamon-lead-recall/",
+     "title": "Shoppers urged to toss Wise Wife ground cinnamon sold in 14 states over possible lead contamination - The Cool Down",
+     "outlet": "The Cool Down"
     }
    ]
   },
@@ -719,7 +467,7 @@
    "keyword": "REAL ID",
    "traffic": 0,
    "article_count_24h": 23,
-   "article_count_1h": 2,
+   "article_count_1h": 5,
    "published": "2026-11-08T22:42:00+09:00",
    "category": "Holidays",
    "news": [
@@ -750,7 +498,7 @@
     }
    ],
    "official": false,
-   "score": 41.8,
+   "score": 55.0,
    "already_covered": true,
    "evidence": [
     {
@@ -777,9 +525,131 @@
   },
   {
    "source": "google_news",
+   "keyword": "IRS refund",
+   "traffic": 0,
+   "article_count_24h": 20,
+   "article_count_1h": 4,
+   "published": "2026-11-08T05:16:19+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "RELEASE: Gottheimer Joins North Jersey Families Helped With Military Pension Back Pay, Health Insurance Coverage, IRS Refunds, and More - House.gov",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOejVLSHZtZldRaXZ6TDRCQmlSZDNjVlRnWmwzQkkwUnlZWjZSWnBuOFBub0UtdW1CNFIxdkxrcFY2am1xMlpCeEswS1huM1p0LUNYa1g1VnJ3TU5jMXFqTVI5ZHlNZ014S1lqMEJTWjUtY080Vm9jWGdfdVdhVFY0aVJwcU95T3ZOZkFNNG0xRHIwOTNQU3dHelNGbmhQRHJxM2pqQkJfN1A1cjRwWWs0WGJ0UUFYUzE5blFTNVdMRE9JcGdEcGdyUnZkOEpISXBmNURsSnhIdEdXajdicllJVy1JcENHcEVWbDRnNS1MZF9ZLXdfVzFTM0d3?oc=5",
+     "source": "House.gov"
+    },
+    {
+     "title": "Florida homeowners may get partial property tax refunds if floods make homes unlivable for 30 days - Yahoo",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRHI2TGtTdmdmMzUzTEUzNmpIOGx4NFpHbDh3LXltUE9oQkFiTUc3Wm53cXhwTmxVQnNBMnI4U3BleVk4RU5kczl0ZzlyX3NMdkQ0M3lkcEk5SXZCTkl3ZFRlM1BvVDR5VGR4Nkc5a1lBYU9TSjVlV20yU3l3LS04ejQ0NlozazltYU91ZGlDYTJzbHNqRS10NW10SWN1azEzNmF0bXd3?oc=5",
+     "source": "Yahoo"
+    },
+    {
+     "title": "GST needs a consumption-based overhaul, not piecemeal refund reforms - Business Standard",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNa0s2MldGTGlFUFNWclFDclFOWVAySExWdWJhT1ZxVnhCc3BhUTdUV3NpSEdwaGdEOHpBX0k3YWNySUlTM0dSemVGMDNWeGo0WUFtYi1zQlNLRE5waDVtejVzbTItc2Vka3FOSkIxNGpfM0I3R0xRZnh6RUFVak5fZndHdlVnUFRPUEtzdjU0alJHd2tLcGVQYjIwdElaTU5jQ3RfQW1BbEhqWnpybGhUNmVSQW0yTjZJTGNwTm9wb3NqblhXYkJreEdqdjBSZ21aaFNV0gHYAUFVX3lxTE12dUExUGttS3RSOXptb0V2MlBQSllFVFo5M29HNTU5ckVYNjY2MkVUZUtSQlZabS1nMDQ1ZFFVVlNDS3o5T1M4NnVtZUVNSmZpN1lkODRIU1V6TkJRWmM3QlQ0T1YyMzloM2VpVmJ2WDMzaG9IMmQwU3ctOHlOUnNZMlpGTG1rb2NRMjNMS1N2UWltSEc0eFNJZTdwOVJ0RWM3dWYwOWlOUGZRbng2dGVMczRkNk9xdHNjMW1EeWNUUHZfSTJYcF9GRmIwU2xfcWJhcldzY1U3Qg?oc=5",
+     "source": "Business Standard"
+    },
+    {
+     "title": "South Africans are handing their tax accounts over to people who put them at risk of losing millions and going to jail - Daily Investor",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNLTQzcGZtMXlnUkRtT2pNdGItdTM4czlBSDZuNkdLRnhGdnRWMWFwU2F1Ti1COXBra3luUmlwZ1V6X2JpdGlaeEFOYzRQa3JCS1Z5YUhhcEp3XzBsVXpXZTZybjRoZUhPeTA5cEloaVZTNXFMelBITmFkNTJCdFB4c0hhRElTNnZ6TjFSMmFDRDlYOHEyVmtYRUo5a2ZRSVo4ejNMQ0xZdHgyeVUyazhVXzQwS1lEakNDdmJxOU9lQ3VvamZxa0oyV0FsYVlKcTZTSXB2R2w1U25VOWlxeXBRYUlxX0hIVk5NQzNFMkhYYW1rUQ?oc=5",
+     "source": "Daily Investor"
+    },
+    {
+     "title": "Our tax system should be as fair as it can possibly be - Business Post",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlFBNnozend6UWkxdVZPVnFqekxpNWdpVkktd1oxTWZxOGhMMUotdnBpTTBGLTZSLWl0Z3ZZOEMtdnd5SEgwNkZRWVJFSWJvWDNzWExIVlNDbmdQdmRuUHZaTVp3YlJfek9oME9sX1gzaklqRFRISE9sQnRWLXhZeXg0dGtNWEhsVFJGS0g1QWcwMlc4d2x0bzRmT1Z0UVFQbVE?oc=5",
+     "source": "Business Post"
+    }
+   ],
+   "official": false,
+   "score": 48.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://gottheimer.house.gov/posts/release-gottheimer-joins-north-jersey-families-helped-with-military-pension-back-pay-health-insurance-coverage-irs-refunds-and-more",
+     "title": "RELEASE: Gottheimer Joins North Jersey Families Helped With Military Pension Back Pay, Health Insurance Coverage, IRS Refunds, and More - House.gov",
+     "outlet": "House.gov"
+    },
+    {
+     "url": "https://www.yahoo.com/news/weather-news/articles/florida-homeowners-may-partial-property-224000705.html",
+     "title": "Florida homeowners may get partial property tax refunds if floods make homes unlivable for 30 days - Yahoo",
+     "outlet": "Yahoo"
+    },
+    {
+     "url": "https://www.business-standard.com/opinion/columns/gst-needs-a-consumption-based-overhaul-not-piecemeal-refund-reforms-126110800523_1.html",
+     "title": "GST needs a consumption-based overhaul, not piecemeal refund reforms - Business Standard",
+     "outlet": "Business Standard"
+    },
+    {
+     "url": "https://www.businesspost.ie/analysis-opinion/our-tax-system-should-be-as-fair-as-it-can-possibly-be/",
+     "title": "Our tax system should be as fair as it can possibly be - Business Post",
+     "outlet": "Business Post"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "election day",
+   "traffic": 0,
+   "article_count_24h": 68,
+   "article_count_1h": 15,
+   "published": "2026-11-08T19:27:32+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "I Voted on Election Day and Ate Nothing but Free Food - Houstonia Magazine",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQUljQjBhZm1kenYwclBJbUN1NVM4Y1dGdmpCVEIwM2N1dTU0a002blpKVnh6Sk9rM1NBWW1vQi14NzE5ZHk4ZkdsdU10THp1dGJ4a01xeGN4ZkNsRkJxVXhCUDRQR3Vya21mbGVJR2RNaDZmcXBOMmZEUjZGOVZwak5QU0JqRzdnXzBHZlRwTFlqZGVPQm16MHE1RE5xYU9mbWE5cFhwME9jYzg?oc=5",
+     "source": "Houstonia Magazine"
+    },
+    {
+     "title": "Democrats won big on Election Day. But can they agree on AI? - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMG9sQmNyb29Kak5BcDdwbUpYUDBKaVpWSENqbDNaOC1ET0NGbGJCZHdyTTV5WjlzZ1RJcU0tZ2hDUWFvOExKcVBKWnRDbU5CRFdLOFZQbVY2RkR4ZVQ1NlJHNEZBSUJGQ3hPSFJfRk1HS0pQbUlmY3M1bHFxaTdPOWZNb05RaU90MGFHWTFHNFYtWEZYOFlfTQ?oc=5",
+     "source": "NBC News"
+    },
+    {
+     "title": "Why some Fresno County races are still undecided four days after Election Day - ABC30 Fresno",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYm1yUjNNWWxSWTAtb0VmNmJONndXVzZRYk9xR3JkTEhuM19tSnFqamNDbllINC1mQTZTRkhoRmxPVTdGbS01YWFjSy0yMzJyVjlpaFBDUGwxdWE4S3kyUWVQTFVzdDdVVml0NTJYdllTM1lfV1VqSWtBYkdGdE9TMFRId3NpUHA3U25BR9IBkgFBVV95cUxQa1FyeTV1YUJ5djNEWnItSFpWNUI3djVJUzY1NTVXUzZDRHlYNXphN2lyaDVSVVNyeHloUUZYeUhadmxPb2tWdFpFVVBWNnRka1NZNGNyNTRYVlg5RGlsQUl6VHdhMFFqalpuVmVKcGRzR3dYdXZCZzJjaE5vclZTRWNLbGVCOThzanphUXRNVkhTQQ?oc=5",
+     "source": "ABC30 Fresno"
+    },
+    {
+     "title": "Channel 9’s Tom Terry remembers 2006 Election Day tornado - WFTV",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMDlUc0ZHa2N2elhzZzR0OEowOTY0QVRNMklCZV9lSHhRNmNUY1J0T2JOX2t0MmZiZTA0bnZhNWV0X09qWW1pVkJZREVpa0plNlZUaGpaTC1hRlFvSS1HNVJROG1mZ2F1TnBmMlowRjBBNkZ4WW1PZHMycXBZeElMR0dadEtZaVJWSW92eXc3LVYxbU40eHQ5MmdjYURNZ0pST2QteHBZTFdsSHVPeFJrNXhCVG43dVHSAcsBQVVfeXFMT1dFVjBaT25naUM5TkY5U0FpUDFiQlA2cWJMYm5DYzJTZlpmb0otVlZkVnlnaHc3SUZKNTFaV0paRks0NHpNVTc1RFJTdldTclkxY3dyc0RnT1p0eU90T0d4QldMSk1aT0MtZjlRVFdLQWNsZ3JMbnE2X3hWQ3ZMeUM4UkZMTGYtVEhKN2hHRDI1MDJLQTVJcnZLR2JVbUNYY09aWHRsTWM0Uk15WE9QLTFoMXlSS2hKN2lHak1zdEVzR204Z0wzOThEcGc?oc=5",
+     "source": "WFTV"
+    },
+    {
+     "title": "Week in photos: see the highlights from Election Day - Sacramento Bee",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91QWgxSmJZR3ZQNmdnVUZnVV95UmxVNVJrWXVFZkx1elpnY1duaHFxOFRIR05yV1Aza1BWejNTbXdCZWRXeF9Cam1qbnpXaDB3THJTRWdJdlhEQTBSZjh4bFE2YTlnZ9IBZkFVX3lxTE9FRnR5ZVpGTktSeUdxRE1ZamljTW9OWjBEZmxBb1dwMUNGTHRfRkFheEoycm5HSVlPY0Q5TWNwUm9MVGVVbzNpRGM0emk2bGJwenMwX21WU0xtMl9BYl8tVHhubVJwdw?oc=5",
+     "source": "Sacramento Bee"
+    }
+   ],
+   "official": false,
+   "score": 45.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.houstoniamag.com/eat-and-drink/food-news-and-events/election-day-free-food-houston-restaurants/",
+     "title": "I Voted on Election Day and Ate Nothing but Free Food - Houstonia Magazine",
+     "outlet": "Houstonia Magazine"
+    },
+    {
+     "url": "https://www.nbcnews.com/tech/tech-news/democrats-won-big-election-day-can-agree-ai-rcna607414",
+     "title": "Democrats won big on Election Day. But can they agree on AI? - NBC News",
+     "outlet": "NBC News"
+    },
+    {
+     "url": "https://abc30.com/post/fresno-county-races-are-undecided-days-election-day/20023284/",
+     "title": "Why some Fresno County races are still undecided four days after Election Day - ABC30 Fresno",
+     "outlet": "ABC30 Fresno"
+    },
+    {
+     "url": "https://www.wftv.com/news/local/channel-9s-tom-terry-remembers-2006-election-day-tornado/25POBW4QMBAH5N3JGOPFGNR3DA/",
+     "title": "Channel 9’s Tom Terry remembers 2006 Election Day tornado - WFTV",
+     "outlet": "WFTV"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "SSI payment",
    "traffic": 0,
-   "article_count_24h": 8,
+   "article_count_24h": 9,
    "article_count_1h": 0,
    "published": "2026-11-09T01:33:46+09:00",
    "category": "Benefits",
@@ -805,13 +675,13 @@
      "source": "24/7 Wall St."
     },
     {
-     "title": "Why some Social Security recipients won’t have to wait until 2027 for new COLA raise - AL.com",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQi1QZ2RabTZqUDBrOU4wUVRlWXRLRTU0LVVSZnlVRWgwTGo2UFFzMUlydWhFZXR0UDQtSXZYN2tLaGRwcGU5WUt0VVFzS25OaFdnbGhvT1RlTFNJVlZTMmF5Ylpha2FzQl9RdUl1UFhuSWEyMVpyb1J6RUdsNEtHS244ZWhxWnN0c3M4cW9MajJCUWViRkdrckVxT2ZodDcxTlNqUkllTGxXQy04OXk5dmNORFkxNGl2UklYNNIB0AFBVV95cUxPa3FUSWFQRktMYjd1U3BiamtjeFVIYy1MbjBMQ0lkcEtlZnZjN3AzLXlXQjRzYjNJRmk1TEFaYlBDblpNYkRfY3VyUTNGMnUzZ2lyYU5hdFF1LU4yMHUzanBRNUtpUXF0b3NNZnphSjNwSDAyQVVMMFpPQWZOc0x0QkZiaHNrNnhSV19HbEh3cXpWYktmaXlzMDY5MVhTS3R4b1ZNbmp2QURkdHdFaUpXaVE3OFNVS3FBNUJjUFRJbzI4X0YxQjBZa201bmVheVlp?oc=5",
-     "source": "AL.com"
+     "title": "Social Security's 3.6% raise could trigger a tax on your benefits: the $25,000 line that never moves - Tododisca",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wZTd2c3ZnM1Jxc0pkc01sekl2QzJFU1FhZEViWE1oUGROMWhqZ2Z3aklReUJfanNFbzBUWlN0YkZUdkZKYmRMWWp2a2lMUlVPQjF1R0hWeDhrcThuUlpFenBIREFWNUVhSU9teDRR?oc=5",
+     "source": "Tododisca"
     }
    ],
    "official": false,
-   "score": 38.4,
+   "score": 43.2,
    "already_covered": false,
    "evidence": [
     {
@@ -828,6 +698,133 @@
      "url": "https://247wallst.com/personal-finance/social-security/2026/11/07/her-husband-inherits-250000-when-his-mother-dies-shell-lose-her-1029-ssi-check-even-though-the-money-is-in-his-name/",
      "title": "Her Husband Inherits $250,000 When His Mother Dies. She'll Lose Her $1,029 SSI Check Even Though the Money Is in His Name - 24/7 Wall St.",
      "outlet": "24/7 Wall St."
+    },
+    {
+     "url": "https://tododisca.es/en/social-security-cola-tax-25000-limit/",
+     "title": "Social Security's 3.6% raise could trigger a tax on your benefits: the $25,000 line that never moves - Tododisca",
+     "outlet": "Tododisca"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security COLA",
+   "traffic": 0,
+   "article_count_24h": 27,
+   "article_count_1h": 2,
+   "published": "2026-11-08T20:52:41+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Some retirees don’t have to wait until 2027 to see their first new COLA-adjusted payment increase - Diario AS",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONmJqMEdLTW91TDlWdE90TW85cnhqdWRHUGF2ZmN5SDRlOVBLY244Q2Jxd2tkUks5Tm95T3VXcmtLdmVzeWxiQlVqUXFQdmlXMkg5RDBtcS05eU02Y0lsZzk3b3Fnc096V01DOXFheThzQWwzekptRC1RN18wRDhFOXFWZkJyd0tFLTlkQXZZc1VXNmdsbFVBVmFSc2F0SUVZUldfREFRM3Z2WkJlclN1bzNGd3VyVUd5WjZWdFhUVkdadG1vTVdvTmhqdGt0RHRFR2s00gHnAUFVX3lxTE1LSXBvSEdoelRIamV5Wmp4VllnQU9QQk50b1ZyU243Tk1FbTF0NlZBamxiVWYxUW9VeWlYQWhrQmRCNWhwTDBDbEdpSXRsVkZCSFA2dXp6Ym5XOUlobzNVWUJUT05fcEd3bTVaVGlHLUVJMEZpTXhzLURlRzhVMWxYVzBnWTNuQTlrZUUyREZkZVg2Tk9MQmVEQTYyMTJNRVhyZkowa1FmWDdSbWF5Z2RILVU5eEFrZFV0ck1naUVIRFRsZ2NXLXg2M1NDZVBmdk5iUWtXUlg1MGNpY3ZHOVFxY2doWk5vQQ?oc=5",
+     "source": "Diario AS"
+    },
+    {
+     "title": "Social Security Is Teetering, and 3 of President Donald Trump's Policies Are Helping to Push It Over the Edge - The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRkY1S0l3bUREdkp1R3NSWHpvUlZ4Ulo5dlY0X1l2ZEktZzhRSk10OGdJaEtoWU13SDFJb1N3cUc2QU1JUEhabVNKeGlCM1EtbVBBY193RlFtdExRbmM3VTBqMXhMWUZBbkVPTndhdVljLUNhTHBNOHRHc0J1VHlBYVIxcGhnZTBrd25LNUE0UGZVWHctZ0FBY1ZuS0tKTHJfNUZ1VE9UNkh4dW85bUhyUDBvWXVhUzJoNWZZOThjdFA?oc=5",
+     "source": "The Motley Fool"
+    },
+    {
+     "title": "Social Security's 2027 Raise Could Increase Retirees' Taxes - What the 3.6% COLA Means for Your Benefits - https://capitolskyline.com/",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSzJNcThyRVRFOWZaTDNoWTNRemRHemhycGd3RGZGRGwzX1ZYUnROS0xUY2h1cmhubXM3MUZFU3BuM3VYanNZTXZlbk9yeHhoNFhBMWI1RVVic0cxUFN0cE04eTllNHhzQ2xEZXVxTnZVRWtjMWlPTURVVlB0WFBUcEFFX0NEa2FWYmEyd0h3?oc=5",
+     "source": "https://capitolskyline.com/"
+    },
+    {
+     "title": "A Spousal Benefit Gets the Full 3.6% COLA in 2027. It Still Tops Out at Half of Your Spouse’s Check - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMjR3QzI1WGcyUG5NRW1MVE5sczRnSklidFRUMEZzUU9BSWtGbDZhZzVwVmNiYVZkeUlpT1ZrdEYzSkdLekFUZDJMd1I0bVNoUEx6UU40VEM2OGVQdlpoWnlIRkk1czZVem1EbkRjTUwtQndnbnFyeWlnallVUmdpdDcybEVVMkpaVkM2cGdNc1dQOVJOU1hDcjdlRnR2cThrZEZtX3NFZHVKcUpDMVVVNUxuZG5WSXQtaHNCWTA4dkNTNVNQTlo5ZkJxbjZxbG91RDkzTVhxNVVkamFfVDlGcg?oc=5",
+     "source": "24/7 Wall St."
+    },
+    {
+     "title": "Social Security benefit cuts 2032: Americans face 22% reduction - Beinsure",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb3BvdkpRUUM3SnZzX29kMTI0eGgwOS13R3FhS3Bhd3VPVEs4SUNqb0g0MHk4LTlGczdQX1Q4VnJXZkxGZ0VWVl91eVZnTkoyXzR2MmRhdzJqZTNQcUVHUTJRRDkyd3E2elM4UG8xd3VJQkZoejJHN3dERlpHX0pBdlpkVV94clZSSzloeExwUTU0QQ?oc=5",
+     "source": "Beinsure"
+    }
+   ],
+   "official": false,
+   "score": 42.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://en.as.com/latest_news/some-retirees-dont-have-to-wait-until-2027-to-see-their-first-new-cola-adjusted-payment-increase-f202611-n/",
+     "title": "Some retirees don’t have to wait until 2027 to see their first new COLA-adjusted payment increase - Diario AS",
+     "outlet": "Diario AS"
+    },
+    {
+     "url": "https://www.fool.com/retirement/2026/11/08/social-security-teetering-3-donald-trump-policies-helping-push-it-over-the-edge/",
+     "title": "Social Security Is Teetering, and 3 of President Donald Trump's Policies Are Helping to Push It Over the Edge - The Motley Fool",
+     "outlet": "The Motley Fool"
+    },
+    {
+     "url": "https://capitolskyline.com/social-securitys-2027-raise-could-increase-retirees-taxes/",
+     "title": "Social Security's 2027 Raise Could Increase Retirees' Taxes - What the 3.6% COLA Means for Your Benefits - https://capitolskyline.com/",
+     "outlet": "https://capitolskyline.com/"
+    },
+    {
+     "url": "https://247wallst.com/personal-finance/2026/11/08/a-spousal-benefit-gets-the-full-3-6-cola-in-2027-it-still-tops-out-at-half-of-your-spouses-check/",
+     "title": "A Spousal Benefit Gets the Full 3.6% COLA in 2027. It Still Tops Out at Half of Your Spouse’s Check - 24/7 Wall St.",
+     "outlet": "24/7 Wall St."
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "early voting",
+   "traffic": 0,
+   "article_count_24h": 13,
+   "article_count_1h": 0,
+   "published": "2026-11-09T02:00:21+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+     "source": "NBC News"
+    },
+    {
+     "title": "Nevada's last day of early voting could be its biggest - KTNV Las Vegas",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUU9kUU1fRTlNYzM0bzdHbWhCOG9rc09fLWstN2NOd3g1VXZxYlJZNkMzUFpoZFI5cmVmMHZxbHNjemF5UXlTY1FuU2VwbllXcGs1M3pQVXBQcmtDNDlJMldxMm10QkRCaGNhODJjbEFEalJmWDgyNnY2dUdEV2M1NF9FU2NKalJGMDJBMnpib1VHa0hGa2NRMGhvRFhSSGFvTUxYeDlydnI?oc=5",
+     "source": "KTNV Las Vegas"
+    },
+    {
+     "title": "Westchester Election Results Take Shape Following Polling Delays - News12 | Westchester",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSWQ4WDJfbDIwdTlSQXFFNzQzVmhUMHk3LWV2N1oxdmJSOV9NRzAxckNIUE93VFNsajl2MEdnMTlPSlBvWjBCeWU5RzBwak5hVk1JZS1zWWFJTDhKdS1LTW1JR05jZlBuM1JaSmlsZHF3V1pzX3k3c2tpQlNsSEFpRFBMRXlrSWV6MzBvR0c2VDZZSTFRbkxkSFBlaEJxOEZFRnRmS1dJaUgzUjNKV1NfSGJKdEl1ZXRuUnVrZ2w2LXF1QnZHbmZF?oc=5",
+     "source": "News12 | Westchester"
+    },
+    {
+     "title": "Final ballot count to determine fate of close local races starts this week - Dayton Daily News",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa2ZtWVp3VThvUU5QUDg5d0hfd0t6Tk4tTkNKcWt2TXlQV0JIWHd6N3lpS1ltYTl4ckxUUlV1VlZsdGNoY3llcEw3VXNfa0ltWGlFYmJuc19hbS1JVG1zQWpUeVhXT3oxYTVPZmxHS1J5SVRCdE1aYW11TDc0dkIwZUthQ1ZLVF9nZ2duRXl6Ukhtc3Yw?oc=5",
+     "source": "Dayton Daily News"
+    },
+    {
+     "title": "Like in past elections, Alaska is still counting ballots. When will we know who won? - Anchorage Daily News",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcGpNT0puZ3BSc3dfek1DM0JSMFZhSHRESjJYeHkxNENnd0RFUy1fYk9pVlFtZlZseWxlT19BVzI1QzFxTjAzeW9jTDlwaHZfSWx3dGF2ZlhoS2stYnc2SXNjdEtMclJYVjJQdEw5U281eDZRaVdleldZQnA5c1NXamU2WUdtaHQtZWFfN2VOelRraDF1ajl4aE1xeXZURWFCd2FSWFpBTFAydVBGLXF1WUdrcEVKNHRyV1FVRF9xMA?oc=5",
+     "source": "Anchorage Daily News"
+    }
+   ],
+   "official": false,
+   "score": 39.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
+     "outlet": "NBC News"
+    },
+    {
+     "url": "https://www.ktnv.com/news/political/elections-local/nevadas-last-day-of-early-voting-could-be-its-biggest",
+     "title": "Nevada's last day of early voting could be its biggest - KTNV Las Vegas",
+     "outlet": "KTNV Las Vegas"
+    },
+    {
+     "url": "https://westchester.news12.com/2026/11/08/westchester-election-results-take-shape-following-polling-delays/wG6e8KRPnQ63jqpefVbqg",
+     "title": "Westchester Election Results Take Shape Following Polling Delays - News12 | Westchester",
+     "outlet": "News12 | Westchester"
+    },
+    {
+     "url": "https://www.daytondailynews.com/local/final-ballot-count-to-determine-fate-of-close-local-races-starts-this-week/article_49898678-40ad-557f-8333-2f477876c83a.html",
+     "title": "Final ballot count to determine fate of close local races starts this week - Dayton Daily News",
+     "outlet": "Dayton Daily News"
     }
    ]
   },
@@ -893,55 +890,19 @@
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "shedeur sanders",
-   "traffic": 1000,
-   "published": "2026-11-09T02:20:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Browns QB Deshaun Watson out of concussion protocol",
-     "url": "https://www.espn.com/nfl/story/_/id/50409705/browns-qb-deshaun-watson-concussion-protocol",
-     "source": "ESPN"
-    },
-    {
-     "title": "Browns' Shedeur Sanders gets hype video for first start of the season and social media cannot handle it",
-     "url": "https://www.foxnews.com/outkick-sports/browns-shedeur-sanders-hype-video-first-start-season-social-media-cannot-handle",
-     "source": "Fox News"
-    },
-    {
-     "title": "Deshaun Watson is inactive for the Browns",
-     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-is-inactive-for-the-browns",
-     "source": "NBC Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 32.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.foxnews.com/outkick-sports/browns-shedeur-sanders-hype-video-first-start-season-social-media-cannot-handle",
-     "title": "Browns' Shedeur Sanders gets hype video for first start of the season and social media cannot handle it",
-     "outlet": "Fox News"
-    },
-    {
-     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-is-inactive-for-the-browns",
-     "title": "Deshaun Watson is inactive for the Browns",
-     "outlet": "NBC Sports"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 15,
-   "article_count_1h": 0,
-   "published": "2026-11-08T11:34:00+09:00",
+   "article_count_24h": 14,
+   "article_count_1h": 1,
+   "published": "2026-11-08T19:00:39+09:00",
    "category": "Health Insurance",
    "news": [
+    {
+     "title": "Medicare Advantage vs. Traditional Medicare: What You Need to Know - The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMlJ1cmtZd0FkR21LNnNVZXBpV3ZJazlzTlBtcmp5U1FDZTlfeU5VTk5tdlBBR1RnRG1VUjNhNFJXbEVMZjRNcXA5VTNTWTAtU210dndhbHM1ZC1xbTlhTUdsaXJ0QlZ2TVh1Y0RyTFVMa0w3aGptZE5RenVyaFE5S1F3?oc=5",
+     "source": "The New York Times"
+    },
     {
      "title": "Medicare Just Locked In Most of Your 2027 Costs. One Big Number Is Still Missing - 24/7 Wall St.",
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbkVESW5SbXdzUTBfMldFa01sZThxaEVicVpJSlBwSGk4b0RBRWZLMnpaazhNZHNvSjF4eGhNdmxTcUExSmhTOGF0dGNRQjI4djVhUkRrTDhGR2R1aXpFY3hTNGFobVNjbHNyWjNrQlRRSWp3dk1fT3hrR2FJVzBEeDN0VjBvbXA3bmcwOWJlakMtMk9oc2pvdUVBeWlUMlQwNDV1UlpVVk1VSXBnSUItVDRfV0o2clE?oc=5",
@@ -961,63 +922,68 @@
      "title": "Savvy Senior: What Medicare changes are coming in 2027 and how to avoid overpaying - Midland Daily News",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZnVjcm55S1dhRzlUUi1KTi1XbUkwSUxPRVdIQ3RiU2UzNzllc01JcW5XN25JY1hiNTZLTDBrYjlIcXIxZ2RKUXZPVkdtZlUySmdWWWdhLTlnSjVPd3BsYjBGQnFnUXpLNEY1ckNqc3FDeHphVUVqVkVBYzlCbXRMWk9iZTJIMkMxSnc?oc=5",
      "source": "Midland Daily News"
-    },
-    {
-     "title": "Thomas Insurance Solutions helps viewers with Annual Enrollment for Medicare. - FOX 2",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbVhJSWFOelN2MHppTjBjTFZ1TDJpUHdlbGRvdkl4b2U2RGFJMVZEUmg4QUVPWGxVa3FTY0RhU2FHX2MwdGJOZnB3VEJpbk9QSWttSzhkWlV6Tk55NUpCak8wZkRMdTBMazJiRnM3OTJJYk1FX19CNmhRM2x0MlFkOU5fWlBUaXM4SlE2d2pPRnBMRktIU3MzXzk2TVhPUTBTR29LS2pUbDlGblZhbEtZY0ZR?oc=5",
-     "source": "FOX 2"
     }
    ],
    "official": false,
-   "score": 31.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "kevin kane purdue",
-   "traffic": 1000,
-   "published": "2026-11-09T02:10:00+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "Purdue parts ways with DC Kevin Kane",
-     "url": "https://www.on3.com/teams/purdue-boilermakers/news/purdue-parts-ways-with-dc-kevin-kane/",
-     "source": "On3"
-    },
-    {
-     "title": "Purdue coach Barry Odom' doesn't get credit for firing his questionable hire. Proof is in results",
-     "url": "https://www.indystar.com/story/sports/college/purdue/2026/11/08/purdue-football-coach-barry-odom-fires-kevin-kane-defensive-coordinator-hire-transfer-portal/92675115007/",
-     "source": "IndyStar"
-    },
-    {
-     "title": "What is Purdue paying fired defensive coordinator? Kevin Kane buyout",
-     "url": "https://sports.yahoo.com/articles/purdue-paying-fired-defensive-coordinator-165759567.html",
-     "source": "Yahoo Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 30.0,
+   "score": 35.7,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.on3.com/teams/purdue-boilermakers/news/purdue-parts-ways-with-dc-kevin-kane/",
-     "title": "Purdue parts ways with DC Kevin Kane",
-     "outlet": "On3"
+     "url": "https://247wallst.com/investing/2026/11/07/medicare-open-enrollment-closes-dec-7-after-that-part-d-plans-are-locked/",
+     "title": "Medicare Just Locked In Most of Your 2027 Costs. One Big Number Is Still Missing - 24/7 Wall St.",
+     "outlet": "24/7 Wall St."
     },
     {
-     "url": "https://sports.yahoo.com/articles/purdue-paying-fired-defensive-coordinator-165759567.html",
-     "title": "What is Purdue paying fired defensive coordinator? Kevin Kane buyout",
-     "outlet": "Yahoo Sports"
+     "url": "https://goldrushcam.com/sierrasuntimes/index.php/news/local-news/83279-kff-answers-medicare-questions-i-have-drug-coverage-from-the-va-do-i-need-to-sign-up-for-a-part-d-plan",
+     "title": "KFF Answers Medicare Questions: I Have Drug Coverage From The VA. Do I Need To Sign Up For A Part D Plan? - Sierra Sun Times",
+     "outlet": "Sierra Sun Times"
     }
    ]
   },
   {
    "source": "google_news",
+   "keyword": "federal holiday",
+   "traffic": 0,
+   "article_count_24h": 29,
+   "article_count_1h": 2,
+   "published": "2026-11-08T20:54:00+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "When is Veterans Day? Date, day and federal holiday facts - Lohud",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMzVsbEJFdjlScGpfV0dqNzBlNnY2bVdSN19hZFg1cHdZcFppQUNpZkw4T0paV2t1Nk5RWHBqTkw1cWhIV0puQUNDaG1teUFWSDlHemROZmJ5cndFbGUxbWd0RWlfV3FiTW9JbHEwdlAxMHRHU2hoS21Wb0NWcnkwYTROdkdDUEFZTXhzTXN0d3BMV3JzUnExR1ZqdEJkYXNWd3lrT2hEX0c?oc=5",
+     "source": "Lohud"
+    },
+    {
+     "title": "Is there school on Veterans Day? Jacksonville-area closures for Nov. 11 - The Florida Times-Union",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWUxwTVFqcEUxOWJnVHM1b2NQLXBmV0NXbzJveExFQVQxUWZMT1lsRXk2VU9OZURFd3h2R2IyeHJOX25ncWdPOVgzTTB6dzVrMnBoWlBSN3RBMWVGN3FQeWxIZzRCcFRBWTR3a2RSNjRTTmhMN1gydWlsYjdFRlNYSTBJeEhuUU8xOHRmZW5zWkQ5YVZxQnQ3MUJvZTI0YlJPeFpWeGtiQWE3dUhtQkR3?oc=5",
+     "source": "The Florida Times-Union"
+    },
+    {
+     "title": "Born between the 1st and 10th? Your Social Security arrives Tuesday: what to do if the deposit doesn't show up - Tododisca",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MMUJxNUhiV1N5VDFxbW54LWpQcVk2S3JOVy1yM3plRFQ1VWF5WFl0cFd2UHEwcGx2MWFkLUtaWnl1OUZGdHlQTGJqUUp2cGExLTFXOVdWbnk4NDd1WEV6eEZtX2RiX3RBWW9FRVVWVmVId01qaERQdWpyTmw?oc=5",
+     "source": "Tododisca"
+    },
+    {
+     "title": "What is Diwali, and why is it celebrated? What to know about the annual festival of lights. - Yahoo",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNc182T3gzVGhRZG0wb0stR2txMFFLcDV6bjNybTR1MW9ocHN2ZXFETVZGNGY3T2VFaWljM3h1S0Rsdk1PWUV1ZXRZYmlKcnlMbldGazZzTEYtVFphTmpyZnIzckk0VXdBZXlacnpuNFZUdGhJbUtLdkcxLVFrLWlQWDJ5U3lTY0xTWGNaZk54WDdEbU5mTHhJcWRFOFpRYUVHeWFiMUhfamJZdWV5SFB6RVA1QzJxRVcyeEt1QkhtT2h1eVhnZmZJdlNXa2NvSVdqVEE?oc=5",
+     "source": "Yahoo"
+    },
+    {
+     "title": "D-FW Business datebook: Fed conferences, José Andrés and an inflation update - Dallas News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGhfcEdmNThkaHJjMXNrYjJqaUs0V1pRYjltSFBMOHZWNWhxWGlDNjdqWGFWaVRZNk1lOUZFS2MyaFdLa0dYdVFfNzJXY25Wc3NLS0sxaVVDLUVkSzBMMzlCWTRmNUktc3dVNzd2SjJkNWctUGNPTVYxY1RJVzZ4cnBhTVpXOVh5V2JIMTVIbVR4eC14LThlRUtJMzA?oc=5",
+     "source": "Dallas News"
+    }
+   ],
+   "official": false,
+   "score": 29.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "ACA open enrollment",
    "traffic": 0,
-   "article_count_24h": 8,
+   "article_count_24h": 7,
    "article_count_1h": 1,
    "published": "2026-11-08T16:00:00+09:00",
    "category": "Health Insurance",
@@ -1043,135 +1009,48 @@
      "source": "chronicleonline.com"
     },
     {
-     "title": "Benefitra Launches Nationwide Health Plan Compare for Sole Proprietors - EIN News",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQWRMYjJ3ZHNBRGtRdHdXSElvRHRvWjU2OEJVaS1kWVFHOFZoYUw2TVlBVHRyMnU3QjYzd0Y1d09XNi1rdEdCQ191Z2pNNkV6SGN6TWhKSmtndjJ4LVFFZ0FCMXdsb1BMTGItZ3dLTDNFQnVBcm1fLXc0N1pmellOd2tlSUZIVnMxQ3BaQVdnNE5ScldCS2JBYzZDbllObmpnd1pmUGM1UkRBNHI3RExaR3RB?oc=5",
-     "source": "EIN News"
+     "title": "Benefitra Launches Nationwide Health Plan Compare for Sole Proprietors - Akron Beacon Journal",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMUVfMXJqR0tGU3pwVHM2MkYydEE2ZnVFY0tjb2FYSjd3ekNrUmR4UDJKNWduZnpwRGc1bWx1U2ViZ0pNUnhvTHE1Z2JnTG0wUGZhc1VJZVQwZ2oxVXc1UDRIWVYtRVJQUmx0SU9fSllXVkN4eDBsOWtyNE9NaFp6MG1lTkVYNTdDc3dmcVhqOWN0YzRHbEhYTkVUMml3LVUwbVk3cVI1eS01RWFiU0FtQTZkNEV4dFV2dDZmdzlPMnYyVzBrYXNj?oc=5",
+     "source": "Akron Beacon Journal"
     }
    ],
    "official": false,
-   "score": 29.4,
+   "score": 26.2,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "bruno fernandes",
-   "traffic": 200,
-   "published": "2026-11-09T02:20:00+09:00",
-   "category": "Benefits",
+   "keyword": "nwsl",
+   "traffic": 1000,
+   "published": "2026-11-09T02:40:00+09:00",
+   "category": "Housing",
    "news": [
     {
-     "title": "'Bruno's as good as ever' - Carrick backs Man Utd captain",
-     "url": "https://www.bbc.com/sport/football/articles/ckj0l542v7pvo",
-     "source": "BBC"
+     "title": "NWSL playoffs: Cooper’s extra-time penalty sends Kansas City through as Utah stun San Diego",
+     "url": "https://www.theguardian.com/football/2026/nov/07/nwsl-playoffs-kansas-city-current-angel-city-utah-royals-san-diego-wave",
+     "source": "The Guardian"
     },
     {
-     "title": "Bruno Fernandes: ‘Factors outside the dressing room’ make performing for Manchester United ‘difficult’ - The Athletic",
-     "url": "https://www.nytimes.com/athletic/7754371/2026/11/04/bruno-fernandes-man-united-dressing-room-factor-champions-league/",
+     "title": "Kansas City secures NWSL quarterfinal win on penalty Angel City coach calls ‘tremendously cheap’ - The Athletic",
+     "url": "https://www.nytimes.com/athletic/7761799/2026/11/07/kansas-city-victory-angel-city-nwsl-quarterfinal/",
      "source": "The New York Times"
     },
     {
-     "title": "Bruno Fernandes returns to Man United team as captain a week after being dropped by Carrick",
-     "url": "https://sitkasentinel.com/stories/bruno-fernandes-returns-to-man-united-team-as-captain-a-week-after-being-dropped-by-carrick,182906",
-     "source": "Daily Sitka Sentinel"
+     "title": "Kansas City Current wins NWSL playoff game vs. Angel City, advances to semifinals",
+     "url": "https://www.kansascity.com/sports/soccer/kc-current/article317927995.html",
+     "source": "Kansas City Star"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 25.6,
+   "score": 26.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.bbc.com/sport/football/articles/ckj0l542v7pvo",
-     "title": "'Bruno's as good as ever' - Carrick backs Man Utd captain",
-     "outlet": "BBC"
-    },
-    {
-     "url": "https://sitkasentinel.com/stories/bruno-fernandes-returns-to-man-united-team-as-captain-a-week-after-being-dropped-by-carrick,182906",
-     "title": "Bruno Fernandes returns to Man United team as captain a week after being dropped by Carrick",
-     "outlet": "Daily Sitka Sentinel"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "panthers vs bruins",
-   "traffic": 2000,
-   "published": "2026-11-09T02:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Preview: Bruins look to extend streak against Panthers",
-     "url": "https://www.stanleycupofchowder.com/26-27-game-coverage/59682/preview-bruins-look-to-extend-streak-against-panthers",
-     "source": "Stanley Cup of Chowder"
-    },
-    {
-     "title": "Panthers vs Bruins Prediction, Picks, NHL Odds for Sunday, November 8",
-     "url": "https://sports.yahoo.com/articles/panthers-vs-bruins-prediction-picks-151243441.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "PREVIEW: Panthers take on Bruins in Atlantic Division battle",
-     "url": "https://www.nhl.com/panthers/news/preview-panthers-take-on-bruins-in-atlantic-division-battle",
-     "source": "NHL.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.stanleycupofchowder.com/26-27-game-coverage/59682/preview-bruins-look-to-extend-streak-against-panthers",
-     "title": "Preview: Bruins look to extend streak against Panthers",
-     "outlet": "Stanley Cup of Chowder"
-    },
-    {
-     "url": "https://sports.yahoo.com/articles/panthers-vs-bruins-prediction-picks-151243441.html",
-     "title": "Panthers vs Bruins Prediction, Picks, NHL Odds for Sunday, November 8",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://www.nhl.com/panthers/news/preview-panthers-take-on-bruins-in-atlantic-division-battle",
-     "title": "PREVIEW: Panthers take on Bruins in Atlantic Division battle",
-     "outlet": "NHL.com"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "sammy kershaw cma awards snub",
-   "traffic": 2000,
-   "published": "2026-11-09T02:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "‘It really hurts me’: Louisiana native, country music star Sammy Kershaw says CMA denied red carpet request two weeks before show",
-     "url": "https://www.kalb.com/2026/11/06/it-really-hurts-me-louisiana-native-country-music-star-sammy-kershaw-says-cma-denied-red-carpet-request-two-weeks-before-show/",
-     "source": "KALB | News Channel 5"
-    },
-    {
-     "title": "Country music star rips CMA Awards after ‘extremely hurtful’ decision",
-     "url": "https://www.pennlive.com/entertainment/2026/11/country-music-star-rips-cma-awards-after-extremely-hurtful-decision.html",
-     "source": "PennLive.com"
-    },
-    {
-     "title": "Sammy Kershaw says CMA Awards denied his red carpet request. 'It's extremely hurtful'",
-     "url": "https://www.tennessean.com/story/entertainment/music/2026/11/06/sammy-kershaw-cma-awards-denied-red-carpet-request/92640335007/",
-     "source": "The Tennessean"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.kalb.com/2026/11/06/it-really-hurts-me-louisiana-native-country-music-star-sammy-kershaw-says-cma-denied-red-carpet-request-two-weeks-before-show/",
-     "title": "‘It really hurts me’: Louisiana native, country music star Sammy Kershaw says CMA denied red carpet request two weeks before show",
-     "outlet": "KALB | News Channel 5"
+     "url": "https://www.theguardian.com/football/2026/nov/07/nwsl-playoffs-kansas-city-current-angel-city-utah-royals-san-diego-wave",
+     "title": "NWSL playoffs: Cooper’s extra-time penalty sends Kansas City through as Utah stun San Diego",
+     "outlet": "The Guardian"
     }
    ]
   },
@@ -1179,8 +1058,8 @@
    "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 20,
-   "article_count_1h": 1,
+   "article_count_24h": 21,
+   "article_count_1h": 3,
    "published": "2026-11-08T18:26:44+09:00",
    "category": "기타",
    "news": [
@@ -1211,30 +1090,158 @@
     }
    ],
    "official": false,
-   "score": 14.3,
+   "score": 17.6,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "todd blanche",
-   "traffic": 1000,
-   "published": "2026-11-09T02:20:00+09:00",
+   "keyword": "alex singleton",
+   "traffic": 2000,
+   "published": "2026-11-09T02:40:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Trump's AG won't rule out prosecuting Democrats who threaten to investigate",
-     "url": "https://www.axios.com/2026/11/08/todd-blanche-doj-prosecuting-democrats-oversight",
-     "source": "Axios"
+     "title": "Alex Singleton Has 101 Tackles, and Chuba Hubbard Is the Panthers Back He Has to Stop Sunday",
+     "url": "https://sports.yahoo.com/articles/alex-singleton-101-tackles-chuba-110000798.html",
+     "source": "Yahoo Sports"
     },
     {
-     "title": "DOJ’s Blanche Says ‘It’s Me’ Defending Trump Team Against Probes",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-08/doj-s-blanche-says-it-s-me-defending-trump-team-against-probes",
-     "source": "Bloomberg.com"
+     "title": "Broncos ILB Alex Singleton named AFC Defensive Player of the Month",
+     "url": "https://www.denverbroncos.com/news/broncos-ilb-alex-singleton-named-afc-defensive-player-of-the-month",
+     "source": "Denver Broncos"
     },
     {
-     "title": "Trump calls for DOJ investigation into Democratic calls for oversight",
-     "url": "https://www.politico.com/news/2026/11/07/trump-calls-for-doj-investigation-into-democratic-oversight-01155242",
-     "source": "Politico"
+     "title": "Former CFL star Alex Singleton has been 'the best backer in football for a long time': Broncos DC Vance Joseph",
+     "url": "https://3downnation.com/2026/11/06/former-cfl-star-alex-singleton-has-been-the-best-backer-in-football-for-a-long-time-broncos-dc-vance-joseph/",
+     "source": "3DownNation"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://sports.yahoo.com/articles/alex-singleton-101-tackles-chuba-110000798.html",
+     "title": "Alex Singleton Has 101 Tackles, and Chuba Hubbard Is the Panthers Back He Has to Stop Sunday",
+     "outlet": "Yahoo Sports"
+    },
+    {
+     "url": "https://www.denverbroncos.com/news/broncos-ilb-alex-singleton-named-afc-defensive-player-of-the-month",
+     "title": "Broncos ILB Alex Singleton named AFC Defensive Player of the Month",
+     "outlet": "Denver Broncos"
+    },
+    {
+     "url": "https://3downnation.com/2026/11/06/former-cfl-star-alex-singleton-has-been-the-best-backer-in-football-for-a-long-time-broncos-dc-vance-joseph/",
+     "title": "Former CFL star Alex Singleton has been 'the best backer in football for a long time': Broncos DC Vance Joseph",
+     "outlet": "3DownNation"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "where to watch dallas cowboys vs colts",
+   "traffic": 2000,
+   "published": "2026-11-09T02:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "How to Watch Cowboys vs. Colts: TV Channel, Live Stream, Time",
+     "url": "https://www.foxsports.com/stories/nfl/how-to-watch-cowboys-vs-colts-tv-channel-live-stream-time-nov-8-2026",
+     "source": "FOX Sports"
+    },
+    {
+     "title": "See the fans, game action as Colts take on Cowboys in NFL Week 9",
+     "url": "https://www.indystar.com/picture-gallery/sports/nfl/colts/2026/11/08/colts-vs-cowboys-in-2026-nfl-week-9-see-the-photos/92676828007/",
+     "source": "IndyStar"
+    },
+    {
+     "title": "Gut Feeling: Staff predictions for Cowboys-Colts",
+     "url": "https://www.dallascowboys.com/news/gut-feeling-staff-predictions-for-cowboys-colts",
+     "source": "Dallas Cowboys | Official Site of the Dallas Cowboys"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.foxsports.com/stories/nfl/how-to-watch-cowboys-vs-colts-tv-channel-live-stream-time-nov-8-2026",
+     "title": "How to Watch Cowboys vs. Colts: TV Channel, Live Stream, Time",
+     "outlet": "FOX Sports"
+    },
+    {
+     "url": "https://www.dallascowboys.com/news/gut-feeling-staff-predictions-for-cowboys-colts",
+     "title": "Gut Feeling: Staff predictions for Cowboys-Colts",
+     "outlet": "Dallas Cowboys | Official Site of the Dallas Cowboys"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "nfl coverage map",
+   "traffic": 2000,
+   "published": "2026-11-09T02:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "NFL Week 9 live scores and updates: Bengals leading Falcons in Madrid, highlights and analysis from Sunday’s games",
+     "url": "https://www.nytimes.com/athletic/live-blogs/nfl-week-9-scores-live-updates-schedule-injuries-highlights/MvYWslswB6jf/",
+     "source": "The New York Times"
+    },
+    {
+     "title": "Where to watch NFL RedZone for free: live stream, TV channel",
+     "url": "https://sports.yahoo.com/articles/where-watch-nfl-redzone-free-171000440.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "NFL week nine: Jets v Chiefs, Rams v Commanders, Broncos v Panthers and more – updates",
+     "url": "https://www.theguardian.com/sport/live/2026/nov/08/nfl-week-nine-jets-v-chiefs-rams-v-commanders-broncos-v-panthers-and-more-updates",
+     "source": "The Guardian"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://sports.yahoo.com/articles/where-watch-nfl-redzone-free-171000440.html",
+     "title": "Where to watch NFL RedZone for free: live stream, TV channel",
+     "outlet": "Yahoo Sports"
+    },
+    {
+     "url": "https://www.theguardian.com/sport/live/2026/nov/08/nfl-week-nine-jets-v-chiefs-rams-v-commanders-broncos-v-panthers-and-more-updates",
+     "title": "NFL week nine: Jets v Chiefs, Rams v Commanders, Broncos v Panthers and more – updates",
+     "outlet": "The Guardian"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "vitória sc vs porto",
+   "traffic": 1000,
+   "published": "2026-11-09T02:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "FC Porto: duelo de Guimarães com o Sporting de Amorim à mão de semear",
+     "url": "https://www.abola.pt/noticias/fc-porto-duelo-de-guimaraes-com-o-sporting-de-amorim-a-mao-de-semear-2026110719395349764",
+     "source": "A Bola"
+    },
+    {
+     "title": "Farioli e a sequência vitoriosa: \"Fica para trás\"",
+     "url": "https://www.sporttv.pt/noticias/866488/farioli-e-a-sequencia-vitoriosa-fica-para-tras",
+     "source": "Sport TV"
+    },
+    {
+     "title": "Vitória SC: FC Porto: O assalto ao castelo... da tranquilidade",
+     "url": "https://www.noticiasaominuto.com/desporto/3080247/vitoria-sc-fc-porto-o-assalto-ao-castelo-da-tranquilidade",
+     "source": "Notícias ao Minuto"
     }
    ],
    "official": false,
@@ -1242,87 +1249,45 @@
    "spike_bonus": 15,
    "score": 12.0,
    "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "google_trends",
-   "keyword": "seattle reign fc vs gotham",
-   "traffic": 1000,
-   "published": "2026-11-09T02:10:00+09:00",
-   "category": "기타",
-   "news": [
+   "evidence": [
     {
-     "title": "NWSL quarterfinal preview: Seattle Reign vs. Gotham FC",
-     "url": "https://www.sounderatheart.com/2026/11/nwsl-quarterfinal-preview-seattle-reign-vs-gotham-fc/",
-     "source": "Sounder at Heart"
+     "url": "https://www.abola.pt/noticias/fc-porto-duelo-de-guimaraes-com-o-sporting-de-amorim-a-mao-de-semear-2026110719395349764",
+     "title": "FC Porto: duelo de Guimarães com o Sporting de Amorim à mão de semear",
+     "outlet": "A Bola"
     },
     {
-     "title": "What to know as the Reign open NWSL playoffs",
-     "url": "https://www.seattletimes.com/sports/reign/reign-fc-face-top-seeded-gotham-in-nwsl-playoffs-sunday-heres-what-to-know/",
-     "source": "The Seattle Times"
+     "url": "https://www.sporttv.pt/noticias/866488/farioli-e-a-sequencia-vitoriosa-fica-para-tras",
+     "title": "Farioli e a sequência vitoriosa: \"Fica para trás\"",
+     "outlet": "Sport TV"
     },
     {
-     "title": "Gotham FC sells 3,000 playoff tickets in 24 hours through Mamdani promotion",
-     "url": "https://www.sportsbusinessjournal.com/Articles/2026/11/06/gotham-fc-sells-3000-playoff-tickets-in-24-hours-through-mamdani-promotion/",
-     "source": "Sports Business Journal"
+     "url": "https://www.noticiasaominuto.com/desporto/3080247/vitoria-sc-fc-porto-o-assalto-ao-castelo-da-tranquilidade",
+     "title": "Vitória SC: FC Porto: O assalto ao castelo... da tranquilidade",
+     "outlet": "Notícias ao Minuto"
     }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false
+   ]
   },
   {
    "source": "google_trends",
-   "keyword": "arkansas basketball",
-   "traffic": 1000,
-   "published": "2026-11-09T02:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "MBB Preview: Arkansas vs Virginia in the Capital Showcase",
-     "url": "https://arkansasrazorbacks.com/mbb-preview-arkansas-vs-virginia-in-the-capital-showcase/",
-     "source": "Arkansas Razorbacks"
-    },
-    {
-     "title": "Arkansas basketball vs. Virginia in Washington, D.C.: How to watch, betting line, what to know",
-     "url": "https://www.wholehogsports.com/news/2026/nov/07/arkansas-basketball-vs-virginia-in-washington-dc-how-to-watch-betting-line-what-to-know/",
-     "source": "Whole Hog Sports"
-    },
-    {
-     "title": "No. 9 Virginia Battles No. 12 Arkansas in Skyscanner Capital Showcase",
-     "url": "https://virginiasports.com/news/2026/11/7/no-9-virginia-battles-no-12-arkansas-in-skyscanner-capital-showcase",
-     "source": "Virginia Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "st john's basketball",
+   "keyword": "michael strahan",
    "traffic": 500,
-   "published": "2026-11-09T02:20:00+09:00",
+   "published": "2026-11-09T02:40:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Sadiku Ibine Ayo forged deep bond with Rick Pitino — even if that meant leaving St. John’s to thrive",
-     "url": "https://nypost.com/2026/11/07/sports/ionas-sadiku-ibine-ayo-forged-deep-bond-with-rick-pitino/",
-     "source": "New York Post"
+     "title": "Michael Strahan’s Next TV Move Has Fans Calling Him an “Icon”",
+     "url": "https://www.yahoo.com/entertainment/tv/articles/michael-strahan-next-tv-move-125300079.html",
+     "source": "Yahoo"
     },
     {
-     "title": "How to watch Iona vs. No. 13 St. John’s: TV, live stream info, storylines for Sunday’s game",
-     "url": "https://sports.yahoo.com/articles/watch-iona-vs-no-13-130000599.html",
-     "source": "Yahoo Sports"
+     "title": "Michael Strahan Pulls Back the Curtain on the Biggest Names in Fashion, Television and Music in New Iconic Series",
+     "url": "https://people.com/michael-strahan-biggest-names-fashion-television-music-new-iconic-series-12230250",
+     "source": "People.com"
     },
     {
-     "title": "Iona Gaels vs. St. John's Red Storm odds, picks and predictions",
-     "url": "https://www.usatoday.com/story/sports/ncaab/2026/11/08/iona-vs-st-johns-odds-picks-and-predictions/92673858007/",
-     "source": "USA Today"
+     "title": "“Michael Strahan’s Iconic Fashion” Coming Soon To ABC, Hulu & Disney+",
+     "url": "https://whatsondisneyplus.com/michael-strahans-iconic-fashion-coming-soon-to-abc-hulu-disney/",
+     "source": "What's On Disney Plus"
     }
    ],
    "official": false,
@@ -1333,25 +1298,83 @@
   },
   {
    "source": "google_trends",
-   "keyword": "nwsl schedule",
-   "traffic": 200,
-   "published": "2026-11-09T02:20:00+09:00",
+   "keyword": "jack mccaffery",
+   "traffic": 500,
+   "published": "2026-11-09T02:30:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Updated NWSL Playoff Bracket 2026 and Quarterfinals Schedule After Latest Results",
-     "url": "https://bleacherreport.com/articles/25530136-updated-nwsl-playoff-bracket-2026-and-quarterfinals-schedule-after-latest-results",
-     "source": "Bleacher Report"
+     "title": "Former Iowa coach Fran McCaffery's son Jack diagnosed with Hodgkin lymphoma",
+     "url": "https://cbs2iowa.com/news/local/former-iowa-coach-fran-mccafferys-son-jack-diagnosed-with-hodgkin-lymphoma",
+     "source": "KGAN"
     },
     {
-     "title": "How Gotham FC re-tooled for another NWSL title run – this time as favorites",
-     "url": "https://www.theguardian.com/football/2026/nov/06/gotham-fc-nwsl-playoffs",
-     "source": "The Guardian"
+     "title": "McCaffery to Take Medical Leave from Men's Basketball Team - University of Richmond Athletics",
+     "url": "https://richmondspiders.com/news/2026/11/8/mccaffery-to-take-medical-leave-from-mens-basketball-team",
+     "source": "Richmond Spiders"
     },
     {
-     "title": "Your NWSL playoff rooting guide, plus the ultimate college football slate - The Athletic",
-     "url": "https://www.nytimes.com/athletic/7760926/2026/11/07/your-nwsl-playoff-rooting-guide-plus-the-ultimate-college-football-slate/",
-     "source": "The New York Times"
+     "title": "Caitlin Clark’s Boyfriend’s Family Asking For Prayers Sunday",
+     "url": "https://thespun.com/wnba/caitlin-clarks-boyfriends-family-asking-for-prayers-sunday",
+     "source": "The Spun"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "bills vs vikings",
+   "traffic": 200,
+   "published": "2026-11-09T02:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "How to Watch, Listen to & Stream Bills at Vikings in 2026 Week 9 Game",
+     "url": "https://www.vikings.com/news/how-to-watch-listen-stream-bills-week-9",
+     "source": "Minnesota Vikings"
+    },
+    {
+     "title": "Ravens' Roquan Smith fined by NFL for twisting Josh Allen's facemask in Bills' win",
+     "url": "https://buffalonews.com/sports/professional/nfl/bills/article_fb2a917d-b508-4f07-aaec-6f3f95b1449b.html",
+     "source": "Buffalo News"
+    },
+    {
+     "title": "2026 NFL Week 9 Best Bets, Expert Picks: Are Vikings In The Bills' League?",
+     "url": "https://www.foxsports.com/stories/nfl/2026-nfl-week-9-best-bets-expert-picks-vikings-bills-league",
+     "source": "FOX Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "marshals tv show schedule change",
+   "traffic": 200,
+   "published": "2026-11-09T02:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Why Isn’t Marshals on Tonight? What to Know About the Surprising Season 2 Schedule Change",
+     "url": "https://people.com/why-isnt-marshals-on-tonight-12240393",
+     "source": "People.com"
+    },
+    {
+     "title": "Why 'Marshals' and 'Tracker' won't be on air on CBS Sunday",
+     "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/11/06/cbs-sunday-schedule-change-november-marshals-tracker/92639301007/",
+     "source": "USA Today"
+    },
+    {
+     "title": "Are ‘Tracker’ & ‘Marshals’ New on TV Tonight? When They’ll Return Amid ‘Cupertino’ November 8 Takeover",
+     "url": "https://www.yahoo.com/entertainment/tv/renewed-canceled/articles/tracker-marshals-tv-tonight-ll-124111044.html",
+     "source": "Yahoo"
     }
    ],
    "official": false,
@@ -1407,25 +1430,6 @@
    "official": false,
    "score": 4.8,
    "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "LIHEAP",
-   "traffic": 0,
-   "article_count_24h": 1,
-   "article_count_1h": 0,
-   "published": "2026-11-08T03:03:19+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Homeowners banned from turning off heat under state's Nov. 1 'cold weather law' - The Sun",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZHh3NjJRSGtwZ2s3Y1UyeUstRWRWRDJ4b3d4V0Ria0hDMVprUDh2MGE2Sl9aV19Tbm1pbUN3dWs1TWtQMW9QOTZTcW94ejM1bUwwQW1RTlJMM1daSWZBS2hYb3RxeWV1bjF6bnYtNnBzRWxkeld4RzlFYUdjQ1lkY3p1U0g2aGR2SFZtbA?oc=5",
-     "source": "The Sun"
-    }
-   ],
-   "official": false,
-   "score": 3.4,
-   "already_covered": true
   }
  ]
 }
