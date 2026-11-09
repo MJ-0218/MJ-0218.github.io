@@ -1,51 +1,28 @@
 {
- "generated_at": "2026-11-10T06:31:47.903984+09:00",
+ "generated_at": "2026-11-10T07:33:52.109830+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (8)",
-  "evidence": "ok (저장 24, 실패 4)"
+  "evidence": "ok (저장 32, 실패 3)"
  },
  "compared_runs": 2,
  "spikes": [
-  "力 積 電",
-  "台灣彩券",
-  "老農津貼",
-  "台 塑 九 寶"
+  "美股指數",
+  "普 發 一 萬",
+  "weather",
+  "สภาพอากาศ",
+  "股利",
+  "營業額",
+  "每股盈餘",
+  "weather today"
  ],
  "candidates": [
-  {
-   "source": "google_trends",
-   "keyword": "氣溫",
-   "traffic": 50000,
-   "published": "2026-11-10T03:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "冷空氣發威最涼一天！明中部以北低溫下探15度 這日起回暖飆31度",
-     "url": "https://udn.com/news/story/7266/9867316",
-     "source": "UDN"
-    },
-    {
-     "title": "入秋最有感降溫 氣象粉專曬1圖揭「特殊雲街」：冷空氣要來了！",
-     "url": "https://tw.news.yahoo.com/%E5%85%A5%E7%A7%8B%E6%9C%80%E6%9C%89%E6%84%9F%E9%99%8D%E6%BA%AB-%E6%B0%A3%E8%B1%A1%E7%B2%89%E5%B0%88%E6%9B%AC1%E5%9C%96%E6%8F%AD-%E7%89%B9%E6%AE%8A%E9%9B%B2%E8%A1%97-%E5%86%B7%E7%A9%BA%E6%B0%A3%E8%A6%81%E4%BE%86%E4%BA%86-071700125.html",
-     "source": "Yahoo新聞"
-    },
-    {
-     "title": "東北季風增強持續到周三 今晚至明晨最冷下探至15度",
-     "url": "https://news.pts.org.tw/article/834866",
-     "source": "公視新聞"
-    }
-   ],
-   "official": false,
-   "score": 60.0,
-   "already_covered": false
-  },
   {
    "source": "google_news",
    "keyword": "颱風",
    "traffic": 0,
-   "article_count_24h": 39,
-   "article_count_1h": 0,
+   "article_count_24h": 37,
+   "article_count_1h": 2,
    "published": "2026-11-10T04:15:46+09:00",
    "category": "Living",
    "news": [
@@ -76,7 +53,7 @@
     }
    ],
    "official": false,
-   "score": 18.0,
+   "score": 22.8,
    "already_covered": true,
    "evidence": [
     {
@@ -102,11 +79,57 @@
    ]
   },
   {
+   "source": "google_trends",
+   "keyword": "美股指數",
+   "traffic": 2000,
+   "published": "2026-11-10T06:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "〈美股盤後〉道瓊飆逾1100點 標普創4月來最佳日 輝達逆勢跌超4%",
+     "url": "https://news.cnyes.com/news/id/6654538",
+     "source": "鉅亨網"
+    },
+    {
+     "title": "美股4大指數全面反彈！道瓊飆漲1104點 費半漲逾6.8%",
+     "url": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E5%85%A8%E9%9D%A2%E5%8F%8D%E5%BD%88-%E9%81%93%E7%93%8A%E9%A3%86%E6%BC%B21104%E9%BB%9E-%E8%B2%BB%E5%8D%8A%E6%BC%B2%E9%80%BE6-8-215800022.html",
+     "source": "Yahoo新聞"
+    },
+    {
+     "title": "輝達開盤暴跌8％ 專家：黃仁勳外遇升高美科技出口管制壓力",
+     "url": "https://ec.ltn.com.tw/article/breakingnews/5635065",
+     "source": "自由財經"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://news.cnyes.com/news/id/6654538",
+     "title": "〈美股盤後〉道瓊飆逾1100點 標普創4月來最佳日 輝達逆勢跌超4%",
+     "outlet": "鉅亨網"
+    },
+    {
+     "url": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E5%85%A8%E9%9D%A2%E5%8F%8D%E5%BD%88-%E9%81%93%E7%93%8A%E9%A3%86%E6%BC%B21104%E9%BB%9E-%E8%B2%BB%E5%8D%8A%E6%BC%B2%E9%80%BE6-8-215800022.html",
+     "title": "美股4大指數全面反彈！道瓊飆漲1104點 費半漲逾6.8%",
+     "outlet": "Yahoo新聞"
+    },
+    {
+     "url": "https://ec.ltn.com.tw/article/breakingnews/5635065",
+     "title": "輝達開盤暴跌8％ 專家：黃仁勳外遇升高美科技出口管制壓力",
+     "outlet": "自由財經"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "除濕",
    "traffic": 0,
    "article_count_24h": 14,
-   "article_count_1h": 0,
+   "article_count_1h": 1,
    "published": "2026-11-10T00:52:47+09:00",
    "category": "Living",
    "news": [
@@ -137,7 +160,7 @@
     }
    ],
    "official": false,
-   "score": 18.0,
+   "score": 14.3,
    "already_covered": true,
    "evidence": [
     {
@@ -182,11 +205,6 @@
      "source": "鏡週刊Mirror Media"
     },
     {
-     "title": "《再婚皇后》為何爆紅？韓劇口碑雙冠！播出時間、快閃店資訊一次看｜熱門話題 - 網路溫度計 DailyView",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wMTlORW8yUV9KdFlsYVlYVVd4eWlSNHBzQVotdDhIRFVnRUJXRG51TTVjajNsOUVsUzY5YS0xNVZXbUZIWnY0cG9kUzVnVmktUUM0?oc=5",
-     "source": "網路溫度計 DailyView"
-    },
-    {
      "title": "【韓劇夫妻檔】申敏兒《再婚皇后》遭丈夫朱智勳外遇背叛絕地大反擊 金宇彬新劇率棒球隊翻身 - 上報Up Media",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJOTEtaTd1NHB4S0I4Z0tmSzdtWF9VWDhPUDlxYU5oVnJaTFFsU18zZk5DSno3a0d1MTZMS0R4RUVodEdHUXJYMkpBeWQzdFVvT2liUXlIaU9SYzY3RHJCdS0xNjJBbk1OMnc?oc=5",
      "source": "上報Up Media"
@@ -195,6 +213,11 @@
      "title": "爆紅韓劇《百日謊言》金裕貞 朴珍榮 諜對諜譜危情 - 香港經濟日報HKET",
      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQSWVZd3VGUTBteWgxWmc2VUIzRDM1dk5ibnVEMmp4QlBveUV6bnQzelBBbTBxbklWZVY4eFdvMmh6dk9WY3I5YXp0aXJ6eHVaVm13eDNGYm1JRGYyeHBZWnRGclZuVk5CRDloeE55bUE5bVJrR2czdndGaHNPenZzaEdqS2NnTXhTSm9yUWZ4NTJvb3ZtUmU0dFVsRDVIUkkwQVlPSDBVc0RzN0MtQjdrU1dpN3NRYUF4SzFsRncxNzJRT2pPY1lYaHNIRTlSVmY0VmhuQ090LUwyZzlhakRIcDZhNTdzZmNNOTNuQmY0Vlh6aUpyZ3dfUkxQYUs2VmZWWmFET0NzbDl3a0tNRGVVdXZIbG9QMFdybFVhNjVzY2Ita2VxeVpGbk5xa3FqRERpTHlaSGl4cXVuaFgzX1c1X3FFblVMMnZucFlpX1VRLV9uWTZTRU9kMENiTEY2dmJN?oc=5",
      "source": "香港經濟日報HKET"
+    },
+    {
+     "title": "申敏兒《再婚皇后》首播爆！大尺度床戲朱智勛 網民急Call金宇彬 - 香港01",
+     "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxONm94RHVFdDF3anFjT01WTjMzQi0zamR0OG5tVE9MSnIydU5Bbmo1eW1uMTYwdnNWX1BTQmxKX29mVFJNNXhweXU1WHNPR3A0WnJnLS01TGhJcHFMdHE3ZGxoX1dNbHRtcFJ0SG1nZ0hSdVRXalU0b29remVzSk9rRkpOQjZvM1lHSFZfS1p0WWJyc29wY1dQUzZsSWxlc3Zya1JfbGlHVmlJcktuYm9NZFF2NGlIOTRCZmVRdExmRHFoZXNva2xCUXFYRU83dXItN3UtZERBOUpIVFhIbzhzRm5FM3FzbVBDTGF1NC1TS1BiVUI0Wks1ZGNrZ0hBUHF0bFVuYlhoaFQwaUxnZFNlTlZSZVhYTEFYZUQxdUppaFdBLTc3RHVxVjRIWVZNYWk2dnZGN1AzM3c5ajU4OGpib3U1Um82bWYySlNYLTVWc2pzdkNhYVhrdmEweGtxTXpVbU5lSGF2NWs0T01kUWZ2RGp6VXF2MGN5QjVYa2dPRkNfS3A0OXFidg?oc=5",
+     "source": "香港01"
     }
    ],
    "official": false,
@@ -212,14 +235,14 @@
      "outlet": "鏡週刊Mirror Media"
     },
     {
-     "url": "https://dailyview.tw/popular/detail/33921",
-     "title": "《再婚皇后》為何爆紅？韓劇口碑雙冠！播出時間、快閃店資訊一次看｜熱門話題 - 網路溫度計 DailyView",
-     "outlet": "網路溫度計 DailyView"
-    },
-    {
      "url": "https://www.upmedia.mg/tw/popularity/chinese-dramas/273699",
      "title": "【韓劇夫妻檔】申敏兒《再婚皇后》遭丈夫朱智勳外遇背叛絕地大反擊 金宇彬新劇率棒球隊翻身 - 上報Up Media",
      "outlet": "上報Up Media"
+    },
+    {
+     "url": "https://www.hk01.com/%E9%9B%BB%E5%BD%B1/60407910/%E7%94%B3%E6%95%8F%E5%85%92-%E5%86%8D%E5%A9%9A%E7%9A%87%E5%90%8E-%E9%A6%96%E6%92%AD%E7%88%86-%E5%A4%A7%E5%B0%BA%E5%BA%A6%E5%BA%8A%E6%88%B2%E6%9C%B1%E6%99%BA%E5%8B%9B-%E7%B6%B2%E6%B0%91%E6%80%A5call%E9%87%91%E5%AE%87%E5%BD%AC",
+     "title": "申敏兒《再婚皇后》首播爆！大尺度床戲朱智勛 網民急Call金宇彬 - 香港01",
+     "outlet": "香港01"
     }
    ]
   },
@@ -227,7 +250,7 @@
    "source": "google_news",
    "keyword": "K-pop",
    "traffic": 0,
-   "article_count_24h": 30,
+   "article_count_24h": 31,
    "article_count_1h": 0,
    "published": "2026-11-09T18:45:06+09:00",
    "category": "K-Culture",
@@ -286,67 +309,49 @@
   },
   {
    "source": "google_trends",
-   "keyword": "力 積 電",
+   "keyword": "普 發 一 萬",
    "traffic": 1000,
-   "published": "2026-11-10T06:00:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "google_trends",
-   "keyword": "台灣彩券",
-   "traffic": 500,
-   "published": "2026-11-10T06:20:00+09:00",
+   "published": "2026-11-10T07:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "今彩539八百萬頭獎開3注「獎落2縣市」！ 威力彩續槓下期3.1億",
-     "url": "https://news.ttv.com.tw/news/11511090003500W/amp",
-     "source": "台視新聞網"
-    },
-    {
-     "title": "威力彩頭獎連17摃 下期獎金上看3.1億",
-     "url": "https://stock.ltn.com.tw/article/wuta0yu95gvz",
-     "source": "自由時報"
-    },
-    {
-     "title": "威力彩11/9開獎號碼出爐！頭獎連16槓飆2.9億元，今彩539、3星彩、4 星彩中獎號碼一次看",
-     "url": "https://www.storm.mg/lifestyle/11179924",
+     "title": "今日（11/7）熱門新聞！普發一萬入帳時間曝／70歲長輩「政府發36000元補助」／悠遊卡「6大隱藏功能」 不知道虧大了",
+     "url": "https://www.storm.mg/lifestyle/11179314",
      "source": "風傳媒"
+    },
+    {
+     "title": "普發一萬什麼時候領？ATM、郵局入帳領現時間表　5大發放方式一覽",
+     "url": "https://www.nownews.com/news/6890428",
+     "source": "NOWnews今日新聞"
+    },
+    {
+     "title": "全民普發一萬何時入帳？發放「關鍵6日期」曝光 | 三立新聞網",
+     "url": "https://today.line.me/tw/v3/article/l2pproG",
+     "source": "LINE TODAY"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 10.5,
+   "score": 12.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.storm.mg/lifestyle/11179924",
-     "title": "威力彩11/9開獎號碼出爐！頭獎連16槓飆2.9億元，今彩539、3星彩、4 星彩中獎號碼一次看",
+     "url": "https://www.storm.mg/lifestyle/11179314",
+     "title": "今日（11/7）熱門新聞！普發一萬入帳時間曝／70歲長輩「政府發36000元補助」／悠遊卡「6大隱藏功能」 不知道虧大了",
      "outlet": "風傳媒"
+    },
+    {
+     "url": "https://www.nownews.com/news/6890428",
+     "title": "普發一萬什麼時候領？ATM、郵局入帳領現時間表　5大發放方式一覽",
+     "outlet": "NOWnews今日新聞"
+    },
+    {
+     "url": "https://today.line.me/tw/v3/article/l2pproG",
+     "title": "全民普發一萬何時入帳？發放「關鍵6日期」曝光 | 三立新聞網",
+     "outlet": "LINE TODAY"
     }
    ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "老農津貼",
-   "traffic": 500,
-   "published": "2026-11-10T06:10:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": []
   },
   {
    "source": "google_news",
@@ -363,8 +368,8 @@
      "source": "LINE TODAY"
     },
     {
-     "title": "電音波越強越有效？醫師揭韓國、台灣醫美差異，「慢老」才是新趨勢！ - 女人我最大",
-     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GRVFHRGM0NmJtc2xHRUduT2ZqaEIzanMtMzBJU0NGa25pNm1jSG9ra3Q1ODcwOHRZWloxSlBHcWgxUU5qSlpWZHVJSmI1Y1E?oc=5",
+     "title": "崔佩儀《我永遠愛你》舊照Threads爆紅！61歲抗老保養法公開，脖子保養、睡眠習慣都是關鍵 - 女人我最大",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5TEotUGtFWUM0VWIwbjNRcmEyVzh6U0ZyNmxydzAzN0NwUTVHZ1F4V1lhRnVQRlVOOEZTdzVXNFNOYkduUzZBM29JQkgwLW8?oc=5",
      "source": "女人我最大"
     },
     {
@@ -388,8 +393,8 @@
    "already_covered": true,
    "evidence": [
     {
-     "url": "https://woman.tvbs.com.tw/beauty/68375",
-     "title": "電音波越強越有效？醫師揭韓國、台灣醫美差異，「慢老」才是新趨勢！ - 女人我最大",
+     "url": "https://woman.tvbs.com.tw/beauty/68378",
+     "title": "崔佩儀《我永遠愛你》舊照Threads爆紅！61歲抗老保養法公開，脖子保養、睡眠習慣都是關鍵 - 女人我最大",
      "outlet": "女人我最大"
     },
     {
@@ -411,11 +416,173 @@
   },
   {
    "source": "google_trends",
-   "keyword": "台 塑 九 寶",
+   "keyword": "weather",
+   "traffic": 200,
+   "published": "2026-11-10T07:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Dry weather continues with cold air coming",
+     "url": "https://www.yahoo.com/news/weather-news/articles/dry-weather-continues-cold-air-210105376.html",
+     "source": "Yahoo"
+    },
+    {
+     "title": "Tracking more sunshine and mild temperatures",
+     "url": "https://abc17news.com/weather/2026/11/09/tracking-more-sunshine-and-mild-temperatures/",
+     "source": "ABC17NEWS"
+    },
+    {
+     "title": "Quiet fall conditions return",
+     "url": "https://www.wapt.com/article/quiet-fall-conditions-return/74332151",
+     "source": "WAPT"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.yahoo.com/news/weather-news/articles/dry-weather-continues-cold-air-210105376.html",
+     "title": "Dry weather continues with cold air coming",
+     "outlet": "Yahoo"
+    },
+    {
+     "url": "https://abc17news.com/weather/2026/11/09/tracking-more-sunshine-and-mild-temperatures/",
+     "title": "Tracking more sunshine and mild temperatures",
+     "outlet": "ABC17NEWS"
+    },
+    {
+     "url": "https://www.wapt.com/article/quiet-fall-conditions-return/74332151",
+     "title": "Quiet fall conditions return",
+     "outlet": "WAPT"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "สภาพอากาศ",
+   "traffic": 200,
+   "published": "2026-11-10T07:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "กรมอุตุฯ ประกาศประเทศไทยเข้าสู่ฤดูหนาว 9 พ.ย.2569 คาดสิ้นสุดประมาณปลาย ก.พ. 2570 ปีนี้มีแนวโน้มหนาวเย็นน้อยกว่าปกติ",
+     "url": "https://today.line.me/th/v3/article/qoZZBGG",
+     "source": "LINE TODAY"
+    },
+    {
+     "title": "สภาพอากาศวันนี้ -15 พ.ย.ใต้ฝนหนักบางแห่ง ไทยตอนบนอุณหภูมิลดลง ลมแรง",
+     "url": "https://www.thansettakij.com/general-news/673363",
+     "source": "Thansettakij"
+    },
+    {
+     "title": "Green Report : \"ฤดูหนาว\" ปีนี้ไม่เหมือนเดิม อุณหภูมิแปรปรวน",
+     "url": "https://www.ch7.com/th/news/201336/",
+     "source": "ช่อง 7"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "股利",
+   "traffic": 200,
+   "published": "2026-11-10T06:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "台股崩跌恐沖散洋流？台北人「驚人股利」曝光作家示警小心賭爛票：就看護盤成效了| 李瑋萱 | 新聞",
+     "url": "https://www.storm.mg/article/11179295",
+     "source": "風傳媒"
+    },
+    {
+     "title": "【CNEWS】台股跌不停！還沒殺完？賴清德曝經濟成長率12% 網友：這輩子看不到5 萬",
+     "url": "https://cnews.com.tw/%E3%80%90cnews%E3%80%91%E5%8F%B0%E8%82%A1%E8%B7%8C%E4%B8%8D%E5%81%9C%EF%BC%81%E9%82%84%E6%B2%92%E6%AE%BA%E5%AE%8C%EF%BC%9F%E8%B3%B4%E6%B8%85%E5%BE%B7%E6%9B%9D%E7%B6%93%E6%BF%9F%E6%88%90%E9%95%B7/",
+     "source": "匯流新聞網"
+    },
+    {
+     "title": "【股票一直跌！桃園變態雇主「性侵女移工」洩憤】 （#大表哥）",
+     "url": "https://www.facebook.com/ETtoday/posts/%E8%82%A1%E7%A5%A8%E4%B8%80%E7%9B%B4%E8%B7%8C%E6%A1%83%E5%9C%92%E8%AE%8A%E6%85%8B%E9%9B%87%E4%B8%BB%E6%80%A7%E4%BE%B5%E5%A5%B3%E7%A7%BB%E5%B7%A5%E6%B4%A9%E6%86%A4%E5%A4%A7%E8%A1%A8%E5%93%A5/1616086840550395/",
+     "source": "Facebook"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "營業額",
    "traffic": 100,
-   "published": "2026-11-10T06:00:00+09:00",
+   "published": "2026-11-10T07:10:00+09:00",
    "category": "기타",
    "news": [],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "每股盈餘",
+   "traffic": 100,
+   "published": "2026-11-10T07:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "標題 : 營收亮眼但每股盈利失色！Clearway Q3營收522M勝預期、EPS僅0.42美元引關注",
+     "url": "https://www.forecastock.tw/article/cmoneyairesearcher-7d70f521-dc8b-11f1-82e9-5a332fad2619",
+     "source": "美股放大鏡"
+    },
+    {
+     "title": "Clearway Energy C Q3 每股盈利 遜於預期, 營收 勝預期",
+     "url": "https://hk.investing.com/news/earnings/article-1748407",
+     "source": "Investing.com 香港 - 股市報價& 財經新聞"
+    },
+    {
+     "title": "Take-Two Q2「每股勝預期、營收落後」：調整後EPS回溫但公司給出龐大未來營收指引",
+     "url": "https://cmnews.com.tw/article/cmoneyairesearcher-74e33bad-dc8b-11f1-bbef-b0f8b3afce1a",
+     "source": "CMoney投資網誌"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "weather today",
+   "traffic": 100,
+   "published": "2026-11-10T06:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Maui Weather Forecast for November 09, 2026",
+     "url": "https://mauinow.com/2026/11/09/maui-weather-forecast-for-november-09-2026/",
+     "source": "Maui Now"
+    },
+    {
+     "title": "Hawaii County Weather Forecast for November 07, 2026",
+     "url": "https://bigislandnow.com/2026/11/06/hawaii-county-weather-forecast-for-november-07-2026/",
+     "source": "Big Island Now"
+    },
+    {
+     "title": "Hawaii County Weather Forecast for November 04, 2026",
+     "url": "https://bigislandnow.com/2026/11/03/hawaii-county-weather-forecast-for-november-04-2026/",
+     "source": "Big Island Now"
+    }
+   ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
@@ -471,9 +638,9 @@
    "category": "Beauty",
    "news": [
     {
-     "title": "京站週慶26%超給力會員抽紐約雙人機票- 消費新聞 - PChome Online新聞",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUy1jOVQ3c2ZuZ3pYYUcxTmlpeUM5cVpUUU5WdzNLVGs0OVBnUi1pZ3lUdGRQSFVlLWp4ZUVDcHNHTUdsUE5paU5RQkw4cTJaUXVlbkg3WHVnSkFuaVdlSUtHMW1IbGt4Qlc2SWd3Qk8xb19BeHg3cGhOMl9ySUMzN1pkYm9JY0Vh?oc=5",
-     "source": "PChome Online新聞"
+     "title": "京站週慶26%超給力 會員抽紐約雙人機票 - 蕃新聞",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JNHlOYVNQelZxSVh4U3lYd0puTGFhWlJ3QVVjZTN2MlNRYUdZMjFvc0VtLXZ3LUs4N3hjYzZCXzczQjZrVnpiRk5LSjF3WFc5R2c?oc=5",
+     "source": "蕃新聞"
     },
     {
      "title": "台北女生週末保養清單！撥筋做臉、美甲、汗蒸 3 間 - udn 女子漾",
@@ -487,52 +654,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "道瓊工業指數",
+   "keyword": "台灣彩券",
    "traffic": 500,
-   "published": "2026-11-10T05:20:00+09:00",
+   "published": "2026-11-10T06:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "〈美股早盤〉買盤回來了！油價下跌助攻 道瓊漲600點",
-     "url": "https://news.cnyes.com/news/id/6653692",
-     "source": "鉅亨網"
+     "title": "今彩539八百萬頭獎開3注「獎落2縣市」！ 威力彩續槓下期3.1億",
+     "url": "https://news.ttv.com.tw/news/11511090003500W/amp",
+     "source": "台視新聞網"
     },
     {
-     "title": "輝達逆勢跌逾6%！黃仁勳調查案衝擊多大？華爾街點出三大風險",
-     "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E9%80%86%E5%8B%A2%E8%B7%8C%E9%80%BE6-%E9%BB%83%E4%BB%81%E5%8B%B3%E8%AA%BF%E6%9F%A5%E6%A1%88%E8%A1%9D%E6%93%8A%E5%A4%9A%E5%A4%A7-%E8%8F%AF%E7%88%BE%E8%A1%97%E9%BB%9E%E5%87%BA%E4%B8%89%E5%A4%A7%E9%A2%A8%E9%9A%AA-170006959.html",
-     "source": "Yahoo股市"
+     "title": "威力彩頭獎連17摃 下期獎金上看3.1億",
+     "url": "https://stock.ltn.com.tw/article/wuta0yu95gvz",
+     "source": "自由時報"
     },
     {
-     "title": "輝達開盤暴跌8％ 專家：黃仁勳外遇升高美科技出口管制壓力",
-     "url": "https://ec.ltn.com.tw/article/breakingnews/5635065",
-     "source": "自由財經"
-    }
-   ],
-   "official": false,
-   "score": 1.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "中信兄弟",
-   "traffic": 500,
-   "published": "2026-11-10T04:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "亞冠賽》大戰兄弟票房開紅盤！ 台灣隊公布觀眾人數",
-     "url": "https://tw.sports.yahoo.com/news/%E4%BA%9E%E5%86%A0%E8%B3%BD-%E5%A4%A7%E6%88%B0%E5%85%84%E5%BC%9F%E7%A5%A8%E6%88%BF%E9%96%8B%E7%B4%85%E7%9B%A4-%E5%8F%B0%E7%81%A3%E9%9A%8A%E5%85%AC%E5%B8%83%E8%A7%80%E7%9C%BE%E4%BA%BA%E6%95%B8-065215827.html",
-     "source": "Yahoo運動"
-    },
-    {
-     "title": "亞冠賽》張仁瑋變超級工具人 兄弟未來有不同的計劃",
-     "url": "https://sports.ltn.com.tw/news/breakingnews/5633788",
-     "source": "自由體育"
-    },
-    {
-     "title": "平野惠一為張仁瑋美技鼓掌！兄弟球季告終「可能有人離隊」送祝福",
-     "url": "https://sports.ettoday.net/news/3268587",
-     "source": "ETtoday運動雲"
+     "title": "威力彩11/9開獎號碼出爐！頭獎連16槓飆2.9億元，今彩539、3星彩、4 星彩中獎號碼一次看",
+     "url": "https://www.storm.mg/lifestyle/11179924",
+     "source": "風傳媒"
     }
    ],
    "official": false,
@@ -560,83 +700,13 @@
   },
   {
    "source": "google_trends",
-   "keyword": "天气",
+   "keyword": "老農津貼",
    "traffic": 200,
-   "published": "2026-11-10T05:20:00+09:00",
+   "published": "2026-11-10T06:10:00+09:00",
    "category": "기타",
-   "news": [
-    {
-     "title": "How space weather powers auroras in the sky and threatens power grids on the ground",
-     "url": "https://phys.org/news/2026-11-space-weather-powers-auroras-sky.html",
-     "source": "Phys.org"
-    },
-    {
-     "title": "Solar storms challenge insurers’ diversification and damage triggers",
-     "url": "https://www.globalreinsurance.com/home/solar-storms-challenge-insurers-diversification-and-damage-triggers/1460219.article",
-     "source": "Global Reinsurance"
-    },
-    {
-     "title": "The science of space weather",
-     "url": "https://www.esa.int/media/the-science-of-space-weather",
-     "source": "ESA"
-    }
-   ],
+   "news": [],
    "official": false,
    "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "u23 世界盃棒球錦標賽",
-   "traffic": 200,
-   "published": "2026-11-10T02:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "U23世界盃》明天決戰台灣！澳洲隊超謎 屠殺波多黎各卻爆冷輸捷克",
-     "url": "https://sports.ltn.com.tw/news/breakingnews/5634147",
-     "source": "自由體育"
-    },
-    {
-     "title": "快訊／U23中華隊0比4遭澳洲完封！預賽最終戰碰波多黎各拚晉級",
-     "url": "https://sports.ettoday.net/news/3269255",
-     "source": "ETtoday運動雲"
-    },
-    {
-     "title": "U23世界盃賽程｜U23中華隊賽程、分組、賽事直播資訊整理一次看！【2026年第六屆U-23世界盃棒球賽】",
-     "url": "https://tw.sports.yahoo.com/news/u23%E4%B8%96%E7%95%8C%E7%9B%83%E8%B3%BD%E7%A8%8B%EF%BD%9Cu23%E4%B8%AD%E8%8F%AF%E9%9A%8A%E8%B3%BD%E7%A8%8B%E3%80%81%E5%88%86%E7%B5%84%E3%80%81%E8%B3%BD%E4%BA%8B%E7%9B%B4%E6%92%AD%E8%B3%87%E8%A8%8A%E6%95%B4%E7%90%86%E4%B8%80%E6%AC%A1%E7%9C%8B%EF%BC%81%E3%80%902026%E5%B9%B4%E7%AC%AC%E5%85%AD%E5%B1%86u-23%E4%B8%96%E7%95%8C%E7%9B%83%E6%A3%92%E7%90%83%E8%B3%BD%E3%80%91-015501300.html",
-     "source": "Yahoo運動"
-    }
-   ],
-   "official": false,
-   "score": 0.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "gta 6",
-   "traffic": 100,
-   "published": "2026-11-10T01:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Oxford Street transformed into GTA’s Vice City with HUGE queues for exclusive merch",
-     "url": "https://uk.news.yahoo.com/oxford-street-transformed-gta-vice-163110384.html",
-     "source": "Yahoo News UK"
-    },
-    {
-     "title": "Iconic British Retail Store Gets GTA 6 Takeover Featuring Exclusive $3,355 Varsity Jacket",
-     "url": "https://www.ign.com/articles/selfridges-gta-6-takeover-varsity-jacket",
-     "source": "IGN"
-    },
-    {
-     "title": "We Visited The GTA 6 Popup Store And Here’s Everything You Need To Know",
-     "url": "https://rockstarintel.com/we-visited-the-gta-6-popup-store-and-heres-everything-you-need-to-know/",
-     "source": "RockstarINTEL"
-    }
-   ],
-   "official": false,
-   "score": 0.3,
    "already_covered": false
   }
  ]
