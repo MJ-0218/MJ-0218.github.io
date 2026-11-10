@@ -21,6 +21,8 @@ sources:
     url: "https://www.etoday.co.kr/news/view/2646474?trc=main_list_news"
   - title: "네이버 블로그 — 생생정보 11월 10일 스타밥집 김기태 단골맛집 김해 길벗추어탕"
     url: "https://m.blog.naver.com/gksthdjs/224471814170"
+  - title: "톱스타뉴스 — '생생정보' 서울 시청역 불고기정식 맛집 위치는? (2026.11.10)"
+    url: "https://www.topstarnews.net/news/articleView.html?idxno=16273097"
   - title: "네이버 블로그 — 11월 10일 생생정보·생방송투데이 나온 곳"
     url: "https://m.blog.naver.com/ranlyu/224471821828"
 ---
@@ -44,6 +46,12 @@ sources:
 경남 김해시 **전하동**에 있어요.
 
 [📍 네이버 지도에서 길벗추어탕 보기](https://map.naver.com/p/search/%EA%B9%80%ED%95%B4%20%EA%B8%B8%EB%B2%97%EC%B6%94%EC%96%B4%ED%83%95%20%EB%B3%B8%EC%A0%90)
+
+## 덤: 시청역 63년 불고기 노포 삼우정
+'떠나요~이야기로' 코너에선 독립문 역사길을 걸으며 서울 시청역 근처 **삼우정**에도 들렀어요.
+**1963년** 문을 연 불고기정식 노포로, 훈제오리도 유명하대요.
+
+[📍 네이버 지도에서 삼우정 보기](https://map.naver.com/p/search/%EC%84%9C%EC%86%8C%EB%AC%B8%EB%8F%99%20%EC%82%BC%EC%9A%B0%EC%A0%95)
 
 ## 가기 전에
 방송 다음 날은 손님이 몰릴 수 있어요.
