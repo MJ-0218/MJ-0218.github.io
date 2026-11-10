@@ -1,33 +1,84 @@
 {
- "generated_at": "2026-11-11T07:34:37.987742+09:00",
+ "generated_at": "2026-11-11T08:32:39.631863+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (8)",
-  "evidence": "ok (저장 25, 실패 7)"
+  "evidence": "ok (저장 27, 실패 9)"
  },
- "compared_runs": 2,
+ "compared_runs": 3,
  "spikes": [
-  "颱風",
-  "高 金素梅",
-  "00406a 配 息",
-  "先進 封裝",
-  "撞臉",
-  "weather",
-  "台湾彩券",
-  "友達光電",
-  "那斯達克指數",
-  "三菱delica"
+  "天氣",
+  "新聞",
+  "lori",
+  "林淑茵",
+  "旅行社",
+  "台股夜盤指數",
+  "南亞科技",
+  "anthropic",
+  "天气",
+  "中華 民國 勞動 部"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "天氣",
+   "traffic": 100000,
+   "published": "2026-11-11T07:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "今天大回暖甚至會熱 粉專：下周又迎強冷空氣 恐有感大降溫",
+     "url": "https://udn.com/news/story/7266/9870761",
+     "source": "udn"
+    },
+    {
+     "title": "又轉冷！　下周大變天",
+     "url": "https://www.ettoday.net/news/20261111/3269924.htm",
+     "source": "ETtoday新聞雲"
+    },
+    {
+     "title": "20261110 公視AI手語天氣報導 ｜冷空氣影響週二最涼，迎風面偶雨",
+     "url": "https://news.pts.org.tw/video/23059",
+     "source": "公視新聞"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 69.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://udn.com/news/story/7266/9870761",
+     "title": "今天大回暖甚至會熱 粉專：下周又迎強冷空氣 恐有感大降溫",
+     "outlet": "udn"
+    },
+    {
+     "url": "https://www.ettoday.net/news/20261111/3269924.htm",
+     "title": "又轉冷！　下周大變天",
+     "outlet": "ETtoday新聞雲"
+    },
+    {
+     "url": "https://news.pts.org.tw/video/23059",
+     "title": "20261110 公視AI手語天氣報導 ｜冷空氣影響週二最涼，迎風面偶雨",
+     "outlet": "公視新聞"
+    }
+   ]
+  },
   {
    "source": "google_news",
    "keyword": "颱風",
    "traffic": 0,
-   "article_count_24h": 30,
+   "article_count_24h": 31,
    "article_count_1h": 5,
-   "published": "2026-11-10T23:00:00+09:00",
+   "published": "2026-11-10T17:33:02+09:00",
    "category": "Living",
    "news": [
+    {
+     "title": "颱風外圍環流遇大潮釀海水倒灌 謝國樑親赴一線慰問受災商家 市府研議災損補助、升級防汛預警 - 基隆市政府",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1paV9PQ1d2WWNDOHZFczBycG5GNjduTV83YW0xMFRzYUdlVDRQa1ZPZHBXY1FvaE43eXhVNEtqdlJsdjlwdGtmdnJ4aTktOElfSGo2elZpeTkyc2xYckE?oc=5",
+     "source": "基隆市政府"
+    },
     {
      "title": "颱風挹注水庫蓄滿 桃竹水情估維持正常至明年1月|新創臺灣 - 僑新聞",
      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1peWpoUWlnaFhFZldOd0tEd1pqOFZDbXNvTG9UVU1sOWVOUmxfT0Z2dlIzUUsxc1NhVXliaTZmS0lQd0dFcUh0T0U3dw?oc=5",
@@ -39,27 +90,25 @@
      "source": "Newtalk新聞"
     },
     {
-     "title": "跨界颱風周五移入 專家曝「鋒面偷襲」雨連下6天 - 中時新聞網",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SR2RkRkE1VVV6VUpMdW8yOEFMSmRzN0VoTlhqekpZT3d4YjBQRnpTcmNyYnc4bTNNTzcwMjBwZi1yTWF6XzZJdHhiQlE3S3dUNjZjZ0xBQWdVOXlDZF9Wdk1rZ1YzMXFqSktMazZB?oc=5",
-     "source": "中時新聞網"
-    },
-    {
      "title": "颱風「查帕卡」在父島附近向東移動 - 共同網",
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mZ3VQbHZNYXY2ZGlGemUzWkVwaGtBZ2ZxRWVpNzItQk5LVzVpZU0wYUVHUmtJaWJIQjQ2UTdGSVR2NlZPUEJGcEI3TzdibnRHT2ZQUzNVakU?oc=5",
      "source": "共同網"
     },
     {
-     "title": "最新天氣》「跨界颱風」周五移入！2波鋒面接力襲台 雨連下6天 | 蔣季容 | 新聞 - 風傳媒",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93UzZ6cWcyY3NRQXJVNFlTcXM2NFVSaFNvdG13SUtzZkVLMU94eWlTbHZQNHFuWWpKdlZCakMxX1djdWhDblQ1c0NiUHUyUQ?oc=5",
-     "source": "風傳媒"
+     "title": "跨界颱風周五移入 專家曝「鋒面偷襲」雨連下6天 - 中時新聞網",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SR2RkRkE1VVV6VUpMdW8yOEFMSmRzN0VoTlhqekpZT3d4YjBQRnpTcmNyYnc4bTNNTzcwMjBwZi1yTWF6XzZJdHhiQlE3S3dUNjZjZ0xBQWdVOXlDZF9Wdk1rZ1YzMXFqSktMazZB?oc=5",
+     "source": "中時新聞網"
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 2.0→5건 (2.0배)",
-   "spike_bonus": 20.0,
-   "score": 29.4,
+   "score": 21.0,
    "already_covered": true,
    "evidence": [
+    {
+     "url": "https://www.klcg.gov.tw/tw/klcg1/3168-320710.html",
+     "title": "颱風外圍環流遇大潮釀海水倒灌 謝國樑親赴一線慰問受災商家 市府研議災損補助、升級防汛預警 - 基隆市政府",
+     "outlet": "基隆市政府"
+    },
     {
      "url": "https://ocacnews.net/article/433766",
      "title": "颱風挹注水庫蓄滿 桃竹水情估維持正常至明年1月|新創臺灣 - 僑新聞",
@@ -71,11 +120,6 @@
      "outlet": "Newtalk新聞"
     },
     {
-     "url": "https://www.chinatimes.com/realtimenews/20261110002276-260405",
-     "title": "跨界颱風周五移入 專家曝「鋒面偷襲」雨連下6天 - 中時新聞網",
-     "outlet": "中時新聞網"
-    },
-    {
      "url": "https://tchina.kyodonews.net/articles/-/16099",
      "title": "颱風「查帕卡」在父島附近向東移動 - 共同網",
      "outlet": "共同網"
@@ -84,70 +128,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "K-pop",
-   "traffic": 0,
-   "article_count_24h": 26,
-   "article_count_1h": 2,
-   "published": "2026-11-11T05:22:50+09:00",
-   "category": "K-Culture",
-   "news": [
-    {
-     "title": "黃仁勳曾狂讚K-POP女歌星小三黃樂竟與她撞臉？ | 日韓最出彩| 娛樂 | 世界新聞網 - 世界新聞網",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qT05ZbTc4OEV0a0JrcFo4c0ZfTl8tdTJ2VURxalFqQ3BueHBCaFRhV0lBenNKTk85NUtYRU40dEtYZlJIY2FQaDJhUGNTZWstRzhfNjQ1WUJjRm04NGNYcl9RSU5wRU1CMVBaMVAwbDBNOHIxRFVyLUNyT1NJdw?oc=5",
-     "source": "世界新聞網"
-    },
-    {
-     "title": "K25 Group本月将推出K25.fun，布局亚太K-pop粉丝会员平台 - TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42X1hNVktxdE8ySnNQZmFZdWN6XzZnN0FkU1g0MGJ5c1hVdXBQNFA2ZjhBZUVEeU03UDNlTlQtNGJFWUczNWp1QkdWUXlUWVhVejJOQVltbkYxUjZxeG5DZGFwT19Pdw?oc=5",
-     "source": "TradingView"
-    },
-    {
-     "title": "NCT DREAM出道10週年變身復古Disco少年！正規六輯《DREAM AFTER DREAM》登韓國雙榜冠軍，6人體制重新出發 - 放言Fount Media",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Kbm5wNHRWOGd3SEVRQUNXWG40Y0ZFckFDNGNQOFhhTk9ZWkdFU1FLdWVZWWVZd1Rwd094LWRobm1MMFZUanh0blRUZEFQQk9OVGc?oc=5",
-     "source": "放言Fount Media"
-    },
-    {
-     "title": "BESTie〈Love Options〉競爭對手有誰？2013 年 K-POP 神曲回顧，這 10 首根本神仙打架！ - JUKSY 街星",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1zZlRKajNLdHdCbUF4WWVSSXhCLWttYzN4U19IU1N6QlR3bU9mRE5xWUNfa0pGVVZlV2k4RlNBdHdISk5FTkxUQnpGLUg?oc=5",
-     "source": "JUKSY 街星"
-    },
-    {
-     "title": "男團 KEYVITUP 強勢來襲 出道首年進軍國際 登 KCON LA 舞台 唱出成長蛻變 - 墨新聞-MORE News",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0yd2JVOFljdHdwVGFFYXFHS0dGaUptSkZseTJEeHJnTUxtSnBXXzhfUndfOXp6REttR2xUQV9xOXVzQQ?oc=5",
-     "source": "墨新聞-MORE News"
-    }
-   ],
-   "official": false,
-   "score": 22.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.worldjournal.com/wj/story/121235/9869337?from=wj_maintab_cate",
-     "title": "黃仁勳曾狂讚K-POP女歌星小三黃樂竟與她撞臉？ | 日韓最出彩| 娛樂 | 世界新聞網 - 世界新聞網",
-     "outlet": "世界新聞網"
-    },
-    {
-     "url": "https://tw.tradingview.com/news/panews:9036de28facdf:0/",
-     "title": "K25 Group本月将推出K25.fun，布局亚太K-pop粉丝会员平台 - TradingView",
-     "outlet": "TradingView"
-    },
-    {
-     "url": "https://www.fountmedia.io/article/443244",
-     "title": "NCT DREAM出道10週年變身復古Disco少年！正規六輯《DREAM AFTER DREAM》登韓國雙榜冠軍，6人體制重新出發 - 放言Fount Media",
-     "outlet": "放言Fount Media"
-    },
-    {
-     "url": "https://more-news.tw/765136/",
-     "title": "男團 KEYVITUP 強勢來襲 出道首年進軍國際 登 KCON LA 舞台 唱出成長蛻變 - 墨新聞-MORE News",
-     "outlet": "墨新聞-MORE News"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "韓劇",
    "traffic": 0,
-   "article_count_24h": 34,
+   "article_count_24h": 33,
    "article_count_1h": 0,
    "published": "2026-11-11T05:30:00+09:00",
    "category": "K-Culture",
@@ -200,369 +183,19 @@
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "高 金素梅",
-   "traffic": 200,
-   "published": "2026-11-11T06:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "中共密函讚高金素梅：鯁在台灣民主喉嚨的魚刺",
-     "url": "https://news.ltn.com.tw/news/politics/paper/1778004",
-     "source": "自由時報"
-    },
-    {
-     "title": "高金素梅「加密硬碟」被破解！驚見收紅錢關鍵證據 中共讚：鯁在台灣民主喉嚨的魚刺",
-     "url": "https://tw.news.yahoo.com/%E9%AB%98%E9%87%91%E7%B4%A0%E6%A2%85-%E5%8A%A0%E5%AF%86%E7%A1%AC%E7%A2%9F-%E8%A2%AB%E7%A0%B4%E8%A7%A3-%E9%A9%9A%E8%A6%8B%E6%94%B6%E7%B4%85%E9%8C%A2%E9%97%9C%E9%8D%B5%E8%AD%89%E6%93%9A-%E4%B8%AD%E5%85%B1%E8%AE%9A-024200478.html",
-     "source": "Yahoo新聞"
-    },
-    {
-     "title": "高金素梅被求刑14年！侯漢廷翻17年前9540萬善款紀錄：莫讓司法成東廠 | 蕭宥宸 | 新聞",
-     "url": "https://www.storm.mg/article/11180269",
-     "source": "風傳媒"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 100→200",
-   "spike_bonus": 20,
-   "score": 12.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://news.ltn.com.tw/news/politics/paper/1778004",
-     "title": "中共密函讚高金素梅：鯁在台灣民主喉嚨的魚刺",
-     "outlet": "自由時報"
-    },
-    {
-     "url": "https://tw.news.yahoo.com/%E9%AB%98%E9%87%91%E7%B4%A0%E6%A2%85-%E5%8A%A0%E5%AF%86%E7%A1%AC%E7%A2%9F-%E8%A2%AB%E7%A0%B4%E8%A7%A3-%E9%A9%9A%E8%A6%8B%E6%94%B6%E7%B4%85%E9%8C%A2%E9%97%9C%E9%8D%B5%E8%AD%89%E6%93%9A-%E4%B8%AD%E5%85%B1%E8%AE%9A-024200478.html",
-     "title": "高金素梅「加密硬碟」被破解！驚見收紅錢關鍵證據 中共讚：鯁在台灣民主喉嚨的魚刺",
-     "outlet": "Yahoo新聞"
-    },
-    {
-     "url": "https://www.storm.mg/article/11180269",
-     "title": "高金素梅被求刑14年！侯漢廷翻17年前9540萬善款紀錄：莫讓司法成東廠 | 蕭宥宸 | 新聞",
-     "outlet": "風傳媒"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "00406a 配 息",
-   "traffic": 200,
-   "published": "2026-11-11T05:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "00406A破發還能配息16%？一次搞懂「掩護性買權」：犧牲什麼換高息？大漲少賺、大跌多賠？3大風險解析",
-     "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611100014/",
-     "source": "今周刊"
-    },
-    {
-     "title": "成交量冠台股！00406A人氣旺11月再配0.138元？1圖看年化18％底氣在這- 基金",
-     "url": "https://wantrich.chinatimes.com/news/20261110900106-420401",
-     "source": "旺得富理財網"
-    },
-    {
-     "title": "00406A股價連跌、配息恐縮水？收益平準金反增33％ 最新淨值組成曝光",
-     "url": "https://udn.com/news/story/123006/9868175",
-     "source": "udn"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 100→200",
-   "spike_bonus": 20,
-   "score": 12.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.businesstoday.com.tw/article/category/183013/post/202611100014/",
-     "title": "00406A破發還能配息16%？一次搞懂「掩護性買權」：犧牲什麼換高息？大漲少賺、大跌多賠？3大風險解析",
-     "outlet": "今周刊"
-    },
-    {
-     "url": "https://wantrich.chinatimes.com/news/20261110900106-420401",
-     "title": "成交量冠台股！00406A人氣旺11月再配0.138元？1圖看年化18％底氣在這- 基金",
-     "outlet": "旺得富理財網"
-    },
-    {
-     "url": "https://udn.com/news/story/123006/9868175",
-     "title": "00406A股價連跌、配息恐縮水？收益平準金反增33％ 最新淨值組成曝光",
-     "outlet": "udn"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "防曬",
-   "traffic": 0,
-   "article_count_24h": 13,
-   "article_count_1h": 0,
-   "published": "2026-11-10T14:05:11+09:00",
-   "category": "K-Culture",
-   "news": [
-    {
-     "title": "BIODANCE膠原蛋白胜肽防曬霜完成美國DailyMed成分更新登錄 - GeneOnline",
-     "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOVHJ4eHpfYXFjY2dlVDI4VWhfM0xhd3JPaEl2STFiSF9meHJCd2cyOVJqcmdpekY0LWR0bTdkLTRJcm9SdXZjVlBKTlk2NkEtTWwtZHBzWHhFbU8wWURsbVdnRmtoRW5USUVQcDBlU1BSOXpJYWlDTmNOOGVGMWpjWmRGb3pUZGNBOXEzaEFnNU95WFdsakJfYUtEY1J0OE1pZ0VIQVNTWlNic09YUTVqN3hES2lVUzdONkhDblo3WndmYjFIM1JOdmpSejQwRmw1V2FaNWVKZUlybjhDQ09Pb0FveERqTWlCRktJbWV3Q01NclNxMkdsSXJyZjE5UVp2RVRIR3ZzQTduWVJXTVdXb19oVDFEcHN2VUFRTUhxaDlRTnItTXJ3S3lHTnBUcWxLSUV1OUNJVQ?oc=5",
-     "source": "GeneOnline"
-    },
-    {
-     "title": "BEL STAR防曬保濕乳液更新產品資訊確保成分透明與合規 - GeneOnline",
-     "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPZ0RGdnJuX1lUTVFId3ZYX0JFSVRhRi1CaTJyNnNWOEtIQmFDd2RVVjVtYVhVUW1iNndnMjRGbTNMcmtuSU1RX3d0ZURrRzljTHh0M3RieGxxYk8tWXJkRUJBR3NhTHRiT2NER0RFOU5VaDh0VWdDekprdnU3dzFxeTBvWlZvNjBQQ1pKYVhFbTlGSG9VNUM1c3EtWVJmZFF2ZThHcnZycWJzVDZ2MTlwam5lQllYZU1ndnpsV3B1ekUzV05vcWZpeGhjbENmQmwwRFAyT2pWcHFZR1l6SFZLeTFzSG9fSkxzNTY5eUhsMWt1ZDlFWHpKeWxkVGs0cDZLNVRVSjlSN2pZOUxBYk1ObHFweDhlb3dFQkJQX291cHJBdmtWN1UtdjRlVE5tNG5zSTRmbHYtMXhONEQ1ZjBCMjhpS2Y?oc=5",
-     "source": "GeneOnline"
-    },
-    {
-     "title": "尤瑟夫製造實驗室SPF30防曬護唇膏資訊完成官方資料庫更新 - GeneOnline",
-     "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQek9WdC1DQUh6U1Z6N0tQRkpvRjRyNHpnSDFnc2xsV2tkNkYwSTBSR0lCcDM5WUhBNmJ6ekR1cXI1M1RqcXk3NEVnMmF4a1l2cS1YMXNrNk5nTUVqV3JvVnNEQnJYRFNMYlhKN1B5bEVla0k5Qms2NG1pOXBjSzYzWUhWZUh3WVRRX2FNLWpyM1d1aHZSMVBuVHF0R1pha0U5Uks5UjFLTHA0OXlJZlczOHEyRm9zSUNOay1uMGloOWVIaFNHVFU5YVlQWk1ULWhkTk9USnFEMmo0cFFaU3A2dkpPaWVXdk0zLThDSWd6Rm5KZ2NZdFBWZE4xeW9jQ3dfWkw1Wl9XTTJHU2Jkblg2WnpsZ2hrS09CdGZoNDF2U3A3d2p3T05DTXg3ZmdZTmxRZHpURWNILWo2ZFpFT0tXSA?oc=5",
-     "source": "GeneOnline"
-    },
-    {
-     "title": "韓國皮膚科醫生推薦Olive Young必買5大抗老護膚品！堪稱「塗抹式肉毒」！親授8星期煥膚攻略！ - U Beauty",
-     "url": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxObWVmWWxPRGlXVFdLLW5Od1BXZGhuclRqWHdSaHJuaWFkOVBJLVVvNHhfWFNmLXNmRzJaVzBZaUhOR01xR09SMHF6TDY2Z2NvZjFPOGc3aV80X2dCRjV5aXd5TG01aUFjTXBHcG5UbHR0RERHVUpmbm5ib1hPeVRSRGJZNk5vN0NRZDk3eFNWZWxscjAyd1IyZnFLYVpzTlJDc01tSDNsMGlZcWZaYVpPaEZOd1RleXBNYmN1bE1NTk5xdFVsYVlQSEMxa0tzQXpZUExZRXU0aXQ5dFRwUl85M2p5aFBKLUVXdlQ5NDlKNXVJMWFkZDV6QUZabWw2WVZqc2VpWHJHSTJmRllnTnBHZzdhcm5vaVIxSm1oQVVuOWh1aVJ2MWRqNjRndDJsdklxQ1hnT1lkN1dzTzFIcV9KXzdiX1Zpc1dsTllhajN4ZzU3Yy00YXl5eTI4M2FYYnl3akhHeUlSNG9OZ0xNM1REOHJEUU9zc3JpYU16YmhOQW5WTXN5MGRiS2xRalZWVFNzS1ZOM05LOXBaMTlBb0JlTjRLMUZFUGNWaHp3MWxzZzJzS18zLXBxQ21jUHAycHpPazJpTGJOS2dmc1ZzbXR2VlJiVVNvclQ2dUFHSDJZZHRQamIwSTVLSDhMY2NqMjZNYWc?oc=5",
-     "source": "U Beauty"
-    },
-    {
-     "title": "優瑟夫製造實驗室更新蜂蠟防曬護唇膏產品資訊 - GeneOnline",
-     "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNRTFfZkVLWFltSmJfRGJON0x3UXo1V0VLWW50ZDJlZnB4TVRpLXVFbnVZVzBkeHpEOHJja2Z2Y2NUaGkxVGRsbDlkRUhTWmZHR2c1Vlo0c0JlckZwMzBBOEx3RjdvN1JZeG5fWXZlR3dGUVYyNFBrUzQ5dnJvdWhNa19mS0N6dEtTSU5meVdQMW9fU1ZUai1RZ2Z3dzdHeG1WeG1ERUxLbS1MdGJNdnpsclhlS3d2dmExcjBnR1NPTGJMdUVKV2daeE9hdXlJOVVVa3BkQnBJWGRKV1MxeTJ1VlNPUzlOUnhpSzNwNVJEdkRlV2E0dEhsSDZ4c1FkcjIwa0FwV2VwblZlRFhObHVfZG9jNjFFaG82RlhXbDVBMUNISngtemEtV1diWnhLT2VnWTBwR0lNdTUtdw?oc=5",
-     "source": "GeneOnline"
-    }
-   ],
-   "official": false,
-   "score": 12.6,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://ubeauty.com.hk/beauty/skincare/20117620/%E9%9F%93%E5%9C%8B%E7%9A%AE%E8%86%9A%E7%A7%91%E9%86%AB%E7%94%9F%E6%8E%A8%E8%96%A6olive-young%E5%BF%85%E8%B2%B7-%E5%A4%A7%E6%8A%97%E8%80%81%E8%AD%B7%E8%86%9A%E5%93%81-%E5%A0%AA%E7%A8%B1-%E5%A1%97%E6%8A%B9%E5%BC%8F%E8%82%89%E6%AF%92-%E8%A6%AA%E6%8E%88-%E6%98%9F%E6%9C%9F%E7%85%A5%E8%86%9A%E6%94%BB%E7%95%A5",
-     "title": "韓國皮膚科醫生推薦Olive Young必買5大抗老護膚品！堪稱「塗抹式肉毒」！親授8星期煥膚攻略！ - U Beauty",
-     "outlet": "U Beauty"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "蝦皮 雙11",
-   "traffic": 0,
-   "article_count_24h": 20,
-   "article_count_1h": 0,
-   "published": "2026-11-10T12:59:33+09:00",
-   "category": "Deals",
-   "news": [
-    {
-     "title": "整理包／連精品包也大特價！雙11開搶 從百貨買到電商、購物吃喝優惠一次看 | 整理包 | 專題 - 經濟日報",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JemtoMWhGMGs2UXBlU0ktVzdVd2txYWh5TnIxMnBUWTJSbnpUSzhJXzM0NmVBS0dmOHhtWWdUMndPVWx5SnVrTWthdUtHM0lrUWZYcWtZa0ZLd0h2?oc=5",
-     "source": "經濟日報"
-    },
-    {
-     "title": "2026雙11信用卡怎麼刷？蝦皮分期現折5,600元、momo卡最高回饋12,111元！10家銀行優惠比較一次看 - 工商時報",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpMmZTRThvRzVMT3NVczRxUmRHS1JVS19tZ3Y4bWh5aTFhcURvYk0wRVlRNV95MjVRTFhiVmx6M3h3c19UTUZPSXp1UHhnTW01U1NHNHhiZUhkdFV4aE00?oc=5",
-     "source": "工商時報"
-    },
-    {
-     "title": "2026 雙 11 電商優惠懶人包：蝦皮、momo、PChome、酷澎折價券與搶券時間整理 - 蘋果仁",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5UT1h5cEV3TjVIc1R5OFExcFFIVzI4UXE1YkZSR0lFM2F3Rk9Md0JwYXJCX0ZERjd5TGhRRWJlUFk1RHotSHdNanhHTWU?oc=5",
-     "source": "蘋果仁"
-    },
-    {
-     "title": "2026雙11買什麼？是什麼節日　蝦皮、momo、好市多優惠活動整理 - NOWnews今日新聞",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE52bFlVRURIMUNpY3g1WWVoeVpKbDY0Tm1pWEdSNmFBQmNWS1hqREJEYlNDMGVWY0hvX3ZvRS01S3MyWVBqZmI4RFhySErSAVJBVV95cUxOczZDWXlJOElZaVR5TVprVW0tcV8wRVM1ZDd6a21yZzgzYmc4VnhyRi1LUHBFSVBMNm10QlFkcXNkU05RRVFtTHRFblNjMnlVMVNB?oc=5",
-     "source": "NOWnews今日新聞"
-    },
-    {
-     "title": "雙11優惠／信用卡刷哪張划算？國泰一銀、台新富邦…蝦皮最高16.5%、momo回饋12111元，電商攻略整理 - 今周刊",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdjB6bUxIcjlVb1FUZDNRSGJGVldTcTFtQlRON19xd0lyOFVsR3A3MEhDcnk3NFUwam51MjVJVklCVkgxLUc4Tk1XVVNxd3o3WjMxNVkyZENzWXQ3RFdLVXRhQW4zazRHVThpVW5tWUpFUEVuZU1fYVZuN3U0NWlOWA?oc=5",
-     "source": "今周刊"
-    }
-   ],
-   "official": false,
-   "score": 12.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://money.udn.com/money/story/124512/9868160",
-     "title": "整理包／連精品包也大特價！雙11開搶 從百貨買到電商、購物吃喝優惠一次看 | 整理包 | 專題 - 經濟日報",
-     "outlet": "經濟日報"
-    },
-    {
-     "url": "https://www.ctee.com.tw/news/20261110700844-430404",
-     "title": "2026雙11信用卡怎麼刷？蝦皮分期現折5,600元、momo卡最高回饋12,111元！10家銀行優惠比較一次看 - 工商時報",
-     "outlet": "工商時報"
-    },
-    {
-     "url": "https://applealmond.com/posts/331800",
-     "title": "2026 雙 11 電商優惠懶人包：蝦皮、momo、PChome、酷澎折價券與搶券時間整理 - 蘋果仁",
-     "outlet": "蘋果仁"
-    },
-    {
-     "url": "https://www.nownews.com/news/6891160",
-     "title": "2026雙11買什麼？是什麼節日　蝦皮、momo、好市多優惠活動整理 - NOWnews今日新聞",
-     "outlet": "NOWnews今日新聞"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "先進 封裝",
-   "traffic": 1000,
-   "published": "2026-11-11T06:50:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "google_trends",
-   "keyword": "撞臉",
-   "traffic": 500,
-   "published": "2026-11-11T06:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "黃仁勳小三撞臉58歲《花系列》女星！本人消失螢光幕 最新近況曝光",
-     "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%B0%8F%E4%B8%89%E6%92%9E%E8%87%8958%E6%AD%B2-%E8%8A%B1%E7%B3%BB%E5%88%97-%E5%A5%B3%E6%98%9F-%E6%9C%AC%E4%BA%BA%E6%B6%88%E5%A4%B1%E8%9E%A2%E5%85%89%E5%B9%95-%E6%9C%80%E6%96%B0%E8%BF%91%E6%B3%81%E6%9B%9D%E5%85%89-230700292.html",
-     "source": "Yahoo新聞"
-    },
-    {
-     "title": "黃仁勳外遇風波延燒！小三撞臉《花系列》女星 網反應兩極",
-     "url": "https://ent.ebc.net.tw/buzz/503800",
-     "source": "東森電視"
-    },
-    {
-     "title": "黃仁勳昔狂讚華莎「超有魅力」！婚外情女主角扯出撞臉說",
-     "url": "https://ent.ltn.com.tw/news/breakingnews/5634944",
-     "source": "自由娛樂"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "weather",
-   "traffic": 200,
-   "published": "2026-11-11T07:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Cold front could bring lowest temps since March to South Florida this weekend",
-     "url": "https://www.nbcmiami.com/weather/stories-weather/cold-front-miami-south-florida-weekend-lowest-temps-since-march/3886008/",
-     "source": "NBC 6 South Florida"
-    },
-    {
-     "title": "Chilly weather for the weekend",
-     "url": "https://www.mysuncoast.com/2026/11/10/chilly-weather-weekend/",
-     "source": "ABC7 WWSB"
-    },
-    {
-     "title": "Wind chills could dip into the 30s this weekend! Here’s the latest forecast",
-     "url": "https://www.clickorlando.com/weather/2026/11/10/wind-chills-could-dip-into-the-30s-this-weekend-heres-the-latest-forecast/",
-     "source": "WKMG"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "台湾彩券",
-   "traffic": 100,
-   "published": "2026-11-11T07:20:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "友達光電",
-   "traffic": 100,
-   "published": "2026-11-11T07:20:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "那斯達克指數",
-   "traffic": 100,
-   "published": "2026-11-11T06:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "丁學文專欄／AI鉅額支出讓市場變驚弓鳥動盪成新常態| 財經掃描",
-     "url": "https://vip.udn.com/vip/story/121938/9869154?from=vipudn_opinion_index",
-     "source": "聯合報數位版"
-    },
-    {
-     "title": "那指跌入修正區間! 是時候逢低買進? 外媒揭答案",
-     "url": "https://www.msn.com/zh-tw/money/%E7%A7%91%E6%8A%80/%E9%82%A3%E6%8C%87%E8%B7%8C%E5%85%A5%E4%BF%AE%E6%AD%A3%E5%8D%80%E9%96%93-%E6%98%AF%E6%99%82%E5%80%99%E9%80%A2%E4%BD%8E%E8%B2%B7%E9%80%B2-%E5%A4%96%E5%AA%92%E6%8F%AD%E7%AD%94%E6%A1%88/ar-AA2ham2p",
-     "source": "MSN"
-    },
-    {
-     "title": "AI債務風險轉向晶片商！高盛示警博通、AMD、輝達CDS利差首超雲端巨頭",
-     "url": "https://news.cnyes.com/news/id/6655545",
-     "source": "鉅亨網"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "三菱delica",
-   "traffic": 100,
-   "published": "2026-11-11T06:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "三菱 Delica D:2 下一代改搭硬朗外型！合作對象恐變 有望導入 e-Power 系統",
-     "url": "https://auto.ltn.com.tw/news/33384",
-     "source": "自由電子報汽車頻道"
-    },
-    {
-     "title": "三菱Delica D:2下一代傳2028年登場 擬脫離Solio雙生車、日產合作成焦點",
-     "url": "https://n.yam.com/Article/20261109527872",
-     "source": "蕃新聞"
-    },
-    {
-     "title": "中華汽車註冊 Delion、Deligo 車名引熱議！有望為新國產得利卡鋪路",
-     "url": "https://auto.ltn.com.tw/news/33400",
-     "source": "自由電子報汽車頻道"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
    "source": "google_news",
    "keyword": "韓系保養",
    "traffic": 0,
-   "article_count_24h": 7,
-   "article_count_1h": 0,
-   "published": "2026-11-10T17:51:23+09:00",
+   "article_count_24h": 8,
+   "article_count_1h": 1,
+   "published": "2026-11-11T08:06:18+09:00",
    "category": "Beauty",
    "news": [
+    {
+     "title": "【即時新聞】最新！寶雅*10月營收24.58億元年增14.4%創同期新高 - CMoney投資網誌",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPT1Y0MVBHNGFRQ3hPZkd2TUx2YVVvSTI2UVRGLVVrRWpFM1N4a19RM0V3TmJ6amtGVlRtQmJBcC12Sno3N1ZMZWx6S2poVUFVOHJ6OFpsaFNIWTJxb1lVMmRDZWZ1QXR4QWpuQlE5VXh6QkNhLXEzU1dieUhtNk1JRzFJUkR5WXlqSGVDc2xWZTQ?oc=5",
+     "source": "CMoney投資網誌"
+    },
     {
      "title": "寶雅10月營收24億元創同期新高 年增逾一成 - Yahoo股市",
      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOdU9Ed1pTQ3FVc1JPUDRIeWk5NkRfMVNxZmFPcm1Ua01HbHhsYkV5NE9OSFd2WUxYeFJSS29MY001MmNtdFFja0xPUFdlbHhjWEJjWFI0RW5FdGhRV1JQdjFWVDBqZkdCenkybW9VTVpIWGNxOVJmd0hlTUVXYjJwZjN4UFJMc1BMMzVlVF9UTllHY1pnSHRCekU3MzhYeEY4dmFUV0UwYUtpaUxWYk0wOTBabzR0MnRrcjBZaDh1R21wbzBrZnBCRnVwbHhOQ1hCUlRuRVc4YTdKWS00VWxaNEc5cjN0TVFmVHRxQWlwTnpxYjRTMF81VWVIWWs5cmJSc3BDQm9JbEJ1bXlnd1htNzBzN1V2ZHJjWTZrRVFLTEF5anBYdnhvR21TUmt3QQ?oc=5",
@@ -582,15 +215,452 @@
      "title": "寶雅營收／前十月238.4億元、年增14.1% 單月、累月創同期新高 - UDN",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83dFZwZEZXTTNTdUlqQ1NHb1l6Tm9sNnNDUGlKeUxLaDZDczVlYmFieS1vSzNVRmNHUFdlM3VNTjNERnF3TWRSODBWT1NwOHJOak81VnNZeTlmUjNyNll3Z2dENXBXbl9rTzNzQnp5R2FIMGo00gFWQVVfeXFMUFJFbWlpWVZZamQ5ZTZ4bG1sdTlpRkpzMjlFVFBFbHR4dmdMclpuSXU3R2pKaXlvNjlJYnMzZE84Sy1yb3MyY1hIWGRkZGU4dUdlZ1lrc1E?oc=5",
      "source": "UDN"
-    },
-    {
-     "title": "【即時新聞】最新宣布寶雅*10月營收24.58億創同期新高，全台將破500店！ - CMoney投資網誌",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc0hxblN5blY4dW1XeXlCSFphbHBnZU1jUktMTEQ5WUVXWUo3QTVJVm9NUXNQeWF6NEJCOHJFcU5xU2IzWFhwdGZkU0JQN1IyYnJyYkpYeEZlRXMzRDZiaXNpUFNVUGRpU0pXQTVYM2pkNUlBeVlkNXpGVXB5VGhvMTZIaTc5YmNUbFpvcFhEZl8?oc=5",
-     "source": "CMoney投資網誌"
     }
    ],
    "official": false,
-   "score": 8.8,
+   "score": 16.8,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://cmnews.com.tw/article/newsyoudeservetoknow-563b8192-dd5b-11f1-804d-a1bb88eeff8c",
+     "title": "【即時新聞】最新！寶雅*10月營收24.58億元年增14.4%創同期新高 - CMoney投資網誌",
+     "outlet": "CMoney投資網誌"
+    },
+    {
+     "url": "https://tw.stock.yahoo.com/news/%E5%AF%B6%E9%9B%8510%E6%9C%88%E7%87%9F%E6%94%B624%E5%84%84%E5%85%83%E5%89%B5%E5%90%8C%E6%9C%9F%E6%96%B0%E9%AB%98-%E5%B9%B4%E5%A2%9E%E9%80%BE%E4%B8%80%E6%88%90-085123063.html",
+     "title": "寶雅10月營收24億元創同期新高 年增逾一成 - Yahoo股市",
+     "outlet": "Yahoo股市"
+    },
+    {
+     "url": "https://www.womenshealthmag.com/tw/beauty/skin/a73479684/what-is-pdrn/",
+     "title": "PDRN是什麼？爆紅「鮭魚精子保養」真的有效？皮膚科醫師揭7大功效與使用禁忌 - Women's Health",
+     "outlet": "Women's Health"
+    },
+    {
+     "url": "https://money.udn.com/money/story/11074/9870284?from=edn_newestlist_cate_side",
+     "title": "寶雅上月業績年增14.4% 同期最佳 - 經濟日報",
+     "outlet": "經濟日報"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "K-pop",
+   "traffic": 0,
+   "article_count_24h": 25,
+   "article_count_1h": 1,
+   "published": "2026-11-10T17:21:43+09:00",
+   "category": "K-Culture",
+   "news": [
+    {
+     "title": "K25 Group本月将推出K25.fun，布局亚太K-pop粉丝会员平台 - TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42X1hNVktxdE8ySnNQZmFZdWN6XzZnN0FkU1g0MGJ5c1hVdXBQNFA2ZjhBZUVEeU03UDNlTlQtNGJFWUczNWp1QkdWUXlUWVhVejJOQVltbkYxUjZxeG5DZGFwT19Pdw?oc=5",
+     "source": "TradingView"
+    },
+    {
+     "title": "NCT DREAM出道10週年變身復古Disco少年！正規六輯《DREAM AFTER DREAM》登韓國雙榜冠軍，6人體制重新出發 - 放言Fount Media",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Kbm5wNHRWOGd3SEVRQUNXWG40Y0ZFckFDNGNQOFhhTk9ZWkdFU1FLdWVZWWVZd1Rwd094LWRobm1MMFZUanh0blRUZEFQQk9OVGc?oc=5",
+     "source": "放言Fount Media"
+    },
+    {
+     "title": "BESTie〈Love Options〉競爭對手有誰？2013 年 K-POP 神曲回顧，這 10 首根本神仙打架！ - JUKSY 街星",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1zZlRKajNLdHdCbUF4WWVSSXhCLWttYzN4U19IU1N6QlR3bU9mRE5xWUNfa0pGVVZlV2k4RlNBdHdISk5FTkxUQnpGLUg?oc=5",
+     "source": "JUKSY 街星"
+    },
+    {
+     "title": "黃仁勳小三黃樂撞臉華莎？網驚呼：黃爸審美很一致 - 噓！星聞",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iQ3NFS2hYTEEtOVp0czloQWhEVV9XbUUzSVhhMFVWQ2xnVGltc3JHWkNkRnJrcUM2UHBINGZ3bTlOV3p1dzktU3hFU1FSTWZnZXJjWUlLNDdPUdIBX0FVX3lxTE0tUmY3UVR6REVpSlhfWXZnVXRTcW9CdV8xUEs0cnBxQi10N05OeVNtdm43aHQtSGRoUUtFdmtuajh4SE8tdS1hcDJoM2FqY1FPZTVkdzNvSzU4OHREbW9N?oc=5",
+     "source": "噓！星聞"
+    },
+    {
+     "title": "男團 KEYVITUP 強勢來襲 出道首年進軍國際 登 KCON LA 舞台 唱出成長蛻變 - 墨新聞-MORE News",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0yd2JVOFljdHdwVGFFYXFHS0dGaUptSkZseTJEeHJnTUxtSnBXXzhfUndfOXp6REttR2xUQV9xOXVzQQ?oc=5",
+     "source": "墨新聞-MORE News"
+    }
+   ],
+   "official": false,
+   "score": 14.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://tw.tradingview.com/news/panews:9036de28facdf:0/",
+     "title": "K25 Group本月将推出K25.fun，布局亚太K-pop粉丝会员平台 - TradingView",
+     "outlet": "TradingView"
+    },
+    {
+     "url": "https://www.fountmedia.io/article/443244",
+     "title": "NCT DREAM出道10週年變身復古Disco少年！正規六輯《DREAM AFTER DREAM》登韓國雙榜冠軍，6人體制重新出發 - 放言Fount Media",
+     "outlet": "放言Fount Media"
+    },
+    {
+     "url": "https://stars.udn.com/star/story/10089/9869337",
+     "title": "黃仁勳小三黃樂撞臉華莎？網驚呼：黃爸審美很一致 - 噓！星聞",
+     "outlet": "噓！星聞"
+    },
+    {
+     "url": "https://more-news.tw/765136/",
+     "title": "男團 KEYVITUP 強勢來襲 出道首年進軍國際 登 KCON LA 舞台 唱出成長蛻變 - 墨新聞-MORE News",
+     "outlet": "墨新聞-MORE News"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "蝦皮 雙11",
+   "traffic": 0,
+   "article_count_24h": 19,
+   "article_count_1h": 1,
+   "published": "2026-11-10T12:18:00+09:00",
+   "category": "Deals",
+   "news": [
+    {
+     "title": "2026雙11信用卡怎麼刷？蝦皮分期現折5,600元、momo卡最高回饋12,111元！10家銀行優惠比較一次看 - 工商時報",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpMmZTRThvRzVMT3NVczRxUmRHS1JVS19tZ3Y4bWh5aTFhcURvYk0wRVlRNV95MjVRTFhiVmx6M3h3c19UTUZPSXp1UHhnTW01U1NHNHhiZUhkdFV4aE00?oc=5",
+     "source": "工商時報"
+    },
+    {
+     "title": "整理包／連精品包也大特價！雙11開搶 從百貨買到電商、購物吃喝優惠一次看 | 整理包 | 專題 - 經濟日報",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JemtoMWhGMGs2UXBlU0ktVzdVd2txYWh5TnIxMnBUWTJSbnpUSzhJXzM0NmVBS0dmOHhtWWdUMndPVWx5SnVrTWthdUtHM0lrUWZYcWtZa0ZLd0h2?oc=5",
+     "source": "經濟日報"
+    },
+    {
+     "title": "2026 雙 11 電商優惠懶人包：蝦皮、momo、PChome、酷澎折價券與搶券時間整理 - 蘋果仁",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5UT1h5cEV3TjVIc1R5OFExcFFIVzI4UXE1YkZSR0lFM2F3Rk9Md0JwYXJCX0ZERjd5TGhRRWJlUFk1RHotSHdNanhHTWU?oc=5",
+     "source": "蘋果仁"
+    },
+    {
+     "title": "2026雙11買什麼？是什麼節日　蝦皮、momo、好市多優惠活動整理 - NOWnews今日新聞",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zNkNZeUk4SVlpVHlNWmtVbS1xXzBFUzVkN3prbXJnODNiZzhWeHJGLUtQcEVJUEw2bXRCUWRxc2RTTlFFUW1MdEVuU2MyeVUxU0HSAVJBVV95cUxOczZDWXlJOElZaVR5TVprVW0tcV8wRVM1ZDd6a21yZzgzYmc4VnhyRi1LUHBFSVBMNm10QlFkcXNkU05RRVFtTHRFblNjMnlVMVNB?oc=5",
+     "source": "NOWnews今日新聞"
+    },
+    {
+     "title": "雙11優惠／信用卡刷哪張划算？國泰一銀、台新富邦…蝦皮最高16.5%、momo回饋12111元，電商攻略整理 - 今周刊",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdjB6bUxIcjlVb1FUZDNRSGJGVldTcTFtQlRON19xd0lyOFVsR3A3MEhDcnk3NFUwam51MjVJVklCVkgxLUc4Tk1XVVNxd3o3WjMxNVkyZENzWXQ3RFdLVXRhQW4zazRHVThpVW5tWUpFUEVuZU1fYVZuN3U0NWlOWA?oc=5",
+     "source": "今周刊"
+    }
+   ],
+   "official": false,
+   "score": 14.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.ctee.com.tw/news/20261110700844-430404",
+     "title": "2026雙11信用卡怎麼刷？蝦皮分期現折5,600元、momo卡最高回饋12,111元！10家銀行優惠比較一次看 - 工商時報",
+     "outlet": "工商時報"
+    },
+    {
+     "url": "https://money.udn.com/money/story/124512/9868160",
+     "title": "整理包／連精品包也大特價！雙11開搶 從百貨買到電商、購物吃喝優惠一次看 | 整理包 | 專題 - 經濟日報",
+     "outlet": "經濟日報"
+    },
+    {
+     "url": "https://applealmond.com/posts/331800",
+     "title": "2026 雙 11 電商優惠懶人包：蝦皮、momo、PChome、酷澎折價券與搶券時間整理 - 蘋果仁",
+     "outlet": "蘋果仁"
+    },
+    {
+     "url": "https://www.nownews.com/amp/news/6891160",
+     "title": "2026雙11買什麼？是什麼節日　蝦皮、momo、好市多優惠活動整理 - NOWnews今日新聞",
+     "outlet": "NOWnews今日新聞"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "防曬",
+   "traffic": 0,
+   "article_count_24h": 10,
+   "article_count_1h": 0,
+   "published": "2026-11-10T14:05:11+09:00",
+   "category": "K-Culture",
+   "news": [
+    {
+     "title": "BIODANCE膠原蛋白胜肽防曬霜完成美國DailyMed成分更新登錄 - GeneOnline",
+     "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOVHJ4eHpfYXFjY2dlVDI4VWhfM0xhd3JPaEl2STFiSF9meHJCd2cyOVJqcmdpekY0LWR0bTdkLTRJcm9SdXZjVlBKTlk2NkEtTWwtZHBzWHhFbU8wWURsbVdnRmtoRW5USUVQcDBlU1BSOXpJYWlDTmNOOGVGMWpjWmRGb3pUZGNBOXEzaEFnNU95WFdsakJfYUtEY1J0OE1pZ0VIQVNTWlNic09YUTVqN3hES2lVUzdONkhDblo3WndmYjFIM1JOdmpSejQwRmw1V2FaNWVKZUlybjhDQ09Pb0FveERqTWlCRktJbWV3Q01NclNxMkdsSXJyZjE5UVp2RVRIR3ZzQTduWVJXTVdXb19oVDFEcHN2VUFRTUhxaDlRTnItTXJ3S3lHTnBUcWxLSUV1OUNJVQ?oc=5",
+     "source": "GeneOnline"
+    },
+    {
+     "title": "BEL STAR防曬保濕乳液更新產品資訊確保成分透明與合規 - GeneOnline",
+     "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPZ0RGdnJuX1lUTVFId3ZYX0JFSVRhRi1CaTJyNnNWOEtIQmFDd2RVVjVtYVhVUW1iNndnMjRGbTNMcmtuSU1RX3d0ZURrRzljTHh0M3RieGxxYk8tWXJkRUJBR3NhTHRiT2NER0RFOU5VaDh0VWdDekprdnU3dzFxeTBvWlZvNjBQQ1pKYVhFbTlGSG9VNUM1c3EtWVJmZFF2ZThHcnZycWJzVDZ2MTlwam5lQllYZU1ndnpsV3B1ekUzV05vcWZpeGhjbENmQmwwRFAyT2pWcHFZR1l6SFZLeTFzSG9fSkxzNTY5eUhsMWt1ZDlFWHpKeWxkVGs0cDZLNVRVSjlSN2pZOUxBYk1ObHFweDhlb3dFQkJQX291cHJBdmtWN1UtdjRlVE5tNG5zSTRmbHYtMXhONEQ1ZjBCMjhpS2Y?oc=5",
+     "source": "GeneOnline"
+    },
+    {
+     "title": "韓國皮膚科醫生推薦Olive Young必買5大抗老護膚品！堪稱「塗抹式肉毒」！親授8星期煥膚攻略！ - U Beauty",
+     "url": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxObWVmWWxPRGlXVFdLLW5Od1BXZGhuclRqWHdSaHJuaWFkOVBJLVVvNHhfWFNmLXNmRzJaVzBZaUhOR01xR09SMHF6TDY2Z2NvZjFPOGc3aV80X2dCRjV5aXd5TG01aUFjTXBHcG5UbHR0RERHVUpmbm5ib1hPeVRSRGJZNk5vN0NRZDk3eFNWZWxscjAyd1IyZnFLYVpzTlJDc01tSDNsMGlZcWZaYVpPaEZOd1RleXBNYmN1bE1NTk5xdFVsYVlQSEMxa0tzQXpZUExZRXU0aXQ5dFRwUl85M2p5aFBKLUVXdlQ5NDlKNXVJMWFkZDV6QUZabWw2WVZqc2VpWHJHSTJmRllnTnBHZzdhcm5vaVIxSm1oQVVuOWh1aVJ2MWRqNjRndDJsdklxQ1hnT1lkN1dzTzFIcV9KXzdiX1Zpc1dsTllhajN4ZzU3Yy00YXl5eTI4M2FYYnl3akhHeUlSNG9OZ0xNM1REOHJEUU9zc3JpYU16YmhOQW5WTXN5MGRiS2xRalZWVFNzS1ZOM05LOXBaMTlBb0JlTjRLMUZFUGNWaHp3MWxzZzJzS18zLXBxQ21jUHAycHpPazJpTGJOS2dmc1ZzbXR2VlJiVVNvclQ2dUFHSDJZZHRQamIwSTVLSDhMY2NqMjZNYWc?oc=5",
+     "source": "U Beauty"
+    },
+    {
+     "title": "尤瑟夫製造實驗室SPF30防曬護唇膏資訊完成官方資料庫更新 - GeneOnline",
+     "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQek9WdC1DQUh6U1Z6N0tQRkpvRjRyNHpnSDFnc2xsV2tkNkYwSTBSR0lCcDM5WUhBNmJ6ekR1cXI1M1RqcXk3NEVnMmF4a1l2cS1YMXNrNk5nTUVqV3JvVnNEQnJYRFNMYlhKN1B5bEVla0k5Qms2NG1pOXBjSzYzWUhWZUh3WVRRX2FNLWpyM1d1aHZSMVBuVHF0R1pha0U5Uks5UjFLTHA0OXlJZlczOHEyRm9zSUNOay1uMGloOWVIaFNHVFU5YVlQWk1ULWhkTk9USnFEMmo0cFFaU3A2dkpPaWVXdk0zLThDSWd6Rm5KZ2NZdFBWZE4xeW9jQ3dfWkw1Wl9XTTJHU2Jkblg2WnpsZ2hrS09CdGZoNDF2U3A3d2p3T05DTXg3ZmdZTmxRZHpURWNILWo2ZFpFT0tXSA?oc=5",
+     "source": "GeneOnline"
+    },
+    {
+     "title": "優瑟夫製造實驗室更新蜂蠟防曬護唇膏產品資訊 - GeneOnline",
+     "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNRTFfZkVLWFltSmJfRGJON0x3UXo1V0VLWW50ZDJlZnB4TVRpLXVFbnVZVzBkeHpEOHJja2Z2Y2NUaGkxVGRsbDlkRUhTWmZHR2c1Vlo0c0JlckZwMzBBOEx3RjdvN1JZeG5fWXZlR3dGUVYyNFBrUzQ5dnJvdWhNa19mS0N6dEtTSU5meVdQMW9fU1ZUai1RZ2Z3dzdHeG1WeG1ERUxLbS1MdGJNdnpsclhlS3d2dmExcjBnR1NPTGJMdUVKV2daeE9hdXlJOVVVa3BkQnBJWGRKV1MxeTJ1VlNPUzlOUnhpSzNwNVJEdkRlV2E0dEhsSDZ4c1FkcjIwa0FwV2VwblZlRFhObHVfZG9jNjFFaG82RlhXbDVBMUNISngtemEtV1diWnhLT2VnWTBwR0lNdTUtdw?oc=5",
+     "source": "GeneOnline"
+    }
+   ],
+   "official": false,
+   "score": 12.6,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://ubeauty.com.hk/beauty/skincare/20117620/%E9%9F%93%E5%9C%8B%E7%9A%AE%E8%86%9A%E7%A7%91%E9%86%AB%E7%94%9F%E6%8E%A8%E8%96%A6olive-young%E5%BF%85%E8%B2%B7-%E5%A4%A7%E6%8A%97%E8%80%81%E8%AD%B7%E8%86%9A%E5%93%81-%E5%A0%AA%E7%A8%B1-%E5%A1%97%E6%8A%B9%E5%BC%8F%E8%82%89%E6%AF%92-%E8%A6%AA%E6%8E%88-%E6%98%9F%E6%9C%9F%E7%85%A5%E8%86%9A%E6%94%BB%E7%95%A5",
+     "title": "韓國皮膚科醫生推薦Olive Young必買5大抗老護膚品！堪稱「塗抹式肉毒」！親授8星期煥膚攻略！ - U Beauty",
+     "outlet": "U Beauty"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "新聞",
+   "traffic": 1000,
+   "published": "2026-11-11T07:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "政府・日銀、7月30日の為替介入 過去最大7.9兆円",
+     "url": "https://www.nikkan.co.jp/articles/view/796620",
+     "source": "日刊工業新聞"
+    },
+    {
+     "title": "トヨタ自、川崎重工など／新聞からの銘柄材料一覧(フィスコ)",
+     "url": "https://finance.yahoo.co.jp/news/detail/8a3bed55825e0ae7c38ee16ed0e32c542bcad572",
+     "source": "Yahoo!ファイナンス"
+    },
+    {
+     "title": "日本触媒の通期見通し、売上高を上方修正 主力製品で評価差益",
+     "url": "https://www.nikkan.co.jp/articles/view/796626",
+     "source": "日刊工業新聞"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 12.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://finance.yahoo.co.jp/news/detail/8a3bed55825e0ae7c38ee16ed0e32c542bcad572",
+     "title": "トヨタ自、川崎重工など／新聞からの銘柄材料一覧(フィスコ)",
+     "outlet": "Yahoo!ファイナンス"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "lori",
+   "traffic": 500,
+   "published": "2026-11-11T07:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+     "url": "https://www.nytimes.com/2026/11/10/technology/alice-huang-megaspeed-nvidia-jensen-huang.html",
+     "source": "The New York Times"
+    },
+    {
+     "title": "2 scandals, 1 destination—Why Nvidia can’t shake China smuggling allegations",
+     "url": "https://fortune.com/2026/11/10/2-scandals-1-destination-why-nvidia-cant-shake-china-smuggling-allegations/",
+     "source": "Fortune"
+    },
+    {
+     "title": "How Jensen Huang’s Affair Spiraled Into a National Security Nightmare",
+     "url": "https://www.wsj.com/tech/ai/how-jensen-huangs-affair-spiraled-into-a-national-security-nightmare-d9b43304",
+     "source": "WSJ"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "林淑茵",
+   "traffic": 200,
+   "published": "2026-11-11T08:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "56岁古天乐再传秘婚 被抓包与她穿情侣鞋、6年行程高度重叠",
+     "url": "https://www.zaobao.com.sg/entertainment/story20261110-9974700",
+     "source": "联合早报"
+    },
+    {
+     "title": "被曝交往证据？ 古天乐与林淑茵疑穿“情侣跑鞋”隔空放闪",
+     "url": "https://www.orientaldaily.com.my/news/entertainment/2026/11/10/861684",
+     "source": "马来西亚东方日报"
+    },
+    {
+     "title": "真的在一起了❓56岁古天乐⚡️再被传与「初代鬼后」秘婚！网挖『3交往证据』引热议！",
+     "url": "https://rojaklah.com/2026/11/10/louis-koo-reveals-secret-marriage-py-101126/",
+     "source": "Rojaklah"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "旅行社",
+   "traffic": 200,
+   "published": "2026-11-11T08:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "跟團旅遊先注意！台灣知名旅行社遭廢照、解散停業，71 家最新名單一次看",
+     "url": "https://www.storm.mg/lifestyle/11180078",
+     "source": "風傳媒"
+    },
+    {
+     "title": "旅行社異動名單更新！12家遭廢照、36家停業，報名前注意3件事",
+     "url": "https://www.managertoday.com.tw/articles/view/73307",
+     "source": "經理人"
+    },
+    {
+     "title": "出國旅遊注意！旅行社最新撤照、停業名單出爐",
+     "url": "https://news.ebc.net.tw/news/living/579997",
+     "source": "東森新聞"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "台股夜盤指數",
+   "traffic": 200,
+   "published": "2026-11-11T08:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "美股飆漲強勢助攻！台指期夜盤上演大逆轉 終場狂漲1064點",
+     "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E9%A3%86%E6%BC%B2%E5%BC%B7%E5%8B%A2%E5%8A%A9%E6%94%BB-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E4%B8%8A%E6%BC%94%E5%A4%A7%E9%80%86%E8%BD%89-%E7%B5%82%E5%A0%B4%E7%8B%82%E6%BC%B21064%E9%BB%9E-223931850.html",
+     "source": "Yahoo股市"
+    },
+    {
+     "title": "台積電ADR勁揚3.5% 台指期夜盤大漲1,064點",
+     "url": "https://udn.com/news/story/6811/9868095",
+     "source": "UDN"
+    },
+    {
+     "title": "台股重挫有望反彈？他揭劇本恐「先漲後殺」專家說話了",
+     "url": "https://fnc.ebc.net.tw/fncnews/headline/222381",
+     "source": "東森電視"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "南亞科技",
+   "traffic": 200,
+   "published": "2026-11-11T07:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "神秘大戶抄底跌停台積電狂賺2億？巨人傑發聲：若無當沖客救市恐破百家跌停| 股市要聞| 股市",
+     "url": "https://udn.com/news/story/7251/9869253",
+     "source": "udn"
+    },
+    {
+     "title": "當沖客也瘋台積電！單張一天最高賺17.5萬元 爆出880億元新天量",
+     "url": "https://tw.stock.yahoo.com/news/%E7%95%B6%E6%B2%96%E5%AE%A2%E4%B9%9F%E7%98%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%81%E5%96%AE%E5%BC%B5%E4%B8%80%E5%A4%A9%E6%9C%80%E9%AB%98%E8%B3%BA175%E8%90%AC%E5%85%83-%E7%88%86%E5%87%BA880%E5%84%84%E5%85%83%E6%96%B0%E5%A4%A9%E9%87%8F-031553008.html",
+     "source": "Yahoo股市"
+    },
+    {
+     "title": "台積電震盪　法人仍看好EPS暴增67%原因曝",
+     "url": "https://www.mirrormedia.mg/external/setn_1936026",
+     "source": "鏡週刊Mirror Media"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "anthropic",
+   "traffic": 100,
+   "published": "2026-11-11T08:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Anthropic set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+     "url": "https://www.bbc.com/news/articles/crpdgd723x2zo",
+     "source": "BBC"
+    },
+    {
+     "title": "EXCLUSIVE: Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street's AI fervor",
+     "url": "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/",
+     "source": "Reuters"
+    },
+    {
+     "title": "Anthropic Filing Snafu Jolts Investors in Run-Up to Mega IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-seeks-to-raise-69-3-billion-via-its-ipo-reuters-says",
+     "source": "Bloomberg.com"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "天气",
+   "traffic": 100,
+   "published": "2026-11-11T08:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Solar storms challenge insurers’ diversification and damage triggers",
+     "url": "https://www.globalreinsurance.com/home/solar-storms-challenge-insurers-diversification-and-damage-triggers/1460219.article",
+     "source": "Global Reinsurance"
+    },
+    {
+     "title": "Aurora, Swing and Sawa: ESA’s Space Weather sensors",
+     "url": "https://www.esa.int/es/media/aurora-swing-and-sawa-esa-s-space-weather-sensors",
+     "source": "ESA"
+    },
+    {
+     "title": "Which solar events can cause severe space weather?",
+     "url": "https://www.britannica.com/science/Which-solar-events-can-cause-severe-space-weather",
+     "source": "Britannica"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "中華 民國 勞動 部",
+   "traffic": 100,
+   "published": "2026-11-11T07:30:00+09:00",
+   "category": "기타",
+   "news": [],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
    "already_covered": false
   },
   {
@@ -638,34 +708,7 @@
     }
    ],
    "official": false,
-   "score": 1.8,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "539開獎號碼",
-   "traffic": 500,
-   "published": "2026-11-11T06:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "今彩539八百萬頭獎開3注「獎落2縣市」！ 威力彩續槓下期3.1億",
-     "url": "https://news.ttv.com.tw/news/11511090003500W/amp",
-     "source": "台視新聞網"
-    },
-    {
-     "title": "威力彩頭獎連17摃 下期獎金上看3.1億",
-     "url": "https://stock.ltn.com.tw/article/wuta0yu95gvz",
-     "source": "自由時報"
-    },
-    {
-     "title": "威力彩11/9開獎號碼出爐！頭獎連16槓飆2.9億元，今彩539、3星彩、4 星彩中獎號碼一次看",
-     "url": "https://www.storm.mg/lifestyle/11179924",
-     "source": "風傳媒"
-    }
-   ],
-   "official": false,
-   "score": 1.5,
+   "score": 1.3,
    "already_covered": false
   }
  ]

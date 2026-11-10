@@ -1,28 +1,29 @@
 {
- "generated_at": "2026-11-11T07:27:19.562215+09:00",
+ "generated_at": "2026-11-11T08:27:31.272377+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (8)",
-  "evidence": "ok (저장 28, 실패 8)"
+  "evidence": "ok (저장 24, 실패 5)"
  },
  "compared_runs": 3,
  "spikes": [
   "K-drama",
-  "天氣",
-  "rusuhan",
-  "jalan raya",
-  "test",
+  "weather",
+  "cuaca",
+  "天气",
   "cuaca hari ini",
-  "grand theft auto vi",
-  "polis"
+  "สภาพอากาศ",
+  "weather forecast",
+  "weather today",
+  "stesen minyak"
  ],
  "candidates": [
   {
    "source": "google_news",
    "keyword": "K-drama",
    "traffic": 0,
-   "article_count_24h": 63,
-   "article_count_1h": 8,
+   "article_count_24h": 64,
+   "article_count_1h": 11,
    "published": "2026-11-11T07:00:00+09:00",
    "category": "K-Culture",
    "news": [
@@ -53,9 +54,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 2.7→8건 (2.5배)",
-   "spike_bonus": 24.5,
-   "score": 44.7,
+   "spike": "최근 1시간 기사 4.0→11건 (2.4배)",
+   "spike_bonus": 24.0,
+   "score": 44.4,
    "already_covered": false,
    "evidence": [
     {
@@ -81,23 +82,64 @@
    ]
   },
   {
+   "source": "google_trends",
+   "keyword": "weather",
+   "traffic": 10000,
+   "published": "2026-11-11T07:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Boise could challenge record highs before weather turns wetter this weekend",
+     "url": "https://www.kivitv.com/weather/boise-could-challenge-record-highs-before-weather-turns-wetter-this-weekend",
+     "source": "Idaho News 6"
+    },
+    {
+     "title": "Partly sunny Saturday turning clear, highs near 65 and lows around 40",
+     "url": "https://idahonews.com/newsletter-daily/partly-sunny-saturday-turning-clear-highs-near-65-and-lows-around-40",
+     "source": "KBOI"
+    },
+    {
+     "title": "Quiet conditions to open November",
+     "url": "https://www.ktvb.com/video/weather/weather-ott/quiet-conditions-to-open-november/277-58678b64-bc74-4c92-b80f-f37448ba17ca",
+     "source": "KTVB"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.kivitv.com/weather/boise-could-challenge-record-highs-before-weather-turns-wetter-this-weekend",
+     "title": "Boise could challenge record highs before weather turns wetter this weekend",
+     "outlet": "Idaho News 6"
+    },
+    {
+     "url": "https://idahonews.com/newsletter-daily/partly-sunny-saturday-turning-clear-highs-near-65-and-lows-around-40",
+     "title": "Partly sunny Saturday turning clear, highs near 65 and lows around 40",
+     "outlet": "KBOI"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "flood",
    "traffic": 0,
    "article_count_24h": 100,
-   "article_count_1h": 33,
-   "published": "2026-11-10T14:08:20+09:00",
+   "article_count_1h": 32,
+   "published": "2026-11-11T08:00:00+09:00",
    "category": "Living",
    "news": [
+    {
+     "title": "Adapting to floods through local innovation in Vietnam - East Asia Forum",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNnhxU0puZXNRaVY4OUNzekVSMTZScHBXVDFsSWRtUDJEUXlQYk9VMkhibUgzc0tGeG8zcEtDc0FVU0cwZVZvUk9pQ3BmUEljTElvTWVBZ25aRkR0Nm9qeTVONURLallka3gxMXdJbkVyeGJwMmMyYkNEZWd4azEyRXVoMXpZX3RsX3duWFJRREJLdnVLU3hr?oc=5",
+     "source": "East Asia Forum"
+    },
     {
      "title": "Deepavali picnic in Malaysia turns tragic as flash floods hit Selangor - South China Morning Post",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUlZWYnB2QzExY2w5MVVtbUVnWjk0NmttNEhTbkFyNndEMUxpckJzVFQxMmhIb2VIZDNmTEpSR3FpR3NiVkEwZUJpOFlFZWd5bUUxU3NZdFJRelVwSTRYQ3AtQ3FobkVBa0F4ZzBNMDlJdnN4ZlpWekFrRkdzVWptbFNqOVc2YUptUHE0M2VteHZZRVBCdWYzb2Vxem5ldjB4aV92c20wRHlrNmFmZFNRQXJwUTJuZGFCOXFOZGN2Y24tT25EZHZOWlN30gHKAUFVX3lxTFBmc0N5ZUZxbk1RTU5HOUUzeFBVTG9lNTJTX2wyRFdLRkF2Ml9VVWJyWDJPWXU3emxMREprZ3FuMkl0Ymp1eGFfT3RMM2pmQnNLZ19PUGRtS0VLQlJZeG9VeTB1RVdwM2x6VnJRZ19wZHRnejVLUjc1WEVCMlktLWlYZFV3X2RKNmp1a1RXRHNpM0Ytcm9ycHB4VlM4ck82Z1NtNGhLTWpBWDBCMURqTmFfeG1nZW9QQWl3T1JKUmpRUk9NTmNDcjJhcXc?oc=5",
      "source": "South China Morning Post"
-    },
-    {
-     "title": "AmBank offers six-month flood relief - NST Online",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeUdmVm80VU51aFI0VHRQVDNxVHlBZl92Ul9SSnB2ZEdGVTNoWWQ0UFc4akhNT1FSY25MYllha19Ual83bHZMMDRkNGJhOWRNdnE3VC1QZTRYWHFPdnRVeHZiU0M4RWFHMUxwZERIQzhKUWR2OXVwS3NBeGNLMmM4VlItSHd2Y0NfZU1mdUtDTkJRSlBaR3dXOGFB0gGfAUFVX3lxTE96VnVZMzJfZExnUEdKYXV0bmhNeXlCZkhuTkJpWWZ6MGUtbXpRNVNibWtMb3h4YzV2WHJjdnRRM1huVXVvRmJfN092d2FoT2xYemMyd1RWRkhvaHNCQVJTcUt0SlYzSzVncVdCejgxVUpvUnF5dHV6NEZwY2ZBWTAyRHY4S3cwOFRfeFotS1kwLTNKY3NIOWd3WGptSGU1aw?oc=5",
-     "source": "NST Online"
     },
     {
      "title": "Deadly flash flood wipes away villages in Nepal, Tibet - DW.com",
@@ -105,9 +147,9 @@
      "source": "DW.com"
     },
     {
-     "title": "Floods: Selangor sees increase in evacuees, Perak records decline as at 4pm - The Star",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeVhLN3YxV1RPbGM0aElzcDhqSm9RTGNYTW5qeGRRLUE3X2FfX1B0SW5QWUVjTHlCUVNYUVpCNnRBLWphNzFiajZPQlhPV2ZqWGNoc1RxcHloR19GU1dNTkg0eVotRTV2OFZGSjlRUUphVU9GdnJuSXBWcm85eURQZ3YxY2VoZl83MDNxUVVXTnJMNGUyc2dSdDhpWV9vVE9HUE15bVZPazZ2aGdOVWJpbXFKcDBoZlhZWFlobVNscEo?oc=5",
-     "source": "The Star"
+     "title": "More seek shelter in Selangor due to floods - Free Malaysia Today",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWWJid1o1V2tmekVBYTZHemJyRkZFb3EwQjdIVFdYWEdBbkMzNGkyeXZET19PbWxyaG9FeWR5SVc0d0dWbzM5TUpIOUZ5TzFXS3UyZzBhQUYwbUxCdXpveXFidlQ2N2hzMWtyYzA1MThQRzJxX3FlRlFrU05pZ09GM3M4LW4teWRhbnhDV09hbm15WkY5Z3NOOEFlVW0?oc=5",
+     "source": "Free Malaysia Today"
     },
     {
      "title": "Hamas Says Board Of Peace Distorts Gaza Flood Crisis, Overlooks Israel’s Role - Bernama",
@@ -116,18 +158,18 @@
     }
    ],
    "official": false,
-   "score": 21.0,
+   "score": 30.0,
    "already_covered": false,
    "evidence": [
+    {
+     "url": "https://eastasiaforum.org/2026/11/11/adapting-to-floods-through-local-innovation-in-vietnam/",
+     "title": "Adapting to floods through local innovation in Vietnam - East Asia Forum",
+     "outlet": "East Asia Forum"
+    },
     {
      "url": "https://www.scmp.com/week-asia/health-environment/article/3373891/deepavali-picnic-malaysia-turns-tragic-flash-floods-hit-selangor",
      "title": "Deepavali picnic in Malaysia turns tragic as flash floods hit Selangor - South China Morning Post",
      "outlet": "South China Morning Post"
-    },
-    {
-     "url": "https://www.nst.com.my/business/corporate/2026/11/1574816/ambank-offers-six-month-flood-relief",
-     "title": "AmBank offers six-month flood relief - NST Online",
-     "outlet": "NST Online"
     },
     {
      "url": "https://www.dw.com/en/nepal-tibet-china-flood-river-mudslide/a-78505576",
@@ -135,45 +177,86 @@
      "outlet": "DW.com"
     },
     {
-     "url": "https://www.thestar.com.my/news/nation/2026/11/10/floods-selangor-sees-increase-in-evacuees-perak-records-decline-as-at-4pm",
-     "title": "Floods: Selangor sees increase in evacuees, Perak records decline as at 4pm - The Star",
-     "outlet": "The Star"
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/10/flood-evacuees-increase-in-selangor",
+     "title": "More seek shelter in Selangor due to floods - Free Malaysia Today",
+     "outlet": "Free Malaysia Today"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "cuaca",
+   "traffic": 5000,
+   "published": "2026-11-11T07:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "4 lagi mayat mangsa kepala air Sungai Pertak ditemukan",
+     "url": "https://www.bharian.com.my/berita/nasional/2026/11/1707121/4-lagi-mayat-mangsa-kepala-air-sungai-pertak-ditemukan",
+     "source": "Berita Harian"
+    },
+    {
+     "title": "7 warga asing antara 8 mangsa dihanyutkan kepala air",
+     "url": "https://www.hmetro.com.my/amp/utama/2026/11/1434303/7-warga-asing-antara-8-mangsa-dihanyutkan-kepala-air",
+     "source": "Harian Metro"
+    },
+    {
+     "title": "Search for three missing water surge victims extended to Sungai Selangor Dam",
+     "url": "https://www.nst.com.my/news/nation/2026/11/1574576/search-three-missing-water-surge-victims-extended-sungai-selangor-dam",
+     "source": "NST Online"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.hmetro.com.my/amp/utama/2026/11/1434303/7-warga-asing-antara-8-mangsa-dihanyutkan-kepala-air",
+     "title": "7 warga asing antara 8 mangsa dihanyutkan kepala air",
+     "outlet": "Harian Metro"
+    },
+    {
+     "url": "https://www.nst.com.my/news/nation/2026/11/1574576/search-three-missing-water-surge-victims-extended-sungai-selangor-dam",
+     "title": "Search for three missing water surge victims extended to Sungai Selangor Dam",
+     "outlet": "NST Online"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "Korean skincare",
+   "keyword": "haze",
    "traffic": 0,
-   "article_count_24h": 29,
+   "article_count_24h": 34,
    "article_count_1h": 2,
-   "published": "2026-11-10T20:59:24+09:00",
-   "category": "Beauty",
+   "published": "2026-11-10T10:50:42+09:00",
+   "category": "기타",
    "news": [
     {
-     "title": "The K-Beauty Products ELLE Korea Editors Chose for Their Own Routines - ELLE",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZFRUUlNOdklrb1B5OHlVM2pGSEZDU21aNTdaTGtQWmtHSlhVT0xaYUNKSUxQYUtRVnFEZU5uWWZ2WWVoTXRTUTBHdlpHWmVUSE9TOV95NHFBZ0o1QWI1emgtbUhBYWx3dVMtaUpzRDNzVVNjX01KQXBwMnhoVE80NDRGTE5uS0EzWjEzb2hJaTFhdVU?oc=5",
-     "source": "ELLE"
+     "title": "“If we burn, you burn with us”: People power grows amid Indonesia’s fire and haze crisis - Greenpeace",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPT2JBdnpteFVkVDRsNDkzM1dIbnFzNlJkYUMyc0xIeFRwX3E0SUVPTXF1MmdYQmJGbm1GZmxBNDloZW5WbTBTQ2szOEpxUnF1aFluanpRTnNaYk9tNWJueTNYTHV5N09iX0ZJby05S0lnNEQzemxkdUVZLVpvZ3kxWnhveFpIZFVnV2JHdFNUdnRPcGk3bTBEb3dkV1pHaHNTR0dPZFVnZjFVNUp6VHhVOHhsZVFqTEdWTExhVjZtcFRhbkh6OTMzQm11cjQtLUZJSklB?oc=5",
+     "source": "Greenpeace"
     },
     {
-     "title": "This Week in Retail: Hermès Expands Geneva Flagship, Korea Town Opens Two Qatar Stores, The Children’s Place Pursues a Sale, Michael Kors Adds Chandigarh Store, Glow Recipe Sets Ulta Beauty Launch - RETAILBOSS | Substack",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wRkpuOHpSWHdpVjZkZXp3dDJjdGdHV0dUY1c4R1R6ZVhXWnBTcXZ3QVpVV0NRVWJCTmgxX0JmQ2YzNDdZQXJpbnJIUnRfZmpQSTJiSmppdlRSWlpMM0NwbW9UaHptYkEtODNuOUhxNkN6bmttdHp3?oc=5",
-     "source": "RETAILBOSS | Substack"
+     "title": "Singapore employers face enforcement risk under haze guidance, lawyer warns - Human Resources Director",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYldkckowT09fREJmTWVWU0xZMXMtaVQ3VDF6ODhTdTFfa3FYYkIwdnZWU2dtZ2VudUZQaUpFSEltbU5felB6dV9vZHhYNTZRNFJxMHd6d1Q3a3NGWDdtdGtlQUxNVmE1UXBBRXozRFFDZEpMUDVMc2hXdjdJbWlwMHZ0Nkp3Vjk0TTJsVU51ZFVDeVQ1RXVfY1lrMlZXc3pCVnN4bFhiU1FhcXppa3p6MTBEWnc1RGFDakdNanNrVmNVbFd6bHl3MHFsRmNPQ2V1Y2tvZ2Fn?oc=5",
+     "source": "Human Resources Director"
     },
     {
-     "title": "Olive Young to open five more US stores in significant K-beauty expansion - Cosmetics Business",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Nc1ptN3JFMDJWM2FtSWxkeXVCck9WUHozWEVudVJSWFFrRGhxQUNkakU2dGlraldYZ1JSSk5KZ3FncjZJNy1FdnkzVV9Ec0xEdkRHTm1BSlIyZnBNWklrc1dwNjRKOU9IdFlHOWRIVzQ1RmttTm1NaA?oc=5",
-     "source": "Cosmetics Business"
+     "title": "Will Singapore’s tougher haze law follow the money? What to watch in the first designations - Eco-Business",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYk5MV0RhYlh2MGhOWk93ZmhhNUI1aFlncDVra01SbGdnS1IzZ3J6SV9kN2U4RS1fVzZ2anJDTS1Gem1KeVd2T3YtLURqSkF1dWdOeUw2eHVpVXNwck1PQTdFelVEMVl3MHM3N1NzMkFRTFdoNHFsenV5Nk5XVm5nV3VKWG1BN0ZTTHlUNE1qdDkweVdhQkxRM0lPRE9RWExYLWlZTi1fZ0dmaERONXV5dndhZ2VYdTU0a2xnSW5TUVZnQQ?oc=5",
+     "source": "Eco-Business"
     },
     {
-     "title": "Is eating your skincare the solution to healthy-looking skin? These K-wellness heroes make a case - Grazia Daily UK",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNUlyNWJVb3ZXVlhaYUVWY0gwZDhfUXE1QTd4YVNHUXFad0tNUExsbUFwTmltd1NsdVhnaV9nN19wanFCLXZqYkFsZzVVamlFSC0xLURTT3hhcXhReUpVZjBHaTZwa1F3WkRHbUxMM2RhWWEwUDJZZVVLb2dIUGg1Vy1jcGxTZ3BpTG5WMkQ5bw?oc=5",
-     "source": "Grazia Daily UK"
+     "title": "No more playing with fire: Indonesia moves against 11 companies over haze - scoop.my",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTU1JenlVRG9Mb2NMYkFFWVNVcmxDTEZkMjJUaVlzQjNyR0FzcnRwM0U3M3JXcFhlekI4OTlKUnRjVkd6aDJoRWZjOHMwU1J3aHZhOUlVZW9pMWZEMTlJRW9mQzlScWkyM0p4TjNCUXRjT09nSkNpQzVGcXAzTVJQMExNdm1sYmt2bmpKdnF2OTAyMmd4djBpczk3dzItVzd3RkptUG11MGZsZw?oc=5",
+     "source": "scoop.my"
     },
     {
-     "title": "Hannaru Naru Box Lets Retailers Test K-Beauty Brands Before Wholesale Orders - EIN News",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT1MxNGk2QUFBd09mWW9RcU53eXl0YzhrUHVZRHlBYjgyRGVnNm0telRQbkdmVEtZWnNUQm01YU1mUVlBNW1Va043bDhhMmxqZFRUaFc2YmgtN2NVeVRJVjAzVHhEMjdTQUpvOFNid0hXZ0JSRkRBVWM5a08wZnlJcGdiWDFGSHZHLVgwVm1FOFJ4ZU9ZbW9zc2hfVms3Q1V0OERJSVJkS24wbXM3a0dNU203OS1fdXlxOGc?oc=5",
-     "source": "EIN News"
+     "title": "Haze fails to block out rays of wellness in Subang Jaya - The Star",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcDNGdE5KbEFZaG1qUmY5N29rQ1A2MXVuQ1NmcDB6QUtIaDZyYnlaMWgwcjE2bnpDcktOS2xLR0VtZnFHM21hMThwNWNRX0Zsa2tONzk2XzlQbUV2d1Y0cmF6M1dhWXJ6SVVYZXpHVGJONS1wR2Q2Tng2eUs0empXZ1dPbTBGd295ZDQ0dWlGNnRzXzV1Q1MzRnp2ek5XZ0loZEpYaDgyVWNXSC1hNzlz?oc=5",
+     "source": "The Star"
     }
    ],
    "official": false,
@@ -181,19 +264,65 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.elle.com/beauty/makeup-skin-care/a74278115/best-k-beauty-products-elle-korea/",
-     "title": "The K-Beauty Products ELLE Korea Editors Chose for Their Own Routines - ELLE",
-     "outlet": "ELLE"
+     "url": "https://www.greenpeace.org/international/story/86965/if-we-burn-you-burn-with-us-people-power-grows-amid-indonesias-fire-and-haze-crisis/",
+     "title": "“If we burn, you burn with us”: People power grows amid Indonesia’s fire and haze crisis - Greenpeace",
+     "outlet": "Greenpeace"
     },
     {
-     "url": "https://cosmeticsbusiness.com/olive-young-to-open-five-more-us-stores",
-     "title": "Olive Young to open five more US stores in significant K-beauty expansion - Cosmetics Business",
-     "outlet": "Cosmetics Business"
+     "url": "https://www.hcamag.com/asia/specialisation/employment-law/singapore-employers-face-enforcement-risk-under-haze-guidance-lawyer-warns/596820",
+     "title": "Singapore employers face enforcement risk under haze guidance, lawyer warns - Human Resources Director",
+     "outlet": "Human Resources Director"
     },
     {
-     "url": "https://graziadaily.co.uk/beauty-hair/wellness/best-korean-wellness-products-at-boots/",
-     "title": "Is eating your skincare the solution to healthy-looking skin? These K-wellness heroes make a case - Grazia Daily UK",
-     "outlet": "Grazia Daily UK"
+     "url": "https://www.eco-business.com/news/will-singapores-tougher-haze-law-follow-the-money-what-to-watch-in-the-first-designations/",
+     "title": "Will Singapore’s tougher haze law follow the money? What to watch in the first designations - Eco-Business",
+     "outlet": "Eco-Business"
+    },
+    {
+     "url": "https://www.scoop.my/news/302648/no-more-playing-with-fire-indonesia-moves-against-11-companies-over-haze/",
+     "title": "No more playing with fire: Indonesia moves against 11 companies over haze - scoop.my",
+     "outlet": "scoop.my"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "天气",
+   "traffic": 2000,
+   "published": "2026-11-11T07:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "气象局发布持续降雨警报，丹州九县至周三或发水灾",
+     "url": "https://www.malaysiakini.com/news/888764-%E6%B0%94%E8%B1%A1%E5%B1%80%E5%8F%91%E5%B8%83%E6%8C%81%E7%BB%AD%E9%99%8D%E9%9B%A8%E8%AD%A6%E6%8A%A5%E4%B8%B9%E5%B7%9E%E4%B9%9D%E5%8E%BF%E8%87%B3%E5%91%A8%E4%B8%89%E6%88%96%E5%8F%91%E6%B0%B4%E7%81%BE",
+     "source": "Malaysiakini"
+    },
+    {
+     "title": "刘佩明：防洪要发挥最大效能",
+     "url": "https://kl.chinapress.com.my/20261110/%E5%88%98%E4%BD%A9%E6%98%8E%EF%BC%9A%E9%98%B2%E6%B4%AA%E8%A6%81%E5%8F%91%E6%8C%A5%E6%9C%80%E5%A4%A7%E6%95%88%E8%83%BD/",
+     "source": "KL人中國報China Press"
+    },
+    {
+     "title": "11州3联邦直辖区 雷雨警报至晚上7时",
+     "url": "https://www.orientaldaily.com.my/news/nation/2026/11/10/861786",
+     "source": "马来西亚东方日报"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.malaysiakini.com/news/888764-%E6%B0%94%E8%B1%A1%E5%B1%80%E5%8F%91%E5%B8%83%E6%8C%81%E7%BB%AD%E9%99%8D%E9%9B%A8%E8%AD%A6%E6%8A%A5%E4%B8%B9%E5%B7%9E%E4%B9%9D%E5%8E%BF%E8%87%B3%E5%91%A8%E4%B8%89%E6%88%96%E5%8F%91%E6%B0%B4%E7%81%BE",
+     "title": "气象局发布持续降雨警报，丹州九县至周三或发水灾",
+     "outlet": "Malaysiakini"
+    },
+    {
+     "url": "https://www.orientaldaily.com.my/news/nation/2026/11/10/861786",
+     "title": "11州3联邦直辖区 雷雨警报至晚上7时",
+     "outlet": "马来西亚东方日报"
     }
    ]
   },
@@ -202,7 +331,7 @@
    "keyword": "Shopee sale",
    "traffic": 0,
    "article_count_24h": 16,
-   "article_count_1h": 2,
+   "article_count_1h": 1,
    "published": "2026-11-10T13:00:00+09:00",
    "category": "Deals",
    "news": [
@@ -233,7 +362,7 @@
     }
    ],
    "official": false,
-   "score": 16.0,
+   "score": 14.3,
    "already_covered": false,
    "evidence": [
     {
@@ -254,71 +383,63 @@
    ]
   },
   {
-   "source": "google_news",
-   "keyword": "haze",
-   "traffic": 0,
-   "article_count_24h": 35,
-   "article_count_1h": 1,
-   "published": "2026-11-10T10:50:42+09:00",
+   "source": "google_trends",
+   "keyword": "cuaca hari ini",
+   "traffic": 200,
+   "published": "2026-11-11T07:10:00+09:00",
    "category": "기타",
+   "news": [],
+   "official": false,
+   "spike": "검색량 100→200",
+   "spike_bonus": 20,
+   "score": 12.6,
+   "already_covered": false,
+   "evidence": []
+  },
+  {
+   "source": "google_news",
+   "keyword": "Korean skincare",
+   "traffic": 0,
+   "article_count_24h": 29,
+   "article_count_1h": 0,
+   "published": "2026-11-10T20:59:24+09:00",
+   "category": "Beauty",
    "news": [
     {
-     "title": "“If we burn, you burn with us”: People power grows amid Indonesia’s fire and haze crisis - Greenpeace",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPT2JBdnpteFVkVDRsNDkzM1dIbnFzNlJkYUMyc0xIeFRwX3E0SUVPTXF1MmdYQmJGbm1GZmxBNDloZW5WbTBTQ2szOEpxUnF1aFluanpRTnNaYk9tNWJueTNYTHV5N09iX0ZJby05S0lnNEQzemxkdUVZLVpvZ3kxWnhveFpIZFVnV2JHdFNUdnRPcGk3bTBEb3dkV1pHaHNTR0dPZFVnZjFVNUp6VHhVOHhsZVFqTEdWTExhVjZtcFRhbkh6OTMzQm11cjQtLUZJSklB?oc=5",
-     "source": "Greenpeace"
+     "title": "The K-Beauty Products ELLE Korea Editors Chose for Their Own Routines - ELLE",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZFRUUlNOdklrb1B5OHlVM2pGSEZDU21aNTdaTGtQWmtHSlhVT0xaYUNKSUxQYUtRVnFEZU5uWWZ2WWVoTXRTUTBHdlpHWmVUSE9TOV95NHFBZ0o1QWI1emgtbUhBYWx3dVMtaUpzRDNzVVNjX01KQXBwMnhoVE80NDRGTE5uS0EzWjEzb2hJaTFhdVU?oc=5",
+     "source": "ELLE"
     },
     {
-     "title": "Singapore employers face enforcement risk under haze guidance, lawyer warns - Human Resources Director",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYldkckowT09fREJmTWVWU0xZMXMtaVQ3VDF6ODhTdTFfa3FYYkIwdnZWU2dtZ2VudUZQaUpFSEltbU5felB6dV9vZHhYNTZRNFJxMHd6d1Q3a3NGWDdtdGtlQUxNVmE1UXBBRXozRFFDZEpMUDVMc2hXdjdJbWlwMHZ0Nkp3Vjk0TTJsVU51ZFVDeVQ1RXVfY1lrMlZXc3pCVnN4bFhiU1FhcXppa3p6MTBEWnc1RGFDakdNanNrVmNVbFd6bHl3MHFsRmNPQ2V1Y2tvZ2Fn?oc=5",
-     "source": "Human Resources Director"
+     "title": "This Week in Retail: Hermès Expands Geneva Flagship, Korea Town Opens Two Qatar Stores, The Children’s Place Pursues a Sale, Michael Kors Adds Chandigarh Store, Glow Recipe Sets Ulta Beauty Launch - RETAILBOSS | Substack",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wRkpuOHpSWHdpVjZkZXp3dDJjdGdHV0dUY1c4R1R6ZVhXWnBTcXZ3QVpVV0NRVWJCTmgxX0JmQ2YzNDdZQXJpbnJIUnRfZmpQSTJiSmppdlRSWlpMM0NwbW9UaHptYkEtODNuOUhxNkN6bmttdHp3?oc=5",
+     "source": "RETAILBOSS | Substack"
     },
     {
-     "title": "Will Singapore’s tougher haze law follow the money? What to watch in the first designations - Eco-Business",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYk5MV0RhYlh2MGhOWk93ZmhhNUI1aFlncDVra01SbGdnS1IzZ3J6SV9kN2U4RS1fVzZ2anJDTS1Gem1KeVd2T3YtLURqSkF1dWdOeUw2eHVpVXNwck1PQTdFelVEMVl3MHM3N1NzMkFRTFdoNHFsenV5Nk5XVm5nV3VKWG1BN0ZTTHlUNE1qdDkweVdhQkxRM0lPRE9RWExYLWlZTi1fZ0dmaERONXV5dndhZ2VYdTU0a2xnSW5TUVZnQQ?oc=5",
-     "source": "Eco-Business"
+     "title": "Olive Young to open five more US stores in significant K-beauty expansion - Cosmetics Business",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Nc1ptN3JFMDJWM2FtSWxkeXVCck9WUHozWEVudVJSWFFrRGhxQUNkakU2dGlraldYZ1JSSk5KZ3FncjZJNy1FdnkzVV9Ec0xEdkRHTm1BSlIyZnBNWklrc1dwNjRKOU9IdFlHOWRIVzQ1RmttTm1NaA?oc=5",
+     "source": "Cosmetics Business"
     },
     {
-     "title": "Haze fails to block out rays of wellness in Subang Jaya - The Star",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcDNGdE5KbEFZaG1qUmY5N29rQ1A2MXVuQ1NmcDB6QUtIaDZyYnlaMWgwcjE2bnpDcktOS2xLR0VtZnFHM21hMThwNWNRX0Zsa2tONzk2XzlQbUV2d1Y0cmF6M1dhWXJ6SVVYZXpHVGJONS1wR2Q2Tng2eUs0empXZ1dPbTBGd295ZDQ0dWlGNnRzXzV1Q1MzRnp2ek5XZ0loZEpYaDgyVWNXSC1hNzlz?oc=5",
-     "source": "The Star"
+     "title": "Is eating your skincare the solution to healthy-looking skin? These K-wellness heroes make a case - Grazia Daily UK",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNUlyNWJVb3ZXVlhaYUVWY0gwZDhfUXE1QTd4YVNHUXFad0tNUExsbUFwTmltd1NsdVhnaV9nN19wanFCLXZqYkFsZzVVamlFSC0xLURTT3hhcXhReUpVZjBHaTZwa1F3WkRHbUxMM2RhWWEwUDJZZVVLb2dIUGg1Vy1jcGxTZ3BpTG5WMkQ5bw?oc=5",
+     "source": "Grazia Daily UK"
     },
     {
-     "title": "No more playing with fire: Indonesia moves against 11 companies over haze - scoop.my",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTU1JenlVRG9Mb2NMYkFFWVNVcmxDTEZkMjJUaVlzQjNyR0FzcnRwM0U3M3JXcFhlekI4OTlKUnRjVkd6aDJoRWZjOHMwU1J3aHZhOUlVZW9pMWZEMTlJRW9mQzlScWkyM0p4TjNCUXRjT09nSkNpQzVGcXAzTVJQMExNdm1sYmt2bmpKdnF2OTAyMmd4djBpczk3dzItVzd3RkptUG11MGZsZw?oc=5",
-     "source": "scoop.my"
+     "title": "Hannaru Naru Box Lets Retailers Test K-Beauty Brands Before Wholesale Orders - EIN News",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT1MxNGk2QUFBd09mWW9RcU53eXl0YzhrUHVZRHlBYjgyRGVnNm0telRQbkdmVEtZWnNUQm01YU1mUVlBNW1Va043bDhhMmxqZFRUaFc2YmgtN2NVeVRJVjAzVHhEMjdTQUpvOFNid0hXZ0JSRkRBVWM5a08wZnlJcGdiWDFGSHZHLVgwVm1FOFJ4ZU9ZbW9zc2hfVms3Q1V0OERJSVJkS24wbXM3a0dNU203OS1fdXlxOGc?oc=5",
+     "source": "EIN News"
     }
    ],
    "official": false,
-   "score": 14.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.greenpeace.org/international/story/86965/if-we-burn-you-burn-with-us-people-power-grows-amid-indonesias-fire-and-haze-crisis/",
-     "title": "“If we burn, you burn with us”: People power grows amid Indonesia’s fire and haze crisis - Greenpeace",
-     "outlet": "Greenpeace"
-    },
-    {
-     "url": "https://www.hcamag.com/asia/specialisation/employment-law/singapore-employers-face-enforcement-risk-under-haze-guidance-lawyer-warns/596820",
-     "title": "Singapore employers face enforcement risk under haze guidance, lawyer warns - Human Resources Director",
-     "outlet": "Human Resources Director"
-    },
-    {
-     "url": "https://www.eco-business.com/news/will-singapores-tougher-haze-law-follow-the-money-what-to-watch-in-the-first-designations/",
-     "title": "Will Singapore’s tougher haze law follow the money? What to watch in the first designations - Eco-Business",
-     "outlet": "Eco-Business"
-    },
-    {
-     "url": "https://www.thestar.com.my/metro/metro-news/2026/11/10/haze-fails-to-block-out-rays-of-wellness-in-subang-jaya",
-     "title": "Haze fails to block out rays of wellness in Subang Jaya - The Star",
-     "outlet": "The Star"
-    }
-   ]
+   "score": 12.6,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "sunscreen",
    "traffic": 0,
-   "article_count_24h": 25,
+   "article_count_24h": 24,
    "article_count_1h": 0,
    "published": "2026-11-10T22:27:32+09:00",
    "category": "Beauty",
@@ -351,228 +472,116 @@
    ],
    "official": false,
    "score": 12.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://theconversation.com/tanning-and-homemade-sunscreen-trends-overlook-what-sunlight-does-to-your-skin-294821",
-     "title": "Tanning and homemade sunscreen trends overlook what sunlight does to your skin - The Conversation",
-     "outlet": "The Conversation"
-    },
-    {
-     "url": "https://www.huffpost.com/entry/iunik-beta-glucan-sunscreen-moisturizer-ud-nov_l_6af1dc52e4b043b6d4e37ec8",
-     "title": "If You Hate Feeling Sticky, This Is The ‘No Residue’ Sunscreen You Need To Try - HuffPost",
-     "outlet": "HuffPost"
-    },
-    {
-     "url": "https://earthsky.org/space/lava-planets-surprising-atmosphere-toi-561-b-super-earth/",
-     "title": "Atmosphere of lava planet: ‘A cloudy, reflective sunscreen’ - EarthSky",
-     "outlet": "EarthSky"
-    }
-   ]
+   "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "天氣",
-   "traffic": 200,
-   "published": "2026-11-11T07:10:00+09:00",
+   "keyword": "สภาพอากาศ",
+   "traffic": 100,
+   "published": "2026-11-11T07:30:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "今東北季風南下迎風有雨北轉涼",
-     "url": "http://www.metapp.org.tw/pages/post-9f9083b78dc22f751afc.html",
-     "source": "氣象應用推廣基金會"
+     "title": "รู้จักปรากฏการณ์ฤดูหนาวที่ไม่หนาวหมายถึงอะไร",
+     "url": "https://www.dailynews.co.th/news/6347481/",
+     "source": "เดลินิวส์"
     },
     {
-     "title": "天氣預報／入秋最強冷空氣來了！全台變天「低溫下探12度」，何時回暖？ 時間曝光",
-     "url": "https://www.storm.mg/lifestyle/11180024",
-     "source": "風傳媒"
+     "title": "ประจำวันที่ 10 พฤศจิกายน 2569 17.00 น.",
+     "url": "https://www.tmd.go.th/forecast/daily/101120261800",
+     "source": "กรมอุตุนิยมวิทยา"
     },
     {
-     "title": "北半球3個冷高壓！台灣明顯降溫「可達冷氣團等級」？鄭明典給答案了",
-     "url": "https://www.setn.com/news/1936072",
-     "source": "三立新聞網SETN.com"
+     "title": "เมฆฝนยักษ์ถล่มหาดสมิหลา บังเกาะหนูเกาะแมวไปกับตา | 10 พ.ย. 69 | ข่าวเย็นไทยรัฐ",
+     "url": "https://www.thairath.co.th/video/channel/thairath_news/thairath-evening-news/1198833",
+     "source": "www.thairath.co.th"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "http://www.metapp.org.tw/pages/post-9f9083b78dc22f751afc.html",
-     "title": "今東北季風南下迎風有雨北轉涼",
-     "outlet": "氣象應用推廣基金會"
-    },
-    {
-     "url": "https://www.storm.mg/lifestyle/11180024",
-     "title": "天氣預報／入秋最強冷空氣來了！全台變天「低溫下探12度」，何時回暖？ 時間曝光",
-     "outlet": "風傳媒"
-    },
-    {
-     "url": "https://www.setn.com/news/1936072",
-     "title": "北半球3個冷高壓！台灣明顯降溫「可達冷氣團等級」？鄭明典給答案了",
-     "outlet": "三立新聞網SETN.com"
-    }
-   ]
+   "score": 9.3,
+   "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "rusuhan",
-   "traffic": 200,
-   "published": "2026-11-11T06:30:00+09:00",
+   "keyword": "weather forecast",
+   "traffic": 100,
+   "published": "2026-11-11T07:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Rusuhan bersenjata di Desa Tun Razak, 7 lelaki didakwa",
-     "url": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/rusuhan-bersenjata-di-desa-tun-razak-7-lelaki-didakwa/",
-     "source": "Portal Berita RTM"
+     "title": "Farmers' Almanac 2026-2027 winter forecast: 7 regions, from the South to the East",
+     "url": "https://qz.com/farmers-almanac-2026-2027-winter-forecast-regions",
+     "source": "qz.com"
     },
     {
-     "title": "Tujuh termasuk remaja bawah umur didakwa merusuh rebut kawasan perniagaan",
-     "url": "https://www.bharian.com.my/berita/kes/2026/11/1707521/tujuh-termasuk-remaja-bawah-umur-didakwa-merusuh-rebut-kawasan-perniagaan",
+     "title": "NOAA Flags US States Facing Heavy Snow and High Winds Next Week",
+     "url": "https://www.yahoo.com/news/weather-news/articles/noaa-flags-us-states-facing-162946687.html",
+     "source": "Yahoo"
+    },
+    {
+     "title": "Local 3’s Storm Alert Weather Team’s winter weather forecast",
+     "url": "https://www.local3news.com/video/weather-wise/local-3-s-storm-alert-weather-team-s-winter-weather-forecast/video_58178624-ded8-5aa0-872f-e13b3338798f.html",
+     "source": "Local 3 News"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "weather today",
+   "traffic": 100,
+   "published": "2026-11-11T07:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Maui Weather Forecast for November 10, 2026",
+     "url": "https://mauinow.com/2026/11/10/maui-weather-forecast-for-november-10-2026/",
+     "source": "Maui Now"
+    },
+    {
+     "title": "Hawaii County Weather Forecast for November 06, 2026",
+     "url": "https://bigislandnow.com/2026/11/05/hawaii-county-weather-forecast-for-november-06-2026/",
+     "source": "Big Island Now"
+    },
+    {
+     "title": "Hawaii County Weather Forecast for November 01, 2026",
+     "url": "https://bigislandnow.com/2026/10/31/hawaii-county-weather-forecast-for-november-01-2026/",
+     "source": "Big Island Now"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "stesen minyak",
+   "traffic": 100,
+   "published": "2026-11-11T06:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "BP jual semua pegangan dalam perniagaan stesen minyak Indonesia",
+     "url": "https://www.bharian.com.my/bisnes/korporat/2026/11/1707690/bp-jual-semua-pegangan-dalam-perniagaan-stesen-minyak-indonesia",
      "source": "Berita Harian"
     },
     {
-     "title": "Seven men claim trial over armed rioting outside Sungai Besi cafe",
-     "url": "https://thesun.my/news/malaysia-news/courts/seven-men-claim-trial-over-armed-rioting-outside-sungai-besi-cafe/",
-     "source": "The Sun Malaysia"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/rusuhan-bersenjata-di-desa-tun-razak-7-lelaki-didakwa/",
-     "title": "Rusuhan bersenjata di Desa Tun Razak, 7 lelaki didakwa",
-     "outlet": "Portal Berita RTM"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "jalan raya",
-   "traffic": 200,
-   "published": "2026-11-11T05:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Bakar mercun di jalan raya, enam lelaki akan didakwa esok | Sinar Harian",
-     "url": "https://www.sinarharian.com.my/article/804031/berita/semasa/bakar-mercun-di-jalan-raya-enam-lelaki-akan-didakwa-esok",
-     "source": "Sinar Harian"
+     "title": "Syarikat Minyak Dan Gas British, BP 'Lepaskan' Saham Bisnes Stesen Minyak Di Indonesia",
+     "url": "https://siakapkeli.my/articles/syarikat-minyak-dan-gas-british-bp-lepaskan-saham-bisnes-stesen-minyak-di-indonesia",
+     "source": "Siakap Keli"
     },
     {
-     "title": "Polis tahan 3 lagi suspek bakar mercun atas jalan, 6 didakwa esok",
-     "url": "https://www.hmetro.com.my/amp/mutakhir/2026/11/1434639/polis-tahan-3-lagi-suspek-bakar-mercun-atas-jalan-6-didakwa-esok",
-     "source": "Harian Metro"
-    },
-    {
-     "title": "Four Suspects Arrested Over Lighting Fire Crackers On The Road In Skudai",
-     "url": "https://www.bernama.com/en/crime_courts/news.php?id=2631882",
-     "source": "Bernama"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "test",
-   "traffic": 200,
-   "published": "2026-11-11T04:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Impeachment Live Updates: House to Read Accusations Against Hegseth",
-     "url": "https://www.nytimes.com/live/2026/11/10/us/hegseth-impeachment-vote-house",
-     "source": "The New York Times"
-    },
-    {
-     "title": "Hegseth Could Be the Third Cabinet Secretary to be Impeached. What Happened to the Others?",
-     "url": "https://time.com/article/2026/11/10/hegseth-could-be-the-third-cabinet-secretary-to-be-impeached/",
-     "source": "Time Magazine"
-    },
-    {
-     "title": "Hegseth calls Republican’s bid to impeach him a ‘stunt’ by critics of Trump",
-     "url": "https://www.theguardian.com/us-news/2026/nov/10/pete-hegseth-impeachment-massie",
-     "source": "The Guardian"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "cuaca hari ini",
-   "traffic": 100,
-   "published": "2026-11-11T07:10:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "grand theft auto vi",
-   "traffic": 100,
-   "published": "2026-11-11T07:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Pre-load Grand Theft Auto VI on PS5 starting today",
-     "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
-     "source": "PlayStation.Blog"
-    },
-    {
-     "title": "GTA VI downloads begin ahead of launch next week",
-     "url": "https://www.freemalaysiatoday.com/category/leisure/2026/11/10/gta-vi-downloads-begin-ahead-of-launch-next-week",
-     "source": "Free Malaysia Today"
-    },
-    {
-     "title": "Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19",
-     "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
-     "source": "XBOX Wire"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "polis",
-   "traffic": 100,
-   "published": "2026-11-11T06:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Gov. Polis tours Catalyst Campus in Colorado Springs",
-     "url": "https://www.fox21news.com/news/local/gov-polis-tours-catalyst-campus-in-colorado-springs/",
-     "source": "FOX21 News Colorado"
-    },
-    {
-     "title": "Polis Visits Catalyst Campus Expansion in Colorado Springs",
-     "url": "https://hoodline.com/2026/11/polis-tours-colorado-springs-tech-hub-pitched-as-700-job-aerospace-engine/",
-     "source": "Hoodline"
-    },
-    {
-     "title": "Colorado's newly proposed budget says Medicaid growth is unsustainable, caregiver reacts",
-     "url": "https://www.koaa.com/news/local-news/in-your-community/central-springs/colorados-newly-proposed-budget-says-medicaid-growth-is-unsustainable-caregiver-reacts",
-     "source": "KOAA News 5"
+     "title": "BP lepaskan perniagaan stesen minyak di Indonesia",
+     "url": "https://www.motoqar.com/2026/147354/bp-lepaskan-perniagaan-stesen-minyak-di-indonesia.html",
+     "source": "Motoqar"
     }
    ],
    "official": false,
@@ -585,7 +594,7 @@
    "source": "google_news",
    "keyword": "monsoon MetMalaysia",
    "traffic": 0,
-   "article_count_24h": 5,
+   "article_count_24h": 4,
    "article_count_1h": 0,
    "published": "2026-11-10T19:51:55+09:00",
    "category": "Living",
@@ -594,11 +603,6 @@
      "title": "Public in Malaysia urged to take health precautions as Northeast Monsoon season sets in - Human Resources Online",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTlM0Z2MtbUZzTWFwOUtWM2VCZ3hYcFlGZjJmX2R4dmgwSWduc1M2dnJVSmpGNWhEOHJjdmZQaW9TaW9TS0RJaEtybV9VZGFpX2NvMTg1UndPbUlHOWlVbFd0UVlWOXpRNHJ2dFdsOHlwb2pqbjdUS0p3SlJXM3BBaWlvV1VmUGFzRXBiZW50T20tNm0wVHBGdEVHZC1YdGVSXzl1T0FTNTlWdDhtakJLVnhpYW1KUkJ1em1vM21vZW15QQ?oc=5",
      "source": "Human Resources Online"
-    },
-    {
-     "title": "Public urged to buy only essential supplies ahead of Northeast Monsoon - The Sun Malaysia",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeFZmWWZld18tSWU0Tl9qMDlPcTkzMTU0aVFhUmFiZGdoWnl2TTJJeEtyMjVkYlJxcUczMVY4YzRGY2VOVDRJS2ZxX2ZDazZ3Rk1jY3JQRWJsVjlncjI1RmpaT0duVkxIM0l0Qm5RblNyWXNNOFpHZld1SlBlTHUyVnBUd09ibE5qMFYyeE1HU0o0b0VJZXRKbXdR?oc=5",
-     "source": "The Sun Malaysia"
     },
     {
      "title": "North-east monsoon: Kelantan Fire Dept readies 35 boats for flood rescues - Malay Mail",
@@ -617,7 +621,7 @@
     }
    ],
    "official": false,
-   "score": 6.3,
+   "score": 5.0,
    "already_covered": false
   },
   {
@@ -651,83 +655,56 @@
   },
   {
    "source": "google_trends",
-   "keyword": "fazley yaakob",
-   "traffic": 1000,
-   "published": "2026-11-11T00:20:00+09:00",
+   "keyword": "天氣",
+   "traffic": 100,
+   "published": "2026-11-11T07:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Fazley Yaakob lamar Datuk Seri Vida dengan kejutan 1,200 dron",
-     "url": "https://www.hmetro.com.my/utama/2026/11/1434658/fazley-yaakob-lamar-datuk-seri-vida-dengan-kejutan-1200-dron",
-     "source": "Harian Metro"
+     "title": "雲階出現了！ 粉專：冷空氣正往南衝",
+     "url": "https://udn.com/news/story/7266/9868088",
+     "source": "udn"
     },
     {
-     "title": "Berhabis RM500K Untuk Buat Kejutan, Fazley Yaakob Lamar DSV Dengan Cincin Tiara Bernilai RM7,000!",
-     "url": "https://gempak.com/hiburan/berhabis-rm500k-untuk-buat-kejutan-fazley-yaakob-lamar-dsv-dengan-cincin-tiara-bernilai-rm7000",
-     "source": "Gempak"
+     "title": "東亞冷高壓又強又大！典型寒潮型態現身 鄭明典揭台灣躲過原因",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5634178",
+     "source": "自由時報"
     },
     {
-     "title": "Terima kejutan, Vida terima lamaran Fazley Yaakob",
-     "url": "https://newswav.com/article/terima-kejutan-vida-terima-lamaran-fazley-yaakob-A2611_keYPDP",
-     "source": "Newswav"
+     "title": "入秋最有感降溫　氣象粉專曬1圖揭「特殊雲街」：冷空氣要來了！",
+     "url": "https://www.setn.com/news/1936017",
+     "source": "三立新聞網SETN.com"
     }
    ],
    "official": false,
-   "score": 2.1,
+   "score": 0.3,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "trip",
-   "traffic": 200,
-   "published": "2026-11-11T01:00:00+09:00",
+   "keyword": "grand theft auto vi",
+   "traffic": 100,
+   "published": "2026-11-11T07:10:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Meghan Markle Makes First Public Appearance Since Her Father’s Arrest",
-     "url": "https://www.nytimes.com/2026/11/10/world/europe/meghan-markle-brussels-speech-canceled-prince-harry.html",
-     "source": "The New York Times"
+     "title": "Pre-load Grand Theft Auto VI on PS5 starting today",
+     "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+     "source": "PlayStation.Blog"
     },
     {
-     "title": "Harry and Meghan make first appearance since her estranged father's arrest over child sex abuse images",
-     "url": "https://www.cbsnews.com/news/prince-harry-meghan-eu-thomas-markle-arrest-child-sex-abuse-images/",
-     "source": "CBS News"
+     "title": "Grand Theft Auto VI Pre-Load Begins on November 10",
+     "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+     "source": "Rockstar Games"
     },
     {
-     "title": "Celebrity Photos Updated Daily: Meghan Markle, Prince Harry, Brandy, Rihanna and More",
-     "url": "https://people.com/star-tracks-tuesday-november-10-2026-new-celebrity-photos-updated-daily-12245775",
-     "source": "People.com"
+     "title": "GTA VI downloads begin ahead of launch next week",
+     "url": "https://www.freemalaysiatoday.com/category/leisure/2026/11/10/gta-vi-downloads-begin-ahead-of-launch-next-week",
+     "source": "Free Malaysia Today"
     }
    ],
    "official": false,
-   "score": 0.4,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "sunny deol",
-   "traffic": 200,
-   "published": "2026-11-11T00:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Diljit sings Hanuman Chalisa for Ramayana, seeks forgiveness for possible mistakes",
-     "url": "https://www.indiatoday.in/movies/celebrities/story/diljit-dosanjh-hanuman-chalisa-ramayana-forgiveness-pronunciation-mistakes-3033430-2026-11-06",
-     "source": "India Today"
-    },
-    {
-     "title": "Sunny Deol, Raghav Juyal's new roles confirmed for Ramayana Part 2 | Tap to know more | Inshorts",
-     "url": "https://inshorts.com/en/news/sunny-deol--raghav-juyal-s-new-roles-confirmed-for-ramayana-part-2-1794195349659",
-     "source": "Inshorts"
-    },
-    {
-     "title": "Ramayana’s Diwali Rival is the Phone in Row G",
-     "url": "https://openthemagazine.com/entertainment/ramayanas-diwali-rival-is-the-phone-in-row-g",
-     "source": "Open Magazine"
-    }
-   ],
-   "official": false,
-   "score": 0.4,
+   "score": 0.3,
    "already_covered": false
   }
  ]
