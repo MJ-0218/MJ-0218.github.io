@@ -94,6 +94,29 @@ def review_sheet(mp4, out_jpg, n=12):
     return times
 
 
+FONT_FILES = {"banner": "BlackHanSans-Regular.ttf", "sub": "Pretendard-Black.otf"}
+
+
+def missing_glyphs(script):
+    """배너(Black Han Sans)·자막(Pretendard) 글꼴에 없는 글자 — 화면에서 빈칸으로 빠진다(예: '얔')."""
+    try:
+        from fontTools.ttLib import TTFont
+    except ImportError:
+        return []
+    fonts = Path(__file__).resolve().parent / "assets" / "fonts"
+    cm = {k: set(TTFont(fonts / f).getBestCmap()) for k, f in FONT_FILES.items() if (fonts / f).exists()}
+    texts = {"banner": [script.banner_line1, script.banner_line2],
+             "sub": [l.text for l in script.lines] + [a.text for a in script.asides] + [d.text for d in script.dialogue]
+             + [script.ending_caption]}
+    bad = []
+    for k, arr in texts.items():
+        if k not in cm:
+            continue
+        for t in arr:
+            bad += [f"{k}:{ch}" for ch in t if not ch.isspace() and ord(ch) not in cm[k] and ord(ch) > 0x2000]
+    return sorted(set(bad))
+
+
 def cmd_review(vid, pas, verdict, note):
     """검수 기록. 서로 다른 관점의 검수 2회(1: 내용·사실·자막 시점, 2: 화면 이상)가 모두 ok 여야 '검수 통과'."""
     history = load_history()
@@ -175,6 +198,10 @@ def cmd_make(cfg, limit, only=None):
                 print(f"  {cid} 다시 쓰기({attempt + 1}): {feedback}")
             if feedback:
                 print(f"실패 {cid}: 다양성 검사 통과 못 함 — {feedback}")
+                continue
+            bad = missing_glyphs(script)
+            if bad:
+                print(f"실패 {cid}: 글꼴에 없는 글자 {bad} — 대본(scripts/{cid}.json)에서 바꿔 주세요")
                 continue
             out = day / f"{cid}.mp4"
             length = render(path, meta, script, cfg, out, credit=credit_label(entry),
