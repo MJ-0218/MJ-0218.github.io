@@ -38,6 +38,7 @@ templates:
     line1_color: "FFFFFF"
     line2_color: "FFE14D"
     original_audio: 0.22
+    linger: 0.4           # 나레이션 자막이 음성 끝난 뒤 남는 시간 — 길면 다음 장면 위에 이전 문장이 뜬다
   clip:                   # 신기+템형: 원테이크 클립 + 첫 줄만 나레이션, 원본 소리·대사 자막이 주인공
     min_sec: 9
     max_sec: 30
