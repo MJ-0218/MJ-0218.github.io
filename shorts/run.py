@@ -117,6 +117,27 @@ def missing_glyphs(script):
     return sorted(set(bad))
 
 
+def line_sheet(vid, mp4, out_jpg):
+    """나레이션·괄호 자막·끝 질문이 화면에 뜬 순간마다 한 장씩 — 각 문장이 그 화면 내용과 맞는지 대조하는 1차 검수용."""
+    import tempfile
+    from shortsbot.brain import ShortScript
+    sc = ShortScript.model_validate_json((Path(__file__).resolve().parent / "scripts" / f"{vid}.json").read_text(encoding="utf-8"))
+    dur = probe(mp4)["duration"]
+    items = [(l.start, "나레이션", l.text) for l in sc.lines] + [(a.start, "괄호", a.text) for a in sc.asides] \
+        + [(d.start, "대사", d.text) for d in sc.dialogue] + [(sc.trim_end - 0.8, "끝 질문", sc.ending_caption)]
+    items = sorted((min(dur - 0.2, max(0.1, t - sc.trim_start + 0.6)), k, x) for t, k, x in items)
+    Path(out_jpg).parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory() as td:
+        for i, (t, k, x) in enumerate(items):
+            run(["ffmpeg", "-v", "error", "-ss", f"{t:.2f}", "-i", str(mp4), "-frames:v", "1", "-vf",
+                 f"scale=360:-2,drawtext=text='{t:.1f}s {i + 1}':x=8:y=h-34:fontsize=24:fontcolor=white:box=1:boxcolor=black@0.6",
+                 "-y", f"{td}/f{i:02d}.png"])
+        cols = 5
+        run(["ffmpeg", "-v", "error", "-i", f"{td}/f%02d.png", "-vf", f"tile={cols}x{(len(items) + cols - 1) // cols}",
+             "-frames:v", "1", "-q:v", "3", "-y", str(out_jpg)])
+    return [f"{i + 1}. {t:.1f}s [{k}] {x}" for i, (t, k, x) in enumerate(items)]
+
+
 def cmd_review(vid, pas, verdict, note):
     """검수 기록. 서로 다른 관점의 검수 2회(1: 내용·사실·자막 시점, 2: 화면 이상)가 모두 ok 여야 '검수 통과'."""
     history = load_history()
@@ -221,6 +242,8 @@ def cmd_make(cfg, limit, only=None):
                 "status": "검수 대기", "review": [],
             }
             review_sheet(out, STATE / "review" / f"{cid}.jpg")
+            if (Path(__file__).resolve().parent / "scripts" / f"{cid}.json").exists():
+                item["lines_check"] = line_sheet(cid, out, STATE / "review" / f"{cid}.lines.jpg")
             (day / f"{cid}.json").write_text(json.dumps(script.model_dump(), ensure_ascii=False, indent=1), encoding="utf-8")
             history["videos"].append(item)
             save_history(history)
@@ -355,7 +378,7 @@ def cmd_demo(cfg, template="story"):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily", "sync", "release", "social-import", "frames", "review", "remake", "sheet"])
+    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily", "sync", "release", "social-import", "frames", "review", "remake", "sheet", "linesheet"])
     ap.add_argument("--pass", dest="pas", type=int)
     ap.add_argument("--verdict", choices=["ok", "fix"])
     ap.add_argument("--note", default="")
@@ -376,6 +399,8 @@ def main():
         cmd_review(a.path, a.pas, a.verdict, a.note)
     elif a.cmd == "remake":
         cmd_remake(a.path)
+    elif a.cmd == "linesheet":  # run.py linesheet <id> <mp4>  → 같은 폴더에 <id>.lines.jpg
+        print("\n".join(line_sheet(a.path, a.out, Path(a.out).with_suffix(".lines.jpg"))))
     elif a.cmd == "sheet":
         print(review_sheet(a.path, a.out))
     elif a.cmd == "frames":
