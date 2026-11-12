@@ -36,6 +36,15 @@ def fit_to_slots(spoken, t0, workdir, max_tempo=1.4):
     return out
 
 
+def scene_cuts(clip, t0, t1, thresh=0.3):
+    """원본 클립의 장면 전환 시각(편집 기준, 초). 자막이 다음 장면으로 넘어가지 않게 쓴다."""
+    import re
+    import subprocess
+    r = subprocess.run(["ffmpeg", "-v", "info", "-ss", f"{t0:.2f}", "-t", f"{t1 - t0:.2f}", "-i", str(clip), "-vf",
+                        f"select='gt(scene,{thresh})',showinfo", "-an", "-f", "null", "-"], capture_output=True, text=True)
+    return [float(x) for x in re.findall(r"pts_time:([0-9.]+)", r.stderr)]
+
+
 def zoom_expr(zooms):
     if not zooms:
         return None
@@ -114,11 +123,20 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_ba
             m.start, m.end = m.start - t0, m.end - t0
         landscape = meta["width"] / max(1, meta["height"]) > 0.7
         # 자막은 다음 줄이 나올 때까지(최대 1.5초 더) 남겨 화면이 비지 않게 한다
-        timeline = []
+        timeline, crossings = [], []
+        cuts = scene_cuts(clip, t0, t1)
         for i, ((a, b, _), l) in enumerate(zip(placed, script.lines)):
             nxt = placed[i + 1][0] if i + 1 < len(placed) else end
             nxt_plan = script.lines[i + 1].start - t0 - 0.05 if i + 1 < len(script.lines) else end
-            timeline.append((a, max(a + 0.5, min(nxt, nxt_plan, b + tcfg.get("linger", 1.5))), l.text))
+            e = min(nxt, nxt_plan, b + tcfg.get("linger", 1.5))
+            cut = next((c for c in cuts if c > a + 0.4), None)
+            if cut is not None and e > cut:  # 음성이 장면 전환 전에 끝나면 자막도 전환에서 끊는다
+                e = max(b, cut - 0.03) if b <= cut else b
+                if b > cut + 0.3:
+                    crossings.append({"text": l.text, "cut": round(cut, 2), "audio_end": round(b, 2)})
+            timeline.append((a, max(a + 0.5, min(e, nxt)), l.text))
+        Path(out_path).with_suffix(".cuts.json").write_text(json.dumps(
+            {"cuts": [round(c, 2) for c in cuts], "crossings": crossings}, ensure_ascii=False), encoding="utf-8")
         ass = td / "subs.ass"
         colors = {"line1_color": tcfg["line1_color"], "line2_color": tcfg["line2_color"]}
         ass.write_text(subs.build(s, timeline, end, st, credit, colors, mark_pixels(s.marks, meta, landscape)),

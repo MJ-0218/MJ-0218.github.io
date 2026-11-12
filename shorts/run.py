@@ -253,6 +253,12 @@ def cmd_make(cfg, limit, only=None):
                 item["narration_drift"] = drift
                 if drift:
                     print(f"  주의 {cid}: 나레이션 {len(drift)}줄이 0.4초 넘게 밀림 — 줄을 줄이거나 짧게")
+            cj = out.with_suffix(".cuts.json")
+            if cj.exists():
+                cross = json.loads(cj.read_text(encoding="utf-8"))["crossings"]
+                item["scene_crossings"] = cross
+                if cross:
+                    print(f"  주의 {cid}: 나레이션 {len(cross)}줄이 장면 전환을 0.3초 넘게 넘어감 — 줄을 앞당기거나 짧게")
             if (Path(__file__).resolve().parent / "scripts" / f"{cid}.json").exists():
                 item["lines_check"] = line_sheet(cid, out, STATE / "review" / f"{cid}.lines.jpg")
             (day / f"{cid}.json").write_text(json.dumps(script.model_dump(), ensure_ascii=False, indent=1), encoding="utf-8")
