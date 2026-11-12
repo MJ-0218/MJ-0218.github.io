@@ -54,7 +54,11 @@ PROVIDERS = {"elevenlabs": elevenlabs, "google": google, "edge": edge, "silent":
 
 def speak(lines, workdir, cfg):
     """[(start, text)] → [(start, path, 길이)]"""
-    fn = PROVIDERS[cfg["tts"]["provider"]]
+    name = cfg["tts"]["provider"]
+    if (name == "elevenlabs" and not env("ELEVENLABS_API_KEY")) or (name == "google" and not env("GOOGLE_TTS_API_KEY")):
+        print(f"  {name} 키가 없어 edge 음성({cfg['tts']['edge']['voice']})으로 대신 만듦")
+        name = "edge"
+    fn = PROVIDERS[name]
     out = []
     for i, line in enumerate(lines):
         p = Path(workdir) / f"tts{i:02d}.mp3"

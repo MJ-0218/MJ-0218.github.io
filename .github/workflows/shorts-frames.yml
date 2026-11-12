@@ -1,0 +1,33 @@
+# 허가된 클립을 받아 장면 사진·길이·받아쓰기를 shorts/state/frames/ 에 커밋한다.
+# Claude 세션이 이 사진을 보고 대본(shorts/scripts/<id>.json)을 써 두면, shorts-daily 가 API 키 없이 그 대본으로 만든다.
+name: shorts-frames
+on:
+  workflow_dispatch:
+concurrency: { group: shorts-daily, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  frames:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: 도구 설치
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q anthropic pydantic pyyaml yt-dlp
+      - name: 클립 받기 + 장면 사진
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python3 shorts/run.py frames
+      - name: 기록 저장
+        run: |
+          git config user.name "semter-shorts"
+          git config user.email "shorts@users.noreply.github.com"
+          if [ -n "$(git status --porcelain --untracked-files=all shorts/state/frames/)" ]; then
+            git add shorts/state/frames/
+            git commit -m "shorts: 장면 사진"
+            for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+          fi

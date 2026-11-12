@@ -121,6 +121,13 @@ def transcript_block(lines):
 
 
 def write_script(path, meta, entry, cfg, history, feedback="", transcript=()):
+    # 세션에서 미리 써 둔 대본(shorts/scripts/<id>.json)이 있으면 API 를 부르지 않고 그대로 쓴다
+    pre = ROOT / "scripts" / f"{entry['id']}.json"
+    if pre.exists() and not feedback:
+        s = ShortScript.model_validate_json(pre.read_text(encoding="utf-8"))
+        return clean(s, meta["duration"], {**cfg["video"], **cfg["templates"][s.template]})
+    if pre.exists():
+        raise RuntimeError(f"미리 쓴 대본이 다양성 검사에 걸림({feedback}) — {pre.name} 를 고쳐 주세요")
     style = (ROOT / "prompts" / "style.md").read_text(encoding="utf-8")
     vcfg = cfg["video"]
     with tempfile.TemporaryDirectory() as td:

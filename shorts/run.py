@@ -78,6 +78,32 @@ def cmd_fetch(cfg):
             print(f"  받기 실패 {e['id']}: {str(ex)[-200:]}")
 
 
+def cmd_frames(cfg, n=16):
+    """아직 안 만든 클립의 장면 사진·길이·받아쓰기를 state/frames/<id>/ 에 남긴다 — 세션이 보고 대본(scripts/<id>.json)을 쓴다."""
+    from shortsbot.brain import extract_frames
+    done = {v["id"] for v in load_history()["videos"]}
+    for e in load_sources():
+        cid = e.get("id")
+        path = INBOX / (e.get("file") or f"{cid}.mp4")
+        if cid in done or not path.exists() or rights.check(e):
+            continue
+        d = STATE / "frames" / cid
+        if (d / "meta.json").exists():
+            continue
+        d.mkdir(parents=True, exist_ok=True)
+        meta = probe(path)
+        for t, f in extract_frames(path, meta["duration"], n, d):
+            f.rename(d / f"t{t:05.1f}.jpg")
+        try:
+            transcript = stt.transcribe(path, cfg) if meta["has_audio"] else []
+        except Exception as ex:
+            transcript = []
+            print(f"  받아쓰기 실패 {cid}: {ex}")
+        (d / "meta.json").write_text(json.dumps({"meta": meta, "transcript": transcript, "note": e.get("note", ""),
+                                                 "credit": e.get("credit", "")}, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"장면 사진 {cid}: {meta['duration']:.1f}초")
+
+
 def cmd_make(cfg, limit, only=None):
     history = load_history()
     done = {v["id"] for v in history["videos"]}
@@ -254,7 +280,7 @@ def cmd_demo(cfg, template="story"):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily", "sync", "release", "social-import"])
+    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily", "sync", "release", "social-import", "frames"])
     ap.add_argument("path", nargs="?")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--id")
@@ -267,6 +293,9 @@ def main():
         scout(cfg, a.limit or cfg["channel"]["daily_count"])
     elif a.cmd == "fetch":
         cmd_fetch(cfg)
+    elif a.cmd == "frames":
+        cmd_fetch(cfg)
+        cmd_frames(cfg)
     elif a.cmd == "make":
         cmd_make(cfg, a.limit or cfg["channel"]["daily_count"], a.id)
     elif a.cmd == "upload":
