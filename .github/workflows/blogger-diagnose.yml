@@ -1,0 +1,27 @@
+# Blogger 403 진단(수동 실행). 토큰 scope·블로그별 역할·초안 작성 시험(성공하면 바로 삭제).
+name: blogger-diagnose
+on: { workflow_dispatch: }
+permissions: { contents: read }
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q pyyaml markdown
+      - env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          BLOGGER_BLOG_ID_IN: ${{ secrets.BLOGGER_BLOG_ID_IN }}
+          BLOGGER_BLOG_ID_PH: ${{ secrets.BLOGGER_BLOG_ID_PH }}
+          BLOGGER_BLOG_ID_SG: ${{ secrets.BLOGGER_BLOG_ID_SG }}
+          BLOGGER_BLOG_ID_MY: ${{ secrets.BLOGGER_BLOG_ID_MY }}
+          BLOGGER_BLOG_ID_VN: ${{ secrets.BLOGGER_BLOG_ID_VN }}
+          BLOGGER_BLOG_ID_ID: ${{ secrets.BLOGGER_BLOG_ID_ID }}
+          BLOGGER_BLOG_ID_TH: ${{ secrets.BLOGGER_BLOG_ID_TH }}
+          BLOGGER_BLOG_ID_TW: ${{ secrets.BLOGGER_BLOG_ID_TW }}
+        run: python3 automation/scripts/blogger_diagnose.py
