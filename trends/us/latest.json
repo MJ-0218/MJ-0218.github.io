@@ -1,76 +1,27 @@
 {
- "generated_at": "2026-11-12T15:14:03.256316+09:00",
+ "generated_at": "2026-11-12T15:45:15.871119+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 67, 실패 35)"
+  "evidence": "ok (저장 63, 실패 29)"
  },
  "compared_runs": 5,
  "spikes": [
-  "ben savage",
-  "h-1b visa",
-  "sidney crosby",
-  "macklin celebrini",
-  "robert williams iii",
-  "malevy leons",
-  "alijah arenas",
-  "aspyn ovard",
-  "ducks hockey",
-  "dame lillard"
+  "tax deadline",
+  "james acaster",
+  "new zealand vs india soccer",
+  "measles outbreak pennsylvania",
+  "winter storm watch",
+  "dji"
  ],
  "candidates": [
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-12T15:14:03.297674+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -11,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-12T15:14:03.297709+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -11,
-   "in_window": true
-  },
   {
    "source": "google_news",
    "keyword": "tax deadline",
    "traffic": 0,
-   "article_count_24h": 22,
-   "article_count_1h": 4,
+   "article_count_24h": 23,
+   "article_count_1h": 7,
    "published": "2026-11-12T13:14:04+09:00",
    "category": "Taxes",
    "news": [
@@ -101,7 +52,9 @@
     }
    ],
    "official": false,
-   "score": 69.0,
+   "spike": "최근 1시간 기사 3.0→7건 (2.0배)",
+   "spike_bonus": 20.0,
+   "score": 105.0,
    "already_covered": false,
    "evidence": [
     {
@@ -127,11 +80,117 @@
    ]
   },
   {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-12T15:45:15.901253+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -11,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-12T15:45:15.901279+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -11,
+   "in_window": true
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security COLA",
+   "traffic": 0,
+   "article_count_24h": 24,
+   "article_count_1h": 3,
+   "published": "2026-11-12T11:16:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "The $25,000 Social Security Threshold More Retirees Are Likely to Cross in 2027 - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZDdxbXhQOWZLcngxYnIyVFVFYWVGZ2J2RlE5X00zNWN5d0JhYWpBWjZVdldMd1JnUkV3ZHlUT0JPa0lDTVZIaUVYeVFlU0lMeDlxc1BWaUR4cHc0WFNWX29rQnZsWGZrODJRU1pBTlpIdS1zc1QtbTE3TXNqNWlkaldsQWJYR3U0NmY5bnhyTGJ0SnowN2ZFeVFYSVVLZmgyMG9ZR0RTSlItWXJJeHdMcDJOaTdUaW9jZ2dZa19HVHlqQUp3Z0pR?oc=5",
+     "source": "24/7 Wall St."
+    },
+    {
+     "title": "What House Speaker Mike Johnson Said About Social Security Has Retirees on Edge - FinanceBuzz",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yUUtXcXlfQ24tdTJsRXNzY0FCRjNzUmZfcDBfWGZNTkNHRVdvbmVZeHFHSFRlNlE1YjdNRGVwenZ3Q0NpQTZuZVVGN0U0N2dCN1ZYSFlDMnNuUXFKSHJlVGpfRGExU3R2c2EtVEx5WWc?oc=5",
+     "source": "FinanceBuzz"
+    },
+    {
+     "title": "How much more would surviving spouses of veterans get with 3.6% COLA? - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMElYVDFCS0ozTjdYYm1MRloxdWZIdE9tbkVZTUYtTmktS284T1RMUk5FbWlQSWx5cXVjbmVmbjA1QWlObzhoY21VUnp0WEtHc01oOXpyQXVQYV9mRUtsamxqYVlDamdtcnp5VThKWkt4ZUNhOTdLMF84ZUg4bXM4c182dzhja1h2d0JZUEpvTkU4a3VtTzdpY2hQOGxmOVhEWXQw?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "3.6% VA disability COLA: When the increase starts and how much it adds - AL.com",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSHhUU0tZYnJ1WUtaZU1mQUcyV2ZKRmFvNXFKS28zMnJfNnJnNjhwZXNpQmpBVjFsYW5xNXlwem1sWGZRT2dhaWpUSXBMZEZsckpfUlcwQmdOQWFldGRsVFhuTU5yRjNwRExvLVZLRWgtX0M2YzBhS1ZGbl81a0RQRkhtUDhQbVEyUC1NN3FBcHNuQWdlTG1udFQ5ZnhCM3NqTFdFSUlfUdIBuwFBVV95cUxQU1ZfeHg3ZkU5ZFdfbTVTdDlSVHdsMmdFZVFhNjBCczBjdndFOU8zMEd2WFdUcFVwaXFlcS05N0w3dk5rVW81QW5reTQ3X1JBcERmSG9URjE5WGJYNi14dGxVNy1zQ1RwTzNpS0pJcjRUbklUaTN4VDMwaXVHSlpNUlRfbGhYZkFydENwc1B1OVV0MEdmOWZ1ZkdOa2hUMWhfOVRlREVBc1RNaDN0UFJLWFRGbURodFBocHl3?oc=5",
+     "source": "AL.com"
+    },
+    {
+     "title": "SSA says do this | Retirees and Social Security beneficiaries can complete this process through Nov. 18 to see the 2027 increase - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMmFTOE5ibXpIdl9VREVlUHV6QU5kVzNrc1oxWWVYZGVwU1Q0QmZhSDJ2N2RwbFZwc2QwbnRhcDhsOWNxOEFhdDRWWlkwSVo0aHRjTnRHYkc5UUF3VHl4cW1sUEtTYnphUldvX1FZS1lVVnZveU55WkdCSUVUd0lUT0sxUjVTT0dnZlJQdlBsRFh4RDJ6b19BTS1qaFVRck4zUXAwUVhqQnBJNnpKVlFoa2lLVmtkRFVWV0JYOFF3MDlUeHFwNXlfRWlWU1ZndnNzVU96Z2tNRjZHUU5iQVVDMjVlaG5iVDVFUHE5T29XZ1pscXFx?oc=5",
+     "source": "El Cronista"
+    }
+   ],
+   "official": false,
+   "score": 67.2,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://247wallst.com/personal-finance/2026/11/11/the-25000-social-security-threshold-more-retirees-are-likely-to-cross-in-2027/",
+     "title": "The $25,000 Social Security Threshold More Retirees Are Likely to Cross in 2027 - 24/7 Wall St.",
+     "outlet": "24/7 Wall St."
+    },
+    {
+     "url": "https://financebuzz.com/mike-johnson-social-security-retirees-2",
+     "title": "What House Speaker Mike Johnson Said About Social Security Has Retirees on Edge - FinanceBuzz",
+     "outlet": "FinanceBuzz"
+    },
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/much-more-surviving-spouses-veterans-223300228.html",
+     "title": "How much more would surviving spouses of veterans get with 3.6% COLA? - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "url": "https://www.cronista.com/en/finance/ssa-says-do-this-retirees-and-social-security-beneficiaries-can-complete-this-process-through-nov-18-to-see-the-2027-increase/",
+     "title": "SSA says do this | Retirees and Social Security beneficiaries can complete this process through Nov. 18 to see the 2027 increase - El Cronista",
+     "outlet": "El Cronista"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 27,
-   "article_count_1h": 8,
+   "article_count_1h": 6,
    "published": "2026-11-12T14:30:21+09:00",
    "category": "Elections",
    "news": [
@@ -189,243 +248,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "social security payment",
-   "traffic": 0,
-   "article_count_24h": 31,
-   "article_count_1h": 7,
-   "published": "2026-11-12T01:30:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Did your Social Security payment arrive early? Here's why - The Desert Sun",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOb2t2eTh3NDNVZUdYYU1RaFVjbnhWdUpFN3QtM3VXbU5tUHRZb3c0bUJMenhDOXM3UXlXcmMyOU1jU0d4b3dZWHRHNlJQTEotSHFwS0lYeFREVUY3N3NRS2dZcUZHOTBDSFpCTEdYd2hvcjFvSUtlSElWTEZpUnpnU0h2M2pyMGdfR2tPeTZMVWh3TTNpNDNIVkNYVnN0X2ZIbTF2MlBFNzZJdDJlNmFwZkFkSDkwenN0NHduWkhIQ29obmNaaEdFZ1p5d012WFp0NlN1d05DUVFUUQ?oc=5",
-     "source": "The Desert Sun"
-    },
-    {
-     "title": "How to set up and use your my Social Security account - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQWVnc3ExRVlWWXFYMkFidHNkMHhjSFZhODI1N09idXU0dmxNZUhnT1llU1dPQnI3TjZ1Y01KSXptZmVSaldSUml0Y0oyMWNhUzY4RUVMMFZDTVZ5ZXZVTWNhVUg1b1VXTHlBcVJJajE1V01SY1dOSURJVkNENnpEbmNlZTV2eGNpQ29FcV9NaG9QRGFKNjlZcG9BdzN6eXZsLTI0Mg?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "Social Security benefits would go up extra $200 a month in bill key backer says is ‘top priority’ - AL.com",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcFE4YjkwTVZNNG5LWTJNdG92NTRwcXhtcnRCVm1kT1N3UV8wQl9lcWpweU9SSms3aFpkVDJHaUlhVmRuZURnbzFTaHRfY3dPekFuVGNHRXhaNXR6c3pOY0JZZWZ0UmpOaWcyYmV2dExXNnZETGxvLW9hQmQ3a2ZkcjltTzRWMmpLRVlwRGYzNWdSNzcybm5nR19NMlBKLXhxdXEyLXBtOERfYWVoS2ZXdHBRZjFqU3lCX0FsWmZjWWFkM1VzQ2lWTjFCONIB3wFBVV95cUxNZXlRc1FoV1RFN3NYemxjdS1zODFoM1RJUmhXX2lCSDlpWEQtVWtWQ210Qk5Vc3JpMzAybFYzQVVBVF9iM2oxd09vM1B6ZnltdVFIQ2xFZ0s3OWZPMUo5a1A3emEyR0ZHMzB2U29ONGY1bEtvMzdTbTJEQ3kxUjZyZmp1RVFIeEJubzVaQTBua05TMlNwa01SczZNTmo3Y2VfRmRiTHRKQ1JlNVluVEtyVjJmYkNiUFpKbDBwLU9hMWRTQVFOSjZGUTlpajVac3RjRlVQRDNLWExqakNTYnpv?oc=5",
-     "source": "AL.com"
-    },
-    {
-     "title": "The Trump administration will automatically deposit retirement benefits on Wednesday, Nov. 18, for beneficiaries born between the 11th and 20th - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTU1maC1aU1dXTl9LUVQwMThYNkp2X0NmR25jVXdndmN3M0E5Z2k3UGRDVjNlMUdjX0JHZHBubUFlajh1ZkxZX2ozcFBlVEctZFBmVXBGXzlSUkdqcXpmb2JJOHdKcjE3aGxnNkxoMmh0ODVOdFNCbzdOZXlUeldvSWI5VGJxRHB3aDloV0dXemRwazlMMVB4aGV4ZU9RQzJZcmJxX1BlMVBJVHM3NmZGYkViUDBaRDRKRWlhSFpIdTR1TWlFT09qY0lhcVdCWm5MdGZReVlnemxaVmR6azMxY0VNNVJ1T1dvemxtTEliOFFzUWZ4OXlmU3NGYlgwLTlIY2dDbjRDemg?oc=5",
-     "source": "El Cronista"
-    },
-    {
-     "title": "What House Speaker Mike Johnson Said About Social Security Has Retirees on Edge - FinanceBuzz",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yUUtXcXlfQ24tdTJsRXNzY0FCRjNzUmZfcDBfWGZNTkNHRVdvbmVZeHFHSFRlNlE1YjdNRGVwenZ3Q0NpQTZuZVVGN0U0N2dCN1ZYSFlDMnNuUXFKSHJlVGpfRGExU3R2c2EtVEx5WWc?oc=5",
-     "source": "FinanceBuzz"
-    }
-   ],
-   "official": false,
-   "score": 56.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://finance.yahoo.com/personal-finance/investing/article/my-social-security-account-140000812.html",
-     "title": "How to set up and use your my Social Security account - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/the-trump-administration-will-automatically-deposit-retirement-benefits-on-wednesday-nov-18-for-beneficiaries-born-between-the-11th-and-20th/",
-     "title": "The Trump administration will automatically deposit retirement benefits on Wednesday, Nov. 18, for beneficiaries born between the 11th and 20th - El Cronista",
-     "outlet": "El Cronista"
-    },
-    {
-     "url": "https://financebuzz.com/mike-johnson-social-security-retirees-2",
-     "title": "What House Speaker Mike Johnson Said About Social Security Has Retirees on Edge - FinanceBuzz",
-     "outlet": "FinanceBuzz"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "minimum wage increase",
-   "traffic": 0,
-   "article_count_24h": 38,
-   "article_count_1h": 6,
-   "published": "2026-11-12T07:04:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Opinion | Hiking the Minimum Wage Isn’t Affordable - WSJ",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTFhKZFd3UlJzU1pzanV6bTFLbi1JNGJUSlJUdDlMODFSTVplSmQ4VktPUlJwUTFjRlZ6T3lwbzM5OWhldl9nMjhQVVV0Y01DQ045SGFTZEppazItSTBUTkhmM2RjN05GeHVRdEhVc0ZlUHh2LXF5ZDc1UDVSQVAwUW93?oc=5",
-     "source": "WSJ"
-    },
-    {
-     "title": "Map Compares US States’ Minimum Wage as Changes Proposed - Newsweek",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa3FRd1hvaWpmMjFOMHJGMmVkbkFQS2NSYlJ0dlN1dGt2TXZtSU5BLVAyejhnbUd5ZllqNmJKWERvTldsWnptd01Db3RCTXNHTGlMNHNNOUdKcTN6MXpqazRsbzRLdk9IMXg1MmtJNGtKYW1UV0lzT2YxYndNQ19uSkxwYS01N1lzVXVYazlOcw?oc=5",
-     "source": "Newsweek"
-    },
-    {
-     "title": "ANDI President Summarizes Colombian Business Leaders' Views on the 2027 Minimum Wage - ColombiaOne.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNDRvNU5RUjNoaGcxaHZxZ2RtNnZtZE82SjZ4UkduNE1FbXFTMU9ySHZkalFKRk1McXRDaWdtN09MbkhKU1dzRDVOOE5MOWdKWGM4ejR3elJDUXBIcG81RkdhY2R6V3piVmQ4Q0lETXpNQTAtRXdwYWxFbHpLZk5KMTQ3bG5qSWJVZ1BzSEZxcnhEajFURXlxeXpiZ2NBdlFNMjJPOUYybTlzQVVzR1U1QmlOOThOcEVMYnU4?oc=5",
-     "source": "ColombiaOne.com"
-    },
-    {
-     "title": "Vermont to raise minimum wage $0.49 in January - Caledonian Record",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYnYzeHhxV3NUZEsweVpIYkxBWjB5T2dtTXJISU1mbERIQVF2bnBsVWowYmV5Q3RPQ1ZfQzlfaURrU3IwSTkxWHBFUG9sTFZsMWlLcERXbmltbUFkU2RQVmF1STNFeG9XaHczVjNQOXBKeVRUSG12bV8zVWNRLUJzQXk4MFhnM3JUNFZadV9jOHVRTWZBZlUtRzJRaTNDTDdJNDFjcWdTejl3TENiWWJTNWw3MnZsTWVBVWJUTlJ0a0loUXdxdHNSUTVfdG94YkliRFJ2ZTJn?oc=5",
-     "source": "Caledonian Record"
-    },
-    {
-     "title": "Emily Sawh: Will rising wage rates prompt more employers to move away from the real living wage? - www.employeebenefits.co.uk",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOFJCd0YyNjM1M0R2SXBHMTVEc3hvZGM2Z1Y1bE9sVUY0NG5fcndFWF8yd3duelNpdVR1QnlmOWxkQzI0Z2dKYlpkOXg4WlVaU0lFZmdQUTNDdExHQUpYN09yUEJjQmRTZExfa2lKamlHa0FoQjFfbVFzeW41aER6REs5NWNSU1hDdy1tcFNNb1liZGZNNDFIcWpPVmpVRHBHMHZnMllvQnp5N3dOdkVQOVJ6cDdKdlRVN0J2ZlNRQjU1c0xlanF4WDVzTEFpbFJDd0c2WTZud081dUN1Ukw3SThjeks?oc=5",
-     "source": "www.employeebenefits.co.uk"
-    }
-   ],
-   "official": false,
-   "score": 56.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.newsweek.com/map-compares-us-states-minimum-wage-changes-proposed-12694137",
-     "title": "Map Compares US States’ Minimum Wage as Changes Proposed - Newsweek",
-     "outlet": "Newsweek"
-    },
-    {
-     "url": "https://colombiaone.com/2026/11/11/andi-president-summarizes-colombian-business-leaders-views-on-the-2027-minimum-wage/",
-     "title": "ANDI President Summarizes Colombian Business Leaders' Views on the 2027 Minimum Wage - ColombiaOne.com",
-     "outlet": "ColombiaOne.com"
-    },
-    {
-     "url": "https://www.caledonianrecord.com/news/local/vermont-to-raise-minimum-wage-0-49-in-january/article_f2f1b352-50c7-56a4-9bc1-23bea2619f2f.html",
-     "title": "Vermont to raise minimum wage $0.49 in January - Caledonian Record",
-     "outlet": "Caledonian Record"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "social security COLA",
-   "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 1,
-   "published": "2026-11-12T11:16:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "The $25,000 Social Security Threshold More Retirees Are Likely to Cross in 2027 - 24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZDdxbXhQOWZLcngxYnIyVFVFYWVGZ2J2RlE5X00zNWN5d0JhYWpBWjZVdldMd1JnUkV3ZHlUT0JPa0lDTVZIaUVYeVFlU0lMeDlxc1BWaUR4cHc0WFNWX29rQnZsWGZrODJRU1pBTlpIdS1zc1QtbTE3TXNqNWlkaldsQWJYR3U0NmY5bnhyTGJ0SnowN2ZFeVFYSVVLZmgyMG9ZR0RTSlItWXJJeHdMcDJOaTdUaW9jZ2dZa19HVHlqQUp3Z0pR?oc=5",
-     "source": "24/7 Wall St."
-    },
-    {
-     "title": "What House Speaker Mike Johnson Said About Social Security Has Retirees on Edge - FinanceBuzz",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yUUtXcXlfQ24tdTJsRXNzY0FCRjNzUmZfcDBfWGZNTkNHRVdvbmVZeHFHSFRlNlE1YjdNRGVwenZ3Q0NpQTZuZVVGN0U0N2dCN1ZYSFlDMnNuUXFKSHJlVGpfRGExU3R2c2EtVEx5WWc?oc=5",
-     "source": "FinanceBuzz"
-    },
-    {
-     "title": "How much more would surviving spouses of veterans get with 3.6% COLA? - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMElYVDFCS0ozTjdYYm1MRloxdWZIdE9tbkVZTUYtTmktS284T1RMUk5FbWlQSWx5cXVjbmVmbjA1QWlObzhoY21VUnp0WEtHc01oOXpyQXVQYV9mRUtsamxqYVlDamdtcnp5VThKWkt4ZUNhOTdLMF84ZUg4bXM4c182dzhja1h2d0JZUEpvTkU4a3VtTzdpY2hQOGxmOVhEWXQw?oc=5",
-     "source": "Yahoo Finance"
-    },
-    {
-     "title": "3.6% VA disability COLA: When the increase starts and how much it adds - AL.com",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSHhUU0tZYnJ1WUtaZU1mQUcyV2ZKRmFvNXFKS28zMnJfNnJnNjhwZXNpQmpBVjFsYW5xNXlwem1sWGZRT2dhaWpUSXBMZEZsckpfUlcwQmdOQWFldGRsVFhuTU5yRjNwRExvLVZLRWgtX0M2YzBhS1ZGbl81a0RQRkhtUDhQbVEyUC1NN3FBcHNuQWdlTG1udFQ5ZnhCM3NqTFdFSUlfUdIBuwFBVV95cUxQU1ZfeHg3ZkU5ZFdfbTVTdDlSVHdsMmdFZVFhNjBCczBjdndFOU8zMEd2WFdUcFVwaXFlcS05N0w3dk5rVW81QW5reTQ3X1JBcERmSG9URjE5WGJYNi14dGxVNy1zQ1RwTzNpS0pJcjRUbklUaTN4VDMwaXVHSlpNUlRfbGhYZkFydENwc1B1OVV0MEdmOWZ1ZkdOa2hUMWhfOVRlREVBc1RNaDN0UFJLWFRGbURodFBocHl3?oc=5",
-     "source": "AL.com"
-    },
-    {
-     "title": "SSA says do this | Retirees and Social Security beneficiaries can complete this process through Nov. 18 to see the 2027 increase - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMmFTOE5ibXpIdl9VREVlUHV6QU5kVzNrc1oxWWVYZGVwU1Q0QmZhSDJ2N2RwbFZwc2QwbnRhcDhsOWNxOEFhdDRWWlkwSVo0aHRjTnRHYkc5UUF3VHl4cW1sUEtTYnphUldvX1FZS1lVVnZveU55WkdCSUVUd0lUT0sxUjVTT0dnZlJQdlBsRFh4RDJ6b19BTS1qaFVRck4zUXAwUVhqQnBJNnpKVlFoa2lLVmtkRFVWV0JYOFF3MDlUeHFwNXlfRWlWU1ZndnNzVU96Z2tNRjZHUU5iQVVDMjVlaG5iVDVFUHE5T29XZ1pscXFx?oc=5",
-     "source": "El Cronista"
-    }
-   ],
-   "official": false,
-   "score": 54.4,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://247wallst.com/personal-finance/2026/11/11/the-25000-social-security-threshold-more-retirees-are-likely-to-cross-in-2027/",
-     "title": "The $25,000 Social Security Threshold More Retirees Are Likely to Cross in 2027 - 24/7 Wall St.",
-     "outlet": "24/7 Wall St."
-    },
-    {
-     "url": "https://financebuzz.com/mike-johnson-social-security-retirees-2",
-     "title": "What House Speaker Mike Johnson Said About Social Security Has Retirees on Edge - FinanceBuzz",
-     "outlet": "FinanceBuzz"
-    },
-    {
-     "url": "https://finance.yahoo.com/economy/policy/articles/much-more-surviving-spouses-veterans-223300228.html",
-     "title": "How much more would surviving spouses of veterans get with 3.6% COLA? - Yahoo Finance",
-     "outlet": "Yahoo Finance"
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/ssa-says-do-this-retirees-and-social-security-beneficiaries-can-complete-this-process-through-nov-18-to-see-the-2027-increase/",
-     "title": "SSA says do this | Retirees and Social Security beneficiaries can complete this process through Nov. 18 to see the 2027 increase - El Cronista",
-     "outlet": "El Cronista"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "SNAP benefits",
-   "traffic": 0,
-   "article_count_24h": 81,
-   "article_count_1h": 4,
-   "published": "2026-11-12T08:29:31+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Millions could lose SNAP benefits under proposed federal rule by 2029 - ABC11 News",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU0xxSjFLdjYwVGdsNGI2QlVHZ1hDZTViS0I3QTJ3enZKZV96NzJKQU1oRnFQNG15YmJjcEpSTUNCWEluMll2ZVpCRVQ4M1pvRUtOazdadkRoc3lKWExIOHJQX1NxZmozaWUtLU1QRHBOeThtWktWbDJydDY5aFA4QndJTV9LYlBNWGdlbmtIaGFENmZialp5ddIBngFBVV95cUxNWm1IR1pZdXU3Q1YySG1tbnZNajJUN3cteUFHYVVBY1hIV1B6dmdMcGMza3NfU3ozS1FvSVVqeldUbDhZS3B1UUN2THJrdmhtaU1JQ2NkYV9FZDVOeDFGWWl0UGJwekp4a3lRRkQ4MjBUWTF2S0F4OUJJdTRYVVhoWFZPZXNFTlRwc0lJbGl3UDNTbjFOZ2tWQmxON09Fdw?oc=5",
-     "source": "ABC11 News"
-    },
-    {
-     "title": "Proposed SNAP change could mean more Arizona families lose benefits - AZ Family",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMlIxLTFwQ2k2bFgyNU9SS3R3S3R1LTNKaTFacVhJQWpzbjlVLVhMemNRNGp1d0k3ZU83d3Q5WUxPSlBDYUF5OU4zVERqaUdlM2kxdXBtN2lIamVPYUZDZFdsd3NXNTlYUUNZcDFaTUVoNzVQUVNmMF95MmFaNDRtYTVBZDFXaEg1cnVHME9qSVg3U2RjbUw2em1qbVFvTXc5LXFsMUg1SdIBuwFBVV95cUxQVTNYMm94SXFTVTEwU2ZaRENyVGdfYzc4eFpNekdGOGxBQkhaR0haSWtvbjF2WWpnYTc2UERrbjdSN1BIMlVhUzNDdWNjOFJNT01uQ0M4eGNKS2hKQ1VxeVhTZVJIX2laT3liX1BSbHhHYk1scjAtWTV0SjNhOEN3bG5zRk5yRllPWXlsdTRpV2UweGZaTkxubHZxTHgzWnk0SUROcVpnU1NuQzVWZms4QWRhcEliY2kxYkpV?oc=5",
-     "source": "AZ Family"
-    },
-    {
-     "title": "Do you receive food stamps? More than 6 million could lose their SNAP benefits - NBC 7 San Diego",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1l0UDJDWWFKVTIyazF5d2JscG1IVV95Z1ZJaXZqdzcxR0VzY1Y1TWFuRnAxa2ZYM01ybC1kQW5RWEtQTFVIS0NzQzd1VGhDRkJnY2RONWpRMnFSTXRpdzRzdUFqclluWmxQWDlIOWlEanQ0dW5odExWTEo5LTdnRjBMRTNxOWM4YjBQNFNObTZHLWJYOVBuVUo0ONIBowFBVV95cUxNbjA1M29XSEtSZVoyMndJaXdlUTdjbW5SNlZLb1gxejRiSkZ1dEhLOW9hN3hhZnZnb1ZGUXJSUFlYTm1hUmJVMW44S0txQmVyRWNuRFdqakZuY1hFWTNGaFBtbzZtODAzVk92ZWx4bl9wc0pSTjJodFBWVkpjcW4xRll5eW5fUl8xd0lheWRZXzgya1MtaXIxS3h5MGhaNnQ4NXlv?oc=5",
-     "source": "NBC 7 San Diego"
-    },
-    {
-     "title": "Trump administration moves to drop millions from SNAP food assistance under proposal - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMzVqeEVTUlBrV0h3N1V0NlRCYmNodHRtYmNtdmk1Q0pOSjROR0lyNmxnenMtQVBxQ0ZyaFRxN2s0Q2daMWhQMExrMjIzZVllbndlY3VFekRWakgwM0Q3TUM0OXUwWmx1UE9sOGlsajlSNFJwb1dKTDVQLUZlQ3VFVmtlLVBCX2twbFBYem1RVGl3TkVFS29WbW43RTZrel94T3dYc9IBqgFBVV95cUxNX09yamVkM2hfV2ozbXhzT0hUT3hrM0I3ckJKaDBneUNKSWRSX0xHQ3JmbXhNTVY4VlNiUnpwWVB3bGlPdnNvWmVqTFdXM0k3SDBreVZWSTFIWjBmbGthQUhqUEQwOXdHUWwybjZhb3BwWGk1SHpUdjlOQlJPOEY1SWVvVFhYY0U3NEZBYzlYLXhQdWp6cUdjT1dtdkc5UEE0bm5pMGh5bkpQUQ?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-     "title": "Millions more could lose SNAP benefits under new proposal; Alabama food banks concerned - NBC 15 WPMI",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcVhrczNhQVd0MFE1aW5zeWxaSnRiREluSzAtMXlaS1lPcHJzRzBab3NPMm9aQ2lqbXRuREs0amtNNU5Nbm9tcXFITko0a0d6ZGs5QkZsTU42eG5BWmY5dDdtaWI4TVdPRFRONUMxTUN3OWRod0tnOUVKMFRJeUNndFYtV1lKTS1JVW9tNURPdlUzeGQ0OXozRVNWUmVUb0xyQ3NqVjV5bFltb014eV80Y0NJYXduYUF6?oc=5",
-     "source": "NBC 15 WPMI"
-    }
-   ],
-   "official": false,
-   "score": 51.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://abc11.com/post/millions-could-lose-snap-benefits-proposed-federal-rule-2029/20033934/",
-     "title": "Millions could lose SNAP benefits under proposed federal rule by 2029 - ABC11 News",
-     "outlet": "ABC11 News"
-    },
-    {
-     "url": "https://www.azfamily.com/2026/11/12/proposed-snap-change-could-mean-more-arizona-families-lose-benefits/",
-     "title": "Proposed SNAP change could mean more Arizona families lose benefits - AZ Family",
-     "outlet": "AZ Family"
-    },
-    {
-     "url": "https://www.nbcsandiego.com/news/national-international/trump-admin-usda-snap-proposal/4100590/",
-     "title": "Do you receive food stamps? More than 6 million could lose their SNAP benefits - NBC 7 San Diego",
-     "outlet": "NBC 7 San Diego"
-    },
-    {
-     "url": "https://abcnews.com/Politics/trump-administration-moves-drop-millions-snap-proposal/story?id=138031618",
-     "title": "Trump administration moves to drop millions from SNAP food assistance under proposal - ABC News - Breaking News, Latest News and Videos",
-     "outlet": "ABC News - Breaking News, Latest News and Videos"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
-   "article_count_24h": 28,
+   "article_count_24h": 27,
    "article_count_1h": 18,
    "published": "2026-11-11T23:04:01+09:00",
    "category": "Student Aid",
@@ -484,62 +309,118 @@
   },
   {
    "source": "google_news",
-   "keyword": "IRS refund",
+   "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 30,
-   "article_count_1h": 4,
-   "published": "2026-11-11T22:25:25+09:00",
-   "category": "Taxes",
+   "article_count_24h": 29,
+   "article_count_1h": 3,
+   "published": "2026-11-12T01:30:00+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "The “Duly Filed” Administrative Refund Requirement and Frivolous Overpayment Theories: Analyzing Rouzard v. United States - Current Federal Tax Developments",
-     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOcV8wWDNrUTZIaEVBTjFjdlJNVXE4YzdJV3c2ODNWdUEwMDJCRjdJZVp5a1ZLNUtENWVvMmU1VmFGeWFleGlUaDlsSU1keHdoenRLVkhmblNSakpaQ296N0pXZHdhNVJ0b0tPMkZod05sd09ILUtfV0I1U1pyenp0blkxOEFaOTVOcVRodFRRT0tpYi1XNFlCY2pHN1g4d0NFN0RJV3NFdW1wUG5hcGFITng4MVYxX2ItVGowb1ZNaE9JZS10QjJMbGtXQWVIOFNlM0t1N3NjWTZGOGxvYUJVZ1lFaENSekFNTUpJcFl6Y1Vibm0wNzR5dExjQ3NTaXJhNHVlZjZDb2lKRU0?oc=5",
-     "source": "Current Federal Tax Developments"
+     "title": "Did your Social Security payment arrive early? Here's why - The Desert Sun",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOb2t2eTh3NDNVZUdYYU1RaFVjbnhWdUpFN3QtM3VXbU5tUHRZb3c0bUJMenhDOXM3UXlXcmMyOU1jU0d4b3dZWHRHNlJQTEotSHFwS0lYeFREVUY3N3NRS2dZcUZHOTBDSFpCTEdYd2hvcjFvSUtlSElWTEZpUnpnU0h2M2pyMGdfR2tPeTZMVWh3TTNpNDNIVkNYVnN0X2ZIbTF2MlBFNzZJdDJlNmFwZkFkSDkwenN0NHduWkhIQ29obmNaaEdFZ1p5d012WFp0NlN1d05DUVFUUQ?oc=5",
+     "source": "The Desert Sun"
     },
     {
-     "title": "What Veterans Should Know About Tax-Free Benefits - Berks Community Television",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONTZZLUZZY0FpUHBHUUY1NWF5Qm5PRW10aHNlOWlmNXkyWXlWelVUcXBzM0NYN1NhMVdheFdyd3BNSnRpYnh1bFM0RFpZVmw4YmxmZW4wUjB1TS1XMGs3ajZBa2tUQWFTZXBzU3NuT3k0S25wOU1ScGx5MFp5MXVkMzZtUG5VM1JSSVE?oc=5",
-     "source": "Berks Community Television"
+     "title": "How to set up and use your my Social Security account - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQWVnc3ExRVlWWXFYMkFidHNkMHhjSFZhODI1N09idXU0dmxNZUhnT1llU1dPQnI3TjZ1Y01KSXptZmVSaldSUml0Y0oyMWNhUzY4RUVMMFZDTVZ5ZXZVTWNhVUg1b1VXTHlBcVJJajE1V01SY1dOSURJVkNENnpEbmNlZTV2eGNpQ29FcV9NaG9QRGFKNjlZcG9BdzN6eXZsLTI0Mg?oc=5",
+     "source": "Yahoo Finance"
     },
     {
-     "title": "British Marvel Webtoon Customers Overcharged, VAT Tax Refunds Issued - Bleeding Cool News",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVHNWWk9VcnVEbkkxcFVScE5UMkFlbVpqNGczLU9IZ1pMVFZ6b0M5djc5OEtnTGVUM3c4Q29TU1I5NWhsZ3RnNzQyd3MwU19EbVR3MFN4dWhPa3p4VFhxR0Z2MTNJcTRWU2UyMTlYd0pSOS1wMkhhVmY4R0tjQzdnWUl5ejE0ZmtaM2pJX1dId0ZRYW1DZEswZ3VwbGdtbkxyaGc?oc=5",
-     "source": "Bleeding Cool News"
+     "title": "Social Security benefits would go up extra $200 a month in bill key backer says is ‘top priority’ - AL.com",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcFE4YjkwTVZNNG5LWTJNdG92NTRwcXhtcnRCVm1kT1N3UV8wQl9lcWpweU9SSms3aFpkVDJHaUlhVmRuZURnbzFTaHRfY3dPekFuVGNHRXhaNXR6c3pOY0JZZWZ0UmpOaWcyYmV2dExXNnZETGxvLW9hQmQ3a2ZkcjltTzRWMmpLRVlwRGYzNWdSNzcybm5nR19NMlBKLXhxdXEyLXBtOERfYWVoS2ZXdHBRZjFqU3lCX0FsWmZjWWFkM1VzQ2lWTjFCONIB3wFBVV95cUxNZXlRc1FoV1RFN3NYemxjdS1zODFoM1RJUmhXX2lCSDlpWEQtVWtWQ210Qk5Vc3JpMzAybFYzQVVBVF9iM2oxd09vM1B6ZnltdVFIQ2xFZ0s3OWZPMUo5a1A3emEyR0ZHMzB2U29ONGY1bEtvMzdTbTJEQ3kxUjZyZmp1RVFIeEJubzVaQTBua05TMlNwa01SczZNTmo3Y2VfRmRiTHRKQ1JlNVluVEtyVjJmYkNiUFpKbDBwLU9hMWRTQVFOSjZGUTlpajVac3RjRlVQRDNLWExqakNTYnpv?oc=5",
+     "source": "AL.com"
     },
     {
-     "title": "Official | IRS confirms credit for working families in 2027: It will return up to $8,496 and these are the requirements - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMWhleDBBV2RlTFpQZ1R2bHV3S3FhQWVhTnp6N2p0SE96VlpTRWNyN0hESzhMTEtMenBlWnptRGxISmtVZUJtbTQ3VjY0OC1sVUxiVkFsWldxME1Tb1hEc1k1dzhMcGxXd0VMOVJncVVlVHBsd3NmSFJsUG9Ya1RYSFBFZU51Ry1rNGlsekhZQ1cyeTc5Nmh3MTUtRVh5NWNfYnVYSkt0QmRJLVhXdk5uMWpQdWU3dU80ZUQtNG5PV0M2WFlRNGlKWExIWk9lZFRJT0pKSzMtRm5ubUZ4WnkwZDBZLU0yUQ?oc=5",
+     "title": "The Trump administration will automatically deposit retirement benefits on Wednesday, Nov. 18, for beneficiaries born between the 11th and 20th - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTU1maC1aU1dXTl9LUVQwMThYNkp2X0NmR25jVXdndmN3M0E5Z2k3UGRDVjNlMUdjX0JHZHBubUFlajh1ZkxZX2ozcFBlVEctZFBmVXBGXzlSUkdqcXpmb2JJOHdKcjE3aGxnNkxoMmh0ODVOdFNCbzdOZXlUeldvSWI5VGJxRHB3aDloV0dXemRwazlMMVB4aGV4ZU9RQzJZcmJxX1BlMVBJVHM3NmZGYkViUDBaRDRKRWlhSFpIdTR1TWlFT09qY0lhcVdCWm5MdGZReVlnemxaVmR6azMxY0VNNVJ1T1dvemxtTEliOFFzUWZ4OXlmU3NGYlgwLTlIY2dDbjRDemg?oc=5",
      "source": "El Cronista"
     },
     {
-     "title": "A New Mexico woman posed as an IRS agent and convinced a victim to pay more than $150,000 in supposed fee - The Times of India",
-     "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxOSjJqbW5WTVZKcHZ3bU9FWVVzMTJ5OHBMb09pNVV4SUxEemNhQUwtazVVTGdaaUppM1VyNmNkM3JoVnlBbUN3V3BxM1E4N25iaUl2c0dYR2xYaUFtOFJyUU43Wng0UWNpR21HSEtRc0ktck9pWjJkbHZTeE45MXVMaDZwcUJYd2o2UTJORUNydmlOWWRGSDZwai1DTm9DUUtNMVVBRjNDM240ZERMV2lVVk1lUzgwVmhOM3JwX3hhcVBFdnE0WW9sYnNEX2w1MEVCOU9XeWdIQTJGZ1cyNVRSVFFIcElzdUprNXp5UEw5UjZkbHI3WTN6X1NrMkxNdmIyTHBYUV92M1Bvc0N6NENNbUk2eWExZFJDYUtkU0VYRDZzQWk4Y1BaNExrYmEzLXU3eXJDSDJEdWFmSFBOVlNpYTR1clFMNkVudHpMYmVkSERMNk83MFJPMlFOY2tpNUNGQVB5aWVUR3dELW5MWHlfZERMRnhHdHNI0gH-AkFVX3lxTE1waXVQNWZwRVBQc2dGWS1OUno5SU1tcDY1MnRnTHpRUUtWWV8xczZaVVl5Q0Fpa1U3Z0ZGclEwMWo0U0VmUnQ3M3hRb3E2QXBoSUt5QkE3Vk9EYkQ0Q3FsbVgwRjBPT0hVbWdvMUxtM2d2S1FaR2M2WVowRUo2SVF0ajEtUzNLb1NuTFdDclF2VWdiYVMxM2Y4dU1MXzZ0NHZ2dkJkdW1ybDRpQy1qbmVyRjlBU09EWlJ3dnF5M3R6MkRfZkJfekhKdkVjR2Z5QlZwNEM0bHYzQlA1RlBuTW02NXFfbDVHUXFjLUhieEhOSy1tSWpmMVJteTctYjVMdzMyRnBYRHdSZnFyYVJtUndGOThJQXJfLWlrc05wOFhfVTg0Y1E2WkRlUmZzYlVXNXc0LTJBMGZWZE5MTHd5OGJfc2Z1RkxGdElOaHFQT0pfYTRSRmRTSC15MGY2c0dRU2luY0pBXzdtUGEtLVYxV0ppX0tNbHI3cmdIWW9zcEE?oc=5",
-     "source": "The Times of India"
+     "title": "What House Speaker Mike Johnson Said About Social Security Has Retirees on Edge - FinanceBuzz",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yUUtXcXlfQ24tdTJsRXNzY0FCRjNzUmZfcDBfWGZNTkNHRVdvbmVZeHFHSFRlNlE1YjdNRGVwenZ3Q0NpQTZuZVVGN0U0N2dCN1ZYSFlDMnNuUXFKSHJlVGpfRGExU3R2c2EtVEx5WWc?oc=5",
+     "source": "FinanceBuzz"
     }
    ],
    "official": false,
-   "score": 48.3,
+   "score": 47.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.currentfederaltaxdevelopments.com/blog/2026/11/11/the-duly-filed-administrative-refund-requirement-and-frivolous-overpayment-theories-analyzing-rouzard-v-united-states",
-     "title": "The “Duly Filed” Administrative Refund Requirement and Frivolous Overpayment Theories: Analyzing Rouzard v. United States - Current Federal Tax Developments",
-     "outlet": "Current Federal Tax Developments"
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/my-social-security-account-140000812.html",
+     "title": "How to set up and use your my Social Security account - Yahoo Finance",
+     "outlet": "Yahoo Finance"
     },
     {
-     "url": "https://www.bctv.org/2026/11/11/what-veterans-should-know-about-tax-free-benefits/",
-     "title": "What Veterans Should Know About Tax-Free Benefits - Berks Community Television",
-     "outlet": "Berks Community Television"
-    },
-    {
-     "url": "https://bleedingcool.com/comics/british-marvel-webtoon-customers-overcharged-vat-tax-refunds-issued/",
-     "title": "British Marvel Webtoon Customers Overcharged, VAT Tax Refunds Issued - Bleeding Cool News",
-     "outlet": "Bleeding Cool News"
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/official-irs-confirms-credit-for-working-families-in-2027-it-will-return-up-to-8496-and-these-are-the-requirements/",
-     "title": "Official | IRS confirms credit for working families in 2027: It will return up to $8,496 and these are the requirements - El Cronista",
+     "url": "https://www.cronista.com/en/finance/the-trump-administration-will-automatically-deposit-retirement-benefits-on-wednesday-nov-18-for-beneficiaries-born-between-the-11th-and-20th/",
+     "title": "The Trump administration will automatically deposit retirement benefits on Wednesday, Nov. 18, for beneficiaries born between the 11th and 20th - El Cronista",
      "outlet": "El Cronista"
+    },
+    {
+     "url": "https://financebuzz.com/mike-johnson-social-security-retirees-2",
+     "title": "What House Speaker Mike Johnson Said About Social Security Has Retirees on Edge - FinanceBuzz",
+     "outlet": "FinanceBuzz"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "SNAP benefits",
+   "traffic": 0,
+   "article_count_24h": 82,
+   "article_count_1h": 3,
+   "published": "2026-11-12T08:29:31+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Millions could lose SNAP benefits under proposed federal rule by 2029 - ABC11 News",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU0xxSjFLdjYwVGdsNGI2QlVHZ1hDZTViS0I3QTJ3enZKZV96NzJKQU1oRnFQNG15YmJjcEpSTUNCWEluMll2ZVpCRVQ4M1pvRUtOazdadkRoc3lKWExIOHJQX1NxZmozaWUtLU1QRHBOeThtWktWbDJydDY5aFA4QndJTV9LYlBNWGdlbmtIaGFENmZialp5ddIBngFBVV95cUxNWm1IR1pZdXU3Q1YySG1tbnZNajJUN3cteUFHYVVBY1hIV1B6dmdMcGMza3NfU3ozS1FvSVVqeldUbDhZS3B1UUN2THJrdmhtaU1JQ2NkYV9FZDVOeDFGWWl0UGJwekp4a3lRRkQ4MjBUWTF2S0F4OUJJdTRYVVhoWFZPZXNFTlRwc0lJbGl3UDNTbjFOZ2tWQmxON09Fdw?oc=5",
+     "source": "ABC11 News"
+    },
+    {
+     "title": "Proposed SNAP change could mean more Arizona families lose benefits - AZ Family",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMlIxLTFwQ2k2bFgyNU9SS3R3S3R1LTNKaTFacVhJQWpzbjlVLVhMemNRNGp1d0k3ZU83d3Q5WUxPSlBDYUF5OU4zVERqaUdlM2kxdXBtN2lIamVPYUZDZFdsd3NXNTlYUUNZcDFaTUVoNzVQUVNmMF95MmFaNDRtYTVBZDFXaEg1cnVHME9qSVg3U2RjbUw2em1qbVFvTXc5LXFsMUg1SdIBuwFBVV95cUxQVTNYMm94SXFTVTEwU2ZaRENyVGdfYzc4eFpNekdGOGxBQkhaR0haSWtvbjF2WWpnYTc2UERrbjdSN1BIMlVhUzNDdWNjOFJNT01uQ0M4eGNKS2hKQ1VxeVhTZVJIX2laT3liX1BSbHhHYk1scjAtWTV0SjNhOEN3bG5zRk5yRllPWXlsdTRpV2UweGZaTkxubHZxTHgzWnk0SUROcVpnU1NuQzVWZms4QWRhcEliY2kxYkpV?oc=5",
+     "source": "AZ Family"
+    },
+    {
+     "title": "Trump administration moves to drop millions from SNAP food assistance under proposal - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMzVqeEVTUlBrV0h3N1V0NlRCYmNodHRtYmNtdmk1Q0pOSjROR0lyNmxnenMtQVBxQ0ZyaFRxN2s0Q2daMWhQMExrMjIzZVllbndlY3VFekRWakgwM0Q3TUM0OXUwWmx1UE9sOGlsajlSNFJwb1dKTDVQLUZlQ3VFVmtlLVBCX2twbFBYem1RVGl3TkVFS29WbW43RTZrel94T3dYc9IBqgFBVV95cUxNX09yamVkM2hfV2ozbXhzT0hUT3hrM0I3ckJKaDBneUNKSWRSX0xHQ3JmbXhNTVY4VlNiUnpwWVB3bGlPdnNvWmVqTFdXM0k3SDBreVZWSTFIWjBmbGthQUhqUEQwOXdHUWwybjZhb3BwWGk1SHpUdjlOQlJPOEY1SWVvVFhYY0U3NEZBYzlYLXhQdWp6cUdjT1dtdkc5UEE0bm5pMGh5bkpQUQ?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "title": "Do you receive food stamps? More than 6 million could lose their SNAP benefits - NBC 7 San Diego",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1l0UDJDWWFKVTIyazF5d2JscG1IVV95Z1ZJaXZqdzcxR0VzY1Y1TWFuRnAxa2ZYM01ybC1kQW5RWEtQTFVIS0NzQzd1VGhDRkJnY2RONWpRMnFSTXRpdzRzdUFqclluWmxQWDlIOWlEanQ0dW5odExWTEo5LTdnRjBMRTNxOWM4YjBQNFNObTZHLWJYOVBuVUo0ONIBowFBVV95cUxNbjA1M29XSEtSZVoyMndJaXdlUTdjbW5SNlZLb1gxejRiSkZ1dEhLOW9hN3hhZnZnb1ZGUXJSUFlYTm1hUmJVMW44S0txQmVyRWNuRFdqakZuY1hFWTNGaFBtbzZtODAzVk92ZWx4bl9wc0pSTjJodFBWVkpjcW4xRll5eW5fUl8xd0lheWRZXzgya1MtaXIxS3h5MGhaNnQ4NXlv?oc=5",
+     "source": "NBC 7 San Diego"
+    },
+    {
+     "title": "New SNAP proposal would increase food insecurity for millions of Americans, critics say - CBS News",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcl9JdWF6OGdSV2hUT2Rqc0dCUmx2bXdaQmY4eUVFVFJiTkVaVzhBRllQT3JCdF9kN1MyU1k1a2Z3ZFJnbmVSWDFfVnFwanJHUXgyZzF5RElSX2p5M1pIcmJyYlBRTlF1WndWamhVZXFSaTRJVzZ3UEstYnlaTXM1YjZKamJqU2wxci0zTg?oc=5",
+     "source": "CBS News"
+    }
+   ],
+   "official": false,
+   "score": 47.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://abc11.com/post/millions-could-lose-snap-benefits-proposed-federal-rule-2029/20033934/",
+     "title": "Millions could lose SNAP benefits under proposed federal rule by 2029 - ABC11 News",
+     "outlet": "ABC11 News"
+    },
+    {
+     "url": "https://www.azfamily.com/2026/11/12/proposed-snap-change-could-mean-more-arizona-families-lose-benefits/",
+     "title": "Proposed SNAP change could mean more Arizona families lose benefits - AZ Family",
+     "outlet": "AZ Family"
+    },
+    {
+     "url": "https://abcnews.com/Politics/trump-administration-moves-drop-millions-snap-proposal/story?id=138031618",
+     "title": "Trump administration moves to drop millions from SNAP food assistance under proposal - ABC News - Breaking News, Latest News and Videos",
+     "outlet": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+     "url": "https://www.nbcsandiego.com/news/national-international/trump-admin-usda-snap-proposal/4100590/",
+     "title": "Do you receive food stamps? More than 6 million could lose their SNAP benefits - NBC 7 San Diego",
+     "outlet": "NBC 7 San Diego"
     }
    ]
   },
@@ -547,8 +428,8 @@
    "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
-   "article_count_24h": 71,
-   "article_count_1h": 18,
+   "article_count_24h": 72,
+   "article_count_1h": 11,
    "published": "2026-11-12T08:09:44+09:00",
    "category": "Elections",
    "news": [
@@ -568,14 +449,14 @@
      "source": "PBS"
     },
     {
-     "title": "Why Is Election Day on a Tuesday? You Can Thank America’s Farmers and Horses - Farmers' Almanac",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84NE1Mb1laRU9Ca3M3SFlzNG1mbzN5ME1PQWp0aWJaWGtVNXJRRUUxMHpUNlZ0cW9kMG9BRk9nOUctWngybmVZR2ZnM21EZ2JhLUx2OTBVSkNROTh1QkRDcjg4VnljbDhXbFN6WXFR?oc=5",
-     "source": "Farmers' Almanac"
-    },
-    {
      "title": "City sets special election date for Sitkans to vote on seasonal sales tax increase - KCAW",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX2pYcmU3RGxkLXJTeTEtbXphbHBFZXEtUl9PeDI5ODV5Qlc0RlVSVzk4TWhJVm9xT3ZZOTI4TnZESlpSY2lqR2RFSnhReUptQmdURktLSVpTU0RscGw5cm9RLVhCWWtSVGdJNUloT09tOFZzRG4tN2VWNUsyd3FtLURHcWF1dGt0eG82Yk5tektuZnVNWnpYVjNoSmdlaXhrcDJHTkJJNXN6ODJRdWUzWDVJZFhWZw?oc=5",
      "source": "KCAW"
+    },
+    {
+     "title": "2026 U.S. House Election Results - AP News",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5",
+     "source": "AP News"
     }
    ],
    "official": false,
@@ -593,60 +474,9 @@
      "outlet": "PBS"
     },
     {
-     "url": "https://www.farmersalmanac.com/why-election-day-is-on-tuesday",
-     "title": "Why Is Election Day on a Tuesday? You Can Thank America’s Farmers and Horses - Farmers' Almanac",
-     "outlet": "Farmers' Almanac"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "product recall",
-   "traffic": 0,
-   "article_count_24h": 67,
-   "article_count_1h": 2,
-   "published": "2026-11-12T01:14:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Whipped cream sold at Costco has been recalled. See affected product - USA Today",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWXhGUGtZTmk4eVpMeW9Ld0FsSXlkNzZ2RXJqMWlXVGFpVFBRRHB1SmlCZUEwWWRQWkdYV0N3X0xqZ0xGODZFRjNpRmpxZ1RZcHJCdmV4ZzJESjU1UEhZN3pKaXVCUmp6M0tVSk53WkdGV1hIYU5wMHBWWnZVLXcxRDVtOFA3d0EwRzNQN2xmZEVGaDNQOUEwaU92TTdSdzQwdkRLTG1vLUtQcjRoSE1RU25PTS1GY2FMc2JsdF9sMWt3a3hyRHpZUU9jNTU?oc=5",
-     "source": "USA Today"
-    },
-    {
-     "title": "More sprouting seeds recalled because of possible contamination with E. coli and Salmonella - Food Safety News",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUW5OTG1WQ1B2X0VjdFh6akZBeENybHVzbHpPLXBrdkVuTmk0YVBHRWNrZDYySmJjaHQySnR5OExlYzItNUpXdFVqTmVqcWZoYkZfNHh1VFNOVGU3T2d0T3RIV18wS05kR3JIa2R1QWZ2N0tKdzdTeDNUV1g3VTJyR2Z6YTJXNWZmQWZHM1Vsakt3RXlIZWtXTnFlajJlMVVYQkw1THVvSzdJQmZHS2RhZUM0amY1dDdEd1VFa1l3bHFvTU1RMDhmMnZ3?oc=5",
-     "source": "Food Safety News"
-    },
-    {
-     "title": "Popular Costco-brand food item recalled at NC stores, could contain chemicals - Charlotte Observer",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2xUcEo1cU1IMlRHQmFzRnc2cHRMVmxpbXlzU3dwUmFYTmMzRW9xQnYxaHA4RVdMZjBDdHZtc1dzS05PbTAwbWw3TTBfcE5wSVdLTVZOcGZKZUFYSUdSV05FLVc0dTE0aTlQYXhFcHU4eV9keTBNVHFUUmlNRTlCQmMyOXNfbXfSAYcBQVVfeXFMTUZQNXAzVUdTV0VSMXZhVmkwT3ZiZGlCQkE5S3dQaGxmS180TFpaenZBQTF4dXN1c2N6Z1hoeUVYSUlYUHA0eUVnalJlVkZsMVoxRFBYX0lnU2JmVkFpVE5pUE5LMEU1QWthUzQ1U1p6Y2NBM2p5Njk2SmY0dTJjSS14dE9kaC1F?oc=5",
-     "source": "Charlotte Observer"
-    },
-    {
-     "title": "Cheddar Cheese products sold in Pennsylvania recalled - ABC27",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeDlHTmk2dXdtWVV6ZzRhQ012R2F6NWhUZjJwNzdlbDBaUkZIVmVVWnZRWnZ4WW1CaDR3MGFLUUt2QXI2LWZoeldreF9rNUVEY1NMOFg5eW5iVVRTeUJ2YVB4a19CeV85OTI0cDRJbUR4UFoxb013ZnB5eTFObDlsZFljRHVoSzNP0gGOAUFVX3lxTFBoTUF3cEhyX0EwMzFPekEyS0IwaEhuWVNWQUhvOTMyQmhZLW9qMmFINktpX1FvaTdnSEJ0UUs0a2N3SXA2WXhxaW82VTlxNkVNeXoxR2dSQWNqWXFNdlh3RTBKUDctTUw2NG9Cekc2RV9BSnpMWTFkNzBsLW1FdEZTclRQdDJWOXFlbmpQZmc?oc=5",
-     "source": "ABC27"
-    },
-    {
-     "title": "Survey shows most Americans on higher alert for foodborne illnesses in an unprecedented year of food recalls - Medical Xpress",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeHdsRnpCZUxHQTloUlo3S0thWGJFUmRwVUFBVmNGVHRna2V3M0hHQlFZOS1rajZ2V2dIeW5OTWVSZXRsMmR6OTdFZURNSUVIcGNvN1ROVWJ5bTd3WnVTWUp0MnZYNXZKbTNlVXh6MjRXVFh5UFFtdTZ4SHV5VnVHZVc1RmtDS3JlWWFfajl4bjU?oc=5",
-     "source": "Medical Xpress"
-    }
-   ],
-   "official": false,
-   "score": 42.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/11/11/costco-recall-kirkland-whipped-cream/92723163007/",
-     "title": "Whipped cream sold at Costco has been recalled. See affected product - USA Today",
-     "outlet": "USA Today"
-    },
-    {
-     "url": "https://www.foodsafetynews.com/2026/11/more-sprouting-seeds-recalled-because-of-possible-contamination-with-e-coli-and-salmonella/",
-     "title": "More sprouting seeds recalled because of possible contamination with E. coli and Salmonella - Food Safety News",
-     "outlet": "Food Safety News"
+     "url": "https://apnews.com/projects/elections-2026/us-house-results/",
+     "title": "2026 U.S. House Election Results - AP News",
+     "outlet": "AP News"
     }
    ]
   },
@@ -654,8 +484,8 @@
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 70,
-   "article_count_1h": 4,
+   "article_count_24h": 72,
+   "article_count_1h": 6,
    "published": "2026-11-12T02:24:50+09:00",
    "category": "Recalls",
    "news": [
@@ -686,7 +516,7 @@
     }
    ],
    "official": false,
-   "score": 41.9,
+   "score": 45.5,
    "already_covered": false,
    "evidence": [
     {
@@ -708,10 +538,71 @@
   },
   {
    "source": "google_news",
+   "keyword": "IRS refund",
+   "traffic": 0,
+   "article_count_24h": 30,
+   "article_count_1h": 2,
+   "published": "2026-11-11T22:25:25+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "The “Duly Filed” Administrative Refund Requirement and Frivolous Overpayment Theories: Analyzing Rouzard v. United States - Current Federal Tax Developments",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOcV8wWDNrUTZIaEVBTjFjdlJNVXE4YzdJV3c2ODNWdUEwMDJCRjdJZVp5a1ZLNUtENWVvMmU1VmFGeWFleGlUaDlsSU1keHdoenRLVkhmblNSakpaQ296N0pXZHdhNVJ0b0tPMkZod05sd09ILUtfV0I1U1pyenp0blkxOEFaOTVOcVRodFRRT0tpYi1XNFlCY2pHN1g4d0NFN0RJV3NFdW1wUG5hcGFITng4MVYxX2ItVGowb1ZNaE9JZS10QjJMbGtXQWVIOFNlM0t1N3NjWTZGOGxvYUJVZ1lFaENSekFNTUpJcFl6Y1Vibm0wNzR5dExjQ3NTaXJhNHVlZjZDb2lKRU0?oc=5",
+     "source": "Current Federal Tax Developments"
+    },
+    {
+     "title": "What Veterans Should Know About Tax-Free Benefits - Berks Community Television",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONTZZLUZZY0FpUHBHUUY1NWF5Qm5PRW10aHNlOWlmNXkyWXlWelVUcXBzM0NYN1NhMVdheFdyd3BNSnRpYnh1bFM0RFpZVmw4YmxmZW4wUjB1TS1XMGs3ajZBa2tUQWFTZXBzU3NuT3k0S25wOU1ScGx5MFp5MXVkMzZtUG5VM1JSSVE?oc=5",
+     "source": "Berks Community Television"
+    },
+    {
+     "title": "British Marvel Webtoon Customers Overcharged, VAT Tax Refunds Issued - Bleeding Cool News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVHNWWk9VcnVEbkkxcFVScE5UMkFlbVpqNGczLU9IZ1pMVFZ6b0M5djc5OEtnTGVUM3c4Q29TU1I5NWhsZ3RnNzQyd3MwU19EbVR3MFN4dWhPa3p4VFhxR0Z2MTNJcTRWU2UyMTlYd0pSOS1wMkhhVmY4R0tjQzdnWUl5ejE0ZmtaM2pJX1dId0ZRYW1DZEswZ3VwbGdtbkxyaGc?oc=5",
+     "source": "Bleeding Cool News"
+    },
+    {
+     "title": "Official | IRS confirms credit for working families in 2027: It will return up to $8,496 and these are the requirements - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMWhleDBBV2RlTFpQZ1R2bHV3S3FhQWVhTnp6N2p0SE96VlpTRWNyN0hESzhMTEtMenBlWnptRGxISmtVZUJtbTQ3VjY0OC1sVUxiVkFsWldxME1Tb1hEc1k1dzhMcGxXd0VMOVJncVVlVHBsd3NmSFJsUG9Ya1RYSFBFZU51Ry1rNGlsekhZQ1cyeTc5Nmh3MTUtRVh5NWNfYnVYSkt0QmRJLVhXdk5uMWpQdWU3dU80ZUQtNG5PV0M2WFlRNGlKWExIWk9lZFRJT0pKSzMtRm5ubUZ4WnkwZDBZLU0yUQ?oc=5",
+     "source": "El Cronista"
+    },
+    {
+     "title": "The minister clarified the principle of \"whoever is at fault bears the responsibility\" in resolving delays in tax refunds. - Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMTdzZ1BTTXVrOWViQ2pwTERUNDBxUTdZaW0zTnNHdGdmaVROVGdvVEY0ZTl1MlN2Q2ZzUDVIaGFMVW56ZkZ2Mk5fR0hFRDVvNlVyc3phRTJJblRfdWJJVTZ6VXZuTjA1NkJWUzRpaXVOaF9jUzc2OWwxQ01vT2p2RnB0amloNDVzTzhCbFY4SGdjQlJZQkNzSFJvdnlUUjRqblk2QjlGVEpNQ3VvVUQ4?oc=5",
+     "source": "Vietnam.vn"
+    }
+   ],
+   "official": false,
+   "score": 39.9,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.currentfederaltaxdevelopments.com/blog/2026/11/11/the-duly-filed-administrative-refund-requirement-and-frivolous-overpayment-theories-analyzing-rouzard-v-united-states",
+     "title": "The “Duly Filed” Administrative Refund Requirement and Frivolous Overpayment Theories: Analyzing Rouzard v. United States - Current Federal Tax Developments",
+     "outlet": "Current Federal Tax Developments"
+    },
+    {
+     "url": "https://www.bctv.org/2026/11/11/what-veterans-should-know-about-tax-free-benefits/",
+     "title": "What Veterans Should Know About Tax-Free Benefits - Berks Community Television",
+     "outlet": "Berks Community Television"
+    },
+    {
+     "url": "https://bleedingcool.com/comics/british-marvel-webtoon-customers-overcharged-vat-tax-refunds-issued/",
+     "title": "British Marvel Webtoon Customers Overcharged, VAT Tax Refunds Issued - Bleeding Cool News",
+     "outlet": "Bleeding Cool News"
+    },
+    {
+     "url": "https://www.cronista.com/en/finance/official-irs-confirms-credit-for-working-families-in-2027-it-will-return-up-to-8496-and-these-are-the-requirements/",
+     "title": "Official | IRS confirms credit for working families in 2027: It will return up to $8,496 and these are the requirements - El Cronista",
+     "outlet": "El Cronista"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "federal holiday",
    "traffic": 0,
    "article_count_24h": 62,
-   "article_count_1h": 5,
+   "article_count_1h": 8,
    "published": "2026-11-12T03:44:00+09:00",
    "category": "Holidays",
    "news": [
@@ -820,9 +711,65 @@
   },
   {
    "source": "google_news",
+   "keyword": "product recall",
+   "traffic": 0,
+   "article_count_24h": 68,
+   "article_count_1h": 1,
+   "published": "2026-11-12T01:14:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Whipped cream sold at Costco has been recalled. See affected product - USA Today",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWXhGUGtZTmk4eVpMeW9Ld0FsSXlkNzZ2RXJqMWlXVGFpVFBRRHB1SmlCZUEwWWRQWkdYV0N3X0xqZ0xGODZFRjNpRmpxZ1RZcHJCdmV4ZzJESjU1UEhZN3pKaXVCUmp6M0tVSk53WkdGV1hIYU5wMHBWWnZVLXcxRDVtOFA3d0EwRzNQN2xmZEVGaDNQOUEwaU92TTdSdzQwdkRLTG1vLUtQcjRoSE1RU25PTS1GY2FMc2JsdF9sMWt3a3hyRHpZUU9jNTU?oc=5",
+     "source": "USA Today"
+    },
+    {
+     "title": "More sprouting seeds recalled because of possible contamination with E. coli and Salmonella - Food Safety News",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUW5OTG1WQ1B2X0VjdFh6akZBeENybHVzbHpPLXBrdkVuTmk0YVBHRWNrZDYySmJjaHQySnR5OExlYzItNUpXdFVqTmVqcWZoYkZfNHh1VFNOVGU3T2d0T3RIV18wS05kR3JIa2R1QWZ2N0tKdzdTeDNUV1g3VTJyR2Z6YTJXNWZmQWZHM1Vsakt3RXlIZWtXTnFlajJlMVVYQkw1THVvSzdJQmZHS2RhZUM0amY1dDdEd1VFa1l3bHFvTU1RMDhmMnZ3?oc=5",
+     "source": "Food Safety News"
+    },
+    {
+     "title": "Popular Costco-brand food item recalled at NC stores, could contain chemicals - Charlotte Observer",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2xUcEo1cU1IMlRHQmFzRnc2cHRMVmxpbXlzU3dwUmFYTmMzRW9xQnYxaHA4RVdMZjBDdHZtc1dzS05PbTAwbWw3TTBfcE5wSVdLTVZOcGZKZUFYSUdSV05FLVc0dTE0aTlQYXhFcHU4eV9keTBNVHFUUmlNRTlCQmMyOXNfbXfSAYcBQVVfeXFMTUZQNXAzVUdTV0VSMXZhVmkwT3ZiZGlCQkE5S3dQaGxmS180TFpaenZBQTF4dXN1c2N6Z1hoeUVYSUlYUHA0eUVnalJlVkZsMVoxRFBYX0lnU2JmVkFpVE5pUE5LMEU1QWthUzQ1U1p6Y2NBM2p5Njk2SmY0dTJjSS14dE9kaC1F?oc=5",
+     "source": "Charlotte Observer"
+    },
+    {
+     "title": "More Than 50,000 Toothpaste and Mouthwash Products Recalled Due to Hormone ‘Cross-Contamination’ - The Healthy @Reader's Digest",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5IakoxMDF6c0JQQkQ2S2tmTS1ieUxkNkJMNHZrVFM1RGMydjg2YVRtdGNwUFdENXZPN2tMOExEVG1pMUpPTUpQNDNWb0xTM2J4c0owdkRmeGF5UkdVOHZsQmVfTDF0NXVJTDRKLWpuUkJpYkdZSGxGdnpSbjVOZ2c?oc=5",
+     "source": "The Healthy @Reader's Digest"
+    },
+    {
+     "title": "Cheddar Cheese products sold in Pennsylvania recalled - ABC27",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeDlHTmk2dXdtWVV6ZzRhQ012R2F6NWhUZjJwNzdlbDBaUkZIVmVVWnZRWnZ4WW1CaDR3MGFLUUt2QXI2LWZoeldreF9rNUVEY1NMOFg5eW5iVVRTeUJ2YVB4a19CeV85OTI0cDRJbUR4UFoxb013ZnB5eTFObDlsZFljRHVoSzNP0gGOAUFVX3lxTFBoTUF3cEhyX0EwMzFPekEyS0IwaEhuWVNWQUhvOTMyQmhZLW9qMmFINktpX1FvaTdnSEJ0UUs0a2N3SXA2WXhxaW82VTlxNkVNeXoxR2dSQWNqWXFNdlh3RTBKUDctTUw2NG9Cekc2RV9BSnpMWTFkNzBsLW1FdEZTclRQdDJWOXFlbmpQZmc?oc=5",
+     "source": "ABC27"
+    }
+   ],
+   "official": false,
+   "score": 38.1,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/11/11/costco-recall-kirkland-whipped-cream/92723163007/",
+     "title": "Whipped cream sold at Costco has been recalled. See affected product - USA Today",
+     "outlet": "USA Today"
+    },
+    {
+     "url": "https://www.foodsafetynews.com/2026/11/more-sprouting-seeds-recalled-because-of-possible-contamination-with-e-coli-and-salmonella/",
+     "title": "More sprouting seeds recalled because of possible contamination with E. coli and Salmonella - Food Safety News",
+     "outlet": "Food Safety News"
+    },
+    {
+     "url": "https://www.thehealthy.com/news/toothpaste-mouthwash-recall-november-2026/",
+     "title": "More Than 50,000 Toothpaste and Mouthwash Products Recalled Due to Hormone ‘Cross-Contamination’ - The Healthy @Reader's Digest",
+     "outlet": "The Healthy @Reader's Digest"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 29,
+   "article_count_24h": 28,
    "article_count_1h": 0,
    "published": "2026-11-12T00:39:02+09:00",
    "category": "Health Insurance",
@@ -848,9 +795,9 @@
      "source": "The Journal Gazette"
     },
     {
-     "title": "Medicare open enrollment: 5 mistakes to avoid - Arizona Daily Star",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZlF0NWJiaDdCUEMxb0dTT1JYVktjQUFRQzhMRV9FVVFZVmJUMkN0T241aUdCSUlaR0tFNkNQdm9lZkV6dEVNck9NaHg5WThKS1F0QVpCWVBXNWhhYUxhLVF6Uy1LcG4xWFFtLVczaWNGYXBWWVZxN0kxTENDbWhfNy1UbXVfLVBJX2x1RmJNSmRmVk5YcC0zUmFoMkZXQUlTb256Vw?oc=5",
-     "source": "Arizona Daily Star"
+     "title": "Sovereign Select explains what to know about Medicare open enrollment - WFRV Local 5",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeVlyVzltSkNaVUNjZGdJTGpna2JEMU5lRFd5UWFqdmFhMldMTXlyUTFJb0dVUWZQV2ZJcTFWNGVUU2RrQUQ3LUpJT3hwMWNqSk9VNDkzRVUxQzBzeHdNMnlmLWhSTUJEdlNBMGk5Ym5WeVE3TWVkcWVSUFhmeHF4S2FsYVU2TFBSS0hGZnhvZlRaZlhVb3dxbHVaaTgwQVZ1U0J5X0N2NEM3eElubkIyVdIBtgFBVV95cUxOTEFwWU9ZdGwtNWlKV0FSX2pFaVZIMWl4d29VN2t3R1NjN0VmSjJtSWtqZ3dPbTlpbFBRZGZDd3Ntdk1hNXpwZUp1U1diSDRhTDZNWk9wNUtfLVdKYTJ3MXhXMWd1VEQ0UTY4VnNiTXJMM1dsa3Z6cmM4aFhhb0dqUUhpTzU1YUM5VWNvNXRHelFtRXZqUGFqYlI3NHRvWXVjbFNwM0t4TzBNaUlUVkQ1UnlQUlNFZw?oc=5",
+     "source": "WFRV Local 5"
     }
    ],
    "official": false,
@@ -859,48 +806,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "daylight saving time",
-   "traffic": 0,
-   "article_count_24h": 14,
-   "article_count_1h": 2,
-   "published": "2026-11-12T03:09:00+09:00",
-   "category": "Holidays",
-   "news": [
-    {
-     "title": "Time for change? Permanent daylight saving time bill awaiting US Senate action - RexburgStandardJournal.com",
-     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdmk2bTFXczNWWldYSjRlY1RiNWF6SDZISVBLMUwxOTd2THotQ05rMTNLZlhXanF2TGh4aWI3eDQ5aW5MNFRFd3B5TG5Qb080eF9EdlB6aElXV3VPZE1rQ0dfRDAtVUV2ZWlsVmxTYm9TamR2LU9ZMmRoMC01dGlsZlZjeDQtVmtsZkY1MGJKb3pQcWFEZ2lwcmZaTXNMNHQwb0pkS01TazRXUEswVWxmOEZZVHUtZTQ1S2Jwc0dIb0Z2dFFGZTdjRnZZNXVPOV80T2RtT2pyOVRuMnBzUU9Xdy14TTRHYlFldWxJNkNzNVdLc1B0OE5VVjcya092RXZhZmpnUW12RGs?oc=5",
-     "source": "RexburgStandardJournal.com"
-    },
-    {
-     "title": "Still feeling tired after daylight saving time ended? Here's why - CBS News",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeDdlRm1IbzFyZFN2UDNxS3NFY004M0tibTdzNk05QnFUOURMSnRPUHVNUmFJM2FmVEdQU1V1aUFFbl9DdS1yRkN4eHZaN0x6VVpRMFFnVUtTTlRnLUdRNWhyQ3ZUYzdSQVVrUG5GVThGb0NiVFJhX19VSEhDRTBBU3FXQzItZndaYkszOGFGNnYtaHJ0YUhicjlTb25rbkd2?oc=5",
-     "source": "CBS News"
-    },
-    {
-     "title": "An extra hour offers a different perspective - Jewish Community Voice",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQUx1MjhwcS00aXg2MnlkTTlNOFVJX3F4M0c2QXF4SzhNcEt4a0lsYUhkNk5CREk5bk1IcnV6TWZsNmRDZnpOMnZSMVZNZ2VDVWVlMkx2TDFBbi1KQmdkSFVkYlQ1ZmRJUnhXcGVhWHhWRmpTQ2hfbmUyZXBiQVJtMVdqM3htaFl6cUp3ZW1R?oc=5",
-     "source": "Jewish Community Voice"
-    },
-    {
-     "title": "Opinion: Time and time again — stop the nonsense - The Wake Weekly",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX093cU5xR0tCeEtIZzNIUWhFNmpDcGFFN0VzMTJjRjUzWUpkaFd1M1ZRTkRXVFlwRmc0eGZQcWpWQUo2YTFBYW0zZm05S3R0b0lFZDNBUW4zd3oyQm5MbUlEbUk2UFZtWTJSTHJuclh0WjdDcUthQXZ5RGFjWkNZZ0xrUWRjbDBsTnp0clBkSUdqRENT?oc=5",
-     "source": "The Wake Weekly"
-    },
-    {
-     "title": "Saving Morale During Daylight Saving - The Fordham Ram",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5TRUw2T2N5YUdQejQzOWlBaEtvMHRuSmRiLUg4X3BqTWdjSzY0NHpsRDZCX2YySEgzY005Um95RDdvNWx5QUNUQ05zck4zd016SzlYS0x1dzlEdDVPNHhmM2JOdGlMRW4yZy1VcTRleXNCcHRHNmUyS1pkUUY?oc=5",
-     "source": "The Fordham Ram"
-    }
-   ],
-   "official": false,
-   "score": 29.3,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "LIHEAP",
    "traffic": 0,
-   "article_count_24h": 8,
+   "article_count_24h": 9,
    "article_count_1h": 0,
    "published": "2026-11-12T03:31:00+09:00",
    "category": "Benefits",
@@ -926,20 +834,141 @@
      "source": "Louisville Public Media"
     },
     {
-     "title": "Maine, other New England states request more federal heating relief - fox23maine.com",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWUdyODZVNmc2dUNReVowaFpnRWxveHJkT3NWTlZITnlUa2s2eGhUazI3bENJQ2xpaEJPTUlvX2JPcnR4Ri0yTlVUTmF6dW1oUjFkZ1dOVVFNM1gxQnV5VUQ3R0lSbjd0aEVVY3dISXJ5OWdWNDExVVdUU1VWWl81eUZ0QzB1QjZTcFdBZTlGT0JWdEIzNUtjUVEya2QteTVjaHo3Sl91TDdkRWdMdkhGU2QxbEwtM2VFZ2U5WDY5MTJ4ckctQ3MybXotbnN2MU5IaXNhcEZR?oc=5",
-     "source": "fox23maine.com"
+     "title": "Tag: liheap support for seniors massachusetts winter - Berkshire Eagle",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcURGckRQUWtiM19Yck1ZUGtUUVJlcS1kcHZIYlNyQ1IzcGYwa2wyX3gzSnN3bWpHSHVBSVdXR1lIbEhPbXlWMUV2ZDVEMkN1d0FaTUctbWdXOXJqNU1DRFVqZVdKVEJxQTZ3NjkyVTBQYVhXRUpQZ0luenJJZHpCakszUWpieXllYk1KNmFqaXBxX3czQXhv?oc=5",
+     "source": "Berkshire Eagle"
     }
    ],
    "official": false,
-   "score": 26.9,
+   "score": 30.2,
    "already_covered": true
+  },
+  {
+   "source": "google_news",
+   "keyword": "daylight saving time",
+   "traffic": 0,
+   "article_count_24h": 15,
+   "article_count_1h": 1,
+   "published": "2026-11-12T03:09:00+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "Time for change? Permanent daylight saving time bill awaiting US Senate action - RexburgStandardJournal.com",
+     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdmk2bTFXczNWWldYSjRlY1RiNWF6SDZISVBLMUwxOTd2THotQ05rMTNLZlhXanF2TGh4aWI3eDQ5aW5MNFRFd3B5TG5Qb080eF9EdlB6aElXV3VPZE1rQ0dfRDAtVUV2ZWlsVmxTYm9TamR2LU9ZMmRoMC01dGlsZlZjeDQtVmtsZkY1MGJKb3pQcWFEZ2lwcmZaTXNMNHQwb0pkS01TazRXUEswVWxmOEZZVHUtZTQ1S2Jwc0dIb0Z2dFFGZTdjRnZZNXVPOV80T2RtT2pyOVRuMnBzUU9Xdy14TTRHYlFldWxJNkNzNVdLc1B0OE5VVjcya092RXZhZmpnUW12RGs?oc=5",
+     "source": "RexburgStandardJournal.com"
+    },
+    {
+     "title": "Still feeling tired after daylight saving time ended? Here's why - CBS News",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeDdlRm1IbzFyZFN2UDNxS3NFY004M0tibTdzNk05QnFUOURMSnRPUHVNUmFJM2FmVEdQU1V1aUFFbl9DdS1yRkN4eHZaN0x6VVpRMFFnVUtTTlRnLUdRNWhyQ3ZUYzdSQVVrUG5GVThGb0NiVFJhX19VSEhDRTBBU3FXQzItZndaYkszOGFGNnYtaHJ0YUhicjlTb25rbkd2?oc=5",
+     "source": "CBS News"
+    },
+    {
+     "title": "An extra hour offers a different perspective - Jewish Community Voice",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQUx1MjhwcS00aXg2MnlkTTlNOFVJX3F4M0c2QXF4SzhNcEt4a0lsYUhkNk5CREk5bk1IcnV6TWZsNmRDZnpOMnZSMVZNZ2VDVWVlMkx2TDFBbi1KQmdkSFVkYlQ1ZmRJUnhXcGVhWHhWRmpTQ2hfbmUyZXBiQVJtMVdqM3htaFl6cUp3ZW1R?oc=5",
+     "source": "Jewish Community Voice"
+    },
+    {
+     "title": "Saving Morale During Daylight Saving - The Fordham Ram",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5TRUw2T2N5YUdQejQzOWlBaEtvMHRuSmRiLUg4X3BqTWdjSzY0NHpsRDZCX2YySEgzY005Um95RDdvNWx5QUNUQ05zck4zd016SzlYS0x1dzlEdDVPNHhmM2JOdGlMRW4yZy1VcTRleXNCcHRHNmUyS1pkUUY?oc=5",
+     "source": "The Fordham Ram"
+    },
+    {
+     "title": "Opinion: Time and time again — stop the nonsense - The Wake Weekly",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX093cU5xR0tCeEtIZzNIUWhFNmpDcGFFN0VzMTJjRjUzWUpkaFd1M1ZRTkRXVFlwRmc0eGZQcWpWQUo2YTFBYW0zZm05S3R0b0lFZDNBUW4zd3oyQm5MbUlEbUk2UFZtWTJSTHJuclh0WjdDcUthQXZ5RGFjWkNZZ0xrUWRjbDBsTnp0clBkSUdqRENT?oc=5",
+     "source": "The Wake Weekly"
+    }
+   ],
+   "official": false,
+   "score": 26.2,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "james acaster",
+   "traffic": 200,
+   "published": "2026-11-12T15:10:00+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "James Acaster ‘scared’ to look at public reaction to Traitors exit",
+     "url": "https://www.telegraph.co.uk/news/2026/11/11/james-acaster-scared-by-public-reaction-to-traitors-exit/",
+     "source": "The Telegraph"
+    },
+    {
+     "title": "Inside James Acaster’s secret comeback plan after Celebrity Traitors backlash left him fearing for his reputation",
+     "url": "https://www.thesun.co.uk/tvandshowbiz/40914427/james-acasters-secret-comeback-plan-celebrity-traitors-backlash/",
+     "source": "The Sun"
+    },
+    {
+     "title": "King Kenny blames James Acaster for his Celebrity Traitors banishment",
+     "url": "https://www.the-independent.com/arts-entertainment/tv/news/james-acaster-celebrity-traitors-king-kenny-b3080298.html",
+     "source": "The Independent"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.telegraph.co.uk/news/2026/11/11/james-acaster-scared-by-public-reaction-to-traitors-exit/",
+     "title": "James Acaster ‘scared’ to look at public reaction to Traitors exit",
+     "outlet": "The Telegraph"
+    },
+    {
+     "url": "https://www.the-independent.com/arts-entertainment/tv/news/james-acaster-celebrity-traitors-king-kenny-b3080298.html",
+     "title": "King Kenny blames James Acaster for his Celebrity Traitors banishment",
+     "outlet": "The Independent"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "new zealand vs india soccer",
+   "traffic": 200,
+   "published": "2026-11-12T15:10:00+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Across time zones and familiar territory: Ryan Williams looks forward to first New Zealand challenge",
+     "url": "https://www.the-aiff.com/article/across-time-zones-and-familiar-territory-ryan-williams-looks-forward-to-first-new-zealand-challenge",
+     "source": "AIFF"
+    },
+    {
+     "title": "New Zealand vs India football 2026: Know schedule, head-to-head and where to watch live streaming",
+     "url": "https://www.olympics.com/en/news/new-zealand-vs-india-2026-football-friendly-watch-live-streaming-schedule-squad",
+     "source": "Olympics"
+    },
+    {
+     "title": "How to watch All Whites’ game against India live and free",
+     "url": "https://www.friendsoffootballnz.com/2026/11/12/how-to-watch-all-whites-game-against-india-live-and-free/",
+     "source": "Friends of Football"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.the-aiff.com/article/across-time-zones-and-familiar-territory-ryan-williams-looks-forward-to-first-new-zealand-challenge",
+     "title": "Across time zones and familiar territory: Ryan Williams looks forward to first New Zealand challenge",
+     "outlet": "AIFF"
+    },
+    {
+     "url": "https://www.friendsoffootballnz.com/2026/11/12/how-to-watch-all-whites-game-against-india-live-and-free/",
+     "title": "How to watch All Whites’ game against India live and free",
+     "outlet": "Friends of Football"
+    }
+   ]
   },
   {
    "source": "google_news",
    "keyword": "REAL ID",
    "traffic": 0,
-   "article_count_24h": 23,
+   "article_count_24h": 22,
    "article_count_1h": 0,
    "published": "2026-11-12T07:13:29+09:00",
    "category": "Holidays",
@@ -976,9 +1005,48 @@
   },
   {
    "source": "google_news",
+   "keyword": "minimum wage increase",
+   "traffic": 0,
+   "article_count_24h": 38,
+   "article_count_1h": 8,
+   "published": "2026-11-12T07:04:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Opinion | Hiking the Minimum Wage Isn’t Affordable - WSJ",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTFhKZFd3UlJzU1pzanV6bTFLbi1JNGJUSlJUdDlMODFSTVplSmQ4VktPUlJwUTFjRlZ6T3lwbzM5OWhldl9nMjhQVVV0Y01DQ045SGFTZEppazItSTBUTkhmM2RjN05GeHVRdEhVc0ZlUHh2LXF5ZDc1UDVSQVAwUW93?oc=5",
+     "source": "WSJ"
+    },
+    {
+     "title": "Minimum Wage Hike Should Push Businesses To Improve Productivity - Sarawak Tribune",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNllYeG1NRXN5SFNMRTZ5N0R4bGs3SXcxUS1vNUNoeldfd01PbkFrcEFENTdZb2p0LUFLcWJGdHY4SlgzeWJsQlhSS0h3d09Jc0RmQzBpWS0yU2ZXWGdyemEyUHUwWVlNeHg4VGs4a3JjNDUyU25iQ0hNcUtsT3lGUXZfcUlBUVMxS1V6d2M2N19kbWRyN0RPR0Nmd1g?oc=5",
+     "source": "Sarawak Tribune"
+    },
+    {
+     "title": "Map Compares US States’ Minimum Wage as Changes Proposed - Newsweek",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa3FRd1hvaWpmMjFOMHJGMmVkbkFQS2NSYlJ0dlN1dGt2TXZtSU5BLVAyejhnbUd5ZllqNmJKWERvTldsWnptd01Db3RCTXNHTGlMNHNNOUdKcTN6MXpqazRsbzRLdk9IMXg1MmtJNGtKYW1UV0lzT2YxYndNQ19uSkxwYS01N1lzVXVYazlOcw?oc=5",
+     "source": "Newsweek"
+    },
+    {
+     "title": "ANDI President Summarizes Colombian Business Leaders' Views on the 2027 Minimum Wage - ColombiaOne.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNDRvNU5RUjNoaGcxaHZxZ2RtNnZtZE82SjZ4UkduNE1FbXFTMU9ySHZkalFKRk1McXRDaWdtN09MbkhKU1dzRDVOOE5MOWdKWGM4ejR3elJDUXBIcG81RkdhY2R6V3piVmQ4Q0lETXpNQTAtRXdwYWxFbHpLZk5KMTQ3bG5qSWJVZ1BzSEZxcnhEajFURXlxeXpiZ2NBdlFNMjJPOUYybTlzQVVzR1U1QmlOOThOcEVMYnU4?oc=5",
+     "source": "ColombiaOne.com"
+    },
+    {
+     "title": "Vermont to raise minimum wage $0.49 in January - Caledonian Record",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYnYzeHhxV3NUZEsweVpIYkxBWjB5T2dtTXJISU1mbERIQVF2bnBsVWowYmV5Q3RPQ1ZfQzlfaURrU3IwSTkxWHBFUG9sTFZsMWlLcERXbmltbUFkU2RQVmF1STNFeG9XaHczVjNQOXBKeVRUSG12bV8zVWNRLUJzQXk4MFhnM3JUNFZadV9jOHVRTWZBZlUtRzJRaTNDTDdJNDFjcWdTejl3TENiWWJTNWw3MnZsTWVBVWJUTlJ0a0loUXdxdHNSUTVfdG94YkliRFJ2ZTJn?oc=5",
+     "source": "Caledonian Record"
+    }
+   ],
+   "official": false,
+   "score": 21.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "stimulus check",
    "traffic": 0,
-   "article_count_24h": 6,
+   "article_count_24h": 5,
    "article_count_1h": 0,
    "published": "2026-11-12T06:53:00+09:00",
    "category": "Benefits",
@@ -1010,7 +1078,7 @@
     }
    ],
    "official": false,
-   "score": 20.2,
+   "score": 16.8,
    "already_covered": false
   },
   {
@@ -1049,6 +1117,158 @@
   },
   {
    "source": "google_trends",
+   "keyword": "measles outbreak pennsylvania",
+   "traffic": 200,
+   "published": "2026-11-12T15:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "She’s delivered 2,000 babies. The measles outbreak changed her mind about vaccines.",
+     "url": "https://www.nbcnews.com/health/health-news/measles-pregnant-vaccines-midwife-pennsylvania-outbreak-rcna607118",
+     "source": "NBC News"
+    },
+    {
+     "title": "She’s delivered nearly 2,000 babies. The measles outbreak changed her view of vaccines",
+     "url": "https://mezha.net/eng/news/mezha-f307768e5f909bdec8c9b312_she-s_delivered_nearly/",
+     "source": "Mezha.net"
+    },
+    {
+     "title": "How word of mouth is helping an Amish community's fight against measles",
+     "url": "https://www.npr.org/2026/11/10/nx-s1-6021511/pennsylvania-amish-measles-vaccine-trust",
+     "source": "NPR"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.nbcnews.com/health/health-news/measles-pregnant-vaccines-midwife-pennsylvania-outbreak-rcna607118",
+     "title": "She’s delivered 2,000 babies. The measles outbreak changed her mind about vaccines.",
+     "outlet": "NBC News"
+    },
+    {
+     "url": "https://mezha.net/eng/news/mezha-f307768e5f909bdec8c9b312_she-s_delivered_nearly/",
+     "title": "She’s delivered nearly 2,000 babies. The measles outbreak changed her view of vaccines",
+     "outlet": "Mezha.net"
+    },
+    {
+     "url": "https://www.npr.org/2026/11/10/nx-s1-6021511/pennsylvania-amish-measles-vaccine-trust",
+     "title": "How word of mouth is helping an Amish community's fight against measles",
+     "outlet": "NPR"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "winter storm watch",
+   "traffic": 200,
+   "published": "2026-11-12T15:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Bay Area storm timeline: Rain returns, bringing potentially dangerous surf along coast, several inches of snow to the Sierra",
+     "url": "https://abc7news.com/post/bay-area-storm-timeline-rain-returns-bringing-potentially-dangerous-surf-coast-several-inches-snow-sierra/20031387/",
+     "source": "ABC7 Bay Area"
+    },
+    {
+     "title": "Good Early Season Snowstorms",
+     "url": "https://blog.palisadestahoe.com/weather/good-early-season-snowstorms/",
+     "source": "Palisades Tahoe Ski Resort"
+    },
+    {
+     "title": "Storms Slam British Columbia and California Is Next",
+     "url": "https://www.nytimes.com/2026/11/10/weather/california-rain-bc-pnw-atmospheric-river.html",
+     "source": "The New York Times"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://abc7news.com/post/bay-area-storm-timeline-rain-returns-bringing-potentially-dangerous-surf-coast-several-inches-snow-sierra/20031387/",
+     "title": "Bay Area storm timeline: Rain returns, bringing potentially dangerous surf along coast, several inches of snow to the Sierra",
+     "outlet": "ABC7 Bay Area"
+    },
+    {
+     "url": "https://blog.palisadestahoe.com/weather/good-early-season-snowstorms/",
+     "title": "Good Early Season Snowstorms",
+     "outlet": "Palisades Tahoe Ski Resort"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "dji",
+   "traffic": 100,
+   "published": "2026-11-12T15:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "German military to stop using Chinese-made drones, citing security concerns",
+     "url": "https://www.reuters.com/world/asia-pacific/german-military-bans-commercially-available-chinese-drones-spiegel-reports-2026-11-10/",
+     "source": "Reuters"
+    },
+    {
+     "title": "Germany reportedly bans Chinese drones at military bases over security concerns",
+     "url": "https://www.theguardian.com/world/2026/nov/11/germany-bans-chinese-drones-military-bases-spying-security",
+     "source": "The Guardian"
+    },
+    {
+     "title": "Germany Bans Chinese Drones and Cars From Military Bases Over Spying Fears",
+     "url": "https://united24media.com/world/germany-bans-chinese-drones-and-cars-from-military-bases-over-spying-fears-24261",
+     "source": "UNITED24 Media"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/11/germany-bans-chinese-drones-military-bases-spying-security",
+     "title": "Germany reportedly bans Chinese drones at military bases over security concerns",
+     "outlet": "The Guardian"
+    },
+    {
+     "url": "https://united24media.com/world/germany-bans-chinese-drones-and-cars-from-military-bases-over-spying-fears-24261",
+     "title": "Germany Bans Chinese Drones and Cars From Military Bases Over Spying Fears",
+     "outlet": "UNITED24 Media"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "FAFSA",
+   "traffic": 0,
+   "article_count_24h": 2,
+   "article_count_1h": 0,
+   "published": "2026-11-11T22:17:28+09:00",
+   "category": "Student Aid",
+   "news": [
+    {
+     "title": "FAFSA Completion In Michigan Rises 8% - WGHN",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LN3hVdDd6SFkxVHNHXzJCUE5KZUxWcDhqSVpZTkZiQmt5bkx0b053V2huWWdWWFVISEVlTnFZQkpHMmpDLU5PN1Fuc2RscFRfb0pRTkRjYVFKRURoZGhmWWZmQ0Jtd19aTVZ6ZzZsWlJ5YXM?oc=5",
+     "source": "WGHN"
+    },
+    {
+     "title": "Gov. Evers proclaims National Scholarship Month in Wisconsin - KFIZ",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYnFwUk4yOHhIZGtNd1ctRjFKWEdQZ1F0eEpPMDhzdkhxVUZhUVJGMzRoX3JqWVZha2VKTkhXdDM5eUJzQ19hRy1NRXRKcEZySXFFU25iLWtkZnk3Z2ZXUzJKR2RERDB1TFdxUVBYWG1BeXRneURzUHZJLWY2cHJac05mY01NQQ?oc=5",
+     "source": "KFIZ"
+    }
+   ],
+   "official": false,
+   "score": 5.9,
+   "already_covered": true
+  },
+  {
+   "source": "google_trends",
    "keyword": "ben savage",
    "traffic": 500,
    "published": "2026-11-12T14:50:00+09:00",
@@ -1071,17 +1291,8 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://variety.com/2026/tv/news/danielle-fishel-girl-meets-world-pay-disliked-boundaries-1236941905/",
-     "title": "Danielle Fishel on 'Girl Meets World' Pay, Being Disliked for Boundaries",
-     "outlet": "Variety"
-    }
-   ]
+   "score": 1.5,
+   "already_covered": false
   },
   {
    "source": "google_trends",
@@ -1107,17 +1318,8 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships",
-     "title": "IBM’s biggest division ends most US foreign worker sponsorships",
-     "outlet": "Al Jazeera"
-    }
-   ]
+   "score": 0.6,
+   "already_covered": false
   },
   {
    "source": "google_trends",
@@ -1143,63 +1345,8 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://triblive.com/privacy/",
-     "title": "Beyond the Bylines: ‘Kyle Dubas is at the mercy of the (Sidney) Crosby situation’",
-     "outlet": "TribLIVE.com"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "macklin celebrini",
-   "traffic": 200,
-   "published": "2026-11-12T14:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "How Macklin Celebrini demonstrated his leadership at Sharks’ low point: ‘Nobody questioned him’",
-     "url": "https://www.mercurynews.com/2026/11/11/san-jose-sharks-macklin-celebrini-pittsburgh-penguins-sidney-crosby/",
-     "source": "The Mercury News"
-    },
-    {
-     "title": "Sharks edge Islanders in eight-round shootout, end five-game slide",
-     "url": "https://www.nhl.com/news/new-york-islanders-san-jose-sharks-game-recap-november-9-2026",
-     "source": "NHL.com"
-    },
-    {
-     "title": "Sharks 3*, Islanders 2 (SO*): After blood boils, settled with a shooting contest",
-     "url": "https://www.lighthousehockey.com/game-recaps/45496/sharks-islanders-shootout-askarov-sorokin",
-     "source": "Lighthouse Hockey"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.mercurynews.com/2026/11/11/san-jose-sharks-macklin-celebrini-pittsburgh-penguins-sidney-crosby/",
-     "title": "How Macklin Celebrini demonstrated his leadership at Sharks’ low point: ‘Nobody questioned him’",
-     "outlet": "The Mercury News"
-    },
-    {
-     "url": "https://www.nhl.com/news/new-york-islanders-san-jose-sharks-game-recap-november-9-2026",
-     "title": "Sharks edge Islanders in eight-round shootout, end five-game slide",
-     "outlet": "NHL.com"
-    },
-    {
-     "url": "https://www.lighthousehockey.com/game-recaps/45496/sharks-islanders-shootout-askarov-sorokin",
-     "title": "Sharks 3*, Islanders 2 (SO*): After blood boils, settled with a shooting contest",
-     "outlet": "Lighthouse Hockey"
-    }
-   ]
+   "score": 0.6,
+   "already_covered": false
   },
   {
    "source": "google_trends",
@@ -1225,27 +1372,8 @@
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.blazersedge.com/trail-blazers-news/118298/portland-trail-blazers-injury-news-chris-youngblood-oklahoma-city-thunder-robert-williams-nba-ja-morant",
-     "title": "Youngblood Diagnosed With Foot Bone Bruise",
-     "outlet": "Blazer's Edge"
-    },
-    {
-     "url": "https://www.fanduel.com/research/nba/player-news/injuries/chris-youngblood-dtd-november-11-2026-against-thunder-foot",
-     "title": "Chris Youngblood DTD For Nov. 11 Against Thunder Due To Foot Injury",
-     "outlet": "FanDuel"
-    },
-    {
-     "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-11/chris-youngblood-foot-will-not-return-tuesday",
-     "title": "Chris Youngblood (foot) will not return Tuesday",
-     "outlet": "NBC Sports"
-    }
-   ]
+   "score": 0.6,
+   "already_covered": false
   },
   {
    "source": "google_trends",
@@ -1260,180 +1388,19 @@
      "source": "Blue Man Hoop"
     },
     {
-     "title": "Alex Toohey wastes no time proving why Warriors should move on from Malevy Leons",
-     "url": "https://bluemanhoop.com/alex-toohey-wastes-no-time-proving-why-warriors-should-move-on-from-malevy-leons",
-     "source": "Blue Man Hoop"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://bluemanhoop.com/malevy-leons-should-have-just-one-more-shot-to-justify-his-warriors-opportunity",
-     "title": "Malevy Leons should have just one more shot to justify his Warriors opportunity",
-     "outlet": "Blue Man Hoop"
-    },
-    {
-     "url": "https://bluemanhoop.com/alex-toohey-wastes-no-time-proving-why-warriors-should-move-on-from-malevy-leons",
-     "title": "Alex Toohey wastes no time proving why Warriors should move on from Malevy Leons",
-     "outlet": "Blue Man Hoop"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "alijah arenas",
-   "traffic": 200,
-   "published": "2026-11-12T14:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Ranking college basketball's best freshmen: UCLA's Nikola Kusturica earns Freshman of the Week honors",
-     "url": "https://www.cbssports.com/college-basketball/news/freshman-of-the-week-nikola-kusturica-ucla/",
-     "source": "CBS Sports"
-    },
-    {
-     "title": "USC men's basketball's Alijah Arenas named Big Ten Player of the Week",
-     "url": "https://sports.yahoo.com/articles/usc-mens-basketballs-alijah-arenas-043247410.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "UCLA men's basketball forward Nikola Kusturica named Big Ten Freshman of the Week",
-     "url": "https://247sports.com/college/ucla/article/ucla-mens-basketball-forward-nikola-kusturica-named-big-ten-freshman-of-the-week-292459302/",
-     "source": "247Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cbssports.com/college-basketball/news/freshman-of-the-week-nikola-kusturica-ucla/",
-     "title": "Ranking college basketball's best freshmen: UCLA's Nikola Kusturica earns Freshman of the Week honors",
-     "outlet": "CBS Sports"
-    },
-    {
-     "url": "https://sports.yahoo.com/articles/usc-mens-basketballs-alijah-arenas-043247410.html",
-     "title": "USC men's basketball's Alijah Arenas named Big Ten Player of the Week",
-     "outlet": "Yahoo Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "aspyn ovard",
-   "traffic": 200,
-   "published": "2026-11-12T14:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Mormon Wives ' Aspyn Ovard Shares Daughter's Terminal Cancer Diagnosis",
-     "url": "https://www.eonline.com/news/1437669/mormon-wives-aspyn-ovards-daughter-diagnosed-with-terminal-cancer",
-     "source": "E! News"
-    },
-    {
-     "title": "Mormon Wives' Aspyn Ovard Shares Daughter's Terminal Cancer Diagnosis",
-     "url": "https://www.yahoo.com/entertainment/videos/mormon-wives-aspyn-ovard-shares-050000368.html",
-     "source": "Yahoo"
-    },
-    {
-     "title": "The Secret Lives of Mormon Wives’ Aspyn Ovard Shares Daughter’s Cancer Diagnosis",
-     "url": "https://parade.com/news/secret-lives-of-mormon-wives-orange-county-aspyn-ovard-shares-daughters-cancer-diagnosis",
-     "source": "Parade Magazine"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "ducks hockey",
-   "traffic": 200,
-   "published": "2026-11-12T14:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "NHL EDGE stats: Gauthier joins ‘Rocket’ Richard Trophy race during goal surge",
-     "url": "https://www.nhl.com/news/topic/nhl-edge/nhl-edge-stats-cutter-gauthier-anaheim-ducks-goal-scoring-2026-27",
-     "source": "NHL.com"
-    },
-    {
-     "title": "Ducks 5-2 Penguins (Nov 8, 2026) Game Recap",
-     "url": "https://www.espn.com/nhl/recap/_/gameId/401892679",
-     "source": "ESPN"
-    },
-    {
-     "title": "Ducks’ Cutter Gauthier joins rare air with third hat trick in 5 games: ‘Hotter than a firecracker’",
-     "url": "https://www.nytimes.com/athletic/7766627/2026/11/09/cutter-gauthier-ducks-hat-trick-penguins/",
-     "source": "The New York Times"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "dame lillard",
-   "traffic": 100,
-   "published": "2026-11-12T14:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Damian Lillard drills a ridiculous pull-up logo three to close the third",
-     "url": "https://www.nba.com/watch/video/damian-lillard-hits-from-way-downtown-6?plsrc=nba&collection=more-to-watch",
+     "title": "Stephen Curry and Kevin Durant continue to impact the game before their 41st matchup",
+     "url": "https://www.nba.com/news/stephen-curry-kevin-durant-41st-matchup",
      "source": "NBA.com"
     },
     {
-     "title": "Dame Time Delirium Carries Blazers Over Thunder",
-     "url": "https://www.blazersedge.com/from-press-row/118249/portland-trail-blazers-damian-lillard-oklahoma-city-thunder-recap-highlights-deni-avdija-donovan-clingan-shai-gilgeous-alexander-nba-news",
-     "source": "Blazer's Edge"
-    },
-    {
-     "title": "Damian Lillard’s Second Act In Portland Is More Than Just A Nice Story",
-     "url": "https://defector.com/damian-lillards-second-act-in-portland-is-more-than-just-a-nice-story",
-     "source": "Defector"
+     "title": "Fantasy basketball adds and NBA bets: Take Warriors and the points at Houston?",
+     "url": "https://www.espn.com/fantasy/basketball/story/_/id/50453516/fantasy-basketball-tips-nba-betting-picks-today",
+     "source": "ESPN"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.3,
+   "score": 0.6,
    "already_covered": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "FAFSA",
-   "traffic": 0,
-   "article_count_24h": 2,
-   "article_count_1h": 0,
-   "published": "2026-11-11T22:17:28+09:00",
-   "category": "Student Aid",
-   "news": [
-    {
-     "title": "FAFSA Completion In Michigan Rises 8% - WGHN",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LN3hVdDd6SFkxVHNHXzJCUE5KZUxWcDhqSVpZTkZiQmt5bkx0b053V2huWWdWWFVISEVlTnFZQkpHMmpDLU5PN1Fuc2RscFRfb0pRTkRjYVFKRURoZGhmWWZmQ0Jtd19aTVZ6ZzZsWlJ5YXM?oc=5",
-     "source": "WGHN"
-    },
-    {
-     "title": "Gov. Evers proclaims National Scholarship Month in Wisconsin - KFIZ",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYnFwUk4yOHhIZGtNd1ctRjFKWEdQZ1F0eEpPMDhzdkhxVUZhUVJGMzRoX3JqWVZha2VKTkhXdDM5eUJzQ19hRy1NRXRKcEZySXFFU25iLWtkZnk3Z2ZXUzJKR2RERDB1TFdxUVBYWG1BeXRneURzUHZJLWY2cHJac05mY01NQQ?oc=5",
-     "source": "KFIZ"
-    }
-   ],
-   "official": false,
-   "score": 5.9,
-   "already_covered": true
   }
  ]
 }
