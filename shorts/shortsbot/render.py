@@ -117,7 +117,8 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_ba
         timeline = []
         for i, ((a, b, _), l) in enumerate(zip(placed, script.lines)):
             nxt = placed[i + 1][0] if i + 1 < len(placed) else end
-            timeline.append((a, min(nxt, b + tcfg.get("linger", 1.5)), l.text))
+            nxt_plan = script.lines[i + 1].start - t0 - 0.05 if i + 1 < len(script.lines) else end
+            timeline.append((a, max(a + 0.5, min(nxt, nxt_plan, b + tcfg.get("linger", 1.5))), l.text))
         ass = td / "subs.ass"
         colors = {"line1_color": tcfg["line1_color"], "line2_color": tcfg["line2_color"]}
         ass.write_text(subs.build(s, timeline, end, st, credit, colors, mark_pixels(s.marks, meta, landscape)),
