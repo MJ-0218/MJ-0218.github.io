@@ -56,8 +56,15 @@ def pick_bgm():
     return random.choice(files) if files else None
 
 
-def render(clip, meta, script, cfg, out_path, credit=""):
+def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0)):
+    """cut=(위, 아래): 원본 화면에서 잘라 낼 비율(0~0.35). 원본에 박힌 외국어 자막 띠를 없앨 때 쓴다."""
     vcfg, st = cfg["video"], cfg["style"]
+    ct, cb = (max(0.0, min(0.35, float(x or 0))) for x in cut)
+    pre = ""
+    if ct or cb:
+        top = int(meta["height"] * ct)
+        meta = dict(meta, height=int(meta["height"] * (1 - ct - cb)) // 2 * 2)
+        pre = f"crop=iw:{meta['height']}:0:{top},"
     tcfg = cfg["templates"][script.template]
     t0, t1 = script.trim_start, script.trim_end
     clip_len = t1 - t0
@@ -88,11 +95,11 @@ def render(clip, meta, script, cfg, out_path, credit=""):
         n = 1
         vf = []
         if landscape:  # 가로·정사각 영상: 흐린 배경 위에 원본
-            vf.append("[0:v]split[bg][fg];"
+            vf.append(f"[0:v]{pre}split[bg][fg];"
                       "[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:2[bgb];"
                       "[fg]scale=1080:-2[fgs];[bgb][fgs]overlay=(W-w)/2:(H-h)/2+80[base]")
         else:
-            vf.append("[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920[base]")
+            vf.append(f"[0:v]{pre}scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920[base]")
         chain = "[base]setsar=1,fps=30"
         z = zoom_expr(s.zooms)
         if z:

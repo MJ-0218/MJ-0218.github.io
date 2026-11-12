@@ -24,7 +24,7 @@ from shortsbot.common import INBOX, OUT, STATE, load_config, load_history, load_
 from shortsbot.render import render  # noqa: E402
 
 
-PLATFORM = {"instagram": "인스타그램", "tiktok": "틱톡", "youtube": "유튜브"}
+PLATFORM = {"instagram": "인스타그램", "tiktok": "틱톡", "xiaohongshu": "샤오홍슈", "youtube": "유튜브"}
 HOW = {"cc-by": "CC BY 라이선스에 따라 출처를 밝히고 사용했습니다.",
        "permission": "원작자의 허락을 받고 사용했습니다.",
        "licensed": "라이선스를 구매해 사용했습니다."}
@@ -107,7 +107,8 @@ def cmd_make(cfg, limit, only=None):
                 print(f"실패 {cid}: 다양성 검사 통과 못 함 — {feedback}")
                 continue
             out = day / f"{cid}.mp4"
-            length = render(path, meta, script, cfg, out, credit=credit_label(entry))
+            length = render(path, meta, script, cfg, out, credit=credit_label(entry),
+                            cut=(entry.get("cut_top", 0), entry.get("cut_bottom", 0)))
             posters = STATE / "posters"
             posters.mkdir(parents=True, exist_ok=True)
             run(["ffmpeg", "-v", "error", "-ss", "1.5", "-i", str(out), "-frames:v", "1", "-vf", "scale=216:-2",
@@ -176,6 +177,8 @@ def cmd_sync(db_path):
                 "proof": f"대기판에서 사용자가 허가 확인 {a.get('at', '')}: {a.get('note', '')}".strip(),
                 "credit": c["channel"], "platform": c.get("platform", "youtube"),
                 "credit_url": c.get("channel_url") or (f"https://www.youtube.com/channel/{c['channel_id']}" if c.get("channel_id") else ""),
+                **({"cut_top": c["cut_top"]} if c.get("cut_top") else {}),
+                **({"cut_bottom": c["cut_bottom"]} if c.get("cut_bottom") else {}),
                 "note": f"원제: {c['title']} / {c.get('desc', '')[:150]}".replace("\n", " "),
             })
         elif not a and c["video_id"] not in (db.get("reject") or {}):

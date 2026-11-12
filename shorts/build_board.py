@@ -184,7 +184,7 @@ function okRow(c){
   if(c.thumb)r.appendChild(h('img',{class:'thumb',src:c.thumb,alt:''}));
   var b=h('div');b.appendChild(h('h2',null,c.title));
   var tc=h('div',{class:'tc'});
-  var pl={instagram:'인스타',tiktok:'틱톡'}[c.platform]||'유튜브';
+  var pl={instagram:'인스타',tiktok:'틱톡',xiaohongshu:'샤오홍슈'}[c.platform]||'유튜브';
   tc.appendChild(h('span',{class:'plat'},pl));
   tc.appendChild(h('span',null,c.channel));tc.appendChild(h('span',null,'조회 '+Number(c.views).toLocaleString('ko-KR')));
   if(c.multiple)tc.appendChild(h('span',null,'평소의 '+c.multiple+'배'));

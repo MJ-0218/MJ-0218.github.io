@@ -1,10 +1,12 @@
-"""인스타·틱톡 급상승 클립 → 허가 대기 후보.
+"""인스타·틱톡·샤오홍슈 클립 → 허가 대기 후보.
 
 vidIQ 급상승 검색(instagram_tiktok_outlier_search)은 Claude 세션에서만 부를 수 있어서,
 세션이 결과를 JSON 목록으로 옮겨 적고 `run.py social-import <파일>` 로 넣는다.
 
-항목 형식: {platform: instagram|tiktok, url, id, handle, caption, hook, views, multiple, followers,
-           posted, seconds, lang: ko|en, score, reason}
+항목 형식: {platform: instagram|tiktok|xiaohongshu, url, id, handle, caption, hook, views, multiple, followers,
+           posted, seconds, lang: ko|en|zh, score, reason, profile?, cut_top?, cut_bottom?}
+샤오홍슈: url 은 노트 주소(xiaohongshu.com/explore/<id> 또는 xhslink.com 공유 링크), profile 은 작성자 프로필 주소.
+cut_top·cut_bottom 은 원본에 박힌 중국어 자막 띠를 잘라 낼 화면 비율(0~0.35).
 """
 import datetime as dt
 import json
@@ -23,9 +25,17 @@ DM_KO = ("안녕하세요 @{h}님! 올려 주신 영상 정말 재밌게 봤어�
 DM_EN = ("Hi @{h}! I loved this video. I run a Korean YouTube Shorts channel — may I re-edit it with "
          "Korean subtitles and narration? I'll credit @{h} on screen and link your account in the "
          "description. Totally fine to say no. Thank you!")
+DM_ZH = ("你好呀！很喜欢你分享的这条视频～我在运营一个韩国的 YouTube Shorts 频道，"
+         "想请问可以在这条视频上加韩语字幕和配音后转载介绍吗？"
+         "画面上和简介里都会注明你的小红书账号（{h}）和主页链接。"
+         "如果不方便直接拒绝就好，完全没关系。谢谢你！")
 
 
-def profile_url(platform, handle):
+def profile_url(platform, handle, profile=""):
+    if profile:
+        return profile
+    if platform == "xiaohongshu":
+        return ""
     return f"https://www.tiktok.com/@{handle}" if platform == "tiktok" else f"https://www.instagram.com/{handle}/"
 
 
@@ -51,18 +61,20 @@ def import_items(items):
             continue
         seen.add(it["url"])
         h = it["handle"].lstrip("@")
+        dm = {"ko": DM_KO, "en": DM_EN, "zh": DM_ZH}[it.get("lang", "ko")]
         cands.append({
             "video_id": f"{it['platform'][:2]}-{it['id']}", "url": it["url"], "platform": it["platform"],
             "title": (it.get("hook") or it.get("caption") or "")[:80], "channel": "@" + h,
-            "channel_url": profile_url(it["platform"], h), "channel_id": "",
+            "channel_url": profile_url(it["platform"], h, it.get("profile", "")), "channel_id": "",
             "views": int(it.get("views") or 0), "seconds": int(it.get("seconds") or 0),
             "multiple": it.get("multiple"), "score": it.get("score"), "reason": it.get("reason", ""),
-            "dm": (DM_KO if it.get("lang", "ko") == "ko" else DM_EN).format(h=h),
+            "dm": dm.format(h=h),
+            **{k: it[k] for k in ("cut_top", "cut_bottom") if it.get(k)},
             "desc": it.get("caption", "")[:300], "thumb": "", "found": today,
         })
         added += 1
     path.write_text(json.dumps(cands, ensure_ascii=False, indent=1), encoding="utf-8")
     for h, why in skipped:
         print(f"  건너뜀 @{h}: {why}")
-    print(f"인스타·틱톡 후보 {added}편 추가 (건너뜀 {len(skipped)})")
+    print(f"인스타·틱톡·샤오홍슈 후보 {added}편 추가 (건너뜀 {len(skipped)})")
     return added
