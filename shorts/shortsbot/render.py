@@ -1,5 +1,6 @@
 """대본 + 음성 + 원본 클립 → 1080x1920 완성본(mp4)."""
 import random
+import json
 import tempfile
 from pathlib import Path
 
@@ -15,6 +16,21 @@ def place_narration(spoken, t0):
         placed.append((s, s + dur, path))
         cursor = s + dur + 0.06
     return placed
+
+
+def fit_to_slots(spoken, t0, workdir, max_tempo=1.35):
+    """음성이 다음 줄 시각을 넘기면 그 줄만 빠르게(atempo, 최대 1.35배) — 줄이 뒤로 밀려 다른 장면 위에 뜨는 걸 막는다."""
+    out = []
+    for i, (start, path, dur) in enumerate(spoken):
+        if i + 1 < len(spoken):
+            window = spoken[i + 1][0] - start - 0.08
+            if window > 0.3 and dur > window:
+                tempo = min(max_tempo, dur / window)
+                fast = Path(workdir) / f"fit{i:02d}.mp3"
+                run(["ffmpeg", "-v", "error", "-i", str(path), "-filter:a", f"atempo={tempo:.3f}", "-y", str(fast)])
+                path, dur = fast, dur / tempo
+        out.append((start, path, dur))
+    return out
 
 
 def zoom_expr(zooms):
@@ -79,8 +95,12 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_ba
     clip_len = t1 - t0
     with tempfile.TemporaryDirectory() as td:
         td = Path(td)
-        spoken = tts.speak(script.lines, td, cfg)
+        spoken = fit_to_slots(tts.speak(script.lines, td, cfg), t0, td)
         placed = place_narration(spoken, t0)
+        # 실제로 뜬 시각 기록 — 검수 시트가 계획 시각이 아니라 실제 시각으로 화면을 뽑는다
+        Path(out_path).with_suffix(".timing.json").write_text(json.dumps(
+            [{"text": l.text, "planned": round(l.start - t0, 2), "placed": round(a, 2), "drift": round(a - (l.start - t0), 2)}
+             for (a, _b, _p), l in zip(placed, script.lines)], ensure_ascii=False, indent=1), encoding="utf-8")
         end = min(max(clip_len, placed[-1][1] + 0.5), vcfg["max_sec"] + 8)
         freeze = max(0.0, end - clip_len)
 

@@ -125,7 +125,12 @@ def line_sheet(vid, mp4, out_jpg):
     dur = probe(mp4)["duration"]
     items = [(l.start, "나레이션", l.text) for l in sc.lines] + [(a.start, "괄호", a.text) for a in sc.asides] \
         + [(d.start, "대사", d.text) for d in sc.dialogue] + [(sc.trim_end - 0.8, "끝 질문", sc.ending_caption)]
-    items = sorted((min(dur - 0.2, max(0.1, t - sc.trim_start + 0.6)), k, x) for t, k, x in items)
+    items = [(t - sc.trim_start, k, x) for t, k, x in items]
+    timing = Path(mp4).with_suffix(".timing.json")
+    if timing.exists():  # 나레이션은 실제로 뜬 시각으로
+        placed = iter(json.loads(timing.read_text(encoding="utf-8")))
+        items = [((next(placed)["placed"]) if k == "나레이션" else t, k, x) for t, k, x in items]
+    items = sorted((min(dur - 0.2, max(0.1, t + 0.6)), k, x) for t, k, x in items)
     Path(out_jpg).parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as td:
         for i, (t, k, x) in enumerate(items):
@@ -242,6 +247,12 @@ def cmd_make(cfg, limit, only=None):
                 "status": "검수 대기", "review": [],
             }
             review_sheet(out, STATE / "review" / f"{cid}.jpg")
+            tj = out.with_suffix(".timing.json")
+            if tj.exists():
+                drift = [d for d in json.loads(tj.read_text(encoding="utf-8")) if d["drift"] > 0.7]
+                item["narration_drift"] = drift
+                if drift:
+                    print(f"  주의 {cid}: 나레이션 {len(drift)}줄이 0.7초 넘게 밀림 — 줄을 줄이거나 짧게")
             if (Path(__file__).resolve().parent / "scripts" / f"{cid}.json").exists():
                 item["lines_check"] = line_sheet(cid, out, STATE / "review" / f"{cid}.lines.jpg")
             (day / f"{cid}.json").write_text(json.dumps(script.model_dump(), ensure_ascii=False, indent=1), encoding="utf-8")
