@@ -18,18 +18,21 @@ def place_narration(spoken, t0):
     return placed
 
 
-def fit_to_slots(spoken, t0, workdir, max_tempo=1.35):
-    """음성이 다음 줄 시각을 넘기면 그 줄만 빠르게(atempo, 최대 1.35배) — 줄이 뒤로 밀려 다른 장면 위에 뜨는 걸 막는다."""
-    out = []
+def fit_to_slots(spoken, t0, workdir, max_tempo=1.4):
+    """줄이 실제로 시작하는 시각(앞줄에 밀린 것까지)부터 다음 줄 계획 시각 안에 끝나도록 그 줄만 빠르게(atempo).
+    밀림이 쌓여 이전 문장이 다음 장면 위에 뜨는 걸 막는다."""
+    out, cursor = [], 0.0
     for i, (start, path, dur) in enumerate(spoken):
+        actual = max(start, cursor)
         if i + 1 < len(spoken):
-            window = spoken[i + 1][0] - start - 0.08
+            window = spoken[i + 1][0] - actual - 0.15
             if window > 0.3 and dur > window:
                 tempo = min(max_tempo, dur / window)
                 fast = Path(workdir) / f"fit{i:02d}.mp3"
                 run(["ffmpeg", "-v", "error", "-i", str(path), "-filter:a", f"atempo={tempo:.3f}", "-y", str(fast)])
                 path, dur = fast, dur / tempo
         out.append((start, path, dur))
+        cursor = actual + dur + 0.06
     return out
 
 

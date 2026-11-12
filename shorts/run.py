@@ -249,10 +249,10 @@ def cmd_make(cfg, limit, only=None):
             review_sheet(out, STATE / "review" / f"{cid}.jpg")
             tj = out.with_suffix(".timing.json")
             if tj.exists():
-                drift = [d for d in json.loads(tj.read_text(encoding="utf-8")) if d["drift"] > 0.7]
+                drift = [d for d in json.loads(tj.read_text(encoding="utf-8")) if d["drift"] > 0.4]
                 item["narration_drift"] = drift
                 if drift:
-                    print(f"  주의 {cid}: 나레이션 {len(drift)}줄이 0.7초 넘게 밀림 — 줄을 줄이거나 짧게")
+                    print(f"  주의 {cid}: 나레이션 {len(drift)}줄이 0.4초 넘게 밀림 — 줄을 줄이거나 짧게")
             if (Path(__file__).resolve().parent / "scripts" / f"{cid}.json").exists():
                 item["lines_check"] = line_sheet(cid, out, STATE / "review" / f"{cid}.lines.jpg")
             (day / f"{cid}.json").write_text(json.dumps(script.model_dump(), ensure_ascii=False, indent=1), encoding="utf-8")
