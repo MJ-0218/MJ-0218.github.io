@@ -14,7 +14,7 @@ claude:
   max_frames: 24          # 장면 분석에 보낼 프레임 수 (많을수록 정확, 비용↑)
 
 tts:
-  provider: elevenlabs    # elevenlabs | google | edge(미리보기용) | silent(테스트용)
+  provider: silent        # 사용자 요청(2026-11-13): 나레이션은 읽지 않고 자막만. elevenlabs | google | edge | silent
   speed: 1.12             # 경쟁 채널은 빠르고 높은 톤의 여성 음성
   elevenlabs:
     voice_id: QPFsEL6IBxlT15xfiD6C   # Hana Lee - Natural & Cheerful (높고 빠른 여성 톤, 보이스 라이브러리). Secret ELEVENLABS_VOICE_ID 가 있으면 그게 우선
@@ -37,7 +37,8 @@ templates:
     max_sec: 56
     line1_color: "FFFFFF"
     line2_color: "FFE14D"
-    original_audio: 0.22
+    original_audio: 0.85  # 나레이션 음성이 없으므로 원본 소리를 살린다
+    bgm_volume: 0.22
     linger: 0.4           # 나레이션 자막이 음성 끝난 뒤 남는 시간 — 길면 다음 장면 위에 이전 문장이 뜬다
   clip:                   # 신기+템형: 원테이크 클립 + 첫 줄만 나레이션, 원본 소리·대사 자막이 주인공
     min_sec: 9
@@ -45,6 +46,7 @@ templates:
     line1_color: "FFFFFF"
     line2_color: "B6FF3B" # 형광연두 (25편 중 18편)
     original_audio: 0.95
+    bgm_volume: 0.12      # 원본 대사가 주인공 — 배경음악은 아래로
 
 video:
   min_sec: 9

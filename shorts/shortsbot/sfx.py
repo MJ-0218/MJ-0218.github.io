@@ -14,6 +14,10 @@ RECIPES = {
 
 
 def path(kind):
+    from .music import sfx as gen  # ElevenLabs 효과음이 있으면 그걸 우선
+    g = gen(kind)
+    if g:
+        return g
     d = ASSETS / "sfx"
     d.mkdir(parents=True, exist_ok=True)
     p = d / f"{kind}.wav"

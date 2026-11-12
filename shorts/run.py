@@ -241,7 +241,9 @@ def cmd_make(cfg, limit, only=None):
                 print(f"실패 {cid}: 글꼴에 없는 글자 {bad} — 대본(scripts/{cid}.json)에서 바꿔 주세요")
                 continue
             out = day / f"{cid}.mp4"
-            length = render(path, meta, script, cfg, out, credit=credit_label(entry),
+            from shortsbot import music
+            bgm_file = music.bgm(cid, script.music_prompt, script.trim_end - script.trim_start + 3)
+            length = render(path, meta, script, cfg, out, credit=credit_label(entry), bgm_path=bgm_file,
                             cut=(entry.get("cut_top", 0), entry.get("cut_bottom", 0)), blur_band=entry.get("blur_band"))
             posters = STATE / "posters"
             posters.mkdir(parents=True, exist_ok=True)

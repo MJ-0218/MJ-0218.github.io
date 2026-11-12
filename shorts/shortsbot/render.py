@@ -84,7 +84,7 @@ def pick_bgm():
     return random.choice(files) if files else None
 
 
-def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_band=None):
+def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_band=None, bgm_path=None):
     """cut=(위, 아래): 원본 화면에서 잘라 낼 비율(0~0.35). 원본에 박힌 외국어 자막 띠를 없앨 때 쓴다."""
     vcfg, st = cfg["video"], cfg["style"]
     ct, cb = (max(0.0, min(0.35, float(x or 0))) for x in cut)
@@ -171,6 +171,8 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_ba
             base = tcfg["original_audio"]
             duck = min(base, 0.22)
             during = "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b, _ in placed) or "0"
+            if cfg["tts"]["provider"] == "silent":  # 나레이션 음성이 없으면 원본 소리를 낮추지 않는다
+                during = "0"
             mix.append(f"[0:a]volume='if({during},{duck},{base})':eval=frame,apad[orig]")
             labels = ["[orig]"]
         else:
@@ -185,10 +187,11 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_ba
             mix.append(f"[{n}:a]aresample=44100,volume={vcfg['sfx_volume']},adelay={int(max(0, x.at) * 1000)}:all=1[s{i}]")
             labels.append(f"[s{i}]")
             n += 1
-        bgm = pick_bgm()
+        bgm = bgm_path or pick_bgm()
         if bgm:
             inputs += ["-stream_loop", "-1", "-i", str(bgm)]
-            mix.append(f"[{n}:a]aresample=44100,volume={vcfg['bgm_volume']},afade=t=out:st={max(0, end - 1.2):.2f}:d=1.2[bgm]")
+            vol = tcfg.get("bgm_volume", vcfg["bgm_volume"])
+            mix.append(f"[{n}:a]aresample=44100,volume={vol},afade=t=in:d=0.4,afade=t=out:st={max(0, end - 1.2):.2f}:d=1.2[bgm]")
             labels.append("[bgm]")
             n += 1
         if not labels:
