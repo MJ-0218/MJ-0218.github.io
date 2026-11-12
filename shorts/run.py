@@ -13,6 +13,7 @@
 import argparse
 import datetime as dt
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -178,10 +179,20 @@ def cmd_frames(cfg, n=16):
     for e in load_sources():
         cid = e.get("id")
         path = INBOX / (e.get("file") or f"{cid}.mp4")
-        if cid in done or not path.exists() or rights.check(e):
-            continue
         d = STATE / "frames" / cid
+        if (cid in done and not (d / "meta.json").exists()) or not path.exists() or rights.check(e):
+            continue
         if (d / "meta.json").exists():
+            old = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+            # 받아쓰기가 비어 있고 이제 ElevenLabs 키가 있으면 받아쓰기만 다시 받는다
+            if old.get("transcript") or not os.environ.get("ELEVENLABS_API_KEY") or not old["meta"].get("has_audio"):
+                continue
+            try:
+                old["transcript"] = stt.transcribe(path, cfg)
+                (d / "meta.json").write_text(json.dumps(old, ensure_ascii=False, indent=1), encoding="utf-8")
+                print(f"받아쓰기 {cid}: {len(old['transcript'])}줄")
+            except Exception as ex:
+                print(f"  받아쓰기 실패 {cid}: {ex}")
             continue
         d.mkdir(parents=True, exist_ok=True)
         meta = probe(path)
