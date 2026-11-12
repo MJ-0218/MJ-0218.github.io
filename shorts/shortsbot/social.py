@@ -69,7 +69,7 @@ def import_items(items):
             "views": int(it.get("views") or 0), "seconds": int(it.get("seconds") or 0),
             "multiple": it.get("multiple"), "score": it.get("score"), "reason": it.get("reason", ""),
             "dm": dm.format(h=h),
-            **{k: it[k] for k in ("cut_top", "cut_bottom") if it.get(k)},
+            **{k: it[k] for k in ("cut_top", "cut_bottom", "blur_band") if it.get(k)},
             "desc": it.get("caption", "")[:300], "thumb": "", "found": today,
         })
         added += 1

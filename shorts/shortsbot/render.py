@@ -56,7 +56,7 @@ def pick_bgm():
     return random.choice(files) if files else None
 
 
-def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0)):
+def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_band=None):
     """cut=(위, 아래): 원본 화면에서 잘라 낼 비율(0~0.35). 원본에 박힌 외국어 자막 띠를 없앨 때 쓴다."""
     vcfg, st = cfg["video"], cfg["style"]
     ct, cb = (max(0.0, min(0.35, float(x or 0))) for x in cut)
@@ -65,6 +65,15 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0)):
         top = int(meta["height"] * ct)
         meta = dict(meta, height=int(meta["height"] * (1 - ct - cb)) // 2 * 2)
         pre = f"crop=iw:{meta['height']}:0:{top},"
+    src = "[0:v]"
+    head = ""
+    if blur_band:  # 원본 가운데에 박힌 글씨 띠(세로 비율 y0~y1)를 흐리게 가린다
+        y0, y1 = (max(0.0, min(1.0, float(x))) for x in blur_band)
+        if y1 > y0:
+            h0, hb = int(meta["height"] * y0) // 2 * 2, max(2, int(meta["height"] * (y1 - y0)) // 2 * 2)
+            head = (f"[0:v]{pre}split[o][m];[m]crop=iw:{hb}:0:{h0},boxblur=28:4,eq=brightness=-0.12[mb];"
+                    f"[o][mb]overlay=0:{h0}[src];")
+            src, pre = "[src]", ""
     tcfg = cfg["templates"][script.template]
     t0, t1 = script.trim_start, script.trim_end
     clip_len = t1 - t0
@@ -95,11 +104,11 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0)):
         n = 1
         vf = []
         if landscape:  # 가로·정사각 영상: 흐린 배경 위에 원본
-            vf.append(f"[0:v]{pre}split[bg][fg];"
+            vf.append(head + f"{src}{pre}split[bg][fg];"
                       "[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:2[bgb];"
                       "[fg]scale=1080:-2[fgs];[bgb][fgs]overlay=(W-w)/2:(H-h)/2+80[base]")
         else:
-            vf.append(f"[0:v]{pre}scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920[base]")
+            vf.append(head + f"{src}{pre}scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920[base]")
         chain = "[base]setsar=1,fps=30"
         z = zoom_expr(s.zooms)
         if z:

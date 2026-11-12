@@ -78,6 +78,50 @@ def cmd_fetch(cfg):
             print(f"  받기 실패 {e['id']}: {str(ex)[-200:]}")
 
 
+def review_sheet(mp4, out_jpg, n=12):
+    """완성본에서 고르게 n장(시각 표시)을 뽑아 한 장으로 — 세션이 검수 2회에 쓴다."""
+    import tempfile
+    d = probe(mp4)["duration"]
+    times = [round(0.3 + i * (d - 0.8) / (n - 1), 1) for i in range(n)]
+    Path(out_jpg).parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory() as td:
+        for k, t in enumerate(times):
+            run(["ffmpeg", "-v", "error", "-ss", str(t), "-i", str(mp4), "-frames:v", "1", "-vf",
+                 f"scale=270:-2,drawtext=text='{t:.1f}s':x=6:y=h-30:fontsize=22:fontcolor=white:box=1:boxcolor=black@0.6",
+                 "-y", f"{td}/f{k:02d}.png"])
+        run(["ffmpeg", "-v", "error", "-i", f"{td}/f%02d.png", "-vf", f"tile=6x{(n + 5) // 6}",
+             "-frames:v", "1", "-q:v", "4", "-y", str(out_jpg)])
+    return times
+
+
+def cmd_review(vid, pas, verdict, note):
+    """검수 기록. 서로 다른 관점의 검수 2회(1: 내용·사실·자막 시점, 2: 화면 이상)가 모두 ok 여야 '검수 통과'."""
+    history = load_history()
+    v = next((x for x in history["videos"] if x["id"] == vid), None)
+    if not v:
+        sys.exit(f"{vid} 가 history 에 없음")
+    rv = [r for r in v.get("review", []) if r["pass"] != pas]
+    rv.append({"pass": pas, "verdict": verdict, "note": note, "at": dt.datetime.now().isoformat(timespec="seconds")})
+    v["review"] = sorted(rv, key=lambda r: r["pass"])
+    ok = {r["pass"] for r in v["review"] if r["verdict"] == "ok"}
+    v["status"] = "검수 통과" if {1, 2} <= ok else ("다시 만들기" if verdict == "fix" else "검수 대기")
+    save_history(history)
+    log = STATE / "review" / "log.jsonl"
+    log.parent.mkdir(parents=True, exist_ok=True)
+    with log.open("a", encoding="utf-8") as f:
+        rec = next(r for r in v["review"] if r["pass"] == pas)
+        f.write(json.dumps({"id": vid, **rec}, ensure_ascii=False) + "\n")
+    print(f"{vid}: {pas}차 {verdict} → {v['status']}")
+
+
+def cmd_remake(vid):
+    """대본(scripts/<id>.json)을 고친 뒤 다시 만들도록 history 에서 뺀다."""
+    history = load_history()
+    history["videos"] = [x for x in history["videos"] if x["id"] != vid]
+    save_history(history)
+    print(f"{vid}: 다음 제작 때 다시 만듦")
+
+
 def cmd_frames(cfg, n=16):
     """아직 안 만든 클립의 장면 사진·길이·받아쓰기를 state/frames/<id>/ 에 남긴다 — 세션이 보고 대본(scripts/<id>.json)을 쓴다."""
     from shortsbot.brain import extract_frames
@@ -134,7 +178,7 @@ def cmd_make(cfg, limit, only=None):
                 continue
             out = day / f"{cid}.mp4"
             length = render(path, meta, script, cfg, out, credit=credit_label(entry),
-                            cut=(entry.get("cut_top", 0), entry.get("cut_bottom", 0)))
+                            cut=(entry.get("cut_top", 0), entry.get("cut_bottom", 0)), blur_band=entry.get("blur_band"))
             posters = STATE / "posters"
             posters.mkdir(parents=True, exist_ok=True)
             run(["ffmpeg", "-v", "error", "-ss", "1.5", "-i", str(out), "-frames:v", "1", "-vf", "scale=216:-2",
@@ -147,7 +191,9 @@ def cmd_make(cfg, limit, only=None):
                 "narration": " ".join(l.text for l in script.lines),
                 "pinned_comment": script.pinned_comment,
                 "rendered_at": dt.datetime.now().isoformat(timespec="seconds"),
+                "status": "검수 대기", "review": [],
             }
+            review_sheet(out, STATE / "review" / f"{cid}.jpg")
             (day / f"{cid}.json").write_text(json.dumps(script.model_dump(), ensure_ascii=False, indent=1), encoding="utf-8")
             history["videos"].append(item)
             save_history(history)
@@ -167,7 +213,8 @@ def cmd_upload(cfg):
         print("YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN 이 없어 업로드를 건너뜀")
         return
     history = load_history()
-    pending = [v for v in history["videos"] if not v.get("video_id") and (OUT.parent / v["file"]).exists()]
+    pending = [v for v in history["videos"] if not v.get("video_id") and v.get("status") == "검수 통과"
+               and (OUT.parent / v["file"]).exists()]
     taken = [v["publish_at"] for v in history["videos"] if v.get("publish_at")]
     slots = upload.next_slots(cfg["channel"]["slots_kst"], taken, len(pending))
     for v, slot in zip(pending, slots):
@@ -205,6 +252,7 @@ def cmd_sync(db_path):
                 "credit_url": c.get("channel_url") or (f"https://www.youtube.com/channel/{c['channel_id']}" if c.get("channel_id") else ""),
                 **({"cut_top": c["cut_top"]} if c.get("cut_top") else {}),
                 **({"cut_bottom": c["cut_bottom"]} if c.get("cut_bottom") else {}),
+                **({"blur_band": c["blur_band"]} if c.get("blur_band") else {}),
                 "note": f"원제: {c['title']} / {c.get('desc', '')[:150]}".replace("\n", " "),
             })
         elif not a and c["video_id"] not in (db.get("reject") or {}):
@@ -280,8 +328,12 @@ def cmd_demo(cfg, template="story"):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily", "sync", "release", "social-import", "frames"])
+    ap.add_argument("cmd", choices=["demo", "scout", "fetch", "make", "upload", "daily", "sync", "release", "social-import", "frames", "review", "remake", "sheet"])
+    ap.add_argument("--pass", dest="pas", type=int)
+    ap.add_argument("--verdict", choices=["ok", "fix"])
+    ap.add_argument("--note", default="")
     ap.add_argument("path", nargs="?")
+    ap.add_argument("out", nargs="?")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--id")
     a = ap.parse_args()
@@ -293,6 +345,12 @@ def main():
         scout(cfg, a.limit or cfg["channel"]["daily_count"])
     elif a.cmd == "fetch":
         cmd_fetch(cfg)
+    elif a.cmd == "review":
+        cmd_review(a.path, a.pas, a.verdict, a.note)
+    elif a.cmd == "remake":
+        cmd_remake(a.path)
+    elif a.cmd == "sheet":
+        print(review_sheet(a.path, a.out))
     elif a.cmd == "frames":
         cmd_fetch(cfg)
         cmd_frames(cfg)

@@ -58,6 +58,7 @@ def collect():
             "url": v.get("download_url", ""), "src": v.get("url", ""),
             "poster": data_uri(STATE / "posters" / f"{v['id']}.jpg"),
             "done": bool(v.get("uploaded_manual")), "hook": v.get("hook_type", ""),
+            "status": v.get("status", ""),
         })
     for it, s in zip([i for i in reversed(items) if not i["done"]], slots):
         it["slot"] = s
@@ -163,6 +164,7 @@ function upRow(i){
   b.appendChild(h('h2',null,i.title));
   var tc=h('div',{class:'tc'});
   if(i.slot&&!uploaded(i))tc.appendChild(h('span',{class:'slot'},'추천 '+i.slot));
+  if(i.status)tc.appendChild(h('span',{class:i.status=='검수 통과'?'slot':''},i.status));
   if(i.length)tc.appendChild(h('span',null,i.length+'초'));
   if(i.hook)tc.appendChild(h('span',null,i.hook));
   b.appendChild(tc);
