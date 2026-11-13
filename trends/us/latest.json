@@ -1,25 +1,67 @@
 {
- "generated_at": "2026-11-14T06:39:17.254799+09:00",
+ "generated_at": "2026-11-14T07:10:03.142182+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 63, 실패 39)"
+  "evidence": "ok (저장 68, 실패 34)"
  },
  "compared_runs": 5,
  "spikes": [
-  "news",
-  "airline",
-  "news today",
-  "cnn news",
-  "reuters",
-  "us news",
-  "plane",
-  "flights being grounded",
-  "dfw airport",
-  "ufc 335"
+  "bbc",
+  "federal holiday",
+  "national weather service",
+  "the town",
+  "domestic flights",
+  "bbc news",
+  "fox",
+  "elina svitolina",
+  "is there a cyber attack going on right now",
+  "miami airport",
+  "faa floppy disks"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "bbc",
+   "traffic": 10000,
+   "published": "2026-11-14T06:50:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Bessent points finger at Commerce Department in Nvidia scandal as Trump advisers discuss possible Lutnick ouster",
+     "url": "https://www.cnn.com/2026/11/13/politics/bessent-lutnick-nvidia-megaspeed-blame",
+     "source": "CNN"
+    },
+    {
+     "title": "The Jensen Huang scandal reaches Donald Trump’s cabinet",
+     "url": "https://www.economist.com/united-states/2026/11/13/the-jensen-huang-scandal-reaches-donald-trumps-cabinet",
+     "source": "The Economist"
+    },
+    {
+     "title": "Bessent Faults Commerce Dept. for Failing to Blacklist Megaspeed",
+     "url": "https://www.nytimes.com/2026/11/13/business/economy/bessent-commerce-megaspeed-lutnick.html",
+     "source": "The New York Times"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 104.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.cnn.com/2026/11/13/politics/bessent-lutnick-nvidia-megaspeed-blame",
+     "title": "Bessent points finger at Commerce Department in Nvidia scandal as Trump advisers discuss possible Lutnick ouster",
+     "outlet": "CNN"
+    },
+    {
+     "url": "https://www.nytimes.com/2026/11/13/business/economy/bessent-commerce-megaspeed-lutnick.html",
+     "title": "Bessent Faults Commerce Dept. for Failing to Blacklist Megaspeed",
+     "outlet": "The New York Times"
+    }
+   ]
+  },
   {
    "source": "calendar",
    "keyword": "Federal holiday — what's open and closed veterans-day",
@@ -29,7 +71,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-14T06:39:17.287764+09:00",
+   "published": "2026-11-14T07:10:03.171989+09:00",
    "score": 85,
    "already_covered": false,
    "cycle": "us-federal-holidays-veterans-day-2026",
@@ -52,7 +94,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-14T06:39:17.287794+09:00",
+   "published": "2026-11-14T07:10:03.172020+09:00",
    "score": 85,
    "already_covered": false,
    "cycle": "us-federal-holidays-thanksgiving-2026",
@@ -67,10 +109,68 @@
   },
   {
    "source": "google_news",
+   "keyword": "federal holiday",
+   "traffic": 0,
+   "article_count_24h": 27,
+   "article_count_1h": 28,
+   "published": "2026-11-14T03:30:00+09:00",
+   "category": "Holidays",
+   "news": [
+    {
+     "title": "What's open on Thanksgiving? Grocery, USPS, FedEx, UPS hours - The Columbus Dispatch",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNblBmT0tXVDRRejJ4VEF2RWFHMEpqMUVqUkRfVHhqZTJXblR6aFFCeVpma01XRURtWmsyNUVTVVZWYzdrQVdSS0s2eGNjU3NhRXRvd0J5T2FwRUIwX1ZCenBwcEQ5LUhCX3JkZG9HWTVQclEtcUJOdDh1bUJWU2tpWF8tZTFrMXJuNFZraWlLcXRrWWFtSVMwLW5JLVZidmtmbEtlSXdkTXdjNWxTZWNRSTJzMC05RXViVUxBR2RjMEItcVk2SFFMV2x2N1B3WEhFTUE?oc=5",
+     "source": "The Columbus Dispatch"
+    },
+    {
+     "title": "Democrats quickly push for recognition of Islamic and Hindu holidays - Heartlander News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYTRCemN2Q2d3VWIxaGNZMEVJUlo4Q2xLTjVQN1lOdUdhMWpURDNZSG4wVHQ3LXliMGxkV21HdFpsWklDSkhfZFQxUE5GazltR28tTlc4bHVVMG9HMWNvMnZicGFSX2Q4aWFSdllDdG5EcFdJTHZGRVNJbFBRd2ttUzA3NzhZeENxbzlUOEd0Z1VvYW91LWVZRjluMWttUQ?oc=5",
+     "source": "Heartlander News"
+    },
+    {
+     "title": "What's open and closed on Thanksgiving? Will mail be delivered? - Lexington Herald Leader",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tQlozQkwwMWZSUDFjSTk0WDB3VjdDcWlxMHBLZHdpdHBDMmNsWHVUb0FFODZfakJlMUwyNHk5a3R2S1pxSzdVSW1rVGJjR2V2cGhmTnljTHpQT2VvWTBFYmRJX2duS25GVFU0QjMtelBaWUxacTM1UmVra1NOQQ?oc=5",
+     "source": "Lexington Herald Leader"
+    },
+    {
+     "title": "UAE National Day 2026: final long weekend of the year confirmed - Condé Nast Traveller Middle East",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSFNaSjhpNGRDY1VIWGxzc1MxMHJZT2JLQWtTeHF5bU5pWm9QWlVOVUUyWlJnaUxDbXUtUHV2T29BS2YtUTB3TmhYQlJtejZHVzNtTmpBSGtRN3BCMzc3ZTlSNEVpX2xodDgzRDRiTUtmampJWVFQMGtlOGU2d2NTdnRNRDJVQ1ZZRExjc2w2b093S0NzV0hTdUZlemgydkU?oc=5",
+     "source": "Condé Nast Traveller Middle East"
+    },
+    {
+     "title": "UAE announces three-day federal holiday for 55th Union Day - Gulf Today",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeXVMcDRna3BkSTh5ajBteXlEWWp3UUdoVkx3WkFIV21HT25mdzhlY3Z4UGtobXN5VmRWdmlwSnlLYmI2UVg2N2hOVmU4ZHZOZnVhS1hKRWF0ZlE5NEFVenpKOG5NcFVaVjRPUW05ajFhbVRSR3hEblMxLVBpWXNBMTJxRWJnUDQyckF4bEQ3ZThiRDJ3aFZvM2ZGNUJYdTJn?oc=5",
+     "source": "Gulf Today"
+    }
+   ],
+   "official": false,
+   "spike": "최근 1시간 기사 11.6→28건 (2.3배)",
+   "spike_bonus": 23.0,
+   "score": 80.3,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://heartlandernews.com/democrats-quickly-push-for-recognition-of-islamic-and-hindu-holidays/",
+     "title": "Democrats quickly push for recognition of Islamic and Hindu holidays - Heartlander News",
+     "outlet": "Heartlander News"
+    },
+    {
+     "url": "https://www.cntravellerme.com/story/uae-national-day-2026-final-long-weekend-of-the-year-confirmed",
+     "title": "UAE National Day 2026: final long weekend of the year confirmed - Condé Nast Traveller Middle East",
+     "outlet": "Condé Nast Traveller Middle East"
+    },
+    {
+     "url": "https://www.gulftoday.ae/news/2026/11/13/uae-announces-three-day-federal-holiday-for-55th-union-day",
+     "title": "UAE announces three-day federal holiday for 55th Union Day - Gulf Today",
+     "outlet": "Gulf Today"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
    "article_count_24h": 27,
-   "article_count_1h": 9,
+   "article_count_1h": 15,
    "published": "2026-11-14T02:25:45+09:00",
    "category": "Benefits",
    "news": [
@@ -78,6 +178,11 @@
      "title": "Social Security cuts: 28 states could lose $500 or more per month - Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSC1peWxWc3VBUHBTdWRNblRhUEQ2dFN3YjAzUWNzZVFNWlAyZ1RoWndkVHphT2w0Qk9zTVhMR3B2R2JpZElRaV8xWU5IODh4bE4tYWxLeW5ZNTZHWU5TekNTRlFRWnZmdlRRdVBBTGtmanNrWjdoaXlpRVpYMW05UHlqcDlRenNYWmhtUk5BeGpTWWlZNnExT1R0T2VSeVRxdExoZUZla0JPQlh3UUlnZUhwVWdlUTcyMlhody1BSV9mc1d0NXBIMFVCcGVmYW0wNE1vcUNB?oc=5",
      "source": "Yahoo Finance"
+    },
+    {
+     "title": "Social Security trust fund to run short by 2032. What it means for benefits - The Detroit News",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1Vfb0JGVEhkOC1DQUV1R1RCNWpnMEs4NndlTjJFamhBdUN4TklCLWctalBXbjB3Tk1LOF8wR1JjcGZOUTFqei1qeWlweWJSSFFWRHpxdXF1S1N2c25uV3RjN1ZEVEwyMGk1M0tqT3gyVUNpTUd3bnZSVWpfOHEtNUJzREZvREE5QzdCdngtTmxOaEFFbmpkb2xnLWk5amV0TUtBemFGYVFjSlN0dGxhdkxBbHZIbXFvQ2k4ek1JeEV5R1hxU2JqRExWcFh4TEJjQ1plVFZLdkgwS0Joam9sa1QwQXROQWpNMkR0UA?oc=5",
+     "source": "The Detroit News"
     },
     {
      "title": "Social Security benefit cuts: What Sanders’ $2,400 increase could mean for you - Delawareonline.com",
@@ -90,14 +195,9 @@
      "source": "The Independent"
     },
     {
-     "title": "When do Social Security and SSI benefits go out in November 2026? Complete payment schedule - Diario AS",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMlo2dmpHcENUSTR2a3NHWUFUeHhpSHczUGVJZDVqMzVDRjNZcXhjUlRfX2M4aTRiTkFvVEdIN3JsSmRuMWc5UXVxMmVxeHlmMWkyMHUybU1kVllVcGRaTGpxWXY3UlRGc3c0Sk43ODBxRmxKTUczTVJSSmhYRndMR3Vsb0E4SnZVVTlsOUdRWE9jdUFQdjFiVEM4T09IQ0VwQWdUUm1qeTVjcFNrX0tqOXI2UGdIcklHUlJ0VUphVm9KMkFZd0pSNzVYNNIB3wFBVV95cUxPZWhZV2xqRjJTSFhNN0lWWVc1ZkhFNjhSWjNsb2tQLXVrUG9QdVNBdEdSdWlfWnJ0VW1XVnNMZ0pUY1kxYjZHYzRWSXlyNzFZWDVIbTdQMXMwQmV2N2xUeDZlMS03ZDF5QzBZbUR3WnY2SUFRZ2hpeXgwVDEzTVNfQUdXeDUtdzBnTmJvZ1dfSk5Kelh2TWRET2xEMmU4SGc0eXBpVXRLaV9zbXpjSW8xTGVPWGVSQXZnOWVNWUN1Y0poMFFIMlJMQXhWVXNleFNmb1hVX1Yyb3RyOHU0T1Mw?oc=5",
-     "source": "Diario AS"
-    },
-    {
-     "title": "New AARP study examines Social Security cuts risk and payroll-tax gap - finchannel",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZXZvZUhjNW1yRF9wVk94TVhmMENteURVa0xYT2VrWVppTFlYOUw4dHVhSWQxTHV3UEFadk9UVXBxeG8wNExGWE1tS3RkTENIRlFVSnhoaDd5dGcwRmo1UzBUbUtERkRGTXlyWTd6akVxMTB1WHctYUpVdnFscUhCdkVXYWRpazFFYnlMNFNZUTJsZDhXUE80NUNQY3U0ZThaT1hUR3hOZjIwd2IteHZmY1AwMGMtZzZKclZlcHY4T3NLTG8?oc=5",
-     "source": "finchannel"
+     "title": "7 Social Security changes for 2027: the raise, premiums, taxes and claiming rules - qz.com",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tQVRMaTlkR2VJV2d4NXBxU19Yeml0eHVuVzhESHVuUHIyNE1VdlZzS09Ba0FDY05PVHhFSFZ3UzJoaVVKZndfSHhhcnVJYzFmTTBndVZB?oc=5",
+     "source": "qz.com"
     }
    ],
    "official": false,
@@ -115,14 +215,9 @@
      "outlet": "The Independent"
     },
     {
-     "url": "https://en.as.com/latest_news/when-do-social-security-and-ssi-benefits-go-out-in-november-2026-complete-payment-schedule-f202611-n/",
-     "title": "When do Social Security and SSI benefits go out in November 2026? Complete payment schedule - Diario AS",
-     "outlet": "Diario AS"
-    },
-    {
-     "url": "https://finchannel.com/new-aarp-study-examines-social-security-cuts-risk-and-payroll-tax-gap/141469/americas/america/2026/11/",
-     "title": "New AARP study examines Social Security cuts risk and payroll-tax gap - finchannel",
-     "outlet": "finchannel"
+     "url": "https://qz.com/social-security-changes-2027",
+     "title": "7 Social Security changes for 2027: the raise, premiums, taxes and claiming rules - qz.com",
+     "outlet": "qz.com"
     }
    ]
   },
@@ -130,8 +225,8 @@
    "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
-   "article_count_24h": 75,
-   "article_count_1h": 8,
+   "article_count_24h": 78,
+   "article_count_1h": 11,
    "published": "2026-11-14T05:33:00+09:00",
    "category": "Benefits",
    "news": [
@@ -141,24 +236,24 @@
      "source": "The Guardian"
     },
     {
+     "title": "Proposed federal change to SNAP puts more Oklahomans at risk of going hungry, advocates say - Oklahoma Voice",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTWlUazhNRnc4TlJuM09GYTZRSmpleGx3cjRzOU8zVlBsZlFadmJXdjhCTlk0aVZobzdlY010YzhPWDhJUENtd2RsS2dKZ3NTZUNxOUVCcnpjal8tME9kVnk2UlJGSXBoS18xeXB6b3NLY3ZZa2tiQ1FkNEhFWG5vcEVMZnduQzVHeEtFS3o2RTZqY2Y2T3dQUmJHRVR5NEFURUs0ODlxRTRwcmZJUzN0cGpScERidjRzTWVBSl9BTWxVczhWeHYw?oc=5",
+     "source": "Oklahoma Voice"
+    },
+    {
      "title": "How a new federal proposal could impact Ohio SNAP benefits - The Columbus Dispatch",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbXU1YktldGJzaFVkbXlkdUZrMzBjZ3k4RWdwVlZEMmQwUHJheHZiZGJzYWJDSWE3NWZPclZNYUdBUkNsTWhhNWxSUlRDMm5wenp1ZUE4OVp6dDByZ0JPT3lXLXZUSllralJSWTg5RllJMUhvMmhVWEhvZmJYYUNEQWItVFlETHZSMTVLY1pxNzZHWkQ2SFBkaXdPdW0wLTZ5Y1RqVEFR?oc=5",
      "source": "The Columbus Dispatch"
     },
     {
+     "title": "Proposed SNAP change could affect Kentucky families - Spectrum News 1",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMEN6b1dpNEhNOVQ3UUoteE1uekxRLURLOWxGYkNGazdlMVhTV05mRGpJa2VLcTdkMGhqZldINWZHSUdoUG40enN0NEdMTlk0eTRsM1QtaXUwZHFIWGNqZlI3dnZpWDdNRDRubE03TDRIRnpaOGtmN0VTWFZyYXRveXNSbURQZ3o2?oc=5",
+     "source": "Spectrum News 1"
+    },
+    {
      "title": "In Case You Missed It... - Center on Budget and Policy Priorities",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WX2JKaHhWLUVWRnVSOGMzUkxibzFfWERwaVM4UDE1ZGhJS2xlUmdOTVF4dGNLS3diTHJwZHlIZWctckdUdUs0RlA0dWdtTHEwbngzVVAxbDFBWWVmTjBLaA?oc=5",
      "source": "Center on Budget and Policy Priorities"
-    },
-    {
-     "title": "In Philly, poverty experts see problems for newly elected Democrats hoping to fix Medicaid and SNAP - Inquirer.com",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQVVoTVAtVldKbTdrUFFDaVBBTmhEckNkUHNKWkJ2MDFRX1FYdUNoNmpkVktWTS0waTdlT3I4aWM4SkhDZ1BYWUQ3NXFBTEhJSTBJcmJ4dEZ3VGhyYUYzdXI2RUt4RjFZeWlNTHE2ZXpxT0lib2FETWJaTlpVbS1iWGgzenZSNXRIWEFVcDNTYWtBUDRrVThiZ0VuLXJhSEQ0S3lfeFRqSQ?oc=5",
-     "source": "Inquirer.com"
-    },
-    {
-     "title": "Commentary: New federal rules proposed for food stamps are inhumane - New Jersey Monitor",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtOGZJcm10UDFZeDJNU1E2dVI1YTVaU2FpUzVURnlXWVVTYXVLZ1RhbHVQM3lDRnZoV3RseTM0UWtqSU9SNWFlUEllQzdiUzdIZTFYR3Y5ODhsY004N0F1XzVwT0hMVDhCdmg1V2NHQ1NrWmRzby1icTRR?oc=5",
-     "source": "New Jersey Monitor"
     }
    ],
    "official": false,
@@ -171,55 +266,60 @@
      "outlet": "The Guardian"
     },
     {
-     "url": "https://www.inquirer.com/politics/philadelphia/democratic-blue-wave-congress-medicaid-snap-20261113.html",
-     "title": "In Philly, poverty experts see problems for newly elected Democrats hoping to fix Medicaid and SNAP - Inquirer.com",
-     "outlet": "Inquirer.com"
+     "url": "https://oklahomavoice.com/2026/11/13/proposed-federal-change-to-snap-puts-more-oklahomans-at-risk-of-going-hungry-advocates-say/",
+     "title": "Proposed federal change to SNAP puts more Oklahomans at risk of going hungry, advocates say - Oklahoma Voice",
+     "outlet": "Oklahoma Voice"
     },
     {
-     "url": "https://newjerseymonitor.com/2026/11/13/new-federal-rules-food-stamps/",
-     "title": "Commentary: New federal rules proposed for food stamps are inhumane - New Jersey Monitor",
-     "outlet": "New Jersey Monitor"
+     "url": "https://spectrumnews1.com/ky/louisville/news/2026/11/13/new-cuts-to-snap-proposed",
+     "title": "Proposed SNAP change could affect Kentucky families - Spectrum News 1",
+     "outlet": "Spectrum News 1"
     }
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "news",
-   "traffic": 20000,
+   "source": "google_news",
+   "keyword": "product recall",
+   "traffic": 0,
+   "article_count_24h": 71,
+   "article_count_1h": 6,
    "published": "2026-11-14T06:20:00+09:00",
-   "category": "기타",
+   "category": "Taxes",
    "news": [
     {
-     "title": "Morning news brief",
-     "url": "https://www.npr.org/2026/11/13/nx-s1-6035581/morning-news-brief",
-     "source": "NPR"
+     "title": "2 food recalls NC residents should know about before Thanksgiving - The Asheville Citizen Times",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNUppMnhPOHBsdnFNbkxtNnMxZU1aQ3JHVkFPcFRDQnczRnhaX05kWEM4WWFxOHBVTmdOTEZpTnBPNElXbVRzazFxWjFLZ2JEQzVLMHZMc2p3alVBUDFYaDhUOEFBb25yWjNfZTNGd2lBaWd0SlItWDhrZkh2X0ZKQTlXenBycnZLUHRyQTZFMGc4cHNvSGlhWjFqMkpLcmZFTFAyOU54ZDJzM1RreENNdg?oc=5",
+     "source": "The Asheville Citizen Times"
     },
     {
-     "title": "PODCAST: Nvidia spy probe, Russell Brand sentenced, Black Sea tensions (Updated)",
-     "url": "https://www.reuters.com/podcasts/nvidia-spy-probe-black-sea-tensions-cop31-2026-11-09/",
-     "source": "Reuters"
+     "title": "Consumer product safety recall roundup for November 13, 2026 - ConsumerAffairs",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR0dESnJuOW96alZzTVpyOEEwVk5Xd2tJTGhTMmtYTFU4RTJsMUJRUDZkNWxuMXZfNWN1VG13WUNUUVVqWDRZUmlMVW9vdWljS2EwR3lwQ1hSYjBPRFBQQjhNclNlYVpOU1pvcmYtbXh5Z0FlZEVBM2IycjdRVkdtc0tmVFozSEUtV1VsaVJZcWN3bWw4YzY0dDAyNFZ3THhWZ1Ria2dvZFY5MXZz?oc=5",
+     "source": "ConsumerAffairs"
     },
     {
-     "title": "Trump Spins Over Huge Midterm Defeat, Pulls JD Vance Off Iran and Nvidia CEO's Chinese Spy Sex Scandal",
-     "url": "https://abc.com/video/869d8f6d-d9ab-45fb-9694-4d0d2ad7db51/playlist/PL5523098420",
-     "source": "ABC Network"
+     "title": "Costco Just Issued A Recall For A Thanksgiving Dessert Essential - Southern Living",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSVNyUVZMcUFtNW9Pc1EyNjBqbUtZcmdLenJnZFV3c3VwZUE4dExiRUlydC10UUNYTFQ3dW1oZGR2RVlLX1lOQzB5MmZ6VU44TjNtN1dnb3pIanVRcHNhUkx0ajJsQWV2aTk5cHpGM1BUaGE0dXpqd3d3WG96ZzJ4dmlJWQ?oc=5",
+     "source": "Southern Living"
+    },
+    {
+     "title": "Whipped cream sold at Costco is being recalled because it could have cleaning chemicals inside - Fast Company",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb2NOQ3EzQndDV1d2MlVycDFZdnBOVmdhYWRyU19fQ1I2Sl9RcW9hY1ljQXNVR3doSnpXRW9zWFlPMGV1WW9hNWdOek5QZVdmRjlKZzFJbzBPNmNPZUV1cWRHc0pWc1Rfc3RiZFJaM3gwUU1ndndlb2h0b3ZnTm5Xdng2djZHSFB4ZDA1N1Jlb2tBY3Vid2dZbDFWbm01OVBwU0E?oc=5",
+     "source": "Fast Company"
+    },
+    {
+     "title": "Popular portable fire pit recalled for posing a burn risk - LiveNOW from FOX",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fbjdaTFRQTmdXRkhQbjNZc3R1NVFZaFpFYzYySFBmbWthYzBSMUo2TzE4YjJTMUZSQVpaQmxNOWJkT0JKdG0zNlliUVkwaGlZUXc0N0VJdU5iUVVrcHBXNEhkUFhiaWRuU0kyZ2NIVTFTQklVRXZn?oc=5",
+     "source": "LiveNOW from FOX"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 69.0,
+   "score": 75.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.npr.org/2026/11/13/nx-s1-6035581/morning-news-brief",
-     "title": "Morning news brief",
-     "outlet": "NPR"
-    },
-    {
-     "url": "https://abc.com/video/869d8f6d-d9ab-45fb-9694-4d0d2ad7db51/playlist/PL5523098420",
-     "title": "Trump Spins Over Huge Midterm Defeat, Pulls JD Vance Off Iran and Nvidia CEO's Chinese Spy Sex Scandal",
-     "outlet": "ABC Network"
+     "url": "https://www.livenowfox.com/news/portable-fire-pit-recalled-burn-risk",
+     "title": "Popular portable fire pit recalled for posing a burn risk - LiveNOW from FOX",
+     "outlet": "LiveNOW from FOX"
     }
    ]
   },
@@ -227,7 +327,7 @@
    "source": "google_news",
    "keyword": "medicare open enrollment",
    "traffic": 0,
-   "article_count_24h": 28,
+   "article_count_24h": 29,
    "article_count_1h": 4,
    "published": "2026-11-14T03:59:00+09:00",
    "category": "Health Insurance",
@@ -243,6 +343,11 @@
      "source": "WTVC"
     },
     {
+     "title": "Kupuna Power Understanding Medicare Open Enrollment - KITV",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQS3UxSmNseElYRmFienl3QXR4UjluRTF1U1haTE5DcXJQYmN6djhmcnNjbXlTa3JweHZuVVVhMkFfMzJaa25kajhNZEF4dy13Q2l0eUFyeTdCWDZxOEdCS2hVX29JUjMyRWFJeWRyOTBLWHNFTmdtWjR6b2pIR0NsdE1FWkdMX0RRZGdQWHIwOEF3OXFvTmlpMUYwVVRpYlpQN3hBOUt4eW9CUFZ5eEV3b2wtdHNmT1ZyVGl6M3NRUUxWUWZXQzcwUGdSdENWeTQxNUMybVlSTEtQcmRfSGdfd2x4MA?oc=5",
+     "source": "KITV"
+    },
+    {
      "title": "Help with Medicare Open Enrollment - WOODTV.com",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPb0l6R1cyQnV4eVVCcmtLYnhJOEdOb3BXWWZGSlBpU21YM09PSzAtemxXdTE5QW1qd3ZYNlBOTHlHT2lTcUhTNTZxRGlKd2xPdS1rLUdxenB3NGlvcGJfSjJYVUNFSnJfS2tVcllVMmJGX3NmcGhZ0gF8QVVfeXFMTW1YV3JLa2piSDg0M3h4TldOZllEOE1ZcV9GWVB4cGZpVmp5LVBPd2VQazAweUp2NFR6TVp1Qmc1R2stUlRaSFhJREtST1RRekMzYzh0YV9xTGpRR1o4MUx4RzEzc1dqcU5MdXg1X0wzQ1BzcE5QTE5ubUVidg?oc=5",
      "source": "WOODTV.com"
@@ -251,11 +356,6 @@
      "title": "Expect Some Changes to Medicare Advantage Plans in 2027 - ElderLawAnswers",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOGwtRlNWUnotamlpdEVRX0N3RGZvZnRaVlk1bG1Jbk42SHNsc3J4OHpfWWFfRHFlOUw0SnpvS0hEMEYzTHkwalhIWDJaXzY0YVIwSkJVUW1vS2o0MkpoZnlpaENTNVVzNlp5S21NYmhhRFpyWC1pNUc2cUpURFNfdnVreGVtajVDV2RLRkQ1OGlhRzB1b1hVdA?oc=5",
      "source": "ElderLawAnswers"
-    },
-    {
-     "title": "What's the open enrollment deadline for picking health plans for 2027? - Daytona Beach News-Journal",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU1JjbkJrRUtRYmdrOWJPQXV2VjVkRGpWcXY4NG85MlhUOURLNjFhVi1PSFpFYlFKdTdUbGFMaUQtNHR6MTNjR0twMXpqTUttQXVUd1BWdjhEYzY0aVlMTnljNVhzOXdGN2Qwam11bEtUejA4WE5uWHBjaXFVMTc3QUhPbzBjUVgxZHFCMmgtbTVxVG1ReGpPd21nX1EyZjlJTDd2OGZWYVB2YWtFUGxCT3Q4MA?oc=5",
-     "source": "Daytona Beach News-Journal"
     }
    ],
    "official": false,
@@ -268,6 +368,11 @@
      "outlet": "WTVC"
     },
     {
+     "url": "https://www.kitv.com/island-life/island-life-live/kupuna-power-understanding-medicare-open-enrollment/video_56b9b9ab-1e93-50c3-a836-09726b273741.html",
+     "title": "Kupuna Power Understanding Medicare Open Enrollment - KITV",
+     "outlet": "KITV"
+    },
+    {
      "url": "https://www.elderlawanswers.com/expect-some-changes-to-medicare-advantage-plans-in-2027-21752",
      "title": "Expect Some Changes to Medicare Advantage Plans in 2027 - ElderLawAnswers",
      "outlet": "ElderLawAnswers"
@@ -278,8 +383,8 @@
    "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
-   "article_count_24h": 49,
-   "article_count_1h": 13,
+   "article_count_24h": 50,
+   "article_count_1h": 25,
    "published": "2026-11-14T06:16:00+09:00",
    "category": "Elections",
    "news": [
@@ -299,14 +404,14 @@
      "source": "The New York State Senate (.gov)"
     },
     {
-     "title": "The Morning Risk Report: The Election Day Revolt That Threatens America’s AI Boom - WSJ",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcGotUzBHcWZiWWpvLUo0OW9HVU5Help1SnpPM3BKOUxfdVFrbHNxSy01U1VZaDl6TVFpTW5ybDJNOHlpclVnaWdGMWpOZWRlVDlCanNEOEYxcWZkQmZhYnRkbV9CdGFzWFk2RGtFaUdBY252MlE0ZHROTVNsM1pRUW00RGMzSW54VjJORTRkM1lGcU90QmFxRmtXWEIyM1pwaHZUV0x3MUJlX2tSanoxVXRiSnRfRmZYRGV1UHFXazJTY2lzWTRmSzRqdEc?oc=5",
-     "source": "WSJ"
-    },
-    {
      "title": "Prediction markets offered another way to forecast NC’s elections. But should voters trust them? - NC Newsline",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdDZhUVhYTU5FeV9VdW9yYThlRE9WTXVYVUVrLXZlYWZYalJEb2kxYlZQWTB2c2JWX1Zlc3dRUWNsLTBOOWFvTkpvdVV3MGZuc2NFZm1TM0VwdWxaeXN0Tkx6bTFWNTV5elcxNkp1WFRKQ2hMam9IbFg3eXBkS1ZLMy1wWjItLUlsanhneTBvcHVKUERxRmpDVWNaSS1oZXBVZjFtV1NXUnBMRUhwVHB6SWY5cW56T29nTkN0bEZtUE5FeHotRUlB?oc=5",
      "source": "NC Newsline"
+    },
+    {
+     "title": "It's election day in Utah. Here are 6 things to watch for - Utah Political Watch",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5nWE1jQ3pIaEVDVUtWZzRJblRPZnM3UkYzNmYzaGVGbkROS3N5amdlRDBkRWF2Y2lOaG15aFNyLXNvVXFUV00xSGdOSHhQSGFIdWhOUnlMNS0zc21ERy1oUHNWeXpweVJlVVkzVWVscmpUdWJnRUg0b0U3X3A0Zw?oc=5",
+     "source": "Utah Political Watch"
     }
    ],
    "official": false,
@@ -327,67 +432,11 @@
      "url": "https://ncnewsline.com/2026/11/13/prediction-markets-offered-another-way-to-forecast-ncs-elections-but-should-voters-trust-them/",
      "title": "Prediction markets offered another way to forecast NC’s elections. But should voters trust them? - NC Newsline",
      "outlet": "NC Newsline"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "early voting",
-   "traffic": 0,
-   "article_count_24h": 20,
-   "article_count_1h": 7,
-   "published": "2026-11-14T06:00:21+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-     "source": "NBC News"
     },
     {
-     "title": "Black voting advocates in the South say the midterm surge was not just a ‘blue wave’ - Louisiana Illuminator",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OdG9jSTNQc3U3SXFWLU4wb3R6aGZDa2J1dWRLc1FvVVZISk9GNERqM0VxbXNUX1lTSFMyOElWS2Rub3pzNm1oUlhFMGNBeHdfclRGYWJKRVU1WVJPNUJN?oc=5",
-     "source": "Louisiana Illuminator"
-    },
-    {
-     "title": "Election laws in Pennsylvania could change drastically next year - Votebeat",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1V3TGdYRWk1c3FyM01DR0p2TUtCbUY4dkVJcTY0SF9zdGpSa3B5RWs5SlVPMkRmc2FiVVo4UjNjRTV2Y1RXWnhXTUdOWjZfNklNbEY0SkJzMXVYLW0xSXJRd1kxRW9Oazg5bzZWQ0lETC0waDRVQk1YZXhyZjIxTFdURUctMEgzdWFBY25ZazNtXzh1N0dfQlBqZ29OYS1MY1haZURzZw?oc=5",
-     "source": "Votebeat"
-    },
-    {
-     "title": "Board of Elections certifies 2026 General Election - Mountain Xpress",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSmJubTZ4cGtYYjRFTnNNdkdqdTFKX0VqOHB0c2J0M0V1ZlVKWWlTNFlxOVJoWHdoZzRLYTBrRld0MHItckdJMU1Xd0ZvRGxoYnppOEM1U3VPRndtUWV0R1FfcUQ5TlkzQlRuMEhzU3VoZ2ZfQk5Wc2s1N1BpSDFmSWxkdUVKT0hMWmc?oc=5",
-     "source": "Mountain Xpress"
-    },
-    {
-     "title": "Buncombe County midterm election results officially certified - 828 News Now",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVXhHaUc0c3NVdEFsc29xWHVnR0xkNGlZM0czaVlKbS1icEJkRWEzYTRrZ0JETko0enFYNUhJVzVjS1NXdXBuaFM3MDhUSzVrcjhCNnRsM09JMVRxYXgwZDVrd2xsOHhZYW9wTmdYUzNtSlc3Rk4wVkhiQU5rR0RRSnlLamlvWkpURXp5bkJYZnRhRktGV3otVHh3NWhTZw?oc=5",
-     "source": "828 News Now"
-    }
-   ],
-   "official": false,
-   "score": 65.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "outlet": "NBC News"
-    },
-    {
-     "url": "https://lailluminator.com/2026/11/13/black-voting/",
-     "title": "Black voting advocates in the South say the midterm surge was not just a ‘blue wave’ - Louisiana Illuminator",
-     "outlet": "Louisiana Illuminator"
-    },
-    {
-     "url": "https://www.votebeat.org/pennsylvania/2026/11/13/election-law-legislature-priorities-democrats-trifecta/",
-     "title": "Election laws in Pennsylvania could change drastically next year - Votebeat",
-     "outlet": "Votebeat"
-    },
-    {
-     "url": "https://828newsnow.com/news/228822-buncombe-county-midterm-election-results-officially-certified/",
-     "title": "Buncombe County midterm election results officially certified - 828 News Now",
-     "outlet": "828 News Now"
+     "url": "https://utahpolitics.news/p/utah-legislature-election-2026-races-to-watch",
+     "title": "It's election day in Utah. Here are 6 things to watch for - Utah Political Watch",
+     "outlet": "Utah Political Watch"
     }
    ]
   },
@@ -395,11 +444,16 @@
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 72,
-   "article_count_1h": 7,
-   "published": "2026-11-14T03:16:00+09:00",
+   "article_count_24h": 75,
+   "article_count_1h": 6,
+   "published": "2026-11-14T06:04:11+09:00",
    "category": "Recalls",
    "news": [
+    {
+     "title": "More than 720K BMW vehicles recalled for fire risk; owners urged to park outside - THV11",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObDk1X0hZSTU5bXptQk56a3BrbExmNVVLTXJoX0tVOUczLTh3OGJwNDhkakFBUDhUbnMwS2ItSnpWbGdJVG1xRXAwaHUyd3VPbGlpSGRwNGdYME5QeFZ1dk1EbVk0UXpMT2tlM0h2SXBPV2paZVdoLWVTb2I4TEg5cVIwcF9vaGZlR2gyVHNZVFZrNnM4a3BQR3VXWmJrY185R043b1M5VnNUMUVNNjctbVBOcVRIRG5sZXVaaWJTd2YzNUczc2VrSHNqZjJlLU9ablptSWRTN0xWS0VweVE?oc=5",
+     "source": "THV11"
+    },
     {
      "title": "720K BMW cars recalled with fire risk warning. See impacted models - USA Today",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdlAtSTE3TUxUdHdxTnBST2haZWs5bGRCX3B4RzZlMkJETndTQWZGeHMtZkFJb3hFWmV1SUdJVC1STDFCcUg0ZXJVdVBwUWdzd1oxQjVvZHV2TU1tZks1d05kVnd5djBUdURvZjh5N1Z0MXloa3BXaGpJdzJrMkcyNDBIUm5iOHhXamVNR0xQdW9ib1pyUC1ScDNYOUYzUXhIbHBoRUhEOWxhdw?oc=5",
@@ -411,19 +465,14 @@
      "source": "Consumer Reports"
     },
     {
-     "title": "BMW recalls 720K vehicles over fire risk when off - NewsNation",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbXJESllHWDQ5NE5KenE2eXBOSlRLazJyVjJTcEx5MGNqMVJvTVZzaFcyUlZWbndrZGF3OGdZV2U4blhiVU4xb3J6cmpybUR4WGZkcW43MDlZeG9mWndRMDJaTTYtN1JWLVY1RkxmMjRSUnQwWllRUEFqZlhHek1wVnhDQVdzSldqT3dLa2MtblhCd9IBlwFBVV95cUxQaGNBYkRPTnEyRGk5YW53SXE2T2hLcDMxXy1uUWtyLTJNblBQS2Z2YVZNN3VIRkgyR1VsZEtBWE5HYnBpb0xOREtpYWZoMUJCMGxXNE5uOGxCMGdZbHNhUVZ6NHE1YnFJNnlvQ1dmbTN4VWVPckhCalJJM3FhWlNMMDRSVlFQTjBVMmpyNkxKV3Bsak9jdHlF?oc=5",
-     "source": "NewsNation"
-    },
-    {
-     "title": "More than 720K BMW vehicles recalled for fire risk; owners urged to park outside - wtsp.com",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeVhBNGxuZEgxVzF0Rlc4X0ZGS0hGUWFXMWhCTXA2cUQxV0JseU5vWnhNeDEzLUhlc05ITnQ2MFNrdmZtQl9Mbm9PZ24tWDFhRE5zdy0yV01YMzdIclFuQnFRYkc2c3dUYjRyVlNNWU5rVGRLV1hucFk4MG9wN2dySU5rbkQ0a3hZd190X09RdXlMbW5NZDFhdmQ1VUh3WWJ1cUtVUG1wVHlRSmR6dkJMdW1VcHpTZ3RpSVNEVGxnS1k1WmtIR1N4d0xNYUE3YXRyV0JyQV9feHNUU3ho?oc=5",
-     "source": "wtsp.com"
-    },
-    {
      "title": "Toyota Recalls Over 300,000 More Cars Due to Takata Airbags - Kelley Blue Book",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMUJSNUl6a0pIcWo3Q2lnTHlOb1JkYU5iei1fMzVXRjdqbGlqNi02UFhDT3ZyU0lHaGlKZmJrQ1ZOSm1pX3NiSWRfNUtBX2R4d2NpWWF3ZU9Bd3dDRkZXbDFBREdOSVhrc0lzaTZrYnd3OFJwOHlOaVd6Ym5oa2FkSjBnNW1EaGFCUDJpM0xfMnV4Zw?oc=5",
      "source": "Kelley Blue Book"
+    },
+    {
+     "title": "More than 720K BMW vehicles recalled for fire risk; owners urged to park outside | kvue.com - Howl.Link",
+     "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1OSmJKQ3lGbkhZX0FmLWt1NUJEaV9acmNoLWlZNlJPTjRZdlc2UWZwd2Ftd3AtMmZLdlpR?oc=5",
+     "source": "Howl.Link"
     }
    ],
    "official": false,
@@ -446,8 +495,8 @@
    "source": "google_news",
    "keyword": "IRS refund",
    "traffic": 0,
-   "article_count_24h": 22,
-   "article_count_1h": 3,
+   "article_count_24h": 24,
+   "article_count_1h": 2,
    "published": "2026-11-14T05:02:00+09:00",
    "category": "Taxes",
    "news": [
@@ -478,7 +527,7 @@
     }
    ],
    "official": false,
-   "score": 63.0,
+   "score": 57.0,
    "already_covered": false,
    "evidence": [
     {
@@ -507,8 +556,8 @@
    "source": "google_news",
    "keyword": "social security COLA",
    "traffic": 0,
-   "article_count_24h": 19,
-   "article_count_1h": 7,
+   "article_count_24h": 17,
+   "article_count_1h": 6,
    "published": "2026-11-13T23:00:00+09:00",
    "category": "Benefits",
    "news": [
@@ -566,57 +615,62 @@
   },
   {
    "source": "google_news",
-   "keyword": "federal holiday",
+   "keyword": "early voting",
    "traffic": 0,
-   "article_count_24h": 25,
-   "article_count_1h": 18,
-   "published": "2026-11-14T03:30:00+09:00",
-   "category": "Holidays",
+   "article_count_24h": 21,
+   "article_count_1h": 3,
+   "published": "2026-11-14T06:30:21+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "What's open on Thanksgiving? Grocery, USPS, FedEx, UPS hours - The Columbus Dispatch",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNblBmT0tXVDRRejJ4VEF2RWFHMEpqMUVqUkRfVHhqZTJXblR6aFFCeVpma01XRURtWmsyNUVTVVZWYzdrQVdSS0s2eGNjU3NhRXRvd0J5T2FwRUIwX1ZCenBwcEQ5LUhCX3JkZG9HWTVQclEtcUJOdDh1bUJWU2tpWF8tZTFrMXJuNFZraWlLcXRrWWFtSVMwLW5JLVZidmtmbEtlSXdkTXdjNWxTZWNRSTJzMC05RXViVUxBR2RjMEItcVk2SFFMV2x2N1B3WEhFTUE?oc=5",
-     "source": "The Columbus Dispatch"
+     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+     "source": "NBC News"
     },
     {
-     "title": "What's open and closed on Thanksgiving? Will mail be delivered? - Lexington Herald Leader",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tQlozQkwwMWZSUDFjSTk0WDB3VjdDcWlxMHBLZHdpdHBDMmNsWHVUb0FFODZfakJlMUwyNHk5a3R2S1pxSzdVSW1rVGJjR2V2cGhmTnljTHpQT2VvWTBFYmRJX2duS25GVFU0QjMtelBaWUxacTM1UmVra1NOQQ?oc=5",
-     "source": "Lexington Herald Leader"
+     "title": "Black voting advocates in the South say the midterm surge was not just a ‘blue wave’ - Louisiana Illuminator",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OdG9jSTNQc3U3SXFWLU4wb3R6aGZDa2J1dWRLc1FvVVZISk9GNERqM0VxbXNUX1lTSFMyOElWS2Rub3pzNm1oUlhFMGNBeHdfclRGYWJKRVU1WVJPNUJN?oc=5",
+     "source": "Louisiana Illuminator"
     },
     {
-     "title": "Democrats quickly push for recognition of Islamic and Hindu holidays - Heartlander News",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYTRCemN2Q2d3VWIxaGNZMEVJUlo4Q2xLTjVQN1lOdUdhMWpURDNZSG4wVHQ3LXliMGxkV21HdFpsWklDSkhfZFQxUE5GazltR28tTlc4bHVVMG9HMWNvMnZicGFSX2Q4aWFSdllDdG5EcFdJTHZGRVNJbFBRd2ttUzA3NzhZeENxbzlUOEd0Z1VvYW91LWVZRjluMWttUQ?oc=5",
-     "source": "Heartlander News"
+     "title": "Election laws in Pennsylvania could change drastically next year - Votebeat",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1V3TGdYRWk1c3FyM01DR0p2TUtCbUY4dkVJcTY0SF9zdGpSa3B5RWs5SlVPMkRmc2FiVVo4UjNjRTV2Y1RXWnhXTUdOWjZfNklNbEY0SkJzMXVYLW0xSXJRd1kxRW9Oazg5bzZWQ0lETC0waDRVQk1YZXhyZjIxTFdURUctMEgzdWFBY25ZazNtXzh1N0dfQlBqZ29OYS1MY1haZURzZw?oc=5",
+     "source": "Votebeat"
     },
     {
-     "title": "UAE announces three-day federal holiday for 55th Union Day - Gulf Today",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeXVMcDRna3BkSTh5ajBteXlEWWp3UUdoVkx3WkFIV21HT25mdzhlY3Z4UGtobXN5VmRWdmlwSnlLYmI2UVg2N2hOVmU4ZHZOZnVhS1hKRWF0ZlE5NEFVenpKOG5NcFVaVjRPUW05ajFhbVRSR3hEblMxLVBpWXNBMTJxRWJnUDQyckF4bEQ3ZThiRDJ3aFZvM2ZGNUJYdTJn?oc=5",
-     "source": "Gulf Today"
+     "title": "Board of Elections certifies 2026 General Election - Mountain Xpress",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSmJubTZ4cGtYYjRFTnNNdkdqdTFKX0VqOHB0c2J0M0V1ZlVKWWlTNFlxOVJoWHdoZzRLYTBrRld0MHItckdJMU1Xd0ZvRGxoYnppOEM1U3VPRndtUWV0R1FfcUQ5TlkzQlRuMEhzU3VoZ2ZfQk5Wc2s1N1BpSDFmSWxkdUVKT0hMWmc?oc=5",
+     "source": "Mountain Xpress"
     },
     {
-     "title": "UAE National Day 2026: final long weekend of the year confirmed - Condé Nast Traveller Middle East",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSFNaSjhpNGRDY1VIWGxzc1MxMHJZT2JLQWtTeHF5bU5pWm9QWlVOVUUyWlJnaUxDbXUtUHV2T29BS2YtUTB3TmhYQlJtejZHVzNtTmpBSGtRN3BCMzc3ZTlSNEVpX2xodDgzRDRiTUtmampJWVFQMGtlOGU2d2NTdnRNRDJVQ1ZZRExjc2w2b093S0NzV0hTdUZlemgydkU?oc=5",
-     "source": "Condé Nast Traveller Middle East"
+     "title": "Buncombe County midterm election results officially certified - 828 News Now",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVXhHaUc0c3NVdEFsc29xWHVnR0xkNGlZM0czaVlKbS1icEJkRWEzYTRrZ0JETko0enFYNUhJVzVjS1NXdXBuaFM3MDhUSzVrcjhCNnRsM09JMVRxYXgwZDVrd2xsOHhZYW9wTmdYUzNtSlc3Rk4wVkhiQU5rR0RRSnlLamlvWkpURXp5bkJYZnRhRktGV3otVHh3NWhTZw?oc=5",
+     "source": "828 News Now"
     }
    ],
    "official": false,
-   "score": 55.0,
+   "score": 54.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://heartlandernews.com/democrats-quickly-push-for-recognition-of-islamic-and-hindu-holidays/",
-     "title": "Democrats quickly push for recognition of Islamic and Hindu holidays - Heartlander News",
-     "outlet": "Heartlander News"
+     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
+     "outlet": "NBC News"
     },
     {
-     "url": "https://www.gulftoday.ae/news/2026/11/13/uae-announces-three-day-federal-holiday-for-55th-union-day",
-     "title": "UAE announces three-day federal holiday for 55th Union Day - Gulf Today",
-     "outlet": "Gulf Today"
+     "url": "https://lailluminator.com/2026/11/13/black-voting/",
+     "title": "Black voting advocates in the South say the midterm surge was not just a ‘blue wave’ - Louisiana Illuminator",
+     "outlet": "Louisiana Illuminator"
     },
     {
-     "url": "https://www.cntravellerme.com/story/uae-national-day-2026-final-long-weekend-of-the-year-confirmed",
-     "title": "UAE National Day 2026: final long weekend of the year confirmed - Condé Nast Traveller Middle East",
-     "outlet": "Condé Nast Traveller Middle East"
+     "url": "https://www.votebeat.org/pennsylvania/2026/11/13/election-law-legislature-priorities-democrats-trifecta/",
+     "title": "Election laws in Pennsylvania could change drastically next year - Votebeat",
+     "outlet": "Votebeat"
+    },
+    {
+     "url": "https://828newsnow.com/news/228822-buncombe-county-midterm-election-results-officially-certified/",
+     "title": "Buncombe County midterm election results officially certified - 828 News Now",
+     "outlet": "828 News Now"
     }
    ]
   },
@@ -624,8 +678,8 @@
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
-   "article_count_24h": 22,
-   "article_count_1h": 9,
+   "article_count_24h": 23,
+   "article_count_1h": 14,
    "published": "2026-11-13T13:00:00+09:00",
    "category": "Taxes",
    "news": [
@@ -678,195 +732,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "product recall",
-   "traffic": 0,
-   "article_count_24h": 71,
-   "article_count_1h": 8,
-   "published": "2026-11-14T00:35:40+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "Consumer product safety recall roundup for November 13, 2026 - ConsumerAffairs",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR0dESnJuOW96alZzTVpyOEEwVk5Xd2tJTGhTMmtYTFU4RTJsMUJRUDZkNWxuMXZfNWN1VG13WUNUUVVqWDRZUmlMVW9vdWljS2EwR3lwQ1hSYjBPRFBQQjhNclNlYVpOU1pvcmYtbXh5Z0FlZEVBM2IycjdRVkdtc0tmVFozSEUtV1VsaVJZcWN3bWw4YzY0dDAyNFZ3THhWZ1Ria2dvZFY5MXZz?oc=5",
-     "source": "ConsumerAffairs"
-    },
-    {
-     "title": "Costco Just Issued A Recall For A Thanksgiving Dessert Essential - Southern Living",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSVNyUVZMcUFtNW9Pc1EyNjBqbUtZcmdLenJnZFV3c3VwZUE4dExiRUlydC10UUNYTFQ3dW1oZGR2RVlLX1lOQzB5MmZ6VU44TjNtN1dnb3pIanVRcHNhUkx0ajJsQWV2aTk5cHpGM1BUaGE0dXpqd3d3WG96ZzJ4dmlJWQ?oc=5",
-     "source": "Southern Living"
-    },
-    {
-     "title": "2 food recalls NC residents should know about before Thanksgiving - The Asheville Citizen Times",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNUppMnhPOHBsdnFNbkxtNnMxZU1aQ3JHVkFPcFRDQnczRnhaX05kWEM4WWFxOHBVTmdOTEZpTnBPNElXbVRzazFxWjFLZ2JEQzVLMHZMc2p3alVBUDFYaDhUOEFBb25yWjNfZTNGd2lBaWd0SlItWDhrZkh2X0ZKQTlXenBycnZLUHRyQTZFMGc4cHNvSGlhWjFqMkpLcmZFTFAyOU54ZDJzM1RreENNdg?oc=5",
-     "source": "The Asheville Citizen Times"
-    },
-    {
-     "title": "FDA issues recall for honey dietary supplement over undeclared ED ingredient - The Hill",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQanROOGJvZHVScEhGRHMtRzlZalBIUERQb2g1ZW5rdGgtRGhJbnkwd0lxOGl5dnpMOWhweFdHUzA1dTV0SkVaVXhMODBPWHJ3NFEzQVVYMTRFYnZxb056NVBnM3hpamlfNlRVNnplUjM4ZFNidVVLWFNrNTBJNW9XX0h2d0dpVGxaVUdCZEYzY2hMYUsxUGZDOUlQeTBtb0hPTGhjd1E0MDRzY2Z00gGyAUFVX3lxTE9uOVhwcWVwb1JuMl9xaHhwdjNsMnBzN2ZCNDhQRS02NTlLTTd5S2syOGkwaDhhcU0zY3VGYmh6Xy02ZEUzNmxiMG5peWYyQTJKYWN6LWhYRmdRX2V5NVcxTkdrNUNQWm9IeWl1b3Fzbzg5Z25aalNKQWZNVDF0eFpJbk1rVG9XZlh0dUZjNXZhNjl1VjVFbEZ2d21FUktYdUo0eUtCSk5QeFVmUHpVMmd1UEE?oc=5",
-     "source": "The Hill"
-    },
-    {
-     "title": "Popular portable fire pit recalled for posing a burn risk - LiveNOW from FOX",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fbjdaTFRQTmdXRkhQbjNZc3R1NVFZaFpFYzYySFBmbWthYzBSMUo2TzE4YjJTMUZSQVpaQmxNOWJkT0JKdG0zNlliUVkwaGlZUXc0N0VJdU5iUVVrcHBXNEhkUFhiaWRuU0kyZ2NIVTFTQklVRXZn?oc=5",
-     "source": "LiveNOW from FOX"
-    }
-   ],
-   "official": false,
-   "score": 45.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.livenowfox.com/news/portable-fire-pit-recalled-burn-risk",
-     "title": "Popular portable fire pit recalled for posing a burn risk - LiveNOW from FOX",
-     "outlet": "LiveNOW from FOX"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "ACA open enrollment",
-   "traffic": 0,
-   "article_count_24h": 7,
-   "article_count_1h": 1,
-   "published": "2026-11-14T02:35:00+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "Open health insurance enrollment: What it means for your taxes - KTRE",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNGRuTTYwVUNVQTROVnp4TVNha3pfX2NBOUtLVDlZUk8tV09Hc0NudXV1U3FzcV9WV0VLNjFQWW92V0tncW5VbE0zcThBYWE0MzFLOVRPY0otMm1pQ0dpazFpRDBrVXZWOXpxSi00dkNTTS13RVlQZ29kcGdyTHc4RHhQMEcyREtfeG5qN2MyZ0ZLNllz?oc=5",
-     "source": "KTRE"
-    },
-    {
-     "title": "What's the open enrollment deadline for picking health plans for 2027? - Daytona Beach News-Journal",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU1JjbkJrRUtRYmdrOWJPQXV2VjVkRGpWcXY4NG85MlhUOURLNjFhVi1PSFpFYlFKdTdUbGFMaUQtNHR6MTNjR0twMXpqTUttQXVUd1BWdjhEYzY0aVlMTnljNVhzOXdGN2Qwam11bEtUejA4WE5uWHBjaXFVMTc3QUhPbzBjUVgxZHFCMmgtbTVxVG1ReGpPd21nX1EyZjlJTDd2OGZWYVB2YWtFUGxCT3Q4MA?oc=5",
-     "source": "Daytona Beach News-Journal"
-    },
-    {
-     "title": "Open enrollment season: Experts share tips for saving on health insurance - WTAE",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORElReFotZ2hEY1FkQkpfZ2dvQjdPck16dnQ0X0hTam5LdFd3enllNE9yeFdKWFdwNDEyODdXcWx3TXhUSGVHdlA1Q0w1ZU5hZjhSV0tyNkdZWk9MR0lTcDdLYm5pU0ZJRURDWVpkQVJnMzk5b3dsZVNUNUpudVYxbnU0RC1TaU0wRzYyeVl0Y1h2U3M?oc=5",
-     "source": "WTAE"
-    },
-    {
-     "title": "Open health insurance enrollment drawing strong interest in Massachusetts - WWLP",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOWZ4UGpOWnlRYU0xZ2hXSDlQUFdFSUNLTExPd2NqOHFsVUtYZnJlUlpNeHF5WFpBZHJQWTI0c2xHemhYREdPeC1kTnFybUFfaVdGRW9xX0tucUExYU9IM2MyeUV3TkdRX0Iyc29DVmtZQ2xKMHFBbS03LVZMVnNNZDV5YmZwa0tiZ0E4ak5GODdqWWE3ZFhEbmxKZURfb2tZV3hoMW1zZndGWnp2UFJnVFJhVW83eEluTXfSAboBQVVfeXFMTTlmeFBqTlp5UWFNMWdoV0g5UFBXRUlDS0xMT3djajhxbFVLWGZyZVJaTXhxeVhaQWRyUFkyNHNsR3poWERHT3gtZE5xcm1BX2lXRkVvcV9LbnFBMWFPSDNjMnlFd05HUV9CMnNvQ1ZrWUNsSjBxQW0tNy1WTFZzTWQ1eWJmcGtLYmdBOGpORjg3allhN2RYRG5sSmVEX29rWVd4aDFtc2Z3Rlp6dlBSZ1RSYVVvN3hJbk13?oc=5",
-     "source": "WWLP"
-    },
-    {
-     "title": "Mission Moment November 2026 - American Lung Association",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01LW50T1FiVVJCcXZVS0xWRjFtdmttUkZuS01KRjEwQndXN1VCN1BLd01GUVFxemU0S204b1pKcW9UN2RwY3JzdFFNOWZ0Q04ydElaZ1hUWldiZw?oc=5",
-     "source": "American Lung Association"
-    }
-   ],
-   "official": false,
-   "score": 37.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.ktre.com/2026/11/13/open-health-insurance-enrollment-what-it-means-your-taxes/",
-     "title": "Open health insurance enrollment: What it means for your taxes - KTRE",
-     "outlet": "KTRE"
-    },
-    {
-     "url": "https://www.wtae.com/article/pennsylvania-health-insurance-rates-open-enrollment/74406834",
-     "title": "Open enrollment season: Experts share tips for saving on health insurance - WTAE",
-     "outlet": "WTAE"
-    },
-    {
-     "url": "https://www.wwlp.com/news/massachusetts/open-health-insurance-enrollment-drawing-strong-interest-in-massachusetts/amp/",
-     "title": "Open health insurance enrollment drawing strong interest in Massachusetts - WWLP",
-     "outlet": "WWLP"
-    },
-    {
-     "url": "https://www.lung.org/blog/mission-moment-11-26",
-     "title": "Mission Moment November 2026 - American Lung Association",
-     "outlet": "American Lung Association"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "LIHEAP",
-   "traffic": 0,
-   "article_count_24h": 9,
-   "article_count_1h": 1,
-   "published": "2026-11-13T23:58:32+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "New England Governors seek additional $3B for LIHEAP – ABC22 & FOX44 - MyChamplainValley.com",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVGlLano1UV94UTFLamFLenBWNmxLTXlBYkdUMFpQd0VvR2VkcFlDeHg2cHJ3bGhrTm5FZE9reEd5V2tCdWFuN1A1LUxmU3B1ZExDYkhFUWhFMm9FLU9oTVpIMDdmaXlFZXhBM0kzYnI5aUxmRDA5NWJtQkdQTmY0X0szb0U0Y1I0SWZQT3FPNW1EbmRrUmJFd3Z4cEtyRERsMGE4?oc=5",
-     "source": "MyChamplainValley.com"
-    },
-    {
-     "title": "Shelby County utility assistance program applications open Monday for eligible residents - FOX13 Memphis",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOM3dHSE56NVRhZ2tORGRaeVNLQVZfZTFZaHVyYkJGaGVfdVlrRkF4RVRUSjZWNWVmYWh1bmZXeFdHNk05WHZTRXhmRGxvTG9UWjNXVk10NkhKUnpXN2RtVU5uQ1Y2SWQ4MFc4cjZiSWJXNjVQV3JMZkk4d3NDUmthOWROOEhUa0xSbjZrbDZtOHFBdGVwWWxkT3MwRmZqUzNKcXNVY3B3SE9PM0xaNmpJRzJFWHZyZ3R3X3JydGt1SDE4NjZaY0ZFbldlWU9hR2VNUXhnd2h4YThqS1JUZzJKZUU1WFNvOVhUVEJPbkhmdEJDX0FyMXN5Q0NyRS1TTmYtVGc?oc=5",
-     "source": "FOX13 Memphis"
-    },
-    {
-     "title": "Fuel vendors continue to leave CT’s winter heating program - News From The States",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUjduQjZGUloxQXI5OU51NV8tMEJhbThUZ0hNZ0NTSzRSakhSaUphT2pXdC00cUlhTnIzODZJcTR1bzY4T3UtOG9INFg3YldYVDg0M0NnYnRfamlMNkZGZzhJcm1mZFBQT1hWRWNUM1YydWZCeGlFWnZwZFhwOWJJMndTd2JvZzBLbVN6aGgwVnVCX2Y3NHppRTB6SFE?oc=5",
-     "source": "News From The States"
-    },
-    {
-     "title": "As temperatures drop, heating costs expected to rise this winter - CBS News",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObTBwVW53ZmUzcHNtdTBvTjdMMzQ0VGx5TXlaQmx5UTRtLXRZSng3UUt0Y3ROZzV3T1F4NVZObEI1MF9LM0tncWhzd1VFbWs3NmlUSVBpTEN6V3NKV3hNRUpNRUc4elI2Z1lmMEVwV3JYMWNJbm9YVjI2SGN3R3B6OHZPT1VKcWR6QlJkZHY5SFEzZTIwdGxhaENHWjI?oc=5",
-     "source": "CBS News"
-    },
-    {
-     "title": "New Opportunities Taking Applications for Giving Tree - Raccoon Valley Radio",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLTVCQ3lnOGU2ajZ0aGYxR1BMSjNGTnJxcDFDcVJlUUVLdUoxcHlXbjhBZGpfV0s0QWw4bzdNSGotbHVjbGY3RzQtX1NHVy1pMXRVSVZnZWU1WGtMRFdmcG5SalYzQURhaDA0MzZsSTNsWDMwTjFNM1dtcnRQSWlkWURrUWE2Zm9fVG5EaGxSdWI2b1hYNkUwUXNzRk0zcXpPNnc?oc=5",
-     "source": "Raccoon Valley Radio"
-    }
-   ],
-   "official": false,
-   "score": 34.7,
-   "already_covered": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "SSI payment",
-   "traffic": 0,
-   "article_count_24h": 10,
-   "article_count_1h": 0,
-   "published": "2026-11-13T18:05:48+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "When do Social Security and SSI benefits go out in November 2026? Complete payment schedule - Diario AS",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZWhZV2xqRjJTSFhNN0lWWVc1ZkhFNjhSWjNsb2tQLXVrUG9QdVNBdEdSdWlfWnJ0VW1XVnNMZ0pUY1kxYjZHYzRWSXlyNzFZWDVIbTdQMXMwQmV2N2xUeDZlMS03ZDF5QzBZbUR3WnY2SUFRZ2hpeXgwVDEzTVNfQUdXeDUtdzBnTmJvZ1dfSk5Kelh2TWRET2xEMmU4SGc0eXBpVXRLaV9zbXpjSW8xTGVPWGVSQXZnOWVNWUN1Y0poMFFIMlJMQXhWVXNleFNmb1hVX1Yyb3RyOHU0T1Mw0gHfAUFVX3lxTE9laFlXbGpGMlNIWE03SVZZVzVmSEU2OFJaM2xva1AtdWtQb1B1U0F0R1J1aV9acnRVbVdWc0xnSlRjWTFiNkdjNFZJeXI3MVlYNUhtN1AxczBCZXY3bFR4NmUxLTdkMXlDMFltRHdadjZJQVFnaGl5eDBUMTNNU19BR1d4NS13MGdOYm9nV19KTkp6WHZNZERPbEQyZThIZzR5cGlVdEtpX3NtemNJbzFMZU9YZVJBdmc5ZU1ZQ3VjSmgwUUgyUkxBeFZVc2V4U2ZvWFVfVjJvdHI4dTRPUzA?oc=5",
-     "source": "Diario AS"
-    },
-    {
-     "title": "Official calendar confirms it | On Wednesday, Nov. 18, the SSA will send Social Security payments to eligible beneficiaries born between the 11th and 20th of the month - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxONmNXdEQ5YzlVby1hQ0ZDeEFsd3FZY29yVjY3enI0bktDMWpEZDdMeW13RzlrLTg1Z0c5ZFE5MHdLeENFMFA0NkdadC1yd2hKVURfRTdIYloyeWxjZ1E2VGE3SGJ3Y1Fja1RsX1RfSlpRSmVJajFKWS1IY3VqSTNNSVdnekdjSFBuekxoR1JnUV83dkFmNnB6LXBiMnR5YmpWTV9KZFVLQjdxWDlpWUJPRkRWbUViUGtmU2tkb2pUVkJpTHcwSmVIblIwRTBQSEsyTDBYYjJhVnhUdlBDYXdRODNCNU5fN3JDZTJwNll5M09wbkV6WE9zSHFxcUl3UEdXazF1LVh6dXRUY0NsSmZZbEZBTWxiLUUyNTAzVjQ4cGlEX0NlV3c?oc=5",
-     "source": "El Cronista"
-    },
-    {
-     "title": "These Social Security Changes Take Effect in Less Than 10 Weeks - Here’s How To Prepare - FinanceBuzz",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fckFvNkY0MWYzY3RKSVVULUlyNGdUeEZUXzdyRlZVOEk4Ql90bTVxRzhKU3poaWxZWE5sYTlKc3d0X2s2WVlyT0dQUE1ZZmNmblI5cFl5S2JYTm5CMTZrUWxENldrTmtSY042aFROWl9WX1dsc3dB?oc=5",
-     "source": "FinanceBuzz"
-    },
-    {
-     "title": "Notice CP91 | The IRS can withhold up to 15% of retirees’ Social Security benefits if they have this tax status - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYVdxQ2RQcFNTOGpDYm85dzFaYUdVMGhLVkZlbk5Hb2lBSzhvM0JLdDAyRFJjZWRsaGRsT2VvYm9lZHFhV01mbjR3MXRPQ0RsQVI5ZnhxQXl6NWZLODZoOHNlNFNoYTAwN1NkZnVGYlZtTi1CamJqcWdqZmRCOTB2eXNYRUpVOThJYjF5SDlhdlJSUVR6UlhzZFZtbFpvVDB0bzhMbzFZc3cyRzItbDBCaktPYUtBSHE3LTdWbW1uVjdkTF9nT00zMGh0RUJqUjJ5eVdhN0NMNjFVYUEz?oc=5",
-     "source": "El Cronista"
-    },
-    {
-     "title": "How Social Security could have avoided a 2030s funding gap and paid full benefits until 2059 - Diario AS",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcHZsOXhvQm94LVJaMzdFMVFvRHg1VXAwcS1LNHNzc2dFLWZ0TnpvX2F6UUVMTFJfNE9sMFYwSVpsMmh1dEU1bmFuMXpfb3R0ckdKYjNvenhVOExSYTZmYlNaS2hob2QtTmFHXzEycVFqUEViWWJOUjg0Z25sMWJXVWYydWxtMFJ1Z2pGR2NEX0w5THdIYkI1eTRGbUQ5TFRDRjQxelZoRnNIQmdpYm9fYXM2bms4NkhvdUp5LVA0ZU1JMEJ1NEwwMHpzeVFYRkkwa20zVlVuVHh0RDRuamNFODd30gHiAUFVX3lxTE1wdmw5eG9Cb3gtUlozN0UxUW9EeDVVcDBxLUs0c3NzZ0UtZnROem9fYXpRRUxMUl80T2wwVjBJWmwyaHV0RTVuYW4xel9vdHRyR0piM296eFU4TFJhNmZiU1pLaGhvZC1OYUdfMTJxUWpQRWJZYk5SODRnbmwxYldVZjJ1bG0wUnVnakZHY0RfTDlMd0hiQjV5NEZtRDlMVENGNDF6VmhGc0hCZ2lib19hczZuazg2SG91SnktUDRlTUkwQnU0TDAwenN5UVhGSTBrbTNWVW5UeHRENG5qY0U4N3c?oc=5",
-     "source": "Diario AS"
-    }
-   ],
-   "official": false,
-   "score": 33.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "tax deadline",
    "traffic": 0,
    "article_count_24h": 22,
-   "article_count_1h": 0,
+   "article_count_1h": 2,
    "published": "2026-11-13T23:59:18+09:00",
    "category": "Benefits",
    "news": [
@@ -897,15 +766,195 @@
     }
    ],
    "official": false,
+   "score": 42.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.cnbc.com/select/how-to-file-us-taxes-while-living-abroad/",
+     "title": "How Americans living abroad can file taxes in the U.S. and the tools to help - CNBC",
+     "outlet": "CNBC"
+    },
+    {
+     "url": "https://247wallst.com/personal-finance/2026/11/13/the-roth-ira-mistake-that-turns-5275-a-month-in-tax-free-dividends-into-a-tax-bill/",
+     "title": "The Roth IRA Mistake That Turns $5,275 a Month in Tax-Free Dividends Into a Tax Bill - 24/7 Wall St.",
+     "outlet": "24/7 Wall St."
+    },
+    {
+     "url": "https://www.cronista.com/en/finance/notice-cp91-the-irs-can-withhold-up-to-15-of-retirees-social-security-benefits-if-they-have-this-tax-status/",
+     "title": "Notice CP91 | The IRS can withhold up to 15% of retirees’ Social Security benefits if they have this tax status - El Cronista",
+     "outlet": "El Cronista"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "national weather service",
+   "traffic": 10000,
+   "published": "2026-11-14T06:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "2nd tornado confirmed in the Philadelphia region; cleanup continues from storms | LIVE UPDATES",
+     "url": "https://6abc.com/live-updates/funnel-clouds-hail-fallen-trees-severe-storms-strike-philadelphia-region/20036438/",
+     "source": "6abc Philadelphia"
+    },
+    {
+     "title": "NWS to survey damage after tornadoes touch down in Delaware, NJ",
+     "url": "https://www.nbcphiladelphia.com/news/local/nws-set-to-survey-damage-after-tornadoes-touch-down-in-delaware-new-jersey/4496835/",
+     "source": "NBC10 Philadelphia"
+    },
+    {
+     "title": "Two tornadoes were confirmed from a rare storm that produced golf-ball size hailstones",
+     "url": "https://www.inquirer.com/weather/hail-tornado-philadelphia-weekend-weather-forecast-cold-20261113.html",
+     "source": "Inquirer.com"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://6abc.com/live-updates/funnel-clouds-hail-fallen-trees-severe-storms-strike-philadelphia-region/20036438/",
+     "title": "2nd tornado confirmed in the Philadelphia region; cleanup continues from storms | LIVE UPDATES",
+     "outlet": "6abc Philadelphia"
+    },
+    {
+     "url": "https://www.nbcphiladelphia.com/news/local/nws-set-to-survey-damage-after-tornadoes-touch-down-in-delaware-new-jersey/4496835/",
+     "title": "NWS to survey damage after tornadoes touch down in Delaware, NJ",
+     "outlet": "NBC10 Philadelphia"
+    },
+    {
+     "url": "https://www.inquirer.com/weather/hail-tornado-philadelphia-weekend-weather-forecast-cold-20261113.html",
+     "title": "Two tornadoes were confirmed from a rare storm that produced golf-ball size hailstones",
+     "outlet": "Inquirer.com"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "SSI payment",
+   "traffic": 0,
+   "article_count_24h": 11,
+   "article_count_1h": 0,
+   "published": "2026-11-13T18:05:48+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "When do Social Security and SSI benefits go out in November 2026? Complete payment schedule - Diario AS",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZWhZV2xqRjJTSFhNN0lWWVc1ZkhFNjhSWjNsb2tQLXVrUG9QdVNBdEdSdWlfWnJ0VW1XVnNMZ0pUY1kxYjZHYzRWSXlyNzFZWDVIbTdQMXMwQmV2N2xUeDZlMS03ZDF5QzBZbUR3WnY2SUFRZ2hpeXgwVDEzTVNfQUdXeDUtdzBnTmJvZ1dfSk5Kelh2TWRET2xEMmU4SGc0eXBpVXRLaV9zbXpjSW8xTGVPWGVSQXZnOWVNWUN1Y0poMFFIMlJMQXhWVXNleFNmb1hVX1Yyb3RyOHU0T1Mw0gHfAUFVX3lxTE9laFlXbGpGMlNIWE03SVZZVzVmSEU2OFJaM2xva1AtdWtQb1B1U0F0R1J1aV9acnRVbVdWc0xnSlRjWTFiNkdjNFZJeXI3MVlYNUhtN1AxczBCZXY3bFR4NmUxLTdkMXlDMFltRHdadjZJQVFnaGl5eDBUMTNNU19BR1d4NS13MGdOYm9nV19KTkp6WHZNZERPbEQyZThIZzR5cGlVdEtpX3NtemNJbzFMZU9YZVJBdmc5ZU1ZQ3VjSmgwUUgyUkxBeFZVc2V4U2ZvWFVfVjJvdHI4dTRPUzA?oc=5",
+     "source": "Diario AS"
+    },
+    {
+     "title": "Official calendar confirms it | On Wednesday, Nov. 18, the SSA will send Social Security payments to eligible beneficiaries born between the 11th and 20th of the month - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxONmNXdEQ5YzlVby1hQ0ZDeEFsd3FZY29yVjY3enI0bktDMWpEZDdMeW13RzlrLTg1Z0c5ZFE5MHdLeENFMFA0NkdadC1yd2hKVURfRTdIYloyeWxjZ1E2VGE3SGJ3Y1Fja1RsX1RfSlpRSmVJajFKWS1IY3VqSTNNSVdnekdjSFBuekxoR1JnUV83dkFmNnB6LXBiMnR5YmpWTV9KZFVLQjdxWDlpWUJPRkRWbUViUGtmU2tkb2pUVkJpTHcwSmVIblIwRTBQSEsyTDBYYjJhVnhUdlBDYXdRODNCNU5fN3JDZTJwNll5M09wbkV6WE9zSHFxcUl3UEdXazF1LVh6dXRUY0NsSmZZbEZBTWxiLUUyNTAzVjQ4cGlEX0NlV3c?oc=5",
+     "source": "El Cronista"
+    },
+    {
+     "title": "These Social Security Changes Take Effect in Less Than 10 Weeks - Here’s How To Prepare - FinanceBuzz",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fckFvNkY0MWYzY3RKSVVULUlyNGdUeEZUXzdyRlZVOEk4Ql90bTVxRzhKU3poaWxZWE5sYTlKc3d0X2s2WVlyT0dQUE1ZZmNmblI5cFl5S2JYTm5CMTZrUWxENldrTmtSY042aFROWl9WX1dsc3dB?oc=5",
+     "source": "FinanceBuzz"
+    },
+    {
+     "title": "These Social Security Changes Take Effect in Less Than 10 Weeks - Here’s How To Prepare - AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTTBJZWFmdWZzdVJJeGFFVnM5bERRZ2R2NzJRN05TeEdZSVBDVzhCV2ljWTc1NEtoTG5tMy03WjVuX0F0LWQyTWx3WG1JSHJ6bDNOQWFZVlQ3dTN0bkU4QXd1YnpKYUlOLXFIVWJiRmpvQ2FvR2FOcFZHMkNZQWJlZW5lb0FiZw?oc=5",
+     "source": "AOL.com"
+    },
+    {
+     "title": "Notice CP91 | The IRS can withhold up to 15% of retirees’ Social Security benefits if they have this tax status - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYVdxQ2RQcFNTOGpDYm85dzFaYUdVMGhLVkZlbk5Hb2lBSzhvM0JLdDAyRFJjZWRsaGRsT2VvYm9lZHFhV01mbjR3MXRPQ0RsQVI5ZnhxQXl6NWZLODZoOHNlNFNoYTAwN1NkZnVGYlZtTi1CamJqcWdqZmRCOTB2eXNYRUpVOThJYjF5SDlhdlJSUVR6UlhzZFZtbFpvVDB0bzhMbzFZc3cyRzItbDBCaktPYUtBSHE3LTdWbW1uVjdkTF9nT00zMGh0RUJqUjJ5eVdhN0NMNjFVYUEz?oc=5",
+     "source": "El Cronista"
+    }
+   ],
+   "official": false,
    "score": 33.6,
    "already_covered": false
   },
   {
    "source": "google_news",
+   "keyword": "ACA open enrollment",
+   "traffic": 0,
+   "article_count_24h": 7,
+   "article_count_1h": 0,
+   "published": "2026-11-14T02:35:00+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "Open health insurance enrollment: What it means for your taxes - KTRE",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNGRuTTYwVUNVQTROVnp4TVNha3pfX2NBOUtLVDlZUk8tV09Hc0NudXV1U3FzcV9WV0VLNjFQWW92V0tncW5VbE0zcThBYWE0MzFLOVRPY0otMm1pQ0dpazFpRDBrVXZWOXpxSi00dkNTTS13RVlQZ29kcGdyTHc4RHhQMEcyREtfeG5qN2MyZ0ZLNllz?oc=5",
+     "source": "KTRE"
+    },
+    {
+     "title": "What's the open enrollment deadline for picking health plans for 2027? - Daytona Beach News-Journal",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU1JjbkJrRUtRYmdrOWJPQXV2VjVkRGpWcXY4NG85MlhUOURLNjFhVi1PSFpFYlFKdTdUbGFMaUQtNHR6MTNjR0twMXpqTUttQXVUd1BWdjhEYzY0aVlMTnljNVhzOXdGN2Qwam11bEtUejA4WE5uWHBjaXFVMTc3QUhPbzBjUVgxZHFCMmgtbTVxVG1ReGpPd21nX1EyZjlJTDd2OGZWYVB2YWtFUGxCT3Q4MA?oc=5",
+     "source": "Daytona Beach News-Journal"
+    },
+    {
+     "title": "Open enrollment season: Experts share tips for saving on health insurance - WTAE",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORElReFotZ2hEY1FkQkpfZ2dvQjdPck16dnQ0X0hTam5LdFd3enllNE9yeFdKWFdwNDEyODdXcWx3TXhUSGVHdlA1Q0w1ZU5hZjhSV0tyNkdZWk9MR0lTcDdLYm5pU0ZJRURDWVpkQVJnMzk5b3dsZVNUNUpudVYxbnU0RC1TaU0wRzYyeVl0Y1h2U3M?oc=5",
+     "source": "WTAE"
+    },
+    {
+     "title": "Open health insurance enrollment drawing strong interest in Massachusetts - WWLP",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOWZ4UGpOWnlRYU0xZ2hXSDlQUFdFSUNLTExPd2NqOHFsVUtYZnJlUlpNeHF5WFpBZHJQWTI0c2xHemhYREdPeC1kTnFybUFfaVdGRW9xX0tucUExYU9IM2MyeUV3TkdRX0Iyc29DVmtZQ2xKMHFBbS03LVZMVnNNZDV5YmZwa0tiZ0E4ak5GODdqWWE3ZFhEbmxKZURfb2tZV3hoMW1zZndGWnp2UFJnVFJhVW83eEluTXfSAboBQVVfeXFMTTlmeFBqTlp5UWFNMWdoV0g5UFBXRUlDS0xMT3djajhxbFVLWGZyZVJaTXhxeVhaQWRyUFkyNHNsR3poWERHT3gtZE5xcm1BX2lXRkVvcV9LbnFBMWFPSDNjMnlFd05HUV9CMnNvQ1ZrWUNsSjBxQW0tNy1WTFZzTWQ1eWJmcGtLYmdBOGpORjg3allhN2RYRG5sSmVEX29rWVd4aDFtc2Z3Rlp6dlBSZ1RSYVVvN3hJbk13?oc=5",
+     "source": "WWLP"
+    },
+    {
+     "title": "Mission Moment November 2026 - American Lung Association",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01LW50T1FiVVJCcXZVS0xWRjFtdmttUkZuS01KRjEwQndXN1VCN1BLd01GUVFxemU0S204b1pKcW9UN2RwY3JzdFFNOWZ0Q04ydElaZ1hUWldiZw?oc=5",
+     "source": "American Lung Association"
+    }
+   ],
+   "official": false,
+   "score": 31.5,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "LIHEAP",
+   "traffic": 0,
+   "article_count_24h": 8,
+   "article_count_1h": 0,
+   "published": "2026-11-13T23:58:32+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "New England Governors seek additional $3B for LIHEAP – ABC22 & FOX44 - MyChamplainValley.com",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVGlLano1UV94UTFLamFLenBWNmxLTXlBYkdUMFpQd0VvR2VkcFlDeHg2cHJ3bGhrTm5FZE9reEd5V2tCdWFuN1A1LUxmU3B1ZExDYkhFUWhFMm9FLU9oTVpIMDdmaXlFZXhBM0kzYnI5aUxmRDA5NWJtQkdQTmY0X0szb0U0Y1I0SWZQT3FPNW1EbmRrUmJFd3Z4cEtyRERsMGE4?oc=5",
+     "source": "MyChamplainValley.com"
+    },
+    {
+     "title": "Shelby County utility assistance program applications open Monday for eligible residents - FOX13 Memphis",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOM3dHSE56NVRhZ2tORGRaeVNLQVZfZTFZaHVyYkJGaGVfdVlrRkF4RVRUSjZWNWVmYWh1bmZXeFdHNk05WHZTRXhmRGxvTG9UWjNXVk10NkhKUnpXN2RtVU5uQ1Y2SWQ4MFc4cjZiSWJXNjVQV3JMZkk4d3NDUmthOWROOEhUa0xSbjZrbDZtOHFBdGVwWWxkT3MwRmZqUzNKcXNVY3B3SE9PM0xaNmpJRzJFWHZyZ3R3X3JydGt1SDE4NjZaY0ZFbldlWU9hR2VNUXhnd2h4YThqS1JUZzJKZUU1WFNvOVhUVEJPbkhmdEJDX0FyMXN5Q0NyRS1TTmYtVGc?oc=5",
+     "source": "FOX13 Memphis"
+    },
+    {
+     "title": "Fuel vendors continue to leave CT’s winter heating program - News From The States",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUjduQjZGUloxQXI5OU51NV8tMEJhbThUZ0hNZ0NTSzRSakhSaUphT2pXdC00cUlhTnIzODZJcTR1bzY4T3UtOG9INFg3YldYVDg0M0NnYnRfamlMNkZGZzhJcm1mZFBQT1hWRWNUM1YydWZCeGlFWnZwZFhwOWJJMndTd2JvZzBLbVN6aGgwVnVCX2Y3NHppRTB6SFE?oc=5",
+     "source": "News From The States"
+    },
+    {
+     "title": "As temperatures drop, heating costs expected to rise this winter - CBS News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObTBwVW53ZmUzcHNtdTBvTjdMMzQ0VGx5TXlaQmx5UTRtLXRZSng3UUt0Y3ROZzV3T1F4NVZObEI1MF9LM0tncWhzd1VFbWs3NmlUSVBpTEN6V3NKV3hNRUpNRUc4elI2Z1lmMEVwV3JYMWNJbm9YVjI2SGN3R3B6OHZPT1VKcWR6QlJkZHY5SFEzZTIwdGxhaENHWjI?oc=5",
+     "source": "CBS News"
+    },
+    {
+     "title": "Farmington Libraries Collect Forms For Free Five-Year Laptop Loans - Patch",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdE16RkwyM3Y3X0ttVlFtRkdscGdZMjU3MFVRdkV0aEdRWmhiZFlMVlpycGlnZ0o4cy1meTZzendJc0stVmluS2tUTWtoR2ViVGZSRDRjNk1tVUV1Y2duQW41clY5aVRSVTNXcVkyRG5tRV9henJqcFEwOEFqUmg5ZmxPd01iYUpzcmNkcVZYcmNNX2IzaGs0d3k3U3hNeUtKUUtET1Jn0gG8AUFVX3lxTE1aRTM5R2R5VzhGYmI3OG9ZSVpEWmZxNGNQb00yS0VMTDMyM2lWak40aUtvN1JRdUdGQm4tZ3lSdE4tMy1WZjA3S2hMMVd4ZjBYZ2JyalpqVFR1dWgtVHRQay1EbTdFcUVhZUUzTHFaTUFpZEVwdmhkMno1N3NCS2IwTWw3R09HSlNlUy1wZlhDbEg0bHNBMEFPT2FaUDE0LVlDSFRtU01heFRSTmFub0JOTEM2aU9kajBQQm9w?oc=5",
+     "source": "Patch"
+    }
+   ],
+   "official": false,
+   "score": 26.9,
+   "already_covered": true
+  },
+  {
+   "source": "google_news",
    "keyword": "daylight saving time",
    "traffic": 0,
-   "article_count_24h": 16,
-   "article_count_1h": 3,
+   "article_count_24h": 17,
+   "article_count_1h": 1,
    "published": "2026-11-14T00:00:00+09:00",
    "category": "Holidays",
    "news": [
@@ -936,64 +985,52 @@
     }
    ],
    "official": false,
-   "score": 32.3,
+   "score": 26.2,
    "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "airline",
-   "traffic": 1000,
-   "published": "2026-11-14T06:20:00+09:00",
-   "category": "Taxes",
+   "source": "google_news",
+   "keyword": "stimulus check",
+   "traffic": 0,
+   "article_count_24h": 4,
+   "article_count_1h": 1,
+   "published": "2026-11-14T06:54:23+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "Alaska Airlines adds 5 nonstop routes from Seattle, including first flights to 3 cities",
-     "url": "https://www.king5.com/article/news/community/transportation/alaska-airlines-adds-five-nonstop-routes-seattle-first-flights-three-cities/281-0dc5a3b3-c06f-4d2e-b1c2-7f7bc5aa3e83",
-     "source": "KING5.com"
+     "title": "Opinion | Texas Democrats promise $1,500 checks. Trump tried that and lost. - The Washington Post",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS0RpeC04Nk1RV1dLdXpKWWJkc1NGWEdYNzZlOXBiOHpfekQxVFljbDNpUTRsWDJLbzU2RGxyN0xmbkViWnMySVVoLXVCbUkxQ24yMUtMT2RQcVMwS3JLSG5lZ3RQZ01kekRGYnZ1bUg0ZjJ1cUR3MlE4Z1piMHZ3blZRU0tNNVdTNWotVkFiZ0ZJdk4yRHl4TlJ0cHFheXc?oc=5",
+     "source": "The Washington Post"
     },
     {
-     "title": "New airline coming to Charlotte airport in 2027: What to know",
-     "url": "https://www.wbtv.com/2026/11/12/new-airline-coming-charlotte-airport-2027-what-know/",
-     "source": "WBTV"
+     "title": "Texas Democrat files bill to follow through on Hinojosa’s $1.5K check promise - WBTW",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNmRna0t2bWNOLWJfWXJpX3h2RW15U2ZPMTM0QTlkZGVSc3J4d2ptQUpBblphLUx0RE1fbEowRVlWV05vMGJfWl96UjBYck5HOEhWb3F4MF92aTFMOW84SGh5RkljazluamhOYW9rLXNzcTNBWE5ILXlDUGgyZWNpRXl0ai1FMVBfS3ZzRC1XeFkxV2NiV3RWUnZ0eHR3YTdMMjVNanA2OGNEcjVRczNueV9QVDBVZ9IBtgFBVV95cUxNNmRna0t2bWNOLWJfWXJpX3h2RW15U2ZPMTM0QTlkZGVSc3J4d2ptQUpBblphLUx0RE1fbEowRVlWV05vMGJfWl96UjBYck5HOEhWb3F4MF92aTFMOW84SGh5RkljazluamhOYW9rLXNzcTNBWE5ILXlDUGgyZWNpRXl0ai1FMVBfS3ZzRC1XeFkxV2NiV3RWUnZ0eHR3YTdMMjVNanA2OGNEcjVRczNueV9QVDBVZw?oc=5",
+     "source": "WBTW"
     },
     {
-     "title": "'I like Seattle': Des Moines traveler welcomes new flight option",
-     "url": "https://www.kcci.com/article/des-moines-alaska-airlines-seattle-flight/74415637",
-     "source": "KCCI"
+     "title": "Album Review: Pin Breakers by ZelooperZ & Black Noi$e - Shatter the Standards",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaVc1S3I0aFZVYU8wZjh4cVVQd2tieXBxeVZCQkltM0NMQjBMU3YyLUdTVUtfeHRaWmU0bUl6RFg5VnVQSHlhWDBOTmlIMmdLQmREWndkSEdNVkxFZnhQeDRLQ085MWpHREU1MlMySUx2am9pUVhTWVlhcElFUFpZMVFn?oc=5",
+     "source": "Shatter the Standards"
+    },
+    {
+     "title": "What is IRS Form 4547? Who qualifies for Trump's $1,000 government deposit and how to claim it - The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNXzNRZ18yX2VBS2l6clR3N0F1YURuc04wMUtkQ0s1QWwwT0JfUTR2c1htUDRPWGdQZ0RHd2l1MWRsTUROUXdRaGdwbWEwOUpFX25WUFZFcnZmdEtSYW1ySE8yX3k4akU2TlRnWUhCZXgyZk83TFc4WGpVWkFKSkwtZU81SGgwQUhqeVJpWG80WW04b1JwdDlabTZrNklBRlpobkVFUEk5R25FNDRldThsTzdfZ3Z2VGFnNUhOQlR3Z0U3cERMLVhoWFZEMkp5bW1IQTRpdDRKd1FNNFdaNkl0UEZrREdGVXM5dFphdNIB8gFBVV95cUxNd2ZsNmZYXy1aSlM2V3V2Z3hYeW1MNW5JVTRJSmdxWGRtLTh6UVdTaU1vQTM2VFNWR0U3SGx4V1JpT095aGpBdzVzWng4aC1qeEFZcnhkMjJnWXBTX2h3RkhyWGV2LUZkUUZfRGxaWnMxMng2SzNyc19LY1Qwd0dHZG5vY3NKQmllVDdqWWdQSXRZS3VreGI0TU1fN1g5bG9qNVZuU0hvZEh2bFJxZ0U2eGQ2NERhd2tYWDJoUERKSld2Rk9fV0pHUWtFQk1LdktidWtpNWVJem1hcTdDbDgyaDBhcGVnUks4OWo4d0h4WmF0Zw?oc=5",
+     "source": "The Economic Times"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 30.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.wbtv.com/2026/11/12/new-airline-coming-charlotte-airport-2027-what-know/",
-     "title": "New airline coming to Charlotte airport in 2027: What to know",
-     "outlet": "WBTV"
-    },
-    {
-     "url": "https://www.kcci.com/article/des-moines-alaska-airlines-seattle-flight/74415637",
-     "title": "'I like Seattle': Des Moines traveler welcomes new flight option",
-     "outlet": "KCCI"
-    }
-   ]
+   "score": 25.6,
+   "already_covered": false
   },
   {
    "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 27,
-   "article_count_1h": 7,
-   "published": "2026-11-14T06:31:53+09:00",
+   "article_count_24h": 26,
+   "article_count_1h": 6,
+   "published": "2026-11-14T01:00:00+09:00",
    "category": "기타",
    "news": [
-    {
-     "title": "Opinion | Hiking the Minimum Wage Isn’t Affordable - WSJ",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTFhKZFd3UlJzU1pzanV6bTFLbi1JNGJUSlJUdDlMODFSTVplSmQ4VktPUlJwUTFjRlZ6T3lwbzM5OWhldl9nMjhQVVV0Y01DQ045SGFTZEppazItSTBUTkhmM2RjN05GeHVRdEhVc0ZlUHh2LXF5ZDc1UDVSQVAwUW93?oc=5",
-     "source": "WSJ"
-    },
     {
      "title": "Kirkland takes step to raise minimum wage - KUOW",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMnBFQkZPUWFhT0drWVh1c1Z2SU43cC1zYTVTUTdkLU9YMHdPbFh4djd3Yy1qaWJaZENLSUNoMHJYSUtCMHF1elBzR055VURtZXE5bzQ0TnQ5d2V6MVRlTDlrQWJWVXZZa1JoMTBvdkgtUURGWmYwVEs1QTRjN3VYeFZ4eUU1ZXhQa3Fr?oc=5",
@@ -1013,49 +1050,59 @@
      "title": "From California to Michigan: states in the United States that are increasing their minimum wage as of Jan. 1, - Diario AS",
      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOUMzWS00ZUZCb2ktXzAzc3czaklYTFFOSF9HS2lINUhORjZrcUcyZWRUdUVlY2ZqLTQyYUhiOFItUnZqY24tbFZwcVhYaXBsSDhUSkZzeHJUcnMtZ1VDdi10cEpGcEQ5MVlpTUVFdVViZnZJVXhZWERaeEowUy1fMXpBX3hVakJrdV9uQm05MjQybC1OTEtPUG9aX0tsdkZUa3lFT2x5SVBvTmZJdHNXdTUxZnM3d2R5azVHTDV0YWVSUmljSlpwNFJDNk1UM3JDVUwxck16V1dNLVdrb1hRVV9YVGI4R2PSAfsBQVVfeXFMT3VUZWxLdlpRUnZuLVY1eHhJYjg2elVqR0lCTGhUY3ZHVzgxeDdieDBDd194dXdEZ2F2cHRFSVVxUVBJOHVKd0daYXk3TFJhTnNvXzVmVTBVUEJSUjh1TDU5YmVFTzVENmZXc0FIWktValQ1Sk5rUk45RGtfbVlRdFlpT3RUcGZaT0JTMVFHSnBrc3NQLXpRbThPWUdHTENPY2tlOTdRUy1WRWdpbDBoTjlVS0ptQWtVb2tUSUIwcWNuUVRTQ2lCTnF4RXFDUFFXb3U5SlAyOU5QVnZWSFQySU81aENmMk80WDRKOGEyaTRJbk5YQ1lMMFp2Q00?oc=5",
      "source": "Diario AS"
+    },
+    {
+     "title": "Ghana’s Minimum Wage is rising. What about the Minimum Pension? Government must not Abandon SSNIT Pensioners - Pension Policy International",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTmdDNWFfZnJFaEtmaVRFSUVyZnZ0LXVPVmFkcHJGVE5mTEh5ZTluQWVaT2Z1NnBmYUM1SVd2cXl0RHUyMHBuSDVDV1ZkdVJpcHZpWEp4ZTB0LVl3a0tZZGs0VEtyWTZLZV9ZdjJ5YWJieGZNQVZTZXl4VkZja0pZS1ZfMk5PNlV5VWkyM3p1LXhFdFVFY1ByWE9iUHkxWTRQUEwzUi14STBadTFOZzN4U2k3UmxVcjlCMV9Kb2t6RVhnaEpoNWNFSTQ3T0NmTF9wcENUUC15aGFNS0htdG1HY1M3bw?oc=5",
+     "source": "Pension Policy International"
     }
    ],
    "official": false,
-   "score": 30.0,
+   "score": 21.0,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "news today",
-   "traffic": 5000,
-   "published": "2026-11-14T06:20:00+09:00",
-   "category": "기타",
+   "keyword": "the town",
+   "traffic": 200,
+   "published": "2026-11-14T06:50:00+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "Live updates: Potential 2028 Democratic contenders discuss future after the party’s midterm victories",
-     "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-congress-2026-midterm-elections-nvidia-live-updates-rcna609111",
-     "source": "NBC News"
+     "title": "A Lander Woman Walked Into An Animal Hoarding Crisis, And The Town Stepped Up",
+     "url": "https://cowboystatedaily.com/2026/11/13/a-lander-woman-walked-into-an-animal-hoarding-crisis-and-the-town-stepped-up/",
+     "source": "Cowboy State Daily"
     },
     {
-     "title": "Democrat leadership considers strategy at What's Next conference in Denver",
-     "url": "https://www.cbsnews.com/colorado/video/democrat-leadership-considers-strategy-at-whats-next-conference-in-denver/",
+     "title": "Kraft Group’s data center proposal ignited a firestorm of criticism, but Sutton officials say they’re not backing away",
+     "url": "https://www.bostonglobe.com/2026/11/13/business/sutton-statement-kraft-data-center/",
+     "source": "The Boston Globe"
+    },
+    {
+     "title": "Data centers could be focus of Massachusetts ballot question in 2028 as campaign seeks restrictions",
+     "url": "https://www.cbsnews.com/boston/news/data-centers-ballot-question-massachusetts/",
      "source": "CBS News"
-    },
-    {
-     "title": "Democrats gather in Denver to map out their next steps",
-     "url": "https://apnews.com/live/trump-congress-politics-midterm-elections-news-updates-11-12-2026",
-     "source": "AP News"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 24.0,
+   "score": 20.8,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-congress-2026-midterm-elections-nvidia-live-updates-rcna609111",
-     "title": "Live updates: Potential 2028 Democratic contenders discuss future after the party’s midterm victories",
-     "outlet": "NBC News"
+     "url": "https://cowboystatedaily.com/2026/11/13/a-lander-woman-walked-into-an-animal-hoarding-crisis-and-the-town-stepped-up/",
+     "title": "A Lander Woman Walked Into An Animal Hoarding Crisis, And The Town Stepped Up",
+     "outlet": "Cowboy State Daily"
     },
     {
-     "url": "https://www.cbsnews.com/colorado/video/democrat-leadership-considers-strategy-at-whats-next-conference-in-denver/",
-     "title": "Democrat leadership considers strategy at What's Next conference in Denver",
+     "url": "https://www.bostonglobe.com/2026/11/13/business/sutton-statement-kraft-data-center/",
+     "title": "Kraft Group’s data center proposal ignited a firestorm of criticism, but Sutton officials say they’re not backing away",
+     "outlet": "The Boston Globe"
+    },
+    {
+     "url": "https://www.cbsnews.com/boston/news/data-centers-ballot-question-massachusetts/",
+     "title": "Data centers could be focus of Massachusetts ballot question in 2028 as campaign seeks restrictions",
      "outlet": "CBS News"
     }
    ]
@@ -1134,44 +1181,97 @@
    "already_covered": true
   },
   {
-   "source": "google_news",
-   "keyword": "stimulus check",
-   "traffic": 0,
-   "article_count_24h": 4,
-   "article_count_1h": 0,
-   "published": "2026-11-14T05:24:23+09:00",
-   "category": "Benefits",
+   "source": "google_trends",
+   "keyword": "domestic flights",
+   "traffic": 200,
+   "published": "2026-11-14T06:50:00+09:00",
+   "category": "Holidays",
    "news": [
     {
-     "title": "Opinion | Texas Democrats promise $1,500 checks. Trump tried that and lost. - The Washington Post",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS0RpeC04Nk1RV1dLdXpKWWJkc1NGWEdYNzZlOXBiOHpfekQxVFljbDNpUTRsWDJLbzU2RGxyN0xmbkViWnMySVVoLXVCbUkxQ24yMUtMT2RQcVMwS3JLSG5lZ3RQZ01kekRGYnZ1bUg0ZjJ1cUR3MlE4Z1piMHZ3blZRU0tNNVdTNWotVkFiZ0ZJdk4yRHl4TlJ0cHFheXc?oc=5",
-     "source": "The Washington Post"
+     "title": "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
+     "url": "https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html",
+     "source": "CNBC"
     },
     {
-     "title": "Texas Democrat files bill to follow through on Hinojosa’s $1.5K check promise - WBTW",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNmRna0t2bWNOLWJfWXJpX3h2RW15U2ZPMTM0QTlkZGVSc3J4d2ptQUpBblphLUx0RE1fbEowRVlWV05vMGJfWl96UjBYck5HOEhWb3F4MF92aTFMOW84SGh5RkljazluamhOYW9rLXNzcTNBWE5ILXlDUGgyZWNpRXl0ai1FMVBfS3ZzRC1XeFkxV2NiV3RWUnZ0eHR3YTdMMjVNanA2OGNEcjVRczNueV9QVDBVZ9IBtgFBVV95cUxNNmRna0t2bWNOLWJfWXJpX3h2RW15U2ZPMTM0QTlkZGVSc3J4d2ptQUpBblphLUx0RE1fbEowRVlWV05vMGJfWl96UjBYck5HOEhWb3F4MF92aTFMOW84SGh5RkljazluamhOYW9rLXNzcTNBWE5ILXlDUGgyZWNpRXl0ai1FMVBfS3ZzRC1XeFkxV2NiV3RWUnZ0eHR3YTdMMjVNanA2OGNEcjVRczNueV9QVDBVZw?oc=5",
-     "source": "WBTW"
+     "title": "How to Use Holiday Price Trackers to Get the Best Deals on Flights",
+     "url": "https://www.today.com/video/how-to-use-holiday-price-trackers-to-get-the-best-deals-on-flights-273271365639",
+     "source": "TODAY.com"
     },
     {
-     "title": "Album Review: Pin Breakers by ZelooperZ & Black Noi$e - Shatter the Standards",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaVc1S3I0aFZVYU8wZjh4cVVQd2tieXBxeVZCQkltM0NMQjBMU3YyLUdTVUtfeHRaWmU0bUl6RFg5VnVQSHlhWDBOTmlIMmdLQmREWndkSEdNVkxFZnhQeDRLQ085MWpHREU1MlMySUx2am9pUVhTWVlhcElFUFpZMVFn?oc=5",
-     "source": "Shatter the Standards"
-    },
-    {
-     "title": "What is IRS Form 4547? Who qualifies for Trump's $1,000 government deposit and how to claim it - The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd2ZsNmZYXy1aSlM2V3V2Z3hYeW1MNW5JVTRJSmdxWGRtLTh6UVdTaU1vQTM2VFNWR0U3SGx4V1JpT095aGpBdzVzWng4aC1qeEFZcnhkMjJnWXBTX2h3RkhyWGV2LUZkUUZfRGxaWnMxMng2SzNyc19LY1Qwd0dHZG5vY3NKQmllVDdqWWdQSXRZS3VreGI0TU1fN1g5bG9qNVZuU0hvZEh2bFJxZ0U2eGQ2NERhd2tYWDJoUERKSld2Rk9fV0pHUWtFQk1LdktidWtpNWVJem1hcTdDbDgyaDBhcGVnUks4OWo4d0h4WmF0Z9IB8gFBVV95cUxNd2ZsNmZYXy1aSlM2V3V2Z3hYeW1MNW5JVTRJSmdxWGRtLTh6UVdTaU1vQTM2VFNWR0U3SGx4V1JpT095aGpBdzVzWng4aC1qeEFZcnhkMjJnWXBTX2h3RkhyWGV2LUZkUUZfRGxaWnMxMng2SzNyc19LY1Qwd0dHZG5vY3NKQmllVDdqWWdQSXRZS3VreGI0TU1fN1g5bG9qNVZuU0hvZEh2bFJxZ0U2eGQ2NERhd2tYWDJoUERKSld2Rk9fV0pHUWtFQk1LdktidWtpNWVJem1hcTdDbDgyaDBhcGVnUks4OWo4d0h4WmF0Zw?oc=5",
-     "source": "The Economic Times"
+     "title": "Air travelers at MSP could see a 14% increase in ticket prices this holiday season, according to study",
+     "url": "https://www.kare11.com/article/travel/air-travelers-at-msp-could-see-a-14-increase-in-ticket-prices-this-holiday-season-according-to-study/89-4d33cff6-2b9a-46f6-8957-16bcd04ae271",
+     "source": "kare11.com"
     }
    ],
    "official": false,
-   "score": 19.2,
-   "already_covered": false
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 17.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html",
+     "title": "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
+     "outlet": "CNBC"
+    },
+    {
+     "url": "https://www.today.com/video/how-to-use-holiday-price-trackers-to-get-the-best-deals-on-flights-273271365639",
+     "title": "How to Use Holiday Price Trackers to Get the Best Deals on Flights",
+     "outlet": "TODAY.com"
+    }
+   ]
   },
   {
    "source": "google_trends",
-   "keyword": "cnn news",
+   "keyword": "bbc news",
    "traffic": 2000,
-   "published": "2026-11-14T06:20:00+09:00",
+   "published": "2026-11-14T06:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "At least 24 killed after bus collides with truck near Kaziranga National Park",
+     "url": "https://www.bbc.com/news/articles/c6r7g5lp1zrxo",
+     "source": "BBC"
+    },
+    {
+     "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
+     "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people",
+     "source": "Al Jazeera"
+    },
+    {
+     "title": "At least 26 dead as minibus collides head-on with trailer truck near Assam's Kaziranga",
+     "url": "https://timesofindia.indiatimes.com/city/guwahati/7-killed-in-bus-truck-collision-in-assams-kaziranga/articleshow/135799470.cms",
+     "source": "The Times of India"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/news/articles/c6r7g5lp1zrxo",
+     "title": "At least 24 killed after bus collides with truck near Kaziranga National Park",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people",
+     "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
+     "outlet": "Al Jazeera"
+    },
+    {
+     "url": "https://timesofindia.indiatimes.com/city/guwahati/7-killed-in-bus-truck-collision-in-assams-kaziranga/articleshow/135799470.cms",
+     "title": "At least 26 dead as minibus collides head-on with trailer truck near Assam's Kaziranga",
+     "outlet": "The Times of India"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "fox",
+   "traffic": 2000,
+   "published": "2026-11-14T06:40:00+09:00",
    "category": "기타",
    "news": [
     {
@@ -1180,14 +1280,14 @@
      "source": "ADWEEK"
     },
     {
-     "title": "FAA issues nationwide ground stop",
-     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-     "source": "CNBC"
+     "title": "Ground stop ordered for all airports nationwide for ‘reasons of safety’",
+     "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+     "source": "NBC News"
     },
     {
-     "title": "FAA issues nationwide ground stop for all flights due to ‘extraordinary circumstances’ and safety",
-     "url": "https://www.cnn.com/2026/11/13/us/faa-nationwide-ground-stop",
-     "source": "CNN"
+     "title": "Rare nationwide ground stop ordered at airports over communication issues: FAA",
+     "url": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848",
+     "source": "ABC News - Breaking News, Latest News and Videos"
     }
    ],
    "official": false,
@@ -1202,115 +1302,38 @@
      "outlet": "ADWEEK"
     },
     {
-     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-     "title": "FAA issues nationwide ground stop",
-     "outlet": "CNBC"
+     "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+     "title": "Ground stop ordered for all airports nationwide for ‘reasons of safety’",
+     "outlet": "NBC News"
     },
     {
-     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa",
-     "title": "FAA issues nationwide ground stop for all flights due to ‘extraordinary circumstances’ and safety",
-     "outlet": "CNN"
+     "url": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848",
+     "title": "Rare nationwide ground stop ordered at airports over communication issues: FAA",
+     "outlet": "ABC News - Breaking News, Latest News and Videos"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "reuters",
-   "traffic": 2000,
-   "published": "2026-11-14T06:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Hassett denies report he's leaving White House: 'Not true'",
-     "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
-     "source": "CNBC"
-    },
-    {
-     "title": "Exclusive / Hassett expected to depart White House",
-     "url": "https://www.semafor.com/article/11/13/2026/hassett-expected-to-depart-white-house",
-     "source": "Semafor"
-    },
-    {
-     "title": "Kevin Hassett Says He Will Remain as Trump Economic Adviser",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-13/kevin-hassett-says-he-will-remain-as-trump-economic-adviser",
-     "source": "Bloomberg.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
-     "title": "Hassett denies report he's leaving White House: 'Not true'",
-     "outlet": "CNBC"
-    },
-    {
-     "url": "https://www.semafor.com/article/11/13/2026/hassett-expected-to-depart-white-house",
-     "title": "Exclusive / Hassett expected to depart White House",
-     "outlet": "Semafor"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "us news",
-   "traffic": 1000,
-   "published": "2026-11-14T06:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "See Upstate NY’s top 5 colleges in U.S. News’ 2026 rankings",
-     "url": "https://www.syracuse.com/news/2026/11/see-upstate-nys-top-5-colleges-in-us-news-2026-rankings.html",
-     "source": "Syracuse.com"
-    },
-    {
-     "title": "Best universities in New York: See the state's top 10 in new rankings",
-     "url": "https://www.democratandchronicle.com/story/news/2026/11/05/best-universities-new-york-us-news-rankings-2026/91900670007/",
-     "source": "Democrat and Chronicle"
-    },
-    {
-     "title": "U.S. News ranks 2027 Best National Universities: where do NYC schools place?",
-     "url": "https://www.yahoo.com/news/us/articles/u-news-ranks-2027-best-151422358.html",
-     "source": "Yahoo"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.yahoo.com/news/us/articles/u-news-ranks-2027-best-151422358.html",
-     "title": "U.S. News ranks 2027 Best National Universities: where do NYC schools place?",
-     "outlet": "Yahoo"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "plane",
+   "keyword": "elina svitolina",
    "traffic": 500,
-   "published": "2026-11-14T06:20:00+09:00",
+   "published": "2026-11-14T06:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Texas man seriously injured in plane crash near Woodville",
-     "url": "https://www.toledoblade.com/local/police-fire/2026/11/12/plane-crash-reported-near-woodville/stories/20261112106",
-     "source": "Toledo Blade"
+     "title": "Svitolina stays in WTA Finals hunt after remarkable fightback sees off Muchova",
+     "url": "https://www.theguardian.com/sport/2026/nov/11/elina-svitolina-karolina-muchova-wta-finals-tennis",
+     "source": "The Guardian"
     },
     {
-     "title": "Man hospitalized after plane crashes into field near Woodville",
-     "url": "https://www.wtol.com/article/news/local/plane-crash-northwest-sandusky-county-us-20-us-23/512-aaaf7d14-6b85-45db-813b-69e7e779c8f6",
-     "source": "wtol.com"
+     "title": "Svitolina comes back from a set down to beat Muchova, moves to 1-1 at FAGE WTA Finals",
+     "url": "https://www.wtatennis.com/news/4607921/elina-svitolina-comes-back-from-a-set-down-to-beat-karolina-muchova-moves-to-1-1-at-fage-wta-finals",
+     "source": "WTA Tennis"
     },
     {
-     "title": "Texas man identified as pilot in Sandusky County plane crash",
-     "url": "https://www.yahoo.com/news/weather-news/articles/texas-man-identified-pilot-sandusky-173519501.html",
-     "source": "Yahoo"
+     "title": "Elina Svitolina Sets Up Aryna Sabalenka Clash After WTA Finals Comeback Win",
+     "url": "https://www.sportscapemagazine.com/blog/elina-svitolina-sets-up-aryna-sabalenka-clash-wta-finals-comeback-win",
+     "source": "Sportscape Magazine"
     }
    ],
    "official": false,
@@ -1320,38 +1343,43 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.toledoblade.com/local/police-fire/2026/11/12/plane-crash-reported-near-woodville/stories/20261112106",
-     "title": "Texas man seriously injured in plane crash near Woodville",
-     "outlet": "Toledo Blade"
+     "url": "https://www.theguardian.com/sport/2026/nov/11/elina-svitolina-karolina-muchova-wta-finals-tennis",
+     "title": "Svitolina stays in WTA Finals hunt after remarkable fightback sees off Muchova",
+     "outlet": "The Guardian"
     },
     {
-     "url": "https://www.yahoo.com/news/weather-news/articles/texas-man-identified-pilot-sandusky-173519501.html",
-     "title": "Texas man identified as pilot in Sandusky County plane crash",
-     "outlet": "Yahoo"
+     "url": "https://www.wtatennis.com/news/4607921/elina-svitolina-comes-back-from-a-set-down-to-beat-karolina-muchova-moves-to-1-1-at-fage-wta-finals",
+     "title": "Svitolina comes back from a set down to beat Muchova, moves to 1-1 at FAGE WTA Finals",
+     "outlet": "WTA Tennis"
+    },
+    {
+     "url": "https://www.sportscapemagazine.com/blog/elina-svitolina-sets-up-aryna-sabalenka-clash-wta-finals-comeback-win",
+     "title": "Elina Svitolina Sets Up Aryna Sabalenka Clash After WTA Finals Comeback Win",
+     "outlet": "Sportscape Magazine"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "flights being grounded",
+   "keyword": "is there a cyber attack going on right now",
    "traffic": 500,
-   "published": "2026-11-14T06:20:00+09:00",
+   "published": "2026-11-14T06:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Indianapolis airport grounds all flights",
-     "url": "https://fox59.com/indiana-news/indianapolis-airport-grounds-all-flights/",
-     "source": "Fox 59"
+     "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+     "url": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+     "source": "Dark Reading"
     },
     {
-     "title": "FAA issues nationwide ground stop for all flights due to ‘extraordinary circumstances’ and safety",
-     "url": "https://www.cnn.com/2026/11/13/us/faa-nationwide-ground-stop",
-     "source": "CNN"
+     "title": "Agentic AI Attacks Are Here: What We’re Seeing with ARTEX, and How to Protect Your Org",
+     "url": "https://www.salesforce.com/blog/artex-agentic-ai-attacks/",
+     "source": "Salesforce"
     },
     {
-     "title": "Ground stops at Chicago O'Hare and Midway airports due to \"equipment outage\"",
-     "url": "https://www.cbsnews.com/chicago/news/ground-stop-chicago-ohare-midway-airports-equipment-outage/",
-     "source": "CBS News"
+     "title": "ARTEX abuse expands as cybercriminals target financial sector",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+     "source": "Microsoft"
     }
    ],
    "official": false,
@@ -1361,73 +1389,73 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa",
-     "title": "FAA issues nationwide ground stop for all flights due to ‘extraordinary circumstances’ and safety",
-     "outlet": "CNN"
+     "url": "https://www.salesforce.com/blog/artex-agentic-ai-attacks/?bc=OTH",
+     "title": "Agentic AI Attacks Are Here: What We’re Seeing with ARTEX, and How to Protect Your Org",
+     "outlet": "Salesforce"
     },
     {
-     "url": "https://www.cbsnews.com/chicago/news/ground-stop-chicago-ohare-midway-airports-equipment-outage/",
-     "title": "Ground stops at Chicago O'Hare and Midway airports due to \"equipment outage\"",
-     "outlet": "CBS News"
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+     "title": "ARTEX abuse expands as cybercriminals target financial sector",
+     "outlet": "Microsoft"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "dfw airport",
-   "traffic": 500,
-   "published": "2026-11-14T06:20:00+09:00",
+   "keyword": "miami airport",
+   "traffic": 200,
+   "published": "2026-11-14T06:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "DFW International Airport takes ownership of Hyatt Regency DFW: What it means for travelers",
-     "url": "https://www.wfaa.com/article/money/business/dfw-airport-buys-hyatt-regency-dfw-hotel/287-280c6542-5b3e-4b67-a4fc-d233e6fb6215",
-     "source": "WFAA"
+     "title": "Ground stop ordered for all airports nationwide for ‘reasons of safety’",
+     "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+     "source": "NBC News"
     },
     {
-     "title": "DFW Airport Purchases Hyatt Regency DFW International Airport",
-     "url": "https://www.dfwairport.com/dfwnewsroom/dfw-airport-purchases-hyatt-regency-dfw-international-airport/",
-     "source": "DFW Airport"
+     "title": "Rare nationwide ground stop ordered at airports over communication issues: FAA",
+     "url": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848",
+     "source": "ABC News - Breaking News, Latest News and Videos"
     },
     {
-     "title": "DFW Airport Buys 811-Room Hyatt Regency, Now Owns All Four On-Site Hotels",
-     "url": "https://hoodline.com/2026/11/dfw-airport-buys-811-room-hyatt-regency-now-owns-all-four-on-site-hotels/",
-     "source": "Hoodline"
+     "title": "Flights grounded across US due to air traffic control 'communication issue'",
+     "url": "https://www.bbc.com/news/live/c6z9dwn12037t",
+     "source": "BBC"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 10.5,
+   "score": 9.6,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "ufc 335",
-   "traffic": 500,
-   "published": "2026-11-14T06:20:00+09:00",
+   "keyword": "faa floppy disks",
+   "traffic": 200,
+   "published": "2026-11-14T06:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Video: UFC 335 & UFC 336 press conference live stream",
-     "url": "https://sports.yahoo.com/articles/video-ufc-335-ufc-336-201521397.html",
-     "source": "Yahoo Sports"
+     "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+     "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+     "source": "Reuters"
     },
     {
-     "title": "LIVE! UFC 335 (And UFC 336) Press Conference Video!",
-     "url": "https://sports.yahoo.com/articles/live-ufc-335-ufc-336-205819737.html",
-     "source": "Yahoo Sports"
+     "title": "FAA to phase out floppy disks from airport control towers",
+     "url": "https://www.seattletimes.com/business/faa-to-phase-out-floppy-disks-from-airport-control-towers/",
+     "source": "The Seattle Times"
     },
     {
-     "title": "UFC 335 and UFC 336 press conference video",
-     "url": "https://sports.yahoo.com/articles/ufc-335-ufc-336-press-203000478.html",
-     "source": "Yahoo Sports"
+     "title": "Trump’s Transportation Secretary Sean P. Duffy Begins Retiring Decades Old Floppy Disks from Air Traffic Control as Part of Ongoing Modernization Effort Deployment of Brand New Air Traffic Control Continues at Record Pace",
+     "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air",
+     "source": "Federal Aviation Administration (.gov)"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 10.5,
+   "score": 9.6,
    "already_covered": false
   }
  ]
