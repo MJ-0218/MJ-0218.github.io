@@ -76,7 +76,8 @@ class ShortScript(BaseModel):
     hashtags: List[str]
     tags: List[str]
     pinned_comment: str
-    music_prompt: str = ""   # 배경음악 분위기(영어, 장르·템포·악기·감정). 가사 없는 연주곡으로 만든다
+    music_prompt: str = ""
+    bgm_volume: float = 0.0  # 0 이면 틀 기본값. 원본 소리(웃음소리 등)가 킥인 영상은 낮게   # 배경음악 분위기(영어, 장르·템포·악기·감정). 가사 없는 연주곡으로 만든다
 
 
 SYSTEM = """너는 한국 유튜브 쇼츠 편집 작가다. 시청 지속률과 반복 재생을 끌어올리는 짧은 나레이션 대본을 쓴다.

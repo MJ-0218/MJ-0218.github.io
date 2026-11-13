@@ -190,7 +190,7 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_ba
         bgm = bgm_path or pick_bgm()
         if bgm:
             inputs += ["-stream_loop", "-1", "-i", str(bgm)]
-            vol = tcfg.get("bgm_volume", vcfg["bgm_volume"])
+            vol = getattr(script, "bgm_volume", 0) or tcfg.get("bgm_volume", vcfg["bgm_volume"])
             mix.append(f"[{n}:a]aresample=44100,volume={vol},afade=t=in:d=0.4,afade=t=out:st={max(0, end - 1.2):.2f}:d=1.2[bgm]")
             labels.append("[bgm]")
             n += 1
