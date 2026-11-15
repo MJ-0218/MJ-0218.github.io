@@ -1,27 +1,116 @@
 {
- "generated_at": "2026-11-16T06:09:16.114792+09:00",
+ "generated_at": "2026-11-16T06:38:47.460534+09:00",
  "sources": {
   "calendar": "ok (2)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 67, 실패 20)"
+  "evidence": "ok (저장 69, 실패 27)"
  },
  "compared_runs": 5,
  "spikes": [
-  "SNAP benefits",
-  "REAL ID",
-  "jordyn tyson",
-  "vikings schedule 2026",
-  "hornets vs clippers",
-  "mirra andreeva",
-  "kc concepcion",
-  "christian watson",
-  "rams - cardinals",
-  "zane gonzalez",
-  "khalil shakir",
-  "dalton schultz"
+  "49ers",
+  "brock bowers",
+  "vikings schedule",
+  "spurs vs jazz",
+  "chad lowe",
+  "tutu atwell",
+  "erin andrews",
+  "rams vs cardinals where to watch",
+  "eli junior kroupi",
+  "cj daniels"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "49ers",
+   "traffic": 50000,
+   "published": "2026-11-16T06:20:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Ways to Watch and Listen: 49ers vs. Cowboys | Week 10",
+     "url": "https://www.49ers.com/news/ways-to-watch-and-listen-49ers-vs-cowboys-week-10",
+     "source": "San Francisco 49ers"
+    },
+    {
+     "title": "49ers-Cowboys live discussion: Brock Purdy looks to remain undefeated against Dallas",
+     "url": "https://sports.yahoo.com/articles/49ers-cowboys-live-discussion-brock-210300852.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Cowboys vs. 49ers score predictions: Can Dallas shock the NFL, stay alive in NFC East race?",
+     "url": "https://www.nytimes.com/athletic/7776929/2026/11/15/cowboys-49ers-predictions-score-nfl-week-10/",
+     "source": "The New York Times"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 184.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.49ers.com/news/ways-to-watch-and-listen-49ers-vs-cowboys-week-10",
+     "title": "Ways to Watch and Listen: 49ers vs. Cowboys | Week 10",
+     "outlet": "San Francisco 49ers"
+    },
+    {
+     "url": "https://sports.yahoo.com/articles/49ers-cowboys-live-discussion-brock-210300852.html",
+     "title": "49ers-Cowboys live discussion: Brock Purdy looks to remain undefeated against Dallas",
+     "outlet": "Yahoo Sports"
+    },
+    {
+     "url": "https://www.nytimes.com/athletic/7776929/2026/11/15/cowboys-49ers-predictions-score-nfl-week-10/",
+     "title": "Cowboys vs. 49ers score predictions: Can Dallas shock the NFL, stay alive in NFC East race?",
+     "outlet": "The New York Times"
+    }
+   ]
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-16T06:38:47.482650+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -14,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-16T06:38:47.482673+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -14,
+   "in_window": true
+  },
   {
    "source": "google_news",
    "keyword": "SNAP benefits",
@@ -58,9 +147,7 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 0.8→3건 (2.3배)",
-   "spike_bonus": 22.9,
-   "score": 103.8,
+   "score": 67.2,
    "already_covered": false,
    "evidence": [
     {
@@ -76,110 +163,43 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-16T06:09:16.155672+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -14,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-16T06:09:16.155702+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -14,
-   "in_window": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "REAL ID",
-   "traffic": 0,
-   "article_count_24h": 18,
-   "article_count_1h": 3,
-   "published": "2026-11-15T22:00:00+09:00",
+   "source": "google_trends",
+   "keyword": "brock bowers",
+   "traffic": 5000,
+   "published": "2026-11-16T06:10:00+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "Real ID NJ Before Thanksgiving? The Paper Copy Won't Fly - SNJ Today",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NMWlmNTczelFCcWRGYUR2Nm5MZ3o1R283YzJkdTJ6ZnRNbnY2bUw5R3lwS0RDalg1M3BZSHdmVUNoUTNic01xOHpYaFBYbzkyaUdpanRQclk?oc=5",
-     "source": "SNJ Today"
+     "title": "Brock Bowers’ fiancée reveals why Raiders star was crying before Seahawks game",
+     "url": "https://sports.yahoo.com/articles/brock-bowers-fianc-e-reveals-201517220.html",
+     "source": "Yahoo Sports"
     },
     {
-     "title": "Real ID | Three required documents you must submit to get an ID for the first time, plus other records - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaEtvWXh0cThacFZGSVBHdWV6dFNfbFVZR0h3bGVDMjMzdnpPYU5fTGNIaGZQX2twYzN4aGJNWGdQTU5nRFE2RjNhR1RlYVp6THBKbzl3OFgxUkVKYVh4MnNfSmlFcTJ5X1Q5d0JrT1Z2emxYdkJEZmlrZ25OR3hEV2t1aWlCRW1yVEZJaWowcldkOXJUVzMyOWcwM3J6eVpfRmdxdTRmaFdRcWE2anJqYnZWdnVGMGVmVloyUFJQMUZpNFlmQUZjaFBVSHpEXzBsVlJnR3ZfRQ?oc=5",
-     "source": "El Cronista"
+     "title": "How to watch, listen to and livestream Raiders vs. Seahawks",
+     "url": "https://www.raiders.com/news/how-to-watch-listen-to-and-livestream-raiders-vs-seahawks",
+     "source": "Raiders.com"
     },
     {
-     "title": "Inside the Jordan Dome, where 'Space Jam' pickup games helped MJ get his game back - ESPN",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUUphclZTdE5GblhzMlQtWF9oMk5YWE9FRVp2V1FDaEQwYUloUUpLeURlY3V1ZGFvRC1ZMndZdFlCanVtSVd6MjFTbVJjWkRnSUdKRVp5YkRCS2lqdjlwc09fb2ZFY3ZhaTJBU2wxVi10elk3RC14clZrRmVYN1FUS0tnRFhoTHVMWDgwSDZOX0Z2TWtWWGFsV3J3?oc=5",
-     "source": "ESPN"
-    },
-    {
-     "title": "One compromised MCP server can trick an AI agent into misusing tools you already trust - VentureBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNmkwanhHbjBxWlFHSTFMMTBsV05hWHM3NHRfTFYxZS1xVTVOTXh5aWRUTkxSNTJ2WEtyeU5aOUdKT1F0V0dBa3BUSUozcE9hcjYtWlFRWUtYaW4yb3BCbC0wWDhsWjNrbVJlOEM3X0FqRmU4dlNWb2FaNThQei1KbVZwVExuRTNaZFNiMEc0R05FcTNObHNLdGFhQm1PeHpWdGxGeEVONHhQeUlfaHlfcWZzZHNlYzRudmJpZVVMc3Rmdw?oc=5",
-     "source": "VentureBeat"
-    },
-    {
-     "title": "Tessa Johnson, Joyce Edwards lead No. 1 South Carolina past USC 89-85 in battle for 'Real SC' - RiverBender.com",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNaV9rVjJFaWJMUmJuZ0hsQ2lFdHlyNWs0MHB1MmtyTFZuUG5qd0Z6NHlhQ2tPWjl2Nldnb3VxbWZnLVhya1gxcVJLRHIzLS1nc0VrTmg0eWNFWnB2SDBZZXpnc0tJQlVLZTRIZA?oc=5",
-     "source": "RiverBender.com"
+     "title": "Live: Updates: Drew Lock fumbles on Seahawks’ first drive and Raiders rookie QB scores",
+     "url": "https://www.seattletimes.com/sports/seahawks/seahawks-vs-raiders-live-updates-qbs-drew-lock-fernando-mendoza-face-off/",
+     "source": "The Seattle Times"
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 0.5→3건 (2.7배)",
-   "spike_bonus": 26.7,
-   "score": 72.1,
-   "already_covered": true,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 60.0,
+   "already_covered": false,
    "evidence": [
     {
-     "url": "https://snjtoday.com/real-id-nj-thanksgiving/",
-     "title": "Real ID NJ Before Thanksgiving? The Paper Copy Won't Fly - SNJ Today",
-     "outlet": "SNJ Today"
+     "url": "https://sports.yahoo.com/articles/brock-bowers-fianc-e-reveals-201517220.html",
+     "title": "Brock Bowers’ fiancée reveals why Raiders star was crying before Seahawks game",
+     "outlet": "Yahoo Sports"
     },
     {
-     "url": "https://www.cronista.com/en/immigration/real-id-three-required-documents-you-must-submit-to-get-an-id-for-the-first-time-plus-other-records/",
-     "title": "Real ID | Three required documents you must submit to get an ID for the first time, plus other records - El Cronista",
-     "outlet": "El Cronista"
-    },
-    {
-     "url": "https://venturebeat.com/orchestration/one-compromised-mcp-server-can-trick-an-ai-agent-into-misusing-tools-you-already-trust",
-     "title": "One compromised MCP server can trick an AI agent into misusing tools you already trust - VentureBeat",
-     "outlet": "VentureBeat"
-    },
-    {
-     "url": "https://www.riverbender.com/sports-news/details.cfm?id=525678",
-     "title": "Tessa Johnson, Joyce Edwards lead No. 1 South Carolina past USC 89-85 in battle for 'Real SC' - RiverBender.com",
-     "outlet": "RiverBender.com"
+     "url": "https://www.raiders.com/news/how-to-watch-listen-to-and-livestream-raiders-vs-seahawks",
+     "title": "How to watch, listen to and livestream Raiders vs. Seahawks",
+     "outlet": "Raiders.com"
     }
    ]
   },
@@ -198,24 +218,24 @@
      "source": "El Cronista"
     },
     {
+     "title": "IRS Pauses Red-Dyed Diesel Penalties: What Happens Jan. 1? - Pickup Truck +SUV Talk",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTXRJc0RyVlNMeEpDX21pVjhLRXhkazU1MW51bE5PQTRBa2V4ODJhUlJxcHFTcFdaaWRYSkpITEdZeFVTT0luWm91Tm1JLXNVclVMMHJROVhaOUR2QnR1Vk9sajRzNnVLdktLNWRoVTlOcFpfRW5pVlNuZHQtZVpsWU40YldjdkRYUjgw?oc=5",
+     "source": "Pickup Truck +SUV Talk"
+    },
+    {
      "title": "Got tax refund twice? Here is what you should do - Livemint",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVTlCS1R5UXZ2OWo3YkpOMUQxYWdJWS1GdldibWdGa2ZwdWRydjdyMksxNkJjWkhpMzdsY0hsTi1MZDNWNEhFckdLRFhFV2dHSVFDSXRadGFWOG9Udm04RUpCeU0ybHl6SVhzMDYwSFI5VV9xSTlPODVXeVNwSXUzYWlOQ1dHa19yZHR2b2hxVEhqNUpRbDlocWJHV1BRc3N1OUh4cE1MQVVTSkk4bG1ZU1VzbGx1QdIBuwFBVV95cUxOV3FwcTJuREJYSHlaODJhZWE0emNUUHE4ckZFWDNwV1h2UDNYZnZLZHNCNVBfUVBuUmtrdXA1OS0wQXpoamFlWVlOUXFjSUVVcU5kNUwzUzZfUHR5enJVQUI0bmFvb3hGckFqMWk3NWdrXzlEazNfRlhEd2RWc1lram9NcHMwTnpNTFJCd0xpLXhxSmcwRm1oNS1pRlNpMl9LcFBIMkVvdGRSOEZqZHNEX2M1N0k3WVVPM2xN?oc=5",
      "source": "Livemint"
     },
     {
-     "title": "San Miguel Brewery secures P83 million excise tax refund in Philippines ruling - Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc1UyUXJUbzFUWmMybFNQbU0xZzFzbnpBMWhsQVduNm5PMTcwaDFYZDNGdkljcFN3S25wX04tc0NhZlo5ZmpNaDBuV29TMVJfY3A0UmFYU0tRUGdCU3FiNGpIclJRWVh5SjZlUy1MVks3U25INnJVRFF4dEJ6RktYWlJrR2Y3My1wbWNBLUhDbVdONmtT?oc=5",
-     "source": "Traders Union"
+     "title": "Your flight is delayed for hours. Here’s what the airline may owe you - lehighvalleylive",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcjdTdTM5Y1N5RzhfOVRqQTlkZ2FMNjFhUHNHSWc4Qm55ZTlrZF9wWGxVelBsZGk2U3hpejNnV2oxQnQ2c0dPQzNMclV1d0paRXRuekt5YWhPN0hOWEpEWTJKYjk5NG92clU3VERpRFQ4NmNmNXRybFZ1RGxCRHY5WGktMmpBbUlJVkIxRE9pNkdsR0FVcVRqWU1vUDl6Rk9rR3VuRHM3MXJtbVc1SmpLdGtKalFpLTg?oc=5",
+     "source": "lehighvalleylive"
     },
     {
-     "title": "SC upholds P83-M tax refund for San Miguel Brewery - BusinessWorld Online",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcUc5aklRX19jSWJnWGtxRzhhYXR6RE5rTUxoN2VOUnlORjYxZGdUVldjSEZGM2ZVeTBhelZoZXBuU29jeEhNUTNaM2JycnBlMy05dlV2ZlZYZmtzOFZBMXcxQ1c3bmVDSV9mdHBHNFg2VGFmTGNKOEhxSkw1aS1zYnBrTldqcFFablBEd3JhdThSZGQ5ZS1lSGtSM2Fod0F1QkhocmdTVQ?oc=5",
-     "source": "BusinessWorld Online"
-    },
-    {
-     "title": "East Ayrshire residents warned over fake council tax refund emails - Cumnock Chronicle",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQajYwcm0weFZjdk41c25VcEVJeGZFUURVaHk5TGw2TFdMN3d2bFRVcmxHdS1TMDl0VnN5WTVHT01KMHU4em5fOEZQTWZyVDVwYmpFdmQwY2tqRnR2NUZOX3ROQndFN0xfSjBUemlIQVViaDVCU3d0TzRieTlwenF4dFBGUHh2WmlhdFp5VkJJNVlUUmFodGxSYkQ1cENvelhKUGRB?oc=5",
-     "source": "Cumnock Chronicle"
+     "title": "IRS Raises The 1099 Threshold To $2,000 For 2026: What Freelancers Need To Know - The College Investor",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2dTN0VXT0k5dm1QRmEzalVFNFZaXzh2T0o2MmRINGhVaW02bDMzSGRVNFdpXzdVNlNTSlFNWnBBR2V4RTB2RTM5R2gtUVBwMlNKcU14X2dTT21mc0Nzc1E2OFk3MHRUcHg4MnRRMXp5cmMteWUwMnhTcjI4V093RjBCLVBwQ3l4QWZCSw?oc=5",
+     "source": "The College Investor"
     }
    ],
    "official": false,
@@ -228,19 +248,19 @@
      "outlet": "El Cronista"
     },
     {
+     "url": "https://pickuptrucktalk.com/2026/11/irs-red-dyed-diesel-penalty-relief-december-31/",
+     "title": "IRS Pauses Red-Dyed Diesel Penalties: What Happens Jan. 1? - Pickup Truck +SUV Talk",
+     "outlet": "Pickup Truck +SUV Talk"
+    },
+    {
      "url": "https://www.livemint.com/money/personal-finance/got-tax-refund-twice-here-is-what-you-should-do-11794680027008.html",
      "title": "Got tax refund twice? Here is what you should do - Livemint",
      "outlet": "Livemint"
     },
     {
-     "url": "https://bworldonline.com/corporate/2026/11/15/794109/sc-upholds-p83-m-tax-refund-for-san-miguel-brewery/",
-     "title": "SC upholds P83-M tax refund for San Miguel Brewery - BusinessWorld Online",
-     "outlet": "BusinessWorld Online"
-    },
-    {
-     "url": "https://www.cumnockchronicle.com/news/26730177.east-ayrshire-trading-standards-warns-tax-refund-scam/",
-     "title": "East Ayrshire residents warned over fake council tax refund emails - Cumnock Chronicle",
-     "outlet": "Cumnock Chronicle"
+     "url": "https://thecollegeinvestor.com/92109/irs-raises-the-1099-threshold-to-2000-for-2026/",
+     "title": "IRS Raises The 1099 Threshold To $2,000 For 2026: What Freelancers Need To Know - The College Investor",
+     "outlet": "The College Investor"
     }
    ]
   },
@@ -248,7 +268,7 @@
    "source": "google_news",
    "keyword": "product recall",
    "traffic": 0,
-   "article_count_24h": 41,
+   "article_count_24h": 39,
    "article_count_1h": 1,
    "published": "2026-11-16T04:39:27+09:00",
    "category": "Benefits",
@@ -330,14 +350,14 @@
      "source": "24/7 Wall St."
     },
     {
+     "title": "At 71 With $950,000, He’ll Be Asked to Co-Sign His Grandson’s Private Student Loan. He’d Owe Every Dollar If the Payments Stop - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeXRERWJJTGR3eWZaWFRTdWZCWjdFdF9pYl9wUElsdWZFa3hTczBYQXFfNlF5Tkd5V2hUNXdhdTRkWkRtODlIcDh5b3dhU3B4MzU3THkyNDR6dnd6X1BrZ3R1V2dsOWVYNVBmZVpXc0czcEdRaG5wLTVtekhxSmRlLVZ0QQ?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
      "title": "Democrats Weigh 0% Student Loan Interest, GOP's 2% Plan And Warren's 10% Credit Card Cap - The College Investor",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQjFCWlFJV2RSVVJXTUhJWWFTaDJLa0xFSjdXUVgtTkdRT3VwNG9iY0VlU29MZnhWT0hSS3RPRkFhQ3hSa0F4d2x6LV90RlIta0MtRVJFS2hiZFhCZ01fT29ydUV1bXdWN3FEdi1IdWtlaGRSVWlPZzVYQ19MRnpFbA?oc=5",
      "source": "The College Investor"
-    },
-    {
-     "title": "Better Home & Finance: 3 Key Takeaways for Long-Term Investors - Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUExFRm1TRVB5SEtaR1hCTDZXWk1weWxDQXJqU3hveWRZbEYzM29KRHJGcTV1U2czYjNaVzE0NmQtdXV5WmpBdXRJclppblk4RWVRWEprMnhSOXZYVURzd1lKUDNpQmFUWXI5YmNiZU53aVpocm8yTlpZaEFwZDdwQW85dE41NUU4LVI4OHVlS3hWYmFn?oc=5",
-     "source": "Yahoo Finance"
     }
    ],
    "official": false,
@@ -350,245 +370,28 @@
      "outlet": "The New York Times"
     },
     {
+     "url": "https://www.hawaii.edu/news/2026/11/15/no-2-lowest-college-costs-relative-to-income/",
+     "title": "Hawaiʻi ranked No. 2 for lowest college costs relative to income - University of Hawaii System",
+     "outlet": "University of Hawaii System"
+    },
+    {
      "url": "https://247wallst.com/personal-finance/2026/11/15/at-71-with-950000-hell-be-asked-to-co-sign-his-grandsons-private-student-loan-hed-owe-every-dollar-if-the-payments-stop/",
      "title": "At 71 With $950,000, He'll Be Asked to Co-Sign His Grandson's Private Student Loan. He'd Owe Every Dollar If the Payments Stop - 24/7 Wall St.",
      "outlet": "24/7 Wall St."
     },
     {
-     "url": "https://thecollegeinvestor.com/92224/student-loan-interest-credit-card-cap/",
-     "title": "Democrats Weigh 0% Student Loan Interest, GOP's 2% Plan And Warren's 10% Credit Card Cap - The College Investor",
-     "outlet": "The College Investor"
-    },
-    {
-     "url": "https://finance.yahoo.com/markets/stocks/articles/better-home-finance-3-key-164439601.html",
-     "title": "Better Home & Finance: 3 Key Takeaways for Long-Term Investors - Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/articles/71-950-000-ll-asked-184924740.html",
+     "title": "At 71 With $950,000, He’ll Be Asked to Co-Sign His Grandson’s Private Student Loan. He’d Owe Every Dollar If the Payments Stop - Yahoo Finance",
      "outlet": "Yahoo Finance"
     }
    ]
   },
   {
    "source": "google_news",
-   "keyword": "election day",
-   "traffic": 0,
-   "article_count_24h": 28,
-   "article_count_1h": 25,
-   "published": "2026-11-15T23:38:00+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Colleen O'Dea: A Day in the Life of a Poll Worker - Insider NJ",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xeVhGWERnSURwZ0VfZVdvVmZyZ19idXo4dVVpZV9OMEIxNjk5a2JHcEEyb3FzbDJSa0REYnl4a2piN1lXSjVvQkVkSmwxSzdtemxIZzdMVnk1bENnaklfY01KUW8wMmR2S2cwUg?oc=5",
-     "source": "Insider NJ"
-    },
-    {
-     "title": "Live Updates: Follow as New England election results roll in - WCVB",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRXVtdG8wamVkR25yUl93YWUzMzhBaXBzSEhHWlIzSC1oMjZBeURFNU9qMm9KUnd5RUxCeEtXN0ZnakpaVm1KQ2hCSGMtdlZCVE9vbzl6RTc5cWo0QVBMVWUxN0dRMjFvOXFmd3NhSml4YUpCdzBweHpoSlZhUGdqYThvMnEtdC1FLXc?oc=5",
-     "source": "WCVB"
-    },
-    {
-     "title": "Benjamin Netanyahu aides reportedly suspected of role in Ra’am Election Day arrests - The Jerusalem Post",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NUzVTN1ZrN2N6cnh1VHA1aVAwMGdqaHpSSnFWZWNyclVHN0gtVlFQeHp5ekQ0V21ZYlBXeURfOTQtVHgxMFlpWHRkcklvaXdCVlFPZ1BHMVhzNElKdWNNcEhpVnFzZnlJaDljanM5S0hwUFVudE9fU3MxYw?oc=5",
-     "source": "The Jerusalem Post"
-    },
-    {
-     "title": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5",
-     "source": "Reuters"
-    },
-    {
-     "title": "PMO rejects claim it manufactured election day arrests of Ra'am members; Eisenkot pledges inquiry - The Times of Israel",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRmF1ZndhNGE5aUlLblhsTENIYXRUR1FjREgzYnhrbzlNUWMyMmdUYnZIcS1iWWRPWGhtU1htYlhuekxCMlVaYlZraUVPM1hqaGt4a1NHYV9DRmlycnFDMXZRU09lM3RmNG0xQnZFdk9OekExMTZnNG1aVDJsdFRjZ0xndGpmU2RfUjE5YVJ0Tm4zdE9JenFHMnEzVllSNE5KY3B2NWFJeFZOZnZoMHc0R3hnV042V3p1TEZ6U0NYekVnRnFqQjlIemtCNDR1czVhdkFaNFRwNVo?oc=5",
-     "source": "The Times of Israel"
-    }
-   ],
-   "official": false,
-   "score": 45.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.insidernj.com/colleen-odea-day-life-poll-worker/",
-     "title": "Colleen O'Dea: A Day in the Life of a Poll Worker - Insider NJ",
-     "outlet": "Insider NJ"
-    },
-    {
-     "url": "https://www.wcvb.com/article/massachusetts-2026-election-day-live-updates/74219899",
-     "title": "Live Updates: Follow as New England election results roll in - WCVB",
-     "outlet": "WCVB"
-    },
-    {
-     "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914987",
-     "title": "Benjamin Netanyahu aides reportedly suspected of role in Ra’am Election Day arrests - The Jerusalem Post",
-     "outlet": "The Jerusalem Post"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "medicare open enrollment",
-   "traffic": 0,
-   "article_count_24h": 16,
-   "article_count_1h": 0,
-   "published": "2026-11-16T04:46:25+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "Caring For An Aging Parent? What To Check Before Medicare Enrollment - Forbes",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNEZ1Vkh6ZW1nb1czeFdrNlFlNko1Q01teUZkMlZxNUVWTWxHLWxLRmhjQmpwaXhHaFQzN2N0ZjJ1eEhEbUw3RkVnRzBLQThLNzhMSVJKY0hNMTUxX1RFQkNKUzI1YUJnX2pHazlWeHJOLXdPNVU4eWZCTVRCWUQ2SUp4Z0JIWXVzUlZiMEZ6a3lxa2RQRnlpWEwtRjdXZTgxU01mX2swd25iUS1JRkc0amRvY1FMR1hFdkdidDQwQQ?oc=5",
-     "source": "Forbes"
-    },
-    {
-     "title": "Neal Logan: Making the most of Medicare open enrollment - Cleburne Times-Review",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYkJzdjJaQmNzTEFncFdjOThWNG1WeFZSRmtkSHMxZks5WkxLeUE5a0pySFBrQnJRNWFvUW5qYmNVdUZPcFZEZTZCYWxfOHM2Z3NvMGRWbTJNc1NjTi1QWDBsQWZyYlBTV21TbTF6ckxHSVlITmhkbUt3djUxQnZoQXc4TE9tT1BZSGZNUEV4ZF9ZWVVxQUVBUTlzTUwxM1ZkckFScmhCb3ZkN3o0SnpVYzUyZmYzTkpEcE45SHVaWUhBQmE4enNicDBNWTBQSHRaM1JwbnRIRXpwbnlVRHdjNTVHMA?oc=5",
-     "source": "Cleburne Times-Review"
-    },
-    {
-     "title": "Rural Minnesota Seniors Could Pay Thousands More as Medicare Advantage Plans Disappear in 2027 - Medical Daily",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVlZHdGVTU0RYYXpDQUZwczdXLUtKYlhtMGNGNDA5aTE3cDVyTXozd2s4bjdrcHZ2ajlIeTRROWNJNDd1NU44QUd5ZXJraWJJSzM4aEFfTFk3a00tTmlTcktleXBXTU9qSEd3a0lyRjN5NGQ1aFhMajg1RVNTLXJyWlp3S1JudnlWLVNoWEl4TVJESkk?oc=5",
-     "source": "Medical Daily"
-    },
-    {
-     "title": "Local insurance agent breaks down what to know about 2027 health coverage - WJBF",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ0VubTRDUXQ3SkpOS0dmWHY5MjJZMjlRVzFTbU1XQmY2cnVNRWRzc0pheTQyVHlnUHFMQVZhNWI4YjF2UXVjYmJjRXFtZ2NPcWFvY1Jra2lodWl2STdpbXB4RHpKcWI3VVRuTk5ZRHBBQU42bzN0Um0wcFhCdUZ3QmJHbDdMSXI3U0xjYUdvSVFCMzdISjQxbWVNZERVTVRVY3FDMFpYSdIBpwFBVV95cUxOQ0VubTRDUXQ3SkpOS0dmWHY5MjJZMjlRVzFTbU1XQmY2cnVNRWRzc0pheTQyVHlnUHFMQVZhNWI4YjF2UXVjYmJjRXFtZ2NPcWFvY1Jra2lodWl2STdpbXB4RHpKcWI3VVRuTk5ZRHBBQU42bzN0Um0wcFhCdUZ3QmJHbDdMSXI3U0xjYUdvSVFCMzdISjQxbWVNZERVTVRVY3FDMFpYSQ?oc=5",
-     "source": "WJBF"
-    },
-    {
-     "title": "Medicare patients face disruptions as health plans exit Southeast Indiana - The 812",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbi1RaERKZUFqTWYtUkVRNWxlOFIzWjFKWEVaWlRWbmJSNHdRM0drV3pnbDE3RDVoS2RaU3Zrb3NGczVBQXFvRFFXMTNSclNzYTJ2SlBtbEJnMUJaR1JjRlg2dVB2c1V5cHlNOGpneTBDdE02X2R6cWdWWkFVUl9nOVlMTWdsSTFmQlJLZmN0LVp2Xzg5TF96elZ3ZWhXbWhvMFVvbw?oc=5",
-     "source": "The 812"
-    }
-   ],
-   "official": false,
-   "score": 45.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cleburnetimesreview.com/business/neal-logan-making-the-most-of-medicare-open-enrollment/article_61f1716a-4f3f-47af-bcbc-68d0161f72e1.html",
-     "title": "Neal Logan: Making the most of Medicare open enrollment - Cleburne Times-Review",
-     "outlet": "Cleburne Times-Review"
-    },
-    {
-     "url": "https://www.medicaldaily.com/minnesota-counties-lose-medicare-advantage-plans-2027-481263",
-     "title": "Rural Minnesota Seniors Could Pay Thousands More as Medicare Advantage Plans Disappear in 2027 - Medical Daily",
-     "outlet": "Medical Daily"
-    },
-    {
-     "url": "https://www.wjbf.com/news/local-insurance-agent-breaks-down-what-to-know-about-2027-health-coverage/amp/",
-     "title": "Local insurance agent breaks down what to know about 2027 health coverage - WJBF",
-     "outlet": "WJBF"
-    },
-    {
-     "url": "https://www.812noww.com/post/medicare-patients-face-disruptions-as-health-plans-exit-southeast-indiana",
-     "title": "Medicare patients face disruptions as health plans exit Southeast Indiana - The 812",
-     "outlet": "The 812"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "federal holiday",
-   "traffic": 0,
-   "article_count_24h": 31,
-   "article_count_1h": 2,
-   "published": "2026-11-15T22:00:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "NJ State Holidays 2026 and 2027 and What's Closed - SNJ Today",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55RWxVNWhSX2NOS1dTZkdVTWlRRG1COThzXzJTUVNMc29oU3ZlcHFDNGx4al9KdHRsWktURnR3d0l3b3BDUUROTzV4TWJPOVhh?oc=5",
-     "source": "SNJ Today"
-    },
-    {
-     "title": "Federal judge rules on Satanic Temple’s holiday plans in Iowa Capitol - KIWA Radio",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNem9CLV9HWWs0bE1XcExybE1rOFJ0M2hzWXFEVFZiYUdIN1ZoQldxN3lDYW1KYzktVHZ1aUxXbUFJZTQzRXRsWVhWZXU2bVprdGRxa01VV2c0RlpQSGszcHNPMzZLMV9uenIySm53MXNHRVBtSTZqc3ZEdkZtQ0M2VDVGRFJ0a1o0U0F5NFUwaHNHUmVpeXFteTVBTDY?oc=5",
-     "source": "KIWA Radio"
-    },
-    {
-     "title": "Slow-Burn Holiday Romance with Amanda Elliott - FOX 2 Detroit",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HUkhOeVlYYXYyVzkxb0dwVEh1MDFBdndSQ1YtWF9fQzNWN184R0VlWUE1bXhfcWR1NFZVUkdrOS13dURVY21PYzExNFM2bXhpNVFmWm5qZmZkekdCbjZ4dmpxdjXSAWpBVV95cUxONHlwWjg5R3o1eDVlUTM1QzBfdDg3U2FJc1lWREpxNDdUSjNXSy1SU092NzMzZTBGaGZ4dUdON3hDbEw3ZW85eEZldlBROXlNUVF4NnVzZllCTXVCOFFRVTJDNVBfWVpEM0RR?oc=5",
-     "source": "FOX 2 Detroit"
-    },
-    {
-     "title": "Religious holidays bill vetoed by Lombardo could become law in Nevada's next session - Las Vegas Sun",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxON0FPeVo0c3VqcEJvMWRjMnVmckZmWGNjeXJ0akpfSGk2dTN3RDc2el8yc1NTWU1Ua3VwbmJJVzd3N19fd21Yam96T2VnaEhqOU5HNXdOaDB5bC1EQUk1S3BFSFBrcGFxVW5ZU1hxUkxIS2xkRUZGeHV3VkhLWm5oMnEtUVlIUEhhVlRxRU5LUm1CdU0yNDRB?oc=5",
-     "source": "Las Vegas Sun"
-    },
-    {
-     "title": "Bill in US Congress to recognise Diwali as federal holiday - DD News",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWlBVWdzdkVHUTZwMkRWUzJsY3QzMGZLOUNJSVVKOFpySXdNNFc3c0VLdzNKWkplQ05nR0J1SjE1WHJzY1pfVjNpUktuejFQQWJ4N19MUUhydHZwOTdzQVRYbzRHOUI5c0NuMTZ2Z0VLYUF0Vkt1LWx6VjNTVnJXZGlsUlh3Q1JYb0xNRw?oc=5",
-     "source": "DD News"
-    }
-   ],
-   "official": false,
-   "score": 42.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://snjtoday.com/nj-state-holidays/",
-     "title": "NJ State Holidays 2026 and 2027 and What's Closed - SNJ Today",
-     "outlet": "SNJ Today"
-    },
-    {
-     "url": "https://kiwaradio.com/news/federal-judge-rules-on-satanic-temples-holiday-plans-in-iowa-capitol/",
-     "title": "Federal judge rules on Satanic Temple’s holiday plans in Iowa Capitol - KIWA Radio",
-     "outlet": "KIWA Radio"
-    },
-    {
-     "url": "https://www.fox2detroit.com/video/fmc-y237qq5d758zl2cj",
-     "title": "Slow-Burn Holiday Romance with Amanda Elliott - FOX 2 Detroit",
-     "outlet": "FOX 2 Detroit"
-    },
-    {
-     "url": "https://lasvegassun.com/news/2026/nov/15/religious-holidays-bill-vetoed-by-lombardo-could-b/",
-     "title": "Religious holidays bill vetoed by Lombardo could become law in Nevada's next session - Las Vegas Sun",
-     "outlet": "Las Vegas Sun"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "car recall",
-   "traffic": 0,
-   "article_count_24h": 38,
-   "article_count_1h": 2,
-   "published": "2026-11-15T23:06:45+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "Jeep Recalls 1.1 Million Vehicles That Might Catch Fire - Motor1.com",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMzJsa2RGNDZrNWNaNlZpcGxlRlcyR0laS2hiejRlUE9uMHlEVVJQanhyOTNfOWU0bmItUkNlOVFVVDBWa251QVRrWlVISlNfdDBzRXJXcjdJWnpxN2YwNXJIZEdCUzhTV19zMlVzdFBoaDZ2SnVsU2xyVEFOenlUUHpB?oc=5",
-     "source": "Motor1.com"
-    },
-    {
-     "title": "Urgent Park Outside Recall Issued For Nearly 721K BMW Vehicles - KHTS Radio",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSndHa2p1eWNtbEFtcy0tS2ZuMGYxU016UUVEY0t6TXRweEZVV1owQTFDZEhHM0dtS0IxN0ZFT20yOURjZDFpbW9PbWg3S1NsenRZSHNpVk5GSzVVMG9pUXF0V25oRmt3YVFZSHNQVTVucFBXZ0ZXQ29kZThjcHkwSjFfZDdYRG9GQ3dBYzZzeUFNWGlxSTNQcG94MDh1bDdraTAzMl9MWGR2ZEkwMmc1U3ZUcDVoVi1RbHZDVE1NNVdEeDlNdlpSWk95QVhDOFo2?oc=5",
-     "source": "KHTS Radio"
-    },
-    {
-     "title": "Nio Warns Owners of Fake ‘Airbag Recall’ Texts as Scam Hits Over 20 Brands - Electric Vehicles",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSnRjNnh6d0MzS2JsMGV2OVplVHJkLTV3cHdFWjJZT1ZCMnRiQmFOR0g0Q3hrdmZ2WDhPcnV2VjZaRk5QM1RWR0lyYndNQkx1ZGpLMlVjRUhWYzZJOGs4cFZQSFhHa3N1VXJlejBHd1JQaUEwR0VFRjc5QmhCUTZFQlJNMVVXb2FzX3NaZDhNdWNCWkY1elpSNGhQSk5FZWpuU3Y1eFY5ZXF2Zw?oc=5",
-     "source": "Electric Vehicles"
-    },
-    {
-     "title": "2026 Porsche Cayenne Electric Reliability & Recalls - U.S. News & World Report",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03M0R6YXBWTVdNVXF5SlIxNDZfLWdHMF95WUNmWU5KOWxFUFQ1bVZvV2hCS0hjbTg1Z0ZwLVU3U1NaenNheVZQcVI5RW9kRG53eDA4VnVNeHZkM0NUSDNsdS1NR2w5T1ptWFF6cm1FdV85V2tQU1pjNVJuZkI?oc=5",
-     "source": "U.S. News & World Report"
-    },
-    {
-     "title": "BMW’s Previous Recall Failed to Fix Fire Risk, 720,796 Owners Now Told to Park Outside - MotorBiscuit",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ25lZ2VhSWF3aXhoMUd2VzJrQWxDN3E0TUt2RVJlUkdfR0w2R2NHczg1XzMwSElYNG9XYk0yaS1wYXlqOTQyQzlQLWRjX01OY2VPbThDY2NlTWdFeHRSOVNDS0hYczVpc3FnR2ZwS1lsaUdCY1ZTRDJKMUlVaHVWM2U4cWN0dDdLN1c2SVdQcm5Sc2pWcW50V3V1U1lmRGh3ek1qd1lxbzdOdkYwNjZCNFMxVQ?oc=5",
-     "source": "MotorBiscuit"
-    }
-   ],
-   "official": false,
-   "score": 34.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 26,
-   "article_count_1h": 0,
+   "article_count_24h": 27,
+   "article_count_1h": 3,
    "published": "2026-11-15T20:00:00+09:00",
    "category": "Benefits",
    "news": [
@@ -619,15 +422,37 @@
     }
    ],
    "official": false,
-   "score": 33.6,
-   "already_covered": false
+   "score": 47.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.washingtonexaminer.com/news/4771347/second-round-of-november-social-security-payments-goes-out-in-three-days/",
+     "title": "Second round of November Social Security payments goes out in three days - Washington Examiner",
+     "outlet": "Washington Examiner"
+    },
+    {
+     "url": "https://en.as.com/latest_news/social-security-benefits-are-paid-out-on-wednesday-nov-18-who-gets-a-check-f202611-n/",
+     "title": "Social Security benefits are paid out on Wednesday, Nov. 18: who gets a check? - Diario AS",
+     "outlet": "Diario AS"
+    },
+    {
+     "url": "https://www.moneylion.com/trending/money/social-security-future-benefit-smaller-ways-prepare",
+     "title": "Could Your Social Security Benefit Shrink? 5 Ways To Prepare - MoneyLion",
+     "outlet": "MoneyLion"
+    },
+    {
+     "url": "https://247wallst.com/personal-finance/2026/11/15/some-workers-will-pay-11922-60-in-social-security-tax-in-2027-will-you-be-one-of-them/",
+     "title": "Some Workers Will Pay $11,922.60 in Social Security Tax in 2027. Will You Be One of Them? - 24/7 Wall St.",
+     "outlet": "24/7 Wall St."
+    }
+   ]
   },
   {
    "source": "google_news",
    "keyword": "social security COLA",
    "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 0,
+   "article_count_24h": 25,
+   "article_count_1h": 3,
    "published": "2026-11-15T23:06:00+09:00",
    "category": "Benefits",
    "news": [
@@ -658,14 +483,347 @@
     }
    ],
    "official": false,
-   "score": 33.6,
-   "already_covered": false
+   "score": 47.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.fool.com/retirement/2026/11/15/social-security-trump-bump-driven-2027-cola-has-a-rare-bonus-for-29-million-retirees/",
+     "title": "Social Security's Trump Bump-Driven 2027 COLA Has a Rare \"Bonus\" for 29 Million Retirees - The Motley Fool",
+     "outlet": "The Motley Fool"
+    },
+    {
+     "url": "https://www.kiplinger.com/taxes/usd2-400-social-security-increase-proposed-for-retirees",
+     "title": "$2,400 Social Security Increase Proposed for Retirees: What to Know - Kiplinger",
+     "outlet": "Kiplinger"
+    },
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/3-6-cola-adds-72-120927281.html",
+     "title": "A 3.6% COLA Adds $72 a Month to a $2,000 Social Security Check, but Here’s How Much the Highest Earners Get - Yahoo Finance",
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA-Q/pressreleases/8844175/social-security-s-trump-bump-driven-2027-cola-has-a-rare-bonus-for-29-million-retirees/",
+     "title": "Social Security's Trump Bump-Driven 2027 COLA Has a Rare \"Bonus\" for 29 Million Retirees - The Globe and Mail",
+     "outlet": "The Globe and Mail"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "election day",
+   "traffic": 0,
+   "article_count_24h": 29,
+   "article_count_1h": 15,
+   "published": "2026-11-15T23:38:00+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "Colleen O'Dea: A Day in the Life of a Poll Worker - Insider NJ",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xeVhGWERnSURwZ0VfZVdvVmZyZ19idXo4dVVpZV9OMEIxNjk5a2JHcEEyb3FzbDJSa0REYnl4a2piN1lXSjVvQkVkSmwxSzdtemxIZzdMVnk1bENnaklfY01KUW8wMmR2S2cwUg?oc=5",
+     "source": "Insider NJ"
+    },
+    {
+     "title": "Live Updates: Follow as New England election results roll in - WCVB",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRXVtdG8wamVkR25yUl93YWUzMzhBaXBzSEhHWlIzSC1oMjZBeURFNU9qMm9KUnd5RUxCeEtXN0ZnakpaVm1KQ2hCSGMtdlZCVE9vbzl6RTc5cWo0QVBMVWUxN0dRMjFvOXFmd3NhSml4YUpCdzBweHpoSlZhUGdqYThvMnEtdC1FLXc?oc=5",
+     "source": "WCVB"
+    },
+    {
+     "title": "Benjamin Netanyahu aides reportedly suspected of role in Ra’am Election Day arrests - The Jerusalem Post",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NUzVTN1ZrN2N6cnh1VHA1aVAwMGdqaHpSSnFWZWNyclVHN0gtVlFQeHp5ekQ0V21ZYlBXeURfOTQtVHgxMFlpWHRkcklvaXdCVlFPZ1BHMVhzNElKdWNNcEhpVnFzZnlJaDljanM5S0hwUFVudE9fU3MxYw?oc=5",
+     "source": "The Jerusalem Post"
+    },
+    {
+     "title": "PMO rejects claim it manufactured election day arrests of Ra'am members; Eisenkot pledges inquiry - The Times of Israel",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRmF1ZndhNGE5aUlLblhsTENIYXRUR1FjREgzYnhrbzlNUWMyMmdUYnZIcS1iWWRPWGhtU1htYlhuekxCMlVaYlZraUVPM1hqaGt4a1NHYV9DRmlycnFDMXZRU09lM3RmNG0xQnZFdk9OekExMTZnNG1aVDJsdFRjZ0xndGpmU2RfUjE5YVJ0Tm4zdE9JenFHMnEzVllSNE5KY3B2NWFJeFZOZnZoMHc0R3hnV042V3p1TEZ6U0NYekVnRnFqQjlIemtCNDR1czVhdkFaNFRwNVo?oc=5",
+     "source": "The Times of Israel"
+    },
+    {
+     "title": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5",
+     "source": "Reuters"
+    }
+   ],
+   "official": false,
+   "score": 45.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.wcvb.com/article/massachusetts-2026-election-day-live-updates/74219899",
+     "title": "Live Updates: Follow as New England election results roll in - WCVB",
+     "outlet": "WCVB"
+    },
+    {
+     "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914987",
+     "title": "Benjamin Netanyahu aides reportedly suspected of role in Ra’am Election Day arrests - The Jerusalem Post",
+     "outlet": "The Jerusalem Post"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "medicare open enrollment",
+   "traffic": 0,
+   "article_count_24h": 16,
+   "article_count_1h": 0,
+   "published": "2026-11-16T04:46:25+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "Caring For An Aging Parent? What To Check Before Medicare Enrollment - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNEZ1Vkh6ZW1nb1czeFdrNlFlNko1Q01teUZkMlZxNUVWTWxHLWxLRmhjQmpwaXhHaFQzN2N0ZjJ1eEhEbUw3RkVnRzBLQThLNzhMSVJKY0hNMTUxX1RFQkNKUzI1YUJnX2pHazlWeHJOLXdPNVU4eWZCTVRCWUQ2SUp4Z0JIWXVzUlZiMEZ6a3lxa2RQRnlpWEwtRjdXZTgxU01mX2swd25iUS1JRkc0amRvY1FMR1hFdkdidDQwQQ?oc=5",
+     "source": "Forbes"
+    },
+    {
+     "title": "Rural Minnesota Seniors Could Pay Thousands More as Medicare Advantage Plans Disappear in 2027 - Medical Daily",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVlZHdGVTU0RYYXpDQUZwczdXLUtKYlhtMGNGNDA5aTE3cDVyTXozd2s4bjdrcHZ2ajlIeTRROWNJNDd1NU44QUd5ZXJraWJJSzM4aEFfTFk3a00tTmlTcktleXBXTU9qSEd3a0lyRjN5NGQ1aFhMajg1RVNTLXJyWlp3S1JudnlWLVNoWEl4TVJESkk?oc=5",
+     "source": "Medical Daily"
+    },
+    {
+     "title": "Neal Logan: Making the most of Medicare open enrollment - Cleburne Times-Review",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYkJzdjJaQmNzTEFncFdjOThWNG1WeFZSRmtkSHMxZks5WkxLeUE5a0pySFBrQnJRNWFvUW5qYmNVdUZPcFZEZTZCYWxfOHM2Z3NvMGRWbTJNc1NjTi1QWDBsQWZyYlBTV21TbTF6ckxHSVlITmhkbUt3djUxQnZoQXc4TE9tT1BZSGZNUEV4ZF9ZWVVxQUVBUTlzTUwxM1ZkckFScmhCb3ZkN3o0SnpVYzUyZmYzTkpEcE45SHVaWUhBQmE4enNicDBNWTBQSHRaM1JwbnRIRXpwbnlVRHdjNTVHMA?oc=5",
+     "source": "Cleburne Times-Review"
+    },
+    {
+     "title": "Local insurance agent breaks down what to know about 2027 health coverage - WJBF",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ0VubTRDUXQ3SkpOS0dmWHY5MjJZMjlRVzFTbU1XQmY2cnVNRWRzc0pheTQyVHlnUHFMQVZhNWI4YjF2UXVjYmJjRXFtZ2NPcWFvY1Jra2lodWl2STdpbXB4RHpKcWI3VVRuTk5ZRHBBQU42bzN0Um0wcFhCdUZ3QmJHbDdMSXI3U0xjYUdvSVFCMzdISjQxbWVNZERVTVRVY3FDMFpYSdIBpwFBVV95cUxOQ0VubTRDUXQ3SkpOS0dmWHY5MjJZMjlRVzFTbU1XQmY2cnVNRWRzc0pheTQyVHlnUHFMQVZhNWI4YjF2UXVjYmJjRXFtZ2NPcWFvY1Jra2lodWl2STdpbXB4RHpKcWI3VVRuTk5ZRHBBQU42bzN0Um0wcFhCdUZ3QmJHbDdMSXI3U0xjYUdvSVFCMzdISjQxbWVNZERVTVRVY3FDMFpYSQ?oc=5",
+     "source": "WJBF"
+    },
+    {
+     "title": "Medicare patients face disruptions as health plans exit Southeast Indiana - The 812",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbi1RaERKZUFqTWYtUkVRNWxlOFIzWjFKWEVaWlRWbmJSNHdRM0drV3pnbDE3RDVoS2RaU3Zrb3NGczVBQXFvRFFXMTNSclNzYTJ2SlBtbEJnMUJaR1JjRlg2dVB2c1V5cHlNOGpneTBDdE02X2R6cWdWWkFVUl9nOVlMTWdsSTFmQlJLZmN0LVp2Xzg5TF96elZ3ZWhXbWhvMFVvbw?oc=5",
+     "source": "The 812"
+    }
+   ],
+   "official": false,
+   "score": 45.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.medicaldaily.com/minnesota-counties-lose-medicare-advantage-plans-2027-481263",
+     "title": "Rural Minnesota Seniors Could Pay Thousands More as Medicare Advantage Plans Disappear in 2027 - Medical Daily",
+     "outlet": "Medical Daily"
+    },
+    {
+     "url": "https://www.cleburnetimesreview.com/business/neal-logan-making-the-most-of-medicare-open-enrollment/article_61f1716a-4f3f-47af-bcbc-68d0161f72e1.html",
+     "title": "Neal Logan: Making the most of Medicare open enrollment - Cleburne Times-Review",
+     "outlet": "Cleburne Times-Review"
+    },
+    {
+     "url": "https://www.wjbf.com/news/local-insurance-agent-breaks-down-what-to-know-about-2027-health-coverage/amp/",
+     "title": "Local insurance agent breaks down what to know about 2027 health coverage - WJBF",
+     "outlet": "WJBF"
+    },
+    {
+     "url": "https://www.812noww.com/post/medicare-patients-face-disruptions-as-health-plans-exit-southeast-indiana",
+     "title": "Medicare patients face disruptions as health plans exit Southeast Indiana - The 812",
+     "outlet": "The 812"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "vikings schedule",
+   "traffic": 10000,
+   "published": "2026-11-16T06:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "S Xavier McKinney active for Green Bay | Packers-Vikings inactives",
+     "url": "https://www.packers.com/news/packers-vikings-week-10-inactives-nov-15-2026",
+     "source": "Green Bay Packers – packers.com"
+    },
+    {
+     "title": "Vikings injury update: Is T.J. Hockenson playing in Week 10?",
+     "url": "https://sports.yahoo.com/articles/vikings-injury-t-j-hockenson-205857219.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Jordan Addison is out for Vikings in Green Bay",
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-is-out-for-vikings-in-green-bay",
+     "source": "NBC Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.packers.com/news/packers-vikings-week-10-inactives-nov-15-2026",
+     "title": "S Xavier McKinney active for Green Bay | Packers-Vikings inactives",
+     "outlet": "Green Bay Packers – packers.com"
+    },
+    {
+     "url": "https://sports.yahoo.com/articles/vikings-injury-t-j-hockenson-205857219.html",
+     "title": "Vikings injury update: Is T.J. Hockenson playing in Week 10?",
+     "outlet": "Yahoo Sports"
+    },
+    {
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-is-out-for-vikings-in-green-bay",
+     "title": "Jordan Addison is out for Vikings in Green Bay",
+     "outlet": "NBC Sports"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "spurs vs jazz",
+   "traffic": 10000,
+   "published": "2026-11-16T06:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "San Antonio Spurs @ Utah Jazz Odds",
+     "url": "https://sportsbook.fanduel.com/basketball/nba/san-antonio-spurs-@-utah-jazz-36314673",
+     "source": "FanDuel Sportsbook"
+    },
+    {
+     "title": "Spurs vs. Jazz: How to watch the game, who's starting, who's out",
+     "url": "https://www.expressnews.com/sports/spurs/article/spurs-vs-jazz-how-watch-game-starting-22527774.php",
+     "source": "San Antonio Express-News"
+    },
+    {
+     "title": "San Antonio Spurs vs Utah Jazz Prediction, Picks & Odds | NBA Sunday",
+     "url": "https://www.sportsgambler.com/betting-tips/basketball/san-antonio-spurs-vs-utah-jazz-prediction-odds-6019792/",
+     "source": "Sportsgambler"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.sportsgambler.com/betting-tips/basketball/san-antonio-spurs-vs-utah-jazz-prediction-odds-6019792/",
+     "title": "San Antonio Spurs vs Utah Jazz Prediction, Picks & Odds | NBA Sunday",
+     "outlet": "Sportsgambler"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "car recall",
+   "traffic": 0,
+   "article_count_24h": 38,
+   "article_count_1h": 1,
+   "published": "2026-11-15T23:06:45+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Jeep Recalls 1.1 Million Vehicles That Might Catch Fire - Motor1.com",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMzJsa2RGNDZrNWNaNlZpcGxlRlcyR0laS2hiejRlUE9uMHlEVVJQanhyOTNfOWU0bmItUkNlOVFVVDBWa251QVRrWlVISlNfdDBzRXJXcjdJWnpxN2YwNXJIZEdCUzhTV19zMlVzdFBoaDZ2SnVsU2xyVEFOenlUUHpB?oc=5",
+     "source": "Motor1.com"
+    },
+    {
+     "title": "Urgent Park Outside Recall Issued For Nearly 721K BMW Vehicles - KHTS Radio",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSndHa2p1eWNtbEFtcy0tS2ZuMGYxU016UUVEY0t6TXRweEZVV1owQTFDZEhHM0dtS0IxN0ZFT20yOURjZDFpbW9PbWg3S1NsenRZSHNpVk5GSzVVMG9pUXF0V25oRmt3YVFZSHNQVTVucFBXZ0ZXQ29kZThjcHkwSjFfZDdYRG9GQ3dBYzZzeUFNWGlxSTNQcG94MDh1bDdraTAzMl9MWGR2ZEkwMmc1U3ZUcDVoVi1RbHZDVE1NNVdEeDlNdlpSWk95QVhDOFo2?oc=5",
+     "source": "KHTS Radio"
+    },
+    {
+     "title": "Nio Warns Owners of Fake ‘Airbag Recall’ Texts as Scam Hits Over 20 Brands - Electric Vehicles",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSnRjNnh6d0MzS2JsMGV2OVplVHJkLTV3cHdFWjJZT1ZCMnRiQmFOR0g0Q3hrdmZ2WDhPcnV2VjZaRk5QM1RWR0lyYndNQkx1ZGpLMlVjRUhWYzZJOGs4cFZQSFhHa3N1VXJlejBHd1JQaUEwR0VFRjc5QmhCUTZFQlJNMVVXb2FzX3NaZDhNdWNCWkY1elpSNGhQSk5FZWpuU3Y1eFY5ZXF2Zw?oc=5",
+     "source": "Electric Vehicles"
+    },
+    {
+     "title": "BMW Owners Warned to Park Outside as Massive Recall Hits - The Daily Beast",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTDdnaV9fY2lKbG84TWU2MDM0QzFydVF1djhVelZMMGNCd3ZmZTlMY0Q5ZmlEM1FHREFVZnc2cTR2TlZuRi1aUzNXUWVvSFdIUkFNbnFDbDY2d1hxdnFLNXYwWkZhMUFTQnBRWEp5NXk0M29XeWIxRHUyUUs2elY4OVYzYXZPamVaLTNXcFdxMA?oc=5",
+     "source": "The Daily Beast"
+    },
+    {
+     "title": "2026 Porsche Cayenne Electric Reliability & Recalls - U.S. News & World Report",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03M0R6YXBWTVdNVXF5SlIxNDZfLWdHMF95WUNmWU5KOWxFUFQ1bVZvV2hCS0hjbTg1Z0ZwLVU3U1NaenNheVZQcVI5RW9kRG53eDA4VnVNeHZkM0NUSDNsdS1NR2w5T1ptWFF6cm1FdV85V2tQU1pjNVJuZkI?oc=5",
+     "source": "U.S. News & World Report"
+    }
+   ],
+   "official": false,
+   "score": 38.1,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.motor1.com/news/798221/jeep-wrangler-gladiator-recall-fire-risk/",
+     "title": "Jeep Recalls 1.1 Million Vehicles That Might Catch Fire - Motor1.com",
+     "outlet": "Motor1.com"
+    },
+    {
+     "url": "https://www.hometownstation.com/santa-clarita-news/press-releases/urgent-park-outside-recall-issued-for-nearly-721k-bmw-vehicles-618877",
+     "title": "Urgent Park Outside Recall Issued For Nearly 721K BMW Vehicles - KHTS Radio",
+     "outlet": "KHTS Radio"
+    },
+    {
+     "url": "https://www.thedailybeast.com/bmw-owners-warned-to-park-outside-as-massive-recall-hits",
+     "title": "BMW Owners Warned to Park Outside as Massive Recall Hits - The Daily Beast",
+     "outlet": "The Daily Beast"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "REAL ID",
+   "traffic": 0,
+   "article_count_24h": 18,
+   "article_count_1h": 1,
+   "published": "2026-11-15T22:00:00+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Real ID NJ Before Thanksgiving? The Paper Copy Won't Fly - SNJ Today",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NMWlmNTczelFCcWRGYUR2Nm5MZ3o1R283YzJkdTJ6ZnRNbnY2bUw5R3lwS0RDalg1M3BZSHdmVUNoUTNic01xOHpYaFBYbzkyaUdpanRQclk?oc=5",
+     "source": "SNJ Today"
+    },
+    {
+     "title": "Real ID | Three required documents you must submit to get an ID for the first time, plus other records - El Cronista",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaEtvWXh0cThacFZGSVBHdWV6dFNfbFVZR0h3bGVDMjMzdnpPYU5fTGNIaGZQX2twYzN4aGJNWGdQTU5nRFE2RjNhR1RlYVp6THBKbzl3OFgxUkVKYVh4MnNfSmlFcTJ5X1Q5d0JrT1Z2emxYdkJEZmlrZ25OR3hEV2t1aWlCRW1yVEZJaWowcldkOXJUVzMyOWcwM3J6eVpfRmdxdTRmaFdRcWE2anJqYnZWdnVGMGVmVloyUFJQMUZpNFlmQUZjaFBVSHpEXzBsVlJnR3ZfRQ?oc=5",
+     "source": "El Cronista"
+    },
+    {
+     "title": "Inside the Jordan Dome, where 'Space Jam' pickup games helped MJ get his game back - ESPN",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUUphclZTdE5GblhzMlQtWF9oMk5YWE9FRVp2V1FDaEQwYUloUUpLeURlY3V1ZGFvRC1ZMndZdFlCanVtSVd6MjFTbVJjWkRnSUdKRVp5YkRCS2lqdjlwc09fb2ZFY3ZhaTJBU2wxVi10elk3RC14clZrRmVYN1FUS0tnRFhoTHVMWDgwSDZOX0Z2TWtWWGFsV3J3?oc=5",
+     "source": "ESPN"
+    },
+    {
+     "title": "One compromised MCP server can trick an AI agent into misusing tools you already trust - VentureBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNmkwanhHbjBxWlFHSTFMMTBsV05hWHM3NHRfTFYxZS1xVTVOTXh5aWRUTkxSNTJ2WEtyeU5aOUdKT1F0V0dBa3BUSUozcE9hcjYtWlFRWUtYaW4yb3BCbC0wWDhsWjNrbVJlOEM3X0FqRmU4dlNWb2FaNThQei1KbVZwVExuRTNaZFNiMEc0R05FcTNObHNLdGFhQm1PeHpWdGxGeEVONHhQeUlfaHlfcWZzZHNlYzRudmJpZVVMc3Rmdw?oc=5",
+     "source": "VentureBeat"
+    },
+    {
+     "title": "Tessa Johnson, Joyce Edwards lead No. 1 South Carolina past USC 89-85 in battle for 'Real SC' - RiverBender.com",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNaV9rVjJFaWJMUmJuZ0hsQ2lFdHlyNWs0MHB1MmtyTFZuUG5qd0Z6NHlhQ2tPWjl2Nldnb3VxbWZnLVhya1gxcVJLRHIzLS1nc0VrTmg0eWNFWnB2SDBZZXpnc0tJQlVLZTRIZA?oc=5",
+     "source": "RiverBender.com"
+    }
+   ],
+   "official": false,
+   "score": 35.7,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://snjtoday.com/real-id-nj-thanksgiving/",
+     "title": "Real ID NJ Before Thanksgiving? The Paper Copy Won't Fly - SNJ Today",
+     "outlet": "SNJ Today"
+    },
+    {
+     "url": "https://www.cronista.com/en/immigration/real-id-three-required-documents-you-must-submit-to-get-an-id-for-the-first-time-plus-other-records/",
+     "title": "Real ID | Three required documents you must submit to get an ID for the first time, plus other records - El Cronista",
+     "outlet": "El Cronista"
+    },
+    {
+     "url": "https://venturebeat.com/orchestration/one-compromised-mcp-server-can-trick-an-ai-agent-into-misusing-tools-you-already-trust",
+     "title": "One compromised MCP server can trick an AI agent into misusing tools you already trust - VentureBeat",
+     "outlet": "VentureBeat"
+    },
+    {
+     "url": "https://www.riverbender.com/sports-news/details.cfm?id=525678",
+     "title": "Tessa Johnson, Joyce Edwards lead No. 1 South Carolina past USC 89-85 in battle for 'Real SC' - RiverBender.com",
+     "outlet": "RiverBender.com"
+    }
+   ]
   },
   {
    "source": "google_news",
    "keyword": "tax deadline",
    "traffic": 0,
-   "article_count_24h": 21,
+   "article_count_24h": 22,
    "article_count_1h": 0,
    "published": "2026-11-15T23:54:23+09:00",
    "category": "Benefits",
@@ -702,10 +860,49 @@
   },
   {
    "source": "google_news",
+   "keyword": "federal holiday",
+   "traffic": 0,
+   "article_count_24h": 31,
+   "article_count_1h": 0,
+   "published": "2026-11-15T22:00:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "NJ State Holidays 2026 and 2027 and What's Closed - SNJ Today",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55RWxVNWhSX2NOS1dTZkdVTWlRRG1COThzXzJTUVNMc29oU3ZlcHFDNGx4al9KdHRsWktURnR3d0l3b3BDUUROTzV4TWJPOVhh?oc=5",
+     "source": "SNJ Today"
+    },
+    {
+     "title": "Federal judge rules on Satanic Temple’s holiday plans in Iowa Capitol - KIWA Radio",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNem9CLV9HWWs0bE1XcExybE1rOFJ0M2hzWXFEVFZiYUdIN1ZoQldxN3lDYW1KYzktVHZ1aUxXbUFJZTQzRXRsWVhWZXU2bVprdGRxa01VV2c0RlpQSGszcHNPMzZLMV9uenIySm53MXNHRVBtSTZqc3ZEdkZtQ0M2VDVGRFJ0a1o0U0F5NFUwaHNHUmVpeXFteTVBTDY?oc=5",
+     "source": "KIWA Radio"
+    },
+    {
+     "title": "Slow-Burn Holiday Romance with Amanda Elliott - FOX 2 Detroit",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HUkhOeVlYYXYyVzkxb0dwVEh1MDFBdndSQ1YtWF9fQzNWN184R0VlWUE1bXhfcWR1NFZVUkdrOS13dURVY21PYzExNFM2bXhpNVFmWm5qZmZkekdCbjZ4dmpxdjXSAWpBVV95cUxONHlwWjg5R3o1eDVlUTM1QzBfdDg3U2FJc1lWREpxNDdUSjNXSy1SU092NzMzZTBGaGZ4dUdON3hDbEw3ZW85eEZldlBROXlNUVF4NnVzZllCTXVCOFFRVTJDNVBfWVpEM0RR?oc=5",
+     "source": "FOX 2 Detroit"
+    },
+    {
+     "title": "Religious holidays bill vetoed by Lombardo could become law in Nevada's next session - Las Vegas Sun",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxON0FPeVo0c3VqcEJvMWRjMnVmckZmWGNjeXJ0akpfSGk2dTN3RDc2el8yc1NTWU1Ua3VwbmJJVzd3N19fd21Yam96T2VnaEhqOU5HNXdOaDB5bC1EQUk1S3BFSFBrcGFxVW5ZU1hxUkxIS2xkRUZGeHV3VkhLWm5oMnEtUVlIUEhhVlRxRU5LUm1CdU0yNDRB?oc=5",
+     "source": "Las Vegas Sun"
+    },
+    {
+     "title": "Bill in US Congress to recognise Diwali as federal holiday - DD News",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWlBVWdzdkVHUTZwMkRWUzJsY3QzMGZLOUNJSVVKOFpySXdNNFc3c0VLdzNKWkplQ05nR0J1SjE1WHJzY1pfVjNpUktuejFQQWJ4N19MUUhydHZwOTdzQVRYbzRHOUI5c0NuMTZ2Z0VLYUF0Vkt1LWx6VjNTVnJXZGlsUlh3Q1JYb0xNRw?oc=5",
+     "source": "DD News"
+    }
+   ],
+   "official": false,
+   "score": 33.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
    "keyword": "daylight saving time",
    "traffic": 0,
    "article_count_24h": 7,
-   "article_count_1h": 1,
+   "article_count_1h": 2,
    "published": "2026-11-16T02:16:19+09:00",
    "category": "Holidays",
    "news": [
@@ -736,8 +933,49 @@
     }
    ],
    "official": false,
-   "score": 27.5,
+   "score": 31.9,
    "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "chad lowe",
+   "traffic": 1000,
+   "published": "2026-11-16T06:20:00+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Chad Lowe’s Daughter Mabel, 17, Celebrates Late Sister Fiona on Her First Posthumous Birthday",
+     "url": "https://people.com/chad-lowe-daughter-mabel-celebrates-sister-fiona-on-her-posthumous-birthday-12256574",
+     "source": "People.com"
+    },
+    {
+     "title": "Chad Lowe’s daughter Mabel celebrates sister Fiona’s 14th birthday after her tragic death: ‘I miss you’",
+     "url": "https://pagesix.com/2026/11/15/celebrity-news/chad-lowes-daughter-mabel-celebrates-sister-fionas-14th-heavenly-birthday/",
+     "source": "Page Six"
+    },
+    {
+     "title": "Fiona Lowe's Sister Mabel Celebrates What Would Have Been Her 14th Birthday",
+     "url": "https://www.tmz.com/2026/11/15/fiona-lowe-sister-celebrates-birthday/",
+     "source": "TMZ"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 30.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://pagesix.com/2026/11/15/celebrity-news/chad-lowes-daughter-mabel-celebrates-sister-fionas-14th-heavenly-birthday/",
+     "title": "Chad Lowe’s daughter Mabel celebrates sister Fiona’s 14th birthday after her tragic death: ‘I miss you’",
+     "outlet": "Page Six"
+    },
+    {
+     "url": "https://www.tmz.com/2026/11/15/fiona-lowe-sister-celebrates-birthday/",
+     "title": "Fiona Lowe's Sister Mabel Celebrates What Would Have Been Her 14th Birthday",
+     "outlet": "TMZ"
+    }
+   ]
   },
   {
    "source": "google_news",
@@ -779,48 +1017,12 @@
    "already_covered": false
   },
   {
-   "source": "google_trends",
-   "keyword": "jordyn tyson",
-   "traffic": 1000,
-   "published": "2026-11-16T05:40:00+09:00",
-   "category": "Housing",
-   "news": [
-    {
-     "title": "Meet Saints Wide Receiver Jordyn Tyson’s Parents, John Tyson and Sandra Brown",
-     "url": "https://people.com/all-about-jordyn-tyson-parents-12153052",
-     "source": "People.com"
-    },
-    {
-     "title": "Jamey Eisenberg's Week 10 Fantasy football sleepers and DFS picks: Jordyn Tyson a likely breakout candidate",
-     "url": "https://www.cbssports.com/fantasy/football/news/jamey-eisenbergs-2026-week-10-fantasy-football-sleepers/",
-     "source": "CBS Sports"
-    },
-    {
-     "title": "Why Daniel Dopp, Field Yates need to see more out of Jordyn Tyson in fantasy",
-     "url": "https://www.espn.com.au/video/clip/_/id/50462354/why-daniel-dopp-field-yates-need-see-more-jordyn-tyson-fantasy",
-     "source": "ESPN"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 26.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cbssports.com/fantasy/football/news/jamey-eisenbergs-2026-week-10-fantasy-football-sleepers/",
-     "title": "Jamey Eisenberg's Week 10 Fantasy football sleepers and DFS picks: Jordyn Tyson a likely breakout candidate",
-     "outlet": "CBS Sports"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "early voting",
    "traffic": 0,
    "article_count_24h": 4,
    "article_count_1h": 2,
-   "published": "2026-11-16T05:00:21+09:00",
+   "published": "2026-11-16T06:00:21+09:00",
    "category": "Elections",
    "news": [
     {
@@ -852,7 +1054,7 @@
    "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 21,
+   "article_count_24h": 22,
    "article_count_1h": 3,
    "published": "2026-11-16T03:45:24+09:00",
    "category": "기타",
@@ -861,6 +1063,11 @@
      "title": "Gov’t raises private-sector minimum wage to LE8,500 from Jan. 2027 - Egyptian Gazette",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYlkyelZQUTdka1Vfbkx5dXBLQXdqdXdlcWtoNkFiY1Rtb1pwUDJ6TnFxQVlfZFdYMS1obHR5QWVsZUNwY0FhV0Q4em92YUVxMTJMZEpiOFJCSFVOd1lsenFsTzREamhXX0dTZWxOMkZtV2RjaUhrT25SdW9tMjA5X1NEOVYwaEZnLUhlMVp2TkxBNWIyWl9UbnRrbWZJTlBn?oc=5",
      "source": "Egyptian Gazette"
+    },
+    {
+     "title": "Another Strike at Tabriz Machine Manufacturing; 1,600 Workers Waiting for Their Wages - Iran Focus",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT0t1MWZMMG12WW42NXFjWldFUHBHd2FZem15ckpoc3JKQkFzRVA2MlR6ams0dmFVb245Y2gzV3NzN181amdUdUJWZGc0WVdPWTB5RDlzN3d6czk0ZjltOEM3TFNxbk5vZHo1am5zMEE2QWt3NWJmWmhVUlpPeGJxZEFDbmVlVHF1MFhUeTZvWEVSUFR1d3RyZFp4alNQYWdoUXFDZ2ZwZ1ZSREJYRGZ2WFJqM2pocmc5V3NaSmVSa2oydnPSAcMBQVVfeXFMTU9LdTFmTDBtdlluNjVxY1pXRVBwR3dhWXpteXJKaHNySkJBc0VQNjJUemprNHZhVW9uOWNoM1dzczdfNWpnVHVCVmRnNFlXT1kweUQ5czd3enM5NGY5bThDN0xTcW5Ob2R6NWpuczBBNkFrdzViZlpoVVJaT3hicWRBQ25lZVRxdTBYVHk2b1hFUlBUdXd0cmRaeGpTUGFnaFFxQ2dmcGdWUkRCWERmdlhSajNqaHJnOVdzWkplUmtqMnZz?oc=5",
+     "source": "Iran Focus"
     },
     {
      "title": "Egypt approves LE 8,500 minimum wage for private sector workers starting January 2027 - Egypt Today",
@@ -873,14 +1080,9 @@
      "source": "Sarawak Tribune"
     },
     {
-     "title": "A Fair Wage That Keeps Bangladesh Competitive: Why Bangladesh Needs a 3-Zone Minimum Wage - New Age BD",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdWxsWXBWNXBxVU9FeXFkd3RYUlVLWmJPbURPTzV4VnRaNnRKc3JNd29ZLUk2Rm9MUnBhZ1p3bmFNaUNaQkRsbk9zdFlMS1A0R2JTZGhaTFhBQnVvYVZQX2w0Z29xVGd1WE1Qa3NrbWJDLUZldVo2Zl9nSkNpdXdGcU11QkxXZEVZdERxQTRSVXUwc280ei1lOUZYT2R2czQ4c2lwTFJJampjOTgtTlZWeHQ2UHR5VUJNVXFhUHBJaTNhdVN1YmVOejZzbjlwVFRI?oc=5",
-     "source": "New Age BD"
-    },
-    {
-     "title": "Factories shut as Bangladesh garment workers intensify protests over minimum wage - The Times of India",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQXNqdE40MGNQSkZHZ0JXbHI4TUV5V2RUSy1IZ2hTZ2ZydkJ5Z3NzeVFwLURpRlExc21YX3JnZTRGWHl2RFljR3ZVY2o1bWJmaEpWbjdYUDFXNTFMMEhYRXgwMWJLZDk1VFMxb0xtNFJTYldmZlZrel81SDZuVElrWFV4QTVEU3kxanl2a1J3NlhnYjg1UHNiV3VhbmUzNERjWWJQTms3R0hKN1FQSjVHcE9ZdkxWYjNLYzBmOWd4cTFQejMwQXFJaVZrQVBCMTJicklEUXJ0LXdJUlg4LWQ4cURmNzdXSmlfLVRiblp4MW1NQdIB9wFBVV95cUxOWXRfMHdzQkstd1QySy1xRnJGazZEVU5OODJoZTdQQ1hjZ1JnUGNCS1JzSGJrZTJNMk90dzdMMEowVW5zRkdsN05rZE1NYktMTXRTR1ZPZGxfOHprbF9vSHF2OXZNY1F1X3VoZXlhM2k3TU1QNDFHZi0wQnNKamRVVi13THZfT3R1WnVSV2dQUnQ2WlJJdXNiODR3NG44cFBGN19ZUE15LTQzM3d1bnp5VEZqSWRCWEE5Q3RGNHlLQ3F3Yi1hR0NnMmR5ajQtamdmZ1JESm0xSUptT0ZQelV2Qk4ta084R2VGRGVOMXFSV04yd3EzeTBj?oc=5",
-     "source": "The Times of India"
+     "title": "Egypt raises private sector minimum wage to EGP 8,500 from January 2027 - www.businesstodayegypt.com",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM3d5YjhQSVJDMDVET01JYWhKM1lRbkgySWtNT3Z2Nzd0UFIweUdSZXZtQW9lYUdvRERCbk1YU0FtY1ZIQlQ5S3I2ckFGX2UtWjVsZXFjOHdMeFZLOHNfdUdVTnM4YzNvWEVPemxUNlRwcWRiSkpBRkYyVktQT2V4NjNqWndfanRTX3lOZklZMXMweVhTcE11ejNtUzQ4U1ZTTnlJU2p3?oc=5",
+     "source": "www.businesstodayegypt.com"
     }
    ],
    "official": false,
@@ -889,25 +1091,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "vikings schedule 2026",
+   "keyword": "tutu atwell",
    "traffic": 5000,
-   "published": "2026-11-16T05:50:00+09:00",
+   "published": "2026-11-16T06:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "S Xavier McKinney active for Green Bay | Packers-Vikings inactives",
-     "url": "https://www.packers.com/news/packers-vikings-week-10-inactives-nov-15-2026",
-     "source": "Green Bay Packers – packers.com"
+     "title": "Week 10 Fantasy Football Toolkit: Start/sit advice, rankings, sleepers, more",
+     "url": "https://sports.yahoo.com/fantasy/article/week-10-fantasy-football-toolkit-start-sit-advice-rankings-sleepers-145259714.html",
+     "source": "Yahoo Sports"
     },
     {
-     "title": "Jordan Addison is out for Vikings in Green Bay",
-     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-is-out-for-vikings-in-green-bay",
-     "source": "NBC Sports"
+     "title": "Fantasy football last-minute pickups: 12 players who can help in deeper leagues",
+     "url": "https://www.espn.com/fantasy/football/story/_/id/50435678/fantasy-football-streamers-last-minute-pickups-week-10",
+     "source": "ESPN"
     },
     {
-     "title": "Live updates: Minnesota Vikings at Green Bay Packers, Week 10",
-     "url": "https://www.fox9.com/live-blog/sports/live-updates-minnesota-vikings-green-bay-packers-week-10",
-     "source": "FOX 9 Minneapolis-St. Paul"
+     "title": "NFL Week 10 fantasy sleepers: Ravens QB Jacoby Brissett, 49ers WR Jordan Watkins offer upside",
+     "url": "https://www.nfl.com/news/nfl-week-10-fantasy-sleepers-ravens-qb-jacoby-brissett-49ers-wr-jordan-watkins-offer-upside",
+     "source": "NFL.com"
     }
    ],
    "official": false,
@@ -917,157 +1119,101 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.packers.com/news/packers-vikings-week-10-inactives-nov-15-2026",
-     "title": "S Xavier McKinney active for Green Bay | Packers-Vikings inactives",
-     "outlet": "Green Bay Packers – packers.com"
-    },
-    {
-     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-is-out-for-vikings-in-green-bay",
-     "title": "Jordan Addison is out for Vikings in Green Bay",
-     "outlet": "NBC Sports"
-    },
-    {
-     "url": "https://www.fox9.com/live-blog/sports/live-updates-minnesota-vikings-green-bay-packers-week-10",
-     "title": "Live updates: Minnesota Vikings at Green Bay Packers, Week 10",
-     "outlet": "FOX 9 Minneapolis-St. Paul"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "hornets vs clippers",
-   "traffic": 2000,
-   "published": "2026-11-16T05:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Final Injury Report for Hornets-Clippers: Will Brandon Miller, Brandon Ingram Play?",
-     "url": "https://sports.yahoo.com/articles/final-injury-report-hornets-clippers-173000261.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "GAME PREVIEW: 5 Things You Should Know About Clippers vs. Hornets",
-     "url": "https://www.nba.com/clippers/news/clippers-vs-hornets-preview-2026-11-15",
-     "source": "NBA.com"
-    },
-    {
-     "title": "Hornets vs. Clippers Full Game Preview, Score Predictions",
-     "url": "https://www.si.com/nba/hornets/onsi/hornets-vs-clippers-full-game-preview-score-predictions-01m7g8sat4pq",
-     "source": "Sports Illustrated"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/final-injury-report-hornets-clippers-173000261.html",
-     "title": "Final Injury Report for Hornets-Clippers: Will Brandon Miller, Brandon Ingram Play?",
+     "url": "https://sports.yahoo.com/fantasy/article/week-10-fantasy-football-toolkit-start-sit-advice-rankings-sleepers-145259714.html",
+     "title": "Week 10 Fantasy Football Toolkit: Start/sit advice, rankings, sleepers, more",
      "outlet": "Yahoo Sports"
     },
     {
-     "url": "https://www.nba.com/clippers/news/clippers-vs-hornets-preview-2026-11-15",
-     "title": "GAME PREVIEW: 5 Things You Should Know About Clippers vs. Hornets",
-     "outlet": "NBA.com"
-    },
-    {
-     "url": "https://www.si.com/nba/hornets/onsi/hornets-vs-clippers-full-game-preview-score-predictions-01m7g8sat4pq",
-     "title": "Hornets vs. Clippers Full Game Preview, Score Predictions",
-     "outlet": "Sports Illustrated"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "mirra andreeva",
-   "traffic": 2000,
-   "published": "2026-11-16T05:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Mirra Andreeva has taken the WTA Finals by storm. Now she must embrace the pressure",
-     "url": "https://www.nytimes.com/athletic/7782008/2026/11/15/wta-finals-final-mirra-andreeva-elina-svitolina/",
-     "source": "The New York Times"
-    },
-    {
-     "title": "Andreeva vs. Svitolina: Everything to know about the 2026 FAGE WTA Finals championships",
-     "url": "https://www.wtatennis.com/news/4609127/mirra-andreeva-vs-elina-svitolina-wta-finals-2026-indian-wells-championships-everything-to-know",
-     "source": "WTA Tennis"
-    },
-    {
-     "title": "WTA Finals final: Elina Svitolina v Mirra Andreeva – live",
-     "url": "https://www.theguardian.com/sport/live/2026/nov/15/wta-finals-final-elina-svitolina-v-mirra-andreeva-live",
-     "source": "The Guardian"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nytimes.com/athletic/7782008/2026/11/15/wta-finals-final-mirra-andreeva-elina-svitolina/",
-     "title": "Mirra Andreeva has taken the WTA Finals by storm. Now she must embrace the pressure",
-     "outlet": "The New York Times"
-    },
-    {
-     "url": "https://www.wtatennis.com/news/4609127/mirra-andreeva-vs-elina-svitolina-wta-finals-2026-indian-wells-championships-everything-to-know",
-     "title": "Andreeva vs. Svitolina: Everything to know about the 2026 FAGE WTA Finals championships",
-     "outlet": "WTA Tennis"
-    },
-    {
-     "url": "https://www.theguardian.com/sport/live/2026/nov/15/wta-finals-final-elina-svitolina-v-mirra-andreeva-live",
-     "title": "WTA Finals final: Elina Svitolina v Mirra Andreeva – live",
-     "outlet": "The Guardian"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "kc concepcion",
-   "traffic": 2000,
-   "published": "2026-11-16T05:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Browns' KC Concepcion rushes for six-yard TD, tying game vs Texans | NFL Highlights",
-     "url": "https://www.foxsports.com/watch/fmc-2g4n8d9bfrdadf43",
-     "source": "FOX Sports"
-    },
-    {
-     "title": "KC Concepcion's rushing TD pulls Cleveland to within one point of the Texans",
-     "url": "https://www.nfl.com/videos/kc-concepcion-s-rushing-td-pulls-cleveland-to-within-one-point-of-the-texans",
-     "source": "NFL.com"
-    },
-    {
-     "title": "Can't-Miss Play: 64-yard TD! Shedeur Sanders and KC Concepcion stun Saints in fourth quarter",
-     "url": "https://www.clevelandbrowns.com/video/can-t-miss-play-64-yard-td-shedeur-sanders-and-kc-concepcion-stun-saints-in-fourth-quarter",
-     "source": "Cleveland Browns"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.foxsports.com/watch/fmc-2g4n8d9bfrdadf43",
-     "title": "Browns' KC Concepcion rushes for six-yard TD, tying game vs Texans | NFL Highlights",
-     "outlet": "FOX Sports"
-    },
-    {
-     "url": "https://www.nfl.com/videos/kc-concepcion-s-rushing-td-pulls-cleveland-to-within-one-point-of-the-texans",
-     "title": "KC Concepcion's rushing TD pulls Cleveland to within one point of the Texans",
+     "url": "https://www.nfl.com/news/nfl-week-10-fantasy-sleepers-ravens-qb-jacoby-brissett-49ers-wr-jordan-watkins-offer-upside",
+     "title": "NFL Week 10 fantasy sleepers: Ravens QB Jacoby Brissett, 49ers WR Jordan Watkins offer upside",
      "outlet": "NFL.com"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "erin andrews",
+   "traffic": 2000,
+   "published": "2026-11-16T06:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Erin Andrews’ $45 NFL Team Long-Sleeve Tees Are Now as Low as $15",
+     "url": "https://shopping.yahoo.com/style/clothing/articles/erin-andrews-45-nfl-team-104400261.html",
+     "source": "Yahoo"
     },
     {
-     "url": "https://www.clevelandbrowns.com/video/can-t-miss-play-64-yard-td-shedeur-sanders-and-kc-concepcion-stun-saints-in-fourth-quarter",
-     "title": "Can't-Miss Play: 64-yard TD! Shedeur Sanders and KC Concepcion stun Saints in fourth quarter",
-     "outlet": "Cleveland Browns"
+     "title": "Erin Andrews’ $45 NFL Team Long-Sleeve Tees Are Now as Low as $15",
+     "url": "https://athlonsports.com/deals/womens-wear-by-erin-andrews-tie-front-long-sleeve-t-shirts-nfl-shop-sale",
+     "source": "Athlon Sports"
+    },
+    {
+     "title": "It’s painfully obvious that Tom Brady no longer cares about Boston, New England, or Patriots fans",
+     "url": "https://www.bostonglobe.com/2026/11/12/sports/tom-brady-patriots-fans/",
+     "source": "The Boston Globe"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://shopping.yahoo.com/style/clothing/articles/erin-andrews-45-nfl-team-104400261.html",
+     "title": "Erin Andrews’ $45 NFL Team Long-Sleeve Tees Are Now as Low as $15",
+     "outlet": "Yahoo"
+    },
+    {
+     "url": "https://www.bostonglobe.com/2026/11/12/sports/tom-brady-patriots-fans/",
+     "title": "It’s painfully obvious that Tom Brady no longer cares about Boston, New England, or Patriots fans",
+     "outlet": "The Boston Globe"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "rams vs cardinals where to watch",
+   "traffic": 2000,
+   "published": "2026-11-16T06:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "3x3: Week 10 Cardinals vs Rams",
+     "url": "https://www.azcardinals.com/news/3x3-week-10-cardinals-vs-rams",
+     "source": "Arizona Cardinals"
+    },
+    {
+     "title": "Rams vs. Cardinals Game Photos",
+     "url": "https://www.therams.com/photos/game-action-rams-vs-cardinals-week-10-state-farm-stadium-2026",
+     "source": "Rams"
+    },
+    {
+     "title": "NFL Experts Unanimously Pick Rams to Beat Cardinals in Week 10",
+     "url": "https://sports.yahoo.com/articles/nfl-experts-unanimously-pick-rams-170000314.html",
+     "source": "Yahoo Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.azcardinals.com/news/3x3-week-10-cardinals-vs-rams",
+     "title": "3x3: Week 10 Cardinals vs Rams",
+     "outlet": "Arizona Cardinals"
+    },
+    {
+     "url": "https://www.therams.com/photos/game-action-rams-vs-cardinals-week-10-state-farm-stadium-2026",
+     "title": "Rams vs. Cardinals Game Photos",
+     "outlet": "Rams"
+    },
+    {
+     "url": "https://sports.yahoo.com/articles/nfl-experts-unanimously-pick-rams-170000314.html",
+     "title": "NFL Experts Unanimously Pick Rams to Beat Cardinals in Week 10",
+     "outlet": "Yahoo Sports"
     }
    ]
   },
@@ -1091,14 +1237,14 @@
      "source": "PennWatch"
     },
     {
-     "title": "Heating oil prices could jump 50% in New England as governors seek $3 billion more in aid - The Cool Down",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LUDhGdU9YdTJWS19QYXBrTHJ0RzdNNjl4aF9laUp2TUVFbUM0YlRuSlY1RThyUERzZEpFTmhGMDdCZEROcHlwQnFaOHk0QUFCNmh4X1NmcVdtdFJVVENlOE9aeWdFOWVrVGdfMVRRZzgzdy00RlR4NWRJZ2E2a0k?oc=5",
-     "source": "The Cool Down"
-    },
-    {
      "title": "Uniontown City Council member accused of improperly collecting over $6,000 in public benefits - CBS News",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb3NDaVFaSmhTTFlVZm9TdVlQOFRkVTh6WmEzdUk5eVROZlREV0JOckZNd0lZc3doYjlNOURkM0duSFoyRmVMUC1EZS10akk4eVNrcmQzSkgxd0FxUXVhRzBaa1N2djM2U0lKSEgyZ01HajZLa2lwRlByMEliVnE0M3p3bS1UdUJ5Q3VBb1FfUm5Zdw?oc=5",
      "source": "CBS News"
+    },
+    {
+     "title": "Heating oil prices could jump 50% in New England as governors seek $3 billion more in aid - The Cool Down",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LUDhGdU9YdTJWS19QYXBrTHJ0RzdNNjl4aF9laUp2TUVFbUM0YlRuSlY1RThyUERzZEpFTmhGMDdCZEROcHlwQnFaOHk0QUFCNmh4X1NmcVdtdFJVVENlOE9aeWdFOWVrVGdfMVRRZzgzdy00RlR4NWRJZ2E2a0k?oc=5",
+     "source": "The Cool Down"
     }
    ],
    "official": false,
@@ -1141,71 +1287,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "christian watson",
-   "traffic": 1000,
-   "published": "2026-11-16T05:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Jordan Love, Matthew Golden, and Christian Watson's Projected Fantasy Points in Week 10 vs. Vikings",
-     "url": "https://sports.yahoo.com/articles/jordan-love-matthew-golden-christian-123000663.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "It Took Nine Games for Christian Watson to Do What Hadn’t Been Done in Four Seasons",
-     "url": "https://www.si.com/nfl/packers/onsi/it-took-nine-games-for-christian-watson-to-do-what-hadnt-been-done-in-four-seasons",
-     "source": "Sports Illustrated"
-    },
-    {
-     "title": "Christian Justus Watson Week 10 Preview vs. the Vikings",
-     "url": "https://foxsports1070.iheart.com/content/2026-11-13-christian-justus-watson-week-10-preview-vs-the-vikings/",
-     "source": "Fox Sports 1070"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/jordan-love-matthew-golden-christian-123000663.html",
-     "title": "Jordan Love, Matthew Golden, and Christian Watson's Projected Fantasy Points in Week 10 vs. Vikings",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://www.si.com/nfl/packers/onsi/it-took-nine-games-for-christian-watson-to-do-what-hadnt-been-done-in-four-seasons",
-     "title": "It Took Nine Games for Christian Watson to Do What Hadn’t Been Done in Four Seasons",
-     "outlet": "Sports Illustrated"
-    },
-    {
-     "url": "https://foxsports1070.iheart.com/content/2026-11-13-christian-justus-watson-week-10-preview-vs-the-vikings/",
-     "title": "Christian Justus Watson Week 10 Preview vs. the Vikings",
-     "outlet": "Fox Sports 1070"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "rams - cardinals",
+   "keyword": "eli junior kroupi",
    "traffic": 500,
-   "published": "2026-11-16T05:50:00+09:00",
+   "published": "2026-11-16T06:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "3x3: Week 10 Cardinals vs Rams",
-     "url": "https://www.azcardinals.com/news/3x3-week-10-cardinals-vs-rams",
-     "source": "Arizona Cardinals"
+     "title": "Tottenham ready to stun Arsenal with sensational TRIPLE SWAP offer for Eli Junior Kroupi",
+     "url": "https://www.teamtalk.com/tottenham-hotspur/stun-arsenal-bournemouth-stunning-swap-deal-eli-junior-kroupi",
+     "source": "TEAMtalk"
     },
     {
-     "title": "NFL Experts Unanimously Pick Rams to Beat Cardinals in Week 10",
-     "url": "https://sports.yahoo.com/articles/nfl-experts-unanimously-pick-rams-170000314.html",
-     "source": "Yahoo Sports"
+     "title": "Managing Tottenham: Kroupi deal and Real Madrid wonderkid replaces £65m star as three leave",
+     "url": "https://www.football.london/tottenham-hotspur-fc/transfer-news/managing-tottenham-kroupi-deal-real-34896077",
+     "source": "Football London"
     },
     {
-     "title": "Rams vs. Cardinals odds, NFL Week 10 predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus",
-     "url": "https://www.cbssports.com/prediction/news/rams-vs-cardinals-odds-nfl-week-10-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus/",
-     "source": "CBS Sports"
+     "title": "Tottenham Hotspur remain interested in move for £100m-rated forward",
+     "url": "https://onefootball.com/en/news/tottenham-hotspur-remain-interested-in-move-for-100m-rated-forward-43768128",
+     "source": "OneFootball"
     }
    ],
    "official": false,
@@ -1215,43 +1315,43 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.azcardinals.com/news/3x3-week-10-cardinals-vs-rams",
-     "title": "3x3: Week 10 Cardinals vs Rams",
-     "outlet": "Arizona Cardinals"
+     "url": "https://www.teamtalk.com/tottenham-hotspur/stun-arsenal-bournemouth-stunning-swap-deal-eli-junior-kroupi",
+     "title": "Tottenham ready to stun Arsenal with sensational TRIPLE SWAP offer for Eli Junior Kroupi",
+     "outlet": "TEAMtalk"
     },
     {
-     "url": "https://sports.yahoo.com/articles/nfl-experts-unanimously-pick-rams-170000314.html",
-     "title": "NFL Experts Unanimously Pick Rams to Beat Cardinals in Week 10",
-     "outlet": "Yahoo Sports"
+     "url": "https://www.football.london/tottenham-hotspur-fc/transfer-news/managing-tottenham-kroupi-deal-real-34896077",
+     "title": "Managing Tottenham: Kroupi deal and Real Madrid wonderkid replaces £65m star as three leave",
+     "outlet": "Football London"
     },
     {
-     "url": "https://www.cbssports.com/prediction/news/rams-vs-cardinals-odds-nfl-week-10-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus/",
-     "title": "Rams vs. Cardinals odds, NFL Week 10 predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus",
-     "outlet": "CBS Sports"
+     "url": "https://onefootball.com/en/news/tottenham-hotspur-remain-interested-in-move-for-100m-rated-forward-43768128",
+     "title": "Tottenham Hotspur remain interested in move for £100m-rated forward",
+     "outlet": "OneFootball"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "zane gonzalez",
+   "keyword": "cj daniels",
    "traffic": 500,
-   "published": "2026-11-16T05:40:00+09:00",
+   "published": "2026-11-16T06:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Dolphins Work Out K Daniel Carlson",
-     "url": "https://www.profootballrumors.com/2026/11/dolphins-work-out-k-daniel-carlson",
-     "source": "ProFootballRumors.com"
+     "title": "'Really encouraged by his development': Rams coaches and teammates looking forward to CJ Daniels Jr. getting more opportunities in Week 10",
+     "url": "https://www.therams.com/news/really-encouraged-by-his-development-rams-coaches-and-teammates-looking-forward-to-cj-daniels-jr-getting-more-opportunities-in-week-10",
+     "source": "Rams"
     },
     {
-     "title": "Don't be surprised if the clock strikes midnight for one Miami Dolphins player after Sunday's 19-9 loss to the Detroit Lions",
-     "url": "https://atozsports.com/nfl/miami-dolphins-news/dont-be-surprised-if-the-clock-strikes-midnight-for-one-miami-dolphins-player-after-sundays-19-9-loss-to-the-detroit-lions/",
-     "source": "A to Z Sports"
+     "title": "Matthew Stafford excited about CJ Daniels: 'Done a hell of a job'",
+     "url": "https://theramswire.usatoday.com/story/sports/nfl/rams/2026/11/12/rams-matthew-stafford-cj-daniels-wide-receiver-rookie/92743047007/",
+     "source": "Rams Wire"
     },
     {
-     "title": "Zane Gonzalez misses field goal in Week 9",
-     "url": "https://www.fantasypros.com/nfl/news/618540/zane-gonzalez-misses-field-goal-week-9.php",
-     "source": "FantasyPros"
+     "title": "Rams fans aren't the only ones invested in CJ Daniels' Week 10 performance",
+     "url": "https://ramblinfan.com/rams-fans-arent-only-ones-invested-cj-daniels-week-10-performance",
+     "source": "Ramblin' Fan"
     }
    ],
    "official": false,
@@ -1261,111 +1361,19 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.profootballrumors.com/2026/11/dolphins-work-out-k-daniel-carlson",
-     "title": "Dolphins Work Out K Daniel Carlson",
-     "outlet": "ProFootballRumors.com"
+     "url": "https://www.therams.com/news/really-encouraged-by-his-development-rams-coaches-and-teammates-looking-forward-to-cj-daniels-jr-getting-more-opportunities-in-week-10",
+     "title": "'Really encouraged by his development': Rams coaches and teammates looking forward to CJ Daniels Jr. getting more opportunities in Week 10",
+     "outlet": "Rams"
     },
     {
-     "url": "https://atozsports.com/nfl/miami-dolphins-news/dont-be-surprised-if-the-clock-strikes-midnight-for-one-miami-dolphins-player-after-sundays-19-9-loss-to-the-detroit-lions/",
-     "title": "Don't be surprised if the clock strikes midnight for one Miami Dolphins player after Sunday's 19-9 loss to the Detroit Lions",
-     "outlet": "A to Z Sports"
+     "url": "https://theramswire.usatoday.com/story/sports/nfl/rams/2026/11/12/rams-matthew-stafford-cj-daniels-wide-receiver-rookie/92743047007/",
+     "title": "Matthew Stafford excited about CJ Daniels: 'Done a hell of a job'",
+     "outlet": "Rams Wire"
     },
     {
-     "url": "https://www.fantasypros.com/nfl/news/618540/zane-gonzalez-misses-field-goal-week-9.php",
-     "title": "Zane Gonzalez misses field goal in Week 9",
-     "outlet": "FantasyPros"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "khalil shakir",
-   "traffic": 500,
-   "published": "2026-11-16T05:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "DJ Moore Finally Shakes Injury Status, Appears Ready for Takeoff for Bills in Week 10",
-     "url": "https://sports.yahoo.com/articles/dj-moore-finally-shakes-injury-123437881.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Fantasy Start-Sit Week 10: DJ Moore, Dalton Kincaid, Khalil Shakir, Keon Coleman",
-     "url": "https://www.si.com/nfl/bills/onsi/fantasy-week-10-start-sit-dj-moore-dalton-kincaid-khalil-shakir-keon-coleman",
-     "source": "Sports Illustrated"
-    },
-    {
-     "title": "Man vs. Zone Matchups for WR/TEs in Week 10: DJ Moore's Time to Shine",
-     "url": "https://www.fantasylife.com/articles/fantasy/man-vs-zone-matchups-for-wr-tes-in-week-10",
-     "source": "FantasyLife"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/dj-moore-finally-shakes-injury-123437881.html",
-     "title": "DJ Moore Finally Shakes Injury Status, Appears Ready for Takeoff for Bills in Week 10",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://www.si.com/nfl/bills/onsi/fantasy-week-10-start-sit-dj-moore-dalton-kincaid-khalil-shakir-keon-coleman",
-     "title": "Fantasy Start-Sit Week 10: DJ Moore, Dalton Kincaid, Khalil Shakir, Keon Coleman",
-     "outlet": "Sports Illustrated"
-    },
-    {
-     "url": "https://www.fantasylife.com/articles/fantasy/man-vs-zone-matchups-for-wr-tes-in-week-10",
-     "title": "Man vs. Zone Matchups for WR/TEs in Week 10: DJ Moore's Time to Shine",
-     "outlet": "FantasyLife"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "dalton schultz",
-   "traffic": 500,
-   "published": "2026-11-16T05:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Bench Tank Dell as Cleveland’s Lockdown Man Coverage Threatens a Total Fantasy Trap",
-     "url": "https://sports.yahoo.com/videos/bench-tank-dell-cleveland-lockdown-141057474.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Kayshon Boutte Week 10 Preview vs. the Browns",
-     "url": "https://sportstalk790.iheart.com/content/2026-11-14-kayshon-boutte-week-10-preview-vs-the-browns/",
-     "source": "SportsTalk 790"
-    },
-    {
-     "title": "Who Should I Start? Dalton Schultz or Carnell Tate",
-     "url": "https://fantasyfootballcalculator.com/start/dalton-schultz-or-carnell-tate",
-     "source": "Fantasy Football Calculator"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/videos/bench-tank-dell-cleveland-lockdown-141057474.html",
-     "title": "Bench Tank Dell as Cleveland’s Lockdown Man Coverage Threatens a Total Fantasy Trap",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://sportstalk790.iheart.com/content/2026-11-14-kayshon-boutte-week-10-preview-vs-the-browns/",
-     "title": "Kayshon Boutte Week 10 Preview vs. the Browns",
-     "outlet": "SportsTalk 790"
-    },
-    {
-     "url": "https://fantasyfootballcalculator.com/start/dalton-schultz-or-carnell-tate",
-     "title": "Who Should I Start? Dalton Schultz or Carnell Tate",
-     "outlet": "Fantasy Football Calculator"
+     "url": "https://ramblinfan.com/rams-fans-arent-only-ones-invested-cj-daniels-week-10-performance",
+     "title": "Rams fans aren't the only ones invested in CJ Daniels' Week 10 performance",
+     "outlet": "Ramblin' Fan"
     }
    ]
   },
@@ -1373,16 +1381,11 @@
    "source": "google_news",
    "keyword": "stimulus check",
    "traffic": 0,
-   "article_count_24h": 3,
+   "article_count_24h": 2,
    "article_count_1h": 0,
-   "published": "2026-11-15T12:50:48+09:00",
+   "published": "2026-11-16T02:05:43+09:00",
    "category": "Benefits",
    "news": [
-    {
-     "title": "Your Debit Card Never Left Your Wallet — But Someone Else Got One Michael Schumacher (DOkZPXecUV) - Unisba Media",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zSmdYVWpybTdnYjdqVUpzLS16c1RwMWVaMV9EeEx5azFDMy04UjVOMU8yYm1tU1dQTDYyQzdNTjhDakltYnNhWFR6UjZxVGdjZm5abG1GRzN1akJwZ1UyTEt3MTI0anlRTV9N?oc=5",
-     "source": "Unisba Media"
-    },
     {
      "title": "Social Security tax cap: Why Sanders wants the rich to pay more - Rolling Out",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOFRDWXNWUVhVbU5MZERVZ3l1cHd3dXMzZ3VyN05LMk5vQ3pjUkphbnlaODh4cERwRl9EdUh6WjdBUTlGZkVvck13V1U2bE9JQXFRa3Rfa1FKUmFPaHlZQ0RPZkpIcFd3Y29pZVBNN1FUNElVRlZleTNqWTdoRkcwMA?oc=5",
@@ -1395,7 +1398,7 @@
     }
    ],
    "official": false,
-   "score": 10.1,
+   "score": 9.6,
    "already_covered": false
   },
   {
@@ -1403,7 +1406,7 @@
    "keyword": "FAFSA",
    "traffic": 0,
    "article_count_24h": 1,
-   "article_count_1h": 1,
+   "article_count_1h": 0,
    "published": "2026-11-16T05:19:14+09:00",
    "category": "Student Aid",
    "news": [
@@ -1414,7 +1417,7 @@
     }
    ],
    "official": false,
-   "score": 9.8,
+   "score": 4.2,
    "already_covered": true
   }
  ]
