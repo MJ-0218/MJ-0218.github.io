@@ -1,36 +1,76 @@
 {
- "generated_at": "2026-11-16T04:25:33.555038+09:00",
+ "generated_at": "2026-11-16T05:25:50.749279+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (7)",
-  "evidence": "ok (저장 31, 실패 4)"
+  "evidence": "ok (저장 27, 실패 9)"
  },
- "compared_runs": 3,
+ "compared_runs": 2,
  "spikes": [
-  "debt collection",
+  "ao3",
   "spain vs england",
-  "ronaldinho",
-  "bangladesh national cricket team vs south africa national cricket team match scorecard"
+  "mahfijul islam"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "ao3",
+   "traffic": 10000,
+   "published": "2026-11-15T17:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Fans cheer as popular online platform for spinoff stories nears full return after security incident",
+     "url": "https://apnews.com/article/ao3-fandom-archive-transformative-9e752c2cf91409434fcde7188140d066",
+     "source": "AP News"
+    },
+    {
+     "title": "The AO3 Shutdown Is Pitting Fanfic Readers Against Authors",
+     "url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
+     "source": "WIRED"
+    },
+    {
+     "title": "Archive of Our Own Is Back Online And It's (Almost) Fully Functional",
+     "url": "https://bleedingcool.com/pop-culture/archive-of-our-own-is-back-online-and-almost-fully-functional/",
+     "source": "Bleeding Cool News"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 5,000→10,000",
+   "spike_bonus": 20,
+   "score": 29.4,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
+     "title": "The AO3 Shutdown Is Pitting Fanfic Readers Against Authors",
+     "outlet": "WIRED"
+    },
+    {
+     "url": "https://bleedingcool.com/pop-culture/archive-of-our-own-is-back-online-and-almost-fully-functional/",
+     "title": "Archive of Our Own Is Back Online And It's (Almost) Fully Functional",
+     "outlet": "Bleeding Cool News"
+    }
+   ]
+  },
   {
    "source": "google_news",
    "keyword": "dengue",
    "traffic": 0,
-   "article_count_24h": 42,
-   "article_count_1h": 2,
-   "published": "2026-11-16T01:46:51+09:00",
+   "article_count_24h": 43,
+   "article_count_1h": 3,
+   "published": "2026-11-15T14:09:00+09:00",
    "category": "Living",
    "news": [
-    {
-     "title": "AI mosquito trap targets deadly dengue outbreak - Fox News",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNllyTHNzU0Q1aWIwYU5uYVlTTS1WRHp1MEw5MjJkUXNZc0ZKNENuOWFBWmpocTlyUnRGNzdHZ3pDZExxandwdkJudVFLVVh4LVZGcDlSU2pya0VuWEFjWl9wRzlHMUhoSGxib1NnTEpJV204MVdBMDRGajEyb1NuWjNB0gGHAUFVX3lxTE1zaTVaS1BjMWVwQlhkdmY3ZmNPbEJxOEw1YndNX1o3T0Z0SVpFbnU0dXdsZ0tLcTlxdEdYLWI0QU1IZDhMSFQ3RXhvTzZJZmNlWUFQVEhvQmNqc3RncnY4ZUt2ZFdpM0M3WVJNNHFmLVEwS09RYUg0T2w4c0pZaUtIUGxsNEVGRQ?oc=5",
-     "source": "Fox News"
-    },
     {
      "title": "Thai dengue toll at 47 as southern Region 11 reports 1.7 times national level - Nation Thailand",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FaW5zLXpjSWkzRzRRVHRvZ3BZcGt5MTI0RnhLdFVXSDVySi1iRlBfYnJ2LUJZSy1uZkhURmRhMnVFLVFrbVMyMVNNT1B5SmsxU0VNcVYycFdtVUcxcHJsaXZBTElyQQ?oc=5",
      "source": "Nation Thailand"
+    },
+    {
+     "title": "AI mosquito trap targets deadly dengue outbreak - Fox News",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNllyTHNzU0Q1aWIwYU5uYVlTTS1WRHp1MEw5MjJkUXNZc0ZKNENuOWFBWmpocTlyUnRGNzdHZ3pDZExxandwdkJudVFLVVh4LVZGcDlSU2pya0VuWEFjWl9wRzlHMUhoSGxib1NnTEpJV204MVdBMDRGajEyb1NuWjNB0gGHAUFVX3lxTE1zaTVaS1BjMWVwQlhkdmY3ZmNPbEJxOEw1YndNX1o3T0Z0SVpFbnU0dXdsZ0tLcTlxdEdYLWI0QU1IZDhMSFQ3RXhvTzZJZmNlWUFQVEhvQmNqc3RncnY4ZUt2ZFdpM0M3WVJNNHFmLVEwS09RYUg0T2w4c0pZaUtIUGxsNEVGRQ?oc=5",
+     "source": "Fox News"
     },
     {
      "title": "Colombia dengue cases near 100,000: Interventions, including vaccination intensified - Outbreak News Today",
@@ -49,74 +89,28 @@
     }
    ],
    "official": false,
-   "score": 22.8,
+   "score": 17.6,
    "already_covered": false,
    "evidence": [
-    {
-     "url": "https://www.foxnews.com/tech/ai-mosquito-trap-targets-deadly-dengue-outbreak",
-     "title": "AI mosquito trap targets deadly dengue outbreak - Fox News",
-     "outlet": "Fox News"
-    },
     {
      "url": "https://www.nationthailand.com/health-wellness/40073529",
      "title": "Thai dengue toll at 47 as southern Region 11 reports 1.7 times national level - Nation Thailand",
      "outlet": "Nation Thailand"
     },
     {
-     "url": "https://outbreaknewstoday.substack.com/p/colombia-dengue-cases-near-100000",
-     "title": "Colombia dengue cases near 100,000: Interventions, including vaccination intensified - Outbreak News Today",
-     "outlet": "Outbreak News Today"
+     "url": "https://www.foxnews.com/tech/ai-mosquito-trap-targets-deadly-dengue-outbreak",
+     "title": "AI mosquito trap targets deadly dengue outbreak - Fox News",
+     "outlet": "Fox News"
     },
     {
      "url": "https://mezha.net/eng/news/mezha-b779db08b75c7e62ee3818fe_ai_mosquito_trap/",
      "title": "AI mosquito trap could speed dengue surveillance in Florida - Mezha.net",
      "outlet": "Mezha.net"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "debt collection",
-   "traffic": 5000,
-   "published": "2026-11-15T20:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "‘We will chase them down’: Debt collectors pursue claims exceeding $2m linked to Lao Huo Tang",
-     "url": "https://www.straitstimes.com/business/we-will-chase-them-down-debt-collectors-pursue-claims-exceeding-2m-linked-to-lao-huo-tang",
-     "source": "The Straits Times"
     },
     {
-     "title": "‘We will chase them down’: Debt collectors pursue claims exceeding $2m linked to Lao Huo Tang",
-     "url": "https://www.straitstimes.com/business/we-will-chase-them-down-debt-collectors-pursue-claims-exceeding-2m-linked-to-lao-huo-tang",
-     "source": "The Straits Times"
-    },
-    {
-     "title": "As US credit card debt hits $1.29T, bank algorithms are rejecting debt-free, six-figure earners",
-     "url": "https://www.foxbusiness.com/personal-finance/us-credit-card-debt-hits-1-29t-bank-algorithms-rejecting-debt-free-six-figure-earners",
-     "source": "Fox Business"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 2,000→5,000",
-   "spike_bonus": 20,
-   "score": 18.9,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.straitstimes.com/business/we-will-chase-them-down-debt-collectors-pursue-claims-exceeding-2m-linked-to-lao-huo-tang",
-     "title": "‘We will chase them down’: Debt collectors pursue claims exceeding $2m linked to Lao Huo Tang",
-     "outlet": "The Straits Times"
-    },
-    {
-     "url": "https://www.straitstimes.com/business/we-will-chase-them-down-debt-collectors-pursue-claims-exceeding-2m-linked-to-lao-huo-tang",
-     "title": "‘We will chase them down’: Debt collectors pursue claims exceeding $2m linked to Lao Huo Tang",
-     "outlet": "The Straits Times"
-    },
-    {
-     "url": "https://www.foxbusiness.com/personal-finance/us-credit-card-debt-hits-1-29t-bank-algorithms-rejecting-debt-free-six-figure-earners",
-     "title": "As US credit card debt hits $1.29T, bank algorithms are rejecting debt-free, six-figure earners",
-     "outlet": "Fox Business"
+     "url": "https://bioengineer.org/galectin-3-restricts-dengue-virus-infection-through-envelope-binding-and-immune-signaling/",
+     "title": "Galectin-3 Restricts Dengue Virus Infection Through Envelope Binding and Immune Signaling - Bioengineer.org",
+     "outlet": "Bioengineer.org"
     }
    ]
   },
@@ -124,7 +118,7 @@
    "source": "google_news",
    "keyword": "K-drama",
    "traffic": 0,
-   "article_count_24h": 45,
+   "article_count_24h": 46,
    "article_count_1h": 2,
    "published": "2026-11-15T20:00:24+09:00",
    "category": "K-Culture",
@@ -168,16 +162,113 @@
      "url": "https://www.thestar.com.my/lifestyle/entertainment/2026/11/15/039reply-1988039-actor-ko-kyung-pyo-caught-drunk-driving-after-truck-crash",
      "title": "K-drama 'Reply 1988' actor Ko Kyung-pyo caught drunk driving after truck crash - The Star",
      "outlet": "The Star"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "Korean skincare",
+   "traffic": 0,
+   "article_count_24h": 17,
+   "article_count_1h": 2,
+   "published": "2026-11-15T21:16:00+09:00",
+   "category": "K-Culture",
+   "news": [
+    {
+     "title": "Unifree Duty Free introduces dedicated K-Beauty area at IST - TRBusiness",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb1RkZmdCWV9tQV9RMnZqamFCUnU4bjB5cnA3dlprWjRWSzhUNGN0NTVxSkJJU3d4blJPQkxkckl1M1JSWGxSS3BZcWlOX2pxQVEtT3FsM2lNMkhNWkdpbHhjQ0w0LTdGbDAxMTUtdEJUWWxkRXlMLVRDVDJzOWxkWFFWQkxXd1BETjdxNnZ6Vjg3VHZZTldSRUI1MVhHcmVxMjdzWGFVMTM0UUlPMy1xT2szMGFvdw?oc=5",
+     "source": "TRBusiness"
     },
     {
-     "url": "https://www.travelandleisureasia.com/in/destinations/southeast-asia/doctor-x-mafia-in-white-shooting-locations-kim-ji-won/amp/",
-     "title": "Where In Korea Was Kim Ji-won's 'Doctor X: Mafia In White' Filmed? - Travel and Leisure Asia",
-     "outlet": "Travel and Leisure Asia"
+     "title": "A Deep Dive Into Hailey Bieber’s Many, Many Face Masks - Vogue",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbmJ5TzRjZ2c5LVNqVlc2ZVFiYnBPazRUczI2LVZtSHFYaEZiUEVlYTFfUGlPdllaUFpTYUtkOG9QY1BmbktObWxWcENYM1RTZGtYRXJOeHdjQjJKTGhDdVRaY01uUUFsVm4yZWVYb09iZXlxVnJIZFNDbFJjem9mcjBzd0hBMWhFYnc?oc=5",
+     "source": "Vogue"
     },
     {
-     "url": "https://popbee.com/en/lifestyle/movies/k-drama-the-perfect-lie-yoo-yeon-seok-seo-hyun-jin",
-     "title": "Waiting 10 Years: Yoo Yeon-seok and Seo Hyun-jin's Reunion Is Unexpectedly a Mystery Thriller, \"The Perfect Lie\" Psychological War of One Date and Two Memories - Popbee",
-     "outlet": "Popbee"
+     "title": "The 7 Best Hand Creams For Mature Skin To Restore Moisture And Relieve Tightness In Cold Weather - ELLE",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWHR6OWZYN09ZUUNMU1diWmR0RFdwMXdtMTl0VzRGQWtyZUVsbXpjTHhqakU5Z0ZQZkU3T3BIdk43Tnc3WE1UMlJNb2JucXROQWctSldMWGVrUzlaS0w3SnAybFFwU3lTR3U1dVcwWFJNbjBxWjZBT1RNMmxQalhlME5RM09xZ2JjbFI1MmtR?oc=5",
+     "source": "ELLE"
+    },
+    {
+     "title": "K-Beauty Draws New Yorkers at U.S. Holiday Shopping Pop-Up - Seoul Economic Daily",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWlg2WFdfV0FtMFdxX1AzSlFRYnNaV1MyUElnRjJIakIzLVByTU5ZQWVTbzRCVkc0Z0pDLWxJWVpxcjVjektNNExmSGUzU3U4T1VaR0ZBRVVocDE0amFhOXVFLXRscXgweVV5RmxVUDRQa1o2TGlpdWVydW9NY1FfckVoS2lsazNZYW16RG9kVG9NSl9XME5BRThSbVQ?oc=5",
+     "source": "Seoul Economic Daily"
+    },
+    {
+     "title": "HEALAND Brings Silicone-Free Glow Shampoo and a Korean Hair-and-Body Ritual Line to Amazon in the U.S. - Carroll County Mirror-Democrat",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZXl1dndsWXFKc01DekdCeG5hQVlkMVllV0ZyS3l0YnQ2aTAtcFdad1gyMzZnZHp2ajE1aWYwdEtpMU91c2Ruejc4RzhOXzRvMGFPblk1dDNud3dwci13LUtFOFRKUXoxQXpaMGFZRVNOQmp2MXBtRFE3WWMzWGItaW9ENE5ucy1MZE5rNG0welNndHd5QUtoYjMxRlJVLWdRNGlMMlczd3psNEtQVFZiOGdmMnVKbkE?oc=5",
+     "source": "Carroll County Mirror-Democrat"
+    }
+   ],
+   "official": false,
+   "score": 16.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.trbusiness.com/channel-news/airports/unifree-duty-free-introduces-dedicated-k-beauty-area-at-ist/285611",
+     "title": "Unifree Duty Free introduces dedicated K-Beauty area at IST - TRBusiness",
+     "outlet": "TRBusiness"
+    },
+    {
+     "url": "https://www.vogue.com/article/a-deep-dive-into-hailey-biebers-many-many-face-masks",
+     "title": "A Deep Dive Into Hailey Bieber’s Many, Many Face Masks - Vogue",
+     "outlet": "Vogue"
+    },
+    {
+     "url": "https://www.elle.com/uk/beauty/skin/g74397369/the-7-best-hand-creams-for-mature-skin/",
+     "title": "The 7 Best Hand Creams For Mature Skin To Restore Moisture And Relieve Tightness In Cold Weather - ELLE",
+     "outlet": "ELLE"
+    },
+    {
+     "url": "https://en.sedaily.com/world/2026/11/15/k-beauty-draws-new-yorkers-at-us-holiday-shopping-pop-up",
+     "title": "K-Beauty Draws New Yorkers at U.S. Holiday Shopping Pop-Up - Seoul Economic Daily",
+     "outlet": "Seoul Economic Daily"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "spain vs england",
+   "traffic": 1000,
+   "published": "2026-11-16T01:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Spain vs England LIVE: Nations League score, commentary, updates & stats",
+     "url": "https://www.bbc.com/sport/football/live/c65y1lrepr5zt",
+     "source": "BBC"
+    },
+    {
+     "title": "Spain v England: Nations League – live",
+     "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
+     "source": "The Guardian"
+    },
+    {
+     "title": "Spain vs England: UEFA Nations League – predictions, how to watch, teams",
+     "url": "https://www.aljazeera.com/sports/2026/11/14/spain-england-uefa-nations-league-predictions-how-to-watch-teams",
+     "source": "Al Jazeera"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 200→1,000",
+   "spike_bonus": 20,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/sport/football/live/c65y1lrepr5zt",
+     "title": "Spain vs England LIVE: Nations League score, commentary, updates & stats",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
+     "title": "Spain v England: Nations League – live",
+     "outlet": "The Guardian"
+    },
+    {
+     "url": "https://www.aljazeera.com/sports/2026/11/14/spain-england-uefa-nations-league-predictions-how-to-watch-teams",
+     "title": "Spain vs England: UEFA Nations League – predictions, how to watch, teams",
+     "outlet": "Al Jazeera"
     }
    ]
   },
@@ -244,157 +335,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "Korean skincare",
-   "traffic": 0,
-   "article_count_24h": 14,
-   "article_count_1h": 1,
-   "published": "2026-11-15T21:16:00+09:00",
-   "category": "K-Culture",
-   "news": [
-    {
-     "title": "Unifree Duty Free introduces dedicated K-Beauty area at IST - TRBusiness",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb1RkZmdCWV9tQV9RMnZqamFCUnU4bjB5cnA3dlprWjRWSzhUNGN0NTVxSkJJU3d4blJPQkxkckl1M1JSWGxSS3BZcWlOX2pxQVEtT3FsM2lNMkhNWkdpbHhjQ0w0LTdGbDAxMTUtdEJUWWxkRXlMLVRDVDJzOWxkWFFWQkxXd1BETjdxNnZ6Vjg3VHZZTldSRUI1MVhHcmVxMjdzWGFVMTM0UUlPMy1xT2szMGFvdw?oc=5",
-     "source": "TRBusiness"
-    },
-    {
-     "title": "The 7 Best Hand Creams For Mature Skin To Restore Moisture And Relieve Tightness In Cold Weather - ELLE",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWHR6OWZYN09ZUUNMU1diWmR0RFdwMXdtMTl0VzRGQWtyZUVsbXpjTHhqakU5Z0ZQZkU3T3BIdk43Tnc3WE1UMlJNb2JucXROQWctSldMWGVrUzlaS0w3SnAybFFwU3lTR3U1dVcwWFJNbjBxWjZBT1RNMmxQalhlME5RM09xZ2JjbFI1MmtR?oc=5",
-     "source": "ELLE"
-    },
-    {
-     "title": "K-Beauty Draws New Yorkers at U.S. Holiday Shopping Pop-Up - Seoul Economic Daily",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWlg2WFdfV0FtMFdxX1AzSlFRYnNaV1MyUElnRjJIakIzLVByTU5ZQWVTbzRCVkc0Z0pDLWxJWVpxcjVjektNNExmSGUzU3U4T1VaR0ZBRVVocDE0amFhOXVFLXRscXgweVV5RmxVUDRQa1o2TGlpdWVydW9NY1FfckVoS2lsazNZYW16RG9kVG9NSl9XME5BRThSbVQ?oc=5",
-     "source": "Seoul Economic Daily"
-    },
-    {
-     "title": "HEALAND Brings Silicone-Free Glow Shampoo and a Korean Hair-and-Body Ritual Line to Amazon in the U.S. - Carroll County Mirror-Democrat",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZXl1dndsWXFKc01DekdCeG5hQVlkMVllV0ZyS3l0YnQ2aTAtcFdad1gyMzZnZHp2ajE1aWYwdEtpMU91c2Ruejc4RzhOXzRvMGFPblk1dDNud3dwci13LUtFOFRKUXoxQXpaMGFZRVNOQmp2MXBtRFE3WWMzWGItaW9ENE5ucy1MZE5rNG0welNndHd5QUtoYjMxRlJVLWdRNGlMMlczd3psNEtQVFZiOGdmMnVKbkE?oc=5",
-     "source": "Carroll County Mirror-Democrat"
-    },
-    {
-     "title": "There Are Hundreds of Skincare Gift Sets—These 10 Are Worthwhile - Marie Claire",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGSzZjeTloa0c4aTQzUGtlczVlTFdrdXFYTFc3LXdtRHdHVE5leFNiTE00MWhTRFFQVHJKcTNuVXlQT2RpandPWTd2OXlPX0FnNk5oaUhCa2ljaDhLUU9CUHRUX3BhZ2QzSEt4YjZZbWRzSUt2eE9Z?oc=5",
-     "source": "Marie Claire"
-    }
-   ],
-   "official": false,
-   "score": 14.3,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.trbusiness.com/channel-news/airports/unifree-duty-free-introduces-dedicated-k-beauty-area-at-ist/285611",
-     "title": "Unifree Duty Free introduces dedicated K-Beauty area at IST - TRBusiness",
-     "outlet": "TRBusiness"
-    },
-    {
-     "url": "https://www.elle.com/uk/beauty/skin/g74397369/the-7-best-hand-creams-for-mature-skin/",
-     "title": "The 7 Best Hand Creams For Mature Skin To Restore Moisture And Relieve Tightness In Cold Weather - ELLE",
-     "outlet": "ELLE"
-    },
-    {
-     "url": "https://en.sedaily.com/world/2026/11/15/k-beauty-draws-new-yorkers-at-us-holiday-shopping-pop-up",
-     "title": "K-Beauty Draws New Yorkers at U.S. Holiday Shopping Pop-Up - Seoul Economic Daily",
-     "outlet": "Seoul Economic Daily"
-    },
-    {
-     "url": "https://www.mycarrollcountynews.com/online_features/press_releases/article_300d1c79-612d-5187-9a83-75be8f2506e5.html",
-     "title": "HEALAND Brings Silicone-Free Glow Shampoo and a Korean Hair-and-Body Ritual Line to Amazon in the U.S. - Carroll County Mirror-Democrat",
-     "outlet": "Carroll County Mirror-Democrat"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "spain vs england",
-   "traffic": 200,
-   "published": "2026-11-16T01:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "England's Tuchel not expecting racism issues, Spain's De la Fuente says none exists",
-     "url": "https://www.channelnewsasia.com/sport/englands-tuchel-not-expecting-racism-issues-spains-de-la-fuente-says-none-exists-6552156",
-     "source": "CNA"
-    },
-    {
-     "title": "'No racism in Spain' – De la Fuente message for Tuchel",
-     "url": "https://www.bbc.com/sport/football/articles/c893r74ryy3qo",
-     "source": "BBC"
-    },
-    {
-     "title": "Spain v England buildup, reaction to Portugal’s post-Ronaldo thrashing, WSL and more – as it happened",
-     "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
-     "source": "The Guardian"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 100→200",
-   "spike_bonus": 20,
-   "score": 12.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.channelnewsasia.com/sport/englands-tuchel-not-expecting-racism-issues-spains-de-la-fuente-says-none-exists-6552156",
-     "title": "England's Tuchel not expecting racism issues, Spain's De la Fuente says none exists",
-     "outlet": "CNA"
-    },
-    {
-     "url": "https://www.bbc.com/sport/football/articles/c893r74ryy3qo",
-     "title": "'No racism in Spain' – De la Fuente message for Tuchel",
-     "outlet": "BBC"
-    },
-    {
-     "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
-     "title": "Spain v England buildup, reaction to Portugal’s post-Ronaldo thrashing, WSL and more – as it happened",
-     "outlet": "The Guardian"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "ronaldinho",
-   "traffic": 200,
-   "published": "2026-11-16T01:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Ronaldinho: Brazil legend set for first start for Italian club Ravenna aged 46",
-     "url": "https://www.bbc.com/sport/football/articles/cqz0k4e00v0mo",
-     "source": "BBC"
-    },
-    {
-     "title": "Reaction as Brazil legend Ronaldinho comes out of retirement at Ravenna",
-     "url": "https://www.espn.com/soccer/story/_/id/50489043/ronaldinho-ravenna-brazil-barcelona-serie-c",
-     "source": "ESPN"
-    },
-    {
-     "title": "The return of Ronaldinho: PR stunt or genuine comeback?",
-     "url": "https://www.goal.com/en-sg/originals/return-ronaldinho-pr-stunt-or-genuine-comeback/blt9bc78e084629d189",
-     "source": "Goal.com"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 100→200",
-   "spike_bonus": 20,
-   "score": 12.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.bbc.com/sport/football/articles/cqz0k4e00v0mo",
-     "title": "Ronaldinho: Brazil legend set for first start for Italian club Ravenna aged 46",
-     "outlet": "BBC"
-    },
-    {
-     "url": "https://www.goal.com/en-sg/originals/return-ronaldinho-pr-stunt-or-genuine-comeback/blt9bc78e084629d189",
-     "title": "The return of Ronaldinho: PR stunt or genuine comeback?",
-     "outlet": "Goal.com"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "sunscreen",
    "traffic": 0,
-   "article_count_24h": 14,
+   "article_count_24h": 15,
    "article_count_1h": 0,
    "published": "2026-11-15T13:00:00+09:00",
    "category": "Beauty",
@@ -480,25 +423,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "ao3",
+   "keyword": "debt collection",
    "traffic": 5000,
-   "published": "2026-11-15T17:20:00+09:00",
+   "published": "2026-11-15T20:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Fans cheer as popular online platform for spinoff stories nears full return after security incident",
-     "url": "https://apnews.com/article/ao3-fandom-archive-transformative-9e752c2cf91409434fcde7188140d066",
-     "source": "AP News"
+     "title": "‘We will chase them down’: Debt collectors pursue claims exceeding $2m linked to Lao Huo Tang",
+     "url": "https://www.straitstimes.com/business/we-will-chase-them-down-debt-collectors-pursue-claims-exceeding-2m-linked-to-lao-huo-tang",
+     "source": "The Straits Times"
     },
     {
-     "title": "The AO3 Shutdown Is Pitting Fanfic Readers Against Authors",
-     "url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
-     "source": "WIRED"
+     "title": "‘We will chase them down’: Debt collectors pursue claims exceeding $2m linked to Lao Huo Tang",
+     "url": "https://www.straitstimes.com/business/we-will-chase-them-down-debt-collectors-pursue-claims-exceeding-2m-linked-to-lao-huo-tang",
+     "source": "The Straits Times"
     },
     {
-     "title": "Archive of Our Own Is Back Online And It's (Almost) Fully Functional",
-     "url": "https://bleedingcool.com/pop-culture/archive-of-our-own-is-back-online-and-almost-fully-functional/",
-     "source": "Bleeding Cool News"
+     "title": "As US credit card debt hits $1.29T, bank algorithms are rejecting debt-free, six-figure earners",
+     "url": "https://www.foxbusiness.com/personal-finance/us-credit-card-debt-hits-1-29t-bank-algorithms-rejecting-debt-free-six-figure-earners",
+     "source": "Fox Business"
     }
    ],
    "official": false,
@@ -507,9 +450,9 @@
   },
   {
    "source": "google_trends",
-   "keyword": "bangladesh vs south africa",
-   "traffic": 5000,
-   "published": "2026-11-15T16:40:00+09:00",
+   "keyword": "mahfijul islam",
+   "traffic": 2000,
+   "published": "2026-11-15T17:10:00+09:00",
    "category": "기타",
    "news": [
     {
@@ -523,43 +466,23 @@
      "source": "Cricinfo"
     },
     {
-     "title": "First-ball duck! Mahfijul Islam suffers Test debut nightmare as Kagiso Rabada scripts rare bowling record",
-     "url": "https://sports.yahoo.com/articles/first-ball-duck-mahfijul-islam-155000042.html",
-     "source": "Yahoo Sports"
-    }
-   ],
-   "official": false,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "bangladesh national cricket team vs south africa national cricket team match scorecard",
-   "traffic": 1000,
-   "published": "2026-11-15T16:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Shanto: 'Very important for the whole batting unit to perform'",
-     "url": "https://www.cricinfo.com/story/sa-vs-ban-najmul-hossain-shanto-very-important-for-the-whole-batting-unit-to-perform-1562662",
-     "source": "Cricinfo"
-    },
-    {
-     "title": "Recent Match Report - South Africa vs Bangladesh, Bangladesh tour of South Africa, 1st Test | ESPN.com",
-     "url": "https://www.espn.com/cricket/series/19430/report/1525662/day/1/south-africa-vs-bangladesh-1st-test-19430",
-     "source": "ESPN"
-    },
-    {
-     "title": "Mahfijul debuts as Bangladesh opt to bat first",
-     "url": "https://www.newagebd.net/post/cricket/322530/mahfijul-debuts-as-bangladesh-opt-to-bat-first",
-     "source": "New Age BD"
+     "title": "Rabada Tigers’ biggest bowling nightmare",
+     "url": "https://www.daily-sun.com/winner/909442",
+     "source": "www.daily-sun.com"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 8.4,
-   "already_covered": false
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.channelnewsasia.com/sport/hridoys-137-lifts-bangladesh-327-6-against-south-africa-6552831",
+     "title": "Hridoy's 137 lifts Bangladesh to 327-6 against South Africa",
+     "outlet": "CNA"
+    }
+   ]
   },
   {
    "source": "google_news",
@@ -596,27 +519,76 @@
    "already_covered": false
   },
   {
+   "source": "google_trends",
+   "keyword": "bangladesh vs south africa",
+   "traffic": 2000,
+   "published": "2026-11-15T16:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "South Africa will not ease off against Bangladesh, Rabada warns",
+     "url": "https://www.channelnewsasia.com/sport/south-africa-will-not-ease-against-bangladesh-rabada-warns-6549821",
+     "source": "CNA"
+    },
+    {
+     "title": "On-song South Africa host Bangladesh with an eye on another WTC final",
+     "url": "https://www.cricinfo.com/series/bangladesh-in-south-africa-2026-27-1525637/south-africa-vs-bangladesh-1st-test-1525662/match-preview",
+     "source": "Cricinfo"
+    },
+    {
+     "title": "Batting key to ending Proteas jinx",
+     "url": "https://www.thedailystar.net/sports/cricket/news/batting-key-ending-proteas-jinx-4324181",
+     "source": "The Daily Star"
+    }
+   ],
+   "official": false,
+   "score": 4.2,
+   "already_covered": false
+  },
+  {
    "source": "google_news",
    "keyword": "haze PSI",
    "traffic": 0,
-   "article_count_24h": 2,
+   "article_count_24h": 1,
    "article_count_1h": 0,
-   "published": "2026-11-15T22:59:49+09:00",
+   "published": "2026-11-15T21:00:01+09:00",
    "category": "기타",
    "news": [
     {
      "title": "Good air quality continues across the Sultanate - Borneo Bulletin",
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQXlyRkRETXh5ZXBwT1RiNGdhTnF0MG5GYUtmMlVqemR2WVFuTlY4WmdpSzM5TERZeThjOFktUEVmWjFFYUpHQklGVmVtQ1U4cV9PMW9vTmZkeTBZMDFyeXFfR29oZnlsb2EwNTNoVFNPQ1FEQUYyc2VmaW9vOGRYSlNuMVQ?oc=5",
      "source": "Borneo Bulletin"
-    },
-    {
-     "title": "Air quality remains favourable nationwide - Borneo Bulletin",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9DSTF6ejE0YXF6QWFGYXh3emRwY0hJNWd2bF9qdU1hU2F6d19BVHhSN1drX3dSdV80YXItSjJsLWN1YnRld3o3VTEtcmU0b3hCaGJ2bFVGU2N1RDZWNGRwakZOaHBFVDN2SDhienRLa0xTYkU3M2Zzbk1zemw?oc=5",
-     "source": "Borneo Bulletin"
     }
    ],
    "official": false,
-   "score": 3.6,
+   "score": 1.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "ronaldinho",
+   "traffic": 200,
+   "published": "2026-11-16T01:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Ronaldinho makes comeback for Ravenna",
+     "url": "https://www.bbc.com/sport/football/articles/ckregz4g823xo",
+     "source": "BBC"
+    },
+    {
+     "title": "Reaction as Brazil legend Ronaldinho comes out of retirement at Ravenna",
+     "url": "https://www.espn.com/soccer/story/_/id/50489043/ronaldinho-ravenna-brazil-barcelona-serie-c",
+     "source": "ESPN"
+    },
+    {
+     "title": "Ronaldinho poised for Ravenna start and, perhaps, one last goal",
+     "url": "https://www.straitstimes.com/sport/football/ronaldinho-poised-for-ravenna-start-and-perhaps-one-last-goal",
+     "source": "The Straits Times"
+    }
+   ],
+   "official": false,
+   "score": 0.6,
    "already_covered": false
   },
   {
@@ -686,13 +658,13 @@
      "source": "WSJ"
     },
     {
-     "title": "As Trump administration implores Congress for additional FAA funding, Democrats say the agency already has it",
-     "url": "https://sg.news.yahoo.com/trump-administration-implores-congress-additional-175146162.html",
-     "source": "Yahoo News Singapore"
+     "title": "US air travel disruptions to persist until late on Sunday, FAA head says",
+     "url": "https://www.channelnewsasia.com/world/us-air-travel-flight-shutdown-recovery-l3harris-router-6551971",
+     "source": "CNA"
     },
     {
-     "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
-     "url": "https://www.bbc.com/news/articles/c6wy9lynq4qno",
+     "title": "What we know about the US ground stop and what to do if your flight is affected",
+     "url": "https://www.bbc.com/news/articles/cqx2wyvyr3zzo",
      "source": "BBC"
     }
    ],
