@@ -1,33 +1,75 @@
 {
- "generated_at": "2026-11-18T07:37:01.408772+09:00",
+ "generated_at": "2026-11-18T08:08:51.193649+09:00",
  "sources": {
   "calendar": "ok (3)",
   "google_trends": "ok (10)",
   "google_news": "ok (20)",
-  "evidence": "ok (저장 65, 실패 38)"
+  "evidence": "ok (저장 70, 실패 33)"
  },
  "compared_runs": 6,
  "spikes": [
-  "IRS refund",
-  "early voting",
-  "chile vs colombia",
-  "harvey jones",
-  "oklahoma city thunder",
-  "dow jones industrial average",
-  "argentina - costa rica",
-  "chile - colombia",
-  "anne hathaway",
-  "eastern mi vs wmu",
+  "qeshm",
+  "fraud",
+  "uruguay - república dominicana",
   "aircraft",
-  "league of legends"
+  "anne hathaway",
+  "uruguay vs dominican republic",
+  "cma awards",
+  "bill watts",
+  "kuwait"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T08:08:51.215832+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -16,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T08:08:51.215849+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -16,
+   "in_window": true
+  },
   {
    "source": "google_news",
    "keyword": "IRS refund",
    "traffic": 0,
    "article_count_24h": 28,
-   "article_count_1h": 12,
+   "article_count_1h": 6,
    "published": "2026-11-18T06:54:23+09:00",
    "category": "Taxes",
    "news": [
@@ -58,9 +100,7 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 4.4→12건 (2.4배)",
-   "spike_bonus": 24.1,
-   "score": 111.1,
+   "score": 75.0,
    "already_covered": false,
    "evidence": [
     {
@@ -87,130 +127,22 @@
   },
   {
    "source": "google_news",
-   "keyword": "early voting",
-   "traffic": 0,
-   "article_count_24h": 38,
-   "article_count_1h": 13,
-   "published": "2026-11-18T05:00:21+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-     "source": "NBC News"
-    },
-    {
-     "title": "Early voting starts Monday for District 3 runoff - WRDW",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPamRVZHRiZ2xJbGRNZll5Um5Ld0FPT3VGelhRWVlxZmk3ZWNzOGNMeTF3ejRSOC1GSmtkTjEzTmN5VkE5LTFNY1RJUVMyRWVLRnJGeEpVVE9zdUJGLU1xcUtVMFZiSXJrT3NuLUYxQ2tINVhYUUxCZ250YmhHbjg3ajctd9IBlwFBVV95cUxQaktUVTJWWFN1Y3RacjNzRjQ4Rmd0c1BZZ0VydnhHVGI0T0JjeGJKYWFaVFhEYmNtWlg1c0VYWGpUcDMwMTJaZ3BEMVRaVEd2Y3hFdTJQY1VTbTBJQk1tYlpKVjNCdlZmay1kSjIyWFhaX2dnckh2ckEzRDRXSWxVNy01cDZxUDY5eWFseWVWd1c2NnRWNGlJ?oc=5",
-     "source": "WRDW"
-    },
-    {
-     "title": "Early voting starts Monday for District 3 runoff - WRDW",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT1RDQmx0Rlh2eXhoandBbFNzZC0xNjJHYlhyam8taU5HMDlNVHUwdnhFOTJ3dXFIRVdVSlI4dklHNTcyTml2RmQ3TlRocFRLX3p0YXRFanV2Z0M4c3c5SlZ3dWlsYUx3VDlkMkExcExxWDJHcTBVdVJBRWNiMUl4bVJxbV9fVF9nN0RR?oc=5",
-     "source": "WRDW"
-    },
-    {
-     "title": "Early voting in Saline County runoff election starts Nov. 24 - KATV",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPemRGaC1KMGhUUVJkaktOTFFOblR4cHU4dk8tczdIM2tuZTBoNGtEeXVxeGxxRE5kTXppOHJmeVdkUWRIbVB3Q3RrQl9OcU9OdkhtbWxyYnd2R0RNVXJtUVI1THlybVJkS1Zuek5seFQtX0c1WnpFSVFyVWgwbTFUVGcyVVNSX2FRNXdlN3dvTmo?oc=5",
-     "source": "KATV"
-    },
-    {
-     "title": "Iowa Down Ballot: Trump’s Iowa stops, close US House races and early voting - News From The States",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRC1WYkVBQnFualRqOFhWeUdseEk3anBBQThGRnVTZ0tnTEpsVzFZOFBXcWVwQ2VOcTdzeG5jUXcxSGJJUVRlTUdiMTZWLTJsMW5QaGVNWFJxQl9zWm9iRHVFUUU5cmhiNmJ0UnJXZUxNZTZ2QnNnTmhWc3BseURwcnFEZFk2RUxHQXc3ZWNVSUlSZWlpb1B5SlBVb0NGOWVIaUE2OXVCZVlXOXV3anZrbDg1Q04?oc=5",
-     "source": "News From The States"
-    }
-   ],
-   "official": false,
-   "spike": "최근 1시간 기사 3.8→13건 (2.9배)",
-   "spike_bonus": 29.2,
-   "score": 103.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "outlet": "NBC News"
-    },
-    {
-     "url": "https://www.wrdw.com/2026/11/17/early-voting-starts-monday-district-3-runoff/",
-     "title": "Early voting starts Monday for District 3 runoff - WRDW",
-     "outlet": "WRDW"
-    },
-    {
-     "url": "https://www.wrdw.com/video/2026/11/17/early-voting-starts-monday-district-3-runoff/",
-     "title": "Early voting starts Monday for District 3 runoff - WRDW",
-     "outlet": "WRDW"
-    },
-    {
-     "url": "https://katv.com/news/local/early-voting-in-saline-county-runoff-election-starts-nov-24",
-     "title": "Early voting in Saline County runoff election starts Nov. 24 - KATV",
-     "outlet": "KATV"
-    }
-   ]
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T07:37:01.431927+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -16,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T07:37:01.431947+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -16,
-   "in_window": true
-  },
-  {
-   "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
    "article_count_24h": 56,
-   "article_count_1h": 9,
-   "published": "2026-11-18T05:04:35+09:00",
+   "article_count_1h": 4,
+   "published": "2026-11-18T07:13:25+09:00",
    "category": "Benefits",
    "news": [
-    {
-     "title": "WashU Expert: Proposed SNAP cuts would mean more hungry children - WashU",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ1VDb3kwWWxTY0c2X3E0OHhKTWRyZU1JVHFDN0htOGRTbkxnNjNfMXluNU9LVkd3RlRtemF6QnZKNzg0a3kxSzZLMVFLbUFSV0lHX1c3RHFxcnl1TnZPekhJWF8yWFZVc3NtYXdrSFFmcklyeW1DclY3MEMyd0ROMzVLM3pWOFM2cTcyVmJnaVNsMHJEejBMR0JFV0o0QQ?oc=5",
-     "source": "WashU"
-    },
     {
      "title": "Slotkin Joins Colleagues Demanding USDA Withdraw Rule Restricting Food Assistance for Michiganders - Senate.gov",
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONmxBNlZhTjdVam5uWVBFTDFfNlQ5MExoMHlUSTR6Yi1waG0tSVUwMVVGa0IwNEp2WjBsUzFwSmVVdWpyeUtHenZoRVo3S1Qwejc1eXlrSFhCZjhhMG5fZVVhWTFMa1M4NkV5UDlXU1JETkE0cWFXTW9PMjhxUXRNSzNWc1VuZFkwQ1M0bGxPWF94X29ILUMtVzQtUGdQX09KWGdVelAybV9CVG9lUTcyMW9ZVDNkX05telE1WkticzY0aFlHRnRhNnRtMVFkOTQ4WDh1VlBTN2g?oc=5",
      "source": "Senate.gov"
+    },
+    {
+     "title": "WashU Expert: Proposed SNAP cuts would mean more hungry children - WashU",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ1VDb3kwWWxTY0c2X3E0OHhKTWRyZU1JVHFDN0htOGRTbkxnNjNfMXluNU9LVkd3RlRtemF6QnZKNzg0a3kxSzZLMVFLbUFSV0lHX1c3RHFxcnl1TnZPekhJWF8yWFZVc3NtYXdrSFFmcklyeW1DclY3MEMyd0ROMzVLM3pWOFM2cTcyVmJnaVNsMHJEejBMR0JFV0o0QQ?oc=5",
+     "source": "WashU"
     },
     {
      "title": "Texas lawmaker files bill to strengthen Lone Star Card security following millions in stolen SNAP benefits - KVUE",
@@ -223,29 +155,34 @@
      "source": "Maui Now"
     },
     {
-     "title": "Seattle store sues over six-month SNAP ban tied to $4.99 plastic cutlery sale - KING5.com",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUENXZl9kbEltcUVDRDBsQm0wZXduVDRDQTNLUnUtVFJvQ24zZ3RtSG1vSFl4dGdKWXRLVWx0dzcxQ3ZQRVowV1N6X3U5b3ZXU3NzUWxScjg5WEdQakV5Q2I2SC1ENGR2TW1Vdm9GR2RBcFJGUjB6STZSZTQ1NnVCYWZqd2dBc29KWmxjd20tbmdEWUxreTJHMWFLa0FsTjdqZEM5LUZUa0xwY3RhcXViNmFENUpsVTZxeFp2eWlsY1lqVmtjSTY1UVMyeENOX1Y5MmUzRTlzcDJtbXFsaDhPbDRKUXRRaEE?oc=5",
-     "source": "KING5.com"
+     "title": "Maryland Democrats seek to reverse SNAP cuts amid billions in alleged fraud - WBFF",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUURTS21tRTZGcDVERUp5dGVELVNMOS1ENEpKeTNGU1dodGdmSzRIOWhFcWdkRTg4T09WRHB5UVk0cGFPbF82cFdtMk55WUJYSDdva09QTktidGgxMUxSYXVXaW1GVkdTQXR6SHhWai1HOWtpR3FpZno3N0J1SzRKOS1vSjJNWnFIU19wa1RLM3N1TVlDR1BnR05EQWRtUVRCVVVUTzlLLUIwZHAzRXNlTGpvM3MybmNuV1Qyek9iMA?oc=5",
+     "source": "WBFF"
     }
    ],
    "official": false,
-   "score": 80.0,
+   "score": 73.6,
    "already_covered": false,
    "evidence": [
-    {
-     "url": "https://source.washu.edu/2026/11/washu-expert-proposed-snap-cuts-would-mean-more-hungry-children/",
-     "title": "WashU Expert: Proposed SNAP cuts would mean more hungry children - WashU",
-     "outlet": "WashU"
-    },
     {
      "url": "https://www.slotkin.senate.gov/2026/11/17/slotkin-joins-colleagues-demanding-usda-withdraw-rule-restricting-food-assistance-for-michiganders/",
      "title": "Slotkin Joins Colleagues Demanding USDA Withdraw Rule Restricting Food Assistance for Michiganders - Senate.gov",
      "outlet": "Senate.gov"
     },
     {
+     "url": "https://source.washu.edu/2026/11/washu-expert-proposed-snap-cuts-would-mean-more-hungry-children/",
+     "title": "WashU Expert: Proposed SNAP cuts would mean more hungry children - WashU",
+     "outlet": "WashU"
+    },
+    {
      "url": "https://mauinow.com/2026/11/17/11-2-of-hawai%CA%BBi-residents-rely-on-snap-benefits-as-payouts-drop-cuts-loom/",
      "title": "11.2% of Hawaiʻi residents rely on SNAP benefits as payouts drop, cuts loom - Maui Now",
      "outlet": "Maui Now"
+    },
+    {
+     "url": "https://foxbaltimore.com/spotlight-on-maryland/maryland-democrats-seek-to-reverse-snap-cuts-amid-billions-in-alleged-fraud",
+     "title": "Maryland Democrats seek to reverse SNAP cuts amid billions in alleged fraud - WBFF",
+     "outlet": "WBFF"
     }
    ]
   },
@@ -253,8 +190,8 @@
    "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
-   "article_count_24h": 55,
-   "article_count_1h": 16,
+   "article_count_24h": 53,
+   "article_count_1h": 21,
    "published": "2026-11-18T02:12:03+09:00",
    "category": "Elections",
    "news": [
@@ -269,14 +206,14 @@
      "source": "ABC News - Breaking News, Latest News and Videos"
     },
     {
+     "title": "FL legislative leaders say not ‘a dang thing’ changes after blue wave election - Miami Herald",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdUxobFlUWE5waHVGcWZJODlqMm1pclhnaTlSUUM4cGZaai1reXVpUWY5TWZ3SVZmYUtIUzB0bER2YjdaS3hESjdpck9CZ0pSRUM2SC1jTkp2aTlJQ1l1TFF3bUdnQ3NZV3N4cmVqamtlZTMxSFA4bWg1b2o5aFZJM3c5X2l2d0dVRjZmNXNZZ0NRbEnSAZMBQVVfeXFMUFNLcnRfSkpaLWpZd3dSQWVJSU9aWENoVmMxcm9TMDNyaUZ5RWJVTHdGclpENG1hSW5WaEs2RWtrLTBjNEw3VGdKWlN6WUw0anhmS043OE43Y0luT3E4REc0ci0tMWNlUkItWmo5VkFHR1FiVzdqU3drRE1Db09VNEFvd3J1dzFvVWg2cE1aLWhnV1lv?oc=5",
+     "source": "Miami Herald"
+    },
+    {
      "title": "The Midterm Election Strengthened Democracy and Showed the Limits of Subversion Tactics - Center for American Progress",
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcmNQUDJhTGxEX3ZxX1RTaGpha0JTRzJJZ0FjQVl3aXBGV2RYSC1laEh1NTdRU0ZvUU1BSnozM3FQMGdoYm5yVUpDZjdFRUYzOERtbjdQdDZ5V0RFQXlFc2JrOVM3Nmwzc1VzaDd5MWVvVFdfRlNPWnE1Y1YyZ0N6d1pqeTB3VjhhQUxFMHdMX3pMMnJIU2FZcHBXMi1BekdSbW1LellNZFJha25Sb00zcVdkVFJTWTRCOThHeE1CZnc2SFFzN0lTaQ?oc=5",
      "source": "Center for American Progress"
-    },
-    {
-     "title": "MSU working with FBI to investigate Election Day cybersecurity incident - Lansing State Journal",
-     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNZnE2TGdJeWFiYWxVVUR3QWszWnBSNXY0VEdYc0w0UHhxY1FHQ0pRTS03eXp4UUtvUXBzUmt1ZzVxWEI2Q1gyWEVwaWpTRWtFR2dwZkhzUU9SV1hoNXUxdGltQXl4ZWxHX0lUZVRLaWk3V0FPRHdYbUtXUjNhTG85Q0JaenlRTWpqQzB1Sl9zblRDdmRVcnlRVDV4TjRKNFJuZFM4Vmt1OEZMZEI4SmFETU1pNHNGVzAwNEx1QjA4dVhfclJqU2NkTklPMjJnUUlyVFV1ZE1DTUR1X0YyWkN0SFQ5TzdicmRKRDhhalJobjZudGpDZTMyRmxSczZaT3hhZW1NLXB3?oc=5",
-     "source": "Lansing State Journal"
     },
     {
      "title": "How N.C. Will Resolve Races That Are Still Too Close to Call - The Assembly NC",
@@ -311,11 +248,33 @@
    ]
   },
   {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed christmas-newyear",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T08:08:51.215860+09:00",
+   "score": 61,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-christmas-newyear-2026",
+   "phase": "christmas-newyear",
+   "queries": [
+    "is the post office open christmas eve",
+    "federal holiday christmas eve"
+   ],
+   "window": "2026-12 ~ 2026-12 (보통)",
+   "days_to_start": 14,
+   "in_window": false
+  },
+  {
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 45,
-   "article_count_1h": 5,
+   "article_count_24h": 47,
+   "article_count_1h": 4,
    "published": "2026-11-18T03:32:37+09:00",
    "category": "Recalls",
    "news": [
@@ -346,7 +305,7 @@
     }
    ],
    "official": false,
-   "score": 65.0,
+   "score": 59.8,
    "already_covered": false,
    "evidence": [
     {
@@ -367,79 +326,11 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed christmas-newyear",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T07:37:01.431959+09:00",
-   "score": 61,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-christmas-newyear-2026",
-   "phase": "christmas-newyear",
-   "queries": [
-    "is the post office open christmas eve",
-    "federal holiday christmas eve"
-   ],
-   "window": "2026-12 ~ 2026-12 (보통)",
-   "days_to_start": 14,
-   "in_window": false
-  },
-  {
-   "source": "google_news",
-   "keyword": "product recall",
-   "traffic": 0,
-   "article_count_24h": 63,
-   "article_count_1h": 4,
-   "published": "2026-11-18T04:00:00+09:00",
-   "category": "Recalls",
-   "news": [
-    {
-     "title": "FDA Announces Recall on Popular Aldi Product for Potential Botulism - Allrecipes",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNVliYTBVUnV3c2pBTU9McFFyTFJybm5OdHlvMFY2UG9FWXVTeHRTa2k3c3I2QzNqUTVfNzg4UUVNQTFWc3l6d0xyUDNnWG8tM0ZoQU9BUDBvMnN1aTRCTlJUWnRmNWExa2FlaDBUNzlEZ1VITWFYSlFtT2JRamxLYUVfT3pXTlpqanNV?oc=5",
-     "source": "Allrecipes"
-    },
-    {
-     "title": "Blood pressure drug recalled due to risk of patient harm - Cardiovascular Business",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFpDSTZaZ0ZTb3p4UF9penk4ekFXbkNMTkxDc0FzeU8xbUZRT0Y4WE5ub3gtcnF2TTBKS3lNVnpLemljZlkxb3ZCdDU3NjFVZTZvVWtmRUY2SEdNVzNLcmo3aVFVWG5PR252Z21yTi1CYU5IQkNWdXRYZ1E2RS1mZDRCM2tSNnpXbDlwdnh3UlNRNTJRN1JndkZoMllIQmhJZHZyS0ducHBVNElINXJESnNVYlhOUQ?oc=5",
-     "source": "Cardiovascular Business"
-    },
-    {
-     "title": "Blood pressure medicine recalled due to possible metal contamination - Local 3 News",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcm9YZ0czWlZVUWJwbnJIMVYzZHBtTFBIX3VRYV92U2xpZ0dyMVU4TnFxa05vdEU0dWVqcEZnYzBSS0RhdTdqT3hZWTgzUlZlY01xMVFyZlhNY094bVJXdEQtSzcyOU5aR1lfZ2ZITWpOVHJYaU1hVmJyajM3WEpFSUo0Qkd3YlE2S29Ha1F1YmxvcU00eThwZ3QzTTlyVEpjZGUxcTdTTDRVVzRMdnZhcGgyUVlXSldYUFN0ZE1FVmh1cml0STNJNlpqVlJhZnZuNXFhQlFCUDNCYWUwY3lwdklHemFyaXZlLWJQQg?oc=5",
-     "source": "Local 3 News"
-    },
-    {
-     "title": "Popular Costco food product recalled, may contain a ‘cleaning chemical’ - KTLA",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XM0xSdTVyeUlMU2V5ZXcteWNMeUZpN3Rzb0d2NWc2TjBtWWJEdW1tZXVVaFozMk8zaUhQM3V1RndHX2ZmeG9nTlVDTzIwb1VmRHdBeFpCNnNsU09zU05v0gFkQVVfeXFMUEJhSDRPbmg5NlJRajBUQjdvUTNvRUVfN3JDZ0JJV1dqT3JxZWc3c2d4UGx2OFAtU0R4UHlZMlkycEt1cTJFbWloSFh4YVkwNFhndHBoX3p4SkF4SDFsc016cEFnbA?oc=5",
-     "source": "KTLA"
-    },
-    {
-     "title": "Aldi Protein Pasta Recalled Due to Botulism Risk—Here’s What to Know - EatingWell",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5WQXU2eVBNcGMwQ0tIaHJBd1ExTUFNN0NWQWk5OVVPTEZGNmhQNld4WV9jRFFpUTdoV0c0dnk0eHQwWF91d3VZTC1zZkJ1Rnl1b2dKSW5ibzVycS1CeGQwdW5YblU4Wlp4M2Rpc0pWYk8yZ0RvaDVsd29R?oc=5",
-     "source": "EatingWell"
-    }
-   ],
-   "official": false,
-   "score": 59.8,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.local3news.com/local-news/blood-pressure-medicine-recalled-due-to-possible-metal-contamination/article_829d8255-f871-48e0-98fd-9da9ff8a568a.html",
-     "title": "Blood pressure medicine recalled due to possible metal contamination - Local 3 News",
-     "outlet": "Local 3 News"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 20,
-   "article_count_1h": 5,
+   "article_count_24h": 21,
+   "article_count_1h": 6,
    "published": "2026-11-17T21:54:00+09:00",
    "category": "Benefits",
    "news": [
@@ -492,66 +383,10 @@
   },
   {
    "source": "google_news",
-   "keyword": "social security COLA",
-   "traffic": 0,
-   "article_count_24h": 16,
-   "article_count_1h": 6,
-   "published": "2026-11-17T23:26:42+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "$2,400 Social Security Increase Proposed for Retirees: What to Know - Kiplinger",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcWRRTnA4OXZZU2YzNElxYVBMWG91TWg4NmRYSW5hX1VoZWJVd2t1ODJ2RFllN0swb1hDQkxyc09weHlZTUdDZVh4QWlPRlhQTmw5QXhDYThLc3BpVFhfRlVVQmUwLTZjNnFrNTY0MFVHY2dvVjBCZ0ZqWVFvSzhFUHE3OERpWFBjVFFNRlBhTjU?oc=5",
-     "source": "Kiplinger"
-    },
-    {
-     "title": "Social Security changes coming in January 2027: 4 important things to know - AL.com",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGk1cmNVb1l0ZjJ0aktJQnVQd0IxaVotb0RVZjdNWkRDVEZubHFMSmlfejZ0S3BoX1NvOTcyWF9qXzU2S08zN3o4YzlTUnRtQVVQYk0xbFhuUmh6UnFMSy03SUtJMEZIZ3R2MHgwOEl6TUZHVGJ0a3RaSXlhNmdhZkhiRk41ZW9tSHMxYm1BM0U1RmFwNjJBTEd1di1lVzU3UmZIOE5ZNWdUOHR2Vkk00gHDAUFVX3lxTFBuQnBEeERPOUpTVU1Hcnk4THRsWjhfTHBxMDhoMFJBLU1pYkZyUWpiRU5jUXhGZHhkTkQ4LXh1Q0tOUTJ2cm9YdXRMVmx3bTJuMXV4TFVLVjZPTXZHTjhWeXVmbWlFV1U3TjhoeWZQZ3FRVHd1Z3dSUUo4YkJvYVhNX3pPbjNqZGxVZmNTRXV3dlBnNUVvLW9aSjVZSDgwLVpVVzhhRGlwVXRPUzE3eHljdEl5T19SdXJVdTdVLWVReGoxWQ?oc=5",
-     "source": "AL.com"
-    },
-    {
-     "title": "Social Security's 2027 COLA Is Bigger Than Expected - But There's a Catch - FinanceBuzz",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YeEtaZ3c5MWFSN1piT2YxeDhzdXFna3ZldHBwMGpNbkxNZ0M0cWN6enBtNVVKcXhBUXFOODRLVmxaV1RGM01XUWc4ODU0SndndFV5X3pQU29mSFRydTRuMlZsRDhfMGY1?oc=5",
-     "source": "FinanceBuzz"
-    },
-    {
-     "title": "November's Social Security schedule changed. Here's what's next in CA - The Clarion-Ledger",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc2R2QXV4UXNRRDhtaVphNmU3WFAxTW1lUURCTDNNQi1US1B0RFhkTHNEVWVHOUJIZGxRMFV5QndpaEVreWtheG53Q0JLeWZHYTYtRlpFamhnUUpfU0tmMENIemkzZVdZdy04VVAyVTZoNzZSRmlMODRpdlRrOW9QUkZGR3hLM3lyeWpIVDJKV3RpZGNDN083QWpxNzNkRlZNWUFXa2p1T1A0bEhUVlFZWUVPSWoxZHNZN25Rd2RYa2FIdw?oc=5",
-     "source": "The Clarion-Ledger"
-    },
-    {
-     "title": "SSA sets Nov. 18 deadline to create an account and view next year’s Social Security increase early - El Cronista",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNelhXWG40X3lVVGQyZllOUTNJNkFXbE9sY1lsbVkxam5XUXBacGg2Y1ctakpSWDloTVVhVEw5YnpaZl83Yngtc1k1by1mUXJIWU90NGl3bTlPT1NnMGhZTC1yTlBEaHJUQUxDZWRLUzRVc0M3Z2VVcnlIa013aDQzdHZMR0M2cnRNQ01kUjV3eEhqa0pRYkhLTWFIZ1lqQjdrRUJ3UG5IX2VJTnNYN2M5WkU4ZWxDenY3RUNPWUVLNlhSdXJ2S2JGbnYzaE9jdw?oc=5",
-     "source": "El Cronista"
-    }
-   ],
-   "official": false,
-   "score": 56.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.kiplinger.com/taxes/usd2-400-social-security-increase-proposed-for-retirees",
-     "title": "$2,400 Social Security Increase Proposed for Retirees: What to Know - Kiplinger",
-     "outlet": "Kiplinger"
-    },
-    {
-     "url": "https://financebuzz.com/social-security-cola-bigger-catch",
-     "title": "Social Security's 2027 COLA Is Bigger Than Expected - But There's a Catch - FinanceBuzz",
-     "outlet": "FinanceBuzz"
-    },
-    {
-     "url": "https://www.cronista.com/en/finance/ssa-sets-nov-18-deadline-to-create-an-account-and-view-next-years-social-security-increase-early/",
-     "title": "SSA sets Nov. 18 deadline to create an account and view next year’s Social Security increase early - El Cronista",
-     "outlet": "El Cronista"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "federal holiday",
    "traffic": 0,
    "article_count_24h": 10,
-   "article_count_1h": 14,
+   "article_count_1h": 13,
    "published": "2026-11-18T04:01:20+09:00",
    "category": "Holidays",
    "news": [
@@ -598,43 +433,119 @@
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "chile vs colombia",
-   "traffic": 5000,
-   "published": "2026-11-18T07:10:00+09:00",
-   "category": "Housing",
+   "source": "google_news",
+   "keyword": "early voting",
+   "traffic": 0,
+   "article_count_24h": 37,
+   "article_count_1h": 3,
+   "published": "2026-11-18T05:00:21+09:00",
+   "category": "Elections",
    "news": [
     {
-     "title": "¡Atención, chilenos! La probable formación para enfrentar a Colombia",
-     "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/17526251/probable-formacion-de-chile-para-enfrentar-a-colombia",
-     "source": "ESPN Deportes"
+     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+     "source": "NBC News"
     },
     {
-     "title": "Posible alineación de Colombia para enfrentar a Chile en Santiago",
-     "url": "https://colombia.as.com/futbol/posible-alineacion-de-colombia-para-enfrentar-a-chile-en-santiago-f202611-n/",
-     "source": "AS Colombia"
+     "title": "Early voting starts Monday for District 3 runoff - WRDW",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPamRVZHRiZ2xJbGRNZll5Um5Ld0FPT3VGelhRWVlxZmk3ZWNzOGNMeTF3ejRSOC1GSmtkTjEzTmN5VkE5LTFNY1RJUVMyRWVLRnJGeEpVVE9zdUJGLU1xcUtVMFZiSXJrT3NuLUYxQ2tINVhYUUxCZ250YmhHbjg3ajctd9IBlwFBVV95cUxQaktUVTJWWFN1Y3RacjNzRjQ4Rmd0c1BZZ0VydnhHVGI0T0JjeGJKYWFaVFhEYmNtWlg1c0VYWGpUcDMwMTJaZ3BEMVRaVEd2Y3hFdTJQY1VTbTBJQk1tYlpKVjNCdlZmay1kSjIyWFhaX2dnckh2ckEzRDRXSWxVNy01cDZxUDY5eWFseWVWd1c2NnRWNGlJ?oc=5",
+     "source": "WRDW"
     },
     {
-     "title": "La Selección Colombia cierra el año contra Chile: otra prueba para ajustar tuercas | Hora y TV",
-     "url": "https://www.eltiempo.com/deportes/futbol-internacional/la-seleccion-colombia-cierra-el-ano-contra-chile-otra-prueba-para-ajustar-tuercas-hora-y-tv-3601519",
-     "source": "El Tiempo"
+     "title": "Early voting starts Monday for District 3 runoff - WRDW",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT1RDQmx0Rlh2eXhoandBbFNzZC0xNjJHYlhyam8taU5HMDlNVHUwdnhFOTJ3dXFIRVdVSlI4dklHNTcyTml2RmQ3TlRocFRLX3p0YXRFanV2Z0M4c3c5SlZ3dWlsYUx3VDlkMkExcExxWDJHcTBVdVJBRWNiMUl4bVJxbV9fVF9nN0RR?oc=5",
+     "source": "WRDW"
+    },
+    {
+     "title": "Early voting in Saline County runoff election starts Nov. 24 - KATV",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPemRGaC1KMGhUUVJkaktOTFFOblR4cHU4dk8tczdIM2tuZTBoNGtEeXVxeGxxRE5kTXppOHJmeVdkUWRIbVB3Q3RrQl9OcU9OdkhtbWxyYnd2R0RNVXJtUVI1THlybVJkS1Zuek5seFQtX0c1WnpFSVFyVWgwbTFUVGcyVVNSX2FRNXdlN3dvTmo?oc=5",
+     "source": "KATV"
+    },
+    {
+     "title": "Special election schedule set for South Carolina Senate District 31 - WMBF",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcWxENjlFNHlpeWNsMURqUFA3WnRsSE45eXBuWjU2UXk3eXNPSHFCUUxUOW15TFF5SmhIblZ3THJVaF94YlY2S0R3T3BXWlZIYmFVbGFudFVOX2QzRXVpVngzM1NFdlBERURzblN1YnpnNUFnVUlmSzhvWklWNzZHSzNBRGtKZXdsb2dVc3Z3YUZGX2RCd0hHOXlzQ1BReGxJcUE?oc=5",
+     "source": "WMBF"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 52.0,
+   "score": 54.6,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://colombia.as.com/futbol/posible-alineacion-de-colombia-para-enfrentar-a-chile-en-santiago-f202611-n/",
-     "title": "Posible alineación de Colombia para enfrentar a Chile en Santiago",
-     "outlet": "AS Colombia"
+     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
+     "outlet": "NBC News"
     },
     {
-     "url": "https://www.eltiempo.com/deportes/futbol-internacional/la-seleccion-colombia-cierra-el-ano-contra-chile-otra-prueba-para-ajustar-tuercas-hora-y-tv-3601519",
-     "title": "La Selección Colombia cierra el año contra Chile: otra prueba para ajustar tuercas | Hora y TV",
-     "outlet": "El Tiempo"
+     "url": "https://www.wrdw.com/2026/11/17/early-voting-starts-monday-district-3-runoff/",
+     "title": "Early voting starts Monday for District 3 runoff - WRDW",
+     "outlet": "WRDW"
+    },
+    {
+     "url": "https://www.wrdw.com/video/2026/11/17/early-voting-starts-monday-district-3-runoff/",
+     "title": "Early voting starts Monday for District 3 runoff - WRDW",
+     "outlet": "WRDW"
+    },
+    {
+     "url": "https://katv.com/news/local/early-voting-in-saline-county-runoff-election-starts-nov-24",
+     "title": "Early voting in Saline County runoff election starts Nov. 24 - KATV",
+     "outlet": "KATV"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "product recall",
+   "traffic": 0,
+   "article_count_24h": 63,
+   "article_count_1h": 3,
+   "published": "2026-11-18T07:31:00+09:00",
+   "category": "Recalls",
+   "news": [
+    {
+     "title": "Do not eat these breakfast items, USDA says in health alert - USA Today",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORUhqeW1RaHBUalQ1WmU2X2RWQWVWNm5CUVg5YXFLaEJlSDl3TC1aVjctM2xLdy1EbWtmT0gzVjdqWnV3azIyUEtRMFh3X25BM2htUzlxaUttMlQyZi1XTlJZTURmUmdnQjRXWEQ5MWN0aG1PZmhUU29WZlJXRkU4Y0lJcl85LXZleV9qNTJ3Qk1Za0RMQllaTGNMbjZoQURMaV94SmNrbldzSGRCeGZ3VjBhWlVIVUN0N1ZoQll3VWtZbDdlb0NPcE1uT3RnY3ZhUldackpvbw?oc=5",
+     "source": "USA Today"
+    },
+    {
+     "title": "FDA Announces Recall on Popular Aldi Product for Potential Botulism - Allrecipes",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNVliYTBVUnV3c2pBTU9McFFyTFJybm5OdHlvMFY2UG9FWXVTeHRTa2k3c3I2QzNqUTVfNzg4UUVNQTFWc3l6d0xyUDNnWG8tM0ZoQU9BUDBvMnN1aTRCTlJUWnRmNWExa2FlaDBUNzlEZ1VITWFYSlFtT2JRamxLYUVfT3pXTlpqanNV?oc=5",
+     "source": "Allrecipes"
+    },
+    {
+     "title": "Blood pressure drug recalled due to risk of patient harm - Cardiovascular Business",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFpDSTZaZ0ZTb3p4UF9penk4ekFXbkNMTkxDc0FzeU8xbUZRT0Y4WE5ub3gtcnF2TTBKS3lNVnpLemljZlkxb3ZCdDU3NjFVZTZvVWtmRUY2SEdNVzNLcmo3aVFVWG5PR252Z21yTi1CYU5IQkNWdXRYZ1E2RS1mZDRCM2tSNnpXbDlwdnh3UlNRNTJRN1JndkZoMllIQmhJZHZyS0ducHBVNElINXJESnNVYlhOUQ?oc=5",
+     "source": "Cardiovascular Business"
+    },
+    {
+     "title": "Blood pressure medicine recalled due to possible metal contamination - Local 3 News",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcm9YZ0czWlZVUWJwbnJIMVYzZHBtTFBIX3VRYV92U2xpZ0dyMVU4TnFxa05vdEU0dWVqcEZnYzBSS0RhdTdqT3hZWTgzUlZlY01xMVFyZlhNY094bVJXdEQtSzcyOU5aR1lfZ2ZITWpOVHJYaU1hVmJyajM3WEpFSUo0Qkd3YlE2S29Ha1F1YmxvcU00eThwZ3QzTTlyVEpjZGUxcTdTTDRVVzRMdnZhcGgyUVlXSldYUFN0ZE1FVmh1cml0STNJNlpqVlJhZnZuNXFhQlFCUDNCYWUwY3lwdklHemFyaXZlLWJQQg?oc=5",
+     "source": "Local 3 News"
+    },
+    {
+     "title": "Popular Costco food product recalled, may contain a ‘cleaning chemical’ - KTLA",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XM0xSdTVyeUlMU2V5ZXcteWNMeUZpN3Rzb0d2NWc2TjBtWWJEdW1tZXVVaFozMk8zaUhQM3V1RndHX2ZmeG9nTlVDTzIwb1VmRHdBeFpCNnNsU09zU05v0gFkQVVfeXFMUEJhSDRPbmg5NlJRajBUQjdvUTNvRUVfN3JDZ0JJV1dqT3JxZWc3c2d4UGx2OFAtU0R4UHlZMlkycEt1cTJFbWloSFh4YVkwNFhndHBoX3p4SkF4SDFsc016cEFnbA?oc=5",
+     "source": "KTLA"
+    }
+   ],
+   "official": false,
+   "score": 54.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/11/17/breakfast-items-biscuits-recall-health-alert/92830906007/",
+     "title": "Do not eat these breakfast items, USDA says in health alert - USA Today",
+     "outlet": "USA Today"
+    },
+    {
+     "url": "https://cardiovascularbusiness.com/topics/clinical/pharmaceutics/blood-pressure-drug-recalled-due-risk-patient-harm",
+     "title": "Blood pressure drug recalled due to risk of patient harm - Cardiovascular Business",
+     "outlet": "Cardiovascular Business"
+    },
+    {
+     "url": "https://www.local3news.com/local-news/blood-pressure-medicine-recalled-due-to-possible-metal-contamination/article_829d8255-f871-48e0-98fd-9da9ff8a568a.html",
+     "title": "Blood pressure medicine recalled due to possible metal contamination - Local 3 News",
+     "outlet": "Local 3 News"
     }
    ]
   },
@@ -642,8 +553,8 @@
    "source": "google_news",
    "keyword": "student loan",
    "traffic": 0,
-   "article_count_24h": 22,
-   "article_count_1h": 10,
+   "article_count_24h": 24,
+   "article_count_1h": 9,
    "published": "2026-11-17T19:30:00+09:00",
    "category": "Student Aid",
    "news": [
@@ -651,6 +562,11 @@
      "title": "Education Department Threatens Student Loan Borrowers, But Hasn’t Followed Through Yet - Forbes",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWDlFUkxzdFJ1YWNkUXNnTU9oMFp0aUN5M1VuSEYtMnREbGFtemhPeDVTS1BuOGFoREtab2kzM1l6RzduZU1iYmJ3ZktwNjJtVkhBVXpvY1o0UFdDU3ZKbjhEM0FGMjJZQXJNVFpsM3NfYjR5VEs0UV9tRHZ6QWRZcFpvbFlkUHlSVlp3UUlrYU9xRnlTbXM4Q0Z5MVZ0T2UySUtjdUhEMzJLWV9YMW5UNGZLNnZhRjUxUGdkV2hzcktWODdVckRieFp1MEZwQ0JHLUE?oc=5",
      "source": "Forbes"
+    },
+    {
+     "title": "Rising federal loan bills under new Trump rules put financial squeeze on California students - capradio.org",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQy13TjFVRG1EUnlXSW1QcEpqVnI0ZXk2OTBZczJQVmdFeWRNamZyak5TRTE5TE5JUkZzNnBBNk40YUZ1Q0dnMllyUVJad3Bfd1dJbjBfajcxM3AtSVNaRy13bUJHM2NTcmxJN0twLV9aVm1NYmZBSmNRT2FSZUlJZy1vRzJEdmgxMnRWYWNUQ19kcFdZNEJMa29ueWdqM1hTU2RLaVFOYzhtbk9TcnJkbWVOZU40WTF2bDBGcEJhX2lDNnJ5UWE0bGFuaDc4V21sYUp1dA?oc=5",
+     "source": "capradio.org"
     },
     {
      "title": "Collections are coming for millions of student loans in default - WABE",
@@ -666,17 +582,17 @@
      "title": "GILLIBRAND, MERKLEY INTRODUCE LEGISLATION TO ADDRESS REPUBLICAN CUTS AND HELP STUDENTS ACCESS ESSENTIAL GRADUATE DEGREES - Merkley (.gov)",
      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaHZMaGdfeTFZQ3dVUVVkUHlFWTFxZkpRVDAxOTJOaTdaNXphZVh2alQzZ3hya3hHMDR5UzRRcldLMjJONGZoLTZYM1FudU1MaC1ZOWxZMHpvTG1jenk1QU82a0NTV1hrY1c1TFdtZWRwaVd4T3VwOUpLUk5UeEluN2l3a0V5MGhVUkc2NU1mamhuVlBDamVCOEhhX1lsMUt0RnpSZ2VOYml0U1FrUktFTUk1Vzl2ai1VanI2aFRneDdrbU05cmt2VTlSdk9mV2RDLWFWbm0zUlZ3X1lDSFA2dXdGRm5sQQ?oc=5",
      "source": "Merkley (.gov)"
-    },
-    {
-     "title": "Trump has a plan to limit student loans for nursing and other advanced degrees. A new bill would reverse those cuts. - Business Insider",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWRoZEVVN2R4b2VtVXRqTmJ0YlEtMGtBLWVERC1FUGpPakhpVko5Ny1FRFlTUEJRWnJMSTFJR0UzX1hwZXNvNW1yYWd2cjNBWGxKdC1UZ0VzSTYyR0lwLXhsd3dycnAzQlpGRTZWTlluWTVBQ1hJU1dNQlA5ekJkcHNlRU1kdnNkM2R4N3YyWi1qTml6QWd0TGtsTzhZUnJxdFJIQ3RYOUpXTzBw?oc=5",
-     "source": "Business Insider"
     }
    ],
    "official": false,
    "score": 49.0,
    "already_covered": false,
    "evidence": [
+    {
+     "url": "https://www.capradio.org/articles/2026/11/17/rising-federal-loan-bills-under-new-trump-rules-put-financial-squeeze-on-california-students/",
+     "title": "Rising federal loan bills under new Trump rules put financial squeeze on California students - capradio.org",
+     "outlet": "capradio.org"
+    },
     {
      "url": "https://www.wabe.org/collections-are-coming-for-millions-of-student-loans-in-default/",
      "title": "Collections are coming for millions of student loans in default - WABE",
@@ -686,11 +602,179 @@
      "url": "https://www.merkley.senate.gov/gillibrand-merkley-introduce-legislation-to-address-republican-cuts-and-help-students-access-essential-graduate-degrees/",
      "title": "GILLIBRAND, MERKLEY INTRODUCE LEGISLATION TO ADDRESS REPUBLICAN CUTS AND HELP STUDENTS ACCESS ESSENTIAL GRADUATE DEGREES - Merkley (.gov)",
      "outlet": "Merkley (.gov)"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "social security COLA",
+   "traffic": 0,
+   "article_count_24h": 16,
+   "article_count_1h": 3,
+   "published": "2026-11-17T23:26:42+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "$2,400 Social Security Increase Proposed for Retirees: What to Know - Kiplinger",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcWRRTnA4OXZZU2YzNElxYVBMWG91TWg4NmRYSW5hX1VoZWJVd2t1ODJ2RFllN0swb1hDQkxyc09weHlZTUdDZVh4QWlPRlhQTmw5QXhDYThLc3BpVFhfRlVVQmUwLTZjNnFrNTY0MFVHY2dvVjBCZ0ZqWVFvSzhFUHE3OERpWFBjVFFNRlBhTjU?oc=5",
+     "source": "Kiplinger"
     },
     {
-     "url": "https://www.businessinsider.com/new-bill-student-loan-debt-borrowing-limits-nursing-advanced-degrees-2026-11",
-     "title": "Trump has a plan to limit student loans for nursing and other advanced degrees. A new bill would reverse those cuts. - Business Insider",
-     "outlet": "Business Insider"
+     "title": "Social Security COLA: The Impact on the Trust Fund and Retirement Benefits - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXBCMUNlODBSemZxOGdNcF8yNjRXdEVmcndJbzJ0Zm1SbHlSRTVYU2JZWmRsNllxZmNUQlJlMGZwMC1iVFBlNDdHQTlKdzExTm1ZTXctVjFYbDM5TENjYldSd0lET09TU0hLLTN5VVdXbWxXWnItZW5kYXl6TEp6c21NUGQtZnM?oc=5",
+     "source": "Yahoo Finance"
+    },
+    {
+     "title": "Social Security changes coming in January 2027: 4 important things to know - AL.com",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGk1cmNVb1l0ZjJ0aktJQnVQd0IxaVotb0RVZjdNWkRDVEZubHFMSmlfejZ0S3BoX1NvOTcyWF9qXzU2S08zN3o4YzlTUnRtQVVQYk0xbFhuUmh6UnFMSy03SUtJMEZIZ3R2MHgwOEl6TUZHVGJ0a3RaSXlhNmdhZkhiRk41ZW9tSHMxYm1BM0U1RmFwNjJBTEd1di1lVzU3UmZIOE5ZNWdUOHR2Vkk00gHDAUFVX3lxTFBuQnBEeERPOUpTVU1Hcnk4THRsWjhfTHBxMDhoMFJBLU1pYkZyUWpiRU5jUXhGZHhkTkQ4LXh1Q0tOUTJ2cm9YdXRMVmx3bTJuMXV4TFVLVjZPTXZHTjhWeXVmbWlFV1U3TjhoeWZQZ3FRVHd1Z3dSUUo4YkJvYVhNX3pPbjNqZGxVZmNTRXV3dlBnNUVvLW9aSjVZSDgwLVpVVzhhRGlwVXRPUzE3eHljdEl5T19SdXJVdTdVLWVReGoxWQ?oc=5",
+     "source": "AL.com"
+    },
+    {
+     "title": "Social Security's 2027 COLA Is Bigger Than Expected - But There's a Catch - FinanceBuzz",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YeEtaZ3c5MWFSN1piT2YxeDhzdXFna3ZldHBwMGpNbkxNZ0M0cWN6enBtNVVKcXhBUXFOODRLVmxaV1RGM01XUWc4ODU0SndndFV5X3pQU29mSFRydTRuMlZsRDhfMGY1?oc=5",
+     "source": "FinanceBuzz"
+    },
+    {
+     "title": "November's Social Security schedule changed. Here's what's next in CA - The Clarion-Ledger",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc2R2QXV4UXNRRDhtaVphNmU3WFAxTW1lUURCTDNNQi1US1B0RFhkTHNEVWVHOUJIZGxRMFV5QndpaEVreWtheG53Q0JLeWZHYTYtRlpFamhnUUpfU0tmMENIemkzZVdZdy04VVAyVTZoNzZSRmlMODRpdlRrOW9QUkZGR3hLM3lyeWpIVDJKV3RpZGNDN083QWpxNzNkRlZNWUFXa2p1T1A0bEhUVlFZWUVPSWoxZHNZN25Rd2RYa2FIdw?oc=5",
+     "source": "The Clarion-Ledger"
+    }
+   ],
+   "official": false,
+   "score": 47.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.kiplinger.com/taxes/usd2-400-social-security-increase-proposed-for-retirees",
+     "title": "$2,400 Social Security Increase Proposed for Retirees: What to Know - Kiplinger",
+     "outlet": "Kiplinger"
+    },
+    {
+     "url": "https://financebuzz.com/social-security-cola-bigger-catch",
+     "title": "Social Security's 2027 COLA Is Bigger Than Expected - But There's a Catch - FinanceBuzz",
+     "outlet": "FinanceBuzz"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "tax deadline",
+   "traffic": 0,
+   "article_count_24h": 21,
+   "article_count_1h": 3,
+   "published": "2026-11-17T23:09:37+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "City Tax Deadline - City of Charlottesville, VA (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hWjgzSFBZTjdkd0NmaGdSd3JuLWZjcm1pd0t5bldSYU1lMXFfdWpTV2QzcmQzU21DQW52b0NwOGRTamc3ZF84cTBqbHdyNURWYVVXTDhqWC1GNWROR0VOR2cyb0xjcVFB?oc=5",
+     "source": "City of Charlottesville, VA (.gov)"
+    },
+    {
+     "title": "Lamorinda Property Owners Face Costly Tax Deadline - Patch",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY0dveWlBVHJCNkd1UEpqcHo2c2ZxUmxaNURBMm5iWlRzZi1WYm5NUU81MGstaXdQOXhmMFdEckRBMF9heEswZml2VkRPcGxCZDFYZC1sWi1ueVdrM2c3MU96Z0VCMzZ5MlYySEJZVUJrYlZBNzd2SDZtbmRlTzlFaGVPOGJLLU8xMzl5TGphQV9oWUnSAaQBQVVfeXFMTlNuX3VOUjdBX0d1dDhPWmpadENacjFVNWtXbi1XV3BUSWpmejdjeUE0cFBiLThybHZOWXI0TGU0ZDRjcjl2MlFSdGMxYlhpdnJCcW9zRHZlbU5YRU1aclZEcUptMUZ1TVlLV1E2NUtlTVMxWU54VHRoUVJoOHJoNWNHTDdkNmZnRnpBYy14QnNvT0xQUWFmWVVSbWNudjBvdnZGUjY?oc=5",
+     "source": "Patch"
+    },
+    {
+     "title": "Albany council aims to set tax levy by Thursday as budget vote nears Nov. 30 deadline - WRGB",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU2YzTnk5S0JBdDRsQWFIcDhyeF9iZkxvbWQtX0dneUtUMTgtV1NpczBvaFhMN1ctWnhBUjdJQW1vQk12V19NdWt1R1pDcVE3b2tFLWRzQ21mYTlweGVKYlFlaS12aWlGbEVHUGlvZzhQUy1rdHUycTRVcmVrWWl4VWZZWmwyX2JwSXAyWUJ1MXlxSGY0UWxTMGxpazBYOVV1dTF1OGEyTXlKbDJyYkRacE1zS3pIREJ2eEE?oc=5",
+     "source": "WRGB"
+    },
+    {
+     "title": "Washington D. C. iGaming bill faces year-end deadline as council weighs 25% tax - Yogonet",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSklKZGpsN2VLZG5YX2Z1Um5nZGdMNUNTbVdVZFJzRGl2ZklUQ2xtNlFrbVNFSlAwbHRHYUtGelRoRGRBT2JNNUoxZUxhd0FxV2NmbXc0Tm9YZWVJSXQwaHpabGhUQjF6RjdlaUE0Nkd2TmdxOFkxNXNrWHJYeGxMcUhfVGtrcG5YWGZNbWJhb2xyVURnSmtwT1h1Mm14RjkyUERSSXM4aWoyLWZ6eHliRUxXU19wSFhXZWFkb2RWa3A3Ry14OEVTdC16dlZMYU5kLVE?oc=5",
+     "source": "Yogonet"
+    },
+    {
+     "title": "India Transfer Pricing for AY 2026-27: ITR, Master File and Safe Harbour Deadlines - India Briefing",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdEtuTzAzTldjaWNJU21qZEhPVm5DRWd0ZTlGanJiaWZjSVVIR0R6TDF2T2hneU9IQmhOb205b1hSTm1HUlJfbFdySDFQSDBVQzFwT2ZCYVBkU2R0akVmNi1TT0FrZDRQTVgyX2o1a3dRRmZQSENxdTBLVEVta2o2Z0h1eV9pdzdhanRsNTJZTWpiN2NrRnpYQXJWWFp6dEFFYzBOWXc5RjZMa253?oc=5",
+     "source": "India Briefing"
+    }
+   ],
+   "official": false,
+   "score": 44.1,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.charlottesville.gov/m/newsflash/home/detail/2751",
+     "title": "City Tax Deadline - City of Charlottesville, VA (.gov)",
+     "outlet": "City of Charlottesville, VA (.gov)"
+    },
+    {
+     "url": "https://patch.com/california/lamorinda/lamorinda-property-owners-face-costly-tax-deadline",
+     "title": "Lamorinda Property Owners Face Costly Tax Deadline - Patch",
+     "outlet": "Patch"
+    },
+    {
+     "url": "https://cbs6albany.com/news/local/albany-council-aims-to-set-tax-levy-by-thursday-as-budget-vote-nears-nov-30-deadline",
+     "title": "Albany council aims to set tax levy by Thursday as budget vote nears Nov. 30 deadline - WRGB",
+     "outlet": "WRGB"
+    },
+    {
+     "url": "https://www.yogonet.com/international/news/2026/11/17/127332-washington-d-c-igaming-bill-faces-yearend-deadline-as-council-weighs-25-tax",
+     "title": "Washington D. C. iGaming bill faces year-end deadline as council weighs 25% tax - Yogonet",
+     "outlet": "Yogonet"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "medicare open enrollment",
+   "traffic": 0,
+   "article_count_24h": 14,
+   "article_count_1h": 3,
+   "published": "2026-11-18T01:21:00+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "What to know as 2027 Medicare open enrollment window nears close - Upper Michigan's Source",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS3ROTUxsVmxCdlNnUGhoeFlkRnVhUkVEZnJUTnY1RkZYZjBQNm56eDZvOHFpcmQzRXJnRjZ3RGVnOXRYZVFGdDJURzdFVnBPeVhRQ0lsb1dMbXZiZXhDTHRhX2psZzVSekdHLWlFTy1BbGJVU3hoSDVaamw1S3U4NVZWUmQyeVJ0ck1mQ2pFY3N1VVhpa2prUDJDUTRDY0l0Z05kM0ZidURkcWvSAb8BQVVfeXFMTlFMWXlXTktZNWczUHBQYWZacldSdGN1MkpndEc0dGVtVG03eDh3SkhSdXBjcGVHNl91c3MyaW91ekxpWDdlMzFsQWFkMW1BTEVMMTZNaTB3azAxRTdzZnJvdzdjVGhHN1lncUlCcllmRlB0TWhCWXAxUjR4QnRDV3Y4ZXYxRTNXY0hITmZtZGUxRFZTdzFzRmEtWHJJSXFlRDVKM3JYd2cyYmtNTGtJWTlldmhCN0JlbDZVd1pvdlE?oc=5",
+     "source": "Upper Michigan's Source"
+    },
+    {
+     "title": "Navigating the Medicare open enrollment period with a rare disease - ANCA Vasculitis News",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV0d3SVFXendjdDhqRDlNWTkxNlE2bnRvQXNlRTk3QnhuZ1Bna1BCZm1lWERaTThOYzBjYmc2RUpLWXNrQ0FvM1RWRFdnTDg5T1BHdkhyNTVwVjdYR3BrX1pHdzRLWjBnTTZOMmdwYzFPbjVYcE9XRWctS2wxWTJGbEhkQzBBOVZqSV9pRDZ2b3FqdENDMllhOW5hMA?oc=5",
+     "source": "ANCA Vasculitis News"
+    },
+    {
+     "title": "In this week's \"Savvy Senior\" column: Medicare open enrollment runs through Dec. 7, giving enrollees a chance to switch Medicare Advantage or prescription drug plans for 2027. Comparing plans now could save you money and headaches later. Full story: htt - Instagram",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzWTJYbmlBWWloTXVYQm5XT0I3bU45MVdDTVRzX3Y3TVpBYnZ5aHpEWnBtbWZQR2Ffd1NMNkg0RDdUS1hjeDVub2ttZnAyWlBLTUE?oc=5",
+     "source": "Instagram"
+    },
+    {
+     "title": "Tulsa nonprofit offers help with Medicare open enrollment - News On 6",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNHNvc2txeFU2VzRKX2tXbXc2eV96Q3lEU0hkSXRzNldEcmpiQkxySW1FUkQ2VjlmSF84RWhpS1BrNXBYY21kd25VVlNVVlJZWm0zeWpsRTZlbEFTemxsN1J3SlFmVXZma0VBNUtBNkN3NzkwbTVNa0NGWEE0T2o5WkpDMA?oc=5",
+     "source": "News On 6"
+    },
+    {
+     "title": "Kelly to host phone Medicare open enrollment town hall - New Castle News",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdEJ1dDJjY01uRlRIbmtWNW9jbk1lQ1J5U3BvRVVQTWdFX1dqM0xJeThaTjM4ZjlzSTdSdm9NNUxRdDRDSnR5VEdvVktNbHRtUDVqQ2lFdW9BSC1aX2phUEY4NHBaYU16a2ZBeFJfajdPVkxxQmpndjFvUkplUUhsd2lOQlducV9DUDFFRmRyYnRfd240WkhlVVVyRzYtNFpOZWNTRktjS0FWYWgyR1BRRUhhRk1OZmxxQXFSb19yeG5IQ0VNNWNIc2RmRGp5VnI2WlJCNnYxTU13Q01lRE92cHNqNA?oc=5",
+     "source": "New Castle News"
+    }
+   ],
+   "official": false,
+   "score": 44.1,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.uppermichiganssource.com/2026/11/17/what-know-2027-medicare-open-enrollment-window-nears-close/",
+     "title": "What to know as 2027 Medicare open enrollment window nears close - Upper Michigan's Source",
+     "outlet": "Upper Michigan's Source"
+    },
+    {
+     "url": "https://ancavasculitisnews.com/columns/navigating-medicare-open-enrollment-period-rare-disease/",
+     "title": "Navigating the Medicare open enrollment period with a rare disease - ANCA Vasculitis News",
+     "outlet": "ANCA Vasculitis News"
+    },
+    {
+     "url": "https://www.newson6.com/health/tulsa-medicare-open-enrollment-help-assistance",
+     "title": "Tulsa nonprofit offers help with Medicare open enrollment - News On 6",
+     "outlet": "News On 6"
+    },
+    {
+     "url": "https://www.ncnewsonline.com/news/local_news/kelly-to-host-phone-medicare-open-enrollment-town-hall/article_8c65eb9c-5fe4-4468-a152-a60d1163afda.html",
+     "title": "Kelly to host phone Medicare open enrollment town hall - New Castle News",
+     "outlet": "New Castle News"
     }
    ]
   },
@@ -747,167 +831,6 @@
   },
   {
    "source": "google_news",
-   "keyword": "tax deadline",
-   "traffic": 0,
-   "article_count_24h": 23,
-   "article_count_1h": 1,
-   "published": "2026-11-17T23:09:37+09:00",
-   "category": "Taxes",
-   "news": [
-    {
-     "title": "City Tax Deadline - City of Charlottesville, VA (.gov)",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hWjgzSFBZTjdkd0NmaGdSd3JuLWZjcm1pd0t5bldSYU1lMXFfdWpTV2QzcmQzU21DQW52b0NwOGRTamc3ZF84cTBqbHdyNURWYVVXTDhqWC1GNWROR0VOR2cyb0xjcVFB?oc=5",
-     "source": "City of Charlottesville, VA (.gov)"
-    },
-    {
-     "title": "Lamorinda Property Owners Face Costly Tax Deadline - Patch",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY0dveWlBVHJCNkd1UEpqcHo2c2ZxUmxaNURBMm5iWlRzZi1WYm5NUU81MGstaXdQOXhmMFdEckRBMF9heEswZml2VkRPcGxCZDFYZC1sWi1ueVdrM2c3MU96Z0VCMzZ5MlYySEJZVUJrYlZBNzd2SDZtbmRlTzlFaGVPOGJLLU8xMzl5TGphQV9oWUnSAaQBQVVfeXFMTlNuX3VOUjdBX0d1dDhPWmpadENacjFVNWtXbi1XV3BUSWpmejdjeUE0cFBiLThybHZOWXI0TGU0ZDRjcjl2MlFSdGMxYlhpdnJCcW9zRHZlbU5YRU1aclZEcUptMUZ1TVlLV1E2NUtlTVMxWU54VHRoUVJoOHJoNWNHTDdkNmZnRnpBYy14QnNvT0xQUWFmWVVSbWNudjBvdnZGUjY?oc=5",
-     "source": "Patch"
-    },
-    {
-     "title": "Albany council aims to set tax levy by Thursday as budget vote nears Nov. 30 deadline - WRGB",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU2YzTnk5S0JBdDRsQWFIcDhyeF9iZkxvbWQtX0dneUtUMTgtV1NpczBvaFhMN1ctWnhBUjdJQW1vQk12V19NdWt1R1pDcVE3b2tFLWRzQ21mYTlweGVKYlFlaS12aWlGbEVHUGlvZzhQUy1rdHUycTRVcmVrWWl4VWZZWmwyX2JwSXAyWUJ1MXlxSGY0UWxTMGxpazBYOVV1dTF1OGEyTXlKbDJyYkRacE1zS3pIREJ2eEE?oc=5",
-     "source": "WRGB"
-    },
-    {
-     "title": "Washington D. C. iGaming bill faces year-end deadline as council weighs 25% tax - Yogonet",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSklKZGpsN2VLZG5YX2Z1Um5nZGdMNUNTbVdVZFJzRGl2ZklUQ2xtNlFrbVNFSlAwbHRHYUtGelRoRGRBT2JNNUoxZUxhd0FxV2NmbXc0Tm9YZWVJSXQwaHpabGhUQjF6RjdlaUE0Nkd2TmdxOFkxNXNrWHJYeGxMcUhfVGtrcG5YWGZNbWJhb2xyVURnSmtwT1h1Mm14RjkyUERSSXM4aWoyLWZ6eHliRUxXU19wSFhXZWFkb2RWa3A3Ry14OEVTdC16dlZMYU5kLVE?oc=5",
-     "source": "Yogonet"
-    },
-    {
-     "title": "India Transfer Pricing for AY 2026-27: ITR, Master File and Safe Harbour Deadlines - India Briefing",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdEtuTzAzTldjaWNJU21qZEhPVm5DRWd0ZTlGanJiaWZjSVVIR0R6TDF2T2hneU9IQmhOb205b1hSTm1HUlJfbFdySDFQSDBVQzFwT2ZCYVBkU2R0akVmNi1TT0FrZDRQTVgyX2o1a3dRRmZQSENxdTBLVEVta2o2Z0h1eV9pdzdhanRsNTJZTWpiN2NrRnpYQXJWWFp6dEFFYzBOWXc5RjZMa253?oc=5",
-     "source": "India Briefing"
-    }
-   ],
-   "official": false,
-   "score": 35.7,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.charlottesville.gov/m/newsflash/home/detail/2751",
-     "title": "City Tax Deadline - City of Charlottesville, VA (.gov)",
-     "outlet": "City of Charlottesville, VA (.gov)"
-    },
-    {
-     "url": "https://patch.com/california/lamorinda/lamorinda-property-owners-face-costly-tax-deadline",
-     "title": "Lamorinda Property Owners Face Costly Tax Deadline - Patch",
-     "outlet": "Patch"
-    },
-    {
-     "url": "https://cbs6albany.com/news/local/albany-council-aims-to-set-tax-levy-by-thursday-as-budget-vote-nears-nov-30-deadline",
-     "title": "Albany council aims to set tax levy by Thursday as budget vote nears Nov. 30 deadline - WRGB",
-     "outlet": "WRGB"
-    },
-    {
-     "url": "https://www.yogonet.com/international/news/2026/11/17/127332-washington-d-c-igaming-bill-faces-yearend-deadline-as-council-weighs-25-tax",
-     "title": "Washington D. C. iGaming bill faces year-end deadline as council weighs 25% tax - Yogonet",
-     "outlet": "Yogonet"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "medicare open enrollment",
-   "traffic": 0,
-   "article_count_24h": 14,
-   "article_count_1h": 1,
-   "published": "2026-11-18T01:21:00+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "What to know as 2027 Medicare open enrollment window nears close - Upper Michigan's Source",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS3ROTUxsVmxCdlNnUGhoeFlkRnVhUkVEZnJUTnY1RkZYZjBQNm56eDZvOHFpcmQzRXJnRjZ3RGVnOXRYZVFGdDJURzdFVnBPeVhRQ0lsb1dMbXZiZXhDTHRhX2psZzVSekdHLWlFTy1BbGJVU3hoSDVaamw1S3U4NVZWUmQyeVJ0ck1mQ2pFY3N1VVhpa2prUDJDUTRDY0l0Z05kM0ZidURkcWvSAb8BQVVfeXFMTlFMWXlXTktZNWczUHBQYWZacldSdGN1MkpndEc0dGVtVG03eDh3SkhSdXBjcGVHNl91c3MyaW91ekxpWDdlMzFsQWFkMW1BTEVMMTZNaTB3azAxRTdzZnJvdzdjVGhHN1lncUlCcllmRlB0TWhCWXAxUjR4QnRDV3Y4ZXYxRTNXY0hITmZtZGUxRFZTdzFzRmEtWHJJSXFlRDVKM3JYd2cyYmtNTGtJWTlldmhCN0JlbDZVd1pvdlE?oc=5",
-     "source": "Upper Michigan's Source"
-    },
-    {
-     "title": "Navigating the Medicare open enrollment period with a rare disease - ANCA Vasculitis News",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV0d3SVFXendjdDhqRDlNWTkxNlE2bnRvQXNlRTk3QnhuZ1Bna1BCZm1lWERaTThOYzBjYmc2RUpLWXNrQ0FvM1RWRFdnTDg5T1BHdkhyNTVwVjdYR3BrX1pHdzRLWjBnTTZOMmdwYzFPbjVYcE9XRWctS2wxWTJGbEhkQzBBOVZqSV9pRDZ2b3FqdENDMllhOW5hMA?oc=5",
-     "source": "ANCA Vasculitis News"
-    },
-    {
-     "title": "In this week's \"Savvy Senior\" column: Medicare open enrollment runs through Dec. 7, giving enrollees a chance to switch Medicare Advantage or prescription drug plans for 2027. Comparing plans now could save you money and headaches later. Full story: htt - Instagram",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzWTJYbmlBWWloTXVYQm5XT0I3bU45MVdDTVRzX3Y3TVpBYnZ5aHpEWnBtbWZQR2Ffd1NMNkg0RDdUS1hjeDVub2ttZnAyWlBLTUE?oc=5",
-     "source": "Instagram"
-    },
-    {
-     "title": "Tulsa nonprofit offers help with Medicare open enrollment - News On 6",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNHNvc2txeFU2VzRKX2tXbXc2eV96Q3lEU0hkSXRzNldEcmpiQkxySW1FUkQ2VjlmSF84RWhpS1BrNXBYY21kd25VVlNVVlJZWm0zeWpsRTZlbEFTemxsN1J3SlFmVXZma0VBNUtBNkN3NzkwbTVNa0NGWEE0T2o5WkpDMA?oc=5",
-     "source": "News On 6"
-    },
-    {
-     "title": "Kelly to host phone Medicare open enrollment town hall - New Castle News",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdEJ1dDJjY01uRlRIbmtWNW9jbk1lQ1J5U3BvRVVQTWdFX1dqM0xJeThaTjM4ZjlzSTdSdm9NNUxRdDRDSnR5VEdvVktNbHRtUDVqQ2lFdW9BSC1aX2phUEY4NHBaYU16a2ZBeFJfajdPVkxxQmpndjFvUkplUUhsd2lOQlducV9DUDFFRmRyYnRfd240WkhlVVVyRzYtNFpOZWNTRktjS0FWYWgyR1BRRUhhRk1OZmxxQXFSb19yeG5IQ0VNNWNIc2RmRGp5VnI2WlJCNnYxTU13Q01lRE92cHNqNA?oc=5",
-     "source": "New Castle News"
-    }
-   ],
-   "official": false,
-   "score": 35.7,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.uppermichiganssource.com/2026/11/17/what-know-2027-medicare-open-enrollment-window-nears-close/",
-     "title": "What to know as 2027 Medicare open enrollment window nears close - Upper Michigan's Source",
-     "outlet": "Upper Michigan's Source"
-    },
-    {
-     "url": "https://ancavasculitisnews.com/columns/navigating-medicare-open-enrollment-period-rare-disease/",
-     "title": "Navigating the Medicare open enrollment period with a rare disease - ANCA Vasculitis News",
-     "outlet": "ANCA Vasculitis News"
-    },
-    {
-     "url": "https://www.newson6.com/health/tulsa-medicare-open-enrollment-help-assistance",
-     "title": "Tulsa nonprofit offers help with Medicare open enrollment - News On 6",
-     "outlet": "News On 6"
-    },
-    {
-     "url": "https://www.ncnewsonline.com/news/local_news/kelly-to-host-phone-medicare-open-enrollment-town-hall/article_8c65eb9c-5fe4-4468-a152-a60d1163afda.html",
-     "title": "Kelly to host phone Medicare open enrollment town hall - New Castle News",
-     "outlet": "New Castle News"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "ACA open enrollment",
-   "traffic": 0,
-   "article_count_24h": 5,
-   "article_count_1h": 2,
-   "published": "2026-11-18T07:26:16+09:00",
-   "category": "Health Insurance",
-   "news": [
-    {
-     "title": "The Affordable Care Act’s Future: What GovCons Need to Know - ExecutiveGov",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSGQtWFZjRlNPaTdqUVp5alJVUFgyR3JSaHBEcVAyYS1Jb09JZXVVRTlUaGtrdHZrVkR2ZDJTcnowdU5lWnl2VUNhMXNmU2ZjZEhFdkI2V1dWdG5qX3lCWFJTbkNoMUNaUTZ0dzlLVTYwSjJtdmZUalBHYmw4b3pKUlJHV0tnUFh4SGI2MUJLalc5M19TU2Rsdw?oc=5",
-     "source": "ExecutiveGov"
-    },
-    {
-     "title": "Arizona Gets No Extra State ACA Premium Help for 2027 as Enrollment Fell 30% After Enhanced Subsidies Lapsed - Medical Daily",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWWZZNU5EN1BvSVlfMlAxeTRFWDZ3bkpVWnpaRVlCWjQ0dVJKMlVOYm1ydWdCWDg4V3lnT2VFTDZjX0phNTdLSHlmZ0hKdzFsdXZBNEVKcmhzSTg5enFWY1lOUXJvbDd2Szc3ZVJlYUhuUHdTWF8zUGUzRGtpWVlacHlrcnhYbEZs?oc=5",
-     "source": "Medical Daily"
-    },
-    {
-     "title": "Despite rising healthcare costs, enrollment on Nevada insurance exchange is 'pretty steady' - The Nevada Independent",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUk1QlRFb1k2ZEZuRGFqYnJTV0RmRW1lRHFLQ3NyNUZmR0otVWJPeGlmc0NaREhMTVpJSXcyRGpVc2xQZ1JjSlhlLXhBUTN6enJQQzBRcFFlN2FUT19lWDk2TEVoSG9ma2xha1RwVjFnaUdVQ1c5Q3gxZXgyY2ItT3htek5NSGUwTG1aS0libWc2dnRUaXRTMkdZV1RWbS1qWlJqMGpMMFVweG9iQ2lUSTdaS2tqUW1nN3VWSWtCTXhQaDlwdXZXbg?oc=5",
-     "source": "The Nevada Independent"
-    },
-    {
-     "title": "Illinois consumers see higher prices and fewer choices for Obamacare health insurance - Chicago Tribune",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQVVwUUp6SWNEMExVLW5QcTU3UUhhTnZ6ZUhwTFd5bG95WUNFcThqSS13TnlYX3FCQTFkYWtWQVRoWXhSQVZlRGhwX1V2dHdreHBsVjJfSUZ3WjF1MUVIVXJVWklVcUxjMzhkaTRIVFF2dEpnVGVGR0tRa09TS3h2dDA1Y2hoQnZmbDRiNWVR?oc=5",
-     "source": "Chicago Tribune"
-    },
-    {
-     "title": "Gig workers: 4 health insurance tips for 2027 open enrollment - GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaW9nS0lQYl9tRDZVdFRPTnlaTlNwTm9wdDB6MlF6WUwwVm1GdzR1NDlLbzdnQ2NXQXRSaWFDeVdacUpHdXhyN0RqX2dXVGtIeldHbFI3MnhYN2NJR3lZMUVySkpLc1RtQ1VqWFctOXFiRTJBYzItaWFINXluV0pEQlM1YUVnNW81ZlJwMlQ1X0YzNktjSUktWnIwckdDZERYLW9WWEpQcTRxLWcybDkyZUhZZmppazNzZ3RRdmpVZTUtUl9lbkFzMUwxS1c?oc=5",
-     "source": "GlobeNewswire"
-    }
-   ],
-   "official": false,
-   "score": 34.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_news",
    "keyword": "REAL ID",
    "traffic": 0,
    "article_count_24h": 27,
@@ -946,52 +869,11 @@
    "already_covered": true
   },
   {
-   "source": "google_trends",
-   "keyword": "harvey jones",
-   "traffic": 1000,
-   "published": "2026-11-18T07:10:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Jensen Huang's Nvidia exit exposes succession and governance risks for companies and boards",
-     "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-succession-board-lessons.html",
-     "source": "CNBC"
-    },
-    {
-     "title": "Nvidia not considering reinstating Huang, despite support from Trump, Musk",
-     "url": "https://www.washingtonpost.com/technology/2026/11/16/trump-says-he-would-not-mind-jensen-huangs-return-nvidia/",
-     "source": "The Washington Post"
-    },
-    {
-     "title": "Nvidia board needs 'some heavyweights,' ex-Medtronic CEO Bill George says",
-     "url": "https://finance.yahoo.com/technology/article/nvidia-board-needs-some-heavyweights-ex-medtronic-ceo-bill-george-says-191935557.html",
-     "source": "Yahoo Finance"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 32.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-succession-board-lessons.html",
-     "title": "Jensen Huang's Nvidia exit exposes succession and governance risks for companies and boards",
-     "outlet": "CNBC"
-    },
-    {
-     "url": "https://finance.yahoo.com/technology/article/nvidia-board-needs-some-heavyweights-ex-medtronic-ceo-bill-george-says-191935557.html",
-     "title": "Nvidia board needs 'some heavyweights,' ex-Medtronic CEO Bill George says",
-     "outlet": "Yahoo Finance"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
    "article_count_24h": 56,
-   "article_count_1h": 6,
+   "article_count_1h": 8,
    "published": "2026-11-18T05:52:00+09:00",
    "category": "기타",
    "news": [
@@ -1027,118 +909,47 @@
   },
   {
    "source": "google_trends",
-   "keyword": "oklahoma city thunder",
+   "keyword": "qeshm",
    "traffic": 500,
-   "published": "2026-11-18T07:10:00+09:00",
-   "category": "Taxes",
+   "published": "2026-11-18T07:30:00+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "Oklahoma native Blake Griffin says taxpayers had little choice on $900 million Thunder arena",
-     "url": "https://www.nytimes.com/athletic/7789522/2026/11/17/blake-griffin-thunder-stadium-fans-taxpayers/",
-     "source": "The New York Times"
+     "title": "Iran war live: US hits Qeshm Island, Houthis claim attack on Saudi pipeline",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz",
+     "source": "Al Jazeera"
     },
     {
-     "title": "Despite acknowledging how “super exciting” it was for …",
-     "url": "https://sports.yahoo.com/articles/despite-acknowledging-super-exciting-192055572.html",
-     "source": "Yahoo Sports"
+     "title": "Live Updates: U.S. launches strikes on Iran's Qeshm Island in Strait of Hormuz",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+     "source": "CBS News"
     },
     {
-     "title": "“They know that the alternative is to lose the team …",
-     "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/11/17/they-know-that-the-alternative-is-to-lose-the-team/92830171007/",
-     "source": "HoopsHype"
+     "title": "US carries out ‘self-defense’ strikes on Iranian missile launch site",
+     "url": "https://www.cnn.com/2026/11/17/politics/us-iran-self-defense-strikes",
+     "source": "CNN"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 26.2,
+   "score": 28.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://sports.yahoo.com/articles/despite-acknowledging-super-exciting-192055572.html",
-     "title": "Despite acknowledging how “super exciting” it was for …",
-     "outlet": "Yahoo Sports"
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz",
+     "title": "Iran war live: US hits Qeshm Island, Houthis claim attack on Saudi pipeline",
+     "outlet": "Al Jazeera"
     },
     {
-     "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/11/17/they-know-that-the-alternative-is-to-lose-the-team/92830171007/",
-     "title": "“They know that the alternative is to lose the team …",
-     "outlet": "HoopsHype"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "dow jones industrial average",
-   "traffic": 5000,
-   "published": "2026-11-18T07:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Stock market drops amid continued Nvidia fallout",
-     "url": "https://www.washingtonpost.com/business/2026/11/16/stock-market-drops-amid-continued-nvidia-fallout/",
-     "source": "The Washington Post"
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+     "title": "Live Updates: U.S. launches strikes on Iran's Qeshm Island in Strait of Hormuz",
+     "outlet": "CBS News"
     },
     {
-     "title": "U.S. Stocks Fall as AI Doubts Fester",
-     "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-ai-doubts-fester-a0979bdb",
-     "source": "WSJ"
-    },
-    {
-     "title": "Wall Street ends lower ahead of Nvidia earnings, Anthropic debut",
-     "url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
-     "source": "Reuters"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.0,
-   "already_covered": false,
-   "evidence": []
-  },
-  {
-   "source": "google_trends",
-   "keyword": "argentina - costa rica",
-   "traffic": 5000,
-   "published": "2026-11-18T07:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "How to watch Argentina vs Costa Rica live: Stream, TV, team news, prediction",
-     "url": "https://sports.yahoo.com/articles/watch-argentina-vs-costa-rica-153215766.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Argentina vs. Costa Rica: Preview, Predictions and Lineups",
-     "url": "https://www.si.com/soccer/argentina-vs-costa-rica-preview-predictions-lineups-11-17-26",
-     "source": "Sports Illustrated"
-    },
-    {
-     "title": "Argentina vs. Costa Rica friendly prediction, start time, how to watch",
-     "url": "https://www.usatoday.com/story/sports/soccer/2026/11/17/argentina-costa-rica-prediction-where-to-watch-friendly/92807960007/",
-     "source": "USA Today"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 24.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/watch-argentina-vs-costa-rica-153215766.html",
-     "title": "How to watch Argentina vs Costa Rica live: Stream, TV, team news, prediction",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://www.si.com/soccer/argentina-vs-costa-rica-preview-predictions-lineups-11-17-26",
-     "title": "Argentina vs. Costa Rica: Preview, Predictions and Lineups",
-     "outlet": "Sports Illustrated"
-    },
-    {
-     "url": "https://www.usatoday.com/story/sports/soccer/2026/11/17/argentina-costa-rica-prediction-where-to-watch-friendly/92807960007/",
-     "title": "Argentina vs. Costa Rica friendly prediction, start time, how to watch",
-     "outlet": "USA Today"
+     "url": "https://www.cnn.com/2026/11/17/politics/us-iran-self-defense-strikes",
+     "title": "US carries out ‘self-defense’ strikes on Iranian missile launch site",
+     "outlet": "CNN"
     }
    ]
   },
@@ -1146,8 +957,8 @@
    "source": "google_news",
    "keyword": "daylight saving time",
    "traffic": 0,
-   "article_count_24h": 16,
-   "article_count_1h": 0,
+   "article_count_24h": 15,
+   "article_count_1h": 1,
    "published": "2026-11-17T11:49:52+09:00",
    "category": "Holidays",
    "news": [
@@ -1162,6 +973,11 @@
      "source": "thepointweekly"
     },
     {
+     "title": "Temperatures to drop in Sacramento as the end of daylight savings time approaches - FOX40",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbVhHempVQmFSTFQ1Y3VVU3RpdVplUFA1WHJoSXlWRE81QTRUWGhfUnJMLWZtbzlxWXAxZjd6Q2JfZ1ZRNHJaOVB3cDVncFNpOGE2SmY5dW5yTzM1a3lZaXFYMy16MDNaUTQ3YU9FX2pDX0c2c2F4RnhNOGh3bDJ4TUxRMzJGMldCTTBDaWNENTlvYl9WS2t0RTBHN3U0OVdZWDRyZlAzV0lkYVZQSkdYTkdUUFNWQQ?oc=5",
+     "source": "FOX40"
+    },
+    {
      "title": "Op-Ed: The Hidden Dangers of the US Sunshine Protection Act - IR Insider",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeDJXZ2N0RVdYcDRkRXlaSzNSSFFmck5qandRN1BHVEpFX3gzU1p5NlRFM3piOEczQjdGZ1Q4RTdsNW1VNnRycks1dTVmZEozU1VOeFZhM29udjBGM3AtdmlUSi1nUS1OdkFqSzljaWJnZ3lPV3pLV3R1c0tGZGR6RQ?oc=5",
      "source": "IR Insider"
@@ -1170,16 +986,176 @@
      "title": "At long last, make standard time permanent | Editorial - Sun Sentinel",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWThEMjFMcWZtZkp0WjFVUXo2TGJrODlvSlgxT3ZycGo4SEl0V2hkZG13ZkFqYXozR2RObFRSWDUwZXE0bHgwWlQ1T281cHl2MHlIQnE1ZjdBTks2WXQxNTZTSUk2cmtDNjRYT2xwellJNS0wZElxSGRQckdSR0xueC1pVDZsenlRLTNmVEZ2NlRKS3NfRUw4?oc=5",
      "source": "Sun Sentinel"
-    },
-    {
-     "title": "Roy Erasmus Sr.: Darker mornings are ahead for us - Yellowknifer",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ29zQnowVEZCQUJmWW9nbTdNNnVBcjVQa1dSS2FWXzFaa3g0eHozQWtiTFhpUEtrRzJKbndHQXRPTG02Y1pQUXBfbUtGQ2FTeDVHRjYta3lGbDBIcFhVc1hjS3lnNGpCcUtWWTV3QTNfQm1jQXpxTmZwVVFFdF9iOWpjdG56RTAzN2xwdA?oc=5",
-     "source": "Yellowknifer"
     }
    ],
    "official": false,
-   "score": 23.1,
+   "score": 26.2,
    "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "fraud",
+   "traffic": 200,
+   "published": "2026-11-18T07:50:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "American veterans targeted by schemes to steal benefits and exploit the sick, disabled: DOJ",
+     "url": "https://www.foxnews.com/politics/american-veterans-targeted-schemes-steal-benefits-exploit-sick-disabled-doj",
+     "source": "Fox News"
+    },
+    {
+     "title": "Houston woman charged in nationwide VA benefits fraud case",
+     "url": "https://www.click2houston.com/news/local/2026/11/17/houston-woman-charged-in-nationwide-va-benefits-fraud-case/",
+     "source": "Click2Houston"
+    },
+    {
+     "title": "Two Texas VA employees accused of fraud, theft by DOJ",
+     "url": "https://www.yahoo.com/news/us/articles/two-texas-va-employees-accused-214404173.html",
+     "source": "Yahoo"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 25.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.foxnews.com/politics/american-veterans-targeted-schemes-steal-benefits-exploit-sick-disabled-doj",
+     "title": "American veterans targeted by schemes to steal benefits and exploit the sick, disabled: DOJ",
+     "outlet": "Fox News"
+    },
+    {
+     "url": "https://www.click2houston.com/news/local/2026/11/17/houston-woman-charged-in-nationwide-va-benefits-fraud-case/",
+     "title": "Houston woman charged in nationwide VA benefits fraud case",
+     "outlet": "Click2Houston"
+    },
+    {
+     "url": "https://www.yahoo.com/news/us/articles/two-texas-va-employees-accused-214404173.html",
+     "title": "Two Texas VA employees accused of fraud, theft by DOJ",
+     "outlet": "Yahoo"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "ACA open enrollment",
+   "traffic": 0,
+   "article_count_24h": 5,
+   "article_count_1h": 2,
+   "published": "2026-11-18T01:29:00+09:00",
+   "category": "Health Insurance",
+   "news": [
+    {
+     "title": "Nevada Health Link | 2027 Open Enrollment, Affordable Health Insurance & Financial Help | Wellness | 2news.com - KTVN",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNcEw1RDJUYVF3N3JoMVJobG1zXzA4WVRHSHFBUWtvSEZjaEJiUmdGMjlITmNhZFRoYXA0cW1IVmtRTGllRWNvMndBRTRkMXNWdE9rMUFBdEtXTS1DYzVhYi1hb3laR3MzbU52cjkycEc0SWVldGdZYlZoYVNtQnQtYWpBR2ZCZzVQczZObTZUS1FldThDb21sS3dVdnVsR3p0Wml2ejdOb09McWt5RC1EdFktSjNJOThMYVJ4T3FMR0VvTFEzQXNpTGJRTUNGdHByMFJzWDR4cWl4V2d3MFlmb09uU0s5bll3UVUtaTg2VC1Kck50ZzhJTUJyMVE5cWxSMVY3b2FBcw?oc=5",
+     "source": "KTVN"
+    },
+    {
+     "title": "The Affordable Care Act’s Future: What GovCons Need to Know - ExecutiveGov",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSGQtWFZjRlNPaTdqUVp5alJVUFgyR3JSaHBEcVAyYS1Jb09JZXVVRTlUaGtrdHZrVkR2ZDJTcnowdU5lWnl2VUNhMXNmU2ZjZEhFdkI2V1dWdG5qX3lCWFJTbkNoMUNaUTZ0dzlLVTYwSjJtdmZUalBHYmw4b3pKUlJHV0tnUFh4SGI2MUJLalc5M19TU2Rsdw?oc=5",
+     "source": "ExecutiveGov"
+    },
+    {
+     "title": "Arizona Gets No Extra State ACA Premium Help for 2027 as Enrollment Fell 30% After Enhanced Subsidies Lapsed - Medical Daily",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWWZZNU5EN1BvSVlfMlAxeTRFWDZ3bkpVWnpaRVlCWjQ0dVJKMlVOYm1ydWdCWDg4V3lnT2VFTDZjX0phNTdLSHlmZ0hKdzFsdXZBNEVKcmhzSTg5enFWY1lOUXJvbDd2Szc3ZVJlYUhuUHdTWF8zUGUzRGtpWVlacHlrcnhYbEZs?oc=5",
+     "source": "Medical Daily"
+    },
+    {
+     "title": "Illinois consumers see higher prices and fewer choices for Obamacare health insurance - Chicago Tribune",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQVVwUUp6SWNEMExVLW5QcTU3UUhhTnZ6ZUhwTFd5bG95WUNFcThqSS13TnlYX3FCQTFkYWtWQVRoWXhSQVZlRGhwX1V2dHdreHBsVjJfSUZ3WjF1MUVIVXJVWklVcUxjMzhkaTRIVFF2dEpnVGVGR0tRa09TS3h2dDA1Y2hoQnZmbDRiNWVR?oc=5",
+     "source": "Chicago Tribune"
+    },
+    {
+     "title": "Gig workers: 4 health insurance tips for 2027 open enrollment - The Manila Times",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZmxuZVVNSnpkenE5ekY1YjFDUThRLTJlZVhXTmxjOUF5d0dDQ19yR3FKek5jOWdGZmFQZnNhVHUxeGVyckgxSGZfaFRWaWItbHpQc1V3RHdZN28zX004cmFMemIzX21aTXNvYmZZLS01WWpZME84MnB1WmhIaW5yQmdMVnJuMnFaWU1nUkYyV2ROT0NoN2VKTkhlMjdLdzFibUVQREhaUWpQdmkwUG5kdFZFNnhKVDdUREVtRzdEWWZad3NKMTFPTnVlY0xoNGh1NmdoMNIB1AFBVV95cUxQZmxuZVVNSnpkenE5ekY1YjFDUThRLTJlZVhXTmxjOUF5d0dDQ19yR3FKek5jOWdGZmFQZnNhVHUxeGVyckgxSGZfaFRWaWItbHpQc1V3RHdZN28zX004cmFMemIzX21aTXNvYmZZLS01WWpZME84MnB1WmhIaW5yQmdMVnJuMnFaWU1nUkYyV2ROT0NoN2VKTkhlMjdLdzFibUVQREhaUWpQdmkwUG5kdFZFNnhKVDdUREVtRzdEWWZad3NKMTFPTnVlY0xoNGh1NmdoMA?oc=5",
+     "source": "The Manila Times"
+    }
+   ],
+   "official": false,
+   "score": 24.1,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "LIHEAP",
+   "traffic": 0,
+   "article_count_24h": 7,
+   "article_count_1h": 0,
+   "published": "2026-11-17T23:33:36+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "What Is LIHEAP, and How Does It Help Families With Energy Bills? - American Gas Association",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbldPYUwwWjRLclVKdG01dkdmeEYyeDlTektHWVo5UzBKMVc2ZkFVQU9LUU1fNHJxNWFXZU4zVzR4YXNEYVFWaHhmNmRseTNVVS1LeHliT3BLcjh1VmhPckhtZ19TbjdrRHk1TUI3c3pzdlJtLW9SRnBQY1U1blFfWTZ6dm1rMzZzMVdF?oc=5",
+     "source": "American Gas Association"
+    },
+    {
+     "title": "Applications for LIHEAP now open: Here’s how to apply - WJET/WFXP/YourErie.com",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU196eXUxUlZzNWJMdlNqeE5mYmxzZTVaV2h0Rk4xRnZKb3QtdDRkdWxPUHhhQ0xsLWptZVVwZ2xqcDdwLTh4ZEdZeEhZZW5JazdLTk1fSTdXLXQyelpyLXVPVzV1Nk04RGJHaEVRdWtSeTZidnpTQ2gtcmpPWHV3U19OeUdycUYtWkxONGdvUW1Vb295UU9rd9IBngFBVV95cUxQOU0tbUs4MFE5YzctV1dudlp1dE1RNXBEX3NaN3hWOElYckxqLVUwYjBLWGdDSnNHQkluTVBxTmpPUFQycXFVYkRJeTVxc01oQXBsc282bWZ4SnFISFd2VmVxbm1XNUp2VmJHMDNUVmM5eHZ5TUN6ZllrRGVhcTd2Z0VpNHYzSmxESFNpV1FEQlBtSWlUR3plbzVKSjFRUQ?oc=5",
+     "source": "WJET/WFXP/YourErie.com"
+    },
+    {
+     "title": "Community Services of Starke County offers energy assistance and elderly tax assistance - WKVI Information Center",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ3RialB0cFpWVEFsTE1aYjI0YUw4YmxHUzlDMmtXbjFVc0lTYlRIUFJzdkhPQVVyRllrbG5mUmowWEdCNEdlbXlqUjJFdzctZlBQanpDY3plS0JFazVXT0lfRzNzcHoyYVpKcjRrZjc2c09qcVdZUXZ1ZDdDdHJlUVNhRXpucnp6T3ZHSkxObVM5R1MyRHlieUZnVUdKLVRwVHJnVWx4VC1qNVlmLW5QLXBPOA?oc=5",
+     "source": "WKVI Information Center"
+    },
+    {
+     "title": "CWLP reminding customers of utility assistance - NewsChannel20",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2d2YmlaZE5hWEh2R1ljOHBfQnBocjgwR1JFc3pZV3Q2eThyTEZvellCdTY0MVRkRlh2a3FfWWw4c0c0SmdGUVh4ZEhjbHc1c0dXOVFHb0ZxWmNQUXFTVGxFMWhhZ1hsTEJHUjlBZVNGd29hWDNWNUZTMmVuWV9mQ2tPWVBJei1uclFEWWxOdWJvLWtuMkpxU3hIY0I3UkdUT2tEeElzZ0I1c0s2aFp1eTNOUnFJMlVFSWhUQWZkTnBQNXhsekFsYVR6cF9uemd3NHVz?oc=5",
+     "source": "NewsChannel20"
+    },
+    {
+     "title": "Bowersville NGTC Student One of Four Finalists for 2027 GOAL Program - 92.1 WLHR",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZURraU5NYW90R3N4LUlfdUg1WmxobDlJdl9YblJHS1JPaHRNeDFuT1pQcVJQa2NmU2VoZkc1UXFBNi1WSndQM0VHWEtiRFZ6UDRPZWxjamhSZnp4WUVISDl4enNwS0k3TWtGTmVBTlM4OFdIY1hHNnNGVHFRal9ieGE0VDBLX01fV1EzLUxqZjJ6Rzg?oc=5",
+     "source": "92.1 WLHR"
+    }
+   ],
+   "official": false,
+   "score": 23.5,
+   "already_covered": true
+  },
+  {
+   "source": "google_trends",
+   "keyword": "uruguay - república dominicana",
+   "traffic": 500,
+   "published": "2026-11-18T07:50:00+09:00",
+   "category": "Housing",
+   "news": [
+    {
+     "title": "Dominicana enfrenta a Uruguay con los ojos puestos en la Copa Oro",
+     "url": "https://espndeportes.espn.com/futbol/nota/_/id/17527045/fifa-amistosos-internacionales-dominicana-enfrenta-a-uruguay",
+     "source": "ESPN Deportes"
+    },
+    {
+     "title": "Selección Uruguaya (previa): dos ómnibus escoltados rumbo al CAMPUS llamaron la atención de vecinos.",
+     "url": "https://cadenadelmar.uy/deporte/seleccion-uruguaya-previa-dos-omnibus-escoltados-rumbo-al-campus-llamaron-la-atencion-de-vecinos-26468",
+     "source": "Cadena del Mar"
+    },
+    {
+     "title": "Así luce el estadio Domingo Burgueño Miguel para recibir a la Celeste de Forlán este martes",
+     "url": "https://www.fmgente.com.uy/noticias/luce-estadio-domingo-burgueno-miguel-84684.html",
+     "source": "FM Gente"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 22.8,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://cadenadelmar.uy/deporte/seleccion-uruguaya-previa-dos-omnibus-escoltados-rumbo-al-campus-llamaron-la-atencion-de-vecinos-26468",
+     "title": "Selección Uruguaya (previa): dos ómnibus escoltados rumbo al CAMPUS llamaron la atención de vecinos.",
+     "outlet": "Cadena del Mar"
+    },
+    {
+     "url": "https://www.fmgente.com.uy/noticias/luce-estadio-domingo-burgueno-miguel-84684.html",
+     "title": "Así luce el estadio Domingo Burgueño Miguel para recibir a la Celeste de Forlán este martes",
+     "outlet": "FM Gente"
+    }
+   ]
   },
   {
    "source": "google_news",
@@ -1221,164 +1197,9 @@
    "already_covered": true
   },
   {
-   "source": "google_news",
-   "keyword": "LIHEAP",
-   "traffic": 0,
-   "article_count_24h": 6,
-   "article_count_1h": 0,
-   "published": "2026-11-17T23:33:36+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "What Is LIHEAP, and How Does It Help Families With Energy Bills? - American Gas Association",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbldPYUwwWjRLclVKdG01dkdmeEYyeDlTektHWVo5UzBKMVc2ZkFVQU9LUU1fNHJxNWFXZU4zVzR4YXNEYVFWaHhmNmRseTNVVS1LeHliT3BLcjh1VmhPckhtZ19TbjdrRHk1TUI3c3pzdlJtLW9SRnBQY1U1blFfWTZ6dm1rMzZzMVdF?oc=5",
-     "source": "American Gas Association"
-    },
-    {
-     "title": "Community Services of Starke County offers energy assistance and elderly tax assistance - WKVI Information Center",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ3RialB0cFpWVEFsTE1aYjI0YUw4YmxHUzlDMmtXbjFVc0lTYlRIUFJzdkhPQVVyRllrbG5mUmowWEdCNEdlbXlqUjJFdzctZlBQanpDY3plS0JFazVXT0lfRzNzcHoyYVpKcjRrZjc2c09qcVdZUXZ1ZDdDdHJlUVNhRXpucnp6T3ZHSkxObVM5R1MyRHlieUZnVUdKLVRwVHJnVWx4VC1qNVlmLW5QLXBPOA?oc=5",
-     "source": "WKVI Information Center"
-    },
-    {
-     "title": "CWLP reminding customers of utility assistance - NewsChannel20",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2d2YmlaZE5hWEh2R1ljOHBfQnBocjgwR1JFc3pZV3Q2eThyTEZvellCdTY0MVRkRlh2a3FfWWw4c0c0SmdGUVh4ZEhjbHc1c0dXOVFHb0ZxWmNQUXFTVGxFMWhhZ1hsTEJHUjlBZVNGd29hWDNWNUZTMmVuWV9mQ2tPWVBJei1uclFEWWxOdWJvLWtuMkpxU3hIY0I3UkdUT2tEeElzZ0I1c0s2aFp1eTNOUnFJMlVFSWhUQWZkTnBQNXhsekFsYVR6cF9uemd3NHVz?oc=5",
-     "source": "NewsChannel20"
-    },
-    {
-     "title": "Bowersville NGTC Student One of Four Finalists for 2027 GOAL Program - 92.1 WLHR",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZURraU5NYW90R3N4LUlfdUg1WmxobDlJdl9YblJHS1JPaHRNeDFuT1pQcVJQa2NmU2VoZkc1UXFBNi1WSndQM0VHWEtiRFZ6UDRPZWxjamhSZnp4WUVISDl4enNwS0k3TWtGTmVBTlM4OFdIY1hHNnNGVHFRal9ieGE0VDBLX01fV1EzLUxqZjJ6Rzg?oc=5",
-     "source": "92.1 WLHR"
-    },
-    {
-     "title": "City Council member charged with fraud, taking public benefits in Pennsylvania - PHL17.com",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNDFBX1RoMUhqZW1RMkhJTW8zOHF5ZUVYSzBiOUpFb0VSZTBjRDdMZTNoV3J0cndHMmZydVdFVFFoSUh5Tm94SjdXXzE1X3REYlNyYzZyczZXbEM3c0kxQWM4ZTZROEZkVjRwU1RDbHFwbGdiR3U5T2xLVTcxZ1d4b0NiemRFSU1IT0V0ZF9qaVBlOEFQekNwV0NHM1lYa1JaVklJWjRocko0STdSaFVRamk0ZGE?oc=5",
-     "source": "PHL17.com"
-    }
-   ],
-   "official": false,
-   "score": 20.2,
-   "already_covered": true
-  },
-  {
-   "source": "google_trends",
-   "keyword": "chile - colombia",
-   "traffic": 2000,
-   "published": "2026-11-18T07:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Lorenzo hails Colombia's fight in 'intense' friendly win over Chile",
-     "url": "https://www.beinsports.com/en-us/soccer/friendlies/articles/lorenzo-hails-colombias-fight-in-intense-friendly-win-over-chile-2026-11-14",
-     "source": "beIN SPORTS"
-    },
-    {
-     "title": "Colombia Chile Soccer",
-     "url": "http://www.idahopress.com/sports/national/colombia-chile-soccer/image_a2162376-2028-5476-afe5-f2ff28b32d4a.html",
-     "source": "Idaho Press"
-    },
-    {
-     "title": "Colombia 1-0 Chile, Goals and Highlights in Friendly Match",
-     "url": "https://www.vavel.com/en-us/soccer/2026/11/13/1279077-colombia-vs-chile-live-score-2026-friendly.html",
-     "source": "VAVEL.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.beinsports.com/en-us/soccer/friendlies/articles/lorenzo-hails-colombias-fight-in-intense-friendly-win-over-chile-2026-11-14",
-     "title": "Lorenzo hails Colombia's fight in 'intense' friendly win over Chile",
-     "outlet": "beIN SPORTS"
-    },
-    {
-     "url": "http://www.idahopress.com/sports/national/colombia-chile-soccer/image_a2162376-2028-5476-afe5-f2ff28b32d4a.html",
-     "title": "Colombia Chile Soccer",
-     "outlet": "Idaho Press"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "anne hathaway",
-   "traffic": 1000,
-   "published": "2026-11-18T07:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Anne Hathaway Welcomes New Baby, Spotted With Newborn in NYC",
-     "url": "https://www.tmz.com/2026/11/17/anne-hathaway-seen-with-new-baby/",
-     "source": "TMZ"
-    },
-    {
-     "title": "Anne Hathaway Welcomes Third Child With Husband Adam Shulman",
-     "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/anne-hathaway-welcomes-third-child-1236730455/",
-     "source": "The Hollywood Reporter"
-    },
-    {
-     "title": "Anne Hathaway Welcomes Her Third Child with Husband Adam Schulman",
-     "url": "https://www.realtor.com/news/celebrity-real-estate/anne-hathaway-gives-birth-third-baby-husband-adam-schulman/",
-     "source": "Realtor.com"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.tmz.com/2026/11/17/anne-hathaway-seen-with-new-baby/",
-     "title": "Anne Hathaway Welcomes New Baby, Spotted With Newborn in NYC",
-     "outlet": "TMZ"
-    },
-    {
-     "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/anne-hathaway-welcomes-third-child-1236730455/",
-     "title": "Anne Hathaway Welcomes Third Child With Husband Adam Shulman",
-     "outlet": "The Hollywood Reporter"
-    },
-    {
-     "url": "https://www.realtor.com/news/celebrity-real-estate/anne-hathaway-gives-birth-third-baby-husband-adam-schulman/",
-     "title": "Anne Hathaway Welcomes Her Third Child with Husband Adam Schulman",
-     "outlet": "Realtor.com"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "eastern mi vs wmu",
-   "traffic": 1000,
-   "published": "2026-11-18T07:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "How to watch Eastern Michigan vs Western Michigan: Live stream NCAA College Football, TV channel",
-     "url": "https://sports.yahoo.com/articles/watch-eastern-michigan-vs-western-220000977.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Eastern Michigan vs. Western Michigan prediction, odds: Week 12 Tuesday MACtion picks from proven model",
-     "url": "https://www.cbssports.com/betting/news/eastern-michigan-western-michigan-prediction-odds-week-12-tuesday-maction-picks-best-bets/",
-     "source": "CBS Sports"
-    },
-    {
-     "title": "Eastern Michigan Eagles at Western Michigan Broncos - NCAAF Game Summary - Nov 17, 2026",
-     "url": "https://www.usatoday.com/sports/ncaaf/event/2026/2975031/summary/?itm_source=oembed&itm_medium=sports&itm_campaign=scoreboard&site=USAT&itm_content=NCAAF&tile=1",
-     "source": "USA Today"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false
-  },
-  {
    "source": "google_trends",
    "keyword": "aircraft",
-   "traffic": 500,
+   "traffic": 2000,
    "published": "2026-11-18T07:20:00+09:00",
    "category": "기타",
    "news": [
@@ -1399,6 +1220,197 @@
     }
    ],
    "official": false,
+   "spike": "검색량 500→2,000",
+   "spike_bonus": 20,
+   "score": 18.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.cnn.com/2026/11/17/politics/irish-national-charges-destroying-us-military-plane-ireland",
+     "title": "Man accessed US military plane at Ireland airport and destroyed it, DOJ says",
+     "outlet": "CNN"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "anne hathaway",
+   "traffic": 2000,
+   "published": "2026-11-18T07:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Anne Hathaway Welcomes New Baby, Spotted With Newborn in NYC",
+     "url": "https://www.tmz.com/2026/11/17/anne-hathaway-seen-with-new-baby/",
+     "source": "TMZ"
+    },
+    {
+     "title": "Anne Hathaway Welcomes Third Child With Husband Adam Shulman",
+     "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/anne-hathaway-welcomes-third-child-1236730455/",
+     "source": "The Hollywood Reporter"
+    },
+    {
+     "title": "Anne Hathaway gives birth to baby No. 3 with husband Adam Shulman",
+     "url": "https://pagesix.com/2026/11/17/parents/anne-hathaway-gives-birth-to-baby-no-3-with-husband-adam-shulman/",
+     "source": "Page Six"
+    }
+   ],
+   "official": false,
+   "spike": "검색량 1,000→2,000",
+   "spike_bonus": 20,
+   "score": 18.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.tmz.com/2026/11/17/anne-hathaway-seen-with-new-baby/",
+     "title": "Anne Hathaway Welcomes New Baby, Spotted With Newborn in NYC",
+     "outlet": "TMZ"
+    },
+    {
+     "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/anne-hathaway-welcomes-third-child-1236730455/",
+     "title": "Anne Hathaway Welcomes Third Child With Husband Adam Shulman",
+     "outlet": "The Hollywood Reporter"
+    },
+    {
+     "url": "https://pagesix.com/2026/11/17/parents/anne-hathaway-gives-birth-to-baby-no-3-with-husband-adam-shulman/",
+     "title": "Anne Hathaway gives birth to baby No. 3 with husband Adam Shulman",
+     "outlet": "Page Six"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "dow jones industrial average",
+   "traffic": 5000,
+   "published": "2026-11-18T07:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Dow drops more than 800 points, S&P 500 posts lowest close since July",
+     "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html",
+     "source": "CNBC"
+    },
+    {
+     "title": "Stocks dip, but Nvidia reports strong earnings",
+     "url": "https://thehill.com/newsletters/business-economy/6226585-stocks-dip-but-nvidia-reports-strong-earnings/",
+     "source": "The Hill"
+    },
+    {
+     "title": "Stock Market News, Nov. 17, 2026: Dow ends down 850 points, S&P 500 and Nasdaq also plunge as tech names come under further pressure ahead of Nvidia’s earnings",
+     "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-q3-financial-results-retail-sales-import-prices",
+     "source": "MarketWatch"
+    }
+   ],
+   "official": false,
+   "score": 15.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "uruguay vs dominican republic",
+   "traffic": 1000,
+   "published": "2026-11-18T07:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Uruguay vs Dominican Republic: Friendlies stats & head-to-head",
+     "url": "https://www.bbc.com/sport/football/live/c6jd75xzkn21t",
+     "source": "BBC"
+    },
+    {
+     "title": "Uruguay vs Dominican Republic Prediction: After the victory over Argentina",
+     "url": "https://www.telecomasia.net/sports-betting/tips/football/uruguay-vs-dominican-republic-match-prediction-17-november-2026/",
+     "source": "Telecom Asia Sport"
+    },
+    {
+     "title": "Uruguay vs. Dominican Republic Lineups, Live Streaming, How & Where to Watch on TV",
+     "url": "https://athlonsports.com/soccer/uruguay-vs-dominican-republic-lineups-live-streaming-how-where-to-watch-on-tv",
+     "source": "Athlon Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 12.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/sport/football/live/c6jd75xzkn21t",
+     "title": "Uruguay vs Dominican Republic: Friendlies stats & head-to-head",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://www.telecomasia.net/sports-betting/tips/football/uruguay-vs-dominican-republic-match-prediction-17-november-2026/",
+     "title": "Uruguay vs Dominican Republic Prediction: After the victory over Argentina",
+     "outlet": "Telecom Asia Sport"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "cma awards",
+   "traffic": 500,
+   "published": "2026-11-18T07:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "2026 CMA Awards Predictions: Who Will Win?",
+     "url": "https://www.billboard.com/lists/cma-awards-predictions-2026-who-will-win-nashville/",
+     "source": "Billboard"
+    },
+    {
+     "title": "Lainey Wilson Plans Bedazzled Broom for Ella Langley’s CMA Award Wins",
+     "url": "https://www.yahoo.com/entertainment/music/articles/lainey-wilson-plans-bedazzled-broom-163400561.html",
+     "source": "Yahoo"
+    },
+    {
+     "title": "Lainey Wilson Volunteered to Help Ella Langley at the 2026 CMAs",
+     "url": "https://drgnews.com/2026/11/10/lainey-wilson-volunteered-to-help-ella-langley-at-the-2026-cmas/",
+     "source": "DRGNews"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.billboard.com/lists/cma-awards-predictions-2026-who-will-win-nashville/",
+     "title": "2026 CMA Awards Predictions: Who Will Win?",
+     "outlet": "Billboard"
+    },
+    {
+     "url": "https://www.yahoo.com/entertainment/music/articles/lainey-wilson-plans-bedazzled-broom-163400561.html",
+     "title": "Lainey Wilson Plans Bedazzled Broom for Ella Langley’s CMA Award Wins",
+     "outlet": "Yahoo"
+    },
+    {
+     "url": "https://drgnews.com/2026/11/10/lainey-wilson-volunteered-to-help-ella-langley-at-the-2026-cmas/",
+     "title": "Lainey Wilson Volunteered to Help Ella Langley at the 2026 CMAs",
+     "outlet": "DRGNews"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "bill watts",
+   "traffic": 500,
+   "published": "2026-11-18T07:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "‘Cowboy’ Bill Watts Passes Away",
+     "url": "https://www.fightful.com/wrestling/cowboy-bill-watts-passes-away/",
+     "source": "Fightful"
+    },
+    {
+     "title": "Report: Former WCW executive \"Cowboy\" Bill Watts passes away at the age of 87",
+     "url": "https://nodq.com/news/report-former-wcw-executive-cowboy-bill-watts-passes-away-at-the-age-of-87/",
+     "source": "NoDQ.com"
+    }
+   ],
+   "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
    "score": 10.5,
@@ -1406,31 +1418,31 @@
   },
   {
    "source": "google_trends",
-   "keyword": "league of legends",
-   "traffic": 500,
-   "published": "2026-11-18T07:20:00+09:00",
+   "keyword": "kuwait",
+   "traffic": 200,
+   "published": "2026-11-18T07:30:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "League of Legends World Championship Grand Final: Riot Games Continues To Blaze the Remote-Production Trail at Barclays Center",
-     "url": "https://www.sportsvideo.org/2026/11/16/riot-games-continues-to-blaze-the-remote-production-trail-with-league-of-legends-worlds-grand-final-at-barclays-center/",
-     "source": "Sports Video Group"
+     "title": "Kuwait says its air defenses are responding to hostile drone attacks",
+     "url": "https://www.timesofisrael.com/liveblog_entry/kuwait-says-its-air-defenses-are-responding-to-hostile-drone-attacks/",
+     "source": "The Times of Israel"
     },
     {
-     "title": "Find a Worlds 2026 Watch Party Near You",
-     "url": "https://www.riotgames.com/en/news/worlds-watch-parties-2026",
-     "source": "Riot Games"
+     "title": "Kuwait’s air defenses responding to ‘hostile’ drone attacks: Army",
+     "url": "https://aa.com.tr/en/middle-east/kuwait-s-air-defenses-responding-to-hostile-drone-attacks-army/4128462",
+     "source": "Anadolu Ajansı"
     },
     {
-     "title": "Once again, China’s youth are ‘stepping up to the plate’!: Global Times editorial",
-     "url": "https://www.globaltimes.cn/page/202611/1374347.shtml",
-     "source": "Global Times"
+     "title": "Kuwait's air defense responds to 'hostile' drone attacks",
+     "url": "https://breakingthenews.net/Article/Kuwait's-air-defense-responds-to-'hostile'-drone-attacks/67585399",
+     "source": "Breakingthenews.net"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 10.5,
+   "score": 9.6,
    "already_covered": false
   },
   {
