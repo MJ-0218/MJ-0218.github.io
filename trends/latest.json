@@ -1,27 +1,294 @@
 {
- "generated_at": "2026-11-18T06:33:05.228790+09:00",
+ "generated_at": "2026-11-18T07:04:21.054056+09:00",
  "sources": {
   "calendar": "ok (17)",
   "google_trends": "ok (10)",
   "korea_kr": "ok (5)",
-  "google_news": "ok (28)",
+  "google_news": "ok (27)",
   "tv_food": "ok (4)",
   "applyhome": "ok (30)",
-  "evidence": "ok (저장 119, 실패 11)"
+  "evidence": "ok (저장 115, 실패 14)"
  },
  "compared_runs": 6,
  "spikes": [
   "고향사랑기부제",
-  "wales vs portugal",
-  "김장",
-  "아이폰",
-  "백신",
-  "수능 예비소집",
-  "알렉산더 즈베레프",
-  "정웅인",
-  "부고"
+  "배당",
+  "안세영",
+  "뉴스",
+  "수출",
+  "wales đấu với bồ đào nha",
+  "롤 점검",
+  "수사",
+  "노동자",
+  "훈련"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "연말정산 연말절세",
+   "category": "세금",
+   "official_sources": [
+    "https://www.nts.go.kr",
+    "https://www.hometax.go.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.090826+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "yearend-tax-연말절세-2026",
+   "phase": "연말절세",
+   "queries": [
+    "연금저축 IRP 연말 납입 세액공제",
+    "연말정산 신용카드 소득공제 남은 기간"
+   ],
+   "window": "2026-11 ~ 2026-12 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "종합부동산세 고지납부",
+   "category": "세금",
+   "official_sources": [
+    "https://www.nts.go.kr",
+    "https://www.hometax.go.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.090937+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "comprehensive-property-tax-고지납부-2026",
+   "phase": "고지납부",
+   "queries": [
+    "종부세 납부기간",
+    "종부세 고지서",
+    "종부세 분납"
+   ],
+   "window": "2026-11 ~ 2026-12 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "공휴일·연휴 내년공휴일",
+   "category": "생활",
+   "official_sources": [
+    "https://www.kasi.re.kr",
+    "https://www.mois.go.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.090976+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "holidays-내년공휴일-2026",
+   "phase": "내년공휴일",
+   "queries": [
+    "내년 공휴일",
+    "내년 달력 연휴",
+    "대체공휴일"
+   ],
+   "window": "2026-11 ~ 2026-12 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "국가장학금 1차신청",
+   "category": "정부혜택",
+   "official_sources": [
+    "https://www.kosaf.go.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.091014+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "national-scholarship-1차신청-2026",
+   "phase": "1차신청",
+   "queries": [
+    "국가장학금 1차 신청기간",
+    "국가장학금 소득구간",
+    "국가장학금 신청 방법"
+   ],
+   "window": "2026-11 ~ 2026-12 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "에너지바우처 동절기사용",
+   "category": "정부혜택",
+   "official_sources": [
+    "https://www.energyv.or.kr",
+    "https://www.motie.go.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.091039+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "energy-voucher-동절기사용-2026",
+   "phase": "동절기사용",
+   "queries": [
+    "에너지바우처 사용 방법",
+    "에너지바우처 잔액"
+   ],
+   "window": "2026-11 ~ 2026-12 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "국가건강검진 연말 마감 연말마감",
+   "category": "생활",
+   "official_sources": [
+    "https://www.nhis.or.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.091051+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "health-checkup-연말마감-2026",
+   "phase": "연말마감",
+   "queries": [
+    "건강검진 대상자 조회",
+    "건강검진 올해 안 받으면",
+    "건강검진 연말 예약"
+   ],
+   "window": "2026-11 ~ 2026-12 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "김장철 (김장 시기·김장 비용) 김장",
+   "category": "생활",
+   "official_sources": [
+    "https://www.kamis.or.kr",
+    "https://www.weather.go.kr",
+    "https://www.mafra.go.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.091103+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "kimjang-김장-2026",
+   "phase": "김장",
+   "queries": [
+    "김장 적기",
+    "김장 비용",
+    "배추값",
+    "김장철 배추 가격"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "수능 당일 교통·출근 시간 당일",
+   "category": "생활",
+   "official_sources": [
+    "https://www.moe.go.kr",
+    "https://www.kice.re.kr",
+    "https://www.korea.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.091116+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "suneung-traffic-당일-2026",
+   "phase": "당일",
+   "queries": [
+    "수능날 출근시간",
+    "수능 듣기평가 비행기",
+    "수능 당일 교통 통제",
+    "수능 지하철 증편"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "11월 건강보험료 변동 (지역가입자 소득 반영) 11월고지",
+   "category": "정부혜택",
+   "official_sources": [
+    "https://www.nhis.or.kr",
+    "https://www.mohw.go.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.091149+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "health-premium-november-11월고지-2026",
+   "phase": "11월고지",
+   "queries": [
+    "11월 건강보험료 인상",
+    "건강보험료 오른 이유",
+    "지역가입자 건강보험료 조정 신청"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "운전면허 갱신·적성검사 연말 마감 연말",
+   "category": "생활",
+   "official_sources": [
+    "https://www.safedriving.or.kr",
+    "https://www.koroad.or.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.091160+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "drivers-license-renewal-연말-2026",
+   "phase": "연말",
+   "queries": [
+    "운전면허 갱신 기간",
+    "운전면허 적성검사 과태료",
+    "운전면허 갱신 온라인"
+   ],
+   "window": "2026-11 ~ 2026-12 (보통)",
+   "days_to_start": -17,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "이달의 복지급여 지급일 (기초연금·아동수당·부모급여·국민연금) 11월",
+   "category": "정부혜택",
+   "official_sources": [
+    "https://www.mohw.go.kr",
+    "https://www.bokjiro.go.kr",
+    "https://www.nps.or.kr"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-18T07:04:21.091238+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "monthly-welfare-payday-2026-11",
+   "phase": "11월",
+   "queries": [
+    "기초연금 지급일",
+    "아동수당 지급일",
+    "부모급여 지급일",
+    "국민연금 지급일"
+   ],
+   "window": "2026-11-18 전후",
+   "days_to_start": 0,
+   "in_window": true
+  },
   {
    "source": "google_news",
    "keyword": "고향사랑기부제",
@@ -58,9 +325,9 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 0.6→10건 (6.9배)",
-   "spike_bonus": 40,
-   "score": 126.0,
+   "spike": "최근 1시간 기사 2.6→10건 (3.1배)",
+   "spike_bonus": 30.6,
+   "score": 79.0,
    "already_covered": true,
    "evidence": [
     {
@@ -84,272 +351,6 @@
      "outlet": "스포츠동아"
     }
    ]
-  },
-  {
-   "source": "calendar",
-   "keyword": "연말정산 연말절세",
-   "category": "세금",
-   "official_sources": [
-    "https://www.nts.go.kr",
-    "https://www.hometax.go.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277139+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "yearend-tax-연말절세-2026",
-   "phase": "연말절세",
-   "queries": [
-    "연금저축 IRP 연말 납입 세액공제",
-    "연말정산 신용카드 소득공제 남은 기간"
-   ],
-   "window": "2026-11 ~ 2026-12 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "종합부동산세 고지납부",
-   "category": "세금",
-   "official_sources": [
-    "https://www.nts.go.kr",
-    "https://www.hometax.go.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277261+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "comprehensive-property-tax-고지납부-2026",
-   "phase": "고지납부",
-   "queries": [
-    "종부세 납부기간",
-    "종부세 고지서",
-    "종부세 분납"
-   ],
-   "window": "2026-11 ~ 2026-12 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "공휴일·연휴 내년공휴일",
-   "category": "생활",
-   "official_sources": [
-    "https://www.kasi.re.kr",
-    "https://www.mois.go.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277307+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "holidays-내년공휴일-2026",
-   "phase": "내년공휴일",
-   "queries": [
-    "내년 공휴일",
-    "내년 달력 연휴",
-    "대체공휴일"
-   ],
-   "window": "2026-11 ~ 2026-12 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "국가장학금 1차신청",
-   "category": "정부혜택",
-   "official_sources": [
-    "https://www.kosaf.go.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277357+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "national-scholarship-1차신청-2026",
-   "phase": "1차신청",
-   "queries": [
-    "국가장학금 1차 신청기간",
-    "국가장학금 소득구간",
-    "국가장학금 신청 방법"
-   ],
-   "window": "2026-11 ~ 2026-12 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "에너지바우처 동절기사용",
-   "category": "정부혜택",
-   "official_sources": [
-    "https://www.energyv.or.kr",
-    "https://www.motie.go.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277386+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "energy-voucher-동절기사용-2026",
-   "phase": "동절기사용",
-   "queries": [
-    "에너지바우처 사용 방법",
-    "에너지바우처 잔액"
-   ],
-   "window": "2026-11 ~ 2026-12 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "국가건강검진 연말 마감 연말마감",
-   "category": "생활",
-   "official_sources": [
-    "https://www.nhis.or.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277400+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "health-checkup-연말마감-2026",
-   "phase": "연말마감",
-   "queries": [
-    "건강검진 대상자 조회",
-    "건강검진 올해 안 받으면",
-    "건강검진 연말 예약"
-   ],
-   "window": "2026-11 ~ 2026-12 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "김장철 (김장 시기·김장 비용) 김장",
-   "category": "생활",
-   "official_sources": [
-    "https://www.kamis.or.kr",
-    "https://www.weather.go.kr",
-    "https://www.mafra.go.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277456+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "kimjang-김장-2026",
-   "phase": "김장",
-   "queries": [
-    "김장 적기",
-    "김장 비용",
-    "배추값",
-    "김장철 배추 가격"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "수능 당일 교통·출근 시간 당일",
-   "category": "생활",
-   "official_sources": [
-    "https://www.moe.go.kr",
-    "https://www.kice.re.kr",
-    "https://www.korea.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277470+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "suneung-traffic-당일-2026",
-   "phase": "당일",
-   "queries": [
-    "수능날 출근시간",
-    "수능 듣기평가 비행기",
-    "수능 당일 교통 통제",
-    "수능 지하철 증편"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "11월 건강보험료 변동 (지역가입자 소득 반영) 11월고지",
-   "category": "정부혜택",
-   "official_sources": [
-    "https://www.nhis.or.kr",
-    "https://www.mohw.go.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277508+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "health-premium-november-11월고지-2026",
-   "phase": "11월고지",
-   "queries": [
-    "11월 건강보험료 인상",
-    "건강보험료 오른 이유",
-    "지역가입자 건강보험료 조정 신청"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "운전면허 갱신·적성검사 연말 마감 연말",
-   "category": "생활",
-   "official_sources": [
-    "https://www.safedriving.or.kr",
-    "https://www.koroad.or.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277521+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "drivers-license-renewal-연말-2026",
-   "phase": "연말",
-   "queries": [
-    "운전면허 갱신 기간",
-    "운전면허 적성검사 과태료",
-    "운전면허 갱신 온라인"
-   ],
-   "window": "2026-11 ~ 2026-12 (보통)",
-   "days_to_start": -17,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "이달의 복지급여 지급일 (기초연금·아동수당·부모급여·국민연금) 11월",
-   "category": "정부혜택",
-   "official_sources": [
-    "https://www.mohw.go.kr",
-    "https://www.bokjiro.go.kr",
-    "https://www.nps.or.kr"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-18T06:33:05.277611+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "monthly-welfare-payday-2026-11",
-   "phase": "11월",
-   "queries": [
-    "기초연금 지급일",
-    "아동수당 지급일",
-    "부모급여 지급일",
-    "국민연금 지급일"
-   ],
-   "window": "2026-11-18 전후",
-   "days_to_start": 0,
-   "in_window": true
   },
   {
    "source": "applyhome",
@@ -1095,7 +1096,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-18T06:33:05.277415+09:00",
+   "published": "2026-11-18T07:04:21.091065+09:00",
    "score": 62,
    "already_covered": false,
    "cycle": "civil-service-exam-연간일정-2026",
@@ -1118,7 +1119,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-18T06:33:05.277484+09:00",
+   "published": "2026-11-18T07:04:21.091128+09:00",
    "score": 62,
    "already_covered": false,
    "cycle": "jeongsi-원서접수-2026",
@@ -1142,7 +1143,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-18T06:33:05.277534+09:00",
+   "published": "2026-11-18T07:04:21.091172+09:00",
    "score": 62,
    "already_covered": false,
    "cycle": "fine-dust-season-시행-2026",
@@ -1166,7 +1167,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-18T06:33:05.277554+09:00",
+   "published": "2026-11-18T07:04:21.091187+09:00",
    "score": 62,
    "already_covered": false,
    "cycle": "sunrise-new-year-새해-2026",
@@ -1191,7 +1192,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-18T06:33:05.277573+09:00",
+   "published": "2026-11-18T07:04:21.091204+09:00",
    "score": 62,
    "already_covered": false,
    "cycle": "national-pension-next-year-내년-2026",
@@ -1216,7 +1217,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-18T06:33:05.277586+09:00",
+   "published": "2026-11-18T07:04:21.091216+09:00",
    "score": 62,
    "already_covered": false,
    "cycle": "year-end-card-points-연말-2026",
@@ -1316,67 +1317,6 @@
    ]
   },
   {
-   "source": "google_news",
-   "keyword": "청약 일정",
-   "traffic": 0,
-   "article_count_24h": 26,
-   "article_count_1h": 2,
-   "published": "2026-11-18T06:00:00+09:00",
-   "category": "청약",
-   "news": [
-    {
-     "title": "[오늘의 청약 일정] '안산신길2지구 B-1블록 공공분양주택' 공급 등 - 이투데이",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CdGg2cUpnUFRVNGlSNGstQmF4cmIwVXJUZTYxMWx1U3k5eGNTWGhWNkZvU0tsWWF2SVhKaWVxdjh5ajdMNGZTTjI0UUpTT2pDYnNtXw?oc=5",
-     "source": "이투데이"
-    },
-    {
-     "title": "[11월 공모주 미리보기③] 에스에프씨 철회로 ‘유캐스트’ 나홀로 청약 - 대한데일리",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LNjltSWJENGpjU1BpT1piemdKZlQ2T1dNVmhzZUY3TWNRS2UzWl9MRkRrWkxObXNtelhGZmF3YnRiWUMxQ3daaGY4cG1DY0VEZm5XdC1xUTNkRGxjNVZpV3dVQmdiNGM1SHc?oc=5",
-     "source": "대한데일리"
-    },
-    {
-     "title": "중화역 라온프라이빗 센트로, 청약 비추천? 그래서 넣어? 말아? - 네이버 프리미엄콘텐츠",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMnQ0a3liN0doWTRKelpWaWRlNXQ1X1lhRldMSlBndGk4amNxNXV3LS1xcE9EdkxxeXQzN0ljRkJQdzZiOGlUSEpDVlc2M2EtLWFJNkx3cjdETG5oaktId2M1RDVwQjF4ZjBoVkZHUUtiN3FGSGlfVm16d0xQREZTQzZn?oc=5",
-     "source": "네이버 프리미엄콘텐츠"
-    },
-    {
-     "title": "잠실 래미안아이파크 불법행위재공급 줍줍 (’26. 11/23~24) - 홈두부",
-     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5RWjRoVGNXbUx6TElweW02ZHNBVFNaYmFFMjNKenc1MUtqNFN1cVNEUXZpcFUwNTB3a2IxczFDT3o?oc=5",
-     "source": "홈두부"
-    },
-    {
-     "title": "\"강남권 대표 랜드마크 선점할 마지막 기회\" '디에이치 신반포에스테라', 잔여 5세대 청약홈 임의공급 - 리얼캐스트",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JLTBNcU1YblVQOEc2ME50dE9ZMUFFZVRFYzZRUncyUmVaajNZTjAyVExxSVMtOUhkbzJsclBTVFY0bC1KNnVLaGtndzZNMGRwSXYyMUtudXIzSUVYQ21GSTUyTmZ0YXRvOG1yNA?oc=5",
-     "source": "리얼캐스트"
-    }
-   ],
-   "official": false,
-   "score": 57.0,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://www.etoday.co.kr/news/view/2648804",
-     "title": "[오늘의 청약 일정] '안산신길2지구 B-1블록 공공분양주택' 공급 등 - 이투데이",
-     "outlet": "이투데이"
-    },
-    {
-     "url": "http://www.dhdaily.co.kr/news/articleView.html?idxno=27899",
-     "title": "[11월 공모주 미리보기③] 에스에프씨 철회로 ‘유캐스트’ 나홀로 청약 - 대한데일리",
-     "outlet": "대한데일리"
-    },
-    {
-     "url": "https://contents.premium.naver.com/newgle/newgle1/contents/261117154929422pz",
-     "title": "중화역 라온프라이빗 센트로, 청약 비추천? 그래서 넣어? 말아? - 네이버 프리미엄콘텐츠",
-     "outlet": "네이버 프리미엄콘텐츠"
-    },
-    {
-     "url": "https://www.rcast.co.kr/news/articleViewAmp.html?idxno=32075",
-     "title": "\"강남권 대표 랜드마크 선점할 마지막 기회\" '디에이치 신반포에스테라', 잔여 5세대 청약홈 임의공급 - 리얼캐스트",
-     "outlet": "리얼캐스트"
-    }
-   ]
-  },
-  {
    "source": "tv_food",
    "keyword": "생방송 투데이 맛집 2026-11-17",
    "program": "생방송 투데이",
@@ -1450,108 +1390,62 @@
   },
   {
    "source": "google_news",
-   "keyword": "연말정산 미리보기",
+   "keyword": "청약 일정",
    "traffic": 0,
-   "article_count_24h": 11,
+   "article_count_24h": 26,
    "article_count_1h": 0,
-   "published": "2026-11-18T00:42:30+09:00",
-   "category": "세금",
-   "news": [
-    {
-     "title": "2026 고향사랑기부제 세액공제 총정리! 10만원·20만원 기부 혜택과 답례품 추천 - 고향사랑기부제 위기브",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56RnBhc3BGeDh4dEE3SkZKVDd0RWxRVjloMEZiTEFsbTJMOTVlMUZsXzhncS1qNFVsUzR2X2hBM0ptSmtqNVZHWURCdEVReDNDLTU5UmJn?oc=5",
-     "source": "고향사랑기부제 위기브"
-    },
-    {
-     "title": "지역소멸 막는 로컬 브랜드, 고향사랑기부제로 지역경제 응원하는 방법 - 고향사랑기부제 위기브",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nc2NhVmxzZ3BrMDFXbjBhUUcwX21xSzR5MlBxVkd5dW1wUXJoTGwyZVZaMWpyVjJvNnNPTnh2UXN4dmZ1TktLY0xGR0hvYVJYcWNjZnFR?oc=5",
-     "source": "고향사랑기부제 위기브"
-    },
-    {
-     "title": "국세청, 연말정산 공제 오류 사전 차단…근로자 9만 명에 모바일 안내 - https://www.thedailyeconomy.kr/",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tYmI0S0tINDZVWkdXNjk5cm9EaWtSUDIwXzRmcnRaN3paaDBXbDBNV1F1SEpQUjlIUmpvR1MyaEdocDlTNUkzdjZ1M3ZFVFFLWGVmMTNPWFhFRm9aczZoUE93T3l3cjNfOEVFWkdoRUI?oc=5",
-     "source": "https://www.thedailyeconomy.kr/"
-    },
-    {
-     "title": "2027학년도 수능 이후 가족여행 추천! 수험표 할인부터 겨울 온천 여행까지 - 고향사랑기부제 위기브",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00TWN6ZmZTRlFhU0lXZ0NnZUNJOXFGdHJMSE1XYnlSV3V2ZG9mZWNSWUtjd3NhVVNsMlFWd1RWTkt1TU5Vb3NSN2wwb2wyeDRmTzdBd1d3?oc=5",
-     "source": "고향사랑기부제 위기브"
-    },
-    {
-     "title": "광명시흥 보상비 5.5조→6.8조원…대토 신청 18일 마감, 지급은 별도 - https://www.thedailyeconomy.kr/",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02QTVPTWZvR0Zxd1dtdW5fNXFzOUZJRXdncERGRW55TUl2aW9NbXZVNUVyOGdpQk9SMTVHeHZyS3dScGxORGZzTXBZSmQ0N1pIZWdHRE1GcmtRUDhiZjNSRUxnVGFhd1VHYXdScnFEbnU?oc=5",
-     "source": "https://www.thedailyeconomy.kr/"
-    }
-   ],
-   "official": false,
-   "score": 42.0,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://www.wegive.co.kr/wezine/detail/2333",
-     "title": "2026 고향사랑기부제 세액공제 총정리! 10만원·20만원 기부 혜택과 답례품 추천 - 고향사랑기부제 위기브",
-     "outlet": "고향사랑기부제 위기브"
-    },
-    {
-     "url": "https://www.wegive.co.kr/wezine/detail/2334",
-     "title": "지역소멸 막는 로컬 브랜드, 고향사랑기부제로 지역경제 응원하는 방법 - 고향사랑기부제 위기브",
-     "outlet": "고향사랑기부제 위기브"
-    },
-    {
-     "url": "https://www.thedailyeconomy.kr/news/articleView.html?idxno=6704",
-     "title": "국세청, 연말정산 공제 오류 사전 차단…근로자 9만 명에 모바일 안내 - https://www.thedailyeconomy.kr/",
-     "outlet": "https://www.thedailyeconomy.kr/"
-    },
-    {
-     "url": "https://www.wegive.co.kr/wezine/detail/2332",
-     "title": "2027학년도 수능 이후 가족여행 추천! 수험표 할인부터 겨울 온천 여행까지 - 고향사랑기부제 위기브",
-     "outlet": "고향사랑기부제 위기브"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "wales vs portugal",
-   "traffic": 500,
-   "published": "2026-11-18T05:00:00+09:00",
+   "published": "2026-11-18T06:00:00+09:00",
    "category": "청약",
    "news": [
     {
-     "title": "Bruno Fernandes and David Brooks score goals in Wales v Portugal",
-     "url": "https://www.bbc.co.uk/sport/football/videos/cmn80yjw6v2wo",
-     "source": "BBC"
+     "title": "[오늘의 청약 일정] '안산신길2지구 B-1블록 공공분양주택' 공급 등 - 이투데이",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CdGg2cUpnUFRVNGlSNGstQmF4cmIwVXJUZTYxMWx1U3k5eGNTWGhWNkZvU0tsWWF2SVhKaWVxdjh5ajdMNGZTTjI0UUpTT2pDYnNtXw?oc=5",
+     "source": "이투데이"
     },
     {
-     "title": "Bruno Fernandes stunner lights up Wales v Portugal amid fresh twist in Man Utd future",
-     "url": "https://football360.com.au/wales-vs-portugal-bruno-fernandes-goal-man-utd-transfer-news/",
-     "source": "football360.com.au"
+     "title": "[11월 공모주 미리보기③] 에스에프씨 철회로 ‘유캐스트’ 나홀로 청약 - 대한데일리",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LNjltSWJENGpjU1BpT1piemdKZlQ2T1dNVmhzZUY3TWNRS2UzWl9MRkRrWkxObXNtelhGZmF3YnRiWUMxQ3daaGY4cG1DY0VEZm5XdC1xUTNkRGxjNVZpV3dVQmdiNGM1SHc?oc=5",
+     "source": "대한데일리"
     },
     {
-     "title": "Wales vs Portugal LIVE! Nations League Group A4 match updates, score, line-ups and commentary",
-     "url": "https://www.skysports.com/football/live-blog/13613359/wales-vs-portugal-live-nations-league-group-a4-match-updates-score-line-ups-and-commentary",
-     "source": "Sky Sports"
+     "title": "중화역 라온프라이빗 센트로, 청약 비추천? 그래서 넣어? 말아? - 네이버 프리미엄콘텐츠",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMnQ0a3liN0doWTRKelpWaWRlNXQ1X1lhRldMSlBndGk4amNxNXV3LS1xcE9EdkxxeXQzN0ljRkJQdzZiOGlUSEpDVlc2M2EtLWFJNkx3cjdETG5oaktId2M1RDVwQjF4ZjBoVkZHUUtiN3FGSGlfVm16d0xQREZTQzZn?oc=5",
+     "source": "네이버 프리미엄콘텐츠"
+    },
+    {
+     "title": "잠실 래미안아이파크 불법행위재공급 줍줍 (’26. 11/23~24) - 홈두부",
+     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5RWjRoVGNXbUx6TElweW02ZHNBVFNaYmFFMjNKenc1MUtqNFN1cVNEUXZpcFUwNTB3a2IxczFDT3o?oc=5",
+     "source": "홈두부"
+    },
+    {
+     "title": "\"강남권 대표 랜드마크 선점할 마지막 기회\" '디에이치 신반포에스테라', 잔여 5세대 청약홈 임의공급 - 리얼캐스트",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JLTBNcU1YblVQOEc2ME50dE9ZMUFFZVRFYzZRUncyUmVaajNZTjAyVExxSVMtOUhkbzJsclBTVFY0bC1KNnVLaGtndzZNMGRwSXYyMUtudXIzSUVYQ21GSTUyTmZ0YXRvOG1yNA?oc=5",
+     "source": "리얼캐스트"
     }
    ],
    "official": false,
-   "spike": "검색량 200→500",
-   "spike_bonus": 20,
-   "score": 33.8,
-   "already_covered": false,
+   "score": 45.0,
+   "already_covered": true,
    "evidence": [
     {
-     "url": "https://www.bbc.co.uk/sport/football/videos/cmn80yjw6v2wo",
-     "title": "Bruno Fernandes and David Brooks score goals in Wales v Portugal",
-     "outlet": "BBC"
+     "url": "https://www.etoday.co.kr/news/view/2648804",
+     "title": "[오늘의 청약 일정] '안산신길2지구 B-1블록 공공분양주택' 공급 등 - 이투데이",
+     "outlet": "이투데이"
     },
     {
-     "url": "https://football360.com.au/wales-vs-portugal-bruno-fernandes-goal-man-utd-transfer-news/",
-     "title": "Bruno Fernandes stunner lights up Wales v Portugal amid fresh twist in Man Utd future",
-     "outlet": "football360.com.au"
+     "url": "http://www.dhdaily.co.kr/news/articleView.html?idxno=27899",
+     "title": "[11월 공모주 미리보기③] 에스에프씨 철회로 ‘유캐스트’ 나홀로 청약 - 대한데일리",
+     "outlet": "대한데일리"
     },
     {
-     "url": "https://www.skysports.com/football/live-blog/13613359/wales-vs-portugal-live-nations-league-group-a4-match-updates-score-line-ups-and-commentary",
-     "title": "Wales vs Portugal LIVE! Nations League Group A4 match updates, score, line-ups and commentary",
-     "outlet": "Sky Sports"
+     "url": "https://contents.premium.naver.com/newgle/newgle1/contents/261117154929422pz",
+     "title": "중화역 라온프라이빗 센트로, 청약 비추천? 그래서 넣어? 말아? - 네이버 프리미엄콘텐츠",
+     "outlet": "네이버 프리미엄콘텐츠"
+    },
+    {
+     "url": "https://www.rcast.co.kr/news/articleViewAmp.html?idxno=32075",
+     "title": "\"강남권 대표 랜드마크 선점할 마지막 기회\" '디에이치 신반포에스테라', 잔여 5세대 청약홈 임의공급 - 리얼캐스트",
+     "outlet": "리얼캐스트"
     }
    ]
   },
@@ -1559,7 +1453,7 @@
    "source": "google_news",
    "keyword": "청년월세 지원",
    "traffic": 0,
-   "article_count_24h": 21,
+   "article_count_24h": 20,
    "article_count_1h": 0,
    "published": "2026-11-17T17:55:43+09:00",
    "category": "정부혜택",
@@ -1639,9 +1533,14 @@
    "traffic": 0,
    "article_count_24h": 22,
    "article_count_1h": 0,
-   "published": "2026-11-17T23:14:26+09:00",
+   "published": "2026-11-17T23:58:57+09:00",
    "category": "정부혜택",
    "news": [
+    {
+     "title": "[복지뉴스] AI는 복지를 어떻게 바꿀까…‘사회보장 AI 심포지엄’ 13일부터 사전등록 外 - 베이비뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwSTZ0VDlUUl9SdmNPb3JhWHlSdERsYTJpYTlucHI4bjVNdDFuTC1uV0tyN0hxOFlBXzl4V0pjZUR4SUUzd2ZfR09kcmtJUVIyOGFRdWcwTlltMHhWRHMySllMaXM3TndBbC0xTA?oc=5",
+     "source": "베이비뉴스"
+    },
     {
      "title": "경기도 산후조리비 지원 중단 추진에 반발…도의회 \"예산 재검토해야\" - 베이비뉴스",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zR3pMSUhoZ3dXVENoQVZ6Y2tIVHM0U0F2cjFIQXh5MWx3U0Z3SEZJemo4aXRYTFFqRHJBMjNLSG1RRjJybFgxTlhneEQ2Y05naE9odEFoU0F3cFo0dTQzOEpmdWJYRHNwVlMyMw?oc=5",
@@ -1658,13 +1557,8 @@
      "source": "베이비뉴스"
     },
     {
-     "title": "프리미엄 주방 브랜드 ‘온베르’ 첫선… 하얀쿡과 베이비쿡 304 이유식 냄비 론칭 - 베이비뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOTjZtU2dyTWpNZnZsX0tJelVTRmlfZ2lOcDUyNFhwbE5BSExTV2lUdTRxUWlrQTRWeTlmVHU3T3ZTb0FHSHlpeVFwMGM0aG9qemppbFNDUWhIWGlrY2hVU0FKQ3M3Wkk4OFFLUQ?oc=5",
-     "source": "베이비뉴스"
-    },
-    {
-     "title": "서울 청년 10명 중 7명 \"여성·남성 모두 차별받아\"…결혼·출산 의향은 절반 미만 - 베이비뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkUFIzeWdNMVZWOTN0WkdIZHFWN2NsTHgtWVdDZ1VsYmpiSG55NFk2RzRlWV9QMXYwQ1EzejhuNU5FamdtXzl2ejlub2dqZkVYYkRQT3JDMW4xdURRZHlib0ttYjFIcnN1ODI5Ng?oc=5",
+     "title": "보습크림 8종 비교해보니…보습력 우수 제품 따로 있었다 - 베이비뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Lcmx1N1pOeTJJLVlWeThJOVZzYlVQeVZ1MGhGbDdTRkUxcHZfYmZ6bDJSSnhYRmVkdFVrakFqRVhfQXB4c0NybDZELXlvUWxPMVh2OHRGckUwZEtXb3ZEWkRzSUlSNllkdnlJbA?oc=5",
      "source": "베이비뉴스"
     }
    ],
@@ -1716,7 +1610,7 @@
    "keyword": "한 총리 \"수능 때 안경 전수검사…옷 단추마다 스티커 부착\"",
    "traffic": 0,
    "rank": 1,
-   "published": "2026-11-18T06:33:09.195084+09:00",
+   "published": "2026-11-18T07:04:24.540702+09:00",
    "category": "기타",
    "news": [
     {
@@ -1735,45 +1629,6 @@
      "outlet": "정책브리핑 실시간 인기뉴스"
     }
    ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "무순위 청약",
-   "traffic": 0,
-   "article_count_24h": 9,
-   "article_count_1h": 1,
-   "published": "2026-11-17T17:58:00+09:00",
-   "category": "청약",
-   "news": [
-    {
-     "title": "잠실서 또 '로또 청약'…래미안아이파크 3가구 무순위 공급 - 뉴스핌",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQdFF0S1dnUG5nSUh1aFR5blkxaHpDaGRSanc0MjJBSEFpSW9SZXg5YUUxcnlWNmZZaEE2TVdhcGxwMVYzMmdsOW13dk1CUjdVeWNJcFRKNzl4VEdt?oc=5",
-     "source": "뉴스핌"
-    },
-    {
-     "title": "용인 양지 서희스타힐스 하이뷰, 18일 무순위 19세대 청약 - 비건뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WX0NoR0VBLTd2RmEwRkozb29xZjhRSHJMb18zREhieVdvYzBvdU4wd1BhYVlicE1OOGtfbXpxZUpZSVBnS1hsSXpTOXQ0SDhEQUxFTF9fOFdCbExfeFRRMkp6Q242Zw?oc=5",
-     "source": "비건뉴스"
-    },
-    {
-     "title": "잠실서 '20억 로또' 나온다…'잠실래미안아이파크' 3가구 줍줍 - 땅집고",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VSlcxTU9PdC14V3phYTQxNXJiR3J4NTRlYmZUSG1QWlJIcTNRZTJIYUtwRW16Snk4NjhQUEJGUFhJTzR0bFAyRVc4Y3Q0V1ZtYkNnc3J2a1ZxUGJzQXAyYlAtLUUzMEE5am5DdXNTWWpobDVNVE12MmxZX1lzUm_SAXNBVV95cUxPLURwVVRfaXdIRjVndTlKY0NBeTFWX2ZSQjVTSWthUkJyemExRDBmeFFzREVqWW9CX1I0bXJ5XzhnN3hjalFPOGFSM2xPdGRabkpqeUVTWVNETjZ4RVhPUEZOLXJWNFFGTFRRNE04SE9jbHg0?oc=5",
-     "source": "땅집고"
-    },
-    {
-     "title": "[오늘의 청약 일정] '안산신길2지구 B-1블록 공공분양주택' 공급 등 - 이투데이",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CdGg2cUpnUFRVNGlSNGstQmF4cmIwVXJUZTYxMWx1U3k5eGNTWGhWNkZvU0tsWWF2SVhKaWVxdjh5ajdMNGZTTjI0UUpTT2pDYnNtXw?oc=5",
-     "source": "이투데이"
-    },
-    {
-     "title": "잠실 래미안아이파크 불법행위재공급 줍줍 (’26. 11/23~24) - 홈두부",
-     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5RWjRoVGNXbUx6TElweW02ZHNBVFNaYmFFMjNKenc1MUtqNFN1cVNEUXZpcFUwNTB3a2IxczFDT3o?oc=5",
-     "source": "홈두부"
-    }
-   ],
-   "official": false,
-   "score": 32.5,
-   "already_covered": false
   },
   {
    "source": "google_news",
@@ -1815,38 +1670,11 @@
    "already_covered": true
   },
   {
-   "source": "google_trends",
-   "keyword": "경찰",
-   "traffic": 10000,
-   "published": "2026-11-18T04:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "\"이렇게까지 한다고?\" 웃음보인 장관‥\"믿음 깨져\" 냉소 속출",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866389_37004.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "당정, '수능 AI 부정행위' 대책 협의회…입법 과제 등 논의",
-     "url": "https://www.yna.co.kr/view/AKR20261117175800001",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "결국 육안 점검…감독관·수험생 부담 여전",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715368",
-     "source": "KBS 뉴스"
-    }
-   ],
-   "official": false,
-   "score": 30.0,
-   "already_covered": false
-  },
-  {
    "source": "korea_kr",
    "keyword": "'방한 관광객 2000만 명 시대' 개막…대체불가 관광대국 도약",
    "traffic": 0,
    "rank": 2,
-   "published": "2026-11-18T06:33:09.195146+09:00",
+   "published": "2026-11-18T07:04:24.540757+09:00",
    "category": "기타",
    "news": [
     {
@@ -1868,42 +1696,42 @@
   },
   {
    "source": "google_news",
-   "keyword": "종합소득세 신고",
+   "keyword": "연말정산 미리보기",
    "traffic": 0,
-   "article_count_24h": 8,
-   "article_count_1h": 1,
-   "published": "2026-11-17T08:21:54+09:00",
+   "article_count_24h": 10,
+   "article_count_1h": 0,
+   "published": "2026-11-18T00:42:30+09:00",
    "category": "세금",
    "news": [
+    {
+     "title": "2026 고향사랑기부제 세액공제 총정리! 10만원·20만원 기부 혜택과 답례품 추천 - 고향사랑기부제 위기브",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56RnBhc3BGeDh4dEE3SkZKVDd0RWxRVjloMEZiTEFsbTJMOTVlMUZsXzhncS1qNFVsUzR2X2hBM0ptSmtqNVZHWURCdEVReDNDLTU5UmJn?oc=5",
+     "source": "고향사랑기부제 위기브"
+    },
+    {
+     "title": "지역소멸 막는 로컬 브랜드, 고향사랑기부제로 지역경제 응원하는 방법 - 고향사랑기부제 위기브",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nc2NhVmxzZ3BrMDFXbjBhUUcwX21xSzR5MlBxVkd5dW1wUXJoTGwyZVZaMWpyVjJvNnNPTnh2UXN4dmZ1TktLY0xGR0hvYVJYcWNjZnFR?oc=5",
+     "source": "고향사랑기부제 위기브"
+    },
     {
      "title": "국세청, 연말정산 공제 오류 사전 차단…근로자 9만 명에 모바일 안내 - https://www.thedailyeconomy.kr/",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tYmI0S0tINDZVWkdXNjk5cm9EaWtSUDIwXzRmcnRaN3paaDBXbDBNV1F1SEpQUjlIUmpvR1MyaEdocDlTNUkzdjZ1M3ZFVFFLWGVmMTNPWFhFRm9aczZoUE93T3l3cjNfOEVFWkdoRUI?oc=5",
      "source": "https://www.thedailyeconomy.kr/"
     },
     {
-     "title": "[단독] 명의는 대학 동기, 차익은 '코스닥 큰손' 원영식 몫 … 법원, \"'차명 조합원' 판단\" 원측 요구 모두 기각 - 뉴데일리",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uaktLSzVqMUN0SjBRX2RuUUhCeFd6aVZrVVlGWFNJYnFCUmFLMVd3ZVZvcHlBRUpOSzZHUGxIWU9nYlZlX2ZIMFY2V3YzUG41R21SdzBydHVka0g0MExreW91N292WWtRZ3JySGxISnU5WmVLdThRTDNaSdIBgAFBVV95cUxNMF91dTFKOHowTFU0LWgyMUlLLVppWFdMQ0t2dW1tYzNWNUhkRi1pTE1Vb2x2bHVBMlo0SERrR2t5bkJHMFRNbmdiVFQteXA1Smt4M3pRcklIQVZUWnM0Xy1KbWowbXgtU3ZjQXd1UWN0Qk4wYzA0NUwtODA0eWpiZQ?oc=5",
-     "source": "뉴데일리"
+     "title": "2027학년도 수능 이후 가족여행 추천! 수험표 할인부터 겨울 온천 여행까지 - 고향사랑기부제 위기브",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00TWN6ZmZTRlFhU0lXZ0NnZUNJOXFGdHJMSE1XYnlSV3V2ZG9mZWNSWUtjd3NhVVNsMlFWd1RWTkt1TU5Vb3NSN2wwb2wyeDRmTzdBd1d3?oc=5",
+     "source": "고향사랑기부제 위기브"
     },
     {
-     "title": "연말정산 공제 오류, 모바일 사전 안내로 미리 확인 - 대한민국 정책브리핑",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wV2ZmM0hPUHEtdkxWYmp0TGpmaVpFd3V6b3JUUFRqRnA2d3NCaU1adWVBdXU5b1hiU1Y3cGJwa0dKb0FiU3J0MWVrR3RZV2NHUVVXM3ZmUVhSLXlKTjBBcEh4c1ROUFZH?oc=5",
-     "source": "대한민국 정책브리핑"
-    },
-    {
-     "title": "[건축사의 세무 실무] 건축사사무소 개인소득세 중간예납 신고·납부 - 대한건축사협회 건축사신문",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1meldDMEVpWnZBZV9Db1RZS1oycVZFY2ZvSEp3R3ROci1FX3VUQnloYmJ6OHA5U3pnQ183Y1hFMEJDZlZlQThjSWx0SVhFcGwxSEFFSHNYZ2JDODc3TjRJRVp1UThoY00?oc=5",
-     "source": "대한건축사협회 건축사신문"
-    },
-    {
-     "title": "유명 작곡가, 저작권 넘겼다가 '세금폭탄' [과세전적부심] - 조세일보",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zRnMzMGs0TkxxQzd4QjdaaklXQ0JpdjRtR3NpcGFDMVB6UXRfblhOb092ZGV0d2VZcnJfRmlmT3RualBhWE9fb1VFd2paUDlFY3o4WWtBWlE0MG40UTRB?oc=5",
-     "source": "조세일보"
+     "title": "광명시흥 보상비 5.5조→6.8조원…대토 신청 18일 마감, 지급은 별도 - https://www.thedailyeconomy.kr/",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02QTVPTWZvR0Zxd1dtdW5fNXFzOUZJRXdncERGRW55TUl2aW9NbXZVNUVyOGdpQk9SMTVHeHZyS3dScGxORGZzTXBZSmQ0N1pIZWdHRE1GcmtRUDhiZjNSRUxnVGFhd1VHYXdScnFEbnU?oc=5",
+     "source": "https://www.thedailyeconomy.kr/"
     }
    ],
    "official": false,
-   "score": 27.4,
-   "already_covered": false
+   "score": 29.4,
+   "already_covered": true
   },
   {
    "source": "google_news",
@@ -1935,9 +1763,9 @@
      "source": "신아일보"
     },
     {
-     "title": "화천군, 출산 장려금 지원 재개 아이 1명당 최대 300만원 지급 - m.newszoom.kr",
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1DMFFMVWp1ODg0RU4xNnJabFQwUXQzeGJDUDBzMHNmTHpIQlE4SS0zYjJuVlU0NUxRNjk1UFBYb1dsUHRh?oc=5",
-     "source": "m.newszoom.kr"
+     "title": "화천군, 출산 장려금 지원 재개 아이 1명당 최대 300만원 지급 - 한국미디어뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GbTZfMHJ5RWtCNm14X3RSLWVPejAxUXJZMDdicTRoSUVJUFZ4cFZTZEd6VC1Cc0JubEhheDBLRXVodFFhRDVLd3NYMzFzWXlPdmNJeXdaSHY5djdSMlpROFR6MTlSdw?oc=5",
+     "source": "한국미디어뉴스"
     }
    ],
    "official": false,
@@ -3075,15 +2903,15 @@
   },
   {
    "source": "korea_kr",
-   "keyword": "이 대통령, 동아시아 정상회의 첫 참석…한반도 평화에 관심·협력 당부",
+   "keyword": "공동주택 리모델링 주민 동의율, 75%→70%로 완화",
    "traffic": 0,
    "rank": 3,
-   "published": "2026-11-18T06:33:09.195179+09:00",
+   "published": "2026-11-18T07:04:24.540781+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "이 대통령, 동아시아 정상회의 첫 참석…한반도 평화에 관심·협력 당부",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975933",
+     "title": "공동주택 리모델링 주민 동의율, 75%→70%로 완화",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975891",
      "source": "정책브리핑 실시간 인기뉴스"
     }
    ],
@@ -3092,18 +2920,96 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975933",
-     "title": "이 대통령, 동아시아 정상회의 첫 참석…한반도 평화에 관심·협력 당부",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975891",
+     "title": "공동주택 리모델링 주민 동의율, 75%→70%로 완화",
      "outlet": "정책브리핑 실시간 인기뉴스"
     }
    ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "무순위 청약",
+   "traffic": 0,
+   "article_count_24h": 8,
+   "article_count_1h": 0,
+   "published": "2026-11-17T17:58:00+09:00",
+   "category": "청약",
+   "news": [
+    {
+     "title": "잠실서 또 '로또 청약'…래미안아이파크 3가구 무순위 공급 - 뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQdFF0S1dnUG5nSUh1aFR5blkxaHpDaGRSanc0MjJBSEFpSW9SZXg5YUUxcnlWNmZZaEE2TVdhcGxwMVYzMmdsOW13dk1CUjdVeWNJcFRKNzl4VEdt?oc=5",
+     "source": "뉴스핌"
+    },
+    {
+     "title": "용인 양지 서희스타힐스 하이뷰, 18일 무순위 19세대 청약 - 비건뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WX0NoR0VBLTd2RmEwRkozb29xZjhRSHJMb18zREhieVdvYzBvdU4wd1BhYVlicE1OOGtfbXpxZUpZSVBnS1hsSXpTOXQ0SDhEQUxFTF9fOFdCbExfeFRRMkp6Q242Zw?oc=5",
+     "source": "비건뉴스"
+    },
+    {
+     "title": "잠실서 '20억 로또' 나온다…'잠실래미안아이파크' 3가구 줍줍 - 땅집고",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VSlcxTU9PdC14V3phYTQxNXJiR3J4NTRlYmZUSG1QWlJIcTNRZTJIYUtwRW16Snk4NjhQUEJGUFhJTzR0bFAyRVc4Y3Q0V1ZtYkNnc3J2a1ZxUGJzQXAyYlAtLUUzMEE5am5DdXNTWWpobDVNVE12MmxZX1lzUm_SAXNBVV95cUxPLURwVVRfaXdIRjVndTlKY0NBeTFWX2ZSQjVTSWthUkJyemExRDBmeFFzREVqWW9CX1I0bXJ5XzhnN3hjalFPOGFSM2xPdGRabkpqeUVTWVNETjZ4RVhPUEZOLXJWNFFGTFRRNE04SE9jbHg0?oc=5",
+     "source": "땅집고"
+    },
+    {
+     "title": "[오늘의 청약 일정] '안산신길2지구 B-1블록 공공분양주택' 공급 등 - 이투데이",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CdGg2cUpnUFRVNGlSNGstQmF4cmIwVXJUZTYxMWx1U3k5eGNTWGhWNkZvU0tsWWF2SVhKaWVxdjh5ajdMNGZTTjI0UUpTT2pDYnNtXw?oc=5",
+     "source": "이투데이"
+    },
+    {
+     "title": "잠실 래미안아이파크 불법행위재공급 줍줍 (’26. 11/23~24) - 홈두부",
+     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5RWjRoVGNXbUx6TElweW02ZHNBVFNaYmFFMjNKenc1MUtqNFN1cVNEUXZpcFUwNTB3a2IxczFDT3o?oc=5",
+     "source": "홈두부"
+    }
+   ],
+   "official": false,
+   "score": 25.2,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "종합소득세 신고",
+   "traffic": 0,
+   "article_count_24h": 8,
+   "article_count_1h": 0,
+   "published": "2026-11-17T08:21:54+09:00",
+   "category": "세금",
+   "news": [
+    {
+     "title": "국세청, 연말정산 공제 오류 사전 차단…근로자 9만 명에 모바일 안내 - https://www.thedailyeconomy.kr/",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tYmI0S0tINDZVWkdXNjk5cm9EaWtSUDIwXzRmcnRaN3paaDBXbDBNV1F1SEpQUjlIUmpvR1MyaEdocDlTNUkzdjZ1M3ZFVFFLWGVmMTNPWFhFRm9aczZoUE93T3l3cjNfOEVFWkdoRUI?oc=5",
+     "source": "https://www.thedailyeconomy.kr/"
+    },
+    {
+     "title": "[단독] 명의는 대학 동기, 차익은 '코스닥 큰손' 원영식 몫 … 법원, \"'차명 조합원' 판단\" 원측 요구 모두 기각 - 뉴데일리",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uaktLSzVqMUN0SjBRX2RuUUhCeFd6aVZrVVlGWFNJYnFCUmFLMVd3ZVZvcHlBRUpOSzZHUGxIWU9nYlZlX2ZIMFY2V3YzUG41R21SdzBydHVka0g0MExreW91N292WWtRZ3JySGxISnU5WmVLdThRTDNaSdIBgAFBVV95cUxNMF91dTFKOHowTFU0LWgyMUlLLVppWFdMQ0t2dW1tYzNWNUhkRi1pTE1Vb2x2bHVBMlo0SERrR2t5bkJHMFRNbmdiVFQteXA1Smt4M3pRcklIQVZUWnM0Xy1KbWowbXgtU3ZjQXd1UWN0Qk4wYzA0NUwtODA0eWpiZQ?oc=5",
+     "source": "뉴데일리"
+    },
+    {
+     "title": "연말정산 공제 오류, 모바일 사전 안내로 미리 확인 - 대한민국 정책브리핑",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wV2ZmM0hPUHEtdkxWYmp0TGpmaVpFd3V6b3JUUFRqRnA2d3NCaU1adWVBdXU5b1hiU1Y3cGJwa0dKb0FiU3J0MWVrR3RZV2NHUVVXM3ZmUVhSLXlKTjBBcEh4c1ROUFZH?oc=5",
+     "source": "대한민국 정책브리핑"
+    },
+    {
+     "title": "[건축사의 세무 실무] 건축사사무소 개인소득세 중간예납 신고·납부 - 대한건축사협회 건축사신문",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1meldDMEVpWnZBZV9Db1RZS1oycVZFY2ZvSEp3R3ROci1FX3VUQnloYmJ6OHA5U3pnQ183Y1hFMEJDZlZlQThjSWx0SVhFcGwxSEFFSHNYZ2JDODc3TjRJRVp1UThoY00?oc=5",
+     "source": "대한건축사협회 건축사신문"
+    },
+    {
+     "title": "유명 작곡가, 저작권 넘겼다가 '세금폭탄' [과세전적부심] - 조세일보",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zRnMzMGs0TkxxQzd4QjdaaklXQ0JpdjRtR3NpcGFDMVB6UXRfblhOb092ZGV0d2VZcnJfRmlmT3RualBhWE9fb1VFd2paUDlFY3o4WWtBWlE0MG40UTRB?oc=5",
+     "source": "조세일보"
+    }
+   ],
+   "official": false,
+   "score": 23.5,
+   "already_covered": false
   },
   {
    "source": "korea_kr",
    "keyword": "정부, 수능 시험장 모든 스마트기기 반납·공공 와이파이 차단 추진",
    "traffic": 0,
    "rank": 4,
-   "published": "2026-11-18T06:33:09.195211+09:00",
+   "published": "2026-11-18T07:04:24.540801+09:00",
    "category": "기타",
    "news": [
     {
@@ -3122,45 +3028,6 @@
      "outlet": "정책브리핑 실시간 인기뉴스"
     }
    ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "실업급여",
-   "traffic": 0,
-   "article_count_24h": 8,
-   "article_count_1h": 0,
-   "published": "2026-11-17T11:38:31+09:00",
-   "category": "노동·급여",
-   "news": [
-    {
-     "title": "[아유경제_사회] 이관수 노무사, 실업급여 부정 수급 예방을 위한 국민 대상 특별강연 개최 - 아유경제",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsM1pnWnRObkhPWjNDSlZUbm8zZkFWaXFBNG5XbDZ0Z0s2bGthUjYyRm9ObmVKNC1zM2tLNFRhcE1ZMjlnaVF0N1poR3c4c0xtcDMtVWwzazFLd1JzMXh6M2dCN2t0QkQ2?oc=5",
-     "source": "아유경제"
-    },
-    {
-     "title": "\"자활사업 성과평가, 탈수급 중심서 다차원 체계로 전환해야\" - 연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43X2ItTHZxYU9OdEtaOFFyTHNRWlE1eUttNmtUblpjd2lrY05JRXFIb2d1c1ZjTmhTaHRSX2lQa0hpRmZlN3RMVlh0aTRwQVRSMFZsbUdTYm5GQU0ydVRVQ9IBYEFVX3lxTE43X2ItTHZxYU9OdEtaOFFyTHNRWlE1eUttNmtUblpjd2lrY05JRXFIb2d1c1ZjTmhTaHRSX2lQa0hpRmZlN3RMVlh0aTRwQVRSMFZsbUdTYm5GQU0ydVRVQw?oc=5",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "“혼자 가게 꾸리는 사장님, 보험료 부담 덜어드립니다”…경기도 연말 지원 - 주간한국",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VTzFfd0kteEI4VUVoaGMxbGdQTUhTRDROSTJWSmZKeTZJem5yV0F5S0ZWcVlheDh5MWlhQl9QRG1TNzVEQWZNUTlFZmlmU3JhMkl2dnc5cm53dmhuUHMtc2lLQkJaRlpQTnZPSUVmTzI3TmNt0gF0QVVfeXFMTVVPMV93SS14QjhVRWhoYzFsZ1BNSFNENE5JMlZKZkp5Nkl6bnJXQXlLRlZxWWF4OHkxaWFCX1BEbVM3NURBZk1ROUVmaWZTcmEySXZ2dzlybnd2aG5Qcy1zaUtCQlpGWlBOdk9JRWZPMjdOY20?oc=5",
-     "source": "주간한국"
-    },
-    {
-     "title": "욕설·폭언 버티다 사표 내도 실업급여 100% 수령, 노동청 신고 필수 3단계?!! - 뉴스N연합",
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0zQXYzNHhCVkluQmFQS3ZmMllRVDV4b2YzemFpM0FnY19wbWNBWGw4T2VGSGtTaGhBVVZMWkkxSUNITG5qRnJCTThn?oc=5",
-     "source": "뉴스N연합"
-    },
-    {
-     "title": "경상원, ‘경기도 1인 소상공인 고용보험료 지원사업’ 추가 접수 - 시사일보",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5JNUN1YXgyUlNjeWlncDVTNldESEZMTXBUX1QtcnRHb2JPd29vU2k1TlZETFlPTzJzVDVUbHRVSkt0SnVLclJwdHFsbUc?oc=5",
-     "source": "시사일보"
-    }
-   ],
-   "official": false,
-   "score": 21.8,
-   "already_covered": true
   },
   {
    "source": "google_news",
@@ -3242,6 +3109,45 @@
   },
   {
    "source": "google_news",
+   "keyword": "실업급여",
+   "traffic": 0,
+   "article_count_24h": 7,
+   "article_count_1h": 0,
+   "published": "2026-11-17T11:38:31+09:00",
+   "category": "노동·급여",
+   "news": [
+    {
+     "title": "[아유경제_사회] 이관수 노무사, 실업급여 부정 수급 예방을 위한 국민 대상 특별강연 개최 - 아유경제",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsM1pnWnRObkhPWjNDSlZUbm8zZkFWaXFBNG5XbDZ0Z0s2bGthUjYyRm9ObmVKNC1zM2tLNFRhcE1ZMjlnaVF0N1poR3c4c0xtcDMtVWwzazFLd1JzMXh6M2dCN2t0QkQ2?oc=5",
+     "source": "아유경제"
+    },
+    {
+     "title": "\"자활사업 성과평가, 탈수급 중심서 다차원 체계로 전환해야\" - 연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43X2ItTHZxYU9OdEtaOFFyTHNRWlE1eUttNmtUblpjd2lrY05JRXFIb2d1c1ZjTmhTaHRSX2lQa0hpRmZlN3RMVlh0aTRwQVRSMFZsbUdTYm5GQU0ydVRVQ9IBYEFVX3lxTE43X2ItTHZxYU9OdEtaOFFyTHNRWlE1eUttNmtUblpjd2lrY05JRXFIb2d1c1ZjTmhTaHRSX2lQa0hpRmZlN3RMVlh0aTRwQVRSMFZsbUdTYm5GQU0ydVRVQw?oc=5",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "“혼자 가게 꾸리는 사장님, 보험료 부담 덜어드립니다”…경기도 연말 지원 - 주간한국",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VTzFfd0kteEI4VUVoaGMxbGdQTUhTRDROSTJWSmZKeTZJem5yV0F5S0ZWcVlheDh5MWlhQl9QRG1TNzVEQWZNUTlFZmlmU3JhMkl2dnc5cm53dmhuUHMtc2lLQkJaRlpQTnZPSUVmTzI3TmNt0gF0QVVfeXFMTVVPMV93SS14QjhVRWhoYzFsZ1BNSFNENE5JMlZKZkp5Nkl6bnJXQXlLRlZxWWF4OHkxaWFCX1BEbVM3NURBZk1ROUVmaWZTcmEySXZ2dzlybnd2aG5Qcy1zaUtCQlpGWlBOdk9JRWZPMjdOY20?oc=5",
+     "source": "주간한국"
+    },
+    {
+     "title": "'구직 포기 100만 청년'에... 英 \"청년 복지 줄이고 기업 감세로 해결\" - 한국일보",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VZ2I5MktlMkZaWXF5aklER2tZaTFLSkJFRV95VkgzRktObkRJV29oQTF5TjZKZC1WT2pnU2I3SEZ6SjR6ZVlJb2xoQ2VQenptcVVOckZCWTBpRmtFSXhtSGJDTDBtZ3l5THAwYVpR0gFzQVVfeXFMTlQwLXlNR2thU3F6clZPYmNxYXNQWW4xSlVQdkEtbFJqTVJNVkNaME94cktaNHFINHhKanZwMnRMbkd1dWljRjk5c3RlNG80S0lZN1FCLUhxY3ZSVTVUTXd4bVJoamRIbmowR3RUSGYwakZwMA?oc=5",
+     "source": "한국일보"
+    },
+    {
+     "title": "욕설·폭언 버티다 사표 내도 실업급여 100% 수령, 노동청 신고 필수 3단계?!! - 뉴스N연합",
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0zQXYzNHhCVkluQmFQS3ZmMllRVDV4b2YzemFpM0FnY19wbWNBWGw4T2VGSGtTaGhBVVZMWkkxSUNITG5qRnJCTThn?oc=5",
+     "source": "뉴스N연합"
+    }
+   ],
+   "official": false,
+   "score": 19.1,
+   "already_covered": true
+  },
+  {
+   "source": "google_news",
    "keyword": "청년 특별공급",
    "traffic": 0,
    "article_count_24h": 6,
@@ -3281,15 +3187,15 @@
   },
   {
    "source": "korea_kr",
-   "keyword": "청년 재무상담으로 금융력↑, 적금 우대금리도 ↑!",
+   "keyword": "이 대통령, 동아시아 정상회의 첫 참석…한반도 평화에 관심·협력 당부",
    "traffic": 0,
    "rank": 5,
-   "published": "2026-11-18T06:33:09.195240+09:00",
+   "published": "2026-11-18T07:04:24.540822+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "청년 재무상담으로 금융력↑, 적금 우대금리도 ↑!",
-     "url": "https://www.korea.kr/news/reporterView.do?newsId=148975833",
+     "title": "이 대통령, 동아시아 정상회의 첫 참석…한반도 평화에 관심·협력 당부",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975933",
      "source": "정책브리핑 실시간 인기뉴스"
     }
    ],
@@ -3298,8 +3204,8 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.korea.kr/news/reporterView.do?newsId=148975833",
-     "title": "청년 재무상담으로 금융력↑, 적금 우대금리도 ↑!",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975933",
+     "title": "이 대통령, 동아시아 정상회의 첫 참석…한반도 평화에 관심·협력 당부",
      "outlet": "정책브리핑 실시간 인기뉴스"
     }
    ]
@@ -3423,129 +3329,88 @@
   },
   {
    "source": "google_trends",
-   "keyword": "김장",
-   "traffic": 500,
-   "published": "2026-11-18T05:00:00+09:00",
+   "keyword": "배당",
+   "traffic": 2000,
+   "published": "2026-11-18T05:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "충북농협, 7400㎏ 김장 행사…취약계층·복지시설에 전달",
-     "url": "https://www.news1.kr/local/sejong-chungbuk/6356875",
-     "source": "뉴스1"
+     "title": "미래에셋자산운용, TIGER 액티브 커버드콜 ETF 순자산 4조원 돌파",
+     "url": "https://www.etnews.com/20261117000070",
+     "source": "전자신문"
     },
     {
-     "title": "충북농협, 김장김치 7.4t 나눔…충청대엔 1000원 점심 지원",
-     "url": "https://www.newspim.com/news/view/20261117000791",
-     "source": "뉴스핌"
+     "title": "ETF 투자자도 '삼전닉스 배당'에 웃는다…분배율 5배 껑충",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=02955286645646376",
+     "source": "마켓인"
     },
     {
-     "title": "농협은행, 김장철 맞아 지역 어르신에 온정 나눔 실천",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=757530",
-     "source": "ER 이코노믹리뷰"
+     "title": "'매월 따박따박' 100조 몰렸는데…'몰빵 vs 적립' 누가 더 벌었나 [조아라의 ETF 돋보기]",
+     "url": "https://www.hankyung.com/article/202611108011i",
+     "source": "한국경제"
     }
    ],
    "official": false,
-   "spike": "검색량 200→500",
-   "spike_bonus": 20,
-   "score": 13.5,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://www.newspim.com/news/view/20261117000791",
-     "title": "충북농협, 김장김치 7.4t 나눔…충청대엔 1000원 점심 지원",
-     "outlet": "뉴스핌"
-    },
-    {
-     "url": "https://www.econovill.com/news/articleView.html?idxno=757530",
-     "title": "농협은행, 김장철 맞아 지역 어르신에 온정 나눔 실천",
-     "outlet": "ER 이코노믹리뷰"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "아이폰",
-   "traffic": 200,
-   "published": "2026-11-18T04:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "The iPhone Duo feels far more intuitive with Apple’s new face unlock",
-     "url": "https://www.theverge.com/tech/1035437/iphone-duo-face-unlock-front-camera-hands-on",
-     "source": "The Verge"
-    },
-    {
-     "title": "Apple to Let Users Face-Unlock iPhone Duo, Addressing Key Drawback",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-16/apple-to-let-users-face-unlock-iphone-duo-addressing-key-drawback",
-     "source": "Bloomberg.com"
-    },
-    {
-     "title": "iOS 27.3 Beta 2 Now Available for Developers",
-     "url": "https://www.macrumors.com/2026/11/16/apple-releases-ios-27-3-beta-2/",
-     "source": "MacRumors"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 100→200",
-   "spike_bonus": 20,
-   "score": 12.6,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.theverge.com/tech/1035437/iphone-duo-face-unlock-front-camera-hands-on",
-     "title": "The iPhone Duo feels far more intuitive with Apple’s new face unlock",
-     "outlet": "The Verge"
+     "url": "https://www.etnews.com/20261117000070",
+     "title": "미래에셋자산운용, TIGER 액티브 커버드콜 ETF 순자산 4조원 돌파",
+     "outlet": "전자신문"
     },
     {
-     "url": "https://www.macrumors.com/2026/11/16/apple-releases-ios-27-3-beta-2/",
-     "title": "iOS 27.3 Beta 2 Now Available for Developers",
-     "outlet": "MacRumors"
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=02955286645646376",
+     "title": "ETF 투자자도 '삼전닉스 배당'에 웃는다…분배율 5배 껑충",
+     "outlet": "마켓인"
+    },
+    {
+     "url": "https://www.hankyung.com/article/202611108011i",
+     "title": "'매월 따박따박' 100조 몰렸는데…'몰빵 vs 적립' 누가 더 벌었나 [조아라의 ETF 돋보기]",
+     "outlet": "한국경제"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "백신",
-   "traffic": 200,
-   "published": "2026-11-18T04:40:00+09:00",
+   "keyword": "안세영",
+   "traffic": 2000,
+   "published": "2026-11-18T05:40:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "예방접종 피해 국가보상, 대리인도 신청 가능",
-     "url": "https://www.yna.co.kr/view/AKR20261117059800530",
+     "title": "[뉴스9 강원 클로징]",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8713273",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "세계 최강 안세영의 미소",
+     "url": "https://www.yna.co.kr/view/PYH20261116156200013",
      "source": "연합뉴스"
     },
     {
-     "title": "「감염병예방법 시행령 및 시행규칙」 일부개정령안 공포·시행(11.17.화)",
-     "url": "https://go.seoul.co.kr/news/prnewsView.php?id=457313",
-     "source": "서울Pn"
-    },
-    {
-     "title": "이소희 의원, ‘코로나 백신 피해 국가책임법’ 발의…피해 입증책임 국가로",
-     "url": "https://monthly.chosun.com/news/articleView.html?idxno=72005",
-     "source": "월간조선"
+     "title": "[스포츠 영상] '12승 신기록 도전' 안세영 '오늘은 팬들과 함께!'",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866097_37004.html",
+     "source": "MBC 뉴스"
     }
    ],
    "official": false,
-   "spike": "검색량 100→200",
-   "spike_bonus": 20,
-   "score": 12.6,
-   "already_covered": true,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.yna.co.kr/view/AKR20261117059800530",
-     "title": "예방접종 피해 국가보상, 대리인도 신청 가능",
+     "url": "https://www.yna.co.kr/view/PYH20261116156200013",
+     "title": "세계 최강 안세영의 미소",
      "outlet": "연합뉴스"
     },
     {
-     "url": "https://go.seoul.co.kr/news/prnewsView.php?id=457313",
-     "title": "「감염병예방법 시행령 및 시행규칙」 일부개정령안 공포·시행(11.17.화)",
-     "outlet": "서울Pn"
-    },
-    {
-     "url": "https://monthly.chosun.com/news/articleView.html?idxno=72005",
-     "title": "이소희 의원, ‘코로나 백신 피해 국가책임법’ 발의…피해 입증책임 국가로",
-     "outlet": "월간조선"
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866097_37004.html",
+     "title": "[스포츠 영상] '12승 신기록 도전' 안세영 '오늘은 팬들과 함께!'",
+     "outlet": "MBC 뉴스"
     }
    ]
   },
@@ -3553,8 +3418,8 @@
    "source": "google_news",
    "keyword": "문화누리카드",
    "traffic": 0,
-   "article_count_24h": 18,
-   "article_count_1h": 0,
+   "article_count_24h": 19,
+   "article_count_1h": 1,
    "published": "2026-11-17T17:00:15+09:00",
    "category": "기타",
    "news": [
@@ -3585,7 +3450,7 @@
     }
    ],
    "official": false,
-   "score": 12.6,
+   "score": 14.3,
    "already_covered": true
   },
   {
@@ -3593,7 +3458,7 @@
    "keyword": "국가건강검진",
    "traffic": 0,
    "article_count_24h": 12,
-   "article_count_1h": 0,
+   "article_count_1h": 1,
    "published": "2026-11-17T11:29:47+09:00",
    "category": "기타",
    "news": [
@@ -3624,15 +3489,15 @@
     }
    ],
    "official": false,
-   "score": 12.6,
+   "score": 14.3,
    "already_covered": true
   },
   {
    "source": "google_news",
    "keyword": "수능 시간표",
    "traffic": 0,
-   "article_count_24h": 20,
-   "article_count_1h": 0,
+   "article_count_24h": 21,
+   "article_count_1h": 1,
    "published": "2026-11-17T23:50:00+09:00",
    "category": "기타",
    "news": [
@@ -3647,6 +3512,11 @@
      "source": "부산일보"
     },
     {
+     "title": "네이버 수능 검색 이용자 급증…관련 콘텐츠 클릭 74%↑ - 연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01QV95T2J1bVFFVnhid0VKYjVobVpwNk51MXlaeV85Y21Vc0VUN0NkNC1JdVM4S0l0YjBRTzZVRTNMSWlsNTRIbnJrRGJJS25aWXNkSDJBWm5SVUHSAWBBVV95cUxOek11cUhsNXZ3OWtJVmc2UG10RElMcUtTWTNMb09EUUF4MXZWUXc3VW1keXo2Nm53T3ZNa1Q3RTUtZ3BOX0FOZVVtbDktZUZrYzctMDloSmU1NFdhSDFuQTE?oc=5",
+     "source": "연합뉴스"
+    },
+    {
      "title": "정부, 수능 AI 커닝 대책… 돌고 돌아 ‘감독 강화’ - 세계일보",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PY2d1RlpBSF9QTlNKZjRvY0tLdnNrTUVveEtkTmlrdG5fZ1VZRWpQMkhfR2RqS2NaQnFwS01BYXN1OWdiSXczenh1U194aFRSWHZUbNIBVEFVX3lxTE5PY2d1RlpBSF9QTlNKZjRvY0tLdnNrTUVveEtkTmlrdG5fZ1VZRWpQMkhfR2RqS2NaQnFwS01BYXN1OWdiSXczenh1U194aFRSWHZUbA?oc=5",
      "source": "세계일보"
@@ -3655,38 +3525,74 @@
      "title": "[2027수능] ‘쉬는 시간엔 뭘 하지?’.. 마지막까지 챙겨볼 자료는 '과목별 요약/오답노트' - 베리타스알파",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03Ml9uQ3RpNUQ3WVpPbE5vU2JiZ1RTcWxhRjJSbExUZUdFRFVLa3ROd1REZUxCUEFzLXA3LVRWeng5WmRpSHlGRUlURFRsTGFIUFd5RkpucGFBemtPSllTcGg3YzNFNkRIVEZ4Rw?oc=5",
      "source": "베리타스알파"
-    },
-    {
-     "title": "수능 코앞..AI 부정행위 비상 - G1방송",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hWFRXcFRyYUl1OGJaam92RVNLYTBiQ182R203NS1lZFJUVXpRWVprMFcxbWlhWWt4S0RRZGNnUjFoNG1JaF83N2d5SGhDNGdTLXFRbEtDWEx4Tm5Jek9LajBpdUk?oc=5",
-     "source": "G1방송"
     }
    ],
    "official": false,
-   "score": 12.6,
+   "score": 14.3,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "수능 예비소집",
-   "traffic": 500,
-   "published": "2026-11-18T05:30:00+09:00",
+   "keyword": "뉴스",
+   "traffic": 1000,
+   "published": "2026-11-18T05:40:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "수능 수험생 여러분! 전자기기 가져오지 마세요! - 카드/한컷 | 멀티미디어",
-     "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148975450",
+     "title": "“임원들에 고성·압박, 12명 줄퇴사···엔비디아 경영진도 꼼짝 못 한 젠슨 황 딸은 사실상 ‘아버지 비서실장’”",
+     "url": "https://www.khan.co.kr/article/202611171508001",
+     "source": "경향신문"
+    },
+    {
+     "title": "젠슨 황 사임 후 첫 입장 “요청 시 복귀”…“청문회 출석”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715632",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "[데스크 칼럼] 거목 빈 자리 ‘K-반도체’",
+     "url": "https://www.viva100.com/article/20261117500039",
+     "source": "브릿지경제"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 12.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.khan.co.kr/article/202611171508001",
+     "title": "“임원들에 고성·압박, 12명 줄퇴사···엔비디아 경영진도 꼼짝 못 한 젠슨 황 딸은 사실상 ‘아버지 비서실장’”",
+     "outlet": "경향신문"
+    },
+    {
+     "url": "https://www.viva100.com/article/20261117500039",
+     "title": "[데스크 칼럼] 거목 빈 자리 ‘K-반도체’",
+     "outlet": "브릿지경제"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "수출",
+   "traffic": 500,
+   "published": "2026-11-18T05:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "수출 1조 달러 시대, 세계가 찾는 기술에서 세계인의 일상 속 제품까지 - 영상 | 멀티미디어",
+     "url": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148975889",
      "source": "대한민국 정책브리핑"
     },
     {
-     "title": "[수능 D-1] 전자기기 미제출 땐 시험 무효…단추 달린 옷도 피해야",
-     "url": "https://stock.mk.co.kr/news/view/1201065",
-     "source": "매일경제 마켓"
+     "title": "다음 과제는 시장 다변화… 美-中 넘어 ‘글로벌 사우스’로 넓혀야",
+     "url": "https://www.donga.com/news/Economy/article/all/20261118/135043055/2",
+     "source": "동아일보"
     },
     {
-     "title": "오늘은 새 문제보다 오답노트 집중…수험표 받으면 선택과목 확인",
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261118.22012005404",
-     "source": "국제신문"
+     "title": "수출 1조 달러 눈앞…김정관 산업장관, 인천신항 방문",
+     "url": "https://www.electimes.com/news/articleView.html?idxno=374865",
+     "source": "전기신문"
     }
    ],
    "official": false,
@@ -3696,84 +3602,43 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148975450",
-     "title": "수능 수험생 여러분! 전자기기 가져오지 마세요! - 카드/한컷 | 멀티미디어",
+     "url": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148975889",
+     "title": "수출 1조 달러 시대, 세계가 찾는 기술에서 세계인의 일상 속 제품까지 - 영상 | 멀티미디어",
      "outlet": "대한민국 정책브리핑"
     },
     {
-     "url": "https://stock.mk.co.kr/news/view/1201065",
-     "title": "[수능 D-1] 전자기기 미제출 땐 시험 무효…단추 달린 옷도 피해야",
-     "outlet": "매일경제 마켓"
+     "url": "https://www.donga.com/news/Economy/article/all/20261118/135043055/2",
+     "title": "다음 과제는 시장 다변화… 美-中 넘어 ‘글로벌 사우스’로 넓혀야",
+     "outlet": "동아일보"
     },
     {
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261118.22012005404",
-     "title": "오늘은 새 문제보다 오답노트 집중…수험표 받으면 선택과목 확인",
-     "outlet": "국제신문"
+     "url": "https://www.electimes.com/news/articleView.html?idxno=374865",
+     "title": "수출 1조 달러 눈앞…김정관 산업장관, 인천신항 방문",
+     "outlet": "전기신문"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "알렉산더 즈베레프",
-   "traffic": 500,
-   "published": "2026-11-18T05:10:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "'세계 랭킹 1위' 트로피에 입 맞추는 즈베레프",
-     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261117_0002293855&pID=1&cID=&sID=1&type=photoMain&idx=7",
-     "source": "뉴시스"
-    },
-    {
-     "title": "2027 호주오픈, 시너가 있고 없고의 차이",
-     "url": "http://www.tennispeople.kr/news/articleView.html?idxno=19848",
-     "source": "테니스피플"
-    },
-    {
-     "title": "[박준용 인앤아웃] 당뇨병도 꺾지 못한 꿈... 즈베레프 마침내 세계 1위에 서다",
-     "url": "https://sports.khan.co.kr/article/202611101026003",
-     "source": "스포츠경향"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "http://www.tennispeople.kr/news/articleView.html?idxno=19848",
-     "title": "2027 호주오픈, 시너가 있고 없고의 차이",
-     "outlet": "테니스피플"
-    },
-    {
-     "url": "https://sports.khan.co.kr/article/202611101026003",
-     "title": "[박준용 인앤아웃] 당뇨병도 꺾지 못한 꿈... 즈베레프 마침내 세계 1위에 서다",
-     "outlet": "스포츠경향"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "정웅인",
+   "keyword": "wales đấu với bồ đào nha",
    "traffic": 200,
-   "published": "2026-11-18T05:30:00+09:00",
+   "published": "2026-11-18T05:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "정웅인, 전 매니저 사기 피해→소속사 대표 사망…\"또 위기\" - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/17/2026111706401419953",
-     "source": "머니투데이"
+     "title": "Nhận định bóng đá Xứ Wales vs Bồ Đào Nha, 02h45 ngày 18/11: Không bung sức",
+     "url": "https://bongdaplus.vn/nations-league/nhan-dinh-bong-da-xu-wales-vs-bo-dao-nha-02h45-ngay-18-11-khong-bung-suc-5291002611.html",
+     "source": "Tạp chí Bóng đá"
     },
     {
-     "title": "정웅인, 세 딸 근황 공개…\"첫째는 배우 준비, 둘째는 예고 재학\"",
-     "url": "https://www.newsis.com/view/NISX20261116_0003870591",
-     "source": "뉴시스"
+     "title": "Lịch thi đấu, trực tiếp bóng đá hôm nay 17/11/2026: Wales vs Bồ Đào Nha",
+     "url": "https://tin.skydoor.net/news/tin-lich-thi-dau-truc-tiep-bong-da-hom-nay-17112026-wales-vs-bo-8437883",
+     "source": "tin.skydoor.net"
     },
     {
-     "title": "“어떻게 일 할지”…정웅인, 소속사 대표 사망 언급하며 눈물",
-     "url": "https://www.koreadaily.com/article/20261116095006328",
-     "source": "미주중앙일보"
+     "title": "VTV5 VTV6 trực tiếp bóng đá hôm nay ngày 17/11/2026",
+     "url": "https://thethaovanhoa.vn/vtv5-vtv6-truc-tiep-bong-da-hom-nay-ngay-17-11-2026-20261117141218044.htm",
+     "source": "thethaovanhoa.vn"
     }
    ],
    "official": false,
@@ -3783,43 +3648,135 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.mt.co.kr/entertainment/2026/11/17/2026111706401419953",
-     "title": "정웅인, 전 매니저 사기 피해→소속사 대표 사망…\"또 위기\" - 머니투데이",
-     "outlet": "머니투데이"
+     "url": "https://bongdaplus.vn/nations-league/nhan-dinh-bong-da-xu-wales-vs-bo-dao-nha-02h45-ngay-18-11-khong-bung-suc-5291002611.html",
+     "title": "Nhận định bóng đá Xứ Wales vs Bồ Đào Nha, 02h45 ngày 18/11: Không bung sức",
+     "outlet": "Tạp chí Bóng đá"
     },
     {
-     "url": "https://www.newsis.com/view/NISX20261116_0003870591",
-     "title": "정웅인, 세 딸 근황 공개…\"첫째는 배우 준비, 둘째는 예고 재학\"",
-     "outlet": "뉴시스"
+     "url": "https://tin.skydoor.net/news/tin-lich-thi-dau-truc-tiep-bong-da-hom-nay-17112026-wales-vs-bo-8437883",
+     "title": "Lịch thi đấu, trực tiếp bóng đá hôm nay 17/11/2026: Wales vs Bồ Đào Nha",
+     "outlet": "tin.skydoor.net"
     },
     {
-     "url": "https://www.koreadaily.com/article/20261116095006328",
-     "title": "“어떻게 일 할지”…정웅인, 소속사 대표 사망 언급하며 눈물",
-     "outlet": "미주중앙일보"
+     "url": "https://thethaovanhoa.vn/vtv5-vtv6-truc-tiep-bong-da-hom-nay-ngay-17-11-2026-20261117141218044.htm",
+     "title": "VTV5 VTV6 trực tiếp bóng đá hôm nay ngày 17/11/2026",
+     "outlet": "thethaovanhoa.vn"
     }
    ]
   },
   {
    "source": "google_trends",
-   "keyword": "부고",
-   "traffic": 100,
-   "published": "2026-11-18T04:50:00+09:00",
+   "keyword": "롤 점검",
+   "traffic": 200,
+   "published": "2026-11-18T05:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "오늘의 부고-김정순 충북 남부출장소 행정지원과장 모친상 외",
-     "url": "https://www.khan.co.kr/article/202611171548021",
-     "source": "경향신문"
+     "title": "리그 오브 레전드 26.23 패치 노트",
+     "url": "https://www.leagueoflegends.com/ko-kr/news/game-updates/league-of-legends-patch-26-23-notes/",
+     "source": "League of Legends"
     },
     {
-     "title": "[부음] 조재완(뉴시스 기자)씨 조모상",
-     "url": "https://www.etnews.com/20261117000245",
+     "title": "라이엇게임즈, LoL 2027 시즌1 공개... '도벽' 복귀·랭크 보상 개편",
+     "url": "https://www.etnews.com/20261117000187",
      "source": "전자신문"
     },
     {
-     "title": "[부고] 조재완 씨(뉴시스 정치부 기자) 조모상",
-     "url": "https://www.news1.kr/life-culture/press/6356831",
-     "source": "뉴스1"
+     "title": "[게임업계 소식] 라이엇 게임즈, LoL 2027년 첫 콘텐츠 공개 外",
+     "url": "https://www.viva100.com/article/20261117500407",
+     "source": "브릿지경제"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.leagueoflegends.com/ko-kr/news/game-updates/league-of-legends-patch-26-23-notes/",
+     "title": "리그 오브 레전드 26.23 패치 노트",
+     "outlet": "League of Legends"
+    },
+    {
+     "url": "https://www.etnews.com/20261117000187",
+     "title": "라이엇게임즈, LoL 2027 시즌1 공개... '도벽' 복귀·랭크 보상 개편",
+     "outlet": "전자신문"
+    },
+    {
+     "url": "https://www.viva100.com/article/20261117500407",
+     "title": "[게임업계 소식] 라이엇 게임즈, LoL 2027년 첫 콘텐츠 공개 外",
+     "outlet": "브릿지경제"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "수사",
+   "traffic": 200,
+   "published": "2026-11-18T05:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "‘조작기소 특검법’ 국무회의 통과, 최장 200일 수사",
+     "url": "https://www.donga.com/news/Society/article/all/20261118/135043027/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "“형사법 시스템 근본 훼손 위헌 법률”⋯ 위헌소송 줄줄이 이어질 듯",
+     "url": "https://www.kmib.co.kr/article/20261117501945",
+     "source": "국민일보"
+    },
+    {
+     "title": "‘검찰범죄’ 특검이 밝혀야 할 50가지 의혹⑭ 구치감 2박3일, 아이 사진, 장기 협박",
+     "url": "https://newstapa.org/article/e-tKd",
+     "source": "뉴스타파"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.donga.com/news/Society/article/all/20261118/135043027/2",
+     "title": "‘조작기소 특검법’ 국무회의 통과, 최장 200일 수사",
+     "outlet": "동아일보"
+    },
+    {
+     "url": "https://www.kmib.co.kr/article/20261117501945",
+     "title": "“형사법 시스템 근본 훼손 위헌 법률”⋯ 위헌소송 줄줄이 이어질 듯",
+     "outlet": "국민일보"
+    },
+    {
+     "url": "https://newstapa.org/article/e-tKd",
+     "title": "‘검찰범죄’ 특검이 밝혀야 할 50가지 의혹⑭ 구치감 2박3일, 아이 사진, 장기 협박",
+     "outlet": "뉴스타파"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "노동자",
+   "traffic": 100,
+   "published": "2026-11-18T05:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "얼굴 파랗게 질려 숨진 27살…HD현대삼호 하청 ‘장례도 못 치른 보름’",
+     "url": "https://www.hani.co.kr/arti/area/honam/1287732.html",
+     "source": "한겨레"
+    },
+    {
+     "title": "'노동자 사망' 영암 조선소 협력사들 \"사고 책임 단정해선 안돼\"",
+     "url": "https://www.yna.co.kr/view/AKR20261117122100054",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "\"사람이 할 짓인가\"…20대 용접공 유족 사과 요구에 HD현대삼호 협력사들 '규탄 시위'",
+     "url": "https://www.pressian.com/pages/articles/2026111715145583237",
+     "source": "프레시안"
     }
    ],
    "official": false,
@@ -3829,16 +3786,46 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.khan.co.kr/article/202611171548021",
-     "title": "오늘의 부고-김정순 충북 남부출장소 행정지원과장 모친상 외",
-     "outlet": "경향신문"
+     "url": "https://www.hani.co.kr/arti/area/honam/1287732.html",
+     "title": "얼굴 파랗게 질려 숨진 27살…HD현대삼호 하청 ‘장례도 못 치른 보름’",
+     "outlet": "한겨레"
     },
     {
-     "url": "https://www.etnews.com/20261117000245",
-     "title": "[부음] 조재완(뉴시스 기자)씨 조모상",
-     "outlet": "전자신문"
+     "url": "https://www.yna.co.kr/view/AKR20261117122100054",
+     "title": "'노동자 사망' 영암 조선소 협력사들 \"사고 책임 단정해선 안돼\"",
+     "outlet": "연합뉴스"
     }
    ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "훈련",
+   "traffic": 100,
+   "published": "2026-11-18T05:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "러 외무 “한·미·일 군사훈련 목적은 북한 억제” 비난",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8715580",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "러 \"한미 훈련 탓에 한반도 긴장 높아져\" \"푸틴, 李대통령 만날 것\"",
+     "url": "https://www.chosun.com/international/international_general/2026/11/18/D5RLZIK4LJB5HHCCTU5XU74VWY/",
+     "source": "조선일보"
+    },
+    {
+     "title": "러 외무 \"대북 제재·한미일 핵 군사훈련이 한반도 긴장 고조 원인\"",
+     "url": "https://www.news1.kr/world/europe/6357283",
+     "source": "뉴스1"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.3,
+   "already_covered": false,
+   "evidence": []
   },
   {
    "source": "google_news",
@@ -3966,13 +3953,13 @@
    "traffic": 0,
    "article_count_24h": 1,
    "article_count_1h": 0,
-   "published": "2026-11-17T15:10:07+09:00",
+   "published": "2026-11-17T16:05:44+09:00",
    "category": "세금",
    "news": [
     {
-     "title": "경북도, 환경개선부담금 체납액 집중정리 나선다 - 신경북뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Dd3NiS1hpVVZuNFRqOGxveHNNRGhsN3dsOUN5U0duNEhOYkZyQ25WTmtqSjNqNGJoOHNsUzVNYWpVYzFTSjdEUktBbTMteVBZSWtYRGIzUFU?oc=5",
-     "source": "신경북뉴스"
+     "title": "경북도, 환경개선부담금 체납액 집중정리 나선다 - 경북뉴스",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jYlFFc2Z1ZTFpZW9QU3BMVmVmTmFZd3ZVQnFEZzNIRHZNV1JhajFaWElLSElNRkFmbGFCM3ozZXRiQVNjUmZMNjF1NjRzMjBiUnBjNkJoZ3A2NHlYSjBqTW1rdV9VbEEtRHdoMFNxRlpWdW9UbmpYN0FzaXk?oc=5",
+     "source": "경북뉴스"
     }
    ],
    "official": false,
@@ -3980,45 +3967,26 @@
    "already_covered": false
   },
   {
-   "source": "google_news",
-   "keyword": "사전투표소",
-   "traffic": 0,
-   "article_count_24h": 1,
-   "article_count_1h": 0,
-   "published": "2026-11-17T06:43:00+09:00",
-   "category": "선거",
-   "news": [
-    {
-     "title": "[인터뷰] “트럼피즘 끝나려면 선거 세 번은 패해야…마가 쉽게 안 사라져” - 한겨레",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aUENYOHo3ME40TzFpLTlnZ2VJVVR1MVBlOE9WT0ppc1JneUNQMllOMFNpaTVabURURExqTy1yN0dKaG41aHpna2tqVkc3dXpDZ09DYkRTYTI0dnQ2V1BaNFRkUFAwU1h6aWE4VWlDcw?oc=5",
-     "source": "한겨레"
-    }
-   ],
-   "official": false,
-   "score": 2.7,
-   "already_covered": false
-  },
-  {
    "source": "google_trends",
-   "keyword": "국제 통화 기금",
+   "keyword": "정웅인",
    "traffic": 200,
-   "published": "2026-11-18T04:20:00+09:00",
+   "published": "2026-11-18T05:30:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "IMF, 올해 우리나라 성장률 3.9% 전망…내년엔 3.3%",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975912",
-     "source": "대한민국 정책브리핑"
+     "title": "정웅인, 전 매니저 사기 피해→소속사 대표 사망…\"또 위기\" - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/17/2026111706401419953",
+     "source": "머니투데이"
     },
     {
-     "title": "IMF, 올해 경제 성장률 3.9%로 상향…’통화 긴축’ 주문",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261118044902M56",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "기자 질문 받는 코린 들레샤 단장",
-     "url": "https://www.newsis.com/view/NISI20261117_0021535578",
+     "title": "정웅인, 세 딸 근황 공개…\"첫째는 배우 준비, 둘째는 예고 재학\"",
+     "url": "https://www.newsis.com/view/NISX20261116_0003870591",
      "source": "뉴시스"
+    },
+    {
+     "title": "“어떻게 일 할지”…정웅인, 소속사 대표 사망 언급하며 눈물",
+     "url": "https://www.koreadaily.com/article/20261116095006328",
+     "source": "미주중앙일보"
     }
    ],
    "official": false,
