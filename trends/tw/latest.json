@@ -1,29 +1,140 @@
 {
- "generated_at": "2026-11-19T07:33:27.506089+09:00",
+ "generated_at": "2026-11-19T08:33:48.259058+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (7)",
-  "evidence": "ok (저장 24, 실패 8)"
+  "evidence": "ok (저장 23, 실패 9)"
  },
  "compared_runs": 2,
  "spikes": [
-  "退休",
-  "消費券",
-  "快 閃 記憶 體",
-  "道瓊工業平均指數",
-  "美股指數",
-  "สภาพอากาศ",
-  "軍 公教",
-  "今彩539",
-  "台視新聞"
+  "天氣",
+  "颱風",
+  "thời tiết",
+  "weather",
+  "光電板",
+  "漫威影業",
+  "伺服器",
+  "氣象局",
+  "輝 達 盤 後",
+  "蔡天鳳",
+  "火災"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "天氣",
+   "traffic": 100000,
+   "published": "2026-11-19T07:30:00+09:00",
+   "category": "Living",
+   "news": [
+    {
+     "title": "大雨特報！北台灣入夜探15度 明起冷氣團恐報到「3地」最冷",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5645709",
+     "source": "自由時報"
+    },
+    {
+     "title": "冷空氣發威 全台氣溫大跳水下探15度 今晚高山有望降雪",
+     "url": "https://udn.com/news/story/7266/9887864",
+     "source": "UDN"
+    },
+    {
+     "title": "下午起轉雨降溫週五六晨探11度",
+     "url": "http://www.metapp.org.tw/pages/post-d040ccbb4a71643e922c.html",
+     "source": "氣象應用推廣基金會"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 69.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5645709",
+     "title": "大雨特報！北台灣入夜探15度 明起冷氣團恐報到「3地」最冷",
+     "outlet": "自由時報"
+    },
+    {
+     "url": "https://udn.com/news/story/7266/9887864",
+     "title": "冷空氣發威 全台氣溫大跳水下探15度 今晚高山有望降雪",
+     "outlet": "UDN"
+    },
+    {
+     "url": "http://www.metapp.org.tw/pages/post-d040ccbb4a71643e922c.html",
+     "title": "下午起轉雨降溫週五六晨探11度",
+     "outlet": "氣象應用推廣基金會"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "颱風",
+   "traffic": 0,
+   "article_count_24h": 13,
+   "article_count_1h": 4,
+   "published": "2026-11-19T06:29:15+09:00",
+   "category": "Living",
+   "news": [
+    {
+     "title": "討論牆 | 颱風假別白跑！威秀宣布「5地區」全日暫停營業 - LINE TODAY",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlcTk3ZlM4QTBvenYtUlAtbl9PX09QcW9BWnBoWHczWGtPaXg4a2NHVDdRREpCeEd2Q09fd216WkVkc3YzS1RONDdWYUZPWlI3RWpkenFpQ25hUFJWTEpETnNCcVc?oc=5",
+     "source": "LINE TODAY"
+    },
+    {
+     "title": "3度流標又遇颱風 嘉市蘭潭後山步道 重修啟用 - 中時新聞網",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14LUwtSmVHdkd4SlpQY1N1VlBKcmVrdDl6UzlqUDhwNjRtQUxCNjV5QV9rd0ZIbHBBTDhrbHZ0YksyR3VNSjJPRElWeElzUWtGT0NZa3poeEVqdnR5TmxnSERjRktBdjZoQ3hr?oc=5",
+     "source": "中時新聞網"
+    },
+    {
+     "title": "淡江AI助攻防災 菲律賓氣象局睽違3年深化颱風預報合作 - 中央社 CNA",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHS3h5VUFieS1ERmFpOU9mQm5MamR2LTl3eTdpZGZuWGR3Ui0zQWNPaWV3OG4ybjBYeHJWV0l6RVY0Yk9sME9nZUh5NHV2d2V0MXFmLXJB?oc=5",
+     "source": "中央社 CNA"
+    },
+    {
+     "title": "颱風剛走釣魚遭浪捲走兒子傷 今尋獲父遺體【最新快訊】 - 台視全球資訊網",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqVVdhbHNkb3BGeGNlUUI0VGoxS2Qxd08yRVFuSnQtaUstalpDUjFLMzl6TEdJQm5oN3A3TGItbV9QTWlUZVEtNExMTENGQTJGeHM3ZS1TamZNbXlaQi0xM2MwRTUzdURtQ2tWVjY2RWQ2b2pvYzFSYTBZZUY?oc=5",
+     "source": "台視全球資訊網"
+    },
+    {
+     "title": "搭機巧遇市民正經回答問題 黃偉哲還原現場：我不會輕易放颱風假 - 自由時報",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GUmNSVVJKMHJ6WVAwb1ZiektnR3hJRjdVeFo3TW5Sa2JXZlBGc090WVVUT0hkYTZseWNiY1F3LWFrVzFwNFUwb1RMQWdPbl93dmFPWWlSZG1WSGpRTUFoWDJmT1NHSEJJMUHSAW9BVV95cUxOd19UQXN4UVdVdWxjeVIta21YWmhodGJaeHk5UElwUUVDdmhQYzRaOFByQmJ1OHBsMVNoWC1BLVNLZmFxdWhpOTdQU2RVWlBUQXlnbzdPSU9SYmVXcTFUeTItcHRIVmhLQkV6X0tTTlU?oc=5",
+     "source": "自由時報"
+    }
+   ],
+   "official": false,
+   "spike": "최근 1시간 기사 1.0→4건 (2.5배)",
+   "spike_bonus": 25.0,
+   "score": 42.6,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://www.chinatimes.com/newspapers/20261119000743-260107",
+     "title": "3度流標又遇颱風 嘉市蘭潭後山步道 重修啟用 - 中時新聞網",
+     "outlet": "中時新聞網"
+    },
+    {
+     "url": "https://www.cna.com.tw/postwrite/chi/450399",
+     "title": "淡江AI助攻防災 菲律賓氣象局睽違3年深化颱風預報合作 - 中央社 CNA",
+     "outlet": "中央社 CNA"
+    },
+    {
+     "url": "https://www.ttv.com.tw/videocity/video_play.asp?id=955781&sid=5&from=707",
+     "title": "颱風剛走釣魚遭浪捲走兒子傷 今尋獲父遺體【最新快訊】 - 台視全球資訊網",
+     "outlet": "台視全球資訊網"
+    },
+    {
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5645352",
+     "title": "搭機巧遇市民正經回答問題 黃偉哲還原現場：我不會輕易放颱風假 - 自由時報",
+     "outlet": "自由時報"
+    }
+   ]
+  },
   {
    "source": "google_news",
    "keyword": "K-pop",
    "traffic": 0,
-   "article_count_24h": 50,
-   "article_count_1h": 0,
+   "article_count_24h": 48,
+   "article_count_1h": 2,
    "published": "2026-11-19T04:29:44+09:00",
    "category": "K-Culture",
    "news": [
@@ -54,7 +165,7 @@
     }
    ],
    "official": false,
-   "score": 18.0,
+   "score": 22.8,
    "already_covered": false,
    "evidence": [
     {
@@ -81,111 +192,9 @@
   },
   {
    "source": "google_news",
-   "keyword": "颱風",
-   "traffic": 0,
-   "article_count_24h": 14,
-   "article_count_1h": 0,
-   "published": "2026-11-19T06:29:15+09:00",
-   "category": "Living",
-   "news": [
-    {
-     "title": "討論牆 | 颱風假別白跑！威秀宣布「5地區」全日暫停營業 - LINE TODAY",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlcTk3ZlM4QTBvenYtUlAtbl9PX09QcW9BWnBoWHczWGtPaXg4a2NHVDdRREpCeEd2Q09fd216WkVkc3YzS1RONDdWYUZPWlI3RWpkenFpQ25hUFJWTEpETnNCcVc?oc=5",
-     "source": "LINE TODAY"
-    },
-    {
-     "title": "3度流標又遇颱風 嘉市蘭潭後山步道 重修啟用 - 中時新聞網",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14LUwtSmVHdkd4SlpQY1N1VlBKcmVrdDl6UzlqUDhwNjRtQUxCNjV5QV9rd0ZIbHBBTDhrbHZ0YksyR3VNSjJPRElWeElzUWtGT0NZa3poeEVqdnR5TmxnSERjRktBdjZoQ3hr?oc=5",
-     "source": "中時新聞網"
-    },
-    {
-     "title": "淡江AI助攻防災 菲律賓氣象局睽違3年深化颱風預報合作 - 中央社 CNA",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHS3h5VUFieS1ERmFpOU9mQm5MamR2LTl3eTdpZGZuWGR3Ui0zQWNPaWV3OG4ybjBYeHJWV0l6RVY0Yk9sME9nZUh5NHV2d2V0MXFmLXJB?oc=5",
-     "source": "中央社 CNA"
-    },
-    {
-     "title": "颱風剛走釣魚遭浪捲走兒子傷 今尋獲父遺體【最新快訊】 - 台視全球資訊網",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqVVdhbHNkb3BGeGNlUUI0VGoxS2Qxd08yRVFuSnQtaUstalpDUjFLMzl6TEdJQm5oN3A3TGItbV9QTWlUZVEtNExMTENGQTJGeHM3ZS1TamZNbXlaQi0xM2MwRTUzdURtQ2tWVjY2RWQ2b2pvYzFSYTBZZUY?oc=5",
-     "source": "台視全球資訊網"
-    },
-    {
-     "title": "獨家／新莊天空垃圾山！「外部」逾24噸雜物　40人連清4天在颱風前清光 - 三立新聞網SETN.com",
-     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GYkF5X1NvVTVVc0lXTVFsQ1hzcVVkNGZ3d0VLWVF3bWtvME8wS2hrN01iRXhSWGRiZDhCMmtfMVQzZ1U3NzA0QdIBTEFVX3lxTE5rSHFTak16ZTJVaVQ2SEdlZ1FZeUpxRGJPekc1QzVvX2tiQV9CdVJVNW9jQmFSZFhvMTF0S05ZVUpCazBELXpwaE1wTS0?oc=5",
-     "source": "三立新聞網SETN.com"
-    }
-   ],
-   "official": false,
-   "score": 18.0,
-   "already_covered": true,
-   "evidence": [
-    {
-     "url": "https://www.chinatimes.com/newspapers/20261119000743-260107",
-     "title": "3度流標又遇颱風 嘉市蘭潭後山步道 重修啟用 - 中時新聞網",
-     "outlet": "中時新聞網"
-    },
-    {
-     "url": "https://www.cna.com.tw/postwrite/chi/450399",
-     "title": "淡江AI助攻防災 菲律賓氣象局睽違3年深化颱風預報合作 - 中央社 CNA",
-     "outlet": "中央社 CNA"
-    },
-    {
-     "url": "https://www.ttv.com.tw/videocity/video_play.asp?id=955781&sid=5&from=707",
-     "title": "颱風剛走釣魚遭浪捲走兒子傷 今尋獲父遺體【最新快訊】 - 台視全球資訊網",
-     "outlet": "台視全球資訊網"
-    },
-    {
-     "url": "https://www.setn.com/news/1869899",
-     "title": "獨家／新莊天空垃圾山！「外部」逾24噸雜物　40人連清4天在颱風前清光 - 三立新聞網SETN.com",
-     "outlet": "三立新聞網SETN.com"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "退休",
-   "traffic": 1000,
-   "published": "2026-11-19T06:20:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "54歲退休、57歲考上高考！前銀行經理重返職場：我想過更有質感的老後生活",
-     "url": "https://www.cw.com.tw/aging/article/5143757",
-     "source": "天下雜誌"
-    },
-    {
-     "title": "填退休力指標 決定未來人生選擇權",
-     "url": "https://udn.com/news/story/7266/9887758",
-     "source": "UDN"
-    },
-    {
-     "title": "「你得自己想辦法」！哥哥一句話 54歲弟靠媽退休金養20年生活面臨斷炊",
-     "url": "https://tw.stock.yahoo.com/news/%E4%BD%A0%E5%BE%97%E8%87%AA%E5%B7%B1%E6%83%B3%E8%BE%A6%E6%B3%95-%E5%93%A5%E5%93%A5-%E5%8F%A5%E8%A9%B1-54%E6%AD%B2%E5%BC%9F%E9%9D%A0%E5%AA%BD%E9%80%80%E4%BC%91%E9%87%91%E9%A4%8A20%E5%B9%B4%E7%94%9F%E6%B4%BB%E9%9D%A2%E8%87%A8%E6%96%B7%E7%82%8A-211000013.html",
-     "source": "Yahoo股市"
-    }
-   ],
-   "official": false,
-   "spike": "검색량 200→1,000",
-   "spike_bonus": 20,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://udn.com/news/story/7266/9887758",
-     "title": "填退休力指標 決定未來人生選擇權",
-     "outlet": "UDN"
-    },
-    {
-     "url": "https://tw.stock.yahoo.com/news/%E4%BD%A0%E5%BE%97%E8%87%AA%E5%B7%B1%E6%83%B3%E8%BE%A6%E6%B3%95-%E5%93%A5%E5%93%A5-%E5%8F%A5%E8%A9%B1-54%E6%AD%B2%E5%BC%9F%E9%9D%A0%E5%AA%BD%E9%80%80%E4%BC%91%E9%87%91%E9%A4%8A20%E5%B9%B4%E7%94%9F%E6%B4%BB%E9%9D%A2%E8%87%A8%E6%96%B7%E7%82%8A-211000013.html",
-     "title": "「你得自己想辦法」！哥哥一句話 54歲弟靠媽退休金養20年生活面臨斷炊",
-     "outlet": "Yahoo股市"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
    "keyword": "韓劇",
    "traffic": 0,
-   "article_count_24h": 28,
+   "article_count_24h": 27,
    "article_count_1h": 0,
    "published": "2026-11-18T19:00:09+09:00",
    "category": "K-Culture",
@@ -246,14 +255,14 @@
    "source": "google_news",
    "keyword": "防曬",
    "traffic": 0,
-   "article_count_24h": 13,
+   "article_count_24h": 14,
    "article_count_1h": 0,
-   "published": "2026-11-18T12:07:55+09:00",
+   "published": "2026-11-18T20:40:07+09:00",
    "category": "K-Culture",
    "news": [
     {
-     "title": "COSRX超輕盈無油防曬乳更新產品資訊並強化使用規範與安全性說明 - GeneOnline",
-     "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNdGstcEtualpaZXFSQ0ZnODNNcm9rSC1ZQ0hINk1xZXZNWEZYUkF5WXhQZzhCbjl2Ml8xNHZoMkJ2TEp6WTU5bVVCOVNNTDNzTEswbXBMcE9pZU43UnFoeDkzRlpkV2FBTjduaGZUcElLSGItVnhNWnVTZlEyb0lEMGhNdkwyRkJQbUJjcUJmWDZ3c1ptNGI5VV9XYTVDcGMzOW5FcGhfWEtvcEJiU2lFVGFGakY4ZmkxOTJIY3hhai1hYUJsZFI1RVZ5bnFfOFJ2LXpXM21XVW92WVJQUkZ5RjhUMTFPa08tU2ZKTW5DblcxdWdjTHRGZGJPLXFtRWJ3bERubnE2c3RFY25LN0ZsWUdOQWp3d0lrbDVCNjM0UXlaYzhxUU1SOXBhdUYtelE1ZXZ2enhpVl9oMWIzWG51Rw?oc=5",
+     "title": "防曬產品資訊透明化 By the Beach Suncare完成最新資料更新 - GeneOnline",
+     "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOZk5wZC1vTk1GU2ZSalNzbkZNaFh2eFhpSlc2M3R0bzJWQ0gzQ2dfQjdNU0hBcHVISWVlVW9SY1R2c0w0cl95aUxXUUNCdWhvOTh2dGJrODBfV3FXcG5JVThrUFBDM2E5cjRXdFQtdDJNVGdVY3V2QkRTWmVxellIeHlHQWc4a0RlMjVxTlJueXdmS2thX05yTjdXNGhXemVIZjdaY3JTNmM4bmtRbWdTWDF2Rm4tS1UxenpwLXVJNXFqamhKeVQyNGJSMVpLY2o5a3ZuTFk2OWZVYXlPR1NrTnhVaXNkR0VWempmLWpXbGdBekhubGwzWDhPN2xhR0dxNFlDU0NJWkZ5TGdZWmhZWkhfRllQTUlFek5Gc3BQYmlDQ2cwaGc?oc=5",
      "source": "GeneOnline"
     },
     {
@@ -262,14 +271,14 @@
      "source": "墨新聞-MORE News"
     },
     {
+     "title": "法利恩藥妝防曬產品 TIZO MINERAL SUN DEFENSE 更新官方資訊確保產品合規與安全 - GeneOnline",
+     "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOblVtajFka3BkTUY0VDVxYTNhY2xjNVdDYkx0Wm9VUGcwSDNLS3lWWDJEUTc1STR1Q3VDcElUeDB3cEx1TkZ5RkNWSlJ6UUZHQ05IYlRrODFueWVCZjFpcXF5RU9WelRUVXpMb25DZzZkSXBLUEs3Z3Rtd3d4LVVrY1IxODFmOVlvcC11R0dpOE80U1AyR1puVUNPcDNONGNWZ3BqZjRVM3VybzU3RG1xV0ViYjJYTHgxOHZ1RXFfd2g1WDAyRWJMUXdxQ0x1cDJmMUpWaDRmclo1Q1lpSlEteVVhaGxkekNETUM3R3lEbnBWWnVmVC1oTVNMUnZ0VXVVMm12czF2ODRKckYxV1RVTW5Vc3B3THduY2p1bE5TdnlIR2xzbWRyR2lUcS1yLURldHNUNzZFcDVOZGlHNEpXSzUtV3c?oc=5",
+     "source": "GeneOnline"
+    },
+    {
      "title": "韓國大熱防曬激抵半價✨ - U Lifestyle",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQnFnQjhieXBfM3lrYWVIWnFVc0JCSXBvZ3V1Y3c3U1NiNWxnck13dWduekRNbEs1M2RvRkR1NGVMQklHeUtXWEJkMjdCQ2hHVEdEc3Zla3NZcW5lbWpmWURFZjFyazhZZXNHT2FUSVZNOHZGckdaNFNhVVl5WUhscU9NMlB2OGlYd0c5TExsS0k3N0kwQm5WU0ZKNTl4b2ZDNEw0c3QzRGVJZmdyM2dWLVRDLWFRbmZNVE1KeUZWNmNPOTFWaXlRbGtfVmRLOUZOZ0VZUGwzVVlhZXc0?oc=5",
      "source": "U Lifestyle"
-    },
-    {
-     "title": "Enhance B防曬產品更新成分資訊並登錄美國DailyMed資料庫 - GeneOnline",
-     "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQc3pCTzdQSWZUcDlreTFGc0NUdUROWVNzeEpNREtnVVFITWl2bkZQLTJNcjlTcWFvZUNNYS15S1hISURSSVhTcEQxSGJFZ004VUNFS01JVUlpTzVrV1NVb3FGOVB1dzdGdjVGbnZlYXN1QUFOV3otWTZ6SUI1TDEyeXlFd1V1ZXZvVXNWSkkxNnVjeTlYbHgwaEp6UlVCNHZ2cUJUbVFxSEpRSDE2YXVMamtxZUlBT3RLdHRleUtJSFVfek5aQnZZNWl0VmZXY2pfdmVLZ1dsVXpjOVc0TXV5Q1ZjX0dJRmZjRTE3THNoMExraEtRZEw0cU00Q2JOdjJGT2M3WVkxbU9ZTnVhd3U2LTlFQWEyVGpJT3hkU0FjYi1aRFNtSS15elk5WDA?oc=5",
-     "source": "GeneOnline"
     },
     {
      "title": "乘客稱候車亭遮雨防曬不足 學者：可按微氣候設計多變 - 新報人",
@@ -295,155 +304,116 @@
   },
   {
    "source": "google_trends",
-   "keyword": "消費券",
+   "keyword": "thời tiết",
    "traffic": 1000,
-   "published": "2026-11-19T06:40:00+09:00",
+   "published": "2026-11-19T07:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Ngày 20/11, vùng núi cao có khả năng xuất hiện tuyết rơi, nhiệt độ một số nơi có thể xuống mức 11 độ C vào sáng sớm cuối tuần",
+     "url": "https://www.rti.org.tw/vn/news?uid=3&pid=1051823",
+     "source": "Rti 中央廣播電臺"
+    },
+    {
+     "title": "Dự báo 4 tỉnh thành mưa to nhất do không khí lạnh, có nơi trên 250mm/đợt",
+     "url": "https://laodong.vn/moi-truong/du-bao-4-tinh-thanh-mua-to-nhat-do-khong-khi-lanh-co-noi-tren-250mmdot-1802304.ldo",
+     "source": "Laodong.vn"
+    },
+    {
+     "title": "Từ đêm nay không khí lạnh tăng cường",
+     "url": "https://tienphong.vn/tu-dem-nay-khong-khi-lanh-tang-cuong-post1895646.tpo",
+     "source": "Báo Tiền Phong"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 12.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://tienphong.vn/tu-dem-nay-khong-khi-lanh-tang-cuong-post1895646.tpo",
+     "title": "Từ đêm nay không khí lạnh tăng cường",
+     "outlet": "Báo Tiền Phong"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "weather",
+   "traffic": 1000,
+   "published": "2026-11-19T07:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "CNY weather: High temps will continue to climb this week",
+     "url": "https://www.syracuse.com/weather/2026/11/cny-weather-high-temps-will-continue-to-climb-this-week.html",
+     "source": "Syracuse.com"
+    },
+    {
+     "title": "Enjoy the warmth while you can",
+     "url": "https://www.wwnytv.com/2026/11/17/enjoy-warmth-while-you-can/",
+     "source": "WWNY"
+    },
+    {
+     "title": "Warm temps with highs in 50s, 60s to continue",
+     "url": "https://orleanshub.com/warm-temps-with-highs-in-50s-60s-to-continue/",
+     "source": "Orleans Hub"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 12.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.wwnytv.com/2026/11/17/enjoy-warmth-while-you-can/",
+     "title": "Enjoy the warmth while you can",
+     "outlet": "WWNY"
+    },
+    {
+     "url": "https://orleanshub.com/warm-temps-with-highs-in-50s-60s-to-continue/",
+     "title": "Warm temps with highs in 50s, 60s to continue",
+     "outlet": "Orleans Hub"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "光電板",
+   "traffic": 500,
+   "published": "2026-11-19T07:50:00+09:00",
    "category": "기타",
    "news": [],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 12.0,
+   "score": 10.5,
    "already_covered": false,
    "evidence": []
   },
   {
    "source": "google_trends",
-   "keyword": "快 閃 記憶 體",
-   "traffic": 1000,
-   "published": "2026-11-19T06:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Supermicro Ships First All-Flash Storage Servers, Delivering PCIe Gen 6 Performance and Broad Software-Defined Storage Support for AI Training and Inference",
-     "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Ships-First-All-Flash-Storage-Servers-Delivering-PCIe-Gen-6-Performance-and-Broad-Software-Defined-Storage-Support-for-AI-Training-and-Inference/default.aspx",
-     "source": "Supermicro"
-    },
-    {
-     "title": "AMD Zen 6 Technical Deep Dive",
-     "url": "https://www.techpowerup.com/review/amd-zen-6-technical-deep-dive/",
-     "source": "TechPowerUp"
-    },
-    {
-     "title": "AMD EPYC 9006 Results Are Here and AMD Delivers a Knockout Part Deux",
-     "url": "https://www.servethehome.com/amd-epyc-9006-results-are-here-and-amd-delivers-a-knockout-part-deux/",
-     "source": "ServeTheHome"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Ships-First-All-Flash-Storage-Servers-Delivering-PCIe-Gen-6-Performance-and-Broad-Software-Defined-Storage-Support-for-AI-Training-and-Inference/default.aspx",
-     "title": "Supermicro Ships First All-Flash Storage Servers, Delivering PCIe Gen 6 Performance and Broad Software-Defined Storage Support for AI Training and Inference",
-     "outlet": "Supermicro"
-    },
-    {
-     "url": "https://www.servethehome.com/amd-epyc-9006-results-are-here-and-amd-delivers-a-knockout-part-deux/",
-     "title": "AMD EPYC 9006 Results Are Here and AMD Delivers a Knockout Part Deux",
-     "outlet": "ServeTheHome"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "道瓊工業平均指數",
-   "traffic": 500,
-   "published": "2026-11-19T07:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "CMS推「CRUSH」反詐新規 聯合健康重挫逾8%、Humana暴跌逾10% 保險股崩拖累道瓊",
-     "url": "https://cmnews.com.tw/article/cmoneyairesearcher-1b62db48-e37b-11f1-a454-e87c84b6cb64",
-     "source": "CMoney投資網誌"
-    },
-    {
-     "title": "聯合健康(UNH)股票11月18日盤中下跌4.61%：關鍵驅動因素揭曉",
-     "url": "https://www.tradingkey.com/zh-hant/news/market-movers/262311289-market-movers-unh-20261118",
-     "source": "TradingKey"
-    },
-    {
-     "title": "CVS CVS HEALTH - 【即時新聞】美國醫療保險新規上路！聯合健康(UNH)重挫8%拖累道瓊下探低點- 股市爆料同學會",
-     "url": "https://www.cmoney.tw/forum/article/189157911",
-     "source": "CMoney"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://cmnews.com.tw/article/cmoneyairesearcher-1b62db48-e37b-11f1-a454-e87c84b6cb64",
-     "title": "CMS推「CRUSH」反詐新規 聯合健康重挫逾8%、Humana暴跌逾10% 保險股崩拖累道瓊",
-     "outlet": "CMoney投資網誌"
-    },
-    {
-     "url": "https://www.tradingkey.com/zh-hant/news/market-movers/262311289-market-movers-unh-20261118",
-     "title": "聯合健康(UNH)股票11月18日盤中下跌4.61%：關鍵驅動因素揭曉",
-     "outlet": "TradingKey"
-    },
-    {
-     "url": "https://www.cmoney.tw/forum/article/189157911",
-     "title": "CVS CVS HEALTH - 【即時新聞】美國醫療保險新規上路！聯合健康(UNH)重挫8%拖累道瓊下探低點- 股市爆料同學會",
-     "outlet": "CMoney"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "美股指數",
-   "traffic": 500,
-   "published": "2026-11-19T06:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "盤勢分析》昨低點不可再破 下半週反彈",
-     "url": "https://stock.ltn.com.tw/article/ulx2erqzeubj",
-     "source": "自由時報"
-    },
-    {
-     "title": "台指期月結算軋空 尾盤強力拉高台積電走揚5元 台股收漲102點",
-     "url": "https://udn.com/news/story/7251/9886487",
-     "source": "UDN"
-    },
-    {
-     "title": "兆億量能出現！行情即將反轉！",
-     "url": "https://news.wearn.com/c2149200.html",
-     "source": "聚財網"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "สภาพอากาศ",
+   "keyword": "漫威影業",
    "traffic": 200,
-   "published": "2026-11-19T07:20:00+09:00",
+   "published": "2026-11-19T08:00:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "พยากรณ์อากาศ ประจำวันที่ 18 พฤศจิกายน 2569 กรุงเทพและปริมณฑล มีฝนฟ้าคะนอง ร้อยละ 20 ของพื้นที่",
-     "url": "https://today.line.me/th/v3/article/PGzayaV",
-     "source": "LINE TODAY"
+     "title": "《復仇者聯盟：末日崛起》第二波預售今天開跑！特典情報重磅公開",
+     "url": "https://ent.ltn.com.tw/news/breakingnews/5644339",
+     "source": "自由娛樂"
     },
     {
-     "title": "ลมหนาวมาแล้ว! 'อีสาน' อุณหภูมิลดลง 2-4 องศา เหนือ-กลาง-กทม. ลด 1-3 องศา ภาคใต้ฝนตกหนัก",
-     "url": "https://www.thaipost.net/general-news/1111333/",
-     "source": "Thaipost.net"
+     "title": "「鋼鐵人黑化成漫威最強反派！小勞勃・道尼如何「重生」成末日博士？」",
+     "url": "https://stars.udn.com/star/story/10088/9884212?from=udn_indexnews_ch1022",
+     "source": "噓！星聞"
     },
     {
-     "title": "กรมอุตุฯ เตือนฉบับที่ 8 พรุ่งนี้ 6 จังหวัดภาคใต้เสี่ยงฝนถล่ม ขณะที่ไทยตอนบนมวลอากาศเย็นระลอกใหม่มาแล้ว | CH7ON ช่อง 7HD",
-     "url": "https://www.ch7.com/news/204080/",
-     "source": "ch7.com"
+     "title": "《複仇者聯盟5》影迷盛典來了 初代三巨頭齊聚上海",
+     "url": "https://m.china.com/game/13001823/20261117/49879328.html",
+     "source": "中华网"
     }
    ],
    "official": false,
@@ -454,9 +424,67 @@
   },
   {
    "source": "google_trends",
-   "keyword": "軍 公教",
+   "keyword": "伺服器",
    "traffic": 200,
-   "published": "2026-11-19T07:10:00+09:00",
+   "published": "2026-11-19T07:40:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Supermicro發表搭載第六代AMD EPYC 9006伺服器 支援HPC與代理式AI",
+     "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?cnlid=14&cat=35&id=0000774657_HG65VDLJ6UMM8K6B46K24",
+     "source": "DIGITIMES"
+    },
+    {
+     "title": "LinkedIn 採用 AMD 技術連結商業世界",
+     "url": "https://www.amd.com/zh-tw/resources/case-studies/linkedin-connects-the-business-world.html",
+     "source": "AMD"
+    },
+    {
+     "title": "微軟Azure擴大與AMD合作大舉導入Venice平台，鎖定AI數據處理與前沿模型訓練的Azure HDv2執行個體即日上線",
+     "url": "https://www.cool3c.com/article/253965",
+     "source": "Cool3c"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "氣象局",
+   "traffic": 200,
+   "published": "2026-11-19T07:40:00+09:00",
+   "category": "Living",
+   "news": [
+    {
+     "title": "淡江AI助攻防災 菲律賓氣象局睽違3年深化颱風預報合作",
+     "url": "https://www.cna.com.tw/postwrite/chi/450399",
+     "source": "中央社 CNA"
+    },
+    {
+     "title": "大雨特報！北台灣入夜探15度 明起冷氣團恐報到「3地」最冷",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5645709",
+     "source": "自由時報"
+    },
+    {
+     "title": "冷空氣發威 全台氣溫大跳水下探15度 今晚高山有望降雪",
+     "url": "https://udn.com/news/story/7266/9887864",
+     "source": "UDN"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "輝 達 盤 後",
+   "traffic": 200,
+   "published": "2026-11-19T07:40:00+09:00",
    "category": "기타",
    "news": [],
    "official": false,
@@ -467,25 +495,25 @@
   },
   {
    "source": "google_trends",
-   "keyword": "今彩539",
+   "keyword": "蔡天鳳",
    "traffic": 100,
-   "published": "2026-11-19T07:10:00+09:00",
+   "published": "2026-11-19T08:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "快訊／今彩539頭獎槓龜！800萬錢錢飛了 3星彩、4星彩幸運號碼一次看",
-     "url": "https://tw.stock.yahoo.com/news/%E5%BF%AB%E8%A8%8A-%E4%BB%8A%E5%BD%A9539%E9%A0%AD%E7%8D%8E%E6%A7%93%E9%BE%9C-800%E8%90%AC%E9%8C%A2%E9%8C%A2%E9%A3%9B%E4%BA%86-3%E6%98%9F%E5%BD%A9-4%E6%98%9F%E5%BD%A9%E5%B9%B8%E9%81%8B%E8%99%9F%E7%A2%BC-145500058.html",
-     "source": "Yahoo股市"
+     "title": "蔡天鳳案｜鄺球指肢解期間精神崩潰已忘記細節 青紅蘿蔔用作餵流浪貓狗",
+     "url": "https://hk.news.yahoo.com/%E8%94%A1%E5%A4%A9%E9%B3%B3%E6%A1%88-%E9%84%BA%E7%90%83%E6%8C%87%E8%82%A2%E8%A7%A3%E6%9C%9F%E9%96%93%E7%B2%BE%E7%A5%9E%E5%B4%A9%E6%BD%B0%E5%B7%B2%E5%BF%98%E8%A8%98%E7%B4%B0%E7%AF%80-%E9%9D%92%E7%B4%85%E8%98%BF%E8%94%94%E7%94%A8%E4%BD%9C%E9%A4%B5%E6%B5%81%E6%B5%AA%E8%B2%93%E7%8B%97-102326447.html",
+     "source": "Yahoo"
     },
     {
-     "title": "11/17大樂透開獎號碼出爐了嗎？今彩539、3星彩、4星彩獎號一次看，中獎領錢期限別錯過| 下班經濟學| 財經",
-     "url": "https://www.storm.mg/article/11182482",
-     "source": "風傳媒"
+     "title": "名媛蔡天鳳碎屍案最新進展！前公公當庭認了「肢解遺體」 痛哭否認殺人",
+     "url": "https://ent.ltn.com.tw/news/breakingnews/5644955",
+     "source": "自由娛樂"
     },
     {
-     "title": "1億獎金沒人領！大樂透「頭獎、貳獎」雙槓龜",
-     "url": "https://news.tvbs.com.tw/life/4052112",
-     "source": "TVBS新聞網"
+     "title": "持續更新｜蔡天鳳案Day40 鄺球：對肢解負全責 與兩子無關",
+     "url": "https://thewitnesshk.com/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0%E8%94%A1%E5%A4%A9%E9%B3%B3%E6%A1%88day40-%E9%84%BA%E7%90%83%E5%B0%8D%E8%82%A2%E8%A7%A3%E8%B2%A0%E5%85%A8%E8%B2%AC-%E8%88%87%E5%85%A9%E5%AD%90%E7%84%A1%E9%97%9C/",
+     "source": "法庭線 The Witness"
     }
    ],
    "official": false,
@@ -496,11 +524,27 @@
   },
   {
    "source": "google_trends",
-   "keyword": "台視新聞",
+   "keyword": "火災",
    "traffic": 100,
-   "published": "2026-11-19T06:30:00+09:00",
+   "published": "2026-11-19T08:00:00+09:00",
    "category": "기타",
-   "news": [],
+   "news": [
+    {
+     "title": "大分・佐賀関の大火から1年 集落入り口に「不死鳥」像、復興願い",
+     "url": "https://www.nishinippon.co.jp/item/1562055/",
+     "source": "西日本新聞me"
+    },
+    {
+     "title": "「土地を手放したい」被災者の7割以上が意向…道路拡幅で家を建てられない「残地」懸念 大分市佐賀関大規模火災から1年",
+     "url": "https://news.yahoo.co.jp/articles/d0d4b52f1eb0993bb74143185d1d4d2ee91f70c6?page=2",
+     "source": "Yahoo!ニュース"
+    },
+    {
+     "title": "佐賀関火災1年 公費解体終わった現場近くでは復興の象徴の「フェニックス」制作中 大分",
+     "url": "https://tosonline.jp/news/20261118/00000010.html",
+     "source": "TOSオンライン"
+    }
+   ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
@@ -552,18 +596,18 @@
    "traffic": 0,
    "article_count_24h": 5,
    "article_count_1h": 0,
-   "published": "2026-11-18T18:22:47+09:00",
+   "published": "2026-11-18T19:06:00+09:00",
    "category": "Deals",
    "news": [
+    {
+     "title": "2026好市多黑五11/23連14天！分流入場時間、每日優惠商品與黑鑽回饋攻略 - TVBS新聞網",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94OXpjMjRnMTJpdG1INDlQWHZxSzB0UW9BV3doRkd2NEhzRW5OdkpOcy1IdjJ3UU96blo4Vm9Md3NDOFpWSGtsemVkbUdEUQ?oc=5",
+     "source": "TVBS新聞網"
+    },
     {
      "title": "蝦皮購物連2年獲友善電商肯定！祭出3道詐騙防線 捐款及義賣成長50％ - 中時新聞網",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBST01Nd3BnVi1mRGJsV08wR09JZW5saG9lNlZMREtzdWRUWnpUQlo2UzFfazRFeVF3YVlZZy1La2R5bTRGbTFvenZqVnVRbTQ4WVR1cjRRM01xYjNKXzZlVTBiSkowZEZGSnpRN3Nn?oc=5",
      "source": "中時新聞網"
-    },
-    {
-     "title": "2026好市多黑五11/23連14天！分流入場時間、每日優惠商品與黑鑽回饋攻略 - TVBS新聞網",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0zNTZSYkxuVnhPbzgzdXFXRk9PaWlzR21BS3BRckpteGExQzNlM0FWMzVuMVVxbFZoc1RzTFJJVEg5R1dabFgyN2ZnQjU?oc=5",
-     "source": "TVBS新聞網"
     },
     {
      "title": "荷包君撐住！雙11、雙12、聖誕季輪番登場 刷「這卡」最高享4.5%回饋 - 造咖",
@@ -617,17 +661,6 @@
    ],
    "official": false,
    "score": 5.0,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "最低工資",
-   "traffic": 1000,
-   "published": "2026-11-19T06:20:00+09:00",
-   "category": "기타",
-   "news": [],
-   "official": false,
-   "score": 3.0,
    "already_covered": false
   }
  ]
