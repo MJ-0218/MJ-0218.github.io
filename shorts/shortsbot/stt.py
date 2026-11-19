@@ -24,6 +24,12 @@ def utterances(words, gap=0.6, max_chars=28):
     """단어 목록 → [(시작, 끝, 화자, 문장)]"""
     out, cur = [], None
     for w in words:
+        if w.get("type") == "audio_event":  # 웃음·씹는 소리 같은 말 아닌 소리도 남긴다
+            if cur:
+                out.append(tuple(cur))
+                cur = None
+            out.append((w["start"], w["end"], w.get("speaker_id") or "s", f"({w['text'].strip('() ')})"))
+            continue
         if w.get("type") != "word":
             continue
         spk = w.get("speaker_id") or "s"
