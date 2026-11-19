@@ -3,6 +3,8 @@
 name: shorts-frames
 on:
   workflow_dispatch:
+    inputs:
+      limit: { description: "이번에 받을 클립 수", required: false, default: "10" }
 concurrency: { group: shorts-daily, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
@@ -21,7 +23,7 @@ jobs:
       - name: 클립 받기 + 장면 사진
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-        run: python3 shorts/run.py frames
+        run: python3 shorts/run.py frames --limit ${{ inputs.limit || 10 }}
       - name: 기록 저장
         run: |
           git config user.name "semter-shorts"

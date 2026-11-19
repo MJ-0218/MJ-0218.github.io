@@ -54,11 +54,24 @@ def credit_block(entry):
     return f"\n\n──────────\n[출처]\n원작자: {entry['credit']}{pl}"
 
 
-def cmd_fetch(cfg):
+def cmd_fetch(cfg, mode="make", batch=10):
+    """mode=make: 만들 차례인 클립만(대본이 있거나 API 키로 대본을 쓸 수 있는 것, 아직 안 만든 것).
+    mode=frames: 장면 사진이 아직 없는 클립을 batch 편씩. 허가 클립이 많아도 매번 전부 받지 않는다."""
     INBOX.mkdir(parents=True, exist_ok=True)
+    done = {v["id"] for v in load_history()["videos"]}
+    scripts = Path(__file__).resolve().parent / "scripts"
+    can_write = bool(os.environ.get("ANTHROPIC_API_KEY"))
+    picked = 0
     for e in load_sources():
         if not e.get("url"):
             continue
+        cid = e.get("id")
+        if mode == "make" and (cid in done or not ((scripts / f"{cid}.json").exists() or can_write)):
+            continue
+        if mode == "frames":
+            if cid in done or (STATE / "frames" / cid / "meta.json").exists() or picked >= batch:
+                continue
+            picked += 1
         reason = rights.check(e)
         if reason:
             print(f"건너뜀 {e.get('id')}: {reason}")
@@ -429,7 +442,7 @@ def main():
     elif a.cmd == "sheet":
         print(review_sheet(a.path, a.out))
     elif a.cmd == "frames":
-        cmd_fetch(cfg)
+        cmd_fetch(cfg, "frames", a.limit or 10)
         cmd_frames(cfg)
     elif a.cmd == "make":
         cmd_make(cfg, a.limit or cfg["channel"]["daily_count"], a.id)
