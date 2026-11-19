@@ -47,16 +47,11 @@ def credit_label(entry):
 
 
 def credit_block(entry):
-    """설명란 맨 아래 출처 묶음 — 원작자 계정, 계정 링크, 원본 링크, 사용 근거."""
+    """설명란 맨 아래 출처 — 원작자만 남긴다(사용자 요청 2026-11-19: 설명란에 링크를 남길 수 없어 그 밑은 모두 뺌)."""
     if not entry.get("credit") or entry.get("license") == "own":
         return ""
-    rows = ["", "", "──────────", "[출처]", f"원작자: {entry['credit']}" + (f" ({PLATFORM[platform_of(entry)]})" if platform_of(entry) else "")]
-    if entry.get("credit_url"):
-        rows.append(f"원작자 계정: {entry['credit_url']}")
-    if entry.get("url"):
-        rows.append(f"원본 영상: {entry['url']}")
-    rows.append(HOW.get(entry.get("license"), ""))
-    return "\n".join(r for r in rows if r is not None)
+    pl = f" ({PLATFORM[platform_of(entry)]})" if platform_of(entry) else ""
+    return f"\n\n──────────\n[출처]\n원작자: {entry['credit']}{pl}"
 
 
 def cmd_fetch(cfg):
