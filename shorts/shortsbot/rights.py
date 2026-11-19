@@ -6,6 +6,8 @@ ALLOWED = {"own", "permission", "licensed", "cc-by"}
 
 def check(entry):
     """문제가 있으면 이유 문자열, 없으면 None."""
+    if entry.get("hold"):  # 정책상 보류(예: YouTube 위험한 장난 정책) — 허가가 있어도 만들지 않는다
+        return f"보류: {entry['hold']}"
     lic = (entry.get("license") or "").strip()
     if lic not in ALLOWED:
         return f"license 가 {sorted(ALLOWED)} 중 하나가 아님: {lic!r}"
