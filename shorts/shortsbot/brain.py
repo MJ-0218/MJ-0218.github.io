@@ -71,6 +71,7 @@ class ShortScript(BaseModel):
     dialogue: List[Dialogue]
     marks: List[Mark]
     ending_caption: str
+    ending_y: int | None = None  # 끝 질문 세로 위치(1920 기준). 원본 자막과 겹칠 때만
     title: str
     description: str
     hashtags: List[str]

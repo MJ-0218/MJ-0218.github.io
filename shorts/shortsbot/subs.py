@@ -75,7 +75,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     ending = getattr(script, "ending_caption", "")
     if ending:
         y = ass_color("FFE14D")
-        ev.append(f"Dialogue: 5,{ts(max(0, end - 1.6))},{ts(end)},Aside,,0,0,0,,{{\\c{y}\\pos(540,960)\\fad(120,0)}}{esc(ending)}")
+        ey = getattr(script, "ending_y", None) or 960
+        ev.append(f"Dialogue: 5,{ts(max(0, end - 1.6))},{ts(end)},Aside,,0,0,0,,{{\\c{y}\\pos(540,{ey})\\fad(120,0)}}{esc(ending)}")
     if credit:
         ev.append(f"Dialogue: 2,{ts(0)},{ts(end)},Credit,,0,0,0,,{{\\alpha&H20&}}영상 출처 {esc(credit)}")
     return head + "\n".join(ev) + "\n"
