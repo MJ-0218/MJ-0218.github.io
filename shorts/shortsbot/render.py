@@ -63,7 +63,7 @@ def shifted(script, t0):
     return s
 
 
-def mark_pixels(marks, meta, landscape):
+def mark_pixels(marks, meta, landscape, top=0):
     """프레임 기준 0~1 위치 → 1080x1920 화면 픽셀."""
     w, h = max(1, meta["width"]), max(1, meta["height"])
     out = []
@@ -75,6 +75,7 @@ def mark_pixels(marks, meta, landscape):
             sc = max(1080 / w, 1920 / h)
             x = m.x * w * sc - (w * sc - 1080) / 2
             y = m.y * h * sc - (h * sc - 1920) / 2
+        y += top
         out.append((m.start, m.end, int(min(1040, max(40, x))), int(min(1880, max(360, y))), m.kind))
     return out
 
@@ -139,7 +140,7 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_ba
             {"cuts": [round(c, 2) for c in cuts], "crossings": crossings}, ensure_ascii=False), encoding="utf-8")
         ass = td / "subs.ass"
         colors = {"line1_color": tcfg["line1_color"], "line2_color": tcfg["line2_color"]}
-        ass.write_text(subs.build(s, timeline, end, st, credit, colors, mark_pixels(s.marks, meta, landscape)),
+        ass.write_text(subs.build(s, timeline, end, st, credit, colors, mark_pixels(s.marks, meta, landscape, int(st.get("top_safe", 0)))),
                        encoding="utf-8")
 
         inputs = ["-ss", f"{t0:.2f}", "-t", f"{clip_len:.2f}", "-i", str(clip)]
@@ -157,7 +158,10 @@ def render(clip, meta, script, cfg, out_path, credit="", cut=(0.0, 0.0), blur_ba
             chain += f",zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30"
         if freeze > 0:
             chain += f",tpad=stop_mode=clone:stop_duration={freeze:.2f}"
-        bh = st["banner_height"]
+        top = int(st.get("top_safe", 0))  # 폰 앱 상단(시계·뒤로가기·검색 아이콘)에 가려지지 않게 비워 둘 높이
+        if top:  # 영상 전체를 아래로 내리고(아래쪽을 잘라 냄) 위를 검은 띠로
+            chain += f",crop=1080:{1920 - top}:0:0,pad=1080:1920:0:{top}:black"
+        bh = st["banner_height"] + top
         chain += f",drawbox=x=0:y=0:w=iw:h={bh}:color=0x{st['banner_color']}@1:t=fill"
         if st.get("accent_bar"):
             chain += f",drawbox=x=0:y={bh}:w=iw:h=8:color=0x{st['accent_bar']}@1:t=fill"

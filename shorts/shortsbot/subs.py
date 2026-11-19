@@ -42,7 +42,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Banner,{st['font']},{st['banner_size']},{ass_color(st['line1_color'])},{white},{black},{black},0,0,0,0,100,100,0,0,1,0,0,8,40,40,{max(20, (st['banner_height'] - st['banner_size'] * 2 - 20) // 2)},1
+Style: Banner,{st['font']},{st['banner_size']},{ass_color(st['line1_color'])},{white},{black},{black},0,0,0,0,100,100,0,0,1,0,0,8,40,40,{int(st.get('top_safe', 0)) + max(20, (st['banner_height'] - st['banner_size'] * 2 - 20) // 2)},1
 Style: Narr,{st['sub_font']},{st['narr_size']},{white},{white},{black},&H64000000,-1,0,0,0,100,100,0,0,1,7,3,2,60,60,430,1
 Style: Aside,{st['sub_font']},{st['aside_size']},{white},{white},{black},{black},-1,0,0,0,100,100,0,0,1,6,0,5,80,80,0,1
 Style: Dlg,{st['sub_font']},{st['aside_size']},{white},{white},{black},{black},-1,0,0,0,100,100,0,0,1,6,0,5,70,70,0,1
