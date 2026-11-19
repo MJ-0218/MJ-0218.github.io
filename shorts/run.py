@@ -318,8 +318,10 @@ def cmd_upload(cfg):
 
 
 def made_today(history):
+    """오늘 새로 만든 편수(같은 영상을 고쳐서 다시 만든 것은 한 번만 센다)."""
     today = dt.date.today().isoformat()
-    return sum(1 for v in history["videos"] if v.get("rendered_at", "").startswith(today))
+    return len({v["id"] for v in history["videos"] if v.get("rendered_at", "").startswith(today)
+                and not v.get("review")})
 
 
 def cmd_sync(db_path):
