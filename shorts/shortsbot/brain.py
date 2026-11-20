@@ -26,6 +26,7 @@ class Aside(BaseModel):
     end: float
     text: str
     color: Color
+    y: int | None = None  # 세로 위치(1920 기준). 기본 880 — 원본 글자·얼굴과 겹칠 때만
 
 
 class Sfx(BaseModel):

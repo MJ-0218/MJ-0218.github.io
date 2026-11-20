@@ -61,7 +61,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for a in script.asides:
         c = ass_color(ASIDE_COLORS.get(a.color, "FFE14D"))
         jump = "{\\fscx70\\fscy70\\t(0,120,\\fscx108\\fscy108)\\t(120,200,\\fscx100\\fscy100)}"
-        ev.append(f"Dialogue: 4,{ts(a.start)},{ts(a.end)},Aside,,0,0,0,,{jump}{{\\c{c}\\pos(540,880)}}{esc(a.text)}")
+        ev.append(f"Dialogue: 4,{ts(a.start)},{ts(a.end)},Aside,,0,0,0,,{jump}{{\\c{c}\\pos(540,{getattr(a, "y", None) or 880})}}{esc(a.text)}")
     for d in getattr(script, "dialogue", []):
         c = ass_color(ASIDE_COLORS.get(d.color, "4CFF7A"))
         ev.append(f"Dialogue: 4,{ts(d.start)},{ts(d.end)},Dlg,,0,0,0,,{{\\c{c}\\pos(540,1230)}}\"{esc(d.text)}\"")
