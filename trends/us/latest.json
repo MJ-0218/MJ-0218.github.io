@@ -1,33 +1,76 @@
 {
- "generated_at": "2026-11-20T13:11:20.519679+09:00",
+ "generated_at": "2026-11-20T13:39:48.784503+09:00",
  "sources": {
   "calendar": "ok (3)",
   "google_trends": "ok (10)",
-  "google_news": "ok (18)",
-  "evidence": "ok (저장 63, 실패 35)"
+  "google_news": "ok (20)",
+  "evidence": "ok (저장 67, 실패 38)"
  },
  "compared_runs": 5,
  "spikes": [
-  "SNAP benefits",
-  "tax deadline",
-  "gold price",
-  "scoot henderson",
-  "houston basketball",
-  "vcu basketball",
-  "will levis",
-  "robbie avila",
-  "stanford basketball",
-  "henry to'oto'o",
-  "deforest buckner",
-  "is tyran stokes playing tonight"
+  "social security COLA",
+  "yashasvi jaiswal",
+  "vgk",
+  "utep basketball",
+  "kansas basketball",
+  "mercy miller",
+  "uh basketball",
+  "tarleton state basketball",
+  "stephen baldwin",
+  "lea seydoux"
  ],
  "candidates": [
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed veterans-day",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-20T13:39:48.807490+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-veterans-day-2026",
+   "phase": "veterans-day",
+   "queries": [
+    "is veterans day a federal holiday",
+    "is the post office open on veterans day",
+    "are banks open veterans day"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -18,
+   "in_window": true
+  },
+  {
+   "source": "calendar",
+   "keyword": "Federal holiday — what's open and closed thanksgiving",
+   "category": "Holidays",
+   "official_sources": [
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+   ],
+   "official": true,
+   "traffic": 0,
+   "published": "2026-11-20T13:39:48.807507+09:00",
+   "score": 85,
+   "already_covered": false,
+   "cycle": "us-federal-holidays-thanksgiving-2026",
+   "phase": "thanksgiving",
+   "queries": [
+    "what's open on thanksgiving",
+    "post office thanksgiving"
+   ],
+   "window": "2026-11 ~ 2026-11 (보통)",
+   "days_to_start": -18,
+   "in_window": true
+  },
   {
    "source": "google_news",
    "keyword": "SNAP benefits",
    "traffic": 0,
    "article_count_24h": 64,
-   "article_count_1h": 9,
+   "article_count_1h": 4,
    "published": "2026-11-20T08:15:32+09:00",
    "category": "Benefits",
    "news": [
@@ -58,9 +101,7 @@
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 3.8→9건 (2.1배)",
-   "spike_bonus": 20.8,
-   "score": 113.3,
+   "score": 73.6,
    "already_covered": false,
    "evidence": [
     {
@@ -76,110 +117,65 @@
    ]
   },
   {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed veterans-day",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-20T13:11:20.560360+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-veterans-day-2026",
-   "phase": "veterans-day",
-   "queries": [
-    "is veterans day a federal holiday",
-    "is the post office open on veterans day",
-    "are banks open veterans day"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -18,
-   "in_window": true
-  },
-  {
-   "source": "calendar",
-   "keyword": "Federal holiday — what's open and closed thanksgiving",
-   "category": "Holidays",
-   "official_sources": [
-    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
-   ],
-   "official": true,
-   "traffic": 0,
-   "published": "2026-11-20T13:11:20.560386+09:00",
-   "score": 85,
-   "already_covered": false,
-   "cycle": "us-federal-holidays-thanksgiving-2026",
-   "phase": "thanksgiving",
-   "queries": [
-    "what's open on thanksgiving",
-    "post office thanksgiving"
-   ],
-   "window": "2026-11 ~ 2026-11 (보통)",
-   "days_to_start": -18,
-   "in_window": true
-  },
-  {
    "source": "google_news",
-   "keyword": "tax deadline",
+   "keyword": "social security COLA",
    "traffic": 0,
-   "article_count_24h": 14,
-   "article_count_1h": 5,
-   "published": "2026-11-20T03:04:29+09:00",
-   "category": "Taxes",
+   "article_count_24h": 20,
+   "article_count_1h": 3,
+   "published": "2026-11-20T05:52:00+09:00",
+   "category": "Benefits",
    "news": [
     {
-     "title": "The 1099 deadline is coming: Due dates, requirements, and penalties for filing - Quad City Herald",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON0dKdzMxTFNKMEJPTUgwMkpGdEdVbnlGbHlCMHVJRC1EQVFvVU90NFhOUXBDTG16UEtJLW56T3d4WE12LTdkRnZsUnJsV195RG43SWpiS3FKaGlrYUQwTUZ4ZXlFSy16UFdiRGJYNnpKWFF3R0ZTMWdia2JTYW5XNEF2WkNaSm5NVVZBYWQ2SVBHZE5YOEV0eENCTDd1c1BVcFNaMGMtX3dzOXlzOTNCcmFKRnEydTI3Z1kzTWNCMnktYkdxNm5nMWN3?oc=5",
-     "source": "Quad City Herald"
+     "title": "Here’s the Average Social Security Benefit Once 2027’s 3.6% COLA Comes Through - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOanhVMEE4VlhSYWVNcGpIWTNKNVo5OUhWMFNiUnNkdkEwaXpaWTkyUWliemVfUGRTTEFCNTZ2aG1MQTZ6Y3FKQjlSSl9NVUpXRmlUSFZGQmVZQVJNa2ExQXZiWkItWkRtXzdwam11YllVbFE1ZVFadGs0OXFxR3Jnd3ZuOE9PdmxZWDk4Tk5VeVlhSlM1V1IySGtFdVctR09vRFNIWDBFNlRQZXFSaTc2U2xhR1dubXpRSFpWN1pNTExCanJT?oc=5",
+     "source": "24/7 Wall St."
     },
     {
-     "title": "Can I still file my taxes? 3 steps to take if you missed the deadline - Santa Fe New Mexican",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOaHo2M3JoV1ZESEdxcVFtZm91SVJuTEwycm5jMk5xb2RqTXUwMzJlQmZDczJOY3Bjc21YUk0zRU4tSG5ITWd4eTNKZDVvc0s2R00xd3NqNGVSRlpMWEhIYzBIMGxJUGJad2N6djdacG1KbE11Sno3T3JGZ00zN3QyVWpQTk9XSE13UXR3STVtY3E1eDlVMi1hYlBFU1RTMUpEQlBOUEhFc05RUGVxZVYwclJpRlB0QV9kS2pkSjBYemYwTndhR1BFNWJKZTBpQjVXcXVSd3pnOXdKcmhKVjZfM2Mta3IzVnZubGl4c3BYUnNYVnRmNXpKbExR?oc=5",
-     "source": "Santa Fe New Mexican"
+     "title": "The Average Social Security Check Will Increase $75 in 2027, but You'll Beat That if Your Current Benefit Is More Than This - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdkhiVnhLQ2c4T1lKTEJXenJVUXJLN3VBd0Y5Qm9OWkVrWXpIdE9ZWXM1NjFNNTRMTWlwcGhVVkpSUzZRb19ud1d5Rldaa3dwdDRTeFRWYnQ0VkpwUzZ6cV9vYlB2WVJHV3lwM2hjS3ZuR19vZWhzOGQtamtqaGg2bVZOdU1URWduaV9Mc1AtOUtVNWx0SjNKaG94a3VsVXhzZExUZ1pR?oc=5",
+     "source": "Yahoo Finance"
     },
     {
-     "title": "Can I still file my taxes? 3 steps to take if you missed the deadline - Lincoln Journal Star",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcHR5TkFMekxqVE5xVmRjckpCbXM1NVRzYURwbnhJU3lTSWY2dDhETS1zb3U0TktzWl9UX3RkamI5Rl92aTNjN3JsenR4SllkaldRam5Bb3BJVldHYUhjX2pSSTM3cmwya0RTVVRTajBJbXA4OVZ1NDRmUFFHdEJJSXZ5MnJjWDhyaG1OXzNBVWljVkpmaVBUYXpsVGxDV1NYanJLeEhKLWk3NC04OUotVnExN3o1QUZm?oc=5",
-     "source": "Lincoln Journal Star"
+     "title": "Social Security Stimulus: Leading Retiree Group Pushing for $1,400 Payment - CPA Practice Advisor",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa2VRRDNRVFJDUEVENlpCaml1YkozSGNHWWU4eXI3ZGkwQjhxTnBnTFJsX0xqdnM1UC1aSm1Qei1ZaHY4VFJMbU9KY05mMkFyY2dRWWZGQ2plazJjenJsVUFYelhpSm5PVWR5NjVKczhTSFd1TEFzeEY2dVB1T0VhWDFkM1pfbm9PZXVtOFVKeTBkbWtBRjNmNXRtaTBhXzhpYmoxQVIxWUtKUUVTRGkwcTJoM3kxX29KY0JtdU9RRmNfTWs?oc=5",
+     "source": "CPA Practice Advisor"
     },
     {
-     "title": "BIR Tax Deadline Moved to November 19, 2026 in NCR - Aureada CPA Law Firm",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTUlfWVRhZUo5cmduNlF1ZDY2QlBrQkstbUpvTXBrU2RUX0RpTDY3eWNONGtTQUlOSkgyRno4SExWYm5KV2ROUzBVQ2dZLUwyd3gxOW9wa0lDMEtXYUxXM0FmSTZWZFQzaW9KOF8yT2ZKdGlOdUhyRS1RMFY5ZlBmNUtWalZXTWVycU9BMl9wWmhKVDEyZHhfNFMyWWRvN2NqQkdqZmhB?oc=5",
-     "source": "Aureada CPA Law Firm"
+     "title": "The Average Social Security Check Will Increase $75 in 2027, but You'll Beat That if Your Current Benefit Is More Than This - The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbElYNUh1ZUtMOHJ2WlJQa2hzVm9pQzhOb1VKTUhnQTdQdUR2Q29hSjN3SnYtcjJTOWtUT1BxaHFXVHlhdnJ2dlZ6RE5IcUltcVFDcjM3X01ubU82YnR6WHFDZW9nNXM0RHpSaExqRGV1Z25kcmxEY0txdFdTUUFaU0pLQkZWb2Z3UXd0T1RuMUpMN09lc1FJdGxNR3lrcDFSV1ZHLXl2T2JvcEFINmRSVHl2TDE2MmNOelExWXFfWFpYTklfTC1wNU0wU0R5a3FUbkI1T3JjR0NpQy1ZanZaMXN5LVZBNWhhZmdkZUU2S01kNW5XMkZoN2ZLa0U?oc=5",
+     "source": "The Motley Fool"
     },
     {
-     "title": "Brazil plans tax penalty relief as companies face reform deadline - Valor International",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPc0tybmxMa0hMQTE4S3VPeEFwNWpXV2xqWjVSTUw0Ni1IS3Y2bUtORTlyaXBremhqZlI4bkdrRUNCbi0yRFNnZXowcE5JYlRNYlpfRjdjeDkycVNDUjlmd0dfTE5KRUw4eFJqUS15NExmclVISEZ5bWZWWEhkVGRHSlpYdlkzUm05Y29QNmo5WEQya1VWMnNhWWhLd3pGbjRQLXQySS1ZeGhkQWRfTlR0QXk4MWtJM191SW9hZ3RXNUJaNDBfbHFxUk5ZWkXSAdsBQVVfeXFMTW96bXFSWjRVV2tfS0JwVjlWQWFMNUJ3RjkxWVZfSXlfNU5xVVIzR1ZLZTNFS1hxYjJyNU9qVG84SlVOUGRnSHpkMWVJclo0Q3F0WHNDSHVwRXg1QW1CaG9YNmNsc3lnbVBwMlZNNm9OMXRjX3dxVS1OMjllT3FkSm9DOUx2N2g0MkY3MXVKN2gzZnJrS0wzdlBnREFYUV8wX1hSUkdoSHJVREFCYlgzdmRwTzlqSGkxLWZuOUZ0X25ld2U2S04yTmlZajgyVHg3UWdMSmRJbXFtNVdr?oc=5",
-     "source": "Valor International"
+     "title": "Medicare increase set to eat into Social Security hike - here’s how much - The Independent",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZVQyUlV5Slk4VUNyV0xyNWZLWUprX2tmM2ZEcGFLY1BMWFRpZkMwaGhPUXNrejI1LXl6SXE3N1hKVGhoUVVGRWh5NjkyUmRvbEozZks3OVNHWTkwb1hBSUZjVmJydXlpVTlYR1lDellGVlJ3alh2dXphS3BJNHcwVEdyMThEZHIweXpzRXBkb05JNEVWNlJab3Y4cVhpaG4tajVuZGtiRGVGdw?oc=5",
+     "source": "The Independent"
     }
    ],
    "official": false,
-   "spike": "최근 1시간 기사 1.4→5건 (2.5배)",
-   "spike_bonus": 25.0,
-   "score": 78.8,
+   "spike": "최근 1시간 기사 1.0→3건 (2.0배)",
+   "spike_bonus": 20.0,
+   "score": 69.4,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.qcherald.com/premium/stacker/stories/the-1099-deadline-is-coming-due-dates-requirements-and-penalties-for-filing,196451",
-     "title": "The 1099 deadline is coming: Due dates, requirements, and penalties for filing - Quad City Herald",
-     "outlet": "Quad City Herald"
+     "url": "https://247wallst.com/personal-finance/2026/11/19/heres-the-average-social-security-benefit-once-2027s-3-6-cola-comes-through/",
+     "title": "Here’s the Average Social Security Benefit Once 2027’s 3.6% COLA Comes Through - 24/7 Wall St.",
+     "outlet": "24/7 Wall St."
     },
     {
-     "url": "https://www.santafenewmexican.com/life/features/can-i-still-file-my-taxes-3-steps-to-take-if-you-missed-the-deadline/article_d6bf5a19-c138-5a4b-9c6b-e7773602cab9.html",
-     "title": "Can I still file my taxes? 3 steps to take if you missed the deadline - Santa Fe New Mexican",
-     "outlet": "Santa Fe New Mexican"
+     "url": "https://finance.yahoo.com/economy/policy/articles/average-social-security-check-increase-142002910.html",
+     "title": "The Average Social Security Check Will Increase $75 in 2027, but You'll Beat That if Your Current Benefit Is More Than This - Yahoo Finance",
+     "outlet": "Yahoo Finance"
     },
     {
-     "url": "https://journalstar.com/news/nation-world/business/personal-finance/article_eee57299-1a4e-5596-a5f7-267f7aff5a6b.html",
-     "title": "Can I still file my taxes? 3 steps to take if you missed the deadline - Lincoln Journal Star",
-     "outlet": "Lincoln Journal Star"
+     "url": "https://www.cpapracticeadvisor.com/2026/11/19/social-security-stimulus-leading-retiree-group-pushing-for-1400-payment/194389/",
+     "title": "Social Security Stimulus: Leading Retiree Group Pushing for $1,400 Payment - CPA Practice Advisor",
+     "outlet": "CPA Practice Advisor"
     },
     {
-     "url": "https://www.aureadalaw.com/post/bir-moves-metro-manila-tax-deadlines-to-november-19-2026-who-is-covered",
-     "title": "BIR Tax Deadline Moved to November 19, 2026 in NCR - Aureada CPA Law Firm",
-     "outlet": "Aureada CPA Law Firm"
+     "url": "https://www.fool.com/retirement/2026/11/19/the-average-social-security-check-will-increase-usd75-in-2027-but-you-ll-beat-that-if-your-current-benefit-is-more-than-this/",
+     "title": "The Average Social Security Check Will Increase $75 in 2027, but You'll Beat That if Your Current Benefit Is More Than This - The Motley Fool",
+     "outlet": "The Motley Fool"
     }
    ]
   },
@@ -187,7 +183,7 @@
    "source": "google_news",
    "keyword": "election day",
    "traffic": 0,
-   "article_count_24h": 36,
+   "article_count_24h": 37,
    "article_count_1h": 11,
    "published": "2026-11-20T09:32:34+09:00",
    "category": "Elections",
@@ -198,11 +194,6 @@
      "source": "Houstonia Magazine"
     },
     {
-     "title": "Wisconsin university voters again faced long polling place lines in November - Votebeat",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaUpFdEZnTTZDNkxLdjJZLW9oSUFjWk9UTEo3c2RwLVd6UGdBZVFGcWttWUZYa2diNmZDZXpVMjNrbnE3Nm1RWTEyckkyOGhCbUhhbXJtVGtXRTlPLVh5cG4zMVpYZVNZaVlLMTk1dEVqTUFzTlE2ZWhxMEJid1JXNElSNzd6NWx5YUhCRGVpY2t4X1d3VW53WTFvWjRGOEljWjliWjVtbHZGcjlvb1E?oc=5",
-     "source": "Votebeat"
-    },
-    {
      "title": "Results in the 2026 Alaska State Senate and House elections - FairVote",
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPejRWX0E2TFpKZ2NzSDBZanBaLUpNcnVjdWNIeEJ4YjFIZm82V1pvRkg5WEFMcXliTUdUM21hMnFCbFhaam83Qkp3RHIyOG5WVW5BRUFWS054SFVtck1EV21FVVVtc19RMVREeHE1T3N5c01CVXU5VnNobWt0R1ZkaU8yZGlEb0st?oc=5",
      "source": "FairVote"
@@ -211,6 +202,11 @@
      "title": "City of Lynchburg – November 3, 2026, General and Special Election - City of Lynchburg, VA (.gov)",
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44ZXprUEdVclcxVUNLSXVSTTBWckdmU3BKNEFGamk5WXZqSW15WEJJQm9hV183MmNNTXZyd05zRThURThvQVM1M2tkekdBTmpvN0JSbzMwdlZ1LWFTSlZlYm41dw?oc=5",
      "source": "City of Lynchburg, VA (.gov)"
+    },
+    {
+     "title": "Wisconsin university voters again faced long polling place lines in November - Votebeat",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaUpFdEZnTTZDNkxLdjJZLW9oSUFjWk9UTEo3c2RwLVd6UGdBZVFGcWttWUZYa2diNmZDZXpVMjNrbnE3Nm1RWTEyckkyOGhCbUhhbXJtVGtXRTlPLVh5cG4zMVpYZVNZaVlLMTk1dEVqTUFzTlE2ZWhxMEJid1JXNElSNzd6NWx5YUhCRGVpY2t4X1d3VW53WTFvWjRGOEljWjliWjVtbHZGcjlvb1E?oc=5",
+     "source": "Votebeat"
     },
     {
      "title": "Netanyahu Associates Acknowledge Role in Setting Off Election Day Arrests - The New York Times",
@@ -228,11 +224,6 @@
      "outlet": "Houstonia Magazine"
     },
     {
-     "url": "https://www.votebeat.org/wisconsin/2026/11/19/university-polling-place-lines-long-strategies-work-nationwide/",
-     "title": "Wisconsin university voters again faced long polling place lines in November - Votebeat",
-     "outlet": "Votebeat"
-    },
-    {
      "url": "https://fairvote.org/results-in-the-2026-alaska-state-senate-and-house-elections/",
      "title": "Results in the 2026 Alaska State Senate and House elections - FairVote",
      "outlet": "FairVote"
@@ -241,6 +232,72 @@
      "url": "https://www.lynchburgva.gov/m/newsflash/home/detail/1189",
      "title": "City of Lynchburg – November 3, 2026, General and Special Election - City of Lynchburg, VA (.gov)",
      "outlet": "City of Lynchburg, VA (.gov)"
+    },
+    {
+     "url": "https://www.votebeat.org/wisconsin/2026/11/19/university-polling-place-lines-long-strategies-work-nationwide/",
+     "title": "Wisconsin university voters again faced long polling place lines in November - Votebeat",
+     "outlet": "Votebeat"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "early voting",
+   "traffic": 0,
+   "article_count_24h": 24,
+   "article_count_1h": 5,
+   "published": "2026-11-20T10:12:30+09:00",
+   "category": "Elections",
+   "news": [
+    {
+     "title": "El Paso County tests election equipment ahead of runoff voting; see early voting locations - KFOX",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZnRwRkhJQ1I1UHhiRFJ3eHgzOUlXNVUtZFN3QzYzaDJaR3pLZXAzaVYxV20wRnN4d24tVnlBX1NOMENmSmUybGQ4ZFpLTWNxYUJMOE1uZll4X1NUSGVNdUItTFoyWHoxTnpHOE1tS083UVhXWFVWRE5OVVNFMTN3dmxyakFlT0g4Y1BFNFFzMUwzeE9GbEJZSTM0ZGRGbTdXR0UwVTM5N2ROdHBTMFMxNlM2bW0wWkdGNEZF?oc=5",
+     "source": "KFOX"
+    },
+    {
+     "title": "Civil Rights & Voter Engagement Organizations Launch National Black Man Voter Day - National Urban League",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02bHUtbUpIRjV3QlJrNTBIbE9GVjdXYk1QOFhXZ0tyZG53Y3FZX2xEaUhIQjE1Ump4WGhfX2RtRmpDVXVGcU0wRHJiaTFwc2JqRl8wMGdqZ0pkUQ?oc=5",
+     "source": "National Urban League"
+    },
+    {
+     "title": "Voters hit a few snags in the 2026 election. Let’s find some solutions. - ACLU of South Carolina",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUczV19yOG43ZmxHdXkyaG9MU2FrdmRwamF3SHdrcFNiM2xoSFNxQjQ1aVFlbUx4ZmUyMjE5ZGVGSnVBRE9rRGdiYVRDc042WklYZGRiT2ltSTZmZ0tkUE9zandEV1pVZzBfZXl0ekJENGNCb3dlVzZOQTRzX2hfMkZnOFlSTlFVdlpnVmFTU19DbnRqcG1kLS12aW9odw?oc=5",
+     "source": "ACLU of South Carolina"
+    },
+    {
+     "title": "Early voting begins Nov. 24 for Dec. 1 runoff election; Fort Smith, Bonanza voters to decide mayoral, alderman races - River Valley Democrat-Gazette",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWmFaQVVfQVUxcHQyYllIYjJjQldDaHgyVnBrY0RUVlprTUlRLV9mbFRDYTRGM1RjMWpGbHJlN2R6U0NXaEJ2VVh5OFBGZFZlc1FiSFBOY1dMUmU0RTdoTW4ySkl6YXVfSmh6R2w5anJuWndId3lPaFlyMnJXU0pyOTZEZlU0akFTNHF2NjE1SkZZd1pVWUNzQjMxU0xlYmRtLUVKcU1WZw?oc=5",
+     "source": "River Valley Democrat-Gazette"
+    },
+    {
+     "title": "How VoteHub Spotted Republican Turnout Issues in Early Voting - VoteHub",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV3RxQlo2cFhEckZxeWltRXdRRy1EYnRpLWI0d2FRRkR0Zm0wT01ZZU9sdFFJdVFCaGFnWDZ3bm15MHpsMHVBVU1UTG9GODY3blFsdHl2SUp0V0dwWmtiY0p6THhnSVFuUklYdnZKQ0ZoYktUOHM3dzByTmJpeDhOamtIam9jdDI5N1NNR0xiNmR6elNJOURsTQ?oc=5",
+     "source": "VoteHub"
+    }
+   ],
+   "official": false,
+   "score": 65.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://kfoxtv.com/news/local/el-paso-county-tests-election-equipment-ahead-of-runoff-voting-see-early-voting-locations",
+     "title": "El Paso County tests election equipment ahead of runoff voting; see early voting locations - KFOX",
+     "outlet": "KFOX"
+    },
+    {
+     "url": "https://www.aclusc.org/news/voters-hit-a-few-snags-in-the-2026-election-lets-find-some-solutions/",
+     "title": "Voters hit a few snags in the 2026 election. Let’s find some solutions. - ACLU of South Carolina",
+     "outlet": "ACLU of South Carolina"
+    },
+    {
+     "url": "https://www.rivervalleydemocratgazette.com/news/2026/nov/19/early-voting-begins-nov-24-for-dec-1-runoff/",
+     "title": "Early voting begins Nov. 24 for Dec. 1 runoff election; Fort Smith, Bonanza voters to decide mayoral, alderman races - River Valley Democrat-Gazette",
+     "outlet": "River Valley Democrat-Gazette"
+    },
+    {
+     "url": "https://votehub.com/2026/11/19/how-votehub-spotted-republican-turnout-issues-in-early-voting/",
+     "title": "How VoteHub Spotted Republican Turnout Issues in Early Voting - VoteHub",
+     "outlet": "VoteHub"
     }
    ]
   },
@@ -253,7 +310,7 @@
    ],
    "official": true,
    "traffic": 0,
-   "published": "2026-11-20T13:11:20.560407+09:00",
+   "published": "2026-11-20T13:39:48.807519+09:00",
    "score": 63,
    "already_covered": false,
    "cycle": "us-federal-holidays-christmas-newyear-2026",
@@ -270,7 +327,7 @@
    "source": "google_news",
    "keyword": "social security payment",
    "traffic": 0,
-   "article_count_24h": 28,
+   "article_count_24h": 31,
    "article_count_1h": 6,
    "published": "2026-11-20T05:05:14+09:00",
    "category": "Benefits",
@@ -331,8 +388,8 @@
    "source": "google_news",
    "keyword": "minimum wage increase",
    "traffic": 0,
-   "article_count_24h": 37,
-   "article_count_1h": 5,
+   "article_count_24h": 36,
+   "article_count_1h": 4,
    "published": "2026-11-19T22:04:03+09:00",
    "category": "Benefits",
    "news": [
@@ -363,9 +420,14 @@
     }
    ],
    "official": false,
-   "score": 56.0,
+   "score": 51.5,
    "already_covered": false,
    "evidence": [
+    {
+     "url": "https://www.epi.org/blog/the-new-congress-cant-tackle-affordability-without-raising-the-minimum-wage/",
+     "title": "The new Congress can’t tackle affordability without raising the minimum wage - Economic Policy Institute",
+     "outlet": "Economic Policy Institute"
+    },
     {
      "url": "https://www.dakotanewsnetwork.com/2026/11/19/north-dakotas-minimum-wage-to-remain-the-same/",
      "title": "North Dakota’s Minimum Wage to Remain the Same - Dakota News Network",
@@ -375,67 +437,6 @@
      "url": "https://worldview.ranenetwork.com/content/analysis/2026-11-19/bangladesh-s-garment-sector-faces-prolonged-labor-unrest/76caa8300d80f022",
      "title": "Bangladesh's Garment Sector Faces Prolonged Labor Unrest - RANE Worldview",
      "outlet": "RANE Worldview"
-    }
-   ]
-  },
-  {
-   "source": "google_news",
-   "keyword": "early voting",
-   "traffic": 0,
-   "article_count_24h": 24,
-   "article_count_1h": 3,
-   "published": "2026-11-20T08:30:21+09:00",
-   "category": "Elections",
-   "news": [
-    {
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-     "source": "NBC News"
-    },
-    {
-     "title": "El Paso County tests election equipment ahead of runoff voting; see early voting locations - KFOX",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZnRwRkhJQ1I1UHhiRFJ3eHgzOUlXNVUtZFN3QzYzaDJaR3pLZXAzaVYxV20wRnN4d24tVnlBX1NOMENmSmUybGQ4ZFpLTWNxYUJMOE1uZll4X1NUSGVNdUItTFoyWHoxTnpHOE1tS083UVhXWFVWRE5OVVNFMTN3dmxyakFlT0g4Y1BFNFFzMUwzeE9GbEJZSTM0ZGRGbTdXR0UwVTM5N2ROdHBTMFMxNlM2bW0wWkdGNEZF?oc=5",
-     "source": "KFOX"
-    },
-    {
-     "title": "Voters hit a few snags in the 2026 election. Let’s find some solutions. - ACLU of South Carolina",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUczV19yOG43ZmxHdXkyaG9MU2FrdmRwamF3SHdrcFNiM2xoSFNxQjQ1aVFlbUx4ZmUyMjE5ZGVGSnVBRE9rRGdiYVRDc042WklYZGRiT2ltSTZmZ0tkUE9zandEV1pVZzBfZXl0ekJENGNCb3dlVzZOQTRzX2hfMkZnOFlSTlFVdlpnVmFTU19DbnRqcG1kLS12aW9odw?oc=5",
-     "source": "ACLU of South Carolina"
-    },
-    {
-     "title": "Civil Rights & Voter Engagement Organizations Launch National Black Man Voter Day - National Urban League",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02bHUtbUpIRjV3QlJrNTBIbE9GVjdXYk1QOFhXZ0tyZG53Y3FZX2xEaUhIQjE1Ump4WGhfX2RtRmpDVXVGcU0wRHJiaTFwc2JqRl8wMGdqZ0pkUQ?oc=5",
-     "source": "National Urban League"
-    },
-    {
-     "title": "Early voting begins Nov. 24 for Dec. 1 runoff election; Fort Smith, Bonanza voters to decide mayoral, alderman races - River Valley Democrat-Gazette",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWmFaQVVfQVUxcHQyYllIYjJjQldDaHgyVnBrY0RUVlprTUlRLV9mbFRDYTRGM1RjMWpGbHJlN2R6U0NXaEJ2VVh5OFBGZFZlc1FiSFBOY1dMUmU0RTdoTW4ySkl6YXVfSmh6R2w5anJuWndId3lPaFlyMnJXU0pyOTZEZlU0akFTNHF2NjE1SkZZd1pVWUNzQjMxU0xlYmRtLUVKcU1WZw?oc=5",
-     "source": "River Valley Democrat-Gazette"
-    }
-   ],
-   "official": false,
-   "score": 54.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
-     "title": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News",
-     "outlet": "NBC News"
-    },
-    {
-     "url": "https://kfoxtv.com/news/local/el-paso-county-tests-election-equipment-ahead-of-runoff-voting-see-early-voting-locations",
-     "title": "El Paso County tests election equipment ahead of runoff voting; see early voting locations - KFOX",
-     "outlet": "KFOX"
-    },
-    {
-     "url": "https://www.aclusc.org/news/voters-hit-a-few-snags-in-the-2026-election-lets-find-some-solutions/",
-     "title": "Voters hit a few snags in the 2026 election. Let’s find some solutions. - ACLU of South Carolina",
-     "outlet": "ACLU of South Carolina"
-    },
-    {
-     "url": "https://nul.org/news/black-man-voter-day-oct24",
-     "title": "Civil Rights & Voter Engagement Organizations Launch National Black Man Voter Day - National Urban League",
-     "outlet": "National Urban League"
     }
    ]
   },
@@ -497,13 +498,74 @@
   },
   {
    "source": "google_news",
-   "keyword": "IRS refund",
+   "keyword": "student loan",
    "traffic": 0,
    "article_count_24h": 25,
+   "article_count_1h": 7,
+   "published": "2026-11-20T06:58:45+09:00",
+   "category": "Student Aid",
+   "news": [
+    {
+     "title": "New York’s private student loan debt hits $10.09 billion, data shows - NEWS10 ABC",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOZWVGU1FLN1IzZWItQmh0UTlSeWJNMmZnVk5kU2dBTmpxaktMbGE1NFBfYndxZ0NQbTlSUzViVkFCSWVBemgwYlo4NG42ZmxmNk1LRXFRaUl6S0kySmFkY0swMjZmVzZaWmFmOHdYZEMzUdIBd0FVX3lxTE1HeGFfVEloTWQ2QkJTVy1fRmtxaEZ1NHVES1dCdy1MV2NxUUVLQXB2Ri1jQlphM1hwY1ZneER6NFBkQTM1bk5oc1FNZXZlaGlfVXZTOEQzM3NPZ1lBMFFCRm5YdEtfeG5WaHRPaW9NZ2VLeWV3ZU1j?oc=5",
+     "source": "NEWS10 ABC"
+    },
+    {
+     "title": "Best Private Student Loans Of 2026 - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9idHQ1ZVdpRHkwNkl6Y2tXdHdlZ3hfcloxNDdwdC1sa0ZhMHVEb1JMRlFZWGgyUHNiVVhMbXlCcERhalJueFFxMXBKRXdWa3VITHJsaDR3TENOSjJMRHlGOUdSOUdYUkRmQnJKbElIQkNYa3RXNXVXdlB5SmM?oc=5",
+     "source": "Forbes"
+    },
+    {
+     "title": "Panthers Forward, which has helped 1,350 Pitt seniors address their student loans, welcomes its 9th class - University of Pittsburgh",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMVlXamFGRFl2bEFpQ290Smc5N2pTMzg4N1NWNEhpTzBjNzJEak84NmxIcnlWTGZ0QWVLMVhuTFRyN2F2cE1JX3FfcVpoT3BENDd0RWVRMEVMX3FxMzdRV0ZzV1Jyal9FNUFlanpuOVVLV1czZXlDa3p2TGlSeDZOTzF0Nm9vel9NZFdqaEExaDY?oc=5",
+     "source": "University of Pittsburgh"
+    },
+    {
+     "title": "Clergy Can Earn a Compass Retirement Match on Student Loan Payments - Louisiana UMC",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM0t3dkhnRlpMS2xFS1FqdDFIaXpwaHFqVFp0N01zbVl0LU5vMTc4bzQ1aGdGRXpBbzNSdDMtMUhfUE8tS0xEaWVock5aZmwwakJBaExlOE8wVVAzVDlZazhsNktvZDN4LXRVaHdreHdVUFBscjdEVzcydTU1ZndnNzFmUWlsWlhMM2d0dlJQU2lhdEdKMmdTbF9YUWJyRnRrOWZ3alNjMlNtM1g3YlBB?oc=5",
+     "source": "Louisiana UMC"
+    },
+    {
+     "title": "Nebraska Wesleyan to Offer Student Loan Repayment Help Starting in Fall 2027 - KLIN",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdkdtbEdxV2RFVTlUVGtxLVEtTm9IcFFBengxTHJ6RjR5eVB4Zk9WcmZUQVlHZElYckdjRzcxUnR2aW9WaUg2Vi1qVnJjRHVqSmdlME5oNDM2T1B1b1NNV2pVSjdUV3d2U1JzSXB5djR5M0xBZE5SNDd0YnhVeW9OZUxoc04ybzZXWjEySzdUdlJEeFZ1Z0FrYWZNMnkwa3E0Nlh1M01PRTU?oc=5",
+     "source": "KLIN"
+    }
+   ],
+   "official": false,
+   "score": 49.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.pittwire.pitt.edu/features-articles/2026/11/19/panthers-forward-debt-relief",
+     "title": "Panthers Forward, which has helped 1,350 Pitt seniors address their student loans, welcomes its 9th class - University of Pittsburgh",
+     "outlet": "University of Pittsburgh"
+    },
+    {
+     "url": "https://www.la-umc.org/newsdetail/clergy-can-earn-a-compass-retirement-match-on-student-loan-payments-20154750",
+     "title": "Clergy Can Earn a Compass Retirement Match on Student Loan Payments - Louisiana UMC",
+     "outlet": "Louisiana UMC"
+    },
+    {
+     "url": "https://klin.com/2026/11/19/nebraska-wesleyan-to-offer-student-loan-repayment-help-starting-in-fall-2027/",
+     "title": "Nebraska Wesleyan to Offer Student Loan Repayment Help Starting in Fall 2027 - KLIN",
+     "outlet": "KLIN"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
+   "keyword": "IRS refund",
+   "traffic": 0,
+   "article_count_24h": 24,
    "article_count_1h": 0,
-   "published": "2026-11-20T08:41:55+09:00",
+   "published": "2026-11-20T10:23:45+09:00",
    "category": "Taxes",
    "news": [
+    {
+     "title": "Pasco County couple finally receives $24k tax refund after months of frustration - WFLA",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYWk5NWthdjdIWmwxdVRxeE9QNklhVTZPV0JRaG9WVzFGaG9VajJhWWJqWTEwNWJ4SFM3RlA1UWxjTkFZVjdFT3NIY2YxZDhOMGx3cmsxX2dxNzF6TEMwVFJvd3FyT2JvQnlPcDc2aFk4SnhmbmhYOURTanVXZFJ1YUU1bWxHUi03WW1CVTZBa2FvT0VZVDh6OFdTbFRZQllCXy1nT0RpU3BZdkRrd1NqcWYyQ0tZaE5LT0hlcHVIUlFtd1BVd0wzdzFvR1Rta3R3M0HSAdcBQVVfeXFMUF8xbWQxZGdwTExISlZFVF9KZ3JpYUNlanE0OVZaV2RmNmFSX1VUb3BLMk9Fa0dOZElXT20zVnhGek1vcjhwYnRVMGZqSzRyUjRqRjBZRXc1Rm1jeXVxWnpRVG4zcmdwajMzOGRPb3BSZW9FQnRBdFhWdkpnXzF6Z3E3TGVJRWRlLUFlV0IwOXh6b0xEWWhsSnFRNThUeEphUHdfTHQxSUhqMWk5cDd4YkJ0Rjd5M1dfQXpGSUREN1JaVTFDWXpWWTQxcy00WGk4S1BYUkRyaHM?oc=5",
+     "source": "WFLA"
+    },
     {
      "title": "La. Woman Convicted In $17M Tax Refund Scheme, DOJ Says - Law360",
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV3pYMmV2QVplLUhfamYwOUhrdm5FVS1jeUp6TVVVbXFmamZIWjdfREFSdHdEOGdtV2hFclJsU09YOUFnZm9BQy16T3pNcGJZMzBET0V5MFFIRFVVWmd5MGRpXzMtalVQTDFNTm1vVFJQUDN6Ui1lajY3YThrT0lZS1NjMm5xMGVqMWZENldRdEdNR2RQbjdVa1h5RTgxMUxwUEY5eHplUll4clROQmNxb2NCdXTSAWhBVV95cUxPcEJsZzBaam41YmNiT0o1LVE4V0F6WlF6ZC1TaWFTUHQyR3JRLWlQYThRWVlzRHVvNWt4QXpFNnBzQzhMTndMLVM5RnJtSmp3S3FXdmRDakJLM1FvUGVtLVRfWmhkNi13Vw?oc=5",
@@ -518,11 +580,6 @@
      "title": "Boyce woman convicted in $17 million tax refund scheme - KALB | News Channel 5",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVmVGNHllSlNrZlFRM1RFdHF6WW1QTzVkaGYtQlRCMHFGS2tDZ3BWMzZ3OGhKM2xBN2lyNjJXbXJfZi1fTXk1YjNmYUF6aFB4aThmVzBDa1gteGFKSTllWURFZERZS2dsMTNUYTJxazNHYlEtVHhFU0dOdGJxOWtEVWd2RGczM0NjVEtV0gGfAUFVX3lxTE8zenJrV1gxM09ETzBQY2lJZkJmUTFqUnQ0MWEybEEzQnJleFRIMVQ4OTBTdDdqQVZ0SEo1ZlJaRDNIVm9EYU1idGoxSHRQTVU3el9NWG9BUUFMaktkc0djY1ZiVDd2V2Rqci1wRzJ2SGtRNHJKOVZkLUt5UUZaWE9ZbGNVa0pDc1pRR3ZUMnphNUZ5N2gtaGI0Y0pvTnFoWQ?oc=5",
      "source": "KALB | News Channel 5"
-    },
-    {
-     "title": "Liberty Global Seeks $80 Million Refund for Covid-19 Interest - Bloomberg Law News",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORExNWnpSeEFnSjB6NEg1TjhHcGVvM09PSjBrNnpQRnhIMW5jcjBua0IxTEVnb1RyZHB0WHZUaWcySVFpdlgzaEJFNlNKdVdIVko3Y2JLZDJybDZWOEhQcUZnMThNYXhNWmZfVDQ1b1B3c2gwSGcyZGU3eUJyWHVFcERYcmJKZ2dmakVwaDlpUHhrWXpFVGpTNGg5Y2tMR3NYeWQ0VE9sV0tUUVE?oc=5",
-     "source": "Bloomberg Law News"
     },
     {
      "title": "Liberty Global Seeks $80 Million Refund for Covid-19 Interest - Bloomberg Tax",
@@ -550,50 +607,70 @@
      "outlet": "KALB | News Channel 5"
     },
     {
-     "url": "https://news.bloomberglaw.com/daily-tax-report/liberty-global-seeks-80-million-refund-for-covid-19-interest",
-     "title": "Liberty Global Seeks $80 Million Refund for Covid-19 Interest - Bloomberg Law News",
-     "outlet": "Bloomberg Law News"
+     "url": "https://news.bloombergtax.com/daily-tax-report/liberty-global-seeks-80-million-refund-for-covid-19-interest",
+     "title": "Liberty Global Seeks $80 Million Refund for Covid-19 Interest - Bloomberg Tax",
+     "outlet": "Bloomberg Tax"
     }
    ]
   },
   {
-   "source": "google_trends",
-   "keyword": "gold price",
-   "traffic": 10000,
-   "published": "2026-11-20T12:50:00+09:00",
-   "category": "기타",
+   "source": "google_news",
+   "keyword": "tax deadline",
+   "traffic": 0,
+   "article_count_24h": 14,
+   "article_count_1h": 3,
+   "published": "2026-11-20T03:04:29+09:00",
+   "category": "Taxes",
    "news": [
     {
-     "title": "Gold's bad year is getting worse. Why its price keeps falling",
-     "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
-     "source": "CNBC"
+     "title": "The 1099 deadline is coming: Due dates, requirements, and penalties for filing - Quad City Herald",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON0dKdzMxTFNKMEJPTUgwMkpGdEdVbnlGbHlCMHVJRC1EQVFvVU90NFhOUXBDTG16UEtJLW56T3d4WE12LTdkRnZsUnJsV195RG43SWpiS3FKaGlrYUQwTUZ4ZXlFSy16UFdiRGJYNnpKWFF3R0ZTMWdia2JTYW5XNEF2WkNaSm5NVVZBYWQ2SVBHZE5YOEV0eENCTDd1c1BVcFNaMGMtX3dzOXlzOTNCcmFKRnEydTI3Z1kzTWNCMnktYkdxNm5nMWN3?oc=5",
+     "source": "Quad City Herald"
     },
     {
-     "title": "Gold futures sink below $3,700 as 5% yields pull money out of bullion",
-     "url": "https://www.kitco.com/opinion/2026-11-19/gold-futures-sink-below-3700-5-yields-pull-money-out-bullion",
-     "source": "Kitco"
+     "title": "Can I still file my taxes? 3 steps to take if you missed the deadline - Santa Fe New Mexican",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOaHo2M3JoV1ZESEdxcVFtZm91SVJuTEwycm5jMk5xb2RqTXUwMzJlQmZDczJOY3Bjc21YUk0zRU4tSG5ITWd4eTNKZDVvc0s2R00xd3NqNGVSRlpMWEhIYzBIMGxJUGJad2N6djdacG1KbE11Sno3T3JGZ00zN3QyVWpQTk9XSE13UXR3STVtY3E1eDlVMi1hYlBFU1RTMUpEQlBOUEhFc05RUGVxZVYwclJpRlB0QV9kS2pkSjBYemYwTndhR1BFNWJKZTBpQjVXcXVSd3pnOXdKcmhKVjZfM2Mta3IzVnZubGl4c3BYUnNYVnRmNXpKbExR?oc=5",
+     "source": "Santa Fe New Mexican"
     },
     {
-     "title": "Gold Falls, Weighed by Elevated Yields, Strong Dollar",
-     "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-weighed-by-elevated-yields-strong-dollar-9ba37905",
-     "source": "WSJ"
+     "title": "Can I still file my taxes? 3 steps to take if you missed the deadline - Lincoln Journal Star",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcHR5TkFMekxqVE5xVmRjckpCbXM1NVRzYURwbnhJU3lTSWY2dDhETS1zb3U0TktzWl9UX3RkamI5Rl92aTNjN3JsenR4SllkaldRam5Bb3BJVldHYUhjX2pSSTM3cmwya0RTVVRTajBJbXA4OVZ1NDRmUFFHdEJJSXZ5MnJjWDhyaG1OXzNBVWljVkpmaVBUYXpsVGxDV1NYanJLeEhKLWk3NC04OUotVnExN3o1QUZm?oc=5",
+     "source": "Lincoln Journal Star"
+    },
+    {
+     "title": "BIR Tax Deadline Moved to November 19, 2026 in NCR - Aureada CPA Law Firm",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTUlfWVRhZUo5cmduNlF1ZDY2QlBrQkstbUpvTXBrU2RUX0RpTDY3eWNONGtTQUlOSkgyRno4SExWYm5KV2ROUzBVQ2dZLUwyd3gxOW9wa0lDMEtXYUxXM0FmSTZWZFQzaW9KOF8yT2ZKdGlOdUhyRS1RMFY5ZlBmNUtWalZXTWVycU9BMl9wWmhKVDEyZHhfNFMyWWRvN2NqQkdqZmhB?oc=5",
+     "source": "Aureada CPA Law Firm"
+    },
+    {
+     "title": "Brazil plans tax penalty relief as companies face reform deadline - Valor International",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPc0tybmxMa0hMQTE4S3VPeEFwNWpXV2xqWjVSTUw0Ni1IS3Y2bUtORTlyaXBremhqZlI4bkdrRUNCbi0yRFNnZXowcE5JYlRNYlpfRjdjeDkycVNDUjlmd0dfTE5KRUw4eFJqUS15NExmclVISEZ5bWZWWEhkVGRHSlpYdlkzUm05Y29QNmo5WEQya1VWMnNhWWhLd3pGbjRQLXQySS1ZeGhkQWRfTlR0QXk4MWtJM191SW9hZ3RXNUJaNDBfbHFxUk5ZWkXSAdsBQVVfeXFMTW96bXFSWjRVV2tfS0JwVjlWQWFMNUJ3RjkxWVZfSXlfNU5xVVIzR1ZLZTNFS1hxYjJyNU9qVG84SlVOUGRnSHpkMWVJclo0Q3F0WHNDSHVwRXg1QW1CaG9YNmNsc3lnbVBwMlZNNm9OMXRjX3dxVS1OMjllT3FkSm9DOUx2N2g0MkY3MXVKN2gzZnJrS0wzdlBnREFYUV8wX1hSUkdoSHJVREFCYlgzdmRwTzlqSGkxLWZuOUZ0X25ld2U2S04yTmlZajgyVHg3UWdMSmRJbXFtNVdr?oc=5",
+     "source": "Valor International"
     }
    ],
    "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 39.0,
+   "score": 44.1,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
-     "title": "Gold's bad year is getting worse. Why its price keeps falling",
-     "outlet": "CNBC"
+     "url": "https://www.qcherald.com/premium/stacker/stories/the-1099-deadline-is-coming-due-dates-requirements-and-penalties-for-filing,196451",
+     "title": "The 1099 deadline is coming: Due dates, requirements, and penalties for filing - Quad City Herald",
+     "outlet": "Quad City Herald"
     },
     {
-     "url": "https://www.kitco.com/opinion/2026-11-19/gold-futures-sink-below-3700-5-yields-pull-money-out-bullion",
-     "title": "Gold futures sink below $3,700 as 5% yields pull money out of bullion",
-     "outlet": "Kitco"
+     "url": "https://www.santafenewmexican.com/life/features/can-i-still-file-my-taxes-3-steps-to-take-if-you-missed-the-deadline/article_d6bf5a19-c138-5a4b-9c6b-e7773602cab9.html",
+     "title": "Can I still file my taxes? 3 steps to take if you missed the deadline - Santa Fe New Mexican",
+     "outlet": "Santa Fe New Mexican"
+    },
+    {
+     "url": "https://journalstar.com/news/nation-world/business/personal-finance/article_eee57299-1a4e-5596-a5f7-267f7aff5a6b.html",
+     "title": "Can I still file my taxes? 3 steps to take if you missed the deadline - Lincoln Journal Star",
+     "outlet": "Lincoln Journal Star"
+    },
+    {
+     "url": "https://www.aureadalaw.com/post/bir-moves-metro-manila-tax-deadlines-to-november-19-2026-who-is-covered",
+     "title": "BIR Tax Deadline Moved to November 19, 2026 in NCR - Aureada CPA Law Firm",
+     "outlet": "Aureada CPA Law Firm"
     }
    ]
   },
@@ -601,7 +678,7 @@
    "source": "google_news",
    "keyword": "car recall",
    "traffic": 0,
-   "article_count_24h": 41,
+   "article_count_24h": 36,
    "article_count_1h": 0,
    "published": "2026-11-20T09:25:00+09:00",
    "category": "Recalls",
@@ -622,9 +699,9 @@
      "source": "Nacionale"
     },
     {
-     "title": "Toyota issues recall for thousands of vehicles due to airbag degradation - WLWT",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYmIxZDdrZVlKY1Q4Y3U4bTVIRFowU19JbUw0SnJBZ1hxVDRZOGhGVW9xbGdLVC1EODZPeFNleHdzUjdBRmtMMlNqT3loaUpYR2s4N2Q2YmNQMWVsU1A5M3VTQWZlN1VPUWJicXFOLURvblpacnhHVThFVG5fNFlJcEtrUTZueEo4bk55Zw?oc=5",
-     "source": "WLWT"
+     "title": "Toyota issues recall for thousands of vehicles due to airbag degradation - KOCO",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTjd2cFplaWxFMVIybU5BeFRxeXZ1VlJtQXVPaF80Q2JLLUp4VEJtNWdoMnQ4Wml5RmUyMFl4MURHT3c4SlpIcVdiaDQ1Wm5qSW5yR2t5QjRSbkhpeFREanFDTEtuejhOTjVSVjZ1WWtiTmtfZWxmY29DLVV6cEdZUlRRM0l6Slc3X0p0TQ?oc=5",
+     "source": "KOCO"
     },
     {
      "title": "Toyota is recalling over 300,000 vehicles. See affected models - USA Today",
@@ -647,9 +724,9 @@
      "outlet": "Consumer Reports"
     },
     {
-     "url": "https://www.wlwt.com/article/toyota-recall-due-to-takata-airbag-degradation/74479922",
-     "title": "Toyota issues recall for thousands of vehicles due to airbag degradation - WLWT",
-     "outlet": "WLWT"
+     "url": "https://www.kcra.com/article/toyota-recall-due-to-takata-airbag-degradation/74479922",
+     "title": "Toyota issues recall for thousands of vehicles due to airbag degradation - KOCO",
+     "outlet": "KOCO"
     },
     {
      "url": "https://www.usatoday.com/story/cars/recalls/2026/11/19/toyota-recalls-vehicles-lexus-models/92860583007/",
@@ -718,7 +795,7 @@
    "source": "google_news",
    "keyword": "product recall",
    "traffic": 0,
-   "article_count_24h": 74,
+   "article_count_24h": 100,
    "article_count_1h": 3,
    "published": "2026-11-19T21:00:00+09:00",
    "category": "Recalls",
@@ -767,6 +844,62 @@
   },
   {
    "source": "google_news",
+   "keyword": "REAL ID",
+   "traffic": 0,
+   "article_count_24h": 26,
+   "article_count_1h": 1,
+   "published": "2026-11-20T02:04:46+09:00",
+   "category": "Taxes",
+   "news": [
+    {
+     "title": "Thomas Varner: Member of the First 300 Club - www.tsa.gov",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORHRjN1lqem9uUzRNYlJ3SWt6RFAyT0xxTnl2TXBjanNXdG1OenJtSUs5d0pfSjh5Z21PN0hJNjlNMFExX25EQUJld2pJbmZKbGNIeTM3RkQwM3pabWhGZ0s3SGtEMHl6RGc5djFKRlFLLUpweVBJb3JUTnBqa3JxYTRYWlQ?oc=5",
+     "source": "www.tsa.gov"
+    },
+    {
+     "title": "Inside Track - Launching the personal agent era: How we're rolling out Autopilot at Microsoft - Microsoft",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdHRrZWEwQjB2dzlUQW5wT1MtYU1TVUFYNUkyUjN2RXJGMzFaZFBvZDBmMTZDdDFmYk5sdTVFSWZfUHRIMFNNTWpfYmFBMzIwNC1ndGgyNXQyQ2xXUmdXckJlNXQ2dzl0SlMzS3RVbUFkazFNV0V6QWtIaWdnNlZyVWhBenp3cXZRUDlPRFpKUlM5MGIzdXB4Y042X09JdHYzMUc0c2lvVVprQVJmRnd0WkdLQkU5dWxjOFhLZQ?oc=5",
+     "source": "Microsoft"
+    },
+    {
+     "title": "Seattle-Tacoma International Airport prepares for Thanksgiving crowds - king5.com",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWWtfNWJnX2Y0eWU0Y3BCUTZPdmU1MzNKaVNieWtRU0gwNUZ3VFFYMTNkeVFJMkpLMnFVaDFRLWVBejc0UURtV0MyRkJ5TFdlaTQ5TFJ3NmdtLVQzU0dtNXd3b2dsLTlLN2tzU2ZiMGtLdEx4MGR1dFF6dDFTNk42MkNkc09HTVdneUo0cDFNbjdUUzR3RVd5bUZuWkdreHJIbFcxSXRFT18tSGVjM0hmRm9HaWlKRkIycl9MS2lkVHczcWxtdTI5MmVoR2RNbzltQ0UxVXNRVzlNZEt4SmFNRE9TVQ?oc=5",
+     "source": "king5.com"
+    },
+    {
+     "title": "Little Rock airport officials share travel tips, projections for Thanksgiving season - THV11",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONWRJY0QzOWZsTUI3UnZCZEVNenhlRmlXeXJwR1hKSzY0MVBjN0ZpcFFucC1ObTVUQmk2UXJ2ZldRbnNuenlURUFYbEwtNnNQekI0Z2JLZG5IcnJMWFFIX1NXMllvbDZqWlNKZkszSTI3amlicnNiUXlhZDZ2ZldzbkVWSXU4Y3U5RnRFbVBXRkVWTF90azRhWEZsYmZxZV9oOU9KaExVbTUtNDBHdWJtTFp3WExad2ozMWhNbHJJNGk4dw?oc=5",
+     "source": "THV11"
+    },
+    {
+     "title": "Hinojosa urges TxDMV to rescind ‘discriminatory’ vehicle registration ID rules before January rollout - Rio Grande Guardian",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUE4yQUdaT3lsOXFHdWZ5d1pQbEZRM1ZkRjJzTndxdlRqOFduckhYNVN5eTJ1Q0F3aGtrWnJSNURkemxyeTk2dEZQRVA5eEhLdXJKaDlKclFtM0g5Y01CNlRYcWZXMXluVU0wSGN5RGdYSEtzeEZTd3Vja0xWSERVbk1RcTNBaVZVLWtqTlh4M0VqRkNUbU1sYmFud3hHVFV0Z3FQQ1NuS3RhZnZYYldzYW5hMFdlcUZ1amNXQ1g1UHlvU0VSWkRZYg?oc=5",
+     "source": "Rio Grande Guardian"
+    }
+   ],
+   "official": false,
+   "score": 35.7,
+   "already_covered": true,
+   "evidence": [
+    {
+     "url": "https://www.tsa.gov/about/employee-stories/thomas-varner-member-first-300-club",
+     "title": "Thomas Varner: Member of the First 300 Club - www.tsa.gov",
+     "outlet": "www.tsa.gov"
+    },
+    {
+     "url": "https://www.microsoft.com/insidetrack/blog/launching-the-personal-agent-era-how-were-rolling-out-autopilot-at-microsoft/",
+     "title": "Inside Track - Launching the personal agent era: How we're rolling out Autopilot at Microsoft - Microsoft",
+     "outlet": "Microsoft"
+    },
+    {
+     "url": "https://riograndeguardian.com/stories/request-to-rescind-the-personal-identification-requirements-for-vehicle-registrations,90952",
+     "title": "Hinojosa urges TxDMV to rescind ‘discriminatory’ vehicle registration ID rules before January rollout - Rio Grande Guardian",
+     "outlet": "Rio Grande Guardian"
+    }
+   ]
+  },
+  {
+   "source": "google_news",
    "keyword": "SSI payment",
    "traffic": 0,
    "article_count_24h": 11,
@@ -808,7 +941,7 @@
    "source": "google_news",
    "keyword": "daylight saving time",
    "traffic": 0,
-   "article_count_24h": 15,
+   "article_count_24h": 12,
    "article_count_1h": 0,
    "published": "2026-11-20T10:59:22+09:00",
    "category": "Holidays",
@@ -844,89 +977,143 @@
    "already_covered": false
   },
   {
-   "source": "google_news",
-   "keyword": "REAL ID",
-   "traffic": 0,
-   "article_count_24h": 26,
-   "article_count_1h": 0,
-   "published": "2026-11-20T02:04:46+09:00",
+   "source": "google_trends",
+   "keyword": "yashasvi jaiswal",
+   "traffic": 1000,
+   "published": "2026-11-20T13:10:00+09:00",
    "category": "Taxes",
    "news": [
     {
-     "title": "Thomas Varner: Member of the First 300 Club - www.tsa.gov",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORHRjN1lqem9uUzRNYlJ3SWt6RFAyT0xxTnl2TXBjanNXdG1OenJtSUs5d0pfSjh5Z21PN0hJNjlNMFExX25EQUJld2pJbmZKbGNIeTM3RkQwM3pabWhGZ0s3SGtEMHl6RGc5djFKRlFLLUpweVBJb3JUTnBqa3JxYTRYWlQ?oc=5",
-     "source": "www.tsa.gov"
+     "title": "Ball by Ball Commentary & Live Score - NZ vs IND, 1st Test",
+     "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-1st-test-1539442/ball-by-ball-commentary",
+     "source": "Cricinfo"
     },
     {
-     "title": "Seattle-Tacoma International Airport prepares for Thanksgiving crowds - king5.com",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWWtfNWJnX2Y0eWU0Y3BCUTZPdmU1MzNKaVNieWtRU0gwNUZ3VFFYMTNkeVFJMkpLMnFVaDFRLWVBejc0UURtV0MyRkJ5TFdlaTQ5TFJ3NmdtLVQzU0dtNXd3b2dsLTlLN2tzU2ZiMGtLdEx4MGR1dFF6dDFTNk42MkNkc09HTVdneUo0cDFNbjdUUzR3RVd5bUZuWkdreHJIbFcxSXRFT18tSGVjM0hmRm9HaWlKRkIycl9MS2lkVHczcWxtdTI5MmVoR2RNbzltQ0UxVXNRVzlNZEt4SmFNRE9TVQ?oc=5",
-     "source": "king5.com"
+     "title": "Bingo at the Basin as India’s grip slips",
+     "url": "https://www.cricbuzz.com/cricket-news/140977/india-vs-new-zealand-1st-test-2026-bingo-at-the-basin-reseve-but-indias-grip-slips-cricbuzzcom",
+     "source": "Cricbuzz"
     },
     {
-     "title": "Little Rock airport officials share travel tips, projections for Thanksgiving season - thv11.com",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONWRJY0QzOWZsTUI3UnZCZEVNenhlRmlXeXJwR1hKSzY0MVBjN0ZpcFFucC1ObTVUQmk2UXJ2ZldRbnNuenlURUFYbEwtNnNQekI0Z2JLZG5IcnJMWFFIX1NXMllvbDZqWlNKZkszSTI3amlicnNiUXlhZDZ2ZldzbkVWSXU4Y3U5RnRFbVBXRkVWTF90azRhWEZsYmZxZV9oOU9KaExVbTUtNDBHdWJtTFp3WExad2ozMWhNbHJJNGk4dw?oc=5",
-     "source": "thv11.com"
-    },
-    {
-     "title": "Hinojosa urges TxDMV to rescind ‘discriminatory’ vehicle registration ID rules before January rollout - Rio Grande Guardian",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUE4yQUdaT3lsOXFHdWZ5d1pQbEZRM1ZkRjJzTndxdlRqOFduckhYNVN5eTJ1Q0F3aGtrWnJSNURkemxyeTk2dEZQRVA5eEhLdXJKaDlKclFtM0g5Y01CNlRYcWZXMXluVU0wSGN5RGdYSEtzeEZTd3Vja0xWSERVbk1RcTNBaVZVLWtqTlh4M0VqRkNUbU1sYmFud3hHVFV0Z3FQQ1NuS3RhZnZYYldzYW5hMFdlcUZ1amNXQ1g1UHlvU0VSWkRZYg?oc=5",
-     "source": "Rio Grande Guardian"
-    },
-    {
-     "title": "Thanksgiving Travel 2026: A Little Planning Goes a Long Way at BGR - Bangor International Airport",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3o1UFN6SFltemxWbGtVaWI3NE91NmtNeHVzZk5vSXduSzFrRDJMazhzdml4azVxbDRaenEzalR2ZmRTb2NtbF9iOU5HX0Zjd1lGMktMUmVrbmR2U2dnSnpDaTZzRllmVEl0S2ZJaXVidmZXaUpGLWtCd0ZXRHRqN2pJcGFDTFBtd3RRYnRKSFRKZw?oc=5",
-     "source": "Bangor International Airport"
-    }
-   ],
-   "official": false,
-   "score": 31.5,
-   "already_covered": true
-  },
-  {
-   "source": "google_trends",
-   "keyword": "scoot henderson",
-   "traffic": 500,
-   "published": "2026-11-20T12:30:00+09:00",
-   "category": "Benefits",
-   "news": [
-    {
-     "title": "Scoot Henderson Regressing Despite Expanded Role for Blazers",
-     "url": "https://sports.yahoo.com/articles/scoot-henderson-regressing-despite-expanded-200003567.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Timberwolves loss gives Blazers further evidence it’s time to trade Scoot Henderson",
-     "url": "https://ripcityproject.com/timberwolves-loss-gives-blazers-further-evidence-time-trade-scoot-henderson",
-     "source": "Rip City Project"
-    },
-    {
-     "title": "Sidy Cissoko News: Scoring dips despite steady minutes",
-     "url": "https://www.rotowire.com/basketball/headlines/sidy-cissoko-news-scoring-dips-despite-steady-minutes-539738",
-     "source": "RotoWire"
+     "title": "Bumrah returns with a bang but NZ cling on in first test",
+     "url": "https://www.reuters.com/sports/cricket/india-win-toss-bowl-first-test-against-new-zealand-2026-11-18/",
+     "source": "Reuters"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 28.0,
+   "score": 30.0,
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://sports.yahoo.com/articles/scoot-henderson-regressing-despite-expanded-200003567.html",
-     "title": "Scoot Henderson Regressing Despite Expanded Role for Blazers",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://ripcityproject.com/timberwolves-loss-gives-blazers-further-evidence-time-trade-scoot-henderson",
-     "title": "Timberwolves loss gives Blazers further evidence it’s time to trade Scoot Henderson",
-     "outlet": "Rip City Project"
-    },
-    {
-     "url": "https://www.rotowire.com/basketball/headlines/sidy-cissoko-news-scoring-dips-despite-steady-minutes-539738",
-     "title": "Sidy Cissoko News: Scoring dips despite steady minutes",
-     "outlet": "RotoWire"
+     "url": "https://www.cricbuzz.com/cricket-news/140977/india-vs-new-zealand-1st-test-2026-bingo-at-the-basin-reseve-but-indias-grip-slips-cricbuzzcom",
+     "title": "Bingo at the Basin as India’s grip slips",
+     "outlet": "Cricbuzz"
     }
    ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "gold price",
+   "traffic": 10000,
+   "published": "2026-11-20T12:50:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Gold's bad year is getting worse. Why its price keeps falling",
+     "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
+     "source": "CNBC"
+    },
+    {
+     "title": "Gold Falls, Weighed by Elevated Yields, Strong Dollar",
+     "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-weighed-by-elevated-yields-strong-dollar-9ba37905",
+     "source": "WSJ"
+    },
+    {
+     "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
+     "source": "Bloomberg.com"
+    }
+   ],
+   "official": false,
+   "score": 30.0,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "vgk",
+   "traffic": 200,
+   "published": "2026-11-20T13:00:00+09:00",
+   "category": "Benefits",
+   "news": [
+    {
+     "title": "Las Vegas News | 7@7 AM for Thursday, November 19th, 2026",
+     "url": "https://www.reviewjournal.com/videos/las-vegas-news-77-am-for-thursday-november-19th-2026/",
+     "source": "Las Vegas Review-Journal"
+    },
+    {
+     "title": "Protester sues Las Vegas police, claiming excessive force",
+     "url": "https://www.reviewjournal.com/videos/protester-sues-las-vegas-police-claiming-excessive-force/",
+     "source": "Las Vegas Review-Journal"
+    },
+    {
+     "title": "Crosby on his acting debut",
+     "url": "https://www.reviewjournal.com/videos/crosby-on-his-acting-debut/",
+     "source": "Las Vegas Review-Journal"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 25.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.reviewjournal.com/videos/las-vegas-news-77-am-for-thursday-november-19th-2026/",
+     "title": "Las Vegas News | 7@7 AM for Thursday, November 19th, 2026",
+     "outlet": "Las Vegas Review-Journal"
+    },
+    {
+     "url": "https://www.reviewjournal.com/videos/protester-sues-las-vegas-police-claiming-excessive-force/",
+     "title": "Protester sues Las Vegas police, claiming excessive force",
+     "outlet": "Las Vegas Review-Journal"
+    },
+    {
+     "url": "https://www.reviewjournal.com/videos/crosby-on-his-acting-debut/",
+     "title": "Crosby on his acting debut",
+     "outlet": "Las Vegas Review-Journal"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "utep basketball",
+   "traffic": 5000,
+   "published": "2026-11-20T13:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Florida 85-72 West Virginia (Nov 19, 2026) Final Score",
+     "url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401920517/florida-west-virginia",
+     "source": "ESPN"
+    },
+    {
+     "title": "Notre Dame 95-47 Southern (Nov 18, 2026) Game Recap",
+     "url": "https://www.espn.com/womens-college-basketball/recap/_/gameId/401923184",
+     "source": "ESPN"
+    },
+    {
+     "title": "Malone University Pioneers vs. Wright State Raiders: Game Highlights",
+     "url": "https://www.espn.com/video/clip/_/id/50526800/game-highlights",
+     "source": "ESPN"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 24.0,
+   "already_covered": false,
+   "evidence": []
   },
   {
    "source": "google_news",
@@ -953,14 +1140,14 @@
      "source": "The River Reporter"
     },
     {
-     "title": "Shelby County offers help to residents amid holiday season - WREG.com",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZFVZekx2ZV9tMWEyOWV2MUd0OHZHZkVtUkZvU01vZGtDQXpxUDJBcTV4eU8ycnBiX243WmVhOVpGc01yenlFSUt2dHpEQ0JEUktOeWV6Z2k2bVkyVG5PWUhvZEhLQTRkYUREbVNXYU05VkJ0SVppMC1lejRDQzllMXg5bXVlVlkxNThERkt4M1JDMlhRMXpiVzVlQ0Jrdjk1TEJ30gGjAUFVX3lxTE1kVVl6THZlX20xYTI5ZXYxR3Q4dkdmRW1SRm9TTW9ka0NBenFQMkFxNXh5TzJycGJfbjdaZWE5WkZzTXJ6eUVJS3Z0ekRDQkRSS055ZXpnaTZtWTJUbk9ZSG9kSEtBNGRhRERtU1dhTTlWQnRJWmkwLWV6NENDOWUxeDltdWVWWTE1OERGS3gzUkMyWFExemJXNWVDQmt2OTVMQnc?oc=5",
-     "source": "WREG.com"
-    },
-    {
      "title": "PHOTOS | Fire chief: Early morning blaze destroys Ridgway Twp. garage; Route 219 reopened - WJAC",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcElfRXdVa25RRlVuZEpva2I5RHNWYnpMSC1XZThVdDA4Q2pLQjZrOWlvN3R0LW1vM2VPb0I5bmVkNG0xZmx4eHYzN2VpSkRQRzhNbkdrNXdLMTZJdlJJSlM0Q2haZkdUdWNSY3ZKWDJRNmFROFExZTVCZHJRWk5semZ0WHdON21lWWxUd194dUJWQm1MZFpMNXNYSEVIM1NzTFE4NHFB?oc=5",
      "source": "WJAC"
+    },
+    {
+     "title": "Shelby County offers help to residents amid holiday season - WREG.com",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZFVZekx2ZV9tMWEyOWV2MUd0OHZHZkVtUkZvU01vZGtDQXpxUDJBcTV4eU8ycnBiX243WmVhOVpGc01yenlFSUt2dHpEQ0JEUktOeWV6Z2k2bVkyVG5PWUhvZEhLQTRkYUREbVNXYU05VkJ0SVppMC1lejRDQzllMXg5bXVlVlkxNThERkt4M1JDMlhRMXpiVzVlQ0Jrdjk1TEJ30gGjAUFVX3lxTE1kVVl6THZlX20xYTI5ZXYxR3Q4dkdmRW1SRm9TTW9ka0NBenFQMkFxNXh5TzJycGJfbjdaZWE5WkZzTXJ6eUVJS3Z0ekRDQkRSS055ZXpnaTZtWTJUbk9ZSG9kSEtBNGRhRERtU1dhTTlWQnRJWmkwLWV6NENDOWUxeDltdWVWWTE1OERGS3gzUkMyWFExemJXNWVDQmt2OTVMQnc?oc=5",
+     "source": "WREG.com"
     }
    ],
    "official": false,
@@ -1003,24 +1190,24 @@
   },
   {
    "source": "google_trends",
-   "keyword": "houston basketball",
+   "keyword": "kansas basketball",
    "traffic": 2000,
-   "published": "2026-11-20T12:40:00+09:00",
+   "published": "2026-11-20T13:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Men’s College Basketball Power Rankings: Why Houston is a new No. 1 and an early title favorite",
-     "url": "https://www.nytimes.com/athletic/7793052/2026/11/19/mens-college-basketball-top-25-houston-illinois-arizona/",
-     "source": "The New York Times"
-    },
-    {
-     "title": "Breaking down the Players Era 8 Houston-Kansas championship game",
-     "url": "https://www.espn.com/mens-college-basketball/story/_/id/50505898/players-era-8-matchups-analysis",
+     "title": "Men's college basketball Power Rankings: Duke drops, Kansas is new No. 1",
+     "url": "https://www.espn.com/mens-college-basketball/story/_/id/50523371/mens-college-basketball-power-rankings",
      "source": "ESPN"
     },
     {
-     "title": "Kansas vs Houston: Open Game Thread",
-     "url": "https://sports.yahoo.com/articles/kansas-vs-houston-open-game-031700898.html",
+     "title": "AP Top 25: Michigan State rises to No. 2, LSU replaces Kentucky in college basketball rankings",
+     "url": "https://www.nytimes.com/athletic/7786641/2026/11/16/ap-top-25-mens-college-basketball-florida-uconn-michigan-state/",
+     "source": "The New York Times"
+    },
+    {
+     "title": "Men's basketball AP poll: Florida holds at the top while Michigan State jumps to No. 2 after big win over Duke",
+     "url": "https://sports.yahoo.com/mens-college-basketball/breaking-news/article/mens-basketball-ap-poll-florida-holds-at-the-top-while-michigan-state-jumps-to-no-2-after-big-win-over-duke-180724316.html",
      "source": "Yahoo Sports"
     }
    ],
@@ -1031,8 +1218,8 @@
    "already_covered": false,
    "evidence": [
     {
-     "url": "https://sports.yahoo.com/articles/kansas-vs-houston-open-game-031700898.html",
-     "title": "Kansas vs Houston: Open Game Thread",
+     "url": "https://sports.yahoo.com/mens-college-basketball/breaking-news/article/mens-basketball-ap-poll-florida-holds-at-the-top-while-michigan-state-jumps-to-no-2-after-big-win-over-duke-180724316.html",
+     "title": "Men's basketball AP poll: Florida holds at the top while Michigan State jumps to No. 2 after big win over Duke",
      "outlet": "Yahoo Sports"
     }
    ]
@@ -1067,119 +1254,6 @@
    "already_covered": true
   },
   {
-   "source": "google_trends",
-   "keyword": "vcu basketball",
-   "traffic": 1000,
-   "published": "2026-11-20T12:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "VCU vs Santa Clara Prediction, Pick, College Basketball Odds for Thursday, Nov. 19",
-     "url": "https://www.actionnetwork.com/ncaab/vcu-rams-vs-santa-clara-broncos-prediction-pick-odds-college-basketball-thursday-november-19",
-     "source": "Action Network"
-    },
-    {
-     "title": "Elijah Mahi Discusses Santa Clara Basketballs 5-0 Start",
-     "url": "https://www.limapagi.id/en/elijah-mahi-santa-clara-start",
-     "source": "Limapagi"
-    },
-    {
-     "title": "WCC INSIDER: Santa Clara's Elijah Mahi on the 5-0 start",
-     "url": "https://wccsports.com/news/2026/11/18/mens-basketball-wcc-insider-santa-claras-elijah-mahi-on-the-5-0-start.aspx",
-     "source": "West Coast Conference"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 12.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.limapagi.id/en/elijah-mahi-santa-clara-start",
-     "title": "Elijah Mahi Discusses Santa Clara Basketballs 5-0 Start",
-     "outlet": "Limapagi"
-    },
-    {
-     "url": "https://wccsports.com/news/2026/11/18/mens-basketball-wcc-insider-santa-claras-elijah-mahi-on-the-5-0-start.aspx",
-     "title": "WCC INSIDER: Santa Clara's Elijah Mahi on the 5-0 start",
-     "outlet": "West Coast Conference"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "will levis",
-   "traffic": 500,
-   "published": "2026-11-20T12:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Jets QB Geno Smith (ankle) intends to play vs. Chargers: 'That's the plan'",
-     "url": "https://www.espn.com/mlb/story/_/id/50523800/jets-qb-geno-smith-ankle-intends-play-vs-chargers",
-     "source": "ESPN"
-    },
-    {
-     "title": "Meet Cade Klubnik, the Jets’ ping-pong playing, ultra-confident, (maybe) starting QB on Sunday - The Athletic",
-     "url": "https://www.nytimes.com/athletic/7790477/2026/11/18/cade-klubnik-new-york-jets/",
-     "source": "The New York Times"
-    },
-    {
-     "title": "Geno Smith: 'The Plan' Is to Let This Week Unfold, Then Return as Jets' Starter at LA",
-     "url": "https://www.newyorkjets.com/news/geno-smith-working-back-from-ankle-injury-to-play-against-chargers-11-18-2026",
-     "source": "New York Jets"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.newyorkjets.com/news/geno-smith-working-back-from-ankle-injury-to-play-against-chargers-11-18-2026",
-     "title": "Geno Smith: 'The Plan' Is to Let This Week Unfold, Then Return as Jets' Starter at LA",
-     "outlet": "New York Jets"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "robbie avila",
-   "traffic": 500,
-   "published": "2026-11-20T12:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Most eagerly anticipated basketball player in TCU history will debut vs. Texas A&M",
-     "url": "https://www.star-telegram.com/sports/college/big-12/texas-christian-university/article318157897.html",
-     "source": "Fort Worth Star-Telegram"
-    },
-    {
-     "title": "TCU officially adds prized transfer Robbie Avila -- 'We got him'",
-     "url": "https://www.espn.com/mens-college-basketball/story/_/id/50472155/tcu-officially-adds-prized-transfer-robbie-avila-got-him",
-     "source": "ESPN"
-    },
-    {
-     "title": "TCU lands Saint Louis star Robbie Avila amid roster-limit kerfuffle: What it means for the Horned Frogs",
-     "url": "https://www.cbssports.com/college-basketball/news/tcu-robbie-avila-saint-louis-roster/",
-     "source": "CBS Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 10.5,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cbssports.com/college-basketball/news/tcu-robbie-avila-saint-louis-roster/",
-     "title": "TCU lands Saint Louis star Robbie Avila amid roster-limit kerfuffle: What it means for the Horned Frogs",
-     "outlet": "CBS Sports"
-    }
-   ]
-  },
-  {
    "source": "google_news",
    "keyword": "stimulus check",
    "traffic": 0,
@@ -1210,148 +1284,160 @@
   },
   {
    "source": "google_trends",
-   "keyword": "stanford basketball",
+   "keyword": "mercy miller",
    "traffic": 200,
-   "published": "2026-11-20T12:50:00+09:00",
+   "published": "2026-11-20T13:20:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Sacramento State vs Stanford Prediction, Picks & Odds | 19 Nov 2026",
-     "url": "https://www.sportsgambler.com/betting-tips/basketball/sacramento-state-hornets-vs-stanford-cardinal-prediction-odds-2026-11-19/",
-     "source": "Sportsgambler"
-    },
-    {
-     "title": "On the Court: Stanford vs. Sacramento State | Stanford Men's Basketball Radio Simulcast (11/19/26)",
-     "url": "https://bvmsports.com/2026/11/19/on-the-court-stanford-vs-sacramento-state-stanford-mens-basketball-radio-simulcast-11-19-26/",
-     "source": "BVM Sports"
-    },
-    {
-     "title": "How to Watch Stanford Cardinal vs. Sacramento State Hornets: Live Stream or on TV",
-     "url": "https://www.bleachernation.com/how-to-watch/2026/11/19/how-to-watch-stanford-cardinal-vs-sacramento-state-hornets-live-stream-or-on-tv/",
-     "source": "Bleacher Nation"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.sportsgambler.com/betting-tips/basketball/sacramento-state-hornets-vs-stanford-cardinal-prediction-odds-2026-11-19/",
-     "title": "Sacramento State vs Stanford Prediction, Picks & Odds | 19 Nov 2026",
-     "outlet": "Sportsgambler"
-    },
-    {
-     "url": "https://bvmsports.com/2026/11/19/on-the-court-stanford-vs-sacramento-state-stanford-mens-basketball-radio-simulcast-11-19-26/",
-     "title": "On the Court: Stanford vs. Sacramento State | Stanford Men's Basketball Radio Simulcast (11/19/26)",
-     "outlet": "BVM Sports"
-    },
-    {
-     "url": "https://www.bleachernation.com/how-to-watch/2026/11/19/how-to-watch-stanford-cardinal-vs-sacramento-state-hornets-live-stream-or-on-tv/",
-     "title": "How to Watch Stanford Cardinal vs. Sacramento State Hornets: Live Stream or on TV",
-     "outlet": "Bleacher Nation"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "henry to'oto'o",
-   "traffic": 200,
-   "published": "2026-11-20T12:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Texans place LB Azeez Al-Shaair, team's leading tackler, on IR",
-     "url": "https://www.espn.com/nfl/story/_/id/50511791/texans-place-lb-azeez-al-shaair-groin-ir",
-     "source": "ESPN"
-    },
-    {
-     "title": "Texans' Azeez Al-Shaair reportedly facing surgery after move to injured reserve",
-     "url": "https://www.cbssports.com/nfl/news/texans-azeez-al-shaair-injury-surgery-ir-2026/",
-     "source": "CBS Sports"
-    },
-    {
-     "title": "Texans lose their defensive play-caller before Colts game",
-     "url": "https://lindyssports.com/nfl/houston-texans/texans-lose-their-defensive-play-caller-before-colts-game",
-     "source": "Lyndy's Sports Annuals"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cbssports.com/nfl/news/texans-azeez-al-shaair-injury-surgery-ir-2026/",
-     "title": "Texans' Azeez Al-Shaair reportedly facing surgery after move to injured reserve",
-     "outlet": "CBS Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "deforest buckner",
-   "traffic": 200,
-   "published": "2026-11-20T12:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "The 49ers brought DeForest Buckner back for his leadership. It’s coming by example",
-     "url": "https://www.nytimes.com/athletic/7779849/2026/11/14/49ers-deforest-buckner-leadership/",
-     "source": "The New York Times"
-    },
-    {
-     "title": "49ers' best and worst PFF grades from 38-17 win over Raiders",
-     "url": "https://www.centraloregondaily.com/sports/san_francisco_49ers/49ers-best-and-worst-pff-grades-from-38-17-win-over-raiders/article_15a3151e-dc89-5eab-bcae-d4672007ef64.html",
-     "source": "Central Oregon Daily"
-    },
-    {
-     "title": "Returns of Buckner and Bosa help spark dominant defensive performance for the 49ers",
-     "url": "https://www.heraldandnews.com/ap_news/sports/returns-of-buckner-and-bosa-help-spark-dominant-defensive-performance-for-the-49ers/article_f7e768d1-1816-5ee5-b003-9fa6f4cb8ff4.html",
-     "source": "Herald and News"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.centraloregondaily.com/sports/san_francisco_49ers/49ers-best-and-worst-pff-grades-from-38-17-win-over-raiders/article_15a3151e-dc89-5eab-bcae-d4672007ef64.html",
-     "title": "49ers' best and worst PFF grades from 38-17 win over Raiders",
-     "outlet": "Central Oregon Daily"
-    },
-    {
-     "url": "https://www.heraldandnews.com/ap_news/sports/returns-of-buckner-and-bosa-help-spark-dominant-defensive-performance-for-the-49ers/article_f7e768d1-1816-5ee5-b003-9fa6f4cb8ff4.html",
-     "title": "Returns of Buckner and Bosa help spark dominant defensive performance for the 49ers",
-     "outlet": "Herald and News"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "is tyran stokes playing tonight",
-   "traffic": 200,
-   "published": "2026-11-20T12:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Kansas star Tyran Stokes will play against Houston",
-     "url": "https://www.espn.com/mens-college-basketball/story/_/id/50537388/kansas-star-tyran-stokes-play-houston",
-     "source": "ESPN"
-    },
-    {
-     "title": "Tyran Stokes a game time decision against WVU",
-     "url": "https://247sports.com/college/kansas/article/tyran-stokes-kansas-basketball-game-time-decision-292949183/",
+     "title": "Brandin Knight postgame: \"We don't take any moral victories\"",
+     "url": "https://247sports.com/college/rutgers/article/brandin-knight-postgame-we-dont-take-any-moral-victories-292900506/",
      "source": "247Sports"
     },
     {
-     "title": "Kansas’ Tyran Stokes expected to return for Houston clash after leg injury",
-     "url": "https://sports.yahoo.com/articles/kansas-tyran-stokes-expected-return-030509167.html",
+     "title": "Mark’s Career Night Not Enough as Rutgers Falls to No. 8 Houston in Las Vegas",
+     "url": "https://scarletknights.com/news/2026/11/17/mens-basketball-houston-players-era",
+     "source": "Rutgers University Athletics"
+    },
+    {
+     "title": "UH shows how good it can be in win over Rutgers but No. 1 Florida is next",
+     "url": "https://www.houstonchronicle.com/sports/college/cougars/article/uh-basketball-rutgers-score-22534965.php",
+     "source": "Houston Chronicle"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://scarletknights.com/news/2026/11/17/mens-basketball-houston-players-era",
+     "title": "Mark’s Career Night Not Enough as Rutgers Falls to No. 8 Houston in Las Vegas",
+     "outlet": "Rutgers University Athletics"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "uh basketball",
+   "traffic": 200,
+   "published": "2026-11-20T13:20:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Houston stuns Florida, but Kelvin Sampson keeps early-season win in perspective",
+     "url": "https://www.espn.com/mens-college-basketball/story/_/id/50525586/houston-stuns-florida-kelvin-sampson-keeps-win-perspective",
+     "source": "ESPN"
+    },
+    {
+     "title": "Cougars Take It to Gators Inside",
+     "url": "https://floridagators.com/news/2026/11/18/mens-basketball-cougars-take-it-to-the-gators-inside-nov-18-2026",
+     "source": "Florida Gators"
+    },
+    {
+     "title": "Houston knocks off top-ranked Florida to reach Players Era 8 championship",
+     "url": "https://sports.yahoo.com/mens-college-basketball/breaking-news/article/houston-knocks-off-top-ranked-florida-to-reach-players-era-8-championship-014024884.html",
      "source": "Yahoo Sports"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://floridagators.com/news/2026/11/18/mens-basketball-cougars-take-it-to-the-gators-inside-nov-18-2026",
+     "title": "Cougars Take It to Gators Inside",
+     "outlet": "Florida Gators"
+    },
+    {
+     "url": "https://sports.yahoo.com/mens-college-basketball/breaking-news/article/houston-knocks-off-top-ranked-florida-to-reach-players-era-8-championship-014024884.html",
+     "title": "Houston knocks off top-ranked Florida to reach Players Era 8 championship",
+     "outlet": "Yahoo Sports"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "tarleton state basketball",
+   "traffic": 200,
+   "published": "2026-11-20T13:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "USC gets 2 unfortunate injury updates for Tarleton State clash",
+     "url": "https://sports.yahoo.com/articles/usc-gets-2-unfortunate-injury-220638977.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "USC men’s basketball looks to continue undefeated season",
+     "url": "https://dailytrojan.com/2026/11/19/usc-mens-basketball-looks-to-continue-undefeated-season/",
+     "source": "Daily Trojan"
+    },
+    {
+     "title": "No. 18 Southern California riding high ahead of Tarleton State visit",
+     "url": "https://lufkindailynews.com/news_reuters/sports/no-18-southern-california-riding-high-ahead-of-tarleton-state-visit/article_cead7f67-1483-5569-a9d3-25cf97fa6998.html",
+     "source": "The Lufkin Daily News"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "stephen baldwin",
+   "traffic": 200,
+   "published": "2026-11-20T13:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Stephen Baldwin Sued for $6 Million Over Damage to Historic Hotel Room, Hallways and Ceilings",
+     "url": "https://people.com/stephen-baldwin-sued-for-usd6-million-over-damage-to-historic-hotel-room-hallways-and-ceilings-12266068",
+     "source": "People.com"
+    },
+    {
+     "title": "Hailey Bieber's Dad Stephen Baldwin Faces USD 6M Lawsuit For Damaging Heritage Hotel In Mexico",
+     "url": "https://www.bollywoodshaadis.com/articles/stephen-baldwin-lawsuit-86817",
+     "source": "BollywoodShaadis"
+    },
+    {
+     "title": "Hailey Bieber's Dad Stephen Baldwin Sued For Allegedly Causing $6 Million In Damages to Fancy Hotel",
+     "url": "https://www.tmz.com/2026/11/19/stephen-baldwin-sued-over-hotel-sprinkler/",
+     "source": "TMZ"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "lea seydoux",
+   "traffic": 200,
+   "published": "2026-11-20T13:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Léa Seydoux Video Interview On 'Gentle Monster,' The Oscars & Her Career",
+     "url": "https://deadline.com/video/lea-seydoux-video-interview-oscar-gentle-monster/",
+     "source": "Deadline"
+    },
+    {
+     "title": "Léa Seydoux Doesn’t Really Care About the Bond Franchise (Anymore)",
+     "url": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/l-seydoux-doesn-t-really-144625791.html",
+     "source": "Yahoo"
+    },
+    {
+     "title": "Former Bond girl Léa Seydoux reflects on her journey alongside Daniel Craig, the emotional end of his James Bond era and the next 007 Watch the full episode of The Actor’s Side here: https://deadline.com/video/lea-seydoux-video-interview-oscar-gentle-mo",
+     "url": "https://www.facebook.com/deadline/videos/former-bond-girl-l%C3%A9a-seydoux-reflects-on-her-journey-alongside-daniel-craig-the/2393020624773165/",
+     "source": "Facebook"
     }
    ],
    "official": false,
