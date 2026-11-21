@@ -1,30 +1,59 @@
 {
- "generated_at": "2026-11-22T00:32:10.317271+09:00",
+ "generated_at": "2026-11-22T01:31:32.049809+09:00",
  "sources": {
   "google_trends": "ok (10)",
   "google_news": "ok (7)",
-  "evidence": "ok (저장 25, 실패 11)"
+  "evidence": "ok (저장 21, 실패 15)"
  },
  "compared_runs": 3,
  "spikes": [
-  "สเปอร์ส พบ อิปสวิช",
-  "coventry vs palace",
-  "เลเวอร์คูเซิน พบ พาเดอร์บอร์น",
-  "ฮัดเดอส์ฟีลด์ทาวน์ พบ เลสเตอร์",
-  "bournemouth vs nottm forest",
-  "spurs vs ipswich town",
-  "อูนีโอนแบร์ลีน พบ ไลพ์ซิช",
+  "นิส พบ เปแอ็สเฌ",
+  "chelsea",
   "สโมสรฟุตบอลเชลซี",
-  "motogp",
-  "como vs cagliari"
+  "เวสต์แฮม พบ เพรสตัน",
+  "nice vs psg",
+  "kocaelispor พบ เฟแนร์บาห์เช",
+  "แอสตันวิลล่า",
+  "serie a",
+  "โบรุสเซีย ดอร์ทมุนด์"
  ],
  "candidates": [
+  {
+   "source": "google_trends",
+   "keyword": "นิส พบ เปแอ็สเฌ",
+   "traffic": 10000,
+   "published": "2026-11-22T00:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Man City 1-1 Fulham (Nov 21, 2026) Player Stats",
+     "url": "https://www.espn.com/soccer/player-stats/_/gameId/401879233",
+     "source": "ESPN"
+    },
+    {
+     "title": "Man City 1-1 Fulham (Nov 21, 2026) Team Stats",
+     "url": "https://www.espn.com/soccer/team-stats/_/gameId/401879233",
+     "source": "ESPN"
+    },
+    {
+     "title": "Nice vs. PSG (Nov 21, 2026) Team Stats",
+     "url": "https://www.espn.com/soccer/team-stats/_/gameId/401876398/league/fra.1",
+     "source": "ESPN"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 39.0,
+   "already_covered": false,
+   "evidence": []
+  },
   {
    "source": "google_news",
    "keyword": "ซีรีส์เกาหลี",
    "traffic": 0,
-   "article_count_24h": 17,
-   "article_count_1h": 0,
+   "article_count_24h": 19,
+   "article_count_1h": 1,
    "published": "2026-11-21T22:40:23+09:00",
    "category": "K-Culture",
    "news": [
@@ -55,7 +84,7 @@
     }
    ],
    "official": false,
-   "score": 18.0,
+   "score": 20.4,
    "already_covered": false,
    "evidence": [
     {
@@ -69,8 +98,8 @@
    "source": "google_news",
    "keyword": "ฤดูฝน",
    "traffic": 0,
-   "article_count_24h": 14,
-   "article_count_1h": 0,
+   "article_count_24h": 13,
+   "article_count_1h": 1,
    "published": "2026-11-21T21:23:50+09:00",
    "category": "Living",
    "news": [
@@ -101,7 +130,7 @@
     }
    ],
    "official": false,
-   "score": 18.0,
+   "score": 20.4,
    "already_covered": false,
    "evidence": [
     {
@@ -125,7 +154,7 @@
    "source": "google_news",
    "keyword": "PM2.5",
    "traffic": 0,
-   "article_count_24h": 13,
+   "article_count_24h": 15,
    "article_count_1h": 0,
    "published": "2026-11-21T21:38:26+09:00",
    "category": "Living",
@@ -183,11 +212,52 @@
    ]
   },
   {
+   "source": "google_trends",
+   "keyword": "chelsea",
+   "traffic": 2000,
+   "published": "2026-11-22T00:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Liverpool 0-0 Chelsea LIVE: WSL leaders drop points",
+     "url": "https://www.bbc.com/sport/football/live/cr868wyllle2t",
+     "source": "BBC"
+    },
+    {
+     "title": "Saturday WSL Tips: Two Big Calls at 15/2 and 12/1",
+     "url": "https://news.williamhill.com/football/wsl-predictions-and-betting-tips-for-saturday-21st-november-2026/",
+     "source": "William Hill News"
+    },
+    {
+     "title": "FA Women’s Super League – Preview…",
+     "url": "https://www.yellowad.co.uk/fa-womens-super-league-preview-89/",
+     "source": "Yellow Advertiser"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 15.0,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/sport/football/live/cr868wyllle2t",
+     "title": "Liverpool 0-0 Chelsea LIVE: WSL leaders drop points",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://news.williamhill.com/football/wsl-predictions-and-betting-tips-for-saturday-21st-november-2026/",
+     "title": "Saturday WSL Tips: Two Big Calls at 15/2 and 12/1",
+     "outlet": "William Hill News"
+    }
+   ]
+  },
+  {
    "source": "google_news",
    "keyword": "พายุ",
    "traffic": 0,
    "article_count_24h": 34,
-   "article_count_1h": 2,
+   "article_count_1h": 1,
    "published": "2026-11-21T15:09:22+09:00",
    "category": "Living",
    "news": [
@@ -218,7 +288,7 @@
     }
    ],
    "official": false,
-   "score": 16.0,
+   "score": 14.3,
    "already_covered": false,
    "evidence": [
     {
@@ -240,274 +310,8 @@
   },
   {
    "source": "google_trends",
-   "keyword": "สเปอร์ส พบ อิปสวิช",
-   "traffic": 2000,
-   "published": "2026-11-21T23:30:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "ดูบอลสด ถ่ายทอดสด สเปอร์ส พบ อิปสวิช พรีเมียร์ลีก วันนี้ 21 พ.ย.69",
-     "url": "https://www.posttoday.com/lifestyle/752299",
-     "source": "posttoday"
-    },
-    {
-     "title": "การทำนายผลการแข่งขันระหว่างท็อตแนมกับอิปสวิช: ความท้าทายของทีมเจ้าบ้าน",
-     "url": "https://www.vietnam.vn/th/nhan-dinh-tottenham-vs-ipswich-bai-toan-luc-luong-cua-chu-nha",
-     "source": "Vietnam.vn"
-    },
-    {
-     "title": "วิเคราะห์บอล สเปอร์ส vs อิปสวิช 21 พ.ย. 69 ไก่เดือยทองขอแก้ตัว",
-     "url": "https://www.siamsport.co.th/football-international/premierleague/112295/",
-     "source": "Siamsport"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 15.0,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.posttoday.com/lifestyle/752299",
-     "title": "ดูบอลสด ถ่ายทอดสด สเปอร์ส พบ อิปสวิช พรีเมียร์ลีก วันนี้ 21 พ.ย.69",
-     "outlet": "posttoday"
-    },
-    {
-     "url": "https://www.vietnam.vn/th/nhan-dinh-tottenham-vs-ipswich-bai-toan-luc-luong-cua-chu-nha",
-     "title": "การทำนายผลการแข่งขันระหว่างท็อตแนมกับอิปสวิช: ความท้าทายของทีมเจ้าบ้าน",
-     "outlet": "Vietnam.vn"
-    },
-    {
-     "url": "https://www.siamsport.co.th/football-international/premierleague/112295/",
-     "title": "วิเคราะห์บอล สเปอร์ส vs อิปสวิช 21 พ.ย. 69 ไก่เดือยทองขอแก้ตัว",
-     "outlet": "Siamsport"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "coventry vs palace",
-   "traffic": 200,
-   "published": "2026-11-22T00:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Coventry City vs Crystal Palace: Premier League preview, team news, stats & head-to-head",
-     "url": "https://www.bbc.com/sport/football/live/c6pw42nwwgvjt",
-     "source": "BBC"
-    },
-    {
-     "title": "Matt Grimes one of two changes as Coventry City face Crystal Palace",
-     "url": "https://www.coventrytelegraph.net/sport/football/football-news/coventry-city-crystal-palace-grimes-34947559",
-     "source": "Coventry Telegraph"
-    },
-    {
-     "title": "Midnite sign up offer: Bet £10 get £30 on Coventry vs Crystal Palace",
-     "url": "https://talksport.com/betting/4712765/midnite-sign-up-offer-coventry-crystal-palace/",
-     "source": "talkSPORT"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.bbc.com/sport/football/live/c6pw42nwwgvjt",
-     "title": "Coventry City vs Crystal Palace: Premier League preview, team news, stats & head-to-head",
-     "outlet": "BBC"
-    },
-    {
-     "url": "https://www.coventrytelegraph.net/sport/football/football-news/coventry-city-crystal-palace-grimes-34947559",
-     "title": "Matt Grimes one of two changes as Coventry City face Crystal Palace",
-     "outlet": "Coventry Telegraph"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "เลเวอร์คูเซิน พบ พาเดอร์บอร์น",
-   "traffic": 200,
-   "published": "2026-11-22T00:00:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Confirmed lineups: Bayer Leverkusen vs. SC Paderborn",
-     "url": "https://sports.yahoo.com/articles/confirmed-lineups-bayer-leverkusen-vs-132900419.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Bayer 04 Leverkusen vs Paderborn: German Bundesliga stats & head-to-head",
-     "url": "https://www.bbc.com/sport/football/live/c8r4grk4ggpdt",
-     "source": "BBC"
-    },
-    {
-     "title": "Leverkusen-Paderborn: Leverkusen have six players out or doubtful",
-     "url": "https://www.tufutbolero.com/en/news/leverkusen-paderborn-leverkusen-have-six-players-out-or-fcccf3",
-     "source": "Tu Futbolero"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://sports.yahoo.com/articles/confirmed-lineups-bayer-leverkusen-vs-132900419.html",
-     "title": "Confirmed lineups: Bayer Leverkusen vs. SC Paderborn",
-     "outlet": "Yahoo Sports"
-    },
-    {
-     "url": "https://www.bbc.com/sport/football/live/c8r4grk4ggpdt",
-     "title": "Bayer 04 Leverkusen vs Paderborn: German Bundesliga stats & head-to-head",
-     "outlet": "BBC"
-    },
-    {
-     "url": "https://www.tufutbolero.com/en/news/leverkusen-paderborn-leverkusen-have-six-players-out-or-fcccf3",
-     "title": "Leverkusen-Paderborn: Leverkusen have six players out or doubtful",
-     "outlet": "Tu Futbolero"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "ฮัดเดอส์ฟีลด์ทาวน์ พบ เลสเตอร์",
-   "traffic": 200,
-   "published": "2026-11-21T23:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Orlando Magic vs. Brooklyn Nets Live Score and Stats - November 20, 2026 Gametracker",
-     "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261120_ORL@BKN/",
-     "source": "CBS Sports"
-    },
-    {
-     "title": "NCAAM Highlights: Kentucky at Indiana (11/20) Stream of NCAA Basketball",
-     "url": "https://www.cbssports.com/watch/college-basketball/video/ncaam-highlights-kentucky-at-indiana-1120?ftag=CBS-16-10aci9g",
-     "source": "CBS Sports"
-    },
-    {
-     "title": "Highlights: Magic at Nets (11/20) Stream of National Basketball Association",
-     "url": "https://www.cbssports.com/watch/general/video/highlights-magic-at-nets-1120",
-     "source": "CBS Sports"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false,
-   "evidence": [
-    {
-     "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261120_ORL@BKN/",
-     "title": "Orlando Magic vs. Brooklyn Nets Live Score and Stats - November 20, 2026 Gametracker",
-     "outlet": "CBS Sports"
-    },
-    {
-     "url": "https://www.cbssports.com/watch/college-basketball/video/ncaam-highlights-kentucky-at-indiana-1120?ftag=CBS-16-10aci9g",
-     "title": "NCAAM Highlights: Kentucky at Indiana (11/20) Stream of NCAA Basketball",
-     "outlet": "CBS Sports"
-    },
-    {
-     "url": "https://www.cbssports.com/watch/nba/video/highlights-magic-at-nets-1120",
-     "title": "Highlights: Magic at Nets (11/20) Stream of National Basketball Association",
-     "outlet": "CBS Sports"
-    }
-   ]
-  },
-  {
-   "source": "google_trends",
-   "keyword": "bournemouth vs nottm forest",
-   "traffic": 200,
-   "published": "2026-11-21T23:50:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Bournemouth vs Nottingham Forest: Premier League preview, team news, stats & head-to-head",
-     "url": "https://www.bbc.com/sport/football/live/cr5y18vyynlxt",
-     "source": "BBC"
-    },
-    {
-     "title": "Both teams to score tips and predictions: Our 11-2 acca for Saturday's action",
-     "url": "https://www.racingpost.com/sport/football-tips/football-acca-tips/both-teams-to-score-tips-and-predictions-our-11-2-acca-for-saturdays-action-ag51y0K0TYrl/",
-     "source": "Racing Post"
-    },
-    {
-     "title": "When Diomande and Sangare will arrive back in Nottingham as Forest face quadruple absence",
-     "url": "https://www.nottinghamforest.news/2026/11/20/diomande-and-sangare-could-miss-nottingham-forest-vs-bournemouth/",
-     "source": "Nottingham Forest News"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "spurs vs ipswich town",
-   "traffic": 200,
-   "published": "2026-11-21T23:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Italy star Tonali out for Tottenham Hotspur, but Udogie back to start",
-     "url": "https://football-italia.net/italy-tonali-tottenham-hotspur-udogie-start/",
-     "source": "Football Italia"
-    },
-    {
-     "title": "Roberto De Zerbi tells Destiny Udogie what he must do to earn Tottenham starts",
-     "url": "https://sports.yahoo.com/articles/roberto-zerbi-tells-destiny-udogie-144431004.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Tonali out for Tottenham with illness; Udogie starts vs Ipswich",
-     "url": "https://www.tufutbolero.com/en/news/tonali-out-for-tottenham-with-illness-udogie-starts-vs-31abcd",
-     "source": "Tu Futbolero"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
-   "keyword": "อูนีโอนแบร์ลีน พบ ไลพ์ซิช",
-   "traffic": 200,
-   "published": "2026-11-21T23:40:00+09:00",
-   "category": "기타",
-   "news": [
-    {
-     "title": "Confirmed lineups: 1.FC Union Berlin vs. RB Leipzig",
-     "url": "https://sports.yahoo.com/articles/confirmed-lineups-1-fc-union-133000412.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "Union Berlin vs RB Leipzig: German Bundesliga stats & head-to-head",
-     "url": "https://www.bbc.com/sport/football/live/c6vg2pxggjzpt",
-     "source": "BBC"
-    },
-    {
-     "title": "Licensable picture: Bundesliga - 1. FC Union Berlin v RB Leipzig",
-     "url": "https://www.reutersconnect.com/item/bundesliga-1-fc-union-berlin-v-rb-leipzig/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkwxNUVYRzI",
-     "source": "Reuters Connect"
-    }
-   ],
-   "official": false,
-   "spike": "급상승 검색어에 새로 등장",
-   "spike_bonus": 15,
-   "score": 9.6,
-   "already_covered": false
-  },
-  {
-   "source": "google_trends",
    "keyword": "สโมสรฟุตบอลเชลซี",
-   "traffic": 100,
+   "traffic": 200,
    "published": "2026-11-22T00:00:00+09:00",
    "category": "기타",
    "news": [
@@ -528,32 +332,177 @@
     }
    ],
    "official": false,
+   "spike": "검색량 100→200",
+   "spike_bonus": 20,
+   "score": 12.6,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.siamsport.co.th/football-international/premierleague/112317/",
+     "title": "ทอม เบรดี้จ่อร่วมทุนเชลซี! เล็งถือหุ้นผ่านกลุ่มเคลียร์เลค",
+     "outlet": "Siamsport"
+    },
+    {
+     "url": "https://www.matichon.co.th/sport/footballinter/news_5984373",
+     "title": "เบรดี้เจรจาซื้อหุ้นเชลซี ร่วมลงทุนมหาศาล มีลุ้นนั่งบอร์ดที่ปรึกษาสโมสร",
+     "outlet": "Matichon Online"
+    },
+    {
+     "url": "https://mainstand.co.th/index.php/th/news/1/article/27633",
+     "title": "ESPN เผย ทอม เบรดี้ ซื้อหุ้นส่วนน้อย เชลซี หลังถอนตัวจาก เบอร์มิงแฮม",
+     "outlet": "Mainstand"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "เวสต์แฮม พบ เพรสตัน",
+   "traffic": 500,
+   "published": "2026-11-22T00:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "West Ham United v Preston North End: Championship stats & head-to-head",
+     "url": "https://www.bbc.com/sport/football/live/cq98xlj88p30t",
+     "source": "BBC"
+    },
+    {
+     "title": "Team News | Parker provides squad update ahead of Preston clash",
+     "url": "https://www.whufc.com/en/news/team-news-or-parker-provides-squad-update-ahead-of-preston-clash",
+     "source": "West Ham United"
+    },
+    {
+     "title": "BOYLE Sports sign up offer: Bag Bowen 50/1 to score with Bonus Code",
+     "url": "https://talksport.com/betting/4720050/boyle-sports-bowen-50-1-bonus-code/",
+     "source": "talkSPORT"
+    }
+   ],
+   "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
-   "score": 9.3,
+   "score": 10.5,
+   "already_covered": false,
+   "evidence": [
+    {
+     "url": "https://www.bbc.com/sport/football/live/cq98xlj88p30t",
+     "title": "West Ham United v Preston North End: Championship stats & head-to-head",
+     "outlet": "BBC"
+    },
+    {
+     "url": "https://www.whufc.com/en/news/team-news-or-parker-provides-squad-update-ahead-of-preston-clash",
+     "title": "Team News | Parker provides squad update ahead of Preston clash",
+     "outlet": "West Ham United"
+    }
+   ]
+  },
+  {
+   "source": "google_trends",
+   "keyword": "nice vs psg",
+   "traffic": 200,
+   "published": "2026-11-22T01:10:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "PSG : Luis Enrique écarte encore Lucas Digne",
+     "url": "https://www.footmercato.net/a2604158853503828571-psg-luis-enrique-ecarte-encore-lucas-digne",
+     "source": "Foot Mercato"
+    },
+    {
+     "title": "« Safonov a un petit déficit d’image » selon un ancien gardien du PSG",
+     "url": "https://www.culturepsg.com/ja/news/club/safonov-a-un-petit-deficit-dimage-selon-un-ancien-gardien-du-psg/61610",
+     "source": "CulturePSG"
+    },
+    {
+     "title": "Nice - Paris SG : sur quelle chaîne et à quelle heure voir le match de Ligue 1 en direct ?",
+     "url": "https://www.ouest-france.fr/sport/football/ogc-nice/nice-paris-sg-sur-quelle-chaine-et-a-quelle-heure-voir-le-match-de-ligue-1-en-direct-c4967766-e51b-11f1-afa7-9a0bb82a33d1",
+     "source": "Ouest-France"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
    "already_covered": false
   },
   {
    "source": "google_trends",
-   "keyword": "motogp",
-   "traffic": 100,
-   "published": "2026-11-21T23:40:00+09:00",
+   "keyword": "kocaelispor พบ เฟแนร์บาห์เช",
+   "traffic": 200,
+   "published": "2026-11-22T01:00:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "How Marc Marquez can be crowned MotoGP champion in Portuguese GP sprint",
-     "url": "https://www.motorsport.com/motogp/news/how-marc-marquez-can-be-crowned-motogp-champion-in-portuguese-gp-sprint/10876407/",
-     "source": "Motorsport.com"
+     "title": "Fenerbahce Face Kocaelispor in Turkish Super Lig Clash",
+     "url": "https://cwibc.co.id/en/kocaelispor-fenerbahce-super-lig",
+     "source": "cwibc.co.id"
     },
     {
-     "title": "Martin admits 2021 crash memories still slow him at Portimao",
-     "url": "https://www.the-race.com/motogp/martin-admits-2021-crash-memories-still-slow-him-at-portimao/",
-     "source": "The Race"
+     "title": "Kocaelispor vs Fenerbahçe live today: Where to watch on TV and online",
+     "url": "https://www.goal.com/en-sg/news/kocaelispor-vs-fenerbahce-live-today-where-to-watch-on-tv-and-online/blt5aed1c826beb0e33",
+     "source": "Goal.com"
     },
     {
-     "title": "TIME SCHEDULE: Repsol Grand Prix of Portugal",
-     "url": "https://www.motogp.com/en/news/2026/11/16/time-schedule-repsol-grand-prix-of-portugal/1185224",
-     "source": "motogp.com"
+     "title": "Kocaelispor vs Fenerbahçe: Confirmed Lineups, Kickoff Time and Team News as Süper Lig Rivals Clash",
+     "url": "https://aktualita.co/en/football/kocaelispor-vs-fenerbahce-confirmed-lineups-kickoff-time-and-team-news-as-super-lig-rivals-clash",
+     "source": "Aktualita.co"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "แอสตันวิลล่า",
+   "traffic": 200,
+   "published": "2026-11-22T00:30:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "ถ่ายทอดสด แอสตัน วิลล่า พบ ซันเดอร์แลนด์ พรีเมียร์ลีก วันนี้ 21 พ.ย.69",
+     "url": "https://www.posttoday.com/lifestyle/752295",
+     "source": "posttoday"
+    },
+    {
+     "title": "LIVE : ดูบอลสด แอสตัน วิลล่า พบ ซันเดอร์แลนด์ ฟุตบอลพรีเมียร์ลีก เวลา 22.00 น.",
+     "url": "https://www.sportingnews.com/th/football/news/live-watch-aston-villa-vs-sunderland-premier-league-2026-27/5b2dd3f473190aa4b9ecaabb",
+     "source": "Sporting News"
+    },
+    {
+     "title": "ดูบอลสด แอสตัน วิลล่า พบ ซันเดอร์แลนด์ 21 พ.ย. 69 พรีเมียร์ลีก",
+     "url": "https://thethaiger.com/th/news/1633539/",
+     "source": "Thaiger"
+    }
+   ],
+   "official": false,
+   "spike": "급상승 검색어에 새로 등장",
+   "spike_bonus": 15,
+   "score": 9.6,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "serie a",
+   "traffic": 100,
+   "published": "2026-11-22T01:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Serie A, vincono il Como e la Lazio. Stasera Napoli-Torino",
+     "url": "https://tg24.sky.it/sport/2026/11/21/serie-a-partite-oggi-risultati-gol-highlights-video",
+     "source": "Sky TG24"
+    },
+    {
+     "title": "Gattuso chiede due rigori, Di Francesco uno: caos in Lazio-Lecce",
+     "url": "https://www.spazio50.org/gattuso-chiede-due-rigori-di-francesco-uno-caos-in-lazio-lecce/",
+     "source": "Spazio50"
+    },
+    {
+     "title": "Lazio-Lecce, Belahyane allarga il braccio e colpisce Coulibaly: c’era espulsione?",
+     "url": "https://www.touchpoint.news/2026/11/21/lazio-lecce-belahyane-allarga-il-braccio-e-colpisce-coulibaly-cera-espulsione/",
+     "source": "Touchpoint News"
     }
    ],
    "official": false,
@@ -564,31 +513,60 @@
   },
   {
    "source": "google_trends",
-   "keyword": "como vs cagliari",
+   "keyword": "โบรุสเซีย ดอร์ทมุนด์",
    "traffic": 100,
-   "published": "2026-11-21T23:40:00+09:00",
+   "published": "2026-11-22T00:50:00+09:00",
    "category": "기타",
    "news": [
     {
-     "title": "Nico Paz regresó de la Selección y sería titular en Como ante Cagliari sin Kean",
-     "url": "https://www.elfutbolero.com.ar/internacional/nico-paz-regreso-de-la-seleccion-y-seria-titular-en-como-ante-cagliari-sin-kean-20261120.html",
-     "source": "El Futbolero Argentina"
-    },
-    {
-     "title": "¿Por qué Nico Paz y Máximo Perrone son suplentes en el Como ante Cagliari?",
-     "url": "https://www.vermouth-deportivo.com.ar/por-que-nico-paz-y-maximo-perrone-son-suplentes-en-el-como-ante-cagliari/",
-     "source": "Vermouth Deportivo"
-    },
-    {
-     "title": "Pronóstico Como 1907 - Cagliari Calcio - Serie A",
-     "url": "https://www.sportytrader.es/pronosticos/como-calcio-cagliari-388040/",
-     "source": "SportyTrader"
+     "title": "วิเคราะห์บอล มึนเช่นกลัดบัค พบ ดอร์ทมุนด์ 21 พ.ย. 69 เสือเหลืองบุกเต็มสูบล่าจ่าฝูง",
+     "url": "https://www.siamsport.co.th/football-international/bundesliga/112303/",
+     "source": "Siamsport"
     }
    ],
    "official": false,
    "spike": "급상승 검색어에 새로 등장",
    "spike_bonus": 15,
    "score": 9.3,
+   "already_covered": false
+  },
+  {
+   "source": "google_news",
+   "keyword": "เคป็อป",
+   "traffic": 0,
+   "article_count_24h": 5,
+   "article_count_1h": 0,
+   "published": "2026-11-21T11:19:03+09:00",
+   "category": "K-Culture",
+   "news": [
+    {
+     "title": "เจนนี่ (BLACKPINK) มีโอกาสที่จะคว้ารางวัลแกรมมี่ครั้งแรกสำหรับวงการเคป็อปหรือไม่? - Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdkZNMUJUNTBGdEhNTVk0dFNlTThfUHRrN2ZkeWpsOWxiT1pqbVF0Zk5rcmc4Y3F6MWRVUXVmVlhVM0FrUEdVQmtPUnVJcmM4UjdHaFc2dWRXWUJ0VW1YaE1ZalZ2dEVwblRyTDJvVmlkQ0c5Z3ZmVnRyci1CRVlaV01QNnFBb2prSV9GcVBwWHNDWmRsZnZBaXFKOG4?oc=5",
+     "source": "Vietnam.vn"
+    },
+    {
+     "title": "RIIZE เตรียมไปแสดงที่ Macy’s Thanksgiving Day Parade ณ มหานครนิวยอร์ก - thestandard.co",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12dWgxUXdlYWFsWDJZeFBwbUczWXhFakhRdEd2c3RCbUM1Vy1hODdOdllJMm5ZRjlDUXNZSWRfWjkwWnB3bUM3X3B6cno4UHhnQ28xNWVVaFRmRFlmek5HZHF3VjRNVUJoTlJtUHJsbjc5WjhO?oc=5",
+     "source": "thestandard.co"
+    },
+    {
+     "title": "งานเดินพรมเขียว MAMA 2026: คิม ยู จอง และนายอน มีโมเมนต์สุดมหัศจรรย์ท่ามกลางสายลมเย็น - Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWHV3eWpGQ29zWE1jelc4TzVGNUhJdzZMcGxycW13MWtaSFVLdUsxeDU3bkRNUzFoZlVRVjd6dXU2WHYyaGlhRzVWME5pdDdkZFNtNGt3eWQ3TjJrRld2S2tGWTRvS1NhWmpZUzRndXp6Ymt5MVdNVFlNTUFKcVA0Mkw1SG9qZ3lRNnFfbnA2M1B1NnlmT1B2Rm5PeVRMV2k4ekdVaS1zWQ?oc=5",
+     "source": "Vietnam.vn"
+    },
+    {
+     "title": "งานประกาศรางวัล Golden Disc ครั้งที่ 41: โอกาสในการเชื่อมโยงศิลปินเวียดนามกับตลาดเพลงระดับนานาชาติ - Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNczBEUXoxQWpoRFhaSi1DTDZTYW1pVnNEMWJ0TEV2Y0tVV1N4VHRPbG5ZdGttZm05Wm1BaUZ5MjctTDdfUzRTSFR0cVhTdlg1RHhLOHgyLUFrR05WRlM4LTd2X2ZNOFVXamc4dkxNUXlPWEY1ZC1MdGpmV3E1OFEzTktPQlJNODE5Q1Vpa1QwTThNclhwcFRvMDZkUVV4RmZadHBaSE5ha05ud0l4M2xjd2JTQkc3dXc?oc=5",
+     "source": "Vietnam.vn"
+    },
+    {
+     "title": "CL กลับมาอย่างน่าประทับใจในงาน 'MAMA' - Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3eDdqNDhsTVpyT3F5MEp6SjRMVVpISFpMQlRtT05jNjRkb3B1VTYyTi0wR3gyNEt1Y3FVRF84b0cxZTQ5WmNHR0tXMXBzSVFOSVh6YW5RcHlQZ0NYaG4yZXZzRC02ZWFWUE1J?oc=5",
+     "source": "Vietnam.vn"
+    }
+   ],
+   "official": false,
+   "score": 6.3,
    "already_covered": false
   },
   {
@@ -622,47 +600,8 @@
     }
    ],
    "official": false,
-   "score": 7.2,
+   "score": 5.0,
    "already_covered": true
-  },
-  {
-   "source": "google_news",
-   "keyword": "เคป็อป",
-   "traffic": 0,
-   "article_count_24h": 5,
-   "article_count_1h": 0,
-   "published": "2026-11-21T11:19:03+09:00",
-   "category": "K-Culture",
-   "news": [
-    {
-     "title": "เจนนี่ (BLACKPINK) มีโอกาสที่จะคว้ารางวัลแกรมมี่ครั้งแรกสำหรับวงการเคป็อปหรือไม่? - Vietnam.vn",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdkZNMUJUNTBGdEhNTVk0dFNlTThfUHRrN2ZkeWpsOWxiT1pqbVF0Zk5rcmc4Y3F6MWRVUXVmVlhVM0FrUEdVQmtPUnVJcmM4UjdHaFc2dWRXWUJ0VW1YaE1ZalZ2dEVwblRyTDJvVmlkQ0c5Z3ZmVnRyci1CRVlaV01QNnFBb2prSV9GcVBwWHNDWmRsZnZBaXFKOG4?oc=5",
-     "source": "Vietnam.vn"
-    },
-    {
-     "title": "RIIZE เตรียมไปแสดงที่ Macy’s Thanksgiving Day Parade ณ มหานครนิวยอร์ก - thestandard.co",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12dWgxUXdlYWFsWDJZeFBwbUczWXhFakhRdEd2c3RCbUM1Vy1hODdOdllJMm5ZRjlDUXNZSWRfWjkwWnB3bUM3X3B6cno4UHhnQ28xNWVVaFRmRFlmek5HZHF3VjRNVUJoTlJtUHJsbjc5WjhO?oc=5",
-     "source": "thestandard.co"
-    },
-    {
-     "title": "งานเดินพรมเขียว MAMA 2026: คิม ยู จอง และนายอน มีโมเมนต์สุดมหัศจรรย์ท่ามกลางสายลมเย็น - Vietnam.vn",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWHV3eWpGQ29zWE1jelc4TzVGNUhJdzZMcGxycW13MWtaSFVLdUsxeDU3bkRNUzFoZlVRVjd6dXU2WHYyaGlhRzVWME5pdDdkZFNtNGt3eWQ3TjJrRld2S2tGWTRvS1NhWmpZUzRndXp6Ymt5MVdNVFlNTUFKcVA0Mkw1SG9qZ3lRNnFfbnA2M1B1NnlmT1B2Rm5PeVRMV2k4ekdVaS1zWQ?oc=5",
-     "source": "Vietnam.vn"
-    },
-    {
-     "title": "CL กลับมาอย่างน่าประทับใจในงาน 'MAMA' - Vietnam.vn",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3eDdqNDhsTVpyT3F5MEp6SjRMVVpISFpMQlRtT05jNjRkb3B1VTYyTi0wR3gyNEt1Y3FVRF84b0cxZTQ5WmNHR0tXMXBzSVFOSVh6YW5RcHlQZ0NYaG4yZXZzRC02ZWFWUE1J?oc=5",
-     "source": "Vietnam.vn"
-    },
-    {
-     "title": "งานประกาศรางวัล Golden Disc ครั้งที่ 41: โอกาสในการเชื่อมโยงศิลปินเวียดนามกับตลาดเพลงระดับนานาชาติ - Vietnam.vn",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNczBEUXoxQWpoRFhaSi1DTDZTYW1pVnNEMWJ0TEV2Y0tVV1N4VHRPbG5ZdGttZm05Wm1BaUZ5MjctTDdfUzRTSFR0cVhTdlg1RHhLOHgyLUFrR05WRlM4LTd2X2ZNOFVXamc4dkxNUXlPWEY1ZC1MdGpmV3E1OFEzTktPQlJNODE5Q1Vpa1QwTThNclhwcFRvMDZkUVV4RmZadHBaSE5ha05ud0l4M2xjd2JTQkc3dXc?oc=5",
-     "source": "Vietnam.vn"
-    }
-   ],
-   "official": false,
-   "score": 6.3,
-   "already_covered": false
   },
   {
    "source": "google_news",
@@ -686,6 +625,33 @@
    ],
    "official": false,
    "score": 2.5,
+   "already_covered": false
+  },
+  {
+   "source": "google_trends",
+   "keyword": "coventry vs palace",
+   "traffic": 200,
+   "published": "2026-11-22T00:00:00+09:00",
+   "category": "기타",
+   "news": [
+    {
+     "title": "Coventry vs Crystal Palace LIVE! Premier League match updates, news and score",
+     "url": "https://www.skysports.com/football/live-blog/13610683/coventry-vs-crystal-palace-live-premier-league-match-updates-news-and-score",
+     "source": "Sky Sports"
+    },
+    {
+     "title": "Coventry City vs Crystal Palace: Premier League preview, team news, stats & head-to-head",
+     "url": "https://www.bbc.com/sport/football/live/c6pw42nwwgvjt",
+     "source": "BBC"
+    },
+    {
+     "title": "Licensable picture: Premier League - Coventry City v Crystal Palace",
+     "url": "https://www.reutersconnect.com/item/premier-league-coventry-city-v-crystal-palace/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkwxNkZISVA",
+     "source": "Reuters Connect"
+    }
+   ],
+   "official": false,
+   "score": 0.6,
    "already_covered": false
   }
  ]
